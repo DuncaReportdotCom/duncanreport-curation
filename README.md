@@ -1,0 +1,2 @@
+# duncanreport-curation
+Curation core
