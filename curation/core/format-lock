@@ -1,0 +1,31 @@
+DuncanReport.com — FORMATTING LOCKED · DO NOT CHANGE
+
+Status: Frozen as of 2026-07-24 per Darin's instruction. Any curation engine, deploy script, or session must preserve these exactly. Do not "improve," normalize, or refactor them. If a change seems necessary, stop and ask first.
+
+CSS spacing (exact values — do not alter)
+#header — padding 10px 10px 2px
+#top-nav — padding 5px 0
+#source-bar — padding 4px 10px
+.col — padding 4px 8px
+.col-section — margin-bottom 4px, padding-top 3px
+.col-section-title — margin-bottom 2px
+.col-link — margin 0, line-height 1.15
+.sub-headline — margin 1px 0
+Typography & links
+Hero headline: ALL CAPS
+Group panel titles: ALL CAPS
+Column story headlines: Title Case with acronyms preserved (punctuation-stripping toTitleCase function)
+All links: dark blue 
+#00008B
+Underline behavior (as live): top-nav links and .col-section-title links are underlined at rest; .col-link and .sub-headline links are NOT underlined at rest — they underline on hover only
+.sub-headline: ALL CAPS (text-transform: uppercase)
+Layout & separators
+Gray separator lines ONLY between unrelated stories in columns — not within grouped stories, not above the first column story, not between the hero area and columns
+Each story gets its own col-section; no topic-based stacking
+Sub-links must cover the exact same story as their headline
+Hero sub-links render as a centered cluster below the headline
+Group panels distributed round-robin across left, center, and right columns (not all in the left column)
+Structural elements that must NOT be touched
+Source bar: half left-leaning, half right-leaning outlets — intentional, signals the editorial mission. Do not reorder, rebalance, or restyle.
+No age labels, no colored category tags, no images
+Satire entries: small grey "Satire" badge (.satire-tag CSS class + tagPrefix() helper)
