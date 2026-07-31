@@ -845,6 +845,8 @@ def curate_live(section):
         return data
     raise ValueError("no valid JSON returned")
 
+STATUS = {}
+
 def data_for(section, is_target):
     if is_target and os.environ.get("ANTHROPIC_API_KEY"):
         try:
@@ -854,12 +856,19 @@ def data_for(section, is_target):
                 existing = live_current(section)
             except Exception:
                 existing = None
+            STATUS[section] = "curated-live"
             return merge(existing, fresh)
         except Exception as e:
+            STATUS[section] = "curate-FAILED: " + repr(e)[:400]
             print("  live curation failed for %s: %s" % (section, e))
     try:
-        return live_current(section)
+        d = live_current(section)
+        if section not in STATUS:
+            STATUS[section] = "preserved-live (not curated this run)"
+        return d
     except Exception:
+        if section not in STATUS:
+            STATUS[section] = "seed-or-empty"
         return seed(section)
 
 
@@ -921,6 +930,9 @@ def build():
             json.dump(data, f, ensure_ascii=False, indent=2)
         print("  wrote", sec)
         ensure_hero_image(sec, data)
+    with open(os.path.join(SITE, "status.json"), "w", encoding="utf-8") as f:
+        json.dump({"model": MODEL, "key_present": bool(os.environ.get("ANTHROPIC_API_KEY")),
+                   "target": os.environ.get("SECTION", "all"), "sections": STATUS}, f, indent=2)
     print("Site ready at ./site")
 
 if __name__ == "__main__":
