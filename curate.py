@@ -18,7 +18,30 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(ROOT, "site")
 LIVE = "https://duncanreport.com"
 SECTIONS = ["main", "sports", "world", "markets", "politics", "life-culture"]
-MODEL = os.environ.get("MODEL", "claude-sonnet-4-20250514")
+MODEL = os.environ.get("MODEL", "claude-sonnet-5")
+CANDIDATE_MODELS = [MODEL, "claude-sonnet-5", "claude-opus-5", "claude-haiku-4-5-20251001",
+                    "claude-3-7-sonnet-latest", "claude-3-5-sonnet-latest"]
+_WORKING_MODEL = None
+
+def working_model(client):
+    """Pick the first candidate model this API account actually accepts, and cache it."""
+    global _WORKING_MODEL
+    if _WORKING_MODEL:
+        return _WORKING_MODEL
+    seen = set()
+    for m in CANDIDATE_MODELS:
+        if not m or m in seen:
+            continue
+        seen.add(m)
+        try:
+            client.messages.create(model=m, max_tokens=4, messages=[{"role": "user", "content": "ping"}])
+            _WORKING_MODEL = m
+            print("  using model:", m)
+            return m
+        except Exception:
+            continue
+    _WORKING_MODEL = MODEL
+    return _WORKING_MODEL
 THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000
 
 CORE = json.loads(r"""
@@ -835,7 +858,7 @@ def curate_live(section):
     if sites:
         tool["allowed_domains"] = sites   # crawl ONLY this section's own outlets
     msg = client.messages.create(
-        model=MODEL, max_tokens=8000, system=system,
+        model=working_model(client), max_tokens=8000, system=system,
         tools=[tool],
         messages=[{"role": "user", "content": "Curate the current %s cycle now from these outlets and return the stories.json." % section}])
     text = "".join(getattr(b, "text", "") for b in msg.content if getattr(b, "type", "") == "text")
@@ -931,7 +954,7 @@ def build():
         print("  wrote", sec)
         ensure_hero_image(sec, data)
     with open(os.path.join(SITE, "status.json"), "w", encoding="utf-8") as f:
-        json.dump({"model": MODEL, "key_present": bool(os.environ.get("ANTHROPIC_API_KEY")),
+        json.dump({"model_default": MODEL, "model_used": _WORKING_MODEL, "key_present": bool(os.environ.get("ANTHROPIC_API_KEY")),
                    "target": os.environ.get("SECTION", "all"), "sections": STATUS}, f, indent=2)
     print("Site ready at ./site")
 
