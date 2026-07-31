@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 """
-DuncanReport.com site builder v2 - live curation + per-section refresh.
+DuncanReport.com site builder v3 - per-section crawl + 3-day merge + headline image.
 
-Builds ./site (index.html + _redirects + a stories.json per section) for Wrangler to publish.
+SECTION env (from the workflow dropdown): "all" (default) refreshes every page; "sports" (etc.)
+refreshes only that page and leaves the others as-is.
 
-Modes (set by the SECTION env var, which the workflow fills from the dropdown):
-  SECTION=all (default)  -> curate every section live
-  SECTION=sports         -> curate ONLY sports live; keep the other five pages' current
-                            live data so the whole-site deploy doesn't blank them.
+Each section crawls ONLY its own outlets (DOMAINS). A refreshed section MERGES fresh stories with
+what is already live and keeps articles 3 days from their ORIGINAL publish time (deduped by URL),
+then they expire. Sports scoreboard and market prices are handled by the site's link-outs.
 
-Live curation calls the Claude API (ANTHROPIC_API_KEY). If the key is missing or a call
-fails, that section keeps its current live data (or the built-in first-stab seed), so a
-run never publishes a blank page.
+Live curation uses the Claude API (ANTHROPIC_API_KEY). On any failure a section keeps its current
+live data (or the built-in first-stab seed), so a run never publishes a blank page.
 """
 import os, json, shutil, time, re, datetime, urllib.request
 
@@ -20,9 +19,10 @@ SITE = os.path.join(ROOT, "site")
 LIVE = "https://duncanreport.com"
 SECTIONS = ["main", "sports", "world", "markets", "politics", "life-culture"]
 MODEL = os.environ.get("MODEL", "claude-sonnet-4-20250514")
+THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000
 
 CORE = json.loads(r"""
-"===== SCHEMA.md =====\n# DuncanReport.com — stories.json SCHEMA (CORE · INVARIANT)\n\nEvery curation engine, for every section, MUST emit a `stories.json` that matches this\nstructure exactly. This is a hard contract — the site's rendering and the deploy/merge\npipeline both depend on it. Do not add, rename, or drop fields.\n\n## Structure\n\n```json\n{\n  \"lastUpdated\": 1753372800000,\n  \"hero\": {\n    \"headline\": \"HERO HEADLINE IN ALL CAPS\",\n    \"url\": \"https://example.com/main-story\",\n    \"sublinks\": [\n      { \"text\": \"Related angle one\", \"url\": \"https://example.com/main-story-a\" },\n      { \"text\": \"Related angle two\", \"url\": \"https://example.com/main-story-b\" }\n    ]\n  },\n  \"groups\": [\n    {\n      \"title\": \"NARRATIVE-ARC PANEL TITLE IN ALL CAPS\",\n      \"stories\": [\n        { \"headline\": \"Story Headline In Title Case\", \"url\": \"https://example.com/x\", \"timestamp\": 1753369200000 },\n        { \"headline\": \"Second Story In Title Case\", \"url\": \"https://example.com/y\", \"timestamp\": 1753365600000 }\n      ]\n    }\n  ],\n  \"columns\": {\n    \"left\":   [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/a\", \"timestamp\": 1753369200000 } ],\n    \"center\": [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/b\", \"timestamp\": 1753366000000 } ],\n    \"right\":  [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/c\", \"timestamp\": 1753362400000 } ]\n  }\n}\n```\n\n## Field rules\n\n- **`lastUpdated`** — Unix time in **milliseconds** (integer), the moment the file was generated.\n- **`hero.headline`** — ALL CAPS. `hero.url` — absolute URL. `hero.sublinks` — 0+ items, each\n  `{text, url}`; every sublink must point at the **same story** as the hero headline (a related\n  angle of it, not a different story).\n- **`groups[]`** — narrative-arc panels. `title` ALL CAPS. `stories[]` are the stories in that\n  panel. Only create a group when 2+ stories genuinely support one arc.\n- **`columns.left/center/right`** — flat lists of standalone stories per column.\n- **Every story object** (`hero` aside) is `{headline, url, timestamp}`:\n  - `headline` — Title Case, acronyms preserved.\n  - `url` — absolute, unique. No two stories share a URL.\n  - `timestamp` — Unix **milliseconds**, the story's actual publication time. This drives the\n    3-day expiry in merge; a wrong/old value makes the story expire immediately.\n\n## Invariants (never violate)\n\n- Timestamps are Unix ms, integers, and reflect real publication time — never fabricated.\n- URLs are absolute and unique across the whole file.\n- Field names and nesting are exactly as above. No extra keys (no age labels, category tags,\n  or image fields — the front end does not render them).\n\n\n===== FORMAT-LOCK.md =====\n# DuncanReport.com — FORMATTING LOCKED · DO NOT CHANGE\n\n**Status:** Frozen as of 2026-07-24 per Darin's instruction. Any curation engine, deploy\nscript, or session must preserve these exactly. Do not \"improve,\" normalize, or refactor them.\nIf a change seems necessary, stop and ask first.\n\n## CSS spacing (exact values — do not alter)\n\n- `#header` — padding `10px 10px 2px`\n- `#top-nav` — padding `5px 0`\n- `#source-bar` — padding `4px 10px`\n- `.col` — padding `4px 8px`\n- `.col-section` — margin-bottom `4px`, padding-top `3px`\n- `.col-section-title` — margin-bottom `2px`\n- `.col-link` — margin `0`, line-height `1.15`\n- `.sub-headline` — margin `1px 0`\n\n## Typography & links\n\n- Hero headline: ALL CAPS\n- Group panel titles: ALL CAPS\n- Column story headlines: Title Case with acronyms preserved (punctuation-stripping\n  `toTitleCase` function)\n- All links: dark blue `#00008B`\n- Underline behavior (as live): top-nav links and `.col-section-title` links are underlined\n  at rest; `.col-link` and `.sub-headline` links are NOT underlined at rest — they underline\n  on hover only\n- `.sub-headline`: ALL CAPS (`text-transform: uppercase`)\n\n## Layout & separators\n\n- Gray separator lines ONLY between unrelated stories in columns — not within grouped\n  stories, not above the first column story, not between the hero area and columns\n- Each story gets its own `col-section`; no topic-based stacking\n- Sub-links must cover the exact same story as their headline\n- Hero sub-links render as a centered cluster below the headline\n- Group panels distributed round-robin across left, center, and right columns\n  (not all in the left column)\n\n## Structural elements that must NOT be touched\n\n- Source bar: half left-leaning, half right-leaning outlets — intentional, signals the\n  editorial mission. Do not reorder, rebalance, or restyle.\n- No age labels, no colored category tags, no images\n- Satire entries: small grey \"Satire\" badge (`.satire-tag` CSS class + `tagPrefix()` helper)\n\n---\n_This block is the canonical formatting lock. Paste it into Project Instructions so every\nscoped curation chat inherits it._\n\n\n===== DEPLOY-CONTRACT.md =====\n# DuncanReport.com — DEPLOY CONTRACT (CORE · INVARIANT)\n\nWhat every curation engine must satisfy so its `stories.json` survives the merge and deploys\ncleanly. The engine produces the file; `deploy-stories.sh` and `merge_stories.py` do the rest.\nDeployment is fully automatic — there is no human review step before publish.\n\n## What the engine hands off\n\n- A single valid `stories.json` for its section, matching `SCHEMA.md` exactly.\n- Timestamps in Unix **milliseconds**, reflecting real publication time.\n- Absolute, unique URLs for every story.\n\n## What the pipeline does with it\n\n**`deploy-stories.sh`** (bash):\n1. Validates the fresh JSON.\n2. Pulls the currently live `stories.json`.\n3. Runs the merge (below).\n4. Reassembles the site bundle.\n5. Deploys via the Wrangler CLI to Cloudflare Pages (project `duncanreport`).\n\n**`merge_stories.py`** (python):\n- **3-day expiry** — any story whose `timestamp` is older than 3 days is dropped. This is why\n  a wrong/backdated timestamp makes a story vanish on the first merge.\n- **Original-timestamp-wins** — if a story re-appears in a later cycle, the *earliest* timestamp\n  is kept, so its age is measured from first publication, not re-discovery.\n- **URL-overlap panel matching** — panels (groups) are matched/deduplicated by overlapping\n  story URLs, NOT by panel title. Titles get reframed as narratives evolve; URL overlap is\n  the stable key. This is why URLs must be exact and unique.\n\n## Rules the engine must follow so merge behaves\n\n- Never fabricate or round a timestamp — use the real publication time in Unix ms.\n- Keep URLs canonical and stable — the same story should carry the same URL across cycles, or\n  URL-overlap matching will treat it as new and produce a duplicate panel.\n- Do not rely on panel titles for identity — reframing a title is fine; changing which URLs a\n  panel contains is what the merge sees.\n\n## After publish\n\nNo pre-publish QA gate. Bad links or bad calls are handled post-publish via prompt/rules\nrefinement or manual deletion — not by holding the deploy.\n\n\n"
+"===== SCHEMA.md =====\n# DuncanReport.com — stories.json SCHEMA (CORE · INVARIANT)\n\nEvery curation engine, for every section, MUST emit a `stories.json` that matches this\nstructure exactly. This is a hard contract — the site's rendering and the deploy/merge\npipeline both depend on it. Do not add, rename, or drop fields.\n\n## Structure\n\n```json\n{\n  \"lastUpdated\": 1753372800000,\n  \"hero\": {\n    \"headline\": \"HERO HEADLINE IN ALL CAPS\",\n    \"url\": \"https://example.com/main-story\",\n    \"image\": \"https://example.com/lead-photo.jpg\",\n    \"sublinks\": [\n      { \"text\": \"Related angle one\", \"url\": \"https://example.com/main-story-a\" },\n      { \"text\": \"Related angle two\", \"url\": \"https://example.com/main-story-b\" }\n    ]\n  },\n  \"groups\": [\n    {\n      \"title\": \"NARRATIVE-ARC PANEL TITLE IN ALL CAPS\",\n      \"stories\": [\n        { \"headline\": \"Story Headline In Title Case\", \"url\": \"https://example.com/x\", \"timestamp\": 1753369200000 },\n        { \"headline\": \"Second Story In Title Case\", \"url\": \"https://example.com/y\", \"timestamp\": 1753365600000 }\n      ]\n    }\n  ],\n  \"columns\": {\n    \"left\":   [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/a\", \"timestamp\": 1753369200000 } ],\n    \"center\": [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/b\", \"timestamp\": 1753366000000 } ],\n    \"right\":  [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/c\", \"timestamp\": 1753362400000 } ]\n  }\n}\n```\n\n## Field rules\n\n- **`lastUpdated`** — Unix time in **milliseconds** (integer), the moment the file was generated.\n- **`hero.headline`** — ALL CAPS. `hero.url` — absolute URL. `hero.sublinks` — 0+ items, each\n  `{text, url}`; every sublink must point at the **same story** as the hero headline (a related\n  angle of it, not a different story).\n- **`hero.image`** — OPTIONAL absolute URL of the headline picture (the lead story's photo /\n  `og:image`), displayed at the top of the page. Must be a directly-hotlinkable image URL. Omit\n  the field entirely if there is no good image.\n- **`groups[]`** — narrative-arc panels. `title` ALL CAPS. `stories[]` are the stories in that\n  panel. Only create a group when 2+ stories genuinely support one arc.\n- **`columns.left/center/right`** — flat lists of standalone stories per column.\n- **Every story object** (`hero` aside) is `{headline, url, timestamp}`:\n  - `headline` — Title Case, acronyms preserved.\n  - `url` — absolute, unique. No two stories share a URL.\n  - `timestamp` — Unix **milliseconds**, the story's actual publication time. This drives the\n    3-day expiry in merge; a wrong/old value makes the story expire immediately.\n\n## Invariants (never violate)\n\n- Timestamps are Unix ms, integers, and reflect real publication time — never fabricated.\n- URLs are absolute and unique across the whole file.\n- Field names and nesting are exactly as above. No extra keys (no age labels, category tags,\n  or image fields — the front end does not render them).\n\n\n===== FORMAT-LOCK.md =====\n# DuncanReport.com — FORMATTING LOCKED · DO NOT CHANGE\n\n**Status:** Frozen as of 2026-07-24 per Darin's instruction. Any curation engine, deploy\nscript, or session must preserve these exactly. Do not \"improve,\" normalize, or refactor them.\nIf a change seems necessary, stop and ask first.\n\n## CSS spacing (exact values — do not alter)\n\n- `#header` — padding `10px 10px 2px`\n- `#top-nav` — padding `5px 0`\n- `#source-bar` — padding `4px 10px`\n- `.col` — padding `4px 8px`\n- `.col-section` — margin-bottom `4px`, padding-top `3px`\n- `.col-section-title` — margin-bottom `2px`\n- `.col-link` — margin `0`, line-height `1.15`\n- `.sub-headline` — margin `1px 0`\n\n## Typography & links\n\n- Hero headline: ALL CAPS\n- Group panel titles: ALL CAPS\n- Column story headlines: Title Case with acronyms preserved (punctuation-stripping\n  `toTitleCase` function)\n- All links: dark blue `#00008B`\n- Underline behavior (as live): top-nav links and `.col-section-title` links are underlined\n  at rest; `.col-link` and `.sub-headline` links are NOT underlined at rest — they underline\n  on hover only\n- `.sub-headline`: ALL CAPS (`text-transform: uppercase`)\n\n## Layout & separators\n\n- Gray separator lines ONLY between unrelated stories in columns — not within grouped\n  stories, not above the first column story, not between the hero area and columns\n- Each story gets its own `col-section`; no topic-based stacking\n- Sub-links must cover the exact same story as their headline\n- Hero sub-links render as a centered cluster below the headline\n- Group panels distributed round-robin across left, center, and right columns\n  (not all in the left column)\n\n## Structural elements that must NOT be touched\n\n- Source bar: half left-leaning, half right-leaning outlets — intentional, signals the\n  editorial mission. Do not reorder, rebalance, or restyle.\n- No age labels, no colored category tags. ONE headline image is allowed at the very top of the\n  page (the hero photo); no images anywhere else — not in columns, panels, or the source bar\n- Satire entries: small grey \"Satire\" badge (`.satire-tag` CSS class + `tagPrefix()` helper)\n\n---\n_This block is the canonical formatting lock. Paste it into Project Instructions so every\nscoped curation chat inherits it._\n\n\n===== DEPLOY-CONTRACT.md =====\n# DuncanReport.com — DEPLOY CONTRACT (CORE · INVARIANT)\n\nWhat every curation engine must satisfy so its `stories.json` survives the merge and deploys\ncleanly. The engine produces the file; `deploy-stories.sh` and `merge_stories.py` do the rest.\nDeployment is fully automatic — there is no human review step before publish.\n\n## What the engine hands off\n\n- A single valid `stories.json` for its section, matching `SCHEMA.md` exactly.\n- Timestamps in Unix **milliseconds**, reflecting real publication time.\n- Absolute, unique URLs for every story.\n\n## What the pipeline does with it\n\n**`deploy-stories.sh`** (bash):\n1. Validates the fresh JSON.\n2. Pulls the currently live `stories.json`.\n3. Runs the merge (below).\n4. Reassembles the site bundle.\n5. Deploys via the Wrangler CLI to Cloudflare Pages (project `duncanreport`).\n\n**`merge_stories.py`** (python):\n- **3-day expiry** — any story whose `timestamp` is older than 3 days is dropped. This is why\n  a wrong/backdated timestamp makes a story vanish on the first merge.\n- **Original-timestamp-wins** — if a story re-appears in a later cycle, the *earliest* timestamp\n  is kept, so its age is measured from first publication, not re-discovery.\n- **URL-overlap panel matching** — panels (groups) are matched/deduplicated by overlapping\n  story URLs, NOT by panel title. Titles get reframed as narratives evolve; URL overlap is\n  the stable key. This is why URLs must be exact and unique.\n\n## Rules the engine must follow so merge behaves\n\n- Never fabricate or round a timestamp — use the real publication time in Unix ms.\n- Keep URLs canonical and stable — the same story should carry the same URL across cycles, or\n  URL-overlap matching will treat it as new and produce a duplicate panel.\n- Do not rely on panel titles for identity — reframing a title is fine; changing which URLs a\n  panel contains is what the merge sees.\n\n## After publish\n\nNo pre-publish QA gate. Bad links or bad calls are handled post-publish via prompt/rules\nrefinement or manual deletion — not by holding the deploy.\n\n\n"
 """)
 
 PROMPTS = json.loads(r"""
@@ -602,20 +602,206 @@ SEEDS = json.loads(r"""
 }
 """)
 
+DOMAINS = json.loads(r"""
+{
+ "main": [
+  "abcnews.go.com",
+  "apnews.com",
+  "bbc.com",
+  "cbsnews.com",
+  "cnn.com",
+  "nbcnews.com",
+  "npr.org",
+  "nytimes.com",
+  "politico.com",
+  "theguardian.com",
+  "breitbart.com",
+  "dailycaller.com",
+  "foxnews.com",
+  "newsmax.com",
+  "nypost.com",
+  "washingtonexaminer.com",
+  "washingtontimes.com",
+  "wsj.com"
+ ],
+ "politics": [
+  "cnn.com",
+  "msnbc.com",
+  "nytimes.com",
+  "washingtonpost.com",
+  "npr.org",
+  "politico.com",
+  "nbcnews.com",
+  "democracynow.org",
+  "foxnews.com",
+  "washingtontimes.com",
+  "nypost.com",
+  "breitbart.com",
+  "nationalreview.com",
+  "washingtonexaminer.com",
+  "dailywire.com",
+  "newsmax.com"
+ ],
+ "markets": [
+  "wsj.com",
+  "bloomberg.com",
+  "cnbc.com",
+  "ft.com",
+  "reuters.com",
+  "marketwatch.com",
+  "barrons.com",
+  "forbes.com",
+  "fortune.com",
+  "businessinsider.com",
+  "finance.yahoo.com",
+  "fool.com",
+  "investopedia.com",
+  "investors.com",
+  "seekingalpha.com",
+  "economist.com"
+ ],
+ "world": [
+  "bbc.com",
+  "reuters.com",
+  "apnews.com",
+  "afp.com",
+  "aljazeera.com",
+  "theguardian.com",
+  "cnn.com",
+  "bloomberg.com",
+  "ft.com",
+  "nytimes.com",
+  "washingtonpost.com",
+  "dw.com",
+  "france24.com",
+  "euronews.com",
+  "thetimes.com",
+  "npr.org"
+ ],
+ "sports": [
+  "espn.com",
+  "nytimes.com",
+  "cbssports.com",
+  "sports.yahoo.com",
+  "bleacherreport.com",
+  "si.com",
+  "foxsports.com",
+  "nbcsports.com",
+  "apnews.com",
+  "usatoday.com",
+  "theringer.com",
+  "frontofficesports.com",
+  "sbnation.com",
+  "thescore.com",
+  "barstoolsports.com",
+  "deadspin.com"
+ ],
+ "life-culture": [
+  "people.com",
+  "variety.com",
+  "hollywoodreporter.com",
+  "rollingstone.com",
+  "ew.com",
+  "tmz.com",
+  "deadline.com",
+  "eonline.com",
+  "vanityfair.com",
+  "vulture.com",
+  "theatlantic.com",
+  "billboard.com",
+  "usatoday.com",
+  "nytimes.com",
+  "pitchfork.com",
+  "etonline.com"
+ ]
+}
+""")
+
 def now_ms(): return int(time.time() * 1000)
 
-def empty(): return {"lastUpdated": now_ms(), "hero": {}, "groups": [],
-                     "columns": {"left": [], "center": [], "right": []}}
+def empty():
+    return {"lastUpdated": now_ms(), "hero": {}, "groups": [], "columns": {"left": [], "center": [], "right": []}}
 
 def valid(d):
-    return isinstance(d, dict) and ("hero" in d or "scoreboard" in d or "markets" in d) \
-        and isinstance(d.get("columns", {}), dict)
+    return isinstance(d, dict) and ("hero" in d or "scoreboard" in d or "markets" in d) and isinstance(d.get("columns", {}), dict)
 
 def extract_json(text):
     m = re.search(r"```json\s*(\{.*?\})\s*```", text, re.S) or re.search(r"(\{.*\})", text, re.S)
-    if not m: return None
-    try: return json.loads(m.group(1))
-    except Exception: return None
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(1))
+    except Exception:
+        return None
+
+def _expire(stories):
+    now = now_ms()
+    return [s for s in (stories or []) if (now - (s.get("timestamp") or now)) < THREE_DAYS_MS]
+
+def _orig_ts(existing):
+    m = {}
+    def add(stories):
+        for s in (stories or []):
+            u, t = s.get("url"), s.get("timestamp")
+            if u and t:
+                m[u] = min(m.get(u, t), t)
+    c = existing.get("columns") or {}
+    for k in ("left", "center", "right"):
+        add(c.get(k))
+    for g in (existing.get("groups") or []):
+        add(g.get("stories"))
+    return m
+
+def _stamp_fresh(stories, orig):
+    now = now_ms(); out = []
+    for s in (stories or []):
+        s = dict(s); u = s.get("url")
+        s["timestamp"] = orig.get(u) or s.get("timestamp") or now
+        out.append(s)
+    return out
+
+def _merge_list(existing, fresh, orig):
+    fresh_stamped = _expire(_stamp_fresh(fresh, orig))
+    live = _expire(existing)
+    furls = {s.get("url") for s in fresh_stamped}
+    kept = [s for s in live if s.get("url") not in furls]
+    return fresh_stamped + kept
+
+def _merge_groups(existing, fresh, orig):
+    fresh_titles = {g.get("title") for g in (fresh or [])}
+    fresh_out = []
+    for g in (fresh or []):
+        st = _expire(_stamp_fresh(g.get("stories"), orig))
+        if st:
+            fresh_out.append({**g, "stories": st})
+    old_kept = []
+    for g in (existing or []):
+        if g.get("title") not in fresh_titles:
+            st = _expire(g.get("stories"))
+            if st:
+                old_kept.append({**g, "stories": st})
+    return fresh_out + old_kept
+
+def merge(existing, fresh):
+    ex = existing or {}; fr = fresh or {}
+    orig = _orig_ts(ex)
+    cols = lambda d, k: (d.get("columns") or {}).get(k)
+    out = {
+        "lastUpdated": now_ms(),
+        "hero": fr.get("hero") or ex.get("hero") or {},
+        "groups": _merge_groups(ex.get("groups"), fr.get("groups"), orig),
+        "columns": {
+            "left": _merge_list(cols(ex, "left"), cols(fr, "left"), orig),
+            "center": _merge_list(cols(ex, "center"), cols(fr, "center"), orig),
+            "right": _merge_list(cols(ex, "right"), cols(fr, "right"), orig),
+        },
+    }
+    for key in ("scoreboard", "markets"):
+        if key in fr:
+            out[key] = fr[key]
+        elif key in ex:
+            out[key] = ex[key]
+    return out
 
 def live_url(section):
     return LIVE + ("/stories.json" if section == "main" else "/%s/stories.json" % section)
@@ -625,9 +811,12 @@ def live_current(section):
         return json.loads(r.read().decode("utf-8"))
 
 def seed(section):
-    if section in SEEDS: return SEEDS[section]
-    try: return live_current(section)
-    except Exception: return empty()
+    if section in SEEDS:
+        return SEEDS[section]
+    try:
+        return live_current(section)
+    except Exception:
+        return empty()
 
 def curate_live(section):
     from anthropic import Anthropic
@@ -635,15 +824,20 @@ def curate_live(section):
     today = datetime.date.today().isoformat()
     system = ("You are the DuncanReport.com curation engine for the '%s' section. Today is %s. "
               "Follow the CORE CONTRACT and SECTION rules exactly. Use web search for current, real "
-              "stories (real headlines, real URLs, real Unix-millisecond timestamps). Never invent a "
-              "URL or score. Output ONLY one JSON object that validates against SCHEMA.md, inside a "
-              "```json code block.\n\n===== CORE CONTRACT =====\n%s\n\n%s"
+              "stories from this section's outlets (real headlines, real URLs, real Unix-millisecond "
+              "timestamps). Never invent a URL or an image. For the hero, include a hero.image: a "
+              "directly-hotlinkable photo URL (the lead story's og:image) when a good one exists; "
+              "omit it otherwise. Output ONLY one JSON object that validates against SCHEMA.md, "
+              "inside a ```json code block.\n\n===== CORE CONTRACT =====\n%s\n\n%s"
               % (section, today, CORE, PROMPTS.get(section, "")))
+    tool = {"type": "web_search_20250305", "name": "web_search", "max_uses": 8}
+    sites = DOMAINS.get(section)
+    if sites:
+        tool["allowed_domains"] = sites   # crawl ONLY this section's own outlets
     msg = client.messages.create(
         model=MODEL, max_tokens=8000, system=system,
-        tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 8}],
-        messages=[{"role": "user", "content":
-                   "Curate the current %s cycle now and return the stories.json." % section}])
+        tools=[tool],
+        messages=[{"role": "user", "content": "Curate the current %s cycle now from these outlets and return the stories.json." % section}])
     text = "".join(getattr(b, "text", "") for b in msg.content if getattr(b, "type", "") == "text")
     data = extract_json(text)
     if data and valid(data):
@@ -655,25 +849,68 @@ def data_for(section, is_target):
     if is_target and os.environ.get("ANTHROPIC_API_KEY"):
         try:
             print("  curating (live):", section)
-            return curate_live(section)
+            fresh = curate_live(section)
+            try:
+                existing = live_current(section)
+            except Exception:
+                existing = None
+            return merge(existing, fresh)
         except Exception as e:
             print("  live curation failed for %s: %s" % (section, e))
     try:
-        return live_current(section)   # preserve what's already published
+        return live_current(section)
     except Exception:
         return seed(section)
+
+
+def _img_dest(section):
+    return os.path.join(SITE, "hero.jpg") if section == "main" else os.path.join(SITE, section, "hero.jpg")
+
+def _download_image(url, dest):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (DuncanReport bot)"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        ct = (r.headers.get("Content-Type") or "").lower()
+        blob = r.read()
+    if "image" not in ct or len(blob) < 800:
+        return False
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    with open(dest, "wb") as f:
+        f.write(blob)
+    return True
+
+def ensure_hero_image(section, data):
+    """Store the lead photo in the deploy at a fixed path so the page serves it from
+    our own server. Falls back to persisting the currently-live image; if nothing is
+    available the page shows its built-in default."""
+    dest = _img_dest(section)
+    img = (data.get("hero") or {}).get("image")
+    if img and str(img).startswith("http"):
+        try:
+            if _download_image(img, dest):
+                print("    hero image saved for", section); return
+        except Exception as e:
+            print("    hero image download failed for %s: %s" % (section, e))
+    live_img = LIVE + ("/hero.jpg" if section == "main" else "/%s/hero.jpg" % section)
+    try:
+        if _download_image(live_img, dest):
+            return
+    except Exception:
+        pass
 
 def build():
     target = (os.environ.get("SECTION", "all") or "all").strip().lower()
     targets = SECTIONS if target in ("", "all") else [target]
     print("Refreshing:", ", ".join(targets))
-    if os.path.exists(SITE): shutil.rmtree(SITE)
+    if os.path.exists(SITE):
+        shutil.rmtree(SITE)
     os.makedirs(SITE)
     src = os.path.join(ROOT, "index.html")
-    if not os.path.isfile(src): raise SystemExit("ERROR: index.html missing from repo root.")
+    if not os.path.isfile(src):
+        raise SystemExit("ERROR: index.html missing from repo root.")
     shutil.copy2(src, os.path.join(SITE, "index.html"))
     fav = os.path.join(ROOT, "favicon.ico")
-    if os.path.isfile(fav): shutil.copy2(fav, os.path.join(SITE, "favicon.ico"))
+    if os.path.isfile(fav):
+        shutil.copy2(fav, os.path.join(SITE, "favicon.ico"))
     with open(os.path.join(SITE, "_redirects"), "w", encoding="utf-8") as f:
         f.write("/*    /index.html   200\n")
     for sec in SECTIONS:
@@ -683,6 +920,7 @@ def build():
         with open(dest, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         print("  wrote", sec)
+        ensure_hero_image(sec, data)
     print("Site ready at ./site")
 
 if __name__ == "__main__":
