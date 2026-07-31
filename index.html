@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head><meta charset="utf-8">
@@ -108,6 +109,9 @@ text-align: center;
 padding: 8px 20px;
 margin-bottom: 6px;
 }
+#hero-image { text-align: center; margin: 2px 0 8px; }
+#hero-image:empty { display: none; }
+#hero-image img { max-width: 90%; max-height: 340px; height: auto; display: inline-block; border: 1px solid #ccc; }
 #hero-headline {
 font-size: 28px;
 font-weight: bold;
@@ -352,6 +356,7 @@ border-bottom: 1px solid #eee;
 </div>
 <div id="main-content">
 <div id="hero">
+<div id="hero-image"></div>
 <div id="hero-headline"><span class="skeleton skeleton-hero"></span></div>
 <div id="sub-headlines"></div>
 </div>
@@ -374,6 +379,9 @@ const now = new Date();
 document.getElementById('date-line').textContent = now.toLocaleDateString('en-US', { weekday: 'long',
 year: 'numeric', month: 'long', day: 'numeric' }) + ' ' + now.toLocaleTimeString('en-US', { hour: 'numeric',
 minute: '2-digit', hour12: true });
+
+// Branded default headline image (inline SVG), shown if no photo is stored yet.
+var DEFAULT_HERO = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="600" height="180"><rect width="600" height="180" fill="#f1f1f1"/><text x="300" y="104" font-family="Times New Roman, serif" font-size="34" fill="#555" text-anchor="middle">DuncanReport.com</text></svg>');
 
 // ===== ADDED: which section is this page? =====
 function currentSection() {
@@ -493,15 +501,16 @@ right = '<span class="sb-score">' + g.awayScore + '&ndash;' + g.homeScore + '</s
 }
 var inner = '<span class="sb-league">' + g.league + '</span> ' +
 '<span class="sb-teams">' + g.away + ' @ ' + g.home + '</span> &nbsp;' + right;
-return g.url
-? '<a class="sb-game" href="' + g.url + '" target="_blank">' + inner + '</a>'
+var link = YAHOO_SCOREBOARD[g.league] || g.url;
+return link
+? '<a class="sb-game" href="' + link + '" target="_blank">' + inner + '</a>'
 : '<span class="sb-game">' + inner + '</span>';
 }).join('');
 }
 
 function renderStories(data) {
 // ADDED: scoreboard + markets render first, regardless of hero
-renderMarkets(data && data.markets);
+if (currentSection() === 'markets') { renderMarketLinks(); } else { renderMarkets(data && data.markets); }
 renderScoreboard(data && data.scoreboard);
 if (!data || !data.hero) {
 document.getElementById('hero-headline').innerHTML = 'NO STORIES FOUND';
@@ -514,6 +523,14 @@ var groups = data.groups || [];
 var leftCols = (data.columns && data.columns.left) || [];
 var centerCols = (data.columns && data.columns.center) || [];
 var rightCols = (data.columns && data.columns.right) || [];
+// Headline image (always shown): self-hosted at a fixed path per page, with the
+// branded default as a fallback so there is always an image at the top.
+var heroImg = document.getElementById('hero-image');
+if (heroImg) {
+var imgPath = (currentSection() === 'main' ? '/hero.jpg' : '/' + currentSection() + '/hero.jpg') + '?t=' + Date.now();
+heroImg.innerHTML = '<a href="' + (hero.url || '#') + '" target="_blank"><img src="' + imgPath + '" alt="" onerror="this.onerror=null;this.src=DEFAULT_HERO;"></a>';
+heroImg.style.display = '';
+}
 // Hero
 var heroEl = document.getElementById('hero-headline');
 if (hero.headline && hero.url) {
@@ -637,9 +654,54 @@ right: mergeList((ex.columns || {}).right, (fr.columns || {}).right)
 }
 };
 }
+// ===== LINK-OUT: live scores and quotes are one click away on Yahoo =====
+// Each scoreboard game links to Yahoo's live scoreboard for that league; the markets
+// strip is a row of links to Yahoo Finance. No API keys, no rate limits.
+var YAHOO_SCOREBOARD = {
+  MLB: "https://sports.yahoo.com/mlb/scoreboard/",
+  NBA: "https://sports.yahoo.com/nba/scoreboard/",
+  WNBA: "https://sports.yahoo.com/wnba/scoreboard/",
+  NFL: "https://sports.yahoo.com/nfl/scoreboard/",
+  NHL: "https://sports.yahoo.com/nhl/scoreboard/",
+  MLS: "https://sports.yahoo.com/soccer/mls/"
+};
+var MARKET_LINKS = [
+  ["S&P 500", "https://finance.yahoo.com/quote/%5EGSPC"],
+  ["Dow", "https://finance.yahoo.com/quote/%5EDJI"],
+  ["Nasdaq", "https://finance.yahoo.com/quote/%5EIXIC"],
+  ["Gold", "https://finance.yahoo.com/quote/GC=F"],
+  ["Oil", "https://finance.yahoo.com/quote/CL=F"],
+  ["Bitcoin", "https://finance.yahoo.com/quote/BTC-USD"],
+  ["10-Yr Treasury", "https://finance.yahoo.com/quote/%5ETNX"]
+];
+function renderMarketLinks() {
+  var el = document.getElementById('markets');
+  if (!el) return;
+  el.innerHTML = '<span style="color:#555">Live quotes &rarr; </span>' + MARKET_LINKS.map(function(m) {
+    return '<a class="mk-item" style="color:#00008B;text-decoration:underline" href="' + m[1] + '" target="_blank"><span class="mk-name">' + m[0] + '</span></a>';
+  }).join('<span class="mk-sep">|</span>');
+}
+
+// ===== Per-section source bar (Main is unchanged; others match their beat) =====
+var SOURCE_BARS = {
+  main: [["ABC","https://abcnews.go.com"],["AP","https://apnews.com"],["BBC","https://www.bbc.com/news"],["CBS","https://www.cbsnews.com"],["CNN","https://www.cnn.com"],["NBC","https://www.nbcnews.com"],["NPR","https://www.npr.org"],["NY Times","https://www.nytimes.com"],["Politico","https://www.politico.com"],["The Guardian","https://www.theguardian.com"],["Breitbart","https://www.breitbart.com"],["Daily Caller","https://dailycaller.com"],["Fox News","https://www.foxnews.com"],["NewsMax","https://www.newsmax.com"],["NY Post","https://nypost.com"],["Wash Examiner","https://www.washingtonexaminer.com"],["Wash Times","https://www.washingtontimes.com"],["WSJ","https://www.wsj.com"]],
+  sports: [["ESPN","https://www.espn.com"],["Fox Sports","https://www.foxsports.com"],["Yahoo Sports","https://sports.yahoo.com"],["CBS Sports","https://www.cbssports.com"],["NBC Sports","https://www.nbcsports.com"],["The Athletic","https://www.nytimes.com/athletic/"],["Bleacher Report","https://bleacherreport.com"],["SI","https://www.si.com"],["AP Sports","https://apnews.com/hub/sports"],["USA Today","https://www.usatoday.com/sports/"],["The Ringer","https://www.theringer.com"],["FOS","https://frontofficesports.com"],["SB Nation","https://www.sbnation.com"],["The Score","https://www.thescore.com"],["Barstool","https://www.barstoolsports.com"],["Deadspin","https://www.deadspin.com"]],
+  world: [["BBC","https://www.bbc.com/news"],["Reuters","https://www.reuters.com"],["AP","https://apnews.com"],["AFP","https://www.afp.com/en"],["Al Jazeera","https://www.aljazeera.com"],["Guardian","https://www.theguardian.com/world"],["CNN Intl","https://edition.cnn.com"],["Bloomberg","https://www.bloomberg.com"],["FT","https://www.ft.com"],["NY Times","https://www.nytimes.com/section/world"],["Wash Post","https://www.washingtonpost.com/world"],["DW","https://www.dw.com/en"],["France 24","https://www.france24.com/en"],["Euronews","https://www.euronews.com"],["The Times","https://www.thetimes.com"],["NPR","https://www.npr.org/sections/world"]],
+  markets: [["WSJ","https://www.wsj.com"],["Bloomberg","https://www.bloomberg.com"],["CNBC","https://www.cnbc.com"],["FT","https://www.ft.com"],["Reuters","https://www.reuters.com"],["MarketWatch","https://www.marketwatch.com"],["Barron's","https://www.barrons.com"],["Forbes","https://www.forbes.com"],["Fortune","https://fortune.com"],["Business Insider","https://www.businessinsider.com"],["Yahoo Finance","https://finance.yahoo.com"],["Motley Fool","https://www.fool.com"],["Investopedia","https://www.investopedia.com"],["IBD","https://www.investors.com"],["Seeking Alpha","https://seekingalpha.com"],["Economist","https://www.economist.com"]],
+  politics: [["CNN","https://www.cnn.com/politics"],["MSNBC","https://www.msnbc.com"],["NY Times","https://www.nytimes.com"],["Wash Post","https://www.washingtonpost.com"],["NPR","https://www.npr.org/sections/politics"],["Politico","https://www.politico.com"],["NBC","https://www.nbcnews.com/politics"],["Democracy Now","https://www.democracynow.org"],["Fox News","https://www.foxnews.com/politics"],["Wash Times","https://www.washingtontimes.com"],["NY Post","https://nypost.com"],["Breitbart","https://www.breitbart.com"],["Natl Review","https://www.nationalreview.com"],["Wash Examiner","https://www.washingtonexaminer.com"],["Daily Wire","https://www.dailywire.com"],["NewsMax","https://www.newsmax.com"]],
+  "life-culture": [["People","https://people.com"],["Variety","https://variety.com"],["THR","https://www.hollywoodreporter.com"],["Rolling Stone","https://www.rollingstone.com"],["EW","https://ew.com"],["TMZ","https://www.tmz.com"],["Deadline","https://deadline.com"],["E! News","https://www.eonline.com"],["Vanity Fair","https://www.vanityfair.com"],["Vulture","https://www.vulture.com"],["The Atlantic","https://www.theatlantic.com"],["Billboard","https://www.billboard.com"],["USA Today","https://www.usatoday.com/life"],["NY Times Arts","https://www.nytimes.com/section/arts"],["Pitchfork","https://pitchfork.com"],["ET","https://www.etonline.com"]]
+};
+function renderSourceBar() {
+  var el = document.getElementById('source-bar');
+  if (!el) return;
+  var list = SOURCE_BARS[currentSection()] || SOURCE_BARS.main;
+  el.innerHTML = list.map(function(s){ return '<a href="' + s[1] + '" target="_blank">' + s[0] + '</a>'; }).join('');
+}
+
 async function fetchNews() {
 highlightNav();   // ADDED: light up the current section's nav link
 applyMasthead();  // ADDED: swap masthead to the section name + color on subpages
+renderSourceBar();// ADDED: per-section source bar
 showSkeletons();
 (async () => {
 try {
