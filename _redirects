@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DuncanReport.com</title>
+<link rel="canonical" href="https://duncanreport.com/" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta name="description" content="DuncanReport.com - AI-powered news aggregator covering Politics,
+Military, Business, Technology and more." />
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+font-family: 'Times New Roman', Times, serif;
+background: #fff;
+color: #000;
+font-size: 14px;
+}
+/* HEADER */
+#header {
+text-align: center;
+padding: 10px 10px 2px;
+}
+#site-title {
+font-size: 44px;
+font-weight: normal;
+letter-spacing: -1px;
+font-family: "Times New Roman", Times, serif;
+background: linear-gradient(180deg, #1a1a1a 0%, #555 60%, #1a1a1a 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.35));
+display: inline-block;
+}
+#date-line {
+font-size: 12px;
+color: #555;
+margin: 10px 0 4px;
+}
+/* NAV WRAPPER */
+#nav-wrapper {
+max-width: 1100px;
+margin: 0 auto;
+}
+/* NAV */
+#top-nav {
+display: flex;
+justify-content: center;
+gap: 0;
+padding: 5px 0;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+flex-wrap: wrap;
+}
+#top-nav a {
+color: #000000;
+text-decoration: underline;
+font-size: 12px;
+font-weight: bold;
+padding: 2px 12px;
+border-right: 1px solid #ccc;
+cursor: pointer;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+}
+#top-nav a:last-child { border-right: none; }
+#top-nav a:hover { text-decoration: underline; color: #cc0000; }
+#top-nav a.active { color: #cc0000; }
+#top-nav a.nav-sports { color: #cc0000; }
+#top-nav a.nav-world { color: #00008B; }
+#top-nav a.nav-markets { color: #006600; }
+#top-nav a.nav-politics { color: #8b0000; }
+#top-nav a.nav-life { color: #5500aa; }
+#top-nav a.nav-sports:hover { color: #990000; }
+#top-nav a.nav-world:hover { color: #00008B; }
+#top-nav a.nav-markets:hover { color: #004400; }
+#top-nav a.nav-politics:hover { color: #5a0000; }
+#top-nav a.nav-life:hover { color: #330077; }
+/* SOURCE BAR */
+#source-bar {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 0;
+padding: 4px 10px;
+border-bottom: 1px solid #ccc;
+background: #fff;
+}
+#source-bar a {
+color: #00008B;
+text-decoration: underline;
+font-size: 10px;
+padding: 1px 6px;
+border-right: 1px solid #ccc;
+}
+#source-bar a:last-child { border-right: none; }
+#source-bar a:hover { text-decoration: underline; }
+/* MAIN CONTENT */
+#main-content {
+max-width: 1100px;
+margin: 0 auto;
+padding: 6px;
+}
+/* HERO */
+#hero {
+text-align: center;
+padding: 8px 20px;
+margin-bottom: 6px;
+}
+#hero-headline {
+font-size: 28px;
+font-weight: bold;
+text-transform: uppercase;
+line-height: 1.2;
+margin-bottom: 4px;
+}
+#hero-headline a {
+color: #00008B;
+text-decoration: underline;
+}
+#hero-headline a:hover { color: #cc0000; text-decoration: underline; }
+.sub-headline {
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+margin: 1px 0;
+}
+.sub-headline a {
+color: #00008B;
+text-decoration: none;
+}
+.sub-headline a:hover { text-decoration: underline; }
+/* COLUMNS */
+#columns {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 0;
+}
+.col {
+padding: 4px 8px;
+border-right: 1px solid #ccc;
+}
+.col:last-child { border-right: none; }
+.col-section {
+margin-bottom: 4px;
+border-top: 1px solid #ccc;
+padding-top: 3px;
+}
+.col-section:first-child,
+.col-section.grouped {
+border-top: none;
+padding-top: 0;
+}
+.group-panel + .group-panel {
+border-top: 1px solid #ccc;
+padding-top: 3px;
+}
+.col-section-title {
+font-size: 15px;
+font-weight: bold;
+margin-bottom: 2px;
+line-height: 1.2;
+}
+.col-section-title a {
+color: #00008B;
+text-decoration: underline;
+}
+.col-section-title a:hover { color: #cc0000; text-decoration: underline; }
+.col-link {
+display: block;
+color: #00008B;
+text-decoration: none;
+font-size: 12px;
+margin: 0;
+line-height: 1.15;
+}
+.col-link:hover { text-decoration: underline; }
+.satire-tag {
+display: inline-block;
+font-size: 9px;
+font-weight: bold;
+color: #888;
+border: 1px solid #888;
+padding: 0 3px;
+margin-right: 4px;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+vertical-align: middle;
+font-family: Arial, sans-serif;
+}
+/* LOADING SKELETON */
+.skeleton {
+background: linear-gradient(90deg, #eee 25%, #ddd 50%, #eee 75%);
+background-size: 200% 100%;
+animation: shimmer 1.2s infinite;
+border-radius: 2px;
+display: block;
+}
+@keyframes shimmer {
+0% { background-position: 200% 0; }
+100% { background-position: -200% 0; }
+}
+.skeleton-hero { height: 36px; width: 70%; margin: 0 auto 8px; }
+.skeleton-sub { height: 20px; width: 45%; margin: 5px auto; }
+.skeleton-title { height: 18px; width: 80%; margin-bottom: 6px; }
+.skeleton-link { height: 14px; width: 90%; margin: 3px 0; }
+/* FOOTER */
+#footer {
+text-align: center;
+padding: 16px;
+border-top: 2px solid #ccc;
+margin-top: 20px;
+font-size: 11px;
+color: #555;
+}
+@media (max-width: 700px) {
+#columns { grid-template-columns: 1fr; }
+.col { border-right: none; border-bottom: 1px solid #ccc; }
+#site-title { font-size: 26px; }
+#hero-headline { font-size: 18px; }
+#top-nav a { font-size: 11px; padding: 2px 6px; }
+#source-bar a { font-size: 10px; padding: 1px 4px; }
+#main-content { padding: 6px; }
+.sub-headline { font-size: 13px; }
+}
+/* MAJOR STORY GROUP PANELS */
+.group-panel {
+margin-bottom: 16px;
+}
+.group-panel-title a {
+font-family: 'Arial Black', Arial, sans-serif;
+font-size: 15px;
+font-weight: 900;
+color: #00008B;
+text-decoration: underline;
+display: block;
+margin-bottom: 0;
+line-height: 1.3;
+}
+.group-panel-item {
+font-size: 13px;
+line-height: 1.5;
+padding: 2px 0;
+}
+.group-panel-item a {
+text-decoration: underline;
+color: #00008B;
+}
+/* SUB-LINKS */
+.sub-link {
+display: block;
+font-size: 11px;
+color: #00008B;
+text-decoration: underline;
+margin: 1px 0;
+line-height: 1.4;
+}
+.sub-link:hover { text-decoration: underline; }
+#sub-headlines {
+text-align: center;
+margin: 6px auto 16px;
+max-width: 700px;
+}
+.hero-sub-item {
+font-size: 14px;
+line-height: 1.8;
+}
+.hero-sub-item a {
+color: #00008B;
+text-decoration: underline;
+}
+/* ===== ADDED: MARKETS STRIP (business page) ===== */
+#markets {
+max-width: 1100px;
+margin: 0 auto 6px;
+padding: 5px 8px;
+text-align: center;
+border-bottom: 1px solid #ccc;
+font-size: 12px;
+line-height: 1.8;
+}
+#markets:empty { display: none; }
+.mk-item { white-space: nowrap; }
+.mk-name { font-weight: bold; }
+.mk-chg.mk-up { color: #006600; }
+.mk-chg.mk-down { color: #cc0000; }
+.mk-sep { color: #ccc; padding: 0 7px; }
+/* ===== ADDED: SCOREBOARD (sports page) ===== */
+#scoreboard {
+max-width: 1100px;
+margin: 0 auto 8px;
+padding: 4px 8px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 0 18px;
+}
+#scoreboard:empty { display: none; }
+.sb-game {
+display: block;
+font-size: 12px;
+line-height: 1.5;
+color: #00008B;
+text-decoration: none;
+padding: 2px 0;
+border-bottom: 1px solid #eee;
+}
+.sb-game:hover { text-decoration: underline; }
+.sb-league { font-weight: bold; color: #555; font-size: 10px; }
+.sb-score { font-weight: bold; color: #000; }
+.sb-note { color: #555; }
+@media (max-width: 700px) {
+#scoreboard { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div id="header">
+<div id="site-title">DuncanReport.com</div>
+<div id="date-line" id="date-display"></div>
+<div id="nav-wrapper">
+<div id="top-nav">
+<a href="/" class="active" style="color:#000000">MAIN</a>
+<a href="/sports" class="nav-sports">SPORTS</a>
+<a href="/world" class="nav-world">WORLD</a>
+<a href="/markets" class="nav-markets">MARKETS</a>
+<a href="/politics" class="nav-politics">POLITICS</a>
+<a href="/life-culture" class="nav-life">LIFE &amp; CULTURE</a>
+</div>
+<div id="source-bar">
+<a href="https://abcnews.go.com" target="_blank">ABC</a>
+<a href="https://apnews.com" target="_blank">AP</a>
+<a href="https://www.bbc.com/news" target="_blank">BBC</a>
+<a href="https://www.cbsnews.com" target="_blank">CBS</a>
+<a href="https://www.cnn.com" target="_blank">CNN</a>
+<a href="https://www.nbcnews.com" target="_blank">NBC</a>
+<a href="https://www.npr.org" target="_blank">NPR</a>
+<a href="https://www.nytimes.com" target="_blank">NY Times</a>
+<a href="https://www.politico.com" target="_blank">Politico</a>
+<a href="https://www.theguardian.com" target="_blank">The Guardian</a>
+<a href="https://www.breitbart.com" target="_blank">Breitbart</a>
+<a href="https://dailycaller.com" target="_blank">Daily Caller</a>
+<a href="https://www.foxnews.com" target="_blank">Fox News</a>
+<a href="https://www.newsmax.com" target="_blank">NewsMax</a>
+<a href="https://nypost.com" target="_blank">NY Post</a>
+<a href="https://www.washingtonexaminer.com" target="_blank">Wash Examiner</a>
+<a href="https://www.washingtontimes.com" target="_blank">Wash Times</a>
+<a href="https://www.wsj.com" target="_blank">WSJ</a>
+</div>
+</div>
+</div>
+</div>
+<div id="main-content">
+<div id="hero">
+<div id="hero-headline"><span class="skeleton skeleton-hero"></span></div>
+<div id="sub-headlines"></div>
+</div>
+<div id="markets"></div>
+<div id="scoreboard"></div>
+<div id="columns">
+<div class="col" id="col-left"></div>
+<div class="col" id="col-center"></div>
+<div class="col" id="col-right"></div>
+</div>
+</div>
+<div id="footer">
+DuncanReport.com &mdash; Powered by AI &mdash; Updated continuously<br>
+&copy; 2026 DuncanReport.com &mdash; <a href="https://duncanreport.com/privacy"
+style="color:#555;text-decoration:underline;">Privacy Policy</a>
+</div>
+<script>
+// Set date
+const now = new Date();
+document.getElementById('date-line').textContent = now.toLocaleDateString('en-US', { weekday: 'long',
+year: 'numeric', month: 'long', day: 'numeric' }) + ' ' + now.toLocaleTimeString('en-US', { hour: 'numeric',
+minute: '2-digit', hour12: true });
+
+// ===== ADDED: which section is this page? =====
+function currentSection() {
+var seg = (location.pathname.split('/').filter(Boolean)[0] || 'main').toLowerCase();
+var known = ['sports','world','markets','politics','life-culture'];
+return known.indexOf(seg) >= 0 ? seg : 'main';
+}
+function sectionDataUrl() {
+var sec = currentSection();
+var path = (sec === 'main') ? '/stories.json' : '/' + sec + '/stories.json';
+return path + '?nocache=' + Date.now();
+}
+// Highlight the nav link for the current section
+function highlightNav() {
+var sec = currentSection();
+var links = document.querySelectorAll('#top-nav a');
+for (var i = 0; i < links.length; i++) {
+var href = links[i].getAttribute('href');
+var linkSec = (href === '/') ? 'main' : href.replace(/^\/+/, '');
+if (linkSec === sec) { links[i].classList.add('active'); }
+else { links[i].classList.remove('active'); }
+}
+}
+// On a subpage, replace the "DuncanReport.com" masthead with the section name
+// in the matching nav color (same font + size). Main keeps the gradient title.
+function applyMasthead() {
+var sec = currentSection();
+var el = document.getElementById('site-title');
+if (!el) return;
+var map = {
+'sports': ['SPORTS', '#cc0000'],
+'world': ['WORLD', '#00008B'],
+'markets': ['MARKETS', '#006600'],
+'politics': ['POLITICS', '#8b0000'],
+'life-culture': ['LIFE & CULTURE', '#5500aa']
+};
+if (map[sec]) {
+el.textContent = map[sec][0];
+el.style.background = 'none';
+el.style.webkitTextFillColor = map[sec][1];
+el.style.color = map[sec][1];
+el.style.filter = 'none';
+document.title = 'DuncanReport.com — ' + map[sec][0];
+}
+}
+
+let allStories = null;
+function showSkeletons() {
+document.getElementById('hero-headline').innerHTML = '<span class="skeleton skeleton-hero"></span>';
+document.getElementById('sub-headlines').innerHTML = '<span class="skeleton skeleton-sub"></span><span class="skeleton skeleton-sub" style="width:35%;margin:5px auto;display:block"></span>';
+['col-left','col-center','col-right'].forEach(id => {
+let html = '';
+for(let i=0;i<3;i++){
+html += `<div class="col-section">
+<span class="skeleton skeleton-title"></span>
+<span class="skeleton skeleton-link"></span>
+<span class="skeleton skeleton-link" style="width:75%"></span>
+</div>`;
+}
+document.getElementById(id).innerHTML = html;
+});
+}
+function toTitleCase(str) {
+return str.split(' ').map(word => {
+// Strip punctuation to check if core letters are all-caps (e.g. "IEA:" "U.S." "FBI,")
+const core = word.replace(/[^a-zA-Z]/g, '');
+if (core.length > 1 && core === core.toUpperCase()) return word;
+return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+}).join(' ');
+}
+function tagPrefix(s) {
+// Render a small visual tag for entries marked as e.g. "satire".
+// Currently supports: tag: "satire". Other values are ignored.
+if (s && s.tag === 'satire') return '<span class="satire-tag">Satire</span>';
+return '';
+}
+function storyMainUrl(s) {
+// Get primary URL from links array or fall back to legacy url field
+return (s.links && s.links[0]) ? s.links[0].url : s.url;
+}
+function storySubLinks(s) {
+if (!s.links || s.links.length < 2) return '';
+return s.links.slice(1).map(l =>
+`<a class="sub-link" href="${l.url}" target="_blank">${l.label}</a>`
+).join('');
+}
+
+// ===== ADDED: markets strip (business page) =====
+function renderMarkets(quotes) {
+var el = document.getElementById('markets');
+if (!el) return;
+if (!quotes || !quotes.length) { el.innerHTML = ''; return; }
+el.innerHTML = quotes.map(function(q) {
+var chgText = (q.change || '');
+if (q.changePct) { chgText += (chgText ? '  ' : '') + q.changePct; }
+var isDown = /-/.test((q.change || '') + (q.changePct || ''));
+var chgHtml = chgText.trim()
+? ' <span class="mk-chg ' + (isDown ? 'mk-down' : 'mk-up') + '">' + chgText + '</span>'
+: '';
+return '<span class="mk-item"><span class="mk-name">' + q.name + '</span> ' +
+'<span class="mk-val">' + q.value + '</span>' + chgHtml + '</span>';
+}).join('<span class="mk-sep">|</span>');
+}
+
+// ===== ADDED: scoreboard (sports page) =====
+function renderScoreboard(games) {
+var el = document.getElementById('scoreboard');
+if (!el) return;
+if (!games || !games.length) { el.innerHTML = ''; return; }
+el.innerHTML = games.map(function(g) {
+var right;
+if (g.state === 'scheduled' || g.awayScore == null) {
+right = '<span class="sb-note">' + (g.note || '') + '</span>';
+} else {
+right = '<span class="sb-score">' + g.awayScore + '&ndash;' + g.homeScore + '</span> ' +
+'<span class="sb-note">' + (g.note || '') + '</span>';
+}
+var inner = '<span class="sb-league">' + g.league + '</span> ' +
+'<span class="sb-teams">' + g.away + ' @ ' + g.home + '</span> &nbsp;' + right;
+return g.url
+? '<a class="sb-game" href="' + g.url + '" target="_blank">' + inner + '</a>'
+: '<span class="sb-game">' + inner + '</span>';
+}).join('');
+}
+
+function renderStories(data) {
+// ADDED: scoreboard + markets render first, regardless of hero
+renderMarkets(data && data.markets);
+renderScoreboard(data && data.scoreboard);
+if (!data || !data.hero) {
+document.getElementById('hero-headline').innerHTML = 'NO STORIES FOUND';
+document.getElementById('sub-headlines').innerHTML = '';
+['col-left','col-center','col-right'].forEach(function(id) { document.getElementById(id).innerHTML = ''; });
+return;
+}
+var hero = data.hero || {};
+var groups = data.groups || [];
+var leftCols = (data.columns && data.columns.left) || [];
+var centerCols = (data.columns && data.columns.center) || [];
+var rightCols = (data.columns && data.columns.right) || [];
+// Hero
+var heroEl = document.getElementById('hero-headline');
+if (hero.headline && hero.url) {
+heroEl.innerHTML = '<a href="' + hero.url + '" target="_blank">' + hero.headline + '</a>';
+}
+// Sub-headlines
+var subEl = document.getElementById('sub-headlines');
+if (hero.sublinks && hero.sublinks.length) {
+subEl.innerHTML = hero.sublinks.map(function(s) {
+return '<a href="' + s.url + '" target="_blank">' + s.text + '</a>';
+}).join(' &nbsp;&bull;&nbsp; ');
+} else {
+subEl.innerHTML = '';
+}
+// Build a render helper for a single group panel
+function renderGroupPanel(g) {
+var html = '<div class="group-panel"><div class="group-title">' + g.title + '</div>';
+(g.stories || []).forEach(function(s) {
+html += '<div class="col-section grouped"><a href="' + s.url + '" target="_blank">' + tagPrefix(s) + toTitleCase(s.headline) +
+'</a></div>';
+});
+html += '</div>';
+return html;
+}
+// Distribute group panels round-robin: panel #1 -> left, #2 -> center, #3 -> right, #4 -> left, etc.
+var panelHTML = ['', '', ''];
+groups.forEach(function(g, i) {
+panelHTML[i % 3] += renderGroupPanel(g);
+});
+// Left column: panels first, then standalone left stories
+var leftEl = document.getElementById('col-left');
+var leftHTML = panelHTML[0];
+leftCols.forEach(function(s) {
+leftHTML += '<div class="col-section"><a href="' + s.url + '" target="_blank">' + tagPrefix(s) + toTitleCase(s.headline) +
+'</a></div>';
+});
+leftEl.innerHTML = leftHTML;
+// Center column: panels first, then standalone center stories
+var centerEl = document.getElementById('col-center');
+var centerHTML = panelHTML[1];
+centerCols.forEach(function(s) {
+centerHTML += '<div class="col-section"><a href="' + s.url + '" target="_blank">' + tagPrefix(s) + toTitleCase(s.headline) +
+'</a></div>';
+});
+centerEl.innerHTML = centerHTML;
+// Right column: panels first, then standalone right stories
+var rightEl = document.getElementById('col-right');
+var rightHTML = panelHTML[2];
+rightCols.forEach(function(s) {
+rightHTML += '<div class="col-section"><a href="' + s.url + '" target="_blank">' + tagPrefix(s) + toTitleCase(s.headline) +
+'</a></div>';
+});
+rightEl.innerHTML = rightHTML;
+}
+function saveStories(data) {
+try { localStorage.setItem('dr_cache_' + currentSection(), JSON.stringify({ts: Date.now(), data: data})); } catch(e) {}
+}
+async function loadStories() {
+try {
+var res = await fetch(sectionDataUrl());   // CHANGED: section-aware path
+var data = await res.json();
+return data;
+} catch(e) {
+return null;
+}
+}
+function primaryUrl(s) {
+return (s.links && s.links[0]) ? s.links[0].url : s.url;
+}
+function mergeStories(existing, fresh) {
+// existing and fresh are both {hero, groups, columns, lastUpdated} objects
+// Each story needs a timestamp. Fresh stories get now; existing keep theirs.
+const now = Date.now();
+const threeDays = 3 * 24 * 60 * 60 * 1000;
+function stampStories(stories, ts) {
+return (stories || []).map(function(s) {
+return Object.assign({}, s, { timestamp: s.timestamp || ts });
+});
+}
+function expireStories(stories) {
+return (stories || []).filter(function(s) {
+return (now - (s.timestamp || now)) < threeDays;
+});
+}
+function mergeList(existingList, freshList) {
+// Stamp fresh stories with now
+const stamped = stampStories(freshList, now);
+// Keep existing stories that haven't expired
+const live = expireStories(existingList);
+// Deduplicate by URL - fresh stories win (replace existing with same URL)
+const freshUrls = new Set(stamped.map(function(s) { return s.url; }));
+const kept = live.filter(function(s) { return !freshUrls.has(s.url); });
+// Fresh stories go first (top of column), then surviving old ones
+return stamped.concat(kept);
+}
+function mergeGroups(existingGroups, freshGroups) {
+const freshTitles = new Set((freshGroups || []).map(function(g) { return g.title; }));
+// Keep old groups not replaced by fresh, expire their stories
+const oldKept = (existingGroups || [])
+.filter(function(g) { return !freshTitles.has(g.title); })
+.map(function(g) {
+return Object.assign({}, g, { stories: expireStories(stampStories(g.stories, 0)) });
+})
+.filter(function(g) { return g.stories.length > 0; });
+// Fresh groups get their stories stamped now
+const freshStamped = (freshGroups || []).map(function(g) {
+return Object.assign({}, g, { stories: stampStories(g.stories, now) });
+});
+return freshStamped.concat(oldKept);
+}
+const ex = existing || {};
+const fr = fresh || {};
+return {
+lastUpdated: new Date().toISOString(),
+hero: fr.hero || ex.hero || {},
+groups: mergeGroups(ex.groups, fr.groups),
+columns: {
+left: mergeList((ex.columns || {}).left, (fr.columns || {}).left),
+center: mergeList((ex.columns || {}).center, (fr.columns || {}).center),
+right: mergeList((ex.columns || {}).right, (fr.columns || {}).right)
+}
+};
+}
+async function fetchNews() {
+highlightNav();   // ADDED: light up the current section's nav link
+applyMasthead();  // ADDED: swap masthead to the section name + color on subpages
+showSkeletons();
+(async () => {
+try {
+// Load this section's stories.json
+const existing = await loadStories();
+// Render immediately with existing data
+if (existing && (existing.hero || existing.scoreboard || existing.markets)) {
+renderStories(existing);
+}
+// stories.json IS the source of truth - no AI call here.
+// The curation engine writes fresh stories externally.
+if (!existing || (!existing.hero && !existing.scoreboard && !existing.markets)) {
+renderStories({});
+}
+} catch(err) {
+console.error('fetchNews error', err);
+renderStories({});
+}
+})();
+}
+// Auto-run on load
+fetchNews();
+</script>
+</body>
+</html>
