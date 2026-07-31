@@ -1,53 +1,25 @@
 name: Publish DuncanReport
 
-# WHAT THIS DOES:
-# On a schedule (and whenever you click "Run workflow"), GitHub's own servers
-# curate the pages and publish them to Cloudflare. Your laptop is never involved.
-
 on:
   schedule:
-    - cron: "0 11 * * *"   # every day at 11:00 UTC (~6-7am ET). Change the time here.
-  workflow_dispatch: {}     # adds a manual "Run workflow" button in the Actions tab
-
-permissions:
-  contents: write           # lets the run save updated stories.json back to the repo
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}
 
 jobs:
   publish:
-    runs-on: ubuntu-latest  # a fresh cloud machine GitHub gives you each run
+    runs-on: ubuntu-latest
     steps:
-      # 1. Grab your repo
-      - name: Check out the repository
-        uses: actions/checkout@v4
-
-      # 2. Tools the job needs
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Set up Node (needed for Wrangler)
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: "20"
-
-      - name: Install Python packages
-        run: pip install anthropic requests
-
-      # 3. Curate every section into stories.json files.
-      #    NOTE: scripts/curate.py does not exist yet — it is the next piece we build.
-      #    Until it does, this step will fail; that is expected.
-      - name: Curate all sections
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scripts/curate.py
-
-      # 4. Publish the finished site folder to Cloudflare Pages.
-      #    "site" must be the folder that holds the built site (index.html, the five
-      #    subpages, and the stories.json files curate.py produced). We wire this next.
-      - name: Deploy to Cloudflare Pages
+      - name: Build the site
+        run: python curate.py
+      - name: Publish to Cloudflare Pages
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: b2b76296956fb323c9573be5467c8037
         run: npx wrangler@3 pages deploy site --project-name=duncanreport
-
