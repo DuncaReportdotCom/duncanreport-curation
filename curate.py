@@ -868,8 +868,8 @@ def seed(section):
 
 GNEWS = "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en"
 
-def _fetch_bytes(url, timeout=25):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (DuncanReport bot)"})
+def _fetch_bytes(url, timeout=25, data=None):
+    req = urllib.request.Request(url, data=data, headers={"User-Agent": "Mozilla/5.0 (DuncanReport bot)"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
 
@@ -995,14 +995,33 @@ def _download_image(url, dest):
         f.write(blob)
     return True
 
-def gnews_thumbnail(gn_url):
-    """Grab the article thumbnail Google News embeds, upsized to a usable width."""
-    html = _fetch_bytes(gn_url).decode("utf-8", "ignore")
-    m = re.findall(r"https://lh3\.googleusercontent\.com/[A-Za-z0-9_\-]+=w\d+", html)
-    if not m:
+def decode_gnews(gn_url):
+    """Resolve a Google News redirect link to the real article URL."""
+    page = _fetch_bytes(gn_url).decode("utf-8", "ignore")
+    sg = re.search(r'data-n-a-sg="([^"]+)"', page)
+    ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+    if not (sg and ts):
         return None
-    blob = _fetch_bytes(re.sub(r"=w\d+$", "=w800", m[0]))
-    return blob if len(blob) > 2000 else None
+    art = gn_url.split("/articles/")[1].split("?")[0]
+    inner = json.dumps(["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1,
+            None, None, None, None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+            art, int(ts.group(1)), sg.group(1)])
+    body = urllib.parse.urlencode({"f.req": json.dumps([[["Fbv4je", inner, None, "generic"]]])}).encode()
+    resp = _fetch_bytes("https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
+                        data=body).decode("utf-8", "ignore")
+    m = re.search(r'(https?://[^"\\]+)', resp.split("garturlres", 1)[-1])
+    return m.group(1) if m else None
+
+def og_image_url(article_url):
+    """Pull the article's og:image / twitter:image URL."""
+    html = _fetch_bytes(article_url).decode("utf-8", "ignore")[:80000]
+    for pat in (r'property=["\']og:image["\'][^>]*content=["\']([^"\']+)',
+                r'content=["\']([^"\']+)["\'][^>]*property=["\']og:image',
+                r'name=["\']twitter:image["\'][^>]*content=["\']([^"\']+)'):
+        m = re.search(pat, html)
+        if m:
+            return m.group(1)
+    return None
 
 def ensure_hero_image(section, data):
     """Store the lead photo in the deploy at a fixed path so the page serves it from
@@ -1019,15 +1038,13 @@ def ensure_hero_image(section, data):
     hero_url = (data.get("hero") or {}).get("url")
     if hero_url and "news.google.com" in str(hero_url):
         try:
-            blob = gnews_thumbnail(hero_url)
-            if blob:
-                os.makedirs(os.path.dirname(dest), exist_ok=True)
-                with open(dest, "wb") as f:
-                    f.write(blob)
-                print("    hero thumbnail saved for", section)
+            real = decode_gnews(hero_url)
+            img_url = og_image_url(real) if real else None
+            if img_url and _download_image(img_url, dest):
+                print("    hero og:image saved for", section)
                 return
         except Exception as e:
-            print("    thumbnail failed for %s: %s" % (section, e))
+            print("    hero image resolve failed for %s: %s" % (section, e))
     live_img = LIVE + ("/hero.jpg" if section == "main" else "/%s/hero.jpg" % section)
     try:
         if _download_image(live_img, dest):
