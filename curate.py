@@ -1172,16 +1172,17 @@ def curate_live(section):
               "another sublink. Output ONLY the JSON object in a ```json block."
               "%s\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
               % (section, today, editorial, CORE, PROMPTS.get(section, ""), cand_json))
-    base = dict(model=working_model(client), max_tokens=32000, system=system,
+    base = dict(model=working_model(client), max_tokens=16000, system=system,
         messages=[{"role": "user",
                    "content": "Curate the current %s cycle from the candidates and return the stories.json." % section}])
     try:
-        # Bound internal reasoning so the model can't spend the whole budget "thinking"
-        # and leave no room for the JSON answer (that produced empty pages).
-        msg = client.messages.create(thinking={"type": "enabled", "budget_tokens": 10000}, **base)
-    except Exception:
-        # Fallback model without a thinking budget - plain call.
-        base["max_tokens"] = 12000
+        # Cap internal reasoning so it can't eat the whole budget and leave no room for the
+        # JSON answer. 16000 stays within the non-streaming size limit, so the request is
+        # always accepted; the 6000 thinking cap leaves ~10000 tokens for the answer.
+        msg = client.messages.create(thinking={"type": "enabled", "budget_tokens": 6000}, **base)
+    except Exception as e:
+        # Model/SDK without thinking-budget support - plain call at the same safe ceiling.
+        print("    thinking-budget call failed (%s); retrying plain" % e)
         msg = client.messages.create(**base)
     text = "".join((getattr(b, "text", "") or "") for b in msg.content)
     data = extract_json(text)
