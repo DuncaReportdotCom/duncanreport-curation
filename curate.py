@@ -834,9 +834,16 @@ def merge(existing, fresh):
     ex = existing or {}; fr = fresh or {}
     orig = _orig_ts(ex)
     cols = lambda d, k: (d.get("columns") or {}).get(k)
+    today = datetime.date.today().isoformat()
+    ex_hero = ex.get("hero") or {}
+    if ex_hero.get("headline") and ex.get("heroSetDate") == today:
+        hero = ex_hero                      # headline + image locked once per day
+    else:
+        hero = fr.get("hero") or ex_hero or {}
     out = {
         "lastUpdated": now_ms(),
-        "hero": fr.get("hero") or ex.get("hero") or {},
+        "heroSetDate": today,
+        "hero": hero,
         "groups": _merge_groups(ex.get("groups"), fr.get("groups"), orig),
         "columns": {
             "left": _merge_list(cols(ex, "left"), cols(fr, "left"), orig),
@@ -919,7 +926,7 @@ def curate_live(section):
               "section's own outlets via Google News. SELECT and ORGANIZE ONLY from these candidates - do "
               "not invent stories, headlines, or URLs. In your output set each story's url field to that candidate's id (e.g. c7), NOT a real URL, and use its ts (Unix ms) as "
               "the timestamp. Rank by how many candidates/outlets cover the same story (frequency-ranked), "
-              "and build hero, groups, and columns per SCHEMA.md. Output ONLY the JSON object in a ```json "
+              "and build hero, groups, and columns per SCHEMA.md. For hero.sublinks pick 2-4 DIFFERENT candidates about the same hero story, each a distinct angle (a development, reaction, analysis, or key detail); write each sublink text to describe its OWN unique angle - never restate the headline or repeat another sublink. Output ONLY the JSON object in a ```json "
               "block.\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
               % (section, today, CORE, PROMPTS.get(section, ""), cand_json))
     msg = client.messages.create(model=working_model(client), max_tokens=16000, system=system,
@@ -1024,18 +1031,29 @@ def og_image_url(article_url):
     return None
 
 def ensure_hero_image(section, data):
-    """Store the lead photo in the deploy at a fixed path so the page serves it from
-    our own server. Falls back to persisting the currently-live image; if nothing is
-    available the page shows its built-in default."""
+    """Self-host the hero photo. If today's hero is unchanged from what's live, keep the
+    existing image (image changes at most once per day). Otherwise resolve the story and
+    download its og:image. Falls back to the current live image, then the built-in default."""
     dest = _img_dest(section)
-    img = (data.get("hero") or {}).get("image")
+    hero = data.get("hero") or {}
+    hero_url = hero.get("url")
+    live_img = LIVE + ("/hero.jpg" if section == "main" else "/%s/hero.jpg" % section)
+    # unchanged hero -> carry over the existing image
+    try:
+        cur = live_current(section)
+        if hero_url and (cur.get("hero") or {}).get("url") == hero_url and _download_image(live_img, dest):
+            return
+    except Exception:
+        pass
+    # explicit image from curation
+    img = hero.get("image")
     if img and str(img).startswith("http"):
         try:
             if _download_image(img, dest):
-                print("    hero image saved for", section); return
-        except Exception as e:
-            print("    hero image download failed for %s: %s" % (section, e))
-    hero_url = (data.get("hero") or {}).get("url")
+                return
+        except Exception:
+            pass
+    # resolve Google News link -> article -> og:image
     if hero_url and "news.google.com" in str(hero_url):
         try:
             real = decode_gnews(hero_url)
@@ -1045,12 +1063,12 @@ def ensure_hero_image(section, data):
                 return
         except Exception as e:
             print("    hero image resolve failed for %s: %s" % (section, e))
-    live_img = LIVE + ("/hero.jpg" if section == "main" else "/%s/hero.jpg" % section)
+    # last resort: persist whatever is live
     try:
-        if _download_image(live_img, dest):
-            return
+        _download_image(live_img, dest)
     except Exception:
         pass
+
 
 def build():
     target = (os.environ.get("SECTION", "all") or "all").strip().lower()
