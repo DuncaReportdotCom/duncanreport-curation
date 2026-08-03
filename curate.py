@@ -751,15 +751,23 @@ def empty():
 def valid(d):
     return isinstance(d, dict) and ("hero" in d or "scoreboard" in d or "markets" in d) and isinstance(d.get("columns", {}), dict)
 
+def _loads(s):
+    try:
+        return json.loads(s)
+    except Exception:
+        try:
+            return json.loads(re.sub(r'\\([^"\\/bfnrtu])', r'\1', s))
+        except Exception:
+            return None
+
 def extract_json(text):
     if not text:
         return None
-    m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.S)
+    m = re.search(r"```(?:json)?\s*(\{.*\})\s*```", text, re.S)
     if m:
-        try:
-            return json.loads(m.group(1))
-        except Exception:
-            pass
+        d = _loads(m.group(1))
+        if d is not None:
+            return d
     start = text.find("{")
     if start < 0:
         return None
@@ -771,10 +779,7 @@ def extract_json(text):
         elif ch == "}":
             depth -= 1
             if depth == 0:
-                try:
-                    return json.loads(text[start:i + 1])
-                except Exception:
-                    return None
+                return _loads(text[start:i + 1])
     return None
 
 def _expire(stories):
