@@ -752,13 +752,30 @@ def valid(d):
     return isinstance(d, dict) and ("hero" in d or "scoreboard" in d or "markets" in d) and isinstance(d.get("columns", {}), dict)
 
 def extract_json(text):
-    m = re.search(r"```json\s*(\{.*?\})\s*```", text, re.S) or re.search(r"(\{.*\})", text, re.S)
-    if not m:
+    if not text:
         return None
-    try:
-        return json.loads(m.group(1))
-    except Exception:
+    m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.S)
+    if m:
+        try:
+            return json.loads(m.group(1))
+        except Exception:
+            pass
+    start = text.find("{")
+    if start < 0:
         return None
+    depth = 0
+    for i in range(start, len(text)):
+        ch = text[i]
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                try:
+                    return json.loads(text[start:i + 1])
+                except Exception:
+                    return None
+    return None
 
 def _expire(stories):
     now = now_ms()
@@ -905,8 +922,10 @@ def curate_live(section):
                    "content": "Curate the current %s cycle from the candidates and return the stories.json." % section}])
     text = "".join(getattr(b, "text", "") for b in msg.content if getattr(b, "type", "") == "text")
     data = extract_json(text)
-    if not (data and valid(data)):
-        raise ValueError("no valid JSON returned")
+    if not data:
+        raise ValueError("no JSON parsed (resp len=%d): %s" % (len(text), text[:220].replace(chr(10), " ")))
+    if not valid(data):
+        raise ValueError("JSON wrong shape, keys=%s" % list(data.keys()))
     def fix(stories):
         for s in (stories or []):
             c = by_url.get(s.get("url"))
