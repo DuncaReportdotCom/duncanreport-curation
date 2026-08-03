@@ -995,6 +995,15 @@ def _download_image(url, dest):
         f.write(blob)
     return True
 
+def gnews_thumbnail(gn_url):
+    """Grab the article thumbnail Google News embeds, upsized to a usable width."""
+    html = _fetch_bytes(gn_url).decode("utf-8", "ignore")
+    m = re.findall(r"https://lh3\.googleusercontent\.com/[A-Za-z0-9_\-]+=w\d+", html)
+    if not m:
+        return None
+    blob = _fetch_bytes(re.sub(r"=w\d+$", "=w800", m[0]))
+    return blob if len(blob) > 2000 else None
+
 def ensure_hero_image(section, data):
     """Store the lead photo in the deploy at a fixed path so the page serves it from
     our own server. Falls back to persisting the currently-live image; if nothing is
@@ -1007,6 +1016,18 @@ def ensure_hero_image(section, data):
                 print("    hero image saved for", section); return
         except Exception as e:
             print("    hero image download failed for %s: %s" % (section, e))
+    hero_url = (data.get("hero") or {}).get("url")
+    if hero_url and "news.google.com" in str(hero_url):
+        try:
+            blob = gnews_thumbnail(hero_url)
+            if blob:
+                os.makedirs(os.path.dirname(dest), exist_ok=True)
+                with open(dest, "wb") as f:
+                    f.write(blob)
+                print("    hero thumbnail saved for", section)
+                return
+        except Exception as e:
+            print("    thumbnail failed for %s: %s" % (section, e))
     live_img = LIVE + ("/hero.jpg" if section == "main" else "/%s/hero.jpg" % section)
     try:
         if _download_image(live_img, dest):
