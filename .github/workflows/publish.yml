@@ -1,16 +1,27 @@
 name: Publish DuncanReport
 
+# WHAT THIS DOES:
+# On a schedule (and whenever you click "Run workflow"), GitHub's own servers build
+# and publish the site to Cloudflare. Your laptop is never involved.
+#
+# The "What to publish" dropdown:
+#   all           - curate every page (search for new articles), then deploy
+#   deploy-only   - DO NOT search for new articles; just rebuild the site from the
+#                   stories already live and push your code/formatting changes
+#   main, sports, world, markets, politics, life-culture - curate just that one page
+
 on:
   schedule:
-    - cron: "0 11 * * *"        # daily, all sections (laptop-off auto-refresh)
+    - cron: "0 11 * * *"   # every day at 11:00 UTC (~6-7am ET). Change the time here.
   workflow_dispatch:
     inputs:
       section:
-        description: "Which page to refresh"
+        description: "What to publish"
         type: choice
         default: all
         options:
           - all
+          - deploy-only
           - main
           - sports
           - world
@@ -18,25 +29,37 @@ on:
           - politics
           - life-culture
 
+permissions:
+  contents: write
+
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - uses: actions/setup-node@v4
+
+      - name: Set up Node (needed for Wrangler)
+        uses: actions/setup-node@v4
         with:
           node-version: "20"
+
       - name: Install Python packages
-        run: pip install anthropic
+        run: pip install anthropic requests
+
+      # Build the site. On a schedule there is no input, so it defaults to "all".
       - name: Build the site
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SECTION: ${{ github.event.inputs.section || 'all' }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python curate.py
-      - name: Publish to Cloudflare Pages
+
+      - name: Deploy to Cloudflare Pages
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: b2b76296956fb323c9573be5467c8037
