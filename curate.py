@@ -922,13 +922,15 @@ def curate_live(section):
               "and build hero, groups, and columns per SCHEMA.md. Output ONLY the JSON object in a ```json "
               "block.\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
               % (section, today, CORE, PROMPTS.get(section, ""), cand_json))
-    msg = client.messages.create(model=working_model(client), max_tokens=8000, system=system,
+    msg = client.messages.create(model=working_model(client), max_tokens=16000, system=system,
         messages=[{"role": "user",
                    "content": "Curate the current %s cycle from the candidates and return the stories.json." % section}])
-    text = "".join(getattr(b, "text", "") for b in msg.content if getattr(b, "type", "") == "text")
+    text = "".join((getattr(b, "text", "") or "") for b in msg.content)
     data = extract_json(text)
     if not data:
-        raise ValueError("no JSON parsed (resp len=%d): %s" % (len(text), text[:1400].replace(chr(10), " ")))
+        info = "stop=%s blocks=%s" % (getattr(msg, "stop_reason", "?"),
+                                      [getattr(bl, "type", "?") for bl in msg.content])
+        raise ValueError("no JSON parsed (len=%d, %s): %s" % (len(text), info, text[:1200].replace(chr(10), " ")))
     if not valid(data):
         raise ValueError("JSON wrong shape, keys=%s" % list(data.keys()))
     def fix_story(s):
