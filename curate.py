@@ -12,7 +12,10 @@ then they expire. Sports scoreboard and market prices are handled by the site's 
 Live curation uses the Claude API (ANTHROPIC_API_KEY). On any failure a section keeps its current
 live data (or the built-in first-stab seed), so a run never publishes a blank page.
 """
-import os, json, shutil, time, re, datetime, urllib.request
+import os, json, shutil, time, re, datetime, urllib.request, urllib.parse
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
+from html import unescape
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(ROOT, "site")
@@ -841,32 +844,80 @@ def seed(section):
     except Exception:
         return empty()
 
+GNEWS = "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en"
+
+def _fetch_bytes(url, timeout=25):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (DuncanReport bot)"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read()
+
+def _pub_ms(s):
+    try:
+        return int(parsedate_to_datetime(s).timestamp() * 1000)
+    except Exception:
+        return now_ms()
+
+def google_news_candidates(section):
+    """Fetch recent stories from this section's own outlets via Google News RSS (not crawler-blocked)."""
+    sites = DOMAINS.get(section) or []
+    items, seen = [], set()
+    for site in sites:
+        url = GNEWS % urllib.parse.quote("site:%s when:2d" % site)
+        try:
+            root = ET.fromstring(_fetch_bytes(url))
+        except Exception as e:
+            print("    gnews failed for %s: %s" % (site, e)); continue
+        for it in root.iter("item"):
+            title = (it.findtext("title") or "").strip()
+            link = (it.findtext("link") or "").strip()
+            if not title or not link or link in seen:
+                continue
+            seen.add(link)
+            src_el = it.find("source")
+            source = (src_el.text if (src_el is not None and src_el.text) else site)
+            if title.endswith(" - " + source):
+                title = title[: -(len(source) + 3)].strip()
+            items.append({"title": unescape(title), "url": link, "source": source,
+                          "ts": _pub_ms(it.findtext("pubDate") or "")})
+    items.sort(key=lambda x: x["ts"], reverse=True)
+    return items[:60]
+
 def curate_live(section):
     from anthropic import Anthropic
     client = Anthropic()
+    cands = google_news_candidates(section)
+    if not cands:
+        raise ValueError("no Google News candidates for %s" % section)
+    by_url = {c["url"]: c for c in cands}
+    cand_json = json.dumps([{"title": c["title"], "source": c["source"], "url": c["url"], "ts": c["ts"]}
+                            for c in cands], ensure_ascii=False)
     today = datetime.date.today().isoformat()
-    system = ("You are the DuncanReport.com curation engine for the '%s' section. Today is %s. "
-              "Follow the CORE CONTRACT and SECTION rules exactly. Use web search for current, real "
-              "stories from this section's outlets (real headlines, real URLs, real Unix-millisecond "
-              "timestamps). Never invent a URL or an image. For the hero, include a hero.image: a "
-              "directly-hotlinkable photo URL (the lead story's og:image) when a good one exists; "
-              "omit it otherwise. Output ONLY one JSON object that validates against SCHEMA.md, "
-              "inside a ```json code block.\n\n===== CORE CONTRACT =====\n%s\n\n%s"
-              % (section, today, CORE, PROMPTS.get(section, "")))
-    tool = {"type": "web_search_20250305", "name": "web_search", "max_uses": 8}
-    sites = DOMAINS.get(section)
-    if sites:
-        tool["allowed_domains"] = sites   # crawl ONLY this section's own outlets
-    msg = client.messages.create(
-        model=working_model(client), max_tokens=8000, system=system,
-        tools=[tool],
-        messages=[{"role": "user", "content": "Curate the current %s cycle now from these outlets and return the stories.json." % section}])
+    system = ("You are the DuncanReport.com curation engine for the '%s' section. Today is %s. Follow the "
+              "CORE CONTRACT and the SECTION rules. You are given CANDIDATE stories pulled from this "
+              "section's own outlets via Google News. SELECT and ORGANIZE ONLY from these candidates - do "
+              "not invent stories, headlines, or URLs. Use each story's exact url, and its ts (Unix ms) as "
+              "the timestamp. Rank by how many candidates/outlets cover the same story (frequency-ranked), "
+              "and build hero, groups, and columns per SCHEMA.md. Output ONLY the JSON object in a ```json "
+              "block.\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
+              % (section, today, CORE, PROMPTS.get(section, ""), cand_json))
+    msg = client.messages.create(model=working_model(client), max_tokens=8000, system=system,
+        messages=[{"role": "user",
+                   "content": "Curate the current %s cycle from the candidates and return the stories.json." % section}])
     text = "".join(getattr(b, "text", "") for b in msg.content if getattr(b, "type", "") == "text")
     data = extract_json(text)
-    if data and valid(data):
-        data["lastUpdated"] = now_ms()
-        return data
-    raise ValueError("no valid JSON returned")
+    if not (data and valid(data)):
+        raise ValueError("no valid JSON returned")
+    def fix(stories):
+        for s in (stories or []):
+            c = by_url.get(s.get("url"))
+            if c:
+                s["timestamp"] = c["ts"]
+    for k in ("left", "center", "right"):
+        fix((data.get("columns") or {}).get(k))
+    for g in (data.get("groups") or []):
+        fix(g.get("stories"))
+    data["lastUpdated"] = now_ms()
+    return data
 
 STATUS = {}
 
