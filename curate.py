@@ -1115,12 +1115,12 @@ def curate_live(section):
     arcs = narrative_candidates(section)
     drudge = drudge_candidates() if section == "main" else []
     cands, seen = [], set()
-    for c in (drudge[:35] + arcs[:45] + breaking[:45]):
+    for c in (drudge[:30] + arcs[:35] + breaking[:35]):
         if c["url"] in seen:
             continue
         seen.add(c["url"])
         cands.append(c)
-    cands = cands[:110]
+    cands = cands[:95]
     if not cands:
         raise ValueError("no Google News candidates for %s" % section)
     by_id = {"c%d" % i: c for i, c in enumerate(cands)}
@@ -1172,9 +1172,17 @@ def curate_live(section):
               "another sublink. Output ONLY the JSON object in a ```json block."
               "%s\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
               % (section, today, editorial, CORE, PROMPTS.get(section, ""), cand_json))
-    msg = client.messages.create(model=working_model(client), max_tokens=16000, system=system,
+    base = dict(model=working_model(client), max_tokens=32000, system=system,
         messages=[{"role": "user",
                    "content": "Curate the current %s cycle from the candidates and return the stories.json." % section}])
+    try:
+        # Bound internal reasoning so the model can't spend the whole budget "thinking"
+        # and leave no room for the JSON answer (that produced empty pages).
+        msg = client.messages.create(thinking={"type": "enabled", "budget_tokens": 10000}, **base)
+    except Exception:
+        # Fallback model without a thinking budget - plain call.
+        base["max_tokens"] = 12000
+        msg = client.messages.create(**base)
     text = "".join((getattr(b, "text", "") or "") for b in msg.content)
     data = extract_json(text)
     if not data:
