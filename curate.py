@@ -1367,8 +1367,12 @@ def ensure_hero_image(section, data):
 
 def build():
     target = (os.environ.get("SECTION", "all") or "all").strip().lower()
-    targets = SECTIONS if target in ("", "all") else [target]
-    print("Refreshing:", ", ".join(targets))
+    if target in ("deploy-only", "deploy", "none", "site"):
+        targets = []          # rebuild + redeploy the site from existing stories; no curation
+        print("Deploy-only: pushing site/code changes from existing stories (no new articles).")
+    else:
+        targets = SECTIONS if target in ("", "all") else [target]
+        print("Refreshing:", ", ".join(targets))
     if os.path.exists(SITE):
         shutil.rmtree(SITE)
     os.makedirs(SITE)
