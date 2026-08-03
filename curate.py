@@ -875,27 +875,107 @@ def _merge_groups(existing, fresh, orig):
                 old_kept.append({**g, "stories": st})
     return fresh_out + old_kept
 
+NEW_PER_HOUR = float(os.environ.get("NEW_PER_HOUR", "1"))
+NEW_MIN = int(os.environ.get("NEW_MIN", "3"))
+NEW_MAX = int(os.environ.get("NEW_MAX", "30"))
+
+def _has_content(d):
+    c = (d or {}).get("columns") or {}
+    if any(c.get(k) for k in ("left", "center", "right")):
+        return True
+    return bool((d or {}).get("groups"))
+
+def _new_cap(existing):
+    """How many brand-new stories this run may add, auto-scaled by time since last update."""
+    last = (existing or {}).get("lastUpdated")
+    if not last or not _has_content(existing):
+        return 10 ** 6                      # first/empty build -> fill the page
+    hours = max(0.0, (now_ms() - last) / 3600000.0)
+    return max(NEW_MIN, min(NEW_MAX, int(hours * NEW_PER_HOUR + 0.999)))
+
 def merge(existing, fresh):
     ex = existing or {}; fr = fresh or {}
     orig = _orig_ts(ex)
-    cols = lambda d, k: (d.get("columns") or {}).get(k)
     today = datetime.date.today().isoformat()
+    cap = _new_cap(ex)
+
+    # base = existing page, expired stories trimmed, order preserved
+    ex_cols = {k: _expire((ex.get("columns") or {}).get(k)) for k in ("left", "center", "right")}
+    ex_groups = []
+    for g in (ex.get("groups") or []):
+        st = _expire(g.get("stories"))
+        if st:
+            ex_groups.append({**g, "stories": st})
+
+    have = set()
+    for k in ("left", "center", "right"):
+        for s in ex_cols[k]:
+            if s.get("url"):
+                have.add(s["url"])
+    for g in ex_groups:
+        for s in g["stories"]:
+            if s.get("url"):
+                have.add(s["url"])
+
+    # collect brand-new fresh stories, tagged with where fresh placed them
+    newc = []
+    for k in ("left", "center", "right"):
+        for s in ((fr.get("columns") or {}).get(k) or []):
+            u = s.get("url")
+            if u and u not in have:
+                newc.append((s.get("timestamp") or now_ms(), ("col", k), s))
+    for g in (fr.get("groups") or []):
+        for s in (g.get("stories") or []):
+            u = s.get("url")
+            if u and u not in have:
+                newc.append((s.get("timestamp") or now_ms(), ("group", g.get("title")), s))
+
+    # newest first, dedupe by url, admit at most `cap`
+    seen = set(); ordered = []
+    for ts, loc, s in sorted(newc, key=lambda x: x[0], reverse=True):
+        u = s.get("url")
+        if u in seen:
+            continue
+        seen.add(u); ordered.append((loc, s))
+    selected = ordered[:cap]
+
+    # place new stories at the TOP of their location; existing clusters stay put
+    add_cols = {"left": [], "center": [], "right": []}
+    ex_group_by_title = {g.get("title"): g for g in ex_groups}
+    brand_new = {}
+    for loc, s in selected:
+        s = dict(s); s["timestamp"] = orig.get(s.get("url")) or s.get("timestamp") or now_ms()
+        kind, key = loc
+        if kind == "group" and key in ex_group_by_title:
+            ex_group_by_title[key]["stories"].insert(0, s)      # extend an existing cluster
+        elif kind == "group":
+            brand_new.setdefault(key, []).append(s)             # candidate new cluster
+        else:
+            add_cols[key].append(s)
+
+    for k in ("left", "center", "right"):
+        ex_cols[k] = add_cols[k] + ex_cols[k]                   # new standalone on top
+
+    new_groups = []; rr = ["left", "center", "right"]; i = 0
+    for title, stories in brand_new.items():
+        if len(stories) >= 2:
+            new_groups.append({"title": title, "stories": stories})
+        else:
+            for s in stories:                                   # lone item -> a column
+                ex_cols[rr[i % 3]].insert(0, s); i += 1
+    groups = new_groups + ex_groups                            # new clusters above existing
+
+    # hero: locked once per day, unless the model flags a dominant override
     ex_hero = ex.get("hero") or {}
-    if ex_hero.get("headline") and ex.get("heroSetDate") == today:
-        hero = ex_hero                      # headline + image locked once per day
+    override = bool(fr.get("heroOverride"))
+    if ex_hero.get("headline") and ex.get("heroSetDate") == today and not override:
+        hero, hero_date = ex_hero, ex.get("heroSetDate")
     else:
-        hero = fr.get("hero") or ex_hero or {}
-    out = {
-        "lastUpdated": now_ms(),
-        "heroSetDate": today,
-        "hero": hero,
-        "groups": _merge_groups(ex.get("groups"), fr.get("groups"), orig),
-        "columns": {
-            "left": _merge_list(cols(ex, "left"), cols(fr, "left"), orig),
-            "center": _merge_list(cols(ex, "center"), cols(fr, "center"), orig),
-            "right": _merge_list(cols(ex, "right"), cols(fr, "right"), orig),
-        },
-    }
+        hero, hero_date = (fr.get("hero") or ex_hero or {}), today
+
+    out = {"lastUpdated": now_ms(), "heroSetDate": hero_date, "hero": hero,
+           "groups": groups,
+           "columns": {k: _expire(ex_cols[k]) for k in ("left", "center", "right")}}
     for key in ("scoreboard", "markets"):
         if key in fr:
             out[key] = fr[key]
@@ -956,6 +1036,47 @@ def google_news_candidates(section):
     items.sort(key=lambda x: x["ts"], reverse=True)
     return items[:60]
 
+DRUDGE_URL = "https://www.drudgereport.com/"
+DRUDGE_BLOCK = ("drudgereport.com", "freestar", "apps.apple.com", "play.google.com",
+                "mailto", "trends.google", "boxofficemojo", "thefutoncritic",
+                "charts.youtube", "economist.com/interactive", "pressreader.com",
+                "earthquake.usgs.gov", "zoom.earth", "apnews.com/projects",
+                "reuters.com/news/archive", "news.sky.com/story")
+
+def drudge_candidates(limit=40):
+    """Pull the links Drudge Report is currently featuring - a hand-curated human feed."""
+    try:
+        html = _fetch_bytes(DRUDGE_URL).decode("utf-8", "ignore")
+    except Exception as e:
+        print("    drudge fetch failed: %s" % e)
+        return []
+    items, seen = [], set()
+    for m in re.finditer(r'<a[^>]*href="([^"]+)"[^>]*>(.*?)</a>', html, re.I | re.S):
+        url = m.group(1).strip()
+        text = unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip()
+        if not url.startswith("http"):
+            continue
+        low = url.lower()
+        if any(b in low for b in DRUDGE_BLOCK):
+            continue
+        try:
+            p = urllib.parse.urlparse(url)
+        except Exception:
+            continue
+        if len(p.path.strip("/")) < 4 and not p.query:     # skip homepage/outlet-directory links
+            continue
+        t = re.sub(r"\.\.\.$", "", text.strip().strip("*").strip()).strip()
+        if len(t) < 8 or len(t.split()) < 2:
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        items.append({"title": t, "url": url, "source": "Drudge Report",
+                      "ts": now_ms(), "arc": "Drudge pick"})
+        if len(items) >= limit:
+            break
+    return items
+
 def narrative_candidates(section):
     """Hunt the section's standing narrative arcs on a wide window so long-running stories,
     breadth, and oddity keep surfacing (open sourcing, not just the fixed outlet list)."""
@@ -992,13 +1113,14 @@ def curate_live(section):
     for c in breaking:
         c.setdefault("arc", "breaking")
     arcs = narrative_candidates(section)
+    drudge = drudge_candidates() if section == "main" else []
     cands, seen = [], set()
-    for c in (arcs[:55] + breaking[:55]):
+    for c in (drudge[:35] + arcs[:45] + breaking[:45]):
         if c["url"] in seen:
             continue
         seen.add(c["url"])
         cands.append(c)
-    cands = cands[:95]
+    cands = cands[:110]
     if not cands:
         raise ValueError("no Google News candidates for %s" % section)
     by_id = {"c%d" % i: c for i, c in enumerate(cands)}
@@ -1022,7 +1144,22 @@ def curate_live(section):
             "or science/religion curiosities - the surprising picks that give the page personality.\n"
             "- JUXTAPOSITION: deliberately vary tone and subject between adjacent items.\n"
             "- SOURCING: welcome tabloid, foreign, and niche outlets alongside wire and mainstream.\n"
+            "- HAND-PICKED: candidates tagged 'Drudge pick' come from a veteran human editor's "
+            "front page - weight them as high-quality, distinctive story ideas worth featuring.\n"
             % arc_names)
+    try:
+        live_hero = (live_current(section) or {}).get("hero") or {}
+    except Exception:
+        live_hero = {}
+    if live_hero.get("headline") and NARRATIVES.get(section):
+        editorial += (
+            "\n\n===== CURRENT HEADLINE =====\n"
+            "The live headline right now is: \"%s\". The headline changes at most once per day. "
+            "Pick the single best hero from today's candidates as usual, then include a top-level "
+            "boolean field \"heroOverride\": set it TRUE only if your chosen hero is a MAJOR, dominant "
+            "breaking story (heavy coverage across many outlets) that clearly outweighs the current "
+            "headline above; otherwise set it false."
+            % live_hero.get("headline"))
     system = ("You are the DuncanReport.com curation engine for the '%s' section. Today is %s. Follow the "
               "CORE CONTRACT and the SECTION rules. You are given CANDIDATE stories pulled from this "
               "section's outlets and its narrative arcs via Google News. SELECT and ORGANIZE ONLY from "
