@@ -648,7 +648,29 @@ DOMAINS = json.loads(r"""
   "nypost.com",
   "washingtonexaminer.com",
   "washingtontimes.com",
-  "wsj.com"
+  "wsj.com",
+  "notthebee.com",
+  "reuters.com",
+  "axios.com",
+  "thehill.com",
+  "semafor.com",
+  "businessinsider.com",
+  "theatlantic.com",
+  "thedailybeast.com",
+  "motherjones.com",
+  "rollingstone.com",
+  "salon.com",
+  "nationalreview.com",
+  "realclearpolitics.com",
+  "thefp.com",
+  "dailywire.com",
+  "thefederalist.com",
+  "dailymail.co.uk",
+  "thesmokinggun.com",
+  "pagesix.com",
+  "telegraph.co.uk",
+  "ynetnews.com",
+  "jpost.com"
  ],
  "politics": [
   "cnn.com",
@@ -742,6 +764,29 @@ DOMAINS = json.loads(r"""
  ]
 }
 """)
+
+# Standing narrative arcs the engine actively hunts every cycle (wider window than
+# breaking news) so long-running stories, breadth, and oddity keep showing up.
+# Editable config: add/adjust an arc's search query to steer coverage. Main page only for now.
+NARRATIVES = json.loads(r"""
+{
+ "main": [
+  {"arc": "Trump presidency", "q": "Trump (approval OR investigation OR lawsuit OR administration OR staff)"},
+  {"arc": "2026 elections", "q": "2026 (midterm OR Senate race OR House race OR governor race OR primary)"},
+  {"arc": "Mideast war", "q": "(Iran OR Israel OR Gaza OR \"West Bank\") (strike OR war OR escalation OR ceasefire OR attack)"},
+  {"arc": "Economy anxiety", "q": "(inflation OR layoffs OR housing OR \"cost of living\" OR bailout OR recession OR tariffs) economy"},
+  {"arc": "AI and tech dystopia", "q": "(\"artificial intelligence\" OR AI) (jobs OR danger OR deepfake OR lawsuit OR outage OR scandal)"},
+  {"arc": "Immigration and border", "q": "(immigration OR border OR deportation OR ICE OR migrants) United States"},
+  {"arc": "Crime and mayhem", "q": "(shooting OR murder OR manhunt OR stabbing OR arrested) US"},
+  {"arc": "Culture war", "q": "(transgender OR DEI OR \"free speech\" OR abortion OR religion OR woke) controversy"},
+  {"arc": "Press freedom and overreach", "q": "(\"press freedom\" OR journalist OR subpoena OR surveillance OR censorship OR whistleblower)"},
+  {"arc": "Weird and human-interest", "q": "(bizarre OR strange OR unbelievable OR shocking) (man OR woman OR police OR neighbor)"},
+  {"arc": "Science and religion curiosities", "q": "(archaeology OR ancient OR discovery OR study OR space OR fossil) scientists"},
+  {"arc": "Disasters and weather", "q": "(earthquake OR hurricane OR wildfire OR flood OR tornado OR eruption) warning"}
+ ]
+}
+""")
+
 
 def now_ms(): return int(time.time() * 1000)
 
@@ -911,24 +956,85 @@ def google_news_candidates(section):
     items.sort(key=lambda x: x["ts"], reverse=True)
     return items[:60]
 
+def narrative_candidates(section):
+    """Hunt the section's standing narrative arcs on a wide window so long-running stories,
+    breadth, and oddity keep surfacing (open sourcing, not just the fixed outlet list)."""
+    arcs = NARRATIVES.get(section) or []
+    items, seen = [], set()
+    for a in arcs:
+        url = GNEWS % urllib.parse.quote("%s when:12d" % a["q"])
+        try:
+            root = ET.fromstring(_fetch_bytes(url))
+        except Exception as e:
+            print("    arc gnews failed for %s: %s" % (a["arc"], e)); continue
+        n = 0
+        for it in root.iter("item"):
+            title = (it.findtext("title") or "").strip()
+            link = (it.findtext("link") or "").strip()
+            if not title or not link or link in seen:
+                continue
+            seen.add(link)
+            src_el = it.find("source")
+            source = (src_el.text if (src_el is not None and src_el.text) else "")
+            if source and title.endswith(" - " + source):
+                title = title[: -(len(source) + 3)].strip()
+            items.append({"title": unescape(title), "url": link, "source": source or a["arc"],
+                          "ts": _pub_ms(it.findtext("pubDate") or ""), "arc": a["arc"]})
+            n += 1
+            if n >= 6:
+                break
+    return items
+
 def curate_live(section):
     from anthropic import Anthropic
     client = Anthropic()
-    cands = google_news_candidates(section)
+    breaking = google_news_candidates(section)
+    for c in breaking:
+        c.setdefault("arc", "breaking")
+    arcs = narrative_candidates(section)
+    cands, seen = [], set()
+    for c in (arcs[:55] + breaking[:55]):
+        if c["url"] in seen:
+            continue
+        seen.add(c["url"])
+        cands.append(c)
+    cands = cands[:95]
     if not cands:
         raise ValueError("no Google News candidates for %s" % section)
     by_id = {"c%d" % i: c for i, c in enumerate(cands)}
-    cand_json = json.dumps([{"id": "c%d" % i, "title": c["title"], "source": c["source"], "ts": c["ts"]}
+    cand_json = json.dumps([{"id": "c%d" % i, "title": c["title"], "source": c["source"],
+                             "ts": c["ts"], "arc": c.get("arc", "breaking")}
                             for i, c in enumerate(cands)], ensure_ascii=False)
     today = datetime.date.today().isoformat()
+    editorial = ""
+    if NARRATIVES.get(section):
+        arc_names = ", ".join(a["arc"] for a in NARRATIVES[section])
+        editorial = (
+            "\n\n===== EDITORIAL DIRECTION (Drudge-style) =====\n"
+            "Each candidate has an 'arc' tag naming the long-running narrative it belongs to "
+            "('breaking' = fresh top-of-outlet news). Do NOT simply rank by how many outlets carry a "
+            "story - consensus-ranking produces a sterile, homogeneous page. Instead:\n"
+            "- BREADTH: the finished page must span many DIFFERENT arcs and subjects; never cluster "
+            "several items on the same story. Pull across these arcs: %s.\n"
+            "- CONTINUITY: for an ongoing arc, choose its newest development and frame the headline as "
+            "the NEXT BEAT of a story readers already follow - advance it, don't just restate it.\n"
+            "- ODDITY: reserve at least 2-3 slots for offbeat, human-interest, crime-weird, celebrity, "
+            "or science/religion curiosities - the surprising picks that give the page personality.\n"
+            "- JUXTAPOSITION: deliberately vary tone and subject between adjacent items.\n"
+            "- SOURCING: welcome tabloid, foreign, and niche outlets alongside wire and mainstream.\n"
+            % arc_names)
     system = ("You are the DuncanReport.com curation engine for the '%s' section. Today is %s. Follow the "
               "CORE CONTRACT and the SECTION rules. You are given CANDIDATE stories pulled from this "
-              "section's own outlets via Google News. SELECT and ORGANIZE ONLY from these candidates - do "
-              "not invent stories, headlines, or URLs. In your output set each story's url field to that candidate's id (e.g. c7), NOT a real URL, and use its ts (Unix ms) as "
-              "the timestamp. Rank by how many candidates/outlets cover the same story (frequency-ranked), "
-              "and build hero, groups, and columns per SCHEMA.md. For hero.sublinks pick 2-4 DIFFERENT candidates about the same hero story, each a distinct angle (a development, reaction, analysis, or key detail); write each sublink text to describe its OWN unique angle - never restate the headline or repeat another sublink. Output ONLY the JSON object in a ```json "
-              "block.\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
-              % (section, today, CORE, PROMPTS.get(section, ""), cand_json))
+              "section's outlets and its narrative arcs via Google News. SELECT and ORGANIZE ONLY from "
+              "these candidates - do not invent stories, headlines, or URLs. In your output set each "
+              "story's url field to that candidate's id (e.g. c7), NOT a real URL, and use its ts (Unix "
+              "ms) as the timestamp. Build hero, groups, and columns per SCHEMA.md, following the "
+              "EDITORIAL DIRECTION. For hero.sublinks pick 2-4 DIFFERENT candidates about the same hero "
+              "story, each a distinct angle (a development, reaction, analysis, or key detail); write each "
+              "sublink text to describe its OWN unique angle - never restate the headline or repeat "
+              "another sublink. Output ONLY the JSON object in a ```json block."
+              "%s\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
+              % (section, today, editorial, CORE, PROMPTS.get(section, ""), cand_json))
     msg = client.messages.create(model=working_model(client), max_tokens=16000, system=system,
         messages=[{"role": "user",
                    "content": "Curate the current %s cycle from the candidates and return the stories.json." % section}])
@@ -972,7 +1078,7 @@ def data_for(section, is_target):
             except Exception:
                 existing = None
             STATUS[section] = "curated-live"
-            return merge(existing, fresh)
+            return resolve_source_links(merge(existing, fresh))
         except Exception as e:
             STATUS[section] = "curate-FAILED: " + repr(e)[:400]
             print("  live curation failed for %s: %s" % (section, e))
@@ -980,11 +1086,11 @@ def data_for(section, is_target):
         d = live_current(section)
         if section not in STATUS:
             STATUS[section] = "preserved-live (not curated this run)"
-        return d
+        return resolve_source_links(d)
     except Exception:
         if section not in STATUS:
             STATUS[section] = "seed-or-empty"
-        return seed(section)
+        return resolve_source_links(seed(section))
 
 
 def _img_dest(section):
@@ -1001,6 +1107,43 @@ def _download_image(url, dest):
     with open(dest, "wb") as f:
         f.write(blob)
     return True
+
+_URL_CACHE = {}
+
+def resolve_link(u):
+    """Turn a Google News redirect URL into the real source URL (cached, graceful)."""
+    if not u or "news.google.com" not in str(u):
+        return u
+    if u in _URL_CACHE:
+        return _URL_CACHE[u]
+    real = u
+    try:
+        r = decode_gnews(u)
+        if r and str(r).startswith("http"):
+            real = r
+    except Exception:
+        pass
+    _URL_CACHE[u] = real
+    return real
+
+def resolve_source_links(data):
+    """Rewrite every story link in the file to point directly at its source outlet."""
+    hero = data.get("hero") or {}
+    if hero.get("url"):
+        hero["url"] = resolve_link(hero["url"])
+    for sl in (hero.get("sublinks") or []):
+        if isinstance(sl, dict) and sl.get("url"):
+            sl["url"] = resolve_link(sl["url"])
+    for k in ("left", "center", "right"):
+        for s in ((data.get("columns") or {}).get(k) or []):
+            if isinstance(s, dict) and s.get("url"):
+                s["url"] = resolve_link(s["url"])
+    for g in (data.get("groups") or []):
+        for s in (g.get("stories") or []):
+            if isinstance(s, dict) and s.get("url"):
+                s["url"] = resolve_link(s["url"])
+    return data
+
 
 def decode_gnews(gn_url):
     """Resolve a Google News redirect link to the real article URL."""
@@ -1053,11 +1196,18 @@ def ensure_hero_image(section, data):
                 return
         except Exception:
             pass
-    # resolve Google News link -> article -> og:image
+    # get the article and pull its og:image (hero_url may already be the real source)
+    real = None
     if hero_url and "news.google.com" in str(hero_url):
         try:
             real = decode_gnews(hero_url)
-            img_url = og_image_url(real) if real else None
+        except Exception as e:
+            print("    hero decode failed for %s: %s" % (section, e))
+    elif hero_url and str(hero_url).startswith("http"):
+        real = hero_url
+    if real:
+        try:
+            img_url = og_image_url(real)
             if img_url and _download_image(img_url, dest):
                 print("    hero og:image saved for", section)
                 return
