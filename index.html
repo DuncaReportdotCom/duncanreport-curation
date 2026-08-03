@@ -449,7 +449,10 @@ return str.split(' ').map(word => {
 // Strip punctuation to check if core letters are all-caps (e.g. "IEA:" "U.S." "FBI,")
 const core = word.replace(/[^a-zA-Z]/g, '');
 if (core.length > 1 && core === core.toUpperCase()) return word;
-return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+// Capitalize the first LETTER (skip any leading quote/punctuation), lowercase the rest
+const i = word.search(/[a-zA-Z]/);
+if (i === -1) return word;
+return word.slice(0, i) + word.charAt(i).toUpperCase() + word.slice(i + 1).toLowerCase();
 }).join(' ');
 }
 function tagPrefix(s) {
