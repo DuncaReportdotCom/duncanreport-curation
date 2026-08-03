@@ -928,7 +928,7 @@ def curate_live(section):
     text = "".join(getattr(b, "text", "") for b in msg.content if getattr(b, "type", "") == "text")
     data = extract_json(text)
     if not data:
-        raise ValueError("no JSON parsed (resp len=%d): %s" % (len(text), text[:220].replace(chr(10), " ")))
+        raise ValueError("no JSON parsed (resp len=%d): %s" % (len(text), text[:1400].replace(chr(10), " ")))
     if not valid(data):
         raise ValueError("JSON wrong shape, keys=%s" % list(data.keys()))
     def fix(stories):
