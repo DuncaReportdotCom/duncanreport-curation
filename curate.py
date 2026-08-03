@@ -910,14 +910,14 @@ def curate_live(section):
     cands = google_news_candidates(section)
     if not cands:
         raise ValueError("no Google News candidates for %s" % section)
-    by_url = {c["url"]: c for c in cands}
-    cand_json = json.dumps([{"title": c["title"], "source": c["source"], "url": c["url"], "ts": c["ts"]}
-                            for c in cands], ensure_ascii=False)
+    by_id = {"c%d" % i: c for i, c in enumerate(cands)}
+    cand_json = json.dumps([{"id": "c%d" % i, "title": c["title"], "source": c["source"], "ts": c["ts"]}
+                            for i, c in enumerate(cands)], ensure_ascii=False)
     today = datetime.date.today().isoformat()
     system = ("You are the DuncanReport.com curation engine for the '%s' section. Today is %s. Follow the "
               "CORE CONTRACT and the SECTION rules. You are given CANDIDATE stories pulled from this "
               "section's own outlets via Google News. SELECT and ORGANIZE ONLY from these candidates - do "
-              "not invent stories, headlines, or URLs. Use each story's exact url, and its ts (Unix ms) as "
+              "not invent stories, headlines, or URLs. In your output set each story's url field to that candidate's id (e.g. c7), NOT a real URL, and use its ts (Unix ms) as "
               "the timestamp. Rank by how many candidates/outlets cover the same story (frequency-ranked), "
               "and build hero, groups, and columns per SCHEMA.md. Output ONLY the JSON object in a ```json "
               "block.\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
@@ -931,15 +931,23 @@ def curate_live(section):
         raise ValueError("no JSON parsed (resp len=%d): %s" % (len(text), text[:1400].replace(chr(10), " ")))
     if not valid(data):
         raise ValueError("JSON wrong shape, keys=%s" % list(data.keys()))
-    def fix(stories):
-        for s in (stories or []):
-            c = by_url.get(s.get("url"))
-            if c:
-                s["timestamp"] = c["ts"]
+    def fix_story(s):
+        if isinstance(s, dict) and s.get("url") in by_id:
+            c = by_id[s["url"]]
+            s["url"] = c["url"]
+            s["timestamp"] = c["ts"]
+    hero = data.get("hero") or {}
+    if hero.get("url") in by_id:
+        hero["url"] = by_id[hero["url"]]["url"]
+    for sl in (hero.get("sublinks") or []):
+        if isinstance(sl, dict) and sl.get("url") in by_id:
+            sl["url"] = by_id[sl["url"]]["url"]
     for k in ("left", "center", "right"):
-        fix((data.get("columns") or {}).get(k))
+        for s in ((data.get("columns") or {}).get(k) or []):
+            fix_story(s)
     for g in (data.get("groups") or []):
-        fix(g.get("stories"))
+        for s in (g.get("stories") or []):
+            fix_story(s)
     data["lastUpdated"] = now_ms()
     return data
 
