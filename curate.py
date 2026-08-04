@@ -768,24 +768,308 @@ DOMAINS = json.loads(r"""
 # Standing narrative arcs the engine actively hunts every cycle (wider window than
 # breaking news) so long-running stories, breadth, and oddity keep showing up.
 # Editable config: add/adjust an arc's search query to steer coverage. Main page only for now.
-NARRATIVES = json.loads(r"""
-{
+NARRATIVES = json.loads(r"""{
  "main": [
-  {"arc": "Trump presidency", "q": "Trump (approval OR investigation OR lawsuit OR administration OR staff)"},
-  {"arc": "2026 elections", "q": "2026 (midterm OR Senate race OR House race OR governor race OR primary)"},
-  {"arc": "Mideast war", "q": "(Iran OR Israel OR Gaza OR \"West Bank\") (strike OR war OR escalation OR ceasefire OR attack)"},
-  {"arc": "Economy anxiety", "q": "(inflation OR layoffs OR housing OR \"cost of living\" OR bailout OR recession OR tariffs) economy"},
-  {"arc": "AI and tech dystopia", "q": "(\"artificial intelligence\" OR AI) (jobs OR danger OR deepfake OR lawsuit OR outage OR scandal)"},
-  {"arc": "Immigration and border", "q": "(immigration OR border OR deportation OR ICE OR migrants) United States"},
-  {"arc": "Crime and mayhem", "q": "(shooting OR murder OR manhunt OR stabbing OR arrested) US"},
-  {"arc": "Culture war", "q": "(transgender OR DEI OR \"free speech\" OR abortion OR religion OR woke) controversy"},
-  {"arc": "Press freedom and overreach", "q": "(\"press freedom\" OR journalist OR subpoena OR surveillance OR censorship OR whistleblower)"},
-  {"arc": "Weird and human-interest", "q": "(bizarre OR strange OR unbelievable OR shocking) (man OR woman OR police OR neighbor)"},
-  {"arc": "Science and religion curiosities", "q": "(archaeology OR ancient OR discovery OR study OR space OR fossil) scientists"},
-  {"arc": "Disasters and weather", "q": "(earthquake OR hurricane OR wildfire OR flood OR tornado OR eruption) warning"}
+  {
+   "arc": "Trump presidency",
+   "q": "Trump (approval OR investigation OR lawsuit OR administration OR staff)"
+  },
+  {
+   "arc": "2026 elections",
+   "q": "2026 (midterm OR Senate race OR House race OR governor race OR primary)"
+  },
+  {
+   "arc": "Mideast war",
+   "q": "(Iran OR Israel OR Gaza OR \"West Bank\") (strike OR war OR escalation OR ceasefire OR attack)"
+  },
+  {
+   "arc": "Economy anxiety",
+   "q": "(inflation OR layoffs OR housing OR \"cost of living\" OR bailout OR recession OR tariffs) economy"
+  },
+  {
+   "arc": "AI and tech dystopia",
+   "q": "(\"artificial intelligence\" OR AI) (jobs OR danger OR deepfake OR lawsuit OR outage OR scandal)"
+  },
+  {
+   "arc": "Immigration and border",
+   "q": "(immigration OR border OR deportation OR ICE OR migrants) United States"
+  },
+  {
+   "arc": "Crime and mayhem",
+   "q": "(shooting OR murder OR manhunt OR stabbing OR arrested) US"
+  },
+  {
+   "arc": "Culture war",
+   "q": "(transgender OR DEI OR \"free speech\" OR abortion OR religion OR woke) controversy"
+  },
+  {
+   "arc": "Press freedom and overreach",
+   "q": "(\"press freedom\" OR journalist OR subpoena OR surveillance OR censorship OR whistleblower)"
+  },
+  {
+   "arc": "Weird and human-interest",
+   "q": "(bizarre OR strange OR unbelievable OR shocking) (man OR woman OR police OR neighbor)"
+  },
+  {
+   "arc": "Science and religion curiosities",
+   "q": "(archaeology OR ancient OR discovery OR study OR space OR fossil) scientists"
+  },
+  {
+   "arc": "Disasters and weather",
+   "q": "(earthquake OR hurricane OR wildfire OR flood OR tornado OR eruption) warning"
+  }
+ ],
+ "sports": [
+  {
+   "arc": "NFL",
+   "q": "NFL (game OR trade OR injury OR playoff OR quarterback)"
+  },
+  {
+   "arc": "NBA",
+   "q": "NBA (game OR trade OR playoff OR injury OR star)"
+  },
+  {
+   "arc": "MLB",
+   "q": "MLB (game OR trade OR playoff OR pitcher OR \"World Series\")"
+  },
+  {
+   "arc": "NHL",
+   "q": "NHL (game OR trade OR playoff OR \"Stanley Cup\")"
+  },
+  {
+   "arc": "College football",
+   "q": "college football (ranking OR playoff OR coach OR upset OR game)"
+  },
+  {
+   "arc": "College basketball",
+   "q": "college basketball (ranking OR \"March Madness\" OR upset OR game)"
+  },
+  {
+   "arc": "Soccer",
+   "q": "soccer (\"Premier League\" OR \"Champions League\" OR \"World Cup\" OR transfer)"
+  },
+  {
+   "arc": "Trades and free agency",
+   "q": "(trade OR \"free agency\" OR signing OR contract) sports"
+  },
+  {
+   "arc": "Playoffs and championships",
+   "q": "(playoff OR championship OR finals OR title) sports"
+  },
+  {
+   "arc": "Betting and odds",
+   "q": "sports (betting OR odds OR gambling OR DraftKings)"
+  },
+  {
+   "arc": "Athlete drama",
+   "q": "athlete (scandal OR arrested OR controversy OR retirement OR feud)"
+  },
+  {
+   "arc": "Upsets and oddity",
+   "q": "sports (upset OR record OR bizarre OR shocking OR viral)"
+  }
+ ],
+ "world": [
+  {
+   "arc": "Mideast conflict",
+   "q": "(Iran OR Israel OR Gaza OR Syria OR Lebanon) conflict"
+  },
+  {
+   "arc": "Russia-Ukraine",
+   "q": "(Russia OR Ukraine) (war OR offensive OR strike OR \"peace talks\")"
+  },
+  {
+   "arc": "China and Taiwan",
+   "q": "China (Taiwan OR military OR economy OR Xi OR tensions)"
+  },
+  {
+   "arc": "Europe",
+   "q": "Europe (election OR protest OR EU OR crisis OR \"far-right\")"
+  },
+  {
+   "arc": "Latin America",
+   "q": "(Mexico OR Venezuela OR Brazil OR Argentina) (crisis OR election OR cartel)"
+  },
+  {
+   "arc": "Africa",
+   "q": "Africa (conflict OR coup OR election OR crisis)"
+  },
+  {
+   "arc": "Migration",
+   "q": "(migrants OR refugees OR migration) (border OR crisis OR Europe)"
+  },
+  {
+   "arc": "Global economy",
+   "q": "\"global economy\" (trade OR tariffs OR IMF OR crisis)"
+  },
+  {
+   "arc": "Terrorism and security",
+   "q": "(terrorism OR attack OR ISIS OR extremist) international"
+  },
+  {
+   "arc": "Disasters abroad",
+   "q": "(earthquake OR flood OR typhoon OR famine) international"
+  },
+  {
+   "arc": "Diplomacy and summits",
+   "q": "(summit OR UN OR NATO OR treaty OR diplomacy) leaders"
+  },
+  {
+   "arc": "Human rights",
+   "q": "(\"human rights\" OR protest OR crackdown OR dissident) government"
+  }
+ ],
+ "markets": [
+  {
+   "arc": "Fed and rates",
+   "q": "(\"Federal Reserve\" OR \"interest rates\" OR Powell OR \"rate cut\")"
+  },
+  {
+   "arc": "Stock market",
+   "q": "stock market (record OR selloff OR rally OR Dow OR \"S&P 500\")"
+  },
+  {
+   "arc": "Big Tech earnings",
+   "q": "(Apple OR Microsoft OR Nvidia OR Amazon OR Google) (earnings OR stock)"
+  },
+  {
+   "arc": "Crypto",
+   "q": "(bitcoin OR crypto OR ethereum) (price OR SEC OR rally OR crash)"
+  },
+  {
+   "arc": "Oil and energy",
+   "q": "(\"oil prices\" OR OPEC OR energy OR \"natural gas\")"
+  },
+  {
+   "arc": "Housing",
+   "q": "(\"housing market\" OR \"mortgage rates\" OR \"real estate\" OR \"home prices\")"
+  },
+  {
+   "arc": "Inflation and jobs",
+   "q": "(inflation OR \"jobs report\" OR unemployment OR CPI OR wages)"
+  },
+  {
+   "arc": "Mergers and IPOs",
+   "q": "(merger OR acquisition OR IPO OR buyout) company"
+  },
+  {
+   "arc": "Retail and consumer",
+   "q": "(retail OR \"consumer spending\" OR Amazon OR Walmart OR \"holiday sales\")"
+  },
+  {
+   "arc": "Banking",
+   "q": "(bank OR banking OR \"Wall Street\" OR JPMorgan OR credit)"
+  },
+  {
+   "arc": "AI business",
+   "q": "(\"artificial intelligence\" OR AI) (investment OR startup OR chips OR boom)"
+  },
+  {
+   "arc": "Layoffs and downturn",
+   "q": "(layoffs OR \"job cuts\" OR bankruptcy OR recession) company"
+  }
+ ],
+ "politics": [
+  {
+   "arc": "Trump administration",
+   "q": "Trump (administration OR \"executive order\" OR cabinet OR policy)"
+  },
+  {
+   "arc": "Congress",
+   "q": "Congress (bill OR Senate OR House OR vote OR shutdown)"
+  },
+  {
+   "arc": "2026 midterms",
+   "q": "2026 (midterm OR \"Senate race\" OR \"House race\" OR candidate)"
+  },
+  {
+   "arc": "Courts and SCOTUS",
+   "q": "(\"Supreme Court\" OR \"federal court\" OR ruling OR judge) case"
+  },
+  {
+   "arc": "Immigration policy",
+   "q": "immigration (policy OR border OR deportation OR ICE OR Congress)"
+  },
+  {
+   "arc": "Culture-war policy",
+   "q": "(abortion OR transgender OR DEI OR guns) (law OR policy OR court)"
+  },
+  {
+   "arc": "Scandals and investigations",
+   "q": "(investigation OR indictment OR scandal OR subpoena) politician"
+  },
+  {
+   "arc": "State politics",
+   "q": "(governor OR \"state legislature\" OR statehouse) (law OR election)"
+  },
+  {
+   "arc": "Executive actions",
+   "q": "(\"executive order\" OR \"White House\" OR administration) action"
+  },
+  {
+   "arc": "Polls and approval",
+   "q": "(poll OR \"approval rating\" OR survey) (Trump OR Congress OR election)"
+  },
+  {
+   "arc": "Foreign-policy politics",
+   "q": "(\"foreign policy\" OR sanctions OR tariffs OR NATO) administration"
+  },
+  {
+   "arc": "Elections and voting",
+   "q": "(voting OR election OR ballot OR redistricting) law"
+  }
+ ],
+ "life-culture": [
+  {
+   "arc": "Celebrity",
+   "q": "celebrity (scandal OR split OR feud OR death OR baby)"
+  },
+  {
+   "arc": "Hollywood and box office",
+   "q": "(\"box office\" OR movie OR Hollywood OR film) (opening OR record)"
+  },
+  {
+   "arc": "Music",
+   "q": "music (album OR tour OR chart OR Grammy OR artist)"
+  },
+  {
+   "arc": "TV and streaming",
+   "q": "(TV OR streaming OR Netflix OR series OR show) (premiere OR cancel)"
+  },
+  {
+   "arc": "Health and wellness",
+   "q": "(health OR wellness OR diet OR fitness OR study) new"
+  },
+  {
+   "arc": "Food and dining",
+   "q": "(food OR restaurant OR dining OR recipe OR chef)"
+  },
+  {
+   "arc": "Travel",
+   "q": "travel (destination OR airline OR tourism OR vacation)"
+  },
+  {
+   "arc": "Relationships and trends",
+   "q": "(dating OR marriage OR \"Gen Z\" OR \"social trend\" OR lifestyle)"
+  },
+  {
+   "arc": "Viral and internet",
+   "q": "(viral OR TikTok OR internet OR meme OR trend) video"
+  },
+  {
+   "arc": "Religion and faith",
+   "q": "(religion OR faith OR church OR Christian OR spiritual)"
+  },
+  {
+   "arc": "Science oddity",
+   "q": "(science OR discovery OR study OR space OR archaeology) surprising"
+  },
+  {
+   "arc": "Fashion",
+   "q": "(fashion OR style OR \"red carpet\" OR designer OR trend)"
+  }
  ]
-}
-""")
+}""")
 
 
 def now_ms(): return int(time.time() * 1000)
@@ -1000,8 +1284,10 @@ def seed(section):
 
 GNEWS = "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en"
 
-def _fetch_bytes(url, timeout=25, data=None):
-    req = urllib.request.Request(url, data=data, headers={"User-Agent": "Mozilla/5.0 (DuncanReport bot)"})
+BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+
+def _fetch_bytes(url, timeout=25, data=None, ua=None):
+    req = urllib.request.Request(url, data=data, headers={"User-Agent": ua or "Mozilla/5.0 (DuncanReport bot)"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
 
@@ -1172,19 +1458,22 @@ def curate_live(section):
               "another sublink. Output ONLY the JSON object in a ```json block."
               "%s\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
               % (section, today, editorial, CORE, PROMPTS.get(section, ""), cand_json))
-    base = dict(model=working_model(client), max_tokens=16000, system=system,
-        messages=[{"role": "user",
-                   "content": "Curate the current %s cycle from the candidates and return the stories.json." % section}])
+    model = working_model(client)
+    msgs = [{"role": "user",
+             "content": "Curate the current %s cycle from the candidates and return the stories.json." % section}]
     try:
-        # Cap internal reasoning so it can't eat the whole budget and leave no room for the
-        # JSON answer. 16000 stays within the non-streaming size limit, so the request is
-        # always accepted; the 6000 thinking cap leaves ~10000 tokens for the answer.
-        msg = client.messages.create(thinking={"type": "enabled", "budget_tokens": 6000}, **base)
+        # Stream so the model's reasoning plus the full JSON answer are not capped by the
+        # non-streaming size limit. The main page's answer is large enough to overrun a
+        # 16k non-streaming call, which was leaving that page blank.
+        parts = []
+        with client.messages.stream(model=model, max_tokens=30000, system=system, messages=msgs) as st:
+            for chunk in st.text_stream:
+                parts.append(chunk)
+        text = "".join(parts)
     except Exception as e:
-        # Model/SDK without thinking-budget support - plain call at the same safe ceiling.
-        print("    thinking-budget call failed (%s); retrying plain" % e)
-        msg = client.messages.create(**base)
-    text = "".join((getattr(b, "text", "") or "") for b in msg.content)
+        print("    stream failed (%s); non-streaming fallback" % e)
+        msg = client.messages.create(model=model, max_tokens=16000, system=system, messages=msgs)
+        text = "".join((getattr(b, "text", "") or "") for b in msg.content)
     data = extract_json(text)
     if not data:
         info = "stop=%s blocks=%s" % (getattr(msg, "stop_reason", "?"),
@@ -1319,30 +1608,24 @@ def og_image_url(article_url):
             return m.group(1)
     return None
 
+def _is_junk_img(url):
+    u = (url or "").lower()
+    return any(b in u for b in ("google.com", "gstatic", "googleusercontent", "ggpht", "favicon"))
+
+
 def ensure_hero_image(section, data):
-    """Self-host the hero photo. If today's hero is unchanged from what's live, keep the
-    existing image (image changes at most once per day). Otherwise resolve the story and
-    download its og:image. Falls back to the current live image, then the built-in default."""
+    """Self-host the hero photo. Resolve the story to its real og:image; reject Google/consent
+    logos; if no genuine photo is obtainable, write no file so the branded default shows."""
     dest = _img_dest(section)
     hero = data.get("hero") or {}
     hero_url = hero.get("url")
-    live_img = LIVE + ("/hero.jpg" if section == "main" else "/%s/hero.jpg" % section)
-    # unchanged hero -> carry over the existing image
-    try:
-        cur = live_current(section)
-        if hero_url and (cur.get("hero") or {}).get("url") == hero_url and _download_image(live_img, dest):
-            return
-    except Exception:
-        pass
-    # explicit image from curation
     img = hero.get("image")
-    if img and str(img).startswith("http"):
+    if img and str(img).startswith("http") and not _is_junk_img(img):
         try:
             if _download_image(img, dest):
                 return
         except Exception:
             pass
-    # get the article and pull its og:image (hero_url may already be the real source)
     real = None
     if hero_url and "news.google.com" in str(hero_url):
         try:
@@ -1354,23 +1637,158 @@ def ensure_hero_image(section, data):
     if real:
         try:
             img_url = og_image_url(real)
-            if img_url and _download_image(img_url, dest):
+            if img_url and not _is_junk_img(img_url) and _download_image(img_url, dest):
                 print("    hero og:image saved for", section)
                 return
         except Exception as e:
             print("    hero image resolve failed for %s: %s" % (section, e))
-    # last resort: persist whatever is live
+    # no genuine photo -> ensure no stale/junk file remains so the branded default renders
     try:
-        _download_image(live_img, dest)
+        if os.path.exists(dest):
+            os.remove(dest)
+    except Exception:
+        pass
+
+def sports_scoreboard(per_league=10, total=24):
+    """Upcoming / live / final games from ESPN's public scoreboard API. Each game hotlinks
+    to Yahoo's live scoreboard for its league in the front end."""
+    order = {"in": 0, "pre": 1, "post": 2}
+    games = []
+    for league, path in ESPN_LEAGUES.items():
+        try:
+            data = json.loads(_fetch_bytes(
+                "https://site.web.api.espn.com/apis/site/v2/sports/%s/scoreboard" % path,
+                timeout=15, ua=BROWSER_UA))
+        except Exception as e:
+            print("    espn %s failed: %s" % (league, e)); continue
+        for ev in (data.get("events") or [])[:per_league]:
+            try:
+                comp = ev["competitions"][0]; cs = comp["competitors"]
+                home = next(c for c in cs if c.get("homeAway") == "home")
+                away = next(c for c in cs if c.get("homeAway") == "away")
+                st = (ev.get("status") or {}).get("type") or {}
+                state = st.get("state") or "pre"
+                g = {"league": league,
+                     "home": home["team"].get("abbreviation") or home["team"].get("shortDisplayName") or "",
+                     "away": away["team"].get("abbreviation") or away["team"].get("shortDisplayName") or "",
+                     "state": "scheduled" if state == "pre" else state,
+                     "note": st.get("shortDetail") or st.get("detail") or "",
+                     "_o": order.get(state, 3)}
+                if state != "pre":
+                    g["homeScore"] = home.get("score"); g["awayScore"] = away.get("score")
+                else:
+                    g["homeScore"] = None; g["awayScore"] = None
+                games.append(g)
+            except Exception:
+                continue
+    games.sort(key=lambda x: x.get("_o", 3))
+    for g in games:
+        g.pop("_o", None)
+    return games[:total]
+
+def build_metrics(per_section, target):
+    now = now_ms()
+    out = {"generatedAt": now, "target": target,
+           "model": _WORKING_MODEL or MODEL, "keyPresent": bool(os.environ.get("ANTHROPIC_API_KEY")),
+           "cadence": {"curation": "daily 11:00 UTC (adjustable)", "review": "biweekly, 1st & 15th"},
+           "trafficProvider": None, "sections": {}}
+    for sec in SECTIONS:
+        data = per_section.get(sec) or {}
+        cols = data.get("columns") or {}
+        flat = []
+        for k in ("left", "center", "right"):
+            flat += cols.get(k) or []
+        for g in (data.get("groups") or []):
+            flat += g.get("stories") or []
+        hero = data.get("hero") or {}
+        fresh = sum(1 for s in flat if now - (s.get("timestamp") or now) < 24 * 3600 * 1000)
+        sb = data.get("scoreboard") or []
+        sb_counts = {"live": sum(1 for g in sb if g.get("state") == "in"),
+                     "scheduled": sum(1 for g in sb if g.get("state") == "scheduled"),
+                     "final": sum(1 for g in sb if g.get("state") == "post")}
+        out["sections"][sec] = {
+            "content": {"lastUpdated": data.get("lastUpdated"),
+                        "stories": len(flat) + (1 if hero.get("headline") else 0),
+                        "clusters": len(data.get("groups") or []),
+                        "fresh24h": fresh, "aging": len(flat) - fresh},
+            "hero": {"headline": hero.get("headline"), "setDate": data.get("heroSetDate")},
+            "health": {"status": STATUS.get(sec, "not run this cycle")},
+            "scoreboard": (sb_counts if sec == "sports" else None),
+            "marketsStrip": ("static Yahoo Finance quote links" if sec == "markets" else None),
+            "traffic": None,
+            "config": {
+                "outlets": {"count": len(DOMAINS.get(sec, [])), "list": DOMAINS.get(sec, [])},
+                "arcs": [{"arc": a["arc"], "q": a["q"]} for a in NARRATIVES.get(sec, [])],
+                "drudgeSource": sec == "main",
+                "limits": {"retentionDays": 3, "heroOncePerDay": True,
+                           "heroOverride": "a dominant breaking story can replace the hero mid-day",
+                           "newPerRun": {"perHour": NEW_PER_HOUR, "min": NEW_MIN, "max": NEW_MAX},
+                           "candidatePoolCap": 95, "breakingWindow": "2 days", "arcWindow": "12 days",
+                           "thinkingBudget": 6000, "maxTokens": 16000}},
+        }
+    return out
+
+
+def propose_arcs(client, section, current_names, headlines):
+    system = ("You are refining the standing 'narrative arcs' for the DuncanReport.com '%s' page. An arc is a "
+              "recurring story theme the page hunts every cycle, defined by a Google News search query. Given the "
+              "CURRENT arcs and a sample of recent headlines from this page's world, propose NEW arcs that clearly "
+              "recur in the headlines but are NOT already covered by a current arc. For each: a short arc name, a "
+              "Google News search query (use OR and quoted phrases), and a one-line rationale. Return ONLY JSON: "
+              '{"proposed":[{"arc":"..","q":"..","why":".."}]} with 4-8 items.' % section)
+    user = "CURRENT ARCS: %s\n\nRECENT HEADLINES:\n- %s" % (", ".join(current_names), "\n- ".join(headlines[:120]))
+    base = dict(model=working_model(client), max_tokens=4000, system=system,
+                messages=[{"role": "user", "content": user}])
+    try:
+        msg = client.messages.create(thinking={"type": "enabled", "budget_tokens": 3000}, **base)
+    except Exception:
+        msg = client.messages.create(**base)
+    text = "".join((getattr(b, "text", "") or "") for b in msg.content)
+    d = extract_json(text) or {}
+    return d.get("proposed") or []
+
+
+def narrative_review():
+    """Every cycle it runs: list each page's current arcs and propose new ones based on what is
+    actually recurring in that page's crawl but is not yet covered."""
+    from anthropic import Anthropic
+    client = Anthropic()
+    out = {"generatedAt": now_ms(), "sections": {}}
+    for sec in SECTIONS:
+        proposed = []
+        try:
+            pool = narrative_candidates(sec) + google_news_candidates(sec)[:40]
+            if sec == "main":
+                try:
+                    pool += drudge_candidates()
+                except Exception:
+                    pass
+            heads = [c["title"] for c in pool]
+            proposed = propose_arcs(client, sec, [a["arc"] for a in NARRATIVES.get(sec, [])], heads)
+            print("  review %s: %d proposed" % (sec, len(proposed)))
+        except Exception as e:
+            print("  review failed for %s: %s" % (sec, e))
+        out["sections"][sec] = {"current": [{"arc": a["arc"], "q": a["q"]} for a in NARRATIVES.get(sec, [])],
+                                "proposed": proposed}
+    return out
+
+
+def _preserve_review():
+    """Keep the last review.json alive across the site rebuild (site/ is wiped each run)."""
+    try:
+        raw = _fetch_bytes(LIVE + "/review.json", timeout=15)
+        with open(os.path.join(SITE, "review.json"), "wb") as f:
+            f.write(raw)
     except Exception:
         pass
 
 
 def build():
     target = (os.environ.get("SECTION", "all") or "all").strip().lower()
-    if target in ("deploy-only", "deploy", "none", "site"):
-        targets = []          # rebuild + redeploy the site from existing stories; no curation
-        print("Deploy-only: pushing site/code changes from existing stories (no new articles).")
+    review_mode = target in ("narrative-review", "review", "arcs-review")
+    if target in ("deploy-only", "deploy", "none", "site") or review_mode:
+        targets = []
+        print(("Narrative-review" if review_mode else "Deploy-only") + ": no article curation this run.")
     else:
         targets = SECTIONS if target in ("", "all") else [target]
         print("Refreshing:", ", ".join(targets))
@@ -1381,22 +1799,53 @@ def build():
     if not os.path.isfile(src):
         raise SystemExit("ERROR: index.html missing from repo root.")
     shutil.copy2(src, os.path.join(SITE, "index.html"))
-    fav = os.path.join(ROOT, "favicon.ico")
-    if os.path.isfile(fav):
-        shutil.copy2(fav, os.path.join(SITE, "favicon.ico"))
+    for extra in ("favicon.ico", "dashboard.html", "review.html"):
+        p = os.path.join(ROOT, extra)
+        if os.path.isfile(p):
+            shutil.copy2(p, os.path.join(SITE, extra))
     with open(os.path.join(SITE, "_redirects"), "w", encoding="utf-8") as f:
         f.write("/*    /index.html   200\n")
+
+    per_section = {}
     for sec in SECTIONS:
         data = data_for(sec, sec in targets)
+        if sec == "sports":
+            try:
+                sb = sports_scoreboard()
+                if sb:
+                    data["scoreboard"] = sb
+                    print("  scoreboard: %d games" % len(sb))
+            except Exception as e:
+                print("  scoreboard fetch failed:", e)
         dest = os.path.join(SITE, "stories.json") if sec == "main" else os.path.join(SITE, sec, "stories.json")
         os.makedirs(os.path.dirname(dest), exist_ok=True)
         with open(dest, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         print("  wrote", sec)
         ensure_hero_image(sec, data)
+        per_section[sec] = data
+
     with open(os.path.join(SITE, "status.json"), "w", encoding="utf-8") as f:
-        json.dump({"model_default": MODEL, "model_used": _WORKING_MODEL, "key_present": bool(os.environ.get("ANTHROPIC_API_KEY")),
+        json.dump({"model_default": MODEL, "model_used": _WORKING_MODEL,
+                   "key_present": bool(os.environ.get("ANTHROPIC_API_KEY")),
                    "target": os.environ.get("SECTION", "all"), "sections": STATUS}, f, indent=2)
+
+    with open(os.path.join(SITE, "metrics.json"), "w", encoding="utf-8") as f:
+        json.dump(build_metrics(per_section, target), f, ensure_ascii=False, indent=2)
+    print("  wrote metrics.json")
+
+    if review_mode and os.environ.get("ANTHROPIC_API_KEY"):
+        try:
+            rv = narrative_review()
+            with open(os.path.join(SITE, "review.json"), "w", encoding="utf-8") as f:
+                json.dump(rv, f, ensure_ascii=False, indent=2)
+            print("  wrote review.json")
+        except Exception as e:
+            print("  narrative review failed:", e)
+            _preserve_review()
+    else:
+        _preserve_review()
+
     print("Site ready at ./site")
 
 if __name__ == "__main__":
