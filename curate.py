@@ -1532,11 +1532,11 @@ def _img_dest(section):
     return os.path.join(SITE, "hero.jpg") if section == "main" else os.path.join(SITE, section, "hero.jpg")
 
 def _download_image(url, dest):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (DuncanReport bot)"})
-    with urllib.request.urlopen(req, timeout=20) as r:
+    req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
+    with urllib.request.urlopen(req, timeout=12) as r:
         ct = (r.headers.get("Content-Type") or "").lower()
         blob = r.read()
-    if "image" not in ct or len(blob) < 800:
+    if "image" not in ct or len(blob) < 2000:
         return False
     os.makedirs(os.path.dirname(dest), exist_ok=True)
     with open(dest, "wb") as f:
@@ -1597,52 +1597,67 @@ def decode_gnews(gn_url):
     m = re.search(r'(https?://[^"\\]+)', resp.split("garturlres", 1)[-1])
     return m.group(1) if m else None
 
-def og_image_url(article_url):
+def og_image_url(article_url, timeout=9):
     """Pull the article's og:image / twitter:image URL."""
-    html = _fetch_bytes(article_url).decode("utf-8", "ignore")[:80000]
-    for pat in (r'property=["\']og:image["\'][^>]*content=["\']([^"\']+)',
+    html = _fetch_bytes(article_url, timeout=timeout, ua=BROWSER_UA).decode("utf-8", "ignore")[:80000]
+    for pat in (r'property=["\']og:image(?::url)?["\'][^>]*content=["\']([^"\']+)',
                 r'content=["\']([^"\']+)["\'][^>]*property=["\']og:image',
                 r'name=["\']twitter:image["\'][^>]*content=["\']([^"\']+)'):
         m = re.search(pat, html)
         if m:
-            return m.group(1)
+            return unescape(m.group(1))
     return None
 
 def _is_junk_img(url):
     u = (url or "").lower()
-    return any(b in u for b in ("google.com", "gstatic", "googleusercontent", "ggpht", "favicon"))
+    return any(b in u for b in ("google.com", "gstatic", "googleusercontent", "ggpht",
+                                "favicon", "default", "placeholder", "sprite", "blank", "/logo"))
 
 
 def ensure_hero_image(section, data):
-    """Self-host the hero photo. Resolve the story to its real og:image; reject Google/consent
-    logos; if no genuine photo is obtainable, write no file so the branded default shows."""
+    """Self-host a real hero photo. Try the hero article, then its sublinks (same story), then
+    the top cluster/column stories, until one yields a genuine og:image. Reject Google/logo/
+    placeholder images. If nothing works, write no file so the branded default renders."""
     dest = _img_dest(section)
     hero = data.get("hero") or {}
-    hero_url = hero.get("url")
-    img = hero.get("image")
-    if img and str(img).startswith("http") and not _is_junk_img(img):
+    cands = []
+    if hero.get("image"):
+        cands.append(hero["image"])
+    if hero.get("url"):
+        cands.append(hero["url"])
+    for sl in (hero.get("sublinks") or []):
+        if sl.get("url"):
+            cands.append(sl["url"])
+    for g in (data.get("groups") or []):
+        for s in (g.get("stories") or [])[:2]:
+            if s.get("url"):
+                cands.append(s["url"])
+    for k in ("left", "center", "right"):
+        for s in ((data.get("columns") or {}).get(k) or [])[:2]:
+            if s.get("url"):
+                cands.append(s["url"])
+    seen, tries = set(), 0
+    for u in cands:
+        if not u or u in seen:
+            continue
+        seen.add(u)
         try:
-            if _download_image(img, dest):
-                return
-        except Exception:
-            pass
-    real = None
-    if hero_url and "news.google.com" in str(hero_url):
-        try:
-            real = decode_gnews(hero_url)
-        except Exception as e:
-            print("    hero decode failed for %s: %s" % (section, e))
-    elif hero_url and str(hero_url).startswith("http"):
-        real = hero_url
-    if real:
-        try:
+            if re.search(r"\.(jpg|jpeg|png|webp)(\?|$)", str(u), re.I) and not _is_junk_img(u):
+                if _download_image(u, dest):
+                    return
+                continue
+            real = decode_gnews(u) if "news.google.com" in str(u) else u
+            if not real:
+                continue
+            tries += 1
             img_url = og_image_url(real)
             if img_url and not _is_junk_img(img_url) and _download_image(img_url, dest):
-                print("    hero og:image saved for", section)
+                print("    hero image saved for %s" % section)
                 return
-        except Exception as e:
-            print("    hero image resolve failed for %s: %s" % (section, e))
-    # no genuine photo -> ensure no stale/junk file remains so the branded default renders
+        except Exception:
+            continue
+        if tries >= 8:
+            break
     try:
         if os.path.exists(dest):
             os.remove(dest)
