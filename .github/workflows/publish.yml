@@ -1,18 +1,24 @@
 name: Publish DuncanReport
 
 # WHAT THIS DOES:
-# On a schedule (and whenever you click "Run workflow"), GitHub's own servers build
-# and publish the site to Cloudflare. Your laptop is never involved.
+# On a schedule (and whenever you click "Run workflow"), GitHub's servers build and publish
+# the site to Cloudflare. Your laptop is never involved.
 #
 # The "What to publish" dropdown:
-#   all           - curate every page (search for new articles), then deploy
-#   deploy-only   - DO NOT search for new articles; just rebuild the site from the
-#                   stories already live and push your code/formatting changes
+#   all             - curate every page (search for new articles), then deploy
+#   deploy-only     - DO NOT search; just rebuild from the stories already live and push
+#                     code/formatting changes (index.html, dashboard.html, review.html, etc.)
+#   narrative-review- DO NOT curate; generate the biweekly narrative review (review.json)
 #   main, sports, world, markets, politics, life-culture - curate just that one page
+#
+# SCHEDULES:
+#   daily 13:00 UTC (08:00 Central) -> full "all" curation
+#   1st & 15th 12 UTC               -> "narrative-review" (proposes new arcs per page)
 
 on:
   schedule:
-    - cron: "0 11 * * *"   # every day at 11:00 UTC (~6-7am ET). Change the time here.
+    - cron: "0 13 * * *"       # daily full curation — 08:00 Central (CDT) / 07:00 (CST)
+    - cron: "0 12 1,15 * *"    # biweekly narrative review
   workflow_dispatch:
     inputs:
       section:
@@ -22,6 +28,7 @@ on:
         options:
           - all
           - deploy-only
+          - narrative-review
           - main
           - sports
           - world
@@ -52,11 +59,13 @@ jobs:
       - name: Install Python packages
         run: pip install anthropic requests
 
-      # Build the site. On a schedule there is no input, so it defaults to "all".
+      # Manual run uses the dropdown. The biweekly cron maps to narrative-review;
+      # any other schedule (the daily one) defaults to a full "all" curation.
       - name: Build the site
         env:
-          SECTION: ${{ github.event.inputs.section || 'all' }}
+          SECTION: ${{ github.event.inputs.section || (github.event.schedule == '0 12 1,15 * *' && 'narrative-review' || 'all') }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLOUDFLARE_ANALYTICS_TOKEN: ${{ secrets.CLOUDFLARE_ANALYTICS_TOKEN }}
         run: python curate.py
 
       - name: Deploy to Cloudflare Pages
