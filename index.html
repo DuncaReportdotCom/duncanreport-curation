@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head><meta charset="utf-8">
@@ -315,6 +316,15 @@ border-bottom: 1px solid #eee;
 @media (max-width: 700px) {
 #scoreboard { grid-template-columns: 1fr; }
 }
+/* Sports page: condensed scoreboard inside the left column */
+.sb-block { margin: 0 0 6px; }
+.sb-lg-hdr { font-size: 10px; font-weight: bold; color: #555; text-transform: uppercase;
+  letter-spacing: .3px; margin: 5px 0 1px; padding-bottom: 1px; border-bottom: 1px solid #ccc; }
+.sb-lg-hdr a { color: #555; text-decoration: none; }
+.sb-row { display: block; font-size: 11px; line-height: 1.28; color: #00008B; text-decoration: none; }
+.sb-row:hover { text-decoration: underline; }
+.sb-row .sb-score { font-weight: bold; color: #000; }
+.sb-row .sb-note { color: #777; }
 </style>
 </head>
 <body>
@@ -513,14 +523,42 @@ return link
 }).join('');
 }
 
+// Sports scoreboard as a condensed block for the left column, grouped by league with
+// the biggest sport by popularity on top. Only these leagues are shown (no WNBA).
+function scoreboardBlock(games) {
+if (!games || !games.length) return '';
+var pop = { NFL:1, NBA:2, MLB:3, NHL:4, MLS:5 };
+var byLeague = {};
+games.forEach(function(g){ if (g.league in pop) { (byLeague[g.league] = byLeague[g.league] || []).push(g); } });
+var leagues = Object.keys(byLeague).sort(function(a,b){ return pop[a] - pop[b]; });
+if (!leagues.length) return '';
+var html = '<div class="sb-block">';
+leagues.forEach(function(lg){
+var link = YAHOO_SCOREBOARD[lg] || '#';
+html += '<div class="sb-lg-hdr"><a href="' + link + '" target="_blank">' + lg + '</a></div>';
+byLeague[lg].forEach(function(g){
+var right = (g.state === 'scheduled' || g.awayScore == null)
+? '<span class="sb-note">' + (g.note||'') + '</span>'
+: '<span class="sb-score">' + g.awayScore + '&ndash;' + g.homeScore + '</span>';
+var row = '<span class="sb-teams">' + g.away + ' @ ' + g.home + '</span> ' + right;
+html += link !== '#'
+? '<a class="sb-row" href="' + link + '" target="_blank">' + row + '</a>'
+: '<span class="sb-row">' + row + '</span>';
+});
+});
+return html + '</div>';
+}
+
 function renderStories(data) {
-// ADDED: scoreboard + markets render first, regardless of hero
+// Markets strip renders regardless of hero; sports scores go into the left column below.
 if (currentSection() === 'markets') { renderMarketLinks(); } else { renderMarkets(data && data.markets); }
-renderScoreboard(data && data.scoreboard);
+var sbHTML = (currentSection() === 'sports' && data && data.scoreboard) ? scoreboardBlock(data.scoreboard) : '';
 if (!data || !data.hero) {
 document.getElementById('hero-headline').innerHTML = 'NO STORIES FOUND';
 document.getElementById('sub-headlines').innerHTML = '';
-['col-left','col-center','col-right'].forEach(function(id) { document.getElementById(id).innerHTML = ''; });
+document.getElementById('col-left').innerHTML = sbHTML;
+document.getElementById('col-center').innerHTML = '';
+document.getElementById('col-right').innerHTML = '';
 return;
 }
 var hero = data.hero || {};
@@ -567,7 +605,7 @@ panelHTML[i % 3] += renderGroupPanel(g);
 });
 // Left column: panels first, then standalone left stories
 var leftEl = document.getElementById('col-left');
-var leftHTML = panelHTML[0];
+var leftHTML = sbHTML + panelHTML[0];
 leftCols.forEach(function(s) {
 leftHTML += '<div class="col-section"><a href="' + s.url + '" target="_blank">' + tagPrefix(s) + toTitleCase(s.headline) +
 '</a></div>';
@@ -665,7 +703,6 @@ right: mergeList((ex.columns || {}).right, (fr.columns || {}).right)
 var YAHOO_SCOREBOARD = {
   MLB: "https://sports.yahoo.com/mlb/scoreboard/",
   NBA: "https://sports.yahoo.com/nba/scoreboard/",
-  WNBA: "https://sports.yahoo.com/wnba/scoreboard/",
   NFL: "https://sports.yahoo.com/nfl/scoreboard/",
   NHL: "https://sports.yahoo.com/nhl/scoreboard/",
   MLS: "https://sports.yahoo.com/soccer/mls/"
