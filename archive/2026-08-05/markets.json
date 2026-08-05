@@ -1,0 +1,265 @@
+{
+  "lastUpdated": 1785968704143,
+  "heroSetDate": "2026-08-05",
+  "hero": {
+    "headline": "SPACEX STOCK SLIDES AS AI SPENDING WORRIES OVERSHADOW EARLY RETURNS",
+    "url": "https://www.reuters.com/business/media-telecom/spacex-slides-ai-spending-worries-overshadow-early-returns-2026-08-05/",
+    "sublinks": [
+      {
+        "text": "Retail Investors Buy The Dip Before Lockup Shares Flood The Market",
+        "url": "https://www.marketwatch.com/story/retail-investors-are-buying-the-dip-on-spacexs-stock-before-more-shares-flood-the-market-9f83e00f"
+      },
+      {
+        "text": "Broader Tech Selloff Drags Futures As Memory Stocks Also Skid",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-google-spacex-skid-sandisk-western-digital-earnings/"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "title": "AI & BIG TECH",
+      "stories": [
+        {
+          "headline": "Google Shakes Up AI Leadership As DeepMind Chief Shifts Role",
+          "url": "https://www.reuters.com/business/google-shakes-up-ai-leadership-deepmind-chief-shifts-role-2026-08-05/",
+          "timestamp": 1785966130000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "Nvidia Stock Is Now Surprisingly Undervalued, Analysts Say",
+          "url": "https://global.morningstar.com/en-ca/stocks/nvidia-stock-this-onetime-market-darling-is-now-surprisingly-undervalued",
+          "timestamp": 1785924358000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "Amazon Tops $3 Trillion Market Cap After Earnings Surge",
+          "url": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html",
+          "timestamp": 1785769510000,
+          "postedAt": 1785968704143
+        }
+      ]
+    },
+    {
+      "title": "MEMORY CHIP SELLOFF",
+      "stories": [
+        {
+          "headline": "Micron Retreats After Musk Flags Surging Memory Prices",
+          "url": "https://www.barrons.com/articles/micron-stock-price-memory-chips-9685ac02",
+          "timestamp": 1785965280000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "Sandisk Stock Falls As Forecast Disappoints Investors",
+          "url": "https://www.marketwatch.com/story/sandisks-stock-falls-as-the-companys-forecast-doesnt-live-up-to-high-expectations-8fd13d9b",
+          "timestamp": 1785963240000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "Western Digital Stock Tanks Despite Earnings Beat",
+          "url": "https://www.barrons.com/articles/western-digital-wdc-earnings-stock-price-2ecd5ae3",
+          "timestamp": 1785962280000,
+          "postedAt": 1785968704143
+        }
+      ]
+    },
+    {
+      "title": "EARNINGS SEASON MOVERS",
+      "stories": [
+        {
+          "headline": "AppLovin Stock Sinks On Soft Earnings",
+          "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-eaafd6d3",
+          "timestamp": 1785963480000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "Eli Lilly Revenue Soars 48% On GLP-1 Demand",
+          "url": "https://www.marketwatch.com/story/lillys-revenue-soars-48-driven-by-demand-of-its-glp-1s-7361c223",
+          "timestamp": 1785962700000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "CVS Health Raises Outlook, But Stock Still Falls",
+          "url": "https://www.barrons.com/articles/cvs-health-earnings-stock-price-1def6b9c",
+          "timestamp": 1785962460000,
+          "postedAt": 1785968704143
+        }
+      ]
+    },
+    {
+      "title": "STOCK MARKET RALLY",
+      "stories": [
+        {
+          "headline": "What The Stock Market's Record Highs Are Hiding",
+          "url": "https://www.barrons.com/articles/stock-market-dow-sp-500-nasdaq-fed-oil-asia-44247b08",
+          "timestamp": 1785950640000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "Stock Market Soars: 5 Reasons Behind Tuesday's Big Surge",
+          "url": "https://www.cnbc.com/2026/08/04/the-stock-market-soars-5-reasons-behind-the-big-surge-tuesday.html",
+          "timestamp": 1785874997000,
+          "postedAt": 1785968704143
+        }
+      ]
+    },
+    {
+      "title": "MARKETS SELL OFF ON AI SPENDING AND OIL",
+      "stories": [
+        {
+          "headline": "Dow Drops 500 Points as Brent Surges Above $100",
+          "url": "https://www.cnbc.com/2026/07/22/stock-market-today-live-updates.html",
+          "timestamp": 1784750400000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "Alphabet Q2 Beats but Stock Sinks on $200B Capex Hike",
+          "url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html",
+          "timestamp": 1784754000000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "Tesla Q2 Revenue Beats, Profit Misses; Stock Tumbles 14.5%",
+          "url": "https://electrek.co/2026/07/22/tesla-tsla-q2-2026-financial-results/",
+          "timestamp": 1784755800000,
+          "postedAt": 1785968704143
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Etsy To Cut 12% Of Workforce As It Simplifies Operations",
+        "url": "https://www.barrons.com/articles/etsy-earnings-stock-price-75ee916a",
+        "timestamp": 1785967920000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Equifax Customers Have Weeks Left To Claim Part Of $2.2 Million Settlement",
+        "url": "https://www.investopedia.com/equifax-customers-have-less-than-a-month-to-claim-part-of-a-usd2-million-settlement-here-is-who-qualifies-12034869",
+        "timestamp": 1785964747000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "IonQ Kicks Off Quantum Earnings Season As Revenue Nearly Quadruples",
+        "url": "https://www.barrons.com/articles/ionq-earnings-stock-price-f61c493a",
+        "timestamp": 1785963600000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Brent Crude Crosses $100 After Tankers Struck Off Saudi Arabia",
+        "url": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
+        "timestamp": 1784808000000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Intel Q2 Beats: Revenue Up 25% to $16.1B; Shares Jump 12%",
+        "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262050823-intel-earnings-report-q2-2026-intc-ai-data-center-intel-foundry-tradingkey",
+        "timestamp": 1784844000000,
+        "postedAt": 1785968704143
+      }
+    ],
+    "center": [
+      {
+        "headline": "Ken Griffin Isn't Ready To Give Up On New York After Tax Fight",
+        "url": "https://fortune.com/2026/08/05/ken-griffin-citadel-zohran-mamdani-new-york-tax/",
+        "timestamp": 1785964080000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Major Wall Street Firms Targeted In Attempted Cyberattacks",
+        "url": "https://www.reuters.com/legal/government/major-wall-street-hedge-funds-targeted-attempted-cyberattacks-bloomberg-news-2026-08-05/",
+        "timestamp": 1785962265000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Wall Street Rebounds Friday as Oil Falls on U.S.-Iran Talk Hopes",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-24-dow-sp-500-nasdaq-081854465.html",
+        "timestamp": 1784898000000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "10-Year Treasury Yield Climbs to 4.71%, Highest Since January 2025",
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-24-2026-crypto-prices-retreat-on-higher-us-treasury-yields-152200068.html",
+        "timestamp": 1784836800000,
+        "postedAt": 1785968704143
+      }
+    ],
+    "right": [
+      {
+        "headline": "Trump Administration To Impose 15% Tariff In Polysilicon Probe Targeting China",
+        "url": "https://www.reuters.com/world/china/trump-administration-impose-15-tariff-polysilicon-sources-say-2026-08-05/",
+        "timestamp": 1785963885000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "China Levies Retaliatory Sanctions On Washington",
+        "url": "https://fortune.com/2026/08/05/necessary-countermeasures-china-imposes-sanctions-washington-retaliation-us-trade-restrictions/",
+        "timestamp": 1785963000000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Wake County Median Home Price Rises To $458,500 In June",
+        "url": "https://www.wake.gov/news/wake-countys-median-real-estate-price-increased-15500-june-2026-ending-month-458500",
+        "timestamp": 1785931200000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Dow Jones Futures: Trump Sparks Stock Rally As Palantir Soars, SpaceX Earnings Loom",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-stock-market-rally-palantir-earnings-spacex-on-deck/",
+        "timestamp": 1785811500000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Fed's Warsh Turns Hawkish; Rate-Hike Odds Rise Before July 29",
+        "url": "https://www.forbes.com/sites/investor-hub/article/fed-meeting-tracker-interest-rate-strategy/",
+        "timestamp": 1784822400000,
+        "postedAt": 1785968704143
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,408.30",
+      "change": "-90.66",
+      "changePct": "-1.2%"
+    },
+    {
+      "name": "Dow Jones",
+      "value": "51,711.65",
+      "change": "-506.93",
+      "changePct": "-1.0%"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "25,137.69",
+      "change": "-553.21",
+      "changePct": "-2.2%"
+    },
+    {
+      "name": "10-Yr Treasury",
+      "value": "4.71%",
+      "change": "+0.06",
+      "changePct": ""
+    },
+    {
+      "name": "Gold",
+      "value": "$4,055.82",
+      "change": "",
+      "changePct": ""
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$64,304.50",
+      "change": "-1,046",
+      "changePct": "-1.6%"
+    },
+    {
+      "name": "Brent Crude",
+      "value": "$100.69",
+      "change": "+6.60",
+      "changePct": "+7.0%"
+    }
+  ]
+}

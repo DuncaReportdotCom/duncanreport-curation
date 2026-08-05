@@ -1,0 +1,172 @@
+{
+  "lastUpdated": 1785968531412,
+  "heroSetDate": "2026-08-05",
+  "hero": {
+    "headline": "IRAN THREATENS TO STRIKE GULF STATES IF U.S. LAUNCHES NEW ATTACKS",
+    "url": "https://www.reuters.com/world/middle-east/iran-threatens-hit-gulf-states-if-us-launches-new-strikes-2026-08-05/",
+    "sublinks": [
+      {
+        "text": "Proposed Hormuz Deal Would Hand Iran Control Of Inbound Shipping Traffic",
+        "url": "https://www.reuters.com/world/middle-east/us-iran-having-very-good-discussions-trump-says-2026-08-05/"
+      },
+      {
+        "text": "U.S. Has Used Nearly All Long-Range Precision Missiles In Iran War, Officials Say",
+        "url": "https://www.reuters.com/world/us-has-used-virtually-all-its-long-range-precision-missiles-during-iran-war-2026-08-04/"
+      },
+      {
+        "text": "Trump Says Exxon And Chevron Made 'Too Much Money' Off War-Driven Oil Prices",
+        "url": "https://www.cnbc.com/2026/08/03/trump-says-exxon-and-chevron-made-too-much-money-off-high-oil-prices-during-iran-conflict-i-dont-like-it.html"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "title": "RUSSIA-UKRAINE WAR",
+      "stories": [
+        {
+          "headline": "Ukraine Fails To Halt Russian Barrage As Zelensky Blames Partners For 'Horrific Casualties'",
+          "url": "https://www.washingtonpost.com/world/2026/08/05/ukraine-fails-stop-russian-missile-barrage-after-zelensky-says-interceptors-gone/",
+          "timestamp": 1785967534000,
+          "postedAt": 1785968531412
+        },
+        {
+          "headline": "The War That's Happening Above Russia And Ukraine",
+          "url": "https://www.nytimes.com/2026/08/05/world/europe/russia-ukraine-air-war.html",
+          "timestamp": 1785950912000,
+          "postedAt": 1785968531412
+        },
+        {
+          "headline": "North Korean Missile Unit Deploys In Russia For Ukraine War, Kyiv Says",
+          "url": "https://www.reuters.com/business/aerospace-defense/north-korean-missile-unit-deploys-russia-ukraine-war-kyiv-says-2026-08-05/",
+          "timestamp": 1785902520000,
+          "postedAt": 1785968531412
+        }
+      ]
+    },
+    {
+      "title": "CHINA'S RISE",
+      "stories": [
+        {
+          "headline": "Xi Wants A Strong Yuan, But China's Economy Keeps Holding It Down",
+          "url": "https://www.wsj.com/world/china/xi-wants-a-strong-looking-yuan-chinas-economy-keeps-holding-it-down-c0fa9f7c",
+          "timestamp": 1785840900000,
+          "postedAt": 1785968531412
+        },
+        {
+          "headline": "China's Military Closing US Gap 'Surprisingly' Fast, Analyst Says",
+          "url": "https://www.scmp.com/news/china/military/article/3362782/surprising-how-quickly-chinas-military-closing-gap-us-analyst-lyle-goldstein",
+          "timestamp": 1785794407000,
+          "postedAt": 1785968531412
+        }
+      ]
+    },
+    {
+      "title": "MIGRATION CRISIS AT CEUTA",
+      "stories": [
+        {
+          "headline": "Europe's Far Right Cashes In On The Ceuta Crossings",
+          "url": "https://www.lowyinstitute.org/the-interpreter/europe-s-far-right-cashes-in-on-the-ceuta-crossings",
+          "timestamp": 1785808969000,
+          "postedAt": 1785968531412
+        },
+        {
+          "headline": "Migrant Crisis Pits Spain's Leader Against Critics Across Europe",
+          "url": "https://www.wsj.com/world/europe/migrant-crisis-pits-spains-leader-against-critics-across-europe-42f46470",
+          "timestamp": 1785808800000,
+          "postedAt": 1785968531412
+        },
+        {
+          "headline": "EU Urged To Respond With 'Humanity And Solidarity' To Ceuta Situation",
+          "url": "https://www.amnesty.org/en/latest/news/2026/08/eu-european-leaders-must-respond-with-humanity-and-solidarity-to-the-situation-in-ceuta/",
+          "timestamp": 1785775259000,
+          "postedAt": 1785968531412
+        }
+      ]
+    },
+    {
+      "title": "RED SEA OIL SHOCK",
+      "stories": [
+        {
+          "headline": "Saudi Oil Tanker Attacked in Red Sea as War Risks Widen",
+          "url": "https://www.washingtonpost.com/world/2026/07/23/least-one-saudi-oil-tanker-is-attacked-red-sea-war-risks-widen/",
+          "timestamp": 1784804400000,
+          "postedAt": 1785968531412
+        },
+        {
+          "headline": "Experts Watch Red Sea Tankers for Clarity on Houthi Blockade",
+          "url": "https://www.aljazeera.com/economy/2026/7/24/as-oil-soars-experts-watch-red-sea-tankers-for-clarity-on-houthi-blockade",
+          "timestamp": 1784883600000,
+          "postedAt": 1785968531412
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Gianni Infantino Refuses To Resign But Issues Apology In Last-Ditch Survival Bid",
+        "url": "https://www.thetimes.com/sport/football/article/gianni-infantino-offers-morocco-world-cup-final-support-whn5gxp5b",
+        "timestamp": 1785965400000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "Trump Administration To Impose 15% Tariff In Polysilicon Probe Aimed At China",
+        "url": "https://www.reuters.com/world/china/trump-administration-impose-15-tariff-polysilicon-sources-say-2026-08-05/",
+        "timestamp": 1785963885000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "Some 40,000 Evacuated as Wildfire Rages in Southwest France",
+        "url": "https://www.france24.com/en/live-news/20260724-some-40-000-people-evacuated-due-to-wildfire-in-southwest-france-minister",
+        "timestamp": 1784887200000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "Trump's Latest Tariffs Blasted by EU, Brazil and Australia",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/07/24/unjustified-eu-brazil-and-others-criticize-latest-trump-tariffs/",
+        "timestamp": 1784894400000,
+        "postedAt": 1785968531412
+      }
+    ],
+    "center": [
+      {
+        "headline": "'Just An Easy Cash Grab': Jetstar Charges Customers For Carry-On Luggage",
+        "url": "https://www.theguardian.com/business/2026/aug/06/why-is-jetstar-charging-customers-for-carry-on-luggage",
+        "timestamp": 1785964620000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "Brazil 2026: Meet The Presidential Candidates",
+        "url": "https://americasquarterly.org/article/brazil-meet-the-candidates-2026/",
+        "timestamp": 1785754905000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "At Least 21 Killed as Ukraine and Russia Trade Attacks",
+        "url": "https://www.aljazeera.com/news/2026/7/24/at-least-11-killed-in-ukraine-as-moscow-and-kyiv-continue-to-trade-attacks",
+        "timestamp": 1784880000000,
+        "postedAt": 1785968531412
+      }
+    ],
+    "right": [
+      {
+        "headline": "Scientists Confirm Wayward SpaceX Rocket Slammed Into The Moon As Predicted",
+        "url": "https://apnews.com/article/spacex-rocket-moon-crash-elon-musk-d64a98138fd19241700461c87b49e201",
+        "timestamp": 1785967440000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "Indian Activist Wangchuk Ends 26-Day Hunger Strike",
+        "url": "https://www.usnews.com/news/world/articles/2026-07-23/indian-activist-wangchuk-ends-26-day-hunger-strike",
+        "timestamp": 1784811600000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "Mexican Mayor Shot Dead in Town Hall After Surviving Earlier Attempt",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-23/mexican-mayor-shot-dead-in-his-office-after-surviving-earlier-hit",
+        "timestamp": 1784772000000,
+        "postedAt": 1785968531412
+      }
+    ]
+  }
+}
