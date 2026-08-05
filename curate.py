@@ -1608,8 +1608,15 @@ def og_image_url(article_url, timeout=9):
             return unescape(m.group(1))
     return None
 
+# Image hosts/CDNs known to burn in source branding, watermarks, or credits (e.g. a
+# "The Guardian" wordmark on their social cards). The hero must never show attribution
+# ON the image, so these are skipped and the fallback picks a clean photo. Extend as needed.
+WATERMARK_IMG = ("guim.co.uk", "gu-web-static", "gstatic-guardian")
+
 def _is_junk_img(url):
     u = (url or "").lower()
+    if any(w in u for w in WATERMARK_IMG):
+        return True
     return any(b in u for b in ("google.com", "gstatic", "googleusercontent", "ggpht",
                                 "favicon", "default", "placeholder", "sprite", "blank", "/logo"))
 
@@ -1701,12 +1708,56 @@ def sports_scoreboard(per_league=10, total=24):
         g.pop("_o", None)
     return games[:total]
 
-def build_metrics(per_section, target):
+CF_ACCOUNT_ID = "b2b76296956fb323c9573be5467c8037"
+CF_SITE_TAG = "4bd359c547e34407a7d42aafe056f6f3"
+
+def cloudflare_traffic(days=7):
+    """Per-page views/visits from Cloudflare Web Analytics (RUM) via the GraphQL API.
+    Returns None (dashboard shows 'not connected') if the token is absent or the call fails."""
+    token = os.environ.get("CLOUDFLARE_ANALYTICS_TOKEN")
+    if not token:
+        return None
+    now = datetime.datetime.utcnow()
+    since = (now - datetime.timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    until = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    query = ("query($a:String!,$s:String!,$since:Time!,$until:Time!){viewer{accounts(filter:{accountTag:$a})"
+             "{rumPageloadEventsAdaptiveGroups(limit:500,orderBy:[count_DESC],"
+             "filter:{datetime_geq:$since,datetime_leq:$until,siteTag:$s}){count sum{visits} dimensions{requestPath}}}}}")
+    body = json.dumps({"query": query, "variables": {"a": CF_ACCOUNT_ID, "s": CF_SITE_TAG,
+                                                      "since": since, "until": until}}).encode()
+    req = urllib.request.Request("https://api.cloudflare.com/client/v4/graphql", data=body,
+        headers={"Authorization": "Bearer " + token, "Content-Type": "application/json"})
+    try:
+        resp = json.loads(urllib.request.urlopen(req, timeout=20).read())
+    except Exception as e:
+        print("  cloudflare traffic fetch failed:", e); return None
+    if resp.get("errors"):
+        print("  cloudflare graphql errors:", str(resp["errors"])[:300]); return None
+    try:
+        groups = resp["data"]["viewer"]["accounts"][0]["rumPageloadEventsAdaptiveGroups"]
+    except Exception:
+        return None
+    pathmap = {"/": "main", "/index.html": "main", "/sports": "sports", "/world": "world",
+               "/markets": "markets", "/politics": "politics", "/life-culture": "life-culture"}
+    out = {s: {"views": 0, "visits": 0} for s in SECTIONS}
+    out["_days"] = days
+    for g in groups:
+        p = ((g.get("dimensions") or {}).get("requestPath") or "").rstrip("/") or "/"
+        sec = pathmap.get(p)
+        if not sec:
+            continue
+        out[sec]["views"] += int(g.get("count") or 0)
+        out[sec]["visits"] += int((g.get("sum") or {}).get("visits") or 0)
+    return out
+
+
+def build_metrics(per_section, target, traffic=None):
     now = now_ms()
     out = {"generatedAt": now, "target": target,
            "model": _WORKING_MODEL or MODEL, "keyPresent": bool(os.environ.get("ANTHROPIC_API_KEY")),
-           "cadence": {"curation": "daily 11:00 UTC (adjustable)", "review": "biweekly, 1st & 15th"},
-           "trafficProvider": None, "sections": {}}
+           "cadence": {"curation": "daily 08:00 Central (13:00 UTC)", "review": "biweekly, 1st & 15th"},
+           "trafficProvider": ("Cloudflare Web Analytics" if traffic else None),
+           "trafficDays": (traffic or {}).get("_days"), "sections": {}}
     for sec in SECTIONS:
         data = per_section.get(sec) or {}
         cols = data.get("columns") or {}
@@ -1730,7 +1781,7 @@ def build_metrics(per_section, target):
             "health": {"status": STATUS.get(sec, "not run this cycle")},
             "scoreboard": (sb_counts if sec == "sports" else None),
             "marketsStrip": ("static Yahoo Finance quote links" if sec == "markets" else None),
-            "traffic": None,
+            "traffic": ((traffic or {}).get(sec) if traffic else None),
             "config": {
                 "outlets": {"count": len(DOMAINS.get(sec, [])), "list": DOMAINS.get(sec, [])},
                 "arcs": [{"arc": a["arc"], "q": a["q"]} for a in NARRATIVES.get(sec, [])],
@@ -1814,7 +1865,8 @@ def build():
     if not os.path.isfile(src):
         raise SystemExit("ERROR: index.html missing from repo root.")
     shutil.copy2(src, os.path.join(SITE, "index.html"))
-    for extra in ("favicon.ico", "dashboard.html", "review.html"):
+    for extra in ("favicon.ico", "dashboard.html", "review.html",
+                  "about.html", "contact.html", "privacy.html", "terms.html", "ads.txt"):
         p = os.path.join(ROOT, extra)
         if os.path.isfile(p):
             shutil.copy2(p, os.path.join(SITE, extra))
@@ -1845,9 +1897,13 @@ def build():
                    "key_present": bool(os.environ.get("ANTHROPIC_API_KEY")),
                    "target": os.environ.get("SECTION", "all"), "sections": STATUS}, f, indent=2)
 
+    try:
+        traffic = cloudflare_traffic()
+    except Exception as e:
+        traffic = None; print("  traffic fetch error:", e)
     with open(os.path.join(SITE, "metrics.json"), "w", encoding="utf-8") as f:
-        json.dump(build_metrics(per_section, target), f, ensure_ascii=False, indent=2)
-    print("  wrote metrics.json")
+        json.dump(build_metrics(per_section, target, traffic), f, ensure_ascii=False, indent=2)
+    print("  wrote metrics.json (traffic: %s)" % ("yes" if traffic else "no"))
 
     if review_mode and os.environ.get("ANTHROPIC_API_KEY"):
         try:

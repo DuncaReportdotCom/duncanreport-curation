@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>DuncanReport — Engine Dashboard</title>
+<style>
+  :root { --ink:#111; --blue:#00008B; --line:#ddd; --muted:#666; --ok:#1a7f37; --bad:#b00020; --warn:#9a6700; --bg:#f6f6f4; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); }
+  header { background:#fff; border-bottom:2px solid var(--ink); padding:14px 20px; position:sticky; top:0; z-index:5; }
+  header h1 { margin:0; font-size:20px; letter-spacing:.5px; }
+  .meta { color:var(--muted); font-size:13px; margin-top:4px; display:flex; gap:16px; flex-wrap:wrap; align-items:center; }
+  .meta b { color:var(--ink); }
+  button { font:inherit; border:1px solid var(--ink); background:#fff; padding:5px 12px; border-radius:4px; cursor:pointer; }
+  button:hover { background:var(--ink); color:#fff; }
+  main { padding:18px; display:grid; grid-template-columns:repeat(auto-fill,minmax(360px,1fr)); gap:16px; max-width:1500px; margin:0 auto; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+  .card h2 { margin:0; font-size:16px; padding:10px 14px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; }
+  .card h2 a { color:var(--blue); text-decoration:none; }
+  .badge { font-size:11px; font-weight:700; padding:2px 8px; border-radius:20px; color:#fff; text-transform:uppercase; letter-spacing:.4px; }
+  .b-ok{background:var(--ok);} .b-bad{background:var(--bad);} .b-warn{background:var(--warn);}
+  .body { padding:12px 14px; }
+  .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-bottom:10px; }
+  .stat { background:var(--bg); border-radius:6px; padding:8px; text-align:center; }
+  .stat .n { font-size:20px; font-weight:700; }
+  .stat .l { font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:.3px; }
+  .row { font-size:13px; margin:5px 0; }
+  .row .k { color:var(--muted); }
+  .hero { font-size:13px; background:var(--bg); border-radius:6px; padding:8px; margin:8px 0; }
+  .hero .hl { font-weight:600; }
+  details { margin-top:8px; border-top:1px dashed var(--line); padding-top:8px; }
+  summary { cursor:pointer; font-size:13px; font-weight:600; color:var(--blue); }
+  .cfg { font-size:12px; color:#333; }
+  .cfg h4 { margin:10px 0 4px; font-size:11px; text-transform:uppercase; letter-spacing:.4px; color:var(--muted); }
+  .arc { padding:3px 0; border-bottom:1px solid #f0f0f0; }
+  .arc b { font-weight:600; } .arc code { color:#555; font-size:11px; word-break:break-word; }
+  .pill { display:inline-block; background:#eee; border-radius:4px; padding:1px 6px; font-size:11px; margin:2px 3px 0 0; }
+  .traffic { border:1px dashed #bbb; border-radius:6px; padding:8px; font-size:12px; color:var(--muted); margin-top:8px; }
+  .err { color:var(--bad); font-size:12px; word-break:break-word; }
+  a.dashlink { color:var(--blue); }
+</style>
+</head>
+<body>
+<header>
+  <h1>DuncanReport — Engine Dashboard</h1>
+  <div class="meta" id="topmeta"><span>Loading…</span></div>
+</header>
+<main id="cards"></main>
+
+<script>
+const SECTIONS = ["main","sports","world","markets","politics","life-culture"];
+const NAMES = { "main":"Main", "sports":"Sports", "world":"World", "markets":"Markets", "politics":"Politics", "life-culture":"Life & Culture" };
+const URLS = { "main":"/", "sports":"/sports", "world":"/world", "markets":"/markets", "politics":"/politics", "life-culture":"/life-culture" };
+
+function ago(ms) {
+  if (!ms) return "never";
+  const s = Math.max(0, (Date.now() - ms) / 1000);
+  if (s < 90) return Math.round(s) + "s ago";
+  if (s < 5400) return Math.round(s/60) + "m ago";
+  if (s < 172800) return Math.round(s/3600) + "h ago";
+  return Math.round(s/86400) + "d ago";
+}
+function statusBadge(st) {
+  st = st || "";
+  if (/FAILED|error/i.test(st)) return '<span class="badge b-bad">failed</span>';
+  if (/curated-live/i.test(st)) return '<span class="badge b-ok">curated</span>';
+  if (/preserved/i.test(st)) return '<span class="badge b-warn">preserved</span>';
+  if (/seed|empty/i.test(st)) return '<span class="badge b-warn">seed/empty</span>';
+  return '<span class="badge b-warn">' + (st.split(":")[0] || "n/a") + '</span>';
+}
+function esc(s){ return (s==null?"":String(s)).replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
+
+function card(sec, m) {
+  const c = m.content || {}, h = m.hero || {}, cfg = m.config || {}, lim = (cfg.limits||{});
+  const sb = m.scoreboard;
+  let specials = "";
+  if (sb) specials = `<div class="row"><span class="k">Scoreboard:</span> <b>${sb.live}</b> live · <b>${sb.scheduled}</b> upcoming · <b>${sb.final}</b> final</div>`;
+  if (m.marketsStrip) specials = `<div class="row"><span class="k">Markets strip:</span> ${esc(m.marketsStrip)}</div>`;
+
+  const arcs = (cfg.arcs||[]).map(a => `<div class="arc"><b>${esc(a.arc)}</b><br><code>${esc(a.q)}</code></div>`).join("") || "<i>none</i>";
+  const outlets = (cfg.outlets && cfg.outlets.list || []).map(o => `<span class="pill">${esc(o)}</span>`).join("");
+  const st = (m.health && m.health.status) || "";
+  const errRow = /FAILED|error/i.test(st) ? `<div class="err">${esc(st)}</div>` : "";
+  const t = m.traffic, days = m._days || 7;
+  const trafficHTML = t
+    ? `<div class="traffic"><b>Traffic (${days}d):</b> <b>${t.views}</b> views · <b>${t.visits}</b> visits</div>`
+    : `<div class="traffic"><b>Traffic:</b> not connected — waiting on the analytics token / first run.</div>`;
+
+  return `<div class="card">
+    <h2><a href="${URLS[sec]}" target="_blank">${NAMES[sec]}</a> ${statusBadge(st)}</h2>
+    <div class="body">
+      <div class="stats">
+        <div class="stat"><div class="n">${c.stories ?? "–"}</div><div class="l">Stories</div></div>
+        <div class="stat"><div class="n">${c.clusters ?? "–"}</div><div class="l">Clusters</div></div>
+        <div class="stat"><div class="n">${c.fresh24h ?? "–"}</div><div class="l">Fresh 24h</div></div>
+        <div class="stat"><div class="n">${c.aging ?? "–"}</div><div class="l">Aging</div></div>
+      </div>
+      <div class="row"><span class="k">Last updated:</span> <b>${ago(c.lastUpdated)}</b></div>
+      ${specials}
+      ${errRow}
+      <div class="hero"><span class="k">Headline</span> (set ${esc(h.setDate||"–")}):<br><span class="hl">${esc(h.headline||"—")}</span></div>
+      ${trafficHTML}
+      <details>
+        <summary>How this page is built &amp; limited</summary>
+        <div class="cfg">
+          <h4>Outlets crawled (${(cfg.outlets&&cfg.outlets.count)||0})${cfg.drudgeSource? " + Drudge front page":""}</h4>
+          <div>${outlets}</div>
+          <h4>Narrative arcs (${(cfg.arcs||[]).length})</h4>
+          ${arcs}
+          <h4>Limits &amp; behavior</h4>
+          <div class="row">Retention: <b>${lim.retentionDays}d</b> · Hero: <b>once/day</b> (${esc(lim.heroOverride||"")})</div>
+          <div class="row">New per run: <b>${lim.newPerRun? lim.newPerRun.perHour+"/hr, "+lim.newPerRun.min+"–"+lim.newPerRun.max : "–"}</b></div>
+          <div class="row">Windows: breaking <b>${esc(lim.breakingWindow)}</b> · arcs <b>${esc(lim.arcWindow)}</b> · pool cap <b>${lim.candidatePoolCap}</b></div>
+          <div class="row">Model: <b>${esc(m._model||"")}</b> · thinking budget <b>${lim.thinkingBudget}</b> · max tokens <b>${lim.maxTokens}</b></div>
+        </div>
+      </details>
+    </div>
+  </div>`;
+}
+
+async function load() {
+  try {
+    const r = await fetch("/metrics.json?t=" + Date.now(), {cache:"no-store"});
+    const m = await r.json();
+    const cad = m.cadence || {};
+    document.getElementById("topmeta").innerHTML =
+      `<span>Generated <b>${ago(m.generatedAt)}</b></span>` +
+      `<span>Model: <b>${esc(m.model)}</b></span>` +
+      `<span>API key: <b>${m.keyPresent? "present":"missing"}</b></span>` +
+      `<span>Curation: <b>${esc(cad.curation||"")}</b></span>` +
+      `<span>Review: <b>${esc(cad.review||"")}</b></span>` +
+      `<span><a class="dashlink" href="/review.html">Narrative review →</a></span>` +
+      `<button onclick="load()">Reload</button>`;
+    const sec = m.sections || {};
+    document.getElementById("cards").innerHTML =
+      SECTIONS.map(s => card(s, Object.assign({_model:m.model, _days:m.trafficDays}, sec[s]||{}))).join("");
+  } catch (e) {
+    document.getElementById("topmeta").innerHTML = '<span class="err">Could not load metrics.json — run the engine once so it is written.</span>';
+  }
+}
+load();
+</script>
+</body>
+</html>
