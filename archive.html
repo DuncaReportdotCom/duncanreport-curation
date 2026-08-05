@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archive — DuncanReport.com</title>
+<style>
+  body{max-width:820px;margin:0 auto;padding:24px;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111;line-height:1.5;}
+  h1{font-size:24px;margin-bottom:4px;}
+  .top{border-bottom:1px solid #ccc;padding-bottom:10px;margin-bottom:16px;font-size:14px;}
+  .top a{margin-right:12px;text-decoration:none;color:#00008B;}
+  .muted{color:#666;font-size:13px;}
+  .day{border-bottom:1px solid #eee;padding:9px 0;}
+  .day .date{font-weight:bold;font-size:15px;color:#111;}
+  .day .secs{margin-top:2px;font-size:13px;}
+  .day .secs a{color:#00008B;text-decoration:none;margin-right:2px;}
+  .day .secs a:hover{text-decoration:underline;}
+  .sep{color:#ccc;padding:0 5px;}
+  footer{margin-top:26px;border-top:1px solid #ccc;padding-top:12px;font-size:13px;color:#666;}
+  .err{color:#b00020;}
+</style>
+</head>
+<body>
+<div class="top">
+  <a href="/">&larr; DuncanReport.com</a><a href="/about.html">About</a>
+</div>
+<h1>Archive</h1>
+<p class="muted">A daily snapshot of DuncanReport.com. Pick a date to see the front page as it stood that day.</p>
+<div id="list"><p class="muted">Loading…</p></div>
+<footer>&copy; 2026 DuncanReport.com</footer>
+
+<script>
+var SEC_LABEL = { "main":"Main", "sports":"Sports", "world":"World", "markets":"Markets", "politics":"Politics", "life-culture":"Life & Culture" };
+function secUrl(sec, date){ return (sec === "main" ? "/" : "/" + sec) + "?d=" + date; }
+function prettyDate(d){
+  try { var p = d.split("-"); return new Date(p[0], p[1]-1, p[2]).toLocaleDateString(undefined, {weekday:"long", year:"numeric", month:"long", day:"numeric"}); }
+  catch(e){ return d; }
+}
+(async function(){
+  try {
+    var r = await fetch("/archive/index.json?t=" + Date.now(), {cache:"no-store"});
+    var m = await r.json();
+    var dates = m.dates || [], secs = m.sections || Object.keys(SEC_LABEL);
+    if (!dates.length) { document.getElementById("list").innerHTML = '<p class="muted">No archived days yet — the first snapshot is saved on the next daily run.</p>'; return; }
+    document.getElementById("list").innerHTML = dates.map(function(d){
+      var links = secs.map(function(s){ return '<a href="' + secUrl(s, d) + '">' + (SEC_LABEL[s]||s) + '</a>'; }).join('<span class="sep">&middot;</span>');
+      return '<div class="day"><div class="date">' + prettyDate(d) + '</div><div class="secs">' + links + '</div></div>';
+    }).join('');
+  } catch(e) {
+    document.getElementById("list").innerHTML = '<p class="err">Could not load the archive index yet — it appears after the next daily run.</p>';
+  }
+})();
+</script>
+</body>
+</html>
