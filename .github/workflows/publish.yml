@@ -1,23 +1,16 @@
 name: Publish DuncanReport
 
-# WHAT THIS DOES:
-# On a schedule (and whenever you click "Run workflow"), GitHub's servers build and publish
-# the site to Cloudflare. Your laptop is never involved.
+# What to publish (manual dropdown):
+#   all             - curate every page, then deploy
+#   deploy-only     - no curation; just rebuild from live stories + push code/formatting changes
+#   narrative-review- generate the biweekly narrative review (review.json)
+#   main/sports/world/markets/politics/life-culture - curate just that one page
 #
-# The "What to publish" dropdown:
-#   all             - curate every page (search for new articles), then deploy
-#   deploy-only     - DO NOT search; just rebuild from the stories already live and push
-#                     code/formatting changes (index.html, dashboard.html, review.html, etc.)
-#   narrative-review- DO NOT curate; generate the biweekly narrative review (review.json)
-#   main, sports, world, markets, politics, life-culture - curate just that one page
-#
-# SCHEDULES:
-#   daily 13:00 UTC (08:00 Central) -> full "all" curation
-#   1st & 15th 12 UTC               -> "narrative-review" (proposes new arcs per page)
+# Schedules: daily 13:00 UTC (08:00 Central) -> full "all"; 1st & 15th 12:00 UTC -> narrative-review.
 
 on:
   schedule:
-    - cron: "0 13 * * *"       # daily full curation — 08:00 Central (CDT) / 07:00 (CST)
+    - cron: "0 13 * * *"       # daily full curation - 08:00 Central (CDT) / 07:00 (CST)
     - cron: "0 12 1,15 * *"    # biweekly narrative review
   workflow_dispatch:
     inputs:
@@ -59,8 +52,6 @@ jobs:
       - name: Install Python packages
         run: pip install anthropic requests
 
-      # Manual run uses the dropdown. The biweekly cron maps to narrative-review;
-      # any other schedule (the daily one) defaults to a full "all" curation.
       - name: Build the site
         env:
           SECTION: ${{ github.event.inputs.section || (github.event.schedule == '0 12 1,15 * *' && 'narrative-review' || 'all') }}
@@ -68,6 +59,7 @@ jobs:
           CLOUDFLARE_ANALYTICS_TOKEN: ${{ secrets.CLOUDFLARE_ANALYTICS_TOKEN }}
         run: python curate.py
 
+      # Persist the daily archive back to the repo so it survives the next build.
       - name: Commit archive snapshots
         run: |
           git config user.name "duncanreport-bot"
@@ -86,4 +78,11 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: b2b76296956fb323c9573be5467c8037
         run: npx wrangler@3 pages deploy site --project-name=duncanreport
+
+      # Turn ANY detected problem (failed section, empty page, no credits, scoreboard
+      # error, or a crash) into a red run so GitHub emails you automatically.
+      - name: Health check - alert if anything broke
+        if: always()
+        run: |
+          python -c "import json,sys; d=json.load(open('site/status.json')); p=d.get('problems') or []; [print('::error::'+str(x)) for x in p]; print('Health OK' if (not p and d.get('ok',True)) else 'PROBLEMS FOUND'); sys.exit(0 if (not p and d.get('ok',True)) else 1)"
 
