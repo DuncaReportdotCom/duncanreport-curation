@@ -2028,10 +2028,32 @@ def build():
             with open(adest, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
 
+    # ---- health check: flag anything that broke so the workflow can alert on it ----
+    problems = []
+    for _s, _st in STATUS.items():
+        _l = str(_st).lower()
+        if "failed" in _l or "credit" in _l or "error" in _l:
+            problems.append("%s: %s" % (_s, str(_st)[:160]))
+    for _s in SECTIONS:
+        if not _has_real_content(per_section.get(_s) or {}):
+            problems.append("%s page is EMPTY" % _s)
+    if isinstance(sb_debug, str) and sb_debug.startswith("error"):
+        problems.append("sports scoreboard fetch: %s" % sb_debug[:120])
+    if targets and os.environ.get("ANTHROPIC_API_KEY") and not _WORKING_MODEL:
+        problems.append("no working Anthropic model (API key / credit / model problem)")
+    ok = not problems
+    if ok:
+        print("HEALTH: all good")
+    else:
+        print("HEALTH: %d problem(s) detected:" % len(problems))
+        for _p in problems:
+            print("  - %s" % _p)
+
     with open(os.path.join(SITE, "status.json"), "w", encoding="utf-8") as f:
         json.dump({"model_default": MODEL, "model_used": _WORKING_MODEL,
                    "key_present": bool(os.environ.get("ANTHROPIC_API_KEY")),
-                   "target": os.environ.get("SECTION", "all"), "scoreboard": sb_debug, "sections": STATUS}, f, indent=2)
+                   "target": os.environ.get("SECTION", "all"), "scoreboard": sb_debug,
+                   "ok": ok, "problems": problems, "sections": STATUS}, f, indent=2)
 
     try:
         traffic = cloudflare_traffic()
