@@ -837,36 +837,60 @@ NARRATIVES = json.loads(r"""{
    "q": "NHL (game OR trade OR playoff OR \"Stanley Cup\")"
   },
   {
-   "arc": "College football",
-   "q": "college football (ranking OR playoff OR coach OR upset OR game)"
+   "arc": "Soccer (global)",
+   "q": "soccer (\"World Cup\" OR \"Premier League\" OR \"Champions League\" OR CONCACAF OR MLS OR transfer)"
   },
   {
-   "arc": "College basketball",
-   "q": "college basketball (ranking OR \"March Madness\" OR upset OR game)"
+   "arc": "Tennis",
+   "q": "tennis (\"Grand Slam\" OR \"US Open\" OR Wimbledon OR ATP OR WTA OR final)"
   },
   {
-   "arc": "Soccer",
-   "q": "soccer (\"Premier League\" OR \"Champions League\" OR \"World Cup\" OR transfer)"
+   "arc": "Golf",
+   "q": "golf (PGA OR major OR \"Ryder Cup\" OR leaderboard OR tournament)"
   },
   {
-   "arc": "Trades and free agency",
-   "q": "(trade OR \"free agency\" OR signing OR contract) sports"
+   "arc": "UFC and MMA",
+   "q": "(UFC OR MMA) (fight OR event OR card OR knockout OR champion)"
   },
   {
-   "arc": "Playoffs and championships",
-   "q": "(playoff OR championship OR finals OR title) sports"
+   "arc": "Boxing",
+   "q": "boxing (fight OR title OR bout OR knockout OR heavyweight)"
   },
   {
-   "arc": "Betting and odds",
-   "q": "sports (betting OR odds OR gambling OR DraftKings)"
+   "arc": "Cycling",
+   "q": "cycling (\"Tour de France\" OR Giro OR Vuelta OR peloton OR stage)"
   },
   {
-   "arc": "Athlete drama",
-   "q": "athlete (scandal OR arrested OR controversy OR retirement OR feud)"
+   "arc": "Olympics",
+   "q": "Olympics (medal OR qualifying OR \"Team USA\" OR games OR record)"
   },
   {
-   "arc": "Upsets and oddity",
-   "q": "sports (upset OR record OR bizarre OR shocking OR viral)"
+   "arc": "Track and running",
+   "q": "(\"track and field\" OR marathon OR sprint OR \"world record\" OR mile) running"
+  },
+  {
+   "arc": "Winter sports",
+   "q": "(skiing OR snowboarding OR \"figure skating\" OR \"winter sports\" OR slalom)"
+  },
+  {
+   "arc": "Women's sports",
+   "q": "(WNBA OR \"women's sports\" OR \"women's soccer\" OR \"Caitlin Clark\")"
+  },
+  {
+   "arc": "College sports",
+   "q": "college (football OR basketball) (ranking OR playoff OR upset OR recruit)"
+  },
+  {
+   "arc": "World records and milestones",
+   "q": "sports (\"world record\" OR \"record-breaking\" OR historic OR milestone OR fastest)"
+  },
+  {
+   "arc": "Athlete news and business",
+   "q": "athlete (scandal OR arrested OR retirement OR contract OR feud OR comeback)"
+  },
+  {
+   "arc": "Upsets, oddity and viral",
+   "q": "sports (upset OR bizarre OR shocking OR viral OR \"caught on camera\")"
   }
  ],
  "world": [
@@ -1070,6 +1094,11 @@ NARRATIVES = json.loads(r"""{
   }
  ]
 }""")
+
+EMPHASIS = {
+    "sports": "\n\n===== SPORTS EMPHASIS =====\nWeight coverage by popularity: the major US leagues lead - NFL is biggest, then NBA, MLB, NHL - followed by soccer (MLS plus the big international competitions: World Cup, European leagues, CONCACAF, Champions League). Give those DEEP, detailed coverage. In ADDITION, give BROAD coverage of the wider sports world every cycle: tennis, golf, UFC/MMA (name the week's main event even though it has no scoreboard), boxing, cycling (Tour de France and the grand tours), the Olympics, track and field and distance running, winter sports and skiing, WNBA and women's sports, and college sports. ALWAYS surface any world record or historic milestone (for example a new mile record) prominently - records are major news. Pick as hero the single biggest sports story of the day, whatever the sport.\n",
+}
+
 
 
 def now_ms(): return int(time.time() * 1000)
@@ -1433,6 +1462,7 @@ def curate_live(section):
             "- HAND-PICKED: candidates tagged 'Drudge pick' come from a veteran human editor's "
             "front page - weight them as high-quality, distinctive story ideas worth featuring.\n"
             % arc_names)
+    editorial += EMPHASIS.get(section, "")
     try:
         live_hero = (live_current(section) or {}).get("hero") or {}
     except Exception:
@@ -1455,7 +1485,7 @@ def curate_live(section):
               "EDITORIAL DIRECTION. For hero.sublinks pick 2-4 DIFFERENT candidates about the same hero "
               "story, each a distinct angle (a development, reaction, analysis, or key detail); write each "
               "sublink text to describe its OWN unique angle - never restate the headline or repeat "
-              "another sublink. Output ONLY the JSON object in a ```json block."
+              "another sublink. CRITICAL: each distinct news event may appear ONLY ONCE across the entire page (hero, groups, and columns combined). If several candidates cover the same event, use only the single best one; never list the same event as multiple items and never repeat the hero story in the groups or columns. Output ONLY the JSON object in a ```json block."
               "%s\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
               % (section, today, editorial, CORE, PROMPTS.get(section, ""), cand_json))
     model = working_model(client)
@@ -1503,6 +1533,55 @@ def curate_live(section):
 
 STATUS = {}
 
+_STOP = set(("the a an of to in on for and or with as at by from is are was were be been "
+             "his her its their this that these those over amid after before into new news says say "
+             "said will would could can may up down out off about who what when where why how has have "
+             "had not but than then more most first last two three back off amid vs").split())
+
+def _sig(headline):
+    words = re.findall(r"[a-z0-9]+", (headline or "").lower())
+    return set(w for w in words if len(w) > 3 and w not in _STOP)
+
+def _is_dup(sig, seen):
+    if not sig:
+        return False
+    for s in seen:
+        inter = len(sig & s)
+        if inter >= 3 or (inter >= 2 and inter / max(1, min(len(sig), len(s))) >= 0.66):
+            return True
+    return False
+
+def dedup_page(data):
+    """Ensure each distinct news event appears at most once across the page. The hero claims
+    its story; near-duplicate headlines in groups/columns (same event, different outlet) are
+    dropped. Hero sublinks are left alone - they are the hero story's own angles."""
+    seen = []
+    hero = data.get("hero") or {}
+    if hero.get("headline"):
+        seen.append(_sig(hero["headline"]))
+    new_groups = []
+    for g in (data.get("groups") or []):
+        kept = []
+        for st in (g.get("stories") or []):
+            sig = _sig(st.get("headline"))
+            if _is_dup(sig, seen):
+                continue
+            seen.append(sig); kept.append(st)
+        if kept:
+            new_groups.append({**g, "stories": kept})
+    data["groups"] = new_groups
+    cols = data.get("columns") or {}
+    for k in ("left", "center", "right"):
+        kept = []
+        for st in (cols.get(k) or []):
+            sig = _sig(st.get("headline"))
+            if _is_dup(sig, seen):
+                continue
+            seen.append(sig); kept.append(st)
+        cols[k] = kept
+    data["columns"] = cols
+    return data
+
 def data_for(section, is_target):
     if is_target and os.environ.get("ANTHROPIC_API_KEY"):
         try:
@@ -1513,7 +1592,7 @@ def data_for(section, is_target):
             except Exception:
                 existing = None
             STATUS[section] = "curated-live"
-            return resolve_source_links(merge(existing, fresh))
+            return dedup_page(resolve_source_links(merge(existing, fresh)))
         except Exception as e:
             STATUS[section] = "curate-FAILED: " + repr(e)[:400]
             print("  live curation failed for %s: %s" % (section, e))
@@ -1521,11 +1600,11 @@ def data_for(section, is_target):
         d = live_current(section)
         if section not in STATUS:
             STATUS[section] = "preserved-live (not curated this run)"
-        return resolve_source_links(d)
+        return dedup_page(resolve_source_links(d))
     except Exception:
         if section not in STATUS:
             STATUS[section] = "seed-or-empty"
-        return resolve_source_links(seed(section))
+        return dedup_page(resolve_source_links(seed(section)))
 
 
 def _img_dest(section):
@@ -1670,6 +1749,11 @@ def ensure_hero_image(section, data):
             os.remove(dest)
     except Exception:
         pass
+
+ESPN_LEAGUES = {
+    "NFL": "football/nfl", "NBA": "basketball/nba", "MLB": "baseball/mlb",
+    "NHL": "hockey/nhl", "MLS": "soccer/usa.1",
+}
 
 def sports_scoreboard(per_league=10, total=24):
     """Upcoming / live / final games from ESPN's public scoreboard API. Each game hotlinks
@@ -1874,15 +1958,18 @@ def build():
         f.write("/*    /index.html   200\n")
 
     per_section = {}
+    sb_debug = "n/a"
     for sec in SECTIONS:
         data = data_for(sec, sec in targets)
         if sec == "sports":
             try:
                 sb = sports_scoreboard()
+                sb_debug = "%d games" % len(sb)
                 if sb:
                     data["scoreboard"] = sb
                     print("  scoreboard: %d games" % len(sb))
             except Exception as e:
+                sb_debug = "error: " + repr(e)[:160]
                 print("  scoreboard fetch failed:", e)
         dest = os.path.join(SITE, "stories.json") if sec == "main" else os.path.join(SITE, sec, "stories.json")
         os.makedirs(os.path.dirname(dest), exist_ok=True)
@@ -1895,7 +1982,7 @@ def build():
     with open(os.path.join(SITE, "status.json"), "w", encoding="utf-8") as f:
         json.dump({"model_default": MODEL, "model_used": _WORKING_MODEL,
                    "key_present": bool(os.environ.get("ANTHROPIC_API_KEY")),
-                   "target": os.environ.get("SECTION", "all"), "sections": STATUS}, f, indent=2)
+                   "target": os.environ.get("SECTION", "all"), "scoreboard": sb_debug, "sections": STATUS}, f, indent=2)
 
     try:
         traffic = cloudflare_traffic()
