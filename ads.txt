@@ -1,0 +1,9 @@
+# ads.txt for duncanreport.com
+#
+# This file authorizes sellers to sell your ad inventory. It is only needed once you
+# run ads. When your Google AdSense account is approved, Google gives you a Publisher ID
+# that looks like: pub-0000000000000000
+#
+# Replace the ID below with your real one and REMOVE the leading "#" on that line:
+#
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
