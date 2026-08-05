@@ -649,6 +649,7 @@ DOMAINS = json.loads(r"""
   "washingtonexaminer.com",
   "washingtontimes.com",
   "wsj.com",
+  "newsnationnow.com",
   "notthebee.com",
   "reuters.com",
   "axios.com",
@@ -1140,9 +1141,19 @@ def extract_json(text):
                 return _loads(text[start:i + 1])
     return None
 
-def _expire(stories):
+def _stamp_posted(stories):
+    """Give every story a postedAt (its 3-day clock start) if it doesn't have one yet."""
     now = now_ms()
-    return [s for s in (stories or []) if (now - (s.get("timestamp") or now)) < THREE_DAYS_MS]
+    for s in (stories or []):
+        if not s.get("postedAt"):
+            s["postedAt"] = now
+    return stories
+
+def _expire(stories):
+    # Retention is 3 days from when a link was POSTED to the page (postedAt), NOT from the
+    # article's publication date. A story missing postedAt is treated as just-posted.
+    now = now_ms()
+    return [s for s in (stories or []) if (now - (s.get("postedAt") or now)) < THREE_DAYS_MS]
 
 def _orig_ts(existing):
     m = {}
@@ -1212,6 +1223,12 @@ def merge(existing, fresh):
     today = datetime.date.today().isoformat()
     cap = _new_cap(ex)
 
+    # stamp a posted time on every existing story (legacy ones get 'now' as a one-time migration)
+    for _k in ("left", "center", "right"):
+        _stamp_posted((ex.get("columns") or {}).get(_k))
+    for _g in (ex.get("groups") or []):
+        _stamp_posted(_g.get("stories"))
+
     # base = existing page, expired stories trimmed, order preserved
     ex_cols = {k: _expire((ex.get("columns") or {}).get(k)) for k in ("left", "center", "right")}
     ex_groups = []
@@ -1258,6 +1275,7 @@ def merge(existing, fresh):
     brand_new = {}
     for loc, s in selected:
         s = dict(s); s["timestamp"] = orig.get(s.get("url")) or s.get("timestamp") or now_ms()
+        s["postedAt"] = now_ms()
         kind, key = loc
         if kind == "group" and key in ex_group_by_title:
             ex_group_by_title[key]["stories"].insert(0, s)      # extend an existing cluster
@@ -1299,13 +1317,36 @@ def merge(existing, fresh):
 def live_url(section):
     return LIVE + ("/stories.json" if section == "main" else "/%s/stories.json" % section)
 
+def _has_real_content(d):
+    if not isinstance(d, dict):
+        return False
+    if (d.get("hero") or {}).get("headline"):
+        return True
+    c = d.get("columns") or {}
+    if any(c.get(k) for k in ("left", "center", "right")):
+        return True
+    return bool(d.get("groups") or d.get("scoreboard") or d.get("markets"))
+
 def live_current(section):
-    with urllib.request.urlopen(live_url(section) + "?t=" + str(now_ms()), timeout=20) as r:
-        return json.loads(r.read().decode("utf-8"))
+    """Fetch the section's currently-deployed stories.json, with retries and validation so a
+    transient hiccup does not look like 'no content'. Rejects the SPA HTML fallback and empty
+    pages so we never preserve/revert to junk."""
+    last = "?"
+    for attempt in range(3):
+        try:
+            raw = _fetch_bytes(live_url(section) + "?t=" + str(now_ms()) + str(attempt), timeout=20)
+            data = json.loads(raw.decode("utf-8"))
+            if _has_real_content(data):
+                return data
+            last = "empty/invalid"
+        except Exception as e:
+            last = repr(e)[:120]
+        time.sleep(2)
+    raise ValueError("live_current failed for %s: %s" % (section, last))
 
 def seed(section):
-    if section in SEEDS:
-        return SEEDS[section]
+    # Preserve the currently-live page first; if it truly cannot be read, show an honest empty
+    # page (fixed by the next curation) rather than resurrecting the weeks-old built-in sample.
     try:
         return live_current(section)
     except Exception:
@@ -1949,7 +1990,7 @@ def build():
     if not os.path.isfile(src):
         raise SystemExit("ERROR: index.html missing from repo root.")
     shutil.copy2(src, os.path.join(SITE, "index.html"))
-    for extra in ("favicon.ico", "dashboard.html", "review.html",
+    for extra in ("favicon.ico", "dashboard.html", "review.html", "archive.html",
                   "about.html", "contact.html", "privacy.html", "terms.html", "ads.txt"):
         p = os.path.join(ROOT, extra)
         if os.path.isfile(p):
@@ -1978,6 +2019,14 @@ def build():
         print("  wrote", sec)
         ensure_hero_image(sec, data)
         per_section[sec] = data
+        # Archive a dated snapshot of real content to the repo (recovery + history).
+        # Skipped for empty pages so a bad run never overwrites a good same-day snapshot.
+        if _has_real_content(data):
+            adest = os.path.join(ROOT, "archive", datetime.date.today().isoformat(),
+                                 "main.json" if sec == "main" else "%s.json" % sec)
+            os.makedirs(os.path.dirname(adest), exist_ok=True)
+            with open(adest, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
 
     with open(os.path.join(SITE, "status.json"), "w", encoding="utf-8") as f:
         json.dump({"model_default": MODEL, "model_used": _WORKING_MODEL,
@@ -2003,6 +2052,23 @@ def build():
             _preserve_review()
     else:
         _preserve_review()
+
+    # ---- daily public archive: add today's hero images, refresh the manifest, publish it ----
+    archive_root = os.path.join(ROOT, "archive")
+    os.makedirs(archive_root, exist_ok=True)
+    tdir = os.path.join(archive_root, datetime.date.today().isoformat())
+    if os.path.isdir(tdir):
+        for sec in SECTIONS:
+            img = _img_dest(sec)
+            if os.path.exists(img):
+                shutil.copy2(img, os.path.join(tdir, "main.jpg" if sec == "main" else "%s.jpg" % sec))
+    dates = sorted([d for d in os.listdir(archive_root)
+                    if re.match(r"\d{4}-\d{2}-\d{2}$", d) and os.path.isdir(os.path.join(archive_root, d))],
+                   reverse=True)
+    with open(os.path.join(archive_root, "index.json"), "w", encoding="utf-8") as f:
+        json.dump({"dates": dates, "sections": SECTIONS, "updated": now_ms()}, f, indent=2)
+    shutil.copytree(archive_root, os.path.join(SITE, "archive"), dirs_exist_ok=True)
+    print("  archive: %d day(s)" % len(dates))
 
     print("Site ready at ./site")
 
