@@ -59,6 +59,12 @@ jobs:
           CLOUDFLARE_ANALYTICS_TOKEN: ${{ secrets.CLOUDFLARE_ANALYTICS_TOKEN }}
         run: python curate.py
 
+      # Do NOT deploy a broken build: if any page came out empty/broken, abort here so
+      # Cloudflare keeps serving the previous good version. Live visitors never see a dead page.
+      - name: Guard - block deploy if any page is broken
+        run: |
+          python -c "import json,sys; d=json.load(open('site/status.json')); c=d.get('critical') or []; [print('::error::broken page, NOT deploying: '+str(x)) for x in c]; print('OK to deploy.' if d.get('deployable',True) else 'DEPLOY BLOCKED - keeping the last good site live'); sys.exit(0 if d.get('deployable',True) else 1)"
+
       # Persist the daily archive back to the repo so it survives the next build.
       - name: Commit archive snapshots
         run: |
