@@ -1,0 +1,254 @@
+{
+  "lastUpdated": 1786029048481,
+  "heroSetDate": "2026-08-06",
+  "hero": {
+    "headline": "US HAS USED 'VIRTUALLY ALL' LONG-RANGE PRECISION MISSILES IN IRAN WAR, OFFICIALS SAY",
+    "url": "https://www.reuters.com/world/us-has-used-virtually-all-its-long-range-precision-missiles-during-iran-war-2026-08-04/",
+    "sublinks": [
+      {
+        "text": "Trump and Hegseth clashed at Camp David over the shortage",
+        "url": "https://www.washingtonpost.com/national-security/2026/08/05/trump-hegseth-clashed-camp-david-over-iran-missile-depletion-concerns/"
+      },
+      {
+        "text": "Nearly 80% of interceptors for a key missile defense system also depleted",
+        "url": "https://www.cnn.com/2026/08/04/politics/us-iran-key-missile-interceptors-low"
+      },
+      {
+        "text": "New military records detail how US troops were wounded in the war",
+        "url": "https://thewarhorse.org/records-troops-wounded-iran-war/"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "title": "LATIN AMERICA ELECTIONS AND VIOLENCE",
+      "stories": [
+        {
+          "headline": "Lula Leads Bolsonaro But Gap Narrows Ahead Of Brazil Election, Poll Shows",
+          "url": "https://www.reuters.com/world/americas/lula-leads-bolsonaro-gap-narrows-ahead-brazil-election-poll-shows-2026-08-05/",
+          "timestamp": 1785929215000,
+          "postedAt": 1786029048481
+        },
+        {
+          "headline": "Venezuela Government And Opposition To Hold Talks Aimed At Path To Election",
+          "url": "https://www.aljazeera.com/news/2026/7/31/venezuela-govt-and-opposition-to-hold-talks-aimed-at-path-to-elections",
+          "timestamp": 1785529944000,
+          "postedAt": 1786029048481
+        }
+      ]
+    },
+    {
+      "title": "CHINA'S ECONOMY AND MILITARY PUSH",
+      "stories": [
+        {
+          "headline": "Xi Wants A Strong-Looking Yuan. China's Economy Keeps Holding It Down.",
+          "url": "https://www.wsj.com/world/china/xi-wants-a-strong-looking-yuan-chinas-economy-keeps-holding-it-down-c0fa9f7c",
+          "timestamp": 1785840900000,
+          "postedAt": 1786029048481
+        },
+        {
+          "headline": "'Surprising' How Fast China's Military Is Closing US Gap: Analyst",
+          "url": "https://www.scmp.com/news/china/military/article/3362782/surprising-how-quickly-chinas-military-closing-gap-us-analyst-lyle-goldstein",
+          "timestamp": 1785794407000,
+          "postedAt": 1786029048481
+        }
+      ]
+    },
+    {
+      "title": "SPAIN'S CEUTA MIGRANT CRISIS",
+      "stories": [
+        {
+          "headline": "Migrant Crisis Pits Spain's Leader Against Critics Across Europe",
+          "url": "https://www.wsj.com/world/europe/migrant-crisis-pits-spains-leader-against-critics-across-europe-42f46470",
+          "timestamp": 1785808800000,
+          "postedAt": 1786029048481
+        },
+        {
+          "headline": "Europe's Far Right Stokes 'Invasion' Fears After Mass Border Crossings In Spanish Enclave",
+          "url": "https://www.nbcnews.com/world/europe/europes-far-right-stoke-invasion-fears-mass-border-crossings-ceuta-rcna590349",
+          "timestamp": 1785665574000,
+          "postedAt": 1786029048481
+        },
+        {
+          "headline": "Sovereignty, Sarcasm, Blame: How North Africa Reacted To Ceuta Crisis",
+          "url": "https://www.euronews.com/2026/07/31/sovereignty-sarcasm-blame-how-north-africa-reacted-to-ceuta-crisis",
+          "timestamp": 1785508737000,
+          "postedAt": 1786029048481
+        }
+      ]
+    },
+    {
+      "title": "RUSSIA-UKRAINE WAR",
+      "stories": [
+        {
+          "headline": "At Least 27 Killed As Russia And Ukraine Trade Heavy Attacks",
+          "url": "https://www.aljazeera.com/news/2026/8/3/more-than-10-killed-as-russia-and-ukraine-trade-heavy-attacks",
+          "timestamp": 1785820051000,
+          "postedAt": 1786029048481
+        },
+        {
+          "headline": "Oil Refinery In Russia's Yaroslavl On Fire After Ukrainian Drone Attack",
+          "url": "https://www.reuters.com/business/energy/oil-refinery-russias-yaroslavl-is-fire-after-ukrainian-drone-attack-governor-2026-08-06/",
+          "timestamp": 1786023983000,
+          "postedAt": 1786029048481
+        },
+        {
+          "headline": "Ukraine Fails To Halt Russian Barrage As Zelensky Blames Partners For 'Horrific Casualties'",
+          "url": "https://www.washingtonpost.com/world/2026/08/05/ukraine-fails-stop-russian-missile-barrage-after-zelensky-says-interceptors-gone/",
+          "timestamp": 1785967534000,
+          "postedAt": 1785968531412
+        },
+        {
+          "headline": "The War That's Happening Above Russia And Ukraine",
+          "url": "https://www.nytimes.com/2026/08/05/world/europe/russia-ukraine-air-war.html",
+          "timestamp": 1785950912000,
+          "postedAt": 1785968531412
+        },
+        {
+          "headline": "North Korean Missile Unit Deploys In Russia For Ukraine War, Kyiv Says",
+          "url": "https://www.reuters.com/business/aerospace-defense/north-korean-missile-unit-deploys-russia-ukraine-war-kyiv-says-2026-08-05/",
+          "timestamp": 1785902520000,
+          "postedAt": 1785968531412
+        }
+      ]
+    },
+    {
+      "title": "MIGRATION CRISIS AT CEUTA",
+      "stories": [
+        {
+          "headline": "EU Urged To Respond With 'Humanity And Solidarity' To Ceuta Situation",
+          "url": "https://www.amnesty.org/en/latest/news/2026/08/eu-european-leaders-must-respond-with-humanity-and-solidarity-to-the-situation-in-ceuta/",
+          "timestamp": 1785775259000,
+          "postedAt": 1785968531412
+        }
+      ]
+    },
+    {
+      "title": "RED SEA OIL SHOCK",
+      "stories": [
+        {
+          "headline": "Saudi Oil Tanker Attacked in Red Sea as War Risks Widen",
+          "url": "https://www.washingtonpost.com/world/2026/07/23/least-one-saudi-oil-tanker-is-attacked-red-sea-war-risks-widen/",
+          "timestamp": 1784804400000,
+          "postedAt": 1785968531412
+        },
+        {
+          "headline": "Experts Watch Red Sea Tankers for Clarity on Houthi Blockade",
+          "url": "https://www.aljazeera.com/economy/2026/7/24/as-oil-soars-experts-watch-red-sea-tankers-for-clarity-on-houthi-blockade",
+          "timestamp": 1784883600000,
+          "postedAt": 1785968531412
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "The Burning: The Untold Story Of Africa's Refugee Crisis",
+        "url": "https://www.pbs.org/video/the-burning-the-untold-story-of-africas-refugee-crisis-d5glch/",
+        "timestamp": 1785579679000,
+        "postedAt": 1786029048481
+      },
+      {
+        "headline": "EasyJet Agrees $7.7 Billion Apollo Deal As Castlelake Walks Away",
+        "url": "https://www.reuters.com/business/castlelake-walks-away-easyjet-pursuit-2026-08-06/",
+        "timestamp": 1786027228000,
+        "postedAt": 1786029048481
+      },
+      {
+        "headline": "North Korea Fires Short-Range Ballistic Missile, South Korea Says",
+        "url": "https://www.reuters.com/world/china/north-korea-fires-unidentified-projectile-south-koreas-military-says-2026-08-06/",
+        "timestamp": 1786026853000,
+        "postedAt": 1786029048481
+      },
+      {
+        "headline": "Greetings From A Wildlife Park In Central Sri Lanka That's A Haven For Elephants",
+        "url": "https://www.npr.org/2026/08/06/g-s1-137317/sri-lanka-elephants",
+        "timestamp": 1786025967000,
+        "postedAt": 1786029048481
+      },
+      {
+        "headline": "Gianni Infantino Refuses To Resign But Issues Apology In Last-Ditch Survival Bid",
+        "url": "https://www.thetimes.com/sport/football/article/gianni-infantino-offers-morocco-world-cup-final-support-whn5gxp5b",
+        "timestamp": 1785965400000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "Trump Administration To Impose 15% Tariff In Polysilicon Probe Aimed At China",
+        "url": "https://www.reuters.com/world/china/trump-administration-impose-15-tariff-polysilicon-sources-say-2026-08-05/",
+        "timestamp": 1785963885000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "Some 40,000 Evacuated as Wildfire Rages in Southwest France",
+        "url": "https://www.france24.com/en/live-news/20260724-some-40-000-people-evacuated-due-to-wildfire-in-southwest-france-minister",
+        "timestamp": 1784887200000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "Trump's Latest Tariffs Blasted by EU, Brazil and Australia",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/07/24/unjustified-eu-brazil-and-others-criticize-latest-trump-tariffs/",
+        "timestamp": 1784894400000,
+        "postedAt": 1785968531412
+      }
+    ],
+    "center": [
+      {
+        "headline": "Israel Charges Settler In Palestinian Activist's Killing, In Rare Indictment",
+        "url": "https://www.reuters.com/world/middle-east/israel-charges-settler-palestinian-activists-killing-rare-indictment-2026-08-06/",
+        "timestamp": 1786027284000,
+        "postedAt": 1786029048481
+      },
+      {
+        "headline": "DeepSeek Resumes $8 Billion Round With Monolith In The Running",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-06/deepseek-resumes-8-billion-round-with-monolith-in-the-running",
+        "timestamp": 1786025210000,
+        "postedAt": 1786029048481
+      },
+      {
+        "headline": "'Just An Easy Cash Grab': Jetstar Charges Customers For Carry-On Luggage",
+        "url": "https://www.theguardian.com/business/2026/aug/06/why-is-jetstar-charging-customers-for-carry-on-luggage",
+        "timestamp": 1785964620000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "Brazil 2026: Meet The Presidential Candidates",
+        "url": "https://americasquarterly.org/article/brazil-meet-the-candidates-2026/",
+        "timestamp": 1785754905000,
+        "postedAt": 1785968531412
+      }
+    ],
+    "right": [
+      {
+        "headline": "Why AI Companies Are Destroying Millions Of Books",
+        "url": "https://amp.dw.com/en/why-ai-companies-are-destroying-millions-of-books/video-78267115",
+        "timestamp": 1786025645000,
+        "postedAt": 1786029048481
+      },
+      {
+        "headline": "Saudi And Israeli Leaders Try To Shape Trump's Iran Decisions",
+        "url": "https://www.cbsnews.com/news/saudis-netanyahu-trump-iran-war/",
+        "timestamp": 1785438780000,
+        "postedAt": 1786029048481
+      },
+      {
+        "headline": "Scientists Confirm Wayward SpaceX Rocket Slammed Into The Moon As Predicted",
+        "url": "https://apnews.com/article/spacex-rocket-moon-crash-elon-musk-d64a98138fd19241700461c87b49e201",
+        "timestamp": 1785967440000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "Indian Activist Wangchuk Ends 26-Day Hunger Strike",
+        "url": "https://www.usnews.com/news/world/articles/2026-07-23/indian-activist-wangchuk-ends-26-day-hunger-strike",
+        "timestamp": 1784811600000,
+        "postedAt": 1785968531412
+      },
+      {
+        "headline": "Mexican Mayor Shot Dead in Town Hall After Surviving Earlier Attempt",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-23/mexican-mayor-shot-dead-in-his-office-after-surviving-earlier-hit",
+        "timestamp": 1784772000000,
+        "postedAt": 1785968531412
+      }
+    ]
+  }
+}
