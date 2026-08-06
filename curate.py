@@ -2092,6 +2092,22 @@ def build():
     shutil.copytree(archive_root, os.path.join(SITE, "archive"), dirs_exist_ok=True)
     print("  archive: %d day(s)" % len(dates))
 
+    # ---- sitemap.xml for search engines (regenerated each build so lastmod stays fresh) ----
+    _today = datetime.date.today().isoformat()
+    _pages = [("/", "daily", "1.0"), ("/sports", "daily", "0.8"), ("/world", "daily", "0.8"),
+              ("/markets", "daily", "0.8"), ("/politics", "daily", "0.8"), ("/life-culture", "daily", "0.8"),
+              ("/archive", "daily", "0.4"), ("/about", "monthly", "0.3"), ("/contact", "monthly", "0.3"),
+              ("/privacy", "monthly", "0.2"), ("/terms", "monthly", "0.2")]
+    _sm = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for _loc, _cf, _pri in _pages:
+        _sm.append("  <url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>%s</changefreq><priority>%s</priority></url>"
+                   % (LIVE, _loc, _today, _cf, _pri))
+    _sm.append("</urlset>")
+    with open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write("\n".join(_sm) + "\n")
+    print("  wrote sitemap.xml (%d urls)" % len(_pages))
+
     print("Site ready at ./site")
 
 if __name__ == "__main__":
