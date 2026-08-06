@@ -7,8 +7,8 @@
 <link rel="canonical" href="https://duncanreport.com/" />
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<meta name="description" content="DuncanReport.com - AI-powered news aggregator covering Politics,
-Military, Business, Technology and more." />
+<meta name="description" content="DuncanReport.com - a spectrum-balanced news aggregator covering Politics,
+World, Business, Sports, and Life & Culture." />
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
@@ -290,6 +290,11 @@ line-height: 1.8;
 .mk-chg.mk-up { color: #006600; }
 .mk-chg.mk-down { color: #cc0000; }
 .mk-sep { color: #ccc; padding: 0 7px; }
+/* ===== POLLS STRIP (politics page) ===== */
+#polls { max-width:1100px; margin:0 auto 6px; padding:5px 8px; text-align:center; border-bottom:1px solid #ccc; font-size:12px; line-height:1.8; }
+#polls:empty { display:none; }
+#polls a { color:#00008B; text-decoration:underline; }
+.pl-sep { color:#ccc; padding:0 7px; }
 /* ===== ADDED: SCOREBOARD (sports page) ===== */
 #scoreboard {
 max-width: 1100px;
@@ -329,6 +334,14 @@ border-bottom: 1px solid #eee;
 #archive-banner { background:#fff8e1; border:1px solid #f0e0a0; color:#333; font-size:13px;
   text-align:center; padding:6px 10px; margin:0 auto 8px; max-width:1100px; border-radius:4px; }
 #archive-banner a { color:#00008B; }
+/* Live updates (under hero) + editorials (under narrative panels) */
+#live-updates { text-align:center; font-size:13px; margin:2px auto 8px; max-width:700px; }
+#live-updates:empty { display:none; }
+#live-updates .lu-label { color:#cc0000; font-weight:bold; text-transform:uppercase; font-size:11px; letter-spacing:.4px; }
+#live-updates a { color:#00008B; text-decoration:underline; }
+.group-editorials { font-size:11px; color:#555; margin:2px 0 5px; line-height:1.45; }
+.group-editorials .ed-label { text-transform:uppercase; letter-spacing:.3px; font-weight:bold; color:#777; font-size:10px; }
+.group-editorials a { color:#8b0000; text-decoration:underline; }
 </style>
 </head>
 <body>
@@ -363,6 +376,7 @@ border-bottom: 1px solid #eee;
 <a href="https://www.washingtonexaminer.com" target="_blank">Wash Examiner</a>
 <a href="https://www.washingtontimes.com" target="_blank">Wash Times</a>
 <a href="https://www.wsj.com" target="_blank">WSJ</a>
+<a href="https://www.newsnationnow.com" target="_blank">News Nation</a>
 </div>
 </div>
 </div>
@@ -372,9 +386,11 @@ border-bottom: 1px solid #eee;
 <div id="hero-image"></div>
 <div id="hero-headline"><span class="skeleton skeleton-hero"></span></div>
 <div id="sub-headlines"></div>
+<div id="live-updates"></div>
 </div>
 <div id="markets"></div>
 <div id="scoreboard"></div>
+<div id="polls"></div>
 <div id="columns">
 <div class="col" id="col-left"></div>
 <div class="col" id="col-center"></div>
@@ -382,9 +398,10 @@ border-bottom: 1px solid #eee;
 </div>
 </div>
 <div id="footer">
-DuncanReport.com &mdash; Powered by AI &mdash; Updated continuously<br>
+DuncanReport.com &mdash; Updated continuously<br>
 &copy; 2026 DuncanReport.com &mdash;
 <a href="/about.html" style="color:#555;text-decoration:underline;">About</a> &middot;
+<a href="/how-we-curate.html" style="color:#555;text-decoration:underline;">How We Curate</a> &middot;
 <a href="/contact.html" style="color:#555;text-decoration:underline;">Contact</a> &middot;
 <a href="/privacy.html" style="color:#555;text-decoration:underline;">Privacy Policy</a> &middot;
 <a href="/terms.html" style="color:#555;text-decoration:underline;">Terms</a> &middot;
@@ -565,6 +582,7 @@ return html + '</div>';
 function renderStories(data) {
 // Markets strip renders regardless of hero; sports scores go into the left column below.
 if (currentSection() === 'markets') { renderMarketLinks(); } else { renderMarkets(data && data.markets); }
+if (currentSection() === 'politics') { renderPollLinks(); }
 var sbHTML = (currentSection() === 'sports' && data && data.scoreboard) ? scoreboardBlock(data.scoreboard) : '';
 if (!data || !data.hero) {
 document.getElementById('hero-headline').innerHTML = 'NO STORIES FOUND';
@@ -602,6 +620,15 @@ return '<a href="' + s.url + '" target="_blank">' + s.text + '</a>';
 } else {
 subEl.innerHTML = '';
 }
+// Live updates (major breaking events) - links delink automatically when the engine stops attaching them
+var luEl = document.getElementById('live-updates');
+if (luEl) {
+if (hero.liveUpdates && hero.liveUpdates.length) {
+luEl.innerHTML = '<span class="lu-label">Live updates:</span> ' + hero.liveUpdates.map(function(u){
+return '<a href="' + u.url + '" target="_blank">' + u.source + '</a>';
+}).join(' &middot; ');
+} else { luEl.innerHTML = ''; }
+}
 // Build a render helper for a single group panel
 function renderGroupPanel(g) {
 var html = '<div class="group-panel"><div class="group-title">' + g.title + '</div>';
@@ -609,6 +636,11 @@ var html = '<div class="group-panel"><div class="group-title">' + g.title + '</d
 html += '<div class="col-section grouped"><a href="' + s.url + '" target="_blank">' + tagPrefix(s) + toTitleCase(s.headline) +
 '</a></div>';
 });
+if (g.editorials && g.editorials.length) {
+html += '<div class="group-editorials"><span class="ed-label">Editorials:</span> ' + g.editorials.map(function(e){
+return '<a href="' + e.url + '" target="_blank">' + e.source + '</a>';
+}).join(' &middot; ') + '</div>';
+}
 html += '</div>';
 return html;
 }
@@ -731,6 +763,19 @@ var MARKET_LINKS = [
   ["Bitcoin", "https://finance.yahoo.com/quote/BTC-USD"],
   ["10-Yr Treasury", "https://finance.yahoo.com/quote/%5ETNX"]
 ];
+var POLL_LINKS = [
+  ["Trump Approval", "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating"],
+  ["Congress Ballot", "https://www.realclearpolling.com/polls/generic-congressional-vote"],
+  ["Right/Wrong Track", "https://www.realclearpolling.com/polls/direction-of-country"],
+  ["All Polls", "https://www.realclearpolling.com/polls"]
+];
+function renderPollLinks() {
+  var el = document.getElementById('polls');
+  if (!el) return;
+  el.innerHTML = '<span style="color:#555">RCP poll averages &rarr; </span>' + POLL_LINKS.map(function(p){
+    return '<a href="' + p[1] + '" target="_blank">' + p[0] + '</a>';
+  }).join('<span class="pl-sep">|</span>');
+}
 function renderMarketLinks() {
   var el = document.getElementById('markets');
   if (!el) return;
@@ -741,7 +786,7 @@ function renderMarketLinks() {
 
 // ===== Per-section source bar (Main is unchanged; others match their beat) =====
 var SOURCE_BARS = {
-  main: [["ABC","https://abcnews.go.com"],["AP","https://apnews.com"],["BBC","https://www.bbc.com/news"],["CBS","https://www.cbsnews.com"],["CNN","https://www.cnn.com"],["NBC","https://www.nbcnews.com"],["NPR","https://www.npr.org"],["NY Times","https://www.nytimes.com"],["Politico","https://www.politico.com"],["The Guardian","https://www.theguardian.com"],["Breitbart","https://www.breitbart.com"],["Daily Caller","https://dailycaller.com"],["Fox News","https://www.foxnews.com"],["NewsMax","https://www.newsmax.com"],["NY Post","https://nypost.com"],["Wash Examiner","https://www.washingtonexaminer.com"],["Wash Times","https://www.washingtontimes.com"],["WSJ","https://www.wsj.com"]],
+  main: [["ABC","https://abcnews.go.com"],["AP","https://apnews.com"],["BBC","https://www.bbc.com/news"],["CBS","https://www.cbsnews.com"],["CNN","https://www.cnn.com"],["NBC","https://www.nbcnews.com"],["NPR","https://www.npr.org"],["NY Times","https://www.nytimes.com"],["Politico","https://www.politico.com"],["The Guardian","https://www.theguardian.com"],["Breitbart","https://www.breitbart.com"],["Daily Caller","https://dailycaller.com"],["Fox News","https://www.foxnews.com"],["NewsMax","https://www.newsmax.com"],["NY Post","https://nypost.com"],["Wash Examiner","https://www.washingtonexaminer.com"],["Wash Times","https://www.washingtontimes.com"],["WSJ","https://www.wsj.com"],["News Nation","https://www.newsnationnow.com"]],
   sports: [["ESPN","https://www.espn.com"],["Fox Sports","https://www.foxsports.com"],["Yahoo Sports","https://sports.yahoo.com"],["CBS Sports","https://www.cbssports.com"],["NBC Sports","https://www.nbcsports.com"],["The Athletic","https://www.nytimes.com/athletic/"],["Bleacher Report","https://bleacherreport.com"],["SI","https://www.si.com"],["AP Sports","https://apnews.com/hub/sports"],["USA Today","https://www.usatoday.com/sports/"],["The Ringer","https://www.theringer.com"],["FOS","https://frontofficesports.com"],["SB Nation","https://www.sbnation.com"],["The Score","https://www.thescore.com"],["Barstool","https://www.barstoolsports.com"],["Deadspin","https://www.deadspin.com"]],
   world: [["BBC","https://www.bbc.com/news"],["Reuters","https://www.reuters.com"],["AP","https://apnews.com"],["AFP","https://www.afp.com/en"],["Al Jazeera","https://www.aljazeera.com"],["Guardian","https://www.theguardian.com/world"],["CNN Intl","https://edition.cnn.com"],["Bloomberg","https://www.bloomberg.com"],["FT","https://www.ft.com"],["NY Times","https://www.nytimes.com/section/world"],["Wash Post","https://www.washingtonpost.com/world"],["DW","https://www.dw.com/en"],["France 24","https://www.france24.com/en"],["Euronews","https://www.euronews.com"],["The Times","https://www.thetimes.com"],["NPR","https://www.npr.org/sections/world"]],
   markets: [["WSJ","https://www.wsj.com"],["Bloomberg","https://www.bloomberg.com"],["CNBC","https://www.cnbc.com"],["FT","https://www.ft.com"],["Reuters","https://www.reuters.com"],["MarketWatch","https://www.marketwatch.com"],["Barron's","https://www.barrons.com"],["Forbes","https://www.forbes.com"],["Fortune","https://fortune.com"],["Business Insider","https://www.businessinsider.com"],["Yahoo Finance","https://finance.yahoo.com"],["Motley Fool","https://www.fool.com"],["Investopedia","https://www.investopedia.com"],["IBD","https://www.investors.com"],["Seeking Alpha","https://seekingalpha.com"],["Economist","https://www.economist.com"]],
@@ -780,8 +825,7 @@ const existing = await loadStories();
 if (existing && (existing.hero || existing.scoreboard || existing.markets)) {
 renderStories(existing);
 }
-// stories.json IS the source of truth - no AI call here.
-// The curation engine writes fresh stories externally.
+// stories.json is the source of truth for this page; it is refreshed by our publishing process.
 if (!existing || (!existing.hero && !existing.scoreboard && !existing.markets)) {
 renderStories({});
 }
