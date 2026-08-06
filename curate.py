@@ -628,8 +628,7 @@ SEEDS = json.loads(r"""
 }
 """)
 
-DOMAINS = json.loads(r"""
-{
+DOMAINS = json.loads(r"""{
  "main": [
   "abcnews.go.com",
   "apnews.com",
@@ -662,7 +661,6 @@ DOMAINS = json.loads(r"""
   "rollingstone.com",
   "salon.com",
   "nationalreview.com",
-  "realclearpolitics.com",
   "thefp.com",
   "dailywire.com",
   "thefederalist.com",
@@ -761,10 +759,23 @@ DOMAINS = json.loads(r"""
   "usatoday.com",
   "nytimes.com",
   "pitchfork.com",
-  "etonline.com"
+  "etonline.com",
+  "smithsonianmag.com",
+  "atlasobscura.com",
+  "aeon.co",
+  "phys.org",
+  "sciencenews.org",
+  "theconversation.com",
+  "mentalfloss.com",
+  "thisiscolossal.com",
+  "npr.org",
+  "arstechnica.com",
+  "nautil.us",
+  "lithub.com",
+  "bigthink.com",
+  "sciencealert.com"
  ]
-}
-""")
+}""")
 
 # Standing narrative arcs the engine actively hunts every cycle (wider window than
 # breaking news) so long-running stories, breadth, and oddity keep showing up.
@@ -1047,56 +1058,73 @@ NARRATIVES = json.loads(r"""{
  "life-culture": [
   {
    "arc": "Celebrity",
-   "q": "celebrity (scandal OR split OR feud OR death OR baby)"
+   "q": "celebrity (interview OR profile OR split OR feud OR death OR baby)"
   },
   {
-   "arc": "Hollywood and box office",
-   "q": "(\"box office\" OR movie OR Hollywood OR film) (opening OR record)"
+   "arc": "Hollywood and film",
+   "q": "(movie OR film OR Hollywood OR \"box office\") (release OR review OR casting OR premiere)"
   },
   {
    "arc": "Music",
-   "q": "music (album OR tour OR chart OR Grammy OR artist)"
+   "q": "music (album OR artist OR tour OR chart OR review OR Grammy)"
   },
   {
    "arc": "TV and streaming",
-   "q": "(TV OR streaming OR Netflix OR series OR show) (premiere OR cancel)"
+   "q": "(TV OR streaming OR Netflix OR series OR show) (premiere OR review OR finale OR cancel)"
   },
   {
-   "arc": "Health and wellness",
-   "q": "(health OR wellness OR diet OR fitness OR study) new"
+   "arc": "Fashion and style",
+   "q": "(fashion OR style OR \"red carpet\" OR designer OR runway)"
   },
   {
-   "arc": "Food and dining",
-   "q": "(food OR restaurant OR dining OR recipe OR chef)"
+   "arc": "Science and discovery",
+   "q": "(scientists OR researchers OR study) (discover OR invent OR surprising OR bizarre OR breakthrough OR build)"
   },
   {
-   "arc": "Travel",
-   "q": "travel (destination OR airline OR tourism OR vacation)"
+   "arc": "Ideas and culture",
+   "q": "(essay OR \"the case for\" OR \"why we\" OR rethinking OR cultural criticism) ideas"
   },
   {
-   "arc": "Relationships and trends",
-   "q": "(dating OR marriage OR \"Gen Z\" OR \"social trend\" OR lifestyle)"
+   "arc": "Books and literature",
+   "q": "(book OR novel OR author OR memoir OR poetry OR literature) (review OR release OR interview)"
   },
   {
-   "arc": "Viral and internet",
-   "q": "(viral OR TikTok OR internet OR meme OR trend) video"
+   "arc": "Arts and museums",
+   "q": "(art OR museum OR exhibition OR gallery OR painting OR sculpture OR theater)"
   },
   {
-   "arc": "Religion and faith",
-   "q": "(religion OR faith OR church OR Christian OR spiritual)"
+   "arc": "History and archaeology",
+   "q": "(history OR archaeology OR ancient OR artifact OR excavation OR historians)"
   },
   {
-   "arc": "Science oddity",
-   "q": "(science OR discovery OR study OR space OR archaeology) surprising"
+   "arc": "Psychology and behavior",
+   "q": "(psychology OR \"human behavior\" OR happiness OR loneliness OR memory OR habits) study"
   },
   {
-   "arc": "Fashion",
-   "q": "(fashion OR style OR \"red carpet\" OR designer OR trend)"
+   "arc": "Design and architecture",
+   "q": "(architecture OR design OR building OR interiors OR urbanism OR typography)"
+  },
+  {
+   "arc": "Space and nature",
+   "q": "(space OR astronomy OR NASA OR ocean OR wildlife OR nature OR animals) discovery"
+  },
+  {
+   "arc": "Food culture",
+   "q": "(food OR cuisine OR chef OR culinary OR recipe OR restaurant) (culture OR history OR science)"
+  },
+  {
+   "arc": "Travel and places",
+   "q": "(travel OR destination OR \"hidden gem\" OR \"off the beaten path\" OR village OR island)"
+  },
+  {
+   "arc": "Human-interest and the unusual",
+   "q": "(unusual OR delightful OR fascinating OR quirky OR strange OR \"you won't believe\") (man OR woman OR town OR creature OR discovery)"
   }
  ]
 }""")
 
 EMPHASIS = {
+    "life-culture": '\n\n===== LIFE & CULTURE EMPHASIS =====\nBalance entertainment with substance. Keep celebrity, film, music, TV, and fashion - readers enjoy them - but they must NOT dominate the page. Give equal or greater weight to thoughtful, curious, intelligent material: science and discovery (especially the delightful, surprising kind - e.g. "scientists build a tiny diving suit for cockroaches"), big ideas and cultural criticism, books and literature, arts and museums, history and archaeology, psychology and human behavior, design and architecture, space and nature, food culture, and travel with real depth. Favor the smart, surprising, "wow, I didn\'t know that" story over routine gossip. Because the heavy analytical outlets are often paywalled, lean toward sources readers can actually open - Smithsonian, Atlas Obscura, Aeon, NPR, Phys.org, Science News, ScienceAlert, The Conversation, Big Think, Mental Floss, Colossal, Literary Hub, Nautilus, Ars Technica, BBC - for the thoughtful picks.\n',
     "sports": "\n\n===== SPORTS EMPHASIS =====\nWeight coverage by popularity: the major US leagues lead - NFL is biggest, then NBA, MLB, NHL - followed by soccer (MLS plus the big international competitions: World Cup, European leagues, CONCACAF, Champions League). Give those DEEP, detailed coverage. In ADDITION, give BROAD coverage of the wider sports world every cycle: tennis, golf, UFC/MMA (name the week's main event even though it has no scoreboard), boxing, cycling (Tour de France and the grand tours), the Olympics, track and field and distance running, winter sports and skiing, WNBA and women's sports, and college sports. ALWAYS surface any world record or historic milestone (for example a new mile record) prominently - records are major news. Pick as hero the single biggest sports story of the day, whatever the sport.\n",
 }
 
@@ -1399,6 +1427,41 @@ DRUDGE_BLOCK = ("drudgereport.com", "freestar", "apps.apple.com", "play.google.c
                 "earthquake.usgs.gov", "zoom.earth", "apnews.com/projects",
                 "reuters.com/news/archive", "news.sky.com/story")
 
+RC_DOMAINS = {
+    "main": ["realclearinvestigations.com", "realclearpolitics.com"],
+    "politics": ["realclearpolitics.com", "realclearinvestigations.com"],
+    "world": ["realclearworld.com"],
+    "markets": ["realclearmarkets.com"],
+    "life-culture": ["realclearscience.com", "realclearhistory.com", "realcleareducation.com",
+                     "realclearbooks.com", "realclearhealth.com", "realclearreligion.com"],
+}
+
+def realclear_candidates(section, per_site=5):
+    """RealClear originals (Investigations, staff pieces, and the topical verticals) on a wide
+    window, since these publish less often than daily news. Routed per matching page."""
+    items = []
+    for dom in RC_DOMAINS.get(section, []):
+        try:
+            root = ET.fromstring(_fetch_bytes(GNEWS % urllib.parse.quote("site:%s when:10d" % dom)))
+        except Exception as e:
+            print("    realclear %s failed: %s" % (dom, e)); continue
+        n = 0
+        for it in root.iter("item"):
+            title = (it.findtext("title") or "").strip()
+            link = (it.findtext("link") or "").strip()
+            if not title or not link:
+                continue
+            src_el = it.find("source")
+            source = (src_el.text if (src_el is not None and src_el.text) else dom)
+            if source and title.endswith(" - " + source):
+                title = title[: -(len(source) + 3)].strip()
+            items.append({"title": unescape(title), "url": link, "source": source,
+                          "ts": _pub_ms(it.findtext("pubDate") or ""), "arc": "RealClear"})
+            n += 1
+            if n >= per_site:
+                break
+    return items
+
 def drudge_candidates(limit=40):
     """Pull the links Drudge Report is currently featuring - a hand-curated human feed."""
     try:
@@ -1470,13 +1533,14 @@ def curate_live(section):
         c.setdefault("arc", "breaking")
     arcs = narrative_candidates(section)
     drudge = drudge_candidates() if section == "main" else []
+    realclear = realclear_candidates(section)
     cands, seen = [], set()
-    for c in (drudge[:30] + arcs[:35] + breaking[:35]):
+    for c in (realclear[:18] + drudge[:30] + arcs[:32] + breaking[:32]):
         if c["url"] in seen:
             continue
         seen.add(c["url"])
         cands.append(c)
-    cands = cands[:95]
+    cands = cands[:110]
     if not cands:
         raise ValueError("no Google News candidates for %s" % section)
     by_id = {"c%d" % i: c for i, c in enumerate(cands)}
@@ -1502,6 +1566,9 @@ def curate_live(section):
             "- SOURCING: welcome tabloid, foreign, and niche outlets alongside wire and mainstream.\n"
             "- HAND-PICKED: candidates tagged 'Drudge pick' come from a veteran human editor's "
             "front page - weight them as high-quality, distinctive story ideas worth featuring.\n"
+            "- ORIGINALS: give extra weight to distinctive, free, staff-written analysis and "
+            "investigations - especially RealClearInvestigations and RealClear staff pieces (sources "
+            "that begin with 'RealClear') - and feature them prominently when they fit the page.\n"
             % arc_names)
     editorial += EMPHASIS.get(section, "")
     try:
@@ -1510,12 +1577,13 @@ def curate_live(section):
         live_hero = {}
     if live_hero.get("headline") and NARRATIVES.get(section):
         editorial += (
-            "\n\n===== CURRENT HEADLINE =====\n"
-            "The live headline right now is: \"%s\". The headline changes at most once per day. "
-            "Pick the single best hero from today's candidates as usual, then include a top-level "
-            "boolean field \"heroOverride\": set it TRUE only if your chosen hero is a MAJOR, dominant "
-            "breaking story (heavy coverage across many outlets) that clearly outweighs the current "
-            "headline above; otherwise set it false."
+            "\n\n===== HEADLINE (choose a FRESH one) =====\n"
+            "The headline currently showing is: \"%s\". Choose today's hero as the single biggest "
+            "CURRENT story - something published in roughly the last day or two. Prefer a DIFFERENT "
+            "story than the one above so the front page changes day to day; do NOT re-use a days-old "
+            "ongoing topic as the hero just because it is prominent. Keep the same hero ONLY if that "
+            "exact story is still the clearly dominant breaking news - in that case set the top-level "
+            "boolean \"heroOverride\": true; otherwise set \"heroOverride\": false."
             % live_hero.get("headline"))
     system = ("You are the DuncanReport.com curation engine for the '%s' section. Today is %s. Follow the "
               "CORE CONTRACT and the SECTION rules. You are given CANDIDATE stories pulled from this "
@@ -1756,11 +1824,11 @@ def ensure_hero_image(section, data):
         if sl.get("url"):
             cands.append(sl["url"])
     for g in (data.get("groups") or []):
-        for s in (g.get("stories") or [])[:2]:
+        for s in (g.get("stories") or [])[:3]:
             if s.get("url"):
                 cands.append(s["url"])
     for k in ("left", "center", "right"):
-        for s in ((data.get("columns") or {}).get(k) or [])[:2]:
+        for s in ((data.get("columns") or {}).get(k) or [])[:5]:
             if s.get("url"):
                 cands.append(s["url"])
     seen, tries = set(), 0
@@ -1783,7 +1851,7 @@ def ensure_hero_image(section, data):
                 return
         except Exception:
             continue
-        if tries >= 8:
+        if tries >= 14:
             break
     try:
         if os.path.exists(dest):
@@ -2041,11 +2109,14 @@ def build():
         problems.append("sports scoreboard fetch: %s" % sb_debug[:120])
     if targets and os.environ.get("ANTHROPIC_API_KEY") and not _WORKING_MODEL:
         problems.append("no working Anthropic model (API key / credit / model problem)")
+    critical = [p for p in problems if "EMPTY" in p]     # a broken/empty page must NOT go live
     ok = not problems
+    deployable = not critical
     if ok:
         print("HEALTH: all good")
     else:
-        print("HEALTH: %d problem(s) detected:" % len(problems))
+        print("HEALTH: %d problem(s)%s:" % (len(problems),
+              "" if deployable else "  <-- INCLUDES A BROKEN PAGE; deploy will be blocked"))
         for _p in problems:
             print("  - %s" % _p)
 
@@ -2053,7 +2124,8 @@ def build():
         json.dump({"model_default": MODEL, "model_used": _WORKING_MODEL,
                    "key_present": bool(os.environ.get("ANTHROPIC_API_KEY")),
                    "target": os.environ.get("SECTION", "all"), "scoreboard": sb_debug,
-                   "ok": ok, "problems": problems, "sections": STATUS}, f, indent=2)
+                   "ok": ok, "deployable": deployable, "problems": problems,
+                   "critical": critical, "sections": STATUS}, f, indent=2)
 
     try:
         traffic = cloudflare_traffic()
