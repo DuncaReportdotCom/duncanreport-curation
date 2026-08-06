@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786029048481,
+  "lastUpdated": 1786047225647,
   "heroSetDate": "2026-08-06",
   "hero": {
     "headline": "US HAS USED 'VIRTUALLY ALL' LONG-RANGE PRECISION MISSILES IN IRAN WAR, OFFICIALS SAY",
@@ -144,6 +144,18 @@
   "columns": {
     "left": [
       {
+        "headline": "Israel's Killing Of Journalist Amal Khalil Was A War Crime, Rights Group Says",
+        "url": "https://www.washingtonpost.com/world/2026/08/06/israels-killing-journalist-amal-khalil-was-war-crime-rights-group-says/",
+        "timestamp": 1786044755000,
+        "postedAt": 1786047225647
+      },
+      {
+        "headline": "Men Taken To Safety After Thetford Mob Targets 'Asylum Seeker Homes'",
+        "url": "https://www.thetimes.com/uk/crime/article/norfolk-thetford-asylum-seeker-homes-mob-smvwv9w5z",
+        "timestamp": 1786042920000,
+        "postedAt": 1786047225647
+      },
+      {
         "headline": "The Burning: The Untold Story Of Africa's Refugee Crisis",
         "url": "https://www.pbs.org/video/the-burning-the-untold-story-of-africas-refugee-crisis-d5glch/",
         "timestamp": 1785579679000,
@@ -194,6 +206,18 @@
     ],
     "center": [
       {
+        "headline": "Danish Pupils Will Have To Orally Defend Essays In Attempt To Combat AI Cheating",
+        "url": "https://www.theguardian.com/technology/2026/aug/06/students-ai-cheating-schools-denmark",
+        "timestamp": 1786045320000,
+        "postedAt": 1786047225647
+      },
+      {
+        "headline": "Jailed Ex-US Marine May Be Near Death In Russia, Sister, Advocacy Groups Say",
+        "url": "https://www.reuters.com/world/us/jailed-ex-us-marine-may-be-near-death-russia-sister-advocacy-groups-say-2026-08-06/",
+        "timestamp": 1786042188000,
+        "postedAt": 1786047225647
+      },
+      {
         "headline": "Israel Charges Settler In Palestinian Activist's Killing, In Rare Indictment",
         "url": "https://www.reuters.com/world/middle-east/israel-charges-settler-palestinian-activists-killing-rare-indictment-2026-08-06/",
         "timestamp": 1786027284000,
@@ -219,6 +243,18 @@
       }
     ],
     "right": [
+      {
+        "headline": "Meta Says Its AI Model Hacked Another Company During Testing",
+        "url": "https://www.washingtonpost.com/technology/2026/08/06/meta-says-its-ai-model-hacked-another-company-during-testing/",
+        "timestamp": 1786045260000,
+        "postedAt": 1786047225647
+      },
+      {
+        "headline": "Hackers Targeted US Private Equity, Other Firms Including Blackstone, CME, Data Shows",
+        "url": "https://www.reuters.com/world/hackers-targeted-us-private-equity-other-firms-including-blackstone-cme-data-2026-08-06/",
+        "timestamp": 1786043578000,
+        "postedAt": 1786047225647
+      },
       {
         "headline": "Why AI Companies Are Destroying Millions Of Books",
         "url": "https://amp.dw.com/en/why-ai-companies-are-destroying-millions-of-books/video-78267115",

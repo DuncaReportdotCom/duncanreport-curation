@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786028952128,
+  "lastUpdated": 1786047090307,
   "heroSetDate": "2026-08-06",
   "hero": {
     "headline": "MLB TRADE DEADLINE DELIVERS CHAOS AS CONTENDERS RELOAD FOR STRETCH RUN",
@@ -24,6 +24,23 @@
     ]
   },
   "groups": [
+    {
+      "title": "NFL TRAINING CAMP INJURY REPORT",
+      "stories": [
+        {
+          "headline": "Josh Jacobs (Groin) Not Practicing Thursday",
+          "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-08-06/josh-jacobs-groin-not-practicing-on-thursday",
+          "timestamp": 1786045457000,
+          "postedAt": 1786047090307
+        },
+        {
+          "headline": "Packers Injury Suddenly Changes Major Position Battle",
+          "url": "https://sports.yahoo.com/articles/packers-injury-suddenly-changes-major-193558459.html",
+          "timestamp": 1786044958000,
+          "postedAt": 1786047090307
+        }
+      ]
+    },
     {
       "title": "NFL TRAINING CAMP BATTLES",
       "stories": [
@@ -210,6 +227,18 @@
   "columns": {
     "left": [
       {
+        "headline": "UEFA Not Backing Off FIFA Boycott",
+        "url": "https://frontofficesports.com/newsletter/uefa-not-backing-off-fifa-boycott/",
+        "timestamp": 1786044726000,
+        "postedAt": 1786047090307
+      },
+      {
+        "headline": "Georgia Director of Recruiting Relations Leaves Football Program",
+        "url": "https://sports.yahoo.com/articles/georgia-director-recruiting-relations-leaves-180158809.html",
+        "timestamp": 1786044744000,
+        "postedAt": 1786047090307
+      },
+      {
         "headline": "UEFA Stands By World Cup Boycott Despite Infantino Apology",
         "url": "https://www.espn.com/soccer/story/_/id/49545189/uefa-stands-world-cup-boycott-plans-fifa-gianni-infantino-apology",
         "timestamp": 1786026180000,
@@ -271,6 +300,18 @@
       }
     ],
     "center": [
+      {
+        "headline": "Jaylen Brown Says He, Tatum Haven't Talked Since 76ers Trade",
+        "url": "https://bleacherreport.com/articles/25465180-jaylen-brown-says-he-jayson-tatum-havent-talked-76ers-trade-talks-relationship",
+        "timestamp": 1786043470000,
+        "postedAt": 1786047090307
+      },
+      {
+        "headline": "Aaron Donald Logs Official Workout With the Rams",
+        "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-08-05/aaron-donald-logs-official-workout-with-the-rams",
+        "timestamp": 1786044600000,
+        "postedAt": 1786047090307
+      },
       {
         "headline": "Proposed Trade Would Solve Celtics' Biggest Weakness",
         "url": "https://sports.yahoo.com/articles/proposed-trade-solves-celtics-biggest-140427646.html",
@@ -346,12 +387,6 @@
         "postedAt": 1785968388976
       },
       {
-        "headline": "Aaron Donald Had Tryout With Rams To Test Comeback Feel",
-        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-donald-had-tryout-with-rams-to-evaluate-how-he-felt-with-helmet-pads-on",
-        "timestamp": 1785964072000,
-        "postedAt": 1785968388976
-      },
-      {
         "headline": "2026 NFL Projections See All-Texas Super Bowl 61 Showdown",
         "url": "https://www.usatoday.com/story/sports/nfl/columnist/nate-davis/2026/08/05/nfl-record-projections-win-totals-2026-super-bowl-61/91037657007/",
         "timestamp": 1785963600000,
@@ -379,6 +414,42 @@
   },
   "scoreboard": [
     {
+      "league": "MLB",
+      "home": "CLE",
+      "away": "NYM",
+      "state": "in",
+      "note": "Bot 9th",
+      "homeScore": "6",
+      "awayScore": "13"
+    },
+    {
+      "league": "MLB",
+      "home": "MIL",
+      "away": "PIT",
+      "state": "in",
+      "note": "End 7th",
+      "homeScore": "5",
+      "awayScore": "2"
+    },
+    {
+      "league": "MLB",
+      "home": "CHC",
+      "away": "TOR",
+      "state": "in",
+      "note": "End 6th",
+      "homeScore": "0",
+      "awayScore": "1"
+    },
+    {
+      "league": "MLB",
+      "home": "SEA",
+      "away": "DET",
+      "state": "in",
+      "note": "Top 1st",
+      "homeScore": "0",
+      "awayScore": "0"
+    },
+    {
       "league": "NFL",
       "home": "ARI",
       "away": "CAR",
@@ -393,60 +464,6 @@
       "away": "MIA",
       "state": "scheduled",
       "note": "10/3 - 7:00 PM EDT",
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "league": "MLB",
-      "home": "BAL",
-      "away": "LAA",
-      "state": "scheduled",
-      "note": "8/6 - 12:35 PM EDT",
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "league": "MLB",
-      "home": "CIN",
-      "away": "ATH",
-      "state": "scheduled",
-      "note": "8/6 - 12:40 PM EDT",
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "league": "MLB",
-      "home": "CLE",
-      "away": "NYM",
-      "state": "scheduled",
-      "note": "8/6 - 1:10 PM EDT",
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "league": "MLB",
-      "home": "MIL",
-      "away": "PIT",
-      "state": "scheduled",
-      "note": "8/6 - 2:10 PM EDT",
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "league": "MLB",
-      "home": "CHC",
-      "away": "TOR",
-      "state": "scheduled",
-      "note": "8/6 - 2:20 PM EDT",
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "league": "MLB",
-      "home": "SEA",
-      "away": "DET",
-      "state": "scheduled",
-      "note": "8/6 - 4:10 PM EDT",
       "homeScore": null,
       "awayScore": null
     },
@@ -557,6 +574,24 @@
       "note": "Scheduled",
       "homeScore": null,
       "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "BAL",
+      "away": "LAA",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "1",
+      "awayScore": "4"
+    },
+    {
+      "league": "MLB",
+      "home": "CIN",
+      "away": "ATH",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "6",
+      "awayScore": "5"
     }
   ]
 }

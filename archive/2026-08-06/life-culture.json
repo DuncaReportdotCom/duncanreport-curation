@@ -1,25 +1,21 @@
 {
-  "lastUpdated": 1786029449092,
+  "lastUpdated": 1786047624236,
   "heroSetDate": "2026-08-06",
   "hero": {
-    "headline": "'SPIDER-MAN: BRAND NEW DAY' ROARS TO ALL-TIME RECORD $360M OPENING, DETHRONES 'AVENGERS: ENDGAME'",
-    "url": "https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-opening-record-endgame-box-office-1236662986/",
+    "headline": "'SPIDER-MAN: BRAND NEW DAY' SWINGS TO $42M TUESDAY RECORD, TOPS $1.1B GLOBAL AS TOP FILM OF YEAR",
+    "url": "https://deadline.com/2026/08/box-office-spider-man-brand-new-day-tuesday-record-1237018454/",
     "sublinks": [
       {
-        "text": "Preview-night sales alone hit a record $72 million",
-        "url": "https://www.cnbc.com/2026/07/31/spider-man-brand-new-day-box-office-preview-sales.html"
+        "text": "Weekend Debut Hit All-Time Record $360M, Dethroning 'Avengers: Endgame'",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-opening-record-endgame-box-office-1236662986/"
       },
       {
-        "text": "Forbes confirms the haul surpasses Endgame's long-standing benchmark",
-        "url": "https://www.forbes.com/sites/zacharyfolk/2026/08/03/spider-man-brand-new-day-tops-avengers-endgame-for-biggest-box-office-debut-ever/"
+        "text": "Preview Night Alone Broke Records With A $72 Million Haul",
+        "url": "https://variety.com/2026/film/box-office/spider-man-brand-new-day-box-office-record-previews-1236824394/"
       },
       {
-        "text": "Film now ranks among the 15 largest openings in box office history",
+        "text": "See Where It Now Ranks Among The Biggest Movie Openings Ever",
         "url": "https://www.businessinsider.com/movies-with-largest-opening-weekend-box-office"
-      },
-      {
-        "text": "Studio projects global weekend tally could reach $425 million",
-        "url": "https://deadline.com/2026/07/spider-man-brand-new-day-box-office-projection-1237005824/"
       }
     ]
   },
@@ -101,6 +97,18 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Gareth Edwards Exits Next 'Jurassic World' Sequel Over Creative Differences",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/jurassic-world-rebirth-sequel-loses-director-gareth-edwards-1236666236/",
+        "timestamp": 1786045823000,
+        "postedAt": 1786047624236
+      },
+      {
+        "headline": "'Grown Ups 3' Cast Revealed: Adam Sandler, Chris Rock And More",
+        "url": "https://variety.com/2026/film/news/grown-ups-3-cast-adam-sandler-chris-rock-1236829352/",
+        "timestamp": 1786044780000,
+        "postedAt": 1786047624236
+      },
       {
         "headline": "Jeff Zucker Disses Robert Pattinson In Riveting 'Primetime' Trailer",
         "url": "https://www.hollywoodreporter.com/movies/movie-news/primetime-trailer-robert-pattinson-a24-1236665850/",
@@ -232,10 +240,22 @@
     ],
     "right": [
       {
+        "headline": "Al Roker Meets His 'Twin' On 'Today' In 'Freaky' Encounter",
+        "url": "https://ew.com/al-roker-meets-his-twin-on-today-in-freaky-encounter-12035958",
+        "timestamp": 1786045723000,
+        "postedAt": 1786047624236
+      },
+      {
         "headline": "The 50 Best Thriller Books Of The 21st Century",
         "url": "https://www.nytimes.com/interactive/2026/books/best-thriller-books-21st-century.html",
-        "timestamp": 1786029290000,
-        "postedAt": 1786029449092
+        "timestamp": 1786045490000,
+        "postedAt": 1786047624236
+      },
+      {
+        "headline": "The Avalanches Announce New Album No Bad Memories",
+        "url": "https://pitchfork.com/story/the-avalanches-announce-new-album-no-bad-memories/",
+        "timestamp": 1786044340000,
+        "postedAt": 1786047624236
       },
       {
         "headline": "Martha Stewart Burns Meghan Markle Over Her Lifestyle Show",
