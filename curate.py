@@ -773,7 +773,23 @@ DOMAINS = json.loads(r"""{
   "nautil.us",
   "lithub.com",
   "bigthink.com",
-  "sciencealert.com"
+  "sciencealert.com",
+  "insidehook.com",
+  "gearpatrol.com",
+  "robbreport.com",
+  "gq.com",
+  "esquire.com",
+  "uncrate.com",
+  "theverge.com",
+  "wired.com",
+  "techcrunch.com",
+  "caranddriver.com",
+  "motortrend.com",
+  "thedrive.com",
+  "eater.com",
+  "seriouseats.com",
+  "thepointsguy.com",
+  "afar.com"
  ]
 }""")
 
@@ -1119,13 +1135,25 @@ NARRATIVES = json.loads(r"""{
   {
    "arc": "Human-interest and the unusual",
    "q": "(unusual OR delightful OR fascinating OR quirky OR strange OR \"you won't believe\") (man OR woman OR town OR creature OR discovery)"
+  },
+  {
+   "arc": "Tech and gadgets",
+   "q": "(tech OR gadget OR smartphone OR AI OR startup OR \"consumer electronics\") (review OR launch OR new)"
+  },
+  {
+   "arc": "Cars and driving",
+   "q": "(car OR cars OR automotive OR EV OR \"electric vehicle\" OR driving) (review OR new OR unveiled)"
+  },
+  {
+   "arc": "Gear, watches and style",
+   "q": "(gear OR watch OR whiskey OR menswear OR grooming OR \"home bar\" OR cocktail) (best OR guide OR review)"
   }
  ]
 }""")
 
 EMPHASIS = {
-    "life-culture": '\n\n===== LIFE & CULTURE EMPHASIS =====\nBalance entertainment with substance. Keep celebrity, film, music, TV, and fashion - readers enjoy them - but they must NOT dominate the page. Give equal or greater weight to thoughtful, curious, intelligent material: science and discovery (especially the delightful, surprising kind - e.g. "scientists build a tiny diving suit for cockroaches"), big ideas and cultural criticism, books and literature, arts and museums, history and archaeology, psychology and human behavior, design and architecture, space and nature, food culture, and travel with real depth. Favor the smart, surprising, "wow, I didn\'t know that" story over routine gossip. Because the heavy analytical outlets are often paywalled, lean toward sources readers can actually open - Smithsonian, Atlas Obscura, Aeon, NPR, Phys.org, Science News, ScienceAlert, The Conversation, Big Think, Mental Floss, Colossal, Literary Hub, Nautilus, Ars Technica, BBC - for the thoughtful picks.\n',
-    "sports": "\n\n===== SPORTS EMPHASIS =====\nWeight coverage by popularity: the major US leagues lead - NFL is biggest, then NBA, MLB, NHL - followed by soccer (MLS plus the big international competitions: World Cup, European leagues, CONCACAF, Champions League). Give those DEEP, detailed coverage. In ADDITION, give BROAD coverage of the wider sports world every cycle: tennis, golf, UFC/MMA (name the week's main event even though it has no scoreboard), boxing, cycling (Tour de France and the grand tours), the Olympics, track and field and distance running, winter sports and skiing, WNBA and women's sports, and college sports. ALWAYS surface any world record or historic milestone (for example a new mile record) prominently - records are major news. Pick as hero the single biggest sports story of the day, whatever the sport.\n",
+    'life-culture': '\n\n===== LIFE & CULTURE EMPHASIS =====\nKeep the reader in mind: assume a mostly male, white-collar, often-married audience. Cover what that reader genuinely finds interesting - cars and driving, travel and destinations, tech and gadgets, food and drink, gear, watches, whiskey and cocktails, home and style - woven together with thoughtful material (science and discovery, big ideas, history, books, arts) and a lighter thread of celebrity and entertainment (kept, but not dominant). Favor smart, well-made lifestyle journalism (InsideHook, Gear Patrol, GQ, Esquire, Robb Report, The Points Guy, and similar) and the delightful, surprising, "wow, I didn\'t know that" story over routine gossip. Because heavy analysis is often paywalled, lean on free sources - Smithsonian, Atlas Obscura, Aeon, NPR, Phys.org, The Conversation, Ars Technica, The Verge - for the thoughtful picks. This is the page to make the most interesting on the whole site. AVOID pure product endorsements and shopping/affiliate content. A piece about a category, trend, or idea is welcome ("Every Man Needs a Black Turtleneck Sweater"), but skip buying guides and brand endorsements ("Every Man Needs an LL Bean Black Turtleneck Sweater", deal roundups, "the best X to buy", "shop now" listicles). Favor editorial substance - profiles, essays, reviews with a point of view, real reporting - over commerce.\n',
+    'sports': "\n\n===== SPORTS EMPHASIS =====\nWeight coverage by popularity: the major US leagues lead - NFL is biggest, then NBA, MLB, NHL - followed by soccer (MLS plus the big international competitions: World Cup, European leagues, CONCACAF, Champions League). Give those DEEP, detailed coverage. In ADDITION, give BROAD coverage of the wider sports world every cycle: tennis, golf, UFC/MMA (name the week's main event even though it has no scoreboard), boxing, cycling (Tour de France and the grand tours), the Olympics, track and field and distance running, winter sports and skiing, WNBA and women's sports, and college sports. ALWAYS surface any world record or historic milestone (for example a new mile record) prominently - records are major news. Pick as hero the single biggest sports story of the day, whatever the sport.\n",
 }
 
 
@@ -1328,7 +1356,12 @@ def merge(existing, fresh):
     ex_hero = ex.get("hero") or {}
     override = bool(fr.get("heroOverride"))
     if ex_hero.get("headline") and ex.get("heroSetDate") == today and not override:
-        hero, hero_date = ex_hero, ex.get("heroSetDate")
+        hero, hero_date = dict(ex_hero), ex.get("heroSetDate")
+        fr_lu = (fr.get("hero") or {}).get("liveUpdates")   # live-updates refresh every run
+        if fr_lu:
+            hero["liveUpdates"] = fr_lu
+        else:
+            hero.pop("liveUpdates", None)
     else:
         hero, hero_date = (fr.get("hero") or ex_hero or {}), today
 
@@ -1428,8 +1461,8 @@ DRUDGE_BLOCK = ("drudgereport.com", "freestar", "apps.apple.com", "play.google.c
                 "reuters.com/news/archive", "news.sky.com/story")
 
 RC_DOMAINS = {
-    "main": ["realclearinvestigations.com", "realclearpolitics.com"],
-    "politics": ["realclearpolitics.com", "realclearinvestigations.com"],
+    "main": ["realclearinvestigations.com", "realclearpolitics.com", "realclearpolling.com"],
+    "politics": ["realclearpolitics.com", "realclearpolling.com", "realclearinvestigations.com"],
     "world": ["realclearworld.com"],
     "markets": ["realclearmarkets.com"],
     "life-culture": ["realclearscience.com", "realclearhistory.com", "realcleareducation.com",
@@ -1525,6 +1558,48 @@ def narrative_candidates(section):
                 break
     return items
 
+OPINION_DOMAINS = ["nationalreview.com", "thefederalist.com", "spectator.org", "reason.com",
+    "thedispatch.com", "dailywire.com", "freebeacon.com", "city-journal.org", "washingtonexaminer.com",
+    "thenation.com", "newrepublic.com", "motherjones.com", "vox.com", "slate.com", "jacobin.com",
+    "theatlantic.com", "prospect.org", "currentaffairs.org"]
+
+def editorial_candidates(per_site=2):
+    """Opinion/editorial pieces from clearly-leaning outlets (left + right). The outlet name is the
+    label - a proxy for its lean. Used to attach editorials to major narratives on the main page."""
+    items = []
+    for dom in OPINION_DOMAINS:
+        try:
+            root = ET.fromstring(_fetch_bytes(GNEWS % urllib.parse.quote("site:%s when:5d" % dom)))
+        except Exception:
+            continue
+        n = 0
+        for it in root.iter("item"):
+            title = (it.findtext("title") or "").strip()
+            link = (it.findtext("link") or "").strip()
+            if not title or not link:
+                continue
+            src_el = it.find("source")
+            source = (src_el.text if (src_el is not None and src_el.text) else dom)
+            if source and title.endswith(" - " + source):
+                title = title[: -(len(source) + 3)].strip()
+            items.append({"title": unescape(title), "url": link, "source": source,
+                          "ts": _pub_ms(it.findtext("pubDate") or ""), "arc": "editorial"})
+            n += 1
+            if n >= per_site:
+                break
+    return items
+
+def _islive(title):
+    return bool(re.search(r"live updates?|liveblog|live blog|^live[:\s]|: live$", (title or ""), re.I))
+
+_SHORT_SOURCE = {"The Wall Street Journal": "WSJ", "Wall Street Journal": "WSJ", "BBC News": "BBC",
+                 "The New York Times": "NYT", "The Washington Post": "Wash Post",
+                 "Associated Press": "AP", "The Guardian": "Guardian", "National Review": "Natl Review",
+                 "Sky News": "Sky News"}
+def _clean_source(s):
+    s = (s or "").strip()
+    return _SHORT_SOURCE.get(s, s)
+
 def curate_live(section):
     from anthropic import Anthropic
     client = Anthropic()
@@ -1534,18 +1609,22 @@ def curate_live(section):
     arcs = narrative_candidates(section)
     drudge = drudge_candidates() if section == "main" else []
     realclear = realclear_candidates(section)
+    editorials = editorial_candidates() if section == "main" else []
     cands, seen = [], set()
-    for c in (realclear[:18] + drudge[:30] + arcs[:32] + breaking[:32]):
+    for c in (realclear[:18] + editorials[:24] + drudge[:28] + arcs[:30] + breaking[:30]):
         if c["url"] in seen:
             continue
         seen.add(c["url"])
         cands.append(c)
-    cands = cands[:110]
+    cands = [c for c in cands if not _suppressed(c.get("url"), c.get("title"))]
+    for c in cands:
+        c["live"] = _islive(c.get("title"))
+    cands = cands[:120]
     if not cands:
         raise ValueError("no Google News candidates for %s" % section)
     by_id = {"c%d" % i: c for i, c in enumerate(cands)}
     cand_json = json.dumps([{"id": "c%d" % i, "title": c["title"], "source": c["source"],
-                             "ts": c["ts"], "arc": c.get("arc", "breaking")}
+                             "ts": c["ts"], "arc": c.get("arc", "breaking"), "live": bool(c.get("live"))}
                             for i, c in enumerate(cands)], ensure_ascii=False)
     today = datetime.date.today().isoformat()
     editorial = ""
@@ -1594,7 +1673,7 @@ def curate_live(section):
               "EDITORIAL DIRECTION. For hero.sublinks pick 2-4 DIFFERENT candidates about the same hero "
               "story, each a distinct angle (a development, reaction, analysis, or key detail); write each "
               "sublink text to describe its OWN unique angle - never restate the headline or repeat "
-              "another sublink. CRITICAL: each distinct news event may appear ONLY ONCE across the entire page (hero, groups, and columns combined). If several candidates cover the same event, use only the single best one; never list the same event as multiple items and never repeat the hero story in the groups or columns. Output ONLY the JSON object in a ```json block."
+              "another sublink. CRITICAL: each distinct news event may appear ONLY ONCE across the entire page (hero, groups, and columns combined). If several candidates cover the same event, use only the single best one; never list the same event as multiple items and never repeat the hero story in the groups or columns. For MAJOR narrative groups (main page) you MAY add an \"editorials\" array to a group: 2-4 candidate ids of opinion pieces (arc='editorial') about that narrative, from DIFFERENT outlets spanning left and right (the outlet name is the label; there is no 'center'). If the hero is a major, still-developing breaking event and some candidates have \"live\": true, add a \"liveUpdates\" array to the hero: up to 3 candidate ids of live-update pages from different major outlets. Use candidate ids for editorials and liveUpdates too - never invent URLs; omit these fields when they do not apply. Output ONLY the JSON object in a ```json block."
               "%s\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
               % (section, today, editorial, CORE, PROMPTS.get(section, ""), cand_json))
     model = working_model(client)
@@ -1637,6 +1716,18 @@ def curate_live(section):
     for g in (data.get("groups") or []):
         for s in (g.get("stories") or []):
             fix_story(s)
+    def map_links(ids):
+        out = []
+        for i in (ids or []):
+            c = by_id.get(i)
+            if c and c.get("url"):
+                out.append({"source": _clean_source(c["source"]), "url": c["url"]})
+        return out
+    if isinstance(hero.get("liveUpdates"), list):
+        hero["liveUpdates"] = map_links(hero["liveUpdates"])
+    for g in (data.get("groups") or []):
+        if isinstance(g.get("editorials"), list):
+            g["editorials"] = map_links(g["editorials"])
     data["lastUpdated"] = now_ms()
     return data
 
@@ -1765,6 +1856,12 @@ def resolve_source_links(data):
         for s in (g.get("stories") or []):
             if isinstance(s, dict) and s.get("url"):
                 s["url"] = resolve_link(s["url"])
+        for ed in (g.get("editorials") or []):
+            if isinstance(ed, dict) and ed.get("url"):
+                ed["url"] = resolve_link(ed["url"])
+    for lu in ((data.get("hero") or {}).get("liveUpdates") or []):
+        if isinstance(lu, dict) and lu.get("url"):
+            lu["url"] = resolve_link(lu["url"])
     return data
 
 
@@ -1883,6 +1980,15 @@ def sports_scoreboard(per_league=10, total=24):
                 away = next(c for c in cs if c.get("homeAway") == "away")
                 st = (ev.get("status") or {}).get("type") or {}
                 state = st.get("state") or "pre"
+                # Skip games more than 5 days out (e.g. an off-season league whose next game is
+                # months away). Keeps this week's slate + near-term events; drops far-future ones.
+                gd = (ev.get("date") or "")[:10]
+                if gd:
+                    try:
+                        if (datetime.date.fromisoformat(gd) - datetime.date.today()).days > 5:
+                            continue
+                    except Exception:
+                        pass
                 g = {"league": league,
                      "home": home["team"].get("abbreviation") or home["team"].get("shortDisplayName") or "",
                      "away": away["team"].get("abbreviation") or away["team"].get("shortDisplayName") or "",
@@ -1944,6 +2050,86 @@ def cloudflare_traffic(days=7):
     return out
 
 
+
+SUPPRESS = json.loads(r"""
+{
+ "urls": [],
+ "domains": [],
+ "keywords": []
+}
+""")
+
+def _suppressed(url, text=""):
+    u = (url or "").lower(); t = (text or "").lower()
+    if u and any(u == x.lower() for x in SUPPRESS.get("urls", [])):
+        return True
+    if u and any(dom.lower() in u for dom in SUPPRESS.get("domains", [])):
+        return True
+    if t and any(kw.lower() in t for kw in SUPPRESS.get("keywords", [])):
+        return True
+    return False
+
+def apply_suppress(data):
+    """Remove any suppressed article/domain/keyword from a page (hero, sublinks, groups,
+    columns). If the hero itself is suppressed, promote the top remaining story so the page
+    is never left blank, and unset heroSetDate so the next run picks a fresh hero cleanly."""
+    def bad(s):
+        return _suppressed(s.get("url"), s.get("headline") or s.get("text"))
+    cols = data.get("columns") or {}
+    for k in ("left", "center", "right"):
+        cols[k] = [s for s in (cols.get(k) or []) if not bad(s)]
+    data["columns"] = cols
+    groups = []
+    for g in (data.get("groups") or []):
+        st = [s for s in (g.get("stories") or []) if not bad(s)]
+        if st:
+            groups.append({**g, "stories": st})
+    data["groups"] = groups
+    hero = data.get("hero") or {}
+    if hero.get("sublinks"):
+        hero["sublinks"] = [sl for sl in hero["sublinks"] if not bad(sl)]
+    if hero.get("liveUpdates"):
+        hero["liveUpdates"] = [lu for lu in hero["liveUpdates"] if not _suppressed(lu.get("url"), lu.get("source"))]
+    for g in (data.get("groups") or []):
+        if g.get("editorials"):
+            g["editorials"] = [ed for ed in g["editorials"] if not _suppressed(ed.get("url"), ed.get("source"))]
+    if hero.get("url") and _suppressed(hero.get("url"), hero.get("headline")):
+        repl = next((cols[k][0] for k in ("left", "center", "right") if cols.get(k)), None)
+        if repl:
+            data["hero"] = {"headline": repl["headline"], "url": repl["url"], "sublinks": []}
+        else:
+            data["hero"] = {}
+        data["heroSetDate"] = None
+    return data
+
+MANUAL_PICKS = {
+    "life-culture": [
+        {"headline": 'How to Stock Your Home Bar, According to a Woman', "url": 'https://www.insidehook.com/drinks/every-grown-man-should-stock-home-bar', "added": '2026-08-06'},
+    ],
+}
+
+def apply_manual_picks(section, data):
+    """Inject hand-placed articles directly onto a page (guaranteed to appear). Each shows
+    for 3 days from its \"added\" date, then ages off like any story."""
+    now = now_ms()
+    for p in (MANUAL_PICKS.get(section) or []):
+        try:
+            y, m, d = [int(x) for x in p["added"].split("-")]
+            added = int(datetime.datetime(y, m, d).timestamp() * 1000)
+        except Exception:
+            added = now
+        url = p.get("url")
+        if not url or now - added >= THREE_DAYS_MS:
+            continue
+        cols = data.setdefault("columns", {})
+        seen = any(s.get("url") == url for k in ("left", "center", "right") for s in (cols.get(k) or []))
+        for g in (data.get("groups") or []):
+            seen = seen or any(s.get("url") == url for s in (g.get("stories") or []))
+        if seen:
+            continue
+        cols.setdefault("left", []).insert(0,
+            {"headline": p["headline"], "url": url, "timestamp": added, "postedAt": added})
+    return data
 def build_metrics(per_section, target, traffic=None):
     now = now_ms()
     out = {"generatedAt": now, "target": target,
@@ -2059,7 +2245,7 @@ def build():
         raise SystemExit("ERROR: index.html missing from repo root.")
     shutil.copy2(src, os.path.join(SITE, "index.html"))
     for extra in ("favicon.ico", "dashboard.html", "review.html", "archive.html",
-                  "about.html", "contact.html", "privacy.html", "terms.html", "ads.txt"):
+                  "about.html", "contact.html", "privacy.html", "terms.html", "how-we-curate.html", "ads.txt"):
         p = os.path.join(ROOT, extra)
         if os.path.isfile(p):
             shutil.copy2(p, os.path.join(SITE, extra))
@@ -2070,6 +2256,8 @@ def build():
     sb_debug = "n/a"
     for sec in SECTIONS:
         data = data_for(sec, sec in targets)
+        data = apply_manual_picks(sec, data)
+        data = apply_suppress(data)
         if sec == "sports":
             try:
                 sb = sports_scoreboard()
@@ -2169,7 +2357,7 @@ def build():
     _pages = [("/", "daily", "1.0"), ("/sports", "daily", "0.8"), ("/world", "daily", "0.8"),
               ("/markets", "daily", "0.8"), ("/politics", "daily", "0.8"), ("/life-culture", "daily", "0.8"),
               ("/archive", "daily", "0.4"), ("/about", "monthly", "0.3"), ("/contact", "monthly", "0.3"),
-              ("/privacy", "monthly", "0.2"), ("/terms", "monthly", "0.2")]
+              ("/privacy", "monthly", "0.2"), ("/terms", "monthly", "0.2"), ("/how-we-curate", "monthly", "0.4")]
     _sm = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for _loc, _cf, _pri in _pages:
