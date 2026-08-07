@@ -1,0 +1,495 @@
+{
+  "lastUpdated": 1786111696954,
+  "heroSetDate": "2026-08-07",
+  "hero": {
+    "headline": "U.S. ECONOMY LOSES JOBS IN JULY, UNEMPLOYMENT RATE EASES TO 4.1%",
+    "url": "https://www.reuters.com/business/us-nonfarm-payrolls-fall-july-unemployment-rate-eases-41-2026-08-07/",
+    "sublinks": [
+      {
+        "text": "Stocks Rally As Traders Bet On Fed Rate Cuts After Jobs Miss",
+        "url": "https://www.reuters.com/business/sp-500-dow-futures-muted-ahead-jobs-data-chips-software-stocks-rise-2026-08-07/"
+      },
+      {
+        "text": "Prior Months' Job Gains Revised Down Sharply",
+        "url": "https://www.nytimes.com/live/2026/08/07/business/jobs-report-economy?unlocked_article_code=1.3lA.9wNY.CSagpZT9wOhG&smid=url-share"
+      },
+      {
+        "text": "Drudge: Economy Lost 23,000 Jobs In July",
+        "url": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "title": "TRUMP ADMINISTRATION FACES MOUNTING FRICTION",
+      "stories": [
+        {
+          "headline": "White House Loses 21 Straight Court Battles Over Voter Rolls",
+          "url": "https://www.aol.com/articles/analysis-trump-loses-21-straight-100234000.html",
+          "timestamp": 1786111431175,
+          "postedAt": 1786111696954
+        },
+        {
+          "headline": "Murkowski Comes Out Against Blanche, Imperiling Nomination",
+          "url": "https://www.nbcnews.com/politics/trump-administration/lisa-murkowski-vote-no-todd-blanche-attorney-general-rcna591326",
+          "timestamp": 1786111431175,
+          "postedAt": 1786111696954
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR ESCALATES ON MULTIPLE FRONTS",
+      "stories": [
+        {
+          "headline": "Iran Ramps Up Violent Propaganda Billboards Nationwide",
+          "url": "https://www.the-express.com/news/world-news/213504/iran-targets-president-trump-murals-billboards",
+          "timestamp": 1786111431174,
+          "postedAt": 1786111696954
+        },
+        {
+          "headline": "Saudi, Turkey, Pakistan Sign Defense Pact As Peace Talks Stall",
+          "url": "https://www.semafor.com/article/08/07/2026/saudi-trkiye-pakistan-sign-defense-pact-as-peace-talks-drag",
+          "timestamp": 1786108500000,
+          "postedAt": 1786111696954
+        }
+      ]
+    },
+    {
+      "title": "AI'S EXPANDING — AND UNSETTLING — REACH",
+      "stories": [
+        {
+          "headline": "Gulf Investors Pivot To Asia For AI Opportunities",
+          "url": "https://www.semafor.com/article/08/07/2026/gulf-investors-look-to-asia-for-ai-opportunities",
+          "timestamp": 1786111080000,
+          "postedAt": 1786111696954
+        },
+        {
+          "headline": "AI Chatbot Caught Turning To Deception In Latest Rogue Incident",
+          "url": "https://www.wsj.com/tech/ai/ai-just-went-rogue-again-this-time-it-turned-to-deception-ae68de09",
+          "timestamp": 1786110827000,
+          "postedAt": 1786111696954
+        },
+        {
+          "headline": "Welcome To The Age Of 'Slopulism'",
+          "url": "https://www.thefp.com/p/slopulism-bad-populist-policy",
+          "timestamp": 1786108817000,
+          "postedAt": 1786111696954
+        }
+      ]
+    },
+    {
+      "title": "CULTURE WAR",
+      "stories": [
+        {
+          "headline": "Washington School Officials Charged Over Trans Wrestler Assault Claim",
+          "url": "https://notthebee.com/article/washington-school-officials-charged-for-failing-to-report-wrestlers-sexual-assault-claim",
+          "timestamp": 1786027998000,
+          "postedAt": 1786028830708
+        },
+        {
+          "headline": "Wisconsin Governor Candidate Backtracks On Thanksgiving Comments",
+          "url": "https://www.washingtontimes.com/news/2026/aug/6/francesca-hong-wisconsin-democratic-candidate-governor-backtracks/",
+          "timestamp": 1786026660000,
+          "postedAt": 1786028830708
+        }
+      ]
+    },
+    {
+      "title": "FAUCI CONTEMPT FALLOUT",
+      "stories": [
+        {
+          "headline": "Senate Panel Says It Obtained Copy Of Fauci's Covid-Era Phone",
+          "url": "https://www.wsj.com/politics/policy/anthony-fauci-covid-phone-senate-96ebd8be",
+          "timestamp": 1786027560000,
+          "postedAt": 1786028830708
+        }
+      ]
+    },
+    {
+      "title": "2026 SENATE RACES HEAT UP",
+      "stories": [
+        {
+          "headline": "Hong Eyes Next Big Progressive Win In Wisconsin",
+          "url": "https://thehill.com/homenews/campaign/6008300-hong-wisconsin-democratic-socialist-primary-test/",
+          "timestamp": 1785961811216,
+          "postedAt": 1785968278337
+        },
+        {
+          "headline": "Talarico Leads Paxton In Texas Senate Race, New Poll Shows",
+          "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/08/04/558614/talarico-paxton-poll-senate-texas-southern-university-black-voters/",
+          "timestamp": 1785865364000,
+          "postedAt": 1785968278337
+        },
+        {
+          "headline": "Montana Democrats Roiled By Bankhead-Or-Bodnar Question",
+          "url": "https://montanafreepress.org/2026/08/03/democratic-party-weighs-legal-options-in-turbulent-senate-race/",
+          "timestamp": 1785802304000,
+          "postedAt": 1785968278337
+        },
+        {
+          "headline": "Nebraska Senate Race Tangled In Ballot Drama",
+          "url": "https://www.wowt.com/2026/07/31/election-2026-nebraska-senate-candidates-campaign-amid-unusual-controversies/",
+          "timestamp": 1785462900000,
+          "postedAt": 1785968278337
+        }
+      ]
+    },
+    {
+      "title": "ECONOMY ANXIETY DEEPENS",
+      "stories": [
+        {
+          "headline": "Corporate America Got Billions In Tariff Refunds. Where's Yours?",
+          "url": "https://finance.yahoo.com/economy/policy/articles/corporate-america-got-billions-dollars-090025387.html",
+          "timestamp": 1785961811216,
+          "postedAt": 1785968278337
+        },
+        {
+          "headline": "Social Security Insolvency Nears As Lawmakers Butt Heads",
+          "url": "https://www.washingtontimes.com/news/2026/aug/5/social-security-insolvency-automatic-benefit-cuts-draw-near-lawmakers/",
+          "timestamp": 1785960523000,
+          "postedAt": 1785968278337
+        },
+        {
+          "headline": "Inflation, Cost Of Living Top Voter Concerns, New Poll Finds",
+          "url": "https://today.marquette.edu/2026/08/new-marquette-law-school-poll-national-survey-finds-inflation-and-cost-of-living-the-most-important-issue-economy-next-most-important/",
+          "timestamp": 1785909843000,
+          "postedAt": 1785968278337
+        }
+      ]
+    },
+    {
+      "title": "MIDEAST WAR: HORMUZ DEAL TAKES SHAPE",
+      "stories": [
+        {
+          "headline": "Iran And US Say Strait Of Hormuz Deal Is Close",
+          "url": "https://apnews.com/article/iran-war-us-hormuz-trump-august-5-2026-ecdbd96f2b46c70beb5926d8508f9c55",
+          "timestamp": 1785959040000,
+          "postedAt": 1785968278337
+        }
+      ]
+    },
+    {
+      "title": "TRUMP ADMINISTRATION'S LEGAL BATTLES",
+      "stories": [
+        {
+          "headline": "25 States Sue Over Trump's Latest Tariffs",
+          "url": "https://www.pbs.org/newshour/politics/25-states-sue-over-trump-administrations-latest-tariffs-citing-supreme-court-ruling",
+          "timestamp": 1785790331000,
+          "postedAt": 1785968278337
+        },
+        {
+          "headline": "New Court Documents Expose Political Targeting Of Newsom",
+          "url": "https://www.gov.ca.gov/2026/07/29/new-court-documents-expose-trump-administrations-political-targeting-of-governor-newsom/",
+          "timestamp": 1785349706000,
+          "postedAt": 1785968278337
+        }
+      ]
+    },
+    {
+      "title": "IMMIGRATION CRACKDOWN INTENSIFIES",
+      "stories": [
+        {
+          "headline": "ICE Arrests Twice-Deported Criminal Tied To Marine's Death",
+          "url": "https://www.ice.gov/news/releases/ice-arrests-twice-deported-criminal-illegal-alien-prior-felony-hit-and-run-conviction",
+          "timestamp": 1785534723000,
+          "postedAt": 1785968278337
+        },
+        {
+          "headline": "ICE Arrests Surge At Airports, Opening New Front In Deportation Drive",
+          "url": "https://www.nytimes.com/2026/07/28/us/ice-arrests-airports-visa-overstay.html",
+          "timestamp": 1785222000000,
+          "postedAt": 1785968278337
+        }
+      ]
+    },
+    {
+      "title": "AI LEGAL FRONTIERS",
+      "stories": [
+        {
+          "headline": "Musk's XAI Sues Minnesota Over Ban On 'Nudification' Technology",
+          "url": "https://apnews.com/article/minnesota-artificial-intelligence-nudification-x-elon-musk-deepfake-131184be939d540de093b567b12c9e16",
+          "timestamp": 1785361080000,
+          "postedAt": 1785968278337
+        },
+        {
+          "headline": "Authors Torn Over $1.5B Anthropic Copyright Ruling",
+          "url": "https://www.npr.org/2026/07/27/nx-s1-5904606/anthropic-vs-bartz-ai-copyright-lawsuit-pros-cons",
+          "timestamp": 1785135600000,
+          "postedAt": 1785968278337
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "How Abdul El-Sayed Won Michigan's Senate Primary",
+        "url": "https://www.thefp.com/p/abdul-el-sayed-wins-michigan-senate-primary",
+        "timestamp": 1786110463000,
+        "postedAt": 1786111696954
+      },
+      {
+        "headline": "Men Injecting Sketchy Substances Into Faces For 'Looksmaxxing'",
+        "url": "https://www.usatoday.com/story/life/health-wellness/2026/08/07/looksmaxxing-diy-filler/91193283007/",
+        "timestamp": 1786111431175,
+        "postedAt": 1786111696954
+      },
+      {
+        "headline": "FCC Scraps Limit On Broadcast TV Ownership",
+        "url": "https://www.nbcnews.com/business/rcna587641",
+        "timestamp": 1786111431175,
+        "postedAt": 1786111696954
+      },
+      {
+        "headline": "Intel: Russia Could Attack NATO Within Weeks",
+        "url": "https://www.telegraph.co.uk/world-news/2026/08/07/russia-could-attack-nato-within-weeks-us-intelligence-warns/",
+        "timestamp": 1786111431174,
+        "postedAt": 1786111696954
+      },
+      {
+        "headline": "When Publishers Pick Sides",
+        "url": "https://www.thefp.com/p/simon-schuster-susan-abulhawa-antisemitism-palestine-israel",
+        "timestamp": 1786110523000,
+        "postedAt": 1786111696954
+      },
+      {
+        "headline": "Colorado Wildfire Forces Evacuations Amid Smoky Skies",
+        "url": "https://www.cbsnews.com/colorado/news/wildfire-colorado-parachute-evacuations/",
+        "timestamp": 1786108927000,
+        "postedAt": 1786111696954
+      },
+      {
+        "headline": "Senate Committee Votes To Hold Fauci In Contempt",
+        "url": "https://apnews.com/live/trump-news-fauci-iran-updates-08-06-2026",
+        "timestamp": 1786046816095,
+        "postedAt": 1786046976747
+      },
+      {
+        "headline": "Middle East Ambassadorships Sit Vacant As Trump Relies On Special Envoys",
+        "url": "https://www.semafor.com/article/08/06/2026/middle-east-ambassadorships-sit-vacant-as-trump-relies-on-special-envoys",
+        "timestamp": 1786045980000,
+        "postedAt": 1786046976747
+      },
+      {
+        "headline": "Trump's Tech Ties Face Bipartisan Fire After AI Agents Go Rogue",
+        "url": "https://www.reuters.com/legal/litigation/trumps-tech-ties-blamed-ai-inaction-by-maga-republicans-democrats-2026-08-06/",
+        "timestamp": 1786026308000,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "Marine One Flew Near Jet In DC Airspace, Officials Confirm",
+        "url": "https://www.nytimes.com/2026/08/05/us/politics/trump-helicopter-jet-marine-one.html?unlocked_article_code=1.3VA._wf2.0dLQUvD80JmY&smid=url-share",
+        "timestamp": 1786028693851,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "Tucker Carlson Unveils 10-Point Manifesto Amid Third-Party Talk",
+        "url": "https://www.axios.com/2026/08/06/tucker-carlson-third-party-israel-trump",
+        "timestamp": 1786028693851,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "DOGE Made Big Errors In Savings Claims, GAO Finds",
+        "url": "https://www.washingtonpost.com/technology/2026/08/06/elon-musk-doge-made-big-errors-claims-government-savings-gao-finds/",
+        "timestamp": 1786028693851,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "Australians Baffled As Trash Piles Up Along Roadsides",
+        "url": "https://notthebee.com/article/australians-baffled-as-to-why-trash-is-suddenly-piling-up-along-roadsides-in-their-new-diverse-society",
+        "timestamp": 1786028479000,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "The American West Knows How To Flee Wildfires",
+        "url": "https://www.theatlantic.com/health/2026/08/spokane-fires-evacation/688202/",
+        "timestamp": 1786027241000,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "Inside Pirro's Oval Office Showdown With Fox News",
+        "url": "https://www.nytimes.com/2026/08/04/us/politics/trump-jeanine-pirro-showdown.html?unlocked_article_code=1.21A.sMAy.mLVZ8PdABg9D&smid=url-share",
+        "timestamp": 1785961811216,
+        "postedAt": 1785968278337
+      },
+      {
+        "headline": "Pentagon Draws Up New Nuke Strategy For War With Russia, China",
+        "url": "https://www.telegraph.co.uk/us/news/2026/08/05/pentagon-nuclear-weapons-strategy-war-russia-china/",
+        "timestamp": 1785961811216,
+        "postedAt": 1785968278337
+      },
+      {
+        "headline": "Woman Arrested At Reflecting Pool Details Toll Ordeal Has Taken",
+        "url": "https://www.washingtonpost.com/dc-md-va/2026/08/04/woman-recounts-reflecting-pool-arrest-says-she-was-humiliated/",
+        "timestamp": 1785961811216,
+        "postedAt": 1785968278337
+      },
+      {
+        "headline": "As Clergy Run As Democrats, Republicans Question Their Faith",
+        "url": "https://religionnews.com/2026/08/04/pastors-name-only-republican-attacks-democrat-pastors/",
+        "timestamp": 1785961811216,
+        "postedAt": 1785968278337
+      },
+      {
+        "headline": "Austria Hits Record Temperature As Europe Feels The Heat",
+        "url": "https://www.reuters.com/business/environment/albanian-firefighters-battle-blazes-southern-eastern-europe-feels-heat-2026-08-05/",
+        "timestamp": 1785959841000,
+        "postedAt": 1785968278337
+      }
+    ],
+    "center": [
+      {
+        "headline": "Trump's Suddenly Thick Hair Raises Eyebrows",
+        "url": "https://www.yahoo.com/entertainment/celebrity/articles/trump-hairstyle-during-vegas-speech-233604501.html",
+        "timestamp": 1786111431175,
+        "postedAt": 1786111696954
+      },
+      {
+        "headline": "Another WNBA Star Enters Men-In-Women's-Sports Debate",
+        "url": "https://www.dailywire.com/news/another-wnba-star-enters-the-men-in-womens-sports-debate",
+        "timestamp": 1786109265000,
+        "postedAt": 1786111696954
+      },
+      {
+        "headline": "America Got 'Faucied'",
+        "url": "https://www.realclearpolitics.com/articles/2026/08/07/america_got_faucied_154396.html",
+        "timestamp": 1786078800000,
+        "postedAt": 1786111696954
+      },
+      {
+        "headline": "'Sell America' Debate Re-Emerges As Policies Sow Doubts",
+        "url": "https://finance.yahoo.com/economy/policy/articles/sell-america-debate-emerges-us-234222231.html",
+        "timestamp": 1786046816095,
+        "postedAt": 1786046976747
+      },
+      {
+        "headline": "Iran Continues Brutal Hangings Of Protesters To Crush Next Uprising",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-904794",
+        "timestamp": 1786046816095,
+        "postedAt": 1786046976747
+      },
+      {
+        "headline": "He Spent Billions Reviving Downtown Detroit. Now He Wants To Remake Its Skyline.",
+        "url": "https://www.wsj.com/real-estate/he-spent-billions-reviving-downtown-detroit-now-he-wants-to-remake-its-skyline-17f83a82",
+        "timestamp": 1786046514000,
+        "postedAt": 1786046976747
+      },
+      {
+        "headline": "Moderate Democrats Prepare For 'War' Against Ascendant Left",
+        "url": "https://www.nytimes.com/2026/08/06/us/politics/democratic-party-socialists-moderates.html?unlocked_article_code=1.3VA.g57M._7zybgdUGL_J&smid=url-share",
+        "timestamp": 1786028693852,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "Vance Trolls Critics On Right And Left With Insults",
+        "url": "https://www.nytimes.com/2026/08/06/us/politics/jd-vance-insults.html?unlocked_article_code=1.3VA.pSS1.H54K8362Gfq1&smid=url-share",
+        "timestamp": 1786028693851,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "Chipotle, Qdoba Pull Jalapenos Tied To Salmonella Outbreak In 27 States",
+        "url": "https://www.washingtonpost.com/health/2026/08/06/salmonella-outbreak-linked-jalapeo-peppers-sickens-hundreds-27-states/",
+        "timestamp": 1786028693851,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "How ICE Is Weaponizing Social Media Against Its Critics",
+        "url": "https://www.wsj.com/politics/policy/ice-surveillance-internet-critics-e3b22f49",
+        "timestamp": 1786026641000,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "Exhaustion And Low Morale Plague USS Lincoln Crew Off Iran",
+        "url": "https://www.independent.co.uk/b3028162.html",
+        "timestamp": 1785968159883,
+        "postedAt": 1785968278337
+      },
+      {
+        "headline": "New Mexico Sues DOJ, Alleging Officials Blocked Epstein Probe",
+        "url": "https://www.nbcnews.com/news/rcna591015",
+        "timestamp": 1785961811216,
+        "postedAt": 1785968278337
+      },
+      {
+        "headline": "Inside The US-Ukraine Intel Rebound",
+        "url": "https://www.politico.com/newsletters/national-security-daily/2026/08/05/inside-the-us-ukraine-intel-rebound-01025642",
+        "timestamp": 1785960496000,
+        "postedAt": 1785968278337
+      },
+      {
+        "headline": "Tate McRae Faces Backlash For Refusing To Disavow 'MAGA' Label",
+        "url": "https://www.washingtontimes.com/news/2026/aug/5/tate-mcrae-faces-backlash-refusing-disavow-maga-label/",
+        "timestamp": 1785960028000,
+        "postedAt": 1785968278337
+      },
+      {
+        "headline": "Cambridge Professor Resigns Amid Plagiarism Row",
+        "url": "https://www.bbc.com/news/articles/c1e146jw618o",
+        "timestamp": 1785959156000,
+        "postedAt": 1785968278337
+      }
+    ],
+    "right": [
+      {
+        "headline": "'Overwhelmed' Ariana Grande Ends North American Tour Leg",
+        "url": "https://pagesix.com/2026/08/07/celebrity-news/overwhelmed-ariana-grande-ends-north-american-leg-of-tour-as-break-looms/",
+        "timestamp": 1786109580000,
+        "postedAt": 1786111696954
+      },
+      {
+        "headline": "Trump's Border Crackdown Success Forces GOP To Find New 2026 Message",
+        "url": "https://www.washingtontimes.com/news/2026/aug/7/donald-trumps-success-ending-border-crisis-forces-gop-hunt-new-way/",
+        "timestamp": 1786108695000,
+        "postedAt": 1786111696954
+      },
+      {
+        "headline": "SpaceX's Rocket Trashes The Moon",
+        "url": "https://www.salon.com/2026/08/06/spacexs-rocket-trashes-the-moon/",
+        "timestamp": 1786046010000,
+        "postedAt": 1786046976747
+      },
+      {
+        "headline": "Republican Infighting Erupts As Thune Warns Of Legislative 'Trainwreck'",
+        "url": "https://thehill.com/homenews/senate/6012731-senate-gop-internal-squabbles/",
+        "timestamp": 1786028693851,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "Investors Whose SpaceX Shares Vanished Before They Could Cash In",
+        "url": "https://www.wsj.com/finance/stocks/spacex-ipo-spv-investors-2698a174",
+        "timestamp": 1786028693851,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "A Brit's Horror Story Of Navigating Urgent Care For His Pregnant Wife",
+        "url": "https://notthebee.com/article/you-need-to-read-this-brits-horror-story-of-navigating-urgent-care-weekend-for-his-pregnant-wife-",
+        "timestamp": 1786027272000,
+        "postedAt": 1786028830708
+      },
+      {
+        "headline": "Goodbye To Right On Red Lights?",
+        "url": "https://www.the-sun.com/motors/16798901",
+        "timestamp": 1785968159883,
+        "postedAt": 1785968278337
+      },
+      {
+        "headline": "US Says It Has Only 43 Days Left Of Emergency Oil Reserves",
+        "url": "https://www.themirror.com/news/world-news/only-43-day-emergency-buffer-1969944",
+        "timestamp": 1785961811216,
+        "postedAt": 1785968278337
+      },
+      {
+        "headline": "As The Lights Go Out, Cuba's True Believers Celebrate The Revolution",
+        "url": "https://www.theguardian.com/world/2026/aug/05/cuba-true-believers-revolution-moncada",
+        "timestamp": 1785961811216,
+        "postedAt": 1785968278337
+      },
+      {
+        "headline": "TikTok Bans Perez Hilton's Account After Disturbing Livestream",
+        "url": "https://www.washingtontimes.com/news/2026/aug/5/perez-hilton-hospitalized-apparent-self-harm-livestream-banned-tiktok/",
+        "timestamp": 1785961316000,
+        "postedAt": 1785968278337
+      }
+    ]
+  }
+}
