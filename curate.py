@@ -669,7 +669,10 @@ DOMAINS = json.loads(r"""{
   "pagesix.com",
   "telegraph.co.uk",
   "ynetnews.com",
-  "jpost.com"
+  "jpost.com",
+  "quillette.com",
+  "unherd.com",
+  "spiked-online.com"
  ],
  "politics": [
   "cnn.com",
@@ -789,7 +792,10 @@ DOMAINS = json.loads(r"""{
   "eater.com",
   "seriouseats.com",
   "thepointsguy.com",
-  "afar.com"
+  "afar.com",
+  "quillette.com",
+  "unherd.com",
+  "spiked-online.com"
  ]
 }""")
 
@@ -1561,7 +1567,8 @@ def narrative_candidates(section):
 OPINION_DOMAINS = ["nationalreview.com", "thefederalist.com", "spectator.org", "reason.com",
     "thedispatch.com", "dailywire.com", "freebeacon.com", "city-journal.org", "washingtonexaminer.com",
     "thenation.com", "newrepublic.com", "motherjones.com", "vox.com", "slate.com", "jacobin.com",
-    "theatlantic.com", "prospect.org", "currentaffairs.org"]
+    "theatlantic.com", "prospect.org", "currentaffairs.org",
+    "quillette.com", "unherd.com", "spiked-online.com"]
 
 def editorial_candidates(per_site=2):
     """Opinion/editorial pieces from clearly-leaning outlets (left + right). The outlet name is the
@@ -1906,10 +1913,42 @@ def _is_junk_img(url):
                                 "favicon", "default", "placeholder", "sprite", "blank", "/logo"))
 
 
+def _try_hero_images(urls, dest):
+    """Try each URL (direct image or article) for a genuine, non-junk og:image; save the first."""
+    seen, tries = set(), 0
+    for u in urls:
+        if not u or u in seen:
+            continue
+        seen.add(u)
+        try:
+            if re.search(r"\.(jpg|jpeg|png|webp)(\?|$)", str(u), re.I) and not _is_junk_img(u):
+                if _download_image(u, dest):
+                    return True
+                continue
+            real = decode_gnews(u) if "news.google.com" in str(u) else u
+            if not real:
+                continue
+            tries += 1
+            img_url = og_image_url(real)
+            if img_url and not _is_junk_img(img_url) and _download_image(img_url, dest):
+                return True
+        except Exception:
+            continue
+        if tries >= 12:
+            break
+    return False
+
+def _sig_query(headline):
+    """Key search terms from a headline (drops stopwords/short words) to find related coverage."""
+    words = re.findall(r"[A-Za-z0-9]+", (headline or ""))
+    keep = [w for w in words if len(w) > 3 and w.lower() not in _STOP]
+    return " ".join(keep[:7])
+
 def ensure_hero_image(section, data):
-    """Self-host a real hero photo. Try the hero article, then its sublinks (same story), then
-    the top cluster/column stories, until one yields a genuine og:image. Reject Google/logo/
-    placeholder images. If nothing works, write no file so the branded default renders."""
+    """Self-host a hero photo that MATCHES the headline. First try the hero article and its
+    sublinks (same event). If none have a fetchable photo, search for OTHER coverage of the SAME
+    story (by the headline's key terms) and use a matching image from there - keeping the image
+    tied to the headline. Only if nothing at all matches does the branded default show."""
     dest = _img_dest(section)
     hero = data.get("hero") or {}
     cands = []
@@ -1920,36 +1959,20 @@ def ensure_hero_image(section, data):
     for sl in (hero.get("sublinks") or []):
         if sl.get("url"):
             cands.append(sl["url"])
-    for g in (data.get("groups") or []):
-        for s in (g.get("stories") or [])[:3]:
-            if s.get("url"):
-                cands.append(s["url"])
-    for k in ("left", "center", "right"):
-        for s in ((data.get("columns") or {}).get(k) or [])[:5]:
-            if s.get("url"):
-                cands.append(s["url"])
-    seen, tries = set(), 0
-    for u in cands:
-        if not u or u in seen:
-            continue
-        seen.add(u)
+    if _try_hero_images(cands, dest):
+        print("    hero image saved for %s (hero/sublinks)" % section)
+        return
+    # Fallback: find closely-related coverage of the SAME story and pull a matching image.
+    q = _sig_query(hero.get("headline"))
+    if q:
         try:
-            if re.search(r"\.(jpg|jpeg|png|webp)(\?|$)", str(u), re.I) and not _is_junk_img(u):
-                if _download_image(u, dest):
-                    return
-                continue
-            real = decode_gnews(u) if "news.google.com" in str(u) else u
-            if not real:
-                continue
-            tries += 1
-            img_url = og_image_url(real)
-            if img_url and not _is_junk_img(img_url) and _download_image(img_url, dest):
-                print("    hero image saved for %s" % section)
+            root = ET.fromstring(_fetch_bytes(GNEWS % urllib.parse.quote(q + " when:4d")))
+            related = [(it.findtext("link") or "").strip() for it in list(root.iter("item"))[:10]]
+            if _try_hero_images([r for r in related if r], dest):
+                print("    hero image saved for %s (related coverage)" % section)
                 return
-        except Exception:
-            continue
-        if tries >= 14:
-            break
+        except Exception as e:
+            print("    related-image search failed for %s: %s" % (section, e))
     try:
         if os.path.exists(dest):
             os.remove(dest)
