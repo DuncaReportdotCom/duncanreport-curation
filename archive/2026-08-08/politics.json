@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786214908000,
+  "lastUpdated": 1786232045365,
   "heroSetDate": "2026-08-08",
   "hero": {
     "headline": "SENATE PASSES BILL TO AVERT SHUTDOWN BEFORE MIDTERM ELECTIONS",
@@ -13,9 +13,36 @@
         "text": "What Got Left Out: Trump's Top Legislative Demand Still Stalled",
         "url": "https://dailycaller.com/2026/08/08/senate-leaves-town-august-recess-fails-pass-safeguard-american-voter-eligibility-save-america-act/"
       }
+    ],
+    "liveUpdates": [
+      {
+        "source": "PBS",
+        "url": "https://www.pbs.org/newshour/politics/live-results-michigan-midterm-primaries"
+      },
+      {
+        "source": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6017790-live-results-progressives-seek-another-upset-in-hawaiis-congressional-races/"
+      }
     ]
   },
   "groups": [
+    {
+      "title": "SOUTH CAROLINA SENATE RACE TAKES SHAPE AFTER GRAHAM'S DEATH",
+      "stories": [
+        {
+          "headline": "Darline Graham Tests Name Recognition Against Rivals In Primary",
+          "url": "https://www.newsmax.com/newsfront/graham-south-carolina/2026/08/08/id/1265479/",
+          "timestamp": 1786225320000,
+          "postedAt": 1786232045365
+        },
+        {
+          "headline": "South Carolina Awaits Major Change After Graham's Death",
+          "url": "https://www.washingtontimes.com/news/2026/aug/8/south-carolina-awaits-major-change-grahams-death/",
+          "timestamp": 1786220682000,
+          "postedAt": 1786232045365
+        }
+      ]
+    },
     {
       "title": "COURTS DISMISS HIGH-PROFILE CASES",
       "stories": [
@@ -214,136 +241,16 @@
           "postedAt": 1786029345111
         }
       ]
-    },
-    {
-      "title": "IMMIGRATION ENFORCEMENT INTENSIFIES",
-      "stories": [
-        {
-          "headline": "ICE Arrests Surge To New Record",
-          "url": "https://www.dailywire.com/news/ice-arrests-surge-to-new-record?author",
-          "timestamp": 1785968597000,
-          "postedAt": 1785968827861
-        },
-        {
-          "headline": "TPS For Haitians Officially Ends, Leaving Thousands In Limbo",
-          "url": "https://www.washingtonpost.com/immigration/2026/08/05/tps-haitians-officially-ends-putting-thousands-out-work-limbo/",
-          "timestamp": 1785968059000,
-          "postedAt": 1785968827861
-        },
-        {
-          "headline": "Illegal Immigrants Among 70 Arrested In Mississippi Child Exploitation Crackdown",
-          "url": "https://www.foxnews.com/us/illegal-immigrants-among-70-arrested-mississippi-child-exploitation-crackdown-feds",
-          "timestamp": 1785966366000,
-          "postedAt": 1785968827861
-        },
-        {
-          "headline": "Why ICE Is Quietly Buying Up Private Detention Centers",
-          "url": "https://time.com/article/2026/08/04/ice-detention-strategy-private-prisons-immigration-deportation/",
-          "timestamp": 1785841246000,
-          "postedAt": 1785968827861
-        }
-      ]
-    },
-    {
-      "title": "CULTURE-WAR POLICY BATTLES",
-      "stories": [
-        {
-          "headline": "Blue State Hospital Bows To DOJ, Ends Trans Procedures For Kids",
-          "url": "https://www.dailywire.com/news/exclusive-blue-state-hospital-bows-to-doj-ends-trans-procedures-for-kids?author",
-          "timestamp": 1785968204000,
-          "postedAt": 1785968827861
-        },
-        {
-          "headline": "Kansas Rejects Measure To Elect Its State Supreme Court Justices",
-          "url": "https://www.nytimes.com/2026/08/04/us/elections/kansas-judicial-referendum-supreme-court.html",
-          "timestamp": 1785892190000,
-          "postedAt": 1785968827861
-        }
-      ]
-    },
-    {
-      "title": "SCANDALS AND INVESTIGATIONS",
-      "stories": [
-        {
-          "headline": "White House Declassifies Documents On FBI Probe Into Comey Firing",
-          "url": "https://www.washingtontimes.com/news/2026/aug/5/white-house-declassifies-documents-fbi-probe-whether-trump-fired/",
-          "timestamp": 1785967861000,
-          "postedAt": 1785968827861
-        },
-        {
-          "headline": "New Mexico Sues DOJ And Todd Blanche Over Alleged Epstein Probe Block",
-          "url": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
-          "timestamp": 1785967283000,
-          "postedAt": 1785968827861
-        },
-        {
-          "headline": "Florida AG And Two Other Red States Subpoena Fauci",
-          "url": "https://www.politico.com/news/2026/08/05/florida-ag-alongside-2-other-red-states-subpoenas-fauci-01026308",
-          "timestamp": 1785964740000,
-          "postedAt": 1785968827861
-        }
-      ]
-    },
-    {
-      "title": "GOP LAWMAKERS UNDER SCRUTINY",
-      "stories": [
-        {
-          "headline": "Embattled GOP Rep's Live Interview Goes Off The Rails",
-          "url": "https://www.dailywire.com/news/embattled-gop-rep-agreed-to-live-interview-it-didnt-go-well?author",
-          "timestamp": 1785966998000,
-          "postedAt": 1785968827861
-        },
-        {
-          "headline": "Rep. Edwards Drops Reelection Bid After House Censure Recommendation",
-          "url": "https://www.washingtonpost.com/politics/2026/08/05/rep-chuck-edwards-drops-reelection-bid-following-house-censure-recommendation/",
-          "timestamp": 1785965589000,
-          "postedAt": 1785968827861
-        },
-        {
-          "headline": "Speaker Johnson Says Ethics Committee Should Handle Max Miller Probe",
-          "url": "https://www.washingtonpost.com/politics/2026/08/05/gop-house-leaders-defer-ethics-committee-max-miller-accusations/",
-          "timestamp": 1785964842000,
-          "postedAt": 1785968827861
-        }
-      ]
-    },
-    {
-      "title": "COURTS AND SCOTUS RULINGS",
-      "stories": [
-        {
-          "headline": "National Firearms Act No Longer Applies To Silencers, Judge Rules",
-          "url": "https://www.washingtontimes.com/news/2026/aug/5/national-firearms-act-no-longer-applies-silencers-judge-rules/",
-          "timestamp": 1785966438000,
-          "postedAt": 1785968827861
-        }
-      ]
-    },
-    {
-      "title": "THE IRAN WAR ON CAPITOL HILL",
-      "stories": [
-        {
-          "headline": "House Again Votes to Halt Trump's Iran War in 214-208 Rebuke",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-23/us-house-rebukes-trump-on-iran-votes-again-to-end-war",
-          "timestamp": 1784840400000,
-          "postedAt": 1785968827861
-        },
-        {
-          "headline": "Fallen U.S. Troops Return to Dover in Flag-Draped Caskets",
-          "url": "https://www.militarytimes.com/news/your-military/2026/07/22/4-us-soldiers-killed-in-iran-war-return-to-american-soil/",
-          "timestamp": 1784743200000,
-          "postedAt": 1785968827861
-        },
-        {
-          "headline": "Trump Says Saudi Nuclear Deal Now Hinges on Abraham Accords",
-          "url": "https://www.cnn.com/2026/07/23/politics/saudi-arabia-nuclear-deal-trump",
-          "timestamp": 1784815200000,
-          "postedAt": 1785968827861
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Tanker Sailors Still Face Danger In The Strait Of Hormuz",
+        "url": "https://www.npr.org/2026/08/08/nx-s1-5923592/tanker-sailors-still-face-danger-in-the-strait-of-hormuz",
+        "timestamp": 1786223994000,
+        "postedAt": 1786232045365
+      },
       {
         "headline": "El-Sayed Doubles Down After Being Blasted For Disparaging Michigan Destination",
         "url": "https://www.dailywire.com/news/el-sayed-doubles-down-after-hes-blasted-for-disparaging-historic-michigan-destination?author",
@@ -439,45 +346,15 @@
         "url": "https://www.nytimes.com/live/2026/08/05/us/michigan-election-results-primary",
         "timestamp": 1786025220000,
         "postedAt": 1786029345111
-      },
-      {
-        "headline": "Governor Hochul Announces New Gun Safety Actions Amid Federal Rollbacks",
-        "url": "https://www.governor.ny.gov/news/governor-hochul-announces-new-gun-safety-actions-protect-new-yorkers-federal-firearm",
-        "timestamp": 1785422266000,
-        "postedAt": 1785968827861
-      },
-      {
-        "headline": "Zelensky Blames Partners As Russia Barrage Continues",
-        "url": "https://www.washingtonpost.com/world/2026/08/05/ukraine-fails-stop-russian-missile-barrage-after-zelensky-says-interceptors-gone/",
-        "timestamp": 1785967534000,
-        "postedAt": 1785968827861
-      },
-      {
-        "headline": "Former Generals Say Ukraine, Iran Wars Becoming Intertwined",
-        "url": "https://www.washingtontimes.com/news/2026/aug/5/top-former-us-generals-say-wars-ukraine-iran-becoming-steadily/",
-        "timestamp": 1785966012000,
-        "postedAt": 1785968827861
-      },
-      {
-        "headline": "Senate Rejects Bid To Rein In Trump's Iran War Authority",
-        "url": "https://www.theguardian.com/us-news/2026/jul/30/donald-trump-senate-iran-war-power",
-        "timestamp": 1785439780000,
-        "postedAt": 1785968827861
-      },
-      {
-        "headline": "DOJ Drops Subpoenas of New York Times Reporters After Judge's Rebuke",
-        "url": "https://www.cnn.com/2026/07/23/media/new-york-times-subpoenas-trump-doj-prosecutors",
-        "timestamp": 1784820600000,
-        "postedAt": 1785968827861
-      },
-      {
-        "headline": "NYC Landlords Sue to Overturn Mamdani-Backed Rent Freeze",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-22/nyc-landlords-sue-to-invalidate-mamdani-backed-rent-freeze",
-        "timestamp": 1784725200000,
-        "postedAt": 1785968827861
       }
     ],
     "center": [
+      {
+        "headline": "AI Deepfake Election Ad Laws Vary Widely By State",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/4680277/ai-deepfake-election-advertising-laws-what-to-know/",
+        "timestamp": 1786223520000,
+        "postedAt": 1786232045365
+      },
       {
         "headline": "RFK Jr.'s 'Eat Real Food' Agenda Gets Snarled In Cyclospora Outbreak",
         "url": "https://www.politico.com/news/2026/08/08/cyclospora-outbreak-rfk-maha-realfood-01027408",
@@ -549,27 +426,15 @@
         "url": "https://www.foxnews.com/politics/fetterman-answers-whether-hell-cross-aisle-confirm-trump-ag-nominee-todd-blanche",
         "timestamp": 1786023425000,
         "postedAt": 1786029345111
-      },
-      {
-        "headline": "Iran's President Met New Supreme Leader In Total Darkness",
-        "url": "https://www.dailywire.com/news/irans-president-met-new-supreme-leader-in-total-darkness-wondered-if-it-was-really-him?author",
-        "timestamp": 1785968204000,
-        "postedAt": 1785968827861
-      },
-      {
-        "headline": "Venezuela's Machado Taps K Street Lobbying Titan",
-        "url": "https://www.politico.com/newsletters/politico-influence/2026/08/05/venezuelas-machado-taps-k-street-titan-01026197",
-        "timestamp": 1785967200000,
-        "postedAt": 1785968827861
-      },
-      {
-        "headline": "Man Who Killed Minnesota Lawmaker Melissa Hortman Gets Two Life Sentences",
-        "url": "https://www.cnn.com/2026/07/23/us/mn-lawmakers-killing-sentencing",
-        "timestamp": 1784826000000,
-        "postedAt": 1785968827861
       }
     ],
     "right": [
+      {
+        "headline": "Blue City Forced To Dump Haitian Employees After TPS Ruling",
+        "url": "https://dailycaller.com/2026/08/08/zohran-mamdani-new-york-city-forced-fire-dozens-haitian-employees-court-ruling-ends-temporary-protected-status/",
+        "timestamp": 1786224900000,
+        "postedAt": 1786232045365
+      },
       {
         "headline": "Unemployment Improved Because Thousands Of Workers Disappeared — Where Did They Go?",
         "url": "https://www.washingtonpost.com/business/2026/08/08/us-economy-lost-jobs-unemployment-improved-due-workers-leaving-labor-force/",
@@ -629,30 +494,6 @@
         "url": "https://www.washingtontimes.com/news/2026/aug/6/francesca-hong-wisconsin-democratic-candidate-governor-backtracks/",
         "timestamp": 1786026660000,
         "postedAt": 1786029345111
-      },
-      {
-        "headline": "Virginia Primary Voters Pick Mizusawa To Face Warner",
-        "url": "https://virginiamercury.com/2026/08/04/virginia-primary-voters-pick-mizusawa-to-face-warner-finalize-key-us-house-races/",
-        "timestamp": 1785890573000,
-        "postedAt": 1785968827861
-      },
-      {
-        "headline": "Democratic Socialists Want To Abolish Senate; Sanders Says No",
-        "url": "https://vtdigger.org/2026/08/04/democratic-socialists-of-america-wants-to-abolish-the-u-s-senate-bernie-sanders-says-no/",
-        "timestamp": 1785879027000,
-        "postedAt": 1785968827861
-      },
-      {
-        "headline": "Trump Cites Anti-Slavery Trade Law to Hit 60 Trading Partners With Tariffs",
-        "url": "https://www.npr.org/2026/07/24/nx-s1-5906301/us-global-trump-tariffs-reaction",
-        "timestamp": 1784890800000,
-        "postedAt": 1785968827861
-      },
-      {
-        "headline": "Fox Power Rankings: GOP Redistricting Offsets Democrats' 2026 Edge",
-        "url": "https://www.foxnews.com/politics/fox-news-power-rankings-democrats-lead-house-redistricting-keeps-gop-game",
-        "timestamp": 1784736000000,
-        "postedAt": 1785968827861
       }
     ]
   }
