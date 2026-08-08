@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,6 +76,13 @@ function esc(s){ return (s==null?"":String(s)).replace(/[&<>]/g, c => ({"&":"&am
 function card(sec, m) {
   const c = m.content || {}, h = m.hero || {}, cfg = m.config || {}, lim = (cfg.limits||{});
   const sb = m.scoreboard;
+  const det = m.detected || [];
+  const tMark = {rising:"▲", "new":"✦", steady:"■", fading:"▼"};
+  const tCol  = {rising:"#0a7d00", "new":"#00008B", steady:"#888", fading:"#c00"};
+  const detHTML = det.length ? `<div style="font-size:12px;margin:8px 0;">
+      <span class="k">Live narratives (by coverage):</span><br>` +
+      det.slice(0,8).map(d => `<span title="${d.size} stories, score ${d.score}" style="display:inline-block;border:1px solid ${tCol[d.trend]||'#888'};border-radius:10px;padding:1px 7px;margin:3px 4px 0 0;font-size:11px;">${esc(d.label)} <b style="color:${tCol[d.trend]||'#888'}">${tMark[d.trend]||''}${d.outlets}</b></span>`).join("") +
+      `</div>` : "";
   let specials = "";
   if (sb) specials = `<div class="row"><span class="k">Scoreboard:</span> <b>${sb.live}</b> live · <b>${sb.scheduled}</b> upcoming · <b>${sb.final}</b> final</div>`;
   if (m.marketsStrip) specials = `<div class="row"><span class="k">Markets strip:</span> ${esc(m.marketsStrip)}</div>`;
@@ -101,6 +109,7 @@ function card(sec, m) {
       ${specials}
       ${errRow}
       <div class="hero"><span class="k">Headline</span> (set ${esc(h.setDate||"–")}):<br><span class="hl">${esc(h.headline||"—")}</span></div>
+      ${detHTML}
       ${trafficHTML}
       <details>
         <summary>How this page is built &amp; limited</summary>
