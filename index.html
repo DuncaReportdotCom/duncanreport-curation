@@ -515,15 +515,17 @@ function renderMarkets(quotes) {
 var el = document.getElementById('markets');
 if (!el) return;
 if (!quotes || !quotes.length) { el.innerHTML = ''; return; }
+var WSJ_MKT = 'https://www.wsj.com/market-data';
 el.innerHTML = quotes.map(function(q) {
 var chgText = (q.change || '');
 if (q.changePct) { chgText += (chgText ? '  ' : '') + q.changePct; }
-var isDown = /-/.test((q.change || '') + (q.changePct || ''));
+var isDown = (q.up === false) || (q.up == null && /-/.test((q.change || '') + (q.changePct || '')));
 var chgHtml = chgText.trim()
 ? ' <span class="mk-chg ' + (isDown ? 'mk-down' : 'mk-up') + '">' + chgText + '</span>'
 : '';
-return '<span class="mk-item"><span class="mk-name">' + q.name + '</span> ' +
-'<span class="mk-val">' + q.value + '</span>' + chgHtml + '</span>';
+return '<a class="mk-item" href="' + (q.url || WSJ_MKT) + '" target="_blank" style="text-decoration:none;color:inherit">' +
+'<span class="mk-name">' + q.name + '</span> ' +
+'<span class="mk-val">' + q.value + '</span>' + chgHtml + '</a>';
 }).join('<span class="mk-sep">|</span>');
 }
 
@@ -581,8 +583,14 @@ return html + '</div>';
 
 function renderStories(data) {
 // Markets strip renders regardless of hero; sports scores go into the left column below.
-if (currentSection() === 'markets') { renderMarketLinks(); } else { renderMarkets(data && data.markets); }
-if (currentSection() === 'politics') { renderPollLinks(); }
+if (currentSection() === 'markets') {
+  if (data && data.markets && data.markets.length) { renderMarkets(data.markets); }
+  else { renderMarketLinks(); }
+} else { renderMarkets(data && data.markets); }
+if (currentSection() === 'politics') {
+  if (data && data.polls && data.polls.length) { renderPolls(data.polls); }
+  else { renderPollLinks(); }
+}
 var sbHTML = (currentSection() === 'sports' && data && data.scoreboard) ? scoreboardBlock(data.scoreboard) : '';
 if (!data || !data.hero) {
 document.getElementById('hero-headline').innerHTML = 'NO STORIES FOUND';
@@ -763,24 +771,42 @@ var MARKET_LINKS = [
   ["Bitcoin", "https://finance.yahoo.com/quote/BTC-USD"],
   ["10-Yr Treasury", "https://finance.yahoo.com/quote/%5ETNX"]
 ];
+var BALLOTPEDIA_POLLS = "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating";
 var POLL_LINKS = [
-  ["Trump Approval", "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating"],
-  ["Congress Ballot", "https://www.realclearpolling.com/polls/generic-congressional-vote"],
-  ["Right/Wrong Track", "https://www.realclearpolling.com/polls/direction-of-country"],
-  ["All Polls", "https://www.realclearpolling.com/polls"]
+  ["Trump Approval", BALLOTPEDIA_POLLS],
+  ["Congress Approval", BALLOTPEDIA_POLLS],
+  ["Right Direction", BALLOTPEDIA_POLLS],
+  ["All Polls", BALLOTPEDIA_POLLS]
 ];
+// Live numbers: Ballotpedia 30-day averages, each figure hotlinked to Ballotpedia.
+function renderPolls(polls) {
+  var el = document.getElementById('polls');
+  if (!el) return;
+  if (!polls || !polls.length) { el.innerHTML = ''; return; }
+  var asOf = '';
+  for (var i = 0; i < polls.length; i++) { if (polls[i].asOf) { asOf = polls[i].asOf; break; } }
+  var intro = '<span style="color:#555">Ballotpedia averages' + (asOf ? ' (' + asOf + ')' : '') + ' &rarr; </span>';
+  el.innerHTML = intro + polls.map(function(p) {
+    var sub = p.sub ? ' <span style="color:#888">(' + p.sub + ')</span>' : '';
+    return '<a href="' + (p.url || BALLOTPEDIA_POLLS) + '" target="_blank" style="text-decoration:none;color:inherit">' +
+      '<span style="font-weight:bold">' + p.name + '</span> ' +
+      '<span style="color:#00008B;text-decoration:underline">' + p.value + '</span>' + sub + '</a>';
+  }).join('<span class="pl-sep">|</span>');
+}
+// Fallback when live numbers are unavailable: labeled links to Ballotpedia.
 function renderPollLinks() {
   var el = document.getElementById('polls');
   if (!el) return;
-  el.innerHTML = '<span style="color:#555">RCP poll averages &rarr; </span>' + POLL_LINKS.map(function(p){
+  el.innerHTML = '<span style="color:#555">Ballotpedia poll averages &rarr; </span>' + POLL_LINKS.map(function(p){
     return '<a href="' + p[1] + '" target="_blank">' + p[0] + '</a>';
   }).join('<span class="pl-sep">|</span>');
 }
 function renderMarketLinks() {
   var el = document.getElementById('markets');
   if (!el) return;
-  el.innerHTML = '<span style="color:#555">Live quotes &rarr; </span>' + MARKET_LINKS.map(function(m) {
-    return '<a class="mk-item" style="color:#00008B;text-decoration:underline" href="' + m[1] + '" target="_blank"><span class="mk-name">' + m[0] + '</span></a>';
+  var href = 'https://www.wsj.com/market-data';
+  el.innerHTML = '<span style="color:#555">Market data &rarr; </span>' + MARKET_LINKS.map(function(m) {
+    return '<a class="mk-item" style="color:#00008B;text-decoration:underline" href="' + href + '" target="_blank"><span class="mk-name">' + m[0] + '</span></a>';
   }).join('<span class="mk-sep">|</span>');
 }
 
@@ -788,9 +814,9 @@ function renderMarketLinks() {
 var SOURCE_BARS = {
   main: [["ABC","https://abcnews.go.com"],["AP","https://apnews.com"],["BBC","https://www.bbc.com/news"],["CBS","https://www.cbsnews.com"],["CNN","https://www.cnn.com"],["NBC","https://www.nbcnews.com"],["NPR","https://www.npr.org"],["NY Times","https://www.nytimes.com"],["Politico","https://www.politico.com"],["The Guardian","https://www.theguardian.com"],["Breitbart","https://www.breitbart.com"],["Daily Caller","https://dailycaller.com"],["Fox News","https://www.foxnews.com"],["NewsMax","https://www.newsmax.com"],["NY Post","https://nypost.com"],["Wash Examiner","https://www.washingtonexaminer.com"],["Wash Times","https://www.washingtontimes.com"],["WSJ","https://www.wsj.com"],["News Nation","https://www.newsnationnow.com"]],
   sports: [["ESPN","https://www.espn.com"],["Fox Sports","https://www.foxsports.com"],["Yahoo Sports","https://sports.yahoo.com"],["CBS Sports","https://www.cbssports.com"],["NBC Sports","https://www.nbcsports.com"],["The Athletic","https://www.nytimes.com/athletic/"],["Bleacher Report","https://bleacherreport.com"],["SI","https://www.si.com"],["AP Sports","https://apnews.com/hub/sports"],["USA Today","https://www.usatoday.com/sports/"],["The Ringer","https://www.theringer.com"],["FOS","https://frontofficesports.com"],["SB Nation","https://www.sbnation.com"],["The Score","https://www.thescore.com"],["Barstool","https://www.barstoolsports.com"],["Deadspin","https://www.deadspin.com"]],
-  world: [["BBC","https://www.bbc.com/news"],["Reuters","https://www.reuters.com"],["AP","https://apnews.com"],["AFP","https://www.afp.com/en"],["Al Jazeera","https://www.aljazeera.com"],["Guardian","https://www.theguardian.com/world"],["CNN Intl","https://edition.cnn.com"],["Bloomberg","https://www.bloomberg.com"],["FT","https://www.ft.com"],["NY Times","https://www.nytimes.com/section/world"],["Wash Post","https://www.washingtonpost.com/world"],["DW","https://www.dw.com/en"],["France 24","https://www.france24.com/en"],["Euronews","https://www.euronews.com"],["The Times","https://www.thetimes.com"],["NPR","https://www.npr.org/sections/world"]],
+  world: [["BBC","https://www.bbc.com/news"],["Reuters","https://www.reuters.com"],["AP","https://apnews.com"],["AFP","https://www.afp.com/en"],["Al Jazeera","https://www.aljazeera.com"],["Guardian","https://www.theguardian.com/world"],["Le Monde","https://www.lemonde.fr/en/"],["DW","https://www.dw.com/en"],["France 24","https://www.france24.com/en"],["El Pais","https://english.elpais.com"],["Euronews","https://www.euronews.com"],["Bloomberg","https://www.bloomberg.com"],["FT","https://www.ft.com"],["NY Times","https://www.nytimes.com/section/world"],["SCMP","https://www.scmp.com"],["Times of Israel","https://www.timesofisrael.com"]],
   markets: [["WSJ","https://www.wsj.com"],["Bloomberg","https://www.bloomberg.com"],["CNBC","https://www.cnbc.com"],["FT","https://www.ft.com"],["Reuters","https://www.reuters.com"],["MarketWatch","https://www.marketwatch.com"],["Barron's","https://www.barrons.com"],["Forbes","https://www.forbes.com"],["Fortune","https://fortune.com"],["Business Insider","https://www.businessinsider.com"],["Yahoo Finance","https://finance.yahoo.com"],["Motley Fool","https://www.fool.com"],["Investopedia","https://www.investopedia.com"],["IBD","https://www.investors.com"],["Seeking Alpha","https://seekingalpha.com"],["Economist","https://www.economist.com"]],
-  politics: [["CNN","https://www.cnn.com/politics"],["MSNBC","https://www.msnbc.com"],["NY Times","https://www.nytimes.com"],["Wash Post","https://www.washingtonpost.com"],["NPR","https://www.npr.org/sections/politics"],["Politico","https://www.politico.com"],["NBC","https://www.nbcnews.com/politics"],["Democracy Now","https://www.democracynow.org"],["Fox News","https://www.foxnews.com/politics"],["Wash Times","https://www.washingtontimes.com"],["NY Post","https://nypost.com"],["Breitbart","https://www.breitbart.com"],["Natl Review","https://www.nationalreview.com"],["Wash Examiner","https://www.washingtonexaminer.com"],["Daily Wire","https://www.dailywire.com"],["NewsMax","https://www.newsmax.com"]],
+  politics: [["CNN","https://www.cnn.com/politics"],["MSNBC","https://www.msnbc.com"],["NY Times","https://www.nytimes.com"],["Wash Post","https://www.washingtonpost.com"],["NPR","https://www.npr.org/sections/politics"],["Politico","https://www.politico.com"],["NBC","https://www.nbcnews.com/politics"],["Democracy Now","https://www.democracynow.org"],["The Hill","https://thehill.com"],["Fox News","https://www.foxnews.com/politics"],["Wash Times","https://www.washingtontimes.com"],["NY Post","https://nypost.com"],["Breitbart","https://www.breitbart.com"],["Daily Caller","https://dailycaller.com"],["Wash Examiner","https://www.washingtonexaminer.com"],["Daily Wire","https://www.dailywire.com"],["NewsMax","https://www.newsmax.com"],["RCP","https://www.realclearpolitics.com"]],
   "life-culture": [["People","https://people.com"],["Variety","https://variety.com"],["THR","https://www.hollywoodreporter.com"],["Rolling Stone","https://www.rollingstone.com"],["EW","https://ew.com"],["TMZ","https://www.tmz.com"],["Deadline","https://deadline.com"],["E! News","https://www.eonline.com"],["Vanity Fair","https://www.vanityfair.com"],["Vulture","https://www.vulture.com"],["The Atlantic","https://www.theatlantic.com"],["Billboard","https://www.billboard.com"],["USA Today","https://www.usatoday.com/life"],["NY Times Arts","https://www.nytimes.com/section/arts"],["Pitchfork","https://pitchfork.com"],["ET","https://www.etonline.com"]]
 };
 function renderSourceBar() {
