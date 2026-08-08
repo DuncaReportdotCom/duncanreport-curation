@@ -1500,27 +1500,81 @@ def _pub_ms(s):
     except Exception:
         return now_ms()
 
-def google_news_candidates(section):
-    """Fetch recent stories from this section's own outlets via Google News RSS (not crawler-blocked)."""
-    sites = DOMAINS.get(section) or []
-    items, seen = [], set()
-    for site in sites:
-        url = GNEWS % urllib.parse.quote("site:%s when:2d" % site)
-        root = _gnews_get(url)
+# Second aggregator for redundancy: Bing News RSS (this is what powers MSN's news).
+# We split the per-domain crawl across Google and Bing so neither gets hammered into a
+# rate-limit, and each domain falls back to the other provider if its primary is empty.
+_BING_LAST = [0.0]
+def _bing_news(query, cap=15):
+    """Bing/MSN News RSS for a query. Returns [{title, link, ts}] with `link` already
+    resolved to the original article (Bing hides it in the apiclick url= param). Bing
+    rejects complex boolean queries, so this is used for site: domain crawls only."""
+    url = "https://www.bing.com/news/search?q=%s&format=rss" % urllib.parse.quote(query)
+    for attempt in range(2):
+        wait = _GNEWS_MIN_INTERVAL - (time.time() - _BING_LAST[0])
+        if wait > 0:
+            time.sleep(wait)
+        _BING_LAST[0] = time.time()
+        try:
+            items = list(ET.fromstring(_fetch_bytes(url, ua=BROWSER_UA)).iter("item"))
+        except Exception:
+            items = []
+        out = []
+        for it in items[:cap]:
+            title = (it.findtext("title") or "").strip()
+            link = (it.findtext("link") or "").strip()
+            if "apiclick" in link:
+                qs = urllib.parse.parse_qs(urllib.parse.urlparse(link).query)
+                link = (qs.get("url") or [link])[0]
+            if title and link:
+                out.append({"title": unescape(title), "link": link,
+                            "ts": _pub_ms(it.findtext("pubDate") or "")})
+        if out:
+            return out
+        time.sleep(0.8)
+    return []
+
+_SITE_TOGGLE = [0]   # round-robins each site: query to a primary provider (load split)
+def _site_crawl(dom, when_days, cap):
+    """Recent items for one domain from Google News or Bing (whichever is this query's
+    primary this run), falling back to the other. Returns [{title, link, source, ts}]."""
+    google_first = (_SITE_TOGGLE[0] % 2 == 0)
+    _SITE_TOGGLE[0] += 1
+    def via_google():
+        root = _gnews_get(GNEWS % urllib.parse.quote("site:%s when:%dd" % (dom, when_days)))
         if root is None:
-            continue
+            return None
+        rows = []
         for it in root.iter("item"):
             title = (it.findtext("title") or "").strip()
             link = (it.findtext("link") or "").strip()
-            if not title or not link or link in seen:
+            if not title or not link:
                 continue
-            seen.add(link)
             src_el = it.find("source")
-            source = (src_el.text if (src_el is not None and src_el.text) else site)
-            if title.endswith(" - " + source):
+            source = (src_el.text if (src_el is not None and src_el.text) else dom)
+            if source and title.endswith(" - " + source):
                 title = title[: -(len(source) + 3)].strip()
-            items.append({"title": unescape(title), "url": link, "source": source,
-                          "ts": _pub_ms(it.findtext("pubDate") or "")})
+            rows.append({"title": unescape(title), "link": link, "source": source,
+                         "ts": _pub_ms(it.findtext("pubDate") or "")})
+        return rows
+    def via_bing():
+        b = _bing_news("site:%s" % dom, cap=cap + 5)
+        return [{"title": r["title"], "link": r["link"], "source": dom, "ts": r["ts"]}
+                for r in b] if b else None
+    first, second = (via_google, via_bing) if google_first else (via_bing, via_google)
+    return first() or second() or []
+
+def google_news_candidates(section):
+    """Recent stories from this section's outlets. The per-domain load is SPLIT across two
+    aggregators (Google News and Bing/MSN), each domain falling back to the other, so a
+    rate-limit on one provider cannot wipe the page."""
+    sites = DOMAINS.get(section) or []
+    items, seen = [], set()
+    for site in sites:
+        for r in _site_crawl(site, 2, cap=12):
+            if r["link"] in seen:
+                continue
+            seen.add(r["link"])
+            items.append({"title": r["title"], "url": r["link"], "source": r["source"], "ts": r["ts"]})
     items.sort(key=lambda x: x["ts"], reverse=True)
     return items[:60]
 
@@ -1545,24 +1599,9 @@ def realclear_candidates(section, per_site=5):
     window, since these publish less often than daily news. Routed per matching page."""
     items = []
     for dom in RC_DOMAINS.get(section, []):
-        root = _gnews_get(GNEWS % urllib.parse.quote("site:%s when:10d" % dom))
-        if root is None:
-            continue
-        n = 0
-        for it in root.iter("item"):
-            title = (it.findtext("title") or "").strip()
-            link = (it.findtext("link") or "").strip()
-            if not title or not link:
-                continue
-            src_el = it.find("source")
-            source = (src_el.text if (src_el is not None and src_el.text) else dom)
-            if source and title.endswith(" - " + source):
-                title = title[: -(len(source) + 3)].strip()
-            items.append({"title": unescape(title), "url": link, "source": source,
-                          "ts": _pub_ms(it.findtext("pubDate") or ""), "arc": "RealClear"})
-            n += 1
-            if n >= per_site:
-                break
+        for r in _site_crawl(dom, 10, cap=per_site)[:per_site]:
+            items.append({"title": r["title"], "url": r["link"], "source": r["source"],
+                          "ts": r["ts"], "arc": "RealClear"})
     return items
 
 def drudge_candidates(limit=40):
@@ -1638,24 +1677,9 @@ def editorial_candidates(per_site=2):
     label - a proxy for its lean. Used to attach editorials to major narratives on the main page."""
     items = []
     for dom in OPINION_DOMAINS:
-        root = _gnews_get(GNEWS % urllib.parse.quote("site:%s when:5d" % dom))
-        if root is None:
-            continue
-        n = 0
-        for it in root.iter("item"):
-            title = (it.findtext("title") or "").strip()
-            link = (it.findtext("link") or "").strip()
-            if not title or not link:
-                continue
-            src_el = it.find("source")
-            source = (src_el.text if (src_el is not None and src_el.text) else dom)
-            if source and title.endswith(" - " + source):
-                title = title[: -(len(source) + 3)].strip()
-            items.append({"title": unescape(title), "url": link, "source": source,
-                          "ts": _pub_ms(it.findtext("pubDate") or ""), "arc": "editorial"})
-            n += 1
-            if n >= per_site:
-                break
+        for r in _site_crawl(dom, 5, cap=per_site)[:per_site]:
+            items.append({"title": r["title"], "url": r["link"], "source": r["source"],
+                          "ts": r["ts"], "arc": "editorial"})
     return items
 
 def _islive(title):
