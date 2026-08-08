@@ -2137,6 +2137,54 @@ def _download_image(url, dest):
         f.write(blob)
     return True
 
+# Wire agencies / outlets whose name burned onto a photo means it's a branded or
+# watermarked image (e.g. a "Telegraph" wordmark across the picture), not a clean
+# editorial photo. If OCR reads one, the image is rejected and the next candidate tried.
+_IMG_WATERMARK_WORDS = ("telegraph", "getty", "reuters", "afp", "bloomberg", "shutterstock",
+    "alamy", "istock", "dreamstime", "depositphotos", "epa-efe", "imago", "zuma", "sipa",
+    "abaca", "newscom", "picture alliance", "pa media", "pa wire", "espn", "sky news",
+    "daily mail", "the guardian", "copyright", "©")
+
+def _image_has_watermark(path):
+    """OCR the saved image and reject it if a wire/outlet wordmark is burned in, if a
+    single huge word is overlaid, or if text covers a large share of the frame (a graphic
+    or quote-card, not a photo). Fails safe: if OCR tooling is missing it does not block."""
+    try:
+        import pytesseract
+        from PIL import Image
+    except Exception:
+        return False
+    try:
+        img = Image.open(path)
+        img.load()
+        W, H = img.size
+        if W < 80 or H < 80:
+            return False
+        if img.mode not in ("RGB", "L"):
+            img = img.convert("RGB")
+        data = pytesseract.image_to_data(img, output_type=pytesseract.Output.DICT)
+    except Exception:
+        return False
+    words = []
+    for i in range(len(data.get("text", []))):
+        t = (data["text"][i] or "").strip()
+        try:
+            conf = float(data["conf"][i])
+        except Exception:
+            conf = -1.0
+        if len(t) >= 2 and conf >= 60:
+            words.append((t, data["width"][i], data["height"][i]))
+    if not words:
+        return False
+    joined = " " + " ".join(w[0] for w in words).lower() + " "
+    if any(b in joined for b in _IMG_WATERMARK_WORDS):
+        return True
+    if any(h >= 0.16 * H and len(t) >= 4 for (t, _w, h) in words):   # big overlaid word
+        return True
+    if sum(w * h for (_t, w, h) in words) >= 0.10 * W * H:            # text-heavy graphic
+        return True
+    return False
+
 _URL_CACHE = {}
 
 def resolve_link(u):
@@ -2230,7 +2278,7 @@ def _try_hero_images(urls, dest):
         seen.add(u)
         try:
             if re.search(r"\.(jpg|jpeg|png|webp)(\?|$)", str(u), re.I) and not _is_junk_img(u):
-                if _download_image(u, dest):
+                if _download_image(u, dest) and not _image_has_watermark(dest):
                     return True
                 continue
             real = decode_gnews(u) if "news.google.com" in str(u) else u
@@ -2239,7 +2287,8 @@ def _try_hero_images(urls, dest):
             tries += 1
             img_url = og_image_url(real)
             if img_url and not _is_junk_img(img_url) and _download_image(img_url, dest):
-                return True
+                if not _image_has_watermark(dest):
+                    return True
         except Exception:
             continue
         if tries >= 12:
