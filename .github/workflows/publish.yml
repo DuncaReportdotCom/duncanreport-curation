@@ -65,12 +65,14 @@ jobs:
         run: |
           python -c "import json,sys; d=json.load(open('site/status.json')); c=d.get('critical') or []; [print('::error::broken page, NOT deploying: '+str(x)) for x in c]; print('OK to deploy.' if d.get('deployable',True) else 'DEPLOY BLOCKED - keeping the last good site live'); sys.exit(0 if d.get('deployable',True) else 1)"
 
-      # Persist the daily archive back to the repo so it survives the next build.
+      # Persist the daily archive AND the narrative-detector state back to the repo
+      # so both survive the next build (the state file drives rise/fall trend).
       - name: Commit archive snapshots
         run: |
           git config user.name "duncanreport-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add archive
+          git add narrative_state.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Archive snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase --autostash origin "${{ github.ref_name }}" || true
