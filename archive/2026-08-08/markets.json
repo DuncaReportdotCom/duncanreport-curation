@@ -1,29 +1,166 @@
 {
-  "lastUpdated": 1786112370556,
-  "heroSetDate": "2026-08-07",
+  "lastUpdated": 1786208566386,
+  "heroSetDate": "2026-08-08",
   "hero": {
-    "headline": "US EMPLOYERS UNEXPECTEDLY SHED 23,000 JOBS IN JULY AS UNEMPLOYMENT FALLS TO 4.1%",
-    "url": "https://www.reuters.com/business/us-nonfarm-payrolls-fall-july-unemployment-rate-eases-41-2026-08-07/",
+    "headline": "STOCKS RALLY TO RECORD HIGHS AS BULLS TAKE CHARGE, BERKSHIRE TOPS FORECASTS",
+    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/",
     "sublinks": [
       {
-        "text": "Breaking Down July's Job Losses And Wage Growth Details",
-        "url": "https://www.wsj.com/economy/jobs/july-jobs-report-unemployment-0d7c08a7"
+        "text": "Amazon Tops $3 Trillion Market Cap After Blowout Earnings",
+        "url": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html"
       },
       {
-        "text": "S&P And Nasdaq Open Higher As Traders Bet On Fed Pause",
-        "url": "https://www.reuters.com/business/sp-500-dow-futures-muted-ahead-jobs-data-chips-software-stocks-rise-2026-08-07/"
+        "text": "Microsoft Shares Soar On Strong Cloud And AI Growth",
+        "url": "https://abcnews.com/Business/microsoft-stock-soaring/story?id"
       },
       {
-        "text": "Gold Jumps To Seven-Week High As Rate-Hike Bets Fade",
-        "url": "https://www.reuters.com/world/india/gold-heads-strongest-week-since-january-us-payrolls-data-focus-2026-08-07/"
+        "text": "Record Rally Tied To Efforts To Rescue The Japanese Yen",
+        "url": "https://www.nytimes.com/2026/08/05/business/stock-market-yen-ai.html"
       },
       {
-        "text": "Dollar Slides To Seven-Week Low On Weak Jobs Data",
-        "url": "https://www.wsj.com/finance/currencies/nikkei-falls-0-7-dragged-by-chip-related-stocks-f3f924b2"
+        "text": "AI Profits And Easing Oil Prices Fuel The Broader Surge",
+        "url": "https://www.theguardian.com/business/2026/aug/04/stock-market-records-ai-profits-oil-prices-ease"
       }
     ]
   },
   "groups": [
+    {
+      "title": "AI BUSINESS: THE NEXT FRONTIER",
+      "stories": [
+        {
+          "headline": "Lessons From Chinese AI Development",
+          "url": "https://www.economist.com/weeklyedition/2026-08-08",
+          "timestamp": 1786206661000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "Musk's AI Company Joins Fight To Strip Citizens Of Power To Sue",
+          "url": "https://fortune.com/2026/08/08/lazarus-26-years-citizen-suits-musk-xai/",
+          "timestamp": 1786204200000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "Zuckerberg Articulates The Brilliant AI Future Ahead",
+          "url": "https://www.realclearmarkets.com/articles/2026/07/31/mark_zuckerberg_articulates_the_brilliant_ai_future_ahead_1197561.html",
+          "timestamp": 1785481200000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "OIL AND ENERGY: GEOPOLITICAL RISK EASES",
+      "stories": [
+        {
+          "headline": "Iran Says Hormuz Deal Is Close But Conditions Must Be Met",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-08/iran-says-hormuz-deal-close-but-that-its-conditions-must-be-met",
+          "timestamp": 1786204627000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "US Declared An Energy Emergency, Then Paid $4 Billion For Less Energy",
+          "url": "https://www.forbes.com/sites/we-dont-have-time/2026/08/08/us-declared-an-energy-emergency-then-paid-4-billion-for-less-energy/",
+          "timestamp": 1786201990000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "US Says Ukraine Will Avoid Targeting Tankers And Black Sea Oil Site",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-08/us-says-ukraine-to-avoid-targeting-tankers-black-sea-oil-site",
+          "timestamp": 1786201710000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "OPEC And Allies Increase Oil Output For Sixth Month In A Row",
+          "url": "https://www.wsj.com/business/energy-oil/opec-allies-increase-oil-output-for-sixth-time-in-a-row-e56378d9",
+          "timestamp": 1785671820000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "LABOR MARKET SHIFTS BENEATH THE HEADLINES",
+      "stories": [
+        {
+          "headline": "US Workforce Has Shrunk By Over 1 Million In The Past Year",
+          "url": "https://www.marketwatch.com/story/the-size-of-the-american-workforce-has-fallen-by-over-1-million-people-in-the-past-year-heres-whats-going-on-b8141aa3",
+          "timestamp": 1786203780000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "A Soft Jobs Headline Hides An Industrial Turn",
+          "url": "https://www.realclearmarkets.com/articles/2026/08/07/a_soft_jobs_headline_hides_an_industrial_turn_1199125.html",
+          "timestamp": 1786116830000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "FED HOLDS RATES, MARKETS ADJUST",
+      "stories": [
+        {
+          "headline": "Risk Assets Gain Traction As Interest Rate Uncertainty Persists",
+          "url": "https://www.cnbc.com/2026/08/08/rate-uncertainty-sparking-demand-for-clo-exposure-among-etfs-vettafi.html",
+          "timestamp": 1786201201000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "Fed Leaves Rates Unchanged Despite Three Dissenting Votes For Increase",
+          "url": "https://apnews.com/article/federal-reserve-inflation-interest-rates-iran-war-ad10c177cb8d96f9e3ed122e12352a74",
+          "timestamp": 1785308400000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "TRADE POLICY: TARIFFS AND DATA",
+      "stories": [
+        {
+          "headline": "Trump To Impose 15% Tariff, Set Minimum Prices On Solar Panels",
+          "url": "https://www.wsj.com/economy/trade/trump-to-impose-15-tariff-set-minimum-prices-on-solar-panels-and-components-dd7cd9d9",
+          "timestamp": 1786200455000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "The June Trade Report Is A Welcome Movement In The Right Direction",
+          "url": "https://www.realclearmarkets.com/articles/2026/08/04/the_june_trade_report_is_a_welcome_movement_in_the_right_direction_1198377.html",
+          "timestamp": 1785852678000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "BIG TECH EARNINGS LIFT MARKET SENTIMENT",
+      "stories": [
+        {
+          "headline": "Nvidia Stock Looks Surprisingly Undervalued After Pullback",
+          "url": "https://global.morningstar.com/en-ca/stocks/nvidia-stock-this-onetime-market-darling-is-now-surprisingly-undervalued",
+          "timestamp": 1785924358000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "Dow Futures Rise As Trump Comments Spark Rally, Palantir Soars On Earnings",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-stock-market-rally-palantir-earnings-spacex-on-deck/",
+          "timestamp": 1785811500000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "CRYPTO MARKETS SWING ON STRATEGY SALE PLANS",
+      "stories": [
+        {
+          "headline": "Bitcoin Price Rises As Coldcard Exploit And Strategy Sale Fears Recede",
+          "url": "https://www.coindesk.com/markets/2026/08/04/bitcoin-rises-toward-usd64-000-as-coldcard-exploit-strategy-sales-recede-ada-advances",
+          "timestamp": 1785857829000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "Bitcoin Slides As Strategy Plans Up To $5 Billion In Crypto Sales",
+          "url": "https://www.investors.com/news/bitcoin-price-falls-strategy-5-billion-crypto-sales-q2-earnings/",
+          "timestamp": 1785509580000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
     {
       "title": "BIG TECH EARNINGS SEASON",
       "stories": [
@@ -122,17 +259,6 @@
       ]
     },
     {
-      "title": "AI & BIG TECH",
-      "stories": [
-        {
-          "headline": "Nvidia Stock Is Now Surprisingly Undervalued, Analysts Say",
-          "url": "https://global.morningstar.com/en-ca/stocks/nvidia-stock-this-onetime-market-darling-is-now-surprisingly-undervalued",
-          "timestamp": 1785924358000,
-          "postedAt": 1785968704143
-        }
-      ]
-    },
-    {
       "title": "MEMORY CHIP SELLOFF",
       "stories": [
         {
@@ -199,10 +325,16 @@
   "columns": {
     "left": [
       {
-        "headline": "Bitcoin Price Rises As Coldcard Exploit, Strategy Sales Recede",
-        "url": "https://www.coindesk.com/markets/2026/08/04/bitcoin-rises-toward-usd64-000-as-coldcard-exploit-strategy-sales-recede-ada-advances",
-        "timestamp": 1785857829000,
-        "postedAt": 1786112370556
+        "headline": "Current Refi Mortgage Rates Report For Aug. 10, 2026",
+        "url": "https://fortune.com/article/current-refi-mortgage-rates-08-10-2026/",
+        "timestamp": 1786205403000,
+        "postedAt": 1786208566386
+      },
+      {
+        "headline": "Nvidia Sets Conference Call For Second-Quarter Financial Results",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+        "timestamp": 1785308400000,
+        "postedAt": 1786208566386
       },
       {
         "headline": "AI Just Went Rogue Again: This Time It Turned To Deception",
@@ -297,10 +429,16 @@
     ],
     "center": [
       {
-        "headline": "OPEC, Allies Increase Oil Output For Sixth Time In A Row",
-        "url": "https://www.wsj.com/business/energy-oil/opec-allies-increase-oil-output-for-sixth-time-in-a-row-e56378d9",
-        "timestamp": 1785671820000,
-        "postedAt": 1786112370556
+        "headline": "My Brother Asked Me To Sign As His Executor, But Wouldn't Let Me Read The Document",
+        "url": "https://www.marketwatch.com/story/my-brother-asked-me-to-sign-as-his-executor-but-wouldnt-let-me-read-the-document-should-i-have-refused-1b53d9bc",
+        "timestamp": 1786204800000,
+        "postedAt": 1786208566386
+      },
+      {
+        "headline": "Federal Funds Rate History, 1990 To 2026",
+        "url": "https://www.forbes.com/advisor/investing/fed-funds-rate-history-1/",
+        "timestamp": 1785308400000,
+        "postedAt": 1786208566386
       },
       {
         "headline": "Copper Market Crunch Brews As US And China Compete For Metal",
@@ -371,10 +509,10 @@
     ],
     "right": [
       {
-        "headline": "Lessons From Chinese AI",
-        "url": "https://www.economist.com/weeklyedition/2026-08-08",
-        "timestamp": 1786109166000,
-        "postedAt": 1786112370556
+        "headline": "XRP Price Prediction: Where Will It Be By Late 2027?",
+        "url": "https://www.fool.com/investing/2026/08/08/prediction-this-will-be-the-cryptocurrency-xrps-pr/",
+        "timestamp": 1786204800000,
+        "postedAt": 1786208566386
       },
       {
         "headline": "Paying Down The National Debt Will Not Shrink The National Debt",
@@ -407,12 +545,6 @@
         "postedAt": 1786029224314
       },
       {
-        "headline": "Trump Administration To Impose 15% Tariff In Polysilicon Probe Targeting China",
-        "url": "https://www.reuters.com/world/china/trump-administration-impose-15-tariff-polysilicon-sources-say-2026-08-05/",
-        "timestamp": 1785963885000,
-        "postedAt": 1785968704143
-      },
-      {
         "headline": "China Levies Retaliatory Sanctions On Washington",
         "url": "https://fortune.com/2026/08/05/necessary-countermeasures-china-imposes-sanctions-washington-retaliation-us-trade-restrictions/",
         "timestamp": 1785963000000,
@@ -422,12 +554,6 @@
         "headline": "Wake County Median Home Price Rises To $458,500 In June",
         "url": "https://www.wake.gov/news/wake-countys-median-real-estate-price-increased-15500-june-2026-ending-month-458500",
         "timestamp": 1785931200000,
-        "postedAt": 1785968704143
-      },
-      {
-        "headline": "Dow Jones Futures: Trump Sparks Stock Rally As Palantir Soars, SpaceX Earnings Loom",
-        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-stock-market-rally-palantir-earnings-spacex-on-deck/",
-        "timestamp": 1785811500000,
         "postedAt": 1785968704143
       },
       {
@@ -489,9 +615,9 @@
     },
     {
       "name": "Bitcoin",
-      "value": "$64,975.68",
-      "change": "+91.52",
-      "changePct": "+0.14%",
+      "value": "$65,046.82",
+      "change": "+162.66",
+      "changePct": "+0.25%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     }

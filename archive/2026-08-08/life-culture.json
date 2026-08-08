@@ -1,12 +1,83 @@
 {
-  "lastUpdated": 1786112874965,
-  "heroSetDate": "2026-08-07",
+  "lastUpdated": 1786208924785,
+  "heroSetDate": "2026-08-08",
   "hero": {
-    "headline": "SCIENTISTS USED AI TO CREATE 16 NEW VIRUSES",
-    "url": "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
-    "sublinks": []
+    "headline": "'POWER BOOK III: RAISING KANAN' ENDS ITS RUN WITH A BLOODY SERIES FINALE",
+    "url": "https://deadline.com/2026/08/power-book-iii-raising-kanan-recap-series-finale-1237017524/",
+    "sublinks": [
+      {
+        "text": "Critics weigh in on how the finale landed",
+        "url": "https://theknockturnal.com/power-book-iii-raising-kanan-series-finale-review/"
+      },
+      {
+        "text": "Creator and stars Patina Miller, Mekai Curtis unpack the deadly ending",
+        "url": "https://variety.com/2026/tv/features/raising-kanan-series-finale-how-raq-dies-power-origins-spinoff-1236829538/"
+      }
+    ]
   },
   "groups": [
+    {
+      "title": "'SPIDER-MAN: BRAND NEW DAY' SWINGS TO A RECORD OPENING",
+      "stories": [
+        {
+          "headline": "'Spider-Man: Brand New Day' Swinging To Best-Ever 10-Day Start With $143M Second Weekend",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-box-office-second-weekend-1236669418/",
+          "timestamp": 1786205393000,
+          "postedAt": 1786208924784
+        },
+        {
+          "headline": "'Spider-Man: Brand New Day' Proves You Can At Least Try To Build A Better Marvel Movie",
+          "url": "https://time.com/article/2026/07/28/spider-man-brand-new-day-review/",
+          "timestamp": 1785222000000,
+          "postedAt": 1786208924785
+        }
+      ]
+    },
+    {
+      "title": "CELEBRITY DEATHS OF 2026: WHO WE'VE LOST SO FAR",
+      "stories": [
+        {
+          "headline": "Celebrity Deaths 2026: Remembering The Stars Who Died This Year",
+          "url": "https://ew.com/celebrity-deaths-2026-stars-who-died-this-year-11884984",
+          "timestamp": 1786136460000,
+          "postedAt": 1786208924785
+        }
+      ]
+    },
+    {
+      "title": "'ICE CREAM MAN' SPLITS CRITICS",
+      "stories": [
+        {
+          "headline": "Movie Review: 'Ice Cream Man'",
+          "url": "https://www.kcci.com/article/movie-review-ice-cream-man/73378661",
+          "timestamp": 1786128780000,
+          "postedAt": 1786208924785
+        }
+      ]
+    },
+    {
+      "title": "BTS SNUBS THE GRAMMYS",
+      "stories": [
+        {
+          "headline": "Why BTS Don't Want A Grammy This Year",
+          "url": "https://time.com/article/2026/07/30/bts-grammy-award-boycott-jungkook-jimin-v-rm-suga-jin-jhope-asian-pop-music/",
+          "timestamp": 1785394800000,
+          "postedAt": 1786208924785
+        },
+        {
+          "headline": "BTS, K-Pop Giants, To Boycott The Grammys",
+          "url": "https://www.nytimes.com/2026/07/29/world/asia/bts-grammys-arirang-boycott-asian-category.html",
+          "timestamp": 1785308400000,
+          "postedAt": 1786208924785
+        },
+        {
+          "headline": "K-Pop Group BTS Won't Submit Its Music For Grammy Awards",
+          "url": "https://www.nbcnews.com/news/us-news/k-pop-group-bts-will-not-submit-music-grammy-awards-rcna589798",
+          "timestamp": 1785308400000,
+          "postedAt": 1786208924785
+        }
+      ]
+    },
     {
       "title": "RYAN MURPHY'S 'THE SHARDS' ARRIVES",
       "stories": [
@@ -20,17 +91,6 @@
           "headline": "The Shards Review – Murder, 80s Mayhem And The Ryan Murphy Comeback We've Been Waiting For",
           "url": "https://www.theguardian.com/tv-and-radio/2026/aug/05/the-shards-review-ryan-murphy-bret-easton-ellis-disney",
           "timestamp": 1785913200000,
-          "postedAt": 1786112874965
-        }
-      ]
-    },
-    {
-      "title": "REMEMBERING THE STARS WE LOST IN 2026",
-      "stories": [
-        {
-          "headline": "Celebrity Deaths 2026: Remembering The Stars Who Died This Year",
-          "url": "https://ew.com/celebrity-deaths-2026-stars-who-died-this-year-11884984",
-          "timestamp": 1785933900000,
           "postedAt": 1786112874965
         }
       ]
@@ -112,6 +172,42 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "The Simple Step That Makes Home-Canned Tomatoes Safer",
+        "url": "https://www.seriouseats.com/tomato-canning-safety-12036295",
+        "timestamp": 1786204800000,
+        "postedAt": 1786208924784
+      },
+      {
+        "headline": "In Defense Of Getting High For A High-Profile Celebrity Interview",
+        "url": "https://atschorn.substack.com/p/in-defense-of-getting-high-for-a",
+        "timestamp": 1786134034000,
+        "postedAt": 1786208924785
+      },
+      {
+        "headline": "The Naked Designer: What Happens When You Can't Hide Behind Craft",
+        "url": "https://microsoft.design/articles/the-naked-designer-what-happens-when-you-cant-hide-behind-craft/",
+        "timestamp": 1785934800000,
+        "postedAt": 1786208924785
+      },
+      {
+        "headline": "Viagra May Reduce Cancer Metastasis",
+        "url": "https://www.realclearscience.com/2026/08/05/viagra_may_reduce_cancer_metastasis_1198469.html",
+        "timestamp": 1785917853000,
+        "postedAt": 1786208924785
+      },
+      {
+        "headline": "Was There A Real King Arthur?",
+        "url": "https://www.realclearhistory.com/2026/08/03/was_there_a_real_king_arthur_1197892.html",
+        "timestamp": 1785750075000,
+        "postedAt": 1786208924785
+      },
+      {
+        "headline": "Big Fashion Brands Try On A New Trend: Selling Secondhand Clothes",
+        "url": "https://www.wsj.com/pro/sustainable-business/big-fashion-brands-try-on-a-new-trend-selling-secondhand-clothes-219839b7",
+        "timestamp": 1785749400000,
+        "postedAt": 1786208924785
+      },
       {
         "headline": "How to Stock Your Home Bar, According to a Woman",
         "url": "https://www.insidehook.com/drinks/every-grown-man-should-stock-home-bar",
@@ -215,12 +311,6 @@
         "postedAt": 1785968985978
       },
       {
-        "headline": "BTS Won't Submit Music For 2027 Grammy Awards Consideration",
-        "url": "https://www.nbcnews.com/news/us-news/k-pop-group-bts-will-not-submit-music-grammy-awards-rcna589798",
-        "timestamp": 1785331980000,
-        "postedAt": 1785968985978
-      },
-      {
         "headline": "Sean 'Diddy' Combs in Solitary After Prison Fight at Fort Dix",
         "url": "https://www.nbcnews.com/news/us-news/sean-diddy-combs-solitary-confinement-fight-new-jersey-federal-prison-rcna589047",
         "timestamp": 1784898000000,
@@ -234,6 +324,42 @@
       }
     ],
     "center": [
+      {
+        "headline": "20 Years Ago, A Ride In A Tesla Roadster Changed Me",
+        "url": "https://www.caranddriver.com/features/a73309222/tesla-roadster-remembrance/",
+        "timestamp": 1786208540000,
+        "postedAt": 1786208924784
+      },
+      {
+        "headline": "The Kindle Scribe Colorsoft Is A Lot Of Fun, But It's Not A Must-Have",
+        "url": "https://techcrunch.com/2026/08/08/the-kindle-scribe-colorsoft-is-a-lot-of-fun-but-its-not-a-must-have/",
+        "timestamp": 1786204800000,
+        "postedAt": 1786208924784
+      },
+      {
+        "headline": "The Greek Myth Behind Why An Alarm Is Called A 'Siren'",
+        "url": "https://www.mentalfloss.com/language/words/why-alarm-called-siren",
+        "timestamp": 1786204800000,
+        "postedAt": 1786208924784
+      },
+      {
+        "headline": "The 50 Best Thrillers Of The 21st Century",
+        "url": "https://www.nytimes.com/interactive/2026/books/best-thriller-books-21st-century.html",
+        "timestamp": 1786204777000,
+        "postedAt": 1786208924785
+      },
+      {
+        "headline": "How A Forgotten Text Triggered A Royal Crisis",
+        "url": "https://www.realclearhistory.com/2026/08/07/how_a_forgotten_text_triggered_a_royal_crisis_1198919.html",
+        "timestamp": 1786094794000,
+        "postedAt": 1786208924785
+      },
+      {
+        "headline": "Millennials Say They Refuse To Care For Aging Boomer Parents",
+        "url": "https://www.realclearscience.com/2026/08/06/millennials_say_they_refuse_to_care_for_aging_boomer_parents_1198637.html",
+        "timestamp": 1786004120000,
+        "postedAt": 1786208924785
+      },
       {
         "headline": "SpaceX's Terafab Will Rely On Natural Gas Power Plants, Not Tesla Solar Panels",
         "url": "https://techcrunch.com/2026/08/07/spacexs-terafab-will-rely-on-natural-gas-power-plants-not-tesla-solar-panels/",
@@ -256,12 +382,6 @@
         "headline": "Volkswagen's US Comeback Plan Involves A Pickup Truck: TDS",
         "url": "https://www.thedrive.com/news/volkswagens-us-comeback-plan-involves-a-pickup-truck-tds",
         "timestamp": 1786111133000,
-        "postedAt": 1786112874965
-      },
-      {
-        "headline": "Viagra May Reduce Cancer Metastasis",
-        "url": "https://www.realclearscience.com/2026/08/05/viagra_may_reduce_cancer_metastasis_1198469.html",
-        "timestamp": 1785917853000,
         "postedAt": 1786112874965
       },
       {
@@ -333,6 +453,42 @@
     ],
     "right": [
       {
+        "headline": "Walmart Brand Car Batteries Flop In Absurdly In-Depth Test",
+        "url": "https://www.thedrive.com/news/walmart-brand-car-batteries-flop-in-absurdly-in-depth-test",
+        "timestamp": 1786208400000,
+        "postedAt": 1786208924784
+      },
+      {
+        "headline": "'Harry Potter' Star Reveals How Much Money She's Made From OnlyFans",
+        "url": "https://ew.com/harry-potter-star-jessie-cave-how-much-money-from-onlyfans-12037050",
+        "timestamp": 1786207158000,
+        "postedAt": 1786208924784
+      },
+      {
+        "headline": "Olivia Wilde Says She Fought For 'The Invite' To Get A Cinema Release",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/olivia-wilde-wanted-the-invite-cinema-run-streaming-bribe-1236669287/",
+        "timestamp": 1786205572000,
+        "postedAt": 1786208924784
+      },
+      {
+        "headline": "Donald Trump's TikTok Team Trolls Taylor Swift After Her Songs Removed",
+        "url": "https://www.tmz.com/2026/08/08/donald-trump-campaign-tiktok-trolls-taylor-swift-after-removing-music/",
+        "timestamp": 1786205410000,
+        "postedAt": 1786208924784
+      },
+      {
+        "headline": "'Ted Lasso' Just Can't Help Itself",
+        "url": "https://www.esquire.com/entertainment/tv/a73356736/ted-lasso-season-4-review/",
+        "timestamp": 1785958320000,
+        "postedAt": 1786208924785
+      },
+      {
+        "headline": "'Jimmy' Review: Inhabiting The World Of A Young James Baldwin",
+        "url": "https://www.nytimes.com/2026/07/30/movies/jimmy-review-james-baldwin.html",
+        "timestamp": 1785394800000,
+        "postedAt": 1786208924785
+      },
+      {
         "headline": "Madonna's Longtime Collaborator And 'Ray Of Light' Visionary William Orbit Dies At 69",
         "url": "https://ew.com/william-orbit-dead-madonna-ray-of-light-producer-12035962",
         "timestamp": 1786110681000,
@@ -354,12 +510,6 @@
         "headline": "Al Roker Meets His 'Twin' On 'Today' In 'Freaky' Encounter",
         "url": "https://ew.com/al-roker-meets-his-twin-on-today-in-freaky-encounter-12035958",
         "timestamp": 1786045723000,
-        "postedAt": 1786047624236
-      },
-      {
-        "headline": "The 50 Best Thriller Books Of The 21st Century",
-        "url": "https://www.nytimes.com/interactive/2026/books/best-thriller-books-21st-century.html",
-        "timestamp": 1786045490000,
         "postedAt": 1786047624236
       },
       {

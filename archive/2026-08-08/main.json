@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786196916014,
+  "lastUpdated": 1786207923490,
   "heroSetDate": "2026-08-08",
   "hero": {
     "headline": "INTEL: RUSSIA COULD ATTACK NATO IN WEEKS",
@@ -254,6 +254,24 @@
   "columns": {
     "left": [
       {
+        "headline": "Meet The Media Industry's Nerd-In-Chief",
+        "url": "https://www.wsj.com/business/media/jonathan-roberts-people-inc-innovation-2d21b227",
+        "timestamp": 1786207681356,
+        "postedAt": 1786207923490
+      },
+      {
+        "headline": "Drones Spotted In Bulgaria And Germany Raise Concerns About Russian Escalation",
+        "url": "https://www.aljazeera.com/news/2026/8/8/drones-spotted-in-bulgaria-and-germany-raise-concerns-of-russian-escalation",
+        "timestamp": 1786207681355,
+        "postedAt": 1786207923490
+      },
+      {
+        "headline": "Birdsong Similar To Human Language, Study Finds",
+        "url": "https://www.telegraph.co.uk/news/2026/08/07/birdsong-similar-human-language-study/",
+        "timestamp": 1786207681355,
+        "postedAt": 1786207923490
+      },
+      {
         "headline": "More Than 50 Decomposing Bodies Found In Chicago Funeral Home",
         "url": "https://www.nytimes.com/2026/08/07/us/decomposing-bodies-funeral-home-chicago.html?unlocked_article_code=1.31A.xlA3.MsNlJerXa_7h&smid=url-share",
         "timestamp": 1786196601478,
@@ -387,6 +405,12 @@
       }
     ],
     "center": [
+      {
+        "headline": "Mysterious 'Cloaked UFO' Spotted Hiding Inside Cloud Over North America",
+        "url": "https://www.dailymail.com/sciencetech/article-16031619/ufo-cloud-canmore-alberta.html",
+        "timestamp": 1786207681356,
+        "postedAt": 1786207923490
+      },
       {
         "headline": "Inside The Argentine Ranch Where Tech CEOs Plan To Ride Out Apocalypse",
         "url": "https://archive.is/u9PmA",

@@ -1,21 +1,111 @@
 {
-  "lastUpdated": 1786112237087,
-  "heroSetDate": "2026-08-07",
+  "lastUpdated": 1786208312413,
+  "heroSetDate": "2026-08-08",
   "hero": {
-    "headline": "STUDENT GUNMAN KILLS AT LEAST SEVEN AT THAI SCHOOL AND NEARBY HOME",
-    "url": "https://apnews.com/article/thailand-nonthaburi-school-shooting-7939000dbad098198a9fc77169028762",
+    "headline": "SPAIN IMPOSES BORDER CHECKS ON ITALY AS MIGRATION CRISIS ESCALATES",
+    "url": "https://www.rfi.fr/en/international/20260808-spain-begins-border-checks-on-travellers-from-italy-amid-migration-showdown-europe",
     "sublinks": [
       {
-        "text": "Gunman Identified As Teenage Student, Police Say",
-        "url": "https://www.thetimes.com/world/asia/article/thailand-school-shooting-bangkok-gunman-l77l56td0"
+        "text": "Analysts assess how Spain's migrant surge tested EU border policy",
+        "url": "https://www.cfr.org/articles/spains-migration-surge-tests-eu-border-policy"
       },
       {
-        "text": "Attack Unfolds In Suburb Near Bangkok",
-        "url": "https://www.npr.org/2026/08/07/nx-s1-5924583/student-shoots-multiple-people-at-a-high-school-in-thailand-authorities-say"
+        "text": "Critics say Europe risks repeating past migration mistakes",
+        "url": "https://theconversation.com/after-ceuta-europe-is-once-again-mired-in-migration-chaos-of-its-own-making-289017"
+      },
+      {
+        "text": "Some experts argue Europe's tougher borders are actually working",
+        "url": "https://www.realclearworld.com/2026/08/08/europes_borders_are_finally_working_1199236.html"
       }
     ]
   },
   "groups": [
+    {
+      "title": "UKRAINE WAR ESCALATES AS RUSSIA RATTLES EUROPE'S SKIES",
+      "stories": [
+        {
+          "headline": "Zelenskyy Makes Debut Visit To Serbia As Russian Influence Fades",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-08/zelenskyy-makes-debut-trip-to-serbia-as-russian-influence-wanes",
+          "timestamp": 1786204980000,
+          "postedAt": 1786208312413
+        },
+        {
+          "headline": "Russian Nightly Strikes Kill Child Near Kyiv",
+          "url": "https://www.bbc.com/news/articles/cz7dy8gq99eo",
+          "timestamp": 1786204181000,
+          "postedAt": 1786208312413
+        },
+        {
+          "headline": "Drones Spotted Over Bulgaria And Germany Raise Alarm",
+          "url": "https://www.aljazeera.com/news/2026/8/8/drones-spotted-in-bulgaria-and-germany-raise-concerns-of-russian-escalation",
+          "timestamp": 1786203943000,
+          "postedAt": 1786208312413
+        },
+        {
+          "headline": "Senate Passes Long-Sought Russia Sanctions Bill",
+          "url": "https://www.npr.org/2026/08/07/nx-s1-5924914/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham",
+          "timestamp": 1786124020000,
+          "postedAt": 1786208312413
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR AFTERMATH: HORMUZ DIPLOMACY AND LINGERING COSTS",
+      "stories": [
+        {
+          "headline": "Iran Says Hormuz Deal Close But Conditions Must Be Met",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-08/iran-says-hormuz-deal-close-but-that-its-conditions-must-be-met",
+          "timestamp": 1786204627000,
+          "postedAt": 1786208312413
+        },
+        {
+          "headline": "Travelling Through Iran Reveals No Single Narrative About The War",
+          "url": "https://www.theguardian.com/world/2026/aug/08/iran-journey-israel-us-war",
+          "timestamp": 1786165200000,
+          "postedAt": 1786208312413
+        },
+        {
+          "headline": "Iran War Renews Concern Over Troops' Brain Injuries",
+          "url": "https://www.pbs.org/newshour/health/iran-war-renews-concerns-about-lasting-toll-of-traumatic-brain-injuries-to-american-troops",
+          "timestamp": 1786040226000,
+          "postedAt": 1786208312413
+        }
+      ]
+    },
+    {
+      "title": "GERMANY'S FAR-RIGHT SURGE RATTLES MERZ AHEAD OF SEPTEMBER VOTE",
+      "stories": [
+        {
+          "headline": "Germany's Far-Right AfD Extends Lead In Nationwide Polls",
+          "url": "https://www.dw.com/en/germany-far-right-afd-extends-its-lead-in-nationwide-polls/a-78279279",
+          "timestamp": 1786156396000,
+          "postedAt": 1786208312413
+        },
+        {
+          "headline": "A Troubled Merz Faces Crucial Elections In September",
+          "url": "https://ip-quarterly.com/en/troubled-merz-faces-crucial-elections-september",
+          "timestamp": 1786017600000,
+          "postedAt": 1786208312413
+        }
+      ]
+    },
+    {
+      "title": "CHINA EXPANDS MILITARY REACH ACROSS ASIA",
+      "stories": [
+        {
+          "headline": "China Will Sell Its 5th-Generation Fighters To Pakistan",
+          "url": "https://www.realclearworld.com/articles/2026/08/07/china_will_sell_its_5th-generation_fighters_to_pakistan_1199064.html",
+          "timestamp": 1786105602000,
+          "postedAt": 1786208312413
+        },
+        {
+          "headline": "China's Window Is Closing, So Is Its Command Structure",
+          "url": "https://www.realclearworld.com/articles/2026/08/06/chinas_window_is_closing_so_is_its_command_structure_1198787.html",
+          "timestamp": 1786020273000,
+          "postedAt": 1786208312413
+        }
+      ]
+    },
     {
       "title": "GLOBAL MARKETS REACT TO WEAK US JOBS DATA",
       "stories": [
@@ -214,6 +304,24 @@
   "columns": {
     "left": [
       {
+        "headline": "Wildfire Above Lake Garda Forces Evacuations In Italy",
+        "url": "https://www.euronews.com/my-europe/2026/08/08/major-wildfire-in-hills-above-lake-garda-at-least-200-residents-and-tourists-evacuated",
+        "timestamp": 1786206881000,
+        "postedAt": 1786208312413
+      },
+      {
+        "headline": "Hungary's Ruling Party Picks Orban-Critic Judge For President",
+        "url": "https://www.lemonde.fr/en/international/article/2026/08/08/hungary-s-ruling-party-selects-orban-critic-judge-as-pick-for-president_6756297_4.html",
+        "timestamp": 1786205035000,
+        "postedAt": 1786208312413
+      },
+      {
+        "headline": "Trump Ramps Up Pressure On Billionaire To Exit Venezuela",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-08/trump-amps-up-pressure-on-billionaire-sargeant-to-exit-venezuela",
+        "timestamp": 1786203639000,
+        "postedAt": 1786208312413
+      },
+      {
         "headline": "Spain Hasn't Taken Back Control In Ceuta",
         "url": "https://www.realclearworld.com/2026/08/05/spain_hasnt_taken_back_control_in_ceuta_1198582.html",
         "timestamp": 1785949054000,
@@ -288,6 +396,24 @@
     ],
     "center": [
       {
+        "headline": "Inside Thailand's Deadly School Shooting",
+        "url": "https://www.reuters.com/world/asia-pacific/mom-dont-call-me-inside-thailands-deadly-school-shooting-2026-08-08/",
+        "timestamp": 1786206474000,
+        "postedAt": 1786208312413
+      },
+      {
+        "headline": "Mosimane Set To Succeed Broos As South Africa Coach",
+        "url": "https://www.rfi.fr/en/sports/20260808-mosimane-set-to-succeed-broos-as-south-africa-coach",
+        "timestamp": 1786203491000,
+        "postedAt": 1786208312413
+      },
+      {
+        "headline": "Pope Leo Sets Schedule For Four-Day France Visit",
+        "url": "https://www.vaticannews.va/en/pope/news/2026-08/pope-leos-packed-schedule-4-day-apostolic-journey-to-france.html",
+        "timestamp": 1786106495000,
+        "postedAt": 1786208312413
+      },
+      {
         "headline": "Hoax Letter Falsely Claims Senegal Declared AFCON Winners By Sporting Tribunal",
         "url": "https://factcheck.afp.com/doc.afp.com.C3Z97T3",
         "timestamp": 1786108438000,
@@ -337,6 +463,18 @@
       }
     ],
     "right": [
+      {
+        "headline": "Demi Vollering Seizes Yellow Jersey At Tour De France Femmes",
+        "url": "https://www.lemonde.fr/en/sports/article/2026/08/08/tour-de-france-femmes-demi-vollering-seizes-yellow-jersey-on-penultimate-day_6756298_9.html",
+        "timestamp": 1786206214000,
+        "postedAt": 1786208312413
+      },
+      {
+        "headline": "Glenn Close Plays Tender Finnish Granny With False Teeth",
+        "url": "https://www.thetimes.com/culture/film/article/the-sumemr-book-love-me-tender-reviews-9ttvphz72",
+        "timestamp": 1786204800000,
+        "postedAt": 1786208312413
+      },
       {
         "headline": "US Futures Rise As Trump Touts Iran Progress; Awaiting Jobs Data",
         "url": "https://www.bloomberg.com/news/articles/2026-08-07/us-futures-rise-as-trump-touts-iran-progress-awaiting-jobs-data",

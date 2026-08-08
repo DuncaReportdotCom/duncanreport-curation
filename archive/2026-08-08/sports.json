@@ -1,25 +1,123 @@
 {
-  "lastUpdated": 1786111803859,
-  "heroSetDate": "2026-08-07",
+  "lastUpdated": 1786208107727,
+  "heroSetDate": "2026-08-08",
   "hero": {
-    "headline": "CARDINALS OPEN NFL PRESEASON WITH HALL OF FAME GAME WIN OVER PANTHERS",
-    "url": "https://www.nfl.com/news/panthers-cardinals-2026-hall-of-fame-game-what-we-learned-from-carolina-s-33-30-win",
+    "headline": "HALL OF FAME WEEKEND CULMINATES WITH 2026 ENSHRINEMENT CEREMONY",
+    "url": "https://www.cbssports.com/nfl/news/2026-pro-football-hall-of-fame-ceremony-where-to-watch-tv-live-stream/",
     "sublinks": [
       {
-        "text": "Carson Beck Tapped To Start Under Center For Arizona",
-        "url": "https://www.espn.com/nfl/story/_/id/49532073/qb-carson-beck-start-cardinals-hall-fame-game"
+        "text": "Relive Panthers-Cardinals Highlights From The Preseason Opener",
+        "url": "https://www.nfl.com/videos/panthers-vs-cardinals-highlights-hall-of-fame-game"
       },
       {
-        "text": "GMFB Panel Breaks Down Takeaways From The Opener",
-        "url": "https://sports.yahoo.com/videos/takeaways-panthers-cardinals-hof-game-131049980.html"
+        "text": "Rookie QB Carson Beck Turns Heads In His NFL Debut",
+        "url": "https://www.azcardinals.com/news/for-starters-carson-beck-impressive-in-nfl-preseason-debut"
       },
       {
-        "text": "NBC's Mike Tomlin Impresses In Broadcast Booth Debut",
-        "url": "https://sports.yahoo.com/articles/mike-tomlin-earns-rave-reviews-123002722.html"
+        "text": "What Fans Need To Know As The NFL's Return Kicks Off",
+        "url": "https://www.nbcsportsphiladelphia.com/nfl/nfl-hall-of-fame-game-2026-watch-tv-stream-panthers-cardinals/744932/"
       }
     ]
   },
   "groups": [
+    {
+      "title": "NBA OFFSEASON TRADE WATCH",
+      "stories": [
+        {
+          "headline": "Lakers, Kawhi Leonard Trade Rumors Face Unresolved Issues",
+          "url": "https://heavy.com/sports/nba/los-angeles-lakers/nba-trade-rumors-lakers-kawhi-leonardbig-board/",
+          "timestamp": 1786142240000,
+          "postedAt": 1786208107727
+        },
+        {
+          "headline": "Ranking The 10 Best NBA Trade Assets After A Wild Offseason",
+          "url": "https://bleacherreport.com/articles/25459087-ranking-10-best-nba-trade-assets-after-wild-2026-offseason",
+          "timestamp": 1785481200000,
+          "postedAt": 1786208107727
+        },
+        {
+          "headline": "NBA Trade Machine Rankings: Curry, Anthony Davis And More",
+          "url": "https://www.hoopshype.com/story/sports/nba/2026/07/30/nba-trade-machine-rankings-stephen-curry-luka-doncic-evan-mobley/91109126007/",
+          "timestamp": 1785394800000,
+          "postedAt": 1786208107727
+        }
+      ]
+    },
+    {
+      "title": "MLB TRADE DEADLINE FALLOUT",
+      "stories": [
+        {
+          "headline": "Where All 30 MLB Teams Stand After The 2026 Trade Deadline",
+          "url": "https://www.espn.com/mlb/story/_/id/49473016/2026-mlb-trade-deadline-guide-all-30-teams-projections-playoff-odds",
+          "timestamp": 1786100400000,
+          "postedAt": 1786208107727
+        },
+        {
+          "headline": "A Look At The Post-Deadline Postseason Picture",
+          "url": "https://www.mlb.com/news/mlb-playoff-picture-on-aug-7-2026",
+          "timestamp": 1786078134000,
+          "postedAt": 1786208107727
+        },
+        {
+          "headline": "8 Significant Surprises From Another Chaotic Trade Deadline",
+          "url": "https://www.mlb.com/news/biggest-surprises-from-2026-mlb-trade-deadline",
+          "timestamp": 1785821913000,
+          "postedAt": 1786208107727
+        },
+        {
+          "headline": "Fantasy Baseball Reactions To The MLB Trade Deadline Deals",
+          "url": "https://www.espn.com/fantasy/baseball/story/_/id/49416655/fantasy-baseball-reaction-mlb-trade-deadline-deals-2026-monday-august-3",
+          "timestamp": 1785795600000,
+          "postedAt": 1786208107727
+        }
+      ]
+    },
+    {
+      "title": "NHL TRADE RUMOR MILL",
+      "stories": [
+        {
+          "headline": "NHL Trade Rumors Cool As Makar Questions Linger",
+          "url": "https://pittsburghhockeynow.com/cooling-nhl-trade-rumors-cale-makar-worries-pittsburgh-penguins-former/",
+          "timestamp": 1785770264000,
+          "postedAt": 1786208107727
+        },
+        {
+          "headline": "Hellebuyck, Larkin Headline Updated NHL Trade Targets Board",
+          "url": "https://bleacherreport.com/articles/25460825-connor-hellebuyck-dylan-larkin-and-updated-nhl-trade-targets-big-board-august-2026",
+          "timestamp": 1785768737000,
+          "postedAt": 1786208107727
+        },
+        {
+          "headline": "Nikishin Rumors Swirl As Penguins Eye Middle Ground",
+          "url": "https://pittsburghhockeynow.com/nhl-trade-rumors-alexander-nikishin-draft-prospects-pittsburgh-penguins-pack-middle/",
+          "timestamp": 1785598664000,
+          "postedAt": 1786208107727
+        }
+      ]
+    },
+    {
+      "title": "FIFA WORLD CUP STAKE SALE BACKLASH",
+      "stories": [
+        {
+          "headline": "Infantino Scraps FIFA World Cup Sell-Off Plan After Backlash",
+          "url": "https://www.espn.com/soccer/story/_/id/49500782/fifa-world-cup-investment-private-gianni-infantino",
+          "timestamp": 1785541020000,
+          "postedAt": 1786208107727
+        },
+        {
+          "headline": "CONCACAF Rejects FIFA World Cup Stake Sale Proposal, Mexico To Review",
+          "url": "https://www.reuters.com/sports/soccer/concacaf-rejects-fifa-world-cup-stake-sale-proposal-2026-07-30/",
+          "timestamp": 1785394800000,
+          "postedAt": 1786208107727
+        },
+        {
+          "headline": "European Soccer Leaders To Boycott World Cup In Unprecedented Step",
+          "url": "https://www.npr.org/2026/07/30/nx-s1-5913664/world-cup-fifa-uefa-gianni-infantino",
+          "timestamp": 1785394800000,
+          "postedAt": 1786208107727
+        }
+      ]
+    },
     {
       "title": "NBA OFFSEASON RUMOR MILL HEATS UP",
       "stories": [
@@ -27,12 +125,6 @@
           "headline": "Kevin Love's Interest In LeBron James Reunion With 76ers Revealed In New NBA Rumors",
           "url": "https://bleacherreport.com/articles/25469222-kevin-loves-interest-lebron-james-reunion-76ers-revealed-new-nba-rumors",
           "timestamp": 1786110750000,
-          "postedAt": 1786111803859
-        },
-        {
-          "headline": "NBA Trade Rumors: More Difficulty On New Lakers Target, Warriors Plans & More",
-          "url": "https://heavy.com/sports/nba/portland-trail-blazers/nba-trade-rumors-more-difficulty-on-new-lakers-target-warriors-plans-more/",
-          "timestamp": 1785887148000,
           "postedAt": 1786111803859
         },
         {
@@ -73,18 +165,6 @@
           "headline": "Angels Catcher Talks Failure After Being Traded To Texas",
           "url": "https://sports.yahoo.com/articles/angels-catcher-talks-failure-being-123408137.html",
           "timestamp": 1786106048000,
-          "postedAt": 1786111803859
-        },
-        {
-          "headline": "A Look At The Post-Deadline Postseason Picture",
-          "url": "https://www.mlb.com/news/mlb-playoff-picture-on-aug-7-2026",
-          "timestamp": 1786078134000,
-          "postedAt": 1786111803859
-        },
-        {
-          "headline": "8 Significant Surprises From Another Chaotic Trade Deadline",
-          "url": "https://www.mlb.com/news/biggest-surprises-from-2026-mlb-trade-deadline",
-          "timestamp": 1785821913000,
           "postedAt": 1786111803859
         }
       ]
@@ -205,23 +285,6 @@
           "url": "https://sports.yahoo.com/articles/canadiens-arber-xhekaj-featured-nhl-133006433.html",
           "timestamp": 1785850206000,
           "postedAt": 1785968388976
-        },
-        {
-          "headline": "Hellebuyck, Larkin Headline Updated NHL Trade Targets Board",
-          "url": "https://bleacherreport.com/articles/25460825-connor-hellebuyck-dylan-larkin-and-updated-nhl-trade-targets-big-board-august-2026",
-          "timestamp": 1785768737000,
-          "postedAt": 1785968388976
-        }
-      ]
-    },
-    {
-      "title": "NBA TRADE RUMOR MILL",
-      "stories": [
-        {
-          "headline": "Ranking The 10 Best NBA Trade Assets After Wild Offseason",
-          "url": "https://bleacherreport.com/articles/25459087-ranking-10-best-nba-trade-assets-after-wild-2026-offseason",
-          "timestamp": 1785500495000,
-          "postedAt": 1785968388976
         }
       ]
     },
@@ -238,23 +301,6 @@
           "headline": "DC Open To Resume Monday After Rain Halts Pegula-Eala Final",
           "url": "https://www.espn.com/tennis/story/_/id/49516968/dc-open-resume-monday-rain-halts-pegula-eala-final",
           "timestamp": 1785721080000,
-          "postedAt": 1785968388976
-        }
-      ]
-    },
-    {
-      "title": "FIFA WORLD CUP GOVERNANCE ROW",
-      "stories": [
-        {
-          "headline": "Concacaf Rejects FIFA's Plan To Sell World Cup Ownership Stakes",
-          "url": "https://www.nytimes.com/athletic/7480502/2026/07/30/concacaf-reject-fifa-world-cup-proposal/",
-          "timestamp": 1785478269000,
-          "postedAt": 1785968388976
-        },
-        {
-          "headline": "European Soccer Leaders Plan Unprecedented World Cup Boycott",
-          "url": "https://www.npr.org/2026/07/30/nx-s1-5913664/world-cup-fifa-uefa-gianni-infantino",
-          "timestamp": 1785433118000,
           "postedAt": 1785968388976
         }
       ]
@@ -280,10 +326,28 @@
   "columns": {
     "left": [
       {
-        "headline": "Dan's Daily: Trade Rumors Cool; Makar Questions; Penguins Former",
-        "url": "https://pittsburghhockeynow.com/cooling-nhl-trade-rumors-cale-makar-worries-pittsburgh-penguins-former/",
-        "timestamp": 1785770264000,
-        "postedAt": 1786111803859
+        "headline": "Mahomes Says He's 'Trying To Push It' On Injury Recovery",
+        "url": "https://bleacherreport.com/articles/25469536-patrick-mahomes-says-hes-trying-push-it-updates-injury-recovery-amid-chiefs-training-camp",
+        "timestamp": 1786207708000,
+        "postedAt": 1786208107727
+      },
+      {
+        "headline": "Eagles' Lane Johnson Says 2026 'Probably' His Last Season",
+        "url": "https://www.thescore.com/nfl/news/3576824/eagles-lane-johnson-2026-probably-my-last-season",
+        "timestamp": 1786205524000,
+        "postedAt": 1786208107727
+      },
+      {
+        "headline": "Roethlisberger, Gronkowski Among Potential 2027 Hall Of Fame Candidates",
+        "url": "https://bleacherreport.com/articles/25469527-ben-roethlisberger-rob-gronkowski-and-all-potential-candidates-2027-hall-fame-class",
+        "timestamp": 1786202060000,
+        "postedAt": 1786208107727
+      },
+      {
+        "headline": "Luke Kuechly To Be Netflix's Lead NFL Game Analyst For 2026",
+        "url": "https://www.nytimes.com/athletic/7474966/2026/07/28/nfl-analyst-netflix-luke-kuechly/",
+        "timestamp": 1785999600000,
+        "postedAt": 1786208107727
       },
       {
         "headline": "Chicago Cubs Star Pete Crow-Armstrong Named 'Luckiest' Hitter In MLB",
@@ -372,6 +436,36 @@
     ],
     "center": [
       {
+        "headline": "Oregon QB Target Donald Tabron II Announces Commitment Date",
+        "url": "https://sports.yahoo.com/articles/oregon-qb-target-donald-tabron-161529645.html",
+        "timestamp": 1786205729000,
+        "postedAt": 1786208107727
+      },
+      {
+        "headline": "Tottenham Hotspur 1-1 Getafe: Top Talking Points",
+        "url": "https://cartilagefreecaptain.sbnation.com/tottenham-hotspur-match-reports/72671/tottenham-hotspur-1-1-getafe-top-10-talking-points",
+        "timestamp": 1786205660000,
+        "postedAt": 1786208107727
+      },
+      {
+        "headline": "Messi's Father Jorge Dies At 68 After Illness",
+        "url": "https://sports.yahoo.com/articles/messis-father-jorge-dies-aged-153912749.html",
+        "timestamp": 1786203552000,
+        "postedAt": 1786208107727
+      },
+      {
+        "headline": "US Under-19s Reach Fifth Straight CONCACAF U-20 Final",
+        "url": "https://www.ussoccer.com/stories/2026/08/ynt-u19-mnt/us-under-19-mens-national-team-advance-concacaf-championship-final-after-win-against-costa-rica",
+        "timestamp": 1786175204000,
+        "postedAt": 1786208107727
+      },
+      {
+        "headline": "USMNT Begin 2030 World Cup Cycle At MLS Stadiums",
+        "url": "https://www.mlssoccer.com/news/usmnt-begin-2030-world-cup-cycle-at-mls-stadiums",
+        "timestamp": 1785858543000,
+        "postedAt": 1786208107727
+      },
+      {
         "headline": "Transfer Rumors: Man City Eye Enzo Fernández As Rodri Replacement",
         "url": "https://www.espn.com/soccer/story/_/id/49551148/transfer-rumors-news-man-city-eye-enzo-fernandez-rodri-replacement",
         "timestamp": 1786108440000,
@@ -381,12 +475,6 @@
         "headline": "Rams Might Not Have To Wait Long For Aaron Donald's Return",
         "url": "https://www.cbssports.com/nfl/news/rams-aaron-donald-unretires-predicting-return/",
         "timestamp": 1786105380000,
-        "postedAt": 1786111803859
-      },
-      {
-        "headline": "USMNT Begin 2030 World Cup Cycle At MLS Stadiums",
-        "url": "https://www.mlssoccer.com/news/usmnt-begin-2030-world-cup-cycle-at-mls-stadiums",
-        "timestamp": 1785858543000,
         "postedAt": 1786111803859
       },
       {
@@ -439,6 +527,24 @@
       }
     ],
     "right": [
+      {
+        "headline": "Karl-Anthony Towns Responds To Viral Superfractor Card Pull",
+        "url": "https://bleacherreport.com/articles/25469534-knicks-karl-anthony-towns-responds-his-topps-superfractor-card-being-pulled-trending-photo",
+        "timestamp": 1786207687000,
+        "postedAt": 1786208107727
+      },
+      {
+        "headline": "White Sox Forced Into Early Pitching Change After 'Inexcusable Mistake'",
+        "url": "https://www.cbssports.com/mlb/news/white-sox-manager-will-venable-mistake-mound-visit/",
+        "timestamp": 1786204318000,
+        "postedAt": 1786208107727
+      },
+      {
+        "headline": "Reilly Shares Stanley Cup With Brothers, Local Fire Company",
+        "url": "https://www.nhl.com/news/topic/summer-with-stanley/mike-reilly-shares-stanley-cup-with-brothers-local-fire-department",
+        "timestamp": 1785876805000,
+        "postedAt": 1786208107727
+      },
       {
         "headline": "Israeli Media Says Solomon To West Ham Deal Finalized",
         "url": "https://sports.yahoo.com/articles/israeli-media-says-solomon-west-130000260.html",
@@ -503,6 +609,96 @@
   },
   "scoreboard": [
     {
+      "league": "MLB",
+      "home": "NYY",
+      "away": "ATL",
+      "state": "scheduled",
+      "note": "8/8 - 3:05 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "MIA",
+      "away": "LAA",
+      "state": "scheduled",
+      "note": "8/8 - 4:10 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "BOS",
+      "away": "ATH",
+      "state": "scheduled",
+      "note": "8/8 - 4:10 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "PHI",
+      "away": "TOR",
+      "state": "scheduled",
+      "note": "8/8 - 6:05 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "PIT",
+      "away": "NYM",
+      "state": "scheduled",
+      "note": "8/8 - 6:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "WSH",
+      "away": "CIN",
+      "state": "scheduled",
+      "note": "8/8 - 6:45 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "KC",
+      "away": "CHC",
+      "state": "scheduled",
+      "note": "8/8 - 7:10 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "MIL",
+      "away": "MIN",
+      "state": "scheduled",
+      "note": "8/8 - 7:10 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "TEX",
+      "away": "BAL",
+      "state": "scheduled",
+      "note": "8/8 - 7:15 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "CHW",
+      "away": "CLE",
+      "state": "scheduled",
+      "note": "8/8 - 7:15 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
       "league": "MLS",
       "home": "NE",
       "away": "HOU",
@@ -519,96 +715,6 @@
       "note": "Final",
       "homeScore": "30",
       "awayScore": "33"
-    },
-    {
-      "league": "MLB",
-      "home": "PIT",
-      "away": "NYM",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "4",
-      "awayScore": "6"
-    },
-    {
-      "league": "MLB",
-      "home": "PHI",
-      "away": "TOR",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "4",
-      "awayScore": "5"
-    },
-    {
-      "league": "MLB",
-      "home": "WSH",
-      "away": "CIN",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "5",
-      "awayScore": "3"
-    },
-    {
-      "league": "MLB",
-      "home": "NYY",
-      "away": "ATL",
-      "state": "post",
-      "note": "Final/10",
-      "homeScore": "3",
-      "awayScore": "2"
-    },
-    {
-      "league": "MLB",
-      "home": "MIA",
-      "away": "LAA",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "3",
-      "awayScore": "4"
-    },
-    {
-      "league": "MLB",
-      "home": "BOS",
-      "away": "ATH",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "13",
-      "awayScore": "1"
-    },
-    {
-      "league": "MLB",
-      "home": "CHW",
-      "away": "CLE",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "8"
-    },
-    {
-      "league": "MLB",
-      "home": "MIL",
-      "away": "MIN",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "8"
-    },
-    {
-      "league": "MLB",
-      "home": "KC",
-      "away": "CHC",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "4",
-      "awayScore": "6"
-    },
-    {
-      "league": "MLB",
-      "home": "TEX",
-      "away": "BAL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "1"
     }
   ]
 }
