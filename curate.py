@@ -1466,6 +1466,34 @@ def _fetch_bytes(url, timeout=25, data=None, ua=None):
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
 
+# Google News RSS is the backbone of the crawl, and a full run fires a few hundred
+# requests - enough to trip Google's rate limit on a shared datacenter IP (a CI
+# runner), which then returns empty/blocked bodies and can wipe an entire section.
+# So every Google News request goes through here: throttled for politeness, sent with
+# a real browser UA, and retried with backoff. A 200-but-empty response is treated as
+# a soft rate-limit and retried too. Returns a parsed root, or None if it truly fails.
+_GNEWS_LAST = [0.0]
+_GNEWS_MIN_INTERVAL = 0.3   # seconds between Google News requests
+
+def _gnews_get(url, tries=4):
+    last = None
+    for i in range(tries):
+        wait = _GNEWS_MIN_INTERVAL - (time.time() - _GNEWS_LAST[0])
+        if wait > 0:
+            time.sleep(wait)
+        _GNEWS_LAST[0] = time.time()
+        try:
+            root = ET.fromstring(_fetch_bytes(url, ua=BROWSER_UA))
+            if list(root.iter("item")):
+                return root
+            last = "empty body (soft rate-limit)"
+        except Exception as e:
+            last = e
+        if i < tries - 1:
+            time.sleep(1.5 * (i + 1))   # 1.5s, 3s, 4.5s backoff
+    print("    gnews gave up after %d tries: %s" % (tries, str(last)[:90]))
+    return None
+
 def _pub_ms(s):
     try:
         return int(parsedate_to_datetime(s).timestamp() * 1000)
@@ -1478,10 +1506,9 @@ def google_news_candidates(section):
     items, seen = [], set()
     for site in sites:
         url = GNEWS % urllib.parse.quote("site:%s when:2d" % site)
-        try:
-            root = ET.fromstring(_fetch_bytes(url))
-        except Exception as e:
-            print("    gnews failed for %s: %s" % (site, e)); continue
+        root = _gnews_get(url)
+        if root is None:
+            continue
         for it in root.iter("item"):
             title = (it.findtext("title") or "").strip()
             link = (it.findtext("link") or "").strip()
@@ -1518,10 +1545,9 @@ def realclear_candidates(section, per_site=5):
     window, since these publish less often than daily news. Routed per matching page."""
     items = []
     for dom in RC_DOMAINS.get(section, []):
-        try:
-            root = ET.fromstring(_fetch_bytes(GNEWS % urllib.parse.quote("site:%s when:10d" % dom)))
-        except Exception as e:
-            print("    realclear %s failed: %s" % (dom, e)); continue
+        root = _gnews_get(GNEWS % urllib.parse.quote("site:%s when:10d" % dom))
+        if root is None:
+            continue
         n = 0
         for it in root.iter("item"):
             title = (it.findtext("title") or "").strip()
@@ -1580,10 +1606,9 @@ def narrative_candidates(section):
     items, seen = [], set()
     for a in arcs:
         url = GNEWS % urllib.parse.quote("%s when:12d" % a["q"])
-        try:
-            root = ET.fromstring(_fetch_bytes(url))
-        except Exception as e:
-            print("    arc gnews failed for %s: %s" % (a["arc"], e)); continue
+        root = _gnews_get(url)
+        if root is None:
+            continue
         n = 0
         for it in root.iter("item"):
             title = (it.findtext("title") or "").strip()
@@ -1613,9 +1638,8 @@ def editorial_candidates(per_site=2):
     label - a proxy for its lean. Used to attach editorials to major narratives on the main page."""
     items = []
     for dom in OPINION_DOMAINS:
-        try:
-            root = ET.fromstring(_fetch_bytes(GNEWS % urllib.parse.quote("site:%s when:5d" % dom)))
-        except Exception:
+        root = _gnews_get(GNEWS % urllib.parse.quote("site:%s when:5d" % dom))
+        if root is None:
             continue
         n = 0
         for it in root.iter("item"):
@@ -2225,14 +2249,12 @@ def ensure_hero_image(section, data):
     # Fallback: find closely-related coverage of the SAME story and pull a matching image.
     q = _sig_query(hero.get("headline"))
     if q:
-        try:
-            root = ET.fromstring(_fetch_bytes(GNEWS % urllib.parse.quote(q + " when:4d")))
+        root = _gnews_get(GNEWS % urllib.parse.quote(q + " when:4d"))
+        if root is not None:
             related = [(it.findtext("link") or "").strip() for it in list(root.iter("item"))[:10]]
             if _try_hero_images([r for r in related if r], dest):
                 print("    hero image saved for %s (related coverage)" % section)
                 return
-        except Exception as e:
-            print("    related-image search failed for %s: %s" % (section, e))
     try:
         if os.path.exists(dest):
             os.remove(dest)
@@ -2324,6 +2346,161 @@ def poll_averages():
     if out and asof:
         out[0]["asOf"] = asof
     return out
+
+
+# ---- Social auto-poster (X / Twitter) ---------------------------------------
+# Each daily run, scan the stories newly POSTED this cycle across every page, let
+# Claude pick the 10 most interesting and draft a post for each, and publish them
+# to X. Fully automated (no review) by design; a dry-run mode previews without
+# posting, and a small state file guarantees a story is never posted twice.
+SITE_URL = "https://duncanreport.com"
+SOCIAL_STATE_PATH = os.path.join(ROOT, "social_state.json")
+SOCIAL_MAX = 10
+
+def _section_url(section):
+    return SITE_URL if section == "main" else "%s/%s" % (SITE_URL, section)
+
+def _load_social_state():
+    try:
+        with open(SOCIAL_STATE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {"posted": {}}
+
+def _save_social_state(st):
+    try:
+        with open(SOCIAL_STATE_PATH, "w", encoding="utf-8") as f:
+            json.dump(st, f)
+    except Exception as e:
+        print("    social_state save failed:", e)
+
+def _collect_new_stories(per_section, hours=22):
+    """Stories posted to the site within the last `hours` (this cycle's new links),
+    across all pages, deduped by URL."""
+    now = now_ms()
+    cutoff = now - hours * 3600 * 1000
+    seen, out = set(), []
+    for sec in SECTIONS:
+        data = per_section.get(sec) or {}
+        rows = []
+        h = data.get("hero") or {}
+        if h.get("headline") and h.get("url"):
+            rows.append((h["headline"], h["url"], None))   # hero: always eligible as the day's lead
+        for k in ("left", "center", "right"):
+            for s in ((data.get("columns") or {}).get(k) or []):
+                rows.append((s.get("headline"), s.get("url"), s.get("postedAt")))
+        for g in (data.get("groups") or []):
+            for s in (g.get("stories") or []):
+                rows.append((s.get("headline"), s.get("url"), s.get("postedAt")))
+        for headline, url, posted in rows:
+            if not headline or not url or url in seen:
+                continue
+            if isinstance(posted, (int, float)) and posted < cutoff:
+                continue   # retained from an earlier day - not "new this cycle"
+            seen.add(url)
+            out.append({"headline": headline, "url": url, "section": sec})
+    return out
+
+def draft_social_posts(cands):
+    """Ask Claude to pick the SOCIAL_MAX most interesting new stories and draft an X
+    post for each. Returns [{text, url, section, headline}] with the section link
+    already appended."""
+    from anthropic import Anthropic
+    client = Anthropic()
+    idx = {"c%d" % i: c for i, c in enumerate(cands)}
+    cj = json.dumps([{"id": "c%d" % i, "headline": c["headline"], "section": c["section"]}
+                     for i, c in enumerate(cands)], ensure_ascii=False)
+    system = ("You are the social editor for DuncanReport.com, a fast, spectrum-balanced news "
+              "aggregator. From the CANDIDATE stories (all newly posted today) pick the %d MOST "
+              "INTERESTING and shareable for X/Twitter and write one post for each. Rules: punchy and "
+              "factual, NEVER clickbait or editorializing; no partisan slant - mix subjects and viewpoints "
+              "across the picks; at most 1-2 relevant hashtags; keep each post UNDER 230 characters (a link "
+              "is appended automatically - do NOT include any URL); vary the topics for breadth; never reveal "
+              "that this is automated or AI-written. Return ONLY JSON: {\"posts\":[{\"id\":\"c3\",\"text\":\"...\"}]} "
+              "with up to %d items, strongest first." % (SOCIAL_MAX, SOCIAL_MAX))
+    msg = client.messages.create(model=working_model(client), max_tokens=4000, system=system,
+                                 messages=[{"role": "user", "content": "CANDIDATES:\n" + cj}])
+    text = "".join((getattr(b, "text", "") or "") for b in msg.content)
+    d = extract_json(text) or {}
+    posts = []
+    for p in (d.get("posts") or [])[:SOCIAL_MAX]:
+        c = idx.get(p.get("id"))
+        t = (p.get("text") or "").strip()
+        if not c or not t:
+            continue
+        if len(t) > 240:                      # leave room for the appended link (X counts URLs as 23)
+            t = t[:237].rstrip() + "..."
+        posts.append({"text": t + " " + _section_url(c["section"]),
+                      "url": c["url"], "section": c["section"], "headline": c["headline"]})
+    return posts
+
+def post_to_x(posts, dry_run=False):
+    """Publish drafted posts to X. Needs X_API_KEY/X_API_SECRET/X_ACCESS_TOKEN/
+    X_ACCESS_SECRET in the environment. dry_run prints instead of posting."""
+    creds = [os.environ.get(k) for k in
+             ("X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_SECRET")]
+    if dry_run:
+        print("  social DRY_RUN - would post %d tweets:" % len(posts))
+        for p in posts:
+            print("    - " + p["text"])
+        return len(posts), "dry_run"
+    if not all(creds):
+        print("  social: X credentials not set; skipping post")
+        return 0, "no creds"
+    try:
+        import tweepy
+    except Exception:
+        print("  social: tweepy not installed; skipping post")
+        return 0, "no tweepy"
+    client = tweepy.Client(consumer_key=creds[0], consumer_secret=creds[1],
+                           access_token=creds[2], access_token_secret=creds[3])
+    n = 0
+    for p in posts:
+        try:
+            client.create_tweet(text=p["text"])
+            n += 1
+        except Exception as e:
+            print("    tweet failed:", repr(e)[:160])
+    print("  social: posted %d/%d tweets to X" % (n, len(posts)))
+    return n, "ok"
+
+def social_publish(per_section, enabled_run):
+    """Orchestrate the daily social post: only on a full curation run, only when
+    configured (X creds present or SOCIAL_ENABLE set). Honors SOCIAL_DRY_RUN."""
+    if not enabled_run:
+        return
+    if not (os.environ.get("SOCIAL_ENABLE") or os.environ.get("X_API_KEY")):
+        return   # feature stays off until credentials/flag are added
+    dry = bool(os.environ.get("SOCIAL_DRY_RUN"))
+    st = _load_social_state()
+    posted = st.setdefault("posted", {})
+    cands = [c for c in _collect_new_stories(per_section) if c["url"] not in posted]
+    if not cands:
+        print("  social: no new stories to post this cycle")
+        return
+    try:
+        posts = draft_social_posts(cands)
+    except Exception as e:
+        print("  social: drafting failed:", repr(e)[:160])
+        return
+    if not posts:
+        print("  social: nothing drafted")
+        return
+    try:
+        with open(os.path.join(SITE, "social-preview.json"), "w", encoding="utf-8") as f:
+            json.dump({"generatedAt": now_ms(), "dryRun": dry, "posts": posts}, f,
+                      ensure_ascii=False, indent=2)
+    except Exception:
+        pass
+    n, msg = post_to_x(posts, dry_run=dry)
+    if not dry and n:
+        now = now_ms()
+        for p in posts:                      # mark all attempted so nothing re-posts
+            posted[p["url"]] = now
+        cut = now - 7 * 24 * 3600 * 1000     # prune old entries; stories live only 3 days
+        st["posted"] = {u: t for u, t in posted.items() if t >= cut}
+        _save_social_state(st)
+    STATUS["_social"] = ("dry_run %d drafted" % len(posts)) if dry else ("posted %d to X" % n)
 
 
 def sports_scoreboard(per_league=10, total=24):
@@ -2697,6 +2874,13 @@ def build():
               "" if deployable else "  <-- INCLUDES A BROKEN PAGE; deploy will be blocked"))
         for _p in problems:
             print("  - %s" % _p)
+
+    # ---- social auto-post: pick the day's 10 best NEW stories and post them to X ----
+    # Runs only on a full curation run and only when configured; safe no-op otherwise.
+    try:
+        social_publish(per_section, target in ("", "all"))
+    except Exception as e:
+        print("social step failed:", repr(e)[:160])
 
     with open(os.path.join(SITE, "status.json"), "w", encoding="utf-8") as f:
         json.dump({"model_default": MODEL, "model_used": _WORKING_MODEL,
