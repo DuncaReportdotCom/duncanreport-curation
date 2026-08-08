@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786208566386,
+  "lastUpdated": 1786214722225,
   "heroSetDate": "2026-08-08",
   "hero": {
     "headline": "STOCKS RALLY TO RECORD HIGHS AS BULLS TAKE CHARGE, BERKSHIRE TOPS FORECASTS",
@@ -325,6 +325,18 @@
   "columns": {
     "left": [
       {
+        "headline": "Airlines Really Don't Want You to Buy Their Cheapest Tickets",
+        "url": "https://www.wsj.com/lifestyle/travel/airlines-really-dont-want-you-to-buy-their-cheapest-tickets-73048e0a",
+        "timestamp": 1786211693000,
+        "postedAt": 1786214722225
+      },
+      {
+        "headline": "Are Target Date Funds Aggressive Enough to Give Americans Retirement Savings That Last Their Lifetimes?",
+        "url": "https://www.marketwatch.com/story/are-target-date-funds-hurting-americans-as-they-live-longer-929f4f92",
+        "timestamp": 1786211880000,
+        "postedAt": 1786214722225
+      },
+      {
         "headline": "Current Refi Mortgage Rates Report For Aug. 10, 2026",
         "url": "https://fortune.com/article/current-refi-mortgage-rates-08-10-2026/",
         "timestamp": 1786205403000,
@@ -509,6 +521,12 @@
     ],
     "right": [
       {
+        "headline": "6 Best Big Cities for Retirement: Top Financial and Lifestyle Benefits for Retirees",
+        "url": "https://www.investopedia.com/6-best-big-cities-for-retirement-top-financial-and-lifestyle-benefits-for-retirees-12027934",
+        "timestamp": 1786212300000,
+        "postedAt": 1786214722225
+      },
+      {
         "headline": "XRP Price Prediction: Where Will It Be By Late 2027?",
         "url": "https://www.fool.com/investing/2026/08/08/prediction-this-will-be-the-cryptocurrency-xrps-pr/",
         "timestamp": 1786204800000,
@@ -531,12 +549,6 @@
         "url": "https://www.forbes.com/sites/arthurkellermann/2026/08/06/fda-approval-of-modernas-mrna-flu-vaccine-is-great-news-heres-why/",
         "timestamp": 1786046043000,
         "postedAt": 1786047396813
-      },
-      {
-        "headline": "Airlines Really Don't Want You To Buy Their Cheapest Tickets",
-        "url": "https://www.wsj.com/lifestyle/travel/airlines-really-dont-want-you-to-buy-their-cheapest-tickets-73048e0a",
-        "timestamp": 1786026667000,
-        "postedAt": 1786029224314
       },
       {
         "headline": "Burger King Turnaround Powers Restaurant Brands' Profit",
@@ -615,9 +627,9 @@
     },
     {
       "name": "Bitcoin",
-      "value": "$65,046.82",
-      "change": "+162.66",
-      "changePct": "+0.25%",
+      "value": "$65,010.73",
+      "change": "+126.57",
+      "changePct": "+0.20%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     }

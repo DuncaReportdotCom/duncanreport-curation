@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786207923490,
+  "lastUpdated": 1786214107689,
   "heroSetDate": "2026-08-08",
   "hero": {
     "headline": "INTEL: RUSSIA COULD ATTACK NATO IN WEEKS",
@@ -253,6 +253,18 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "In Confirming Blanche, Senators Endorse DOJ Under Trump's Sway",
+        "url": "https://www.nytimes.com/2026/08/08/us/politics/blanche-attorney-general-doj-trump-power.html?unlocked_article_code=1.31A.TnwI.AHhmmMaIQPHR&smid=url-share",
+        "timestamp": 1786213810448,
+        "postedAt": 1786214107689
+      },
+      {
+        "headline": "Mystery Deaths Of Epstein's Associates Raise New Questions",
+        "url": "https://www.dailymail.com/news/article-16011083/Mystery-deaths-Epsteins-associates-multiple-friends-paedophile-tycoon-died-unusual-circumstances-fuelling-conspiracy-theories.html",
+        "timestamp": 1786213810447,
+        "postedAt": 1786214107689
+      },
       {
         "headline": "Meet The Media Industry's Nerd-In-Chief",
         "url": "https://www.wsj.com/business/media/jonathan-roberts-people-inc-innovation-2d21b227",
@@ -527,6 +539,12 @@
       }
     ],
     "right": [
+      {
+        "headline": "Spanish Mountain Village Braces For Astrotourists Ahead Of Total Eclipse",
+        "url": "https://www.theguardian.com/world/2026/aug/08/spanish-mountain-village-braces-for-astrotourists-lured-by-total-solar-eclipse",
+        "timestamp": 1786213810448,
+        "postedAt": 1786214107689
+      },
       {
         "headline": "Reservation Apps Have Made Getting Into Restaurants A Nightmare",
         "url": "https://www.wsj.com/business/restaurant-reservation-apps-30a29e6b",

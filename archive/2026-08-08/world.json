@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786208312413,
+  "lastUpdated": 1786214439780,
   "heroSetDate": "2026-08-08",
   "hero": {
     "headline": "SPAIN IMPOSES BORDER CHECKS ON ITALY AS MIGRATION CRISIS ESCALATES",
@@ -20,6 +20,23 @@
     ]
   },
   "groups": [
+    {
+      "title": "UKRAINE WAR ESCALATION",
+      "stories": [
+        {
+          "headline": "Ukraine Denies Targeting Bulgaria As Drone Explodes Near Pipeline",
+          "url": "https://www.straitstimes.com/world/europe/bulgarias-radev-says-drone-exploded-in-bulgarias-airspace",
+          "timestamp": 1786211893000,
+          "postedAt": 1786214439780
+        },
+        {
+          "headline": "Ukraine Mourns 'Collector Of Souls' Oleksiy Yukov, Killed Recovering War Dead",
+          "url": "https://www.npr.org/2026/08/08/nx-s1-5925887/ukraine-mourns-oleksiy-yukov",
+          "timestamp": 1786211165000,
+          "postedAt": 1786214439780
+        }
+      ]
+    },
     {
       "title": "UKRAINE WAR ESCALATES AS RUSSIA RATTLES EUROPE'S SKIES",
       "stories": [
@@ -303,6 +320,12 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Messi's Father Jorge Dies Aged 68 In Argentina",
+        "url": "https://www.reuters.com/sports/soccer/father-soccer-star-lionel-messi-dies-68-argentina-2026-08-08/",
+        "timestamp": 1786213309000,
+        "postedAt": 1786214439780
+      },
       {
         "headline": "Wildfire Above Lake Garda Forces Evacuations In Italy",
         "url": "https://www.euronews.com/my-europe/2026/08/08/major-wildfire-in-hills-above-lake-garda-at-least-200-residents-and-tourists-evacuated",
