@@ -57,7 +57,7 @@ PROMPTS = json.loads(r"""
  "sports": "# DuncanReport.com — Sports Page Editorial Curation Logic (Prompt v4)\n\n**Section:** sports\n**Reads with the core contract:** `curation/core/SCHEMA.md`, `curation/core/FORMAT-LOCK.md`,\n`curation/core/DEPLOY-CONTRACT.md`.\n\n## Mission\n\nUS sports — the day's games and scores first, then the stories driving the sports world.\n\n## Special: today's games (`scoreboard` field)\n\n- Every cycle, populate the `scoreboard` array in `stories.json` (per SCHEMA.md) with the day's\n  games across active major leagues (MLB, NBA, NFL, WNBA, MLS, majors, as in season).\n- Each game shows either the scheduled start time (`state: scheduled`, scores null), the live\n  score (`state: live`, with the game state in `note`), or the final score (`state: final`).\n- Pull live/final status from the league or ESPN scoreboard each run — scores age fast.\n\n## Scope\n\n16 fixed outlets plus league scoreboards (see `CONFIG.md`).\n\n## Story selection\n\n- Games/scoreboard lead. Then **frequency-ranked** stories across the fixed outlets; most-covered\n  first (trades, injuries, results, marquee events).\n- **Op-eds/columns as news** only if 3+ outlets cover the piece itself.\n\n## Panels & narrative arcs\n\n- Group 2+ stories on one arc (e.g. a trade-deadline cluster) under an ALL-CAPS arc title.\n- Panel membership matched by URL overlap, not title.\n\n## Oddity slots\n\n- 1–2 optional sports-oddity items per cycle, 48-hour freshness.\n\n## Satire\n\n- None by default.\n\n## Independent journalism (dynamic class)\n\n- Independent sports reporters/newsletters where they break a story. Capped at 2 slots unless\n  dominant by frequency.\n\n## Publishing model\n\n- Fully automatic; no pre-publish QA. 3-day expiry; original timestamp wins (per DEPLOY-CONTRACT).\n- Scores are a live snapshot; they age within the hour — refresh each cycle.\n\n\n# sports — CONFIG\n\n**Cadence:** daily\n**Data directory:** `/home/duncxnay/data/sports/`\n**Editorial voice:** sports desk; scores first, punchy headlines.\n\n## Scoreboard sources (populate `scoreboard` each cycle)\n\n- ESPN scoreboards — https://www.espn.com (per-league /mlb/scoreboard, /nba/scoreboard, etc.)\n- League sites: MLB.com https://www.mlb.com · NBA.com https://www.nba.com ·\n  NFL.com https://www.nfl.com · WNBA.com https://www.wnba.com · MLS https://www.mlssoccer.com\n\n## Fixed outlets (16)\n\n- ESPN — https://www.espn.com\n- The Athletic — https://www.nytimes.com/athletic/\n- CBS Sports — https://www.cbssports.com\n- Yahoo Sports — https://sports.yahoo.com\n- Bleacher Report — https://bleacherreport.com\n- Sports Illustrated — https://www.si.com\n- Fox Sports — https://www.foxsports.com\n- NBC Sports — https://www.nbcsports.com\n- AP Sports — https://apnews.com/hub/sports\n- USA Today Sports — https://www.usatoday.com/sports/\n- The Ringer — https://www.theringer.com\n- Front Office Sports — https://frontofficesports.com\n- SB Nation — https://www.sbnation.com\n- The Score — https://www.thescore.com\n- Barstool Sports — https://www.barstoolsports.com\n- Deadspin — https://www.deadspin.com\n",
  "world": "# DuncanReport.com — World Page Editorial Curation Logic (Prompt v4)\n\n**Section:** world\n**Reads with the core contract:** `curation/core/SCHEMA.md`, `curation/core/FORMAT-LOCK.md`,\n`curation/core/DEPLOY-CONTRACT.md`.\n\n## Mission\n\nInternational news — conflicts, diplomacy, economies, disasters, and major foreign developments —\ncovered factually from a diverse set of global outlets.\n\n## Scope\n\n16 fixed outlets spanning US, UK, European, and pan-Arab/global wires (see `CONFIG.md`).\nNon-US-domestic stories; US foreign policy belongs here when the center of gravity is abroad.\n\n## Story selection\n\n- **Frequency-ranked** across the fixed outlets; most-covered first. Prefer wire-confirmed\n  (AP/Reuters/AFP) facts for breaking events.\n- **Op-eds as news** only if 3+ outlets cover the piece itself.\n\n## Panels & narrative arcs\n\n- Group 2+ stories on one arc (e.g. a war and its oil-market fallout) under an ALL-CAPS arc title.\n- Panel membership matched by URL overlap, not title.\n\n## Oddity slots\n\n- 1–2 optional international human-interest / oddity items per cycle, 48-hour freshness.\n\n## Satire\n\n- Rare. Only widely-syndicated international satire, tagged, subject to the substitution test.\n\n## Independent journalism (dynamic class)\n\n- Independent foreign correspondents / outlets where they lead coverage. Capped at 2 slots unless\n  dominant by frequency.\n\n## Publishing model\n\n- Fully automatic; no pre-publish QA. 3-day expiry; original timestamp wins (per DEPLOY-CONTRACT).\n\n\n# world — CONFIG\n\n**Cadence:** daily\n**Data directory:** `/home/duncxnay/data/world/`\n**Editorial voice:** international desk; wire-grade neutrality, global not US-domestic.\n\n## Fixed outlets (16)\n\n- BBC News — https://www.bbc.com/news\n- Reuters — https://www.reuters.com\n- Associated Press — https://apnews.com\n- Agence France-Presse — https://www.afp.com/en\n- Al Jazeera English — https://www.aljazeera.com\n- The Guardian — https://www.theguardian.com/world\n- CNN International — https://edition.cnn.com\n- Bloomberg — https://www.bloomberg.com\n- Financial Times — https://www.ft.com\n- The New York Times (World) — https://www.nytimes.com/section/world\n- The Washington Post (World) — https://www.washingtonpost.com/world\n- Deutsche Welle — https://www.dw.com/en\n- France 24 — https://www.france24.com/en\n- Euronews — https://www.euronews.com\n- The Times (UK) — https://www.thetimes.com\n- NPR World — https://www.npr.org/sections/world\n\n> Runner-ups: Sky News, Times of Israel, Anadolu Agency.\n",
  "markets": "# DuncanReport.com — Business / Markets Page Editorial Curation Logic (Prompt v4)\n\n**Section:** markets\n**Reads with the core contract:** `curation/core/SCHEMA.md`, `curation/core/FORMAT-LOCK.md`,\n`curation/core/DEPLOY-CONTRACT.md`.\n\n## Mission\n\nBusiness, markets, and the economy — factual, fast, and numbers-forward. Markets first, then the\nstories moving them.\n\n## Special: live market prices (`markets` field)\n\n- Every cycle, populate the `markets` array in `stories.json` (per SCHEMA.md) with current levels:\n  at minimum S&P 500, Dow Jones, and Nasdaq, plus a rotating set of key assets (10-yr Treasury\n  yield, gold, oil/Brent, Bitcoin). Each entry carries value, change, and % change.\n- Refresh these from the source feed each run; a leading `-` marks a down move.\n\n## Scope\n\n16 fixed outlets (see `CONFIG.md`). Earnings, the Fed, markets, deals, tariffs/trade, and the\nmacro economy.\n\n## Story selection\n\n- **Frequency-ranked** across the fixed outlets; most-covered first. Prefer primary numbers\n  (earnings figures, index closes) confirmed by 2+ outlets.\n- **Op-eds/analysis as news** only if 3+ outlets cover the piece itself.\n\n## Panels & narrative arcs\n\n- Group 2+ stories on one arc (e.g. a market sell-off and its drivers) under an ALL-CAPS arc title.\n- Panel membership matched by URL overlap, not title.\n\n## Oddity slots\n\n- None. Business runs straight.\n\n## Satire\n\n- None by default.\n\n## Independent journalism (dynamic class)\n\n- Independent finance writers/newsletters where they lead. Capped at 2 slots unless dominant.\n\n## Publishing model\n\n- Fully automatic; no pre-publish QA. 3-day expiry; original timestamp wins (per DEPLOY-CONTRACT).\n- Market levels are a live snapshot; they age — refresh each cycle.\n\n\n# markets — CONFIG\n\n**Cadence:** daily\n**Data directory:** `/home/duncxnay/data/markets/`\n**Editorial voice:** business desk; numbers-forward, neutral, fast.\n\n## Live market strip (populate `markets` each cycle)\n\nMinimum: S&P 500, Dow Jones, Nasdaq. Rotating: 10-Yr Treasury yield, Gold, Brent crude, Bitcoin.\nSource feeds: Yahoo Finance, CNBC, MarketWatch.\n\n## Fixed outlets (16)\n\n- The Wall Street Journal — https://www.wsj.com\n- Bloomberg — https://www.bloomberg.com\n- CNBC — https://www.cnbc.com\n- Financial Times — https://www.ft.com\n- Reuters — https://www.reuters.com\n- MarketWatch — https://www.marketwatch.com\n- Barron's — https://www.barrons.com\n- Forbes — https://www.forbes.com\n- Fortune — https://fortune.com\n- Business Insider — https://www.businessinsider.com\n- Yahoo Finance — https://finance.yahoo.com\n- The Motley Fool — https://www.fool.com\n- Investopedia — https://www.investopedia.com\n- Investor's Business Daily — https://www.investors.com\n- Seeking Alpha — https://seekingalpha.com\n- The Economist — https://www.economist.com\n",
- "politics": "# DuncanReport.com — Politics Page Editorial Curation Logic (Prompt v4)\n\n**Section:** politics\n**Reads with the core contract:** `curation/core/SCHEMA.md`, `curation/core/FORMAT-LOCK.md`,\n`curation/core/DEPLOY-CONTRACT.md`.\n\n## Mission\n\nUS politics & government, covered factually across the ideological spectrum. Source diversity —\nnot counter-programming — is the answer to media-reliability concerns.\n\n## Scope\n\n16 fixed outlets, split evenly left/right (see `CONFIG.md`). Federal government, elections,\nCongress, the courts, campaigns, and major state-level political stories with national weight.\n\n## Story selection\n\n- **Frequency-ranked.** Rank by how many fixed outlets cover a story; most-covered surfaces first.\n- **Op-eds as news.** An op-ed is eligible only if 3+ outlets cover the piece itself as news.\n\n## Panels & narrative arcs\n\n- Group 2+ stories that support one arc under an ALL-CAPS arc title.\n- Panel membership matched by URL overlap, not title.\n\n## Oddity slots\n\n- None. Politics runs straight news; leave oddities to Life & Culture.\n\n## Satire\n\n- Include political satire from Babylon Bee and Not the Bee, tagged, subject to the substitution\n  test (eligible only if the target could plausibly be substituted across the spectrum).\n\n## Independent journalism (dynamic class)\n\n- Independent political journalists (e.g. Greenwald, Taibbi, Silver, Weiss). Capped at 2 column\n  slots unless one is dominant by frequency.\n\n## Publishing model\n\n- Fully automatic; no pre-publish QA. 3-day expiry; original timestamp wins (per DEPLOY-CONTRACT).\n\n\n# politics — CONFIG\n\n**Cadence:** daily\n**Data directory:** `/home/duncxnay/data/politics/`\n**Editorial voice:** hard US political news, spectrum-balanced, no editorializing in headlines.\n\n## Fixed outlets (16, even left/right)\n\nLeft-leaning:\n- CNN Politics — https://www.cnn.com/politics\n- MSNBC — https://www.msnbc.com\n- The New York Times — https://www.nytimes.com\n- The Washington Post — https://www.washingtonpost.com\n- NPR Politics — https://www.npr.org/sections/politics\n- Politico — https://www.politico.com\n- NBC News Politics — https://www.nbcnews.com/politics\n- Democracy Now! — https://www.democracynow.org\n\nRight-leaning:\n- Fox News Politics — https://www.foxnews.com/politics\n- The Washington Times — https://www.washingtontimes.com\n- New York Post — https://nypost.com\n- Breitbart — https://www.breitbart.com\n- National Review — https://www.nationalreview.com\n- Washington Examiner — https://www.washingtonexaminer.com\n- The Daily Wire — https://www.dailywire.com\n- Newsmax — https://www.newsmax.com\n\n> Center/wire swap-ins if you want a neutral spine: The Hill, Axios, Reuters, AP.\n",
+ "politics": "# DuncanReport.com — Politics Page Editorial Curation Logic (Prompt v4)\n\n**Section:** politics\n**Reads with the core contract:** `curation/core/SCHEMA.md`, `curation/core/FORMAT-LOCK.md`,\n`curation/core/DEPLOY-CONTRACT.md`.\n\n## Mission\n\nUS politics & government, covered factually across the ideological spectrum. Source diversity —\nnot counter-programming — is the answer to media-reliability concerns.\n\n## Scope\n\n16 fixed outlets, split evenly left/right (see `CONFIG.md`). Federal government, elections,\nCongress, the courts, campaigns, and major state-level political stories with national weight.\n\n## Story selection\n\n- **Frequency-ranked.** Rank by how many fixed outlets cover a story; most-covered surfaces first.\n- **Op-eds as news.** An op-ed is eligible only if 3+ outlets cover the piece itself as news.\n\n## Panels & narrative arcs\n\n- Group 2+ stories that support one arc under an ALL-CAPS arc title.\n- Panel membership matched by URL overlap, not title.\n\n## Oddity slots\n\n- None. Politics runs straight news; leave oddities to Life & Culture.\n\n## Satire\n\n- Include political satire from Babylon Bee and Not the Bee, tagged, subject to the substitution\n  test (eligible only if the target could plausibly be substituted across the spectrum).\n\n## Independent journalism (dynamic class)\n\n- Independent political journalists (e.g. Greenwald, Taibbi, Silver, Weiss). Capped at 2 column\n  slots unless one is dominant by frequency.\n\n## Publishing model\n\n- Fully automatic; no pre-publish QA. 3-day expiry; original timestamp wins (per DEPLOY-CONTRACT).\n\n\n# politics — CONFIG\n\n**Cadence:** daily\n**Data directory:** `/home/duncxnay/data/politics/`\n**Editorial voice:** hard US political news, spectrum-balanced, no editorializing in headlines.\n\n## Fixed outlets (16, even left/right)\n\nLeft-leaning:\n- CNN Politics — https://www.cnn.com/politics\n- MSNBC — https://www.msnbc.com\n- The New York Times — https://www.nytimes.com\n- The Washington Post — https://www.washingtonpost.com\n- NPR Politics — https://www.npr.org/sections/politics\n- Politico — https://www.politico.com\n- NBC News Politics — https://www.nbcnews.com/politics\n- Democracy Now! — https://www.democracynow.org\n- The Hill — https://thehill.com\n\nRight-leaning:\n- Fox News Politics — https://www.foxnews.com/politics\n- The Washington Times — https://www.washingtontimes.com\n- New York Post — https://nypost.com\n- Breitbart — https://www.breitbart.com\n- Daily Caller — https://dailycaller.com\n- Washington Examiner — https://www.washingtonexaminer.com\n- The Daily Wire — https://www.dailywire.com\n- Newsmax — https://www.newsmax.com\n- RealClearPolitics — https://www.realclearpolitics.com\n\n> Center/wire swap-ins if you want a neutral spine: The Hill, Axios, Reuters, AP.\n",
  "life-culture": "# DuncanReport.com — Life & Culture Page Editorial Curation Logic (Prompt v4)\n\n**Section:** life-culture\n**Reads with the core contract:** `curation/core/SCHEMA.md`, `curation/core/FORMAT-LOCK.md`,\n`curation/core/DEPLOY-CONTRACT.md`.\n\n## Mission\n\nEntertainment, celebrity, film/TV, music, arts, lifestyle, health, food, travel, science-culture,\nand viral human-interest — the culture of the moment, covered breadth-first.\n\n## Scope\n\n16 fixed outlets (see `CONFIG.md`). This is the home for lighter and viral material that doesn't\nbelong on the hard-news pages.\n\n## Story selection\n\n- **Frequency-ranked** across the fixed outlets; most-covered first.\n- **Op-eds / reviews as news** only if 3+ outlets cover the piece/album/film itself.\n\n## Panels & narrative arcs\n\n- Group 2+ stories on one event (e.g. a festival or awards show) under an ALL-CAPS arc title.\n- Panel membership matched by URL overlap, not title.\n\n## Oddity slots\n\n- 3–4 oddity / viral slots per cycle, 48-hour freshness. This page is the primary home for\n  oddities.\n\n## Satire\n\n- Entertainment/culture satire from Babylon Bee and Not the Bee, tagged, subject to the\n  substitution test.\n\n## Independent journalism (dynamic class)\n\n- Independent culture writers/newsletters where they lead a story. Capped at 2 slots unless\n  dominant by frequency.\n\n## Publishing model\n\n- Fully automatic; no pre-publish QA. 3-day expiry; original timestamp wins (per DEPLOY-CONTRACT).\n\n\n# life-culture — CONFIG\n\n**Cadence:** daily\n**Data directory:** `/home/duncxnay/data/life-culture/`\n**Editorial voice:** lively culture desk; playful is fine, factual on names/dates.\n\n## Fixed outlets (16)\n\n- People — https://people.com\n- Variety — https://variety.com\n- The Hollywood Reporter — https://www.hollywoodreporter.com\n- Rolling Stone — https://www.rollingstone.com\n- Entertainment Weekly — https://ew.com\n- TMZ — https://www.tmz.com\n- Deadline — https://deadline.com\n- E! News — https://www.eonline.com\n- Vanity Fair — https://www.vanityfair.com\n- Vulture — https://www.vulture.com\n- The Atlantic — https://www.theatlantic.com\n- Billboard — https://www.billboard.com\n- USA Today Life — https://www.usatoday.com/life\n- The New York Times (Arts) — https://www.nytimes.com/section/arts\n- Pitchfork — https://pitchfork.com\n- Entertainment Tonight — https://www.etonline.com\n\n> Runner-ups: The Wrap, IGN, NPR Pop Culture.\n"
 }
 """)
@@ -683,14 +683,16 @@ DOMAINS = json.loads(r"""{
   "politico.com",
   "nbcnews.com",
   "democracynow.org",
+  "thehill.com",
   "foxnews.com",
   "washingtontimes.com",
   "nypost.com",
   "breitbart.com",
-  "nationalreview.com",
+  "dailycaller.com",
   "washingtonexaminer.com",
   "dailywire.com",
-  "newsmax.com"
+  "newsmax.com",
+  "realclearpolitics.com"
  ],
  "markets": [
   "wsj.com",
@@ -726,7 +728,22 @@ DOMAINS = json.loads(r"""{
   "france24.com",
   "euronews.com",
   "thetimes.com",
-  "npr.org"
+  "npr.org",
+  "lemonde.fr",
+  "rfi.fr",
+  "thelocal.de",
+  "politico.eu",
+  "elpais.com",
+  "africanews.com",
+  "allafrica.com",
+  "scmp.com",
+  "japantimes.co.jp",
+  "straitstimes.com",
+  "thehindu.com",
+  "batimes.com.ar",
+  "mercopress.com",
+  "timesofisrael.com",
+  "arabnews.com"
  ],
  "sports": [
   "espn.com",
@@ -834,7 +851,7 @@ NARRATIVES = json.loads(r"""{
   },
   {
    "arc": "Culture war",
-   "q": "(transgender OR DEI OR \"free speech\" OR abortion OR religion OR woke) controversy"
+   "q": "(transgender OR \"trans athlete\" OR DEI OR CRT OR \"free speech\" OR abortion OR religion OR woke OR \"gender identity\" OR \"women's sports\") (controversy OR debate OR ban OR bill OR ruling OR sports OR declares)"
   },
   {
    "arc": "Press freedom and overreach",
@@ -911,8 +928,12 @@ NARRATIVES = json.loads(r"""{
    "q": "(WNBA OR \"women's sports\" OR \"women's soccer\" OR \"Caitlin Clark\")"
   },
   {
-   "arc": "College sports",
-   "q": "college (football OR basketball) (ranking OR playoff OR upset OR recruit)"
+   "arc": "College football",
+   "q": "\"college football\" (ranking OR playoff OR game OR recruit OR coach OR upset OR \"Top 25\" OR SEC OR \"Big Ten\" OR CFP)"
+  },
+  {
+   "arc": "College basketball",
+   "q": "\"college basketball\" (ranking OR \"March Madness\" OR recruit OR upset OR game OR tournament)"
   },
   {
    "arc": "World records and milestones",
@@ -929,52 +950,68 @@ NARRATIVES = json.loads(r"""{
  ],
  "world": [
   {
-   "arc": "Mideast conflict",
-   "q": "(Iran OR Israel OR Gaza OR Syria OR Lebanon) conflict"
+   "arc": "Ukraine war",
+   "q": "(Ukraine OR Russia) (war OR offensive OR strike OR front OR \"peace talks\" OR sanctions OR drone)"
   },
   {
-   "arc": "Russia-Ukraine",
-   "q": "(Russia OR Ukraine) (war OR offensive OR strike OR \"peace talks\")"
+   "arc": "Middle East and Iran",
+   "q": "(Iran OR Israel OR Gaza OR \"Middle East\" OR Hormuz OR Lebanon) (war OR strike OR nuclear OR ceasefire OR escalation)"
   },
   {
-   "arc": "China and Taiwan",
-   "q": "China (Taiwan OR military OR economy OR Xi OR tensions)"
+   "arc": "Europe migration",
+   "q": "(migrants OR migration OR asylum OR border OR Ceuta OR Lampedusa OR smuggling) Europe"
   },
   {
-   "arc": "Europe",
-   "q": "Europe (election OR protest OR EU OR crisis OR \"far-right\")"
+   "arc": "France",
+   "q": "France (Macron OR Paris OR government OR protest OR election OR economy OR strike)"
   },
   {
-   "arc": "Latin America",
-   "q": "(Mexico OR Venezuela OR Brazil OR Argentina) (crisis OR election OR cartel)"
+   "arc": "Germany",
+   "q": "Germany (Berlin OR Merz OR coalition OR economy OR migration OR \"far-right\" OR AfD)"
+  },
+  {
+   "arc": "Southern Europe",
+   "q": "(Italy OR Spain OR Greece OR Portugal) (Meloni OR government OR migration OR economy OR protest OR travel)"
+  },
+  {
+   "arc": "EU and Brussels",
+   "q": "(\"European Union\" OR EU OR Brussels OR \"European Commission\") (policy OR summit OR dispute OR law OR sanctions)"
+  },
+  {
+   "arc": "United Kingdom",
+   "q": "(UK OR Britain OR London OR Starmer) (politics OR economy OR immigration OR scandal OR protest)"
+  },
+  {
+   "arc": "Russia and Putin",
+   "q": "Russia (Putin OR Kremlin OR sanctions OR economy OR crackdown OR opposition)"
+  },
+  {
+   "arc": "China and Asia-Pacific",
+   "q": "China (Taiwan OR Xi OR military OR economy OR \"South China Sea\" OR Japan)"
+  },
+  {
+   "arc": "India and South Asia",
+   "q": "(India OR Pakistan OR Bangladesh) (Modi OR election OR tension OR economy OR protest)"
   },
   {
    "arc": "Africa",
-   "q": "Africa (conflict OR coup OR election OR crisis)"
+   "q": "Africa (conflict OR coup OR Sahel OR Sudan OR Congo OR election OR economy OR crisis)"
   },
   {
-   "arc": "Migration",
-   "q": "(migrants OR refugees OR migration) (border OR crisis OR Europe)"
+   "arc": "Latin America",
+   "q": "(Mexico OR Argentina OR Brazil OR Venezuela OR \"Latin America\") (Milei OR election OR crisis OR cartel OR economy)"
   },
   {
-   "arc": "Global economy",
-   "q": "\"global economy\" (trade OR tariffs OR IMF OR crisis)"
-  },
-  {
-   "arc": "Terrorism and security",
-   "q": "(terrorism OR attack OR ISIS OR extremist) international"
-  },
-  {
-   "arc": "Disasters abroad",
-   "q": "(earthquake OR flood OR typhoon OR famine) international"
+   "arc": "Global economy and trade",
+   "q": "(\"global economy\" OR trade OR tariffs OR IMF OR \"supply chain\" OR OPEC) international"
   },
   {
    "arc": "Diplomacy and summits",
-   "q": "(summit OR UN OR NATO OR treaty OR diplomacy) leaders"
+   "q": "(summit OR UN OR NATO OR G7 OR G20 OR treaty OR diplomacy) leaders"
   },
   {
-   "arc": "Human rights",
-   "q": "(\"human rights\" OR protest OR crackdown OR dissident) government"
+   "arc": "Human rights and dissent",
+   "q": "(\"human rights\" OR protest OR crackdown OR dissident OR coup OR censorship) government"
   }
  ],
  "markets": [
@@ -1159,7 +1196,8 @@ NARRATIVES = json.loads(r"""{
 
 EMPHASIS = {
     'life-culture': '\n\n===== LIFE & CULTURE EMPHASIS =====\nKeep the reader in mind: assume a mostly male, white-collar, often-married audience. Cover what that reader genuinely finds interesting - cars and driving, travel and destinations, tech and gadgets, food and drink, gear, watches, whiskey and cocktails, home and style - woven together with thoughtful material (science and discovery, big ideas, history, books, arts) and a lighter thread of celebrity and entertainment (kept, but not dominant). Favor smart, well-made lifestyle journalism (InsideHook, Gear Patrol, GQ, Esquire, Robb Report, The Points Guy, and similar) and the delightful, surprising, "wow, I didn\'t know that" story over routine gossip. Because heavy analysis is often paywalled, lean on free sources - Smithsonian, Atlas Obscura, Aeon, NPR, Phys.org, The Conversation, Ars Technica, The Verge - for the thoughtful picks. This is the page to make the most interesting on the whole site. AVOID pure product endorsements and shopping/affiliate content. A piece about a category, trend, or idea is welcome ("Every Man Needs a Black Turtleneck Sweater"), but skip buying guides and brand endorsements ("Every Man Needs an LL Bean Black Turtleneck Sweater", deal roundups, "the best X to buy", "shop now" listicles). Favor editorial substance - profiles, essays, reviews with a point of view, real reporting - over commerce.\n',
-    'sports': "\n\n===== SPORTS EMPHASIS =====\nWeight coverage by popularity: the major US leagues lead - NFL is biggest, then NBA, MLB, NHL - followed by soccer (MLS plus the big international competitions: World Cup, European leagues, CONCACAF, Champions League). Give those DEEP, detailed coverage. In ADDITION, give BROAD coverage of the wider sports world every cycle: tennis, golf, UFC/MMA (name the week's main event even though it has no scoreboard), boxing, cycling (Tour de France and the grand tours), the Olympics, track and field and distance running, winter sports and skiing, WNBA and women's sports, and college sports. ALWAYS surface any world record or historic milestone (for example a new mile record) prominently - records are major news. Pick as hero the single biggest sports story of the day, whatever the sport.\n",
+    'sports': "\n\n===== SPORTS EMPHASIS =====\nWeight coverage by popularity: the major US sports lead - NFL is biggest, then COLLEGE FOOTBALL, NBA and MLB (all roughly equal, second tier), then NHL - followed by soccer (MLS plus the big international competitions: World Cup, European leagues, CONCACAF, Champions League). Give those DEEP, detailed coverage. In ADDITION, give BROAD coverage of the wider sports world every cycle: tennis, golf, UFC/MMA (name the week's main event even though it has no scoreboard), boxing, cycling (Tour de France and the grand tours), the Olympics, track and field and distance running, winter sports and skiing, WNBA and women's sports, and college sports. ALWAYS surface any world record or historic milestone (for example a new mile record) prominently - records are major news. College football is a top-two sport in season (late summer through January): in that window give it MULTIPLE stories on the page - rankings, marquee matchups, the playoff race, coaching and recruiting news - not one link. Pick as hero the single biggest sports story of the day, whatever the sport.\n",
+    'world': "\n\n===== WORLD EMPHASIS =====\nLead with Europe. This page should be Europe-heavy: France, Germany, the UK, Italy and Spain, the EU and Brussels, and the European migration story (for example the Ceuta border crisis and Italy-Spain travel disputes). Ukraine and the Middle East - especially Iran war details and Israel - are always major. Use ENGLISH-LANGUAGE international sources - Deutsche Welle (DW) for Germany, France 24, Le Monde in English, RFI, El Pais in English, The Local, AFP, Euronews - not US outlets alone. Treat RealClearWorld's front page as a strong signal of what matters in world affairs, and follow its lead on which subjects to prioritize. Still cover the rest of the world - Africa, Asia (China, India, Japan), and South and Central America - but weight Europe, Ukraine, and the Middle East highest.\n",
 }
 
 
@@ -1374,7 +1412,7 @@ def merge(existing, fresh):
     out = {"lastUpdated": now_ms(), "heroSetDate": hero_date, "hero": hero,
            "groups": groups,
            "columns": {k: _expire(ex_cols[k]) for k in ("left", "center", "right")}}
-    for key in ("scoreboard", "markets"):
+    for key in ("scoreboard", "markets", "polls"):
         if key in fr:
             out[key] = fr[key]
         elif key in ex:
@@ -1607,6 +1645,196 @@ def _clean_source(s):
     s = (s or "").strip()
     return _SHORT_SOURCE.get(s, s)
 
+# ---- Coverage-driven narrative detection ------------------------------------
+# The NARRATIVES arcs are hand-maintained and time-invariant: they fire every run
+# whether or not the story is still hot. This detector is the opposite - it reads
+# the live candidate pool, clusters stories by shared subject words, and scores
+# each cluster by how many DISTINCT outlets are covering it (volume) and how fresh
+# that coverage is (velocity). Clusters recompute every run, so a story whose
+# coverage collapses simply stops forming a cluster and drops off on its own. A
+# small persisted state file tracks each cluster's outlet count run-over-run to
+# label it new / rising / steady / fading - the "rise and fall over time" signal.
+
+NSTATE_PATH = os.path.join(ROOT, "narrative_state.json")
+DETECT_MIN_OUTLETS = 3   # a cluster qualifies at this many distinct outlets...
+DETECT_RISING_MIN = 2    # ...or this many if it is clearly fresh and rising/new
+DETECT_MAX = 12          # cap how many detected narratives we hand the model
+DETECTED = {}            # section -> last detected list (for metrics/dashboard)
+
+def _load_nstate():
+    try:
+        with open(NSTATE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+def _save_nstate(state):
+    try:
+        with open(NSTATE_PATH, "w", encoding="utf-8") as f:
+            json.dump(state, f)
+    except Exception as e:
+        print("    narrative_state save failed: %s" % e)
+
+def _stem(w):
+    """Crude suffix strip so plurals/tenses cluster together (strike/strikes, war/wars)."""
+    if w.endswith("ies") and len(w) > 4:
+        return w[:-3] + "y"           # stories -> story
+    if w.endswith("ing") and len(w) > 5:
+        return w[:-3]
+    if w.endswith("ed") and len(w) > 4:
+        return w[:-2]
+    if w.endswith("s") and not w.endswith("ss") and len(w) > 3:
+        return w[:-1]                 # strikes -> strike, wars -> war (single -s only)
+    return w
+
+def _stemset(title):
+    return set(_stem(w) for w in _sig(title))
+
+def _cluster_label(word_counts):
+    """Readable narrative name from a cluster's most common RAW significant words."""
+    top = [w for w, _ in word_counts.most_common(3)]
+    return " ".join(w.capitalize() for w in top) or "Emerging story"
+
+def _ov_strong(a, b):
+    """Do two stemmed word-sets overlap enough to be the same subject?"""
+    ov = len(a & b)
+    return ov >= 3 or (ov >= 2 and ov / max(1, min(len(a), len(b))) >= 0.5)
+
+def detect_narratives(cands, section, persist=True):
+    """Cluster the candidate pool and rank clusters by coverage volume + freshness.
+    Returns (detected, id2cluster): `detected` is a list of narrative dicts sorted
+    strongest-first; `id2cluster` maps a candidate's index -> its cluster label.
+
+    Clustering is stem-based with an agglomerative merge pass so vocabulary drift
+    (singular/plural, tense) does not fragment one story into several. Trend is
+    computed by matching each cluster to the most-overlapping entry from the prior
+    run's state (not an exact key), so a growing story keeps its identity and reads
+    as 'rising' rather than resetting to 'new'."""
+    from collections import Counter
+    now = now_ms()
+    clusters = []
+    for i, c in enumerate(cands):
+        stem = _stemset(c.get("title"))
+        if not stem:
+            continue
+        best, best_ov = None, 0
+        for cl in clusters:
+            ov = len(stem & cl["stem"])
+            if ov > best_ov:
+                best, best_ov = cl, ov
+        if best is not None and _ov_strong(stem, best["stem"]):
+            best["stem"] |= stem
+            best["words"].update(_sig(c.get("title")))
+            best["members"].append(i)
+            best["outlets"].add(_clean_source(c.get("source")) or "?")
+            best["ts"].append(c.get("ts") or 0)
+        else:
+            clusters.append({"stem": set(stem), "words": Counter(_sig(c.get("title"))),
+                             "members": [i], "outlets": {(_clean_source(c.get("source")) or "?")},
+                             "ts": [c.get("ts") or 0]})
+    # Agglomerative merge pass: fold together clusters that ended up describing the
+    # same subject (first-match greedy can seed near-duplicate clusters).
+    merged = True
+    while merged:
+        merged = False
+        for a in range(len(clusters)):
+            for b in range(a + 1, len(clusters)):
+                if _ov_strong(clusters[a]["stem"], clusters[b]["stem"]):
+                    clusters[a]["stem"] |= clusters[b]["stem"]
+                    clusters[a]["words"].update(clusters[b]["words"])
+                    clusters[a]["members"] += clusters[b]["members"]
+                    clusters[a]["outlets"] |= clusters[b]["outlets"]
+                    clusters[a]["ts"] += clusters[b]["ts"]
+                    del clusters[b]
+                    merged = True
+                    break
+            if merged:
+                break
+
+    # Trend is a DAY-OVER-DAY signal, so the comparison baseline advances at most
+    # once per calendar day. A story does not meaningfully rise or fall between two
+    # runs a few hours apart; comparing intra-day would just read "steady". So we
+    # always cluster/score the live pool (the page needs current narratives every
+    # run), but we only roll the baseline forward when the day changes. Extra runs
+    # the same day keep measuring trend against yesterday, undisturbed.
+    today = datetime.date.today().isoformat()
+    state = _load_nstate() if persist else {}
+    sec = state.get(section)
+    if isinstance(sec, list):     # migrate legacy list format -> treat as baseline
+        sec = {"asOf": None, "baseline": sec, "current": sec}
+    sec = sec or {"asOf": None, "baseline": [], "current": []}
+    same_day = (sec.get("asOf") == today)
+    # same day -> compare against the frozen baseline; new day -> yesterday's latest
+    # snapshot ("current") becomes today's baseline.
+    baseline = (sec.get("baseline") if same_day else sec.get("current")) or sec.get("baseline") or []
+    prior = [dict(p) for p in baseline]
+    for p in prior:
+        p["_stem"] = set(p.get("stem", []))
+        p["_matched"] = False
+
+    detected, id2cluster, next_state = [], {}, []
+    for cl in clusters:
+        outlets = len([o for o in cl["outlets"] if o and o != "?"]) or len(cl["members"])
+        size = len(cl["members"])
+        recents = [t for t in cl["ts"] if t]
+        fresh_frac = (sum(1 for t in recents if now - t < 24 * 3600 * 1000) /
+                      max(1, len(recents)))
+        newest_h = (now - max(recents)) / 3600000.0 if recents else 999
+        label = _cluster_label(cl["words"])
+        top_stem = sorted(cl["stem"])[:10]
+        # match to the most-overlapping prior narrative
+        match, match_ov = None, 0
+        for p in prior:
+            if p["_matched"]:
+                continue
+            ov = len(cl["stem"] & p["_stem"])
+            if ov > match_ov and _ov_strong(cl["stem"], p["_stem"]):
+                match, match_ov = p, ov
+        if match is None:
+            trend = "new"
+            first, peak = now, outlets
+        else:
+            match["_matched"] = True
+            prev_outlets = match.get("outlets", 0)
+            first = match.get("first", now)
+            peak = max(match.get("peak", 0), outlets)
+            if outlets > prev_outlets:
+                trend = "rising"
+            elif outlets <= max(1, prev_outlets * 0.5) or fresh_frac < 0.25:
+                trend = "fading"
+            else:
+                trend = "steady"
+        next_state.append({"stem": top_stem, "outlets": outlets, "peak": peak,
+                           "first": first, "last": now, "label": label})
+        qualifies = outlets >= DETECT_MIN_OUTLETS or (
+            outlets >= DETECT_RISING_MIN and trend in ("rising", "new") and fresh_frac >= 0.5)
+        if not qualifies:
+            continue
+        score = (outlets * 2 + fresh_frac * 3 + (2 if trend in ("rising", "new") else 0)
+                 - (3 if trend == "fading" else 0) + (1 if newest_h < 12 else 0))
+        detected.append({"label": label, "outlets": outlets, "size": size, "trend": trend,
+                         "fresh": round(fresh_frac, 2), "score": round(score, 1),
+                         "members": cl["members"]})
+        for idx in cl["members"]:
+            id2cluster[idx] = label
+    # short memory: carry forward prior narratives that missed this run but were
+    # seen in the last 4 days, so a one-cycle dip does not reset their trend; prune
+    # anything older so the state file stays small and stories fade out for good.
+    cutoff = now - 4 * 24 * 3600 * 1000
+    for p in prior:
+        if not p["_matched"] and p.get("last", 0) >= cutoff:
+            next_state.append({k: p[k] for k in ("stem", "outlets", "peak", "first", "last", "label")})
+    detected.sort(key=lambda d: d["score"], reverse=True)
+    detected = detected[:DETECT_MAX]
+    if persist:
+        # "current" refreshes every run (it becomes tomorrow's baseline); "baseline"
+        # only rolls forward on a new day, so the once-per-day trend check is stable.
+        new_baseline = (sec.get("baseline") or []) if same_day else baseline
+        state[section] = {"asOf": today, "baseline": new_baseline, "current": next_state}
+        _save_nstate(state)
+    return detected, id2cluster
+
+
 def curate_live(section):
     from anthropic import Anthropic
     client = Anthropic()
@@ -1629,6 +1857,16 @@ def curate_live(section):
     cands = cands[:120]
     if not cands:
         raise ValueError("no Google News candidates for %s" % section)
+    # Coverage-driven narrative detection: cluster the live pool by subject and
+    # score by distinct-outlet volume + freshness. Relabel emergent members (those
+    # arriving as loose 'breaking' items) with their detected cluster name so the
+    # pool's arc tags reflect what the press is actually driving this cycle.
+    detected, id2cluster = detect_narratives(cands, section)
+    DETECTED[section] = detected
+    for i, c in enumerate(cands):
+        lab = id2cluster.get(i)
+        if lab and c.get("arc", "breaking") == "breaking":
+            c["arc"] = lab
     by_id = {"c%d" % i: c for i, c in enumerate(cands)}
     cand_json = json.dumps([{"id": "c%d" % i, "title": c["title"], "source": c["source"],
                              "ts": c["ts"], "arc": c.get("arc", "breaking"), "live": bool(c.get("live"))}
@@ -1642,8 +1880,13 @@ def curate_live(section):
             "Each candidate has an 'arc' tag naming the long-running narrative it belongs to "
             "('breaking' = fresh top-of-outlet news). Do NOT simply rank by how many outlets carry a "
             "story - consensus-ranking produces a sterile, homogeneous page. Instead:\n"
-            "- BREADTH: the finished page must span many DIFFERENT arcs and subjects; never cluster "
-            "several items on the same story. Pull across these arcs: %s.\n"
+            "- BREADTH: the finished page must span many DIFFERENT subjects; do not let one story "
+            "dominate the page. Pull across these arcs: %s.\n"
+            "- GROUPING: when several DISTINCT stories cover the same subject, controversy, or event "
+            "(for example a FIFA/UEFA dispute, a coaching saga, or a niche-sport storyline), collect "
+            "them into ONE titled narrative panel instead of scattering them across the columns - "
+            "especially for smaller sports. This differs from the no-duplicates rule: never repeat the "
+            "SAME story, but DO cluster different stories on one subject.\n"
             "- CONTINUITY: for an ongoing arc, choose its newest development and frame the headline as "
             "the NEXT BEAT of a story readers already follow - advance it, don't just restate it.\n"
             "- ODDITY: reserve at least 2-3 slots for offbeat, human-interest, crime-weird, celebrity, "
@@ -1656,6 +1899,23 @@ def curate_live(section):
             "investigations - especially RealClearInvestigations and RealClear staff pieces (sources "
             "that begin with 'RealClear') - and feature them prominently when they fit the page.\n"
             % arc_names)
+    if detected:
+        lines = []
+        for d in detected[:8]:
+            ids = ", ".join("c%d" % m for m in d["members"][:8])
+            lines.append("  - %s  [%d outlets, %s] -> %s" % (d["label"], d["outlets"], d["trend"], ids))
+        editorial += (
+            "\n\n===== COVERAGE-DETECTED NARRATIVES (live, this cycle) =====\n"
+            "These clusters were found automatically from how many DISTINCT outlets are covering "
+            "each subject right now, with a trend measured against prior runs (new/rising/steady/"
+            "fading). They are NOT hand-picked arcs - they reflect what the press is actually "
+            "driving this cycle:\n%s\n"
+            "Use them: PROMOTE high-volume and rising clusters into titled narrative panels "
+            "(group their candidate ids under one panel), and give a FADING cluster at most one "
+            "wrap-up link or drop it - do not keep featuring a story whose coverage has collapsed. "
+            "A high outlet count across the balanced source set is a strong signal, not an order: "
+            "still honor BREADTH and reserve the ODDITY slots regardless of volume.\n"
+            % "\n".join(lines))
     editorial += EMPHASIS.get(section, "")
     try:
         live_hero = (live_current(section) or {}).get("hero") or {}
@@ -1984,6 +2244,88 @@ ESPN_LEAGUES = {
     "NHL": "hockey/nhl", "MLS": "soccer/usa.1",
 }
 
+# ---- Live market strip (business page) --------------------------------------
+# Real index/asset levels with the daily % move, fetched fresh every run (a live
+# snapshot - a transient number, never retained for 3 days like a story). Data is
+# pulled from Yahoo's public chart endpoint, but every quote's click-through goes
+# to the WSJ market-data page, per site preference (WSJ over Yahoo).
+WSJ_MARKET_DATA = "https://www.wsj.com/market-data"
+MARKET_SYMBOLS = [
+    ("S&P 500",   "^GSPC",   "index"),
+    ("Dow",       "^DJI",    "index"),
+    ("Nasdaq",    "^IXIC",   "index"),
+    ("10-Yr Yield", "^TNX",  "yield"),
+    ("Gold",      "GC=F",    "dollar"),
+    ("Oil (WTI)", "CL=F",    "dollar"),
+    ("Bitcoin",   "BTC-USD", "dollar"),
+]
+
+def _fmt_level(v, kind):
+    if kind == "yield":
+        return "%.2f%%" % v
+    if kind == "dollar":
+        return "$" + "{:,.2f}".format(v)
+    return "{:,.2f}".format(v)
+
+def market_quotes():
+    """Current levels + daily change for the market strip. Returns a list of
+    {name, value, change, changePct, up, url}; url is the WSJ market-data page so
+    every quote clicks through to WSJ."""
+    out = []
+    for name, sym, kind in MARKET_SYMBOLS:
+        try:
+            raw = _fetch_bytes("https://query1.finance.yahoo.com/v8/finance/chart/" +
+                               urllib.parse.quote(sym))
+            meta = json.loads(raw)["chart"]["result"][0]["meta"]
+            price = meta.get("regularMarketPrice")
+            prev = meta.get("chartPreviousClose") or meta.get("previousClose")
+            if price is None or not prev:
+                continue
+            chg = price - prev
+            pct = (chg / prev * 100.0) if prev else 0.0
+            change = ("{:+.2f}".format(chg) if kind == "yield" else "{:+,.2f}".format(chg))
+            out.append({"name": name, "value": _fmt_level(price, kind), "change": change,
+                        "changePct": "{:+.2f}%".format(pct), "up": chg >= 0,
+                        "url": WSJ_MARKET_DATA})
+        except Exception as e:
+            print("    quote failed for %s: %s" % (sym, e))
+    return out
+
+
+# ---- Poll averages (politics page) ------------------------------------------
+# Ballotpedia's Polling Index publishes 30-day polling averages, updated every
+# weekday, and - unlike RCP, which hard-blocks automated requests - serves them to
+# scripts (with a browser UA). We show the current numbers and link every figure to
+# Ballotpedia. A live snapshot, refreshed each run and never retained like a story.
+BALLOTPEDIA_POLLS = "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating"
+
+def poll_averages():
+    """Current Ballotpedia 30-day averages (presidential approval, congressional
+    approval, direction of country). Returns [{name, value, sub, url, asOf?}]; every
+    figure's click-through goes to Ballotpedia."""
+    try:
+        raw = _fetch_bytes(BALLOTPEDIA_POLLS, ua=BROWSER_UA).decode("utf-8", "ignore")
+    except Exception as e:
+        print("    poll averages fetch failed:", e)
+        return []
+    text = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", raw)))
+    dm = re.search(r"presidential approval polling average \(([^)]+)\)", text, re.I)
+    asof = dm.group(1) if dm else ""
+    specs = [("Trump Approval", "Presidential approval", "disapprove"),
+             ("Congress Approval", "Congressional approval", "disapprove"),
+             ("Right Direction", "Direction of country", "wrong track")]
+    out = []
+    for label, metric, negword in specs:
+        m = re.search(re.escape(metric) + r" \(average\):\s*Last 30 days\s*(\d{1,2})%\s*(\d{1,2})%", text)
+        if not m:
+            continue
+        out.append({"name": label, "value": m.group(1) + "%",
+                    "sub": m.group(2) + "% " + negword, "url": BALLOTPEDIA_POLLS})
+    if out and asof:
+        out[0]["asOf"] = asof
+    return out
+
+
 def sports_scoreboard(per_league=10, total=24):
     """Upcoming / live / final games from ESPN's public scoreboard API. Each game hotlinks
     to Yahoo's live scoreboard for its league in the front end."""
@@ -2180,9 +2522,12 @@ def build_metrics(per_section, target, traffic=None):
                         "clusters": len(data.get("groups") or []),
                         "fresh24h": fresh, "aging": len(flat) - fresh},
             "hero": {"headline": hero.get("headline"), "setDate": data.get("heroSetDate")},
+            "detected": [{"label": d["label"], "outlets": d["outlets"], "trend": d["trend"],
+                          "size": d["size"], "score": d["score"]}
+                         for d in (DETECTED.get(sec) or [])],
             "health": {"status": STATUS.get(sec, "not run this cycle")},
             "scoreboard": (sb_counts if sec == "sports" else None),
-            "marketsStrip": ("static Yahoo Finance quote links" if sec == "markets" else None),
+            "marketsStrip": ("live quotes + daily % (links to WSJ market-data)" if sec == "markets" else None),
             "traffic": ((traffic or {}).get(sec) if traffic else None),
             "config": {
                 "outlets": {"count": len(DOMAINS.get(sec, [])), "list": DOMAINS.get(sec, [])},
@@ -2291,6 +2636,28 @@ def build():
             except Exception as e:
                 sb_debug = "error: " + repr(e)[:160]
                 print("  scoreboard fetch failed:", e)
+        if sec == "markets":
+            try:
+                mq = market_quotes()
+                if mq:
+                    data["markets"] = mq
+                    print("  market quotes: %d (WSJ-linked)" % len(mq))
+                else:
+                    data.pop("markets", None)   # never show stale prices
+            except Exception as e:
+                data.pop("markets", None)
+                print("  market quotes fetch failed:", e)
+        if sec == "politics":
+            try:
+                pv = poll_averages()
+                if pv:
+                    data["polls"] = pv
+                    print("  poll averages: %d (Ballotpedia)" % len(pv))
+                else:
+                    data.pop("polls", None)   # never show stale poll numbers
+            except Exception as e:
+                data.pop("polls", None)
+                print("  poll averages fetch failed:", e)
         dest = os.path.join(SITE, "stories.json") if sec == "main" else os.path.join(SITE, sec, "stories.json")
         os.makedirs(os.path.dirname(dest), exist_ok=True)
         with open(dest, "w", encoding="utf-8") as f:
