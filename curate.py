@@ -2377,10 +2377,27 @@ def poll_averages():
     """Current Ballotpedia 30-day averages (presidential approval, congressional
     approval, direction of country). Returns [{name, value, sub, url, asOf?}]; every
     figure's click-through goes to Ballotpedia."""
-    try:
-        raw = _fetch_bytes(BALLOTPEDIA_POLLS, ua=BROWSER_UA).decode("utf-8", "ignore")
-    except Exception as e:
-        print("    poll averages fetch failed:", e)
+    # Full browser-like headers + retries: datacenter IPs (CI runners) sometimes get a
+    # bot challenge or an empty body from a plain fetch even though a browser succeeds.
+    hdr = {"User-Agent": BROWSER_UA,
+           "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+           "Accept-Language": "en-US,en;q=0.9", "Referer": "https://ballotpedia.org/"}
+    raw, last = None, None
+    for i in range(3):
+        try:
+            req = urllib.request.Request(BALLOTPEDIA_POLLS, headers=hdr)
+            with urllib.request.urlopen(req, timeout=25) as r:
+                blob = r.read()
+            if blob and len(blob) > 5000:
+                raw = blob.decode("utf-8", "ignore")
+                break
+            last = "short body (%d bytes)" % len(blob or b"")
+        except Exception as e:
+            last = e
+        time.sleep(1.5 * (i + 1))
+    if not raw:
+        print("    poll averages fetch failed:", str(last)[:100])
+        STATUS["_polls"] = "FAILED fetch: %s" % str(last)[:70]
         return []
     text = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", raw)))
     dm = re.search(r"presidential approval polling average \(([^)]+)\)", text, re.I)
@@ -2397,6 +2414,7 @@ def poll_averages():
                     "sub": m.group(2) + "% " + negword, "url": BALLOTPEDIA_POLLS})
     if out and asof:
         out[0]["asOf"] = asof
+    STATUS["_polls"] = ("%d fetched" % len(out)) if out else ("FAILED parse (body %d bytes)" % len(raw))
     return out
 
 
