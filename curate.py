@@ -1916,6 +1916,16 @@ def curate_live(section):
             "SAME story, but DO cluster different stories on one subject.\n"
             "- CONTINUITY: for an ongoing arc, choose its newest development and frame the headline as "
             "the NEXT BEAT of a story readers already follow - advance it, don't just restate it.\n"
+            "- ACCURACY: headlines must describe the CURRENT state of a story truthfully. NEVER frame a "
+            "long-running or already-underway event as if it were just starting - avoid 'kicks off', "
+            "'begins', 'gets underway', 'season starts', 'launches', 'opens' for anything that has been "
+            "happening for a while (a primary season already in progress, an ongoing war or trial). Lead "
+            "instead with the specific latest development - a particular primary and its result, a named "
+            "candidate's move, a ruling - not a generic 'it's starting' framing.\n"
+            "- SPECIFIC SOURCE: the hero and every link must point to a specific news article about a "
+            "concrete development, NEVER a generic section front, topic hub, or 'live results/coverage' "
+            "landing page (e.g. a '/politics/2026-primary-elections/national' index). If the best candidate "
+            "for a subject is only a hub page, pick a real article about the latest development instead.\n"
             "- ODDITY: reserve at least 2-3 slots for offbeat, human-interest, crime-weird, celebrity, "
             "or science/religion curiosities - the surprising picks that give the page personality.\n"
             "- JUXTAPOSITION: deliberately vary tone and subject between adjacent items.\n"
@@ -2733,7 +2743,7 @@ def cloudflare_traffic(days=7):
 
 SUPPRESS = json.loads(r"""
 {
- "urls": [],
+ "urls": ["https://www.nbcnews.com/politics/2026-primary-elections/national"],
  "domains": [],
  "keywords": []
 }
