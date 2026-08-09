@@ -1,25 +1,46 @@
 {
-  "lastUpdated": 1786237587334,
-  "heroSetDate": "2026-08-09",
+  "lastUpdated": 1786283850387,
+  "heroSetDate": null,
   "hero": {
-    "headline": "PRIMARY VOTING KICKS OFF NATIONWIDE AS 2026 MIDTERM SEASON BEGINS",
-    "url": "https://www.nbcnews.com/politics/2026-primary-elections/national",
-    "sublinks": [
-      {
-        "text": "South Carolina Primary Reshaped By Senator's Sudden Death",
-        "url": "https://www.washingtontimes.com/news/2026/aug/8/south-carolina-awaits-major-change-grahams-death/"
-      },
-      {
-        "text": "Little-Known Candidate Leans On Family Name In South Carolina Race",
-        "url": "https://www.newsmax.com/newsfront/graham-south-carolina/2026/08/08/id/1265479/"
-      },
-      {
-        "text": "Poll Finds Voter Anxiety Running High Heading Into Midterms",
-        "url": "https://news.gallup.com/poll/712955/election-concerns-run-high-ahead-2026-midterms.aspx"
-      }
-    ]
+    "headline": "ICE Agents Arrest Several In Londonderry Operation",
+    "url": "https://vtdigger.org/2026/08/07/ice-agents-arrest-several-in-londonderry-operation/",
+    "sublinks": []
   },
   "groups": [
+    {
+      "title": "MICHIGAN PRIMARY FALLOUT: DEMOCRATS GRAPPLE WITH LEFT SURGE",
+      "stories": [
+        {
+          "headline": "Michigan, El-Sayed And A Reckoning For The Democrats",
+          "url": "https://www.realclearpolitics.com/2026/08/09/michigan_el-sayed_and_a_reckoning_for_the_democrats_707487.html",
+          "timestamp": 1786277749000,
+          "postedAt": 1786283850387
+        },
+        {
+          "headline": "The Democratic Party Is Being Hijacked",
+          "url": "https://www.realclearpolitics.com/2026/08/08/the_democratic_party_is_being_hijacked_707438.html",
+          "timestamp": 1786277749000,
+          "postedAt": 1786283850387
+        },
+        {
+          "headline": "The Meaning Of Haley Stevens' Defeat",
+          "url": "https://www.realclearpolitics.com/2026/08/09/the_meaning_of_haley_stevens_defeat_707486.html",
+          "timestamp": 1786277749000,
+          "postedAt": 1786283850387
+        }
+      ]
+    },
+    {
+      "title": "JUDGES DISMISS HIGH-PROFILE CASES",
+      "stories": [
+        {
+          "headline": "Judge Dismisses Former Olympian's Felony Charge In Reflecting Pool Case",
+          "url": "https://www.nytimes.com/2026/08/06/us/politics/reflecting-pool-david-hearn-trump.html",
+          "timestamp": 1786066300000,
+          "postedAt": 1786283850387
+        }
+      ]
+    },
     {
       "title": "SOUTH CAROLINA SENATE RACE TAKES SHAPE AFTER GRAHAM'S DEATH",
       "stories": [
@@ -44,12 +65,6 @@
           "headline": "Pirro, Trump's Longtime Champion, Is On The Outs Over Reflecting Pool Move",
           "url": "https://www.washingtonpost.com/national-security/2026/08/08/pirro-trumps-longtime-champion-is-outs-over-reflecting-pool-move/",
           "timestamp": 1786205873000,
-          "postedAt": 1786208761432
-        },
-        {
-          "headline": "Judge Dismisses Former Olympian's Felony Charge In Reflecting Pool Case",
-          "url": "https://www.nytimes.com/2026/08/06/us/politics/reflecting-pool-david-hearn-trump.html",
-          "timestamp": 1786066300000,
           "postedAt": 1786208761432
         }
       ]
@@ -240,6 +255,24 @@
   "columns": {
     "left": [
       {
+        "headline": "ICE Agents Arrest Several In Londonderry Operation",
+        "url": "https://vtdigger.org/2026/08/07/ice-agents-arrest-several-in-londonderry-operation/",
+        "timestamp": 1786129508000,
+        "postedAt": 1786283850387
+      },
+      {
+        "headline": "Next Senator From SC Will Not Be Like Lindsey Graham",
+        "url": "https://www.realclearpolitics.com/2026/08/09/next_senator_from_sc_will_not_be_like_lindsey_graham_707478.html",
+        "timestamp": 1786278111000,
+        "postedAt": 1786283850387
+      },
+      {
+        "headline": "Scott Presler Warns GOP Senators On SAVE America Act",
+        "url": "https://www.realclearpolitics.com/2026/08/09/scott_presler_warns_gop_senators_on_save_america_act_707479.html",
+        "timestamp": 1786277750000,
+        "postedAt": 1786283850387
+      },
+      {
         "headline": "University Where Charlie Kirk Was Assassinated Reportedly Cancels Memorial Plans",
         "url": "https://dailycaller.com/2026/08/08/utah-valley-university-report-cancels-turning-point-usa-memorial-planned-one-year-anniversary-shooting/",
         "timestamp": 1786235100000,
@@ -362,6 +395,12 @@
     ],
     "center": [
       {
+        "headline": "Pakistan Says New Defense Pact With Saudi Arabia And Turkey Is 'Purely Defensive'",
+        "url": "https://www.politico.com/news/2026/08/09/pakistan-says-new-defense-pact-with-saudi-arabia-and-turkey-is-purely-defensive-01030194",
+        "timestamp": 1786278720000,
+        "postedAt": 1786283850387
+      },
+      {
         "headline": "Hundreds Of Women And Children Freed From Forced Jihad In Hostage Rescue",
         "url": "https://www.dailywire.com/news/hundreds-of-women-and-children-freed-from-forced-jihad-in-massive-hostage-rescue?author",
         "timestamp": 1786234374000,
@@ -447,6 +486,18 @@
       }
     ],
     "right": [
+      {
+        "headline": "Female Police Officer Fired And Blacklisted Over Transgender Joke",
+        "url": "https://www.breitbart.com/europe/2026/08/09/female-police-officer-fired-and-blacklisted-over-transgender-joke/",
+        "timestamp": 1786280536000,
+        "postedAt": 1786283850387
+      },
+      {
+        "headline": "Why Canadian Separatists Love Trump",
+        "url": "https://www.politico.com/newsletters/politico-magazine/2026/08/09/why-canadian-separatists-love-trump-01028958",
+        "timestamp": 1786278600000,
+        "postedAt": 1786283850387
+      },
       {
         "headline": "Hunter Biden Says Joe Biden's Cancer Has Spread And Is 'Very Painful'",
         "url": "https://www.washingtonexaminer.com/news/white-house/4680287/joe-biden-cancer-spread-hunter-biden/",

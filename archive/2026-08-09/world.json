@@ -1,25 +1,80 @@
 {
-  "lastUpdated": 1786214439780,
-  "heroSetDate": "2026-08-08",
+  "lastUpdated": 1786283385574,
+  "heroSetDate": "2026-08-09",
   "hero": {
-    "headline": "SPAIN IMPOSES BORDER CHECKS ON ITALY AS MIGRATION CRISIS ESCALATES",
-    "url": "https://www.rfi.fr/en/international/20260808-spain-begins-border-checks-on-travellers-from-italy-amid-migration-showdown-europe",
+    "headline": "NETANYAHU REJECTS GAZA CEASEFIRE PLAN IN BREAK WITH TRUMP",
+    "url": "https://www.rfi.fr/en/middle-east/20260809-netanyahu-rejects-gaza-plan-in-new-break-from-trump",
     "sublinks": [
       {
-        "text": "Analysts assess how Spain's migrant surge tested EU border policy",
-        "url": "https://www.cfr.org/articles/spains-migration-surge-tests-eu-border-policy"
-      },
-      {
-        "text": "Critics say Europe risks repeating past migration mistakes",
-        "url": "https://theconversation.com/after-ceuta-europe-is-once-again-mired-in-migration-chaos-of-its-own-making-289017"
-      },
-      {
-        "text": "Some experts argue Europe's tougher borders are actually working",
-        "url": "https://www.realclearworld.com/2026/08/08/europes_borders_are_finally_working_1199236.html"
+        "text": "Israel's Rejection Comes After Hamas Had Already Accepted The US-Brokered Terms",
+        "url": "https://www.euronews.com/2026/08/09/israel-rejects-the-us-ceasefire-plan-for-gaza-accepted-by-hamas"
       }
     ]
   },
   "groups": [
+    {
+      "title": "RUSSIA-UKRAINE WAR: OVERNIGHT ESCALATION",
+      "stories": [
+        {
+          "headline": "13 Killed, 90 Injured In Overnight Russian Attacks Across Ukraine",
+          "url": "https://www.euronews.com/2026/08/09/13-killed-in-ukraine-and-90-injured-as-russia-intensifies-overnight-bombardment-campaign-o",
+          "timestamp": 1786282164000,
+          "postedAt": 1786283385574
+        },
+        {
+          "headline": "Zelenskiy Says Up To 50,000 North Korean Troops To Be Deployed In Russia",
+          "url": "https://www.reuters.com/world/asia-pacific/ukraines-zelenskiy-says-up-50000-north-korean-troops-be-deployed-russia-2026-08-09/",
+          "timestamp": 1786279664000,
+          "postedAt": 1786283385574
+        },
+        {
+          "headline": "Five Killed In Ukrainian Drone Attack On Belgorod, Russian Authorities Say",
+          "url": "https://www.reuters.com/world/europe/three-killed-ukrainian-drone-attack-belgorod-russian-authorities-say-2026-08-09/",
+          "timestamp": 1786278717000,
+          "postedAt": 1786283385574
+        },
+        {
+          "headline": "Senate Passes Russia Sanctions Bill Long Championed By Lindsey Graham",
+          "url": "https://www.npr.org/2026/08/07/nx-s1-5924914/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham",
+          "timestamp": 1786124020000,
+          "postedAt": 1786283385574
+        }
+      ]
+    },
+    {
+      "title": "IRAN STANDOFF: TRUMP SEARCHES FOR AN ENDGAME",
+      "stories": [
+        {
+          "headline": "Iran Rejects US Talks For Now As Wait For Hormuz Deal Drags On",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-09/wait-for-hormuz-deal-stretches-on-as-iran-says-terms-must-be-met",
+          "timestamp": 1786279440000,
+          "postedAt": 1786283385574
+        },
+        {
+          "headline": "Haunted By Hoover, Trump Searches For An Endgame In Iran",
+          "url": "https://www.npr.org/2026/08/09/nx-s1-5925960/trump-hoover-iran",
+          "timestamp": 1786279187000,
+          "postedAt": 1786283385574
+        }
+      ]
+    },
+    {
+      "title": "CHINA'S REGIONAL MANEUVERS",
+      "stories": [
+        {
+          "headline": "China-Australia Relations Reach 'Good Enough' Baseline, Ex-Envoy Says",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3363442/china-australia-relations-reach-good-enough-baseline-ex-envoy-says",
+          "timestamp": 1786278612000,
+          "postedAt": 1786283385574
+        },
+        {
+          "headline": "China Will Sell Its 5th-Generation Fighters To Pakistan",
+          "url": "https://www.realclearworld.com/articles/2026/08/07/china_will_sell_its_5th-generation_fighters_to_pakistan_1199064.html",
+          "timestamp": 1786105602000,
+          "postedAt": 1786283385574
+        }
+      ]
+    },
     {
       "title": "UKRAINE WAR ESCALATION",
       "stories": [
@@ -57,24 +112,12 @@
           "url": "https://www.aljazeera.com/news/2026/8/8/drones-spotted-in-bulgaria-and-germany-raise-concerns-of-russian-escalation",
           "timestamp": 1786203943000,
           "postedAt": 1786208312413
-        },
-        {
-          "headline": "Senate Passes Long-Sought Russia Sanctions Bill",
-          "url": "https://www.npr.org/2026/08/07/nx-s1-5924914/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham",
-          "timestamp": 1786124020000,
-          "postedAt": 1786208312413
         }
       ]
     },
     {
       "title": "IRAN WAR AFTERMATH: HORMUZ DIPLOMACY AND LINGERING COSTS",
       "stories": [
-        {
-          "headline": "Iran Says Hormuz Deal Close But Conditions Must Be Met",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-08/iran-says-hormuz-deal-close-but-that-its-conditions-must-be-met",
-          "timestamp": 1786204627000,
-          "postedAt": 1786208312413
-        },
         {
           "headline": "Travelling Through Iran Reveals No Single Narrative About The War",
           "url": "https://www.theguardian.com/world/2026/aug/08/iran-journey-israel-us-war",
@@ -109,12 +152,6 @@
     {
       "title": "CHINA EXPANDS MILITARY REACH ACROSS ASIA",
       "stories": [
-        {
-          "headline": "China Will Sell Its 5th-Generation Fighters To Pakistan",
-          "url": "https://www.realclearworld.com/articles/2026/08/07/china_will_sell_its_5th-generation_fighters_to_pakistan_1199064.html",
-          "timestamp": 1786105602000,
-          "postedAt": 1786208312413
-        },
         {
           "headline": "China's Window Is Closing, So Is Its Command Structure",
           "url": "https://www.realclearworld.com/articles/2026/08/06/chinas_window_is_closing_so_is_its_command_structure_1198787.html",
@@ -259,67 +296,34 @@
           "postedAt": 1786029048481
         }
       ]
-    },
-    {
-      "title": "RUSSIA-UKRAINE WAR",
-      "stories": [
-        {
-          "headline": "At Least 27 Killed As Russia And Ukraine Trade Heavy Attacks",
-          "url": "https://www.aljazeera.com/news/2026/8/3/more-than-10-killed-as-russia-and-ukraine-trade-heavy-attacks",
-          "timestamp": 1785820051000,
-          "postedAt": 1786029048481
-        },
-        {
-          "headline": "Oil Refinery In Russia's Yaroslavl On Fire After Ukrainian Drone Attack",
-          "url": "https://www.reuters.com/business/energy/oil-refinery-russias-yaroslavl-is-fire-after-ukrainian-drone-attack-governor-2026-08-06/",
-          "timestamp": 1786023983000,
-          "postedAt": 1786029048481
-        },
-        {
-          "headline": "Ukraine Fails To Halt Russian Barrage As Zelensky Blames Partners For 'Horrific Casualties'",
-          "url": "https://www.washingtonpost.com/world/2026/08/05/ukraine-fails-stop-russian-missile-barrage-after-zelensky-says-interceptors-gone/",
-          "timestamp": 1785967534000,
-          "postedAt": 1785968531412
-        },
-        {
-          "headline": "North Korean Missile Unit Deploys In Russia For Ukraine War, Kyiv Says",
-          "url": "https://www.reuters.com/business/aerospace-defense/north-korean-missile-unit-deploys-russia-ukraine-war-kyiv-says-2026-08-05/",
-          "timestamp": 1785902520000,
-          "postedAt": 1785968531412
-        }
-      ]
-    },
-    {
-      "title": "MIGRATION CRISIS AT CEUTA",
-      "stories": [
-        {
-          "headline": "EU Urged To Respond With 'Humanity And Solidarity' To Ceuta Situation",
-          "url": "https://www.amnesty.org/en/latest/news/2026/08/eu-european-leaders-must-respond-with-humanity-and-solidarity-to-the-situation-in-ceuta/",
-          "timestamp": 1785775259000,
-          "postedAt": 1785968531412
-        }
-      ]
-    },
-    {
-      "title": "RED SEA OIL SHOCK",
-      "stories": [
-        {
-          "headline": "Saudi Oil Tanker Attacked in Red Sea as War Risks Widen",
-          "url": "https://www.washingtonpost.com/world/2026/07/23/least-one-saudi-oil-tanker-is-attacked-red-sea-war-risks-widen/",
-          "timestamp": 1784804400000,
-          "postedAt": 1785968531412
-        },
-        {
-          "headline": "Experts Watch Red Sea Tankers for Clarity on Houthi Blockade",
-          "url": "https://www.aljazeera.com/economy/2026/7/24/as-oil-soars-experts-watch-red-sea-tankers-for-clarity-on-houthi-blockade",
-          "timestamp": 1784883600000,
-          "postedAt": 1785968531412
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Europe's Borders Are Finally Working",
+        "url": "https://www.realclearworld.com/2026/08/08/europes_borders_are_finally_working_1199236.html",
+        "timestamp": 1786195491000,
+        "postedAt": 1786283385574
+      },
+      {
+        "headline": "Whirling Like Dervishes In Turkey, But Open To Everyone",
+        "url": "https://www.nytimes.com/2026/08/08/world/europe/turkey-sema-whirling-dervish-islam.html",
+        "timestamp": 1786281005000,
+        "postedAt": 1786283385574
+      },
+      {
+        "headline": "Saudi Says Fire At Aramco Refinery In Jazan Was Extinguished",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-09/saudi-says-fire-at-aramco-refinery-in-jazan-was-extinguished-msl61cku",
+        "timestamp": 1786278507000,
+        "postedAt": 1786283385574
+      },
+      {
+        "headline": "France Faces Budget Showdown As Presidential Election Looms",
+        "url": "https://www.ft.com/content/0ac50644-398f-49ec-895d-a2494254dabd?syn-25a6b1a6",
+        "timestamp": 1786248063000,
+        "postedAt": 1786283385574
+      },
       {
         "headline": "Messi's Father Jorge Dies Aged 68 In Argentina",
         "url": "https://www.reuters.com/sports/soccer/father-soccer-star-lionel-messi-dies-68-argentina-2026-08-08/",
@@ -391,33 +395,33 @@
         "url": "https://www.npr.org/2026/08/06/g-s1-137317/sri-lanka-elephants",
         "timestamp": 1786025967000,
         "postedAt": 1786029048481
-      },
-      {
-        "headline": "Gianni Infantino Refuses To Resign But Issues Apology In Last-Ditch Survival Bid",
-        "url": "https://www.thetimes.com/sport/football/article/gianni-infantino-offers-morocco-world-cup-final-support-whn5gxp5b",
-        "timestamp": 1785965400000,
-        "postedAt": 1785968531412
-      },
-      {
-        "headline": "Trump Administration To Impose 15% Tariff In Polysilicon Probe Aimed At China",
-        "url": "https://www.reuters.com/world/china/trump-administration-impose-15-tariff-polysilicon-sources-say-2026-08-05/",
-        "timestamp": 1785963885000,
-        "postedAt": 1785968531412
-      },
-      {
-        "headline": "Some 40,000 Evacuated as Wildfire Rages in Southwest France",
-        "url": "https://www.france24.com/en/live-news/20260724-some-40-000-people-evacuated-due-to-wildfire-in-southwest-france-minister",
-        "timestamp": 1784887200000,
-        "postedAt": 1785968531412
-      },
-      {
-        "headline": "Trump's Latest Tariffs Blasted by EU, Brazil and Australia",
-        "url": "https://www.forbes.com/sites/siladityaray/2026/07/24/unjustified-eu-brazil-and-others-criticize-latest-trump-tariffs/",
-        "timestamp": 1784894400000,
-        "postedAt": 1785968531412
       }
     ],
     "center": [
+      {
+        "headline": "Party In The Dry Danube Riverbed: Many Call It A Natural Disaster",
+        "url": "https://www.euronews.com/2026/08/09/party-in-the-dry-danube-riverbed-many-call-it-a-natural-disaster",
+        "timestamp": 1786280221000,
+        "postedAt": 1786283385574
+      },
+      {
+        "headline": "Hundreds Evacuate Due To Fires In Huelva And Castellón",
+        "url": "https://www.euronews.com/my-europe/2026/08/09/fires-in-huelva-and-castellon-force-evacuation-of-hundreds-of-residents",
+        "timestamp": 1786279546000,
+        "postedAt": 1786283385574
+      },
+      {
+        "headline": "Cypriot Natural Gas Flowing To Europe In 2028, Says Cyprus Energy Minister",
+        "url": "https://www.euronews.com/my-europe/2026/08/09/cypriot-natural-gas-flowing-to-europe-in-2028-says-cyprus-energy-minister",
+        "timestamp": 1786278704000,
+        "postedAt": 1786283385574
+      },
+      {
+        "headline": "Pope Leo's Schedule For His Four-Day Apostolic Journey To France",
+        "url": "https://www.vaticannews.va/en/pope/news/2026-08/pope-leos-packed-schedule-4-day-apostolic-journey-to-france.html",
+        "timestamp": 1786106495000,
+        "postedAt": 1786283385574
+      },
       {
         "headline": "Inside Thailand's Deadly School Shooting",
         "url": "https://www.reuters.com/world/asia-pacific/mom-dont-call-me-inside-thailands-deadly-school-shooting-2026-08-08/",
@@ -428,12 +432,6 @@
         "headline": "Mosimane Set To Succeed Broos As South Africa Coach",
         "url": "https://www.rfi.fr/en/sports/20260808-mosimane-set-to-succeed-broos-as-south-africa-coach",
         "timestamp": 1786203491000,
-        "postedAt": 1786208312413
-      },
-      {
-        "headline": "Pope Leo Sets Schedule For Four-Day France Visit",
-        "url": "https://www.vaticannews.va/en/pope/news/2026-08/pope-leos-packed-schedule-4-day-apostolic-journey-to-france.html",
-        "timestamp": 1786106495000,
         "postedAt": 1786208312413
       },
       {
@@ -471,21 +469,27 @@
         "url": "https://www.bloomberg.com/news/articles/2026-08-06/deepseek-resumes-8-billion-round-with-monolith-in-the-running",
         "timestamp": 1786025210000,
         "postedAt": 1786029048481
-      },
-      {
-        "headline": "'Just An Easy Cash Grab': Jetstar Charges Customers For Carry-On Luggage",
-        "url": "https://www.theguardian.com/business/2026/aug/06/why-is-jetstar-charging-customers-for-carry-on-luggage",
-        "timestamp": 1785964620000,
-        "postedAt": 1785968531412
-      },
-      {
-        "headline": "Brazil 2026: Meet The Presidential Candidates",
-        "url": "https://americasquarterly.org/article/brazil-meet-the-candidates-2026/",
-        "timestamp": 1785754905000,
-        "postedAt": 1785968531412
       }
     ],
     "right": [
+      {
+        "headline": "Houthi Attacks On Yemen Kill 4 Government Troops",
+        "url": "https://www.arabnews.com/node/2653987/amp",
+        "timestamp": 1786278438000,
+        "postedAt": 1786283385574
+      },
+      {
+        "headline": "18th-Century Qur'an On Display At Makkah Museum",
+        "url": "https://www.arabnews.com/node/2653990/amp",
+        "timestamp": 1786278438000,
+        "postedAt": 1786283385574
+      },
+      {
+        "headline": "EU Lists Five Additional Individuals Supporting Russia's Military-Industrial Complex",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/08/07/russia-s-war-of-aggression-against-ukraine-eu-lists-five-additional-individuals-supporting-russia-s-military-industrial-complex/",
+        "timestamp": 1786098702000,
+        "postedAt": 1786283385574
+      },
       {
         "headline": "Demi Vollering Seizes Yellow Jersey At Tour De France Femmes",
         "url": "https://www.lemonde.fr/en/sports/article/2026/08/08/tour-de-france-femmes-demi-vollering-seizes-yellow-jersey-on-penultimate-day_6756298_9.html",
@@ -533,24 +537,6 @@
         "url": "https://www.cbsnews.com/news/saudis-netanyahu-trump-iran-war/",
         "timestamp": 1785438780000,
         "postedAt": 1786029048481
-      },
-      {
-        "headline": "Scientists Confirm Wayward SpaceX Rocket Slammed Into The Moon As Predicted",
-        "url": "https://apnews.com/article/spacex-rocket-moon-crash-elon-musk-d64a98138fd19241700461c87b49e201",
-        "timestamp": 1785967440000,
-        "postedAt": 1785968531412
-      },
-      {
-        "headline": "Indian Activist Wangchuk Ends 26-Day Hunger Strike",
-        "url": "https://www.usnews.com/news/world/articles/2026-07-23/indian-activist-wangchuk-ends-26-day-hunger-strike",
-        "timestamp": 1784811600000,
-        "postedAt": 1785968531412
-      },
-      {
-        "headline": "Mexican Mayor Shot Dead in Town Hall After Surviving Earlier Attempt",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-23/mexican-mayor-shot-dead-in-his-office-after-surviving-earlier-hit",
-        "timestamp": 1784772000000,
-        "postedAt": 1785968531412
       }
     ]
   }

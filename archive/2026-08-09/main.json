@@ -1,21 +1,80 @@
 {
-  "lastUpdated": 1786214107689,
-  "heroSetDate": "2026-08-08",
+  "lastUpdated": 1786283105194,
+  "heroSetDate": "2026-08-09",
   "hero": {
-    "headline": "INTEL: RUSSIA COULD ATTACK NATO IN WEEKS",
-    "url": "https://www.telegraph.co.uk/world-news/2026/08/07/russia-could-attack-nato-within-weeks-us-intelligence-warns/",
+    "headline": "IRAN SETS TERMS FOR REOPENING HORMUZ AS UAE SHIPS COME UNDER FIRE",
+    "url": "https://www.cnbc.com/2026/08/08/uae-ship-targeted-missile-us-iran-tensions-stay-high.html",
     "sublinks": [
       {
-        "text": "Pentagon Reshuffles Top European Command Amid Rising Tensions",
-        "url": "https://abcnews.com/Politics/story?id=135461842"
+        "text": "Iran signals it may walk away without a nuclear deal, undercutting Trump's victory plan",
+        "url": "https://www.wsj.com/world/middle-east/trump-strait-of-hormuz-opening-iran-negotiations-b6a43ad6"
       },
       {
-        "text": "Cyberattack Tied To Distant War Disrupts A Minnesota Town",
-        "url": "https://www.wsj.com/politics/national-security/the-cyberattack-that-brought-a-distant-war-to-small-town-minnesota-66451b93"
+        "text": "Top U.S. general privately pushes for a Middle East off-ramp",
+        "url": "https://www.cnn.com/2026/08/07/politics/general-dan-caine-off-ramp-iran-war"
+      },
+      {
+        "text": "U.S. has burned through nearly all its long-range precision missiles in the war",
+        "url": "https://www.reuters.com/world/us-has-used-virtually-all-its-long-range-precision-missiles-during-iran-war-2026-08-04/"
+      },
+      {
+        "text": "Trump searches for an Iran endgame, haunted by Hoover's ghost",
+        "url": "https://www.npr.org/2026/08/09/nx-s1-5925960/trump-hoover-iran"
       }
     ]
   },
   "groups": [
+    {
+      "title": "MIDEAST WAR FALLOUT",
+      "stories": [
+        {
+          "headline": "Netanyahu Rejects Trump's Gaza Peace Plan",
+          "url": "https://www.the-sun.com/news/16814950",
+          "timestamp": 1786282872469,
+          "postedAt": 1786283105194
+        },
+        {
+          "headline": "Inside Iran, Mixed Narratives Emerge About The US-Israel War",
+          "url": "https://www.theguardian.com/world/2026/aug/08/iran-journey-israel-us-war",
+          "timestamp": 1786233060000,
+          "postedAt": 1786283105194
+        }
+      ]
+    },
+    {
+      "title": "PREMIER LEAGUE TRANSFER MOVES",
+      "stories": [
+        {
+          "headline": "Fulham Agree £30m Fee For Southampton's Charles",
+          "url": "https://www.bbc.com/sport/football/articles/ce3qgzv43d3o",
+          "timestamp": 1786281010000,
+          "postedAt": 1786283105194
+        },
+        {
+          "headline": "Sevilla Close To Signing Scottish Striker Ure In £7.9m Deal",
+          "url": "https://www.bbc.com/sport/football/articles/c7vgj826nnjo",
+          "timestamp": 1786278544000,
+          "postedAt": 1786283105194
+        }
+      ]
+    },
+    {
+      "title": "RUSSIA'S WAR ESCALATES ACROSS EUROPE",
+      "stories": [
+        {
+          "headline": "Five Killed In Ukrainian Drone Attack On Belgorod, Russia Says",
+          "url": "https://www.reuters.com/world/europe/three-killed-ukrainian-drone-attack-belgorod-russian-authorities-say-2026-08-09/",
+          "timestamp": 1786278717000,
+          "postedAt": 1786283105194
+        },
+        {
+          "headline": "Ukraine's Odesa Port Sustains Damage From Russian Attack, Zelenskiy Says",
+          "url": "https://www.reuters.com/business/aerospace-defense/ukraines-odesa-port-sustains-damage-russian-attack-zelenskiy-says-2026-08-09/",
+          "timestamp": 1786278617000,
+          "postedAt": 1786283105194
+        }
+      ]
+    },
     {
       "title": "TRUMP WORLD IN TURMOIL",
       "stories": [
@@ -135,134 +194,38 @@
           "postedAt": 1786028830708
         }
       ]
-    },
-    {
-      "title": "2026 SENATE RACES HEAT UP",
-      "stories": [
-        {
-          "headline": "Hong Eyes Next Big Progressive Win In Wisconsin",
-          "url": "https://thehill.com/homenews/campaign/6008300-hong-wisconsin-democratic-socialist-primary-test/",
-          "timestamp": 1785961811216,
-          "postedAt": 1785968278337
-        },
-        {
-          "headline": "Talarico Leads Paxton In Texas Senate Race, New Poll Shows",
-          "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/08/04/558614/talarico-paxton-poll-senate-texas-southern-university-black-voters/",
-          "timestamp": 1785865364000,
-          "postedAt": 1785968278337
-        },
-        {
-          "headline": "Montana Democrats Roiled By Bankhead-Or-Bodnar Question",
-          "url": "https://montanafreepress.org/2026/08/03/democratic-party-weighs-legal-options-in-turbulent-senate-race/",
-          "timestamp": 1785802304000,
-          "postedAt": 1785968278337
-        },
-        {
-          "headline": "Nebraska Senate Race Tangled In Ballot Drama",
-          "url": "https://www.wowt.com/2026/07/31/election-2026-nebraska-senate-candidates-campaign-amid-unusual-controversies/",
-          "timestamp": 1785462900000,
-          "postedAt": 1785968278337
-        }
-      ]
-    },
-    {
-      "title": "ECONOMY ANXIETY DEEPENS",
-      "stories": [
-        {
-          "headline": "Corporate America Got Billions In Tariff Refunds. Where's Yours?",
-          "url": "https://finance.yahoo.com/economy/policy/articles/corporate-america-got-billions-dollars-090025387.html",
-          "timestamp": 1785961811216,
-          "postedAt": 1785968278337
-        },
-        {
-          "headline": "Social Security Insolvency Nears As Lawmakers Butt Heads",
-          "url": "https://www.washingtontimes.com/news/2026/aug/5/social-security-insolvency-automatic-benefit-cuts-draw-near-lawmakers/",
-          "timestamp": 1785960523000,
-          "postedAt": 1785968278337
-        },
-        {
-          "headline": "Inflation, Cost Of Living Top Voter Concerns, New Poll Finds",
-          "url": "https://today.marquette.edu/2026/08/new-marquette-law-school-poll-national-survey-finds-inflation-and-cost-of-living-the-most-important-issue-economy-next-most-important/",
-          "timestamp": 1785909843000,
-          "postedAt": 1785968278337
-        }
-      ]
-    },
-    {
-      "title": "MIDEAST WAR: HORMUZ DEAL TAKES SHAPE",
-      "stories": [
-        {
-          "headline": "Iran And US Say Strait Of Hormuz Deal Is Close",
-          "url": "https://apnews.com/article/iran-war-us-hormuz-trump-august-5-2026-ecdbd96f2b46c70beb5926d8508f9c55",
-          "timestamp": 1785959040000,
-          "postedAt": 1785968278337
-        }
-      ]
-    },
-    {
-      "title": "TRUMP ADMINISTRATION'S LEGAL BATTLES",
-      "stories": [
-        {
-          "headline": "25 States Sue Over Trump's Latest Tariffs",
-          "url": "https://www.pbs.org/newshour/politics/25-states-sue-over-trump-administrations-latest-tariffs-citing-supreme-court-ruling",
-          "timestamp": 1785790331000,
-          "postedAt": 1785968278337
-        },
-        {
-          "headline": "New Court Documents Expose Political Targeting Of Newsom",
-          "url": "https://www.gov.ca.gov/2026/07/29/new-court-documents-expose-trump-administrations-political-targeting-of-governor-newsom/",
-          "timestamp": 1785349706000,
-          "postedAt": 1785968278337
-        }
-      ]
-    },
-    {
-      "title": "IMMIGRATION CRACKDOWN INTENSIFIES",
-      "stories": [
-        {
-          "headline": "ICE Arrests Twice-Deported Criminal Tied To Marine's Death",
-          "url": "https://www.ice.gov/news/releases/ice-arrests-twice-deported-criminal-illegal-alien-prior-felony-hit-and-run-conviction",
-          "timestamp": 1785534723000,
-          "postedAt": 1785968278337
-        },
-        {
-          "headline": "ICE Arrests Surge At Airports, Opening New Front In Deportation Drive",
-          "url": "https://www.nytimes.com/2026/07/28/us/ice-arrests-airports-visa-overstay.html",
-          "timestamp": 1785222000000,
-          "postedAt": 1785968278337
-        }
-      ]
-    },
-    {
-      "title": "AI LEGAL FRONTIERS",
-      "stories": [
-        {
-          "headline": "Musk's XAI Sues Minnesota Over Ban On 'Nudification' Technology",
-          "url": "https://apnews.com/article/minnesota-artificial-intelligence-nudification-x-elon-musk-deepfake-131184be939d540de093b567b12c9e16",
-          "timestamp": 1785361080000,
-          "postedAt": 1785968278337
-        },
-        {
-          "headline": "Authors Torn Over $1.5B Anthropic Copyright Ruling",
-          "url": "https://www.npr.org/2026/07/27/nx-s1-5904606/anthropic-vs-bartz-ai-copyright-lawsuit-pros-cons",
-          "timestamp": 1785135600000,
-          "postedAt": 1785968278337
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
       {
+        "headline": "Josh Gottheimer: The Democratic Party Is Being Hijacked",
+        "url": "https://www.thefp.com/p/josh-gottheimer-the-democratic-party",
+        "timestamp": 1786280277000,
+        "postedAt": 1786283105194
+      },
+      {
+        "headline": "Biden In 'Debilitating' Pain As Prostate Cancer Spreads",
+        "url": "https://www.mediaite.com/media/news/joe-biden-in-debilitating-pain-as-hunter-biden-says-his-dads-prostate-cancer-has-spread/",
+        "timestamp": 1786282872469,
+        "postedAt": 1786283105194
+      },
+      {
+        "headline": "Mystery Deaths Surround Multiple Epstein Associates",
+        "url": "https://www.dailymail.com/news/article-16011083",
+        "timestamp": 1786282872469,
+        "postedAt": 1786283105194
+      },
+      {
+        "headline": "Florida Man Accused Of Killing Nurse Mom Who Tried To Help Him",
+        "url": "https://www.foxnews.com/us/florida-man-accused-killing-nurse-mom-helped-despite-repeated-arrests-threatening-sheriff",
+        "timestamp": 1786280401000,
+        "postedAt": 1786283105194
+      },
+      {
         "headline": "In Confirming Blanche, Senators Endorse DOJ Under Trump's Sway",
         "url": "https://www.nytimes.com/2026/08/08/us/politics/blanche-attorney-general-doj-trump-power.html?unlocked_article_code=1.31A.TnwI.AHhmmMaIQPHR&smid=url-share",
         "timestamp": 1786213810448,
-        "postedAt": 1786214107689
-      },
-      {
-        "headline": "Mystery Deaths Of Epstein's Associates Raise New Questions",
-        "url": "https://www.dailymail.com/news/article-16011083/Mystery-deaths-Epsteins-associates-multiple-friends-paedophile-tycoon-died-unusual-circumstances-fuelling-conspiracy-theories.html",
-        "timestamp": 1786213810447,
         "postedAt": 1786214107689
       },
       {
@@ -384,39 +347,27 @@
         "url": "https://www.theatlantic.com/health/2026/08/spokane-fires-evacation/688202/",
         "timestamp": 1786027241000,
         "postedAt": 1786028830708
-      },
-      {
-        "headline": "Inside Pirro's Oval Office Showdown With Fox News",
-        "url": "https://www.nytimes.com/2026/08/04/us/politics/trump-jeanine-pirro-showdown.html?unlocked_article_code=1.21A.sMAy.mLVZ8PdABg9D&smid=url-share",
-        "timestamp": 1785961811216,
-        "postedAt": 1785968278337
-      },
-      {
-        "headline": "Pentagon Draws Up New Nuke Strategy For War With Russia, China",
-        "url": "https://www.telegraph.co.uk/us/news/2026/08/05/pentagon-nuclear-weapons-strategy-war-russia-china/",
-        "timestamp": 1785961811216,
-        "postedAt": 1785968278337
-      },
-      {
-        "headline": "Woman Arrested At Reflecting Pool Details Toll Ordeal Has Taken",
-        "url": "https://www.washingtonpost.com/dc-md-va/2026/08/04/woman-recounts-reflecting-pool-arrest-says-she-was-humiliated/",
-        "timestamp": 1785961811216,
-        "postedAt": 1785968278337
-      },
-      {
-        "headline": "As Clergy Run As Democrats, Republicans Question Their Faith",
-        "url": "https://religionnews.com/2026/08/04/pastors-name-only-republican-attacks-democrat-pastors/",
-        "timestamp": 1785961811216,
-        "postedAt": 1785968278337
-      },
-      {
-        "headline": "Austria Hits Record Temperature As Europe Feels The Heat",
-        "url": "https://www.reuters.com/business/environment/albanian-firefighters-battle-blazes-southern-eastern-europe-feels-heat-2026-08-05/",
-        "timestamp": 1785959841000,
-        "postedAt": 1785968278337
       }
     ],
     "center": [
+      {
+        "headline": "Four Nations Join New Space Race Not Seen Since Cold War",
+        "url": "https://www.dailystar.co.uk/news/latest-news/space-race-between-rival-nations-37526841",
+        "timestamp": 1786282872469,
+        "postedAt": 1786283105194
+      },
+      {
+        "headline": "Female Police Officer Fired And Blacklisted Over Transgender Joke",
+        "url": "https://www.breitbart.com/europe/2026/08/09/female-police-officer-fired-and-blacklisted-over-transgender-joke/",
+        "timestamp": 1786280536000,
+        "postedAt": 1786283105194
+      },
+      {
+        "headline": "Miss North Carolina USA Pageant Producers Fire Back Over Faith Claims",
+        "url": "https://www.foxnews.com/us/miss-north-carolina-usa-pageant-producers-fire-back-winner-says-lost-title-faith",
+        "timestamp": 1786279136000,
+        "postedAt": 1786283105194
+      },
       {
         "headline": "Mysterious 'Cloaked UFO' Spotted Hiding Inside Cloud Over North America",
         "url": "https://www.dailymail.com/sciencetech/article-16031619/ufo-cloud-canmore-alberta.html",
@@ -506,39 +457,45 @@
         "url": "https://www.wsj.com/politics/policy/ice-surveillance-internet-critics-e3b22f49",
         "timestamp": 1786026641000,
         "postedAt": 1786028830708
-      },
-      {
-        "headline": "Exhaustion And Low Morale Plague USS Lincoln Crew Off Iran",
-        "url": "https://www.independent.co.uk/b3028162.html",
-        "timestamp": 1785968159883,
-        "postedAt": 1785968278337
-      },
-      {
-        "headline": "New Mexico Sues DOJ, Alleging Officials Blocked Epstein Probe",
-        "url": "https://www.nbcnews.com/news/rcna591015",
-        "timestamp": 1785961811216,
-        "postedAt": 1785968278337
-      },
-      {
-        "headline": "Inside The US-Ukraine Intel Rebound",
-        "url": "https://www.politico.com/newsletters/national-security-daily/2026/08/05/inside-the-us-ukraine-intel-rebound-01025642",
-        "timestamp": 1785960496000,
-        "postedAt": 1785968278337
-      },
-      {
-        "headline": "Tate McRae Faces Backlash For Refusing To Disavow 'MAGA' Label",
-        "url": "https://www.washingtontimes.com/news/2026/aug/5/tate-mcrae-faces-backlash-refusing-disavow-maga-label/",
-        "timestamp": 1785960028000,
-        "postedAt": 1785968278337
-      },
-      {
-        "headline": "Cambridge Professor Resigns Amid Plagiarism Row",
-        "url": "https://www.bbc.com/news/articles/c1e146jw618o",
-        "timestamp": 1785959156000,
-        "postedAt": 1785968278337
       }
     ],
     "right": [
+      {
+        "headline": "Don's Crypto Venture Took $100 Million From Businessman With Red Flags",
+        "url": "https://www.nytimes.com/2026/08/09/us/politics/bobby-zhou-trump-crypto.html?unlocked_article_code=1.4FA.AOK4.xLyAo_3bwclF&smid=url-share",
+        "timestamp": 1786282872470,
+        "postedAt": 1786283105194
+      },
+      {
+        "headline": "Greenland Issues 'Strong Warning' As Trump-Linked Oil Firm Prepares To Drill",
+        "url": "https://www.theguardian.com/world/2026/aug/08/greenland-iwarning-trump-linked-oil-firm-prepares-drill",
+        "timestamp": 1786282872470,
+        "postedAt": 1786283105194
+      },
+      {
+        "headline": "'Highlander' Star Christopher Lambert Collapses At Comic-Con",
+        "url": "https://pagesix.com/2026/08/09/celebrity-news/highlander-star-christopher-lambert-69-collapses-at-pittsburgh-comic-con/",
+        "timestamp": 1786282320000,
+        "postedAt": 1786283105194
+      },
+      {
+        "headline": "'Cookie Queens' Follows Girl Scouts' Six-Week Quest To Sell Cookies",
+        "url": "https://www.npr.org/2026/08/09/nx-s1-5845356/cookie-queens-follows-a-group-of-girl-scouts-in-their-six-week-quest-to-sell-cookies",
+        "timestamp": 1786281622000,
+        "postedAt": 1786283105194
+      },
+      {
+        "headline": "Nagasaki Marks 81st Atomic Bomb Anniversary",
+        "url": "https://www.politico.com/news/2026/08/09/nagasaki-marks-81st-atomic-bomb-anniversary-as-mayor-says-nuclear-deterrence-only-increases-risk-01030195",
+        "timestamp": 1786281300000,
+        "postedAt": 1786283105194
+      },
+      {
+        "headline": "Why Canadian Separatists Love Trump",
+        "url": "https://www.politico.com/newsletters/politico-magazine/2026/08/09/why-canadian-separatists-love-trump-01028958",
+        "timestamp": 1786278600000,
+        "postedAt": 1786283105194
+      },
       {
         "headline": "Spanish Mountain Village Braces For Astrotourists Ahead Of Total Eclipse",
         "url": "https://www.theguardian.com/world/2026/aug/08/spanish-mountain-village-braces-for-astrotourists-lured-by-total-solar-eclipse",
@@ -604,30 +561,6 @@
         "url": "https://notthebee.com/article/you-need-to-read-this-brits-horror-story-of-navigating-urgent-care-weekend-for-his-pregnant-wife-",
         "timestamp": 1786027272000,
         "postedAt": 1786028830708
-      },
-      {
-        "headline": "Goodbye To Right On Red Lights?",
-        "url": "https://www.the-sun.com/motors/16798901",
-        "timestamp": 1785968159883,
-        "postedAt": 1785968278337
-      },
-      {
-        "headline": "US Says It Has Only 43 Days Left Of Emergency Oil Reserves",
-        "url": "https://www.themirror.com/news/world-news/only-43-day-emergency-buffer-1969944",
-        "timestamp": 1785961811216,
-        "postedAt": 1785968278337
-      },
-      {
-        "headline": "As The Lights Go Out, Cuba's True Believers Celebrate The Revolution",
-        "url": "https://www.theguardian.com/world/2026/aug/05/cuba-true-believers-revolution-moncada",
-        "timestamp": 1785961811216,
-        "postedAt": 1785968278337
-      },
-      {
-        "headline": "TikTok Bans Perez Hilton's Account After Disturbing Livestream",
-        "url": "https://www.washingtontimes.com/news/2026/aug/5/perez-hilton-hospitalized-apparent-self-harm-livestream-banned-tiktok/",
-        "timestamp": 1785961316000,
-        "postedAt": 1785968278337
       }
     ]
   }
