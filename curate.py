@@ -2372,6 +2372,7 @@ def market_quotes():
 # scripts (with a browser UA). We show the current numbers and link every figure to
 # Ballotpedia. A live snapshot, refreshed each run and never retained like a story.
 BALLOTPEDIA_POLLS = "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating"
+RCP_APPROVAL = "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating"
 
 # Ballotpedia's Cloudflare challenges datacenter IPs (CI runners AND public proxies), so
 # the live fetch usually fails from the workflow even though a browser succeeds. When it
@@ -2379,8 +2380,8 @@ BALLOTPEDIA_POLLS = "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presid
 # numbers (linked to Ballotpedia for the current figures) instead of nothing. Refresh
 # these occasionally - approval averages move slowly, so they stay accurate for a while.
 POLL_FALLBACK = [
-    {"name": "Trump Approval", "value": "39%", "sub": "59% disapprove",
-     "url": BALLOTPEDIA_POLLS, "asOf": "Aug 7, 2026"},
+    {"name": "Trump Approval", "value": "39%", "sub": "58% disapprove",
+     "url": RCP_APPROVAL, "asOf": "Aug 7, 2026"},
     {"name": "Congress Approval", "value": "25%", "sub": "58% disapprove", "url": BALLOTPEDIA_POLLS},
     {"name": "Right Direction", "value": "30%", "sub": "61% wrong track", "url": BALLOTPEDIA_POLLS},
 ]
@@ -2402,14 +2403,22 @@ def _short_date(d):
 def _wikipedia_trump_approval():
     """(approve, disapprove, date) from Wikipedia's aggregators table, preferring the
     Ballotpedia row so the cited source stays consistent; else any current aggregator."""
-    try:
-        raw = _fetch_bytes(WIKI_APPROVAL, ua=BROWSER_UA, timeout=30).decode("utf-8", "ignore")
-    except Exception as e:
-        print("    wiki approval fetch failed:", str(e)[:80])
+    raw = None
+    for i in range(3):
+        try:
+            blob = _fetch_bytes(WIKI_APPROVAL, ua=BROWSER_UA, timeout=30).decode("utf-8", "ignore")
+            if blob and len(blob) > 20000:
+                raw = blob
+                break
+        except Exception as e:
+            print("    wiki approval fetch try %d failed: %s" % (i + 1, str(e)[:70]))
+        time.sleep(1.5 * (i + 1))
+    if not raw:
         return None
     txt = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", raw)))
     row = r"\s+([A-Z][a-z]+ \d{1,2}, 20\d\d)\s+(\d{2}(?:\.\d)?)%\s+(\d{2}(?:\.\d)?)%"
-    m = (re.search("Ballotpedia" + row, txt)
+    m = (re.search(r"Real Clear Politics" + row, txt)         # site's cited source
+         or re.search(r"Ballotpedia" + row, txt)
          or re.search(r"(?:VoteHub|Silver Bulletin|Race to the WH|The Economist)" + row, txt))
     if not m:
         return None
@@ -2425,8 +2434,8 @@ def _poll_backup(reason):
         appr, disappr, date = wa
         out[0] = {"name": "Trump Approval", "value": "%d%%" % round(float(appr)),
                   "sub": "%d%% disapprove" % round(float(disappr)),
-                  "url": BALLOTPEDIA_POLLS, "asOf": _short_date(date)}
-        STATUS["_polls"] = "approval live via Wikipedia; congress/direction fallback (%s)" % reason
+                  "url": RCP_APPROVAL, "asOf": _short_date(date)}
+        STATUS["_polls"] = "RCP approval live via Wikipedia; congress/direction fallback (%s)" % reason
     else:
         STATUS["_polls"] = "fallback (%s; Wikipedia backup also failed)" % reason
     return out
