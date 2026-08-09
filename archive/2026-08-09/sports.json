@@ -631,17 +631,17 @@
       "home": "PHI",
       "away": "TOR",
       "state": "in",
-      "note": "Top 7th",
+      "note": "End 8th",
       "homeScore": "4",
-      "awayScore": "2"
+      "awayScore": "4"
     },
     {
       "league": "MLB",
       "home": "PIT",
       "away": "NYM",
       "state": "in",
-      "note": "Bot 5th",
-      "homeScore": "8",
+      "note": "End 8th",
+      "homeScore": "9",
       "awayScore": "0"
     },
     {
@@ -649,8 +649,8 @@
       "home": "WSH",
       "away": "CIN",
       "state": "in",
-      "note": "Bot 6th",
-      "homeScore": "3",
+      "note": "Bot 8th",
+      "homeScore": "6",
       "awayScore": "2"
     },
     {
@@ -658,17 +658,17 @@
       "home": "KC",
       "away": "CHC",
       "state": "in",
-      "note": "End 4th",
+      "note": "Mid 7th",
       "homeScore": "4",
-      "awayScore": "2"
+      "awayScore": "3"
     },
     {
       "league": "MLB",
       "home": "MIL",
       "away": "MIN",
       "state": "in",
-      "note": "Mid 4th",
-      "homeScore": "1",
+      "note": "Mid 6th",
+      "homeScore": "3",
       "awayScore": "3"
     },
     {
@@ -676,7 +676,7 @@
       "home": "TEX",
       "away": "BAL",
       "state": "in",
-      "note": "Mid 4th",
+      "note": "Bot 6th",
       "homeScore": "2",
       "awayScore": "1"
     },
@@ -685,9 +685,9 @@
       "home": "CHW",
       "away": "CLE",
       "state": "in",
-      "note": "Top 3rd",
+      "note": "Top 6th",
       "homeScore": "0",
-      "awayScore": "0"
+      "awayScore": "2"
     },
     {
       "league": "NFL",

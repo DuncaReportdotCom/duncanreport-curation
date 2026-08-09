@@ -627,10 +627,10 @@
     },
     {
       "name": "Bitcoin",
-      "value": "$64,903.91",
-      "change": "-4.57",
-      "changePct": "-0.01%",
-      "up": false,
+      "value": "$64,938.49",
+      "change": "+30.01",
+      "changePct": "+0.05%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     }
   ]

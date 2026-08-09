@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786234923013,
+  "lastUpdated": 1786237587334,
   "heroSetDate": "2026-08-09",
   "hero": {
     "headline": "PRIMARY VOTING KICKS OFF NATIONWIDE AS 2026 MIDTERM SEASON BEGINS",
@@ -16,16 +16,6 @@
       {
         "text": "Poll Finds Voter Anxiety Running High Heading Into Midterms",
         "url": "https://news.gallup.com/poll/712955/election-concerns-run-high-ahead-2026-midterms.aspx"
-      }
-    ],
-    "liveUpdates": [
-      {
-        "source": "PBS",
-        "url": "https://www.pbs.org/newshour/politics/live-results-michigan-midterm-primaries"
-      },
-      {
-        "source": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/6017790-live-results-progressives-seek-another-upset-in-hawaiis-congressional-races/"
       }
     ]
   },
@@ -250,6 +240,12 @@
   "columns": {
     "left": [
       {
+        "headline": "University Where Charlie Kirk Was Assassinated Reportedly Cancels Memorial Plans",
+        "url": "https://dailycaller.com/2026/08/08/utah-valley-university-report-cancels-turning-point-usa-memorial-planned-one-year-anniversary-shooting/",
+        "timestamp": 1786235100000,
+        "postedAt": 1786237587334
+      },
+      {
         "headline": "Amid Strait Of Hormuz Talks, Iran Publishes List Of Demands For US",
         "url": "https://thehill.com/policy/international/6018858-iran-demands-us-hormuz-negotiations/",
         "timestamp": 1786228260000,
@@ -452,6 +448,12 @@
     ],
     "right": [
       {
+        "headline": "Hunter Biden Says Joe Biden's Cancer Has Spread And Is 'Very Painful'",
+        "url": "https://www.washingtonexaminer.com/news/white-house/4680287/joe-biden-cancer-spread-hunter-biden/",
+        "timestamp": 1786226220000,
+        "postedAt": 1786237587334
+      },
+      {
         "headline": "Blue City Forced To Dump Haitian Employees After TPS Ruling",
         "url": "https://dailycaller.com/2026/08/08/zohran-mamdani-new-york-city-forced-fire-dozens-haitian-employees-court-ruling-ends-temporary-protected-status/",
         "timestamp": 1786224900000,
@@ -517,8 +519,8 @@
     {
       "name": "Trump Approval",
       "value": "39%",
-      "sub": "59% disapprove",
-      "url": "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating",
+      "sub": "58% disapprove",
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
       "asOf": "Aug 7, 2026"
     },
     {
