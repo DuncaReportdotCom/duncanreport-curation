@@ -1,0 +1,637 @@
+{
+  "lastUpdated": 1786214722225,
+  "heroSetDate": "2026-08-08",
+  "hero": {
+    "headline": "STOCKS RALLY TO RECORD HIGHS AS BULLS TAKE CHARGE, BERKSHIRE TOPS FORECASTS",
+    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/",
+    "sublinks": [
+      {
+        "text": "Amazon Tops $3 Trillion Market Cap After Blowout Earnings",
+        "url": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html"
+      },
+      {
+        "text": "Microsoft Shares Soar On Strong Cloud And AI Growth",
+        "url": "https://abcnews.com/Business/microsoft-stock-soaring/story?id"
+      },
+      {
+        "text": "Record Rally Tied To Efforts To Rescue The Japanese Yen",
+        "url": "https://www.nytimes.com/2026/08/05/business/stock-market-yen-ai.html"
+      },
+      {
+        "text": "AI Profits And Easing Oil Prices Fuel The Broader Surge",
+        "url": "https://www.theguardian.com/business/2026/aug/04/stock-market-records-ai-profits-oil-prices-ease"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "title": "AI BUSINESS: THE NEXT FRONTIER",
+      "stories": [
+        {
+          "headline": "Lessons From Chinese AI Development",
+          "url": "https://www.economist.com/weeklyedition/2026-08-08",
+          "timestamp": 1786206661000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "Musk's AI Company Joins Fight To Strip Citizens Of Power To Sue",
+          "url": "https://fortune.com/2026/08/08/lazarus-26-years-citizen-suits-musk-xai/",
+          "timestamp": 1786204200000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "Zuckerberg Articulates The Brilliant AI Future Ahead",
+          "url": "https://www.realclearmarkets.com/articles/2026/07/31/mark_zuckerberg_articulates_the_brilliant_ai_future_ahead_1197561.html",
+          "timestamp": 1785481200000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "OIL AND ENERGY: GEOPOLITICAL RISK EASES",
+      "stories": [
+        {
+          "headline": "Iran Says Hormuz Deal Is Close But Conditions Must Be Met",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-08/iran-says-hormuz-deal-close-but-that-its-conditions-must-be-met",
+          "timestamp": 1786204627000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "US Declared An Energy Emergency, Then Paid $4 Billion For Less Energy",
+          "url": "https://www.forbes.com/sites/we-dont-have-time/2026/08/08/us-declared-an-energy-emergency-then-paid-4-billion-for-less-energy/",
+          "timestamp": 1786201990000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "US Says Ukraine Will Avoid Targeting Tankers And Black Sea Oil Site",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-08/us-says-ukraine-to-avoid-targeting-tankers-black-sea-oil-site",
+          "timestamp": 1786201710000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "OPEC And Allies Increase Oil Output For Sixth Month In A Row",
+          "url": "https://www.wsj.com/business/energy-oil/opec-allies-increase-oil-output-for-sixth-time-in-a-row-e56378d9",
+          "timestamp": 1785671820000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "LABOR MARKET SHIFTS BENEATH THE HEADLINES",
+      "stories": [
+        {
+          "headline": "US Workforce Has Shrunk By Over 1 Million In The Past Year",
+          "url": "https://www.marketwatch.com/story/the-size-of-the-american-workforce-has-fallen-by-over-1-million-people-in-the-past-year-heres-whats-going-on-b8141aa3",
+          "timestamp": 1786203780000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "A Soft Jobs Headline Hides An Industrial Turn",
+          "url": "https://www.realclearmarkets.com/articles/2026/08/07/a_soft_jobs_headline_hides_an_industrial_turn_1199125.html",
+          "timestamp": 1786116830000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "FED HOLDS RATES, MARKETS ADJUST",
+      "stories": [
+        {
+          "headline": "Risk Assets Gain Traction As Interest Rate Uncertainty Persists",
+          "url": "https://www.cnbc.com/2026/08/08/rate-uncertainty-sparking-demand-for-clo-exposure-among-etfs-vettafi.html",
+          "timestamp": 1786201201000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "Fed Leaves Rates Unchanged Despite Three Dissenting Votes For Increase",
+          "url": "https://apnews.com/article/federal-reserve-inflation-interest-rates-iran-war-ad10c177cb8d96f9e3ed122e12352a74",
+          "timestamp": 1785308400000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "TRADE POLICY: TARIFFS AND DATA",
+      "stories": [
+        {
+          "headline": "Trump To Impose 15% Tariff, Set Minimum Prices On Solar Panels",
+          "url": "https://www.wsj.com/economy/trade/trump-to-impose-15-tariff-set-minimum-prices-on-solar-panels-and-components-dd7cd9d9",
+          "timestamp": 1786200455000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "The June Trade Report Is A Welcome Movement In The Right Direction",
+          "url": "https://www.realclearmarkets.com/articles/2026/08/04/the_june_trade_report_is_a_welcome_movement_in_the_right_direction_1198377.html",
+          "timestamp": 1785852678000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "BIG TECH EARNINGS LIFT MARKET SENTIMENT",
+      "stories": [
+        {
+          "headline": "Nvidia Stock Looks Surprisingly Undervalued After Pullback",
+          "url": "https://global.morningstar.com/en-ca/stocks/nvidia-stock-this-onetime-market-darling-is-now-surprisingly-undervalued",
+          "timestamp": 1785924358000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "Dow Futures Rise As Trump Comments Spark Rally, Palantir Soars On Earnings",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-stock-market-rally-palantir-earnings-spacex-on-deck/",
+          "timestamp": 1785811500000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "CRYPTO MARKETS SWING ON STRATEGY SALE PLANS",
+      "stories": [
+        {
+          "headline": "Bitcoin Price Rises As Coldcard Exploit And Strategy Sale Fears Recede",
+          "url": "https://www.coindesk.com/markets/2026/08/04/bitcoin-rises-toward-usd64-000-as-coldcard-exploit-strategy-sales-recede-ada-advances",
+          "timestamp": 1785857829000,
+          "postedAt": 1786208566386
+        },
+        {
+          "headline": "Bitcoin Slides As Strategy Plans Up To $5 Billion In Crypto Sales",
+          "url": "https://www.investors.com/news/bitcoin-price-falls-strategy-5-billion-crypto-sales-q2-earnings/",
+          "timestamp": 1785509580000,
+          "postedAt": 1786208566386
+        }
+      ]
+    },
+    {
+      "title": "BIG TECH EARNINGS SEASON",
+      "stories": [
+        {
+          "headline": "Nvidia Stock: AMD Just Ramped Up The AI Chip Battle",
+          "url": "https://www.barrons.com/articles/nvidia-stock-price-amd-aba755e9",
+          "timestamp": 1786108800000,
+          "postedAt": 1786112370556
+        },
+        {
+          "headline": "Google Stock Drops Amid DeepMind Leadership Shake-Up",
+          "url": "https://finance.yahoo.com/technology/article/google-stock-drops-amid-deepmind-leadership-shake-up-170219204.html",
+          "timestamp": 1785949339000,
+          "postedAt": 1786112370556
+        },
+        {
+          "headline": "Amazon Tops $3 Trillion Market Cap As Stock Extends Post-Earnings Surge",
+          "url": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html",
+          "timestamp": 1785769510000,
+          "postedAt": 1786112370556
+        },
+        {
+          "headline": "Why Is Microsoft Stock Soaring?",
+          "url": "https://abcnews.com/Business/microsoft-stock-soaring/story?id",
+          "timestamp": 1785527567000,
+          "postedAt": 1786112370556
+        }
+      ]
+    },
+    {
+      "title": "STOCK MARKET RECORD RUN",
+      "stories": [
+        {
+          "headline": "US Stock Market Hits Record Highs As AI Profits Pile And Oil Eases",
+          "url": "https://www.theguardian.com/business/2026/aug/04/stock-market-records-ai-profits-oil-prices-ease",
+          "timestamp": 1785880980000,
+          "postedAt": 1786112370556
+        },
+        {
+          "headline": "The S&P 500 Is Back At A Record High And The Dow Just Hit 54,000",
+          "url": "https://www.cnn.com/2026/08/04/investing/us-stock-market",
+          "timestamp": 1785850949000,
+          "postedAt": 1786112370556
+        }
+      ]
+    },
+    {
+      "title": "AI FUNDING AND POLITICS COLLIDE",
+      "stories": [
+        {
+          "headline": "Trump's Tech Ties Face Bipartisan Fire After AI Agents Go Rogue",
+          "url": "https://www.reuters.com/legal/litigation/trumps-tech-ties-blamed-ai-inaction-by-maga-republicans-democrats-2026-08-06/",
+          "timestamp": 1786026308000,
+          "postedAt": 1786029224314
+        },
+        {
+          "headline": "DeepSeek Resumes $8 Billion Funding Round With Monolith In The Running",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/deepseek-resumes-8-billion-round-with-monolith-in-the-running",
+          "timestamp": 1786025210000,
+          "postedAt": 1786029224314
+        }
+      ]
+    },
+    {
+      "title": "LABOR MARKET HOLDS STEADY",
+      "stories": [
+        {
+          "headline": "US Labor Market Stable As Worker Productivity Accelerates",
+          "url": "https://www.reuters.com/legal/litigation/us-weekly-jobless-claims-edge-up-planned-layoffs-decline-july-2026-08-06/",
+          "timestamp": 1786025883000,
+          "postedAt": 1786029224314
+        },
+        {
+          "headline": "Layoffs Fall To Lowest Level Since The Moon Landing",
+          "url": "https://www.marketwatch.com/story/layoffs-fall-to-the-lowest-level-since-the-u-s-put-men-on-the-moon-heres-what-that-says-about-the-economy-71f7bd23",
+          "timestamp": 1786024980000,
+          "postedAt": 1786029224314
+        }
+      ]
+    },
+    {
+      "title": "CHIP STOCKS STUMBLE ON AI-SPENDING JITTERS",
+      "stories": [
+        {
+          "headline": "Western Digital Stock Tanks Despite Earnings Beat",
+          "url": "https://www.barrons.com/articles/western-digital-wdc-earnings-stock-price-2ecd5ae3",
+          "timestamp": 1786025400000,
+          "postedAt": 1786029224314
+        },
+        {
+          "headline": "Micron Stock Falls As Memory-Chip Rally Takes Another Hit",
+          "url": "https://www.barrons.com/articles/micron-stock-memory-chip-73cdf24e",
+          "timestamp": 1786024920000,
+          "postedAt": 1786029224314
+        }
+      ]
+    },
+    {
+      "title": "MEMORY CHIP SELLOFF",
+      "stories": [
+        {
+          "headline": "Micron Retreats After Musk Flags Surging Memory Prices",
+          "url": "https://www.barrons.com/articles/micron-stock-price-memory-chips-9685ac02",
+          "timestamp": 1785965280000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "Sandisk Stock Falls As Forecast Disappoints Investors",
+          "url": "https://www.marketwatch.com/story/sandisks-stock-falls-as-the-companys-forecast-doesnt-live-up-to-high-expectations-8fd13d9b",
+          "timestamp": 1785963240000,
+          "postedAt": 1785968704143
+        }
+      ]
+    },
+    {
+      "title": "EARNINGS SEASON MOVERS",
+      "stories": [
+        {
+          "headline": "AppLovin Stock Sinks On Soft Earnings",
+          "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-eaafd6d3",
+          "timestamp": 1785963480000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "Eli Lilly Revenue Soars 48% On GLP-1 Demand",
+          "url": "https://www.marketwatch.com/story/lillys-revenue-soars-48-driven-by-demand-of-its-glp-1s-7361c223",
+          "timestamp": 1785962700000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "CVS Health Raises Outlook, But Stock Still Falls",
+          "url": "https://www.barrons.com/articles/cvs-health-earnings-stock-price-1def6b9c",
+          "timestamp": 1785962460000,
+          "postedAt": 1785968704143
+        }
+      ]
+    },
+    {
+      "title": "MARKETS SELL OFF ON AI SPENDING AND OIL",
+      "stories": [
+        {
+          "headline": "Dow Drops 500 Points as Brent Surges Above $100",
+          "url": "https://www.cnbc.com/2026/07/22/stock-market-today-live-updates.html",
+          "timestamp": 1784750400000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "Alphabet Q2 Beats but Stock Sinks on $200B Capex Hike",
+          "url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html",
+          "timestamp": 1784754000000,
+          "postedAt": 1785968704143
+        },
+        {
+          "headline": "Tesla Q2 Revenue Beats, Profit Misses; Stock Tumbles 14.5%",
+          "url": "https://electrek.co/2026/07/22/tesla-tsla-q2-2026-financial-results/",
+          "timestamp": 1784755800000,
+          "postedAt": 1785968704143
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Airlines Really Don't Want You to Buy Their Cheapest Tickets",
+        "url": "https://www.wsj.com/lifestyle/travel/airlines-really-dont-want-you-to-buy-their-cheapest-tickets-73048e0a",
+        "timestamp": 1786211693000,
+        "postedAt": 1786214722225
+      },
+      {
+        "headline": "Are Target Date Funds Aggressive Enough to Give Americans Retirement Savings That Last Their Lifetimes?",
+        "url": "https://www.marketwatch.com/story/are-target-date-funds-hurting-americans-as-they-live-longer-929f4f92",
+        "timestamp": 1786211880000,
+        "postedAt": 1786214722225
+      },
+      {
+        "headline": "Current Refi Mortgage Rates Report For Aug. 10, 2026",
+        "url": "https://fortune.com/article/current-refi-mortgage-rates-08-10-2026/",
+        "timestamp": 1786205403000,
+        "postedAt": 1786208566386
+      },
+      {
+        "headline": "Nvidia Sets Conference Call For Second-Quarter Financial Results",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+        "timestamp": 1785308400000,
+        "postedAt": 1786208566386
+      },
+      {
+        "headline": "AI Just Went Rogue Again: This Time It Turned To Deception",
+        "url": "https://www.wsj.com/tech/ai/ai-just-went-rogue-again-this-time-it-turned-to-deception-ae68de09",
+        "timestamp": 1786110827000,
+        "postedAt": 1786112370556
+      },
+      {
+        "headline": "Texas Economic Boom: How AI, Oil, And 'Y'all Street' Are Fueling Historic Growth",
+        "url": "https://www.barrons.com/articles/texas-boom-yall-street-water-crisis-18860b3e",
+        "timestamp": 1786109400000,
+        "postedAt": 1786112370556
+      },
+      {
+        "headline": "SpaceX Stock Lands Upgrade, Rocket Lab Surges After Electron Mission",
+        "url": "https://www.investors.com/news/spacex-stock-upgrade-buy-ai-expenditure-repayment-rocket-lab-stock-electron-mission-rklb/",
+        "timestamp": 1786107300000,
+        "postedAt": 1786112370556
+      },
+      {
+        "headline": "Chinese Robot Maker To IPO At $9 Billion, Rivaling Tesla's Optimus",
+        "url": "https://www.investors.com/news/tesla-optimus-unitree-humanoid-robot-ai-tech/",
+        "timestamp": 1786046400000,
+        "postedAt": 1786047396813
+      },
+      {
+        "headline": "FAA Investigates Marine One Safety Incident In Washington",
+        "url": "https://www.wsj.com/politics/national-security/faa-investigates-marine-one-safety-incident-in-washington-e95d6ed2",
+        "timestamp": 1786046867000,
+        "postedAt": 1786047396813
+      },
+      {
+        "headline": "How Median Net Worth For Americans Ages 55-64 Compares",
+        "url": "https://www.investopedia.com/how-the-median-net-worth-for-americans-ages-55-64-compares-according-to-federal-reserve-data-12027928",
+        "timestamp": 1786045090000,
+        "postedAt": 1786047396813
+      },
+      {
+        "headline": "S&P 500 Flat As Chip And Software Weakness Offsets Gains",
+        "url": "https://www.reuters.com/business/retail-consumer/sp-500-dow-futures-steady-mideast-deal-focus-chips-stumble-2026-08-06/",
+        "timestamp": 1786025357000,
+        "postedAt": 1786029224314
+      },
+      {
+        "headline": "Calls Grow For Student Loan Payment Pause As Problems Multiply",
+        "url": "https://www.forbes.com/sites/adamminsky/2026/08/06/calls-grow-for-payment-pause-on-student-loans-as-problems-multiply/",
+        "timestamp": 1786026952000,
+        "postedAt": 1786029224314
+      },
+      {
+        "headline": "Albemarle Earnings Jump 3,300% On Commodity Prices",
+        "url": "https://www.barrons.com/articles/albemarle-earnings-stock-price-79559752",
+        "timestamp": 1786026240000,
+        "postedAt": 1786029224314
+      },
+      {
+        "headline": "Bonds And Dollar Weighed Down By Washington Policy Decisions",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-08-06/bonds-dollar-weighed-down-by-washington-policy-decisions",
+        "timestamp": 1786025910000,
+        "postedAt": 1786029224314
+      },
+      {
+        "headline": "Etsy To Cut 12% Of Workforce As It Simplifies Operations",
+        "url": "https://www.barrons.com/articles/etsy-earnings-stock-price-75ee916a",
+        "timestamp": 1785967920000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Equifax Customers Have Weeks Left To Claim Part Of $2.2 Million Settlement",
+        "url": "https://www.investopedia.com/equifax-customers-have-less-than-a-month-to-claim-part-of-a-usd2-million-settlement-here-is-who-qualifies-12034869",
+        "timestamp": 1785964747000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "IonQ Kicks Off Quantum Earnings Season As Revenue Nearly Quadruples",
+        "url": "https://www.barrons.com/articles/ionq-earnings-stock-price-f61c493a",
+        "timestamp": 1785963600000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Brent Crude Crosses $100 After Tankers Struck Off Saudi Arabia",
+        "url": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html",
+        "timestamp": 1784808000000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Intel Q2 Beats: Revenue Up 25% to $16.1B; Shares Jump 12%",
+        "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262050823-intel-earnings-report-q2-2026-intc-ai-data-center-intel-foundry-tradingkey",
+        "timestamp": 1784844000000,
+        "postedAt": 1785968704143
+      }
+    ],
+    "center": [
+      {
+        "headline": "My Brother Asked Me To Sign As His Executor, But Wouldn't Let Me Read The Document",
+        "url": "https://www.marketwatch.com/story/my-brother-asked-me-to-sign-as-his-executor-but-wouldnt-let-me-read-the-document-should-i-have-refused-1b53d9bc",
+        "timestamp": 1786204800000,
+        "postedAt": 1786208566386
+      },
+      {
+        "headline": "Federal Funds Rate History, 1990 To 2026",
+        "url": "https://www.forbes.com/advisor/investing/fed-funds-rate-history-1/",
+        "timestamp": 1785308400000,
+        "postedAt": 1786208566386
+      },
+      {
+        "headline": "Copper Market Crunch Brews As US And China Compete For Metal",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-07/copper-market-crunch-brews-as-us-and-china-compete-for-metal",
+        "timestamp": 1786107772000,
+        "postedAt": 1786112370556
+      },
+      {
+        "headline": "You're Not A Failure If You Don't Own A Home",
+        "url": "https://www.realclearmarkets.com/articles/2026/08/04/youre_not_a_failure_if_you_dont_own_a_home_1197802.html",
+        "timestamp": 1785798613000,
+        "postedAt": 1786112370556
+      },
+      {
+        "headline": "Gold Pares Gains As Oil Rises On Iran Proposal To Bar Vessels In Hormuz",
+        "url": "https://www.reuters.com/world/india/gold-touches-seven-week-high-strait-hormuz-reopening-hopes-2026-08-06/",
+        "timestamp": 1786044642000,
+        "postedAt": 1786047396813
+      },
+      {
+        "headline": "Zillow Stock Falls After Surprise Quarterly Loss",
+        "url": "https://www.barrons.com/articles/zillow-earnings-stock-price-0a245310",
+        "timestamp": 1786025280000,
+        "postedAt": 1786029224314
+      },
+      {
+        "headline": "Iran Stakes Everything On Controlling The Strait Of Hormuz",
+        "url": "https://www.wsj.com/world/middle-east/iran-strait-of-hormuz-trump-talks-ec566cd7",
+        "timestamp": 1786026599000,
+        "postedAt": 1786029224314
+      },
+      {
+        "headline": "Apollo Agrees To Buy EasyJet In $7.7 Billion Deal",
+        "url": "https://www.cnbc.com/2026/08/06/easyjet-apollo-castlelake-private-equity-budget-airline.html",
+        "timestamp": 1786026010000,
+        "postedAt": 1786029224314
+      },
+      {
+        "headline": "Joby Stock Pops As Air-Taxi Sales Jump In Earnings Report",
+        "url": "https://www.barrons.com/articles/joby-aviation-earnings-stock-price-7e38534b",
+        "timestamp": 1786025940000,
+        "postedAt": 1786029224314
+      },
+      {
+        "headline": "Ken Griffin Isn't Ready To Give Up On New York After Tax Fight",
+        "url": "https://fortune.com/2026/08/05/ken-griffin-citadel-zohran-mamdani-new-york-tax/",
+        "timestamp": 1785964080000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Major Wall Street Firms Targeted In Attempted Cyberattacks",
+        "url": "https://www.reuters.com/legal/government/major-wall-street-hedge-funds-targeted-attempted-cyberattacks-bloomberg-news-2026-08-05/",
+        "timestamp": 1785962265000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Wall Street Rebounds Friday as Oil Falls on U.S.-Iran Talk Hopes",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-24-dow-sp-500-nasdaq-081854465.html",
+        "timestamp": 1784898000000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "10-Year Treasury Yield Climbs to 4.71%, Highest Since January 2025",
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-24-2026-crypto-prices-retreat-on-higher-us-treasury-yields-152200068.html",
+        "timestamp": 1784836800000,
+        "postedAt": 1785968704143
+      }
+    ],
+    "right": [
+      {
+        "headline": "6 Best Big Cities for Retirement: Top Financial and Lifestyle Benefits for Retirees",
+        "url": "https://www.investopedia.com/6-best-big-cities-for-retirement-top-financial-and-lifestyle-benefits-for-retirees-12027934",
+        "timestamp": 1786212300000,
+        "postedAt": 1786214722225
+      },
+      {
+        "headline": "XRP Price Prediction: Where Will It Be By Late 2027?",
+        "url": "https://www.fool.com/investing/2026/08/08/prediction-this-will-be-the-cryptocurrency-xrps-pr/",
+        "timestamp": 1786204800000,
+        "postedAt": 1786208566386
+      },
+      {
+        "headline": "Paying Down The National Debt Will Not Shrink The National Debt",
+        "url": "https://www.realclearmarkets.com/articles/2026/08/04/paying_down_the_national_debt_will_not_shrink_the_national_debt_1197901.html",
+        "timestamp": 1785830876000,
+        "postedAt": 1786112370556
+      },
+      {
+        "headline": "He Spent Billions Reviving Downtown Detroit, Now Eyes Its Skyline",
+        "url": "https://www.wsj.com/real-estate/he-spent-billions-reviving-downtown-detroit-now-he-wants-to-remake-its-skyline-17f83a82",
+        "timestamp": 1786046514000,
+        "postedAt": 1786047396813
+      },
+      {
+        "headline": "FDA Approval Of Moderna's mRNA Flu Vaccine Is Great News",
+        "url": "https://www.forbes.com/sites/arthurkellermann/2026/08/06/fda-approval-of-modernas-mrna-flu-vaccine-is-great-news-heres-why/",
+        "timestamp": 1786046043000,
+        "postedAt": 1786047396813
+      },
+      {
+        "headline": "Burger King Turnaround Powers Restaurant Brands' Profit",
+        "url": "https://www.wsj.com/business/earnings/restaurant-brands-international-profit-rises-on-burger-king-u-s-growth-8c86e403",
+        "timestamp": 1786025280000,
+        "postedAt": 1786029224314
+      },
+      {
+        "headline": "China Levies Retaliatory Sanctions On Washington",
+        "url": "https://fortune.com/2026/08/05/necessary-countermeasures-china-imposes-sanctions-washington-retaliation-us-trade-restrictions/",
+        "timestamp": 1785963000000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Wake County Median Home Price Rises To $458,500 In June",
+        "url": "https://www.wake.gov/news/wake-countys-median-real-estate-price-increased-15500-june-2026-ending-month-458500",
+        "timestamp": 1785931200000,
+        "postedAt": 1785968704143
+      },
+      {
+        "headline": "Fed's Warsh Turns Hawkish; Rate-Hike Odds Rise Before July 29",
+        "url": "https://www.forbes.com/sites/investor-hub/article/fed-meeting-tracker-interest-rate-strategy/",
+        "timestamp": 1784822400000,
+        "postedAt": 1785968704143
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,757.64",
+      "change": "+47.68",
+      "changePct": "+0.62%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "54,036.93",
+      "change": "+151.83",
+      "changePct": "+0.28%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "26,690.62",
+      "change": "+342.26",
+      "changePct": "+1.30%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr Yield",
+      "value": "4.66%",
+      "change": "-0.01",
+      "changePct": "-0.21%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$4,399.70",
+      "change": "+100.10",
+      "changePct": "+2.33%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil (WTI)",
+      "value": "$78.18",
+      "change": "+0.89",
+      "changePct": "+1.15%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$64,903.91",
+      "change": "-4.57",
+      "changePct": "-0.01%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}

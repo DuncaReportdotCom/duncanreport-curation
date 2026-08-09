@@ -1,0 +1,537 @@
+{
+  "lastUpdated": 1786234923013,
+  "heroSetDate": "2026-08-09",
+  "hero": {
+    "headline": "PRIMARY VOTING KICKS OFF NATIONWIDE AS 2026 MIDTERM SEASON BEGINS",
+    "url": "https://www.nbcnews.com/politics/2026-primary-elections/national",
+    "sublinks": [
+      {
+        "text": "South Carolina Primary Reshaped By Senator's Sudden Death",
+        "url": "https://www.washingtontimes.com/news/2026/aug/8/south-carolina-awaits-major-change-grahams-death/"
+      },
+      {
+        "text": "Little-Known Candidate Leans On Family Name In South Carolina Race",
+        "url": "https://www.newsmax.com/newsfront/graham-south-carolina/2026/08/08/id/1265479/"
+      },
+      {
+        "text": "Poll Finds Voter Anxiety Running High Heading Into Midterms",
+        "url": "https://news.gallup.com/poll/712955/election-concerns-run-high-ahead-2026-midterms.aspx"
+      }
+    ],
+    "liveUpdates": [
+      {
+        "source": "PBS",
+        "url": "https://www.pbs.org/newshour/politics/live-results-michigan-midterm-primaries"
+      },
+      {
+        "source": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6017790-live-results-progressives-seek-another-upset-in-hawaiis-congressional-races/"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "title": "SOUTH CAROLINA SENATE RACE TAKES SHAPE AFTER GRAHAM'S DEATH",
+      "stories": [
+        {
+          "headline": "Darline Graham Tests Name Recognition Against Rivals In Primary",
+          "url": "https://www.newsmax.com/newsfront/graham-south-carolina/2026/08/08/id/1265479/",
+          "timestamp": 1786225320000,
+          "postedAt": 1786232045365
+        },
+        {
+          "headline": "South Carolina Awaits Major Change After Graham's Death",
+          "url": "https://www.washingtontimes.com/news/2026/aug/8/south-carolina-awaits-major-change-grahams-death/",
+          "timestamp": 1786220682000,
+          "postedAt": 1786232045365
+        }
+      ]
+    },
+    {
+      "title": "COURTS DISMISS HIGH-PROFILE CASES",
+      "stories": [
+        {
+          "headline": "Pirro, Trump's Longtime Champion, Is On The Outs Over Reflecting Pool Move",
+          "url": "https://www.washingtonpost.com/national-security/2026/08/08/pirro-trumps-longtime-champion-is-outs-over-reflecting-pool-move/",
+          "timestamp": 1786205873000,
+          "postedAt": 1786208761432
+        },
+        {
+          "headline": "Judge Dismisses Former Olympian's Felony Charge In Reflecting Pool Case",
+          "url": "https://www.nytimes.com/2026/08/06/us/politics/reflecting-pool-david-hearn-trump.html",
+          "timestamp": 1786066300000,
+          "postedAt": 1786208761432
+        }
+      ]
+    },
+    {
+      "title": "FAUCI HELD IN CONTEMPT OF CONGRESS",
+      "stories": [
+        {
+          "headline": "Stephen A. Smith Goes Off On Anthony Fauci",
+          "url": "https://dailycaller.com/2026/08/08/stephen-a-smith-anthony-fauci-covid-embarrassed/",
+          "timestamp": 1786204140000,
+          "postedAt": 1786208761432
+        },
+        {
+          "headline": "Why Fauci Was Held In Contempt For Pleading The Fifth, And What Happens Next",
+          "url": "https://www.pbs.org/newshour/politics/why-was-fauci-held-in-contempt-for-pleading-the-5th-and-what-happens-next",
+          "timestamp": 1786049542000,
+          "postedAt": 1786208761432
+        },
+        {
+          "headline": "Senate Committee Votes To Hold Fauci In Contempt Of Congress",
+          "url": "https://www.npr.org/2026/08/06/nx-s1-5921383/anthony-fauci-contempt-of-congress-vote",
+          "timestamp": 1786000582000,
+          "postedAt": 1786208761432
+        }
+      ]
+    },
+    {
+      "title": "ICE CRACKDOWN EXPANDS ACROSS THE COUNTRY",
+      "stories": [
+        {
+          "headline": "AP Report: Trump's Immigration Crackdown Has Detained More Than 50 Military Spouses And Parents",
+          "url": "https://www.pbs.org/newshour/nation/ap-report-trumps-immigration-crackdown-has-detained-more-than-50-military-spouses-and-parents",
+          "timestamp": 1785966935000,
+          "postedAt": 1786208761432
+        },
+        {
+          "headline": "Breakneck Pace In Immigration Courts Is Driving Up Deportation Orders",
+          "url": "https://apnews.com/article/trump-immigration-deportation-asylum-judges-82d6b7e79f4fd12856ff1c5ad66f2445",
+          "timestamp": 1785481200000,
+          "postedAt": 1786208761432
+        }
+      ]
+    },
+    {
+      "title": "2026 MIDTERMS",
+      "stories": [
+        {
+          "headline": "Trump Says Voters Are Mad At Other Republicans, Not Him",
+          "url": "https://www.politico.com/news/2026/08/07/trump-midterms-voter-anger-01028681",
+          "timestamp": 1786111620000,
+          "postedAt": 1786112662019
+        },
+        {
+          "headline": "Kamala Harris Builds Southern Resistance Network Ahead Of Midterms",
+          "url": "https://www.politico.com/newsletters/california-playbook/2026/08/07/kamalas-southern-resistance-01028532",
+          "timestamp": 1786107600000,
+          "postedAt": 1786112662019
+        }
+      ]
+    },
+    {
+      "title": "FOREIGN POLICY",
+      "stories": [
+        {
+          "headline": "Rights Groups Call Killing Of Lebanese Journalist A War Crime",
+          "url": "https://www.democracynow.org/2026/8/7/headlines/israeli_killing_of_lebanese_journalist_amal_khalil_was_a_war_crime_human_rights_groups",
+          "timestamp": 1786111587000,
+          "postedAt": 1786112662019
+        },
+        {
+          "headline": "Japan's Premier Shifts Tone On Nuclear Policy At Hiroshima Anniversary",
+          "url": "https://www.washingtonpost.com/world/2026/08/07/hiroshima-anniversary-japans-premier-shifts-tone-nuclear-policy/",
+          "timestamp": 1786110794000,
+          "postedAt": 1786112662019
+        },
+        {
+          "headline": "EU Sanctions Russian Weapons Makers After Deadly Kyiv Bombing",
+          "url": "https://www.washingtontimes.com/news/2026/aug/7/eu-sanctions-russian-weapons-makers-dozens-killed-injured-kyiv/",
+          "timestamp": 1786110780000,
+          "postedAt": 1786112662019
+        }
+      ]
+    },
+    {
+      "title": "GOVERNMENT FRAUD CONCERNS",
+      "stories": [
+        {
+          "headline": "Senators Find Rare Common Ground On Combating Fraud",
+          "url": "https://www.politico.com/newsletters/politico-pulse/2026/08/07/senators-find-common-ground-combatting-fraud-01028326",
+          "timestamp": 1786111200000,
+          "postedAt": 1786112662019
+        },
+        {
+          "headline": "Rep. Dan Meuser Says Fraud Losses Near $1 Trillion",
+          "url": "https://www.newsmax.com/newsmax-tv/dan-meuser-jd-vance-government/2026/08/07/id/1265373/",
+          "timestamp": 1786107293000,
+          "postedAt": 1786112662019
+        }
+      ]
+    },
+    {
+      "title": "TRUMP ADMINISTRATION",
+      "stories": [
+        {
+          "headline": "Trump Administration Refunds $100 Billion In Tariffs; Few Consumers See A Cut",
+          "url": "https://www.washingtonpost.com/business/2026/08/07/how-get-your-tariff-refund/",
+          "timestamp": 1786109583000,
+          "postedAt": 1786112662019
+        },
+        {
+          "headline": "Todd Blanche's AG Nomination Loses Another Critical GOP Vote",
+          "url": "https://www.washingtonpost.com/national-security/2026/08/07/todd-blanches-ag-nomination-loses-another-critical-gop-vote/",
+          "timestamp": 1786107147000,
+          "postedAt": 1786112662019
+        }
+      ]
+    },
+    {
+      "title": "SCANDALS SURROUND TRUMP INNER CIRCLE",
+      "stories": [
+        {
+          "headline": "Trump Fills Ambassador Posts With More Donors, Loyalists Than Recent Presidents",
+          "url": "https://www.washingtonpost.com/national-security/2026/08/06/trump-fills-ambassador-posts-with-more-donors-loyalists-than-any-recent-president/",
+          "timestamp": 1786026823000,
+          "postedAt": 1786029345111
+        },
+        {
+          "headline": "Senate Democrats Probe Korean Firm's $2 Million Payment To Trump Company",
+          "url": "https://www.washingtonpost.com/politics/2026/08/06/warren-probes-2m-payment-trump-company-amid-tariff-case/",
+          "timestamp": 1786026805000,
+          "postedAt": 1786029345111
+        },
+        {
+          "headline": "Elon Musk's DOGE Made Big Errors In Government Savings Claims, GAO Finds",
+          "url": "https://www.washingtonpost.com/technology/2026/08/06/elon-musk-doge-made-big-errors-claims-government-savings-gao-finds/",
+          "timestamp": 1786026353000,
+          "postedAt": 1786029345111
+        }
+      ]
+    },
+    {
+      "title": "CONGRESS ADVANCES AGENDA AS SHUTDOWN LOOMS",
+      "stories": [
+        {
+          "headline": "Senate Votes To Confirm Dr. Erica Schwartz To Lead The CDC",
+          "url": "https://www.democracynow.org/2026/8/6/headlines/senate_votes_to_confirm_dr_erica_schwartz_to_lead_the_cdc",
+          "timestamp": 1786026374000,
+          "postedAt": 1786029345111
+        },
+        {
+          "headline": "Senate Set To Vote On Four Internet Bills",
+          "url": "https://www.eff.org/deeplinks/2026/08/senate-vote-tomorrow-four-internet-bills-one-wrong-direction",
+          "timestamp": 1785888911000,
+          "postedAt": 1786029345111
+        }
+      ]
+    },
+    {
+      "title": "COURTS PUSH BACK ON TRUMP ADMINISTRATION POLICIES",
+      "stories": [
+        {
+          "headline": "Judge Orders Daily Fines Against Homeland Security Over LA Immigration Sweeps",
+          "url": "https://calmatters.org/justice/2026/08/los-angeles-immigration-lawsuit-contempt/",
+          "timestamp": 1785888745000,
+          "postedAt": 1786029345111
+        }
+      ]
+    },
+    {
+      "title": "ABORTION BATTLES ESCALATE NATIONWIDE",
+      "stories": [
+        {
+          "headline": "Kansas Voters Reject Latest Attempt To Reshape Abortion Landscape",
+          "url": "https://19thnews.org/2026/08/kansas-amendment-no-abortion-supreme-court-justices/",
+          "timestamp": 1785892534000,
+          "postedAt": 1786029345111
+        },
+        {
+          "headline": "AG Nominee Tells Faith Leaders He Will Restrict Abortion Drug Access",
+          "url": "https://stateline.org/2026/08/04/ag-nominee-tells-faith-leaders-he-will-take-action-to-restrict-abortion-drug-access/",
+          "timestamp": 1785877181000,
+          "postedAt": 1786029345111
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Amid Strait Of Hormuz Talks, Iran Publishes List Of Demands For US",
+        "url": "https://thehill.com/policy/international/6018858-iran-demands-us-hormuz-negotiations/",
+        "timestamp": 1786228260000,
+        "postedAt": 1786234923013
+      },
+      {
+        "headline": "Trump Relatives 'Fair Game' For Depositions In BBC Suit",
+        "url": "https://www.newsmax.com/newsfront/donald-trump-bbc-lawsuit-roy-altman/2026/08/08/id/1265495/",
+        "timestamp": 1786228056000,
+        "postedAt": 1786234923013
+      },
+      {
+        "headline": "Tanker Sailors Still Face Danger In The Strait Of Hormuz",
+        "url": "https://www.npr.org/2026/08/08/nx-s1-5923592/tanker-sailors-still-face-danger-in-the-strait-of-hormuz",
+        "timestamp": 1786223994000,
+        "postedAt": 1786232045365
+      },
+      {
+        "headline": "El-Sayed Doubles Down After Being Blasted For Disparaging Michigan Destination",
+        "url": "https://www.dailywire.com/news/el-sayed-doubles-down-after-hes-blasted-for-disparaging-historic-michigan-destination?author",
+        "timestamp": 1786212783000,
+        "postedAt": 1786214908000
+      },
+      {
+        "headline": "Race Too Close To Call In Democratic Primary For Michigan Senate Seat",
+        "url": "https://www.nytimes.com/live/2026/08/04/us/midterms-elections-michigan-virginia",
+        "timestamp": 1786147020000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "DOJ Refutes Fishback Claim, Says Donalds Isn't Under Investigation",
+        "url": "https://dailycaller.com/2026/08/08/doj-refutes-fishback-claim-donalds-not-under-investigation-federal-sex-trafficking/",
+        "timestamp": 1786207440000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "Senate Narrowly Approves Todd Blanche As AG, Capping Tough Confirmation Fight",
+        "url": "https://www.washingtonpost.com/national-security/2026/08/08/senate-narrowly-approves-todd-blanche-ag-capping-tough-confirmation-fight/",
+        "timestamp": 1786205168000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "Trump Administration's Foreign Aid Review Reorganizes US Global Health Programs",
+        "url": "https://www.kff.org/global-health-policy/the-trump-administrations-foreign-aid-review-proposed-reorganization-of-u-s-global-health-programs/",
+        "timestamp": 1785999600000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "DOJ Quietly Uniting Seven States Against Fraud",
+        "url": "https://www.realclearinvestigations.com/2026/08/01/doj_quietly_uniting_seven_states_against_fraud_1197818.html",
+        "timestamp": 1785642204000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "Trump Administration's Push For Sensitive Voter Data Raises Rule-Of-Law Concerns",
+        "url": "https://campaignlegal.org/update/trump-administrations-attempts-get-sensitive-voter-data-threaten-rule-law",
+        "timestamp": 1785394800000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "New Court Documents Expose Trump Administration's Targeting Of Governor Newsom",
+        "url": "https://www.gov.ca.gov/2026/07/29/new-court-documents-expose-trump-administrations-political-targeting-of-governor-newsom/",
+        "timestamp": 1785308400000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "GOP Hunts For New Message As Trump's Border Crackdown Claims Success",
+        "url": "https://www.washingtontimes.com/news/2026/aug/7/donald-trumps-success-ending-border-crisis-forces-gop-hunt-new-way/",
+        "timestamp": 1786108695000,
+        "postedAt": 1786112662019
+      },
+      {
+        "headline": "Kansas Democratic Governor Nominee Focuses On Affordability, Data Centers",
+        "url": "https://www.democracynow.org/2026/8/7/cindy_holscher",
+        "timestamp": 1786111493000,
+        "postedAt": 1786112662019
+      },
+      {
+        "headline": "Analysis: America Got 'Faucied' By Its Own Health Bureaucracy",
+        "url": "https://www.realclearpolitics.com/articles/2026/08/07/america_got_faucied_154396.html",
+        "timestamp": 1786078800000,
+        "postedAt": 1786112662019
+      },
+      {
+        "headline": "Pollster: Rep. Max Miller Faces Serious Reelection Trouble",
+        "url": "https://www.dailywire.com/news/pollster-max-miller-is-in-trouble-with-a-capital-t?author",
+        "timestamp": 1786044442000,
+        "postedAt": 1786047489150
+      },
+      {
+        "headline": "Trump-Linked Law Firm Gets $150M No-Bid Contract For Migrant Children",
+        "url": "https://www.washingtonpost.com/politics/2026/08/06/trump-linked-law-firm-get-150-million-no-bid-contract-represent-migrant-children/",
+        "timestamp": 1786044743000,
+        "postedAt": 1786047489150
+      },
+      {
+        "headline": "Most Voters Support SAVE America Act: Poll",
+        "url": "https://www.washingtontimes.com/news/2026/aug/6/voters-support-save-america-act-poll/",
+        "timestamp": 1786024860000,
+        "postedAt": 1786029345111
+      },
+      {
+        "headline": "Trump, Hegseth Clashed At Camp David Over Iran Missile Depletion Concerns",
+        "url": "https://www.washingtonpost.com/national-security/2026/08/05/trump-hegseth-clashed-camp-david-over-iran-missile-depletion-concerns/",
+        "timestamp": 1786026577000,
+        "postedAt": 1786029345111
+      },
+      {
+        "headline": "El-Sayed And Stevens Project Party Unity After Divisive Michigan Primary",
+        "url": "https://www.nytimes.com/live/2026/08/05/us/michigan-election-results-primary",
+        "timestamp": 1786025220000,
+        "postedAt": 1786029345111
+      }
+    ],
+    "center": [
+      {
+        "headline": "Hundreds Of Women And Children Freed From Forced Jihad In Hostage Rescue",
+        "url": "https://www.dailywire.com/news/hundreds-of-women-and-children-freed-from-forced-jihad-in-massive-hostage-rescue?author",
+        "timestamp": 1786234374000,
+        "postedAt": 1786234923013
+      },
+      {
+        "headline": "AI Deepfake Election Ad Laws Vary Widely By State",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/4680277/ai-deepfake-election-advertising-laws-what-to-know/",
+        "timestamp": 1786223520000,
+        "postedAt": 1786232045365
+      },
+      {
+        "headline": "RFK Jr.'s 'Eat Real Food' Agenda Gets Snarled In Cyclospora Outbreak",
+        "url": "https://www.politico.com/news/2026/08/08/cyclospora-outbreak-rfk-maha-realfood-01027408",
+        "timestamp": 1786212000000,
+        "postedAt": 1786214908000
+      },
+      {
+        "headline": "Far-Left Governor Candidate Taps OnlyFans Model As Deputy Campaign Manager",
+        "url": "https://www.dailywire.com/news/far-left-governor-candidate-taps-onlyfans-model-as-deputy-campaign-manager",
+        "timestamp": 1786212739000,
+        "postedAt": 1786214908000
+      },
+      {
+        "headline": "Voter Turnout Surges In Tennessee After Black-Majority District Erased",
+        "url": "https://www.washingtonpost.com/politics/2026/08/08/voter-turnout-surges-tennessee-after-black-majority-district-is-erased/",
+        "timestamp": 1786207561000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "Kansas Judge Rules Striking Abortion Restrictions Was Not 'Even A Close Call'",
+        "url": "https://kansasreflector.com/2026/08/04/kansas-judge-says-decision-to-strike-abortion-restrictions-not-even-a-close-call/",
+        "timestamp": 1785875309000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "2026 Midterm Map Shows Where Reproductive Freedom Is On The Ballot",
+        "url": "https://reproductivefreedomforall.org/resources/2026-midterm-elections-map-see-where-reproductive-freedom-is-on-the-ballot/",
+        "timestamp": 1785770288000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "DOJ Could Use 1873 Comstock Act To Restrict Abortion Pills By Mail",
+        "url": "https://www.democracynow.org/2026/8/7/blanche_abortion_restrictions",
+        "timestamp": 1786111493000,
+        "postedAt": 1786112662019
+      },
+      {
+        "headline": "How One NYC Neighborhood Became A Hub Of Democratic Socialist Power",
+        "url": "https://www.washingtonpost.com/nation/2026/08/07/how-neighborhood-nyc-became-center-democratic-socialist-power/",
+        "timestamp": 1786109991000,
+        "postedAt": 1786112662019
+      },
+      {
+        "headline": "Investigation Probes Shooting, Islamophobia Claims And Controversial Sermons",
+        "url": "https://www.realclearinvestigations.com/video/2026/08/06/a_shooting_allegations_of_islamophobia_and_controversial_sermons_1198963.html",
+        "timestamp": 1786049450000,
+        "postedAt": 1786112662019
+      },
+      {
+        "headline": "The US-China Military-To-Military Mirage",
+        "url": "https://www.politico.com/newsletters/national-security-daily/2026/08/06/the-u-s-china-mil-mil-mirage-01027798",
+        "timestamp": 1786046593000,
+        "postedAt": 1786047489150
+      },
+      {
+        "headline": "FCC Lifts Cap Limiting Size Of TV Broadcasting Companies",
+        "url": "https://www.washingtonpost.com/business/2026/08/06/fcc-lifts-cap-limiting-size-tv-broadcasting-companies/",
+        "timestamp": 1786044128000,
+        "postedAt": 1786047489150
+      },
+      {
+        "headline": "Man Arrested At Trump Golf Course Near LA Faces Federal Weapons Charges",
+        "url": "https://www.washingtonpost.com/nation/2026/08/05/jeanine-john-taele-arrested-trump-la-golf-course-faces-federal-charges/",
+        "timestamp": 1786026760000,
+        "postedAt": 1786029345111
+      },
+      {
+        "headline": "Fetterman Weighs Crossing Aisle To Confirm Trump AG Nominee Blanche",
+        "url": "https://www.foxnews.com/politics/fetterman-answers-whether-hell-cross-aisle-confirm-trump-ag-nominee-todd-blanche",
+        "timestamp": 1786023425000,
+        "postedAt": 1786029345111
+      }
+    ],
+    "right": [
+      {
+        "headline": "Blue City Forced To Dump Haitian Employees After TPS Ruling",
+        "url": "https://dailycaller.com/2026/08/08/zohran-mamdani-new-york-city-forced-fire-dozens-haitian-employees-court-ruling-ends-temporary-protected-status/",
+        "timestamp": 1786224900000,
+        "postedAt": 1786232045365
+      },
+      {
+        "headline": "Unemployment Improved Because Thousands Of Workers Disappeared — Where Did They Go?",
+        "url": "https://www.washingtonpost.com/business/2026/08/08/us-economy-lost-jobs-unemployment-improved-due-workers-leaving-labor-force/",
+        "timestamp": 1786207791000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "The ICE 'Diaper Dad' Story Isn't What It Seems",
+        "url": "https://www.dailywire.com/episode/bts-260808?elementPosition",
+        "timestamp": 1786204983000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "How The Post's Public-Records Lawsuit Exposed GI Bill Scams At For-Profit Trade Schools",
+        "url": "https://www.washingtonpost.com/investigations/2026/08/08/3-5-things-we-learned-probe/",
+        "timestamp": 1786204800000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "Who Will Win The 2026 Midterm Elections? Polls And Predictions",
+        "url": "https://www.thetimes.com/us/news-today/article/who-win-midterm-elections-2026-polls-predictions-results-c8d9qnbk5",
+        "timestamp": 1785945015000,
+        "postedAt": 1786208761432
+      },
+      {
+        "headline": "Gas Stations Trump Touted Racked Up Penalties In New Jersey",
+        "url": "https://www.politico.com/news/2026/08/07/freedom-fuel-new-jersey-penalties-01028052",
+        "timestamp": 1786111200000,
+        "postedAt": 1786112662019
+      },
+      {
+        "headline": "Analysis: America's Political Divide Is Becoming A Strategic Vulnerability",
+        "url": "https://www.realclearpolitics.com/articles/2026/08/06/americas_political_divide_is_a_strategic_vulnerability_154395.html",
+        "timestamp": 1786016646000,
+        "postedAt": 1786112662019
+      },
+      {
+        "headline": "Justice Dept. Says Duke Law School Discriminates Against White, Asian Students",
+        "url": "https://www.washingtontimes.com/news/2026/aug/6/justice-department-says-duke-universitys-law-school-discriminates/",
+        "timestamp": 1786045048000,
+        "postedAt": 1786047489150
+      },
+      {
+        "headline": "Trump Administration's Green Card Memo Threatens Legal Immigration Families",
+        "url": "https://www.americanprogress.org/article/trump-administration-green-card-memo-is-another-attack-on-legal-immigration-that-risks-separating-families-and-harming-the-economy/",
+        "timestamp": 1785853032000,
+        "postedAt": 1786029345111
+      },
+      {
+        "headline": "Wisconsin Democratic Candidate For Governor Backtracks On Thanksgiving Comments",
+        "url": "https://www.washingtontimes.com/news/2026/aug/6/francesca-hong-wisconsin-democratic-candidate-governor-backtracks/",
+        "timestamp": 1786026660000,
+        "postedAt": 1786029345111
+      }
+    ]
+  },
+  "polls": [
+    {
+      "name": "Trump Approval",
+      "value": "39%",
+      "sub": "59% disapprove",
+      "url": "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating",
+      "asOf": "Aug 7, 2026"
+    },
+    {
+      "name": "Congress Approval",
+      "value": "25%",
+      "sub": "58% disapprove",
+      "url": "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating"
+    },
+    {
+      "name": "Right Direction",
+      "value": "30%",
+      "sub": "61% wrong track",
+      "url": "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating"
+    }
+  ]
+}
