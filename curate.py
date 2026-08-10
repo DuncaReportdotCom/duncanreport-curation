@@ -2406,15 +2406,15 @@ def _try_hero_images(urls, dest):
                     return True
         except Exception:
             continue
-        if tries >= 12:
+        if tries >= 20:     # many premium outlets 403 fast; keep going to reach a permissive one
             break
     return False
 
-def _sig_query(headline):
+def _sig_query(headline, n=7):
     """Key search terms from a headline (drops stopwords/short words) to find related coverage."""
     words = re.findall(r"[A-Za-z0-9]+", (headline or ""))
     keep = [w for w in words if len(w) > 3 and w.lower() not in _STOP]
-    return " ".join(keep[:7])
+    return " ".join(keep[:n])
 
 def ensure_hero_image(section, data):
     """Self-host a hero photo that MATCHES the headline. First try the hero article and its
@@ -2436,15 +2436,22 @@ def ensure_hero_image(section, data):
         print("    hero image saved for %s (hero/sublinks)" % section)
         return
     # Fallback: find closely-related coverage of the SAME story and pull a matching image.
-    q = _sig_query(hero.get("headline"))
-    if q:
+    # Try a specific query first (stays on-topic); if the outlets it finds block image
+    # fetching (NYT, WSJ, etc.), retry with a broader query that surfaces wire/broadcast
+    # outlets which DO serve images (AP, Reuters, BBC, NBC, Al Jazeera, local news).
+    tried = set()
+    for q in (_sig_query(hero.get("headline"), 7), _sig_query(hero.get("headline"), 3)):
+        if not q or q in tried:
+            continue
+        tried.add(q)
         root = _gnews_get(GNEWS % urllib.parse.quote(q + " when:4d"))
-        if root is not None:
-            related = [(it.findtext("link") or "").strip() for it in list(root.iter("item"))[:10]]
-            if _try_hero_images([r for r in related if r], dest):
-                hero["img"] = True
-                print("    hero image saved for %s (related coverage)" % section)
-                return
+        if root is None:
+            continue
+        related = [(it.findtext("link") or "").strip() for it in list(root.iter("item"))[:20]]
+        if _try_hero_images([r for r in related if r], dest):
+            hero["img"] = True
+            print("    hero image saved for %s (related coverage)" % section)
+            return
     hero["img"] = False       # no clean photo -> front end shows the branded placeholder cleanly
     try:
         if os.path.exists(dest):
