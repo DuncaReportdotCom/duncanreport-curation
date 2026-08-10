@@ -6,11 +6,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Investigative Journalism Grants — DuncanReport.com</title>
 <style>
-  body{max-width:760px;margin:0 auto;padding:24px;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111;line-height:1.6;}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111;line-height:1.6;}
+  /* ===== Header (matches the main page) ===== */
+  #header{text-align:center;padding:10px 10px 2px;}
+  #site-title{font-size:44px;font-weight:normal;letter-spacing:-1px;font-family:"Times New Roman",Times,serif;
+    background:linear-gradient(180deg,#1a1a1a 0%,#555 60%,#1a1a1a 100%);-webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(3px 3px 3px rgba(0,0,0,0.35));
+    display:inline-block;text-decoration:none;}
+  #date-line{font-size:12px;color:#555;margin:10px 0 4px;}
+  #nav-wrapper{max-width:1100px;margin:0 auto;}
+  #top-nav{display:flex;justify-content:center;gap:0;padding:5px 0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;flex-wrap:wrap;}
+  #top-nav a{color:#000;text-decoration:underline;font-size:12px;font-weight:bold;padding:2px 12px;border-right:1px solid #ccc;text-transform:uppercase;letter-spacing:.5px;}
+  #top-nav a:last-child{border-right:none;}
+  #top-nav a:hover{color:#cc0000;}
+  #top-nav a.nav-sports{color:#cc0000;} #top-nav a.nav-world{color:#00008B;} #top-nav a.nav-markets{color:#006600;}
+  #top-nav a.nav-politics{color:#8b0000;} #top-nav a.nav-life{color:#5500aa;}
+  #source-bar{display:flex;justify-content:center;flex-wrap:wrap;gap:0;padding:4px 10px;border-bottom:1px solid #ccc;background:#fff;}
+  #source-bar a{color:#00008B;text-decoration:underline;font-size:10px;padding:1px 6px;border-right:1px solid #ccc;}
+  #source-bar a:last-child{border-right:none;}
+  @media (max-width:600px){ #site-title{font-size:26px;} #top-nav a{font-size:11px;padding:2px 6px;} #source-bar a{font-size:10px;padding:1px 4px;} }
+  /* ===== Content ===== */
+  .content{max-width:760px;margin:0 auto;padding:24px;}
   h1{font-size:25px;} h2{font-size:17px;margin-top:28px;}
   a{color:#00008B;}
-  .top{border-bottom:1px solid #ccc;padding-bottom:10px;margin-bottom:18px;font-size:14px;}
-  .top a{margin-right:12px;text-decoration:none;}
   .lede{font-size:16px;}
   .muted{color:#666;font-size:13px;}
   ul{padding-left:20px;} li{margin:3px 0;}
@@ -28,17 +46,53 @@
 </style>
 </head>
 <body>
-<div class="top">
-  <a href="/">&larr; DuncanReport.com</a><a href="/about.html">About</a><a href="/how-we-curate.html">How We Curate</a><a href="/contact.html">Contact</a>
+
+<div id="header">
+  <a href="/" id="site-title">DuncanReport.com</a>
+  <div id="date-line"></div>
+  <div id="nav-wrapper">
+    <div id="top-nav">
+      <a href="/" style="color:#000000">MAIN</a>
+      <a href="/sports" class="nav-sports">SPORTS</a>
+      <a href="/world" class="nav-world">WORLD</a>
+      <a href="/markets" class="nav-markets">MARKETS</a>
+      <a href="/politics" class="nav-politics">POLITICS</a>
+      <a href="/life-culture" class="nav-life">LIFE &amp; CULTURE</a>
+    </div>
+    <div id="source-bar">
+      <a href="https://abcnews.go.com" target="_blank">ABC</a>
+      <a href="https://apnews.com" target="_blank">AP</a>
+      <a href="https://www.bbc.com/news" target="_blank">BBC</a>
+      <a href="https://www.cbsnews.com" target="_blank">CBS</a>
+      <a href="https://www.cnn.com" target="_blank">CNN</a>
+      <a href="https://www.nbcnews.com" target="_blank">NBC</a>
+      <a href="https://www.npr.org" target="_blank">NPR</a>
+      <a href="https://www.nytimes.com" target="_blank">NY Times</a>
+      <a href="https://www.politico.com" target="_blank">Politico</a>
+      <a href="https://www.theguardian.com" target="_blank">The Guardian</a>
+      <a href="https://www.breitbart.com" target="_blank">Breitbart</a>
+      <a href="https://dailycaller.com" target="_blank">Daily Caller</a>
+      <a href="https://www.foxnews.com" target="_blank">Fox News</a>
+      <a href="https://www.newsmax.com" target="_blank">NewsMax</a>
+      <a href="https://nypost.com" target="_blank">NY Post</a>
+      <a href="https://www.washingtonexaminer.com" target="_blank">Wash Examiner</a>
+      <a href="https://www.washingtontimes.com" target="_blank">Wash Times</a>
+      <a href="https://www.wsj.com" target="_blank">WSJ</a>
+      <a href="https://www.newsnationnow.com" target="_blank">News Nation</a>
+    </div>
+  </div>
 </div>
+
+<div class="content">
 
 <h1>Investigative Journalism Grants</h1>
 
-<p class="lede">Duncan Report is paying grants to independent journalists to fund the production of
-studies and articles relating to major issues facing our country.</p>
+<p class="lede">Duncan Report pays grants to independent journalists to produce serious reporting on the
+major issues facing the country. We fund the work itself &mdash; the research, the records requests, the data
+analysis, and the finished articles &mdash; so that independent reporters can pursue stories of national
+importance without a newsroom behind them.</p>
 
-<p>Our interest is in funding issues of national importance. Those issues include, but are not
-limited to, the following:</p>
+<p>Our focus is issues of national importance. That includes, but is by no means limited to:</p>
 
 <ul>
   <li>Government spending, waste, fraud, and accountability</li>
@@ -54,23 +108,28 @@ limited to, the following:</p>
   <li>The transparency and accountability of government at every level</li>
 </ul>
 
-<p>We have a particular interest in funding <strong>FOIA requests and data analysis</strong>. While
-the aim is to help independent journalists grow their footprint and reputation, we do ask for
-<strong>right of first publication</strong>.</p>
+<p>We are especially interested in reporting that digs into primary sources &mdash; <strong>FOIA and
+public-records requests</strong> and the patient <strong>data analysis</strong> that turns documents into
+findings. The aim is to help independent journalists build their footprint and their reputation; in
+return, we ask only for the <strong>right of first publication</strong>.</p>
 
-<p>Duncan Report will do our best to, at a minimum, speak directly with any applicant &mdash; because if
-you take the time to apply, we want to acknowledge your effort. This isn't a blind email.</p>
+<p>This is not a blind email. If you take the time to apply, we will do our best to at least speak with
+you directly &mdash; we want to acknowledge the effort, and often that conversation is where the strongest
+version of a story takes shape.</p>
 
 <div class="amounts">
-  <strong>Grant amounts</strong><br>
-  Initial research: <strong>$2,500</strong> &nbsp;&middot;&nbsp; Fully investigated topics: <strong>$10,000</strong><br>
-  <span class="muted">The amount may change depending on the potential importance of the story, and Duncan
-  Report may also provide other forms of support.</span>
+  <strong>Grants &amp; support</strong><br>
+  Initial research: <strong>$2,500</strong>. &nbsp; A fully investigated story: <strong>$10,000</strong>. &nbsp; For
+  reporting of unusual importance &mdash; the kind of story that can move a national conversation &mdash; a grant
+  can run <strong>well beyond $10,000</strong>.<br>
+  <span class="muted">Money isn't the only thing we offer. Depending on what a project needs, Duncan Report
+  can also provide administrative and logistical support, help with records requests and data, legal
+  review, and editorial guidance. Tell us what would make your reporting possible.</span>
 </div>
 
 <h2>Application</h2>
-<p class="muted">Fields marked <span class="req">*</span> are required. Submitting opens a pre-addressed
-email to our grants desk with your answers; you can also email the same information directly to
+<p class="muted">Fields marked <span class="req">*</span> are required. Tell us as much as you can about the
+story &mdash; the more concrete, the better. You can also email the same information directly to
 <a href="mailto:contact@duncanreport.com">contact@duncanreport.com</a>.</p>
 
 <form id="grant-form">
@@ -141,12 +200,18 @@ email to our grants desk with your answers; you can also email the same informat
 
 <footer>&copy; 2026 DuncanReport.com &mdash; <a href="/">Home</a> &middot; <a href="/contact.html">Contact</a></footer>
 
+</div>
+
 <script>
+// Date line (matches the main page format)
+document.getElementById('date-line').textContent = new Date().toLocaleDateString('en-US',
+  { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
 // ---- Submissions ----------------------------------------------------------
 // Paste your Google Apps Script Web App URL here to capture each application to a
 // Google Sheet AND email you. Until it's set, the form falls back to opening a
 // pre-addressed email to contact@duncanreport.com.
-var FORM_ENDPOINT = "https://docs.google.com/spreadsheets/d/10ckInpd4vBwddXQluEl9u4RqNlP3GG8apTMJQeKx0xE/edit?usp=sharing";
+var FORM_ENDPOINT = "";
 
 var gform = document.getElementById('grant-form');
 function v(id){ return (document.getElementById(id).value || '').trim(); }
@@ -176,7 +241,7 @@ gform.addEventListener('submit', function(e){
   if (FORM_ENDPOINT) {
     fetch(FORM_ENDPOINT, {method:'POST', mode:'no-cors', body:new URLSearchParams(d)})
       .then(function(){ gthanks(); })
-      .catch(function(){ gmailto(d); });   // network failure -> fall back to email
+      .catch(function(){ gmailto(d); });
   } else {
     gmailto(d);
   }
