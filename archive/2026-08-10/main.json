@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786371312646,
+  "lastUpdated": 1786376417796,
   "heroSetDate": "2026-08-10",
   "hero": {
     "headline": "IRAN KEEPS HORMUZ CLOSED, UNDERCUTTING TRUMP'S VICTORY LAP",
@@ -143,6 +143,12 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Trump Admin Faces Scrutiny After Mysterious Military Plane Crash",
+        "url": "https://www.rawstory.com/new-mexico-plane-crash/",
+        "timestamp": 1786376158359,
+        "postedAt": 1786376417796
+      },
       {
         "headline": "California City Declares Emergency After Cyberattack On Systems",
         "url": "https://www.yahoo.com/news/us/articles/california-city-declares-state-emergency-192626638.html",
@@ -324,6 +330,12 @@
       }
     ],
     "right": [
+      {
+        "headline": "Airline Under Fire For Plan To Charge For Overhead Bins",
+        "url": "https://www.the-express.com/news/us-news/213395/jetstar-airline-charges-storing-bags",
+        "timestamp": 1786376158359,
+        "postedAt": 1786376417796
+      },
       {
         "headline": "The Death Of Reliable Immigration Data",
         "url": "https://www.theatlantic.com/politics/2026/08/trump-dhs-deportation-data-ice/688220/",
