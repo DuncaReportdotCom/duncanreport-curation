@@ -2432,6 +2432,7 @@ def ensure_hero_image(section, data):
         if sl.get("url"):
             cands.append(sl["url"])
     if _try_hero_images(cands, dest):
+        hero["img"] = True
         print("    hero image saved for %s (hero/sublinks)" % section)
         return
     # Fallback: find closely-related coverage of the SAME story and pull a matching image.
@@ -2441,8 +2442,10 @@ def ensure_hero_image(section, data):
         if root is not None:
             related = [(it.findtext("link") or "").strip() for it in list(root.iter("item"))[:10]]
             if _try_hero_images([r for r in related if r], dest):
+                hero["img"] = True
                 print("    hero image saved for %s (related coverage)" % section)
                 return
+    hero["img"] = False       # no clean photo -> front end shows the branded placeholder cleanly
     try:
         if os.path.exists(dest):
             os.remove(dest)
@@ -3183,13 +3186,13 @@ def build():
             except Exception as e:
                 data.pop("polls", None)
                 print("  poll averages fetch failed:", e)
+        ensure_hero_image(sec, data)            # self-host the hero photo + set hero.img flag
         data = apply_column_images(sec, data)   # self-host 1-2 Drudge-style column photos
         dest = os.path.join(SITE, "stories.json") if sec == "main" else os.path.join(SITE, sec, "stories.json")
         os.makedirs(os.path.dirname(dest), exist_ok=True)
         with open(dest, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         print("  wrote", sec)
-        ensure_hero_image(sec, data)
         per_section[sec] = data
         # Archive a dated snapshot of real content to the repo (recovery + history).
         # Skipped for empty pages so a bad run never overwrites a good same-day snapshot.
