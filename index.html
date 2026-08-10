@@ -112,6 +112,8 @@ margin-bottom: 6px;
 #hero-image { text-align: center; margin: 2px 0 8px; }
 #hero-image:empty { display: none; }
 #hero-image img { max-width: 72%; max-height: 272px; height: auto; display: inline-block; border: 1px solid #ccc; }
+.col-img { width: 100%; max-height: 210px; object-fit: cover; display: block; margin: 0 0 4px; border: 1px solid #ccc; }
+.col-img-wrap { display: block; line-height: 0; }
 #hero-headline {
 font-size: 28px;
 font-weight: bold;
@@ -399,13 +401,15 @@ border-bottom: 1px solid #eee;
 </div>
 <div id="footer">
 DuncanReport.com &mdash; Updated continuously<br>
+<a href="/grants.html" style="color:#00008B;text-decoration:underline;font-weight:600;">We fund independent investigative journalism &mdash; see our grants</a><br>
 &copy; 2026 DuncanReport.com &mdash;
 <a href="/about.html" style="color:#555;text-decoration:underline;">About</a> &middot;
 <a href="/how-we-curate.html" style="color:#555;text-decoration:underline;">How We Curate</a> &middot;
 <a href="/contact.html" style="color:#555;text-decoration:underline;">Contact</a> &middot;
 <a href="/privacy.html" style="color:#555;text-decoration:underline;">Privacy Policy</a> &middot;
 <a href="/terms.html" style="color:#555;text-decoration:underline;">Terms</a> &middot;
-<a href="/archive.html" style="color:#555;text-decoration:underline;">Archive</a>
+<a href="/archive.html" style="color:#555;text-decoration:underline;">Archive</a> &middot;
+<a href="https://x.com/theduncanreport" target="_blank" rel="noopener" style="color:#555;text-decoration:underline;">@theduncanreport on X</a>
 </div>
 <script>
 // Set date
@@ -660,26 +664,21 @@ panelHTML[i % 3] += renderGroupPanel(g);
 // Left column: panels first, then standalone left stories
 var leftEl = document.getElementById('col-left');
 var leftHTML = sbHTML + panelHTML[0];
-leftCols.forEach(function(s) {
-leftHTML += '<div class="col-section"><a href="' + s.url + '" target="_blank">' + tagPrefix(s) + toTitleCase(s.headline) +
-'</a></div>';
-});
+function colSectionHTML(s) {
+var img = s.image ? '<a href="' + s.url + '" target="_blank" class="col-img-wrap"><img class="col-img" src="' + s.image + '?t=' + Date.now() + '" alt="" loading="lazy"></a>' : '';
+return '<div class="col-section">' + img + '<a href="' + s.url + '" target="_blank">' + tagPrefix(s) + toTitleCase(s.headline) + '</a></div>';
+}
+leftCols.forEach(function(s) { leftHTML += colSectionHTML(s); });
 leftEl.innerHTML = leftHTML;
 // Center column: panels first, then standalone center stories
 var centerEl = document.getElementById('col-center');
 var centerHTML = panelHTML[1];
-centerCols.forEach(function(s) {
-centerHTML += '<div class="col-section"><a href="' + s.url + '" target="_blank">' + tagPrefix(s) + toTitleCase(s.headline) +
-'</a></div>';
-});
+centerCols.forEach(function(s) { centerHTML += colSectionHTML(s); });
 centerEl.innerHTML = centerHTML;
 // Right column: panels first, then standalone right stories
 var rightEl = document.getElementById('col-right');
 var rightHTML = panelHTML[2];
-rightCols.forEach(function(s) {
-rightHTML += '<div class="col-section"><a href="' + s.url + '" target="_blank">' + tagPrefix(s) + toTitleCase(s.headline) +
-'</a></div>';
-});
+rightCols.forEach(function(s) { rightHTML += colSectionHTML(s); });
 rightEl.innerHTML = rightHTML;
 }
 function saveStories(data) {
