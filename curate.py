@@ -48,7 +48,7 @@ def working_model(client):
 THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000
 
 CORE = json.loads(r"""
-"===== SCHEMA.md =====\n# DuncanReport.com — stories.json SCHEMA (CORE · INVARIANT)\n\nEvery curation engine, for every section, MUST emit a `stories.json` that matches this\nstructure exactly. This is a hard contract — the site's rendering and the deploy/merge\npipeline both depend on it. Do not add, rename, or drop fields.\n\n## Structure\n\n```json\n{\n  \"lastUpdated\": 1753372800000,\n  \"hero\": {\n    \"headline\": \"HERO HEADLINE IN ALL CAPS\",\n    \"url\": \"https://example.com/main-story\",\n    \"image\": \"https://example.com/lead-photo.jpg\",\n    \"sublinks\": [\n      { \"text\": \"Related angle one\", \"url\": \"https://example.com/main-story-a\" },\n      { \"text\": \"Related angle two\", \"url\": \"https://example.com/main-story-b\" }\n    ]\n  },\n  \"groups\": [\n    {\n      \"title\": \"NARRATIVE-ARC PANEL TITLE IN ALL CAPS\",\n      \"stories\": [\n        { \"headline\": \"Story Headline In Title Case\", \"url\": \"https://example.com/x\", \"timestamp\": 1753369200000 },\n        { \"headline\": \"Second Story In Title Case\", \"url\": \"https://example.com/y\", \"timestamp\": 1753365600000 }\n      ]\n    }\n  ],\n  \"columns\": {\n    \"left\":   [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/a\", \"timestamp\": 1753369200000 } ],\n    \"center\": [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/b\", \"timestamp\": 1753366000000 } ],\n    \"right\":  [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/c\", \"timestamp\": 1753362400000 } ]\n  }\n}\n```\n\n## Field rules\n\n- **`lastUpdated`** — Unix time in **milliseconds** (integer), the moment the file was generated.\n- **`hero.headline`** — ALL CAPS. `hero.url` — absolute URL. `hero.sublinks` — 0+ items, each\n  `{text, url}`; every sublink must point at the **same story** as the hero headline (a related\n  angle of it, not a different story).\n- **`hero.image`** — OPTIONAL absolute URL of the headline picture (the lead story's photo /\n  `og:image`), displayed at the top of the page. Must be a directly-hotlinkable image URL. Omit\n  the field entirely if there is no good image.\n- **`groups[]`** — narrative-arc panels. `title` ALL CAPS. `stories[]` are the stories in that\n  panel. Only create a group when 2+ stories genuinely support one arc.\n- **`columns.left/center/right`** — flat lists of standalone stories per column.\n- **Every story object** (`hero` aside) is `{headline, url, timestamp}`:\n  - `headline` — Title Case, acronyms preserved.\n  - `url` — absolute, unique. No two stories share a URL.\n  - `timestamp` — Unix **milliseconds**, the story's actual publication time. This drives the\n    3-day expiry in merge; a wrong/old value makes the story expire immediately.\n\n## Invariants (never violate)\n\n- Timestamps are Unix ms, integers, and reflect real publication time — never fabricated.\n- URLs are absolute and unique across the whole file.\n- Field names and nesting are exactly as above. No extra keys (no age labels, category tags,\n  or image fields — the front end does not render them).\n\n\n===== FORMAT-LOCK.md =====\n# DuncanReport.com — FORMATTING LOCKED · DO NOT CHANGE\n\n**Status:** Frozen as of 2026-07-24 per Darin's instruction. Any curation engine, deploy\nscript, or session must preserve these exactly. Do not \"improve,\" normalize, or refactor them.\nIf a change seems necessary, stop and ask first.\n\n## CSS spacing (exact values — do not alter)\n\n- `#header` — padding `10px 10px 2px`\n- `#top-nav` — padding `5px 0`\n- `#source-bar` — padding `4px 10px`\n- `.col` — padding `4px 8px`\n- `.col-section` — margin-bottom `4px`, padding-top `3px`\n- `.col-section-title` — margin-bottom `2px`\n- `.col-link` — margin `0`, line-height `1.15`\n- `.sub-headline` — margin `1px 0`\n\n## Typography & links\n\n- Hero headline: ALL CAPS\n- Group panel titles: ALL CAPS\n- Column story headlines: Title Case with acronyms preserved (punctuation-stripping\n  `toTitleCase` function)\n- All links: dark blue `#00008B`\n- Underline behavior (as live): top-nav links and `.col-section-title` links are underlined\n  at rest; `.col-link` and `.sub-headline` links are NOT underlined at rest — they underline\n  on hover only\n- `.sub-headline`: ALL CAPS (`text-transform: uppercase`)\n\n## Layout & separators\n\n- Gray separator lines ONLY between unrelated stories in columns — not within grouped\n  stories, not above the first column story, not between the hero area and columns\n- Each story gets its own `col-section`; no topic-based stacking\n- Sub-links must cover the exact same story as their headline\n- Hero sub-links render as a centered cluster below the headline\n- Group panels distributed round-robin across left, center, and right columns\n  (not all in the left column)\n\n## Structural elements that must NOT be touched\n\n- Source bar: half left-leaning, half right-leaning outlets — intentional, signals the\n  editorial mission. Do not reorder, rebalance, or restyle.\n- No age labels, no colored category tags. ONE headline image is allowed at the very top of the\n  page (the hero photo); no images anywhere else — not in columns, panels, or the source bar\n- Satire entries: small grey \"Satire\" badge (`.satire-tag` CSS class + `tagPrefix()` helper)\n\n---\n_This block is the canonical formatting lock. Paste it into Project Instructions so every\nscoped curation chat inherits it._\n\n\n===== DEPLOY-CONTRACT.md =====\n# DuncanReport.com — DEPLOY CONTRACT (CORE · INVARIANT)\n\nWhat every curation engine must satisfy so its `stories.json` survives the merge and deploys\ncleanly. The engine produces the file; `deploy-stories.sh` and `merge_stories.py` do the rest.\nDeployment is fully automatic — there is no human review step before publish.\n\n## What the engine hands off\n\n- A single valid `stories.json` for its section, matching `SCHEMA.md` exactly.\n- Timestamps in Unix **milliseconds**, reflecting real publication time.\n- Absolute, unique URLs for every story.\n\n## What the pipeline does with it\n\n**`deploy-stories.sh`** (bash):\n1. Validates the fresh JSON.\n2. Pulls the currently live `stories.json`.\n3. Runs the merge (below).\n4. Reassembles the site bundle.\n5. Deploys via the Wrangler CLI to Cloudflare Pages (project `duncanreport`).\n\n**`merge_stories.py`** (python):\n- **3-day expiry** — any story whose `timestamp` is older than 3 days is dropped. This is why\n  a wrong/backdated timestamp makes a story vanish on the first merge.\n- **Original-timestamp-wins** — if a story re-appears in a later cycle, the *earliest* timestamp\n  is kept, so its age is measured from first publication, not re-discovery.\n- **URL-overlap panel matching** — panels (groups) are matched/deduplicated by overlapping\n  story URLs, NOT by panel title. Titles get reframed as narratives evolve; URL overlap is\n  the stable key. This is why URLs must be exact and unique.\n\n## Rules the engine must follow so merge behaves\n\n- Never fabricate or round a timestamp — use the real publication time in Unix ms.\n- Keep URLs canonical and stable — the same story should carry the same URL across cycles, or\n  URL-overlap matching will treat it as new and produce a duplicate panel.\n- Do not rely on panel titles for identity — reframing a title is fine; changing which URLs a\n  panel contains is what the merge sees.\n\n## After publish\n\nNo pre-publish QA gate. Bad links or bad calls are handled post-publish via prompt/rules\nrefinement or manual deletion — not by holding the deploy.\n\n\n"
+"===== SCHEMA.md =====\n# DuncanReport.com — stories.json SCHEMA (CORE · INVARIANT)\n\nEvery curation engine, for every section, MUST emit a `stories.json` that matches this\nstructure exactly. This is a hard contract — the site's rendering and the deploy/merge\npipeline both depend on it. Do not add, rename, or drop fields.\n\n## Structure\n\n```json\n{\n  \"lastUpdated\": 1753372800000,\n  \"hero\": {\n    \"headline\": \"HERO HEADLINE IN ALL CAPS\",\n    \"url\": \"https://example.com/main-story\",\n    \"image\": \"https://example.com/lead-photo.jpg\",\n    \"sublinks\": [\n      { \"text\": \"Related angle one\", \"url\": \"https://example.com/main-story-a\" },\n      { \"text\": \"Related angle two\", \"url\": \"https://example.com/main-story-b\" }\n    ]\n  },\n  \"groups\": [\n    {\n      \"title\": \"NARRATIVE-ARC PANEL TITLE IN ALL CAPS\",\n      \"stories\": [\n        { \"headline\": \"Story Headline In Title Case\", \"url\": \"https://example.com/x\", \"timestamp\": 1753369200000 },\n        { \"headline\": \"Second Story In Title Case\", \"url\": \"https://example.com/y\", \"timestamp\": 1753365600000 }\n      ]\n    }\n  ],\n  \"columns\": {\n    \"left\":   [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/a\", \"timestamp\": 1753369200000 } ],\n    \"center\": [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/b\", \"timestamp\": 1753366000000 } ],\n    \"right\":  [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/c\", \"timestamp\": 1753362400000 } ]\n  }\n}\n```\n\n## Field rules\n\n- **`lastUpdated`** — Unix time in **milliseconds** (integer), the moment the file was generated.\n- **`hero.headline`** — ALL CAPS. `hero.url` — absolute URL. `hero.sublinks` — 0+ items, each\n  `{text, url}`; every sublink must point at the **same story** as the hero headline (a related\n  angle of it, not a different story).\n- **`hero.image`** — OPTIONAL absolute URL of the headline picture (the lead story's photo /\n  `og:image`), displayed at the top of the page. Must be a directly-hotlinkable image URL. Omit\n  the field entirely if there is no good image.\n- **`groups[]`** — narrative-arc panels. `title` ALL CAPS. `stories[]` are the stories in that\n  panel. Only create a group when 2+ stories genuinely support one arc.\n- **`columns.left/center/right`** — flat lists of standalone stories per column.\n- **Every story object** (`hero` aside) is `{headline, url, timestamp}`:\n  - `headline` — Title Case, acronyms preserved.\n  - `url` — absolute, unique. No two stories share a URL.\n  - `timestamp` — Unix **milliseconds**, the story's actual publication time. This drives the\n    3-day expiry in merge; a wrong/old value makes the story expire immediately.\n\n## Invariants (never violate)\n\n- Timestamps are Unix ms, integers, and reflect real publication time — never fabricated.\n- URLs are absolute and unique across the whole file.\n- Field names and nesting are exactly as above. No extra keys (no age labels, category tags,\n  or image fields — the front end does not render them).\n\n\n===== FORMAT-LOCK.md =====\n# DuncanReport.com — FORMATTING LOCKED · DO NOT CHANGE\n\n**Status:** Frozen as of 2026-07-24 per Darin's instruction. Any curation engine, deploy\nscript, or session must preserve these exactly. Do not \"improve,\" normalize, or refactor them.\nIf a change seems necessary, stop and ask first.\n\n## CSS spacing (exact values — do not alter)\n\n- `#header` — padding `10px 10px 2px`\n- `#top-nav` — padding `5px 0`\n- `#source-bar` — padding `4px 10px`\n- `.col` — padding `4px 8px`\n- `.col-section` — margin-bottom `4px`, padding-top `3px`\n- `.col-section-title` — margin-bottom `2px`\n- `.col-link` — margin `0`, line-height `1.15`\n- `.sub-headline` — margin `1px 0`\n\n## Typography & links\n\n- Hero headline: ALL CAPS\n- Group panel titles: ALL CAPS\n- Column story headlines: Title Case with acronyms preserved (punctuation-stripping\n  `toTitleCase` function)\n- All links: dark blue `#00008B`\n- Underline behavior (as live): top-nav links and `.col-section-title` links are underlined\n  at rest; `.col-link` and `.sub-headline` links are NOT underlined at rest — they underline\n  on hover only\n- `.sub-headline`: ALL CAPS (`text-transform: uppercase`)\n\n## Layout & separators\n\n- Gray separator lines ONLY between unrelated stories in columns — not within grouped\n  stories, not above the first column story, not between the hero area and columns\n- Each story gets its own `col-section`; no topic-based stacking\n- Sub-links must cover the exact same story as their headline\n- Hero sub-links render as a centered cluster below the headline\n- Group panels distributed round-robin across left, center, and right columns\n  (not all in the left column)\n\n## Structural elements that must NOT be touched\n\n- Source bar: half left-leaning, half right-leaning outlets — intentional, signals the\n  editorial mission. Do not reorder, rebalance, or restyle.\n- No age labels, no colored category tags. The hero photo sits at the very top of the page, and up to 2 self-hosted photos may also appear on the most\n  visual standalone COLUMN stories (Drudge-style, rendered above the headline). No other images - none on panels, no category tags, no source-bar icons\n- Satire entries: small grey \"Satire\" badge (`.satire-tag` CSS class + `tagPrefix()` helper)\n\n---\n_This block is the canonical formatting lock. Paste it into Project Instructions so every\nscoped curation chat inherits it._\n\n\n===== DEPLOY-CONTRACT.md =====\n# DuncanReport.com — DEPLOY CONTRACT (CORE · INVARIANT)\n\nWhat every curation engine must satisfy so its `stories.json` survives the merge and deploys\ncleanly. The engine produces the file; `deploy-stories.sh` and `merge_stories.py` do the rest.\nDeployment is fully automatic — there is no human review step before publish.\n\n## What the engine hands off\n\n- A single valid `stories.json` for its section, matching `SCHEMA.md` exactly.\n- Timestamps in Unix **milliseconds**, reflecting real publication time.\n- Absolute, unique URLs for every story.\n\n## What the pipeline does with it\n\n**`deploy-stories.sh`** (bash):\n1. Validates the fresh JSON.\n2. Pulls the currently live `stories.json`.\n3. Runs the merge (below).\n4. Reassembles the site bundle.\n5. Deploys via the Wrangler CLI to Cloudflare Pages (project `duncanreport`).\n\n**`merge_stories.py`** (python):\n- **3-day expiry** — any story whose `timestamp` is older than 3 days is dropped. This is why\n  a wrong/backdated timestamp makes a story vanish on the first merge.\n- **Original-timestamp-wins** — if a story re-appears in a later cycle, the *earliest* timestamp\n  is kept, so its age is measured from first publication, not re-discovery.\n- **URL-overlap panel matching** — panels (groups) are matched/deduplicated by overlapping\n  story URLs, NOT by panel title. Titles get reframed as narratives evolve; URL overlap is\n  the stable key. This is why URLs must be exact and unique.\n\n## Rules the engine must follow so merge behaves\n\n- Never fabricate or round a timestamp — use the real publication time in Unix ms.\n- Keep URLs canonical and stable — the same story should carry the same URL across cycles, or\n  URL-overlap matching will treat it as new and produce a duplicate panel.\n- Do not rely on panel titles for identity — reframing a title is fine; changing which URLs a\n  panel contains is what the merge sees.\n\n## After publish\n\nNo pre-publish QA gate. Bad links or bad calls are handled post-publish via prompt/rules\nrefinement or manual deletion — not by holding the deploy.\n\n\n"
 """)
 
 PROMPTS = json.loads(r"""
@@ -850,7 +850,15 @@ NARRATIVES = json.loads(r"""{
   },
   {
    "arc": "Weird and human-interest",
-   "q": "(bizarre OR strange OR unbelievable OR shocking) (man OR woman OR police OR neighbor)"
+   "q": "(bizarre OR strange OR unbelievable OR shocking OR viral OR wild OR \"caught on camera\") (man OR woman OR video OR moment OR story OR neighbor)"
+  },
+  {
+   "arc": "Newsmakers' personal lives",
+   "q": "(senator OR congressman OR governor OR \"former president\" OR celebrity OR mayor OR star OR influencer) (health OR cancer OR diagnosis OR hospital OR family OR wedding OR divorce OR baby OR feud OR reveals OR \"opens up\")"
+  },
+  {
+   "arc": "Accidents and rescues",
+   "q": "(crash OR capsizes OR capsized OR boat OR drowning OR rescue OR explosion OR collapse OR fire OR overturned) (dead OR killed OR injured OR missing OR rescued OR survivors)"
   },
   {
    "arc": "Science and religion curiosities",
@@ -1174,6 +1182,7 @@ NARRATIVES = json.loads(r"""{
 }""")
 
 EMPHASIS = {
+    'main': "\n\n===== MAIN PAGE EMPHASIS =====\nThe main page is the ONE page that gives a reader the top stories across EVERY topic - politics, world, business, sports, science, and culture - it is NOT a politics page, and politics must not crowd everything else out. Beyond the hard news, it MUST carry a strong, steady thread of HUMAN-INTEREST and NEWS-OF-THE-WEIRD stories - the broadly fascinating items people actually talk about. Concretely, that includes: a notable person's health or personal news (a former president's illness, a lawmaker sharing a personal journey), shocking or bizarre crime and viral incidents (a cartel killing influencers on camera, something caught on camera), notable accidents and rescues (a deadly boat capsize near a landmark), celebrity and public-figure follow-ups, and offbeat oddities (the delightful 'wait, what?' story). Reserve at least 4-5 slots per cycle for this human-interest / notable-people / offbeat / accident category, pulled from across outlets - the Drudge picks and tabloid/foreign outlets (New York Post, Daily Mail) are an excellent source. These are NOT filler; they are core to what makes the page worth reading. Always keep the spectrum-balanced hard news, but make room for this human thread every cycle. NOT THE BEE: try to feature ONE Not the Bee NEWS story per cycle on average (candidates tagged 'Not the Bee pick') - NEVER their opinion or 'Op-ed' pieces. Prefer the Not the Bee story most relevant to our standing narrative arcs (for example a clip tying into the socialists-taking-over-the-Democratic-party or culture-war threads). This is a long-term average, not a hard rule: on a day with no genuinely good, arc-relevant Not the Bee news item, skip it rather than forcing a weak one.\n",
     'life-culture': '\n\n===== LIFE & CULTURE EMPHASIS =====\nTHE HERO AND THE WHOLE PAGE MUST HAVE BROAD APPEAL. The hero must be a story a general reader instantly finds interesting - a big idea or discovery, a cars / tech / travel / food / gear story, a striking bit of history or science, or a genuinely fascinating human-interest item. NEVER make the hero, and never let the page lead with, a celebrity item, gossip, a red-carpet or awards story, or a review or recap of a single movie or TV series - above all not a niche show most readers have never heard of. Celebrity and entertainment combined are a MINOR thread: at most roughly 1 in 6 items and never the lead. Actively DEMOTE gossip, breakups, dating and baby news, casting news, box-office numbers, episode recaps, and "what to stream" pieces. Keep the reader in mind: assume a mostly male, white-collar, often-married audience. Cover what that reader genuinely finds interesting - cars and driving, travel and destinations, tech and gadgets, food and drink, gear, watches, whiskey and cocktails, home and style - woven together with thoughtful material (science and discovery, big ideas, history, books, arts) and a lighter thread of celebrity and entertainment (kept, but not dominant). Favor smart, well-made lifestyle journalism (InsideHook, Gear Patrol, GQ, Esquire, Robb Report, The Points Guy, and similar) and the delightful, surprising, "wow, I didn\'t know that" story over routine gossip. Because heavy analysis is often paywalled, lean on free sources - Smithsonian, Atlas Obscura, Aeon, NPR, Phys.org, The Conversation, Ars Technica, The Verge - for the thoughtful picks. This is the page to make the most interesting on the whole site. AVOID pure product endorsements and shopping/affiliate content. A piece about a category, trend, or idea is welcome ("Every Man Needs a Black Turtleneck Sweater"), but skip buying guides and brand endorsements ("Every Man Needs an LL Bean Black Turtleneck Sweater", deal roundups, "the best X to buy", "shop now" listicles). Favor editorial substance - profiles, essays, reviews with a point of view, real reporting - over commerce.\n',
     'sports': "\n\n===== SPORTS EMPHASIS =====\nWeight coverage by popularity: the major US sports lead - NFL is biggest, then COLLEGE FOOTBALL, NBA and MLB (all roughly equal, second tier), then NHL - followed by soccer (MLS plus the big international competitions: World Cup, European leagues, CONCACAF, Champions League). Give those DEEP, detailed coverage. In ADDITION, give BROAD coverage of the wider sports world every cycle: tennis, golf, UFC/MMA (name the week's main event even though it has no scoreboard), boxing, cycling (Tour de France and the grand tours), the Olympics, track and field and distance running, winter sports and skiing, WNBA and women's sports, and college sports. ALWAYS surface any world record or historic milestone (for example a new mile record) prominently - records are major news. College football is a top-two sport in season (late summer through January): in that window give it MULTIPLE stories on the page - rankings, marquee matchups, the playoff race, coaching and recruiting news - not one link. Pick as hero the single biggest sports story of the day, whatever the sport.\n",
     'world': "\n\n===== WORLD EMPHASIS =====\nLead with Europe. This page should be Europe-heavy: France, Germany, the UK, Italy and Spain, the EU and Brussels, and the European migration story (for example the Ceuta border crisis and Italy-Spain travel disputes). Ukraine and the Middle East - especially Iran war details and Israel - are always major. Use ENGLISH-LANGUAGE international sources - Deutsche Welle (DW) for Germany, France 24, Le Monde in English, RFI, El Pais in English, The Local, AFP, Euronews - not US outlets alone. Treat RealClearWorld's front page as a strong signal of what matters in world affairs, and follow its lead on which subjects to prioritize. Still cover the rest of the world - Africa, Asia (China, India, Japan), and South and Central America - but weight Europe, Ukraine, and the Middle East highest.\n",
@@ -1565,22 +1574,45 @@ DRUDGE_BLOCK = ("drudgereport.com", "freestar", "apps.apple.com", "play.google.c
                 "reuters.com/news/archive", "news.sky.com/story")
 
 RC_DOMAINS = {
-    "main": ["realclearinvestigations.com", "realclearpolitics.com", "realclearpolling.com"],
-    "politics": ["realclearpolitics.com", "realclearpolling.com", "realclearinvestigations.com"],
-    "world": ["realclearworld.com"],
-    "markets": ["realclearmarkets.com"],
+    "main": ["realclearinvestigations.com", "realclearpolitics.com", "realclearpolicy.com",
+             "realclearpolling.com"],
+    "politics": ["realclearpolitics.com", "realclearpolicy.com", "realclearpolling.com",
+                 "realclearinvestigations.com"],
+    "world": ["realclearworld.com", "realcleardefense.com"],
+    "markets": ["realclearmarkets.com", "realclearenergy.com"],
     "life-culture": ["realclearscience.com", "realclearhistory.com", "realcleareducation.com",
                      "realclearbooks.com", "realclearhealth.com", "realclearreligion.com"],
 }
 
+def _rc_is_repost(url):
+    """True ONLY for a RealClear dated aggregation/repost page, where the date is the FIRST
+    path segment (e.g. realclearpolitics.com/2026/08/09/slug.html) - a landing page pointing
+    elsewhere. RealClear ORIGINALS live under /articles/2026/... and are kept. Scoped to
+    realclear* domains so it never touches other outlets that use date-based URLs (NYT, WaPo)."""
+    try:
+        p = urllib.parse.urlparse(url or "")
+        if "realclear" not in p.netloc.lower():
+            return False
+        return bool(re.match(r"/20\d\d/\d\d/\d\d/", p.path))
+    except Exception:
+        return False
+
 def realclear_candidates(section, per_site=5):
-    """RealClear originals (Investigations, staff pieces, and the topical verticals) on a wide
-    window, since these publish less often than daily news. Routed per matching page."""
+    """RealClear ORIGINALS only (Investigations, staff pieces, the topical verticals).
+    RealClear's dated repost pages are aggregation landing pages that point to an outside
+    article, and RealClear blocks datacenter IPs so we can't resolve them to the original -
+    so those are skipped. We never link a RealClear landing page, only genuine RC content."""
     items = []
     for dom in RC_DOMAINS.get(section, []):
-        for r in _site_crawl(dom, 10, cap=per_site)[:per_site]:
+        n = 0
+        for r in _site_crawl(dom, 10, cap=per_site + 6):
+            if _rc_is_repost(r["link"]):
+                continue
             items.append({"title": r["title"], "url": r["link"], "source": r["source"],
                           "ts": r["ts"], "arc": "RealClear"})
+            n += 1
+            if n >= per_site:
+                break
     return items
 
 def drudge_candidates(limit=40):
@@ -1862,6 +1894,51 @@ def detect_narratives(cands, section, persist=True):
     return detected, id2cluster
 
 
+NTB_FEED = "https://notthebee.com/feed"
+
+def notthebee_pick(section="main", n=2):
+    """Up to n Not the Bee NEWS stories (never Op-eds / opinion), ranked by relevance to
+    this section's standing narrative arcs - so the page can feature about one per day on
+    average, preferring the ones that advance a long-running narrative."""
+    try:
+        root = ET.fromstring(_fetch_bytes(NTB_FEED, ua=BROWSER_UA, timeout=20))
+    except Exception as e:
+        print("    not the bee feed failed:", str(e)[:70])
+        return []
+    arc_kw = set()
+    for a in NARRATIVES.get(section, []):
+        arc_kw |= _sig(a.get("q", ""))
+    scored = []
+    for it in root.iter("item"):
+        title = (it.findtext("title") or "").strip()
+        link = (it.findtext("link") or "").strip()
+        if not title or not link:
+            continue
+        if title.lower().startswith("op-ed") or "/takes/" in link:   # opinion - skip
+            continue
+        rel = len(_sig(title) & arc_kw)
+        scored.append((rel, _pub_ms(it.findtext("pubDate") or ""), title, link))
+    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)   # arc-relevance first, then freshness
+    return [{"title": unescape(t), "url": l, "source": "Not the Bee", "ts": ts,
+             "arc": "Not the Bee pick"} for rel, ts, t, l in scored[:n]]
+
+def _recent_hero_headlines(section, days=4):
+    """Hero headlines from the last few days' archived snapshots, so the model can avoid
+    repeating a headline or its angle day after day."""
+    out = []
+    base = os.path.join(ROOT, "archive")
+    fname = "main.json" if section == "main" else "%s.json" % section
+    for i in range(1, days + 1):
+        d = (datetime.date.today() - datetime.timedelta(days=i)).isoformat()
+        try:
+            with open(os.path.join(base, d, fname), encoding="utf-8") as fh:
+                h = ((json.load(fh).get("hero") or {}).get("headline") or "").strip()
+            if h:
+                out.append((d, h))
+        except Exception:
+            continue
+    return out
+
 def curate_live(section):
     from anthropic import Anthropic
     client = Anthropic()
@@ -1872,8 +1949,9 @@ def curate_live(section):
     drudge = drudge_candidates() if section == "main" else []
     realclear = realclear_candidates(section)
     editorials = editorial_candidates() if section == "main" else []
+    ntb = notthebee_pick(section) if section == "main" else []
     cands, seen = [], set()
-    for c in (realclear[:18] + editorials[:24] + drudge[:28] + arcs[:30] + breaking[:30]):
+    for c in (ntb + realclear[:18] + editorials[:24] + drudge[:28] + arcs[:30] + breaking[:30]):
         if c["url"] in seen:
             continue
         seen.add(c["url"])
@@ -1914,6 +1992,11 @@ def curate_live(section):
             "them into ONE titled narrative panel instead of scattering them across the columns - "
             "especially for smaller sports. This differs from the no-duplicates rule: never repeat the "
             "SAME story, but DO cluster different stories on one subject.\n"
+            "- SOURCE DIVERSITY: within any ONE narrative panel, use a DIFFERENT outlet for every "
+            "story - NEVER link the same source twice in a single panel. A cluster on one topic is the "
+            "ideal place to put a left-leaning and a right-leaning outlet side by side; reach for that "
+            "balance. If a subject only has coverage from a single outlet, make it one column item, not "
+            "a panel.\n"
             "- CONTINUITY: for an ongoing arc, choose its newest development and frame the headline as "
             "the NEXT BEAT of a story readers already follow - advance it, don't just restate it.\n"
             "- ACCURACY: headlines must describe the CURRENT state of a story truthfully. NEVER frame a "
@@ -1935,6 +2018,11 @@ def curate_live(section):
             "- ORIGINALS: give extra weight to distinctive, free, staff-written analysis and "
             "investigations - especially RealClearInvestigations and RealClear staff pieces (sources "
             "that begin with 'RealClear') - and feature them prominently when they fit the page.\n"
+            "- PHOTOS: choose the 1-2 most VISUALLY striking standalone COLUMN stories - the ones that "
+            "will have a great news photo (a dramatic scene, a notable face, a vivid moment), NOT abstract, "
+            "financial, or text-only topics - and add \"photo\": true to those story objects (at most 2 per "
+            "page). These become Drudge-style images that break up the columns, so pick for picture quality "
+            "and impact. Do not flag hero or panel stories, only standalone column items.\n"
             % arc_names)
     if detected:
         lines = []
@@ -1953,12 +2041,17 @@ def curate_live(section):
             "A high outlet count across the balanced source set is a strong signal, not an order: "
             "still honor BREADTH and reserve the ODDITY slots regardless of volume.\n"
             % "\n".join(lines))
-    editorial += EMPHASIS.get(section, "")
+    editorial += (sports_emphasis() if section == "sports" else EMPHASIS.get(section, ""))
     try:
         live_hero = (live_current(section) or {}).get("hero") or {}
     except Exception:
         live_hero = {}
     if live_hero.get("headline") and NARRATIVES.get(section):
+        recent = _recent_hero_headlines(section, 4)
+        recent_txt = ""
+        if recent:
+            recent_txt = ("\nHERO HEADLINES ALREADY USED on recent days - do NOT reuse any of these, "
+                          "or their angle:\n" + "\n".join("  - %s: %s" % (d, h) for d, h in recent) + "\n")
         editorial += (
             "\n\n===== HEADLINE (choose a FRESH one) =====\n"
             "The headline currently showing is: \"%s\". Choose today's hero as the single biggest "
@@ -1966,8 +2059,18 @@ def curate_live(section):
             "story than the one above so the front page changes day to day; do NOT re-use a days-old "
             "ongoing topic as the hero just because it is prominent. Keep the same hero ONLY if that "
             "exact story is still the clearly dominant breaking news - in that case set the top-level "
-            "boolean \"heroOverride\": true; otherwise set \"heroOverride\": false."
-            % live_hero.get("headline"))
+            "boolean \"heroOverride\": true; otherwise set \"heroOverride\": false.\n"
+            "DAY-TO-DAY FRESHNESS (all pages): headlines should change from one day to the next. Barring "
+            "a genuinely dominant, still-developing story (a Super Bowl, a war, a major disaster), do NOT "
+            "run the same story as the hero on consecutive days - several days of the same headline is "
+            "boring. When a dominant story legitimately DOES stay on top - about THREE days at most as a "
+            "guideline, not a hard rule - each day's hero MUST highlight a DIFFERENT ASPECT of it: for a "
+            "Super Bowl, e.g. security or a threat at the event one day, a player or insider interview and "
+            "the controversy it sparked another, the scene and logistics, a key matchup or storyline, then "
+            "the aftermath and reaction. A 'who will win / prediction / preview' framing may be used as "
+            "the hero headline AT MOST ONCE across those days. Never repeat a headline you have already "
+            "run.%s"
+            % (live_hero.get("headline"), recent_txt))
     system = ("You are the DuncanReport.com curation engine for the '%s' section. Today is %s. Follow the "
               "CORE CONTRACT and the SECTION rules. You are given CANDIDATE stories pulled from this "
               "section's outlets and its narrative arcs via Google News. SELECT and ORGANIZE ONLY from "
@@ -2055,34 +2158,57 @@ def _is_dup(sig, seen):
             return True
     return False
 
+def _regdom(url):
+    """Registered domain of a URL (e.g. 'washingtonpost.com') for one-source-per-panel checks."""
+    try:
+        net = urllib.parse.urlparse(url).netloc.lower().replace("www.", "")
+    except Exception:
+        return ""
+    parts = net.split(".")
+    return ".".join(parts[-2:]) if len(parts) >= 2 else net
+
 def dedup_page(data):
-    """Ensure each distinct news event appears at most once across the page. The hero claims
-    its story; near-duplicate headlines in groups/columns (same event, different outlet) are
-    dropped. Hero sublinks are left alone - they are the hero story's own angles."""
+    """Ensure each distinct news event appears at most once across the page, AND that a single
+    narrative panel never links the same outlet twice (one source per topic - a cluster is the
+    place to show left- and right-leaning outlets side by side). A panel that collapses below
+    two distinct sources is unwrapped into the columns rather than shown as a lonely one-item
+    panel. Hero sublinks are left alone - they are the hero story's own angles."""
     seen = []
     hero = data.get("hero") or {}
     if hero.get("headline"):
         seen.append(_sig(hero["headline"]))
-    new_groups = []
+    new_groups, overflow = [], []
     for g in (data.get("groups") or []):
-        kept = []
+        kept, doms = [], set()
         for st in (g.get("stories") or []):
+            if _rc_is_repost(st.get("url")):     # RealClear aggregation landing page (resolved) - drop
+                continue
             sig = _sig(st.get("headline"))
             if _is_dup(sig, seen):
                 continue
-            seen.append(sig); kept.append(st)
-        if kept:
+            dm = _regdom(st.get("url"))
+            if dm and dm in doms:        # same outlet already in this panel -> skip
+                continue
+            seen.append(sig); doms.add(dm); kept.append(st)
+        if len(kept) >= 2:
             new_groups.append({**g, "stories": kept})
+        else:
+            overflow.extend(kept)        # collapsed panel -> move its story to the columns
     data["groups"] = new_groups
     cols = data.get("columns") or {}
     for k in ("left", "center", "right"):
         kept = []
         for st in (cols.get(k) or []):
+            if _rc_is_repost(st.get("url")):
+                continue
             sig = _sig(st.get("headline"))
             if _is_dup(sig, seen):
                 continue
             seen.append(sig); kept.append(st)
         cols[k] = kept
+    for st in overflow:                  # place unwrapped stories into the shortest column
+        k = min(("left", "center", "right"), key=lambda c: len(cols.get(c) or []))
+        cols.setdefault(k, []).append(st)
     data["columns"] = cols
     return data
 
@@ -2323,10 +2449,85 @@ def ensure_hero_image(section, data):
     except Exception:
         pass
 
+def apply_column_images(section, data):
+    """Self-host photos for up to 2 of the most visual column stories the curator flagged
+    with "photo": true (Drudge-style images that break up the text). Reuses the hero image
+    pipeline - og:image, then the junk + watermark OCR guard - so column images are clean and
+    never watermarked. Sets story["image"] to the web path; clears stale image fields first so
+    each run's images match the current stories."""
+    cols = data.get("columns") or {}
+    flagged = []
+    for k in ("left", "center", "right"):
+        for s in (cols.get(k) or []):
+            s.pop("image", None)                     # clear any stale resolved path
+            if s.get("photo"):
+                flagged.append(s)
+    flagged.sort(key=lambda s: s.get("timestamp") or 0, reverse=True)
+    n = 0
+    for s in flagged:
+        if n >= 2:
+            break
+        dest = os.path.join(SITE, "img", "%s-%d.jpg" % (section, n))
+        try:
+            if s.get("url") and _try_hero_images([s["url"]], dest):
+                s["image"] = "/img/%s-%d.jpg" % (section, n)
+                n += 1
+        except Exception as e:
+            print("    column image failed:", str(e)[:70])
+    if n:
+        print("  column images: %d for %s" % (n, section))
+    return data
+
 ESPN_LEAGUES = {
     "NFL": "football/nfl", "NBA": "basketball/nba", "MLB": "baseball/mlb",
-    "NHL": "hockey/nhl", "MLS": "soccer/usa.1",
+    "NHL": "hockey/nhl", "MLS": "soccer/usa.1", "NCAAF": "football/college-football",
 }
+
+# Season-aware sports weighting. Baseline popularity, times a season multiplier for the
+# current month, so the page leads with what is actually being PLAYED (or in camp) and
+# gives offseason leagues only major news. Self-adjusts year-round.
+_SPORT_POP = {"NFL": 100, "College football": 90, "NBA": 88, "MLB": 86,
+              "College basketball": 70, "NHL": 60, "MLS": 45}
+_SPORT_SEASON = {   # sport: (in-season months, camp/preseason months)
+    "MLB": (set(range(4, 11)), {3}),                 # Apr-Oct, spring training Mar
+    "NFL": ({9, 10, 11, 12, 1, 2}, {8}),             # Sep-Feb, camp/preseason Aug
+    "College football": ({9, 10, 11, 12, 1}, {8}),   # Sep-Jan, camp Aug
+    "NBA": ({10, 11, 12, 1, 2, 3, 4, 5, 6}, {10}),   # late Oct-Jun
+    "NHL": ({10, 11, 12, 1, 2, 3, 4, 5, 6}, {9}),    # Oct-Jun, camp Sep
+    "College basketball": ({11, 12, 1, 2, 3, 4}, {11}),
+    "MLS": (set(range(3, 13)), {2}),                 # Mar-Dec
+}
+
+def sports_emphasis():
+    """Season-aware sports emphasis for the current month: in-season sports lead, camp/
+    preseason sports next, offseason sports get only major news."""
+    m = datetime.date.today().month
+    scored = []
+    for s, (inseas, camp) in _SPORT_SEASON.items():
+        if m in inseas:
+            mult, tag = 1.0, "in season"
+        elif m in camp:
+            mult, tag = 0.8, "in camp/preseason"
+        else:
+            mult, tag = 0.15, "offseason"
+        scored.append((_SPORT_POP[s] * mult, s, tag))
+    scored.sort(key=lambda x: x[0], reverse=True)
+    active = ", ".join("%s (%s)" % (s, tag) for _sc, s, tag in scored if tag != "offseason")
+    off = ", ".join(s for _sc, s, tag in scored if tag == "offseason") or "none"
+    month = datetime.date.today().strftime("%B")
+    return ("\n\n===== SPORTS EMPHASIS (season-aware) =====\n"
+            "Lead the page with sports that are IN SEASON or in training camp; give OFFSEASON "
+            "leagues only MAJOR news (big trades, signings, firings, injuries, retirements) and never "
+            "fill the page with offseason speculation or mock drafts. Priority order for %s, highest "
+            "first: %s. OFFSEASON right now, keep to a MINIMUM: %s. Give the top in-season sports DEEP, "
+            "detailed daily coverage - games, results, standings, races, key performances - and when a "
+            "marquee sport is in camp or about to kick off (NFL and college football in late summer), "
+            "treat camp battles, preseason games, rankings and previews as real, current news. In "
+            "ADDITION give BROAD coverage of the wider sports world every cycle regardless of season: "
+            "tennis, golf, UFC/MMA (name the week's main event), boxing, cycling's grand tours, the "
+            "Olympics, track and field, and motorsport. ALWAYS surface any world record or historic "
+            "milestone prominently. Pick as hero the single biggest sports story of the day, weighted "
+            "toward in-season action.\n" % (month, active, off))
 
 # ---- Live market strip (business page) --------------------------------------
 # Real index/asset levels with the daily % move, fetched fresh every run (a live
@@ -2390,10 +2591,9 @@ RCP_APPROVAL = "https://www.realclearpolling.com/polls/approval/donald-trump/app
 # numbers (linked to Ballotpedia for the current figures) instead of nothing. Refresh
 # these occasionally - approval averages move slowly, so they stay accurate for a while.
 POLL_FALLBACK = [
-    {"name": "Trump Approval", "value": "39%", "sub": "58% disapprove",
-     "url": RCP_APPROVAL, "asOf": "Aug 7, 2026"},
-    {"name": "Congress Approval", "value": "25%", "sub": "58% disapprove", "url": BALLOTPEDIA_POLLS},
-    {"name": "Right Direction", "value": "30%", "sub": "61% wrong track", "url": BALLOTPEDIA_POLLS},
+    {"name": "Trump Approval", "value": "39%/58%", "sub": "", "url": RCP_APPROVAL, "asOf": "Aug 7, 2026"},
+    {"name": "Congress Approval", "value": "25%/58%", "sub": "", "url": BALLOTPEDIA_POLLS},
+    {"name": "Right Direction", "value": "30%/61%", "sub": "", "url": BALLOTPEDIA_POLLS},
 ]
 
 # Backup approval source when the live Ballotpedia fetch is blocked (the CI runner case):
@@ -2442,9 +2642,8 @@ def _poll_backup(reason):
     wa = _wikipedia_trump_approval()
     if wa:
         appr, disappr, date = wa
-        out[0] = {"name": "Trump Approval", "value": "%d%%" % round(float(appr)),
-                  "sub": "%d%% disapprove" % round(float(disappr)),
-                  "url": RCP_APPROVAL, "asOf": _short_date(date)}
+        out[0] = {"name": "Trump Approval", "value": "%d%%/%d%%" % (round(float(appr)), round(float(disappr))),
+                  "sub": "", "url": RCP_APPROVAL, "asOf": _short_date(date)}
         STATUS["_polls"] = "RCP approval live via Wikipedia; congress/direction fallback (%s)" % reason
     else:
         STATUS["_polls"] = "fallback (%s; Wikipedia backup also failed)" % reason
@@ -2486,8 +2685,8 @@ def poll_averages():
         m = re.search(re.escape(metric) + r" \(average\):\s*Last 30 days\s*(\d{1,2})%\s*(\d{1,2})%", text)
         if not m:
             continue
-        out.append({"name": label, "value": m.group(1) + "%",
-                    "sub": m.group(2) + "% " + negword, "url": BALLOTPEDIA_POLLS})
+        out.append({"name": label, "value": m.group(1) + "%/" + m.group(2) + "%",
+                    "sub": "", "url": BALLOTPEDIA_POLLS})
     if not out:
         return _poll_backup("parse found 0")
     if asof:
@@ -2938,7 +3137,8 @@ def build():
         raise SystemExit("ERROR: index.html missing from repo root.")
     shutil.copy2(src, os.path.join(SITE, "index.html"))
     for extra in ("favicon.ico", "dashboard.html", "review.html", "archive.html",
-                  "about.html", "contact.html", "privacy.html", "terms.html", "how-we-curate.html", "ads.txt"):
+                  "about.html", "contact.html", "privacy.html", "terms.html", "how-we-curate.html",
+                  "grants.html", "ads.txt"):
         p = os.path.join(ROOT, extra)
         if os.path.isfile(p):
             shutil.copy2(p, os.path.join(SITE, extra))
@@ -2983,6 +3183,7 @@ def build():
             except Exception as e:
                 data.pop("polls", None)
                 print("  poll averages fetch failed:", e)
+        data = apply_column_images(sec, data)   # self-host 1-2 Drudge-style column photos
         dest = os.path.join(SITE, "stories.json") if sec == "main" else os.path.join(SITE, sec, "stories.json")
         os.makedirs(os.path.dirname(dest), exist_ok=True)
         with open(dest, "w", encoding="utf-8") as f:
@@ -3081,7 +3282,8 @@ def build():
     _pages = [("/", "daily", "1.0"), ("/sports", "daily", "0.8"), ("/world", "daily", "0.8"),
               ("/markets", "daily", "0.8"), ("/politics", "daily", "0.8"), ("/life-culture", "daily", "0.8"),
               ("/archive", "daily", "0.4"), ("/about", "monthly", "0.3"), ("/contact", "monthly", "0.3"),
-              ("/privacy", "monthly", "0.2"), ("/terms", "monthly", "0.2"), ("/how-we-curate", "monthly", "0.4")]
+              ("/privacy", "monthly", "0.2"), ("/terms", "monthly", "0.2"), ("/how-we-curate", "monthly", "0.4"),
+              ("/grants", "monthly", "0.5")]
     _sm = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for _loc, _cf, _pri in _pages:
