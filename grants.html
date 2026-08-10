@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -141,28 +142,44 @@ email to our grants desk with your answers; you can also email the same informat
 <footer>&copy; 2026 DuncanReport.com &mdash; <a href="/">Home</a> &middot; <a href="/contact.html">Contact</a></footer>
 
 <script>
-document.getElementById('grant-form').addEventListener('submit', function(e){
+// ---- Submissions ----------------------------------------------------------
+// Paste your Google Apps Script Web App URL here to capture each application to a
+// Google Sheet AND email you. Until it's set, the form falls back to opening a
+// pre-addressed email to contact@duncanreport.com.
+var FORM_ENDPOINT = "https://docs.google.com/spreadsheets/d/10ckInpd4vBwddXQluEl9u4RqNlP3GG8apTMJQeKx0xE/edit?usp=sharing";
+
+var gform = document.getElementById('grant-form');
+function v(id){ return (document.getElementById(id).value || '').trim(); }
+function gfields(){
+  return { name:v('f_name'), email:v('f_email'), phone:v('f_phone'), location:v('f_location'),
+    outlet:v('f_outlet'), work:v('f_work'), topic:v('f_topic'), amount:v('f_amount'),
+    timeline:v('f_timeline'), desc:v('f_desc'), foia:v('f_foia'), other:v('f_other') };
+}
+function gthanks(){
+  gform.innerHTML = '<div class="note" style="background:#eaf7ea;border-color:#bfe3bf;">' +
+    'Thank you &mdash; your application has been received. We read every one, and we\'ll be in touch.</div>';
+  gform.scrollIntoView({behavior:'smooth', block:'center'});
+}
+function gmailto(d){
+  var lines = ['INVESTIGATIVE JOURNALISM GRANT APPLICATION','',
+    'Name: '+d.name,'Email: '+d.email,'Phone: '+d.phone,'Location: '+d.location,
+    'Publication/outlet: '+d.outlet,'Prior work: '+d.work,'Topic area: '+d.topic,
+    'Grant requested: '+d.amount,'Estimated timeline: '+d.timeline,
+    '','PROPOSED INVESTIGATION:',d.desc,'','FOIA / DATA ANALYSIS:',d.foia,'','OTHER / SUPPORT NEEDED:',d.other];
+  window.location.href = 'mailto:contact@duncanreport.com?subject=' +
+    encodeURIComponent('Grant application: ' + (d.name || 'Independent journalist')) +
+    '&body=' + encodeURIComponent(lines.join('\n'));
+}
+gform.addEventListener('submit', function(e){
   e.preventDefault();
-  function v(id){ return (document.getElementById(id).value || '').trim(); }
-  var lines = [
-    'INVESTIGATIVE JOURNALISM GRANT APPLICATION','',
-    'Name: ' + v('f_name'),
-    'Email: ' + v('f_email'),
-    'Phone: ' + v('f_phone'),
-    'Location: ' + v('f_location'),
-    'Publication/outlet: ' + v('f_outlet'),
-    'Prior work: ' + v('f_work'),
-    'Topic area: ' + v('f_topic'),
-    'Grant requested: ' + v('f_amount'),
-    'Estimated timeline: ' + v('f_timeline'),
-    '','PROPOSED INVESTIGATION:','' + v('f_desc'),
-    '','FOIA / DATA ANALYSIS:','' + v('f_foia'),
-    '','OTHER / SUPPORT NEEDED:','' + v('f_other')
-  ];
-  var subject = 'Grant application: ' + (v('f_name') || 'Independent journalist');
-  var href = 'mailto:contact@duncanreport.com?subject=' + encodeURIComponent(subject) +
-             '&body=' + encodeURIComponent(lines.join('\n'));
-  window.location.href = href;
+  var d = gfields();
+  if (FORM_ENDPOINT) {
+    fetch(FORM_ENDPOINT, {method:'POST', mode:'no-cors', body:new URLSearchParams(d)})
+      .then(function(){ gthanks(); })
+      .catch(function(){ gmailto(d); });   // network failure -> fall back to email
+  } else {
+    gmailto(d);
+  }
 });
 </script>
 </body>
