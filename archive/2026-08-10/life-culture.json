@@ -4,7 +4,8 @@
   "hero": {
     "headline": "ARTEMIS 2 ASTRONAUT DESCRIBES WITNESSING A TOTAL SOLAR ECLIPSE FROM BEYOND THE MOON",
     "url": "https://www.smithsonianmag.com/science-nature/like-a-hole-in-the-universe-artemis-2-astronaut-victor-glover-reflects-on-seeing-a-total-solar-eclipse-while-flying-by-the-moon-180989284/",
-    "sublinks": []
+    "sublinks": [],
+    "img": true
   },
   "groups": [
     {
