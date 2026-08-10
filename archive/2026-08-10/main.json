@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786376417796,
+  "lastUpdated": 1786379380832,
   "heroSetDate": "2026-08-10",
   "hero": {
     "headline": "IRAN KEEPS HORMUZ CLOSED, UNDERCUTTING TRUMP'S VICTORY LAP",
@@ -22,7 +22,7 @@
         "url": "https://www.washingtonpost.com/national-security/2026/08/05/trump-hegseth-clashed-camp-david-over-iran-missile-depletion-concerns/"
       }
     ],
-    "img": false
+    "img": true
   },
   "groups": [
     {
@@ -144,6 +144,18 @@
   "columns": {
     "left": [
       {
+        "headline": "Iran Insists Strait Will Stay Closed Until U.S. Meets Demands",
+        "url": "https://www.nytimes.com/2026/08/10/world/middleeast/iran-strait-of-hormuz-us-oman-talks.html?unlocked_article_code=1.4VA.jil8.kHQNyZQc-lT2&smid=url-share",
+        "timestamp": 1786379171046,
+        "postedAt": 1786379380832
+      },
+      {
+        "headline": "Size Of American Workforce Falls By Over A Million In Past Year",
+        "url": "https://www.marketwatch.com/story/the-size-of-the-american-workforce-has-fallen-by-over-1-million-people-in-the-past-year-heres-whats-going-on-b8141aa3",
+        "timestamp": 1786379171046,
+        "postedAt": 1786379380832
+      },
+      {
         "headline": "Trump Admin Faces Scrutiny After Mysterious Military Plane Crash",
         "url": "https://www.rawstory.com/new-mexico-plane-crash/",
         "timestamp": 1786376158359,
@@ -242,6 +254,13 @@
       }
     ],
     "center": [
+      {
+        "headline": "Kylie Jenner Goes 'Princess Kitty' In Hot Pink Latex At 29th Birthday Party",
+        "url": "https://pagesix.com/2026/08/10/style/kylie-jenner-goes-full-princess-kitty-in-hot-pink-latex-and-ostrich-feathers-at-29th-birthday-party/?utm_campaign",
+        "timestamp": 1786378920000,
+        "photo": true,
+        "postedAt": 1786379380832
+      },
       {
         "headline": "Ex-Security Officials Warn Trump Is Dismantling America's Guardrails",
         "url": "https://archive.is/f0rxt",
