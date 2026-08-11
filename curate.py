@@ -744,7 +744,12 @@ DOMAINS = json.loads(r"""{
   "batimes.com.ar",
   "mercopress.com",
   "timesofisrael.com",
-  "arabnews.com"
+  "arabnews.com",
+  "breitbart.com/europe",
+  "breitbart.com/middle-east",
+  "breitbart.com/latin-america",
+  "breitbart.com/asia",
+  "breitbart.com/africa"
  ],
  "sports": [
   "espn.com",
@@ -1183,9 +1188,9 @@ NARRATIVES = json.loads(r"""{
 
 EMPHASIS = {
     'main': "\n\n===== MAIN PAGE EMPHASIS =====\nThe main page is the ONE page that gives a reader the top stories across EVERY topic - politics, world, business, sports, science, and culture - it is NOT a politics page, and politics must not crowd everything else out. Beyond the hard news, it MUST carry a strong, steady thread of HUMAN-INTEREST and NEWS-OF-THE-WEIRD stories - the broadly fascinating items people actually talk about. Concretely, that includes: a notable person's health or personal news (a former president's illness, a lawmaker sharing a personal journey), shocking or bizarre crime and viral incidents (a cartel killing influencers on camera, something caught on camera), notable accidents and rescues (a deadly boat capsize near a landmark), celebrity and public-figure follow-ups, and offbeat oddities (the delightful 'wait, what?' story). Reserve at least 4-5 slots per cycle for this human-interest / notable-people / offbeat / accident category, pulled from across outlets - the Drudge picks and tabloid/foreign outlets (New York Post, Daily Mail) are an excellent source. These are NOT filler; they are core to what makes the page worth reading. Always keep the spectrum-balanced hard news, but make room for this human thread every cycle. NOT THE BEE: try to feature ONE Not the Bee NEWS story per cycle on average (candidates tagged 'Not the Bee pick') - NEVER their opinion or 'Op-ed' pieces. Prefer the Not the Bee story most relevant to our standing narrative arcs (for example a clip tying into the socialists-taking-over-the-Democratic-party or culture-war threads). This is a long-term average, not a hard rule: on a day with no genuinely good, arc-relevant Not the Bee news item, skip it rather than forcing a weak one.\n",
-    'life-culture': '\n\n===== LIFE & CULTURE EMPHASIS =====\nTHE HERO AND THE WHOLE PAGE MUST HAVE BROAD APPEAL. The hero must be a story a general reader instantly finds interesting - a big idea or discovery, a cars / tech / travel / food / gear story, a striking bit of history or science, or a genuinely fascinating human-interest item. NEVER make the hero, and never let the page lead with, a celebrity item, gossip, a red-carpet or awards story, or a review or recap of a single movie or TV series - above all not a niche show most readers have never heard of. Celebrity and entertainment combined are a MINOR thread: at most roughly 1 in 6 items and never the lead. Actively DEMOTE gossip, breakups, dating and baby news, casting news, box-office numbers, episode recaps, and "what to stream" pieces. Keep the reader in mind: assume a mostly male, white-collar, often-married audience. Cover what that reader genuinely finds interesting - cars and driving, travel and destinations, tech and gadgets, food and drink, gear, watches, whiskey and cocktails, home and style - woven together with thoughtful material (science and discovery, big ideas, history, books, arts) and a lighter thread of celebrity and entertainment (kept, but not dominant). Favor smart, well-made lifestyle journalism (InsideHook, Gear Patrol, GQ, Esquire, Robb Report, The Points Guy, and similar) and the delightful, surprising, "wow, I didn\'t know that" story over routine gossip. Because heavy analysis is often paywalled, lean on free sources - Smithsonian, Atlas Obscura, Aeon, NPR, Phys.org, The Conversation, Ars Technica, The Verge - for the thoughtful picks. This is the page to make the most interesting on the whole site. AVOID pure product endorsements and shopping/affiliate content. A piece about a category, trend, or idea is welcome ("Every Man Needs a Black Turtleneck Sweater"), but skip buying guides and brand endorsements ("Every Man Needs an LL Bean Black Turtleneck Sweater", deal roundups, "the best X to buy", "shop now" listicles). Favor editorial substance - profiles, essays, reviews with a point of view, real reporting - over commerce.\n',
+    'life-culture': '\n\n===== LIFE & CULTURE EMPHASIS =====\nTHE HERO AND THE WHOLE PAGE MUST HAVE BROAD APPEAL. The hero must be a story a general reader instantly finds interesting - a big idea or discovery, a cars / tech / travel / food / gear story, a striking bit of history or science, or a genuinely fascinating human-interest item. NEVER make the hero, and never let the page lead with, a celebrity item, gossip, a red-carpet or awards story, or a review or recap of a single movie or TV series - above all not a niche show most readers have never heard of. Celebrity and entertainment combined are a MINOR thread: at most roughly 1 in 6 items and never the lead. Actively DEMOTE gossip, breakups, dating and baby news, casting news, box-office numbers, episode recaps, and "what to stream" pieces. Keep the reader in mind: assume a mostly male, white-collar, often-married audience. Cover what that reader genuinely finds interesting - cars and driving, travel and destinations, tech and gadgets, food and drink, gear, watches, whiskey and cocktails, home and style - woven together with thoughtful material (science and discovery, big ideas, history, books, arts) and a lighter thread of celebrity and entertainment (kept, but not dominant). Favor smart, well-made lifestyle journalism (InsideHook, Gear Patrol, GQ, Esquire, Robb Report, The Points Guy, and similar) and the delightful, surprising, "wow, I didn\'t know that" story over routine gossip. Because heavy analysis is often paywalled, lean on free sources - Smithsonian, Atlas Obscura, Aeon, NPR, Phys.org, The Conversation, Ars Technica, The Verge - for the thoughtful picks. This is the page to make the most interesting on the whole site. AVOID pure product endorsements and shopping/affiliate content. A piece about a category, trend, or idea is welcome ("Every Man Needs a Black Turtleneck Sweater"), but skip buying guides and brand endorsements ("Every Man Needs an LL Bean Black Turtleneck Sweater", deal roundups, "the best X to buy", "shop now" listicles). Favor editorial substance - profiles, essays, reviews with a point of view, real reporting - over commerce. FASHION LIMIT: fashion, runway, and red-carpet style is a MINOR accent - include AT MOST ONE fashion/style story on the WHOLE page, and NEVER build a fashion panel or a stack of fashion items. If several fashion stories are available, pick the single best one and drop the rest.\n',
     'sports': "\n\n===== SPORTS EMPHASIS =====\nWeight coverage by popularity: the major US sports lead - NFL is biggest, then COLLEGE FOOTBALL, NBA and MLB (all roughly equal, second tier), then NHL - followed by soccer (MLS plus the big international competitions: World Cup, European leagues, CONCACAF, Champions League). Give those DEEP, detailed coverage. In ADDITION, give BROAD coverage of the wider sports world every cycle: tennis, golf, UFC/MMA (name the week's main event even though it has no scoreboard), boxing, cycling (Tour de France and the grand tours), the Olympics, track and field and distance running, winter sports and skiing, WNBA and women's sports, and college sports. ALWAYS surface any world record or historic milestone (for example a new mile record) prominently - records are major news. College football is a top-two sport in season (late summer through January): in that window give it MULTIPLE stories on the page - rankings, marquee matchups, the playoff race, coaching and recruiting news - not one link. Pick as hero the single biggest sports story of the day, whatever the sport.\n",
-    'world': "\n\n===== WORLD EMPHASIS =====\nLead with Europe. This page should be Europe-heavy: France, Germany, the UK, Italy and Spain, the EU and Brussels, and the European migration story (for example the Ceuta border crisis and Italy-Spain travel disputes). Ukraine and the Middle East - especially Iran war details and Israel - are always major. Use ENGLISH-LANGUAGE international sources - Deutsche Welle (DW) for Germany, France 24, Le Monde in English, RFI, El Pais in English, The Local, AFP, Euronews - not US outlets alone. Treat RealClearWorld's front page as a strong signal of what matters in world affairs, and follow its lead on which subjects to prioritize. Still cover the rest of the world - Africa, Asia (China, India, Japan), and South and Central America - but weight Europe, Ukraine, and the Middle East highest.\n",
+    'world': "\n\n===== WORLD EMPHASIS =====\nLead with Europe. This page should be Europe-heavy: France, Germany, the UK, Italy and Spain, the EU and Brussels, and the European migration story (for example the Ceuta border crisis and Italy-Spain travel disputes). Ukraine and the Middle East - especially Iran war details and Israel - are always major. Use ENGLISH-LANGUAGE international sources - Deutsche Welle (DW) for Germany, France 24, Le Monde in English, RFI, El Pais in English, The Local, AFP, Euronews - not US outlets alone. Treat RealClearWorld's front page as a strong signal of what matters in world affairs, and follow its lead on which subjects to prioritize. Still cover the rest of the world - Africa, Asia (China, India, Japan), and South and Central America - but weight Europe, Ukraine, and the Middle East highest. Nearly every international source here leans left, so Breitbart's world sections (Europe/London, Middle East, Latin America, Asia, Africa) are included as the main RIGHT-leaning voice: use them for a conservative perspective, for their strong UK coverage, and as a read on which stories are drawing attention right now - while still balancing them against the wire and European outlets.\n",
 }
 
 
@@ -2023,6 +2028,10 @@ def curate_live(section):
             "financial, or text-only topics - and add \"photo\": true to those story objects (at most 2 per "
             "page). These become Drudge-style images that break up the columns, so pick for picture quality "
             "and impact. Do not flag hero or panel stories, only standalone column items.\n"
+            "- PAYWALLS: when the same story is available from BOTH a hard-paywalled outlet (WSJ, FT, "
+            "Bloomberg, The Economist, Barron's, The Times of London, Telegraph) and a freely-readable one, "
+            "LINK the free version. Keep using paywalled outlets for headlines and as a signal of what "
+            "matters, but prefer a free source for the actual link readers click.\n"
             % arc_names)
     if detected:
         lines = []
@@ -2536,8 +2545,17 @@ def sports_emphasis():
             "ADDITION give BROAD coverage of the wider sports world every cycle regardless of season: "
             "tennis, golf, UFC/MMA (name the week's main event), boxing, cycling's grand tours, the "
             "Olympics, track and field, and motorsport. ALWAYS surface any world record or historic "
-            "milestone prominently. Pick as hero the single biggest sports story of the day, weighted "
-            "toward in-season action.\n" % (month, active, off))
+            "milestone prominently. "
+            "STAKES OVER TRIVIA: prefer stories with BROADER implications over isolated, low-impact items - "
+            "how a result, trade, or injury shifts a pennant or playoff race, a title picture, or a team's "
+            "whole season. If a key player is hurt, lead with what it means for the team's rotation/lineup "
+            "and their playoff chances, not the injury in isolation. "
+            "FAVOR WINNERS AND CONTENDERS: weight coverage toward winning teams, contenders, and title "
+            "favorites over teams with losing records doing routine things - a World Series or title favorite "
+            "snapping a losing streak beats a sub-.500 team's minor news. Marquee franchises and first-place "
+            "teams get the edge for the hero and top billing. "
+            "Pick as hero the single biggest sports story of the day, weighted toward in-season action and "
+            "toward the stakes and the teams that matter most.\n" % (month, active, off))
 
 # ---- Live market strip (business page) --------------------------------------
 # Real index/asset levels with the daily % move, fetched fresh every run (a live
@@ -2549,9 +2567,9 @@ MARKET_SYMBOLS = [
     ("S&P 500",   "^GSPC",   "index"),
     ("Dow",       "^DJI",    "index"),
     ("Nasdaq",    "^IXIC",   "index"),
-    ("10-Yr Yield", "^TNX",  "yield"),
+    ("10-Yr",     "^TNX",    "yield"),
     ("Gold",      "GC=F",    "dollar"),
-    ("Oil (WTI)", "CL=F",    "dollar"),
+    ("Oil",       "CL=F",    "dollar"),
     ("Bitcoin",   "BTC-USD", "dollar"),
 ]
 
@@ -2968,6 +2986,100 @@ def _suppressed(url, text=""):
         return True
     return False
 
+_FASHION_KW = ("fashion", "runway", "couture", "designer", "menswear", "red carpet", "met gala",
+    "catwalk", "streetwear", "capsule collection", "wardrobe", "stylist", "sartorial", "haute",
+    "handbag", "fashion week", "milan fashion", "paris fashion", "style icon", "dress code")
+
+def _is_fashion(headline):
+    h = (headline or "").lower()
+    return any(k in h for k in _FASHION_KW)
+
+def cap_fashion(data, limit=1):
+    """Life & Culture: fashion is a MINOR accent, never a whole section. Keep at most `limit`
+    fashion story on the entire page and drop any fashion-dominated panel (survivors of a
+    collapsed panel move to the columns)."""
+    n = [0]
+    def keep(headline):
+        if not _is_fashion(headline):
+            return True
+        if n[0] < limit:
+            n[0] += 1
+            return True
+        return False
+    keep((data.get("hero") or {}).get("headline"))     # a fashion hero uses the allowance
+    cols = data.get("columns") or {}
+    overflow, new_groups = [], []
+    for g in (data.get("groups") or []):
+        stories = [s for s in (g.get("stories") or []) if keep(s.get("headline"))]
+        if len(stories) >= 2:
+            new_groups.append({**g, "stories": stories})
+        else:
+            overflow.extend(stories)                    # collapsed panel -> columns
+    data["groups"] = new_groups
+    for k in ("left", "center", "right"):
+        cols[k] = [s for s in (cols.get(k) or []) if keep(s.get("headline"))]
+    for s in overflow:
+        k = min(("left", "center", "right"), key=lambda c: len(cols.get(c) or []))
+        cols.setdefault(k, []).append(s)
+    data["columns"] = cols
+    return data
+
+# Hard-paywall outlets: the article usually can't be read without a subscription. We still
+# crawl them for headlines and as a signal, but when the SAME story is available free we link
+# that instead. Metered outlets (NYT, WaPo) are left off - their gift/metered links often work.
+PAYWALL_DOMAINS = {"wsj.com", "ft.com", "bloomberg.com", "economist.com", "barrons.com",
+    "thetimes.com", "thetimes.co.uk", "telegraph.co.uk", "seekingalpha.com", "foreignpolicy.com",
+    "newyorker.com", "investors.com", "nikkei.com", "theinformation.com"}
+
+def _is_paywalled(url):
+    return _regdom(url) in PAYWALL_DOMAINS
+
+def _find_free_alternative(headline):
+    """Search for the SAME story from a non-paywalled outlet; return a free article URL or None.
+    Uses the Google News <source url> to skip paywalled outlets without decoding each link."""
+    q = _sig_query(headline, 6)
+    if not q:
+        return None
+    root = _gnews_get(GNEWS % urllib.parse.quote(q + " when:4d"))
+    if root is None:
+        return None
+    for it in root.iter("item"):
+        src = it.find("source")
+        src_url = src.get("url") if src is not None else ""
+        if src_url and _regdom(src_url) in PAYWALL_DOMAINS:
+            continue
+        link = (it.findtext("link") or "").strip()
+        if not link:
+            continue
+        real = decode_gnews(link) if "news.google.com" in link else link
+        if real and not _is_paywalled(real):
+            return real
+    return None
+
+def replace_paywalled(data, cap=10):
+    """Swap any hard-paywalled article link for a same-subject article from a free source
+    (our headline framing is kept). Bounded so a paywall-heavy page stays fast."""
+    n = [0]
+    def fix(s):
+        if n[0] >= cap:
+            return
+        u = s.get("url")
+        if u and _is_paywalled(u):
+            n[0] += 1
+            alt = _find_free_alternative(s.get("headline") or s.get("text"))
+            if alt:
+                s["url"] = alt
+    fix(data.get("hero") or {})
+    for sl in ((data.get("hero") or {}).get("sublinks") or []):
+        fix(sl)
+    for k in ("left", "center", "right"):
+        for s in ((data.get("columns") or {}).get(k) or []):
+            fix(s)
+    for g in (data.get("groups") or []):
+        for s in (g.get("stories") or []):
+            fix(s)
+    return data
+
 def apply_suppress(data):
     """Remove any suppressed article/domain/keyword from a page (hero, sublinks, groups,
     columns). If the hero itself is suppressed, promote the top remaining story so the page
@@ -3161,6 +3273,9 @@ def build():
         data = data_for(sec, sec in targets)
         data = apply_manual_picks(sec, data)
         data = apply_suppress(data)
+        data = replace_paywalled(data)   # swap hard-paywalled links for a free same-subject article
+        if sec == "life-culture":
+            data = cap_fashion(data)     # at most one fashion item, never a fashion panel
         if sec == "sports":
             try:
                 sb = sports_scoreboard()
