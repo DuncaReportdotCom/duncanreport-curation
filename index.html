@@ -283,7 +283,7 @@ margin: 0 auto 6px;
 padding: 5px 8px;
 text-align: center;
 border-bottom: 1px solid #ccc;
-font-size: 12px;
+font-size: 11px;
 line-height: 1.8;
 }
 #markets:empty { display: none; }
@@ -291,7 +291,7 @@ line-height: 1.8;
 .mk-name { font-weight: bold; }
 .mk-chg.mk-up { color: #006600; }
 .mk-chg.mk-down { color: #cc0000; }
-.mk-sep { color: #ccc; padding: 0 7px; }
+.mk-sep { color: #ccc; padding: 0 4px; }
 /* ===== POLLS STRIP (politics page) ===== */
 #polls { max-width:1100px; margin:0 auto 6px; padding:5px 8px; text-align:center; border-bottom:1px solid #ccc; font-size:12px; line-height:1.8; }
 #polls:empty { display:none; }
@@ -559,7 +559,7 @@ return link
 // the biggest sport by popularity on top. Only these leagues are shown (no WNBA).
 function scoreboardBlock(games) {
 if (!games || !games.length) return '';
-var pop = { NFL:1, NBA:2, MLB:3, NHL:4, MLS:5 };
+var pop = { NFL:1, NCAAF:2, NBA:3, MLB:4, NHL:5, MLS:6 };
 var byLeague = {};
 games.forEach(function(g){ if (g.league in pop) { (byLeague[g.league] = byLeague[g.league] || []).push(g); } });
 var leagues = Object.keys(byLeague).sort(function(a,b){ return pop[a] - pop[b]; });
@@ -583,6 +583,62 @@ html += link !== '#'
 });
 });
 return html + '</div>';
+}
+
+// ===== Live scores: refresh the scoreboard straight from ESPN (CORS-open), so scores are
+// current on every view instead of frozen at the once-a-day build. Server snapshot is the
+// instant paint; this overwrites it and then refreshes every 60s while the tab is open.
+var ESPN_LEAGUE_PATHS = { NFL:"football/nfl", NCAAF:"football/college-football", NBA:"basketball/nba",
+  MLB:"baseball/mlb", NHL:"hockey/nhl", MLS:"soccer/usa.1" };
+function fetchLiveScoreboard() {
+  var order = { in:0, pre:1, post:2 };
+  var today = new Date(); today.setHours(0,0,0,0);
+  var games = [];
+  return Promise.all(Object.keys(ESPN_LEAGUE_PATHS).map(function(league) {
+    return fetch("https://site.web.api.espn.com/apis/site/v2/sports/" + ESPN_LEAGUE_PATHS[league] + "/scoreboard", { cache:"no-store" })
+      .then(function(r){ return r.json(); })
+      .then(function(d) {
+        (d.events || []).slice(0, 12).forEach(function(ev) {
+          try {
+            var comp = ev.competitions[0], cs = comp.competitors;
+            var home = cs.filter(function(c){ return c.homeAway === "home"; })[0];
+            var away = cs.filter(function(c){ return c.homeAway === "away"; })[0];
+            var st = (ev.status && ev.status.type) || {}, state = st.state || "pre";
+            var gd = (ev.date || "").slice(0, 10);
+            if (gd) { var dd = new Date(gd + "T00:00:00"); if ((dd - today) / 86400000 > 5) return; }
+            games.push({ league:league,
+              home: (home.team.abbreviation || home.team.shortDisplayName || ""),
+              away: (away.team.abbreviation || away.team.shortDisplayName || ""),
+              state: state === "pre" ? "scheduled" : state,
+              note: st.shortDetail || st.detail || "",
+              awayScore: state === "pre" ? null : away.score,
+              homeScore: state === "pre" ? null : home.score,
+              _o: (order[state] != null ? order[state] : 3) });
+          } catch(e) {}
+        });
+      }).catch(function(){});
+  })).then(function() {
+    games.sort(function(a,b){ return a._o - b._o; });
+    return games;
+  });
+}
+function paintLiveScores(games) {
+  if (!games || !games.length) return;
+  var html = scoreboardBlock(games);
+  if (!html) return;
+  var left = document.getElementById('col-left');
+  if (!left) return;
+  var existing = left.querySelector('.sb-block');
+  if (existing) { existing.outerHTML = html; }
+  else { left.insertAdjacentHTML('afterbegin', html); }
+}
+var _liveScoresTimer = null;
+function startLiveScores() {
+  if (currentSection() !== 'sports') return;
+  function tick() { fetchLiveScoreboard().then(paintLiveScores).catch(function(){}); }
+  tick();
+  if (_liveScoresTimer) clearInterval(_liveScoresTimer);
+  _liveScoresTimer = setInterval(tick, 60000);
 }
 
 function renderStories(data) {
@@ -762,7 +818,8 @@ var YAHOO_SCOREBOARD = {
   NBA: "https://sports.yahoo.com/nba/scoreboard/",
   NFL: "https://sports.yahoo.com/nfl/scoreboard/",
   NHL: "https://sports.yahoo.com/nhl/scoreboard/",
-  MLS: "https://sports.yahoo.com/soccer/mls/"
+  MLS: "https://sports.yahoo.com/soccer/mls/",
+  NCAAF: "https://sports.yahoo.com/college-football/scoreboard/"
 };
 var MARKET_LINKS = [
   ["S&P 500", "https://finance.yahoo.com/quote/%5EGSPC"],
@@ -787,8 +844,7 @@ function renderPolls(polls) {
   if (!polls || !polls.length) { el.innerHTML = ''; return; }
   var asOf = '';
   for (var i = 0; i < polls.length; i++) { if (polls[i].asOf) { asOf = polls[i].asOf; break; } }
-  var intro = '<span style="color:#555">Polling averages' + (asOf ? ' (' + asOf + ')' : '') + ' &rarr; </span>';
-  el.innerHTML = intro + polls.map(function(p) {
+  el.innerHTML = polls.map(function(p) {
     var sub = p.sub ? ' <span style="color:#888">(' + p.sub + ')</span>' : '';
     return '<a href="' + (p.url || BALLOTPEDIA_POLLS) + '" target="_blank" style="text-decoration:none;color:inherit">' +
       '<span style="font-weight:bold">' + p.name + '</span> ' +
@@ -861,6 +917,8 @@ renderStories({});
 console.error('fetchNews error', err);
 renderStories({});
 }
+// Live scores: refresh the scoreboard from ESPN on the sports page (skip archive views)
+if (currentSection() === 'sports' && !ARCHIVE_DATE) { startLiveScores(); }
 })();
 }
 // Auto-run on load
