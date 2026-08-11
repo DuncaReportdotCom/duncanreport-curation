@@ -402,6 +402,7 @@ border-bottom: 1px solid #eee;
 <div id="footer">
 DuncanReport.com &mdash; Updated continuously<br>
 <a href="/grants.html" style="color:#00008B;text-decoration:underline;font-weight:600;">We fund independent investigative journalism &mdash; see our grants</a><br>
+Business inquiries: <a href="mailto:jason@duncanreport.com" style="color:#00008B;text-decoration:underline;">jason@duncanreport.com</a><br>
 &copy; 2026 DuncanReport.com &mdash;
 <a href="/about.html" style="color:#555;text-decoration:underline;">About</a> &middot;
 <a href="/how-we-curate.html" style="color:#555;text-decoration:underline;">How We Curate</a> &middot;
@@ -574,7 +575,8 @@ if (g.state === 'scheduled' || g.awayScore == null) {
 right = '<span class="sb-note">' + (g.note||'') + '</span>';
 } else {
 var cls = (g.state === 'post') ? 'sb-final' : 'sb-live';
-right = '<span class="' + cls + '">' + g.awayScore + '&ndash;' + g.homeScore + '</span>';
+var detail = g.note ? ' <span class="sb-note">' + g.note + '</span>' : '';
+right = '<span class="' + cls + '">' + g.awayScore + '&ndash;' + g.homeScore + '</span>' + detail;
 }
 var row = '<span class="sb-teams">' + g.away + ' @ ' + g.home + '</span> ' + right;
 html += link !== '#'
@@ -591,34 +593,38 @@ return html + '</div>';
 var ESPN_LEAGUE_PATHS = { NFL:"football/nfl", NCAAF:"football/college-football", NBA:"basketball/nba",
   MLB:"baseball/mlb", NHL:"hockey/nhl", MLS:"soccer/usa.1" };
 function fetchLiveScoreboard() {
-  var order = { in:0, pre:1, post:2 };
-  var today = new Date(); today.setHours(0,0,0,0);
-  var games = [];
+  var now = Date.now(), DAY = 86400000;
+  function etday(t){ return Math.floor((t - 4*3600000) / DAY); }  // approx US-eastern day
+  var byLeague = {};
   return Promise.all(Object.keys(ESPN_LEAGUE_PATHS).map(function(league) {
     return fetch("https://site.web.api.espn.com/apis/site/v2/sports/" + ESPN_LEAGUE_PATHS[league] + "/scoreboard", { cache:"no-store" })
       .then(function(r){ return r.json(); })
       .then(function(d) {
-        (d.events || []).slice(0, 12).forEach(function(ev) {
+        var live = [], upcoming = [], finals = [];
+        (d.events || []).forEach(function(ev) {
           try {
             var comp = ev.competitions[0], cs = comp.competitors;
             var home = cs.filter(function(c){ return c.homeAway === "home"; })[0];
             var away = cs.filter(function(c){ return c.homeAway === "away"; })[0];
             var st = (ev.status && ev.status.type) || {}, state = st.state || "pre";
-            var gd = (ev.date || "").slice(0, 10);
-            if (gd) { var dd = new Date(gd + "T00:00:00"); if ((dd - today) / 86400000 > 5) return; }
-            games.push({ league:league,
+            var t = Date.parse(ev.date || "");
+            var g = { league:league,
               home: (home.team.abbreviation || home.team.shortDisplayName || ""),
               away: (away.team.abbreviation || away.team.shortDisplayName || ""),
               state: state === "pre" ? "scheduled" : state,
-              note: st.shortDetail || st.detail || "",
-              awayScore: state === "pre" ? null : away.score,
-              homeScore: state === "pre" ? null : home.score,
-              _o: (order[state] != null ? order[state] : 3) });
+              note: st.shortDetail || st.detail || "", _t: t };
+            if (state === "in") { g.awayScore = away.score; g.homeScore = home.score; live.push(g); }
+            else if (state === "post") { if (t && (now - t) < 3*DAY) { g.awayScore = away.score; g.homeScore = home.score; finals.push(g); } }
+            else { if (t && (t - now) >= 0 && (t - now) < 5*DAY) { g.awayScore = null; g.homeScore = null; upcoming.push(g); } }
           } catch(e) {}
         });
+        if (finals.length) { var md = Math.max.apply(null, finals.map(function(g){ return etday(g._t); })); finals = finals.filter(function(g){ return etday(g._t) === md; }); }
+        if (upcoming.length) { var sd = Math.min.apply(null, upcoming.map(function(g){ return etday(g._t); })); upcoming = upcoming.filter(function(g){ return etday(g._t) === sd; }); }
+        byLeague[league] = live.concat(upcoming, finals);   // live, then next game, then last game
       }).catch(function(){});
   })).then(function() {
-    games.sort(function(a,b){ return a._o - b._o; });
+    var games = [];
+    Object.keys(byLeague).forEach(function(lg){ byLeague[lg].forEach(function(g){ delete g._t; games.push(g); }); });
     return games;
   });
 }
