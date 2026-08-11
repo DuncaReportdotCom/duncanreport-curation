@@ -1,22 +1,64 @@
 {
-  "lastUpdated": 1786371681910,
-  "heroSetDate": "2026-08-10",
+  "lastUpdated": 1786458229359,
+  "heroSetDate": "2026-08-11",
   "hero": {
-    "headline": "7.4-MAGNITUDE EARTHQUAKE ROCKS COLOMBIA AND ECUADOR, TRIGGERS MASS EVACUATIONS",
-    "url": "https://apnews.com/article/colombia-ecuador-earthquake-26fd40f93272d834fced47a4a673edc9",
+    "headline": "IRAN'S NEW SUPREME LEADER READIES MILITARY FOR PROLONGED US-ISRAEL STANDOFF",
+    "url": "https://www.lemonde.fr/en/international/article/2026/08/11/iran-s-new-supreme-leader-prepares-military-for-prolonged-confrontation-with-us-and-israel_6756385_4.html",
     "sublinks": [
       {
-        "text": "France 24 confirms 7.4 magnitude reading as buildings are evacuated across the region",
-        "url": "https://www.france24.com/en/video/20260810-a-7-4-magnitude-earthquake-shakes-colombia-and-ecuador-prompting-people-to-evacuate-buildings"
+        "text": "Trump's Secret Exit From Turkey Summit Over Iran Threat, Report Says",
+        "url": "https://www.washingtonpost.com/national/2026/08/10/trump-air-force-one-iran-turkey/313f2036-952e-11f1-9ef9-1be722184483_story.html"
       },
       {
-        "text": "CNN reports Colombia bears the brunt of the shaking, sparking widespread evacuations",
-        "url": "https://www.cnn.com/2026/08/10/americas/colombia-earthquake-intl"
+        "text": "Trump Tells Axios US Is 'Low-Keying It' With Iran",
+        "url": "https://www.axios.com/2026/08/09/trump-iran-interview"
+      },
+      {
+        "text": "Iran Vows Strait Of Hormuz Stays Shut Until US 'Corrects' Behavior",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
+      },
+      {
+        "text": "Trump-Netanyahu Rift Widens Amid Diverging Election Pressures",
+        "url": "https://www.washingtonpost.com/politics/2026/08/11/trump-netanyahu-experience-tension-critical-election-year/"
       }
     ],
     "img": true
   },
   "groups": [
+    {
+      "title": "FRANCE BATTLES HEATWAVE AND WORSENING DROUGHT",
+      "stories": [
+        {
+          "headline": "Drought Forces Water Restrictions Across Nearly 70% Of France",
+          "url": "https://www.euronews.com/my-europe/2026/08/10/drought-forces-water-restrictions-across-nearly-70-of-france-government-says",
+          "timestamp": 1786385900000,
+          "postedAt": 1786458229359
+        },
+        {
+          "headline": "UK And France Brace For Another Heat Wave As Western Europe Nears Third-Hottest Year On Record",
+          "url": "https://www.pbs.org/newshour/world/uk-and-france-prepare-for-another-heat-wave-as-western-europe-has-its-3rd-hottest-year-on-record-so-far",
+          "timestamp": 1786379414000,
+          "postedAt": 1786458229359
+        }
+      ]
+    },
+    {
+      "title": "GERMANY'S AfD SURGES AHEAD OF STATE ELECTIONS",
+      "stories": [
+        {
+          "headline": "AfD On Pre-Election Roll In East Germany, Despite Economists' Scepticism",
+          "url": "https://www.reuters.com/world/afd-pre-election-roll-east-germany-despite-economists-scepticism-2026-08-10/",
+          "timestamp": 1786350367000,
+          "postedAt": 1786458229359
+        },
+        {
+          "headline": "German Economy Minister Warns AfD's Rise Could Deter Investors",
+          "url": "https://streamlinefeed.co.ke/news/german-economy-minister-warns-afd-rise-threatens-foreign-investment",
+          "timestamp": 1786334508000,
+          "postedAt": 1786458229359
+        }
+      ]
+    },
     {
       "title": "SPAIN'S MIGRANT CRISIS AT CEUTA INTENSIFIES",
       "stories": [
@@ -89,12 +131,6 @@
     {
       "title": "GERMANY'S AfD SURGE RATTLES BERLIN",
       "stories": [
-        {
-          "headline": "German Economy Minister Warns AfD's Rise Could Deter Investors",
-          "url": "https://streamlinefeed.co.ke/news/german-economy-minister-warns-afd-rise-threatens-foreign-investment",
-          "timestamp": 1786334508000,
-          "postedAt": 1786371681910
-        },
         {
           "headline": "Germany: Far-Right AfD Extends Its Lead In Nationwide Polls",
           "url": "https://www.dw.com/en/germany-far-right-afd-extends-its-lead-in-nationwide-polls/a-78279279",
@@ -238,6 +274,25 @@
   "columns": {
     "left": [
       {
+        "headline": "Munich Cafe Goes Viral For Defending Staff Who Don't Speak German",
+        "url": "https://www.thelocal.de/20260811/munich-cafe-goes-viral-for-defending-staff-for-not-speaking-german",
+        "timestamp": 1786457118000,
+        "postedAt": 1786458229359
+      },
+      {
+        "headline": "Colombia Searches For Over 3,000 Missing After Powerful Earthquake",
+        "url": "https://apnews.com/article/colombia-choco-earthquake-rescue-e6afe31239c0deae34ab944014464399",
+        "timestamp": 1786453800000,
+        "photo": true,
+        "postedAt": 1786458229359
+      },
+      {
+        "headline": "China Cannot Afford To Use Its Alternative To The Dollar",
+        "url": "https://www.realclearworld.com/articles/2026/08/10/china_cannot_afford_to_use_its_alternative_to_the_dollar_1199482.html",
+        "timestamp": 1786382612000,
+        "postedAt": 1786458229359
+      },
+      {
         "headline": "Saudi Arabia, Pakistan, And Turkey Sign Defense Pact In Mecca, Sending Message To Rivals",
         "url": "https://www.lemonde.fr/en/opinion/article/2026/08/10/saudi-arabia-pakistan-and-turkey-sign-defense-pact-in-mecca-sending-strong-message-to-rivals_6756343_23.html",
         "timestamp": 1786369698000,
@@ -287,12 +342,6 @@
         "postedAt": 1786208312413
       },
       {
-        "headline": "Hungary's Ruling Party Picks Orban-Critic Judge For President",
-        "url": "https://www.lemonde.fr/en/international/article/2026/08/08/hungary-s-ruling-party-selects-orban-critic-judge-as-pick-for-president_6756297_4.html",
-        "timestamp": 1786205035000,
-        "postedAt": 1786208312413
-      },
-      {
         "headline": "Trump Ramps Up Pressure On Billionaire To Exit Venezuela",
         "url": "https://timesofindia.indiatimes.com/world/us/trump-forces-us-oil-billionaire-to-exit-venezuela/articleshow/133061123.cms",
         "timestamp": 1786203639000,
@@ -300,6 +349,25 @@
       }
     ],
     "center": [
+      {
+        "headline": "Ebola Deaths Surpass 2,000 In Democratic Republic Of Congo",
+        "url": "https://www.washingtonpost.com/world/2026/08/11/death-toll-surpasses-2000-second-largest-ebola-outbreak-record/",
+        "timestamp": 1786455357000,
+        "photo": true,
+        "postedAt": 1786458229359
+      },
+      {
+        "headline": "300 French Newspapers File Competition Complaint Against Google Over AI Summaries",
+        "url": "https://www.lemonde.fr/en/economy/article/2026/08/11/300-french-newspapers-file-competition-complaint-against-google-over-ai-summaries_6756384_19.html",
+        "timestamp": 1786454125000,
+        "postedAt": 1786458229359
+      },
+      {
+        "headline": "Avoiding The 'Guns Of August' 2026",
+        "url": "https://www.realcleardefense.com/articles/2026/08/09/avoiding_the_guns_of_august_2026_1199298.html",
+        "timestamp": 1786280035000,
+        "postedAt": 1786458229359
+      },
       {
         "headline": "Iran's Increasing Repression Of Civil Society",
         "url": "https://www.lemonde.fr/en/international/article/2026/08/10/iran-s-increasing-repression-of-civil-society_6756342_4.html",
@@ -357,18 +425,36 @@
     ],
     "right": [
       {
+        "headline": "Dogs Can Tell When You're Happy, Sad Or Frustrated, Study Shows",
+        "url": "https://www.washingtonpost.com/lifestyle/2026/08/11/dogs-can-tell-when-you-happy-scared-or-sad-new-brain-scans-show/",
+        "timestamp": 1786455487000,
+        "postedAt": 1786458229359
+      },
+      {
+        "headline": "The Golden Owl's Last Secrets",
+        "url": "https://www.lemonde.fr/en/the-golden-owl-s-last-secrets/",
+        "timestamp": 1786454037000,
+        "postedAt": 1786458229359
+      },
+      {
+        "headline": "Greenland Is The Missing Layer In America's Homeland Defense",
+        "url": "https://www.realcleardefense.com/articles/2026/08/11/greenland_is_the_missing_layer_in_americas_homeland_defense_1199584.html",
+        "timestamp": 1786443338000,
+        "postedAt": 1786458229359
+      },
+      {
+        "headline": "How Iran's 'Axis Of Resistance' Reshaped War In The Middle East",
+        "url": "https://www.npr.org/2026/08/09/nx-s1-5926481/how-irans-axis-of-resistance-reshaped-war-in-the-middle-east",
+        "timestamp": 1786308898000,
+        "postedAt": 1786458229359
+      },
+      {
         "headline": "Jeff Bezos And Liverpool: Consortium Including American Advances Talks",
         "url": "https://www.bbc.com/sport/football/articles/cgljd4kny9eo",
         "timestamp": 1786367811000,
         "photo": true,
         "postedAt": 1786371681910,
         "image": "/img/world-0.jpg"
-      },
-      {
-        "headline": "Avoiding The 'Guns Of August' 2026",
-        "url": "https://www.realcleardefense.com/articles/2026/08/09/avoiding_the_guns_of_august_2026_1199298.html",
-        "timestamp": 1786280035000,
-        "postedAt": 1786371681910
       },
       {
         "headline": "Houthi Attacks On Yemen Kill 4 Government Troops",
@@ -395,16 +481,16 @@
         "postedAt": 1786208312413
       },
       {
-        "headline": "Glenn Close Plays Tender Finnish Granny With False Teeth",
-        "url": "https://www.thetimes.com/culture/film/article/the-sumemr-book-love-me-tender-reviews-9ttvphz72",
-        "timestamp": 1786204800000,
-        "postedAt": 1786208312413
-      },
-      {
         "headline": "A Troubled Merz Faces Crucial Elections In September",
         "url": "https://ip-quarterly.com/en/troubled-merz-faces-crucial-elections-september",
         "timestamp": 1786017600000,
         "postedAt": 1786208312413
+      },
+      {
+        "headline": "Hungary's Parliament Approves Orban Critic Andras Baka As President",
+        "url": "https://www.lemonde.fr/en/international/article/2026/08/11/hungary-s-parliament-approves-orban-critic-andras-baka-as-president_6756386_4.html",
+        "timestamp": 1786456428000,
+        "postedAt": 1786458229359
       }
     ]
   }

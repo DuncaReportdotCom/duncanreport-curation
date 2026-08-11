@@ -1,21 +1,13 @@
 {
-  "lastUpdated": 1786372055948,
-  "heroSetDate": "2026-08-10",
+  "lastUpdated": 1786458646962,
+  "heroSetDate": "2026-08-11",
   "hero": {
-    "headline": "VANCE, NEWSOM CLASH OVER MICHIGAN SENATE HOPEFUL EL-SAYED",
-    "url": "https://thehill.com/homenews/campaign/6020076-abdul-el-sayed-jd-vance-michigan-senate-race/",
+    "headline": "TRUMP REFUSES TO BACK DOWN AS SUPREME COURT BLOCKS MAJOR POLICIES",
+    "url": "https://www.washingtonpost.com/politics/2026/08/11/trump-seeks-preserve-major-policies-after-adverse-supreme-court-rulings/",
     "sublinks": [
       {
-        "text": "Newsom Steps In As El-Sayed's Chief Defender In Michigan Race",
-        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4680722/gavin-newsom-abdul-el-sayed-wingman-michigan/"
-      },
-      {
-        "text": "Analysis: Can Democrats Win If The Party's Left Flank Prevails?",
-        "url": "https://thehill.com/opinion/campaign/6012017-democratic-socialists-party-future/"
-      },
-      {
-        "text": "Commentary: Anti-Vance Critics Say Woke Attacks Aren't Landing",
-        "url": "https://dailycaller.com/2026/08/10/jd-vance-donald-trump-israel-left-wing-woke-iran/"
+        "text": "Analysis: what the administration wants from the justices next",
+        "url": "https://www.scotusblog.com/2026/08/what-does-the-trump-administration-want-from-the-supreme-court-next/"
       }
     ],
     "img": true
@@ -99,6 +91,37 @@
   "columns": {
     "left": [
       {
+        "headline": "Celebrity-Backed Nonprofit Faces Scrutiny Over Alleged Terror Ties",
+        "url": "https://www.cbsnews.com/news/taylor-farms-salmonella-cyclospora-outbreaks/",
+        "timestamp": 1786456056000,
+        "postedAt": 1786458646962
+      },
+      {
+        "headline": "Trump Used Elaborate Ruse To Fly Out Of Turkey Amid Iran Threat, Report Says",
+        "url": "https://www.washingtonpost.com/national/2026/08/10/trump-air-force-one-iran-turkey/313f2036-952e-11f1-9ef9-1be722184483_story.html",
+        "timestamp": 1786455837000,
+        "photo": true,
+        "postedAt": 1786458646962
+      },
+      {
+        "headline": "Democratic Rebellion Against Older Politicians Reaches New Battleground",
+        "url": "https://www.washingtonpost.com/politics/2026/08/11/luke-bronin-vs-rep-john-larson-is-latest-house-democrat-generational-battle/",
+        "timestamp": 1786455188000,
+        "postedAt": 1786458646962
+      },
+      {
+        "headline": "California Judge Holds Homeland Security In Contempt Over LA Immigration Sweeps",
+        "url": "https://calmatters.org/justice/2026/08/los-angeles-immigration-lawsuit-contempt/",
+        "timestamp": 1785888745000,
+        "postedAt": 1786458646962
+      },
+      {
+        "headline": "Kansas Judge Strikes Abortion Restrictions, Calls It Not Even A Close Call",
+        "url": "https://kansasreflector.com/2026/08/04/kansas-judge-says-decision-to-strike-abortion-restrictions-not-even-a-close-call/",
+        "timestamp": 1785875309000,
+        "postedAt": 1786458646962
+      },
+      {
         "headline": "Amazon Data Center Stirs Fears Over Pollution Impact",
         "url": "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
         "timestamp": 1786371534000,
@@ -165,12 +188,6 @@
         "postedAt": 1786214908000
       },
       {
-        "headline": "Race Too Close To Call In Democratic Primary For Michigan Senate Seat",
-        "url": "https://www.nytimes.com/live/2026/08/04/us/midterms-elections-michigan-virginia",
-        "timestamp": 1786147020000,
-        "postedAt": 1786208761432
-      },
-      {
         "headline": "DOJ Refutes Fishback Claim, Says Donalds Isn't Under Investigation",
         "url": "https://dailycaller.com/2026/08/08/doj-refutes-fishback-claim-donalds-not-under-investigation-federal-sex-trafficking/",
         "timestamp": 1786207440000,
@@ -202,6 +219,38 @@
       }
     ],
     "center": [
+      {
+        "headline": "North Carolina Republicans Pick Replacement For Embattled Rep. Chuck Edwards",
+        "url": "https://www.washingtonpost.com/politics/2026/08/11/north-carolina-republicans-pick-replacement-embattled-rep-chuck-edwards/",
+        "timestamp": 1786455911000,
+        "postedAt": 1786458646962
+      },
+      {
+        "headline": "In Rural Texas, Data Center Opposition Scrambles Conservative Tradition",
+        "url": "https://www.washingtonpost.com/nation/2026/08/11/rural-texas-data-center-opposition-is-scrambling-conservative-orthodoxy/",
+        "timestamp": 1786455188000,
+        "postedAt": 1786458646962
+      },
+      {
+        "headline": "Betting Markets Could Deepen Distrust In Elections, Experts Warn",
+        "url": "https://www.votebeat.org/national/2026/08/10/election-officials-worried-prediction-betting-markets-kalshi-polymarket/",
+        "timestamp": 1786352400000,
+        "postedAt": 1786458646962
+      },
+      {
+        "headline": "Paxton Touts Economic Plan, Bashes Talarico At Houston Rally",
+        "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/08/06/558737/paxton-talarico-houston-campaign-stop-texas-senate-economy-affordability/",
+        "timestamp": 1786023864000,
+        "photo": true,
+        "postedAt": 1786458646962,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "Senate Set To Vote On Four Internet Bills Critics Call A Step Backward",
+        "url": "https://www.eff.org/deeplinks/2026/08/senate-vote-tomorrow-four-internet-bills-one-wrong-direction",
+        "timestamp": 1785888911000,
+        "postedAt": 1786458646962
+      },
       {
         "headline": "Is AOC Skipping Marriage To Hide Cash While In Congress?",
         "url": "https://www.dailywire.com/news/is-aoc-skipping-marriage-to-hide-cash-while-shes-in-congress",
@@ -265,12 +314,6 @@
         "postedAt": 1786208761432
       },
       {
-        "headline": "Kansas Judge Rules Striking Abortion Restrictions Was Not 'Even A Close Call'",
-        "url": "https://kansasreflector.com/2026/08/04/kansas-judge-says-decision-to-strike-abortion-restrictions-not-even-a-close-call/",
-        "timestamp": 1785875309000,
-        "postedAt": 1786208761432
-      },
-      {
         "headline": "2026 Midterm Map Shows Where Reproductive Freedom Is On The Ballot",
         "url": "https://reproductivefreedomforall.org/resources/2026-midterm-elections-map-see-where-reproductive-freedom-is-on-the-ballot/",
         "timestamp": 1785770288000,
@@ -290,6 +333,18 @@
       }
     ],
     "right": [
+      {
+        "headline": "Ex-Ukraine POWs Accuse Russia Of Systematic Torture",
+        "url": "https://www.newsmax.com/world/globaltalk/ukraine-prisoners-of-war-russia/2026/08/11/id/1265712/",
+        "timestamp": 1786456735000,
+        "postedAt": 1786458646962
+      },
+      {
+        "headline": "Trump-Netanyahu Rift Widens As Election Pressures Diverge",
+        "url": "https://www.washingtonpost.com/politics/2026/08/11/trump-netanyahu-experience-tension-critical-election-year/",
+        "timestamp": 1786455194000,
+        "postedAt": 1786458646962
+      },
       {
         "headline": "Trump To Attend High School Patriot Games In Ohio",
         "url": "https://www.washingtontimes.com/news/2026/aug/10/president-trump-attend-high-school-patriot-games-ohio/",
@@ -368,6 +423,18 @@
         "url": "https://www.nytimes.com/2026/08/06/us/politics/reflecting-pool-david-hearn-trump.html",
         "timestamp": 1786066300000,
         "postedAt": 1786283850387
+      },
+      {
+        "headline": "U.S. Judge Ends Graft Case Against Indian Billionaire Gautam Adani",
+        "url": "https://www.cnbc.com/2026/08/11/us-judge-ends-graft-case-against-indian-billionaire-gautam-adani.html",
+        "timestamp": 1786424393000,
+        "postedAt": 1786458646962
+      },
+      {
+        "headline": "How El-Sayed Went From Political Oblivion To Progressive Breakthrough In Michigan Senate Race",
+        "url": "https://apnews.com/article/michigan-primary-senate-elsayed-stevens-60c79349b60ffbf24a34d60b76e130ed",
+        "timestamp": 1785983940000,
+        "postedAt": 1786458646962
       }
     ]
   },

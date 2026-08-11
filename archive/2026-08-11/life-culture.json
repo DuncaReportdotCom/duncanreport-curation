@@ -1,9 +1,9 @@
 {
-  "lastUpdated": 1786372225078,
-  "heroSetDate": "2026-08-10",
+  "lastUpdated": 1786458856408,
+  "heroSetDate": "2026-08-11",
   "hero": {
-    "headline": "ARTEMIS 2 ASTRONAUT DESCRIBES WITNESSING A TOTAL SOLAR ECLIPSE FROM BEYOND THE MOON",
-    "url": "https://www.smithsonianmag.com/science-nature/like-a-hole-in-the-universe-artemis-2-astronaut-victor-glover-reflects-on-seeing-a-total-solar-eclipse-while-flying-by-the-moon-180989284/",
+    "headline": "THE SOVIETS DRILLED THE DEEPEST HOLE EVER",
+    "url": "https://nautil.us/the-soviets-drilled-the-deepest-hole-ever-1283561",
     "sublinks": [],
     "img": true
   },
@@ -121,12 +121,43 @@
   "columns": {
     "left": [
       {
+        "headline": "Why Ford Didn't Call Its New Truck the Ranchero",
+        "url": "https://www.thedrive.com/news/why-ford-didnt-call-its-new-truck-the-ranchero",
+        "timestamp": 1786457257000,
+        "postedAt": 1786458856408
+      },
+      {
+        "headline": "Why Do Some People Feel Life Is So Unfair? Understanding This May Help Explain Conspiracy Beliefs",
+        "url": "https://theconversation.com/why-do-some-people-feel-life-is-so-unfair-understanding-this-may-help-explain-conspiracy-beliefs-289272",
+        "timestamp": 1786455736000,
+        "postedAt": 1786458856408
+      },
+      {
+        "headline": "Cambridge Vice-Chancellor Found Liable for Silencing Whistleblower",
+        "url": "https://unherd.com/newsroom/cambridge-vice-chancellor-found-liable-for-silencing-whistleblower/?edition",
+        "timestamp": 1786452585000,
+        "postedAt": 1786458856408
+      },
+      {
+        "headline": "What Baldness and Cancer Might Have in Common",
+        "url": "https://www.realclearscience.com/video/2026/08/11/what_baldness_and_cancer_might_have_in_common_1199543.html",
+        "timestamp": 1786372380000,
+        "postedAt": 1786458856408
+      },
+      {
+        "headline": "First Look Inside New 'Elvis: The Fashion Icon' Exhibit at Graceland",
+        "url": "https://www.commercialappeal.com/picture-gallery/entertainment/people/elvis-presley/2026/08/07/elvis-fashion-exhibit-at-graceland-photos/91206681007/",
+        "timestamp": 1786097100000,
+        "photo": true,
+        "postedAt": 1786458856408
+      },
+      {
         "headline": "The Hiroshima Atomic Bombing Birthed A Strange, Never-Before-Seen Material, New Study Finds",
         "url": "https://www.smithsonianmag.com/smart-news/the-hiroshima-atomic-bombing-birthed-a-strange-never-before-seen-material-according-to-a-new-study-180989249/",
         "timestamp": 1786370400000,
         "photo": true,
         "postedAt": 1786372225078,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-1.jpg"
       },
       {
         "headline": "Boeing Is Selling Its Air Taxi Startups To Archer Aviation",
@@ -187,15 +218,35 @@
         "url": "https://atschorn.substack.com/p/in-defense-of-getting-high-for-a",
         "timestamp": 1786134034000,
         "postedAt": 1786208924785
-      },
-      {
-        "headline": "Going Bananas For Bandanas: The Fashion Trend That Goes Back Centuries",
-        "url": "https://www.theguardian.com/fashion/2026/aug/08/bandanas-fashion-trend-accessories-goes-back-centuries",
-        "timestamp": 1786179600000,
-        "postedAt": 1786372225078
       }
     ],
     "center": [
+      {
+        "headline": "This Creamy Pickle Dip Turns a Midwestern Classic Into the Ultimate Party Snack",
+        "url": "https://www.seriouseats.com/iowa-pickle-roll-up-dip-12056971",
+        "timestamp": 1786456895000,
+        "postedAt": 1786458856408
+      },
+      {
+        "headline": "Curated by Cadillac Escalade IQ Gets the Celestiq Treatment, Pushes Price Near $200,000",
+        "url": "https://www.caranddriver.com/news/a73395844/curated-by-cadillac-escalade-iq-revealed/",
+        "timestamp": 1786453317000,
+        "photo": true,
+        "postedAt": 1786458856408,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Just 7 Days of Meditation Can Rewire Your Brain, Study Suggests",
+        "url": "https://www.sciencealert.com/just-7-days-of-meditation-can-rewire-your-brain-study-suggests",
+        "timestamp": 1786453303000,
+        "postedAt": 1786458856408
+      },
+      {
+        "headline": "The Weather of Warfare: When the Elements Saved America",
+        "url": "https://www.realclearhistory.com/articles/2026/08/05/the_weather_of_warfare_when_the_elements_saved_america_1198015.html",
+        "timestamp": 1785920789000,
+        "postedAt": 1786458856408
+      },
       {
         "headline": "Tested: The 2027 Infiniti QX65 Looks Like A Luxury SUV, But Doesn't Act Like One",
         "url": "https://www.motortrend.com/reviews/first-test-2027-infiniti-qx65-awd",
@@ -257,12 +308,6 @@
         "postedAt": 1786208924785
       },
       {
-        "headline": "Classics Professor Emily Wilson Doubles Down On 'The Odyssey' Criticism: 'We Need More'",
-        "url": "https://www.nme.com/news/film/classics-professor-emily-wilson-doubles-down-on-the-odyssey-criticism-we-need-more-3961136",
-        "timestamp": 1786011292000,
-        "postedAt": 1786372225078
-      },
-      {
         "headline": "Celebrity Deaths 2026: Remembering The Stars Who Died This Year",
         "url": "https://ew.com/celebrity-deaths-2026-stars-who-died-this-year-11884984",
         "timestamp": 1786136460000,
@@ -273,9 +318,45 @@
         "url": "https://www.kcci.com/article/movie-review-ice-cream-man/73378661",
         "timestamp": 1786128780000,
         "postedAt": 1786208924785
+      },
+      {
+        "headline": "Classics Professor Emily Wilson Doubles Down on 'The Odyssey' Criticism",
+        "url": "https://www.nme.com/news/film/classics-professor-emily-wilson-doubles-down-on-the-odyssey-criticism-we-need-more-3961136",
+        "timestamp": 1786011292000,
+        "postedAt": 1786458856408
       }
     ],
     "right": [
+      {
+        "headline": "Give Your Kid Real Work",
+        "url": "https://www.businessinsider.com/cursor-work-trials-tips-candidate-hiring-head-talent-2026-8",
+        "timestamp": 1786456207000,
+        "postedAt": 1786458856408
+      },
+      {
+        "headline": "ZZ Top Taps Replacement Drummer After Frank Beard Takes Leave",
+        "url": "https://www.billboard.com/music/rock/zz-top-taps-replacement-drummer-tour-frank-beard-leave-1236313580/",
+        "timestamp": 1786454372000,
+        "postedAt": 1786458856408
+      },
+      {
+        "headline": "Spotify to Label AI Artists on the Platform With New 'AI Persona' Badge",
+        "url": "https://www.billboard.com/pro/spotify-label-identify-ai-artists/",
+        "timestamp": 1786453249000,
+        "postedAt": 1786458856408
+      },
+      {
+        "headline": "All the Box-Office Records 'Spider-Man: Brand New Day' Has Broken So Far",
+        "url": "https://www.deseret.com/entertainment/2026/08/10/every-box-office-record-spider-man-brand-new-day-has-broken/",
+        "timestamp": 1786400190000,
+        "postedAt": 1786458856408
+      },
+      {
+        "headline": "Researchers Discover Cleaner Route to Purifying Rare Earth Elements",
+        "url": "https://news.uchicago.edu/story/researchers-discover-cleaner-route-purifying-rare-earth-elements",
+        "timestamp": 1786363200000,
+        "postedAt": 1786458856408
+      },
       {
         "headline": "Why You Shouldn't Overlook Loyalty Program Promotions",
         "url": "https://thepointsguy.com/loyalty-programs/maximize-promotions/",

@@ -1,30 +1,39 @@
 {
-  "lastUpdated": 1786379380832,
-  "heroSetDate": "2026-08-10",
+  "lastUpdated": 1786457715242,
+  "heroSetDate": "2026-08-11",
   "hero": {
-    "headline": "IRAN KEEPS HORMUZ CLOSED, UNDERCUTTING TRUMP'S VICTORY LAP",
-    "url": "https://www.nytimes.com/2026/08/10/world/middleeast/iran-strait-of-hormuz-us-oman-talks.html?unlocked_article_code=1.4VA.jil8.kHQNyZQc-lT2&smid=url-share",
+    "headline": "STOCKS RALLY ON REPORT OF FRESH U.S.-IRAN PEACE DEAL",
+    "url": "https://www.reuters.com/business/wall-st-futures-muted-us-iran-impasse-lifts-oil-prices-2026-08-11/",
     "sublinks": [
       {
-        "text": "Move Undercuts Trump's Plan To Declare Early Victory",
-        "url": "https://www.wsj.com/world/middle-east/trump-strait-of-hormuz-opening-iran-negotiations-b6a43ad6"
-      },
-      {
-        "text": "Trump Downplays Standoff, Tells Axios He's 'Low-Keying It'",
+        "text": "Trump Downplays Tensions, Tells Axios He's 'Low-Keying It' With Iran",
         "url": "https://www.axios.com/2026/08/09/trump-iran-interview"
       },
       {
-        "text": "White House Expected Reopening Was Imminent; Iran Had Other Plans",
-        "url": "https://www.cbc.ca/news/world/trump-demands-compensation-iran-9.7302186"
-      },
-      {
-        "text": "Trump And Hegseth Clashed At Camp David Over Missile Shortage",
-        "url": "https://www.washingtonpost.com/national-security/2026/08/05/trump-hegseth-clashed-camp-david-over-iran-missile-depletion-concerns/"
+        "text": "Oil Prices Spike Past $80 Despite Talk Of A Deal",
+        "url": "https://www.cnbc.com/2026/08/10/oil-prices-today-brent-wti-hormuz-trump-iran.html"
       }
     ],
     "img": true
   },
   "groups": [
+    {
+      "title": "TRUMP'S WHITE HOUSE BALLROOM STALLED BY COURT INJUNCTION",
+      "stories": [
+        {
+          "headline": "Trump Touts Rooftop 'Droneport' Plan After Court Halts Ballroom Construction",
+          "url": "https://notthebee.com/article/trump-touts-droneport-on-roof-of-new-white-house-ballroom-after-court-ruling-stalls-construction/",
+          "timestamp": 1786377198000,
+          "postedAt": 1786457715242
+        },
+        {
+          "headline": "D.C. Circuit Upholds Injunction Against Trump's Ballroom Project",
+          "url": "https://reason.com/2026/08/10/d-c-circuit-upholds-injunction-against-trumps-ballroom/",
+          "timestamp": 1786367416000,
+          "postedAt": 1786457715242
+        }
+      ]
+    },
     {
       "title": "DEMOCRATIC PARTY'S SOCIALIST SURGE",
       "stories": [
@@ -110,39 +119,36 @@
           "postedAt": 1786283105194
         }
       ]
-    },
-    {
-      "title": "TRUMP WORLD IN TURMOIL",
-      "stories": [
-        {
-          "headline": "Pirro Reportedly On The Outs Within Trump Orbit",
-          "url": "https://www.washingtonpost.com/national-security/2026/08/08/pirro-trumps-longtime-champion-is-outs-over-reflecting-pool-move/",
-          "timestamp": 1786196601478,
-          "postedAt": 1786196916014
-        },
-        {
-          "headline": "Fox News Flexes Political Independence As Trump's Polls Nosedive",
-          "url": "https://www.colbyhall.com/p/plot-twist-fox-news-is-flexing-its",
-          "timestamp": 1786196601478,
-          "postedAt": 1786196916014
-        },
-        {
-          "headline": "Trump Growing Increasingly Frustrated With Homeland Security Secretary",
-          "url": "https://www.yahoo.com/news/politics/articles/short-tenure-trump-frustrated-maga-150504160.html",
-          "timestamp": 1786196601477,
-          "postedAt": 1786196916014
-        },
-        {
-          "headline": "Trump's Standing 'In Ruins' As Approval Numbers Collapse",
-          "url": "https://apnews.com/1528247275ec6103da892d271d4ee883",
-          "timestamp": 1786196601476,
-          "postedAt": 1786196916014
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "AI Is Making These Jobs 'Irreplaceable' Even As Hiring Rates Plunge 24%",
+        "url": "https://www.forbes.com/sites/bryanrobinson/2026/08/10/ai-is-making-these-jobs-irreplaceable-as-hiring-rates-plunge-24/",
+        "timestamp": 1786356000000,
+        "postedAt": 1786457715242
+      },
+      {
+        "headline": "The Explosive Failures Fueling The Cyclospora Outbreak",
+        "url": "https://www.thenation.com/article/society/explosive-failures/",
+        "timestamp": 1786353343000,
+        "postedAt": 1786457715242
+      },
+      {
+        "headline": "More Than 50 Bodies Found Decomposing With Rats, Maggots In Chicago Funeral Home",
+        "url": "https://www.dailywire.com/news/more-than-50-bodies-found-decomposing-with-rats-maggots-in-chicago-funeral-home",
+        "timestamp": 1786310386000,
+        "photo": true,
+        "postedAt": 1786457715242,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Deepfake Victim Urges Better Regulation Of 'Dangerous' AI",
+        "url": "https://www.bbc.com/news/articles/c75gvyk6d4yo",
+        "timestamp": 1786169938000,
+        "postedAt": 1786457715242
+      },
       {
         "headline": "Iran Insists Strait Will Stay Closed Until U.S. Meets Demands",
         "url": "https://www.nytimes.com/2026/08/10/world/middleeast/iran-strait-of-hormuz-us-oman-talks.html?unlocked_article_code=1.4VA.jil8.kHQNyZQc-lT2&smid=url-share",
@@ -182,7 +188,7 @@
       },
       {
         "headline": "Josh Gottheimer: The Democratic Party Is Being Hijacked",
-        "url": "https://www.thefp.com/p/josh-gottheimer-the-democratic-party",
+        "url": "https://www.dailysignal.com/2026/08/10/dem-rep-party-belongs-to-socialists/",
         "timestamp": 1786280277000,
         "postedAt": 1786283105194
       },
@@ -224,36 +230,36 @@
       },
       {
         "headline": "Birdsong Similar To Human Language, Study Finds",
-        "url": "https://www.telegraph.co.uk/news/2026/08/07/birdsong-similar-human-language-study/",
+        "url": "https://phys.org/news/2026-08-birdsong-whale-song-patterns-similar.html",
         "timestamp": 1786207681355,
         "postedAt": 1786207923490
-      },
-      {
-        "headline": "More Than 50 Decomposing Bodies Found In Chicago Funeral Home",
-        "url": "https://www.nytimes.com/2026/08/07/us/decomposing-bodies-funeral-home-chicago.html?unlocked_article_code=1.31A.xlA3.MsNlJerXa_7h&smid=url-share",
-        "timestamp": 1786196601478,
-        "postedAt": 1786196916014
-      },
-      {
-        "headline": "AI-Generated 'Barron' Persona Hits Social Media",
-        "url": "https://x.com/RealAlexJones/status/2085515263558946945",
-        "timestamp": 1786196601478,
-        "postedAt": 1786196916014
-      },
-      {
-        "headline": "Was His Home CT Or FL? The Difference Is A $13 Million Tax Bill",
-        "url": "https://www.spokesman.com/stories/2026/aug/10/veterans-in-this-gi-bill-scam-played-along-as-trad/",
-        "timestamp": 1786196601477,
-        "postedAt": 1786196916014
-      },
-      {
-        "headline": "Energy Drink Battle: Rockstar Boss Eyes Celsius",
-        "url": "https://www.cnbc.com/2026/08/07/rockstar-energy-founder-celsius-stake-ceo.html",
-        "timestamp": 1786196601477,
-        "postedAt": 1786196916014
       }
     ],
     "center": [
+      {
+        "headline": "Ex-Frat Member Pleads Guilty To Hazing University Pledge To Death",
+        "url": "https://apnews.com/article/arizona-university-hazing-fraternity-death-a87429b27aa934dd0840ef0410ec26b1",
+        "timestamp": 1786457519112,
+        "postedAt": 1786457715242
+      },
+      {
+        "headline": "San Francisco Gay Bars Reverse Use Of Face Scanners After Backlash",
+        "url": "https://www.sfgate.com/sf-culture/article/bars-face-scanning-reverse-22382172.php",
+        "timestamp": 1786457519112,
+        "postedAt": 1786457715242
+      },
+      {
+        "headline": "YouTube Star Ms. Rachel Set To Release Debut Album In September",
+        "url": "https://www.washingtontimes.com/news/2026/aug/11/youtube-star-ms-rachel-set-release-debut-album-september/",
+        "timestamp": 1786456117000,
+        "postedAt": 1786457715242
+      },
+      {
+        "headline": "Cornell Updates Dorm Policy After Students Butcher Bear In Communal Kitchen",
+        "url": "https://notthebee.com/article/cornell-updates-dorm-policy-after-students-butcher-bear-in-communal-kitchen",
+        "timestamp": 1786455971000,
+        "postedAt": 1786457715242
+      },
       {
         "headline": "Kylie Jenner Goes 'Princess Kitty' In Hot Pink Latex At 29th Birthday Party",
         "url": "https://pagesix.com/2026/08/10/style/kylie-jenner-goes-full-princess-kitty-in-hot-pink-latex-and-ostrich-feathers-at-29th-birthday-party/?utm_campaign",
@@ -274,18 +280,12 @@
         "postedAt": 1786371312646
       },
       {
-        "headline": "Deepfake Victim Urges Better Regulation Of 'Dangerous' AI",
-        "url": "https://www.bbc.com/news/articles/c75gvyk6d4yo",
-        "timestamp": 1786169938000,
-        "postedAt": 1786371312646
-      },
-      {
         "headline": "Fauci Held In Contempt After Refusing To Answer Questions About Diary",
         "url": "https://www.dailywire.com/news/fauci-held-in-contempt-after-refusing-to-answer-questions-about-bombshell-diary",
         "timestamp": 1786023134000,
         "photo": true,
         "postedAt": 1786371312646,
-        "image": "/img/main-0.jpg"
+        "image": "/img/main-1.jpg"
       },
       {
         "headline": "Four Nations Join New Space Race Not Seen Since Cold War",
@@ -312,30 +312,6 @@
         "postedAt": 1786207923490
       },
       {
-        "headline": "Inside The Argentine Ranch Where Tech CEOs Plan To Ride Out Apocalypse",
-        "url": "https://archive.is/u9PmA",
-        "timestamp": 1786196601478,
-        "postedAt": 1786196916014
-      },
-      {
-        "headline": "Alito Says He's 'Here For Another Term' On The Supreme Court",
-        "url": "https://people.com/samuel-alito-rules-out-retirement-before-midterms-12037726",
-        "timestamp": 1786196601477,
-        "postedAt": 1786196916014
-      },
-      {
-        "headline": "Horse Racing's Triple Crown May No Longer Be Worth Chasing",
-        "url": "https://www.magzter.com/stories/newspaper/The-Wall-Street-Journal/HORSE-RACINGS-TRIPLE-CROWN-MAY-NO-LONGER-BE-WORTH-CHASING",
-        "timestamp": 1786196601477,
-        "postedAt": 1786196916014
-      },
-      {
-        "headline": "Jobs Report Fallout Continues To Weigh On Markets",
-        "url": "https://www.nytimes.com/live/2026/08/07/business/jobs-report-economy?unlocked_article_code=1.3lA.9wNY.CSagpZT9wOhG&smid=url-share",
-        "timestamp": 1786196601476,
-        "postedAt": 1786196916014
-      },
-      {
         "headline": "Fulham Agree £30m Fee For Southampton's Charles",
         "url": "https://www.bbc.com/sport/football/articles/ce3qgzv43d3o",
         "timestamp": 1786281010000,
@@ -346,9 +322,58 @@
         "url": "https://www.reuters.com/world/europe/three-killed-ukrainian-drone-attack-belgorod-russian-authorities-say-2026-08-09/",
         "timestamp": 1786278717000,
         "postedAt": 1786283105194
+      },
+      {
+        "headline": "D.C. National Guard Deployment Extended Until 2029",
+        "url": "https://apnews.com/article/national-guard-deployment-washington-trump-crime-66e7c6ab6beccd4146f39cff514f99c8",
+        "timestamp": 1786457519112,
+        "postedAt": 1786457715242
+      },
+      {
+        "headline": "Wisconsin And Minnesota Primaries Loom As Next Progressive Battlegrounds",
+        "url": "https://apnews.com/article/wisconsin-minnesota-connecticut-democrat-socialist-hong-418b77c56be6b9d8afae26854cb69b51",
+        "timestamp": 1786457519111,
+        "postedAt": 1786457715242
+      },
+      {
+        "headline": "Crowd Laughs As Democratic Governor Signs Abortion-Until-Birth Bill",
+        "url": "https://www.dailywire.com/news/watch-crowd-laughs-as-dem-governor-allows-abortion-until-birth?author",
+        "timestamp": 1786456350000,
+        "postedAt": 1786457715242
       }
     ],
     "right": [
+      {
+        "headline": "Trump Media Group Racks Up Losses -- And Pushes Into Nuclear Fusion?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trump-media-company-announces-massive-224312674.html",
+        "timestamp": 1786457519112,
+        "postedAt": 1786457715242
+      },
+      {
+        "headline": "Turkey's Cyber Law Shifts Sweeping Powers To Erdogan",
+        "url": "https://thearabweekly.com/turkeys-new-cyber-law-raises-fears-digital-prison",
+        "timestamp": 1786457519112,
+        "postedAt": 1786457715242
+      },
+      {
+        "headline": "Multistate Water System Attacks Widen",
+        "url": "https://www.darkreading.com/ics-ot-security/multistate-water-system-attacks-widen-iran-suspected",
+        "timestamp": 1786457519111,
+        "postedAt": 1786457715242
+      },
+      {
+        "headline": "Luigi Mangione's Defense Objects To Number Of People Allowed At Trial",
+        "url": "https://www.newsnationnow.com/video/luigi-mangiones-defense-objects-to-number-of-people-allowed-at-trial-newsnation-live/12056391/",
+        "timestamp": 1786455761000,
+        "photo": true,
+        "postedAt": 1786457715242
+      },
+      {
+        "headline": "Chuck Grassley's Vacuum Died, And Even The New York Times Took Notice",
+        "url": "https://www.dailywire.com/news/chuck-grassleys-vacuum-died-and-even-the-new-york-times-took-notice",
+        "timestamp": 1786309875000,
+        "postedAt": 1786457715242
+      },
       {
         "headline": "Airline Under Fire For Plan To Charge For Overhead Bins",
         "url": "https://www.the-express.com/news/us-news/213395/jetstar-airline-charges-storing-bags",
@@ -426,30 +451,6 @@
         "url": "https://www.theguardian.com/world/2026/aug/08/spanish-mountain-village-braces-for-astrotourists-lured-by-total-solar-eclipse",
         "timestamp": 1786213810448,
         "postedAt": 1786214107689
-      },
-      {
-        "headline": "Reservation Apps Have Made Getting Into Restaurants A Nightmare",
-        "url": "https://finance.yahoo.com/real-estate/articles/dream-finders-buy-beazer-915-115100215.html",
-        "timestamp": 1786196601478,
-        "postedAt": 1786196916014
-      },
-      {
-        "headline": "Tacky, Rude And Beloved: Is South Of The Border Worth Saving?",
-        "url": "https://www.nytimes.com/2026/08/08/us/south-of-the-border-carolina.html?unlocked_article_code=1.31A.gm92.FSOzr-rIL9_c&smid=url-share",
-        "timestamp": 1786196601478,
-        "postedAt": 1786196916014
-      },
-      {
-        "headline": "Lost Civilization Baffling Experts, Rewriting China's Origin Story",
-        "url": "https://www.hindustantimes.com/world-news/who-is-todd-blanche-trump-ex-lawyer-us-attorney-general-epstein-files-hush-money-case-101786188588254.html",
-        "timestamp": 1786196601478,
-        "postedAt": 1786196916014
-      },
-      {
-        "headline": "Can Netflix Save Summer Slump With Sunset Boulevard Stunt?",
-        "url": "https://www.nytimes.com/2026/08/07/business/media/netflix-billboard-marketing-strategy.html?unlocked_article_code=1.31A.TOxu.yV6Fynww-wLF&smid=url-share",
-        "timestamp": 1786196601477,
-        "postedAt": 1786196916014
       }
     ]
   }
