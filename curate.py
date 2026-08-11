@@ -672,7 +672,21 @@ DOMAINS = json.loads(r"""{
   "jpost.com",
   "quillette.com",
   "unherd.com",
-  "spiked-online.com"
+  "spiked-online.com",
+  "heathercoxrichardson.substack.com",
+  "thefp.com",
+  "slowboring.com",
+  "zeteo.com",
+  "thebulwark.com",
+  "popular.info",
+  "joycevance.substack.com",
+  "natesilver.net",
+  "greenwald.substack.com",
+  "racket.news",
+  "thedispatch.com",
+  "piratewires.com",
+  "andrewsullivan.substack.com",
+  "persuasion.community"
  ],
  "politics": [
   "cnn.com",
@@ -692,7 +706,21 @@ DOMAINS = json.loads(r"""{
   "washingtonexaminer.com",
   "dailywire.com",
   "newsmax.com",
-  "realclearpolitics.com"
+  "realclearpolitics.com",
+  "heathercoxrichardson.substack.com",
+  "thefp.com",
+  "slowboring.com",
+  "zeteo.com",
+  "thebulwark.com",
+  "popular.info",
+  "joycevance.substack.com",
+  "natesilver.net",
+  "greenwald.substack.com",
+  "racket.news",
+  "thedispatch.com",
+  "piratewires.com",
+  "andrewsullivan.substack.com",
+  "persuasion.community"
  ],
  "markets": [
   "wsj.com",
@@ -808,7 +836,12 @@ DOMAINS = json.loads(r"""{
   "afar.com",
   "quillette.com",
   "unherd.com",
-  "spiked-online.com"
+  "spiked-online.com",
+  "thefp.com",
+  "slowboring.com",
+  "natesilver.net",
+  "piratewires.com",
+  "andrewsullivan.substack.com"
  ]
 }""")
 
@@ -1187,10 +1220,11 @@ NARRATIVES = json.loads(r"""{
 }""")
 
 EMPHASIS = {
-    'main': "\n\n===== MAIN PAGE EMPHASIS =====\nThe main page is the ONE page that gives a reader the top stories across EVERY topic - politics, world, business, sports, science, and culture - it is NOT a politics page, and politics must not crowd everything else out. Beyond the hard news, it MUST carry a strong, steady thread of HUMAN-INTEREST and NEWS-OF-THE-WEIRD stories - the broadly fascinating items people actually talk about. Concretely, that includes: a notable person's health or personal news (a former president's illness, a lawmaker sharing a personal journey), shocking or bizarre crime and viral incidents (a cartel killing influencers on camera, something caught on camera), notable accidents and rescues (a deadly boat capsize near a landmark), celebrity and public-figure follow-ups, and offbeat oddities (the delightful 'wait, what?' story). Reserve at least 4-5 slots per cycle for this human-interest / notable-people / offbeat / accident category, pulled from across outlets - the Drudge picks and tabloid/foreign outlets (New York Post, Daily Mail) are an excellent source. These are NOT filler; they are core to what makes the page worth reading. Always keep the spectrum-balanced hard news, but make room for this human thread every cycle. NOT THE BEE: try to feature ONE Not the Bee NEWS story per cycle on average (candidates tagged 'Not the Bee pick') - NEVER their opinion or 'Op-ed' pieces. Prefer the Not the Bee story most relevant to our standing narrative arcs (for example a clip tying into the socialists-taking-over-the-Democratic-party or culture-war threads). This is a long-term average, not a hard rule: on a day with no genuinely good, arc-relevant Not the Bee news item, skip it rather than forcing a weak one.\n",
+    'main': "\n\n===== MAIN PAGE EMPHASIS =====\nThe main page is the ONE page that gives a reader the top stories across EVERY topic - politics, world, business, sports, science, and culture - it is NOT a politics page, and politics must not crowd everything else out. Beyond the hard news, it MUST carry a strong, steady thread of HUMAN-INTEREST and NEWS-OF-THE-WEIRD stories - the broadly fascinating items people actually talk about. Concretely, that includes: a notable person's health or personal news (a former president's illness, a lawmaker sharing a personal journey), shocking or bizarre crime and viral incidents (a cartel killing influencers on camera, something caught on camera), notable accidents and rescues (a deadly boat capsize near a landmark), celebrity and public-figure follow-ups, and offbeat oddities (the delightful 'wait, what?' story). Reserve at least 4-5 slots per cycle for this human-interest / notable-people / offbeat / accident category, pulled from across outlets - the Drudge picks and tabloid/foreign outlets (New York Post, Daily Mail) are an excellent source. These are NOT filler; they are core to what makes the page worth reading. Always keep the spectrum-balanced hard news, but make room for this human thread every cycle. NOT THE BEE: try to feature ONE Not the Bee NEWS story per cycle on average (candidates tagged 'Not the Bee pick') - NEVER their opinion or 'Op-ed' pieces. Prefer the Not the Bee story most relevant to our standing narrative arcs (for example a clip tying into the socialists-taking-over-the-Democratic-party or culture-war threads). This is a long-term average, not a hard rule: on a day with no genuinely good, arc-relevant Not the Bee news item, skip it rather than forcing a weak one.\n\nGLENN GREENWALD: actively favor Glenn Greenwald's FREE Substack posts - he is a priority independent voice, sharp and reportorial without being dogmatic. When he has a recent free piece that bears on the day's news, give it a column slot and let it fill one of the independent-journalism slots. Link his FREE posts only - never a subscribers-only piece.\n",
     'life-culture': '\n\n===== LIFE & CULTURE EMPHASIS =====\nTHE HERO AND THE WHOLE PAGE MUST HAVE BROAD APPEAL. The hero must be a story a general reader instantly finds interesting - a big idea or discovery, a cars / tech / travel / food / gear story, a striking bit of history or science, or a genuinely fascinating human-interest item. NEVER make the hero, and never let the page lead with, a celebrity item, gossip, a red-carpet or awards story, or a review or recap of a single movie or TV series - above all not a niche show most readers have never heard of. Celebrity and entertainment combined are a MINOR thread: at most roughly 1 in 6 items and never the lead. Actively DEMOTE gossip, breakups, dating and baby news, casting news, box-office numbers, episode recaps, and "what to stream" pieces. Keep the reader in mind: assume a mostly male, white-collar, often-married audience. Cover what that reader genuinely finds interesting - cars and driving, travel and destinations, tech and gadgets, food and drink, gear, watches, whiskey and cocktails, home and style - woven together with thoughtful material (science and discovery, big ideas, history, books, arts) and a lighter thread of celebrity and entertainment (kept, but not dominant). Favor smart, well-made lifestyle journalism (InsideHook, Gear Patrol, GQ, Esquire, Robb Report, The Points Guy, and similar) and the delightful, surprising, "wow, I didn\'t know that" story over routine gossip. Because heavy analysis is often paywalled, lean on free sources - Smithsonian, Atlas Obscura, Aeon, NPR, Phys.org, The Conversation, Ars Technica, The Verge - for the thoughtful picks. This is the page to make the most interesting on the whole site. AVOID pure product endorsements and shopping/affiliate content. A piece about a category, trend, or idea is welcome ("Every Man Needs a Black Turtleneck Sweater"), but skip buying guides and brand endorsements ("Every Man Needs an LL Bean Black Turtleneck Sweater", deal roundups, "the best X to buy", "shop now" listicles). Favor editorial substance - profiles, essays, reviews with a point of view, real reporting - over commerce. FASHION LIMIT: fashion, runway, and red-carpet style is a MINOR accent - include AT MOST ONE fashion/style story on the WHOLE page, and NEVER build a fashion panel or a stack of fashion items. If several fashion stories are available, pick the single best one and drop the rest.\n',
     'sports': "\n\n===== SPORTS EMPHASIS =====\nWeight coverage by popularity: the major US sports lead - NFL is biggest, then COLLEGE FOOTBALL, NBA and MLB (all roughly equal, second tier), then NHL - followed by soccer (MLS plus the big international competitions: World Cup, European leagues, CONCACAF, Champions League). Give those DEEP, detailed coverage. In ADDITION, give BROAD coverage of the wider sports world every cycle: tennis, golf, UFC/MMA (name the week's main event even though it has no scoreboard), boxing, cycling (Tour de France and the grand tours), the Olympics, track and field and distance running, winter sports and skiing, WNBA and women's sports, and college sports. ALWAYS surface any world record or historic milestone (for example a new mile record) prominently - records are major news. College football is a top-two sport in season (late summer through January): in that window give it MULTIPLE stories on the page - rankings, marquee matchups, the playoff race, coaching and recruiting news - not one link. Pick as hero the single biggest sports story of the day, whatever the sport.\n",
     'world': "\n\n===== WORLD EMPHASIS =====\nLead with Europe. This page should be Europe-heavy: France, Germany, the UK, Italy and Spain, the EU and Brussels, and the European migration story (for example the Ceuta border crisis and Italy-Spain travel disputes). Ukraine and the Middle East - especially Iran war details and Israel - are always major. Use ENGLISH-LANGUAGE international sources - Deutsche Welle (DW) for Germany, France 24, Le Monde in English, RFI, El Pais in English, The Local, AFP, Euronews - not US outlets alone. Treat RealClearWorld's front page as a strong signal of what matters in world affairs, and follow its lead on which subjects to prioritize. Still cover the rest of the world - Africa, Asia (China, India, Japan), and South and Central America - but weight Europe, Ukraine, and the Middle East highest. Nearly every international source here leans left, so Breitbart's world sections (Europe/London, Middle East, Latin America, Asia, Africa) are included as the main RIGHT-leaning voice: use them for a conservative perspective, for their strong UK coverage, and as a read on which stories are drawing attention right now - while still balancing them against the wire and European outlets.\n",
+    'politics': "\n\n===== POLITICS EMPHASIS =====\nGLENN GREENWALD: actively favor Glenn Greenwald's FREE Substack posts - he is a priority independent voice on this page, sharp and reportorial without being dogmatic, and a useful non-partisan counterweight. When he has a recent free piece bearing on the day's political news, give it a column slot and let it fill one of the two independent-journalism slots. Link his FREE posts ONLY - never a subscribers-only piece.\n",
 }
 
 
@@ -2878,11 +2912,21 @@ def social_publish(per_section, enabled_run):
     STATUS["_social"] = ("dry_run %d drafted" % len(posts)) if dry else ("posted %d to X" % n)
 
 
-def sports_scoreboard(per_league=10, total=24):
-    """Upcoming / live / final games from ESPN's public scoreboard API. Each game hotlinks
-    to Yahoo's live scoreboard for its league in the front end."""
-    order = {"in": 0, "pre": 1, "post": 2}
-    games = []
+def sports_scoreboard(per_league=10, total=40):
+    """Per league, show only the last game and the next game (plus anything live): the most
+    recent day of FINALS (within the last 3 days - older finals like an old preseason game are
+    dropped) and the soonest day of UPCOMING games (within ~5 days, so an off-season league's
+    game months out is not shown). Live games first, then upcoming, then finals (old at bottom).
+    A double-header shows both games of its day but still counts as that team's one game-day."""
+    now = datetime.datetime.now(datetime.timezone.utc)
+    def pdt(s):
+        try:
+            return datetime.datetime.fromisoformat((s or "").replace("Z", "+00:00"))
+        except Exception:
+            return None
+    def etday(d):    # approximate US-eastern calendar day, so a late night's slate stays together
+        return int((d - datetime.timedelta(hours=4)).timestamp() // 86400)
+    out = []
     for league, path in ESPN_LEAGUES.items():
         try:
             data = json.loads(_fetch_bytes(
@@ -2890,39 +2934,38 @@ def sports_scoreboard(per_league=10, total=24):
                 timeout=15, ua=BROWSER_UA))
         except Exception as e:
             print("    espn %s failed: %s" % (league, e)); continue
-        for ev in (data.get("events") or [])[:per_league]:
+        live, upcoming, finals = [], [], []
+        for ev in (data.get("events") or []):
             try:
                 comp = ev["competitions"][0]; cs = comp["competitors"]
                 home = next(c for c in cs if c.get("homeAway") == "home")
                 away = next(c for c in cs if c.get("homeAway") == "away")
                 st = (ev.get("status") or {}).get("type") or {}
                 state = st.get("state") or "pre"
-                # Skip games more than 5 days out (e.g. an off-season league whose next game is
-                # months away). Keeps this week's slate + near-term events; drops far-future ones.
-                gd = (ev.get("date") or "")[:10]
-                if gd:
-                    try:
-                        if (datetime.date.fromisoformat(gd) - datetime.date.today()).days > 5:
-                            continue
-                    except Exception:
-                        pass
+                dt = pdt(ev.get("date"))
                 g = {"league": league,
                      "home": home["team"].get("abbreviation") or home["team"].get("shortDisplayName") or "",
                      "away": away["team"].get("abbreviation") or away["team"].get("shortDisplayName") or "",
                      "state": "scheduled" if state == "pre" else state,
-                     "note": st.get("shortDetail") or st.get("detail") or "",
-                     "_o": order.get(state, 3)}
-                if state != "pre":
-                    g["homeScore"] = home.get("score"); g["awayScore"] = away.get("score")
-                else:
-                    g["homeScore"] = None; g["awayScore"] = None
-                games.append(g)
+                     "note": st.get("shortDetail") or st.get("detail") or "", "_dt": dt}
+                if state == "in":
+                    g["homeScore"] = home.get("score"); g["awayScore"] = away.get("score"); live.append(g)
+                elif state == "post":
+                    if dt and (now - dt) < datetime.timedelta(days=3):
+                        g["homeScore"] = home.get("score"); g["awayScore"] = away.get("score"); finals.append(g)
+                elif dt and datetime.timedelta() <= (dt - now) < datetime.timedelta(days=5):
+                    g["homeScore"] = None; g["awayScore"] = None; upcoming.append(g)
             except Exception:
                 continue
-    games.sort(key=lambda x: x.get("_o", 3))
-    for g in games:
-        g.pop("_o", None)
-    return games[:total]
+        if finals:      # keep only the most recent final day
+            md = max(etday(g["_dt"]) for g in finals)
+            finals = [g for g in finals if etday(g["_dt"]) == md]
+        if upcoming:    # keep only the soonest upcoming day
+            sd = min(etday(g["_dt"]) for g in upcoming)
+            upcoming = [g for g in upcoming if etday(g["_dt"]) == sd]
+        for g in (live + upcoming + finals):
+            g.pop("_dt", None); out.append(g)
+    return out[:total]
 
 CF_ACCOUNT_ID = "b2b76296956fb323c9573be5467c8037"
 CF_SITE_TAG = "4bd359c547e34407a7d42aafe056f6f3"
@@ -3029,10 +3072,48 @@ def cap_fashion(data, limit=1):
 # that instead. Metered outlets (NYT, WaPo) are left off - their gift/metered links often work.
 PAYWALL_DOMAINS = {"wsj.com", "ft.com", "bloomberg.com", "economist.com", "barrons.com",
     "thetimes.com", "thetimes.co.uk", "telegraph.co.uk", "seekingalpha.com", "foreignpolicy.com",
-    "newyorker.com", "investors.com", "nikkei.com", "theinformation.com"}
+    "newyorker.com", "investors.com", "nikkei.com", "theinformation.com",
+    # Mostly-paywalled Substacks: still crawled as a signal of what's being discussed, but
+    # linked via a free same-subject article (or dropped) rather than sending readers to a wall.
+    "thefp.com", "slowboring.com", "racket.news", "thedispatch.com",
+    "andrewsullivan.substack.com", "piratewires.com", "persuasion.community"}
+
+# Glenn Greenwald is a special case: we push his FREE posts heavily, but he does put some
+# posts (mostly video / subscriber Q&As) behind a wall. Rather than block his whole Substack,
+# we ask Substack's public posts API which specific posts are paid ("audience" != "everyone")
+# and treat ONLY those as paywalled. If the API is unreachable we fail OPEN (link it) - his
+# written articles are almost always free and the user wants him featured.
+_GREENWALD_PAID = None   # None = not loaded yet; a set() once loaded
+def _greenwald_paid_paths():
+    global _GREENWALD_PAID
+    if _GREENWALD_PAID is not None:
+        return _GREENWALD_PAID
+    paid = set()
+    try:
+        raw = _fetch_bytes("https://greenwald.substack.com/api/v1/posts?limit=50",
+                           timeout=15, ua=BROWSER_UA)
+        for p in json.loads(raw):
+            if (p.get("audience") or "everyone") != "everyone":
+                cu = p.get("canonical_url") or ""
+                path = urllib.parse.urlparse(cu).path.rstrip("/")
+                if path:
+                    paid.add(path)
+    except Exception:
+        pass
+    _GREENWALD_PAID = paid
+    return paid
 
 def _is_paywalled(url):
-    return _regdom(url) in PAYWALL_DOMAINS
+    try:
+        parsed = urllib.parse.urlparse(url)
+        host = parsed.netloc.lower().replace("www.", "")
+    except Exception:
+        return False
+    if host == "greenwald.substack.com":   # only his KNOWN paid posts are walled
+        return parsed.path.rstrip("/") in _greenwald_paid_paths()
+    if host in PAYWALL_DOMAINS:            # exact host, e.g. andrewsullivan.substack.com
+        return True
+    return _regdom(url) in PAYWALL_DOMAINS  # registered domain, e.g. wsj.com
 
 def _find_free_alternative(headline):
     """Search for the SAME story from a non-paywalled outlet; return a free article URL or None.
@@ -3046,7 +3127,7 @@ def _find_free_alternative(headline):
     for it in root.iter("item"):
         src = it.find("source")
         src_url = src.get("url") if src is not None else ""
-        if src_url and _regdom(src_url) in PAYWALL_DOMAINS:
+        if src_url and _is_paywalled(src_url):
             continue
         link = (it.findtext("link") or "").strip()
         if not link:
@@ -3056,28 +3137,43 @@ def _find_free_alternative(headline):
             return real
     return None
 
-def replace_paywalled(data, cap=10):
-    """Swap any hard-paywalled article link for a same-subject article from a free source
-    (our headline framing is kept). Bounded so a paywall-heavy page stays fast."""
+def replace_paywalled(data, cap=12):
+    """For any hard-paywalled link, swap in a same-subject article from a FREE source (our
+    headline is kept). If no free version exists, DROP the story from the body rather than
+    link a paywall - the hero is never dropped (kept as-is if nothing free is found)."""
     n = [0]
-    def fix(s):
-        if n[0] >= cap:
-            return
+    def keep(s, is_hero=False):
         u = s.get("url")
-        if u and _is_paywalled(u):
-            n[0] += 1
-            alt = _find_free_alternative(s.get("headline") or s.get("text"))
-            if alt:
-                s["url"] = alt
-    fix(data.get("hero") or {})
-    for sl in ((data.get("hero") or {}).get("sublinks") or []):
-        fix(sl)
+        if not (u and _is_paywalled(u)):
+            return True
+        if n[0] >= cap:
+            return is_hero            # over budget: keep hero, drop body (no search)
+        n[0] += 1
+        alt = _find_free_alternative(s.get("headline") or s.get("text"))
+        if alt:
+            s["url"] = alt
+            return True
+        return is_hero                # no free version: keep hero, drop the body story
+    hero = data.get("hero") or {}
+    keep(hero, is_hero=True)
+    if hero.get("sublinks"):
+        hero["sublinks"] = [sl for sl in hero["sublinks"] if keep(sl)]
+    cols = data.get("columns") or {}
+    overflow = []
     for k in ("left", "center", "right"):
-        for s in ((data.get("columns") or {}).get(k) or []):
-            fix(s)
+        cols[k] = [s for s in (cols.get(k) or []) if keep(s)]
+    new_groups = []
     for g in (data.get("groups") or []):
-        for s in (g.get("stories") or []):
-            fix(s)
+        st = [s for s in (g.get("stories") or []) if keep(s)]
+        if len(st) >= 2:
+            new_groups.append({**g, "stories": st})
+        else:
+            overflow.extend(st)       # collapsed panel -> move survivor(s) to a column
+    data["groups"] = new_groups
+    for s in overflow:
+        k = min(("left", "center", "right"), key=lambda c: len(cols.get(c) or []))
+        cols.setdefault(k, []).append(s)
+    data["columns"] = cols
     return data
 
 def apply_suppress(data):
