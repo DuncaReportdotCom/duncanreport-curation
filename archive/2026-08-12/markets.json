@@ -1,0 +1,424 @@
+{
+  "lastUpdated": 1786545032700,
+  "heroSetDate": "2026-08-12",
+  "hero": {
+    "headline": "JULY CPI COMES IN MILD, FUELING WALL STREET RALLY AND FED RATE-HOLD BETS",
+    "url": "https://www.reuters.com/business/us-consumer-prices-increase-expected-july-2026-08-12/",
+    "sublinks": [
+      {
+        "text": "AI earnings and the inflation print push stocks broadly higher",
+        "url": "https://www.reuters.com/business/wall-st-futures-tick-up-heading-into-july-inflation-data-2026-08-12/"
+      },
+      {
+        "text": "Treasury yields and the dollar slip after the report",
+        "url": "https://www.kitco.com/news/article/2026-08-11/gold-holds-near-two-month-high-equities-slip-oil-rallies-kitco-pm-report"
+      },
+      {
+        "text": "Economists say the data undercuts the case for the Fed to stay tight",
+        "url": "https://www.realclearmarkets.com/articles/2026/08/12/july_inflation_blows_a_hole_in_the_fed-must-remain-tight_story_1199947.html"
+      }
+    ],
+    "img": false
+  },
+  "groups": [
+    {
+      "title": "BITCOIN PRICE OUTLOOK CLOUDS AS RALLY STALLS",
+      "stories": [
+        {
+          "headline": "SEC Poised To Unveil Major Crypto Plans As Clarity Act Stalls",
+          "url": "https://news.bgov.com/securities-law/sec-poised-to-unveil-major-crypto-plans-as-clarity-act-stalls",
+          "timestamp": 1786477295000,
+          "postedAt": 1786545032700
+        },
+        {
+          "headline": "Bitcoin Price Prediction: Where Do Analysts Say Bitcoin Bottoms?",
+          "url": "https://247wallst.com/investing/cryptocurrency/2026/08/10/bitcoin-price-prediction-where-do-analysts-say-bitcoin-bottoms/",
+          "timestamp": 1786385096000,
+          "postedAt": 1786545032700
+        },
+        {
+          "headline": "Bitcoin Rally Fades — Where Does Price Go Next?",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-rally-fades-where-does-171849682.html",
+          "timestamp": 1786382329000,
+          "postedAt": 1786545032700
+        }
+      ]
+    },
+    {
+      "title": "FED UNDER PRESSURE AS TRUMP TARGETS COOK, RATES SEEN STAYING HIGHER",
+      "stories": [
+        {
+          "headline": "Trump Renews Effort To Oust Cook From Federal Reserve Board",
+          "url": "https://www.consumerfinancemonitor.com/2026/08/11/trump-renews-effort-to-oust-cook-from-federal-reserve-board/",
+          "timestamp": 1786475952000,
+          "postedAt": 1786545032700
+        },
+        {
+          "headline": "Interest Rates May Stay Higher For Longer, What That Means For Consumers",
+          "url": "https://www.cnbc.com/2026/08/10/fed-rate-hike-prospects-higher-interest-rates.html",
+          "timestamp": 1786365686000,
+          "postedAt": 1786545032700
+        }
+      ]
+    },
+    {
+      "title": "AI COMPUTE DEALS RESHAPE STOCK MOVES",
+      "stories": [
+        {
+          "headline": "Riot Platforms Stock Surges On $9.1 Billion Data Center Deal With Anthropic",
+          "url": "https://finance.yahoo.com/markets/article/riot-platforms-stock-surges-on-91-billion-data-center-deal-with-anthropic-132120194.html",
+          "timestamp": 1786456852000,
+          "postedAt": 1786458432359
+        },
+        {
+          "headline": "SpaceX Stock Drops After Three-Day Surge As AST Earnings Weigh",
+          "url": "https://www.investopedia.com/market-update-spacex-stock-surges-to-close-out-a-wild-week-of-trading-spcx-12036739",
+          "timestamp": 1786455540000,
+          "postedAt": 1786458432359
+        }
+      ]
+    },
+    {
+      "title": "BIG TECH EARNINGS AFTERMATH",
+      "stories": [
+        {
+          "headline": "After Earnings, Is Apple Stock A Buy, A Sell, Or Fairly Valued?",
+          "url": "https://global.morningstar.com/en-nd/stocks/after-earnings-is-apple-stock-buy-sell-or-fairly-valued-4",
+          "timestamp": 1786353280000,
+          "postedAt": 1786458432359
+        },
+        {
+          "headline": "Google Stock Drops Amid DeepMind Leadership Shake-Up",
+          "url": "https://finance.yahoo.com/technology/article/google-stock-drops-amid-deepmind-leadership-shake-up-170219204.html",
+          "timestamp": 1785949339000,
+          "postedAt": 1786458432359
+        }
+      ]
+    },
+    {
+      "title": "WALL STREET'S RECORD RALLY MEETS A BEARISH WARNING",
+      "stories": [
+        {
+          "headline": "US Stock Market Hits Record Highs As AI Profits Pile Up And Oil Prices Ease",
+          "url": "https://www.theguardian.com/business/2026/aug/04/stock-market-records-ai-profits-oil-prices-ease",
+          "timestamp": 1785880980000,
+          "postedAt": 1786458432359
+        },
+        {
+          "headline": "Michael Burry Bets Against The Rally, Warns Of Possible 1987-Style Crash",
+          "url": "https://www.cnbc.com/2026/08/04/michael-burry-bets-against-rally-we-are-near-a-major-top.html",
+          "timestamp": 1785875983000,
+          "postedAt": 1786458432359
+        }
+      ]
+    },
+    {
+      "title": "AI'S GROWING FOOTPRINT ACROSS CORPORATE AMERICA",
+      "stories": [
+        {
+          "headline": "VideoAmp Cut 20% Of Staff, Including CTO, As AI Touches The C-Suite",
+          "url": "https://www.forbes.com/sites/rachelwells/2026/08/10/videoamp-cut-20-of-staff-including-cto-ai-is-touching-the-c-suite/",
+          "timestamp": 1786370858000,
+          "postedAt": 1786371839736
+        },
+        {
+          "headline": "Microsoft Plans Production Boost For AI Chips, Report Says",
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-plans-production-boost-ai-135551218.html",
+          "timestamp": 1786367965000,
+          "postedAt": 1786371839736
+        }
+      ]
+    },
+    {
+      "title": "JOBS REPORT FALLOUT: WALL STREET WEIGHS IN",
+      "stories": [
+        {
+          "headline": "The US Economy Is Shedding Jobs. Here's Why That's Good News For Stocks",
+          "url": "https://www.marketwatch.com/story/the-u-s-economy-is-shedding-jobs-why-thats-good-news-for-stocks-a7f4773c",
+          "timestamp": 1786368600000,
+          "postedAt": 1786371839736
+        },
+        {
+          "headline": "It's Too Early To Write Off The Labor Market Just Yet",
+          "url": "https://www.zerohedge.com/markets/its-too-early-write-labor-market-just-yet",
+          "timestamp": 1786367700000,
+          "postedAt": 1786371839736
+        },
+        {
+          "headline": "A Soft Jobs Headline Hides An Industrial Turn",
+          "url": "https://www.realclearmarkets.com/articles/2026/08/07/a_soft_jobs_headline_hides_an_industrial_turn_1199125.html",
+          "timestamp": 1786116830000,
+          "postedAt": 1786371839736
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Goldman Expands Active-ETF Push With $2.3 Billion Neos Deal",
+        "url": "https://www.reuters.com/business/goldman-sachs-buy-etf-provider-neos-23-billion-deal-2026-08-12/",
+        "timestamp": 1786541904000,
+        "postedAt": 1786545032700
+      },
+      {
+        "headline": "Saudi Red Sea Oil Exports Go Dark As Houthi Attack Threat Grows",
+        "url": "https://www.reuters.com/business/energy/saudi-red-sea-oil-exports-go-dark-houthi-attack-threat-grows-2026-08-12/",
+        "timestamp": 1786541744000,
+        "photo": true,
+        "postedAt": 1786545032700
+      },
+      {
+        "headline": "Money Won't Die Of Abundance, Contrary To Musk's Claim",
+        "url": "https://www.realclearmarkets.com/articles/2026/08/12/opposite_what_elon_musk_contends_money_wont_die_of_abundance_1199473.html",
+        "timestamp": 1786469160000,
+        "postedAt": 1786545032700
+      },
+      {
+        "headline": "These Are The States Where Car Insurance Costs Are Rising Fastest",
+        "url": "https://www.investopedia.com/the-states-where-car-insurance-is-becoming-the-most-expensive-12035287",
+        "timestamp": 1786456800000,
+        "postedAt": 1786458432359
+      },
+      {
+        "headline": "S&P 500, Nasdaq Open Higher As Investors Weigh Report Of Fresh U.S.-Iran Peace Deal",
+        "url": "https://www.reuters.com/business/wall-st-futures-muted-us-iran-impasse-lifts-oil-prices-2026-08-11/",
+        "timestamp": 1786455391000,
+        "postedAt": 1786458432359
+      },
+      {
+        "headline": "Hyperscaler CDS Volumes Explode To All-Time High On Credit, Circular Financing Fears",
+        "url": "https://www.zerohedge.com/markets/hyperscaler-cds-volumes-explode-all-time-high-credit-circular-financing-fears",
+        "timestamp": 1786454700000,
+        "postedAt": 1786458432359
+      },
+      {
+        "headline": "Santander Receives Federal Reserve Approval For Acquisition Of Webster Financial",
+        "url": "https://www.santander.com/en/press-room/press-releases/2026/08/santander-receives-federal-reserve-approval-for-the-acquisition-of-webster-financial-corporation",
+        "timestamp": 1785880740000,
+        "postedAt": 1786458432359
+      },
+      {
+        "headline": "Accendra Health Shares Slip On Sales-View Cut, Impending CEO Exit",
+        "url": "https://www.marketwatch.com/story/accendra-health-shares-slip-on-sales-view-cut-impending-ceo-exit-d19cf167?mod",
+        "timestamp": 1786368300000,
+        "postedAt": 1786371839736
+      },
+      {
+        "headline": "Bitcoin Forecast Points To Resistance Breakout As ETF Inflows Spike",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-forecast-key-resistance-163002885.html",
+        "timestamp": 1786206602000,
+        "postedAt": 1786371839736
+      },
+      {
+        "headline": "Strategy Dumps More Bitcoin In $109 Million Sell-Off Amid Buying Hiatus",
+        "url": "https://fortune.com/2026/08/10/strategy-bitcoin-109-million-sell-off-seven-week-buying-hiatus/",
+        "timestamp": 1786377480000,
+        "postedAt": 1786458432359
+      },
+      {
+        "headline": "Super Micro Computer Stock Rallies As Profits, Outlook Top Estimates",
+        "url": "https://www.investopedia.com/market-update-super-micro-computer-stock-rallies-as-profits-outlook-top-estimates-smci-12057918",
+        "timestamp": 1786543341000,
+        "postedAt": 1786545032700
+      }
+    ],
+    "center": [
+      {
+        "headline": "Home Depot CEO Takes Medical Leave As Stock Slides",
+        "url": "https://www.cnbc.com/2026/08/12/home-depot-ceo-ted-decker-medical-leave.html",
+        "timestamp": 1786544220000,
+        "postedAt": 1786545032700
+      },
+      {
+        "headline": "Global 2026 Oil Supply Shortfall To Deepen, IEA Warns",
+        "url": "https://www.reuters.com/business/energy/iea-slashes-2026-supply-forecast-hormuz-reopening-remains-elusive-2026-08-12/",
+        "timestamp": 1786542333000,
+        "postedAt": 1786545032700
+      },
+      {
+        "headline": "Meta, 29 States Head To Court In Biggest Youth Social Media Test Yet",
+        "url": "https://www.reuters.com/business/meta-29-states-head-court-biggest-test-yet-youth-social-media-litigation-2026-08-12/",
+        "timestamp": 1786541429000,
+        "postedAt": 1786545032700
+      },
+      {
+        "headline": "Economics 101 Explains Global Food Affordability Challenges",
+        "url": "https://www.realclearmarkets.com/articles/2026/08/12/economics_101_explains_global_food_affordability_challenges_1199479.html",
+        "timestamp": 1786469280000,
+        "postedAt": 1786545032700
+      },
+      {
+        "headline": "Target Stock Is Surging In 2026—Here's Why Wall Street Thinks The Comeback Is Just Getting Started",
+        "url": "https://www.investopedia.com/market-update-target-stock-surging-this-year-can-it-keep-rising-12056981",
+        "timestamp": 1786457673000,
+        "photo": true,
+        "postedAt": 1786458432359
+      },
+      {
+        "headline": "Polymarket Makes Moves To Get House In Order Before Expected Boom Times This Fall",
+        "url": "https://www.cnbc.com/2026/08/11/polymarket-revamps-marketing-expands-us-hiring-ahead-of-fall-events.html",
+        "timestamp": 1786456588000,
+        "postedAt": 1786458432359
+      },
+      {
+        "headline": "Norway Wealth Fund CEO Says Fund's Entire Value Could Be Lost In Future",
+        "url": "https://www.reuters.com/business/finance/norway-wealth-fund-ceo-says-funds-entire-value-could-be-lost-future-2026-08-11/",
+        "timestamp": 1786453544000,
+        "postedAt": 1786458432359
+      },
+      {
+        "headline": "Why Vertex Pharma Popped As A Key Rival Plummeted 90%",
+        "url": "https://finance.yahoo.com/healthcare/articles/sion-stock-track-worst-day-171837113.html",
+        "timestamp": 1786368120000,
+        "postedAt": 1786371839736
+      },
+      {
+        "headline": "Short-Term CDs Are Offering Rates Of 4% And Up: What To Know Before You Lock In",
+        "url": "https://www.marketwatch.com/picks/short-term-cds-are-offering-rates-of-4-and-up-what-to-know-before-you-lock-in-fce6b759",
+        "timestamp": 1786367700000,
+        "postedAt": 1786371839736
+      },
+      {
+        "headline": "If Michael Burry Spotted The So-Called Housing Bubble, Then We All Did",
+        "url": "https://www.realclearmarkets.com/articles/2026/08/07/if_michael_burry_spotted_the_so-called_housing_bubble_then_we_all_did_1198891.html",
+        "timestamp": 1786096693000,
+        "photo": true,
+        "postedAt": 1786371839736
+      },
+      {
+        "headline": "Amazon Revenue Soars As AI Investments Pay Off",
+        "url": "https://www.axios.com/2026/07/30/amazon-earnings-revenue-ai",
+        "timestamp": 1785394800000,
+        "postedAt": 1786371839736
+      }
+    ],
+    "right": [
+      {
+        "headline": "Trump's 'No Tax On Social Security' Plan Could Hurt Retirees, Experts Say",
+        "url": "https://finance.yahoo.com/economy/policy/articles/no-tax-social-security-facts-134500415.html",
+        "timestamp": 1786542300000,
+        "postedAt": 1786545032700
+      },
+      {
+        "headline": "Google DeepMind's Chief AI Officer Once Detasseled Corn For $1 An Hour",
+        "url": "https://fortune.com/2026/08/12/she-detasseled-corn-for-1-an-hour-at-14-now-shes-google-deepminds-chief-ai-exec-and-says-being-an-immigrants-daughter-made-her-a-natural-first/",
+        "timestamp": 1786541700000,
+        "postedAt": 1786545032700
+      },
+      {
+        "headline": "Etna Ash Prompts Extended Closure Of Catania Airport",
+        "url": "https://www.reuters.com/business/environment/etna-ash-prompts-extended-closure-catania-airport-disrupting-peak-season-travel-2026-08-12/",
+        "timestamp": 1786540634000,
+        "photo": true,
+        "postedAt": 1786545032700
+      },
+      {
+        "headline": "Trump Media Reports $361 Million Crypto Loss",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/trump-media-reports-361-million-132400842.html",
+        "timestamp": 1786454640000,
+        "postedAt": 1786458432359
+      },
+      {
+        "headline": "Microsoft Stock Just Cleared A Big Hurdle But Still Trails The S&P 500",
+        "url": "https://finance.yahoo.com/markets/stocks/article/microsoft-stock-just-cleared-a-big-hurdle-but-still-trails-the-sp-500-130843662.html",
+        "timestamp": 1786453723000,
+        "postedAt": 1786458432359
+      },
+      {
+        "headline": "US Fuel Sales To Cuban Business Bring A Glimpse Of Capitalism To Havana",
+        "url": "https://www.reuters.com/business/energy/us-fuel-sales-cuban-business-bring-glimpse-capitalism-havana-2026-08-11/",
+        "timestamp": 1786453219000,
+        "postedAt": 1786458432359
+      },
+      {
+        "headline": "Duke Energy Announces Equity Units Offering",
+        "url": "https://news.duke-energy.com/releases/duke-energy-announces-equity-units-offering",
+        "timestamp": 1786360279000,
+        "postedAt": 1786458432359
+      },
+      {
+        "headline": "Key Events This Week: CPI, PPI, Retail Sales",
+        "url": "https://www.zerohedge.com/markets/key-events-week-cpi-ppi-retail-sales",
+        "timestamp": 1786371300000,
+        "postedAt": 1786371839736
+      },
+      {
+        "headline": "Yen Underperforms G-10 Peers As Intervention Boost Fades",
+        "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-10-august-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata/amp-11786315314690.html",
+        "timestamp": 1786370729000,
+        "postedAt": 1786371839736
+      },
+      {
+        "headline": "Culture Is The New Retail Channel",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/10/culture-is-the-new-retail-channel/",
+        "timestamp": 1786369500000,
+        "postedAt": 1786371839736
+      },
+      {
+        "headline": "Nvidia Stock Ends Five-Day Winning Streak After Blowing Early Gains",
+        "url": "https://www.trefis.com/stock/ktos/articles/610739/a-7-day-winning-streak-has-kratos-defense-security-solutions-stock-up-38/2026-08-10",
+        "timestamp": 1786048740000,
+        "postedAt": 1786371839736
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,750.93",
+      "change": "+22.73",
+      "changePct": "+0.29%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "53,842.24",
+      "change": "+50.39",
+      "changePct": "+0.09%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "26,617.88",
+      "change": "+172.44",
+      "changePct": "+0.65%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr",
+      "value": "4.67%",
+      "change": "-0.02",
+      "changePct": "-0.34%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$4,494.40",
+      "change": "+53.30",
+      "changePct": "+1.20%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil",
+      "value": "$82.71",
+      "change": "-0.49",
+      "changePct": "-0.59%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$63,594.06",
+      "change": "+47.01",
+      "changePct": "+0.07%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}
