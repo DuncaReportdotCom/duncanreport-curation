@@ -487,15 +487,38 @@ html += `<div class="col-section">
 document.getElementById(id).innerHTML = html;
 });
 }
-function toTitleCase(str) {
-return str.split(' ').map(word => {
-// Strip punctuation to check if core letters are all-caps (e.g. "IEA:" "U.S." "FBI,")
-const core = word.replace(/[^a-zA-Z]/g, '');
-if (core.length > 1 && core === core.toUpperCase()) return word;
-// Capitalize the first LETTER (skip any leading quote/punctuation), lowercase the rest
+// Acronyms/initialisms that must render ALL-CAPS even when the source lowercased them
+// (e.g. a curator writes "Unc" or "unc" but the university is "UNC"). Kept to tokens with
+// no common lowercase-word collision, so we never turn the pronoun "us" into "US".
+const FORCE_UPPER = new Set([
+'UNC','UCLA','USC','LSU','TCU','BYU','SMU','UNLV','UCF','VCU','UAB','UTEP','UMass','SEC','ACC',
+'PGA','LPGA','UFC','NCAA','NASCAR','ESPN','NFL','NBA','NHL','MLB','WNBA','MLS','GOP','FBI','CIA',
+'NASA','NATO','OPEC','GDP','FDA','CDC','IRS','TSA','DOJ','DHS','ICBM']);
+function _tcWord(word) {
+const runs = word.match(/[a-zA-Z]+/g);
+if (!runs) return word;                 // no letters (pure number/punctuation)
+// Force a known acronym to all-caps regardless of how the source cased it
+if (FORCE_UPPER.has(runs[0].toUpperCase())) return word.replace(runs[0], runs[0].toUpperCase());
+const core = runs.join('');
+if (core.length > 1 && core === core.toUpperCase()) return word;   // already an acronym
+// Ordinals: "18th" / "21st" / "3rd" / "2nd" must keep the letter suffix lowercase (not "18Th")
+const ord = word.match(/^(\d+)(st|nd|rd|th)(.*)$/i);
+if (ord) return ord[1] + ord[2].toLowerCase() + ord[3];
 const i = word.search(/[a-zA-Z]/);
-if (i === -1) return word;
 return word.slice(0, i) + word.charAt(i).toUpperCase() + word.slice(i + 1).toLowerCase();
+}
+function toTitleCase(str) {
+// Title-case each space-separated word, and each hyphen-separated part within it
+// (so "18th-century" -> "18th-Century", not "18Th-century").
+return str.split(' ').map(function(word) {
+  const parts = word.split('-');
+  return parts.map(function(p) {
+    // In a hyphenated compound (US-Israel, US-China), a "us"/"u.s." part is the country, not
+    // the pronoun - force it all-caps. A standalone "us" is never hyphenated, so this is safe.
+    if (parts.length > 1 && p.replace(/[^a-zA-Z]/g, '').toUpperCase() === 'US')
+      return p.replace(/[a-zA-Z]/g, function(c) { return c.toUpperCase(); });
+    return _tcWord(p);
+  }).join('-');
 }).join(' ');
 }
 function tagPrefix(s) {
@@ -837,9 +860,10 @@ var MARKET_LINKS = [
   ["10-Yr Treasury", "https://finance.yahoo.com/quote/%5ETNX"]
 ];
 var BALLOTPEDIA_POLLS = "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating";
+var RCP_GENERIC = "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote";
 var POLL_LINKS = [
   ["Trump Approval", BALLOTPEDIA_POLLS],
-  ["Congress Approval", BALLOTPEDIA_POLLS],
+  ["Generic Congressional Vote", RCP_GENERIC],
   ["Right Direction", BALLOTPEDIA_POLLS],
   ["All Polls", BALLOTPEDIA_POLLS]
 ];
