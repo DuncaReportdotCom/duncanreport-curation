@@ -293,57 +293,39 @@
   "scoreboard": [
     {
       "league": "MLB",
-      "home": "MIN",
-      "away": "BAL",
-      "state": "in",
-      "note": "Mid 1st",
-      "homeScore": "0",
-      "awayScore": "1"
-    },
-    {
-      "league": "MLB",
-      "home": "STL",
-      "away": "PHI",
-      "state": "scheduled",
-      "note": "8/12 - 2:15 PM EDT",
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "league": "MLB",
       "home": "ATH",
       "away": "TB",
-      "state": "scheduled",
-      "note": "8/12 - 3:05 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Top 9th",
+      "homeScore": "4",
+      "awayScore": "8"
     },
     {
       "league": "MLB",
       "home": "ARI",
       "away": "COL",
-      "state": "scheduled",
-      "note": "8/12 - 3:40 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Bot 6th",
+      "homeScore": "2",
+      "awayScore": "6"
     },
     {
       "league": "MLB",
       "home": "SF",
       "away": "HOU",
-      "state": "scheduled",
-      "note": "8/12 - 3:45 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Top 7th",
+      "homeScore": "1",
+      "awayScore": "0"
     },
     {
       "league": "MLB",
       "home": "SD",
       "away": "MIL",
-      "state": "scheduled",
-      "note": "8/12 - 4:10 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Bot 5th",
+      "homeScore": "1",
+      "awayScore": "2"
     },
     {
       "league": "MLB",
@@ -427,11 +409,29 @@
       "awayScore": null
     },
     {
+      "league": "MLB",
+      "home": "MIN",
+      "away": "BAL",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "7",
+      "awayScore": "5"
+    },
+    {
+      "league": "MLB",
+      "home": "STL",
+      "away": "PHI",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "7",
+      "awayScore": "1"
+    },
+    {
       "league": "MLS",
       "home": "ATL",
       "away": "RBNY",
       "state": "scheduled",
-      "note": "Scheduled",
+      "note": "Sat, Aug 15 7:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -440,7 +440,7 @@
       "home": "MTL",
       "away": "DC",
       "state": "scheduled",
-      "note": "Scheduled",
+      "note": "Sat, Aug 15 7:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -449,7 +449,7 @@
       "home": "CLT",
       "away": "CLB",
       "state": "scheduled",
-      "note": "Scheduled",
+      "note": "Sat, Aug 15 7:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -458,7 +458,7 @@
       "home": "ORL",
       "away": "CIN",
       "state": "scheduled",
-      "note": "Scheduled",
+      "note": "Sat, Aug 15 7:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -467,7 +467,7 @@
       "home": "TOR",
       "away": "NE",
       "state": "scheduled",
-      "note": "Scheduled",
+      "note": "Sat, Aug 15 7:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -476,7 +476,7 @@
       "home": "HOU",
       "away": "LA",
       "state": "scheduled",
-      "note": "Scheduled",
+      "note": "Sat, Aug 15 8:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -485,7 +485,7 @@
       "home": "NSH",
       "away": "MIA",
       "state": "scheduled",
-      "note": "Scheduled",
+      "note": "Sat, Aug 15 8:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -494,7 +494,7 @@
       "home": "COL",
       "away": "SKC",
       "state": "scheduled",
-      "note": "Scheduled",
+      "note": "Sat, Aug 15 9:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -503,7 +503,7 @@
       "home": "RSL",
       "away": "MIN",
       "state": "scheduled",
-      "note": "Scheduled",
+      "note": "Sat, Aug 15 9:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -512,7 +512,7 @@
       "home": "LAFC",
       "away": "SD",
       "state": "scheduled",
-      "note": "Scheduled",
+      "note": "Sat, Aug 15 10:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -521,7 +521,7 @@
       "home": "SJ",
       "away": "STL",
       "state": "scheduled",
-      "note": "Scheduled",
+      "note": "Sat, Aug 15 10:30 PM ET",
       "homeScore": null,
       "awayScore": null
     }
