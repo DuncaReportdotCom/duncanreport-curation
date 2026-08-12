@@ -3043,6 +3043,28 @@ def sports_scoreboard(per_league=10, total=40):
             return datetime.datetime.fromisoformat((s or "").replace("Z", "+00:00"))
         except Exception:
             return None
+    def when_note(note, dt):
+        # Most leagues give a real kickoff time; soccer/MLS returns just "Scheduled". When the
+        # ESPN note has no time, build one from the start datetime (ET, to match "PM ET" style),
+        # adding the date if the game is not today.
+        if note and any(c.isdigit() for c in note) and note.strip().lower() != "scheduled":
+            return note
+        if not dt:
+            return note or "Scheduled"
+        try:
+            from zoneinfo import ZoneInfo
+            et = dt.astimezone(ZoneInfo("America/New_York"))
+            label = "ET"
+        except Exception:
+            et = dt; label = "UTC"
+        t = et.strftime("%I:%M %p").lstrip("0")
+        try:
+            today_et = now.astimezone(ZoneInfo("America/New_York")).date()
+        except Exception:
+            today_et = now.date()
+        if et.date() != today_et:
+            return et.strftime("%a, %b ") + str(et.day) + " " + t + " " + label
+        return t + " " + label
     def etday(d):    # approximate US-eastern calendar day, so a late night's slate stays together
         return int((d - datetime.timedelta(hours=4)).timestamp() // 86400)
     out = []
@@ -3073,7 +3095,8 @@ def sports_scoreboard(per_league=10, total=40):
                     if dt and (now - dt) < datetime.timedelta(days=3):
                         g["homeScore"] = home.get("score"); g["awayScore"] = away.get("score"); finals.append(g)
                 elif dt and datetime.timedelta() <= (dt - now) < datetime.timedelta(days=5):
-                    g["homeScore"] = None; g["awayScore"] = None; upcoming.append(g)
+                    g["homeScore"] = None; g["awayScore"] = None
+                    g["note"] = when_note(g["note"], dt); upcoming.append(g)
             except Exception:
                 continue
         if finals:      # keep only the most recent final day
