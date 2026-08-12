@@ -48,7 +48,7 @@ def working_model(client):
 THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000
 
 CORE = json.loads(r"""
-"===== SCHEMA.md =====\n# DuncanReport.com — stories.json SCHEMA (CORE · INVARIANT)\n\nEvery curation engine, for every section, MUST emit a `stories.json` that matches this\nstructure exactly. This is a hard contract — the site's rendering and the deploy/merge\npipeline both depend on it. Do not add, rename, or drop fields.\n\n## Structure\n\n```json\n{\n  \"lastUpdated\": 1753372800000,\n  \"hero\": {\n    \"headline\": \"HERO HEADLINE IN ALL CAPS\",\n    \"url\": \"https://example.com/main-story\",\n    \"image\": \"https://example.com/lead-photo.jpg\",\n    \"sublinks\": [\n      { \"text\": \"Related angle one\", \"url\": \"https://example.com/main-story-a\" },\n      { \"text\": \"Related angle two\", \"url\": \"https://example.com/main-story-b\" }\n    ]\n  },\n  \"groups\": [\n    {\n      \"title\": \"NARRATIVE-ARC PANEL TITLE IN ALL CAPS\",\n      \"stories\": [\n        { \"headline\": \"Story Headline In Title Case\", \"url\": \"https://example.com/x\", \"timestamp\": 1753369200000 },\n        { \"headline\": \"Second Story In Title Case\", \"url\": \"https://example.com/y\", \"timestamp\": 1753365600000 }\n      ]\n    }\n  ],\n  \"columns\": {\n    \"left\":   [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/a\", \"timestamp\": 1753369200000 } ],\n    \"center\": [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/b\", \"timestamp\": 1753366000000 } ],\n    \"right\":  [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/c\", \"timestamp\": 1753362400000 } ]\n  }\n}\n```\n\n## Field rules\n\n- **`lastUpdated`** — Unix time in **milliseconds** (integer), the moment the file was generated.\n- **`hero.headline`** — ALL CAPS. `hero.url` — absolute URL. `hero.sublinks` — 0+ items, each\n  `{text, url}`; every sublink must point at the **same story** as the hero headline (a related\n  angle of it, not a different story).\n- **`hero.image`** — OPTIONAL absolute URL of the headline picture (the lead story's photo /\n  `og:image`), displayed at the top of the page. Must be a directly-hotlinkable image URL. Omit\n  the field entirely if there is no good image.\n- **`groups[]`** — narrative-arc panels. `title` ALL CAPS. `stories[]` are the stories in that\n  panel. Only create a group when 2+ stories genuinely support one arc.\n- **`columns.left/center/right`** — flat lists of standalone stories per column.\n- **Every story object** (`hero` aside) is `{headline, url, timestamp}`:\n  - `headline` — Title Case, acronyms preserved.\n  - `url` — absolute, unique. No two stories share a URL.\n  - `timestamp` — Unix **milliseconds**, the story's actual publication time. This drives the\n    3-day expiry in merge; a wrong/old value makes the story expire immediately.\n\n## Invariants (never violate)\n\n- Timestamps are Unix ms, integers, and reflect real publication time — never fabricated.\n- URLs are absolute and unique across the whole file.\n- Field names and nesting are exactly as above. No extra keys (no age labels, category tags,\n  or image fields — the front end does not render them).\n\n\n===== FORMAT-LOCK.md =====\n# DuncanReport.com — FORMATTING LOCKED · DO NOT CHANGE\n\n**Status:** Frozen as of 2026-07-24 per Darin's instruction. Any curation engine, deploy\nscript, or session must preserve these exactly. Do not \"improve,\" normalize, or refactor them.\nIf a change seems necessary, stop and ask first.\n\n## CSS spacing (exact values — do not alter)\n\n- `#header` — padding `10px 10px 2px`\n- `#top-nav` — padding `5px 0`\n- `#source-bar` — padding `4px 10px`\n- `.col` — padding `4px 8px`\n- `.col-section` — margin-bottom `4px`, padding-top `3px`\n- `.col-section-title` — margin-bottom `2px`\n- `.col-link` — margin `0`, line-height `1.15`\n- `.sub-headline` — margin `1px 0`\n\n## Typography & links\n\n- Hero headline: ALL CAPS\n- Group panel titles: ALL CAPS\n- Column story headlines: Title Case with acronyms preserved (punctuation-stripping\n  `toTitleCase` function)\n- All links: dark blue `#00008B`\n- Underline behavior (as live): top-nav links and `.col-section-title` links are underlined\n  at rest; `.col-link` and `.sub-headline` links are NOT underlined at rest — they underline\n  on hover only\n- `.sub-headline`: ALL CAPS (`text-transform: uppercase`)\n\n## Layout & separators\n\n- Gray separator lines ONLY between unrelated stories in columns — not within grouped\n  stories, not above the first column story, not between the hero area and columns\n- Each story gets its own `col-section`; no topic-based stacking\n- Sub-links must cover the exact same story as their headline\n- Hero sub-links render as a centered cluster below the headline\n- Group panels distributed round-robin across left, center, and right columns\n  (not all in the left column)\n\n## Structural elements that must NOT be touched\n\n- Source bar: half left-leaning, half right-leaning outlets — intentional, signals the\n  editorial mission. Do not reorder, rebalance, or restyle.\n- No age labels, no colored category tags. The hero photo sits at the very top of the page, and up to 2 self-hosted photos may also appear on the most\n  visual standalone COLUMN stories (Drudge-style, rendered above the headline). No other images - none on panels, no category tags, no source-bar icons\n- Satire entries: small grey \"Satire\" badge (`.satire-tag` CSS class + `tagPrefix()` helper)\n\n---\n_This block is the canonical formatting lock. Paste it into Project Instructions so every\nscoped curation chat inherits it._\n\n\n===== DEPLOY-CONTRACT.md =====\n# DuncanReport.com — DEPLOY CONTRACT (CORE · INVARIANT)\n\nWhat every curation engine must satisfy so its `stories.json` survives the merge and deploys\ncleanly. The engine produces the file; `deploy-stories.sh` and `merge_stories.py` do the rest.\nDeployment is fully automatic — there is no human review step before publish.\n\n## What the engine hands off\n\n- A single valid `stories.json` for its section, matching `SCHEMA.md` exactly.\n- Timestamps in Unix **milliseconds**, reflecting real publication time.\n- Absolute, unique URLs for every story.\n\n## What the pipeline does with it\n\n**`deploy-stories.sh`** (bash):\n1. Validates the fresh JSON.\n2. Pulls the currently live `stories.json`.\n3. Runs the merge (below).\n4. Reassembles the site bundle.\n5. Deploys via the Wrangler CLI to Cloudflare Pages (project `duncanreport`).\n\n**`merge_stories.py`** (python):\n- **3-day expiry** — any story whose `timestamp` is older than 3 days is dropped. This is why\n  a wrong/backdated timestamp makes a story vanish on the first merge.\n- **Original-timestamp-wins** — if a story re-appears in a later cycle, the *earliest* timestamp\n  is kept, so its age is measured from first publication, not re-discovery.\n- **URL-overlap panel matching** — panels (groups) are matched/deduplicated by overlapping\n  story URLs, NOT by panel title. Titles get reframed as narratives evolve; URL overlap is\n  the stable key. This is why URLs must be exact and unique.\n\n## Rules the engine must follow so merge behaves\n\n- Never fabricate or round a timestamp — use the real publication time in Unix ms.\n- Keep URLs canonical and stable — the same story should carry the same URL across cycles, or\n  URL-overlap matching will treat it as new and produce a duplicate panel.\n- Do not rely on panel titles for identity — reframing a title is fine; changing which URLs a\n  panel contains is what the merge sees.\n\n## After publish\n\nNo pre-publish QA gate. Bad links or bad calls are handled post-publish via prompt/rules\nrefinement or manual deletion — not by holding the deploy.\n\n\n"
+"===== SCHEMA.md =====\n# DuncanReport.com — stories.json SCHEMA (CORE · INVARIANT)\n\nEvery curation engine, for every section, MUST emit a `stories.json` that matches this\nstructure exactly. This is a hard contract — the site's rendering and the deploy/merge\npipeline both depend on it. Do not add, rename, or drop fields.\n\n## Structure\n\n```json\n{\n  \"lastUpdated\": 1753372800000,\n  \"hero\": {\n    \"headline\": \"HERO HEADLINE IN ALL CAPS\",\n    \"url\": \"https://example.com/main-story\",\n    \"image\": \"https://example.com/lead-photo.jpg\",\n    \"sublinks\": [\n      { \"text\": \"Related angle one\", \"url\": \"https://example.com/main-story-a\" },\n      { \"text\": \"Related angle two\", \"url\": \"https://example.com/main-story-b\" }\n    ]\n  },\n  \"groups\": [\n    {\n      \"title\": \"NARRATIVE-ARC PANEL TITLE IN ALL CAPS\",\n      \"stories\": [\n        { \"headline\": \"Story Headline In Title Case\", \"url\": \"https://example.com/x\", \"timestamp\": 1753369200000 },\n        { \"headline\": \"Second Story In Title Case\", \"url\": \"https://example.com/y\", \"timestamp\": 1753365600000 }\n      ]\n    }\n  ],\n  \"columns\": {\n    \"left\":   [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/a\", \"timestamp\": 1753369200000 } ],\n    \"center\": [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/b\", \"timestamp\": 1753366000000 } ],\n    \"right\":  [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/c\", \"timestamp\": 1753362400000 } ]\n  }\n}\n```\n\n## Field rules\n\n- **`lastUpdated`** — Unix time in **milliseconds** (integer), the moment the file was generated.\n- **`hero.headline`** — ALL CAPS. `hero.url` — absolute URL. `hero.sublinks` — 0+ items, each\n  `{text, url}`; every sublink must point at the **same story** as the hero headline (a related\n  angle of it, not a different story).\n- **`hero.image`** — OPTIONAL absolute URL of the headline picture (the lead story's photo /\n  `og:image`), displayed at the top of the page. Must be a directly-hotlinkable image URL. Omit\n  the field entirely if there is no good image.\n- **`groups[]`** — narrative-arc panels. `title` ALL CAPS. `stories[]` are the stories in that\n  panel. Only create a group when 2+ stories genuinely support one arc.\n- **`columns.left/center/right`** — flat lists of standalone stories per column.\n- **Every story object** (`hero` aside) is `{headline, url, timestamp}`:\n  - `headline` — Title Case, acronyms preserved.\n  - `url` — absolute, unique. No two stories share a URL.\n  - `timestamp` — Unix **milliseconds**, the story's actual publication time. This drives the\n    3-day expiry in merge; a wrong/old value makes the story expire immediately.\n\n## Invariants (never violate)\n\n- Timestamps are Unix ms, integers, and reflect real publication time — never fabricated.\n- URLs are absolute and unique across the whole file.\n- Field names and nesting are exactly as above. No extra keys (no age labels, category tags,\n  or image fields — the front end does not render them).\n\n\n===== FORMAT-LOCK.md =====\n# DuncanReport.com — FORMATTING LOCKED · DO NOT CHANGE\n\n**Status:** Frozen as of 2026-07-24 per Darin's instruction. Any curation engine, deploy\nscript, or session must preserve these exactly. Do not \"improve,\" normalize, or refactor them.\nIf a change seems necessary, stop and ask first.\n\n## CSS spacing (exact values — do not alter)\n\n- `#header` — padding `10px 10px 2px`\n- `#top-nav` — padding `5px 0`\n- `#source-bar` — padding `4px 10px`\n- `.col` — padding `4px 8px`\n- `.col-section` — margin-bottom `4px`, padding-top `3px`\n- `.col-section-title` — margin-bottom `2px`\n- `.col-link` — margin `0`, line-height `1.15`\n- `.sub-headline` — margin `1px 0`\n\n## Typography & links\n\n- Hero headline: ALL CAPS\n- Group panel titles: ALL CAPS\n- Column story headlines: Title Case with acronyms preserved (punctuation-stripping\n  `toTitleCase` function)\n- All links: dark blue `#00008B`\n- Underline behavior (as live): top-nav links and `.col-section-title` links are underlined\n  at rest; `.col-link` and `.sub-headline` links are NOT underlined at rest — they underline\n  on hover only\n- `.sub-headline`: ALL CAPS (`text-transform: uppercase`)\n\n## Layout & separators\n\n- Gray separator lines ONLY between unrelated stories in columns — not within grouped\n  stories, not above the first column story, not between the hero area and columns\n- Each story gets its own `col-section`; no topic-based stacking\n- Sub-links must cover the exact same story as their headline\n- Hero sub-links render as a centered cluster below the headline\n- Group panels distributed round-robin across left, center, and right columns\n  (not all in the left column)\n\n## Structural elements that must NOT be touched\n\n- Source bar: half left-leaning, half right-leaning outlets — intentional, signals the\n  editorial mission. Do not reorder, rebalance, or restyle.\n- No age labels, no colored category tags. The hero photo sits at the very top of the page, and up to 5 self-hosted photos may also appear on the most\n  visual standalone COLUMN stories (Drudge-style, rendered above the headline). No other images - none on panels, no category tags, no source-bar icons\n- Satire entries: small grey \"Satire\" badge (`.satire-tag` CSS class + `tagPrefix()` helper)\n\n---\n_This block is the canonical formatting lock. Paste it into Project Instructions so every\nscoped curation chat inherits it._\n\n\n===== DEPLOY-CONTRACT.md =====\n# DuncanReport.com — DEPLOY CONTRACT (CORE · INVARIANT)\n\nWhat every curation engine must satisfy so its `stories.json` survives the merge and deploys\ncleanly. The engine produces the file; `deploy-stories.sh` and `merge_stories.py` do the rest.\nDeployment is fully automatic — there is no human review step before publish.\n\n## What the engine hands off\n\n- A single valid `stories.json` for its section, matching `SCHEMA.md` exactly.\n- Timestamps in Unix **milliseconds**, reflecting real publication time.\n- Absolute, unique URLs for every story.\n\n## What the pipeline does with it\n\n**`deploy-stories.sh`** (bash):\n1. Validates the fresh JSON.\n2. Pulls the currently live `stories.json`.\n3. Runs the merge (below).\n4. Reassembles the site bundle.\n5. Deploys via the Wrangler CLI to Cloudflare Pages (project `duncanreport`).\n\n**`merge_stories.py`** (python):\n- **3-day expiry** — any story whose `timestamp` is older than 3 days is dropped. This is why\n  a wrong/backdated timestamp makes a story vanish on the first merge.\n- **Original-timestamp-wins** — if a story re-appears in a later cycle, the *earliest* timestamp\n  is kept, so its age is measured from first publication, not re-discovery.\n- **URL-overlap panel matching** — panels (groups) are matched/deduplicated by overlapping\n  story URLs, NOT by panel title. Titles get reframed as narratives evolve; URL overlap is\n  the stable key. This is why URLs must be exact and unique.\n\n## Rules the engine must follow so merge behaves\n\n- Never fabricate or round a timestamp — use the real publication time in Unix ms.\n- Keep URLs canonical and stable — the same story should carry the same URL across cycles, or\n  URL-overlap matching will treat it as new and produce a duplicate panel.\n- Do not rely on panel titles for identity — reframing a title is fine; changing which URLs a\n  panel contains is what the merge sees.\n\n## After publish\n\nNo pre-publish QA gate. Bad links or bad calls are handled post-publish via prompt/rules\nrefinement or manual deletion — not by holding the deploy.\n\n\n"
 """)
 
 PROMPTS = json.loads(r"""
@@ -2057,10 +2057,11 @@ def curate_live(section):
             "- ORIGINALS: give extra weight to distinctive, free, staff-written analysis and "
             "investigations - especially RealClearInvestigations and RealClear staff pieces (sources "
             "that begin with 'RealClear') - and feature them prominently when they fit the page.\n"
-            "- PHOTOS: choose the 1-2 most VISUALLY striking standalone COLUMN stories - the ones that "
+            "- PHOTOS: choose the 4-5 most VISUALLY striking standalone COLUMN stories - the ones that "
             "will have a great news photo (a dramatic scene, a notable face, a vivid moment), NOT abstract, "
-            "financial, or text-only topics - and add \"photo\": true to those story objects (at most 2 per "
-            "page). These become Drudge-style images that break up the columns, so pick for picture quality "
+            "financial, or text-only topics - and add \"photo\": true to those story objects (at most 5 per "
+            "page, and no more than 2 in any single column - spread them across left/center/right). These "
+            "become Drudge-style images that break up the columns, so pick for picture quality "
             "and impact. Do not flag hero or panel stories, only standalone column items.\n"
             "- PAYWALLS: when the same story is available from BOTH a hard-paywalled outlet (WSJ, FT, "
             "Bloomberg, The Economist, Barron's, The Times of London, Telegraph) and a freely-readable one, "
@@ -2459,6 +2460,25 @@ def _sig_query(headline, n=7):
     keep = [w for w in words if len(w) > 3 and w.lower() not in _STOP]
     return " ".join(keep[:n])
 
+# Some sections lead with visually abstract stories (a CPI print, a Fed decision) whose own
+# article often has no clean, non-chart photo. As a LAST-RESORT fallback we append a section
+# anchor to the headline's key terms, steering the related-coverage search toward the photo-rich
+# wire/broadcast coverage of that same story (e.g. a trading-floor shot for a market-wrap lead).
+HERO_IMG_ANCHOR = {"markets": "stock market"}
+
+def _related_links(q, cap=20):
+    """Article links covering the SAME story as query q, for hero-image hunting. Google News
+    first; if Google is empty or rate-limited (the late-in-run case), fall back to Bing News so
+    a section still gets a lead-tied photo instead of the blank placeholder."""
+    links = []
+    root = _gnews_get(GNEWS % urllib.parse.quote(q + " when:4d"))
+    if root is not None:
+        links = [(it.findtext("link") or "").strip() for it in list(root.iter("item"))[:cap]]
+        links = [r for r in links if r]
+    if not links:
+        links = [b["link"] for b in _bing_news(q, cap=cap) if b.get("link")]
+    return links
+
 def ensure_hero_image(section, data):
     """Self-host a hero photo that MATCHES the headline. First try the hero article and its
     sublinks (same event). If none have a fetchable photo, search for OTHER coverage of the SAME
@@ -2479,19 +2499,23 @@ def ensure_hero_image(section, data):
         print("    hero image saved for %s (hero/sublinks)" % section)
         return
     # Fallback: find closely-related coverage of the SAME story and pull a matching image.
-    # Try a specific query first (stays on-topic); if the outlets it finds block image
-    # fetching (NYT, WSJ, etc.), retry with a broader query that surfaces wire/broadcast
-    # outlets which DO serve images (AP, Reuters, BBC, NBC, Al Jazeera, local news).
+    # Try a specific query first (stays on-topic); then a broader query that surfaces
+    # wire/broadcast outlets which DO serve images (AP, Reuters, BBC, NBC, local news); then,
+    # for anchored sections, the headline's key terms plus a section anchor (e.g. a market-wrap
+    # lead -> a trading-floor photo). Each query falls back Google -> Bing so a late-in-run
+    # rate-limit doesn't leave the page with a blank hero.
+    hl = hero.get("headline")
+    queries = [_sig_query(hl, 7), _sig_query(hl, 3)]
+    anchor = HERO_IMG_ANCHOR.get(section)
+    if anchor:
+        queries.append((_sig_query(hl, 4) + " " + anchor).strip())
     tried = set()
-    for q in (_sig_query(hero.get("headline"), 7), _sig_query(hero.get("headline"), 3)):
+    for q in queries:
         if not q or q in tried:
             continue
         tried.add(q)
-        root = _gnews_get(GNEWS % urllib.parse.quote(q + " when:4d"))
-        if root is None:
-            continue
-        related = [(it.findtext("link") or "").strip() for it in list(root.iter("item"))[:20]]
-        if _try_hero_images([r for r in related if r], dest):
+        related = _related_links(q)
+        if related and _try_hero_images(related, dest):
             hero["img"] = True
             print("    hero image saved for %s (related coverage)" % section)
             return
@@ -2503,28 +2527,33 @@ def ensure_hero_image(section, data):
         pass
 
 def apply_column_images(section, data):
-    """Self-host photos for up to 2 of the most visual column stories the curator flagged
-    with "photo": true (Drudge-style images that break up the text). Reuses the hero image
-    pipeline - og:image, then the junk + watermark OCR guard - so column images are clean and
-    never watermarked. Sets story["image"] to the web path; clears stale image fields first so
-    each run's images match the current stories."""
+    """Self-host photos for up to 5 of the most visual column stories the curator flagged
+    with "photo": true (Drudge-style images that break up the text) - but never more than 2 in
+    any single column, so no one column looks photo-heavy. Reuses the hero image pipeline -
+    og:image, then the junk + watermark OCR guard - so column images are clean and never
+    watermarked. Sets story["image"] to the web path; clears stale image fields first so each
+    run's images match the current stories."""
     cols = data.get("columns") or {}
     flagged = []
     for k in ("left", "center", "right"):
         for s in (cols.get(k) or []):
             s.pop("image", None)                     # clear any stale resolved path
             if s.get("photo"):
-                flagged.append(s)
-    flagged.sort(key=lambda s: s.get("timestamp") or 0, reverse=True)
+                flagged.append((k, s))
+    flagged.sort(key=lambda ks: ks[1].get("timestamp") or 0, reverse=True)
     n = 0
-    for s in flagged:
-        if n >= 2:
+    per_col = {"left": 0, "center": 0, "right": 0}   # cap: no more than 2 photos per column
+    for k, s in flagged:
+        if n >= 5:
             break
+        if per_col[k] >= 2:                          # this column already has its 2 - skip
+            continue
         dest = os.path.join(SITE, "img", "%s-%d.jpg" % (section, n))
         try:
             if s.get("url") and _try_hero_images([s["url"]], dest):
                 s["image"] = "/img/%s-%d.jpg" % (section, n)
                 n += 1
+                per_col[k] += 1
         except Exception as e:
             print("    column image failed:", str(e)[:70])
     if n:
@@ -2646,15 +2675,21 @@ def market_quotes():
 # Ballotpedia. A live snapshot, refreshed each run and never retained like a story.
 BALLOTPEDIA_POLLS = "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating"
 RCP_APPROVAL = "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating"
+RCP_GENERIC = "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote"
 
 # Ballotpedia's Cloudflare challenges datacenter IPs (CI runners AND public proxies), so
 # the live fetch usually fails from the workflow even though a browser succeeds. When it
 # does, fall back to the most recent known averages so the strip still shows REAL, dated
 # numbers (linked to Ballotpedia for the current figures) instead of nothing. Refresh
 # these occasionally - approval averages move slowly, so they stay accurate for a while.
+# Generic congressional ballot (Dem vs Rep) - RealClearPolitics average, cited to RCP and
+# refreshed live from Wikipedia's House-polling aggregators table. This dated snapshot is the
+# safety net when the live parse is unavailable.
+GENERIC_FALLBACK = {"name": "Generic Congressional Vote", "value": "Dem +6.5",
+                    "sub": "", "url": RCP_GENERIC, "asOf": "Aug 5, 2026"}
 POLL_FALLBACK = [
     {"name": "Trump Approval", "value": "39%/58%", "sub": "", "url": RCP_APPROVAL, "asOf": "Aug 7, 2026"},
-    {"name": "Congress Approval", "value": "25%/58%", "sub": "", "url": BALLOTPEDIA_POLLS},
+    dict(GENERIC_FALLBACK),
     {"name": "Right Direction", "value": "30%/61%", "sub": "", "url": BALLOTPEDIA_POLLS},
 ]
 
@@ -2663,6 +2698,12 @@ POLL_FALLBACK = [
 # dated average - including Ballotpedia's own figure - and Wikipedia never bot-blocks a
 # datacenter IP. So the headline approval number stays daily-fresh even from the runner.
 WIKI_APPROVAL = "https://en.wikipedia.org/wiki/Opinion_polling_on_the_second_Donald_Trump_administration"
+# Candidate Wikipedia articles that carry the RCP 2026 generic-ballot average in an aggregators
+# table. Tried in order; the first that yields a plausible Dem/Rep pair wins.
+WIKI_HOUSE = (
+    "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+    "https://en.wikipedia.org/wiki/2026_United_States_elections",
+)
 _MONTHS = {"January": "Jan", "February": "Feb", "March": "Mar", "April": "Apr", "May": "May",
            "June": "Jun", "July": "Jul", "August": "Aug", "September": "Sep",
            "October": "Oct", "November": "Nov", "December": "Dec"}
@@ -2696,19 +2737,69 @@ def _wikipedia_trump_approval():
         return None
     return (m.group(2), m.group(3), m.group(1))
 
+def _wikipedia_generic_ballot():
+    """(leader, margin, date) for the RealClearPolitics 2026 generic congressional ballot,
+    read from the 2026 House-elections Wikipedia article (fetchable from any IP). Wikipedia
+    renders the RCP aggregate row as e.g. 'Democrats +6.5% RealClearPolitics [76] <poll range>
+    <as-of date> ...', so the party lead is the one cleanly paired value. leader is 'Dem'/'Rep'.
+    Returns None if nothing plausible parses."""
+    for url in WIKI_HOUSE:
+        raw = None
+        for i in range(2):
+            try:
+                blob = _fetch_bytes(url, ua=BROWSER_UA, timeout=30).decode("utf-8", "ignore")
+                if blob and len(blob) > 20000:
+                    raw = blob
+                    break
+            except Exception as e:
+                print("    wiki generic-ballot fetch (%s) try %d failed: %s"
+                      % (url.rsplit("/", 1)[-1][:30], i + 1, str(e)[:60]))
+            time.sleep(1.2 * (i + 1))
+        if not raw:
+            continue
+        flat = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", raw)))
+        m = re.search(r"(Democrats|Republicans)\s*\+\s*(\d{1,2}(?:\.\d)?)%\s*RealClearPolitics(.{0,90})", flat)
+        if not m:
+            continue
+        leader = "Dem" if m.group(1) == "Democrats" else "Rep"
+        margin = float(m.group(2))
+        dates = re.findall(r"[A-Z][a-z]+ \d{1,2}, 20\d\d", m.group(3))  # take the as-of (last) date
+        if 0 <= margin <= 40:
+            return (leader, margin, dates[-1] if dates else "")
+    return None
+
+def _fmt_margin(margin):
+    return ("%.1f" % margin).rstrip("0").rstrip(".")   # 7.0 -> "7", 6.5 -> "6.5"
+
+def _generic_ballot_item():
+    """Build the Generic Congressional Vote strip item: live RCP lead via Wikipedia when
+    available (e.g. 'Dem +6.5'), otherwise the dated fallback. Cited to the RCP ballot page."""
+    gb = _wikipedia_generic_ballot()
+    if gb:
+        leader, margin, date = gb
+        item = {"name": "Generic Congressional Vote",
+                "value": "%s +%s" % (leader, _fmt_margin(margin)),
+                "sub": "", "url": RCP_GENERIC}
+        if date:
+            item["asOf"] = _short_date(date)
+        return item
+    return dict(GENERIC_FALLBACK)
+
 def _poll_backup(reason):
-    """Live Ballotpedia unreachable/unparseable: refresh at least the presidential-approval
-    number from Wikipedia (fetchable from any IP), and keep the slow-moving Congress and
-    Direction figures from the dated fallback."""
+    """Live Ballotpedia unreachable/unparseable: refresh the presidential-approval and the
+    generic-congressional-ballot numbers from Wikipedia (fetchable from any IP), and keep the
+    slow-moving Direction figure from the dated fallback."""
     out = [dict(x) for x in POLL_FALLBACK]
     wa = _wikipedia_trump_approval()
     if wa:
         appr, disappr, date = wa
         out[0] = {"name": "Trump Approval", "value": "%d%%/%d%%" % (round(float(appr)), round(float(disappr))),
                   "sub": "", "url": RCP_APPROVAL, "asOf": _short_date(date)}
-        STATUS["_polls"] = "RCP approval live via Wikipedia; congress/direction fallback (%s)" % reason
-    else:
-        STATUS["_polls"] = "fallback (%s; Wikipedia backup also failed)" % reason
+    out[1] = _generic_ballot_item()          # RCP generic ballot, live via Wikipedia or dated
+    gb_live = out[1] != dict(GENERIC_FALLBACK)
+    live = ", ".join(x for x in (("approval" if wa else ""), ("generic ballot" if gb_live else "")) if x)
+    STATUS["_polls"] = ("RCP %s live via Wikipedia; rest fallback (%s)" % (live, reason) if live
+                        else "fallback (%s; Wikipedia backup also failed)" % reason)
     return out
 
 def poll_averages():
@@ -2739,8 +2830,9 @@ def poll_averages():
     text = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", raw)))
     dm = re.search(r"presidential approval polling average \(([^)]+)\)", text, re.I)
     asof = dm.group(1) if dm else ""
+    # Ballotpedia supplies presidential approval + direction-of-country; the generic
+    # congressional ballot is NOT on this page and is fetched separately (RCP via Wikipedia).
     specs = [("Trump Approval", "Presidential approval", "disapprove"),
-             ("Congress Approval", "Congressional approval", "disapprove"),
              ("Right Direction", "Direction of country", "wrong track")]
     out = []
     for label, metric, negword in specs:
@@ -2753,6 +2845,8 @@ def poll_averages():
         return _poll_backup("parse found 0")
     if asof:
         out[0]["asOf"] = asof
+    # Insert the generic congressional ballot between approval and direction.
+    out.insert(1, _generic_ballot_item())
     STATUS["_polls"] = "%d fetched (live)" % len(out)
     return out
 
@@ -3405,7 +3499,7 @@ def build():
                 data.pop("polls", None)
                 print("  poll averages fetch failed:", e)
         ensure_hero_image(sec, data)            # self-host the hero photo + set hero.img flag
-        data = apply_column_images(sec, data)   # self-host 1-2 Drudge-style column photos
+        data = apply_column_images(sec, data)   # self-host up to 5 Drudge-style column photos
         dest = os.path.join(SITE, "stories.json") if sec == "main" else os.path.join(SITE, sec, "stories.json")
         os.makedirs(os.path.dirname(dest), exist_ok=True)
         with open(dest, "w", encoding="utf-8") as f:
