@@ -331,10 +331,11 @@
       "asOf": "Aug 7, 2026"
     },
     {
-      "name": "Congress Approval",
-      "value": "25%/58%",
+      "name": "Generic Congressional Vote",
+      "value": "Dem +6.5",
       "sub": "",
-      "url": "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating"
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "Aug 5, 2026"
     },
     {
       "name": "Right Direction",

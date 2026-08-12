@@ -131,7 +131,8 @@
         "url": "https://deadspin.com/dodgers-blake-snell-set-to-return-vs-royals-as-mission--begins/",
         "timestamp": 1786454520000,
         "photo": true,
-        "postedAt": 1786458006394
+        "postedAt": 1786458006394,
+        "image": "/img/sports-2.jpg"
       },
       {
         "headline": "Picking The Best College Football Team In Every State Ahead Of 2026",
@@ -188,7 +189,8 @@
         "url": "https://sports.yahoo.com/articles/only-fair-ex-nba-star-172435048.html",
         "timestamp": 1786296275000,
         "photo": true,
-        "postedAt": 1786544407409
+        "postedAt": 1786544407409,
+        "image": "/img/sports-4.jpg"
       },
       {
         "headline": "Behind Mitch Bratt, D-backs Chase Series Win Vs. Rockies",
@@ -213,7 +215,8 @@
         "url": "https://www.barstoolsports.com/blog/3575023/bills-mafia-just-paid-dollar260-million-in-psls-and-dollar850-million-in-for",
         "timestamp": 1786367818000,
         "photo": true,
-        "postedAt": 1786371544745
+        "postedAt": 1786371544745,
+        "image": "/img/sports-3.jpg"
       },
       {
         "headline": "Patriots' Hunter Henry Weighs Retirement Amid Contract Talks",
@@ -290,138 +293,138 @@
   "scoreboard": [
     {
       "league": "MLB",
-      "home": "DET",
-      "away": "CLE",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "4"
-    },
-    {
-      "league": "MLB",
-      "home": "MIA",
-      "away": "PIT",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "0"
-    },
-    {
-      "league": "MLB",
-      "home": "WSH",
-      "away": "CHC",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "8"
-    },
-    {
-      "league": "MLB",
-      "home": "NYY",
-      "away": "SEA",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "4",
-      "awayScore": "1"
-    },
-    {
-      "league": "MLB",
-      "home": "TOR",
-      "away": "BOS",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "5",
-      "awayScore": "3"
-    },
-    {
-      "league": "MLB",
-      "home": "ATL",
-      "away": "NYM",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "4",
-      "awayScore": "0"
-    },
-    {
-      "league": "MLB",
       "home": "MIN",
       "away": "BAL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "5"
-    },
-    {
-      "league": "MLB",
-      "home": "CHW",
-      "away": "CIN",
-      "state": "post",
-      "note": "Final/10",
-      "homeScore": "4",
-      "awayScore": "5"
+      "state": "in",
+      "note": "Top 1st",
+      "homeScore": "0",
+      "awayScore": "0"
     },
     {
       "league": "MLB",
       "home": "STL",
       "away": "PHI",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "0"
-    },
-    {
-      "league": "MLB",
-      "home": "LAA",
-      "away": "TEX",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "3",
-      "awayScore": "2"
-    },
-    {
-      "league": "MLB",
-      "home": "ARI",
-      "away": "COL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "3"
-    },
-    {
-      "league": "MLB",
-      "home": "SD",
-      "away": "MIL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "11",
-      "awayScore": "2"
+      "state": "scheduled",
+      "note": "8/12 - 2:15 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "ATH",
       "away": "TB",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "4",
-      "awayScore": "12"
+      "state": "scheduled",
+      "note": "8/12 - 3:05 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "ARI",
+      "away": "COL",
+      "state": "scheduled",
+      "note": "8/12 - 3:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "SF",
       "away": "HOU",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "4",
-      "awayScore": "1"
+      "state": "scheduled",
+      "note": "8/12 - 3:45 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "SD",
+      "away": "MIL",
+      "state": "scheduled",
+      "note": "8/12 - 4:10 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "DET",
+      "away": "CLE",
+      "state": "scheduled",
+      "note": "8/12 - 6:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "MIA",
+      "away": "PIT",
+      "state": "scheduled",
+      "note": "8/12 - 6:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "WSH",
+      "away": "CHC",
+      "state": "scheduled",
+      "note": "8/12 - 6:45 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "NYY",
+      "away": "SEA",
+      "state": "scheduled",
+      "note": "8/12 - 7:00 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "TOR",
+      "away": "BOS",
+      "state": "scheduled",
+      "note": "8/12 - 7:07 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "ATL",
+      "away": "NYM",
+      "state": "scheduled",
+      "note": "8/12 - 7:15 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "CHW",
+      "away": "CIN",
+      "state": "scheduled",
+      "note": "8/12 - 7:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "LAA",
+      "away": "TEX",
+      "state": "scheduled",
+      "note": "8/12 - 10:00 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "LAD",
       "away": "KC",
-      "state": "post",
-      "note": "Final/10",
-      "homeScore": "5",
-      "awayScore": "4"
+      "state": "scheduled",
+      "note": "8/12 - 10:10 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLS",

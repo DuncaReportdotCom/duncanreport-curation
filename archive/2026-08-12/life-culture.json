@@ -135,7 +135,8 @@
         "url": "https://www.smithsonianmag.com/smart-news/the-hiroshima-atomic-bombing-birthed-a-strange-never-before-seen-material-according-to-a-new-study-180989249/",
         "timestamp": 1786370400000,
         "photo": true,
-        "postedAt": 1786372225078
+        "postedAt": 1786372225078,
+        "image": "/img/life-culture-3.jpg"
       },
       {
         "headline": "Boeing Is Selling Its Air Taxi Startups To Archer Aviation",
@@ -194,7 +195,8 @@
         "url": "https://www.caranddriver.com/news/a73395844/curated-by-cadillac-escalade-iq-revealed/",
         "timestamp": 1786453317000,
         "photo": true,
-        "postedAt": 1786458856408
+        "postedAt": 1786458856408,
+        "image": "/img/life-culture-2.jpg"
       },
       {
         "headline": "Just 7 Days of Meditation Can Rewire Your Brain, Study Suggests",
