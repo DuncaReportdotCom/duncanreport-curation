@@ -2296,6 +2296,31 @@ def _download_image(url, dest):
         f.write(blob)
     return True
 
+def _valid_image(path, min_bytes=3000, min_dim=200):
+    """True only if `path` is a real, adequately-sized image (not missing, empty, truncated, a
+    1x1 tracking pixel, or a tiny logo). Uses PIL when available to catch corruption/dimensions;
+    otherwise falls back to magic-byte sniffing + a size floor so broken files are still caught."""
+    try:
+        if not (os.path.exists(path) and os.path.getsize(path) >= min_bytes):
+            return False
+    except Exception:
+        return False
+    try:
+        from PIL import Image
+    except Exception:
+        with open(path, "rb") as f:
+            head = f.read(12)
+        return (head.startswith(b"\xff\xd8") or head.startswith(b"\x89PNG")
+                or head[:4] == b"GIF8" or (head[:4] == b"RIFF" and head[8:12] == b"WEBP"))
+    try:
+        with Image.open(path) as im:
+            im.verify()                     # detect truncation / corruption
+        with Image.open(path) as im2:
+            w, h = im2.size
+        return w >= min_dim and h >= min_dim
+    except Exception:
+        return False
+
 # Wire agencies / outlets whose name burned onto a photo means it's a branded or
 # watermarked image (e.g. a "Telegraph" wordmark across the picture), not a clean
 # editorial photo. If OCR reads one, the image is rejected and the next candidate tried.
@@ -3432,6 +3457,66 @@ def _preserve_review():
         pass
 
 
+def _write_section(sec, data):
+    """Write one section's stories.json into the site bundle and, if it has real content,
+    refresh its dated archive snapshot. Used by the build loop and the hero-image safeguard."""
+    dest = os.path.join(SITE, "stories.json") if sec == "main" else os.path.join(SITE, sec, "stories.json")
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    with open(dest, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    if _has_real_content(data):
+        adest = os.path.join(ROOT, "archive", datetime.date.today().isoformat(),
+                             "main.json" if sec == "main" else "%s.json" % sec)
+        os.makedirs(os.path.dirname(adest), exist_ok=True)
+        with open(adest, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+def verify_hero_images(per_section):
+    """END-OF-RUN SAFEGUARD for hero images, which have failed randomly for days: a mid-run
+    Google rate-limit or a publisher 403 leaves hero.img False (grey placeholder) or writes a
+    broken file. Now that the whole run is done and the request burst has cooled, re-verify every
+    section's hero and REPAIR any that is missing, broken, or whose flag disagrees with its file -
+    retrying through the robust hero pipeline (hero/sublinks, then Google->Bing related coverage).
+    Only the sections it repairs are rewritten. Records STATUS['_hero_images'] for the health log."""
+    okc, fixed, still = 0, [], []
+    for sec in SECTIONS:
+        data = per_section.get(sec) or {}
+        hero = data.get("hero") or {}
+        if not (hero.get("headline") or hero.get("url")):
+            continue                                    # empty page - nothing to verify
+        dest = _img_dest(sec)
+        if hero.get("img") and _valid_image(dest):
+            okc += 1
+            continue                                    # already good and consistent
+        # Broken/missing/inconsistent -> retry (twice, with a short cooldown between).
+        for attempt in range(2):
+            try:
+                ensure_hero_image(sec, data)
+            except Exception as e:
+                print("    hero re-fetch error (%s):" % sec, str(e)[:80])
+            if hero.get("img") and _valid_image(dest):
+                break
+            time.sleep(2)
+        if hero.get("img") and _valid_image(dest):
+            fixed.append(sec)
+        else:
+            hero["img"] = False                         # leave a clean placeholder state
+            try:
+                if os.path.exists(dest):
+                    os.remove(dest)
+            except Exception:
+                pass
+            still.append(sec)
+        _write_section(sec, data)                       # persist the corrected flag/file
+    msg = "%d ok" % okc
+    if fixed:
+        msg += "; repaired: " + ", ".join(fixed)
+    if still:
+        msg += "; still without a photo: " + ", ".join(still)
+    STATUS["_hero_images"] = msg
+    print("  hero-image verify:", msg)
+    return fixed, still
+
 def build():
     target = (os.environ.get("SECTION", "all") or "all").strip().lower()
     review_mode = target in ("narrative-review", "review", "arcs-review")
@@ -3500,20 +3585,17 @@ def build():
                 print("  poll averages fetch failed:", e)
         ensure_hero_image(sec, data)            # self-host the hero photo + set hero.img flag
         data = apply_column_images(sec, data)   # self-host up to 5 Drudge-style column photos
-        dest = os.path.join(SITE, "stories.json") if sec == "main" else os.path.join(SITE, sec, "stories.json")
-        os.makedirs(os.path.dirname(dest), exist_ok=True)
-        with open(dest, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+        # Write the section + refresh its dated archive snapshot (skipped for empty pages so a
+        # bad run never overwrites a good same-day snapshot).
+        _write_section(sec, data)
         print("  wrote", sec)
         per_section[sec] = data
-        # Archive a dated snapshot of real content to the repo (recovery + history).
-        # Skipped for empty pages so a bad run never overwrites a good same-day snapshot.
-        if _has_real_content(data):
-            adest = os.path.join(ROOT, "archive", datetime.date.today().isoformat(),
-                                 "main.json" if sec == "main" else "%s.json" % sec)
-            os.makedirs(os.path.dirname(adest), exist_ok=True)
-            with open(adest, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
+
+    # ---- hero-image safeguard: recheck every hero now the run has cooled, repair any broken ----
+    try:
+        verify_hero_images(per_section)
+    except Exception as e:
+        print("  hero-image verify failed:", repr(e)[:160])
 
     # ---- health check: flag anything that broke so the workflow can alert on it ----
     problems = []
