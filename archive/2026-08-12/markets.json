@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786545032700,
+  "lastUpdated": 1786557395704,
   "heroSetDate": "2026-08-12",
   "hero": {
     "headline": "JULY CPI COMES IN MILD, FUELING WALL STREET RALLY AND FED RATE-HOLD BETS",
@@ -18,7 +18,7 @@
         "url": "https://www.realclearmarkets.com/articles/2026/08/12/july_inflation_blows_a_hole_in_the_fed-must-remain-tight_story_1199947.html"
       }
     ],
-    "img": false
+    "img": true
   },
   "groups": [
     {
@@ -156,6 +156,12 @@
   "columns": {
     "left": [
       {
+        "headline": "SpaceX Supplier Tumbles After First Earnings Report Since IPO",
+        "url": "https://ca.finance.yahoo.com/quote/SPCX/",
+        "timestamp": 1786554300000,
+        "postedAt": 1786557395704
+      },
+      {
         "headline": "Goldman Expands Active-ETF Push With $2.3 Billion Neos Deal",
         "url": "https://www.reuters.com/business/goldman-sachs-buy-etf-provider-neos-23-billion-deal-2026-08-12/",
         "timestamp": 1786541904000,
@@ -224,6 +230,12 @@
       }
     ],
     "center": [
+      {
+        "headline": "Credit Markets Signal Rising Doubts Over AI Buildout",
+        "url": "https://www.zerohedge.com/markets/credit-markets-signal-rising-doubts-over-ai-buildout",
+        "timestamp": 1786554000000,
+        "postedAt": 1786557395704
+      },
       {
         "headline": "Home Depot CEO Takes Medical Leave As Stock Slides",
         "url": "https://www.cnbc.com/2026/08/12/home-depot-ceo-ted-decker-medical-leave.html",
@@ -294,6 +306,18 @@
       }
     ],
     "right": [
+      {
+        "headline": "US Consumer Inflation Mild In July, Economy Still Not Out Of The Woods",
+        "url": "https://www.reuters.com/business/us-consumer-prices-increase-expected-july-2026-08-12/",
+        "timestamp": 1786553257000,
+        "postedAt": 1786557395704
+      },
+      {
+        "headline": "USDA Makes Surprise Cut To Corn Yield Projections",
+        "url": "https://www.farmprogress.com/marketing/corn-soybeans-rally-after-usda-yields-come-up-short",
+        "timestamp": 1786553280000,
+        "postedAt": 1786557395704
+      },
       {
         "headline": "Trump's 'No Tax On Social Security' Plan Could Hurt Retirees, Experts Say",
         "url": "https://finance.yahoo.com/economy/policy/articles/no-tax-social-security-facts-134500415.html",
@@ -366,41 +390,41 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,751.55",
-      "change": "+23.35",
+      "value": "7,751.00",
+      "change": "+22.80",
       "changePct": "+0.30%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "53,830.12",
-      "change": "+38.27",
-      "changePct": "+0.07%",
+      "value": "53,803.63",
+      "change": "+11.78",
+      "changePct": "+0.02%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,610.32",
-      "change": "+164.88",
-      "changePct": "+0.62%",
+      "value": "26,596.63",
+      "change": "+151.19",
+      "changePct": "+0.57%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
       "value": "4.67%",
-      "change": "-0.02",
-      "changePct": "-0.34%",
+      "change": "-0.01",
+      "changePct": "-0.26%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Gold",
-      "value": "$4,471.60",
-      "change": "+30.50",
-      "changePct": "+0.69%",
+      "value": "$4,463.50",
+      "change": "+22.40",
+      "changePct": "+0.50%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
@@ -414,9 +438,9 @@
     },
     {
       "name": "Bitcoin",
-      "value": "$63,387.52",
-      "change": "-159.53",
-      "changePct": "-0.25%",
+      "value": "$63,409.07",
+      "change": "-137.98",
+      "changePct": "-0.22%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     }
