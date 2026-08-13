@@ -3209,16 +3209,27 @@ def cap_fashion(data, limit=1):
     data["columns"] = cols
     return data
 
-# Hard-paywall outlets: the article usually can't be read without a subscription. We still
-# crawl them for headlines and as a signal, but when the SAME story is available free we link
-# that instead. Metered outlets (NYT, WaPo) are left off - their gift/metered links often work.
+# Hard-paywall / metered outlets: the article usually can't be read without a subscription. We
+# still crawl them for headlines and as a signal, but when the SAME story is available free we
+# link that instead. NYT and WaPo ARE included here (their walls are hard for most readers) - the
+# gift/unlock links that DO work are exempted per-URL in _is_paywalled below, so a valid NYT
+# gift link stays while a bare nytimes.com/washingtonpost.com link is swapped for a free source.
 PAYWALL_DOMAINS = {"wsj.com", "ft.com", "bloomberg.com", "economist.com", "barrons.com",
     "thetimes.com", "thetimes.co.uk", "telegraph.co.uk", "seekingalpha.com", "foreignpolicy.com",
     "newyorker.com", "investors.com", "nikkei.com", "theinformation.com",
+    "nytimes.com", "washingtonpost.com", "theatlantic.com", "latimes.com", "bostonglobe.com",
+    "wired.com", "businessinsider.com", "foreignaffairs.com", "technologyreview.com", "hbr.org",
+    "newsday.com", "thedailybeast.com", "vanityfair.com", "wsj.net",
     # Mostly-paywalled Substacks: still crawled as a signal of what's being discussed, but
     # linked via a free same-subject article (or dropped) rather than sending readers to a wall.
     "thefp.com", "slowboring.com", "racket.news", "thedispatch.com",
     "andrewsullivan.substack.com", "piratewires.com", "persuasion.community"}
+
+# A URL on a walled domain is treated as FREE when it carries a publisher gift/unlock token, or
+# is an archive mirror (a full free copy). This keeps working NYT/WaPo gift links live.
+_FREE_MARKERS = ("unlocked_article_code=", "gift=", "giftcode=", "shared_access_code=",
+                 "unlock=", " unlocked", "?gift", "&gift")
+_ARCHIVE_HOSTS = ("archive.ph", "archive.is", "archive.today", "archive.md", "webcache.googleusercontent.com")
 
 # Glenn Greenwald is a special case: we push his FREE posts heavily, but he does put some
 # posts (mostly video / subscriber Q&As) behind a wall. Rather than block his whole Substack,
@@ -3251,18 +3262,90 @@ def _is_paywalled(url):
         host = parsed.netloc.lower().replace("www.", "")
     except Exception:
         return False
+    low = (url or "").lower()
+    if any(a in host for a in _ARCHIVE_HOSTS):      # archive mirror = a full free copy
+        return False
+    if any(mk in low for mk in _FREE_MARKERS):      # publisher gift / unlock token = readable
+        return False
     if host == "greenwald.substack.com":   # only his KNOWN paid posts are walled
         return parsed.path.rstrip("/") in _greenwald_paid_paths()
     if host in PAYWALL_DOMAINS:            # exact host, e.g. andrewsullivan.substack.com
         return True
     return _regdom(url) in PAYWALL_DOMAINS  # registered domain, e.g. wsj.com
 
+# ---- Gift-link cache -------------------------------------------------------
+# Outlets like NYT / WaPo / The Atlantic publish "gift" or "unlock" links that read fully
+# without a subscription. Those links are PER-ARTICLE (and expire), so we can't keep one
+# reusable link per outlet - but we CAN remember every gift link the engine sees, keyed by the
+# exact article, and reuse it when that same walled article turns up as a lead. That lets the
+# page lead with the original outlet instead of swapping to a lesser free source.
+GIFT_LINKS_PATH = os.path.join(ROOT, "gift_links.json")
+_GIFT_MARKER_TOKENS = ("unlocked_article_code=", "gift=", "giftcode=", "shared_access_code=", "unlock=")
+
+def _has_gift_token(url):
+    low = (url or "").lower()
+    return any(mk in low for mk in _GIFT_MARKER_TOKENS)
+
+def _article_key(url):
+    """Identity of an article independent of query string, so a bare link and its gift variant
+    map to the same key (e.g. 'nytimes.com/2026/08/09/nyregion/...')."""
+    try:
+        return _regdom(url) + urllib.parse.urlparse(url).path.rstrip("/").lower()
+    except Exception:
+        return ""
+
+def load_gift_links():
+    """Load the saved gift links, pruning any older than 14 days (gift links go stale)."""
+    try:
+        with open(GIFT_LINKS_PATH, encoding="utf-8") as f:
+            d = json.load(f)
+        cutoff = now_ms() - 14 * 86400 * 1000
+        return {k: v for k, v in d.items() if isinstance(v, dict) and (v.get("ts") or 0) >= cutoff}
+    except Exception:
+        return {}
+
+def save_gift_links(store):
+    try:
+        with open(GIFT_LINKS_PATH, "w", encoding="utf-8") as f:
+            json.dump(store, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print("  gift-link store save failed:", str(e)[:80])
+
+def harvest_gift_links(data, store):
+    """Record every gift/unlock link present on the page, keyed by article, for later reuse."""
+    def note(u):
+        if u and _has_gift_token(u):
+            k = _article_key(u)
+            if k:
+                store[k] = {"url": u, "ts": now_ms()}
+    h = data.get("hero") or {}
+    note(h.get("url"))
+    for sl in (h.get("sublinks") or []):
+        note(sl.get("url"))
+    for k in ("left", "center", "right"):
+        for s in ((data.get("columns") or {}).get(k) or []):
+            note(s.get("url"))
+    for g in (data.get("groups") or []):
+        for s in (g.get("stories") or []):
+            note(s.get("url"))
+
+def _saved_gift_link(url, store):
+    """A saved gift version of THIS exact article, if we have one (and it isn't the url itself)."""
+    if not store:
+        return None
+    e = store.get(_article_key(url))
+    g = e.get("url") if isinstance(e, dict) else None
+    return g if (g and g != url and _has_gift_token(g)) else None
+
 def _find_free_alternative(headline):
     """Search for the SAME story from a non-paywalled outlet; return a free article URL or None.
-    Uses the Google News <source url> to skip paywalled outlets without decoding each link."""
+    Uses the Google News <source url> to skip paywalled outlets without decoding each link. A
+    topical guard requires the candidate's title to share >=2 key terms with our headline, so a
+    vague query can't pull in an unrelated free article (e.g. a game piece for 'the escape')."""
     q = _sig_query(headline, 6)
-    if not q:
-        return None
+    key = set(w.lower() for w in q.split())
+    if len(key) < 2:
+        return None                       # too vague to match safely - caller drops instead
     root = _gnews_get(GNEWS % urllib.parse.quote(q + " when:4d"))
     if root is None:
         return None
@@ -3274,19 +3357,37 @@ def _find_free_alternative(headline):
         link = (it.findtext("link") or "").strip()
         if not link:
             continue
+        ctitle = (it.findtext("title") or "").lower()
+        if sum(1 for k in key if k in ctitle) < 2:   # must genuinely be the same story
+            continue
         real = decode_gnews(link) if "news.google.com" in link else link
         if real and not _is_paywalled(real):
             return real
     return None
 
-def replace_paywalled(data, cap=12):
-    """For any hard-paywalled link, swap in a same-subject article from a FREE source (our
-    headline is kept). If no free version exists, DROP the story from the body rather than
-    link a paywall - the hero is never dropped (kept as-is if nothing free is found)."""
+def _free_sublink(hero):
+    """First hero sublink that isn't paywalled (a free angle on the SAME story) - used to
+    rescue a walled hero so the lead is never a paywall."""
+    for sl in (hero.get("sublinks") or []):
+        u = sl.get("url")
+        if u and not _is_paywalled(u):
+            return u
+    return None
+
+def replace_paywalled(data, cap=16, gift_store=None):
+    """For any hard-paywalled link: first use a saved GIFT link for that exact article if we
+    have one (keeps the original outlet); else swap in a same-subject article from a FREE source
+    (our headline is kept). If nothing free exists, DROP the story from the body rather than link
+    a paywall. The HERO is never dropped and never left walled: gift link, else a free same-story
+    article, else promoted to one of its own free sublinks."""
     n = [0]
     def keep(s, is_hero=False):
         u = s.get("url")
         if not (u and _is_paywalled(u)):
+            return True
+        gift = _saved_gift_link(u, gift_store)
+        if gift:
+            s["url"] = gift           # read-through gift link for this same article
             return True
         if n[0] >= cap:
             return is_hero            # over budget: keep hero, drop body (no search)
@@ -3297,9 +3398,23 @@ def replace_paywalled(data, cap=12):
             return True
         return is_hero                # no free version: keep hero, drop the body story
     hero = data.get("hero") or {}
-    keep(hero, is_hero=True)
+    hu = hero.get("url")
+    if hu and _is_paywalled(hu):      # the lead must never be a wall
+        gift = _saved_gift_link(hu, gift_store)
+        if gift:
+            hero["url"] = gift        # lead with the original outlet via its gift link
+        else:
+            n[0] += 1
+            alt = _find_free_alternative(hero.get("headline") or hero.get("text")) or _free_sublink(hero)
+            if alt:
+                hero["url"] = alt
+            else:
+                print("    WARNING: paywalled hero and no free alternative found:", hu[:90])
     if hero.get("sublinks"):
-        hero["sublinks"] = [sl for sl in hero["sublinks"] if keep(sl)]
+        # Sublinks carry short descriptive text (a weak search query), so DROP any walled
+        # sublink rather than risk an off-topic swap - the free ones remain as related angles.
+        hero["sublinks"] = [sl for sl in hero["sublinks"]
+                            if not (sl.get("url") and _is_paywalled(sl.get("url")))]
     cols = data.get("columns") or {}
     overflow = []
     for k in ("left", "center", "right"):
@@ -3355,11 +3470,24 @@ MANUAL_PICKS = {
     "life-culture": [
         {"headline": 'How to Stock Your Home Bar, According to a Woman', "url": 'https://www.insidehook.com/drinks/every-grown-man-should-stock-home-bar', "added": '2026-08-06'},
     ],
+    "politics": [
+        # Forced LEAD: Wisconsin/Milwaukee USB-drive election controversy. Nonpartisan Votebeat
+        # is the hero, with a local, a right-leaning, and the viral-moment angle as sublinks.
+        {"hero": True, "added": '2026-08-13',
+         "headline": "MILWAUKEE ELECTION NIGHT CHAOS: 5 OF 9 USB DRIVES ARRIVE WITHOUT RESULTS",
+         "url": 'https://www.votebeat.org/wisconsin/2026/08/12/milwaukee-election-error-delayed-results-2026-primary/',
+         "sublinks": [
+            {"text": "Officials blame a download error for the hours-long delay", "url": 'https://urbanmilwaukee.com/2026/08/12/milwaukee-election-results-delayed-by-download-error/'},
+            {"text": "Five of nine drives arrived missing all results, forcing a retabulation", "url": 'https://www.westernjournal.com/breaking-overnight-5-9-usb-drives-missing-election-results-blue-stronghold-milwaukee/'},
+            {"text": "Steve Kornacki's on-air reaction goes viral as Wisconsin retabulates", "url": 'https://www.primetimer.com/news/steve-kornackis-shocked-expression-goes-viral-after-learning-wisconsin-election-results-will-be-retabulated-due-to-missing-results-on-5-of-9-usb-sticks'},
+         ]},
+    ],
 }
 
 def apply_manual_picks(section, data):
-    """Inject hand-placed articles directly onto a page (guaranteed to appear). Each shows
-    for 3 days from its \"added\" date, then ages off like any story."""
+    """Inject hand-placed articles directly onto a page (guaranteed to appear). Each shows for
+    3 days from its \"added\" date, then ages off. A pick with \"hero\": true is FORCED as the
+    lead (replacing the curated hero and any duplicate of it in the columns/panels)."""
     now = now_ms()
     for p in (MANUAL_PICKS.get(section) or []):
         try:
@@ -3369,6 +3497,21 @@ def apply_manual_picks(section, data):
             added = now
         url = p.get("url")
         if not url or now - added >= THREE_DAYS_MS:
+            continue
+        if p.get("hero"):
+            # De-dupe: drop this story anywhere it already appears, then force it as the lead.
+            cols = data.setdefault("columns", {})
+            for k in ("left", "center", "right"):
+                cols[k] = [s for s in (cols.get(k) or []) if s.get("url") != url]
+            regrouped = []
+            for g in (data.get("groups") or []):
+                st = [s for s in (g.get("stories") or []) if s.get("url") != url]
+                if st:
+                    regrouped.append({**g, "stories": st})
+            data["groups"] = regrouped
+            data["hero"] = {"headline": p["headline"], "url": url,
+                            "sublinks": [dict(sl) for sl in (p.get("sublinks") or [])]}
+            data["heroSetDate"] = datetime.date.today().isoformat()  # lock it in for the day
             continue
         cols = data.setdefault("columns", {})
         seen = any(s.get("url") == url for k in ("left", "center", "right") for s in (cols.get(k) or []))
@@ -3567,11 +3710,13 @@ def build():
 
     per_section = {}
     sb_debug = "n/a"
+    gift_store = load_gift_links()       # remembered gift/unlock links, reused for walled leads
     for sec in SECTIONS:
         data = data_for(sec, sec in targets)
         data = apply_manual_picks(sec, data)
         data = apply_suppress(data)
-        data = replace_paywalled(data)   # swap hard-paywalled links for a free same-subject article
+        harvest_gift_links(data, gift_store)   # learn any gift links on this page before swapping
+        data = replace_paywalled(data, gift_store=gift_store)   # gift link, else free same-subject swap
         if sec == "life-culture":
             data = cap_fashion(data)     # at most one fashion item, never a fashion panel
         if sec == "sports":
@@ -3613,6 +3758,8 @@ def build():
         _write_section(sec, data)
         print("  wrote", sec)
         per_section[sec] = data
+
+    save_gift_links(gift_store)          # persist harvested gift links for future walled leads
 
     # ---- hero-image safeguard: recheck every hero now the run has cooled, repair any broken ----
     try:
