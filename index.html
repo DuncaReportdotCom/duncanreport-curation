@@ -615,6 +615,19 @@ return html + '</div>';
 // instant paint; this overwrites it and then refreshes every 60s while the tab is open.
 var ESPN_LEAGUE_PATHS = { NFL:"football/nfl", NCAAF:"football/college-football", NBA:"basketball/nba",
   MLB:"baseball/mlb", NHL:"hockey/nhl", MLS:"soccer/usa.1" };
+// Most leagues give a real kickoff time in shortDetail; soccer/MLS returns just "Scheduled".
+// When there's no usable time in the ESPN note, build one from the game's start timestamp
+// (in ET, to match the other leagues' "PM ET" style), adding the date if it isn't today.
+function whenNote(pre, t) {
+  if (pre && /\d/.test(pre) && !/^scheduled/i.test(pre.trim())) return pre;
+  if (!t) return pre || 'Scheduled';
+  var d = new Date(t), now = new Date();
+  var time = d.toLocaleTimeString('en-US', { timeZone:'America/New_York', hour:'numeric', minute:'2-digit' }) + ' ET';
+  function etDay(x){ return new Date(x.toLocaleString('en-US', { timeZone:'America/New_York' })).toDateString(); }
+  if (etDay(d) !== etDay(now))
+    return d.toLocaleDateString('en-US', { timeZone:'America/New_York', weekday:'short', month:'short', day:'numeric' }) + ' ' + time;
+  return time;
+}
 function fetchLiveScoreboard() {
   var now = Date.now(), DAY = 86400000;
   function etday(t){ return Math.floor((t - 4*3600000) / DAY); }  // approx US-eastern day
@@ -638,7 +651,7 @@ function fetchLiveScoreboard() {
               note: st.shortDetail || st.detail || "", _t: t };
             if (state === "in") { g.awayScore = away.score; g.homeScore = home.score; live.push(g); }
             else if (state === "post") { if (t && (now - t) < 3*DAY) { g.awayScore = away.score; g.homeScore = home.score; finals.push(g); } }
-            else { if (t && (t - now) >= 0 && (t - now) < 5*DAY) { g.awayScore = null; g.homeScore = null; upcoming.push(g); } }
+            else { if (t && (t - now) >= 0 && (t - now) < 5*DAY) { g.awayScore = null; g.homeScore = null; g.note = whenNote(g.note, t); upcoming.push(g); } }
           } catch(e) {}
         });
         if (finals.length) { var md = Math.max.apply(null, finals.map(function(g){ return etday(g._t); })); finals = finals.filter(function(g){ return etday(g._t) === md; }); }
