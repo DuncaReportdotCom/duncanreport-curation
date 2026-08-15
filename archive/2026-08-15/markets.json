@@ -1,22 +1,30 @@
 {
-  "lastUpdated": 1786717389355,
-  "heroSetDate": "2026-08-14",
+  "lastUpdated": 1786807848076,
+  "heroSetDate": "2026-08-15",
   "hero": {
-    "headline": "RETAIL SALES POST FIRST MONTHLY DECLINE IN NINE MONTHS, STOKING CONSUMER SPENDING WORRIES",
-    "url": "https://www.reuters.com/business/us-retail-sales-unexpectedly-fall-july-2026-08-14/",
-    "sublinks": [
-      {
-        "text": "Wall Street opens mixed, weighing weak data against Middle East tensions",
-        "url": "https://www.reuters.com/business/wall-st-futures-muted-higher-oil-prices-temper-risk-appetite-after-sp-record-2026-08-14/"
-      },
-      {
-        "text": "Stocks stay subdued as earnings season winds down",
-        "url": "https://finance.yahoo.com/markets/article/stocks-subdued-as-earnings-season-begins-to-wind-down-alphacheck-134418155.html"
-      }
-    ],
+    "headline": "TRUMP MOVES TO DECLARE STRAIT OF HORMUZ U.S. TERRITORY; IRAN CALLS IT 'DELUSIONS'",
+    "url": "https://seekingalpha.com/news/4633583-trump-declare-the-strait-hormuz-us-territor",
+    "sublinks": [],
     "img": true
   },
   "groups": [
+    {
+      "title": "AI BUSINESS BOOM: REVENUE SURGES, CAPEX QUESTIONED",
+      "stories": [
+        {
+          "headline": "Anthropic Revenue Reportedly Jumps To More Than $11.5 Billion In Second Quarter",
+          "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+          "timestamp": 1786779900000,
+          "postedAt": 1786807848076
+        },
+        {
+          "headline": "TSMC Cements Its Role As The Most Important Player In The AI Chip Ecosystem",
+          "url": "https://www.fool.com/investing/2026/08/15/not-nvidia-not-amd-this-chip-stock-will-be-the-big/",
+          "timestamp": 1786778580000,
+          "postedAt": 1786807848076
+        }
+      ]
+    },
     {
       "title": "AI BUILD-OUT SCRUTINY",
       "stories": [
@@ -115,40 +123,6 @@
       ]
     },
     {
-      "title": "BITCOIN PRICE OUTLOOK CLOUDS AS RALLY STALLS",
-      "stories": [
-        {
-          "headline": "SEC Poised To Unveil Major Crypto Plans As Clarity Act Stalls",
-          "url": "https://news.bgov.com/securities-law/sec-poised-to-unveil-major-crypto-plans-as-clarity-act-stalls",
-          "timestamp": 1786477295000,
-          "postedAt": 1786545032700
-        },
-        {
-          "headline": "Bitcoin Price Prediction: Where Do Analysts Say Bitcoin Bottoms?",
-          "url": "https://247wallst.com/investing/cryptocurrency/2026/08/10/bitcoin-price-prediction-where-do-analysts-say-bitcoin-bottoms/",
-          "timestamp": 1786385096000,
-          "postedAt": 1786545032700
-        }
-      ]
-    },
-    {
-      "title": "AI COMPUTE DEALS RESHAPE STOCK MOVES",
-      "stories": [
-        {
-          "headline": "Riot Platforms Stock Surges On $9.1 Billion Data Center Deal With Anthropic",
-          "url": "https://finance.yahoo.com/markets/article/riot-platforms-stock-surges-on-91-billion-data-center-deal-with-anthropic-132120194.html",
-          "timestamp": 1786456852000,
-          "postedAt": 1786458432359
-        },
-        {
-          "headline": "SpaceX Stock Drops After Three-Day Surge As AST Earnings Weigh",
-          "url": "https://www.investopedia.com/market-update-spacex-stock-surges-to-close-out-a-wild-week-of-trading-spcx-12036739",
-          "timestamp": 1786455540000,
-          "postedAt": 1786458432359
-        }
-      ]
-    },
-    {
       "title": "BIG TECH EARNINGS AFTERMATH",
       "stories": [
         {
@@ -162,35 +136,36 @@
           "url": "https://global.morningstar.com/en-nd/stocks/after-earnings-is-microsoft-stock-buy-sell-or-fairly-valued-6",
           "timestamp": 1786428792000,
           "postedAt": 1786717389355
-        },
-        {
-          "headline": "Google Stock Drops Amid DeepMind Leadership Shake-Up",
-          "url": "https://finance.yahoo.com/technology/article/google-stock-drops-amid-deepmind-leadership-shake-up-170219204.html",
-          "timestamp": 1785949339000,
-          "postedAt": 1786458432359
-        }
-      ]
-    },
-    {
-      "title": "WALL STREET'S RECORD RALLY MEETS A BEARISH WARNING",
-      "stories": [
-        {
-          "headline": "US Stock Market Hits Record Highs As AI Profits Pile Up And Oil Prices Ease",
-          "url": "https://www.theguardian.com/business/2026/aug/04/stock-market-records-ai-profits-oil-prices-ease",
-          "timestamp": 1785880980000,
-          "postedAt": 1786458432359
-        },
-        {
-          "headline": "Michael Burry Bets Against The Rally, Warns Of Possible 1987-Style Crash",
-          "url": "https://www.cnbc.com/2026/08/04/michael-burry-bets-against-rally-we-are-near-a-major-top.html",
-          "timestamp": 1785875983000,
-          "postedAt": 1786458432359
         }
       ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Israeli Strikes Kill 11 In South Lebanon, Health Ministry Says",
+        "url": "https://www.reuters.com/world/middle-east/israeli-strikes-kill-nine-south-lebanon-state-news-reports-2026-08-15/",
+        "timestamp": 1786779780000,
+        "postedAt": 1786807848076
+      },
+      {
+        "headline": "UK Prediction Market Exchange Pushes Into U.S. Sports Betting",
+        "url": "https://www.cnbc.com/2026/08/15/prediction-markets-and-sports-betting-how-this-uk-exchange-is-trying-to-do-both-in-the-us.html",
+        "timestamp": 1786778640000,
+        "postedAt": 1786807848076
+      },
+      {
+        "headline": "Goldman Names Top Stock Picks In Wake Of Second-Quarter Earnings",
+        "url": "https://www.cnbc.com/2026/08/15/goldman-says-these-stocks-are-top-ideas-in-wake-of-their-2q-earnings.html",
+        "timestamp": 1786775640000,
+        "postedAt": 1786807848076
+      },
+      {
+        "headline": "GDP Distorts The True Strength Of The U.S. Economy",
+        "url": "https://www.realclearmarkets.com/articles/2026/08/15/gdp_distorts_the_true_strength_of_the_us_economy_1199979.html",
+        "timestamp": 1786721280000,
+        "postedAt": 1786807848076
+      },
       {
         "headline": "This Isn't A Tech Cycle, It's 2008 With Silicon, Analysts Warn",
         "url": "https://www.zerohedge.com/ai/forget-cdos-meet-ccos-isnt-tech-cycle-its-2008-silicon",
@@ -221,64 +196,35 @@
         "url": "https://ca.finance.yahoo.com/quote/SPCX/",
         "timestamp": 1786554300000,
         "postedAt": 1786557395704
-      },
-      {
-        "headline": "Goldman Expands Active-ETF Push With $2.3 Billion Neos Deal",
-        "url": "https://www.reuters.com/business/goldman-sachs-buy-etf-provider-neos-23-billion-deal-2026-08-12/",
-        "timestamp": 1786541904000,
-        "postedAt": 1786545032700
-      },
-      {
-        "headline": "Saudi Red Sea Oil Exports Go Dark As Houthi Attack Threat Grows",
-        "url": "https://www.reuters.com/business/energy/saudi-red-sea-oil-exports-go-dark-houthi-attack-threat-grows-2026-08-12/",
-        "timestamp": 1786541744000,
-        "photo": true,
-        "postedAt": 1786545032700
-      },
-      {
-        "headline": "Money Won't Die Of Abundance, Contrary To Musk's Claim",
-        "url": "https://www.realclearmarkets.com/articles/2026/08/12/opposite_what_elon_musk_contends_money_wont_die_of_abundance_1199473.html",
-        "timestamp": 1786469160000,
-        "postedAt": 1786545032700
-      },
-      {
-        "headline": "These Are The States Where Car Insurance Costs Are Rising Fastest",
-        "url": "https://www.investopedia.com/the-states-where-car-insurance-is-becoming-the-most-expensive-12035287",
-        "timestamp": 1786456800000,
-        "postedAt": 1786458432359
-      },
-      {
-        "headline": "S&P 500, Nasdaq Open Higher As Investors Weigh Report Of Fresh U.S.-Iran Peace Deal",
-        "url": "https://www.reuters.com/business/wall-st-futures-muted-us-iran-impasse-lifts-oil-prices-2026-08-11/",
-        "timestamp": 1786455391000,
-        "postedAt": 1786458432359
-      },
-      {
-        "headline": "Hyperscaler CDS Volumes Explode To All-Time High On Credit, Circular Financing Fears",
-        "url": "https://www.zerohedge.com/markets/hyperscaler-cds-volumes-explode-all-time-high-credit-circular-financing-fears",
-        "timestamp": 1786454700000,
-        "postedAt": 1786458432359
-      },
-      {
-        "headline": "Santander Receives Federal Reserve Approval For Acquisition Of Webster Financial",
-        "url": "https://www.santander.com/en/press-room/press-releases/2026/08/santander-receives-federal-reserve-approval-for-the-acquisition-of-webster-financial-corporation",
-        "timestamp": 1785880740000,
-        "postedAt": 1786458432359
-      },
-      {
-        "headline": "Strategy Dumps More Bitcoin In $109 Million Sell-Off Amid Buying Hiatus",
-        "url": "https://fortune.com/2026/08/10/strategy-bitcoin-109-million-sell-off-seven-week-buying-hiatus/",
-        "timestamp": 1786377480000,
-        "postedAt": 1786458432359
-      },
-      {
-        "headline": "Super Micro Computer Stock Rallies As Profits, Outlook Top Estimates",
-        "url": "https://www.investopedia.com/market-update-super-micro-computer-stock-rallies-as-profits-outlook-top-estimates-smci-12057918",
-        "timestamp": 1786543341000,
-        "postedAt": 1786545032700
       }
     ],
     "center": [
+      {
+        "headline": "Hungary Sinks Barges In Danube River To Keep Nuclear Plant Operating",
+        "url": "https://www.reuters.com/video/watch/idRW569915082026RP1/",
+        "timestamp": 1786779480000,
+        "postedAt": 1786807848076
+      },
+      {
+        "headline": "Greg Abel Plows $4.2 Billion Into Warren Buffett's All-Time Favorite Stock",
+        "url": "https://www.fool.com/investing/2026/08/15/greg-abel-plowed-42-billion-warren-buffetts-stock/",
+        "timestamp": 1786778580000,
+        "photo": true,
+        "postedAt": 1786807848076,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "The Beatings Will Continue Until Consumer Sentiment Improves",
+        "url": "https://www.realclearmarkets.com/blog/2026/08/15/the_beatings_will_continue_until_consumer_sentiment_improves_1200577.html",
+        "timestamp": 1786778460000,
+        "postedAt": 1786807848076
+      },
+      {
+        "headline": "Families Grapple With Colleges Costing $100,000 A Year",
+        "url": "https://www.cnbc.com/2026/08/15/how-families-pay-for-college-as-tuition-costs-soar.html",
+        "timestamp": 1786775400000,
+        "postedAt": 1786807848076
+      },
       {
         "headline": "Airlines Get Grounded Jets Flying Again, But Engine Bills Linger",
         "url": "https://www.reuters.com/business/aerospace-defense/airlines-get-grounded-jets-flying-again-engine-bills-linger-2026-08-14/",
@@ -310,52 +256,15 @@
         "url": "https://www.zerohedge.com/markets/credit-markets-signal-rising-doubts-over-ai-buildout",
         "timestamp": 1786554000000,
         "postedAt": 1786557395704
-      },
-      {
-        "headline": "Home Depot CEO Takes Medical Leave As Stock Slides",
-        "url": "https://www.cnbc.com/2026/08/12/home-depot-ceo-ted-decker-medical-leave.html",
-        "timestamp": 1786544220000,
-        "postedAt": 1786545032700
-      },
-      {
-        "headline": "Global 2026 Oil Supply Shortfall To Deepen, IEA Warns",
-        "url": "https://www.reuters.com/business/energy/iea-slashes-2026-supply-forecast-hormuz-reopening-remains-elusive-2026-08-12/",
-        "timestamp": 1786542333000,
-        "postedAt": 1786545032700
-      },
-      {
-        "headline": "Meta, 29 States Head To Court In Biggest Youth Social Media Test Yet",
-        "url": "https://www.reuters.com/business/meta-29-states-head-court-biggest-test-yet-youth-social-media-litigation-2026-08-12/",
-        "timestamp": 1786541429000,
-        "postedAt": 1786545032700
-      },
-      {
-        "headline": "Economics 101 Explains Global Food Affordability Challenges",
-        "url": "https://www.realclearmarkets.com/articles/2026/08/12/economics_101_explains_global_food_affordability_challenges_1199479.html",
-        "timestamp": 1786469280000,
-        "postedAt": 1786545032700
-      },
-      {
-        "headline": "Target Stock Is Surging In 2026—Here's Why Wall Street Thinks The Comeback Is Just Getting Started",
-        "url": "https://www.investopedia.com/market-update-target-stock-surging-this-year-can-it-keep-rising-12056981",
-        "timestamp": 1786457673000,
-        "photo": true,
-        "postedAt": 1786458432359
-      },
-      {
-        "headline": "Polymarket Makes Moves To Get House In Order Before Expected Boom Times This Fall",
-        "url": "https://www.cnbc.com/2026/08/11/polymarket-revamps-marketing-expands-us-hiring-ahead-of-fall-events.html",
-        "timestamp": 1786456588000,
-        "postedAt": 1786458432359
-      },
-      {
-        "headline": "Norway Wealth Fund CEO Says Fund's Entire Value Could Be Lost In Future",
-        "url": "https://www.reuters.com/business/finance/norway-wealth-fund-ceo-says-funds-entire-value-could-be-lost-future-2026-08-11/",
-        "timestamp": 1786453544000,
-        "postedAt": 1786458432359
       }
     ],
     "right": [
+      {
+        "headline": "Claiming Social Security At This Age Maximizes Lifetime Benefits",
+        "url": "https://www.fool.com/retirement/2026/08/15/if-you-want-the-largest-lifetime-social-security/",
+        "timestamp": 1786780800000,
+        "postedAt": 1786807848076
+      },
       {
         "headline": "Flock Safety To Install Guardrails Amid Data-Abuse Concerns From Law Enforcement",
         "url": "https://fortune.com/2026/08/14/flock-safety-says-it-will-totally-be-better-about-not-giving-your-license-plate-to-law-enforcement/",
@@ -374,7 +283,7 @@
         "timestamp": 1786713420000,
         "photo": true,
         "postedAt": 1786717389355,
-        "image": "/img/markets-0.jpg"
+        "image": "/img/markets-1.jpg"
       },
       {
         "headline": "US Consumer Inflation Mild In July, Economy Still Not Out Of The Woods",
@@ -389,53 +298,10 @@
         "postedAt": 1786557395704
       },
       {
-        "headline": "Trump's 'No Tax On Social Security' Plan Could Hurt Retirees, Experts Say",
-        "url": "https://finance.yahoo.com/economy/policy/articles/no-tax-social-security-facts-134500415.html",
-        "timestamp": 1786542300000,
-        "postedAt": 1786545032700
-      },
-      {
-        "headline": "Google DeepMind's Chief AI Officer Once Detasseled Corn For $1 An Hour",
-        "url": "https://fortune.com/2026/08/12/she-detasseled-corn-for-1-an-hour-at-14-now-shes-google-deepminds-chief-ai-exec-and-says-being-an-immigrants-daughter-made-her-a-natural-first/",
-        "timestamp": 1786541700000,
-        "postedAt": 1786545032700
-      },
-      {
-        "headline": "Etna Ash Prompts Extended Closure Of Catania Airport",
-        "url": "https://www.reuters.com/business/environment/etna-ash-prompts-extended-closure-catania-airport-disrupting-peak-season-travel-2026-08-12/",
-        "timestamp": 1786540634000,
-        "photo": true,
-        "postedAt": 1786545032700
-      },
-      {
-        "headline": "Trump Media Reports $361 Million Crypto Loss",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/trump-media-reports-361-million-132400842.html",
-        "timestamp": 1786454640000,
-        "postedAt": 1786458432359
-      },
-      {
-        "headline": "Microsoft Stock Just Cleared A Big Hurdle But Still Trails The S&P 500",
-        "url": "https://finance.yahoo.com/markets/stocks/article/microsoft-stock-just-cleared-a-big-hurdle-but-still-trails-the-sp-500-130843662.html",
-        "timestamp": 1786453723000,
-        "postedAt": 1786458432359
-      },
-      {
-        "headline": "US Fuel Sales To Cuban Business Bring A Glimpse Of Capitalism To Havana",
-        "url": "https://www.reuters.com/business/energy/us-fuel-sales-cuban-business-bring-glimpse-capitalism-havana-2026-08-11/",
-        "timestamp": 1786453219000,
-        "postedAt": 1786458432359
-      },
-      {
-        "headline": "Duke Energy Announces Equity Units Offering",
-        "url": "https://news.duke-energy.com/releases/duke-energy-announces-equity-units-offering",
-        "timestamp": 1786360279000,
-        "postedAt": 1786458432359
-      },
-      {
-        "headline": "Interest Rates May Stay Higher For Longer, What That Means For Consumers",
-        "url": "https://www.cnbc.com/2026/08/10/fed-rate-hike-prospects-higher-interest-rates.html",
-        "timestamp": 1786365686000,
-        "postedAt": 1786545032700
+        "headline": "SpaceX Vs. Micron: Which High-Growth Titan Is The Better Buy?",
+        "url": "https://www.fool.com/investing/2026/08/15/spacex-vs-micron-which-high-growth-titan-is-the-be/",
+        "timestamp": 1786781700000,
+        "postedAt": 1786807848076
       }
     ]
   },
@@ -451,7 +317,7 @@
     {
       "name": "Dow",
       "value": "53,732.41",
-      "change": "-107.59",
+      "change": "-107.58",
       "changePct": "-0.20%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
@@ -490,10 +356,10 @@
     },
     {
       "name": "Bitcoin",
-      "value": "$62,917.25",
-      "change": "-60.36",
-      "changePct": "-0.10%",
-      "up": false,
+      "value": "$63,049.50",
+      "change": "+71.89",
+      "changePct": "+0.11%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     }
   ]

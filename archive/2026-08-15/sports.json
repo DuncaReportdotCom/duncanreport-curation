@@ -1,22 +1,81 @@
 {
-  "lastUpdated": 1786716931669,
-  "heroSetDate": "2026-08-14",
+  "lastUpdated": 1786805047131,
+  "heroSetDate": "2026-08-15",
   "hero": {
-    "headline": "SOCCER POWERS ACCUSE FIFA'S INFANTINO OF 'DECEPTION' OVER WORLD CUP PLANS",
-    "url": "https://www.nbcnews.com/sports/soccer/uefa-concacaf-afc-accuse-fifa-deception-infantino-world-cup-rcna591673",
-    "sublinks": [
-      {
-        "text": "US Soccer Joins UEFA, Concacaf And AFC In Call For 'Meaningful Change'",
-        "url": "https://sports.yahoo.com/soccer/breaking-news/article/us-soccer-joins-call-for-meaningful-change-after-uefa-concacaf-and-afc-release-joint-letter-condemning-gianni-infantino-125228762.html"
-      },
-      {
-        "text": "How Three Chaotic Weeks Pushed FIFA And Infantino To The Brink",
-        "url": "https://frontofficesports.com/the-3-weeks-that-brought-gianni-infantino-and-fifa-to-the-brink/"
-      }
-    ],
+    "headline": "CLARK, BUECKERS SOUND OFF AFTER EPIC WNBA SHOWDOWN BETWEEN NO. 1 PICKS",
+    "url": "https://bleacherreport.com/articles/25472501-everything-caitlin-clark-paige-bueckers-said-after-epic-battle-between-wnba-no-1-picks",
+    "sublinks": [],
     "img": true
   },
   "groups": [
+    {
+      "title": "COLLEGE FOOTBALL CAMP NOTES",
+      "stories": [
+        {
+          "headline": "Curt Cignetti Fires Back After Indiana Takes Heat For Canceling Notre Dame Series",
+          "url": "https://www.usatoday.com/story/sports/ncaaf/bigten/2026/08/15/what-curt-cignetti-said-about-indiana-notre-dame-series-canceled-football-schedule/91317626007/",
+          "timestamp": 1786778100000,
+          "postedAt": 1786805047131
+        },
+        {
+          "headline": "Tennessee Football Safety Edrees Farooq Suffers Season-Ending Injury",
+          "url": "https://www.si.com/college/tennessee/football/tennessee-football-safety-edrees-farooq-suffers-season-ending-injury-01m00gpntmea",
+          "timestamp": 1786777380000,
+          "postedAt": 1786805047131
+        }
+      ]
+    },
+    {
+      "title": "NFL PRESEASON CAMP WATCH",
+      "stories": [
+        {
+          "headline": "Tua Drops Honest Quote After Struggles In Falcons' Preseason Debut Amid Michael Penix Jr. QB1 Battle",
+          "url": "https://bleacherreport.com/articles/25472497-tua-drops-honest-quote-after-struggles-falcons-preseason-debut-amid-michael-penix-jr-qb1-battle",
+          "timestamp": 1786777800000,
+          "postedAt": 1786805047131
+        },
+        {
+          "headline": "Bears WR Luther Burden (Groin) Running On Field",
+          "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-08-15/bears-wr-luther-burden-groin-running-on-field",
+          "timestamp": 1786777800000,
+          "postedAt": 1786805047131
+        }
+      ]
+    },
+    {
+      "title": "SOCCER TRANSFER MARKET MOVES",
+      "stories": [
+        {
+          "headline": "Nestory Irankunda Leaves Watford For Sporting CP",
+          "url": "https://www.espn.com/soccer/story/_/id/49588373/nestory-irankunda-leaves-watford-portuguese-giants-sporting-cp",
+          "timestamp": 1786777620000,
+          "postedAt": 1786805047131
+        },
+        {
+          "headline": "Report: Barcelona's Condition To Move For Man City Heavyweight",
+          "url": "https://sports.yahoo.com/articles/report-condition-deco-laid-down-140000570.html",
+          "timestamp": 1786777140000,
+          "postedAt": 1786805047131
+        }
+      ]
+    },
+    {
+      "title": "EUROPEAN CLUBS' PRESEASON FRIENDLIES",
+      "stories": [
+        {
+          "headline": "Milan Vs. Man United: Friendly Live Score And Match Stats",
+          "url": "https://www.si.com/soccer/milan-vs-man-utd-friendly-live-score-match-stats",
+          "timestamp": 1786776300000,
+          "postedAt": 1786805047131
+        },
+        {
+          "headline": "Preseason: Newcastle Vs. Bayer Leverkusen Match Thread",
+          "url": "https://cominghomenewcastle.sbnation.com/newcastle-united-match-threads/24403/preseason-newcastle-vs-everton-match-thread",
+          "timestamp": 1786776300000,
+          "postedAt": 1786805047131
+        }
+      ]
+    },
     {
       "title": "2026 FANTASY FOOTBALL DRAFT PREP",
       "stories": [
@@ -50,67 +109,30 @@
           "postedAt": 1786716931669
         }
       ]
-    },
-    {
-      "title": "EUROPEAN TRANSFER WINDOW: LATEST MOVES",
-      "stories": [
-        {
-          "headline": "Newcastle Join Race For Bayer Leverkusen Defender",
-          "url": "https://cominghomenewcastle.sbnation.com/newcastle-united-transfer-news-rumors/23465/newcastle-join-race-for-bayer-leverkusen-defender-report",
-          "timestamp": 1786539600000,
-          "postedAt": 1786544407409
-        },
-        {
-          "headline": "Maresca Wants Man City To Sign Chelsea Duo, Report Says",
-          "url": "https://www.espn.com/soccer/story/_/id/49588359/transfer-rumors-news-maresca-wants-man-city-sign-chelsea-duo",
-          "timestamp": 1786538460000,
-          "postedAt": 1786544407409
-        },
-        {
-          "headline": "Mourinho Insisted On One Real Madrid Signing This Summer",
-          "url": "https://www.si.com/soccer/one-real-madrid-signing-jose-mourinho-insisted-this-summer",
-          "timestamp": 1786537200000,
-          "postedAt": 1786544407409
-        }
-      ]
-    },
-    {
-      "title": "FIFA WORLD CUP GOVERNANCE FIGHT",
-      "stories": [
-        {
-          "headline": "Infantino Reportedly Pushing 64-Team World Cup Expansion",
-          "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/08/11/fifas-infantino-may-back-massive-world-cup-expansion-in-fight-to-keep-job/",
-          "timestamp": 1786483818000,
-          "postedAt": 1786544407409
-        },
-        {
-          "headline": "AFC, Concacaf And UEFA Send Joint Open Letter To FIFA",
-          "url": "https://www.concacaf.com/competitions/concacaf/news/afc-concacaf-and-uefa-an-open-letter-to-the-football-family",
-          "timestamp": 1786351766000,
-          "postedAt": 1786544407409
-        }
-      ]
-    },
-    {
-      "title": "PREMIER LEAGUE TRANSFER WINDOW HEATS UP",
-      "stories": [
-        {
-          "headline": "Manchester United Eye Leipzig Left Back David Raum",
-          "url": "https://www.espn.com/soccer/story/_/id/49580333/transfer-rumors-news-manchester-united-rb-leipzig-left-back-david-raum",
-          "timestamp": 1786453200000,
-          "postedAt": 1786458006394
-        },
-        {
-          "headline": "Newcastle Circling USMNT Star After Man United Pass",
-          "url": "https://cominghomenewcastle.sbnation.com/newcastle-united-transfer-news-rumors/23462/newcastle-eye-usmnt-star-after-manchester-uniteds-decision-report",
-          "timestamp": 1786453200000,
-          "postedAt": 1786458006394
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Red Sox Try To Right The Ship After Recent Skid Vs. Pirates",
+        "url": "https://www.cbssports.com/mlb/news/red-sox-fall-on-hard-times-after-surge-try-to-right-ship-vs-pirates/",
+        "timestamp": 1786777260000,
+        "postedAt": 1786805047131
+      },
+      {
+        "headline": "How The Tigers Went From 22-38 To MLB's Best Run Differential Since June",
+        "url": "https://www.si.com/mlb/tigers/onsi/how-detroit-tigers-went-from-22-38-mlb-best-run-differential-since-june",
+        "timestamp": 1786777140000,
+        "photo": true,
+        "postedAt": 1786805047131,
+        "image": "/img/sports-0.jpg"
+      },
+      {
+        "headline": "Paige Cuts Promo On Nikki Bella's Heel Turn After WWE SmackDown",
+        "url": "https://bleacherreport.com/articles/25472495-watch-paiges-cut-promo-nikki-bellas-heel-turn-new-video-after-wwe-smackdown",
+        "timestamp": 1786777140000,
+        "postedAt": 1786805047131
+      },
       {
         "headline": "NFL Depth Charts: Browns Show Rookies Love, Deebo Starts Over",
         "url": "https://www.cbssports.com/nfl/news/one-takeaway-from-each-nfl-teams-first-depth-chart/",
@@ -123,7 +145,7 @@
         "timestamp": 1786711320000,
         "photo": true,
         "postedAt": 1786716931669,
-        "image": "/img/sports-2.jpg"
+        "image": "/img/sports-4.jpg"
       },
       {
         "headline": "Ranking NFL Quarterbacks By Best Arm, Accuracy And More",
@@ -142,61 +164,37 @@
         "url": "https://www.mlb.com/news/mlb-playoff-picture-on-aug-7-2026",
         "timestamp": 1786078134000,
         "postedAt": 1786716931669
-      },
-      {
-        "headline": "Russell Wilson Says Caleb Williams Reminds Him Of Younger Self",
-        "url": "https://www.cbssports.com/nfl/news/russell-wilson-caleb-williams-trevor-lawrence-nfl-quarterback/",
-        "timestamp": 1786541681000,
-        "postedAt": 1786544407409
-      },
-      {
-        "headline": "Padres, On Postseason Quest, Battle MLB-Best Brewers",
-        "url": "https://deadspin.com/padres-on-a-postseason-quest-battle-mlb-best-brewers/",
-        "timestamp": 1786539120000,
-        "postedAt": 1786544407409
-      },
-      {
-        "headline": "Kobe Bryant's $410 Nike Basketball Shoe Is Worth The Hype",
-        "url": "https://www.si.com/fannation/sneakers/news/kobe-bryant-410-nike-basketball-shoe-is-worth-the-hype",
-        "timestamp": 1786537830000,
-        "photo": true,
-        "postedAt": 1786544407409,
-        "image": "/img/sports-4.jpg"
-      },
-      {
-        "headline": "Is An Average NFL Quarterback Worth $50 Million A Year?",
-        "url": "https://www.espn.com/nfl/story/_/id/49576234/bo-nix-denver-broncos-2026-season-super-bowl-expectations-long-term-contract-extension",
-        "timestamp": 1786359600000,
-        "postedAt": 1786544407409
-      },
-      {
-        "headline": "Dodgers' Blake Snell Set To Return Vs. Royals As Playoff Push Begins",
-        "url": "https://deadspin.com/dodgers-blake-snell-set-to-return-vs-royals-as-mission--begins/",
-        "timestamp": 1786454520000,
-        "photo": true,
-        "postedAt": 1786458006394
-      },
-      {
-        "headline": "Picking The Best College Football Team In Every State Ahead Of 2026",
-        "url": "https://www.cbssports.com/college-football/news/best-college-football-team-each-state-2026/",
-        "timestamp": 1786453380000,
-        "postedAt": 1786458006394
-      },
-      {
-        "headline": "Jackson Merrill, Padres Strive To Keep Surging In Clash Vs. Brewers",
-        "url": "https://deadspin.com/jackson-merrill-padres-strive-to-keep-surging-in-clash-vs-brewers/",
-        "timestamp": 1786453320000,
-        "postedAt": 1786458006394
       }
     ],
     "center": [
+      {
+        "headline": "Women's Race Walk World Records Set At European Championships",
+        "url": "https://www.foxsports.com/articles/soccer/womens-race-walk-world-records-set-at-european-championships",
+        "timestamp": 1786777560000,
+        "photo": true,
+        "postedAt": 1786805047131
+      },
+      {
+        "headline": "UFC 330: Fight Card And Start Time For Makhachev Vs. Machado Garry",
+        "url": "https://sports.yahoo.com/articles/ufc-330-start-time-fight-140000136.html",
+        "timestamp": 1786777140000,
+        "photo": true,
+        "postedAt": 1786805047131,
+        "image": "/img/sports-1.jpg"
+      },
+      {
+        "headline": "Padikkal's Century Powers India On Day 1 Vs. Sri Lanka",
+        "url": "https://apnews.com/article/sri-lanka-india-first-test-d0cc44a8f6275c6b2af57c7ed554bae4",
+        "timestamp": 1786775820000,
+        "postedAt": 1786805047131
+      },
       {
         "headline": "Should The Phillie Phanatic Have To Wear Pants?",
         "url": "https://www.barstoolsports.com/blog/3575352/should-the-phillie-phanatic-have-to-wear-pants-whats-the-phanatics-situation",
         "timestamp": 1786715242000,
         "photo": true,
         "postedAt": 1786716931669,
-        "image": "/img/sports-1.jpg"
+        "image": "/img/sports-3.jpg"
       },
       {
         "headline": "Bears Call Indiana Stadium Plans Their 'Sole Focus'",
@@ -209,8 +207,7 @@
         "url": "https://www.theringer.com/podcasts/the-mismatch/2026/08/14/the-nba-schedule-has-arrived-and-russell-westbrook-calls-it-a-career",
         "timestamp": 1786709571000,
         "photo": true,
-        "postedAt": 1786716931669,
-        "image": "/img/sports-3.jpg"
+        "postedAt": 1786716931669
       },
       {
         "headline": "Barcelona Renews Pursuit Of Rodri, Source Says",
@@ -223,59 +220,41 @@
         "url": "https://www.espn.com/soccer/story/_/id/48990955/summer-transfer-window-grading-big-signings-mens-soccer",
         "timestamp": 1786523700000,
         "postedAt": 1786716931669
-      },
-      {
-        "headline": "NFL Preseason Storylines That Could Shape The 2026 Season",
-        "url": "https://www.cbssports.com/nfl/news/nfl-preseason-storylines-2026-qb-injuries-aaron-donald/",
-        "timestamp": 1786539211000,
-        "postedAt": 1786544407409
-      },
-      {
-        "headline": "Five Packers Whose Stock Soared At Training Camp",
-        "url": "https://www.si.com/nfl/packers/onsi/five-packers-with-soaring-stock-who-flipped-depth-charts-at-training-camp",
-        "timestamp": 1786538983000,
-        "postedAt": 1786544407409
-      },
-      {
-        "headline": "Rays Aim To Complete Perfect Road Trip Against A's",
-        "url": "https://deadspin.com/high-octane-rays-strive-to-complete-perfect-road-trip-in-rematch-vs-as/",
-        "timestamp": 1786537620000,
-        "postedAt": 1786544407409
-      },
-      {
-        "headline": "Ex-NBA Star Royce White Declares For WNBA Draft In Bold Live TV Statement",
-        "url": "https://sports.yahoo.com/articles/only-fair-ex-nba-star-172435048.html",
-        "timestamp": 1786296275000,
-        "photo": true,
-        "postedAt": 1786544407409
-      },
-      {
-        "headline": "Behind Mitch Bratt, D-backs Chase Series Win Vs. Rockies",
-        "url": "https://deadspin.com/behind-mitch-bratt-d-backs-chase-series-win-vs-rockies/",
-        "timestamp": 1786450920000,
-        "postedAt": 1786458006394
-      },
-      {
-        "headline": "Ben Simmons Doesn't Deserve One More Chance In The NBA",
-        "url": "https://deadspin.com/ben-simmons-doesnt-deserve-one-more-chance-in-the-nba/",
-        "timestamp": 1786450380000,
-        "postedAt": 1786458006394
-      },
-      {
-        "headline": "Model That's Nailed 17 Majors Makes Surprising FedEx St. Jude Picks",
-        "url": "https://www.cbssports.com/betting/news/2026-fedex-st-jude-championship-odds-picks-predictions-field-best-bets/",
-        "timestamp": 1786450326000,
-        "postedAt": 1786458006394
       }
     ],
     "right": [
+      {
+        "headline": "Hamer's Return Headlines Coventry's Confident Preseason Evening",
+        "url": "https://sports.yahoo.com/articles/hamers-return-headline-coventrys-confident-134818141.html",
+        "timestamp": 1786776480000,
+        "postedAt": 1786805047131
+      },
+      {
+        "headline": "Celtics Get Short End Of Stick In 2026-27 NBA Schedule",
+        "url": "https://sports.yahoo.com/articles/celtics-short-end-stick-2026-134346227.html",
+        "timestamp": 1786776240000,
+        "postedAt": 1786805047131
+      },
+      {
+        "headline": "India Beats Wales 3-1 In Field Hockey World Cup Opener",
+        "url": "https://www.espn.com/field-hockey/story/_/id/49613710/india-vs-wales-live-fih-mens-hockey-world-cup-august-15-2026-scores-updates-commentary-news",
+        "timestamp": 1786776120000,
+        "photo": true,
+        "postedAt": 1786805047131
+      },
+      {
+        "headline": "College Football's Most Homegrown Teams For 2026",
+        "url": "https://www.cbssports.com/college-football/news/college-football-most-homegrown-teams-2026/",
+        "timestamp": 1786775700000,
+        "postedAt": 1786805047131
+      },
       {
         "headline": "Anthony Edwards Debuts New Adidas Shoe In Philippines",
         "url": "https://bleacherreport.com/articles/25471045-anthony-edwards-unveils-1st-look-adidas-ae-3-shoe-new-photos-philippines-workout",
         "timestamp": 1786716101000,
         "photo": true,
         "postedAt": 1786716931669,
-        "image": "/img/sports-0.jpg"
+        "image": "/img/sports-2.jpg"
       },
       {
         "headline": "Lions At Bengals: How To Watch Preseason Clash",
@@ -295,43 +274,6 @@
         "timestamp": 1785826800000,
         "photo": true,
         "postedAt": 1786716931669
-      },
-      {
-        "headline": "Rashee Rice Calls Jail Time A 'Reality Check'",
-        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rashee-rice-jail-time-was-learning-experience-and-reality-check",
-        "timestamp": 1786542911000,
-        "postedAt": 1786544407409
-      },
-      {
-        "headline": "Report: Ravens' Nate Wiggins Avoided Structural Damage In Camp Injury",
-        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-nate-wiggins-avoided-structural-damage-in-tuesdays-injury",
-        "timestamp": 1786538370000,
-        "postedAt": 1786544407409
-      },
-      {
-        "headline": "Nebraska LB Vincent Shavers Jr. Wants To 'Play Violent'",
-        "url": "https://www.si.com/college/nebraska/football/nebraska-linebacker-vincent-shavers-jr-we-want-to-blitz-force-fumbles-and-play-violent",
-        "timestamp": 1786538089000,
-        "postedAt": 1786544407409
-      },
-      {
-        "headline": "Trump To Attend Final Day Of Patriot Games, Airing On ESPN+",
-        "url": "https://frontofficesports.com/trump-patriot-games-freedom-250-youth-sports/",
-        "timestamp": 1786457644000,
-        "photo": true,
-        "postedAt": 1786458006394
-      },
-      {
-        "headline": "Tottenham Unveil 'Spurple' Third Kits For 2026-27",
-        "url": "https://cartilagefreecaptain.sbnation.com/tottenham-hotspur-news/72757/tottenham-hotspur-news-2026-27-spurple-third-kits-released",
-        "timestamp": 1786451565000,
-        "postedAt": 1786458006394
-      },
-      {
-        "headline": "The 10 Players Facing The Most Pressure Next Season",
-        "url": "https://www.theringer.com/podcasts/the-zach-lowe-show/2026/08/11/part-two-the-10-players-facing-the-most-pressure-next-season",
-        "timestamp": 1786450825000,
-        "postedAt": 1786458006394
       }
     ]
   },

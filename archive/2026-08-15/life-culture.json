@@ -1,13 +1,30 @@
 {
-  "lastUpdated": 1786718188405,
-  "heroSetDate": "2026-08-14",
+  "lastUpdated": 1786812113522,
+  "heroSetDate": "2026-08-15",
   "hero": {
-    "headline": "SCIENTISTS MELTED A DIAMOND — AND IT DIDN'T GO THE WAY THEY EXPECTED",
-    "url": "https://www.sciencealert.com/scientists-melted-a-diamond-and-it-really-didnt-go-the-way-they-expected",
+    "headline": "THERE WAS NEVER A 'FIRST HUMAN,' SCIENTISTS SAY",
+    "url": "https://www.realclearscience.com/video/2026/08/15/there_was_never_a_first_human_1200508.html",
     "sublinks": [],
-    "img": true
+    "img": false
   },
   "groups": [
+    {
+      "title": "MCCONAUGHEY'S NEW CHAPTER: POLITICS AND MUSIC",
+      "stories": [
+        {
+          "headline": "Matthew McConaughey Teases Political Ambitions After Meeting the Pope",
+          "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/08/15/matthew-mcconaughey-pope-leo-ai-politics/91304463007/",
+          "timestamp": 1786780800000,
+          "postedAt": 1786812113522
+        },
+        {
+          "headline": "Matthew McConaughey's Life in Songs Has Taken Him Everywhere",
+          "url": "https://www.rollingstone.com/music/music-news/matthew-mcconaughey-life-in-songs-1235609364/",
+          "timestamp": 1786778040000,
+          "postedAt": 1786812113522
+        }
+      ]
+    },
     {
       "title": "SPIDER-MAN: BRAND NEW DAY SETS BOX OFFICE RECORDS",
       "stories": [
@@ -29,12 +46,37 @@
   "columns": {
     "left": [
       {
+        "headline": "Exhaust Shape Matters, and This Dyno Test Shows Why with Visual Proof",
+        "url": "https://www.thedrive.com/news/exhaust-shape-matters-and-this-dyno-test-shows-why-with-visual-proof",
+        "timestamp": 1786780800000,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "She Went Viral as 'Peter Pan Girl.' Now She Responds to the Memes",
+        "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/08/15/peter-pan-girl-tiktok-memes-viral-interview/91269634007/",
+        "timestamp": 1786779960000,
+        "photo": true,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "11 New Knives You Might've Missed From Benchmade, Spyderco and More",
+        "url": "https://www.gearpatrol.com/outdoors/new-edc-pocket-knife-releases-august-1-2026-2/",
+        "timestamp": 1786777140000,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "The Death of Dark Energy Is a False Alarm",
+        "url": "https://www.realclearscience.com/articles/2026/08/15/the_death_of_dark_energy_is_a_false_alarm_1200530.html",
+        "timestamp": 1786733280000,
+        "postedAt": 1786812113522
+      },
+      {
         "headline": "Inside Pickering Museum Village, A Slice Of Small-Town Ontario History",
         "url": "https://www.atlasobscura.com/places/pickering-museum-village",
         "timestamp": 1786716035000,
         "photo": true,
         "postedAt": 1786718188405,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-1.jpg"
       },
       {
         "headline": "I Went No Contact With My Parents — Now I Regret It",
@@ -48,52 +90,43 @@
         "timestamp": 1786539600000,
         "photo": true,
         "postedAt": 1786718188405,
-        "image": "/img/life-culture-4.jpg"
+        "image": "/img/life-culture-3.jpg"
       },
       {
         "headline": "Emory Researchers Build A More Accurate Way To Track What You Eat",
         "url": "https://news.emory.edu/stories/2026/08/emory-researchers-build-more-accurate-way-track-what-you-eat",
         "timestamp": 1786473622000,
         "postedAt": 1786718188405
+      }
+    ],
+    "center": [
+      {
+        "headline": "Why Is Everyone So Mad About Benny Blanco's Latin Album?",
+        "url": "https://www.rollingstone.com/music/music-features/benny-blanco-latin-album-controversy-explained-1235608217/",
+        "timestamp": 1786780800000,
+        "postedAt": 1786812113522
       },
       {
-        "headline": "Pitbull Announces 14th Studio Album 'Pitcoin'",
-        "url": "https://www.billboard.com/music/latin/pitbull-album-pitcoin-announced-1236314549/",
-        "timestamp": 1786543261000,
-        "postedAt": 1786545626267
+        "headline": "See 'Tony,' Then Eat Like Anthony Bourdain at His Favorite Food Spots",
+        "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/08/15/anthony-bourdain-favorite-food-spots-new-jersey-new-york/91282093007/",
+        "timestamp": 1786777140000,
+        "photo": true,
+        "postedAt": 1786812113522
       },
       {
-        "headline": "Jaguar Gives Us a Glimpse of Type 01 EV's Dashboard",
-        "url": "https://www.thedrive.com/news/jaguar-gives-us-a-glimpse-of-type-01-evs-dashboard-tds",
-        "timestamp": 1786542997000,
-        "postedAt": 1786545626267
-      },
-      {
-        "headline": "A 10-Second Treatment Can Stop Tooth Decay in Kids Without Drilling",
-        "url": "https://www.sciencealert.com/a-10-second-treatment-can-stop-tooth-decay-in-kids-without-drilling",
-        "timestamp": 1786539844000,
-        "postedAt": 1786545626267
+        "headline": "5 Things Every 1920s Vanity Table Contained",
+        "url": "https://www.mentalfloss.com/history/things-every-1920s-vanity-table-contained",
+        "timestamp": 1786777140000,
+        "photo": true,
+        "postedAt": 1786812113522,
+        "image": "/img/life-culture-0.jpg"
       },
       {
         "headline": "How Do High-Speed Trains Work?",
         "url": "https://www.realclearscience.com/video/2026/08/12/how_do_high-speed_trains_work_1199810.html",
         "timestamp": 1786461660000,
-        "postedAt": 1786545626267
+        "postedAt": 1786812113522
       },
-      {
-        "headline": "The European Free Speech Crisis",
-        "url": "https://www.realclearbooks.com/articles/2026/08/11/the_european_free_speech_crisis_1199481.html",
-        "timestamp": 1786448780000,
-        "postedAt": 1786545626267
-      },
-      {
-        "headline": "Researchers Discover Cleaner Route to Purifying Rare Earth Elements",
-        "url": "https://news.uchicago.edu/story/researchers-discover-cleaner-route-purifying-rare-earth-elements",
-        "timestamp": 1786363200000,
-        "postedAt": 1786545626267
-      }
-    ],
-    "center": [
       {
         "headline": "A Brief History Of Embroidery — And How To Get Started",
         "url": "https://theconversation.com/a-brief-history-of-embroidery-and-how-to-get-started-yourself-288312",
@@ -111,36 +144,35 @@
         "url": "https://nautil.us/extreme-space-weather-could-delay-your-next-flight-1283780/",
         "timestamp": 1786716000000,
         "postedAt": 1786718188405
-      },
-      {
-        "headline": "Anthony Bourdain Biopic 'Tony' Cooks Up An Early Oscar Contender",
-        "url": "https://www.mercurynews.com/2026/08/11/review-anthony-bourdain-biopic-tony-cooks-up-an-early-oscar-contender/",
-        "timestamp": 1786469681000,
-        "photo": true,
-        "postedAt": 1786718188405
-      },
-      {
-        "headline": "Beer Spa Bernard in Prague",
-        "url": "https://www.atlasobscura.com/places/beer-spa-bernard",
-        "timestamp": 1786543235000,
-        "photo": true,
-        "postedAt": 1786545626267,
-        "image": "/img/life-culture-2.jpg"
-      },
-      {
-        "headline": "A Maine Town, Once Dependent on a Paper Mill, Tries to Move On",
-        "url": "https://streamlinefeed.co.ke/news/green-manufacturing-dream-collapses-as-maine-insulation-mill-files-for-bankruptcy",
-        "timestamp": 1786542133000,
-        "postedAt": 1786545626267
-      },
-      {
-        "headline": "Why Self-Directed Mastery Beats the Trillion-Dollar Credential",
-        "url": "https://www.realclearscience.com/articles/2026/08/12/why_self-directed_mastery_beats_the_trillion-dollar_credential_1199504.html",
-        "timestamp": 1786473660000,
-        "postedAt": 1786545626267
       }
     ],
     "right": [
+      {
+        "headline": "The 10 Best Cars at This Year's Quail, a Motorsports Gathering",
+        "url": "https://robbreport.com/motors/cars/lists/10-best-cars-quail-a-motorsports-gathering-1238557138/",
+        "timestamp": 1786784400000,
+        "photo": true,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "Neptune's Tiny Moons Tell the Story of Triton's Destructive Capture",
+        "url": "https://phys.org/news/2026-07-neptune-tiny-moons-story-triton.html",
+        "timestamp": 1786782000000,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "I Had My Blood 'Washed' at Germany's Top Med-Spa—Here's How It Made Me Feel",
+        "url": "https://robbreport.com/lifestyle/health-wellness/lanserhof-tegernsees-wellness-retreat-review-1238531932/",
+        "timestamp": 1786780800000,
+        "photo": true,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "Switched on Pop's Nate Sloan and Charlie Harding Love Fresh Vegetables and Guitar Pedals",
+        "url": "https://www.theverge.com/report/980288/switched-on-pop-nate-sloan-charlie-harding-podcast-netflix-interview",
+        "timestamp": 1786780800000,
+        "postedAt": 1786812113522
+      },
       {
         "headline": "This 'Fly-Over' Province Might Be Canada's Best-Kept Fall Secret",
         "url": "https://www.afar.com/magazine/things-to-do-in-new-brunswick-canadas-underrated-province",
@@ -153,7 +185,7 @@
         "timestamp": 1786715623000,
         "photo": true,
         "postedAt": 1786718188405,
-        "image": "/img/life-culture-1.jpg"
+        "image": "/img/life-culture-2.jpg"
       },
       {
         "headline": "Ferrari's One-Off CZ26 Stirs New Life Into The SF90 Stradale",
@@ -167,26 +199,6 @@
         "url": "https://defector.com/humanists-have-done-nothing-wrong",
         "timestamp": 1786629060000,
         "postedAt": 1786718188405
-      },
-      {
-        "headline": "What Do Young People Really Want? The Suburbs.",
-        "url": "https://www.c40.org/news/young-people-are-reimagining-climate-resilient-cities/",
-        "timestamp": 1786543851000,
-        "postedAt": 1786545626267
-      },
-      {
-        "headline": "Louis Vuitton's Newest Timepiece Comes With an Insane, Custom Porsche 911",
-        "url": "https://www.gq.com/story/louis-vuitton-singer-porsche-collab",
-        "timestamp": 1786543200000,
-        "photo": true,
-        "postedAt": 1786545626267,
-        "image": "/img/life-culture-3.jpg"
-      },
-      {
-        "headline": "Google's Pixel Watch 5 Can Now Detect Breathing Emergencies",
-        "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-breathing-emergency-detection/",
-        "timestamp": 1786543620000,
-        "postedAt": 1786545626267
       }
     ]
   }
