@@ -1241,10 +1241,16 @@ def _loads(s):
     try:
         return json.loads(s)
     except Exception:
-        try:
-            return json.loads(re.sub(r'\\([^"\\/bfnrtu])', r'\1', s))
-        except Exception:
-            return None
+        pass
+    # Tolerant recovery for the common ways an LLM's large JSON answer trips strict parsing.
+    # A trailing comma in a big nested structure is the usual culprit (and used to fail the
+    # whole main-page curation), so strip those; also drop invalid backslash escapes.
+    try:
+        t = re.sub(r'\\([^"\\/bfnrtu])', r'\1', s)     # remove invalid escape sequences
+        t = re.sub(r',(\s*[}\]])', r'\1', t)           # remove trailing commas before } or ]
+        return json.loads(t)
+    except Exception:
+        return None
 
 def extract_json(text):
     if not text:
@@ -2130,24 +2136,48 @@ def curate_live(section):
     model = working_model(client)
     msgs = [{"role": "user",
              "content": "Curate the current %s cycle from the candidates and return the stories.json." % section}]
+    # Stream so the full JSON answer isn't capped by the non-streaming size limit (the main
+    # page's answer is large). msg holds the final message for diagnostics; it stays None on a
+    # clean stream, so every downstream reference must guard for that (an earlier bug crashed
+    # here with UnboundLocalError when a streamed answer failed to parse).
+    msg, text = None, ""
     try:
-        # Stream so the model's reasoning plus the full JSON answer are not capped by the
-        # non-streaming size limit. The main page's answer is large enough to overrun a
-        # 16k non-streaming call, which was leaving that page blank.
         parts = []
         with client.messages.stream(model=model, max_tokens=30000, system=system, messages=msgs) as st:
             for chunk in st.text_stream:
                 parts.append(chunk)
+            try:
+                msg = st.get_final_message()      # for stop_reason if the JSON won't parse
+            except Exception:
+                msg = None
         text = "".join(parts)
     except Exception as e:
         print("    stream failed (%s); non-streaming fallback" % e)
-        msg = client.messages.create(model=model, max_tokens=16000, system=system, messages=msgs)
-        text = "".join((getattr(b, "text", "") or "") for b in msg.content)
+        try:
+            msg = client.messages.create(model=model, max_tokens=30000, system=system, messages=msgs)
+            text = "".join((getattr(b, "text", "") or "") for b in msg.content)
+        except Exception as e2:
+            print("    non-streaming call also failed (%s)" % e2)
     data = extract_json(text)
     if not data:
-        info = "stop=%s blocks=%s" % (getattr(msg, "stop_reason", "?"),
-                                      [getattr(bl, "type", "?") for bl in msg.content])
-        raise ValueError("no JSON parsed (len=%d, %s): %s" % (len(text), info, text[:1200].replace(chr(10), " ")))
+        # A streamed answer that won't parse (truncated/garbled/empty) gets one clean
+        # non-streaming retry at full size before we give up - this is what recovers the
+        # main page instead of leaving it stale.
+        print("    no JSON from first attempt (len=%d); non-streaming retry" % len(text or ""))
+        try:
+            msg2 = client.messages.create(model=model, max_tokens=30000, system=system, messages=msgs)
+            text2 = "".join((getattr(b, "text", "") or "") for b in msg2.content)
+            d2 = extract_json(text2)
+            if d2:
+                data, text, msg = d2, text2, msg2
+            elif msg is None:
+                msg, text = msg2, (text or text2)
+        except Exception as e:
+            print("    non-streaming retry failed (%s)" % e)
+    if not data:
+        stop = getattr(msg, "stop_reason", "?") if msg is not None else "?"
+        raise ValueError("no JSON parsed (len=%d, stop=%s): %s"
+                         % (len(text or ""), stop, (text or "")[:800].replace(chr(10), " ")))
     if not valid(data):
         raise ValueError("JSON wrong shape, keys=%s" % list(data.keys()))
     def fix_story(s):
