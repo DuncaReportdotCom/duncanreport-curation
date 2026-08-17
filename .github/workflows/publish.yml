@@ -49,24 +49,17 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install OCR engine (Tesseract - scans hero images for burned-in text)
+      - name: Install OCR engine (Tesseract - scans hero/column images for burned-in outlet text)
         run: sudo apt-get update && sudo apt-get install -y tesseract-ocr
 
       - name: Install Python packages
-        run: pip install anthropic requests tweepy pillow pytesseract
+        run: pip install anthropic requests pillow pytesseract
 
       - name: Build the site
         env:
           SECTION: ${{ github.event.inputs.section || (github.event.schedule == '0 12 1,15 * *' && 'narrative-review' || 'all') }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLOUDFLARE_ANALYTICS_TOKEN: ${{ secrets.CLOUDFLARE_ANALYTICS_TOKEN }}
-          # Social auto-post to X. Leave these secrets unset to keep posting OFF.
-          # Set repo variable SOCIAL_DRY_RUN=1 to preview drafts without posting.
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
-          SOCIAL_DRY_RUN: ${{ vars.SOCIAL_DRY_RUN }}
         run: python curate.py
 
       # Do NOT deploy a broken build: if any page came out empty/broken, abort here so
@@ -75,15 +68,14 @@ jobs:
         run: |
           python -c "import json,sys; d=json.load(open('site/status.json')); c=d.get('critical') or []; [print('::error::broken page, NOT deploying: '+str(x)) for x in c]; print('OK to deploy.' if d.get('deployable',True) else 'DEPLOY BLOCKED - keeping the last good site live'); sys.exit(0 if d.get('deployable',True) else 1)"
 
-      # Persist the daily archive, the narrative-detector state, and the social post
-      # log back to the repo so all three survive the next build.
+      # Persist the daily archive AND the narrative-detector state back to the repo
+      # so both survive the next build (the state file drives rise/fall trend).
       - name: Commit archive snapshots
         run: |
           git config user.name "duncanreport-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add archive
           git add narrative_state.json 2>/dev/null || true
-          git add social_state.json 2>/dev/null || true
           git add gift_links.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Archive snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
