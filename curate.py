@@ -925,8 +925,8 @@ NARRATIVES = json.loads(r"""{
    "q": "NHL (game OR trade OR playoff OR \"Stanley Cup\")"
   },
   {
-   "arc": "Soccer (global)",
-   "q": "soccer (\"World Cup\" OR \"Premier League\" OR \"Champions League\" OR CONCACAF OR MLS OR transfer)"
+   "arc": "Soccer (US-relevant)",
+   "q": "soccer (\"World Cup\" OR USMNT OR USWNT OR \"US national team\" OR MLS OR Pulisic OR \"Champions League final\")"
   },
   {
    "arc": "Tennis",
@@ -1220,7 +1220,7 @@ NARRATIVES = json.loads(r"""{
 }""")
 
 EMPHASIS = {
-    'main': "\n\n===== MAIN PAGE EMPHASIS =====\nThe main page is the ONE page that gives a reader the top stories across EVERY topic - politics, world, business, sports, science, and culture - it is NOT a politics page, and politics must not crowd everything else out. Beyond the hard news, it MUST carry a strong, steady thread of HUMAN-INTEREST and NEWS-OF-THE-WEIRD stories - the broadly fascinating items people actually talk about. Concretely, that includes: a notable person's health or personal news (a former president's illness, a lawmaker sharing a personal journey), shocking or bizarre crime and viral incidents (a cartel killing influencers on camera, something caught on camera), notable accidents and rescues (a deadly boat capsize near a landmark), celebrity and public-figure follow-ups, and offbeat oddities (the delightful 'wait, what?' story). Reserve at least 4-5 slots per cycle for this human-interest / notable-people / offbeat / accident category, pulled from across outlets - the Drudge picks and tabloid/foreign outlets (New York Post, Daily Mail) are an excellent source. These are NOT filler; they are core to what makes the page worth reading. Always keep the spectrum-balanced hard news, but make room for this human thread every cycle. NOT THE BEE: try to feature ONE Not the Bee NEWS story per cycle on average (candidates tagged 'Not the Bee pick') - NEVER their opinion or 'Op-ed' pieces. Prefer the Not the Bee story most relevant to our standing narrative arcs (for example a clip tying into the socialists-taking-over-the-Democratic-party or culture-war threads). This is a long-term average, not a hard rule: on a day with no genuinely good, arc-relevant Not the Bee news item, skip it rather than forcing a weak one.\n\nGLENN GREENWALD: actively favor Glenn Greenwald's FREE Substack posts - he is a priority independent voice, sharp and reportorial without being dogmatic. When he has a recent free piece that bears on the day's news, give it a column slot and let it fill one of the independent-journalism slots. Link his FREE posts only - never a subscribers-only piece.\n",
+    'main': "\n\n===== MAIN PAGE EMPHASIS =====\nThe main page is the ONE page that gives a reader the top stories across EVERY topic - politics, world, business, sports, science, and culture - it is NOT a politics page, and politics must not crowd everything else out. Beyond the hard news, it MUST carry a strong, steady thread of HUMAN-INTEREST and NEWS-OF-THE-WEIRD stories - the broadly fascinating items people actually talk about. Concretely, that includes: a notable person's health or personal news (a former president's illness, a lawmaker sharing a personal journey), shocking or bizarre crime and viral incidents (a cartel killing influencers on camera, something caught on camera), notable accidents and rescues (a deadly boat capsize near a landmark), celebrity and public-figure follow-ups, and offbeat oddities (the delightful 'wait, what?' story). Reserve at least 4-5 slots per cycle for this human-interest / notable-people / offbeat / accident category, pulled from across outlets - the Drudge picks and tabloid/foreign outlets (New York Post, Daily Mail) are an excellent source. These are NOT filler; they are core to what makes the page worth reading. Always keep the spectrum-balanced hard news, but make room for this human thread every cycle. NOT THE BEE: try to feature ONE Not the Bee NEWS story per cycle on average (candidates tagged 'Not the Bee pick') - NEVER their opinion or 'Op-ed' pieces. Prefer the Not the Bee story most relevant to our standing narrative arcs (for example a clip tying into the socialists-taking-over-the-Democratic-party or culture-war threads). This is a long-term average, not a hard rule: on a day with no genuinely good, arc-relevant Not the Bee news item, skip it rather than forcing a weak one.\n\nGLENN GREENWALD: actively favor Glenn Greenwald's FREE Substack posts - he is a priority independent voice, sharp and reportorial without being dogmatic. When he has a recent free piece that bears on the day's news, give it a column slot and let it fill one of the independent-journalism slots. Link his FREE posts only - never a subscribers-only piece.\n\nAUDIENCE & RELEVANCE FILTER (critical): every item must matter to a broad AMERICAN general-news reader scanning the day's top stories. RUTHLESSLY EXCLUDE parochial foreign items with no US angle or resonance - another country's domestic sports, politics, or local news that an American would not care about. SPORTS is only a MINOR thread on the main page (roughly at most one item per cycle) and is limited to genuinely BIG, US-interest stories: a marquee NFL / NBA / MLB / college-football or major-star story, a championship or title race, a world record, or a major scandal. NEVER place niche or foreign sports on the main page - e.g. a foreign national team's coaching hire (the Scottish national football team picking a manager), lower-division results, or routine transactional sports news. Foreign SOCCER qualifies only for genuinely global moments (World Cup, Champions League final, a global superstar). When unsure whether a story is big enough for a national American front page, leave it off - the bar is 'would this lead or feature on a major US news site today?'.\n",
     'life-culture': '\n\n===== LIFE & CULTURE EMPHASIS =====\nTHE HERO AND THE WHOLE PAGE MUST HAVE BROAD APPEAL. The hero must be a story a general reader instantly finds interesting - a big idea or discovery, a cars / tech / travel / food / gear story, a striking bit of history or science, or a genuinely fascinating human-interest item. NEVER make the hero, and never let the page lead with, a celebrity item, gossip, a red-carpet or awards story, or a review or recap of a single movie or TV series - above all not a niche show most readers have never heard of. Celebrity and entertainment combined are a MINOR thread: at most roughly 1 in 6 items and never the lead. Actively DEMOTE gossip, breakups, dating and baby news, casting news, box-office numbers, episode recaps, and "what to stream" pieces. Keep the reader in mind: assume a mostly male, white-collar, often-married audience. Cover what that reader genuinely finds interesting - cars and driving, travel and destinations, tech and gadgets, food and drink, gear, watches, whiskey and cocktails, home and style - woven together with thoughtful material (science and discovery, big ideas, history, books, arts) and a lighter thread of celebrity and entertainment (kept, but not dominant). Favor smart, well-made lifestyle journalism (InsideHook, Gear Patrol, GQ, Esquire, Robb Report, The Points Guy, and similar) and the delightful, surprising, "wow, I didn\'t know that" story over routine gossip. Because heavy analysis is often paywalled, lean on free sources - Smithsonian, Atlas Obscura, Aeon, NPR, Phys.org, The Conversation, Ars Technica, The Verge - for the thoughtful picks. This is the page to make the most interesting on the whole site. AVOID pure product endorsements and shopping/affiliate content. A piece about a category, trend, or idea is welcome ("Every Man Needs a Black Turtleneck Sweater"), but skip buying guides and brand endorsements ("Every Man Needs an LL Bean Black Turtleneck Sweater", deal roundups, "the best X to buy", "shop now" listicles). Favor editorial substance - profiles, essays, reviews with a point of view, real reporting - over commerce. FASHION LIMIT: fashion, runway, and red-carpet style is a MINOR accent - include AT MOST ONE fashion/style story on the WHOLE page, and NEVER build a fashion panel or a stack of fashion items. If several fashion stories are available, pick the single best one and drop the rest.\n',
     'sports': "\n\n===== SPORTS EMPHASIS =====\nWeight coverage by popularity: the major US sports lead - NFL is biggest, then COLLEGE FOOTBALL, NBA and MLB (all roughly equal, second tier), then NHL - followed by soccer (MLS plus the big international competitions: World Cup, European leagues, CONCACAF, Champions League). Give those DEEP, detailed coverage. In ADDITION, give BROAD coverage of the wider sports world every cycle: tennis, golf, UFC/MMA (name the week's main event even though it has no scoreboard), boxing, cycling (Tour de France and the grand tours), the Olympics, track and field and distance running, winter sports and skiing, WNBA and women's sports, and college sports. ALWAYS surface any world record or historic milestone (for example a new mile record) prominently - records are major news. College football is a top-two sport in season (late summer through January): in that window give it MULTIPLE stories on the page - rankings, marquee matchups, the playoff race, coaching and recruiting news - not one link. Pick as hero the single biggest sports story of the day, whatever the sport.\n",
     'world': "\n\n===== WORLD EMPHASIS =====\nLead with Europe. This page should be Europe-heavy: France, Germany, the UK, Italy and Spain, the EU and Brussels, and the European migration story (for example the Ceuta border crisis and Italy-Spain travel disputes). Ukraine and the Middle East - especially Iran war details and Israel - are always major. Use ENGLISH-LANGUAGE international sources - Deutsche Welle (DW) for Germany, France 24, Le Monde in English, RFI, El Pais in English, The Local, AFP, Euronews - not US outlets alone. Treat RealClearWorld's front page as a strong signal of what matters in world affairs, and follow its lead on which subjects to prioritize. Still cover the rest of the world - Africa, Asia (China, India, Japan), and South and Central America - but weight Europe, Ukraine, and the Middle East highest. Nearly every international source here leans left, so Breitbart's world sections (Europe/London, Middle East, Latin America, Asia, Africa) are included as the main RIGHT-leaning voice: use them for a conservative perspective, for their strong UK coverage, and as a read on which stories are drawing attention right now - while still balancing them against the wire and European outlets.\n",
@@ -1549,6 +1549,18 @@ def seed(section):
         return empty()
 
 GNEWS = "https://news.google.com/rss/search?q=%s&hl=en-US&gl=US&ceid=US:en"
+# Google News TOPIC feeds are Google's own cross-outlet aggregation of the most prominent
+# stories right now - the best proxy for "what all the major sites are leading with". Used to
+# guarantee near-100% coverage of the day's consensus big stories per section.
+GNEWS_TOPIC = "https://news.google.com/rss/headlines/section/topic/%s?hl=en-US&gl=US&ceid=US:en"
+SECTION_TOPICS = {
+    "main": ["NATION", "WORLD"],
+    "sports": ["SPORTS"],
+    "world": ["WORLD"],
+    "markets": ["BUSINESS"],
+    "politics": ["NATION"],
+    "life-culture": ["ENTERTAINMENT"],
+}
 
 BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 
@@ -1776,9 +1788,37 @@ def narrative_candidates(section):
             items.append({"title": unescape(title), "url": link, "source": source or a["arc"],
                           "ts": _pub_ms(it.findtext("pubDate") or ""), "arc": a["arc"]})
             n += 1
-            if n >= 6:
+            if n >= 10:      # deeper per-arc pull so hot topics have enough stories for a full panel
                 break
     return items
+
+def topic_headlines(section, cap=26):
+    """The most prominent stories right now from Google News' section TOPIC feed(s) - Google's
+    cross-outlet aggregation, i.e. what the major sites are collectively leading with. Tagged
+    'Top headlines' so the curator treats them as must-cover consensus, giving near-100% coverage
+    of the day's big stories (space permitting)."""
+    out, seen = [], set()
+    for topic in SECTION_TOPICS.get(section, []):
+        root = _gnews_get(GNEWS_TOPIC % topic)
+        if root is None:
+            continue
+        n = 0
+        for it in root.iter("item"):
+            title = (it.findtext("title") or "").strip()
+            link = (it.findtext("link") or "").strip()
+            if not title or not link or link in seen:
+                continue
+            seen.add(link)
+            src_el = it.find("source")
+            source = (src_el.text if (src_el is not None and src_el.text) else "")
+            if source and title.endswith(" - " + source):
+                title = title[: -(len(source) + 3)].strip()
+            out.append({"title": unescape(title), "url": link, "source": source or "Top headlines",
+                        "ts": _pub_ms(it.findtext("pubDate") or ""), "arc": "Top headlines"})
+            n += 1
+            if n >= cap:
+                break
+    return out
 
 OPINION_DOMAINS = ["nationalreview.com", "thefederalist.com", "spectator.org", "reason.com",
     "thedispatch.com", "dailywire.com", "freebeacon.com", "city-journal.org", "washingtonexaminer.com",
@@ -2048,13 +2088,14 @@ def curate_live(section):
     breaking = google_news_candidates(section)
     for c in breaking:
         c.setdefault("arc", "breaking")
+    tops = topic_headlines(section)          # the day's cross-outlet consensus big stories
     arcs = narrative_candidates(section)
     drudge = drudge_candidates() if section == "main" else []
     realclear = realclear_candidates(section)
     editorials = editorial_candidates() if section == "main" else []
     ntb = notthebee_pick(section) if section == "main" else []
     cands, seen = [], set()
-    for c in (ntb + realclear[:18] + editorials[:24] + drudge[:28] + arcs[:30] + breaking[:30]):
+    for c in (tops[:26] + ntb + realclear[:18] + editorials[:24] + drudge[:28] + arcs[:45] + breaking[:45]):
         if c["url"] in seen:
             continue
         seen.add(c["url"])
@@ -2062,7 +2103,7 @@ def curate_live(section):
     cands = [c for c in cands if not _suppressed(c.get("url"), c.get("title"))]
     for c in cands:
         c["live"] = _islive(c.get("title"))
-    cands = cands[:120]
+    cands = cands[:150]   # bigger pool so heavily-covered topics have the depth for a full panel
     if not cands:
         raise ValueError("no Google News candidates for %s" % section)
     # Coverage-driven narrative detection: cluster the live pool by subject and
@@ -2086,15 +2127,31 @@ def curate_live(section):
         editorial = (
             "\n\n===== EDITORIAL DIRECTION (Drudge-style) =====\n"
             "Each candidate has an 'arc' tag naming the long-running narrative it belongs to "
-            "('breaking' = fresh top-of-outlet news). Do NOT simply rank by how many outlets carry a "
-            "story - consensus-ranking produces a sterile, homogeneous page. Instead:\n"
-            "- BREADTH: the finished page must span many DIFFERENT subjects; do not let one story "
+            "('breaking' = fresh top-of-outlet news; 'Top headlines' = what the major sites are "
+            "collectively leading with right now).\n"
+            "- COVER THE MAJORS FIRST (most important rule): the page must NOT miss a story that the "
+            "major outlets are all covering. FIRST guarantee coverage of every genuinely big story - "
+            "the 'Top headlines' candidates, and any subject carried by 3+ different major outlets. Aim "
+            "for near-100%% coverage of what the major news sites are leading with today, limited only "
+            "by the space available. Missing a story that's all over the major sites is the WORST "
+            "failure; a reader coming from ESPN, CBS, or the front page of a major site should find our "
+            "coverage of the day's big stories essentially complete. THEN use the remaining slots for "
+            "breadth and personality so the page isn't a sterile clone:\n"
+            "- BREADTH: after the majors are covered, span many DIFFERENT subjects; do not let one story "
             "dominate the page. Pull across these arcs: %s.\n"
             "- GROUPING: when several DISTINCT stories cover the same subject, controversy, or event "
             "(for example a FIFA/UEFA dispute, a coaching saga, or a niche-sport storyline), collect "
             "them into ONE titled narrative panel instead of scattering them across the columns - "
             "especially for smaller sports. This differs from the no-duplicates rule: never repeat the "
             "SAME story, but DO cluster different stories on one subject.\n"
+            "- PANEL DEPTH: size each panel to how BIG the subject is and how much coverage it is "
+            "drawing - two stories is the MINIMUM, never the target. When a topic is important and "
+            "widely covered (college-football camp in late summer, a big-tech earnings week, a major "
+            "trial, a playoff race, a major storyline), build a DEEP panel of 4-8 stories from DIFFERENT "
+            "outlets and angles - actively pull in the many stories that exist rather than stopping at "
+            "two. Keep small 2-item panels only for subjects that genuinely have little coverage. The "
+            "number of stories in a panel must visibly reflect the topic's importance: a marquee subject "
+            "should look substantial, a minor one should stay small.\n"
             "- SOURCE DIVERSITY: within any ONE narrative panel, use a DIFFERENT outlet for every "
             "story - NEVER link the same source twice in a single panel. A cluster on one topic is the "
             "ideal place to put a left-leaning and a right-leaning outlet side by side; reach for that "
@@ -2121,6 +2178,13 @@ def curate_live(section):
             "- ORIGINALS: give extra weight to distinctive, free, staff-written analysis and "
             "investigations - especially RealClearInvestigations and RealClear staff pieces (sources "
             "that begin with 'RealClear') - and feature them prominently when they fit the page.\n"
+            "- ANALYSIS & FEATURES: actively highlight the well-crafted, thought-provoking ANALYTICAL "
+            "and FEATURE pieces that quality outlets pour real effort into - ESPN's featured / 'Trending "
+            "Now' analysis, The Ringer, The Athletic, Sports Illustrated longforms, and the equivalent "
+            "smart work on any page (deep dives, explainers, argued essays and columns that make readers "
+            "think). These are NOT throwaway op-eds - when a piece is topical, substantive, and well "
+            "written, give it a slot; reserve about 1-2 slots per cycle for such standout analysis when "
+            "good ones exist, and don't bury them.\n"
             "- PHOTOS: choose the 4-5 most VISUALLY striking standalone COLUMN stories - the ones that "
             "will have a great news photo (a dramatic scene, a notable face, a vivid moment), NOT abstract, "
             "financial, or text-only topics - and add \"photo\": true to those story objects (at most 5 per "
@@ -2731,6 +2795,22 @@ def sports_emphasis():
             "favorites over teams with losing records doing routine things - a World Series or title favorite "
             "snapping a losing streak beats a sub-.500 team's minor news. Marquee franchises and first-place "
             "teams get the edge for the hero and top billing. "
+            "AMERICAN-AUDIENCE FILTER: cover the sports and teams US fans actually follow. EXCLUDE niche "
+            "foreign sports that don't register with an American audience - e.g. a foreign national team's "
+            "coaching hire (the Scottish national football team naming a manager), lower-division foreign "
+            "leagues, or another country's domestic sports minutiae. SOCCER IS A MINOR THREAD: automated "
+            "'Top headlines' feeds heavily OVER-SURFACE European and international club soccer (Premier "
+            "League, Champions League, La Liga, transfers, foreign leagues) that most American sports fans "
+            "do not follow - do NOT treat routine international or club soccer as a must-cover major just "
+            "because it is trending. Include AT MOST ONE soccer item on the whole page, and only when it is "
+            "genuinely big for a US audience: a World Cup match, a Champions League final, a US men's or "
+            "women's national-team result, or an American star (e.g. Pulisic). Otherwise drop soccer in "
+            "favor of the US majors (NFL, college football, MLB, NBA, NHL). "
+            "NO OFF-FIELD COMMERCE: skip player endorsement, sneaker/shoe, apparel, and other marketing or "
+            "business/brand deals - readers come for the games and competition, not for who signed a shoe "
+            "contract. Keep the focus on what happens on the field/court: results, races, trades, injuries, "
+            "matchups, records, and the people playing. (Only a truly historic, record-shattering deal that "
+            "is genuine national news is a rare exception.) "
             "Pick as hero the single biggest sports story of the day, weighted toward in-season action and "
             "toward the stakes and the teams that matter most.\n" % (month, active, off))
 
