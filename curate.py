@@ -1283,8 +1283,11 @@ def _stamp_posted(stories):
     return stories
 
 def _expire(stories):
-    # Retention is 3 days from when a link was POSTED to the page (postedAt), NOT from the
-    # article's publication date. A story missing postedAt is treated as just-posted.
+    # Every posted story gets its FULL 3 days on the page, measured from when the link was
+    # POSTED (postedAt), not from the article's publication date - so nothing is deleted early.
+    # A story missing postedAt is treated as just-posted. (Persistently-covered topics can't
+    # linger past their 3 days because re-admitting an already-3-day-old article is blocked in
+    # merge() - so this is retention only, never an early cutoff.)
     now = now_ms()
     return [s for s in (stories or []) if (now - (s.get("postedAt") or now)) < THREE_DAYS_MS]
 
@@ -1380,17 +1383,21 @@ def merge(existing, fresh):
             if s.get("url"):
                 have.add(s["url"])
 
-    # collect brand-new fresh stories, tagged with where fresh placed them
+    # collect brand-new fresh stories, tagged with where fresh placed them. Never (re)admit an
+    # article whose publication is already >3 days old - that's how a persistently-covered story
+    # kept sneaking back on with a reset clock and lingering for a week.
+    def _fresh_pub(s):
+        return (now_ms() - (s.get("timestamp") or now_ms())) < THREE_DAYS_MS
     newc = []
     for k in ("left", "center", "right"):
         for s in ((fr.get("columns") or {}).get(k) or []):
             u = s.get("url")
-            if u and u not in have:
+            if u and u not in have and _fresh_pub(s):
                 newc.append((s.get("timestamp") or now_ms(), ("col", k), s))
     for g in (fr.get("groups") or []):
         for s in (g.get("stories") or []):
             u = s.get("url")
-            if u and u not in have:
+            if u and u not in have and _fresh_pub(s):
                 newc.append((s.get("timestamp") or now_ms(), ("group", g.get("title")), s))
 
     # newest first, dedupe by url, admit at most `cap`
@@ -1429,10 +1436,15 @@ def merge(existing, fresh):
                 ex_cols[rr[i % 3]].insert(0, s); i += 1
     groups = new_groups + ex_groups                            # new clusters above existing
 
-    # hero: locked once per day, unless the model flags a dominant override
+    # hero: locked once per day, unless the model flags a dominant override. It also carries a
+    # postedAt so it obeys the same 3-day rule as everything else - once the SAME lead story has
+    # been the hero for 3 days it has overstayed and is replaced by the freshest story on the
+    # page (otherwise a stale lead, e.g. a week-old movie story, could re-lock day after day).
     ex_hero = ex.get("hero") or {}
     override = bool(fr.get("heroOverride"))
-    if ex_hero.get("headline") and ex.get("heroSetDate") == today and not override:
+    hero_posted = ex_hero.get("postedAt")
+    hero_stale = bool(hero_posted) and (now_ms() - hero_posted) >= THREE_DAYS_MS
+    if ex_hero.get("headline") and ex.get("heroSetDate") == today and not override and not hero_stale:
         hero, hero_date = dict(ex_hero), ex.get("heroSetDate")
         fr_lu = (fr.get("hero") or {}).get("liveUpdates")   # live-updates refresh every run
         if fr_lu:
@@ -1440,7 +1452,53 @@ def merge(existing, fresh):
         else:
             hero.pop("liveUpdates", None)
     else:
-        hero, hero_date = (fr.get("hero") or ex_hero or {}), today
+        hero = dict(fr.get("hero") or ({} if hero_stale else ex_hero) or {})
+        hero_date = today
+        if hero.get("headline"):
+            # keep the clock running while the same story leads; start it for a new lead
+            if ex_hero.get("url") and hero.get("url") == ex_hero.get("url") and hero_posted:
+                hero["postedAt"] = hero_posted
+            else:
+                hero["postedAt"] = now_ms()
+    # Guarantee the hero is never >3 days old: if the chosen lead overstayed (same URL, clock
+    # expired) or we dropped a stale hero with no fresh one offered, promote the freshest story
+    # on the page as the new lead.
+    hp = hero.get("postedAt")
+    overstayed = bool(hp) and (now_ms() - hp) >= THREE_DAYS_MS
+    if overstayed or (hero_stale and not hero.get("headline")):
+        pool = []
+        for k in ("left", "center", "right"):
+            pool += ex_cols.get(k) or []
+        for g in groups:
+            pool += g.get("stories") or []
+        newest = max(pool, key=lambda s: s.get("postedAt") or 0) if pool else None
+        if newest:
+            hero = {"headline": newest.get("headline"), "url": newest.get("url"),
+                    "sublinks": [], "postedAt": newest.get("postedAt") or now_ms()}
+        elif overstayed:
+            hero = {}
+
+    # Keep the current hero story out of the body (no duplicate of the lead in the columns).
+    hu = hero.get("url")
+    if hu:
+        for k in ("left", "center", "right"):
+            ex_cols[k] = [s for s in (ex_cols.get(k) or []) if s.get("url") != hu]
+        for g in groups:
+            g["stories"] = [s for s in (g.get("stories") or []) if s.get("url") != hu]
+        groups = [g for g in groups if g.get("stories")]
+
+    # When the lead rolls over to a DIFFERENT story, demote the outgoing hero into a column so it
+    # lives out its remaining 3 days instead of vanishing after a day - unless its 3 days are up
+    # or it's already somewhere on the page.
+    prev = ex_hero; pu = prev.get("url")
+    if prev.get("headline") and pu and pu != hu and not hero_stale:
+        prev_posted = prev.get("postedAt") or now_ms()
+        on_page = (any(s.get("url") == pu for k in ("left", "center", "right") for s in (ex_cols.get(k) or []))
+                   or any(s.get("url") == pu for g in groups for s in (g.get("stories") or [])))
+        if not on_page and (now_ms() - prev_posted) < THREE_DAYS_MS:
+            k = min(("left", "center", "right"), key=lambda c: len(ex_cols.get(c) or []))
+            ex_cols.setdefault(k, []).insert(0, {"headline": prev["headline"], "url": pu,
+                "timestamp": prev.get("timestamp") or prev_posted, "postedAt": prev_posted})
 
     out = {"lastUpdated": now_ms(), "heroSetDate": hero_date, "hero": hero,
            "groups": groups,
@@ -2357,7 +2415,8 @@ def _valid_image(path, min_bytes=3000, min_dim=200):
 _IMG_WATERMARK_WORDS = ("telegraph", "getty", "reuters", "afp", "bloomberg", "shutterstock",
     "alamy", "istock", "dreamstime", "depositphotos", "epa-efe", "imago", "zuma", "sipa",
     "abaca", "newscom", "picture alliance", "pa media", "pa wire", "espn", "sky news",
-    "daily mail", "the guardian", "copyright", "©")
+    "daily mail", "the guardian", "bbc news", "bbc", "cnn", "fox news", "nbc news",
+    "abc news", "cbs news", "al jazeera", "associated press", "ap photo", "copyright", "©")
 
 def _image_has_watermark(path):
     """OCR the saved image and reject it if a wire/outlet wordmark is burned in, if a
