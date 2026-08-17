@@ -1,0 +1,331 @@
+{
+  "lastUpdated": 1786974943179,
+  "heroSetDate": "2026-08-17",
+  "hero": {
+    "headline": "JWST FINDS WATER SURVIVING SURPRISINGLY CLOSE TO OUR GALAXY'S SUPERMASSIVE BLACK HOLE",
+    "url": "https://www.sciencealert.com/especially-exciting-jwst-finds-water-surviving-surprisingly-close-to-our-galaxys-supermassive-black-hole",
+    "sublinks": [],
+    "postedAt": 1786974943179,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "AMERICANS ARE CUTTING TIES WITH THEIR FAMILIES",
+      "stories": [
+        {
+          "headline": "I Went No Contact With My Parents. I Regret It.",
+          "url": "https://www.realclearpolitics.com/2026/08/14/i_went_no_contact_with_my_parents_i_regret_it_707818.html",
+          "timestamp": 1786972706000,
+          "postedAt": 1786974943179
+        },
+        {
+          "headline": "The Real Reason Many Americans Are Cutting Ties With Their Parents and Siblings",
+          "url": "https://theconversation.com/the-real-reason-many-americans-are-cutting-ties-with-their-parents-and-siblings-283957",
+          "timestamp": 1786970251000,
+          "postedAt": 1786974943179
+        }
+      ]
+    },
+    {
+      "title": "MCCONAUGHEY'S NEW CHAPTER: POLITICS AND MUSIC",
+      "stories": [
+        {
+          "headline": "Matthew McConaughey Teases Political Ambitions After Meeting the Pope",
+          "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/08/15/matthew-mcconaughey-pope-leo-ai-politics/91304463007/",
+          "timestamp": 1786780800000,
+          "postedAt": 1786812113522
+        },
+        {
+          "headline": "Matthew McConaughey's Life in Songs Has Taken Him Everywhere",
+          "url": "https://www.rollingstone.com/music/music-news/matthew-mcconaughey-life-in-songs-1235609364/",
+          "timestamp": 1786778040000,
+          "postedAt": 1786812113522
+        }
+      ]
+    },
+    {
+      "title": "SPIDER-MAN: BRAND NEW DAY SETS BOX OFFICE RECORDS",
+      "stories": [
+        {
+          "headline": "Spider-Man: Brand New Day Becomes Fastest Movie To Hit $700M Domestically",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-box-office-record-700-million-1236672909/",
+          "timestamp": 1786646011000,
+          "postedAt": 1786718188405
+        },
+        {
+          "headline": "All The Box-Office Records Spider-Man: Brand New Day Has Broken So Far",
+          "url": "https://www.deseret.com/entertainment/2026/08/10/every-box-office-record-spider-man-brand-new-day-has-broken/",
+          "timestamp": 1786400190000,
+          "postedAt": 1786718188405
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "How Academia Created Jason Arday",
+        "url": "https://www.cnn.com/2026/08/16/uk/arday-uk-racism-debate-intl",
+        "timestamp": 1786971103000,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "Meet the Only Known Trebuchet Casualty in History",
+        "url": "https://arstechnica.com/science/2026/08/meet-the-only-known-trebuchet-casualty-in-history/",
+        "timestamp": 1786974095000,
+        "photo": true,
+        "postedAt": 1786974943179,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "AI Companies Look to the Ocean as a Place to Put More Data Centers",
+        "url": "https://theconversation.com/ai-companies-look-to-the-ocean-as-a-place-to-put-more-data-centers-289180",
+        "timestamp": 1786970232000,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "8 Freezer-Friendly Breakfasts That Make Hectic Mornings So Much Easier",
+        "url": "https://www.seriouseats.com/freezer-friendly-breakfast-recipes-12060901",
+        "timestamp": 1786885200000,
+        "postedAt": 1786888160028
+      },
+      {
+        "headline": "When Can Your Child Stay Home Alone? Neuroscience Suggests We're Asking The Wrong Question",
+        "url": "https://theconversation.com/when-can-your-child-stay-home-alone-neuroscience-suggests-were-asking-the-wrong-question-288575",
+        "timestamp": 1786882318000,
+        "postedAt": 1786888160028
+      },
+      {
+        "headline": "Scientists Discover Bacteria That Lock Toxic Uranium Into A Stable Form",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260807035149.htm",
+        "timestamp": 1786086000000,
+        "postedAt": 1786888160028
+      },
+      {
+        "headline": "Exhaust Shape Matters, and This Dyno Test Shows Why with Visual Proof",
+        "url": "https://www.thedrive.com/news/exhaust-shape-matters-and-this-dyno-test-shows-why-with-visual-proof",
+        "timestamp": 1786780800000,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "She Went Viral as 'Peter Pan Girl.' Now She Responds to the Memes",
+        "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/08/15/peter-pan-girl-tiktok-memes-viral-interview/91269634007/",
+        "timestamp": 1786779960000,
+        "photo": true,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "11 New Knives You Might've Missed From Benchmade, Spyderco and More",
+        "url": "https://www.gearpatrol.com/outdoors/new-edc-pocket-knife-releases-august-1-2026-2/",
+        "timestamp": 1786777140000,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "The Death of Dark Energy Is a False Alarm",
+        "url": "https://www.realclearscience.com/articles/2026/08/15/the_death_of_dark_energy_is_a_false_alarm_1200530.html",
+        "timestamp": 1786733280000,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "Inside Pickering Museum Village, A Slice Of Small-Town Ontario History",
+        "url": "https://www.atlasobscura.com/places/pickering-museum-village",
+        "timestamp": 1786716035000,
+        "photo": true,
+        "postedAt": 1786718188405,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "The 2026 Fall Fashion Trend Report, According To A Senior Fashion Editor",
+        "url": "https://coveteur.com/fall-fashion-trends-2026",
+        "timestamp": 1786539600000,
+        "photo": true,
+        "postedAt": 1786718188405
+      },
+      {
+        "headline": "Emory Researchers Build A More Accurate Way To Track What You Eat",
+        "url": "https://news.emory.edu/stories/2026/08/emory-researchers-build-more-accurate-way-track-what-you-eat",
+        "timestamp": 1786473622000,
+        "postedAt": 1786718188405
+      },
+      {
+        "headline": "Classics Professor Emily Wilson Doubles Down On 'Odyssey' Criticism: 'We Need More'",
+        "url": "https://www.nme.com/news/film/classics-professor-emily-wilson-doubles-down-on-the-odyssey-criticism-we-need-more-3961136",
+        "timestamp": 1785999600000,
+        "postedAt": 1786888160028
+      }
+    ],
+    "center": [
+      {
+        "headline": "EARTH'S CHEMISTRY WOBBLED DURING ITS 5 BIGGEST MASS EXTINCTIONS, STUDY FINDS",
+        "url": "https://www.sciencealert.com/critical-transition-earths-chemistry-wobbled-during-its-5-biggest-mass-extinctions",
+        "timestamp": 1786974943179,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "Tommy John, Pitcher Who Gave His Name to Career-Saving Surgery, Dies at 83",
+        "url": "https://www.theguardian.com/sport/2026/aug/16/tommy-john-pitcher-whose-surgery-changed-baseball-dies-at-age-of-83",
+        "timestamp": 1786973220000,
+        "photo": true,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "The Jeep Cherokee Just Returned Only to Be Replaced in 3 Years",
+        "url": "https://www.thedrive.com/?taxonomy",
+        "timestamp": 1786972600000,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "Two Eyeless Shrimp-Like Species Found in Japan's Groundwater Are New to Science",
+        "url": "https://phys.org/news/2026-08-eyeless-shrimp-species-japan-groundwater.html",
+        "timestamp": 1786971601000,
+        "photo": true,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "Female Treefrogs Get Overwhelmed By Too Many Noisy Male Suitors",
+        "url": "https://nautil.us/female-treefrogs-get-overwhelmed-by-too-many-noisy-male-suitors-1283821",
+        "timestamp": 1786887000000,
+        "photo": true,
+        "postedAt": 1786888160028,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "Why Is Everyone So Mad About Benny Blanco's Latin Album?",
+        "url": "https://www.rollingstone.com/music/music-features/benny-blanco-latin-album-controversy-explained-1235608217/",
+        "timestamp": 1786780800000,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "See 'Tony,' Then Eat Like Anthony Bourdain at His Favorite Food Spots",
+        "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/08/15/anthony-bourdain-favorite-food-spots-new-jersey-new-york/91282093007/",
+        "timestamp": 1786777140000,
+        "photo": true,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "5 Things Every 1920s Vanity Table Contained",
+        "url": "https://www.mentalfloss.com/history/things-every-1920s-vanity-table-contained",
+        "timestamp": 1786777140000,
+        "photo": true,
+        "postedAt": 1786812113522,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "How Do High-Speed Trains Work?",
+        "url": "https://www.realclearscience.com/video/2026/08/12/how_do_high-speed_trains_work_1199810.html",
+        "timestamp": 1786461660000,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "A Brief History Of Embroidery — And How To Get Started",
+        "url": "https://theconversation.com/a-brief-history-of-embroidery-and-how-to-get-started-yourself-288312",
+        "timestamp": 1786716723000,
+        "postedAt": 1786718188405
+      },
+      {
+        "headline": "The Healthiest Time To Eat Dinner, According To Experts",
+        "url": "https://www.gq.com/story/healthiest-time-to-eat-dinner-3",
+        "timestamp": 1786716336000,
+        "postedAt": 1786718188405
+      },
+      {
+        "headline": "Extreme Space Weather Could Delay Your Next Flight",
+        "url": "https://nautil.us/extreme-space-weather-could-delay-your-next-flight-1283780/",
+        "timestamp": 1786716000000,
+        "postedAt": 1786718188405
+      }
+    ],
+    "right": [
+      {
+        "headline": "Hike for Ramen and Kaiseki on This 700-Mile Temple and Food Trail Through Japan",
+        "url": "https://www.afar.com/magazine/a-food-lovers-guide-to-hiking-the-shikoku-temple-pilgrimage",
+        "timestamp": 1786972773000,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "Hayden Panettiere, Scream and Nashville Actress, Dies at 36",
+        "url": "https://abcnews.com/US/hayden-panettiere-dies-36/story?id",
+        "timestamp": 1786970681000,
+        "photo": true,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "How Weaving Helped Invent Modern Computing — And Is Shaping Its Future",
+        "url": "https://theconversation.com/how-weaving-helped-invent-modern-computing-and-is-shaping-its-future-287283",
+        "timestamp": 1786882033000,
+        "postedAt": 1786888160028
+      },
+      {
+        "headline": "Antimatter Starships Are Farther Away Than You Think",
+        "url": "https://www.realclearscience.com/articles/2026/08/15/antimatter_starships_are_farther_away_than_you_think_1200213.html",
+        "timestamp": 1786733280000,
+        "postedAt": 1786888160028
+      },
+      {
+        "headline": "The European Free Speech Crisis",
+        "url": "https://www.realclearbooks.com/articles/2026/08/11/the_european_free_speech_crisis_1199481.html",
+        "timestamp": 1786448780000,
+        "postedAt": 1786888160028
+      },
+      {
+        "headline": "Scientists Discover What May Be Behind Alzheimer's",
+        "url": "https://www.newsweek.com/scientists-discover-brain-change-that-may-explain-alzheimers-12304039",
+        "timestamp": 1786377180000,
+        "postedAt": 1786888160028
+      },
+      {
+        "headline": "The 10 Best Cars at This Year's Quail, a Motorsports Gathering",
+        "url": "https://robbreport.com/motors/cars/lists/10-best-cars-quail-a-motorsports-gathering-1238557138/",
+        "timestamp": 1786784400000,
+        "photo": true,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "Neptune's Tiny Moons Tell the Story of Triton's Destructive Capture",
+        "url": "https://phys.org/news/2026-07-neptune-tiny-moons-story-triton.html",
+        "timestamp": 1786782000000,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "I Had My Blood 'Washed' at Germany's Top Med-Spa—Here's How It Made Me Feel",
+        "url": "https://robbreport.com/lifestyle/health-wellness/lanserhof-tegernsees-wellness-retreat-review-1238531932/",
+        "timestamp": 1786780800000,
+        "photo": true,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "Switched on Pop's Nate Sloan and Charlie Harding Love Fresh Vegetables and Guitar Pedals",
+        "url": "https://www.theverge.com/report/980288/switched-on-pop-nate-sloan-charlie-harding-podcast-netflix-interview",
+        "timestamp": 1786780800000,
+        "postedAt": 1786812113522
+      },
+      {
+        "headline": "This 'Fly-Over' Province Might Be Canada's Best-Kept Fall Secret",
+        "url": "https://www.afar.com/magazine/things-to-do-in-new-brunswick-canadas-underrated-province",
+        "timestamp": 1786715712000,
+        "postedAt": 1786718188405
+      },
+      {
+        "headline": "It's Your Right To Get A Face Tattoo",
+        "url": "https://www.yahoo.com/news/videos/im-trolled-9-face-tattoos-132934081.html",
+        "timestamp": 1786715623000,
+        "photo": true,
+        "postedAt": 1786718188405,
+        "image": "/img/life-culture-4.jpg"
+      },
+      {
+        "headline": "Ferrari's One-Off CZ26 Stirs New Life Into The SF90 Stradale",
+        "url": "https://www.thedrive.com/?taxonomy",
+        "timestamp": 1786714785000,
+        "photo": true,
+        "postedAt": 1786718188405
+      },
+      {
+        "headline": "Humanists Have Done Nothing Wrong",
+        "url": "https://defector.com/humanists-have-done-nothing-wrong",
+        "timestamp": 1786629060000,
+        "postedAt": 1786718188405
+      }
+    ]
+  }
+}
