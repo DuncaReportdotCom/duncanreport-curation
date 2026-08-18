@@ -1274,6 +1274,61 @@ def extract_json(text):
                 return _loads(text[start:i + 1])
     return None
 
+def salvage_truncated_json(text):
+    """Best-effort repair of a curation answer that got cut off mid-output (stop=max_tokens):
+    trim back to the last COMPLETED nested element (a whole story/group/column) and close any
+    still-open brackets, so a truncated page still yields a valid, slightly-shorter stories.json
+    instead of failing the whole section. Returns a dict or None."""
+    st = text.find("{")
+    if st < 0:
+        return None
+    s = text[st:]
+    in_str = esc = False
+    last_safe = 0
+    for idx, ch in enumerate(s):
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+            continue
+        if ch == '"':
+            in_str = True
+        elif ch in "}]":
+            last_safe = idx + 1          # a complete nested element just closed here
+    if last_safe <= 0:
+        return None
+    frag = s[:last_safe].rstrip().rstrip(",")
+    # recompute what's still open on the trimmed fragment, then close it in reverse
+    stack = []
+    in_str = esc = False
+    for ch in frag:
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+        elif ch == '"':
+            in_str = True
+        elif ch in "{[":
+            stack.append("}" if ch == "{" else "]")
+        elif ch in "}]":
+            if stack:
+                stack.pop()
+    while stack:
+        frag += stack.pop()
+    d = _loads(frag)
+    if isinstance(d, dict):
+        cols = d.get("columns")
+        if isinstance(cols, dict):        # ensure all three column keys exist for the front end
+            for k in ("left", "center", "right"):
+                cols.setdefault(k, [])
+    return d
+
 def _stamp_posted(stories):
     """Give every story a postedAt (its 3-day clock start) if it doesn't have one yet."""
     now = now_ms()
@@ -2082,6 +2137,63 @@ def _recent_hero_headlines(section, days=4):
             continue
     return out
 
+# Curation output budget. We ASK for a very large max_tokens so the model's reasoning PLUS the
+# full JSON answer both fit and the response never truncates (the cause of the politics/world
+# 'stop=max_tokens' failures). max_tokens is the model's PER-RESPONSE output ceiling (a hard model
+# limit, unrelated to account usage). If we ask for more than a model allows, the API says what the
+# real ceiling is - we read it from the error and cache it, so we always run at the highest value
+# the model permits and NEVER fail merely for asking too much. Override with env CURATE_MAXTOK.
+_CURATE_MAXTOK = [int(os.environ.get("CURATE_MAXTOK", "64000") or 64000)]
+
+def _output_cap_from_error(e):
+    """If an API error is complaining that max_tokens is too large, return the real ceiling. Works
+    across phrasings ('64000 > 32000', 'must be <= 8192', 'maximum ... is 16384') by taking the
+    largest plausible number in the message that is below what we asked for."""
+    s = str(e)
+    if "max_tokens" not in s and "output tokens" not in s:
+        return None
+    nums = [int(x) for x in re.findall(r"\d{3,7}", s)]
+    below = [n for n in nums if 256 <= n < _CURATE_MAXTOK[0]]
+    return max(below) if below else None
+
+def _curate_stream(client, model, system, msgs):
+    """Streamed curation call at the largest allowed max_tokens. Returns (text, final_message).
+    Auto-lowers and retries once if the model's output ceiling is below what we asked."""
+    while True:
+        try:
+            parts = []
+            with client.messages.stream(model=model, max_tokens=_CURATE_MAXTOK[0],
+                                        system=system, messages=msgs) as st:
+                for chunk in st.text_stream:
+                    parts.append(chunk)
+                try:
+                    fm = st.get_final_message()
+                except Exception:
+                    fm = None
+            return "".join(parts), fm
+        except Exception as e:
+            cap = _output_cap_from_error(e)
+            if cap and cap < _CURATE_MAXTOK[0]:
+                print("    model output ceiling is %d; lowering max_tokens and retrying" % cap)
+                _CURATE_MAXTOK[0] = cap
+                continue
+            raise
+
+def _curate_create(client, model, system, msgs):
+    """Non-streaming curation call at the largest allowed max_tokens. Returns (text, message)."""
+    while True:
+        try:
+            msg = client.messages.create(model=model, max_tokens=_CURATE_MAXTOK[0],
+                                         system=system, messages=msgs)
+            return "".join((getattr(b, "text", "") or "") for b in msg.content), msg
+        except Exception as e:
+            cap = _output_cap_from_error(e)
+            if cap and cap < _CURATE_MAXTOK[0]:
+                print("    model output ceiling is %d; lowering max_tokens and retrying" % cap)
+                _CURATE_MAXTOK[0] = cap
+                continue
+            raise
+
 def curate_live(section):
     from anthropic import Anthropic
     client = Anthropic()
@@ -2264,31 +2376,21 @@ def curate_live(section):
     # here with UnboundLocalError when a streamed answer failed to parse).
     msg, text = None, ""
     try:
-        parts = []
-        with client.messages.stream(model=model, max_tokens=30000, system=system, messages=msgs) as st:
-            for chunk in st.text_stream:
-                parts.append(chunk)
-            try:
-                msg = st.get_final_message()      # for stop_reason if the JSON won't parse
-            except Exception:
-                msg = None
-        text = "".join(parts)
+        text, msg = _curate_stream(client, model, system, msgs)      # largest allowed max_tokens
     except Exception as e:
         print("    stream failed (%s); non-streaming fallback" % e)
         try:
-            msg = client.messages.create(model=model, max_tokens=30000, system=system, messages=msgs)
-            text = "".join((getattr(b, "text", "") or "") for b in msg.content)
+            text, msg = _curate_create(client, model, system, msgs)
         except Exception as e2:
             print("    non-streaming call also failed (%s)" % e2)
     data = extract_json(text)
     if not data:
         # A streamed answer that won't parse (truncated/garbled/empty) gets one clean
-        # non-streaming retry at full size before we give up - this is what recovers the
-        # main page instead of leaving it stale.
+        # non-streaming retry before we give up - this is what recovers a section instead of
+        # leaving it stale.
         print("    no JSON from first attempt (len=%d); non-streaming retry" % len(text or ""))
         try:
-            msg2 = client.messages.create(model=model, max_tokens=30000, system=system, messages=msgs)
-            text2 = "".join((getattr(b, "text", "") or "") for b in msg2.content)
+            text2, msg2 = _curate_create(client, model, system, msgs)
             d2 = extract_json(text2)
             if d2:
                 data, text, msg = d2, text2, msg2
@@ -2296,6 +2398,14 @@ def curate_live(section):
                 msg, text = msg2, (text or text2)
         except Exception as e:
             print("    non-streaming retry failed (%s)" % e)
+    if not data and text:
+        # Last resort: the answer was cut off at the token limit (stop=max_tokens) so the JSON
+        # never closed - salvage it by trimming to the last complete story/panel and closing the
+        # brackets. A slightly shorter page beats a failed, stale section.
+        salv = salvage_truncated_json(text)
+        if salv and valid(salv):
+            data = salv
+            print("    recovered a truncated answer via salvage (%d chars)" % len(text))
     if not data:
         stop = getattr(msg, "stop_reason", "?") if msg is not None else "?"
         raise ValueError("no JSON parsed (len=%d, stop=%s): %s"
