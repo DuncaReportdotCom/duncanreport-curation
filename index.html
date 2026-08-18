@@ -713,11 +713,16 @@ var heroImg = document.getElementById('hero-image');
 if (heroImg) {
 var imgPath = (ARCHIVE_DATE ? ('/archive/' + ARCHIVE_DATE + '/' + archiveName() + '.jpg')
 : (currentSection() === 'main' ? '/hero.jpg' : '/' + currentSection() + '/hero.jpg')) + '?t=' + Date.now();
-// Only load the self-hosted photo when the engine confirmed one exists (hero.img); otherwise
-// show the branded placeholder directly so a missing file never renders as a broken image.
-var heroSrc = (ARCHIVE_DATE || (hero && hero.img)) ? imgPath : DEFAULT_HERO;
-heroImg.innerHTML = '<a href="' + (hero.url || '#') + '" target="_blank"><img src="' + heroSrc + '" alt="" onerror="this.onerror=null;this.src=DEFAULT_HERO;"></a>';
+// Show the self-hosted photo only when the engine confirmed one exists (hero.img). If there is
+// no photo, render a clean TEXT-ONLY lead (just the headline, no image) rather than a grey
+// placeholder box - a missing photo should look like a newspaper text lead, never "blank".
+if (ARCHIVE_DATE || (hero && hero.img)) {
+heroImg.innerHTML = '<a href="' + (hero.url || '#') + '" target="_blank"><img src="' + imgPath + '" alt="" onerror="this.onerror=null;this.style.display=\'none\';"></a>';
 heroImg.style.display = '';
+} else {
+heroImg.innerHTML = '';
+heroImg.style.display = 'none';
+}
 }
 // Hero
 var heroEl = document.getElementById('hero-headline');
