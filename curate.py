@@ -2479,7 +2479,7 @@ def _valid_image(path, min_bytes=3000, min_dim=200):
 _IMG_WATERMARK_WORDS = ("telegraph", "getty", "reuters", "afp", "bloomberg", "shutterstock",
     "alamy", "istock", "dreamstime", "depositphotos", "epa-efe", "imago", "zuma", "sipa",
     "abaca", "newscom", "picture alliance", "pa media", "pa wire", "espn", "sky news",
-    "daily mail", "the guardian", "bbc news", "bbc", "cnn", "fox news", "nbc news",
+    "daily mail", "the guardian", "bbc news", "bbc", "cnn", "fox news", "fox sports", "nbc news",
     "abc news", "cbs news", "al jazeera", "associated press", "ap photo", "copyright", "©")
 
 def _image_has_watermark(path):
@@ -2600,7 +2600,8 @@ def og_image_url(article_url, timeout=9):
 # These are rejected by URL alone - no OCR needed - so a branded card never reaches the page even
 # when Tesseract isn't installed. BBC's share cards live under a "/branded_<section>/" path
 # (e.g. ichef.bbci.co.uk/news/1024/branded_news/...) and always carry the "BBC NEWS" logo.
-WATERMARK_IMG = ("guim.co.uk", "gu-web-static", "gstatic-guardian", "/branded_", "bbci.co.uk/news/branded")
+WATERMARK_IMG = ("guim.co.uk", "gu-web-static", "gstatic-guardian", "/branded_", "bbci.co.uk/news/branded",
+                 "a57.foxsports.com")   # Fox Sports OG/share cards carry a burned-in FOX Sports logo
 
 def _is_junk_img(url):
     u = (url or "").lower()
@@ -2638,9 +2639,13 @@ def _try_hero_images(urls, dest):
 
 def _sig_query(headline, n=7):
     """Key search terms from a headline (drops stopwords/short words) to find related coverage."""
+    return " ".join(_headline_terms(headline)[:n])
+
+def _headline_terms(headline):
+    """The headline's content words in order (drops stopwords and short words) - used both to
+    build phrase queries and, for the last-resort image search, to try strong single terms."""
     words = re.findall(r"[A-Za-z0-9]+", (headline or ""))
-    keep = [w for w in words if len(w) > 3 and w.lower() not in _STOP]
-    return " ".join(keep[:n])
+    return [w for w in words if len(w) > 3 and w.lower() not in _STOP]
 
 # Some sections lead with visually abstract stories (a CPI print, a Fed decision) whose own
 # article often has no clean, non-chart photo. As a LAST-RESORT fallback we append a section
@@ -2700,6 +2705,20 @@ def ensure_hero_image(section, data):
         if related and _try_hero_images(related, dest):
             hero["img"] = True
             print("    hero image saved for %s (related coverage)" % section)
+            return
+    # Final escalation: a unique magazine feature or essay (common on Life & Culture) is written
+    # in language no wire story shares, so the phrase searches above find nothing. Fall back to a
+    # broad search on the headline's strongest SINGLE terms, one at a time - e.g. 'blackout' -
+    # which reliably yields a clean, topical news photo. A relevant illustrative image beats the
+    # grey placeholder for a feature lead.
+    for term in _headline_terms(hl)[:4]:
+        if term in tried:
+            continue
+        tried.add(term)
+        related = _related_links(term)
+        if related and _try_hero_images(related, dest):
+            hero["img"] = True
+            print("    hero image saved for %s (topical term '%s')" % (section, term))
             return
     hero["img"] = False       # no clean photo -> front end shows the branded placeholder cleanly
     try:
