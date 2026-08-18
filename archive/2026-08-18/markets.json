@@ -42,12 +42,6 @@
           "url": "https://www.reuters.com/world/disney-abc-sue-us-regulator-over-threats-broadcast-licenses-2026-08-18/",
           "timestamp": 1787058449000,
           "postedAt": 1787061204239
-        },
-        {
-          "headline": "ABC Sues FCC To Block Threat To Its TV Licenses",
-          "url": "https://www.reuters.com/world/disney-abc-sue-us-regulator-over-threats-broadcast-licenses-2026-08-18/",
-          "timestamp": 1787057594000,
-          "postedAt": 1787061204239
         }
       ]
     },
@@ -516,58 +510,58 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,705.39",
-      "change": "-39.67",
-      "changePct": "-0.51%",
+      "value": "7,698.14",
+      "change": "-46.92",
+      "changePct": "-0.61%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "53,404.18",
-      "change": "-55.60",
-      "changePct": "-0.10%",
+      "value": "53,400.14",
+      "change": "-59.64",
+      "changePct": "-0.11%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,322.02",
-      "change": "-322.89",
-      "changePct": "-1.21%",
+      "value": "26,300.79",
+      "change": "-344.12",
+      "changePct": "-1.29%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
-      "value": "4.73%",
-      "change": "+0.01",
-      "changePct": "+0.17%",
-      "up": true,
+      "value": "4.71%",
+      "change": "-0.02",
+      "changePct": "-0.38%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Gold",
-      "value": "$4,457.40",
-      "change": "-16.30",
-      "changePct": "-0.36%",
+      "value": "$4,409.90",
+      "change": "-63.80",
+      "changePct": "-1.43%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$84.32",
-      "change": "+0.58",
-      "changePct": "+0.69%",
+      "value": "$84.07",
+      "change": "+0.33",
+      "changePct": "+0.39%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$64,106.84",
-      "change": "-380.81",
-      "changePct": "-0.59%",
-      "up": false,
+      "value": "$64,663.13",
+      "change": "+175.48",
+      "changePct": "+0.27%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     }
   ]
