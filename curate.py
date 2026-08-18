@@ -2596,7 +2596,11 @@ def og_image_url(article_url, timeout=9):
 # Image hosts/CDNs known to burn in source branding, watermarks, or credits (e.g. a
 # "The Guardian" wordmark on their social cards). The hero must never show attribution
 # ON the image, so these are skipped and the fallback picks a clean photo. Extend as needed.
-WATERMARK_IMG = ("guim.co.uk", "gu-web-static", "gstatic-guardian")
+# Image URL patterns whose picture carries a burned-in outlet wordmark on the social/share card.
+# These are rejected by URL alone - no OCR needed - so a branded card never reaches the page even
+# when Tesseract isn't installed. BBC's share cards live under a "/branded_<section>/" path
+# (e.g. ichef.bbci.co.uk/news/1024/branded_news/...) and always carry the "BBC NEWS" logo.
+WATERMARK_IMG = ("guim.co.uk", "gu-web-static", "gstatic-guardian", "/branded_", "bbci.co.uk/news/branded")
 
 def _is_junk_img(url):
     u = (url or "").lower()
