@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787060393644,
+  "lastUpdated": 1787095691983,
   "heroSetDate": "2026-08-18",
   "hero": {
     "headline": "TRUMP APPROVAL RATING SINKS TO 33%, LOWEST OF HIS PRESIDENCY, NEW POLLS SHOW",
@@ -118,27 +118,36 @@
           "postedAt": 1786973726025
         }
       ]
-    },
-    {
-      "title": "CAMBRIDGE PROFESSOR JASON ARDAY'S DEATH FUELS ACADEMIC FEUD",
-      "stories": [
-        {
-          "headline": "London Mayor Race-Baits Critics After Black Professor's Apparent Suicide",
-          "url": "https://notthebee.com/article/london-mayor-uses-apparent-suicide-of-black-cambridge-professor-embroiled-in-plagiarism-scandal-to-blame-critics-for-his-death/",
-          "timestamp": 1786795949000,
-          "postedAt": 1786803413151
-        },
-        {
-          "headline": "Cambridge Professor Found Dead After Academic Record Scrutiny, Family Cites Abuse",
-          "url": "https://www.cnn.com/2026/08/15/uk/jason-arday-plagiarism-cambridge-dead-intl",
-          "timestamp": 1786773360000,
-          "postedAt": 1786803413151
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Shocking Number Of Gen Zers Report Zero Face-To-Face Interactions Per Day",
+        "url": "https://nypost.com/2026/08/17/us-news/shocking-number-of-gen-z-shut-ins-report-zero-face-to-face-human-interactions-per-day/",
+        "timestamp": 1787095378677,
+        "postedAt": 1787095691983
+      },
+      {
+        "headline": "Ballroom Official Held Quiet Kremlin Talks",
+        "url": "https://archive.is/szsii",
+        "timestamp": 1787095378677,
+        "postedAt": 1787095691983
+      },
+      {
+        "headline": "ZZ Top Drummer Frank Beard Dead At 77",
+        "url": "https://www.tmz.com/2026/08/18/frank-beard-dead/",
+        "timestamp": 1787095378677,
+        "photo": true,
+        "postedAt": 1787095691983,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Rosie O'Donnell Hosts Kimmel",
+        "url": "https://www.showbiz411.com/2026/08/18/rosie-odonnell-scores-big-time-on-her-first-night-guest-hosting-kimmel-gives-audience-copies-of-madonnas-album-goes-light-on-trump",
+        "timestamp": 1787095378677,
+        "postedAt": 1787095691983
+      },
       {
         "headline": "Navy Destroyer Left Powerless For Days After South China Sea Breakdown",
         "url": "https://www.stripes.com/theaters/asia_pacific/2026-08-17/uss-benfold-adrift-south-china-sea-22576714.html",
@@ -208,45 +217,21 @@
         "url": "https://www.city-journal.org/article/university-of-michigan-grades-admissions-gpas",
         "timestamp": 1786737593000,
         "postedAt": 1786973726025
-      },
-      {
-        "headline": "Her Childhood Photo, Thousands Of Explicit Images: One Woman's AI Nightmare",
-        "url": "https://www.msn.com/en-us/news/other/her-childhood-photo-thousands-of-explicit-images-one-woman-s-nightmare/ar-AA2aatOy",
-        "timestamp": 1786802439921,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "Landlord Tries To Evict NYC Model After Stalker Sent Nude Photos To Neighbors",
-        "url": "https://nypost.com/2026/08/15/us-news/nyc-model-fights-eviction-after-stalker-sent-explicit-pics-to-her-neighbors-lawsuit/",
-        "timestamp": 1786774500000,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "Tom Steyer Talks Climate, Billionaire Tax After California Primary Loss",
-        "url": "https://www.politico.com/news/2026/08/15/california-governors-race-tom-steyer-climate-billionaire-tax-01038657",
-        "timestamp": 1786773600000,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "US Immigration Judges Deport People In Mass Hearings, Some Without Notice",
-        "url": "https://www.theguardian.com/us-news/2026/aug/15/immigration-judges-deportation-hearings",
-        "timestamp": 1786773600000,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "Trump Administration Keeps Finding New Ways To Hide Records Despite Transparency Promise",
-        "url": "https://reason.com/2026/08/15/trump-promised-transparency-his-administration-keeps-finding-new-ways-to-hide-records/",
-        "timestamp": 1786755660000,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "Milwaukee's Late-Night Ballot Meltdown Raises New Questions",
-        "url": "https://www.realclearpolitics.com/video/2026/08/14/milwaukee_cant_count_another_late-night_ballot_meltdown_on_background_34.html",
-        "timestamp": 1786640400000,
-        "postedAt": 1786803413151
       }
     ],
     "center": [
+      {
+        "headline": "Ossoff Calls Trump A 'Draft-Dodging, Crook' President",
+        "url": "https://www.msn.com/en-us/news/other/ar-AA2apmgA",
+        "timestamp": 1787095378677,
+        "postedAt": 1787095691983
+      },
+      {
+        "headline": "14 Charged After Penn State Frat Pledges Forced To Cut, Package Cocaine",
+        "url": "https://www.washingtontimes.com/news/2026/aug/18/penn-state-cocaine-bust-nets-charges-14-indoctrination/",
+        "timestamp": 1787095378677,
+        "postedAt": 1787095691983
+      },
       {
         "headline": "STRAIT OF HORMUZ SHIPPING GRINDS TO HALT AS US-IRAN CEASEFIRE NEARS EXPIRY, TALKS STALLED",
         "url": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html",
@@ -265,7 +250,7 @@
         "timestamp": 1787060146340,
         "photo": true,
         "postedAt": 1787060393644,
-        "image": "/img/main-0.jpg"
+        "image": "/img/main-1.jpg"
       },
       {
         "headline": "DOJ Asks Court To Reinstate Charges Against Mistakenly Deported Kilmar Abrego Garcia",
@@ -279,7 +264,7 @@
         "timestamp": 1787029120000,
         "photo": true,
         "postedAt": 1787060393644,
-        "image": "/img/main-1.jpg"
+        "image": "/img/main-2.jpg"
       },
       {
         "headline": "SHOOTING AT VIRGINIA STATE UNIVERSITY LEAVES CAMPUS ON LOCKDOWN AS POLICE HUNT MULTIPLE SUSPECTS",
@@ -311,46 +296,27 @@
         "url": "https://www.realclearinvestigations.com/articles/2026/08/15/realclearinvestigations_picks_of_the_week_1200501.html",
         "timestamp": 1786741000000,
         "postedAt": 1786973726025
-      },
-      {
-        "headline": "September Social Security Payment Of $994 Goes Out In 17 Days",
-        "url": "https://www.washingtonexaminer.com/news/4677331/september-2026-social-security-direct-payment-17-days/",
-        "timestamp": 1786777140000,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "Scotland Hope To Name Sébastien Pocognoli As Successor To Steve Clarke",
-        "url": "https://www.theguardian.com/football/2026/aug/15/scotland-hope-to-name-sebastien-pocognoli-as-new-international-manager",
-        "timestamp": 1786774500000,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "Ancient Burial Chamber Could Have Been Used As A Calendar",
-        "url": "https://www.bbc.com/news/articles/c0jlydll0lzo",
-        "timestamp": 1786774440000,
-        "photo": true,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "Closing Federal Prisons Pitched As A Winning Hand",
-        "url": "https://www.realclearpolitics.com/articles/2026/08/15/closing_federal_prisons_a_winning_hand_154413.html",
-        "timestamp": 1786744800000,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "Hasan Piker Isn't Retreating",
-        "url": "https://www.vox.com/america-actually/499260/hasan-piker-francesca-hong-wisconsin-michigan-democratic-socialism-primaries",
-        "timestamp": 1786770000000,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "NYT: Supply Problems Emerge After Iran Strike On US Base",
-        "url": "https://www.nytimes.com/2026/08/14/us/politics/uss-abraham-lincoln-trump-supplies-diego-garcia.html?unlocked_article_code=1.5lA.xa0u.uBmCAosk50Wt&smid=url-share",
-        "timestamp": 1786802439921,
-        "postedAt": 1786803413151
       }
     ],
     "right": [
+      {
+        "headline": "Minnesota To Sue Texas Over Extradition Of ICE Agent",
+        "url": "https://www.cbsnews.com/minnesota/news/minnesota-ice-agent-extradition-lawsuit/",
+        "timestamp": 1787095378677,
+        "postedAt": 1787095691983
+      },
+      {
+        "headline": "Tom Holland Set To Make Over $100 Million For Next Spider-Man Film",
+        "url": "https://www.thewrap.com/creative-content/movies/tom-holland-spider-man-brand-new-day-salary-box-office-bonus/",
+        "timestamp": 1787095378677,
+        "postedAt": 1787095691983
+      },
+      {
+        "headline": "US Military Funding Helped Propel China's Robot Dog Program",
+        "url": "https://www.msn.com/en-us/technology/tech-companies/ar-AA2aouub",
+        "timestamp": 1787095378677,
+        "postedAt": 1787095691983
+      },
       {
         "headline": "MTG: 'I Can't Remember The Last Time I Saw Someone Wear A MAGA Hat'",
         "url": "https://thehill.com/homenews/administration/6034413-greene-i-cant-remember-the-last-time-i-saw-someone-wear-maga-hat/",
@@ -376,14 +342,6 @@
         "postedAt": 1787060393644
       },
       {
-        "headline": "Penn State Cocaine Bust Nets 14 Arrests Over Alleged Pledge 'Indoctrination' Rituals",
-        "url": "https://www.foxnews.com/us/penn-state-cocaine-bust-nets-14-arrests-over-alleged-pledge-coke-cutting-indoctrination-rituals",
-        "timestamp": 1787009786000,
-        "photo": true,
-        "postedAt": 1787060393644,
-        "image": "/img/main-2.jpg"
-      },
-      {
         "headline": "Blonde Aide Raises Eyebrows After Golf Weekend",
         "url": "https://www.msn.com/en-us/news/politics/trumps-blonde-aide-35-raises-eyebrows-after-golf-weekend/ar-AA2ahOcy",
         "timestamp": 1786973577473,
@@ -401,37 +359,6 @@
         "url": "https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/",
         "timestamp": 1786971808000,
         "postedAt": 1786973726025
-      },
-      {
-        "headline": "Trump Urges Americans To Accept Higher Gas Prices",
-        "url": "https://www.yahoo.com/news/politics/articles/trump-urges-americans-accept-higher-203543611.html",
-        "timestamp": 1786802439922,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "BBC Process Servers Forcibly Turned Away Trying To Serve Ivanka And Jared",
-        "url": "https://www.politico.com/news/2026/08/14/bbc-subpoena-donald-trump-family-01038107",
-        "timestamp": 1786802439921,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "Pool Advertises 'Blacks-Only' Swimming Hours, Sparks Backlash",
-        "url": "https://www.breitbart.com/europe/2026/08/13/diversity-german-style-berlin-pool-advertised-black-only-swimming-hours/",
-        "timestamp": 1786802439921,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "Taliban Mark Five Years In Power With 'Victory Day' Parade",
-        "url": "https://www.reuters.com/video/watch/idRW569615082026RP1/",
-        "timestamp": 1786773600000,
-        "photo": true,
-        "postedAt": 1786803413151
-      },
-      {
-        "headline": "Lula Returns To Site Of Political Origins To Launch Fourth-Term Campaign",
-        "url": "https://www.theguardian.com/world/2026/aug/15/brazil-president-lula-strikes-launch-fourth-term-campaign",
-        "timestamp": 1786773600000,
-        "postedAt": 1786803413151
       },
       {
         "headline": "Democrats Lead Republicans On Economy Heading Into Midterms: Poll",

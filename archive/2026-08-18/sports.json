@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787060663398,
+  "lastUpdated": 1787095982624,
   "heroSetDate": "2026-08-18",
   "hero": {
     "headline": "COWBOYS LAND VON MILLER AFTER STEPHEN JONES' KEY SALES PITCH",
@@ -14,6 +14,40 @@
     "img": true
   },
   "groups": [
+    {
+      "title": "NFL TRAINING CAMP ROUNDUP",
+      "stories": [
+        {
+          "headline": "5 Things We Learned About The Steelers At Training Camp In Latrobe",
+          "url": "https://www.post-gazette.com/sports/steelers/2026/08/18/trainingcamp-mccarthy-rodgers-allar-analysis/stories/202608180043",
+          "timestamp": 1787093593000,
+          "postedAt": 1787095982624
+        },
+        {
+          "headline": "Chargers Center Tyler Biadasz Carted Off Field With Leg Injury",
+          "url": "https://deadspin.com/chargers-c-tyler-biadasz-carted-off-field-with-leg-injury/",
+          "timestamp": 1787087820000,
+          "postedAt": 1787095982624
+        }
+      ]
+    },
+    {
+      "title": "COLLEGE FOOTBALL PRESEASON RANKINGS",
+      "stories": [
+        {
+          "headline": "TCU Dismisses Transfer Safety Fields Over Violation Of Team Rules",
+          "url": "https://www.espn.com/college-football/story/_/id/49652328/tcu-dismisses-transfer-safety-fields-violation-team-rules",
+          "timestamp": 1787090280000,
+          "postedAt": 1787095982624
+        },
+        {
+          "headline": "College Football Rankings: Where All 138 FBS Teams Stand Ahead Of 2026 Kickoff",
+          "url": "https://www.foxsports.com/stories/college-football/rankings-2026-preseason-138",
+          "timestamp": 1787086920000,
+          "postedAt": 1787095982624
+        }
+      ]
+    },
     {
       "title": "WNBA STORYLINES",
       "stories": [
@@ -116,78 +150,24 @@
           "postedAt": 1786887185090
         }
       ]
-    },
-    {
-      "title": "COLLEGE FOOTBALL CAMP NOTES",
-      "stories": [
-        {
-          "headline": "Curt Cignetti Fires Back After Indiana Takes Heat For Canceling Notre Dame Series",
-          "url": "https://www.usatoday.com/story/sports/ncaaf/bigten/2026/08/15/what-curt-cignetti-said-about-indiana-notre-dame-series-canceled-football-schedule/91317626007/",
-          "timestamp": 1786778100000,
-          "postedAt": 1786805047131
-        },
-        {
-          "headline": "Tennessee Football Safety Edrees Farooq Suffers Season-Ending Injury",
-          "url": "https://www.si.com/college/tennessee/football/tennessee-football-safety-edrees-farooq-suffers-season-ending-injury-01m00gpntmea",
-          "timestamp": 1786777380000,
-          "postedAt": 1786805047131
-        }
-      ]
-    },
-    {
-      "title": "NFL PRESEASON CAMP WATCH",
-      "stories": [
-        {
-          "headline": "Tua Drops Honest Quote After Struggles In Falcons' Preseason Debut Amid Michael Penix Jr. QB1 Battle",
-          "url": "https://bleacherreport.com/articles/25472497-tua-drops-honest-quote-after-struggles-falcons-preseason-debut-amid-michael-penix-jr-qb1-battle",
-          "timestamp": 1786777800000,
-          "postedAt": 1786805047131
-        },
-        {
-          "headline": "Bears WR Luther Burden (Groin) Running On Field",
-          "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-08-15/bears-wr-luther-burden-groin-running-on-field",
-          "timestamp": 1786777800000,
-          "postedAt": 1786805047131
-        }
-      ]
-    },
-    {
-      "title": "SOCCER TRANSFER MARKET MOVES",
-      "stories": [
-        {
-          "headline": "Nestory Irankunda Leaves Watford For Sporting CP",
-          "url": "https://www.espn.com/soccer/story/_/id/49588373/nestory-irankunda-leaves-watford-portuguese-giants-sporting-cp",
-          "timestamp": 1786777620000,
-          "postedAt": 1786805047131
-        },
-        {
-          "headline": "Report: Barcelona's Condition To Move For Man City Heavyweight",
-          "url": "https://sports.yahoo.com/articles/report-condition-deco-laid-down-140000570.html",
-          "timestamp": 1786777140000,
-          "postedAt": 1786805047131
-        }
-      ]
-    },
-    {
-      "title": "EUROPEAN CLUBS' PRESEASON FRIENDLIES",
-      "stories": [
-        {
-          "headline": "Milan Vs. Man United: Friendly Live Score And Match Stats",
-          "url": "https://www.si.com/soccer/milan-vs-man-utd-friendly-live-score-match-stats",
-          "timestamp": 1786776300000,
-          "postedAt": 1786805047131
-        },
-        {
-          "headline": "Preseason: Newcastle Vs. Bayer Leverkusen Match Thread",
-          "url": "https://cominghomenewcastle.sbnation.com/newcastle-united-match-threads/24403/preseason-newcastle-vs-everton-match-thread",
-          "timestamp": 1786776300000,
-          "postedAt": 1786805047131
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Near Top-30 Bubble, Viktor Hovland Enters BMW With Surprising St. Louis Connection",
+        "url": "https://deadspin.com/near-top-30-bubble-viktor-hovland-enters-bmw-with-surprising-st-louis-connection/",
+        "timestamp": 1787087820000,
+        "postedAt": 1787095982624
+      },
+      {
+        "headline": "Dodgers Reportedly Placing Struggling Closer Edwin Díaz On Injured List As Bullpen Woes Continue",
+        "url": "https://www.cbssports.com/mlb/news/edwin-diaz-injured-list-dodgers-bullpen/",
+        "timestamp": 1787091180000,
+        "photo": true,
+        "postedAt": 1787095982624,
+        "image": "/img/sports-0.jpg"
+      },
       {
         "headline": "NFL Hot Seat Rankings: 13 First-Round Picks Under Pressure",
         "url": "https://www.cbssports.com/nfl/news/nfl-hot-seat-2026-players-coaches-all-32-teams/",
@@ -206,7 +186,7 @@
         "timestamp": 1787040499000,
         "photo": true,
         "postedAt": 1787060663398,
-        "image": "/img/sports-0.jpg"
+        "image": "/img/sports-1.jpg"
       },
       {
         "headline": "Zdeno Chara Set For Farewell Game In Slovakia",
@@ -237,8 +217,7 @@
         "url": "https://www.barstoolsports.com/blog/3575482/tape-never-lies-odell-beckham-knows-what-sort-of-game-he-had-on-saturday-time",
         "timestamp": 1786971375000,
         "photo": true,
-        "postedAt": 1786973994770,
-        "image": "/img/sports-2.jpg"
+        "postedAt": 1786973994770
       },
       {
         "headline": "The Ringer Picks England's All-Time Women's XI",
@@ -283,28 +262,21 @@
         "url": "https://www.espn.com/nfl/story/_/id/49619516/why-titans-believe-brian-daboll-maximize-cam-ward-potential",
         "timestamp": 1786874400000,
         "postedAt": 1786887185090
-      },
-      {
-        "headline": "Red Sox Try To Right The Ship After Recent Skid Vs. Pirates",
-        "url": "https://www.cbssports.com/mlb/news/red-sox-fall-on-hard-times-after-surge-try-to-right-ship-vs-pirates/",
-        "timestamp": 1786777260000,
-        "postedAt": 1786805047131
-      },
-      {
-        "headline": "How The Tigers Went From 22-38 To MLB's Best Run Differential Since June",
-        "url": "https://www.si.com/mlb/tigers/onsi/how-detroit-tigers-went-from-22-38-mlb-best-run-differential-since-june",
-        "timestamp": 1786777140000,
-        "photo": true,
-        "postedAt": 1786805047131
-      },
-      {
-        "headline": "Paige Cuts Promo On Nikki Bella's Heel Turn After WWE SmackDown",
-        "url": "https://bleacherreport.com/articles/25472495-watch-paiges-cut-promo-nikki-bellas-heel-turn-new-video-after-wwe-smackdown",
-        "timestamp": 1786777140000,
-        "postedAt": 1786805047131
       }
     ],
     "center": [
+      {
+        "headline": "Ketel Marte Placed On Restricted List, Latest On Diamondbacks Star's Injury Status",
+        "url": "https://bleacherreport.com/articles/25474262-ketel-marte-placed-restricted-list-latest-rumors-diamondbacks-stars-injury-status",
+        "timestamp": 1787090014000,
+        "postedAt": 1787095982624
+      },
+      {
+        "headline": "Max Fried Lands Back On IL With Elbow Injury: How Yankees Can Withstand Another Hit",
+        "url": "https://www.cbssports.com/mlb/news/max-fried-yankees-injured-list-playoff-race-rotation/",
+        "timestamp": 1787087580000,
+        "postedAt": 1787095982624
+      },
       {
         "headline": "MLB SETS FULL 2026 POSTSEASON SCHEDULE, WORLD SERIES DATES LOCKED IN",
         "url": "https://www.foxsports.com/stories/mlb/2026-mlb-playoff-schedule-dates-rounds-how-watch",
@@ -348,7 +320,7 @@
         "timestamp": 1786971375000,
         "photo": true,
         "postedAt": 1786973994770,
-        "image": "/img/sports-3.jpg"
+        "image": "/img/sports-2.jpg"
       },
       {
         "headline": "Cowboys Still Tops In NFL Value As Seahawks Put Franchise Up For Sale",
@@ -375,36 +347,28 @@
         "timestamp": 1786881088000,
         "photo": true,
         "postedAt": 1786887185089,
-        "image": "/img/sports-4.jpg"
+        "image": "/img/sports-3.jpg"
       },
       {
         "headline": "For Baseball's Youngest Pitcher, It's Never Too Early To Chase His Dream",
         "url": "https://www.mlb.com/news/didier-fuentes-youngest-pitcher-in-mlb-turned-star-reliever",
         "timestamp": 1786713896000,
         "postedAt": 1786887185090
-      },
-      {
-        "headline": "Women's Race Walk World Records Set At European Championships",
-        "url": "https://www.foxsports.com/articles/soccer/womens-race-walk-world-records-set-at-european-championships",
-        "timestamp": 1786777560000,
-        "photo": true,
-        "postedAt": 1786805047131
-      },
-      {
-        "headline": "UFC 330: Fight Card And Start Time For Makhachev Vs. Machado Garry",
-        "url": "https://sports.yahoo.com/articles/ufc-330-start-time-fight-140000136.html",
-        "timestamp": 1786777140000,
-        "photo": true,
-        "postedAt": 1786805047131
-      },
-      {
-        "headline": "Padikkal's Century Powers India On Day 1 Vs. Sri Lanka",
-        "url": "https://apnews.com/article/sri-lanka-india-first-test-d0cc44a8f6275c6b2af57c7ed554bae4",
-        "timestamp": 1786775820000,
-        "postedAt": 1786805047131
       }
     ],
     "right": [
+      {
+        "headline": "Report: Union Finalizing Transfer For USMNT's Mark McKenzie",
+        "url": "https://deadspin.com/report-union-finalizing-transfer-for-usmnts-mark-mckenzie/",
+        "timestamp": 1787090220000,
+        "postedAt": 1787095982624
+      },
+      {
+        "headline": "Rays Stadium Votes Close To Being Set, Hope Is For Next Week",
+        "url": "https://www.tampabay.com/sports/rays/2026/08/18/hagan-rays-stadium-votes-close-being-set-hope-is-next-week/",
+        "timestamp": 1787086737000,
+        "postedAt": 1787095982624
+      },
       {
         "headline": "Norway's Klaveness Slams Infantino's FIFA Over 'Management By Fear'",
         "url": "https://apnews.com/article/fifa-lamour-infantino-norway-klaveness-42cb8b80b6c076ea75f409f638ff6c0c",
@@ -416,14 +380,6 @@
         "url": "https://www.batterypower.com/atlanta-braves-scores/138324/atlanta-braves-minnesota-twins-recap-final-score-martin-perez-no-dingers",
         "timestamp": 1787024400000,
         "postedAt": 1787060663398
-      },
-      {
-        "headline": "Diamondbacks Place Ketel Marte On Restricted List After No-Show",
-        "url": "https://sports.yahoo.com/mlb/breaking-news/article/diamondbacks-place-ketel-marte-on-restricted-list-after-he-doesnt-show-up-for-game-vs-red-sox-232650867.html",
-        "timestamp": 1787023500000,
-        "photo": true,
-        "postedAt": 1787060663398,
-        "image": "/img/sports-1.jpg"
       },
       {
         "headline": "Colts Land Wide Receiver Keenan Allen On One-Year Deal",
@@ -470,31 +426,6 @@
         "postedAt": 1786887185090
       },
       {
-        "headline": "Hamer's Return Headlines Coventry's Confident Preseason Evening",
-        "url": "https://sports.yahoo.com/articles/hamers-return-headline-coventrys-confident-134818141.html",
-        "timestamp": 1786776480000,
-        "postedAt": 1786805047131
-      },
-      {
-        "headline": "Celtics Get Short End Of Stick In 2026-27 NBA Schedule",
-        "url": "https://sports.yahoo.com/articles/celtics-short-end-stick-2026-134346227.html",
-        "timestamp": 1786776240000,
-        "postedAt": 1786805047131
-      },
-      {
-        "headline": "India Beats Wales 3-1 In Field Hockey World Cup Opener",
-        "url": "https://www.espn.com/field-hockey/story/_/id/49613710/india-vs-wales-live-fih-mens-hockey-world-cup-august-15-2026-scores-updates-commentary-news",
-        "timestamp": 1786776120000,
-        "photo": true,
-        "postedAt": 1786805047131
-      },
-      {
-        "headline": "College Football's Most Homegrown Teams For 2026",
-        "url": "https://www.cbssports.com/college-football/news/college-football-most-homegrown-teams-2026/",
-        "timestamp": 1786775700000,
-        "postedAt": 1786805047131
-      },
-      {
         "headline": "AP Preseason Top 25 Has Ohio State, Oregon 1-2 With SEC Leading The Way",
         "url": "https://www.nbcsports.com/college-football/news/ohio-state-and-oregon-are-1-2-in-the-ap-preseason-top-25-sec-leads-conferences-with-9-ranked-teams",
         "timestamp": 1786987070000,
@@ -503,33 +434,6 @@
     ]
   },
   "scoreboard": [
-    {
-      "league": "NFL",
-      "home": "KC",
-      "away": "LAR",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "12",
-      "awayScore": "20"
-    },
-    {
-      "league": "NFL",
-      "home": "NO",
-      "away": "JAX",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "20",
-      "awayScore": "24"
-    },
-    {
-      "league": "NFL",
-      "home": "BAL",
-      "away": "PHI",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "24",
-      "awayScore": "7"
-    },
     {
       "league": "NFL",
       "home": "SEA",
@@ -543,73 +447,73 @@
       "league": "MLB",
       "home": "BAL",
       "away": "NYY",
-      "state": "scheduled",
-      "note": "8/18 - 6:35 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "End 3rd",
+      "homeScore": "1",
+      "awayScore": "1"
     },
     {
       "league": "MLB",
       "home": "PIT",
       "away": "DET",
-      "state": "scheduled",
-      "note": "8/18 - 6:40 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Bot 5th",
+      "homeScore": "0",
+      "awayScore": "1"
     },
     {
       "league": "MLB",
       "home": "PHI",
       "away": "MIA",
-      "state": "scheduled",
-      "note": "8/18 - 6:40 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Bot 3rd",
+      "homeScore": "1",
+      "awayScore": "1"
     },
     {
       "league": "MLB",
       "home": "CLE",
       "away": "SF",
-      "state": "scheduled",
-      "note": "8/18 - 6:40 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Bot 3rd",
+      "homeScore": "5",
+      "awayScore": "1"
     },
     {
       "league": "MLB",
       "home": "CIN",
       "away": "STL",
-      "state": "scheduled",
-      "note": "8/18 - 6:40 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Top 4th",
+      "homeScore": "0",
+      "awayScore": "0"
     },
     {
       "league": "MLB",
       "home": "TB",
       "away": "TOR",
-      "state": "scheduled",
-      "note": "8/18 - 6:40 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Bot 3rd",
+      "homeScore": "0",
+      "awayScore": "4"
     },
     {
       "league": "MLB",
       "home": "BOS",
       "away": "ARI",
-      "state": "scheduled",
-      "note": "8/18 - 7:10 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Bot 1st",
+      "homeScore": "3",
+      "awayScore": "0"
     },
     {
       "league": "MLB",
       "home": "NYM",
       "away": "SD",
-      "state": "scheduled",
-      "note": "8/18 - 7:10 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Mid 2nd",
+      "homeScore": "0",
+      "awayScore": "1"
     },
     {
       "league": "MLB",

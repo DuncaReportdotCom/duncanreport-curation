@@ -1,28 +1,115 @@
 {
-  "lastUpdated": 1786974267540,
-  "heroSetDate": "2026-08-17",
+  "lastUpdated": 1787096218112,
+  "heroSetDate": "2026-08-18",
   "hero": {
-    "headline": "UKRAINE LAUNCHES ONE OF ITS LARGEST AERIAL ATTACKS OF THE WAR ON RUSSIA",
-    "url": "https://apnews.com/article/russia-ukraine-war-01294bf8744282086e8f76c8130e16ba",
+    "headline": "UAE SUSPENDS TRADE WITH IRAN AFTER MISSILE ATTACK AS TRUMP CLAIMS STRAIT OF HORMUZ AS 'US TERRITORY'",
+    "url": "https://en.mercopress.com/2026/08/18/trump-posts-a-map-designating-the-strait-of-hormuz-as-new-us-territory",
     "sublinks": [
       {
-        "text": "CNN Footage Reveals Ukraine's Patriot Missile Launchers Sitting Empty",
-        "url": "https://www.cnn.com/2026/08/17/world/video/cnn-first-to-see-ukraines-empty-patriot-launchers-vrt"
+        "text": "UAE Detects Two Missiles Fired From Iranian Territory",
+        "url": "https://www.reuters.com/world/middle-east/uae-says-iran-launched-two-missiles-it-2026-08-18/"
+      },
+      {
+        "text": "UAE Halts All Trade And Financial Dealings With Iran",
+        "url": "https://www.lemonde.fr/en/international/article/2026/08/19/uae-halts-all-trade-and-financial-dealings-with-iran-after-missile-incident_6756649_4.html"
+      },
+      {
+        "text": "Deadly Ship Attack In Hormuz As Trump Insists Strait Remains Open",
+        "url": "https://www.cnbc.com/2026/08/18/iran-war-strait-hormuz-ship-traffic-oil.html"
+      },
+      {
+        "text": "Trump Posts Map Declaring Strait Of Hormuz 'New US Territory'",
+        "url": "https://en.mercopress.com/2026/08/18/trump-posts-a-map-designating-the-strait-of-hormuz-as-new-us-territory"
       }
     ],
-    "postedAt": 1786974267540,
+    "postedAt": 1787096218112,
     "img": true
   },
   "groups": [
     {
-      "title": "IRAN STANDOFF: HORMUZ TENSIONS DEEPEN AS CEASEFIRE TALKS STALL",
+      "title": "IRAN WAR ESCALATES AS CEASEFIRE COLLAPSES",
       "stories": [
         {
-          "headline": "Iran Nears Deal With Oman Over Strait Of Hormuz Passage",
-          "url": "https://apnews.com/article/iran-us-israel-lebanon-gaza-hormuz-august-17-2026-53ae10812e472a4e5bb228b9f318a5fc",
-          "timestamp": 1786970280000,
-          "postedAt": 1786974267540
+          "headline": "Trump Says No Iran Talks Are Planned",
+          "url": "https://apnews.com/article/iran-us-israel-lebanon-gaza-hormuz-august-18-2026-9c48af23b713709e8e170191fbc78c2a",
+          "timestamp": 1787091840000,
+          "postedAt": 1787096218112
         },
+        {
+          "headline": "Pentagon Weighs Smaller US Military Presence In Gulf After Iran War",
+          "url": "https://www.defensepriorities.org/in-the-media/pentagon-weighing-smaller-u-s-military-presence-in-gulf-once-iran-war-ends/",
+          "timestamp": 1787091085000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "Chinese State Shipping Firms Avoid Chokepoints Threatened By Iran",
+          "url": "https://www.breitbart.com/middle-east/2026/08/18/chinese-state-shipping-companies-back-away-chokepoints-threatened-iran/",
+          "timestamp": 1787088528000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "Trump Threatens To Bomb Oman As Iran War Stalemate Continues",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-deal-expired-strait-of-hormuz/",
+          "timestamp": 1787031600000,
+          "postedAt": 1787096218112
+        }
+      ]
+    },
+    {
+      "title": "ISRAEL, GAZA AND SYRIA",
+      "stories": [
+        {
+          "headline": "Israel Strikes Air Base In Northwest Syria To Block Turkish Deployment",
+          "url": "https://apnews.com/article/syria-israel-turkey-airstrikes-idlib-3a0e758c87ded0f26ed71b4a92db6816",
+          "timestamp": 1787090100000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "IAEA Finds 'Tons' Of Nuclear Material In Syria",
+          "url": "https://www.timesofisrael.com/iaea-finds-few-tons-of-nuclear-material-in-syria-says-it-will-go-under-safeguards/",
+          "timestamp": 1787074080000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "Kushner Urges Netanyahu To Test Hamas Disarmament In Gaza",
+          "url": "https://www.axios.com/2026/08/17/kushner-netanyahu-hamas-gaza",
+          "timestamp": 1787072885000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "Israeli Strike On Gaza City Cafe Kills Six, Targeting Hamas Commanders",
+          "url": "https://www.jpost.com/israel-news/defense-news/article-905915",
+          "timestamp": 1787071938000,
+          "postedAt": 1787096218112
+        }
+      ]
+    },
+    {
+      "title": "UKRAINE WAR",
+      "stories": [
+        {
+          "headline": "Ukraine's Ousted Defense Minister Urges Path To Wartime Elections",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/18/ukraine-s-ousted-defense-minister-mykhailo-fedorov-urges-path-to-elections_6756648_4.html",
+          "timestamp": 1787089410000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "Russians Pull Billions From Banks Fearing Kremlin Will Seize War Deposits",
+          "url": "https://united24media.com/world/russians-pull-94-billion-from-banks-as-cash-withdrawal-reaches-2022-panic-levels-21815",
+          "timestamp": 1787068800000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "Russian Missile Attack Kills 10 In Northeast Ukraine, Zelensky Vows Response",
+          "url": "https://www.reuters.com/world/europe/russian-missile-attack-kills-10-ukraines-kharkiv-region-officials-say-2026-08-18/",
+          "timestamp": 1787056646000,
+          "postedAt": 1787096218112
+        }
+      ]
+    },
+    {
+      "title": "IRAN STANDOFF: HORMUZ TENSIONS DEEPEN AS CEASEFIRE TALKS STALL",
+      "stories": [
         {
           "headline": "Iran's Secret Plan To Escalate The War, Officials Say",
           "url": "https://unn.ua/en/news/iran-has-embarked-on-a-secret-plan-to-escalate-the-war-wsj",
@@ -93,124 +180,49 @@
           "postedAt": 1786887459542
         }
       ]
-    },
-    {
-      "title": "FARAGE'S REFORM UK WINS CLACTON BY-ELECTION AMID FRESH PROBE",
-      "stories": [
-        {
-          "headline": "Reform UK's Farage Beats Slate Of Fringe Candidates In Election Boycotted By Major Parties",
-          "url": "https://apnews.com/article/britain-politics-farage-binface-clacton-election-reform-uk-16f5c7deff9de672c1c9b1950513b52f",
-          "timestamp": 1786715760000,
-          "postedAt": 1786717084229
-        },
-        {
-          "headline": "Farage Faces Renewed Watchdog Probe After Clacton By-Election Victory",
-          "url": "https://www.bbc.com/news/articles/c62x1gr62m1o",
-          "timestamp": 1786714495000,
-          "postedAt": 1786717084229
-        }
-      ]
-    },
-    {
-      "title": "EUROPE BATTLES WILDFIRES AND RECORD HEAT",
-      "stories": [
-        {
-          "headline": "European Countries Battle Multiple Wildfires As Record Heat Grips The Continent",
-          "url": "https://apnews.com/article/fires-france-england-heat-drought-bb9926465acf98a7790a7bf01294f604",
-          "timestamp": 1786715220000,
-          "postedAt": 1786717084229
-        },
-        {
-          "headline": "For France's PM, A Tense Summer Of Wildfires And Budget Planning",
-          "url": "https://www.lemonde.fr/en/politics/article/2026/08/14/for-france-s-pm-a-tense-summer-of-wildfires-and-budget-planning_6756506_5.html",
-          "timestamp": 1786712412000,
-          "postedAt": 1786717084229
-        },
-        {
-          "headline": "UK And France Prepare For Another Heat Wave As Western Europe Nears Hottest Year On Record",
-          "url": "https://www.pbs.org/newshour/world/uk-and-france-prepare-for-another-heat-wave-as-western-europe-has-its-3rd-hottest-year-on-record-so-far",
-          "timestamp": 1786379414000,
-          "postedAt": 1786717084229
-        }
-      ]
-    },
-    {
-      "title": "EUROPE'S MIGRATION CRISIS DEEPENS AFTER CEUTA SURGE",
-      "stories": [
-        {
-          "headline": "Instagram Accounts Fueling Ceuta Crisis With Paid Advice To Cross",
-          "url": "https://www.bbc.com/news/articles/c89n20wj9kko",
-          "timestamp": 1786709961000,
-          "postedAt": 1786717084229
-        },
-        {
-          "headline": "A Look At Spain's Plan To Give Undocumented Migrants Legal Status",
-          "url": "https://www.pbs.org/newshour/show/a-look-at-spains-plan-to-give-undocumented-migrants-legal-status",
-          "timestamp": 1786574425000,
-          "postedAt": 1786717084229
-        },
-        {
-          "headline": "EU Should Use Leverage With Morocco After Ceuta Crossings, Migration Chief Says",
-          "url": "https://www.reuters.com/world/africa/eu-should-use-all-leverage-secure-moroccos-cooperation-eu-migration-chief-says-2026-08-06/",
-          "timestamp": 1786033995000,
-          "postedAt": 1786717084229
-        }
-      ]
-    },
-    {
-      "title": "UKRAINE WAR: SANCTIONS TIGHTEN AS STRIKES INTENSIFY",
-      "stories": [
-        {
-          "headline": "Senate Passes Russia Sanctions Bill Long Championed By Lindsey Graham",
-          "url": "https://www.npr.org/2026/08/07/nx-s1-5924914/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham",
-          "timestamp": 1786124020000,
-          "postedAt": 1786717084229
-        },
-        {
-          "headline": "EU Lists Five More Individuals Supporting Russia's Military-Industrial Complex",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/08/07/russia-s-war-of-aggression-against-ukraine-eu-lists-five-additional-individuals-supporting-russia-s-military-industrial-complex/",
-          "timestamp": 1786098702000,
-          "postedAt": 1786717084229
-        }
-      ]
-    },
-    {
-      "title": "US-IRAN STANDOFF ESCALATES AS FORCES SURGE",
-      "stories": [
-        {
-          "headline": "U.S. Sending Fresh Aircraft Carrier To Middle East Amid Iran War Strain",
-          "url": "https://www.npr.org/2026/08/14/nx-s1-5931183/new-aircraft-carrier-heads-toward-mideast-after-reports-of-issues-on-long-deployed-uss-lincoln",
-          "timestamp": 1786651260000,
-          "postedAt": 1786717084229
-        },
-        {
-          "headline": "Trump Tells Axios U.S. Is 'Low-Keying It' With Iran",
-          "url": "https://www.axios.com/2026/08/09/trump-iran-interview",
-          "timestamp": 1786294687000,
-          "postedAt": 1786717084229
-        }
-      ]
-    },
-    {
-      "title": "GERMANY'S AFD MOMENTUM RESHAPES POLITICS AND ECONOMY",
-      "stories": [
-        {
-          "headline": "Merz's Deal With The Taliban Alarms Afghan Dissidents In Germany",
-          "url": "https://www.politico.eu/article/germany-taliban-deportations-afghan-dissidents-fear-persecution/",
-          "timestamp": 1786503600000,
-          "postedAt": 1786717084229
-        },
-        {
-          "headline": "Germany's Far-Right AfD Extends Its Lead In Nationwide Polls",
-          "url": "https://www.dw.com/en/germany-far-right-afd-extends-its-lead-in-nationwide-polls/a-78279279",
-          "timestamp": 1786105621000,
-          "postedAt": 1786717084229
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "US And Canada Hold Last-Minute Talks To Stop Trump's 50% Tariffs",
+        "url": "https://apnews.com/article/tariffs-trump-canada-usmca-trade-aae597c22617bec7a99f670a2c787ef9",
+        "timestamp": 1787090880000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Russia's Lavrov Says Britain Risks Being Seen As Party To Ukraine War",
+        "url": "https://www.reuters.com/world/uk/russias-lavrov-says-britain-risks-being-seen-party-ukraine-war-2026-08-18/",
+        "timestamp": 1787072024000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Humans Love Having Pets. Other Primates May Too",
+        "url": "https://www.smithsonianmag.com/smart-news/do-monkeys-keep-pets-study-finds-widespread-primate-interactions-with-other-animal-species-from-mice-to-deer-180989356/",
+        "timestamp": 1787061608000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Zambia's Hakainde Hichilema Declared Winner Of Troubled Election",
+        "url": "https://apnews.com/article/zambia-election-hichilema-victory-562c0ee56653c8dc835af7556c913aab",
+        "timestamp": 1787054640000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Stunning Views Of The Total Solar Eclipse Captured From Space",
+        "url": "https://www.space.com/stargazing/solar-eclipses/see-gorgeous-views-of-the-aug-12-total-solar-eclipse-captured-from-space",
+        "timestamp": 1787047200000,
+        "photo": true,
+        "postedAt": 1787096218112,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "US Tourist Dies After Lightning Strike Hiking Sicily's Mount Etna",
+        "url": "https://www.cnn.com/2026/08/18/europe/us-tourist-lightning-strike-mount-etna-italy-hnk",
+        "timestamp": 1787035325000,
+        "photo": true,
+        "postedAt": 1787096218112
+      },
       {
         "headline": "Venomous Portuguese Man-Of-War Jellyfish Return To French Beaches",
         "url": "https://www.lemonde.fr/en/environment/article/2026/08/17/portuguese-man-o-war-a-highly-venomous-marine-organism-returns-to-beaches-in-southwestern-france_6756571_114.html",
@@ -244,52 +256,6 @@
         "postedAt": 1786887459542
       },
       {
-        "headline": "Earthquake Rocks Spain's Tourist Jewel Granada",
-        "url": "https://www.rfi.fr/en/international-news/20260815-earthquake-rocks-spain-s-tourist-jewel-granada",
-        "timestamp": 1786779360000,
-        "photo": true,
-        "postedAt": 1786806680716
-      },
-      {
-        "headline": "Europe Wildfires: Latest Developments",
-        "url": "https://www.rfi.fr/en/international-news/20260815-europe-wildfires-latest-developments",
-        "timestamp": 1786778880000,
-        "photo": true,
-        "postedAt": 1786806680716
-      },
-      {
-        "headline": "Burkina Faso Imposes Military Training On Journalists",
-        "url": "https://www.africanews.com/2026/08/15/burkina-faso-imposes-military-training-on-journalists/",
-        "timestamp": 1786778100000,
-        "postedAt": 1786806680716
-      },
-      {
-        "headline": "Daniel Kinahan, Ireland's Most Wanted Man, Faces His Day In Court",
-        "url": "https://www.icij.org/news/2026/08/alleged-cartel-boss-daniel-kinahan-charged-in-ireland-following-high-security-extradition/",
-        "timestamp": 1786711552000,
-        "postedAt": 1786717084229
-      },
-      {
-        "headline": "Netanyahu Calls UK 'The Islamic Republic Of Britain'",
-        "url": "https://www.aljazeera.com/news/2026/8/14/israeli-pm-netanyahu-calls-uk-the-islamic-republic-of",
-        "timestamp": 1786709284000,
-        "photo": true,
-        "postedAt": 1786717084229,
-        "image": "/img/world-1.jpg"
-      },
-      {
-        "headline": "Mother Jailed For Baby Daughter's Hairdryer Burns Death",
-        "url": "https://www.bbc.com/news/articles/c62918ddg3lo",
-        "timestamp": 1786709083000,
-        "postedAt": 1786717084229
-      },
-      {
-        "headline": "China Cannot Afford To Use Its Alternative To The Dollar",
-        "url": "https://www.realclearworld.com/articles/2026/08/10/china_cannot_afford_to_use_its_alternative_to_the_dollar_1199482.html",
-        "timestamp": 1786382612000,
-        "postedAt": 1786717084229
-      },
-      {
         "headline": "Ukrainian Drones Strike Major Oil Refinery Deep Inside Russia, Setting It Ablaze",
         "url": "https://www.pbs.org/newshour/world/ukrainian-drones-strike-major-oil-refinery-deep-inside-russia-setting-it-ablaze",
         "timestamp": 1786652835000,
@@ -303,6 +269,50 @@
       }
     ],
     "center": [
+      {
+        "headline": "Migrants Stranded At Europe's Gates In Ceuta Await Their Fate",
+        "url": "https://www.france24.com/en/europe/20260818-ceuta-migrants-stranded-europes-gates-await-their-fate",
+        "timestamp": 1787068361000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Angelique Kidjo Becomes First Black African To Get Hollywood Walk Of Fame Star",
+        "url": "https://www.france24.com/en/culture/20260818-angelique-kidjo-hollywood-walk-of-fame",
+        "timestamp": 1787092860000,
+        "photo": true,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Taliban Marks Five Years In Power, Condemns World For Not Recognizing It",
+        "url": "https://www.breitbart.com/asia/2026/08/18/taliban-marks-five-years-in-power-condemning-the-world-for-not-recognizing-it/",
+        "timestamp": 1787090199000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Why Is PM CARES Fund Keeping Large Sums Idle, Asks RTI Activist",
+        "url": "https://www.thehindu.com/news/national/pm-cares-fund-audit-2024-25-domestic-foreign-donations/article71360330.ece",
+        "timestamp": 1787088893000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Three Dead After Family Gets Into Difficulty In Sea Near Shoreham Port",
+        "url": "https://www.bbc.com/news/articles/cm2gmjd36pvo",
+        "timestamp": 1787088656000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "British Honeymoon Couple Killed In Helicopter Crash On Greek Island",
+        "url": "https://www.bbc.com/news/articles/cx2lzj91d84o",
+        "timestamp": 1787067013000,
+        "photo": true,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Philippine Student Livestreamed Fatal School Shooting Before Taking Own Life",
+        "url": "https://www.ksl.com/article/51611047/philippine-student-livestreamed-fatal-school-shooting-before-taking-own-life-official-says",
+        "timestamp": 1787062169000,
+        "postedAt": 1787096218112
+      },
       {
         "headline": "Belgian Wildfire Nears Germany As Greece Probes Deadly Blaze",
         "url": "https://apnews.com/article/wildfire-belgium-france-heat-europe-greece-cd5a8524ca3136b009422bd24eb4194e",
@@ -337,52 +347,44 @@
         "postedAt": 1786887459542
       },
       {
-        "headline": "Trump's Canada Tariffs Poison The Well For Global Investment",
-        "url": "https://www.realclearworld.com/articles/2026/08/15/trumps_canada_tariffs_poison_the_well_for_global_investment_1200556.html",
-        "timestamp": 1786795253000,
-        "postedAt": 1786887459542
-      },
-      {
-        "headline": "More Funding For Farmers Amid Drought And Wildfires",
-        "url": "https://www.bbc.com/news/articles/crrv8nq7x9do",
-        "timestamp": 1786779300000,
-        "postedAt": 1786806680716
-      },
-      {
-        "headline": "Palestinian Nurse Paralyzed After Settlers Open Fire Near His Home",
-        "url": "https://www.timesofisrael.com/liveblog_entry/palestinian-nurse-paralyzed-after-settlers-opened-fire-near-his-home-nursing-union-says-boy-16-said-injured-in-separate-incident/",
-        "timestamp": 1786777620000,
-        "photo": true,
-        "postedAt": 1786806680716
-      },
-      {
-        "headline": "Rare Summer Rains Drench Jerusalem Area, Golan Heights",
-        "url": "https://www.timesofisrael.com/liveblog_entry/rare-summer-rains-shower-jerusalem-area-golan-heights-flash-flood-warnings-issued-in-judean-desert-northern-negev/",
-        "timestamp": 1786777320000,
-        "postedAt": 1786806680716
-      },
-      {
-        "headline": "France's Constitutional Council Approves Assisted-Dying Law",
-        "url": "https://www.lemonde.fr/en/france/article/2026/08/14/constitutional-council-approves-france-s-assisted-dying-law_6756508_7.html",
-        "timestamp": 1786714976000,
-        "postedAt": 1786717084229
-      },
-      {
-        "headline": "American Missionary Kidnapped In Niger Released After 9 Months",
-        "url": "https://abcnews.com/International/wireStory/us-missionary-kidnapped-niger-released-after-9-months-135634711",
-        "timestamp": 1786712538000,
-        "photo": true,
-        "postedAt": 1786717084229,
-        "image": "/img/world-0.jpg"
-      },
-      {
-        "headline": "A Bargain Waiting On NATO's Eastern Edge: Romania",
-        "url": "https://www.realcleardefense.com/articles/2026/08/12/a_bargain_waiting_on_natos_eastern_edge_romania_1199760.html",
-        "timestamp": 1786521827000,
-        "postedAt": 1786717084229
+        "headline": "Chinese Foreign Minister Heads To South Korea After Trump Scales Back Drills",
+        "url": "https://www.breitbart.com/asia/2026/08/18/chinese-foreign-minister-heads-to-south-korea-after-trump-scales-back-military-exercise/amp/",
+        "timestamp": 1787089642000,
+        "postedAt": 1787096218112
       }
     ],
     "right": [
+      {
+        "headline": "UKRAINE LAUNCHES ONE OF ITS LARGEST AERIAL ATTACKS OF THE WAR ON RUSSIA",
+        "url": "https://apnews.com/article/russia-ukraine-war-01294bf8744282086e8f76c8130e16ba",
+        "timestamp": 1786974267540,
+        "postedAt": 1786974267540
+      },
+      {
+        "headline": "US Sanctions ICC President And Senior Prosecutor In Another Move Against The Court",
+        "url": "https://apnews.com/article/international-criminal-court-sanctions-trump-israel-e8da938966f5f8dad763ecf68ea025c9",
+        "timestamp": 1787088240000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Choco, Colombia Faces Deeper Hardship After An Earthquake",
+        "url": "https://thechenabtimes.com/2026/08/18/colombias-choco-region-reels-from-devastating-earthquake-facing-deeper-hardship/?amp",
+        "timestamp": 1787070728000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "People Displaced After Powerful Earthquake In Indonesia, In Photos",
+        "url": "https://apnews.com/photo-gallery/people-await-aid-after-powerful-earthquake-indonesia-photos-3696677a5dc54d5ab4dc52ff05e9b6fb",
+        "timestamp": 1787066940000,
+        "photo": true,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Russia Summons Japanese Envoy Following Putin's Visit To Disputed Islands",
+        "url": "https://apnews.com/article/russia-putin-japan-kuril-islands-northern-territories-61bfbaff966cf066cb623e7825f7d74b",
+        "timestamp": 1787061600000,
+        "postedAt": 1787096218112
+      },
       {
         "headline": "Iran Bars Two French Diplomats Accused Of 'Interference'",
         "url": "https://www.lemonde.fr/en/international/article/2026/08/17/iran-accuses-two-french-diplomats-of-interference_6756587_4.html",
@@ -426,46 +428,6 @@
         "url": "https://www.realcleardefense.com/articles/2026/08/14/the_dragon_on_ice_chinas_quiet_conquest_of_the_arctic_1200323.html",
         "timestamp": 1786703991000,
         "postedAt": 1786887459542
-      },
-      {
-        "headline": "World Cup Winner Ferran Torres Signs For PSG From Barcelona",
-        "url": "https://www.france24.com/en/live-news/20260815-world-cup-winner-ferran-torres-signs-for-paris-saint-germain",
-        "timestamp": 1786779060000,
-        "photo": true,
-        "postedAt": 1786806680716
-      },
-      {
-        "headline": "Teenager Pleads Guilty To Attacking California Sea Lion In Viral Video",
-        "url": "https://www.theguardian.com/us-news/2026/aug/15/teen-pleas-guilty-california-sea-lion-attack",
-        "timestamp": 1786778760000,
-        "photo": true,
-        "postedAt": 1786806680716
-      },
-      {
-        "headline": "Where Now For John Lewis As Boss Exits?",
-        "url": "https://www.theguardian.com/business/2026/aug/15/john-lewis-boss-peter-ruis-department-store-chain",
-        "timestamp": 1786777140000,
-        "postedAt": 1786806680716
-      },
-      {
-        "headline": "10-Year-Old Briton Celebrates Visit To 100th Country In Saudi Arabia",
-        "url": "https://www.arabnews.com/node/2654648/amp",
-        "timestamp": 1786710992000,
-        "photo": true,
-        "postedAt": 1786717084229
-      },
-      {
-        "headline": "Record-Breaking Rain Floods Chiba East Of Tokyo, Killing At Least 5",
-        "url": "https://apnews.com/article/japan-chiba-rain-floods-d37730f09557f9cce4948754fcef673c",
-        "timestamp": 1786709160000,
-        "photo": true,
-        "postedAt": 1786717084229
-      },
-      {
-        "headline": "Al Jazeera Cuts Its Gaza Staff. Does Its Timing Tell A Story?",
-        "url": "https://www.realclearworld.com/articles/2026/08/13/al_jazeera_cuts_its_gaza_staff_does_its_timing_tell_a_story_1200148.html",
-        "timestamp": 1786625667000,
-        "postedAt": 1786717084229
       }
     ]
   }

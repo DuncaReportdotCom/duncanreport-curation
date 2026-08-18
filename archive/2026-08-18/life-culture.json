@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787061899162,
+  "lastUpdated": 1787097208437,
   "heroSetDate": "2026-08-18",
   "hero": {
     "headline": "THE BLACKOUT THAT COULD DEVASTATE AMERICA",
@@ -42,27 +42,29 @@
           "postedAt": 1787061899161
         }
       ]
-    },
-    {
-      "title": "MCCONAUGHEY'S NEW CHAPTER: POLITICS AND MUSIC",
-      "stories": [
-        {
-          "headline": "Matthew McConaughey Teases Political Ambitions After Meeting the Pope",
-          "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/08/15/matthew-mcconaughey-pope-leo-ai-politics/91304463007/",
-          "timestamp": 1786780800000,
-          "postedAt": 1786812113522
-        },
-        {
-          "headline": "Matthew McConaughey's Life in Songs Has Taken Him Everywhere",
-          "url": "https://www.rollingstone.com/music/music-news/matthew-mcconaughey-life-in-songs-1235609364/",
-          "timestamp": 1786778040000,
-          "postedAt": 1786812113522
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Frank Beard, ZZ Top's Beardless Drummer, Dies At 77",
+        "url": "https://www.sfexaminer.com/frank-beard-beardless-drummer-for-zz-top-dies-at-77/article_27de6592-d0cc-59aa-aa9c-e7903ba9e570.html",
+        "timestamp": 1787095575000,
+        "photo": true,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "How Academia Created Jason Arday",
+        "url": "https://www.npr.org/2026/08/18/nx-s1-5935396/britain-cambridge-professor-jason-arday-hiring-questions",
+        "timestamp": 1787090523000,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "This No-Cook Zucchini, Butter Bean And Tuna Salad Makes A Fresh Summer Meal",
+        "url": "https://www.seriouseats.com/zucchini-butter-bean-tuna-salad-recipe-12062817",
+        "timestamp": 1787090400000,
+        "postedAt": 1787097208437
+      },
       {
         "headline": "'Spider-Man: Brand New Day' Hits $2 Billion Worldwide in Three Weeks",
         "url": "https://variety.com/2026/film/box-office/spider-man-brand-new-day-2-billion-worldwide-box-office-second-fastest-milestone-1236834058/",
@@ -94,12 +96,6 @@
         "timestamp": 1787045400000,
         "photo": true,
         "postedAt": 1787061899161
-      },
-      {
-        "headline": "How Academia Created Jason Arday",
-        "url": "https://www.cnn.com/2026/08/16/uk/arday-uk-racism-debate-intl",
-        "timestamp": 1786971103000,
-        "postedAt": 1786974943179
       },
       {
         "headline": "Meet the Only Known Trebuchet Casualty in History",
@@ -134,31 +130,6 @@
         "postedAt": 1786888160028
       },
       {
-        "headline": "Exhaust Shape Matters, and This Dyno Test Shows Why with Visual Proof",
-        "url": "https://www.thedrive.com/news/exhaust-shape-matters-and-this-dyno-test-shows-why-with-visual-proof",
-        "timestamp": 1786780800000,
-        "postedAt": 1786812113522
-      },
-      {
-        "headline": "She Went Viral as 'Peter Pan Girl.' Now She Responds to the Memes",
-        "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/08/15/peter-pan-girl-tiktok-memes-viral-interview/91269634007/",
-        "timestamp": 1786779960000,
-        "photo": true,
-        "postedAt": 1786812113522
-      },
-      {
-        "headline": "11 New Knives You Might've Missed From Benchmade, Spyderco and More",
-        "url": "https://www.gearpatrol.com/outdoors/new-edc-pocket-knife-releases-august-1-2026-2/",
-        "timestamp": 1786777140000,
-        "postedAt": 1786812113522
-      },
-      {
-        "headline": "The Death of Dark Energy Is a False Alarm",
-        "url": "https://www.realclearscience.com/articles/2026/08/15/the_death_of_dark_energy_is_a_false_alarm_1200530.html",
-        "timestamp": 1786733280000,
-        "postedAt": 1786812113522
-      },
-      {
         "headline": "Classics Professor Emily Wilson Doubles Down On 'Odyssey' Criticism: 'We Need More'",
         "url": "https://www.nme.com/news/film/classics-professor-emily-wilson-doubles-down-on-the-odyssey-criticism-we-need-more-3961136",
         "timestamp": 1785999600000,
@@ -166,6 +137,25 @@
       }
     ],
     "center": [
+      {
+        "headline": "What It's Like Sailing On The Most Exciting New Cruise To Launch This Year",
+        "url": "https://www.afar.com/magazine/in-depth-review-of-the-orient-express-corinthian-yacht",
+        "timestamp": 1787094225000,
+        "photo": true,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "Nobody's Talking About This Weak Link In The Hydrogen Economy: Metal",
+        "url": "https://www.sciencealert.com/nobodys-talking-about-this-weak-link-in-the-hydrogen-economy-metal",
+        "timestamp": 1787090472000,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "'Turn The Volume Up!' Traces A History Of Sound",
+        "url": "https://links.thisiscolossal.com/post/825320529706778624/turn-the-volume-up-highlights-the-history-of/amp",
+        "timestamp": 1787090041000,
+        "postedAt": 1787097208437
+      },
       {
         "headline": "JWST FINDS WATER SURVIVING SURPRISINGLY CLOSE TO OUR GALAXY'S SUPERMASSIVE BLACK HOLE",
         "url": "https://www.sciencealert.com/especially-exciting-jwst-finds-water-surviving-surprisingly-close-to-our-galaxys-supermassive-black-hole",
@@ -233,32 +223,6 @@
         "image": "/img/life-culture-3.jpg"
       },
       {
-        "headline": "Why Is Everyone So Mad About Benny Blanco's Latin Album?",
-        "url": "https://www.rollingstone.com/music/music-features/benny-blanco-latin-album-controversy-explained-1235608217/",
-        "timestamp": 1786780800000,
-        "postedAt": 1786812113522
-      },
-      {
-        "headline": "See 'Tony,' Then Eat Like Anthony Bourdain at His Favorite Food Spots",
-        "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/08/15/anthony-bourdain-favorite-food-spots-new-jersey-new-york/91282093007/",
-        "timestamp": 1786777140000,
-        "photo": true,
-        "postedAt": 1786812113522
-      },
-      {
-        "headline": "5 Things Every 1920s Vanity Table Contained",
-        "url": "https://www.mentalfloss.com/history/things-every-1920s-vanity-table-contained",
-        "timestamp": 1786777140000,
-        "photo": true,
-        "postedAt": 1786812113522
-      },
-      {
-        "headline": "How Do High-Speed Trains Work?",
-        "url": "https://www.realclearscience.com/video/2026/08/12/how_do_high-speed_trains_work_1199810.html",
-        "timestamp": 1786461660000,
-        "postedAt": 1786812113522
-      },
-      {
         "headline": "The Real Reason Many Americans Are Cutting Ties With Their Parents and Siblings",
         "url": "https://theconversation.com/the-real-reason-many-americans-are-cutting-ties-with-their-parents-and-siblings-283957",
         "timestamp": 1786970251000,
@@ -266,6 +230,24 @@
       }
     ],
     "right": [
+      {
+        "headline": "Why You Move Factors Into Whether It Protects You From Dementia",
+        "url": "https://nautil.us/why-you-move-factors-in-to-whether-it-protects-you-from-dementia-1283940",
+        "timestamp": 1787092200000,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "How One Woman With A Very Rare Disease Secured A Clinical Trial",
+        "url": "https://www.facebook.com/nytimes/photos/through-sheer-determination-neena-nizar-has-become-the-first-patient-in-a-clinic/1460204112628714/",
+        "timestamp": 1787090400000,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "National Symphony Orchestra Announces Season Outside The Kennedy Center",
+        "url": "https://www.wusa9.com/article/entertainment/music/national-symphony-orchestra-season-announcement-no-kennedy-center/65-43f8459d-56be-4faa-8cc0-80e426e9cf56",
+        "timestamp": 1787090400000,
+        "postedAt": 1787097208437
+      },
       {
         "headline": "Climate Doom May Discourage Climate Action, but There's a Way to Counter It",
         "url": "https://theconversation.com/climate-doom-may-discourage-climate-action-but-theres-a-way-to-counter-it-288301",
@@ -328,32 +310,6 @@
         "url": "https://www.newsweek.com/scientists-discover-brain-change-that-may-explain-alzheimers-12304039",
         "timestamp": 1786377180000,
         "postedAt": 1786888160028
-      },
-      {
-        "headline": "The 10 Best Cars at This Year's Quail, a Motorsports Gathering",
-        "url": "https://robbreport.com/motors/cars/lists/10-best-cars-quail-a-motorsports-gathering-1238557138/",
-        "timestamp": 1786784400000,
-        "photo": true,
-        "postedAt": 1786812113522
-      },
-      {
-        "headline": "Neptune's Tiny Moons Tell the Story of Triton's Destructive Capture",
-        "url": "https://phys.org/news/2026-07-neptune-tiny-moons-story-triton.html",
-        "timestamp": 1786782000000,
-        "postedAt": 1786812113522
-      },
-      {
-        "headline": "I Had My Blood 'Washed' at Germany's Top Med-Spa—Here's How It Made Me Feel",
-        "url": "https://robbreport.com/lifestyle/health-wellness/lanserhof-tegernsees-wellness-retreat-review-1238531932/",
-        "timestamp": 1786780800000,
-        "photo": true,
-        "postedAt": 1786812113522
-      },
-      {
-        "headline": "Switched on Pop's Nate Sloan and Charlie Harding Love Fresh Vegetables and Guitar Pedals",
-        "url": "https://www.theverge.com/report/980288/switched-on-pop-nate-sloan-charlie-harding-podcast-netflix-interview",
-        "timestamp": 1786780800000,
-        "postedAt": 1786812113522
       }
     ]
   }

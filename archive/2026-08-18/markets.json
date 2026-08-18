@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787061204240,
+  "lastUpdated": 1787096448224,
   "heroSetDate": "2026-08-18",
   "hero": {
     "headline": "US 30-YEAR YIELDS HIT HIGHEST LEVEL SINCE 2007 AS BOND ROUT DEEPENS, STOCKS SLIDE",
@@ -18,16 +18,27 @@
         "url": "https://www.reuters.com/legal/transactional/us-debt-mounts-investors-demand-higher-returns-lend-2026-08-18/"
       }
     ],
-    "liveUpdates": [
-      {
-        "source": "WSJ",
-        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026"
-      }
-    ],
     "postedAt": 1787061204240,
     "img": true
   },
   "groups": [
+    {
+      "title": "IRAN-U.S. STANDOFF OVER HORMUZ ESCALATES",
+      "stories": [
+        {
+          "headline": "Iran's Secret Plan To Escalate The War",
+          "url": "https://unn.ua/en/news/iran-has-embarked-on-a-secret-plan-to-escalate-the-war-wsj",
+          "timestamp": 1787091766000,
+          "postedAt": 1787096448224
+        },
+        {
+          "headline": "Trump Says No Talks Planned With Iran As Hormuz Remains Shut",
+          "url": "https://www.reuters.com/world/middle-east/trump-says-no-talks-planned-with-iran-tehran-says-strait-hormuz-still-shut-2026-08-18/",
+          "timestamp": 1787089677000,
+          "postedAt": 1787096448224
+        }
+      ]
+    },
     {
       "title": "DISNEY'S ABC SUES FCC OVER BROADCAST LICENSE THREATS",
       "stories": [
@@ -158,27 +169,23 @@
           "postedAt": 1786887642907
         }
       ]
-    },
-    {
-      "title": "AI BUSINESS BOOM: REVENUE SURGES, CAPEX QUESTIONED",
-      "stories": [
-        {
-          "headline": "Anthropic Revenue Reportedly Jumps To More Than $11.5 Billion In Second Quarter",
-          "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
-          "timestamp": 1786779900000,
-          "postedAt": 1786807848076
-        },
-        {
-          "headline": "TSMC Cements Its Role As The Most Important Player In The AI Chip Ecosystem",
-          "url": "https://www.fool.com/investing/2026/08/15/not-nvidia-not-amd-this-chip-stock-will-be-the-big/",
-          "timestamp": 1786778580000,
-          "postedAt": 1786807848076
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "OpenAI's Second-Quarter Sales Show Tepid Growth Compared With Anthropic",
+        "url": "https://www.newsquawk.com/headlines/openais-q2-sales-show-tepid-growth-compared-with-anthropic-according-to-wsj",
+        "timestamp": 1787092140000,
+        "postedAt": 1787096448224
+      },
+      {
+        "headline": "Lakers Owner Mark Walter Sought Apollo Loan Backed By Team Stake",
+        "url": "https://nypost.com/2026/08/17/business/mark-walter-probe-raises-fears-of-ripple-effects-across-wall-streets-1t-insurance-bet/",
+        "timestamp": 1787089676000,
+        "photo": true,
+        "postedAt": 1787096448224
+      },
       {
         "headline": "Why Intel, Marvell Stocks Are Dropping After Chip Stocks Enter New Bull Market",
         "url": "https://www.ndtvprofit.com/markets/ai-chip-trade-flips-again-micron-intel-sandisk-others-slump-up-to-5-pre-market-11925969",
@@ -273,33 +280,16 @@
         "timestamp": 1786877863000,
         "photo": true,
         "postedAt": 1786887642907
-      },
-      {
-        "headline": "Israeli Strikes Kill 11 In South Lebanon, Health Ministry Says",
-        "url": "https://www.reuters.com/world/middle-east/israeli-strikes-kill-nine-south-lebanon-state-news-reports-2026-08-15/",
-        "timestamp": 1786779780000,
-        "postedAt": 1786807848076
-      },
-      {
-        "headline": "UK Prediction Market Exchange Pushes Into U.S. Sports Betting",
-        "url": "https://www.cnbc.com/2026/08/15/prediction-markets-and-sports-betting-how-this-uk-exchange-is-trying-to-do-both-in-the-us.html",
-        "timestamp": 1786778640000,
-        "postedAt": 1786807848076
-      },
-      {
-        "headline": "Goldman Names Top Stock Picks In Wake Of Second-Quarter Earnings",
-        "url": "https://www.cnbc.com/2026/08/15/goldman-says-these-stocks-are-top-ideas-in-wake-of-their-2q-earnings.html",
-        "timestamp": 1786775640000,
-        "postedAt": 1786807848076
-      },
-      {
-        "headline": "GDP Distorts The True Strength Of The U.S. Economy",
-        "url": "https://www.realclearmarkets.com/articles/2026/08/15/gdp_distorts_the_true_strength_of_the_us_economy_1199979.html",
-        "timestamp": 1786721280000,
-        "postedAt": 1786807848076
       }
     ],
     "center": [
+      {
+        "headline": "Beyond Marathons And Backflips, China's Robots Face Commercial Test",
+        "url": "https://www.reuters.com/world/asia-pacific/beyond-marathons-backflips-chinas-robots-face-commercial-test-2026-08-18/",
+        "timestamp": 1787094022000,
+        "photo": true,
+        "postedAt": 1787096448224
+      },
       {
         "headline": "Data Center Gas Plants To Boost US Power Emissions By 20%",
         "url": "https://fortune.com/2026/08/18/data-center-gas-plants-to-boost-u-s-power-emissions-by-20/",
@@ -367,38 +357,31 @@
         "postedAt": 1786887642907
       },
       {
-        "headline": "Hungary Sinks Barges In Danube River To Keep Nuclear Plant Operating",
-        "url": "https://www.reuters.com/video/watch/idRW569915082026RP1/",
-        "timestamp": 1786779480000,
-        "postedAt": 1786807848076
-      },
-      {
-        "headline": "Greg Abel Plows $4.2 Billion Into Warren Buffett's All-Time Favorite Stock",
-        "url": "https://www.fool.com/investing/2026/08/15/greg-abel-plowed-42-billion-warren-buffetts-stock/",
-        "timestamp": 1786778580000,
-        "photo": true,
-        "postedAt": 1786807848076
-      },
-      {
-        "headline": "The Beatings Will Continue Until Consumer Sentiment Improves",
-        "url": "https://www.realclearmarkets.com/blog/2026/08/15/the_beatings_will_continue_until_consumer_sentiment_improves_1200577.html",
-        "timestamp": 1786778460000,
-        "postedAt": 1786807848076
-      },
-      {
-        "headline": "Families Grapple With Colleges Costing $100,000 A Year",
-        "url": "https://www.cnbc.com/2026/08/15/how-families-pay-for-college-as-tuition-costs-soar.html",
-        "timestamp": 1786775400000,
-        "postedAt": 1786807848076
-      },
-      {
         "headline": "Bitcoin Price Prediction: Why Is Bitcoin Dropping?",
         "url": "https://247wallst.com/investing/cryptocurrency/2026/08/14/bitcoin-price-prediction-why-is-bitcoin-dropping/",
         "timestamp": 1786746185000,
         "postedAt": 1786887642907
+      },
+      {
+        "headline": "Global Bond Markets Put Governments On Notice Over Fiscal Risks",
+        "url": "https://www.reuters.com/world/china/selling-grips-bond-markets-us-japan-inflation-fiscal-worries-take-hold-2026-08-18/",
+        "timestamp": 1787093042000,
+        "postedAt": 1787096448224
+      },
+      {
+        "headline": "Tech Selloff Weighs Down Wall Street As Bond Yields Climb",
+        "url": "https://www.reuters.com/business/us-stock-futures-drop-fading-iran-peace-hopes-lift-oil-bond-yields-2026-08-18/",
+        "timestamp": 1787089464000,
+        "postedAt": 1787096448224
       }
     ],
     "right": [
+      {
+        "headline": "Carney And Trump Speak Again As Tariff Deadline Looms",
+        "url": "https://www.reuters.com/world/americas/carney-trump-speak-ahead-50-us-tariff-deadline-2026-08-18/",
+        "timestamp": 1787090457000,
+        "postedAt": 1787096448224
+      },
       {
         "headline": "OIL PRICES RISE AS IRAN RULES OUT HORMUZ DEAL EXTENSION, THREATENS ESCALATION",
         "url": "https://www.cnbc.com/2026/08/17/oil-prices-iran-war-strait-hormuz.html",
@@ -482,18 +465,6 @@
         "postedAt": 1786887642907
       },
       {
-        "headline": "Claiming Social Security At This Age Maximizes Lifetime Benefits",
-        "url": "https://www.fool.com/retirement/2026/08/15/if-you-want-the-largest-lifetime-social-security/",
-        "timestamp": 1786780800000,
-        "postedAt": 1786807848076
-      },
-      {
-        "headline": "SpaceX Vs. Micron: Which High-Growth Titan Is The Better Buy?",
-        "url": "https://www.fool.com/investing/2026/08/15/spacex-vs-micron-which-high-growth-titan-is-the-be/",
-        "timestamp": 1786781700000,
-        "postedAt": 1786807848076
-      },
-      {
         "headline": "Why This Analyst Sees Another 30% Rip In Microsoft Stock",
         "url": "https://finance.yahoo.com/markets/stocks/article/why-this-analyst-sees-another-30-rip-in-microsoft-stock-132716702.html",
         "timestamp": 1786627636000,
@@ -510,25 +481,25 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,698.14",
-      "change": "-46.92",
-      "changePct": "-0.61%",
+      "value": "7,691.76",
+      "change": "-53.30",
+      "changePct": "-0.69%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "53,400.14",
-      "change": "-59.64",
-      "changePct": "-0.11%",
+      "value": "53,343.40",
+      "change": "-116.38",
+      "changePct": "-0.22%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,300.79",
-      "change": "-344.12",
-      "changePct": "-1.29%",
+      "value": "26,289.71",
+      "change": "-355.20",
+      "changePct": "-1.33%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
@@ -542,25 +513,25 @@
     },
     {
       "name": "Gold",
-      "value": "$4,409.90",
-      "change": "-63.80",
-      "changePct": "-1.43%",
+      "value": "$4,383.00",
+      "change": "-37.60",
+      "changePct": "-0.85%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$84.07",
-      "change": "+0.33",
-      "changePct": "+0.39%",
+      "value": "$84.48",
+      "change": "+0.42",
+      "changePct": "+0.50%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$64,663.13",
-      "change": "+175.48",
-      "changePct": "+0.27%",
+      "value": "$64,716.01",
+      "change": "+228.36",
+      "changePct": "+0.35%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     }
