@@ -2596,7 +2596,9 @@ _IMG_WATERMARK_WORDS = ("telegraph", "getty", "reuters", "afp", "bloomberg", "sh
     "alamy", "istock", "dreamstime", "depositphotos", "epa-efe", "imago", "zuma", "sipa",
     "abaca", "newscom", "picture alliance", "pa media", "pa wire", "espn", "sky news",
     "daily mail", "the guardian", "bbc news", "bbc", "cnn", "fox news", "fox sports", "nbc news",
-    "abc news", "cbs news", "al jazeera", "associated press", "ap photo", "copyright", "©")
+    "abc news", "cbs news", "al jazeera", "associated press", "ap photo",
+    "action news", "eyewitness news", "6abc", "abc7", "abc11", "abc13",   # local TV station logos
+    "copyright", "©")
 
 def _image_has_watermark(path):
     """OCR the saved image and reject it if a wire/outlet wordmark is burned in, if a
@@ -2717,7 +2719,8 @@ def og_image_url(article_url, timeout=9):
 # when Tesseract isn't installed. BBC's share cards live under a "/branded_<section>/" path
 # (e.g. ichef.bbci.co.uk/news/1024/branded_news/...) and always carry the "BBC NEWS" logo.
 WATERMARK_IMG = ("guim.co.uk", "gu-web-static", "gstatic-guardian", "/branded_", "bbci.co.uk/news/branded",
-                 "a57.foxsports.com")   # Fox Sports OG/share cards carry a burned-in FOX Sports logo
+                 "a57.foxsports.com",     # Fox Sports OG/share cards carry a burned-in FOX Sports logo
+                 "abcotvs.com")           # ABC-owned local stations (6abc, abc7, etc.) - logo share cards
 
 def _is_junk_img(url):
     u = (url or "").lower()
