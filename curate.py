@@ -1815,8 +1815,12 @@ def drudge_candidates(limit=40):
         if url in seen:
             continue
         seen.add(url)
-        items.append({"title": t, "url": url, "source": "Drudge Report",
-                      "ts": now_ms(), "arc": "Drudge pick"})
+        # Attribute to the REAL outlet Drudge is linking to (e.g. The Hill), never "Drudge Report" -
+        # these are other outlets' articles that Drudge merely featured. The hand-pick signal is kept
+        # internal as "Editor's pick" so the word "Drudge" is never dangled in front of the model and
+        # cannot leak into a headline or sublink as false attribution.
+        items.append({"title": t, "url": url, "source": _outlet_name(url),
+                      "ts": now_ms(), "arc": "Editor's pick"})
         if len(items) >= limit:
             break
     return items
@@ -2293,8 +2297,15 @@ def curate_live(section):
             "or science/religion curiosities - the surprising picks that give the page personality.\n"
             "- JUXTAPOSITION: deliberately vary tone and subject between adjacent items.\n"
             "- SOURCING: welcome tabloid, foreign, and niche outlets alongside wire and mainstream.\n"
-            "- HAND-PICKED: candidates tagged 'Drudge pick' come from a veteran human editor's "
-            "front page - weight them as high-quality, distinctive story ideas worth featuring.\n"
+            "- HAND-PICKED: candidates tagged \"Editor's pick\" come from a veteran human editor's "
+            "front page - weight them as high-quality, distinctive story ideas worth featuring. This "
+            "tag is an INTERNAL signal only: it tells you the story is good, NOT who published it. "
+            "Attribute every story to the outlet its URL actually points to.\n"
+            "- NO FALSE 'DRUDGE' ATTRIBUTION: never write the word \"Drudge\" in a headline, sublink, or "
+            "panel title unless the story is genuinely ABOUT Matt Drudge or the Drudge Report itself. A "
+            "story that came from another outlet (The Hill, Fox, Politico, etc.) is that outlet's story - "
+            "labeling it \"Drudge\" (e.g. \"Drudge Reaction\") is false attribution. Use \"Drudge\" ONLY when "
+            "the article's own subject is Matt Drudge / drudgereport.com.\n"
             "- ORIGINALS: give extra weight to distinctive, free, staff-written analysis and "
             "investigations - especially RealClearInvestigations and RealClear staff pieces (sources "
             "that begin with 'RealClear') - and feature them prominently when they fit the page.\n"
@@ -2357,6 +2368,13 @@ def curate_live(section):
             "ongoing topic as the hero just because it is prominent. Keep the same hero ONLY if that "
             "exact story is still the clearly dominant breaking news - in that case set the top-level "
             "boolean \"heroOverride\": true; otherwise set \"heroOverride\": false.\n"
+            "NEW OVER LOUD (tie-breaker): a reader opening the page wants to learn something they did not "
+            "already know. When two stories are comparably big, lead with the one that is NEWER and more "
+            "SURPRISING - what actually broke or took an unexpected turn in the last several hours - rather "
+            "than the story that merely has the most coverage because it was already the big story "
+            "yesterday. High article volume alone is not the tie-breaker; a story most readers already "
+            "absorbed yesterday is a weak lead even if outlets are still writing about it. Favor the fresh "
+            "development, the reversal, the just-announced result, or the unexpected angle.\n"
             "FREE HERO (required): the hero MUST link to a FREE, readable article - NEVER choose a hero "
             "from a hard-paywalled outlet (New York Times, Washington Post, The Atlantic, The New Yorker, "
             "Wall Street Journal, Financial Times, The Economist, Bloomberg, Barron's, Vanity Fair, Foreign "
@@ -2493,6 +2511,104 @@ def _regdom(url):
         return ""
     parts = net.split(".")
     return ".".join(parts[-2:]) if len(parts) >= 2 else net
+
+_OUTLET_NAMES = {
+    "thehill.com": "The Hill", "foxnews.com": "Fox News", "nytimes.com": "New York Times",
+    "washingtonpost.com": "Washington Post", "wsj.com": "Wall Street Journal", "cnn.com": "CNN",
+    "nbcnews.com": "NBC News", "cbsnews.com": "CBS News", "politico.com": "Politico",
+    "axios.com": "Axios", "breitbart.com": "Breitbart", "dailymail.co.uk": "Daily Mail",
+    "nypost.com": "New York Post", "reuters.com": "Reuters", "apnews.com": "Associated Press",
+    "bloomberg.com": "Bloomberg", "theguardian.com": "The Guardian", "usatoday.com": "USA Today",
+    "newsweek.com": "Newsweek", "washingtonexaminer.com": "Washington Examiner",
+    "thedailybeast.com": "The Daily Beast", "nationalreview.com": "National Review",
+    "theatlantic.com": "The Atlantic", "zerohedge.com": "ZeroHedge", "dailywire.com": "The Daily Wire",
+    "msnbc.com": "MSNBC", "cnbc.com": "CNBC", "businessinsider.com": "Business Insider",
+    "thegatewaypundit.com": "Gateway Pundit", "justthenews.com": "Just the News",
+}
+
+def _outlet_name(url):
+    """Human-readable outlet name for a URL (for accurate attribution), from the domain."""
+    rd = _regdom(url)
+    if rd in _OUTLET_NAMES:
+        return _OUTLET_NAMES[rd]
+    root = rd.split(".")[0] if rd else ""
+    if not root:
+        return ""
+    return root.upper() if len(root) <= 3 else root.capitalize()
+
+_DRUDGE_RE = re.compile(r"(?i)\bdrudge\b")
+
+def _drudge_url_ok(url):
+    """True only for links that actually point to the Drudge Report itself."""
+    return "drudgereport.com" in (url or "").lower()
+
+def _clean_drudge_prefix(txt):
+    """Strip a leading 'Drudge' / 'Drudge Report' attribution prefix, whether it is punctuated
+    ('Drudge: ...', 'Drudge - ...') or bare ('Drudge Reaction', 'DRUDGE ROUNDUP'). Only removes a
+    LEADING attribution qualifier; mid-sentence mentions and 'Matt Drudge' are left untouched."""
+    if not isinstance(txt, str):
+        return txt
+    return re.sub(r"(?i)^\s*drudge(\s+report)?\s*(?:[:\-–—]\s*|\s+)", "", txt).strip()
+
+def _is_drudge_label(txt):
+    """A short 'Drudge <x>' attribution qualifier (not a real headline about Matt Drudge)."""
+    if not isinstance(txt, str):
+        return False
+    t = txt.strip()
+    if "matt drudge" in t.lower():
+        return False
+    return bool(re.match(r"(?i)^drudge\b", t)) and len(t.split()) <= 3
+
+def _scrub_drudge(data):
+    """Never let the word 'Drudge' appear as attribution on a story that does not actually link to
+    drudgereport.com. Genuine stories ABOUT Matt Drudge (they say 'Matt Drudge') are left intact.
+    This stops another outlet's article (e.g. The Hill) from being mislabeled a 'Drudge' item."""
+    if not isinstance(data, dict):
+        return data
+
+    def fix_story(story):
+        if not isinstance(story, dict):
+            return
+        u = story.get("url") or ""
+        if not _drudge_url_ok(u):
+            # source is pure attribution: any 'Drudge' there is wrong -> name the real outlet
+            sv = story.get("source")
+            if isinstance(sv, str) and _DRUDGE_RE.search(sv):
+                story["source"] = _outlet_name(u)
+            # headline/title: strip only a leading 'Drudge' attribution prefix
+            for k in ("headline", "title"):
+                v = story.get(k)
+                if isinstance(v, str) and _DRUDGE_RE.search(v) and "matt drudge" not in v.lower():
+                    story[k] = _clean_drudge_prefix(v) or v
+        subs = story.get("sublinks")
+        if isinstance(subs, list):
+            keep = []
+            for sl in subs:
+                if not isinstance(sl, dict):
+                    keep.append(sl); continue
+                su, st = sl.get("url") or "", sl.get("text") or ""
+                if not _drudge_url_ok(su) and _DRUDGE_RE.search(st) and "matt drudge" not in st.lower():
+                    if _is_drudge_label(st):
+                        continue                        # drop the false 'Drudge X' attribution link
+                    st2 = _clean_drudge_prefix(st) or st
+                    if _DRUDGE_RE.search(st2) and "matt drudge" not in st2.lower():
+                        continue                        # bare 'Drudge' token left - drop it
+                    sl = dict(sl); sl["text"] = st2
+                keep.append(sl)
+            story["sublinks"] = keep
+
+    fix_story(data.get("hero") or {})
+    for g in (data.get("groups") or []):
+        gt = g.get("title")
+        if isinstance(gt, str) and _DRUDGE_RE.search(gt) and "matt drudge" not in gt.lower():
+            g["title"] = _clean_drudge_prefix(gt) or gt
+        for s in (g.get("stories") or []):
+            fix_story(s)
+    cols = data.get("columns") or {}
+    for col in ("left", "center", "right"):
+        for s in (cols.get(col) or []):
+            fix_story(s)
+    return data
 
 def dedup_page(data):
     """Ensure each distinct news event appears at most once across the page, AND that a single
@@ -4170,6 +4286,7 @@ def build():
                 print("  poll averages fetch failed:", e)
         ensure_hero_image(sec, data)            # self-host the hero photo + set hero.img flag
         data = apply_column_images(sec, data)   # self-host up to 5 Drudge-style column photos
+        _scrub_drudge(data)                     # strip false "Drudge" attribution (non-drudgereport links)
         # Write the section + refresh its dated archive snapshot (skipped for empty pages so a
         # bad run never overwrites a good same-day snapshot).
         _write_section(sec, data)
