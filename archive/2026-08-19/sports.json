@@ -460,36 +460,36 @@
       "home": "PIT",
       "away": "DET",
       "state": "in",
-      "note": "Top 4th",
-      "homeScore": "1",
-      "awayScore": "1"
+      "note": "Bot 7th",
+      "homeScore": "2",
+      "awayScore": "3"
     },
     {
       "league": "MLB",
       "home": "NYM",
       "away": "SD",
       "state": "in",
-      "note": "Top 2nd",
-      "homeScore": "0",
-      "awayScore": "0"
+      "note": "Top 6th",
+      "homeScore": "2",
+      "awayScore": "1"
     },
     {
       "league": "MLB",
       "home": "MIN",
       "away": "ATL",
-      "state": "scheduled",
-      "note": "8/19 - 1:40 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "End 4th",
+      "homeScore": "1",
+      "awayScore": "0"
     },
     {
       "league": "MLB",
       "home": "CHC",
       "away": "CHW",
-      "state": "scheduled",
-      "note": "8/19 - 2:20 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Top 2nd",
+      "homeScore": "0",
+      "awayScore": "0"
     },
     {
       "league": "MLB",
