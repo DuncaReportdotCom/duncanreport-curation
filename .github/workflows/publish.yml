@@ -6,11 +6,19 @@ name: Publish DuncanReport
 #   narrative-review- generate the biweekly narrative review (review.json)
 #   main/sports/world/markets/politics/life-culture - curate just that one page
 #
-# Schedules: daily 13:00 UTC (08:00 Central) -> full "all"; 1st & 15th 12:00 UTC -> narrative-review.
+# Schedules: full "all" TWICE daily at 06:45 and 09:30 US Central year-round. The 06:45 run gives
+# the East Coast a fresh site by ~08:15 ET; the 09:30 run (10:30 ET) refreshes with the morning's
+# developing news and lets the hero roll over to the biggest CURRENT story. GitHub cron is UTC-only
+# and does NOT follow daylight saving, so each run fires at BOTH its CDT and CST UTC-equivalents and
+# the "gate" job below lets only the one that lands on 06:xx or 09:xx Central actually run.
+# 1st & 15th 12:00 UTC -> narrative-review.
 
 on:
   schedule:
-    - cron: "0 13 * * *"       # daily full curation - 08:00 Central (CDT) / 07:00 (CST)
+    - cron: "45 11 * * *"      # 06:45 Central during CDT (summer); gated to 06:xx Central
+    - cron: "45 12 * * *"      # 06:45 Central during CST (winter); gated to 06:xx Central
+    - cron: "30 14 * * *"      # 09:30 Central during CDT (summer); gated to 09:xx Central
+    - cron: "30 15 * * *"      # 09:30 Central during CST (winter); gated to 09:xx Central
     - cron: "0 12 1,15 * *"    # biweekly narrative review
   workflow_dispatch:
     inputs:
@@ -33,7 +41,30 @@ permissions:
   contents: write
 
 jobs:
+  # DST-aware gate: both daily crons fire (11:45 and 12:45 UTC), but only the one that is 06:xx in
+  # US Central right now proceeds - so the real run happens at 06:45 Central all year, adjusting for
+  # daylight saving. Manual runs and the narrative-review cron always proceed. A skipped daily cron
+  # ends "neutral" (not a failed/red run).
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      proceed: ${{ steps.check.outputs.proceed }}
+    steps:
+      - id: check
+        run: |
+          H=$(TZ=America/Chicago date +%H)
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "${{ github.event.schedule }}" = "0 12 1,15 * *" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          elif [ "$H" = "06" ] || [ "$H" = "09" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping: US Central time is $(TZ=America/Chicago date +%H:%M), not 06:xx or 09:xx - wrong cron for the current DST period."
+          fi
+
   publish:
+    needs: gate
+    if: needs.gate.outputs.proceed == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
