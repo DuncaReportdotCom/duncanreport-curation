@@ -2262,6 +2262,12 @@ def curate_live(section):
             "them into ONE titled narrative panel instead of scattering them across the columns - "
             "especially for smaller sports. This differs from the no-duplicates rule: never repeat the "
             "SAME story, but DO cluster different stories on one subject.\n"
+            "- ONE PANEL PER SUBJECT (HARD RULE): a single subject gets EXACTLY ONE narrative panel. "
+            "Never split one story into two or three separate focus sections - e.g. the Iran war must be "
+            "ONE panel, not a 'strikes' panel plus a 'ceasefire talks' panel plus an 'oil prices' panel. "
+            "Fold every angle of the subject (the strike, the diplomacy, the market impact, the reaction) "
+            "into that single deep panel. If you find yourself titling a second panel about a subject that "
+            "already has one, merge them.\n"
             "- PANEL DEPTH: size each panel to how BIG the subject is and how much coverage it is "
             "drawing - two stories is the MINIMUM, never the target. When a topic is important and "
             "widely covered (college-football camp in late summer, a big-tech earnings week, a major "
@@ -2610,12 +2616,107 @@ def _scrub_drudge(data):
             fix_story(s)
     return data
 
+# Generic news words that must NOT by themselves make two panels "the same subject" - only a
+# shared specific entity (Iran, Gaza, Ukraine, a person, a team) should trigger consolidation.
+_GENERIC_TOPIC = set((
+    "war wars crisis conflict attack attacks strike strikes talks deal deals update updates latest "
+    "live coverage tension tensions escalation ceasefire truce response responses reaction reactions "
+    "aftermath fallout standoff dispute saga round summit meeting deadline report reports plan plans "
+    "move moves push fight fighting battle clash clashes news probe crackdown threat threats vote "
+    "election poll polls rejects reject warns warn hits hit amid").split())
+
+# Co-reference aliases so different names for ONE subject count as the same entity (a panel that
+# says "Tehran" is the same subject as one that says "Iran"). Geographic / nationality only - we do
+# NOT fold individual leaders into their country, to avoid over-merging distinct storylines.
+_ENTITY_ALIASES = {
+    "tehran": "iran", "iranian": "iran", "iranians": "iran", "irans": "iran",
+    "israeli": "israel", "israelis": "israel", "jerusalem": "israel", "idf": "israel",
+    "gazan": "gaza", "gazans": "gaza", "palestinian": "gaza", "palestinians": "gaza", "hamas": "gaza",
+    "kyiv": "ukraine", "kiev": "ukraine", "ukrainian": "ukraine", "ukrainians": "ukraine",
+    "moscow": "russia", "russian": "russia", "russians": "russia", "kremlin": "russia",
+    "beijing": "china", "chinese": "china",
+    "taipei": "taiwan", "taiwanese": "taiwan",
+    "pyongyang": "northkorea", "dprk": "northkorea",
+}
+
+def _sig_norm(text):
+    """Significant tokens with co-referent entities normalized (Tehran->Iran) and generic news
+    words dropped, so panels about one subject share the same entity tokens."""
+    return set(_ENTITY_ALIASES.get(w, w) for w in _sig(text)) - _GENERIC_TOPIC
+
+def _group_sig(g):
+    txt = (g.get("title") or "")
+    for st in (g.get("stories") or []):
+        txt += " " + (st.get("headline") or "")
+    return _sig_norm(txt)
+
+def _same_subject(a, b):
+    """Two panels cover the SAME subject if their titles share a specific entity, or their combined
+    text shares several specific (non-generic) terms - e.g. three separate Iran-war panels."""
+    ta, tb = _sig_norm(a.get("title") or ""), _sig_norm(b.get("title") or "")
+    if ta & tb:
+        return True
+    return len(_group_sig(a) & _group_sig(b)) >= 3
+
+def _merge_similar_groups(data):
+    """HARD RULE: one focus section per subject. Consolidate every narrative panel that covers the
+    same subject into a SINGLE panel (transitively), so a big story like the Iran war can never be
+    split across two or three separate focus sections. Keeps source diversity and caps panel depth."""
+    groups = list(data.get("groups") or [])
+    n = len(groups)
+    if n < 2:
+        return data
+    parent = list(range(n))
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]; i = parent[i]
+        return i
+    def union(i, j):
+        ri, rj = find(i), find(j)
+        if ri != rj:
+            parent[max(ri, rj)] = min(ri, rj)
+    for i in range(n):
+        for j in range(i + 1, n):
+            if _same_subject(groups[i], groups[j]):
+                union(i, j)
+    clusters, order = {}, []
+    for i in range(n):
+        r = find(i)
+        if r not in clusters:
+            clusters[r] = []; order.append(r)
+        clusters[r].append(groups[i])
+    merged = []
+    for r in order:
+        cl = clusters[r]
+        if len(cl) == 1:
+            merged.append(cl[0]); continue
+        cl_sorted = sorted(cl, key=lambda g: len(g.get("stories") or []), reverse=True)
+        stories, seen_url, seen_dom = [], set(), set()
+        for g in cl_sorted:
+            for st in (g.get("stories") or []):
+                u = (st.get("url") or "").strip()
+                if not u or u in seen_url:
+                    continue
+                dm = _regdom(u)
+                if dm and dm in seen_dom:      # one source per panel
+                    continue
+                seen_url.add(u)
+                if dm:
+                    seen_dom.add(dm)
+                stories.append(st)
+        base = dict(cl_sorted[0])
+        base["stories"] = stories[:8]          # deep panel, but bounded
+        merged.append(base)
+    data["groups"] = merged
+    return data
+
 def dedup_page(data):
     """Ensure each distinct news event appears at most once across the page, AND that a single
     narrative panel never links the same outlet twice (one source per topic - a cluster is the
     place to show left- and right-leaning outlets side by side). A panel that collapses below
     two distinct sources is unwrapped into the columns rather than shown as a lonely one-item
     panel. Hero sublinks are left alone - they are the hero story's own angles."""
+    _merge_similar_groups(data)      # HARD RULE: one focus section per subject (merge Iran-war x3 -> 1)
     seen = []
     hero = data.get("hero") or {}
     if hero.get("headline"):
