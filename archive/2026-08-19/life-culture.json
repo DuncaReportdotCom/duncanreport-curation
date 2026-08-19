@@ -2,8 +2,8 @@
   "lastUpdated": 1787148490172,
   "heroSetDate": "2026-08-19",
   "hero": {
-    "headline": "WE BOUGHT A $500 COUNTERFEIT ROLEX SO GOOD, EVEN ROLEX COULDN'T SPOT IT",
-    "url": "https://www.wired.com/story/we-bought-a-counterfeit-rolex-so-good-even-rolex-didnt-spot-it/",
+    "headline": "Orange Lips And Roaring Calls: DRC's Shy New Rainforest Monkey",
+    "url": "https://theconversation.com/orange-lips-and-roaring-calls-meet-the-drcs-shy-new-rainforest-monkey-288470",
     "sublinks": [],
     "postedAt": 1787148490172,
     "img": true
@@ -47,14 +47,6 @@
   "columns": {
     "left": [
       {
-        "headline": "Orange Lips And Roaring Calls: DRC's Shy New Rainforest Monkey",
-        "url": "https://theconversation.com/orange-lips-and-roaring-calls-meet-the-drcs-shy-new-rainforest-monkey-288470",
-        "timestamp": 1787146063000,
-        "photo": true,
-        "postedAt": 1787148490172,
-        "image": "/img/life-culture-0.jpg"
-      },
-      {
         "headline": "The Bloodsucking Insect With A Saw For A Mouth",
         "url": "https://theconversation.com/the-bloodsucking-insect-with-a-saw-for-a-mouth-how-the-tsetse-fly-bites-through-almost-anything-289260",
         "timestamp": 1787146041000,
@@ -89,8 +81,7 @@
         "url": "https://www.sfexaminer.com/frank-beard-beardless-drummer-for-zz-top-dies-at-77/article_27de6592-d0cc-59aa-aa9c-e7903ba9e570.html",
         "timestamp": 1787095575000,
         "photo": true,
-        "postedAt": 1787097208437,
-        "image": "/img/life-culture-3.jpg"
+        "postedAt": 1787097208437
       },
       {
         "headline": "How Academia Created Jason Arday",
@@ -141,7 +132,8 @@
         "url": "https://arstechnica.com/science/2026/08/meet-the-only-known-trebuchet-casualty-in-history/",
         "timestamp": 1786974095000,
         "photo": true,
-        "postedAt": 1786974943179
+        "postedAt": 1786974943179,
+        "image": "/img/life-culture-3.jpg"
       },
       {
         "headline": "AI Companies Look to the Ocean as a Place to Put More Data Centers",
@@ -169,7 +161,7 @@
         "timestamp": 1787140800000,
         "photo": true,
         "postedAt": 1787148490172,
-        "image": "/img/life-culture-1.jpg"
+        "image": "/img/life-culture-0.jpg"
       },
       {
         "headline": "Queen Camilla Says It Was 'Difficult' To Keep Charles's Cancer Secret",
@@ -177,7 +169,7 @@
         "timestamp": 1787138906000,
         "photo": true,
         "postedAt": 1787148490172,
-        "image": "/img/life-culture-2.jpg"
+        "image": "/img/life-culture-1.jpg"
       },
       {
         "headline": "What It's Like Sailing On The Most Exciting New Cruise To Launch This Year",
@@ -311,7 +303,7 @@
         "timestamp": 1787055560000,
         "photo": true,
         "postedAt": 1787061899161,
-        "image": "/img/life-culture-4.jpg"
+        "image": "/img/life-culture-2.jpg"
       },
       {
         "headline": "TikTok Helps Scientists Discover New Underground, Translucent Eel in India",
