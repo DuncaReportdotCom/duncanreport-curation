@@ -1,0 +1,410 @@
+{
+  "lastUpdated": 1787147405857,
+  "heroSetDate": "2026-08-19",
+  "hero": {
+    "headline": "ISRAELI MILITARY OPENS CRIMINAL PROBE INTO KILLING OF 5-YEAR-OLD GAZA GIRL HIND RAJAB",
+    "url": "https://www.cnn.com/2026/08/19/middleeast/israel-military-idf-hind-rajab-firing-intl",
+    "sublinks": [
+      {
+        "text": "Investigation Widened To Include Deaths Of Palestinian Paramedics",
+        "url": "https://apnews.com/article/israel-military-hind-rajab-gaza-parademics-investigations-c0a733a3ac78660b474e5bdb47154f8b"
+      },
+      {
+        "text": "Rare Admission Draws International Scrutiny Of Military Justice System",
+        "url": "https://www.lemonde.fr/en/international/article/2026/08/19/israel-army-launches-criminal-probe-into-killing-of-five-year-old-hind-rajab_6756674_4.html"
+      }
+    ],
+    "postedAt": 1787147405857,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "UKRAINE WAR: STRIKES, SABOTAGE AND A POLITICAL RIFT",
+      "stories": [
+        {
+          "headline": "Ex-Defense Minister Calls For Election, Cementing Break With Zelensky",
+          "url": "https://newscord.org/article/mykhailo-fedorov-calls-for-wartime-elections-as-zelenskiys-term-ends--Story_20260819_MykhailoFedorovdismice8dd076",
+          "timestamp": 1787144031000,
+          "postedAt": 1787147405857
+        },
+        {
+          "headline": "Second Nord Stream Pipeline Suspect Arrested In Croatia",
+          "url": "https://www.reuters.com/world/second-suspect-nord-stream-case-arrested-croatia-say-german-prosecutors-2026-08-19/",
+          "timestamp": 1787144018000,
+          "postedAt": 1787147405857
+        },
+        {
+          "headline": "Drone Crews Prepare To Strike Again After Warehouse Fire Near Moscow",
+          "url": "https://apnews.com/article/russia-ukraine-war-drone-strikes-8d9eb77fc5fc29c4771503b75f98b1f4",
+          "timestamp": 1787112300000,
+          "postedAt": 1787147405857
+        }
+      ]
+    },
+    {
+      "title": "IRAN CONFLICT ESCALATES AS UAE CUTS TRADE TIES",
+      "stories": [
+        {
+          "headline": "UAE Suspends Trade With Iran After Renewed Missile Fire",
+          "url": "https://apnews.com/article/iran-united-arab-emirates-trade-august-19-2026-47c95fe382c49289ab0419310b6d8057",
+          "timestamp": 1787140380000,
+          "postedAt": 1787147405857
+        },
+        {
+          "headline": "Iran Weighs Strikes On Military Targets In Europe, Insiders Say",
+          "url": "https://www.iranintl.com/en/202608197470",
+          "timestamp": 1787112032000,
+          "postedAt": 1787147405857
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR ESCALATES AS CEASEFIRE COLLAPSES",
+      "stories": [
+        {
+          "headline": "Trump Says No Iran Talks Are Planned",
+          "url": "https://apnews.com/article/iran-us-israel-lebanon-gaza-hormuz-august-18-2026-9c48af23b713709e8e170191fbc78c2a",
+          "timestamp": 1787091840000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "Chinese State Shipping Firms Avoid Chokepoints Threatened By Iran",
+          "url": "https://www.breitbart.com/middle-east/2026/08/18/chinese-state-shipping-companies-back-away-chokepoints-threatened-iran/",
+          "timestamp": 1787088528000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "Trump Threatens To Bomb Oman As Iran War Stalemate Continues",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-deal-expired-strait-of-hormuz/",
+          "timestamp": 1787031600000,
+          "postedAt": 1787096218112
+        }
+      ]
+    },
+    {
+      "title": "ISRAEL, GAZA AND SYRIA",
+      "stories": [
+        {
+          "headline": "Israel Strikes Air Base In Northwest Syria To Block Turkish Deployment",
+          "url": "https://apnews.com/article/syria-israel-turkey-airstrikes-idlib-3a0e758c87ded0f26ed71b4a92db6816",
+          "timestamp": 1787090100000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "IAEA Finds 'Tons' Of Nuclear Material In Syria",
+          "url": "https://www.timesofisrael.com/iaea-finds-few-tons-of-nuclear-material-in-syria-says-it-will-go-under-safeguards/",
+          "timestamp": 1787074080000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "Kushner Urges Netanyahu To Test Hamas Disarmament In Gaza",
+          "url": "https://www.axios.com/2026/08/17/kushner-netanyahu-hamas-gaza",
+          "timestamp": 1787072885000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "Israeli Strike On Gaza City Cafe Kills Six, Targeting Hamas Commanders",
+          "url": "https://www.jpost.com/israel-news/defense-news/article-905915",
+          "timestamp": 1787071938000,
+          "postedAt": 1787096218112
+        }
+      ]
+    },
+    {
+      "title": "UKRAINE WAR",
+      "stories": [
+        {
+          "headline": "Ukraine's Ousted Defense Minister Urges Path To Wartime Elections",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/18/ukraine-s-ousted-defense-minister-mykhailo-fedorov-urges-path-to-elections_6756648_4.html",
+          "timestamp": 1787089410000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "Russians Pull Billions From Banks Fearing Kremlin Will Seize War Deposits",
+          "url": "https://united24media.com/world/russians-pull-94-billion-from-banks-as-cash-withdrawal-reaches-2022-panic-levels-21815",
+          "timestamp": 1787068800000,
+          "postedAt": 1787096218112
+        },
+        {
+          "headline": "Russian Missile Attack Kills 10 In Northeast Ukraine, Zelensky Vows Response",
+          "url": "https://www.reuters.com/world/europe/russian-missile-attack-kills-10-ukraines-kharkiv-region-officials-say-2026-08-18/",
+          "timestamp": 1787056646000,
+          "postedAt": 1787096218112
+        }
+      ]
+    },
+    {
+      "title": "IRAN STANDOFF: HORMUZ TENSIONS DEEPEN AS CEASEFIRE TALKS STALL",
+      "stories": [
+        {
+          "headline": "Iran's Secret Plan To Escalate The War, Officials Say",
+          "url": "https://unn.ua/en/news/iran-has-embarked-on-a-secret-plan-to-escalate-the-war-wsj",
+          "timestamp": 1786928400000,
+          "postedAt": 1786974267540
+        },
+        {
+          "headline": "Ceasefire Deadline Passes With US-Iran Talks Still Deadlocked",
+          "url": "https://www.politico.com/news/2026/08/14/u-s-iran-ceasefire-set-to-expire-with-talks-at-a-standstill-01038275",
+          "timestamp": 1786738380000,
+          "postedAt": 1786974267540
+        }
+      ]
+    },
+    {
+      "title": "EUROPE'S MIGRATION CRACKDOWN INTENSIFIES",
+      "stories": [
+        {
+          "headline": "What Really Happened In Ceuta? Why We May Never Find Out",
+          "url": "https://www.npr.org/2026/08/16/nx-s1-5927053/what-happened-in-ceuta",
+          "timestamp": 1786894702000,
+          "postedAt": 1786974267540
+        },
+        {
+          "headline": "Greece Toughens Stance On Illegal Migration With New Deportation Plan",
+          "url": "https://www.pbs.org/newshour/show/greece-toughens-stance-on-illegal-migration-with-new-deportation-plan",
+          "timestamp": 1786747256000,
+          "postedAt": 1786974267540
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Record-Low Harvests And Historic Restrictions Hit Southern Europe",
+        "url": "https://english.elpais.com/climate/2026-08-19/the-great-drought-devours-the-heart-of-europe-record-low-harvests-historic-restrictions-and-a-stalled-economy.html",
+        "timestamp": 1787140035000,
+        "postedAt": 1787147405857
+      },
+      {
+        "headline": "Pakistan Challenges Court Order To Move Imran Khan To Private Hospital",
+        "url": "https://www.aljazeera.com/news/2026/8/19/pakistan-challenges-top-court-order-to-move-imran-khan-to-private-hospital",
+        "timestamp": 1787140125000,
+        "postedAt": 1787147405857
+      },
+      {
+        "headline": "South Korea, US Shorten Joint Drills After Trump Order",
+        "url": "https://apnews.com/article/korea-us-military-drills-313e01e4ee305b4c9b1b8bf12643fb17",
+        "timestamp": 1787133480000,
+        "postedAt": 1787147405857
+      },
+      {
+        "headline": "Israel Defends Syria Strike As US Frustration With Netanyahu Grows",
+        "url": "https://www.axios.com/2026/08/18/israel-syria-turkey-strike-military-buildup",
+        "timestamp": 1787129122000,
+        "postedAt": 1787147405857
+      },
+      {
+        "headline": "The Real Danger Of Russia's Fake Elections",
+        "url": "https://www.thebulwark.com/p/the-real-danger-of-russias-fake-elections-fraud-war-ukraine-putin-yabloko",
+        "timestamp": 1787116899000,
+        "postedAt": 1787147405857
+      },
+      {
+        "headline": "US And Canada Hold Last-Minute Talks To Stop Trump's 50% Tariffs",
+        "url": "https://apnews.com/article/tariffs-trump-canada-usmca-trade-aae597c22617bec7a99f670a2c787ef9",
+        "timestamp": 1787090880000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Russia's Lavrov Says Britain Risks Being Seen As Party To Ukraine War",
+        "url": "https://www.reuters.com/world/uk/russias-lavrov-says-britain-risks-being-seen-party-ukraine-war-2026-08-18/",
+        "timestamp": 1787072024000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Humans Love Having Pets. Other Primates May Too",
+        "url": "https://www.smithsonianmag.com/smart-news/do-monkeys-keep-pets-study-finds-widespread-primate-interactions-with-other-animal-species-from-mice-to-deer-180989356/",
+        "timestamp": 1787061608000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Zambia's Hakainde Hichilema Declared Winner Of Troubled Election",
+        "url": "https://apnews.com/article/zambia-election-hichilema-victory-562c0ee56653c8dc835af7556c913aab",
+        "timestamp": 1787054640000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Stunning Views Of The Total Solar Eclipse Captured From Space",
+        "url": "https://www.space.com/stargazing/solar-eclipses/see-gorgeous-views-of-the-aug-12-total-solar-eclipse-captured-from-space",
+        "timestamp": 1787047200000,
+        "photo": true,
+        "postedAt": 1787096218112,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "US Tourist Dies After Lightning Strike Hiking Sicily's Mount Etna",
+        "url": "https://www.cnn.com/2026/08/18/europe/us-tourist-lightning-strike-mount-etna-italy-hnk",
+        "timestamp": 1787035325000,
+        "photo": true,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Venomous Portuguese Man-Of-War Jellyfish Return To French Beaches",
+        "url": "https://www.lemonde.fr/en/environment/article/2026/08/17/portuguese-man-o-war-a-highly-venomous-marine-organism-returns-to-beaches-in-southwestern-france_6756571_114.html",
+        "timestamp": 1786970655000,
+        "photo": true,
+        "postedAt": 1786974267540
+      },
+      {
+        "headline": "Prominent Mali Journalist Jailed Seven Years For Criticizing Junta",
+        "url": "https://www.france24.com/en/africa/20260817-prominent-mali-journalist-influencer-jailed-for-seven-years-for-criticising-junta",
+        "timestamp": 1786969863000,
+        "postedAt": 1786974267540
+      }
+    ],
+    "center": [
+      {
+        "headline": "Spain Prepares Transfer Of 500 Migrant Girls From Ceuta, Defying EU",
+        "url": "https://www.euronews.com/my-europe/2026/08/19/spain-ignores-eu-and-prepares-urgent-transfer-of-500-migrant-girls-from-ceuta-to-mainland",
+        "timestamp": 1787128427000,
+        "postedAt": 1787147405857
+      },
+      {
+        "headline": "Moderna Shares Surge As Merck Melanoma Vaccine Succeeds In Trial",
+        "url": "https://www.cnn.com/2026/08/19/health/moderna-merck-mrna-melanoma-vaccine",
+        "timestamp": 1787141036000,
+        "postedAt": 1787147405857
+      },
+      {
+        "headline": "How India's Blocking Of Police-Abuse Film Backfired",
+        "url": "https://www.npr.org/2026/08/19/g-s1-138787/how-indias-blocking-of-a-film-exposing-real-life-police-abuses-backfired",
+        "timestamp": 1787133720000,
+        "postedAt": 1787147405857
+      },
+      {
+        "headline": "China Completes First Stage Of Work On Disputed South China Sea Reef",
+        "url": "https://www.reuters.com/world/china/china-completes-first-stage-work-disputed-south-china-sea-reef-images-show-2026-08-19/",
+        "timestamp": 1787123984000,
+        "postedAt": 1787147405857
+      },
+      {
+        "headline": "Migrants Stranded At Europe's Gates In Ceuta Await Their Fate",
+        "url": "https://www.france24.com/en/europe/20260818-ceuta-migrants-stranded-europes-gates-await-their-fate",
+        "timestamp": 1787068361000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Angelique Kidjo Becomes First Black African To Get Hollywood Walk Of Fame Star",
+        "url": "https://www.france24.com/en/culture/20260818-angelique-kidjo-hollywood-walk-of-fame",
+        "timestamp": 1787092860000,
+        "photo": true,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Taliban Marks Five Years In Power, Condemns World For Not Recognizing It",
+        "url": "https://www.breitbart.com/asia/2026/08/18/taliban-marks-five-years-in-power-condemning-the-world-for-not-recognizing-it/",
+        "timestamp": 1787090199000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Why Is PM CARES Fund Keeping Large Sums Idle, Asks RTI Activist",
+        "url": "https://www.thehindu.com/news/national/pm-cares-fund-audit-2024-25-domestic-foreign-donations/article71360330.ece",
+        "timestamp": 1787088893000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Three Dead After Family Gets Into Difficulty In Sea Near Shoreham Port",
+        "url": "https://www.bbc.com/news/articles/cm2gmjd36pvo",
+        "timestamp": 1787088656000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "British Honeymoon Couple Killed In Helicopter Crash On Greek Island",
+        "url": "https://www.bbc.com/news/articles/cx2lzj91d84o",
+        "timestamp": 1787067013000,
+        "photo": true,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Philippine Student Livestreamed Fatal School Shooting Before Taking Own Life",
+        "url": "https://www.ksl.com/article/51611047/philippine-student-livestreamed-fatal-school-shooting-before-taking-own-life-official-says",
+        "timestamp": 1787062169000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Belgian Wildfire Nears Germany As Greece Probes Deadly Blaze",
+        "url": "https://apnews.com/article/wildfire-belgium-france-heat-europe-greece-cd5a8524ca3136b009422bd24eb4194e",
+        "timestamp": 1786970880000,
+        "photo": true,
+        "postedAt": 1786974267540
+      },
+      {
+        "headline": "Virgin Takes Step Toward Running Channel Tunnel Rail Services",
+        "url": "https://www.bbc.com/news/articles/cjrvx4yye81o",
+        "timestamp": 1786970785000,
+        "postedAt": 1786974267540
+      },
+      {
+        "headline": "Liberia: Juror Dies In Court Restroom During Trial",
+        "url": "https://allafrica.com/stories/202608170522.html",
+        "timestamp": 1786969689000,
+        "postedAt": 1786974267540
+      }
+    ],
+    "right": [
+      {
+        "headline": "Where's Marco? Rubio Steps Back From Foreign Policy Crises",
+        "url": "https://www.ms.now/news/rubio-secretary-state-iran-ukraine",
+        "timestamp": 1787130000000,
+        "postedAt": 1787147405857
+      },
+      {
+        "headline": "UKRAINE LAUNCHES ONE OF ITS LARGEST AERIAL ATTACKS OF THE WAR ON RUSSIA",
+        "url": "https://apnews.com/article/russia-ukraine-war-01294bf8744282086e8f76c8130e16ba",
+        "timestamp": 1786974267540,
+        "postedAt": 1786974267540
+      },
+      {
+        "headline": "US Sanctions ICC President And Senior Prosecutor In Another Move Against The Court",
+        "url": "https://apnews.com/article/international-criminal-court-sanctions-trump-israel-e8da938966f5f8dad763ecf68ea025c9",
+        "timestamp": 1787088240000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Choco, Colombia Faces Deeper Hardship After An Earthquake",
+        "url": "https://thechenabtimes.com/2026/08/18/colombias-choco-region-reels-from-devastating-earthquake-facing-deeper-hardship/?amp",
+        "timestamp": 1787070728000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "People Displaced After Powerful Earthquake In Indonesia, In Photos",
+        "url": "https://apnews.com/photo-gallery/people-await-aid-after-powerful-earthquake-indonesia-photos-3696677a5dc54d5ab4dc52ff05e9b6fb",
+        "timestamp": 1787066940000,
+        "photo": true,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Russia Summons Japanese Envoy Following Putin's Visit To Disputed Islands",
+        "url": "https://apnews.com/article/russia-putin-japan-kuril-islands-northern-territories-61bfbaff966cf066cb623e7825f7d74b",
+        "timestamp": 1787061600000,
+        "postedAt": 1787096218112
+      },
+      {
+        "headline": "Iran Bars Two French Diplomats Accused Of 'Interference'",
+        "url": "https://www.lemonde.fr/en/international/article/2026/08/17/iran-accuses-two-french-diplomats-of-interference_6756587_4.html",
+        "timestamp": 1786971217000,
+        "postedAt": 1786974267540
+      },
+      {
+        "headline": "Hayden Panettiere, Star Of 'Heroes' And 'Nashville,' Dies At 36",
+        "url": "https://apnews.com/article/hayden-panettiere-dies-1d660d3989916c3fa00421d05e4d78e7",
+        "timestamp": 1786970760000,
+        "photo": true,
+        "postedAt": 1786974267540
+      },
+      {
+        "headline": "Barclays Shakes Up Investment Bank In Third Overhaul In Three Years",
+        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN44E0V2:0-barclays-shakes-up-investment-bank-less-than-3-years-since-last-overhaul-ft/",
+        "timestamp": 1786970417000,
+        "postedAt": 1786974267540
+      },
+      {
+        "headline": "Reform UK's Proposed Benefits Ban Would Include EU Citizens",
+        "url": "https://www.bbc.com/news/articles/cly555430nno",
+        "timestamp": 1786970237000,
+        "postedAt": 1786974267540
+      }
+    ]
+  }
+}
