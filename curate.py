@@ -4109,6 +4109,12 @@ def apply_suppress(data):
     return data
 
 MANUAL_PICKS = {
+    "main": [
+        {"headline": "Prince Harry and Meghan Moving Their Family Back to the UK", "url": 'https://www.nbcnews.com/world/united-kingdom/prince-harry-meghan-will-move-back-united-kingdom-source-says-rcna593435', "added": '2026-08-20'},
+    ],
+    "markets": [
+        {"headline": "Walmart US Same-Store Sales Post Slowest Growth in Six Years", "url": 'https://chainstoreage.com/walmart-beats-street-q2-eps-revenues-misses-us-comp-sales', "added": '2026-08-20'},
+    ],
     "life-culture": [
         {"headline": 'How to Stock Your Home Bar, According to a Woman', "url": 'https://www.insidehook.com/drinks/every-grown-man-should-stock-home-bar', "added": '2026-08-06'},
     ],
@@ -4123,6 +4129,7 @@ MANUAL_PICKS = {
             {"text": "Five of nine drives arrived missing all results, forcing a retabulation", "url": 'https://www.westernjournal.com/breaking-overnight-5-9-usb-drives-missing-election-results-blue-stronghold-milwaukee/'},
             {"text": "Steve Kornacki's on-air reaction goes viral as Wisconsin retabulates", "url": 'https://www.primetimer.com/news/steve-kornackis-shocked-expression-goes-viral-after-learning-wisconsin-election-results-will-be-retabulated-due-to-missing-results-on-5-of-9-usb-sticks'},
          ]},
+        {"headline": "FBI Seizes Eric Swalwell's Devices in Sexual Misconduct Probe", "url": 'https://www.cbsnews.com/news/swalwell-fbi-search-warrants-devices-sexual-misconduct-investigation/', "added": '2026-08-20'},
     ],
 }
 
