@@ -511,57 +511,57 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,707.98",
-      "change": "+16.22",
-      "changePct": "+0.21%",
-      "up": true,
+      "value": "7,677.03",
+      "change": "-30.95",
+      "changePct": "-0.40%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "53,463.05",
-      "change": "+119.65",
-      "changePct": "+0.22%",
-      "up": true,
+      "value": "53,006.40",
+      "change": "-456.65",
+      "changePct": "-0.85%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,331.09",
-      "change": "+41.38",
-      "changePct": "+0.16%",
-      "up": true,
+      "value": "26,114.78",
+      "change": "-216.31",
+      "changePct": "-0.82%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
-      "value": "4.65%",
-      "change": "-0.05",
-      "changePct": "-1.13%",
-      "up": false,
+      "value": "4.70%",
+      "change": "+0.05",
+      "changePct": "+1.05%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Gold",
-      "value": "$4,520.90",
-      "change": "-24.40",
-      "changePct": "-0.54%",
-      "up": false,
+      "value": "$4,569.00",
+      "change": "+23.70",
+      "changePct": "+0.52%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$87.45",
-      "change": "+3.06",
-      "changePct": "+3.63%",
+      "value": "$86.63",
+      "change": "+2.24",
+      "changePct": "+2.65%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$71,748.48",
-      "change": "+2,459.04",
-      "changePct": "+3.55%",
+      "value": "$72,251.99",
+      "change": "+2,962.55",
+      "changePct": "+4.28%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     }
