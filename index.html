@@ -801,56 +801,51 @@ var img = !!s.image, m = pick(img);
 cols[m].push(s); w[m] += img ? 6 : 2;                // a photo story is ~6 lines vs ~2 for text
 if (img) pc[m] += 1;
 });
-// Within each column, space the photos out vertically instead of letting them stack at the top.
-function spaced(col) {
-var pics = col.filter(function (s) { return s.image; });
-var text = col.filter(function (s) { return !s.image; });
-if (!pics.length) return col;
-var total = col.length, slot = {};
-for (var i = 0; i < pics.length; i++) { slot[Math.floor((i + 0.5) * total / pics.length)] = 1; }
-var out = [], pi = 0, ti = 0;
-for (var pos = 0; pos < total; pos++) {
-if (slot[pos] && pi < pics.length) out.push(pics[pi++]);
-else if (ti < text.length) out.push(text[ti++]);
-else if (pi < pics.length) out.push(pics[pi++]);
-}
-return out;
-}
-leftCols = spaced(cols[0]); centerCols = spaced(cols[1]); rightCols = spaced(cols[2]);
+// Photos are positioned vertically in the assembly step below (organic + randomized), so here we
+// just hand each column its stories in time order.
+leftCols = cols[0]; centerCols = cols[1]; rightCols = cols[2];
 })();
 function colSectionHTML(s) {
 var img = s.image ? '<a href="' + s.url + '" target="_blank" class="col-img-wrap"><img class="col-img" src="' + s.image + '?t=' + Date.now() + '" alt="" loading="lazy"></a>' : '';
 return '<div class="col-section">' + img + '<a href="' + s.url + '" target="_blank"' + featAttr(s) + '>' + tagPrefix(s) + toTitleCase(s.headline) + '</a></div>';
 }
-// LEAD PHOTO: pull ONE photo story to the very TOP of each column, above the text-only narrative
-// panels, so an image (not a wall of panel text) breaks the top of the page. The remaining photos
-// stay spread vertically further down (see spaced()). This distributes pictures both across the
-// three columns and top-to-bottom. If a column has no photo story, its panels lead as before.
-function splitLead(colStories) {
-for (var i = 0; i < colStories.length; i++) {
-if (colStories[i].image) {
-return { lead: colSectionHTML(colStories[i]),
-rest: colStories.slice(0, i).concat(colStories.slice(i + 1)) };
+// ORGANIC PHOTO DISTRIBUTION: scatter each column's photos to VARIED vertical positions instead of
+// stacking them at the top. Each column is handed a different vertical band - top / middle / lower -
+// and which column gets which band is reshuffled every publish (seeded by lastUpdated), so the
+// arrangement shifts over time and looks unplanned. Random jitter means photos can sometimes sit
+// near each other. The TOP band is forced onto a column that actually has a photo, so the top of the
+// page is never left a wall of panel text.
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+var rnd = mulberry32(((data.lastUpdated||Date.now())>>>0) ^ 0x9E3779B1);
+var anchors = [0.06, 0.40, 0.66];                       // top, middle, lower
+for (var ai = anchors.length - 1; ai > 0; ai--) { var aj = Math.floor(rnd() * (ai + 1)); var at = anchors[ai]; anchors[ai] = anchors[aj]; anchors[aj] = at; }
+var colStories = [leftCols, centerCols, rightCols];
+var hasPhoto = function(arr){ return arr.some(function(s){ return s.image; }); };
+(function(){                                             // top band must land on a column with a photo
+var minI = 0; for (var i = 1; i < 3; i++) if (anchors[i] < anchors[minI]) minI = i;
+if (!hasPhoto(colStories[minI])) {
+for (var i = 0; i < 3; i++) if (hasPhoto(colStories[i])) { var t = anchors[minI]; anchors[minI] = anchors[i]; anchors[i] = t; break; }
 }
+})();
+function assembleColumn(panelStr, stories, anchorFrac) {
+var text = [], photos = [];
+stories.forEach(function(s){ (s.image ? photos : text).push(colSectionHTML(s)); });
+var out = [];
+if (panelStr) out.push(panelStr);                     // panels lead the text skeleton
+for (var i = 0; i < text.length; i++) out.push(text[i]);
+var n = photos.length;
+for (var k = 0; k < n; k++) {                         // insert each photo at its (jittered) vertical spot
+var frac = anchorFrac + k * (0.85 / n) + (rnd() - 0.5) * 0.16;
+if (frac < 0) frac = 0; if (frac > 0.98) frac = 0.98;
+var idx = Math.round(frac * out.length);
+if (idx < 0) idx = 0; if (idx > out.length) idx = out.length;
+out.splice(idx, 0, photos[k]);
 }
-return { lead: '', rest: colStories };
+return out.join('');
 }
-var L = splitLead(leftCols), C = splitLead(centerCols), R = splitLead(rightCols);
-// Left column: (scoreboard) + lead photo + panels + the rest of the left stories
-var leftEl = document.getElementById('col-left');
-var leftHTML = sbHTML + L.lead + panelHTML[0];
-L.rest.forEach(function(s) { leftHTML += colSectionHTML(s); });
-leftEl.innerHTML = leftHTML;
-// Center column: lead photo + panels + the rest of the center stories
-var centerEl = document.getElementById('col-center');
-var centerHTML = C.lead + panelHTML[1];
-C.rest.forEach(function(s) { centerHTML += colSectionHTML(s); });
-centerEl.innerHTML = centerHTML;
-// Right column: lead photo + panels + the rest of the right stories
-var rightEl = document.getElementById('col-right');
-var rightHTML = R.lead + panelHTML[2];
-R.rest.forEach(function(s) { rightHTML += colSectionHTML(s); });
-rightEl.innerHTML = rightHTML;
+document.getElementById('col-left').innerHTML   = sbHTML + assembleColumn(panelHTML[0], leftCols, anchors[0]);
+document.getElementById('col-center').innerHTML =          assembleColumn(panelHTML[1], centerCols, anchors[1]);
+document.getElementById('col-right').innerHTML  =          assembleColumn(panelHTML[2], rightCols, anchors[2]);
 }
 function saveStories(data) {
 if (ARCHIVE_DATE) return;   // don't let an archived view overwrite the live cache
