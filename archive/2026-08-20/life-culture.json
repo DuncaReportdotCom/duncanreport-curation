@@ -144,8 +144,7 @@
         "url": "https://www.sfexaminer.com/frank-beard-beardless-drummer-for-zz-top-dies-at-77/article_27de6592-d0cc-59aa-aa9c-e7903ba9e570.html",
         "timestamp": 1787095575000,
         "photo": true,
-        "postedAt": 1787097208437,
-        "image": "/img/life-culture-4.jpg"
+        "postedAt": 1787097208437
       },
       {
         "headline": "How Academia Created Jason Arday",
@@ -435,7 +434,8 @@
         "url": "https://www.caranddriver.com/photos/a73453078/2027-toyota-tundra-trailhunter-prototype-drive-exterior-gallery/",
         "timestamp": 1787055560000,
         "photo": true,
-        "postedAt": 1787061899161
+        "postedAt": 1787061899161,
+        "image": "/img/life-culture-4.jpg"
       },
       {
         "headline": "TikTok Helps Scientists Discover New Underground, Translucent Eel in India",

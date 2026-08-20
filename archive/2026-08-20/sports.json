@@ -512,27 +512,27 @@
       "home": "CIN",
       "away": "STL",
       "state": "in",
-      "note": "Top 1st",
+      "note": "End 4th",
       "homeScore": "0",
-      "awayScore": "0"
+      "awayScore": "4"
     },
     {
       "league": "MLB",
       "home": "CLE",
       "away": "SF",
-      "state": "scheduled",
-      "note": "8/20 - 1:10 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Mid 3rd",
+      "homeScore": "3",
+      "awayScore": "0"
     },
     {
       "league": "MLB",
       "home": "TB",
       "away": "TOR",
-      "state": "scheduled",
-      "note": "8/20 - 1:10 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Bot 3rd",
+      "homeScore": "0",
+      "awayScore": "1"
     },
     {
       "league": "MLB",
