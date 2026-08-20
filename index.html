@@ -108,6 +108,12 @@ margin-bottom: 6px;
 #hero-image img { max-width: 72%; max-height: 272px; height: auto; display: inline-block; border: 1px solid #ccc; }
 .col-img { width: 100%; max-height: 210px; object-fit: cover; display: block; margin: 0 0 4px; border: 1px solid #ccc; }
 .col-img-wrap { display: block; line-height: 0; }
+/* CONTENT LINK COLOR (catch-all): story links render as bare <a> inside the hero,
+   sub-headlines, narrative panels and columns - many carry no class, so the class-specific
+   rules below miss them and they fell back to default browser blue. This guarantees EVERY
+   content link is slate navy. Featured stories set color inline (dark red) and still win;
+   header nav, source bar and scoreboard keep their own rules (they are outside #main-content). */
+#main-content a { color: #34435C; }
 #hero-headline {
 font-size: 28px;
 font-weight: bold;
