@@ -28,6 +28,9 @@ on:
     paths:
       - "curate.py"
       - "index.html"
+      - "mockup1.html"
+      - "mockup2.html"
+      - "mockup3.html"
   workflow_dispatch:
     inputs:
       section:
