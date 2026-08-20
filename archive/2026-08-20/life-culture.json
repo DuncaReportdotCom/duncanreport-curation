@@ -1,0 +1,467 @@
+{
+  "lastUpdated": 1787229361119,
+  "heroSetDate": "2026-08-20",
+  "hero": {
+    "headline": "SCIENTISTS DISCOVER NEW DINOSAUR SPECIES DEEP IN SAHARA DESERT",
+    "url": "https://abcnews.com/International/scientists-discover-new-dinosaur-species-deep-sahara-desert/story?id",
+    "sublinks": [],
+    "postedAt": 1787229361119,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "HAYDEN PANETTIERE DEATH INVESTIGATION",
+      "stories": [
+        {
+          "headline": "DEA Joins Hayden Panettiere's Death Investigation",
+          "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/hayden-panettiere-death-investigation-dea-1235611899/",
+          "timestamp": 1787197659000,
+          "feature": true,
+          "postedAt": 1787229361119
+        },
+        {
+          "headline": "Panettiere's Neighbor Detailed Repeated 911 Calls Over Boyfriend Disturbances",
+          "url": "https://www.hollywoodreporter.com/news/general-news/hayden-panettieres-neighbor-called-911-report-disturbances-1236677449/",
+          "timestamp": 1787187757000,
+          "postedAt": 1787229361119
+        }
+      ]
+    },
+    {
+      "title": "THE QUANTUM COMPUTING RACE HEATS UP",
+      "stories": [
+        {
+          "headline": "The Global Race to Make a Practical Quantum Computer Just Took a Big Leap Forward",
+          "url": "https://theconversation.com/the-global-race-to-make-a-practical-quantum-computer-just-took-a-big-leap-forward-286387",
+          "timestamp": 1787057636000,
+          "postedAt": 1787061899161
+        },
+        {
+          "headline": "A New Approach to Building Noise-Resistant Quantum Sensors",
+          "url": "https://phys.org/news/2026-08-approach-noise-resistant-quantum-sensors.html",
+          "timestamp": 1787054407000,
+          "postedAt": 1787061899161
+        }
+      ]
+    },
+    {
+      "title": "BIG TOURS ON THE HORIZON",
+      "stories": [
+        {
+          "headline": "Kanye West Announces Tour Dates in Russia",
+          "url": "https://www.bbc.com/news/articles/cd9w4v1nx93o",
+          "timestamp": 1787046947000,
+          "postedAt": 1787061899161
+        },
+        {
+          "headline": "Jonas Brothers Announce 45-City 'Burning Up' North American Tour Dates",
+          "url": "https://variety.com/2026/music/news/jonas-brothers-2026-burning-up-north-american-tour-dates-1236836312/",
+          "timestamp": 1786978320000,
+          "postedAt": 1787061899161
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "The 1944 Freckleton Air Disaster, Britain's Deadliest WWII Air Crash",
+        "url": "https://www.smithsonianmag.com/history/when-american-airplane-crashed-into-school-1944-english-village-lost-almost-all-of-its-youngest-children-why-has-wwii-worst-civilian-aviation-accident-been-forgotten-180989341/",
+        "timestamp": 1787226300000,
+        "photo": true,
+        "postedAt": 1787229361119,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "Why Miso Deserves A Spot In Your Pantry",
+        "url": "https://www.seriouseats.com/red-koji-primer-12063848",
+        "timestamp": 1787223600000,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "Apple May Finally Make A Round Apple Watch",
+        "url": "https://www.esquire.com/uk/watches/a73475546/apple-watch-round/",
+        "timestamp": 1787220762000,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "Remembering ZZ Top's Weird Tribute To A Houston Rap Classic",
+        "url": "https://www.chron.com/culture/article/zz-top-twenty-five-lighters-houston-revisited-22395513.php",
+        "timestamp": 1787186065000,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "Tupac's Autopsy Findings, Last Words Revealed At Trial",
+        "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/08/19/tupac-shakur-autopsy-last-words/91356619007/",
+        "timestamp": 1787180820000,
+        "feature": true,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "Pokémon's 30th Anniversary Set May Feature Rarest Mew Ever",
+        "url": "https://kotaku.com/pokemons-30th-anniversary-set-might-be-making-a-mysterious-new-mew-card-the-rarest-ever-2000725936",
+        "timestamp": 1787175449000,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "Scientists Find New Organ Hidden In The Skull",
+        "url": "https://www.sciencealert.com/scientists-discover-a-new-organ-hiding-in-the-skull",
+        "timestamp": 1787159294000,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "The Bloodsucking Insect With A Saw For A Mouth",
+        "url": "https://theconversation.com/the-bloodsucking-insect-with-a-saw-for-a-mouth-how-the-tsetse-fly-bites-through-almost-anything-289260",
+        "timestamp": 1787146041000,
+        "postedAt": 1787148490172
+      },
+      {
+        "headline": "Quantum Entanglement Generated From Sunlight For First Time",
+        "url": "https://www.sciencealert.com/for-the-first-time-researchers-have-generated-quantum-entanglement-directly-from-sunlight",
+        "timestamp": 1787140987000,
+        "postedAt": 1787148490172
+      },
+      {
+        "headline": "The Embarrassing Secret Of Kareem Rahma's Success",
+        "url": "https://www.gq.com/story/from-the-desk-of-kareem-rahma",
+        "timestamp": 1787140800000,
+        "postedAt": 1787148490172
+      },
+      {
+        "headline": "Did Smartphones Really Kill Reading?",
+        "url": "https://lithub.com/did-smartphones-really-kill-reading/",
+        "timestamp": 1787137754000,
+        "postedAt": 1787148490172
+      },
+      {
+        "headline": "Natural Flavors Aren't Necessarily Better Than Artificial Ones",
+        "url": "https://www.seriouseats.com/natural-vs-artificial-flavors-12063097",
+        "timestamp": 1787137200000,
+        "postedAt": 1787148490172
+      },
+      {
+        "headline": "Frank Beard, ZZ Top's Beardless Drummer, Dies At 77",
+        "url": "https://www.sfexaminer.com/frank-beard-beardless-drummer-for-zz-top-dies-at-77/article_27de6592-d0cc-59aa-aa9c-e7903ba9e570.html",
+        "timestamp": 1787095575000,
+        "photo": true,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "How Academia Created Jason Arday",
+        "url": "https://www.npr.org/2026/08/18/nx-s1-5935396/britain-cambridge-professor-jason-arday-hiring-questions",
+        "timestamp": 1787090523000,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "This No-Cook Zucchini, Butter Bean And Tuna Salad Makes A Fresh Summer Meal",
+        "url": "https://www.seriouseats.com/zucchini-butter-bean-tuna-salad-recipe-12062817",
+        "timestamp": 1787090400000,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "'Spider-Man: Brand New Day' Hits $2 Billion Worldwide in Three Weeks",
+        "url": "https://variety.com/2026/film/box-office/spider-man-brand-new-day-2-billion-worldwide-box-office-second-fastest-milestone-1236834058/",
+        "timestamp": 1786893300000,
+        "postedAt": 1787061899161
+      },
+      {
+        "headline": "The Hidden Story of America's Historically Black Beaches",
+        "url": "https://www.afar.com/magazine/the-enduring-legacy-of-historically-black-beaches",
+        "timestamp": 1787060717000,
+        "postedAt": 1787061899161
+      },
+      {
+        "headline": "Zale Parry, Aquatic Hollywood Star and Early Acid Tripper, Dies at 93",
+        "url": "https://www.facebook.com/nytimes/posts/zale-parry-a-depth-defying-scuba-diver-and-underwater-stuntwoman-whose-reverence/1459160809399711/",
+        "timestamp": 1787058780000,
+        "photo": true,
+        "postedAt": 1787061899161
+      },
+      {
+        "headline": "Is Immortality Possible?",
+        "url": "https://nautil.us/is-immortality-possible-1283865/",
+        "timestamp": 1787054400000,
+        "postedAt": 1787061899161
+      },
+      {
+        "headline": "In Portland, This Soap Box Derby Combines Downhill Speed With Extreme Pageantry",
+        "url": "https://www.npr.org/2026/08/18/nx-s1-5935518/portland-oregon-soap-box-derby-race-pdx",
+        "timestamp": 1787045400000,
+        "photo": true,
+        "postedAt": 1787061899161
+      },
+      {
+        "headline": "Meet the Only Known Trebuchet Casualty in History",
+        "url": "https://arstechnica.com/science/2026/08/meet-the-only-known-trebuchet-casualty-in-history/",
+        "timestamp": 1786974095000,
+        "photo": true,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "AI Companies Look to the Ocean as a Place to Put More Data Centers",
+        "url": "https://theconversation.com/ai-companies-look-to-the-ocean-as-a-place-to-put-more-data-centers-289180",
+        "timestamp": 1786970232000,
+        "postedAt": 1786974943179
+      }
+    ],
+    "center": [
+      {
+        "headline": "Meta's New Mac App Wants You To Talk To Your Apps",
+        "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+        "timestamp": 1787227917000,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "Inside The Carbone Crew's Decadent Bid For World Domination",
+        "url": "https://www.gq.com/story/carbone-major-food-group-restaurant-empire",
+        "timestamp": 1787227200000,
+        "photo": true,
+        "postedAt": 1787229361119,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "Cabin Crew Face Higher Radiation Cancer Risk Than Nuclear Workers",
+        "url": "https://theconversation.com/cabin-crew-at-greater-risk-of-radiation-based-cancer-than-nuclear-technologists-289846",
+        "timestamp": 1787224138000,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "We're Not Taking Harmful Cat Behaviors Online Seriously Enough",
+        "url": "https://www.sciencealert.com/were-not-taking-harmful-cat-behaviors-on-the-internet-seriously-enough-researchers-warn",
+        "timestamp": 1787220256000,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "Should We Thank Gila Monsters For GLP-1s?",
+        "url": "https://www.realclearscience.com/video/2026/08/20/should_we_thank_gila_monsters_for_glp-1s_1201408.html",
+        "timestamp": 1787160060000,
+        "photo": true,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "Jonathan Swift's Literary World",
+        "url": "https://engelsbergideas.com/reviews/jonathan-swifts-literary-world/",
+        "timestamp": 1787047434000,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "I Went No Contact With My Parents. I Regret It.",
+        "url": "https://manhattan.institute/article/i-went-no-contact-with-my-parents-i-regret-it",
+        "timestamp": 1787147900000,
+        "postedAt": 1787148490172
+      },
+      {
+        "headline": "This Simple Trick Could Cut Down Your Phone Time",
+        "url": "https://www.sciencealert.com/this-simple-trick-could-finally-help-you-cut-down-on-phone-time",
+        "timestamp": 1787141011000,
+        "postedAt": 1787148490172
+      },
+      {
+        "headline": "The Best Ocean Photos Of The Year",
+        "url": "https://nautil.us/the-best-ocean-photos-of-the-year-1283951",
+        "timestamp": 1787140800000,
+        "photo": true,
+        "postedAt": 1787148490172,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "Queen Camilla Says It Was 'Difficult' To Keep Charles's Cancer Secret",
+        "url": "https://www.nbcnews.com/world/united-kingdom/king-charles-cancer-diagnosis-camilla-secret-difficult-rcna593289",
+        "timestamp": 1787138906000,
+        "photo": true,
+        "postedAt": 1787148490172
+      },
+      {
+        "headline": "What It's Like Sailing On The Most Exciting New Cruise To Launch This Year",
+        "url": "https://www.afar.com/magazine/in-depth-review-of-the-orient-express-corinthian-yacht",
+        "timestamp": 1787094225000,
+        "photo": true,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "Nobody's Talking About This Weak Link In The Hydrogen Economy: Metal",
+        "url": "https://www.sciencealert.com/nobodys-talking-about-this-weak-link-in-the-hydrogen-economy-metal",
+        "timestamp": 1787090472000,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "'Turn The Volume Up!' Traces A History Of Sound",
+        "url": "https://links.thisiscolossal.com/post/825320529706778624/turn-the-volume-up-highlights-the-history-of/amp",
+        "timestamp": 1787090041000,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "JWST FINDS WATER SURVIVING SURPRISINGLY CLOSE TO OUR GALAXY'S SUPERMASSIVE BLACK HOLE",
+        "url": "https://www.sciencealert.com/especially-exciting-jwst-finds-water-surviving-surprisingly-close-to-our-galaxys-supermassive-black-hole",
+        "timestamp": 1786974943179,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "Parkinson's Link to Gut Bacteria Hints at Unexpectedly Simple Treatment",
+        "url": "https://www.sciencealert.com/parkinsons-tie-to-gut-bacteria-hints-at-unexpectedly-simple-treatment",
+        "timestamp": 1787058167000,
+        "postedAt": 1787061899161
+      },
+      {
+        "headline": "Everything You Might've Missed From This Year's Monterey Car Week",
+        "url": "https://www.gearpatrol.com/cars/everything-you-mightve-missed-from-this-years-monterey-car-week/",
+        "timestamp": 1787058000000,
+        "photo": true,
+        "postedAt": 1787061899161
+      },
+      {
+        "headline": "Immune Cells Have a 'Sense of Touch,' Scientists Discover",
+        "url": "https://phys.org/news/2026-08-immune-cells-scientists.html",
+        "timestamp": 1787011201000,
+        "postedAt": 1787061899161
+      },
+      {
+        "headline": "In 'Etna,' a Canine Narrator Delivers a Poignant Anti-War Message",
+        "url": "https://www.npr.org/2026/08/17/nx-s1-5935270/etna-paul-yoon-review",
+        "timestamp": 1786994037000,
+        "postedAt": 1787061899161
+      },
+      {
+        "headline": "EARTH'S CHEMISTRY WOBBLED DURING ITS 5 BIGGEST MASS EXTINCTIONS, STUDY FINDS",
+        "url": "https://www.sciencealert.com/critical-transition-earths-chemistry-wobbled-during-its-5-biggest-mass-extinctions",
+        "timestamp": 1786974943179,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "Tommy John, Pitcher Who Gave His Name to Career-Saving Surgery, Dies at 83",
+        "url": "https://www.theguardian.com/sport/2026/aug/16/tommy-john-pitcher-whose-surgery-changed-baseball-dies-at-age-of-83",
+        "timestamp": 1786973220000,
+        "photo": true,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "The Jeep Cherokee Just Returned Only to Be Replaced in 3 Years",
+        "url": "https://www.thedrive.com/?taxonomy",
+        "timestamp": 1786972600000,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "Two Eyeless Shrimp-Like Species Found in Japan's Groundwater Are New to Science",
+        "url": "https://phys.org/news/2026-08-eyeless-shrimp-species-japan-groundwater.html",
+        "timestamp": 1786971601000,
+        "photo": true,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "The Real Reason Many Americans Are Cutting Ties With Their Parents and Siblings",
+        "url": "https://theconversation.com/the-real-reason-many-americans-are-cutting-ties-with-their-parents-and-siblings-283957",
+        "timestamp": 1786970251000,
+        "postedAt": 1786974943179
+      }
+    ],
+    "right": [
+      {
+        "headline": "Orange Lips And Roaring Calls: DRC's Shy New Rainforest Monkey",
+        "url": "https://theconversation.com/orange-lips-and-roaring-calls-meet-the-drcs-shy-new-rainforest-monkey-288470",
+        "timestamp": 1787148490172,
+        "postedAt": 1787148490172
+      },
+      {
+        "headline": "The Toyota Celica Is Returning—But Will Toyota Go It Alone?",
+        "url": "https://www.motortrend.com/news/2028-toyota-celica-future-cars",
+        "timestamp": 1787227627000,
+        "photo": true,
+        "postedAt": 1787229361119,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Seiko Turns The Bullet Train Into A Cult Anime Watch",
+        "url": "https://www.esquire.com/uk/watches/a73482411/seiko-one-piece-japan-bullet-train-watch/",
+        "timestamp": 1787223509000,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "Oscar Wilde Still Knows Exactly Who We Are",
+        "url": "https://rvamag.com/art/theatre/review-oscar-wilde-still-knows-exactly-who-we-are.html",
+        "timestamp": 1787167241000,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "The Wavy Window Paradox",
+        "url": "https://www.realclearscience.com/video/2026/08/20/the_wavy_window_paradox_1201409.html",
+        "timestamp": 1787160240000,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "Beijing Internationalizes Its Cultural Security",
+        "url": "https://jamestown.substack.com/p/beijing-internationalizes-its-cultural",
+        "timestamp": 1787142692000,
+        "postedAt": 1787148490172
+      },
+      {
+        "headline": "Anthony Bourdain Wears The Perfect Chef's Watch In 'Tony'",
+        "url": "https://www.gq.com/story/tony-anthony-bourdain-watch-08-19-26",
+        "timestamp": 1787142548000,
+        "postedAt": 1787148490172
+      },
+      {
+        "headline": "What Luigi Mangione's Celebrity Says About Gen Z",
+        "url": "https://theconversation.com/what-luigi-mangiones-celebrity-says-about-gen-z-289938",
+        "timestamp": 1787142480000,
+        "postedAt": 1787148490172
+      },
+      {
+        "headline": "Why You Move Factors Into Whether It Protects You From Dementia",
+        "url": "https://nautil.us/why-you-move-factors-in-to-whether-it-protects-you-from-dementia-1283940",
+        "timestamp": 1787092200000,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "How One Woman With A Very Rare Disease Secured A Clinical Trial",
+        "url": "https://www.facebook.com/nytimes/photos/through-sheer-determination-neena-nizar-has-become-the-first-patient-in-a-clinic/1460204112628714/",
+        "timestamp": 1787090400000,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "National Symphony Orchestra Announces Season Outside The Kennedy Center",
+        "url": "https://www.wusa9.com/article/entertainment/music/national-symphony-orchestra-season-announcement-no-kennedy-center/65-43f8459d-56be-4faa-8cc0-80e426e9cf56",
+        "timestamp": 1787090400000,
+        "postedAt": 1787097208437
+      },
+      {
+        "headline": "Climate Doom May Discourage Climate Action, but There's a Way to Counter It",
+        "url": "https://theconversation.com/climate-doom-may-discourage-climate-action-but-theres-a-way-to-counter-it-288301",
+        "timestamp": 1787057613000,
+        "postedAt": 1787061899161
+      },
+      {
+        "headline": "A Photo Tour of the 2027 Toyota Tundra Trailhunter Prototype",
+        "url": "https://www.caranddriver.com/photos/a73453078/2027-toyota-tundra-trailhunter-prototype-drive-exterior-gallery/",
+        "timestamp": 1787055560000,
+        "photo": true,
+        "postedAt": 1787061899161,
+        "image": "/img/life-culture-4.jpg"
+      },
+      {
+        "headline": "TikTok Helps Scientists Discover New Underground, Translucent Eel in India",
+        "url": "https://www.popsci.com/environment/tik-tok-new-eel-india/",
+        "timestamp": 1786993440000,
+        "postedAt": 1787061899161
+      },
+      {
+        "headline": "NASA's Amazing New Space Telescope Launches This Month",
+        "url": "https://www.realclearscience.com/video/2026/08/17/nasas_amazing_new_space_telescope_launches_this_month_1200644.html",
+        "timestamp": 1786870740000,
+        "postedAt": 1787061899161
+      },
+      {
+        "headline": "Hike for Ramen and Kaiseki on This 700-Mile Temple and Food Trail Through Japan",
+        "url": "https://www.afar.com/magazine/a-food-lovers-guide-to-hiking-the-shikoku-temple-pilgrimage",
+        "timestamp": 1786972773000,
+        "postedAt": 1786974943179
+      },
+      {
+        "headline": "Hayden Panettiere, Scream and Nashville Actress, Dies at 36",
+        "url": "https://abcnews.com/US/hayden-panettiere-dies-36/story?id",
+        "timestamp": 1786970681000,
+        "photo": true,
+        "postedAt": 1786974943179
+      }
+    ]
+  }
+}
