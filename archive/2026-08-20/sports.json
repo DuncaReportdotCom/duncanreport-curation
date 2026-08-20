@@ -511,10 +511,10 @@
       "league": "MLB",
       "home": "CIN",
       "away": "STL",
-      "state": "scheduled",
-      "note": "8/20 - 12:40 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Top 1st",
+      "homeScore": "0",
+      "awayScore": "0"
     },
     {
       "league": "MLB",
