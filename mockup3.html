@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DuncanReport.com — Mockup 3 (not live)</title>
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta name="description" content="DuncanReport.com - a spectrum-balanced news aggregator covering Politics,
+World, Business, Sports, and Life & Culture." />
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+font-family: 'Times New Roman', Times, serif;
+background: #fff;
+color: #000;
+font-size: 14px;
+}
+/* HEADER */
+#header {
+text-align: center;
+padding: 10px 10px 2px;
+}
+#site-title {
+font-size: 44px;
+font-weight: normal;
+letter-spacing: -1px;
+font-family: "Times New Roman", Times, serif;
+background: linear-gradient(180deg, #1a1a1a 0%, #555 60%, #1a1a1a 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.35));
+display: inline-block;
+}
+#date-line {
+font-size: 12px;
+color: #555;
+margin: 10px 0 4px;
+}
+/* NAV WRAPPER */
+#nav-wrapper {
+max-width: 1100px;
+margin: 0 auto;
+}
+/* NAV */
+#top-nav {
+display: flex;
+justify-content: center;
+gap: 0;
+padding: 5px 0;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+flex-wrap: wrap;
+}
+#top-nav a {
+color: #34435C;
+text-decoration: underline;
+font-size: 12px;
+font-weight: bold;
+padding: 2px 12px;
+border-right: 1px solid #ccc;
+cursor: pointer;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+}
+#top-nav a:last-child { border-right: none; }
+#top-nav a:hover { text-decoration: underline; color: #cc0000; }
+/* Per-section nav colors: each tab shows its section's signature color (matching the masthead);
+   hover -> red is handled by the #top-nav a:hover rule above. The current tab keeps its section
+   color - the big section masthead already signals which page you are on. */
+#top-nav a.nav-main     { color: #000000; }
+#top-nav a.nav-sports   { color: #cc0000; }
+#top-nav a.nav-world    { color: #34435C; }
+#top-nav a.nav-markets  { color: #006600; }
+#top-nav a.nav-politics { color: #8b0000; }
+#top-nav a.nav-life     { color: #5500aa; }
+/* SOURCE BAR */
+#source-bar {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 0;
+padding: 4px 10px;
+border-bottom: 1px solid #ccc;
+background: #fff;
+}
+#source-bar a {
+color: #34435C;
+text-decoration: underline;
+font-size: 10px;
+padding: 1px 6px;
+border-right: 1px solid #ccc;
+}
+#source-bar a:last-child { border-right: none; }
+#source-bar a:hover { text-decoration: underline; }
+/* MAIN CONTENT */
+#main-content {
+max-width: 1100px;
+margin: 0 auto;
+padding: 6px;
+}
+/* HERO */
+#hero {
+text-align: center;
+padding: 8px 20px;
+margin-bottom: 6px;
+}
+#hero-image { text-align: center; margin: 2px 0 8px; }
+#hero-image:empty { display: none; }
+#hero-image img { max-width: 72%; max-height: 272px; height: auto; display: inline-block; border: 1px solid #ccc; }
+.col-img { width: 100%; max-height: 210px; object-fit: cover; display: block; margin: 0 0 4px; border: 1px solid #ccc; }
+.col-img-wrap { display: block; line-height: 0; }
+/* CONTENT LINK COLOR (catch-all): story links render as bare <a> inside the hero,
+   sub-headlines, narrative panels and columns - many carry no class, so the class-specific
+   rules below miss them and they fell back to default browser blue. This guarantees EVERY
+   content link is slate navy. Featured stories set color inline (dark red) and still win;
+   header nav, source bar and scoreboard keep their own rules (they are outside #main-content). */
+#main-content a { color: #34435C; }
+#hero-headline {
+font-size: 28px;
+font-weight: bold;
+text-transform: uppercase;
+line-height: 1.2;
+margin-bottom: 4px;
+}
+#hero-headline a {
+color: #34435C;
+text-decoration: underline;
+}
+#hero-headline a:hover { color: #cc0000; text-decoration: underline; }
+.sub-headline {
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+margin: 1px 0;
+}
+.sub-headline a {
+color: #34435C;
+text-decoration: none;
+}
+.sub-headline a:hover { text-decoration: underline; }
+/* COLUMNS */
+#columns {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 0;
+}
+.col {
+padding: 4px 8px;
+border-right: 1px solid #ccc;
+}
+.col:last-child { border-right: none; }
+.col-section {
+margin-bottom: 4px;
+border-top: 1px solid #ccc;
+padding-top: 3px;
+}
+.col-section:first-child,
+.col-section.grouped {
+border-top: none;
+padding-top: 0;
+}
+.group-panel + .group-panel {
+border-top: 1px solid #ccc;
+padding-top: 3px;
+}
+.col-section-title {
+font-size: 15px;
+font-weight: bold;
+margin-bottom: 2px;
+line-height: 1.2;
+}
+.col-section-title a {
+color: #34435C;
+text-decoration: underline;
+}
+.col-section-title a:hover { color: #cc0000; text-decoration: underline; }
+.col-link {
+display: block;
+color: #34435C;
+text-decoration: none;
+font-size: 12px;
+margin: 0;
+line-height: 1.15;
+}
+.col-link:hover { text-decoration: underline; }
+.satire-tag {
+display: inline-block;
+font-size: 9px;
+font-weight: bold;
+color: #888;
+border: 1px solid #888;
+padding: 0 3px;
+margin-right: 4px;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+vertical-align: middle;
+font-family: Arial, sans-serif;
+}
+/* LOADING SKELETON */
+.skeleton {
+background: linear-gradient(90deg, #eee 25%, #ddd 50%, #eee 75%);
+background-size: 200% 100%;
+animation: shimmer 1.2s infinite;
+border-radius: 2px;
+display: block;
+}
+@keyframes shimmer {
+0% { background-position: 200% 0; }
+100% { background-position: -200% 0; }
+}
+.skeleton-hero { height: 36px; width: 70%; margin: 0 auto 8px; }
+.skeleton-sub { height: 20px; width: 45%; margin: 5px auto; }
+.skeleton-title { height: 18px; width: 80%; margin-bottom: 6px; }
+.skeleton-link { height: 14px; width: 90%; margin: 3px 0; }
+/* FOOTER */
+#footer {
+text-align: center;
+padding: 16px;
+border-top: 2px solid #ccc;
+margin-top: 20px;
+font-size: 11px;
+color: #555;
+}
+@media (max-width: 700px) {
+#columns { grid-template-columns: 1fr; }
+.col { border-right: none; border-bottom: 1px solid #ccc; }
+#site-title { font-size: 26px; }
+#hero-headline { font-size: 18px; }
+#top-nav a { font-size: 11px; padding: 2px 6px; }
+#source-bar a { font-size: 10px; padding: 1px 4px; }
+#main-content { padding: 6px; }
+.sub-headline { font-size: 13px; }
+}
+/* MAJOR STORY GROUP PANELS */
+.group-panel {
+margin-bottom: 16px;
+}
+.group-panel-title a {
+font-family: 'Arial Black', Arial, sans-serif;
+font-size: 15px;
+font-weight: 900;
+color: #34435C;
+text-decoration: underline;
+display: block;
+margin-bottom: 0;
+line-height: 1.3;
+}
+.group-panel-item {
+font-size: 13px;
+line-height: 1.5;
+padding: 2px 0;
+}
+.group-panel-item a {
+text-decoration: underline;
+color: #34435C;
+}
+/* SUB-LINKS */
+.sub-link {
+display: block;
+font-size: 11px;
+color: #34435C;
+text-decoration: underline;
+margin: 1px 0;
+line-height: 1.4;
+}
+.sub-link:hover { text-decoration: underline; }
+#sub-headlines {
+text-align: center;
+margin: 6px auto 16px;
+max-width: 700px;
+}
+.hero-sub-item {
+font-size: 14px;
+line-height: 1.8;
+}
+.hero-sub-item a {
+color: #34435C;
+text-decoration: underline;
+}
+/* ===== ADDED: MARKETS STRIP (business page) ===== */
+#markets {
+max-width: 1100px;
+margin: 0 auto 6px;
+padding: 5px 8px;
+text-align: center;
+border-bottom: 1px solid #ccc;
+font-size: 11px;
+line-height: 1.8;
+}
+#markets:empty { display: none; }
+.mk-item { white-space: nowrap; }
+.mk-name { font-weight: bold; }
+.mk-chg.mk-up { color: #006600; }
+.mk-chg.mk-down { color: #cc0000; }
+.mk-sep { color: #ccc; padding: 0 4px; }
+/* ===== POLLS STRIP (politics page) ===== */
+#polls { max-width:1100px; margin:0 auto 6px; padding:5px 8px; text-align:center; border-bottom:1px solid #ccc; font-size:12px; line-height:1.8; }
+#polls:empty { display:none; }
+#polls a { color:#34435C; text-decoration:underline; }
+.pl-sep { color:#ccc; padding:0 7px; }
+/* ===== ADDED: SCOREBOARD (sports page) ===== */
+#scoreboard {
+max-width: 1100px;
+margin: 0 auto 8px;
+padding: 4px 8px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 0 18px;
+}
+#scoreboard:empty { display: none; }
+.sb-game {
+display: block;
+font-size: 12px;
+line-height: 1.5;
+color: #34435C;
+text-decoration: none;
+padding: 2px 0;
+border-bottom: 1px solid #eee;
+}
+.sb-game:hover { text-decoration: underline; }
+.sb-league { font-weight: bold; color: #555; font-size: 10px; }
+.sb-score { font-weight: bold; color: #000; }
+.sb-note { color: #555; }
+@media (max-width: 700px) {
+#scoreboard { grid-template-columns: 1fr; }
+}
+/* Sports page: condensed scoreboard inside the left column */
+.sb-block { margin: 0 0 6px; }
+.sb-lg-hdr { font-size: 14px; font-weight: bold; color: #333; text-transform: uppercase;
+  letter-spacing: .2px; margin: 8px 0 2px; padding-bottom: 1px; border-bottom: 1px solid #bbb; }
+.sb-lg-hdr a { color: #34435C; text-decoration: none; }
+.sb-row { display: block; font-size: 11px; line-height: 1.3; color: #34435C; text-decoration: none; }
+.sb-row:hover { text-decoration: underline; }
+.sb-row .sb-final { font-weight: bold; color: #cc0000; }   /* final scores: red bold */
+.sb-row .sb-live  { font-weight: bold; color: #006600; }   /* live scores: green bold */
+.sb-row .sb-note  { color: #777; }                          /* upcoming: muted time */
+#archive-banner { background:#fff8e1; border:1px solid #f0e0a0; color:#333; font-size:13px;
+  text-align:center; padding:6px 10px; margin:0 auto 8px; max-width:1100px; border-radius:4px; }
+#archive-banner a { color:#34435C; }
+/* Live updates (under hero) + editorials (under narrative panels) */
+#live-updates { text-align:center; font-size:13px; margin:2px auto 8px; max-width:700px; }
+#live-updates:empty { display:none; }
+#live-updates .lu-label { color:#cc0000; font-weight:bold; text-transform:uppercase; font-size:11px; letter-spacing:.4px; }
+#live-updates a { color:#34435C; text-decoration:underline; }
+.group-editorials { font-size:11px; color:#555; margin:2px 0 5px; line-height:1.45; }
+.group-editorials .ed-label { text-transform:uppercase; letter-spacing:.3px; font-weight:bold; color:#777; font-size:10px; }
+.group-editorials a { color:#34435C; text-decoration:underline; }
+</style>
+</head>
+<body>
+<div id="header">
+<div id="site-title">DuncanReport.com</div>
+<div id="date-line" id="date-display"></div>
+<div id="nav-wrapper">
+<div id="top-nav">
+<a href="/" class="active nav-main">MAIN</a>
+<a href="/sports" class="nav-sports">SPORTS</a>
+<a href="/world" class="nav-world">WORLD</a>
+<a href="/markets" class="nav-markets">MARKETS</a>
+<a href="/politics" class="nav-politics">POLITICS</a>
+<a href="/life-culture" class="nav-life">LIFE &amp; CULTURE</a>
+</div>
+<div id="source-bar">
+<a href="https://abcnews.go.com" target="_blank">ABC</a>
+<a href="https://apnews.com" target="_blank">AP</a>
+<a href="https://www.bbc.com/news" target="_blank">BBC</a>
+<a href="https://www.cbsnews.com" target="_blank">CBS</a>
+<a href="https://www.cnn.com" target="_blank">CNN</a>
+<a href="https://www.nbcnews.com" target="_blank">NBC</a>
+<a href="https://www.npr.org" target="_blank">NPR</a>
+<a href="https://www.nytimes.com" target="_blank">NY Times</a>
+<a href="https://www.politico.com" target="_blank">Politico</a>
+<a href="https://www.theguardian.com" target="_blank">The Guardian</a>
+<a href="https://www.breitbart.com" target="_blank">Breitbart</a>
+<a href="https://dailycaller.com" target="_blank">Daily Caller</a>
+<a href="https://www.foxnews.com" target="_blank">Fox News</a>
+<a href="https://www.newsmax.com" target="_blank">NewsMax</a>
+<a href="https://nypost.com" target="_blank">NY Post</a>
+<a href="https://www.washingtonexaminer.com" target="_blank">Wash Examiner</a>
+<a href="https://www.washingtontimes.com" target="_blank">Wash Times</a>
+<a href="https://www.wsj.com" target="_blank">WSJ</a>
+<a href="https://www.newsnationnow.com" target="_blank">News Nation</a>
+</div>
+</div>
+</div>
+</div>
+<div id="main-content">
+<div id="hero">
+<div id="hero-image"></div>
+<div id="hero-headline"><span class="skeleton skeleton-hero"></span></div>
+<div id="sub-headlines"></div>
+<div id="live-updates"></div>
+</div>
+<div id="markets"></div>
+<div id="scoreboard"></div>
+<div id="polls"></div>
+<div id="columns">
+<div class="col" id="col-left"></div>
+<div class="col" id="col-center"></div>
+<div class="col" id="col-right"></div>
+</div>
+</div>
+<div id="footer">
+DuncanReport.com &mdash; Updated continuously<br>
+<a href="/grants.html" style="color:#34435C;text-decoration:underline;font-weight:600;">We fund independent investigative journalism &mdash; see our grants</a><br>
+Business inquiries: <a href="mailto:jason@duncanreport.com" style="color:#34435C;text-decoration:underline;">jason@duncanreport.com</a><br>
+&copy; 2026 DuncanReport.com &mdash;
+<a href="/about.html" style="color:#34435C;text-decoration:underline;">About</a> &middot;
+<a href="/how-we-curate.html" style="color:#34435C;text-decoration:underline;">How We Curate</a> &middot;
+<a href="/contact.html" style="color:#34435C;text-decoration:underline;">Contact</a> &middot;
+<a href="/privacy.html" style="color:#34435C;text-decoration:underline;">Privacy Policy</a> &middot;
+<a href="/terms.html" style="color:#34435C;text-decoration:underline;">Terms</a> &middot;
+<a href="/archive.html" style="color:#34435C;text-decoration:underline;">Archive</a> &middot;
+<a href="https://x.com/theduncanreport" target="_blank" rel="noopener" style="color:#34435C;text-decoration:underline;">@theduncanreport on X</a>
+</div>
+<script>
+// Set date
+const now = new Date();
+document.getElementById('date-line').textContent = now.toLocaleDateString('en-US', { weekday: 'long',
+year: 'numeric', month: 'long', day: 'numeric' }) + ' ' + now.toLocaleTimeString('en-US', { hour: 'numeric',
+minute: '2-digit', hour12: true });
+
+// Branded default headline image (inline SVG), shown if no photo is stored yet.
+var DEFAULT_HERO = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="600" height="180"><rect width="600" height="180" fill="#f1f1f1"/><text x="300" y="104" font-family="Times New Roman, serif" font-size="34" fill="#555" text-anchor="middle">DuncanReport.com</text></svg>');
+
+// ===== ADDED: which section is this page? =====
+function currentSection() {
+var seg = (location.pathname.split('/').filter(Boolean)[0] || 'main').toLowerCase();
+var known = ['sports','world','markets','politics','life-culture'];
+return known.indexOf(seg) >= 0 ? seg : 'main';
+}
+// If the URL has ?d=YYYY-MM-DD, the page renders that day's archived snapshot instead of live.
+var ARCHIVE_DATE = (function(){ var d = new URLSearchParams(location.search).get('d'); return (d && /^\d{4}-\d{2}-\d{2}$/.test(d)) ? d : null; })();
+function archiveName() { return currentSection() === 'main' ? 'main' : currentSection(); }
+function sectionDataUrl() {
+var sec = currentSection();
+if (ARCHIVE_DATE) return '/archive/' + ARCHIVE_DATE + '/' + archiveName() + '.json?nocache=' + Date.now();
+var path = (sec === 'main') ? '/stories.json' : '/' + sec + '/stories.json';
+return path + '?nocache=' + Date.now();
+}
+// Highlight the nav link for the current section
+function highlightNav() {
+var sec = currentSection();
+var links = document.querySelectorAll('#top-nav a');
+for (var i = 0; i < links.length; i++) {
+var href = links[i].getAttribute('href');
+var linkSec = (href === '/') ? 'main' : href.replace(/^\/+/, '');
+if (linkSec === sec) { links[i].classList.add('active'); }
+else { links[i].classList.remove('active'); }
+}
+}
+// On a subpage, replace the "DuncanReport.com" masthead with the section name
+// in the matching nav color (same font + size). Main keeps the gradient title.
+function applyMasthead() {
+var sec = currentSection();
+var el = document.getElementById('site-title');
+if (!el) return;
+var map = {
+'sports': ['SPORTS', '#cc0000'],
+'world': ['WORLD', '#34435C'],
+'markets': ['MARKETS', '#006600'],
+'politics': ['POLITICS', '#8b0000'],
+'life-culture': ['LIFE & CULTURE', '#5500aa']
+};
+if (map[sec]) {
+el.textContent = map[sec][0];
+el.style.background = 'none';
+el.style.webkitTextFillColor = map[sec][1];
+el.style.color = map[sec][1];
+el.style.filter = 'none';
+document.title = 'DuncanReport.com — ' + map[sec][0];
+}
+}
+
+let allStories = null;
+function showSkeletons() {
+document.getElementById('hero-headline').innerHTML = '<span class="skeleton skeleton-hero"></span>';
+document.getElementById('sub-headlines').innerHTML = '<span class="skeleton skeleton-sub"></span><span class="skeleton skeleton-sub" style="width:35%;margin:5px auto;display:block"></span>';
+['col-left','col-center','col-right'].forEach(id => {
+let html = '';
+for(let i=0;i<3;i++){
+html += `<div class="col-section">
+<span class="skeleton skeleton-title"></span>
+<span class="skeleton skeleton-link"></span>
+<span class="skeleton skeleton-link" style="width:75%"></span>
+</div>`;
+}
+document.getElementById(id).innerHTML = html;
+});
+}
+// Acronyms/initialisms that must render ALL-CAPS even when the source lowercased them
+// (e.g. a curator writes "Unc" or "unc" but the university is "UNC"). Kept to tokens with
+// no common lowercase-word collision, so we never turn the pronoun "us" into "US".
+const FORCE_UPPER = new Set([
+'UNC','UCLA','USC','LSU','TCU','BYU','SMU','UNLV','UCF','VCU','UAB','UTEP','UMass','SEC','ACC',
+'PGA','LPGA','UFC','NCAA','NASCAR','ESPN','NFL','NBA','NHL','MLB','WNBA','MLS','GOP','FBI','CIA',
+'NASA','NATO','OPEC','GDP','FDA','CDC','IRS','TSA','DOJ','DHS','ICBM','DRC','UAE','EU','NYC']);
+function _tcWord(word) {
+const runs = word.match(/[a-zA-Z]+/g);
+if (!runs) return word;                 // no letters (pure number/punctuation)
+// Force a known acronym to all-caps regardless of how the source cased it
+if (FORCE_UPPER.has(runs[0].toUpperCase())) return word.replace(runs[0], runs[0].toUpperCase());
+const core = runs.join('');
+if (core.length > 1 && core === core.toUpperCase()) return word;   // all-caps acronym -> keep
+// Intentional internal capital (McDonald, O'Donnell, DeSantis, iPhone, MacArthur) - the source/
+// model already cased it correctly, so TRUST it and don't re-case. Only all-caps and all-lower
+// words get normalized below.
+if (/[A-Z]/.test(core.slice(1))) return word;
+// Ordinals: "18th" / "21st" / "3rd" / "2nd" must keep the letter suffix lowercase (not "18Th")
+const ord = word.match(/^(\d+)(st|nd|rd|th)(.*)$/i);
+if (ord) return ord[1] + ord[2].toLowerCase() + ord[3];
+const i = word.search(/[a-zA-Z]/);
+var out = word.slice(0, i) + word.charAt(i).toUpperCase() + word.slice(i + 1).toLowerCase();
+out = out.replace(/^([ODL])'([a-z])/, function (_, a, b) { return a + "'" + b.toUpperCase(); });
+return out;
+}
+function toTitleCase(str) {
+// Title-case each space-separated word, and each hyphen-separated part within it
+// (so "18th-century" -> "18th-Century", not "18Th-century").
+return str.split(' ').map(function(word) {
+  const parts = word.split('-');
+  return parts.map(function(p) {
+    // In a hyphenated compound (US-Israel, US-China), a "us"/"u.s." part is the country, not
+    // the pronoun - force it all-caps. A standalone "us" is never hyphenated, so this is safe.
+    if (parts.length > 1 && p.replace(/[^a-zA-Z]/g, '').toUpperCase() === 'US')
+      return p.replace(/[a-zA-Z]/g, function(c) { return c.toUpperCase(); });
+    return _tcWord(p);
+  }).join('-');
+}).join(' ');
+}
+function tagPrefix(s) {
+// Render a small visual tag for entries marked as e.g. "satire".
+// Currently supports: tag: "satire". Other values are ignored.
+if (s && s.tag === 'satire') return '<span class="satire-tag">Satire</span>';
+return '';
+}
+function storyMainUrl(s) {
+// Get primary URL from links array or fall back to legacy url field
+return (s.links && s.links[0]) ? s.links[0].url : s.url;
+}
+function storySubLinks(s) {
+if (!s.links || s.links.length < 2) return '';
+return s.links.slice(1).map(l =>
+`<a class="sub-link" href="${l.url}" target="_blank">${l.label}</a>`
+).join('');
+}
+
+// ===== ADDED: markets strip (business page) =====
+function renderMarkets(quotes) {
+var el = document.getElementById('markets');
+if (!el) return;
+if (!quotes || !quotes.length) { el.innerHTML = ''; return; }
+var WSJ_MKT = 'https://www.wsj.com/market-data';
+el.innerHTML = quotes.map(function(q) {
+var chgText = (q.change || '');
+if (q.changePct) { chgText += (chgText ? '  ' : '') + q.changePct; }
+var isDown = (q.up === false) || (q.up == null && /-/.test((q.change || '') + (q.changePct || '')));
+var chgHtml = chgText.trim()
+? ' <span class="mk-chg ' + (isDown ? 'mk-down' : 'mk-up') + '">' + chgText + '</span>'
+: '';
+return '<a class="mk-item" href="' + (q.url || WSJ_MKT) + '" target="_blank" style="text-decoration:none;color:inherit">' +
+'<span class="mk-name">' + q.name + '</span> ' +
+'<span class="mk-val">' + q.value + '</span>' + chgHtml + '</a>';
+}).join('<span class="mk-sep">|</span>');
+}
+
+// ===== ADDED: scoreboard (sports page) =====
+function renderScoreboard(games) {
+var el = document.getElementById('scoreboard');
+if (!el) return;
+if (!games || !games.length) { el.innerHTML = ''; return; }
+el.innerHTML = games.map(function(g) {
+var right;
+if (g.state === 'scheduled' || g.awayScore == null) {
+right = '<span class="sb-note">' + (g.note || '') + '</span>';
+} else {
+right = '<span class="sb-score">' + g.awayScore + '&ndash;' + g.homeScore + '</span> ' +
+'<span class="sb-note">' + (g.note || '') + '</span>';
+}
+var inner = '<span class="sb-league">' + g.league + '</span> ' +
+'<span class="sb-teams">' + g.away + ' @ ' + g.home + '</span> &nbsp;' + right;
+var link = YAHOO_SCOREBOARD[g.league] || g.url;
+return link
+? '<a class="sb-game" href="' + link + '" target="_blank">' + inner + '</a>'
+: '<span class="sb-game">' + inner + '</span>';
+}).join('');
+}
+
+// Sports scoreboard as a condensed block for the left column, grouped by league with
+// the biggest sport by popularity on top. Only these leagues are shown (no WNBA).
+function scoreboardBlock(games) {
+if (!games || !games.length) return '';
+var pop = { NFL:1, NCAAF:2, NBA:3, MLB:4, NHL:5, MLS:6 };
+var byLeague = {};
+games.forEach(function(g){ if (g.league in pop) { (byLeague[g.league] = byLeague[g.league] || []).push(g); } });
+var leagues = Object.keys(byLeague).sort(function(a,b){ return pop[a] - pop[b]; });
+if (!leagues.length) return '';
+var html = '<div class="sb-block">';
+leagues.forEach(function(lg){
+var link = YAHOO_SCOREBOARD[lg] || '#';
+html += '<div class="sb-lg-hdr"><a href="' + link + '" target="_blank">' + lg + '</a></div>';
+byLeague[lg].forEach(function(g){
+var right;
+if (g.state === 'scheduled' || g.awayScore == null) {
+right = '<span class="sb-note">' + (g.note||'') + '</span>';
+} else {
+var cls = (g.state === 'post') ? 'sb-final' : 'sb-live';
+var detail = g.note ? ' <span class="sb-note">' + g.note + '</span>' : '';
+right = '<span class="' + cls + '">' + g.awayScore + '&ndash;' + g.homeScore + '</span>' + detail;
+}
+var row = '<span class="sb-teams">' + g.away + ' @ ' + g.home + '</span> ' + right;
+html += link !== '#'
+? '<a class="sb-row" href="' + link + '" target="_blank">' + row + '</a>'
+: '<span class="sb-row">' + row + '</span>';
+});
+});
+return html + '</div>';
+}
+
+// ===== Live scores: refresh the scoreboard straight from ESPN (CORS-open), so scores are
+// current on every view instead of frozen at the once-a-day build. Server snapshot is the
+// instant paint; this overwrites it and then refreshes every 60s while the tab is open.
+var ESPN_LEAGUE_PATHS = { NFL:"football/nfl", NCAAF:"football/college-football", NBA:"basketball/nba",
+  MLB:"baseball/mlb", NHL:"hockey/nhl", MLS:"soccer/usa.1" };
+// Most leagues give a real kickoff time in shortDetail; soccer/MLS returns just "Scheduled".
+// When there's no usable time in the ESPN note, build one from the game's start timestamp
+// (in ET, to match the other leagues' "PM ET" style), adding the date if it isn't today.
+function whenNote(pre, t) {
+  if (pre && /\d/.test(pre) && !/^scheduled/i.test(pre.trim())) return pre;
+  if (!t) return pre || 'Scheduled';
+  var d = new Date(t), now = new Date();
+  var time = d.toLocaleTimeString('en-US', { timeZone:'America/New_York', hour:'numeric', minute:'2-digit' }) + ' ET';
+  function etDay(x){ return new Date(x.toLocaleString('en-US', { timeZone:'America/New_York' })).toDateString(); }
+  if (etDay(d) !== etDay(now))
+    return d.toLocaleDateString('en-US', { timeZone:'America/New_York', weekday:'short', month:'short', day:'numeric' }) + ' ' + time;
+  return time;
+}
+function fetchLiveScoreboard() {
+  var now = Date.now(), DAY = 86400000;
+  function etday(t){ return Math.floor((t - 4*3600000) / DAY); }  // approx US-eastern day
+  var byLeague = {};
+  return Promise.all(Object.keys(ESPN_LEAGUE_PATHS).map(function(league) {
+    return fetch("https://site.web.api.espn.com/apis/site/v2/sports/" + ESPN_LEAGUE_PATHS[league] + "/scoreboard", { cache:"no-store" })
+      .then(function(r){ return r.json(); })
+      .then(function(d) {
+        var live = [], upcoming = [], finals = [];
+        (d.events || []).forEach(function(ev) {
+          try {
+            var comp = ev.competitions[0], cs = comp.competitors;
+            var home = cs.filter(function(c){ return c.homeAway === "home"; })[0];
+            var away = cs.filter(function(c){ return c.homeAway === "away"; })[0];
+            var st = (ev.status && ev.status.type) || {}, state = st.state || "pre";
+            var t = Date.parse(ev.date || "");
+            var g = { league:league,
+              home: (home.team.abbreviation || home.team.shortDisplayName || ""),
+              away: (away.team.abbreviation || away.team.shortDisplayName || ""),
+              state: state === "pre" ? "scheduled" : state,
+              note: st.shortDetail || st.detail || "", _t: t };
+            if (state === "in") { g.awayScore = away.score; g.homeScore = home.score; live.push(g); }
+            else if (state === "post") { if (t && (now - t) < 3*DAY) { g.awayScore = away.score; g.homeScore = home.score; finals.push(g); } }
+            else { if (t && (t - now) >= 0 && (t - now) < 5*DAY) { g.awayScore = null; g.homeScore = null; g.note = whenNote(g.note, t); upcoming.push(g); } }
+          } catch(e) {}
+        });
+        if (finals.length) { var md = Math.max.apply(null, finals.map(function(g){ return etday(g._t); })); finals = finals.filter(function(g){ return etday(g._t) === md; }); }
+        if (upcoming.length) { var sd = Math.min.apply(null, upcoming.map(function(g){ return etday(g._t); })); upcoming = upcoming.filter(function(g){ return etday(g._t) === sd; }); }
+        byLeague[league] = live.concat(upcoming, finals);   // live, then next game, then last game
+      }).catch(function(){});
+  })).then(function() {
+    var games = [];
+    Object.keys(byLeague).forEach(function(lg){ byLeague[lg].forEach(function(g){ delete g._t; games.push(g); }); });
+    return games;
+  });
+}
+function paintLiveScores(games) {
+  if (!games || !games.length) return;
+  var html = scoreboardBlock(games);
+  if (!html) return;
+  var left = document.getElementById('col-left');
+  if (!left) return;
+  var existing = left.querySelector('.sb-block');
+  if (existing) { existing.outerHTML = html; }
+  else { left.insertAdjacentHTML('afterbegin', html); }
+}
+var _liveScoresTimer = null;
+function startLiveScores() {
+  if (currentSection() !== 'sports') return;
+  function tick() { fetchLiveScoreboard().then(paintLiveScores).catch(function(){}); }
+  tick();
+  if (_liveScoresTimer) clearInterval(_liveScoresTimer);
+  _liveScoresTimer = setInterval(tick, 60000);
+}
+
+function renderStories(data) {
+// Markets strip renders regardless of hero; sports scores go into the left column below.
+if (currentSection() === 'markets') {
+  if (data && data.markets && data.markets.length) { renderMarkets(data.markets); }
+  else { renderMarketLinks(); }
+} else { renderMarkets(data && data.markets); }
+if (currentSection() === 'politics') {
+  if (data && data.polls && data.polls.length) { renderPolls(data.polls); }
+  else { renderPollLinks(); }
+}
+var sbHTML = (currentSection() === 'sports' && data && data.scoreboard) ? scoreboardBlock(data.scoreboard) : '';
+if (!data || !data.hero) {
+document.getElementById('hero-headline').innerHTML = 'NO STORIES FOUND';
+document.getElementById('sub-headlines').innerHTML = '';
+document.getElementById('col-left').innerHTML = sbHTML;
+document.getElementById('col-center').innerHTML = '';
+document.getElementById('col-right').innerHTML = '';
+return;
+}
+var hero = data.hero || {};
+var groups = data.groups || [];
+var leftCols = (data.columns && data.columns.left) || [];
+var centerCols = (data.columns && data.columns.center) || [];
+var rightCols = (data.columns && data.columns.right) || [];
+// Headline image (always shown): self-hosted at a fixed path per page, with the
+// branded default as a fallback so there is always an image at the top.
+var heroImg = document.getElementById('hero-image');
+if (heroImg) {
+var imgPath = (ARCHIVE_DATE ? ('/archive/' + ARCHIVE_DATE + '/' + archiveName() + '.jpg')
+: (currentSection() === 'main' ? '/hero.jpg' : '/' + currentSection() + '/hero.jpg')) + '?t=' + Date.now();
+// Show the self-hosted photo only when the engine confirmed one exists (hero.img). If there is
+// no photo, render a clean TEXT-ONLY lead (just the headline, no image) rather than a grey
+// placeholder box - a missing photo should look like a newspaper text lead, never "blank".
+if (ARCHIVE_DATE || (hero && hero.img)) {
+heroImg.innerHTML = '<a href="' + (hero.url || '#') + '" target="_blank"><img src="' + imgPath + '" alt="" onerror="this.onerror=null;this.style.display=\'none\';"></a>';
+heroImg.style.display = '';
+} else {
+heroImg.innerHTML = '';
+heroImg.style.display = 'none';
+}
+}
+// Hero
+var heroEl = document.getElementById('hero-headline');
+if (hero.headline && hero.url) {
+heroEl.innerHTML = '<a href="' + hero.url + '" target="_blank">' + hero.headline + '</a>';
+}
+// Sub-headlines
+var subEl = document.getElementById('sub-headlines');
+if (hero.sublinks && hero.sublinks.length) {
+subEl.innerHTML = hero.sublinks.map(function(s) {
+return '<a href="' + s.url + '" target="_blank">' + s.text + '</a>';
+}).join(' &nbsp;&bull;&nbsp; ');
+} else {
+subEl.innerHTML = '';
+}
+// Live updates (major breaking events) - links delink automatically when the engine stops attaching them
+var luEl = document.getElementById('live-updates');
+if (luEl) {
+if (hero.liveUpdates && hero.liveUpdates.length) {
+luEl.innerHTML = '<span class="lu-label">Live updates:</span> ' + hero.liveUpdates.map(function(u){
+return '<a href="' + u.url + '" target="_blank">' + u.source + '</a>';
+}).join(' &middot; ');
+} else { luEl.innerHTML = ''; }
+}
+// A story flagged "feature": true renders in dark red + bold to stand out (Drudge-style).
+function featAttr(s) { return (s && s.feature) ? ' style="color:#9B1C1C;font-weight:700"' : ''; }
+// Build a render helper for a single group panel
+function renderGroupPanel(g) {
+var html = '<div class="group-panel"><div class="group-title">' + g.title + '</div>';
+(g.stories || []).forEach(function(s) {
+html += '<div class="col-section grouped"><a href="' + s.url + '" target="_blank"' + featAttr(s) + '>' + tagPrefix(s) + toTitleCase(s.headline) +
+'</a></div>';
+});
+if (g.editorials && g.editorials.length) {
+html += '<div class="group-editorials"><span class="ed-label">Editorials:</span> ' + g.editorials.map(function(e){
+return '<a href="' + e.url + '" target="_blank">' + e.source + '</a>';
+}).join(' &middot; ') + '</div>';
+}
+html += '</div>';
+return html;
+}
+// Distribute group panels round-robin: panel #1 -> left, #2 -> center, #3 -> right, #4 -> left, etc.
+var panelHTML = ['', '', ''];
+groups.forEach(function(g, i) {
+panelHTML[i % 3] += renderGroupPanel(g);
+});
+// Balance the three columns by approximate rendered HEIGHT, and spread the PHOTOS both across
+// columns and vertically so they don't clump. Panels stay where round-robin put them; the
+// standalone stories (and the pics riding on them) are re-dealt. The left column starts "taller"
+// on sports because the scoreboard sits on top of it, so it correctly receives fewer stories.
+(function () {
+var w = [0, 0, 0], pc = [0, 0, 0];                   // per-column height estimate (lines) + photo count
+groups.forEach(function (g, i) { w[i % 3] += 1 + ((g.stories || []).length * 2); });
+if (currentSection() === 'sports' && data.scoreboard && data.scoreboard.length) {
+w[0] += data.scoreboard.length + 2;                  // scoreboard rows already fill the left column
+}
+function pick(img) {                                 // shortest column; a photo also favors the
+var sc = function (i) { return w[i] + (img ? pc[i] * 8 : 0); };   // column holding the fewest pics
+return (sc(0) <= sc(1)) ? (sc(0) <= sc(2) ? 0 : 2) : (sc(1) <= sc(2) ? 1 : 2);
+}
+var pool = leftCols.concat(centerCols).concat(rightCols)
+.sort(function (a, b) { return (b.postedAt || b.timestamp || 0) - (a.postedAt || a.timestamp || 0); });
+var cols = [[], [], []];
+pool.forEach(function (s) {
+var img = !!s.image, m = pick(img);
+cols[m].push(s); w[m] += img ? 6 : 2;                // a photo story is ~6 lines vs ~2 for text
+if (img) pc[m] += 1;
+});
+// Photos are positioned vertically in the assembly step below (organic + randomized), so here we
+// just hand each column its stories in time order.
+leftCols = cols[0]; centerCols = cols[1]; rightCols = cols[2];
+})();
+function colSectionHTML(s) {
+var img = s.image ? '<a href="' + s.url + '" target="_blank" class="col-img-wrap"><img class="col-img" src="' + s.image + '?t=' + Date.now() + '" alt="" loading="lazy"></a>' : '';
+return '<div class="col-section">' + img + '<a href="' + s.url + '" target="_blank"' + featAttr(s) + '>' + tagPrefix(s) + toTitleCase(s.headline) + '</a></div>';
+}
+// ORGANIC PHOTO DISTRIBUTION: scatter each column's photos to VARIED vertical positions instead of
+// stacking them at the top. Each column is handed a different vertical band - top / middle / lower -
+// and which column gets which band is reshuffled every publish (seeded by lastUpdated), so the
+// arrangement shifts over time and looks unplanned. Random jitter means photos can sometimes sit
+// near each other. The TOP band is forced onto a column that actually has a photo, so the top of the
+// page is never left a wall of panel text.
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+var rnd = mulberry32(((data.lastUpdated||Date.now())>>>0) ^ 0x9E3779B1);
+var anchors = [0.06, 0.40, 0.66];                       // top, middle, lower
+for (var ai = anchors.length - 1; ai > 0; ai--) { var aj = Math.floor(rnd() * (ai + 1)); var at = anchors[ai]; anchors[ai] = anchors[aj]; anchors[aj] = at; }
+var colStories = [leftCols, centerCols, rightCols];
+var hasPhoto = function(arr){ return arr.some(function(s){ return s.image; }); };
+(function(){                                             // top band must land on a column with a photo
+var minI = 0; for (var i = 1; i < 3; i++) if (anchors[i] < anchors[minI]) minI = i;
+if (!hasPhoto(colStories[minI])) {
+for (var i = 0; i < 3; i++) if (hasPhoto(colStories[i])) { var t = anchors[minI]; anchors[minI] = anchors[i]; anchors[i] = t; break; }
+}
+})();
+function assembleColumn(panelStr, stories, anchorFrac) {
+var text = [], photos = [];
+stories.forEach(function(s){ (s.image ? photos : text).push(colSectionHTML(s)); });
+var out = [];
+if (panelStr) out.push(panelStr);                     // panels lead the text skeleton
+for (var i = 0; i < text.length; i++) out.push(text[i]);
+var n = photos.length;
+for (var k = 0; k < n; k++) {                         // insert each photo at its (jittered) vertical spot
+var frac = anchorFrac + k * (0.85 / n) + (rnd() - 0.5) * 0.16;
+if (frac < 0) frac = 0; if (frac > 0.98) frac = 0.98;
+var idx = Math.round(frac * out.length);
+if (idx < 0) idx = 0; if (idx > out.length) idx = out.length;
+out.splice(idx, 0, photos[k]);
+}
+return out.join('');
+}
+document.getElementById('col-left').innerHTML   = sbHTML + assembleColumn(panelHTML[0], leftCols, anchors[0]);
+document.getElementById('col-center').innerHTML =          assembleColumn(panelHTML[1], centerCols, anchors[1]);
+document.getElementById('col-right').innerHTML  =          assembleColumn(panelHTML[2], rightCols, anchors[2]);
+}
+function saveStories(data) {
+if (ARCHIVE_DATE) return;   // don't let an archived view overwrite the live cache
+try { localStorage.setItem('dr_cache_' + currentSection(), JSON.stringify({ts: Date.now(), data: data})); } catch(e) {}
+}
+async function loadStories() {
+try {
+var res = await fetch(sectionDataUrl());   // CHANGED: section-aware path
+var data = await res.json();
+return data;
+} catch(e) {
+return null;
+}
+}
+function primaryUrl(s) {
+return (s.links && s.links[0]) ? s.links[0].url : s.url;
+}
+function mergeStories(existing, fresh) {
+// existing and fresh are both {hero, groups, columns, lastUpdated} objects
+// Each story needs a timestamp. Fresh stories get now; existing keep theirs.
+const now = Date.now();
+const threeDays = 3 * 24 * 60 * 60 * 1000;
+function stampStories(stories, ts) {
+return (stories || []).map(function(s) {
+return Object.assign({}, s, { timestamp: s.timestamp || ts });
+});
+}
+function expireStories(stories) {
+return (stories || []).filter(function(s) {
+return (now - (s.timestamp || now)) < threeDays;
+});
+}
+function mergeList(existingList, freshList) {
+// Stamp fresh stories with now
+const stamped = stampStories(freshList, now);
+// Keep existing stories that haven't expired
+const live = expireStories(existingList);
+// Deduplicate by URL - fresh stories win (replace existing with same URL)
+const freshUrls = new Set(stamped.map(function(s) { return s.url; }));
+const kept = live.filter(function(s) { return !freshUrls.has(s.url); });
+// Fresh stories go first (top of column), then surviving old ones
+return stamped.concat(kept);
+}
+function mergeGroups(existingGroups, freshGroups) {
+const freshTitles = new Set((freshGroups || []).map(function(g) { return g.title; }));
+// Keep old groups not replaced by fresh, expire their stories
+const oldKept = (existingGroups || [])
+.filter(function(g) { return !freshTitles.has(g.title); })
+.map(function(g) {
+return Object.assign({}, g, { stories: expireStories(stampStories(g.stories, 0)) });
+})
+.filter(function(g) { return g.stories.length > 0; });
+// Fresh groups get their stories stamped now
+const freshStamped = (freshGroups || []).map(function(g) {
+return Object.assign({}, g, { stories: stampStories(g.stories, now) });
+});
+return freshStamped.concat(oldKept);
+}
+const ex = existing || {};
+const fr = fresh || {};
+return {
+lastUpdated: new Date().toISOString(),
+hero: fr.hero || ex.hero || {},
+groups: mergeGroups(ex.groups, fr.groups),
+columns: {
+left: mergeList((ex.columns || {}).left, (fr.columns || {}).left),
+center: mergeList((ex.columns || {}).center, (fr.columns || {}).center),
+right: mergeList((ex.columns || {}).right, (fr.columns || {}).right)
+}
+};
+}
+// ===== LINK-OUT: live scores and quotes are one click away on Yahoo =====
+// Each scoreboard game links to Yahoo's live scoreboard for that league; the markets
+// strip is a row of links to Yahoo Finance. No API keys, no rate limits.
+var YAHOO_SCOREBOARD = {
+  MLB: "https://sports.yahoo.com/mlb/scoreboard/",
+  NBA: "https://sports.yahoo.com/nba/scoreboard/",
+  NFL: "https://sports.yahoo.com/nfl/scoreboard/",
+  NHL: "https://sports.yahoo.com/nhl/scoreboard/",
+  MLS: "https://sports.yahoo.com/soccer/mls/",
+  NCAAF: "https://sports.yahoo.com/college-football/scoreboard/"
+};
+var MARKET_LINKS = [
+  ["S&P 500", "https://finance.yahoo.com/quote/%5EGSPC"],
+  ["Dow", "https://finance.yahoo.com/quote/%5EDJI"],
+  ["Nasdaq", "https://finance.yahoo.com/quote/%5EIXIC"],
+  ["Gold", "https://finance.yahoo.com/quote/GC=F"],
+  ["Oil", "https://finance.yahoo.com/quote/CL=F"],
+  ["Bitcoin", "https://finance.yahoo.com/quote/BTC-USD"],
+  ["10-Yr Treasury", "https://finance.yahoo.com/quote/%5ETNX"]
+];
+var BALLOTPEDIA_POLLS = "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating";
+var RCP_GENERIC = "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote";
+var POLL_LINKS = [
+  ["Trump Approval", BALLOTPEDIA_POLLS],
+  ["Generic Congressional Vote", RCP_GENERIC],
+  ["Right Direction", BALLOTPEDIA_POLLS],
+  ["All Polls", BALLOTPEDIA_POLLS]
+];
+// Live numbers: Ballotpedia 30-day averages, each figure hotlinked to Ballotpedia.
+function renderPolls(polls) {
+  var el = document.getElementById('polls');
+  if (!el) return;
+  if (!polls || !polls.length) { el.innerHTML = ''; return; }
+  var asOf = '';
+  for (var i = 0; i < polls.length; i++) { if (polls[i].asOf) { asOf = polls[i].asOf; break; } }
+  el.innerHTML = polls.map(function(p) {
+    var sub = p.sub ? ' <span style="color:#888">(' + p.sub + ')</span>' : '';
+    return '<a href="' + (p.url || BALLOTPEDIA_POLLS) + '" target="_blank" style="text-decoration:none;color:inherit">' +
+      '<span style="font-weight:bold">' + p.name + '</span> ' +
+      '<span style="color:#34435C;text-decoration:underline">' + p.value + '</span>' + sub + '</a>';
+  }).join('<span class="pl-sep">|</span>');
+}
+// Fallback when live numbers are unavailable: labeled links to Ballotpedia.
+function renderPollLinks() {
+  var el = document.getElementById('polls');
+  if (!el) return;
+  el.innerHTML = '<span style="color:#555">Ballotpedia poll averages &rarr; </span>' + POLL_LINKS.map(function(p){
+    return '<a href="' + p[1] + '" target="_blank">' + p[0] + '</a>';
+  }).join('<span class="pl-sep">|</span>');
+}
+function renderMarketLinks() {
+  var el = document.getElementById('markets');
+  if (!el) return;
+  var href = 'https://www.wsj.com/market-data';
+  el.innerHTML = '<span style="color:#555">Market data &rarr; </span>' + MARKET_LINKS.map(function(m) {
+    return '<a class="mk-item" style="color:#34435C;text-decoration:underline" href="' + href + '" target="_blank"><span class="mk-name">' + m[0] + '</span></a>';
+  }).join('<span class="mk-sep">|</span>');
+}
+
+// ===== Per-section source bar (Main is unchanged; others match their beat) =====
+var SOURCE_BARS = {
+  main: [["ABC","https://abcnews.go.com"],["AP","https://apnews.com"],["BBC","https://www.bbc.com/news"],["CBS","https://www.cbsnews.com"],["CNN","https://www.cnn.com"],["NBC","https://www.nbcnews.com"],["NPR","https://www.npr.org"],["NY Times","https://www.nytimes.com"],["Politico","https://www.politico.com"],["The Guardian","https://www.theguardian.com"],["Breitbart","https://www.breitbart.com"],["Daily Caller","https://dailycaller.com"],["Fox News","https://www.foxnews.com"],["NewsMax","https://www.newsmax.com"],["NY Post","https://nypost.com"],["Wash Examiner","https://www.washingtonexaminer.com"],["Wash Times","https://www.washingtontimes.com"],["WSJ","https://www.wsj.com"],["News Nation","https://www.newsnationnow.com"]],
+  sports: [["ESPN","https://www.espn.com"],["Fox Sports","https://www.foxsports.com"],["Yahoo Sports","https://sports.yahoo.com"],["CBS Sports","https://www.cbssports.com"],["NBC Sports","https://www.nbcsports.com"],["The Athletic","https://www.nytimes.com/athletic/"],["Bleacher Report","https://bleacherreport.com"],["SI","https://www.si.com"],["AP Sports","https://apnews.com/hub/sports"],["USA Today","https://www.usatoday.com/sports/"],["The Ringer","https://www.theringer.com"],["FOS","https://frontofficesports.com"],["SB Nation","https://www.sbnation.com"],["The Score","https://www.thescore.com"],["Barstool","https://www.barstoolsports.com"],["Deadspin","https://www.deadspin.com"]],
+  world: [["BBC","https://www.bbc.com/news"],["Reuters","https://www.reuters.com"],["AP","https://apnews.com"],["AFP","https://www.afp.com/en"],["Al Jazeera","https://www.aljazeera.com"],["Guardian","https://www.theguardian.com/world"],["Le Monde","https://www.lemonde.fr/en/"],["DW","https://www.dw.com/en"],["France 24","https://www.france24.com/en"],["El Pais","https://english.elpais.com"],["Euronews","https://www.euronews.com"],["Bloomberg","https://www.bloomberg.com"],["FT","https://www.ft.com"],["NY Times","https://www.nytimes.com/section/world"],["SCMP","https://www.scmp.com"],["Times of Israel","https://www.timesofisrael.com"]],
+  markets: [["WSJ","https://www.wsj.com"],["Bloomberg","https://www.bloomberg.com"],["CNBC","https://www.cnbc.com"],["FT","https://www.ft.com"],["Reuters","https://www.reuters.com"],["MarketWatch","https://www.marketwatch.com"],["Barron's","https://www.barrons.com"],["Forbes","https://www.forbes.com"],["Fortune","https://fortune.com"],["Business Insider","https://www.businessinsider.com"],["Yahoo Finance","https://finance.yahoo.com"],["Motley Fool","https://www.fool.com"],["Investopedia","https://www.investopedia.com"],["IBD","https://www.investors.com"],["Seeking Alpha","https://seekingalpha.com"],["Economist","https://www.economist.com"],["ZeroHedge","https://www.zerohedge.com"]],
+  politics: [["CNN","https://www.cnn.com/politics"],["MSNBC","https://www.msnbc.com"],["NY Times","https://www.nytimes.com"],["Wash Post","https://www.washingtonpost.com"],["NPR","https://www.npr.org/sections/politics"],["Politico","https://www.politico.com"],["NBC","https://www.nbcnews.com/politics"],["Democracy Now","https://www.democracynow.org"],["The Hill","https://thehill.com"],["Fox News","https://www.foxnews.com/politics"],["Wash Times","https://www.washingtontimes.com"],["NY Post","https://nypost.com"],["Breitbart","https://www.breitbart.com"],["Daily Caller","https://dailycaller.com"],["Wash Examiner","https://www.washingtonexaminer.com"],["Daily Wire","https://www.dailywire.com"],["NewsMax","https://www.newsmax.com"],["RCP","https://www.realclearpolitics.com"]],
+  "life-culture": [["GQ","https://www.gq.com"],["Variety","https://variety.com"],["THR","https://www.hollywoodreporter.com"],["Rolling Stone","https://www.rollingstone.com"],["Men's Health","https://www.menshealth.com"],["TMZ","https://www.tmz.com"],["Deadline","https://deadline.com"],["CN Traveler","https://www.cntraveler.com"],["Vanity Fair","https://www.vanityfair.com"],["Vulture","https://www.vulture.com"],["The Atlantic","https://www.theatlantic.com"],["Billboard","https://www.billboard.com"],["USA Today","https://www.usatoday.com/life"],["NY Times Arts","https://www.nytimes.com/section/arts"],["Pitchfork","https://pitchfork.com"],["ET","https://www.etonline.com"]]
+};
+function renderSourceBar() {
+  var el = document.getElementById('source-bar');
+  if (!el) return;
+  var list = SOURCE_BARS[currentSection()] || SOURCE_BARS.main;
+  el.innerHTML = list.map(function(s){ return '<a href="' + s[1] + '" target="_blank">' + s[0] + '</a>'; }).join('');
+}
+
+function renderArchiveBanner() {
+if (!ARCHIVE_DATE) return;
+var mc = document.getElementById('main-content');
+if (!mc || document.getElementById('archive-banner')) return;
+var b = document.createElement('div');
+b.id = 'archive-banner';
+b.innerHTML = 'Viewing the archive for <b>' + ARCHIVE_DATE + '</b>. ' +
+'<a href="' + location.pathname + '">Return to today</a> &nbsp;&middot;&nbsp; ' +
+'<a href="/archive.html">All archived days</a>';
+mc.insertBefore(b, mc.firstChild);
+}
+async function fetchNews() {
+highlightNav();   // ADDED: light up the current section's nav link
+applyMasthead();  // ADDED: swap masthead to the section name + color on subpages
+renderSourceBar();// ADDED: per-section source bar
+renderArchiveBanner();
+showSkeletons();
+(async () => {
+try {
+// Load this section's stories.json
+const existing = await loadStories();
+// Render immediately with existing data
+if (existing && (existing.hero || existing.scoreboard || existing.markets)) {
+renderStories(existing);
+}
+// stories.json is the source of truth for this page; it is refreshed by our publishing process.
+if (!existing || (!existing.hero && !existing.scoreboard && !existing.markets)) {
+renderStories({});
+}
+} catch(err) {
+console.error('fetchNews error', err);
+renderStories({});
+}
+// Live scores: refresh the scoreboard from ESPN on the sports page (skip archive views)
+if (currentSection() === 'sports' && !ARCHIVE_DATE) { startLiveScores(); }
+})();
+}
+// Auto-run on load
+fetchNews();
+</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4bd359c547e34407a7d42aafe056f6f3"}'></script><!-- End Cloudflare Web Analytics -->
+<div style="position:fixed;top:0;right:0;z-index:99999;background:#9B1C1C;color:#fff;font:bold 10px Arial,sans-serif;letter-spacing:.5px;padding:3px 8px;opacity:.9;border-bottom-left-radius:4px">MOCKUP 3</div>
+</body>
+</html>
