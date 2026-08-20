@@ -20,6 +20,14 @@ on:
     - cron: "30 14 * * *"      # 09:30 Central during CDT (summer); gated to 09:xx Central
     - cron: "30 15 * * *"      # 09:30 Central during CST (winter); gated to 09:xx Central
     - cron: "0 12 1,15 * *"    # biweekly narrative review
+  # Auto deploy-only: pushing a story addition (edit to curate.py) or a front-end tweak (index.html)
+  # rebuilds and redeploys WITHOUT re-curating - the manual pick appears within a couple minutes.
+  # Scoped to these files so the bot's own archive-snapshot commits never re-trigger a run.
+  push:
+    branches: [main]
+    paths:
+      - "curate.py"
+      - "index.html"
   workflow_dispatch:
     inputs:
       section:
@@ -88,7 +96,7 @@ jobs:
 
       - name: Build the site
         env:
-          SECTION: ${{ github.event.inputs.section || (github.event.schedule == '0 12 1,15 * *' && 'narrative-review' || 'all') }}
+          SECTION: ${{ github.event.inputs.section || (github.event_name == 'push' && 'deploy-only') || (github.event.schedule == '0 12 1,15 * *' && 'narrative-review') || 'all' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLOUDFLARE_ANALYTICS_TOKEN: ${{ secrets.CLOUDFLARE_ANALYTICS_TOKEN }}
         run: python curate.py
