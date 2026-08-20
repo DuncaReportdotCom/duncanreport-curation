@@ -4350,7 +4350,8 @@ def build():
     shutil.copy2(src, os.path.join(SITE, "index.html"))
     for extra in ("favicon.ico", "dashboard.html", "review.html", "archive.html",
                   "about.html", "contact.html", "privacy.html", "terms.html", "how-we-curate.html",
-                  "grants.html", "ads.txt"):
+                  "grants.html", "ads.txt",
+                  "mockup1.html", "mockup2.html", "mockup3.html"):   # noindex sandboxes for previewing changes
         p = os.path.join(ROOT, extra)
         if os.path.isfile(p):
             shutil.copy2(p, os.path.join(SITE, extra))
