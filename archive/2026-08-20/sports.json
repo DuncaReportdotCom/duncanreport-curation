@@ -512,27 +512,18 @@
       "home": "KC",
       "away": "ATH",
       "state": "in",
-      "note": "Top 5th",
-      "homeScore": "5",
-      "awayScore": "1"
+      "note": "Top 8th",
+      "homeScore": "6",
+      "awayScore": "2"
     },
     {
       "league": "MLB",
       "home": "MIL",
       "away": "SEA",
       "state": "in",
-      "note": "Top 5th",
+      "note": "Top 8th",
       "homeScore": "6",
       "awayScore": "4"
-    },
-    {
-      "league": "MLB",
-      "home": "CHW",
-      "away": "ATL",
-      "state": "in",
-      "note": "Bot 7th",
-      "homeScore": "0",
-      "awayScore": "2"
     },
     {
       "league": "MLB",
@@ -587,6 +578,15 @@
       "note": "Final",
       "homeScore": "1",
       "awayScore": "5"
+    },
+    {
+      "league": "MLB",
+      "home": "CHW",
+      "away": "ATL",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "0",
+      "awayScore": "2"
     },
     {
       "league": "MLS",
