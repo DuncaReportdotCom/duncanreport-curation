@@ -67,11 +67,15 @@ letter-spacing: 0.5px;
 }
 #top-nav a:last-child { border-right: none; }
 #top-nav a:hover { text-decoration: underline; color: #cc0000; }
-#top-nav a.active { color: #cc0000; }
-#top-nav a.nav-sports, #top-nav a.nav-world, #top-nav a.nav-markets,
-#top-nav a.nav-politics, #top-nav a.nav-life { color: #34435C; }
-#top-nav a.nav-sports:hover, #top-nav a.nav-world:hover, #top-nav a.nav-markets:hover,
-#top-nav a.nav-politics:hover, #top-nav a.nav-life:hover { color: #cc0000; }
+/* Per-section nav colors: each tab shows its section's signature color (matching the masthead);
+   hover -> red is handled by the #top-nav a:hover rule above. The current tab keeps its section
+   color - the big section masthead already signals which page you are on. */
+#top-nav a.nav-main     { color: #000000; }
+#top-nav a.nav-sports   { color: #cc0000; }
+#top-nav a.nav-world    { color: #34435C; }
+#top-nav a.nav-markets  { color: #006600; }
+#top-nav a.nav-politics { color: #8b0000; }
+#top-nav a.nav-life     { color: #5500aa; }
 /* SOURCE BAR */
 #source-bar {
 display: flex;
@@ -352,7 +356,7 @@ border-bottom: 1px solid #eee;
 <div id="date-line" id="date-display"></div>
 <div id="nav-wrapper">
 <div id="top-nav">
-<a href="/" class="active">MAIN</a>
+<a href="/" class="active nav-main">MAIN</a>
 <a href="/sports" class="nav-sports">SPORTS</a>
 <a href="/world" class="nav-world">WORLD</a>
 <a href="/markets" class="nav-markets">MARKETS</a>
@@ -814,24 +818,38 @@ return out;
 }
 leftCols = spaced(cols[0]); centerCols = spaced(cols[1]); rightCols = spaced(cols[2]);
 })();
-// Left column: panels first, then standalone left stories
-var leftEl = document.getElementById('col-left');
-var leftHTML = sbHTML + panelHTML[0];
 function colSectionHTML(s) {
 var img = s.image ? '<a href="' + s.url + '" target="_blank" class="col-img-wrap"><img class="col-img" src="' + s.image + '?t=' + Date.now() + '" alt="" loading="lazy"></a>' : '';
 return '<div class="col-section">' + img + '<a href="' + s.url + '" target="_blank"' + featAttr(s) + '>' + tagPrefix(s) + toTitleCase(s.headline) + '</a></div>';
 }
-leftCols.forEach(function(s) { leftHTML += colSectionHTML(s); });
+// LEAD PHOTO: pull ONE photo story to the very TOP of each column, above the text-only narrative
+// panels, so an image (not a wall of panel text) breaks the top of the page. The remaining photos
+// stay spread vertically further down (see spaced()). This distributes pictures both across the
+// three columns and top-to-bottom. If a column has no photo story, its panels lead as before.
+function splitLead(colStories) {
+for (var i = 0; i < colStories.length; i++) {
+if (colStories[i].image) {
+return { lead: colSectionHTML(colStories[i]),
+rest: colStories.slice(0, i).concat(colStories.slice(i + 1)) };
+}
+}
+return { lead: '', rest: colStories };
+}
+var L = splitLead(leftCols), C = splitLead(centerCols), R = splitLead(rightCols);
+// Left column: (scoreboard) + lead photo + panels + the rest of the left stories
+var leftEl = document.getElementById('col-left');
+var leftHTML = sbHTML + L.lead + panelHTML[0];
+L.rest.forEach(function(s) { leftHTML += colSectionHTML(s); });
 leftEl.innerHTML = leftHTML;
-// Center column: panels first, then standalone center stories
+// Center column: lead photo + panels + the rest of the center stories
 var centerEl = document.getElementById('col-center');
-var centerHTML = panelHTML[1];
-centerCols.forEach(function(s) { centerHTML += colSectionHTML(s); });
+var centerHTML = C.lead + panelHTML[1];
+C.rest.forEach(function(s) { centerHTML += colSectionHTML(s); });
 centerEl.innerHTML = centerHTML;
-// Right column: panels first, then standalone right stories
+// Right column: lead photo + panels + the rest of the right stories
 var rightEl = document.getElementById('col-right');
-var rightHTML = panelHTML[2];
-rightCols.forEach(function(s) { rightHTML += colSectionHTML(s); });
+var rightHTML = R.lead + panelHTML[2];
+R.rest.forEach(function(s) { rightHTML += colSectionHTML(s); });
 rightEl.innerHTML = rightHTML;
 }
 function saveStories(data) {
