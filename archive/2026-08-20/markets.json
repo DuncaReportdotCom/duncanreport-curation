@@ -169,6 +169,12 @@
   "columns": {
     "left": [
       {
+        "headline": "Walmart US Same-Store Sales Post Slowest Growth in Six Years",
+        "url": "https://chainstoreage.com/walmart-beats-street-q2-eps-revenues-misses-us-comp-sales",
+        "timestamp": 1787184000000,
+        "postedAt": 1787184000000
+      },
+      {
         "headline": "One Big Thing Is Dragging Down Americans' Economic Vibes",
         "url": "https://finance.yahoo.com/economy/articles/one-big-thing-dragging-down-090001860.html",
         "timestamp": 1787216400000,
@@ -511,57 +517,57 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,667.58",
-      "change": "-40.40",
-      "changePct": "-0.52%",
+      "value": "7,640.71",
+      "change": "-67.27",
+      "changePct": "-0.87%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "52,923.99",
-      "change": "-539.06",
-      "changePct": "-1.01%",
+      "value": "52,770.96",
+      "change": "-692.09",
+      "changePct": "-1.29%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,109.37",
-      "change": "-221.72",
-      "changePct": "-0.84%",
+      "value": "26,055.94",
+      "change": "-275.15",
+      "changePct": "-1.04%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
-      "value": "4.71%",
-      "change": "+0.06",
-      "changePct": "+1.18%",
+      "value": "4.70%",
+      "change": "+0.04",
+      "changePct": "+0.92%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Gold",
-      "value": "$4,573.90",
-      "change": "+28.60",
-      "changePct": "+0.63%",
+      "value": "$4,581.30",
+      "change": "+36.00",
+      "changePct": "+0.79%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$86.69",
-      "change": "+2.30",
-      "changePct": "+2.73%",
+      "value": "$86.62",
+      "change": "+2.23",
+      "changePct": "+2.64%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$72,934.53",
-      "change": "+3,645.09",
-      "changePct": "+5.26%",
+      "value": "$72,627.87",
+      "change": "+3,338.43",
+      "changePct": "+4.82%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     }

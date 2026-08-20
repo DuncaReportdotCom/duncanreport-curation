@@ -509,57 +509,30 @@
     },
     {
       "league": "MLB",
-      "home": "CIN",
-      "away": "STL",
-      "state": "in",
-      "note": "End 4th",
-      "homeScore": "0",
-      "awayScore": "4"
-    },
-    {
-      "league": "MLB",
-      "home": "CLE",
-      "away": "SF",
-      "state": "in",
-      "note": "Mid 3rd",
-      "homeScore": "3",
-      "awayScore": "0"
-    },
-    {
-      "league": "MLB",
-      "home": "TB",
-      "away": "TOR",
-      "state": "in",
-      "note": "Bot 3rd",
-      "homeScore": "0",
-      "awayScore": "1"
-    },
-    {
-      "league": "MLB",
       "home": "KC",
       "away": "ATH",
-      "state": "scheduled",
-      "note": "8/20 - 2:10 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Top 5th",
+      "homeScore": "5",
+      "awayScore": "1"
     },
     {
       "league": "MLB",
       "home": "MIL",
       "away": "SEA",
-      "state": "scheduled",
-      "note": "8/20 - 2:10 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Top 5th",
+      "homeScore": "6",
+      "awayScore": "4"
     },
     {
       "league": "MLB",
       "home": "CHW",
       "away": "ATL",
-      "state": "scheduled",
-      "note": "8/20 - 2:10 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Bot 7th",
+      "homeScore": "0",
+      "awayScore": "2"
     },
     {
       "league": "MLB",
@@ -587,6 +560,33 @@
       "note": "8/20 - 8:10 PM EDT",
       "homeScore": null,
       "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "CIN",
+      "away": "STL",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "9",
+      "awayScore": "10"
+    },
+    {
+      "league": "MLB",
+      "home": "CLE",
+      "away": "SF",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "5",
+      "awayScore": "2"
+    },
+    {
+      "league": "MLB",
+      "home": "TB",
+      "away": "TOR",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "1",
+      "awayScore": "5"
     },
     {
       "league": "MLS",
