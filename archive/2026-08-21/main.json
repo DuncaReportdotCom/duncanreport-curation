@@ -1,22 +1,54 @@
 {
-  "lastUpdated": 1787227600879,
-  "heroSetDate": "2026-08-20",
+  "lastUpdated": 1787329471648,
+  "heroSetDate": "2026-08-21",
   "hero": {
-    "headline": "NORTH KOREA FIRES 10 BALLISTIC MISSILES AS TRUMP OUTREACH COLLAPSES",
-    "url": "https://www.reuters.com/world/china/north-korea-fires-suspected-ballistic-missile-japanese-authorities-say-2026-08-20/",
+    "headline": "NAVY WEIGHS RENAMING CARRIER FROM BLACK WAR HERO TO TRUMP",
+    "url": "https://www.theguardian.com/us-news/2026/aug/21/navy-carrier-black-war-hero-trump-report",
     "sublinks": [
       {
-        "text": "North Korea Says Scaled-Back US-South Korea Drills Change Nothing",
-        "url": "https://www.washingtonexaminer.com/news/4694121/north-korea-trump-scaled-back-drills-south-korea-changes-nothing/"
+        "text": "CNN: Pentagon Officials Confirm Internal Talks Are Underway",
+        "url": "https://www.cnn.com/2026/08/20/politics/navy-weighs-renaming-carrier-black-war-hero-to-trump"
+      },
+      {
+        "text": "Critics Call Move A Rebuke To Military's Honor Tradition",
+        "url": "https://newrepublic.com/post/214595/navy-rename-ship-trump-instead-black-war-hero-doris-miller"
+      },
+      {
+        "text": "Backlash Grows Over Cost Comparison To Sailors' Pay",
+        "url": "https://www.themirror.com/news/us-news/natalie-harp-salary-donald-trump-1991511"
       }
     ],
-    "postedAt": 1787227600879,
+    "postedAt": 1787329471648,
     "img": true
   },
   "groups": [
     {
-      "title": "TRUMP'S EVER-PRESENT AIDE BECOMES TALK OF WASHINGTON",
+      "title": "IRAN WAR IMPASSE DEEPENS AS TRUMP PRESSURES ALLIES, MARKETS REEL",
       "stories": [
+        {
+          "headline": "US Warned Of Possible Iran 'October Surprise'",
+          "url": "https://www.the-express.com/news/us-news/214356/us-warned-october-surprise-iran",
+          "timestamp": 1787329211642,
+          "postedAt": 1787329471648
+        },
+        {
+          "headline": "Trump's 'Economic D-Day' Claims First Victim: US Markets, Not Iran",
+          "url": "https://www.aljazeera.com/news/2026/8/21/trumps-economic-d-day-claims-first-victim-not-iran-but-us-markets",
+          "timestamp": 1787320302000,
+          "postedAt": 1787329471648
+        },
+        {
+          "headline": "Trump Lashes Out At Allies As Iran War Victory Proves Elusive",
+          "url": "https://outsidethebeltway.com/trump-frustrated-iran-wont-surrender/",
+          "timestamp": 1787282673000,
+          "postedAt": 1787329471648
+        },
+        {
+          "headline": "Vance: War Entering 'New Phase' Of Economic Pressure On Iran",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-us-economic-threat-defeat/",
+          "timestamp": 1787222640000,
+          "postedAt": 1787329471648
+        },
         {
           "headline": "Secret Service Growing 'Alarmed' Over Aide's Access To Trump",
           "url": "https://www.mediaite.com/media/news/ex-trump-aide-says-natalie-harp-is-so-obsessed-with-the-prez-it-alarms-secret-service/",
@@ -40,30 +72,92 @@
           "url": "https://okmagazine.com/p/preston-harp-says-sister-natalies-loyalty-trump-began-childhood/",
           "timestamp": 1787227351456,
           "postedAt": 1787227600879
+        }
+      ]
+    },
+    {
+      "title": "2026 MIDTERMS: PRIMARY DAY AND KEY SENATE POLLS",
+      "stories": [
+        {
+          "headline": "'Resistance' Democrats Are Flopping In Primaries, Politico Finds",
+          "url": "https://www.politico.com/news/2026/08/20/the-trump-resistance-is-losing-its-primaries-01042844",
+          "timestamp": 1787215500000,
+          "postedAt": 1787227600879
         },
         {
-          "headline": "Ossoff Spreads Bluesky Conspiracy Theories About Trump At Georgia Campaign Stop",
-          "url": "https://dailycaller.com/2026/08/18/editor-daily-rundown-jon-ossoff-donald-trump-natalie-harp-cornyn-james-talarico",
-          "timestamp": 1787058900000,
-          "postedAt": 1787060393644
+          "headline": "Analysis: How GOP Could Pull Off An Upset In Minnesota",
+          "url": "https://www.realclearpolitics.com/articles/2026/08/19/how_gop_can_pull_off_an_upset_in_minnesota_154425.html",
+          "timestamp": 1787138680000,
+          "postedAt": 1787146872795
         },
         {
-          "headline": "'Scumbag Weasel': Ossoff Scorched Over Cheap Shot On Cancer-Surviving Trump Assistant",
-          "url": "https://www.dailywire.com/news/scumbag-weasel-ossoff-scorched-over-cheap-shot-on-cancer-surviving-trump-assistant?author",
-          "timestamp": 1787058805000,
-          "postedAt": 1787060393644
+          "headline": "Sullivan, Peltola Advance In Alaska Senate Primary",
+          "url": "https://www.theguardian.com/us-news/2026/aug/19/alaska-senate-primary-results",
+          "timestamp": 1787138640000,
+          "postedAt": 1787146872795
         },
         {
-          "headline": "Harvard Case Judge Was Anti-Israel, Anti-War Activist And McGovern Campaign Aide",
-          "url": "https://freebeacon.com/campus/judge-in-harvard-antisemitism-case-was-anti-israel-anti-war-activist-mcgovern-campaign-aide/",
-          "timestamp": 1787043937000,
-          "postedAt": 1787060393644
+          "headline": "Poll: Rubio Outperforms Vance In Early 2028 Matchup",
+          "url": "https://emersoncollegepolling.com/august-2026-national-poll/",
+          "timestamp": 1787329211642,
+          "postedAt": 1787329471648
         },
         {
-          "headline": "Judge Rules Trump Administration Can't Move FBI HQ To Reagan Building",
-          "url": "https://wtop.com/government/2026/08/trump-administration-cant-move-forward-with-relocating-fbi-hq-to-reagan-building-judge-rules/",
-          "timestamp": 1787018848000,
-          "postedAt": 1787060393644
+          "headline": "Alarm Bells Ring For Vance As 2028 Buzz Builds",
+          "url": "https://www.dailymail.com/news/us-politics/article-16067425",
+          "timestamp": 1787329211642,
+          "postedAt": 1787329471648
+        }
+      ]
+    },
+    {
+      "title": "DEARBORN RELIGIOUS TENSIONS BOIL OVER AT CITY COUNCIL",
+      "stories": [
+        {
+          "headline": "Protesters Shout 'Allahu Akbar' As Black Pastor Fires Back At Council",
+          "url": "https://notthebee.com/article/this-black-pastor-shared-spicy-thoughts-with-dearborns-all-muslim-city-council-as-protesters-shouted-allahu-akbar-outside",
+          "timestamp": 1787327492000,
+          "postedAt": 1787329471648
+        },
+        {
+          "headline": "Pastor's Fiery Speech Ignites Dearborn Council Meeting",
+          "url": "https://www.foxnews.com/politics/pastor-declares-dearborn-under-sharia-law-religious-tensions-erupt-city-meeting",
+          "timestamp": 1787264380000,
+          "postedAt": 1787329471648
+        }
+      ]
+    },
+    {
+      "title": "TORNADOES TOUCH DOWN ACROSS NORTHEAST",
+      "stories": [
+        {
+          "headline": "Video Captures Tornadoes Touching Down In New York, Delaware",
+          "url": "https://www.bbc.com/news/videos/cy07x9ne871o",
+          "timestamp": 1787322950000,
+          "postedAt": 1787329471648
+        },
+        {
+          "headline": "Spotter Confirms Tornado Hit Kent County, Delaware",
+          "url": "https://www.wdel.com/news/video-spotter-confirmed-tornado-reported-in-kent-county-with-thursday-evening-storms/article_c2729ce4-5311-4164-809b-4d044f2b068f.html",
+          "timestamp": 1787308690000,
+          "postedAt": 1787329471648
+        }
+      ]
+    },
+    {
+      "title": "SWALWELL SEAT FALLOUT: SUCCESSOR ELECTED AS MISCONDUCT PROBE WIDENS",
+      "stories": [
+        {
+          "headline": "Federal Agents Seize Devices From Ex-Rep. Swalwell In Misconduct Probe",
+          "url": "https://www.npr.org/2026/08/21/nx-s1-5940542/federal-agents-seize-eric-swalwell-sexual-misconduct-probe",
+          "timestamp": 1787291388000,
+          "postedAt": 1787329471648
+        },
+        {
+          "headline": "Aisha Wahab Wins California Special Election To Replace Swalwell",
+          "url": "https://www.pbs.org/newshour/politics/state-lawmaker-aisha-wahab-wins-california-special-election-to-replace-former-rep-swalwell",
+          "timestamp": 1787274740000,
+          "postedAt": 1787329471648
         }
       ]
     },
@@ -88,83 +182,6 @@
           "timestamp": 1787214792000,
           "feature": true,
           "postedAt": 1787227600879
-        }
-      ]
-    },
-    {
-      "title": "IRAN WAR NEARS SIX MONTHS AS CEASEFIRE TALKS STALL",
-      "stories": [
-        {
-          "headline": "Staff Strike At Ben-Gurion Airport Halts Air Travel, Regev Vows Retribution",
-          "url": "https://www.jpost.com/israel-news/article-906094",
-          "timestamp": 1787226397000,
-          "postedAt": 1787227600879
-        },
-        {
-          "headline": "Iran Dismisses Trump's 'Economic D-Day' Threat, Vows Further Defeat",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-us-economic-threat-defeat/",
-          "timestamp": 1787222658000,
-          "feature": true,
-          "postedAt": 1787227600879
-        },
-        {
-          "headline": "Iran War, Said To Be Over 'Very Soon,' Nears Six Months",
-          "url": "https://www.axios.com/2026/08/19/iran-war-trump-oman-aircraft-carriers",
-          "timestamp": 1787169692000,
-          "postedAt": 1787227600879
-        },
-        {
-          "headline": "Why Has Trump Threatened To Bomb Oman For A Second Time?",
-          "url": "https://www.aljazeera.com/news/2026/8/18/why-has-trump-threatened-to-bomb-oman-for-a-second-time",
-          "timestamp": 1787052964000,
-          "postedAt": 1787060393644
-        },
-        {
-          "headline": "The 60-Day Deadline For An Iran Peace Deal Is Expiring: Here's Where Things Stand",
-          "url": "https://apnews.com/article/iran-us-war-diplomacy-deal-deadline-nuclear-258e9c556fc861c05ccf6ed2b38515d6",
-          "timestamp": 1787011980000,
-          "postedAt": 1787060393644
-        }
-      ]
-    },
-    {
-      "title": "2026 MIDTERMS: PRIMARY DAY AND KEY SENATE POLLS",
-      "stories": [
-        {
-          "headline": "Socialist Insurgency Comes To Florida's Democratic Primaries",
-          "url": "https://www.usatoday.com/story/news/politics/elections/2026/08/18/florida-primary-democratic-socialist-byron-donalds-governor/91343768007/",
-          "timestamp": 1787058180000,
-          "postedAt": 1787060393644
-        },
-        {
-          "headline": "Florida Primary Is 'Like Florida Man Having His Own Election'",
-          "url": "https://www.axios.com/2026/08/18/florida-weird-primary-election-2026",
-          "timestamp": 1787047317000,
-          "postedAt": 1787060393644
-        },
-        {
-          "headline": "Florida's US Senate Primary Results Roll In",
-          "url": "https://www.news4jax.com/vote-2026/2026/08/18/vote-2026-primary-election-results-for-floridas-us-senate-race-on-aug-18-2026/",
-          "timestamp": 1787000969000,
-          "postedAt": 1787060393644
-        },
-        {
-          "headline": "'Resistance' Democrats Are Flopping In Primaries, Politico Finds",
-          "url": "https://www.politico.com/news/2026/08/20/the-trump-resistance-is-losing-its-primaries-01042844",
-          "timestamp": 1787215500000,
-          "postedAt": 1787227600879
-        },
-        {
-          "headline": "Analysis: How GOP Could Pull Off An Upset In Minnesota",
-          "url": "https://www.realclearpolitics.com/articles/2026/08/19/how_gop_can_pull_off_an_upset_in_minnesota_154425.html",
-          "timestamp": 1787138680000,
-          "postedAt": 1787146872795
-        },
-        {
-          "headline": "Sullivan, Peltola Advance In Alaska Senate Primary",
-          "url": "https://www.theguardian.com/us-news/2026/aug/19/alaska-senate-primary-results",
-          "timestamp": 1787138640000,
-          "postedAt": 1787146872795
         }
       ]
     },
@@ -212,6 +229,41 @@
   "columns": {
     "left": [
       {
+        "headline": "Aide Filmed Sprinting After Trump's Golf Cart In Scotland",
+        "url": "https://www.mirror.co.uk/news/politics/donald-trump-extremely-close-aide-37579124",
+        "timestamp": 1787329211642,
+        "photo": true,
+        "postedAt": 1787329471648,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Alaska Charter Plane Crash Kills 8, Including Army Corps Employees",
+        "url": "https://www.nbcnews.com/news/us-news/charter-plane-carrying-8-crashes-western-alaska-rcna593687",
+        "timestamp": 1787320740000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787329471648,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "SNAP Enrollment Dropping Faster Than Expected",
+        "url": "https://apnews.com/article/snap-benefits-children-work-requirement-34f582040d8f35a6f44443cdc57692e4",
+        "timestamp": 1787320260000,
+        "postedAt": 1787329471648
+      },
+      {
+        "headline": "Judge Weighs New Evidence In Karmelo Anthony Retrial Bid",
+        "url": "https://www.newsnationnow.com/crime/unheard-evidence-karmelo-anthony-seeks-retrial/",
+        "timestamp": 1787318942000,
+        "postedAt": 1787329471648
+      },
+      {
+        "headline": "Cuba Says US Sanctions Block Its Private-Investment Push",
+        "url": "https://apnews.com/article/cuba-us-sanctions-economy-reform-investment-65b19b9e3abf8a14945e4510c9557f83",
+        "timestamp": 1787308500000,
+        "postedAt": 1787329471648
+      },
+      {
         "headline": "Prince Harry and Meghan Moving Their Family Back to the UK",
         "url": "https://www.nbcnews.com/world/united-kingdom/prince-harry-meghan-will-move-back-united-kingdom-source-says-rcna593435",
         "timestamp": 1787184000000,
@@ -221,12 +273,6 @@
         "headline": "America's Housing Market Is Splitting In Two, Leaving Some Buyers Behind",
         "url": "https://www.fastcompany.com/91591964/americas-housing-market-is-splitting-in-two-and-one-group-of-buyers-is-getting-left-behind",
         "timestamp": 1787150317000,
-        "postedAt": 1787227600879
-      },
-      {
-        "headline": "Judge Weighs New Trial For Karmelo Anthony In Texas Track Meet Killing",
-        "url": "https://apnews.com/article/texas-stabbing-austin-metcalf-karmelo-anthony-track-7ab9992d6772070981a2f076606315dc",
-        "timestamp": 1787198520000,
         "postedAt": 1787227600879
       },
       {
@@ -241,8 +287,7 @@
         "url": "https://www.nbcnews.com/news/us-news/two-students-killed-driver-charged-crash-tennessee-college-cycling-tea-rcna593466",
         "timestamp": 1787188320000,
         "photo": true,
-        "postedAt": 1787227600879,
-        "image": "/img/main-0.jpg"
+        "postedAt": 1787227600879
       },
       {
         "headline": "Liberia To Take 1,200 US Deportees",
@@ -279,81 +324,49 @@
         "url": "https://www.tmz.com/2026/08/18/frank-beard-dead/",
         "timestamp": 1787095378677,
         "photo": true,
-        "postedAt": 1787095691983,
-        "image": "/img/main-2.jpg"
+        "postedAt": 1787095691983
       },
       {
         "headline": "Rosie O'Donnell Hosts Kimmel",
         "url": "https://www.showbiz411.com/2026/08/18/rosie-odonnell-scores-big-time-on-her-first-night-guest-hosting-kimmel-gives-audience-copies-of-madonnas-album-goes-light-on-trump",
         "timestamp": 1787095378677,
         "postedAt": 1787095691983
-      },
-      {
-        "headline": "Navy Destroyer Left Powerless For Days After South China Sea Breakdown",
-        "url": "https://www.stripes.com/theaters/asia_pacific/2026-08-17/uss-benfold-adrift-south-china-sea-22576714.html",
-        "timestamp": 1787060146341,
-        "postedAt": 1787060393644
-      },
-      {
-        "headline": "CDC's New Director Pressed To Fix Its 'Zombie Programs'",
-        "url": "https://apnews.com/article/cdc-programs-cuts-jobs-738f3f245f4cb68ff485c804af92832f",
-        "timestamp": 1787049240000,
-        "postedAt": 1787060393644
-      },
-      {
-        "headline": "Judge Delays Mangione's State Trial After Dismissal Bid",
-        "url": "https://www.nbcnews.com/news/us-news/luigi-mangione-state-murder-trial-rcna593006",
-        "timestamp": 1787026920000,
-        "postedAt": 1787060393644
-      },
-      {
-        "headline": "Death Toll Rises From Tropical Storm Lala As 100,000 Remain Without Power In Hawaii",
-        "url": "https://apnews.com/article/hawaii-lala-hurricane-tropical-storm-damage-446cc73e6f3f72636cd593aa61f100cc",
-        "timestamp": 1787022180000,
-        "photo": true,
-        "postedAt": 1787060393644
-      },
-      {
-        "headline": "Teen Lifeguard Who Saved Child From Dangerous Surf Meets With Trump",
-        "url": "https://www.facebook.com/NBC6SouthFlorida/posts/president-donald-trump-recognized-16-year-old-lifeguard-ryder-williams-at-the-wh/1590608889100098/",
-        "timestamp": 1787018828000,
-        "photo": true,
-        "postedAt": 1787060393644
-      },
-      {
-        "headline": "Hayden Panettiere Shared 'Exciting' Future Plans Weeks Before Death",
-        "url": "https://pagesix.com/2026/08/17/celebrity-news/hayden-panettiere-shared-future-plans-weeks-before-death-i-have-a-lot-more-life-left/",
-        "timestamp": 1786972860000,
-        "photo": true,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "Boy, 12, Drowns In River Lea At Hackney Marshes",
-        "url": "https://www.bbc.com/news/articles/cy8ez0938pjo",
-        "timestamp": 1786971960000,
-        "photo": true,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "Doctors Harvest Woman's Organs After Helping Her Kill Herself",
-        "url": "https://www.dailywire.com/episode/michael-knowles-ep-2039",
-        "timestamp": 1786971930000,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "Seattle Judge Dismisses Double Axe Murder Case Over Insanity Finding",
-        "url": "https://notthebee.com/article/seattle-judge-dismisses-double-axe-murder-case-because-suspect-is-too-insane-to-stand-trial/",
-        "timestamp": 1786885730000,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "Why Is The University Of Michigan Hiding Grades?",
-        "url": "https://www.city-journal.org/article/university-of-michigan-grades-admissions-gpas",
-        "timestamp": 1786737593000,
-        "postedAt": 1786973726025
       }
     ],
     "center": [
+      {
+        "headline": "America's Longest-Serving Prisoner Dies At 101 After 8 Stays Of Execution",
+        "url": "https://www.dailywire.com/news/americas-longest-serving-prisoner-dies-at-101-after-dodging-execution-8-times",
+        "timestamp": 1787328420000,
+        "postedAt": 1787329471648
+      },
+      {
+        "headline": "Dollar Sinks As Investors Flee To Gold, Crypto After Bessent Buyback",
+        "url": "https://dailycaller.com/2026/08/21/dollar-sinks-as-investors-flock-to-gold-crypto-after-bessents-treasury-buyback",
+        "timestamp": 1787327820000,
+        "postedAt": 1787329471648
+      },
+      {
+        "headline": "Penn State Students Ran Alleged Campus Cocaine Ring, Investigators Say",
+        "url": "https://www.bbc.com/news/articles/c39egklv2kwo",
+        "timestamp": 1787322813000,
+        "photo": true,
+        "postedAt": 1787329471648
+      },
+      {
+        "headline": "Nebraska District Asks Police To Stop Using Shock Gloves On Students",
+        "url": "https://www.nbcnews.com/news/us-news/nebraskas-largest-school-district-asks-police-stop-using-electric-shoc-rcna593722",
+        "timestamp": 1787322137000,
+        "photo": true,
+        "postedAt": 1787329471648,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Albany Woman Charged With Plotting To Bomb State Capitol",
+        "url": "https://gothamist.com/news/albany-woman-planned-to-bomb-state-capitol-federal-prosecutors-say",
+        "timestamp": 1787317260000,
+        "postedAt": 1787329471648
+      },
       {
         "headline": "Police Helicopter, Small Plane Collide In Pennsylvania, Killing One",
         "url": "https://www.usatoday.com/story/news/nation/2026/08/19/pennsylvania-state-police-helicopter-small-plane-crash/91381132007/",
@@ -385,7 +398,7 @@
         "timestamp": 1787146273000,
         "photo": true,
         "postedAt": 1787146872795,
-        "image": "/img/main-1.jpg"
+        "image": "/img/main-3.jpg"
       },
       {
         "headline": "Cameron Winter Preps Live Album From Carnegie Hall Show",
@@ -398,79 +411,47 @@
         "url": "https://www.msn.com/en-us/news/other/ar-AA2apmgA",
         "timestamp": 1787095378677,
         "postedAt": 1787095691983
-      },
-      {
-        "headline": "14 Charged After Penn State Frat Pledges Forced To Cut, Package Cocaine",
-        "url": "https://www.washingtontimes.com/news/2026/aug/18/penn-state-cocaine-bust-nets-charges-14-indoctrination/",
-        "timestamp": 1787095378677,
-        "postedAt": 1787095691983
-      },
-      {
-        "headline": "STRAIT OF HORMUZ SHIPPING GRINDS TO HALT AS US-IRAN CEASEFIRE NEARS EXPIRY, TALKS STALLED",
-        "url": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html",
-        "timestamp": 1786973726025,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "ABC Files First Amendment Lawsuit Against FCC, Citing 'Retaliatory Campaign'",
-        "url": "https://deadline.com/2026/08/abc-sues-fcc-first-amendment-lawsuit-1237044059/",
-        "timestamp": 1787060146341,
-        "postedAt": 1787060393644
-      },
-      {
-        "headline": "Melania Trump Has Been Missing From Public View For A Month",
-        "url": "https://www.nbcnews.com/politics/rcna589849",
-        "timestamp": 1787060146340,
-        "photo": true,
-        "postedAt": 1787060393644,
-        "image": "/img/main-3.jpg"
-      },
-      {
-        "headline": "DOJ Asks Court To Reinstate Charges Against Mistakenly Deported Kilmar Abrego Garcia",
-        "url": "https://www.forbes.com/sites/siladityaray/2026/08/18/doj-asks-court-to-reinstate-charges-against-mistakenly-deported-man-kilmar-abrego-garcia/",
-        "timestamp": 1787044525000,
-        "postedAt": 1787060393644
-      },
-      {
-        "headline": "Masked Suspect Wanted For Allegedly Terrorizing Philadelphia Residents",
-        "url": "https://6abc.com/post/masked-suspect-accused-terrorizing-women-center-city-philadelphia/19693661/",
-        "timestamp": 1787029120000,
-        "photo": true,
-        "postedAt": 1787060393644
-      },
-      {
-        "headline": "SHOOTING AT VIRGINIA STATE UNIVERSITY LEAVES CAMPUS ON LOCKDOWN AS POLICE HUNT MULTIPLE SUSPECTS",
-        "url": "https://www.foxnews.com/video/6403451692112",
-        "timestamp": 1786973726025,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "The Don's Bulging Butt Goes Viral, Prompts Mockery And Wild Speculation",
-        "url": "https://www.mediaite.com/media/news/what-is-going-on-with-trumps-rear-viral-clip-sparks-speculation-and-mockery-from-left-wing-pundits/",
-        "timestamp": 1786973577473,
-        "photo": true,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "Trump's Crypto Project Moves Closer To Becoming A Bank",
-        "url": "https://www.motherjones.com/politics/2026/08/donald-trump-world-liberty-regulatory-approval/",
-        "timestamp": 1786973577473,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "Burnham Exchanged Messages With Impersonator Of Top Trump Aide",
-        "url": "https://www.politico.eu/article/andy-burnham-messages-impersonator-top-trump-aide-susie-wiles/",
-        "timestamp": 1786946400000,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "RealClearInvestigations' Picks Of The Week: August 9 To 15",
-        "url": "https://www.realclearinvestigations.com/articles/2026/08/15/realclearinvestigations_picks_of_the_week_1200501.html",
-        "timestamp": 1786741000000,
-        "postedAt": 1786973726025
       }
     ],
     "right": [
+      {
+        "headline": "NORTH KOREA FIRES 10 BALLISTIC MISSILES AS TRUMP OUTREACH COLLAPSES",
+        "url": "https://www.reuters.com/world/china/north-korea-fires-suspected-ballistic-missile-japanese-authorities-say-2026-08-20/",
+        "timestamp": 1787227600879,
+        "postedAt": 1787227600879
+      },
+      {
+        "headline": "DOJ Seeks To Question FBI Officials Tied To Mar-a-Lago Search",
+        "url": "http://yahoo.com/news/politics/articles/doj-seeks-fbi-officials-tied-234332094.html",
+        "timestamp": 1787329211643,
+        "postedAt": 1787329471648
+      },
+      {
+        "headline": "Court Slashes $50M Judgment Against Alex Jones Over Sandy Hook Hoax Claims",
+        "url": "https://apnews.com/article/alex-jones-infowars-newtown-b7866ab5ef652bbc7307ae55b09937ce",
+        "timestamp": 1787324700000,
+        "feature": true,
+        "postedAt": 1787329471648
+      },
+      {
+        "headline": "US, Canada Say Final Trade Deal Near As Tariff Deadline Looms",
+        "url": "https://www.cnbc.com/2026/08/21/trump-canada-tariffs-trade-deal-deadline.html",
+        "timestamp": 1787314649000,
+        "postedAt": 1787329471648
+      },
+      {
+        "headline": "First Deportees Arrive In Haiti After US Ends TPS Protection",
+        "url": "https://www.cbsnews.com/news/haiti-deportees-us-ends-tps-protection/",
+        "timestamp": 1787313420000,
+        "postedAt": 1787329471648
+      },
+      {
+        "headline": "Indiana Residents Endure Ninth Day Without Power",
+        "url": "https://apnews.com/article/indiana-power-outages-gary-ohio-floods-e0fbdd4a721b6269e8ec62e512299b11",
+        "timestamp": 1787265060000,
+        "photo": true,
+        "postedAt": 1787329471648
+      },
       {
         "headline": "SOCIALIST UPSET IN FLORIDA CAPS ROUGH PRIMARY NIGHT FOR TRUMP-BACKED CANDIDATES",
         "url": "https://www.foxnews.com/politics/socialists-capture-major-florida-victory-hit-miss-night-trump-endorsed-primary-candidates",
@@ -488,12 +469,6 @@
         "url": "https://reason.com/2026/08/19/border-agents-searched-his-phone-5-times-without-a-warrant-hes-asking-the-supreme-court-to-put-a-stop-to-it/",
         "timestamp": 1787154306000,
         "postedAt": 1787227600879
-      },
-      {
-        "headline": "TRUMP APPROVAL RATING SINKS TO 33%, LOWEST OF HIS PRESIDENCY, NEW POLLS SHOW",
-        "url": "https://www.reuters.com/world/us/trump-approval-falls-33-lowest-his-presidency-reutersipsos-poll-finds-2026-08-17/",
-        "timestamp": 1787060393644,
-        "postedAt": 1787060393644
       },
       {
         "headline": "Tennis Star Suspended After Positive Cocaine Test",
@@ -518,61 +493,6 @@
         "url": "https://www.msn.com/en-us/technology/tech-companies/ar-AA2aouub",
         "timestamp": 1787095378677,
         "postedAt": 1787095691983
-      },
-      {
-        "headline": "MTG: 'I Can't Remember The Last Time I Saw Someone Wear A MAGA Hat'",
-        "url": "https://thehill.com/homenews/administration/6034413-greene-i-cant-remember-the-last-time-i-saw-someone-wear-maga-hat/",
-        "timestamp": 1787060146341,
-        "postedAt": 1787060393644
-      },
-      {
-        "headline": "South Heat Wave Set To Bring Dozens Of Records This Week",
-        "url": "https://weather.com/2026/08/18/forecast/regional/south-heat-wave-records-forecast",
-        "timestamp": 1787045040000,
-        "postedAt": 1787060393644
-      },
-      {
-        "headline": "California County Eyes Hiring Election Denier Tina Peters",
-        "url": "https://www.democracydocket.com/news-alerts/election-denier-tina-peters-gets-alarming-new-elections-job-in-deep-red-california-county/",
-        "timestamp": 1787020877000,
-        "postedAt": 1787060393644
-      },
-      {
-        "headline": "Without New Water, America's Second-Largest Reservoir May Collapse",
-        "url": "https://www.sfgate.com/bayarea/article/lake-powell-record-low-22392180.php",
-        "timestamp": 1787019262000,
-        "postedAt": 1787060393644
-      },
-      {
-        "headline": "Blonde Aide Raises Eyebrows After Golf Weekend",
-        "url": "https://www.msn.com/en-us/news/politics/trumps-blonde-aide-35-raises-eyebrows-after-golf-weekend/ar-AA2ahOcy",
-        "timestamp": 1786973577473,
-        "photo": true,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "Trump Scales Back Military Drills With South Korea Because Of 'Good Friend' Kim",
-        "url": "https://www.aljazeera.com/news/2026/8/17/trump-scales-down-war-games-with-south-korea-why-it-matters",
-        "timestamp": 1786973577473,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "Nvidia To Invest $1.5 Billion In SB Energy Under OpenAI Data Center Deal",
-        "url": "https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/",
-        "timestamp": 1786971808000,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "Democrats Lead Republicans On Economy Heading Into Midterms: Poll",
-        "url": "https://thehill.com/homenews/campaign/6032806-inflation-cost-living-top-voter-concerns/",
-        "timestamp": 1786972380000,
-        "postedAt": 1786973726025
-      },
-      {
-        "headline": "CNN Gets First Look At Ukraine's Empty Patriot Launchers",
-        "url": "https://www.cnn.com/2026/08/17/world/video/cnn-first-to-see-ukraines-empty-patriot-launchers-vrt",
-        "timestamp": 1786972740000,
-        "postedAt": 1786973726025
       }
     ]
   }

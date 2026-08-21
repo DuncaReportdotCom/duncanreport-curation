@@ -1,14 +1,32 @@
 {
-  "lastUpdated": 1787229361119,
-  "heroSetDate": "2026-08-20",
+  "lastUpdated": 1787331564787,
+  "heroSetDate": "2026-08-21",
   "hero": {
-    "headline": "SCIENTISTS DISCOVER NEW DINOSAUR SPECIES DEEP IN SAHARA DESERT",
-    "url": "https://abcnews.com/International/scientists-discover-new-dinosaur-species-deep-sahara-desert/story?id",
+    "headline": "DOLPHINS EAVESDROP ON THEIR PREY — AND ON EACH OTHER",
+    "url": "https://nautil.us/dolphins-eavesdrop-on-their-prey-and-each-other-1284095/",
     "sublinks": [],
-    "postedAt": 1787229361119,
+    "postedAt": 1787331564787,
     "img": true
   },
   "groups": [
+    {
+      "title": "BOX OFFICE RECORD BREAKERS",
+      "stories": [
+        {
+          "headline": "'The Odyssey' Tops Marvel Hit To Set R-Rated Box Office Record",
+          "url": "https://www.usatoday.com/story/entertainment/movies/2026/08/20/odyssey-box-office-record-deadpool-wolverine/91390411007/",
+          "timestamp": 1787255460000,
+          "feature": true,
+          "postedAt": 1787331564787
+        },
+        {
+          "headline": "Ragtime Sets Lincoln Center Box Office Record In Final Week",
+          "url": "https://deadline.com/2026/08/broadway-box-office-ragtime-paranormal-activity-1237044419/",
+          "timestamp": 1787079300000,
+          "postedAt": 1787331564787
+        }
+      ]
+    },
     {
       "title": "HAYDEN PANETTIERE DEATH INVESTIGATION",
       "stories": [
@@ -26,51 +44,57 @@
           "postedAt": 1787229361119
         }
       ]
-    },
-    {
-      "title": "THE QUANTUM COMPUTING RACE HEATS UP",
-      "stories": [
-        {
-          "headline": "The Global Race to Make a Practical Quantum Computer Just Took a Big Leap Forward",
-          "url": "https://theconversation.com/the-global-race-to-make-a-practical-quantum-computer-just-took-a-big-leap-forward-286387",
-          "timestamp": 1787057636000,
-          "postedAt": 1787061899161
-        },
-        {
-          "headline": "A New Approach to Building Noise-Resistant Quantum Sensors",
-          "url": "https://phys.org/news/2026-08-approach-noise-resistant-quantum-sensors.html",
-          "timestamp": 1787054407000,
-          "postedAt": 1787061899161
-        }
-      ]
-    },
-    {
-      "title": "BIG TOURS ON THE HORIZON",
-      "stories": [
-        {
-          "headline": "Kanye West Announces Tour Dates in Russia",
-          "url": "https://www.bbc.com/news/articles/cd9w4v1nx93o",
-          "timestamp": 1787046947000,
-          "postedAt": 1787061899161
-        },
-        {
-          "headline": "Jonas Brothers Announce 45-City 'Burning Up' North American Tour Dates",
-          "url": "https://variety.com/2026/music/news/jonas-brothers-2026-burning-up-north-american-tour-dates-1236836312/",
-          "timestamp": 1786978320000,
-          "postedAt": 1787061899161
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
       {
+        "headline": "Rare Tornado Hits New York City As Storm Drenches Mid-Atlantic",
+        "url": "https://www.foxweather.com/extreme-weather/video-tornado-new-york-long-island-damages-local-beach-club",
+        "timestamp": 1787325730000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787331564787,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "How Biggie Smalls Led To A Break In The Tupac Shakur Killing",
+        "url": "https://news3lv.com/news/local/opening-statements-tupac-shakur-murder-trial-duane-davis-las-vegas-clark-county-court-live-watch-nevada",
+        "timestamp": 1787320500000,
+        "photo": true,
+        "postedAt": 1787331564787,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "Taylor Sheridan Says He Was 'Homeless Twice' Before Success",
+        "url": "https://ew.com/taylor-sheridan-says-he-was-homeless-twice-and-lived-in-his-car-12064569",
+        "timestamp": 1787250356000,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "Nietzsche Made Europe Uncomfortable. Who Will Do It Today?",
+        "url": "https://www.omanobserver.om/ampArticle/1194810",
+        "timestamp": 1787242983000,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "Nobel-Prize Worthy: A New Type Of Matter",
+        "url": "https://www.realclearscience.com/video/2026/08/21/nobel-prize_worthy_a_new_type_of_matter_1201621.html",
+        "timestamp": 1787234100000,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "Six Key Fall 2026 Fashion Trends To Know",
+        "url": "https://www.vogue.com/article/fall-winter-2026-fashion-trends",
+        "timestamp": 1787154103000,
+        "postedAt": 1787331564787
+      },
+      {
         "headline": "The 1944 Freckleton Air Disaster, Britain's Deadliest WWII Air Crash",
         "url": "https://www.smithsonianmag.com/history/when-american-airplane-crashed-into-school-1944-english-village-lost-almost-all-of-its-youngest-children-why-has-wwii-worst-civilian-aviation-accident-been-forgotten-180989341/",
         "timestamp": 1787226300000,
         "photo": true,
-        "postedAt": 1787229361119,
-        "image": "/img/life-culture-2.jpg"
+        "postedAt": 1787229361119
       },
       {
         "headline": "Why Miso Deserves A Spot In Your Pantry",
@@ -144,8 +168,7 @@
         "url": "https://www.sfexaminer.com/frank-beard-beardless-drummer-for-zz-top-dies-at-77/article_27de6592-d0cc-59aa-aa9c-e7903ba9e570.html",
         "timestamp": 1787095575000,
         "photo": true,
-        "postedAt": 1787097208437,
-        "image": "/img/life-culture-4.jpg"
+        "postedAt": 1787097208437
       },
       {
         "headline": "How Academia Created Jason Arday",
@@ -158,54 +181,27 @@
         "url": "https://www.seriouseats.com/zucchini-butter-bean-tuna-salad-recipe-12062817",
         "timestamp": 1787090400000,
         "postedAt": 1787097208437
-      },
-      {
-        "headline": "'Spider-Man: Brand New Day' Hits $2 Billion Worldwide in Three Weeks",
-        "url": "https://variety.com/2026/film/box-office/spider-man-brand-new-day-2-billion-worldwide-box-office-second-fastest-milestone-1236834058/",
-        "timestamp": 1786893300000,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "The Hidden Story of America's Historically Black Beaches",
-        "url": "https://www.afar.com/magazine/the-enduring-legacy-of-historically-black-beaches",
-        "timestamp": 1787060717000,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "Zale Parry, Aquatic Hollywood Star and Early Acid Tripper, Dies at 93",
-        "url": "https://www.facebook.com/nytimes/posts/zale-parry-a-depth-defying-scuba-diver-and-underwater-stuntwoman-whose-reverence/1459160809399711/",
-        "timestamp": 1787058780000,
-        "photo": true,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "Is Immortality Possible?",
-        "url": "https://nautil.us/is-immortality-possible-1283865/",
-        "timestamp": 1787054400000,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "In Portland, This Soap Box Derby Combines Downhill Speed With Extreme Pageantry",
-        "url": "https://www.npr.org/2026/08/18/nx-s1-5935518/portland-oregon-soap-box-derby-race-pdx",
-        "timestamp": 1787045400000,
-        "photo": true,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "Meet the Only Known Trebuchet Casualty in History",
-        "url": "https://arstechnica.com/science/2026/08/meet-the-only-known-trebuchet-casualty-in-history/",
-        "timestamp": 1786974095000,
-        "photo": true,
-        "postedAt": 1786974943179
-      },
-      {
-        "headline": "AI Companies Look to the Ocean as a Place to Put More Data Centers",
-        "url": "https://theconversation.com/ai-companies-look-to-the-ocean-as-a-place-to-put-more-data-centers-289180",
-        "timestamp": 1786970232000,
-        "postedAt": 1786974943179
       }
     ],
     "center": [
+      {
+        "headline": "A Japanese Hi-Fi Brand Drops An Elite Turntable For Vinyl Fans",
+        "url": "https://www.gearpatrol.com/audio/esoteric-t-01-turntable/",
+        "timestamp": 1787329928000,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "GTA 6 Driving Physics Hint At A Return To Realism",
+        "url": "https://www.thedrive.com/?taxonomy",
+        "timestamp": 1787327273000,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "The Two Behaviors That Make You Socially Magnetic",
+        "url": "https://bigthink.com/mind-behavior/the-2-behaviors-that-make-you-socially-magnetic/",
+        "timestamp": 1787322036000,
+        "postedAt": 1787331564787
+      },
       {
         "headline": "Meta's New Mac App Wants You To Talk To Your Apps",
         "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
@@ -218,7 +214,7 @@
         "timestamp": 1787227200000,
         "photo": true,
         "postedAt": 1787229361119,
-        "image": "/img/life-culture-1.jpg"
+        "image": "/img/life-culture-4.jpg"
       },
       {
         "headline": "Cabin Crew Face Higher Radiation Cancer Risk Than Nuclear Workers",
@@ -262,8 +258,7 @@
         "url": "https://nautil.us/the-best-ocean-photos-of-the-year-1283951",
         "timestamp": 1787140800000,
         "photo": true,
-        "postedAt": 1787148490172,
-        "image": "/img/life-culture-3.jpg"
+        "postedAt": 1787148490172
       },
       {
         "headline": "Queen Camilla Says It Was 'Difficult' To Keep Charles's Cancer Secret",
@@ -290,72 +285,43 @@
         "url": "https://links.thisiscolossal.com/post/825320529706778624/turn-the-volume-up-highlights-the-history-of/amp",
         "timestamp": 1787090041000,
         "postedAt": 1787097208437
-      },
-      {
-        "headline": "JWST FINDS WATER SURVIVING SURPRISINGLY CLOSE TO OUR GALAXY'S SUPERMASSIVE BLACK HOLE",
-        "url": "https://www.sciencealert.com/especially-exciting-jwst-finds-water-surviving-surprisingly-close-to-our-galaxys-supermassive-black-hole",
-        "timestamp": 1786974943179,
-        "postedAt": 1786974943179
-      },
-      {
-        "headline": "Parkinson's Link to Gut Bacteria Hints at Unexpectedly Simple Treatment",
-        "url": "https://www.sciencealert.com/parkinsons-tie-to-gut-bacteria-hints-at-unexpectedly-simple-treatment",
-        "timestamp": 1787058167000,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "Everything You Might've Missed From This Year's Monterey Car Week",
-        "url": "https://www.gearpatrol.com/cars/everything-you-mightve-missed-from-this-years-monterey-car-week/",
-        "timestamp": 1787058000000,
-        "photo": true,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "Immune Cells Have a 'Sense of Touch,' Scientists Discover",
-        "url": "https://phys.org/news/2026-08-immune-cells-scientists.html",
-        "timestamp": 1787011201000,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "In 'Etna,' a Canine Narrator Delivers a Poignant Anti-War Message",
-        "url": "https://www.npr.org/2026/08/17/nx-s1-5935270/etna-paul-yoon-review",
-        "timestamp": 1786994037000,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "EARTH'S CHEMISTRY WOBBLED DURING ITS 5 BIGGEST MASS EXTINCTIONS, STUDY FINDS",
-        "url": "https://www.sciencealert.com/critical-transition-earths-chemistry-wobbled-during-its-5-biggest-mass-extinctions",
-        "timestamp": 1786974943179,
-        "postedAt": 1786974943179
-      },
-      {
-        "headline": "Tommy John, Pitcher Who Gave His Name to Career-Saving Surgery, Dies at 83",
-        "url": "https://www.theguardian.com/sport/2026/aug/16/tommy-john-pitcher-whose-surgery-changed-baseball-dies-at-age-of-83",
-        "timestamp": 1786973220000,
-        "photo": true,
-        "postedAt": 1786974943179
-      },
-      {
-        "headline": "The Jeep Cherokee Just Returned Only to Be Replaced in 3 Years",
-        "url": "https://www.thedrive.com/?taxonomy",
-        "timestamp": 1786972600000,
-        "postedAt": 1786974943179
-      },
-      {
-        "headline": "Two Eyeless Shrimp-Like Species Found in Japan's Groundwater Are New to Science",
-        "url": "https://phys.org/news/2026-08-eyeless-shrimp-species-japan-groundwater.html",
-        "timestamp": 1786971601000,
-        "photo": true,
-        "postedAt": 1786974943179
-      },
-      {
-        "headline": "The Real Reason Many Americans Are Cutting Ties With Their Parents and Siblings",
-        "url": "https://theconversation.com/the-real-reason-many-americans-are-cutting-ties-with-their-parents-and-siblings-283957",
-        "timestamp": 1786970251000,
-        "postedAt": 1786974943179
       }
     ],
     "right": [
+      {
+        "headline": "SCIENTISTS DISCOVER NEW DINOSAUR SPECIES DEEP IN SAHARA DESERT",
+        "url": "https://abcnews.com/International/scientists-discover-new-dinosaur-species-deep-sahara-desert/story?id",
+        "timestamp": 1787229361119,
+        "postedAt": 1787229361119
+      },
+      {
+        "headline": "Tissot Upgrades The PRX With A New Dial",
+        "url": "https://www.gearpatrol.com/watches/tissot-prx-40-mother-of-pearl/",
+        "timestamp": 1787330661000,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "The Hidden Karst Canal Of Malo Polje",
+        "url": "https://www.atlasobscura.com/places/bunski-kanal",
+        "timestamp": 1787328513000,
+        "photo": true,
+        "postedAt": 1787331564787,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Inside Namibia's Remote Hoanib Elephant Camp",
+        "url": "https://www.cntraveler.com/hotels/kaokoland/natural-selection-hoanib-elephant-camp",
+        "timestamp": 1787325377000,
+        "photo": true,
+        "postedAt": 1787331564787,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "A Mother-And-Tween's Travel Guide To Seoul's K-Beauty Scene",
+        "url": "https://www.cntraveler.com/story/a-mother-and-tweens-travel-guide-to-k-beauty-hanboks-and-the-brooklyn-of-seoul",
+        "timestamp": 1787323041000,
+        "postedAt": 1787331564787
+      },
       {
         "headline": "Orange Lips And Roaring Calls: DRC's Shy New Rainforest Monkey",
         "url": "https://theconversation.com/orange-lips-and-roaring-calls-meet-the-drcs-shy-new-rainforest-monkey-288470",
@@ -367,8 +333,7 @@
         "url": "https://www.motortrend.com/news/2028-toyota-celica-future-cars",
         "timestamp": 1787227627000,
         "photo": true,
-        "postedAt": 1787229361119,
-        "image": "/img/life-culture-0.jpg"
+        "postedAt": 1787229361119
       },
       {
         "headline": "Seiko Turns The Bullet Train Into A Cult Anime Watch",
@@ -423,44 +388,6 @@
         "url": "https://www.wusa9.com/article/entertainment/music/national-symphony-orchestra-season-announcement-no-kennedy-center/65-43f8459d-56be-4faa-8cc0-80e426e9cf56",
         "timestamp": 1787090400000,
         "postedAt": 1787097208437
-      },
-      {
-        "headline": "Climate Doom May Discourage Climate Action, but There's a Way to Counter It",
-        "url": "https://theconversation.com/climate-doom-may-discourage-climate-action-but-theres-a-way-to-counter-it-288301",
-        "timestamp": 1787057613000,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "A Photo Tour of the 2027 Toyota Tundra Trailhunter Prototype",
-        "url": "https://www.caranddriver.com/photos/a73453078/2027-toyota-tundra-trailhunter-prototype-drive-exterior-gallery/",
-        "timestamp": 1787055560000,
-        "photo": true,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "TikTok Helps Scientists Discover New Underground, Translucent Eel in India",
-        "url": "https://www.popsci.com/environment/tik-tok-new-eel-india/",
-        "timestamp": 1786993440000,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "NASA's Amazing New Space Telescope Launches This Month",
-        "url": "https://www.realclearscience.com/video/2026/08/17/nasas_amazing_new_space_telescope_launches_this_month_1200644.html",
-        "timestamp": 1786870740000,
-        "postedAt": 1787061899161
-      },
-      {
-        "headline": "Hike for Ramen and Kaiseki on This 700-Mile Temple and Food Trail Through Japan",
-        "url": "https://www.afar.com/magazine/a-food-lovers-guide-to-hiking-the-shikoku-temple-pilgrimage",
-        "timestamp": 1786972773000,
-        "postedAt": 1786974943179
-      },
-      {
-        "headline": "Hayden Panettiere, Scream and Nashville Actress, Dies at 36",
-        "url": "https://abcnews.com/US/hayden-panettiere-dies-36/story?id",
-        "timestamp": 1786970681000,
-        "photo": true,
-        "postedAt": 1786974943179
       }
     ]
   }
