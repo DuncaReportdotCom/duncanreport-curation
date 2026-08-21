@@ -51,6 +51,13 @@ on:
 permissions:
   contents: write
 
+# Only ONE publish run at a time. A manual run overlapping a scheduled/push run was pushing the
+# same day's archive snapshots simultaneously, causing a git merge conflict (exit 128). Queuing
+# runs (cancel-in-progress: false) makes them wait their turn instead of colliding.
+concurrency:
+  group: publish-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   # DST-aware gate: both daily crons fire (11:45 and 12:45 UTC), but only the one that is 06:xx in
   # US Central right now proceeds - so the real run happens at 06:45 Central all year, adjusting for
@@ -102,6 +109,7 @@ jobs:
           SECTION: ${{ github.event.inputs.section || (github.event_name == 'push' && 'deploy-only') || (github.event.schedule == '0 12 1,15 * *' && 'narrative-review') || 'all' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLOUDFLARE_ANALYTICS_TOKEN: ${{ secrets.CLOUDFLARE_ANALYTICS_TOKEN }}
+          NYT_API_KEY: ${{ secrets.NYT_API_KEY }}   # NYT Most Popular trending signal (optional; skipped if unset)
         run: python curate.py
 
       # Do NOT deploy a broken build: if any page came out empty/broken, abort here so
@@ -119,13 +127,22 @@ jobs:
           git add archive
           git add narrative_state.json 2>/dev/null || true
           git add gift_links.json 2>/dev/null || true
-          if ! git diff --cached --quiet; then
-            git commit -m "Archive snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
-            git pull --rebase --autostash origin "${{ github.ref_name }}" || true
-            git push
-          else
+          if git diff --cached --quiet; then
             echo "No archive changes to commit."
+            exit 0
           fi
+          git commit -m "Archive snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          # If another run already pushed today's snapshots, they will conflict on the same archive
+          # files. Those files are regenerated every run, so on any conflict just keep OURS, then
+          # push. Retry a few times in case of a fast-follow push from another run.
+          pushed=0
+          for i in 1 2 3 4 5; do
+            git fetch origin "${{ github.ref_name }}" || true
+            git merge -X ours --no-edit "origin/${{ github.ref_name }}" || true
+            if git push; then pushed=1; break; fi
+            echo "push attempt $i failed - retrying..."; sleep 4
+          done
+          if [ "$pushed" != "1" ]; then echo "::warning::archive push did not complete (non-fatal)"; fi
 
       - name: Deploy to Cloudflare Pages
         env:
