@@ -48,7 +48,7 @@ def working_model(client):
 THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000
 
 CORE = json.loads(r"""
-"===== SCHEMA.md =====\n# DuncanReport.com — stories.json SCHEMA (CORE · INVARIANT)\n\nEvery curation engine, for every section, MUST emit a `stories.json` that matches this\nstructure exactly. This is a hard contract — the site's rendering and the deploy/merge\npipeline both depend on it. Do not add, rename, or drop fields.\n\n## Structure\n\n```json\n{\n  \"lastUpdated\": 1753372800000,\n  \"hero\": {\n    \"headline\": \"HERO HEADLINE IN ALL CAPS\",\n    \"url\": \"https://example.com/main-story\",\n    \"image\": \"https://example.com/lead-photo.jpg\",\n    \"sublinks\": [\n      { \"text\": \"Related angle one\", \"url\": \"https://example.com/main-story-a\" },\n      { \"text\": \"Related angle two\", \"url\": \"https://example.com/main-story-b\" }\n    ]\n  },\n  \"groups\": [\n    {\n      \"title\": \"NARRATIVE-ARC PANEL TITLE IN ALL CAPS\",\n      \"stories\": [\n        { \"headline\": \"Story Headline In Title Case\", \"url\": \"https://example.com/x\", \"timestamp\": 1753369200000 },\n        { \"headline\": \"Second Story In Title Case\", \"url\": \"https://example.com/y\", \"timestamp\": 1753365600000 }\n      ]\n    }\n  ],\n  \"columns\": {\n    \"left\":   [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/a\", \"timestamp\": 1753369200000 } ],\n    \"center\": [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/b\", \"timestamp\": 1753366000000 } ],\n    \"right\":  [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/c\", \"timestamp\": 1753362400000 } ]\n  }\n}\n```\n\n## Field rules\n\n- **`lastUpdated`** — Unix time in **milliseconds** (integer), the moment the file was generated.\n- **`hero.headline`** — ALL CAPS. `hero.url` — absolute URL. `hero.sublinks` — 0+ items, each\n  `{text, url}`; every sublink must point at the **same story** as the hero headline (a related\n  angle of it, not a different story).\n- **`hero.image`** — OPTIONAL absolute URL of the headline picture (the lead story's photo /\n  `og:image`), displayed at the top of the page. Must be a directly-hotlinkable image URL. Omit\n  the field entirely if there is no good image.\n- **`groups[]`** — narrative-arc panels. `title` ALL CAPS. `stories[]` are the stories in that\n  panel. Only create a group when 2+ stories genuinely support one arc.\n- **`columns.left/center/right`** — flat lists of standalone stories per column.\n- **Every story object** (`hero` aside) is `{headline, url, timestamp}`:\n  - `headline` — Title Case, acronyms preserved.\n  - `url` — absolute, unique. No two stories share a URL.\n  - `timestamp` — Unix **milliseconds**, the story's actual publication time. This drives the\n    3-day expiry in merge; a wrong/old value makes the story expire immediately.\n\n## Invariants (never violate)\n\n- Timestamps are Unix ms, integers, and reflect real publication time — never fabricated.\n- URLs are absolute and unique across the whole file.\n- Optional per-story flags the front end DOES render: `photo`: true (self-host a column photo)\n  and `feature`: true (dark-red bold emphasis for a standout story). No OTHER extra keys (no age\n  labels, no colored category tags).\n\n\n===== FORMAT-LOCK.md =====\n# DuncanReport.com — FORMATTING LOCKED · DO NOT CHANGE\n\n**Status:** Frozen as of 2026-07-24 per Darin's instruction. Any curation engine, deploy\nscript, or session must preserve these exactly. Do not \"improve,\" normalize, or refactor them.\nIf a change seems necessary, stop and ask first.\n\n## CSS spacing (exact values — do not alter)\n\n- `#header` — padding `10px 10px 2px`\n- `#top-nav` — padding `5px 0`\n- `#source-bar` — padding `4px 10px`\n- `.col` — padding `4px 8px`\n- `.col-section` — margin-bottom `4px`, padding-top `3px`\n- `.col-section-title` — margin-bottom `2px`\n- `.col-link` — margin `0`, line-height `1.15`\n- `.sub-headline` — margin `1px 0`\n\n## Typography & links\n\n- Hero headline: ALL CAPS\n- Group panel titles: ALL CAPS\n- Column story headlines: Title Case with acronyms preserved (punctuation-stripping\n  `toTitleCase` function)\n- Links: slate navy `#34435C`. Featured stories (story flag `feature`: true) render in dark red `#9B1C1C`, bold\n- Underline behavior (as live): top-nav links and `.col-section-title` links are underlined\n  at rest; `.col-link` and `.sub-headline` links are NOT underlined at rest — they underline\n  on hover only\n- `.sub-headline`: ALL CAPS (`text-transform: uppercase`)\n\n## Layout & separators\n\n- Gray separator lines ONLY between unrelated stories in columns — not within grouped\n  stories, not above the first column story, not between the hero area and columns\n- Each story gets its own `col-section`; no topic-based stacking\n- Sub-links must cover the exact same story as their headline\n- Hero sub-links render as a centered cluster below the headline\n- Group panels distributed round-robin across left, center, and right columns\n  (not all in the left column)\n\n## Structural elements that must NOT be touched\n\n- Source bar: half left-leaning, half right-leaning outlets — intentional, signals the\n  editorial mission. Do not reorder, rebalance, or restyle.\n- No age labels, no colored category tags. The hero photo sits at the very top of the page, and up to 5 self-hosted photos may also appear on the most\n  visual standalone COLUMN stories (Drudge-style, rendered above the headline). No other images - none on panels, no category tags, no source-bar icons\n- Satire entries: small grey \"Satire\" badge (`.satire-tag` CSS class + `tagPrefix()` helper)\n\n---\n_This block is the canonical formatting lock. Paste it into Project Instructions so every\nscoped curation chat inherits it._\n\n\n===== DEPLOY-CONTRACT.md =====\n# DuncanReport.com — DEPLOY CONTRACT (CORE · INVARIANT)\n\nWhat every curation engine must satisfy so its `stories.json` survives the merge and deploys\ncleanly. The engine produces the file; `deploy-stories.sh` and `merge_stories.py` do the rest.\nDeployment is fully automatic — there is no human review step before publish.\n\n## What the engine hands off\n\n- A single valid `stories.json` for its section, matching `SCHEMA.md` exactly.\n- Timestamps in Unix **milliseconds**, reflecting real publication time.\n- Absolute, unique URLs for every story.\n\n## What the pipeline does with it\n\n**`deploy-stories.sh`** (bash):\n1. Validates the fresh JSON.\n2. Pulls the currently live `stories.json`.\n3. Runs the merge (below).\n4. Reassembles the site bundle.\n5. Deploys via the Wrangler CLI to Cloudflare Pages (project `duncanreport`).\n\n**`merge_stories.py`** (python):\n- **3-day expiry** — any story whose `timestamp` is older than 3 days is dropped. This is why\n  a wrong/backdated timestamp makes a story vanish on the first merge.\n- **Original-timestamp-wins** — if a story re-appears in a later cycle, the *earliest* timestamp\n  is kept, so its age is measured from first publication, not re-discovery.\n- **URL-overlap panel matching** — panels (groups) are matched/deduplicated by overlapping\n  story URLs, NOT by panel title. Titles get reframed as narratives evolve; URL overlap is\n  the stable key. This is why URLs must be exact and unique.\n\n## Rules the engine must follow so merge behaves\n\n- Never fabricate or round a timestamp — use the real publication time in Unix ms.\n- Keep URLs canonical and stable — the same story should carry the same URL across cycles, or\n  URL-overlap matching will treat it as new and produce a duplicate panel.\n- Do not rely on panel titles for identity — reframing a title is fine; changing which URLs a\n  panel contains is what the merge sees.\n\n## After publish\n\nNo pre-publish QA gate. Bad links or bad calls are handled post-publish via prompt/rules\nrefinement or manual deletion — not by holding the deploy.\n\n\n"
+"===== SCHEMA.md =====\n# DuncanReport.com — stories.json SCHEMA (CORE · INVARIANT)\n\nEvery curation engine, for every section, MUST emit a `stories.json` that matches this\nstructure exactly. This is a hard contract — the site's rendering and the deploy/merge\npipeline both depend on it. Do not add, rename, or drop fields.\n\n## Structure\n\n```json\n{\n  \"lastUpdated\": 1753372800000,\n  \"hero\": {\n    \"headline\": \"HERO HEADLINE IN ALL CAPS\",\n    \"url\": \"https://example.com/main-story\",\n    \"image\": \"https://example.com/lead-photo.jpg\",\n    \"sublinks\": [\n      { \"text\": \"Related angle one\", \"url\": \"https://example.com/main-story-a\" },\n      { \"text\": \"Related angle two\", \"url\": \"https://example.com/main-story-b\" }\n    ]\n  },\n  \"groups\": [\n    {\n      \"title\": \"NARRATIVE-ARC PANEL TITLE IN ALL CAPS\",\n      \"stories\": [\n        { \"headline\": \"Story Headline In Title Case\", \"url\": \"https://example.com/x\", \"timestamp\": 1753369200000 },\n        { \"headline\": \"Second Story In Title Case\", \"url\": \"https://example.com/y\", \"timestamp\": 1753365600000 }\n      ]\n    }\n  ],\n  \"columns\": {\n    \"left\":   [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/a\", \"timestamp\": 1753369200000 } ],\n    \"center\": [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/b\", \"timestamp\": 1753366000000 } ],\n    \"right\":  [ { \"headline\": \"Story In Title Case\", \"url\": \"https://example.com/c\", \"timestamp\": 1753362400000 } ]\n  }\n}\n```\n\n## Field rules\n\n- **`lastUpdated`** — Unix time in **milliseconds** (integer), the moment the file was generated.\n- **`hero.headline`** — ALL CAPS. `hero.url` — absolute URL. `hero.sublinks` — 0+ items, each\n  `{text, url}`; every sublink must point at the **same story** as the hero headline (a related\n  angle of it, not a different story).\n- **`hero.image`** — OPTIONAL absolute URL of the headline picture (the lead story's photo /\n  `og:image`), displayed at the top of the page. Must be a directly-hotlinkable image URL. Omit\n  the field entirely if there is no good image.\n- **`groups[]`** — narrative-arc panels. `title` ALL CAPS. `stories[]` are the stories in that\n  panel. Only create a group when 2+ stories genuinely support one arc.\n- **`columns.left/center/right`** — flat lists of standalone stories per column.\n- **Every story object** (`hero` aside) is `{headline, url, timestamp}`:\n  - `headline` — Title Case, acronyms preserved.\n  - `url` — absolute, unique. No two stories share a URL.\n  - `timestamp` — Unix **milliseconds**, the story's actual publication time. This drives the\n    3-day expiry in merge; a wrong/old value makes the story expire immediately.\n\n## Invariants (never violate)\n\n- Timestamps are Unix ms, integers, and reflect real publication time — never fabricated.\n- URLs are absolute and unique across the whole file.\n- Optional per-story flags the front end DOES render: `photo`: true (self-host a column photo)\n  and `feature`: true (dark-red bold emphasis for a standout story). No OTHER extra keys (no age\n  labels, no colored category tags).\n\n\n===== FORMAT-LOCK.md =====\n# DuncanReport.com — FORMATTING LOCKED · DO NOT CHANGE\n\n**Status:** Frozen as of 2026-07-24 per Darin's instruction. Any curation engine, deploy\nscript, or session must preserve these exactly. Do not \"improve,\" normalize, or refactor them.\nIf a change seems necessary, stop and ask first.\n\n## CSS spacing (exact values — do not alter)\n\n- `#header` — padding `10px 10px 2px`\n- `#top-nav` — padding `5px 0`\n- `#source-bar` — padding `4px 10px`\n- `.col` — padding `4px 8px`\n- `.col-section` — margin-bottom `4px`, padding-top `3px`\n- `.col-section-title` — margin-bottom `2px`\n- `.col-link` — margin `0`, line-height `1.15`\n- `.sub-headline` — margin `1px 0`\n\n## Typography & links\n\n- Hero headline: ALL CAPS\n- Group panel titles: ALL CAPS\n- Column story headlines: Title Case with acronyms preserved (punctuation-stripping\n  `toTitleCase` function)\n- Links: slate navy `#34435C`. Featured stories (story flag `feature`: true) render in dark red `#9B1C1C`, bold\n- Underline behavior (as live): top-nav links and `.col-section-title` links are underlined\n  at rest; `.col-link` and `.sub-headline` links are NOT underlined at rest — they underline\n  on hover only\n- `.sub-headline`: ALL CAPS (`text-transform: uppercase`)\n\n## Layout & separators\n\n- Gray separator lines ONLY between unrelated stories in columns — not within grouped\n  stories, not above the first column story, not between the hero area and columns\n- Each story gets its own `col-section`; no topic-based stacking\n- Sub-links must cover the exact same story as their headline\n- Hero sub-links render as a centered cluster below the headline\n- Group panels distributed round-robin across left, center, and right columns\n  (not all in the left column)\n\n## Structural elements that must NOT be touched\n\n- Source bar: half left-leaning, half right-leaning outlets — intentional, signals the\n  editorial mission. Do not reorder, rebalance, or restyle.\n- No age labels, no colored category tags. The hero photo sits at the very top of the page. Below it every page carries 5 column photos.\n  Sponsored units take up to 2 of them and standalone COLUMN stories take the rest (Drudge-style,\n  rendered above the headline), so a page with no ads running shows 5 story photos and a page with\n  both ad slots filled shows 3. Ads render through the identical markup. No other images - none on panels, no category tags, no source-bar icons\n- Satire entries: small grey \"Satire\" badge (`.satire-tag` CSS class + `tagPrefix()` helper)\n\n---\n_This block is the canonical formatting lock. Paste it into Project Instructions so every\nscoped curation chat inherits it._\n\n\n===== DEPLOY-CONTRACT.md =====\n# DuncanReport.com — DEPLOY CONTRACT (CORE · INVARIANT)\n\nWhat every curation engine must satisfy so its `stories.json` survives the merge and deploys\ncleanly. The engine produces the file; `deploy-stories.sh` and `merge_stories.py` do the rest.\nDeployment is fully automatic — there is no human review step before publish.\n\n## What the engine hands off\n\n- A single valid `stories.json` for its section, matching `SCHEMA.md` exactly.\n- Timestamps in Unix **milliseconds**, reflecting real publication time.\n- Absolute, unique URLs for every story.\n\n## What the pipeline does with it\n\n**`deploy-stories.sh`** (bash):\n1. Validates the fresh JSON.\n2. Pulls the currently live `stories.json`.\n3. Runs the merge (below).\n4. Reassembles the site bundle.\n5. Deploys via the Wrangler CLI to Cloudflare Pages (project `duncanreport`).\n\n**`merge_stories.py`** (python):\n- **3-day expiry** — any story whose `timestamp` is older than 3 days is dropped. This is why\n  a wrong/backdated timestamp makes a story vanish on the first merge.\n- **Original-timestamp-wins** — if a story re-appears in a later cycle, the *earliest* timestamp\n  is kept, so its age is measured from first publication, not re-discovery.\n- **URL-overlap panel matching** — panels (groups) are matched/deduplicated by overlapping\n  story URLs, NOT by panel title. Titles get reframed as narratives evolve; URL overlap is\n  the stable key. This is why URLs must be exact and unique.\n\n## Rules the engine must follow so merge behaves\n\n- Never fabricate or round a timestamp — use the real publication time in Unix ms.\n- Keep URLs canonical and stable — the same story should carry the same URL across cycles, or\n  URL-overlap matching will treat it as new and produce a duplicate panel.\n- Do not rely on panel titles for identity — reframing a title is fine; changing which URLs a\n  panel contains is what the merge sees.\n\n## After publish\n\nNo pre-publish QA gate. Bad links or bad calls are handled post-publish via prompt/rules\nrefinement or manual deletion — not by holding the deploy.\n\n\n"
 """)
 
 PROMPTS = json.loads(r"""
@@ -1619,6 +1619,16 @@ SECTION_TOPICS = {
     "life-culture": ["ENTERTAINMENT"],
 }
 
+# Keyword equivalents for each Google-News topic ID, used only when the topic RSS feed comes back
+# empty/blocked and topic_headlines falls back to a cross-provider keyword search.
+TOPIC_QUERY = {
+    "NATION": "US news headlines",
+    "WORLD": "world news headlines",
+    "SPORTS": "sports news headlines",
+    "BUSINESS": "business economy markets news",
+    "ENTERTAINMENT": "entertainment culture news",
+}
+
 BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 
 def _fetch_bytes(url, timeout=25, data=None, ua=None):
@@ -1633,9 +1643,17 @@ def _fetch_bytes(url, timeout=25, data=None, ua=None):
 # a real browser UA, and retried with backoff. A 200-but-empty response is treated as
 # a soft rate-limit and retried too. Returns a parsed root, or None if it truly fails.
 _GNEWS_LAST = [0.0]
-_GNEWS_MIN_INTERVAL = 0.3   # seconds between Google News requests
+_GNEWS_MIN_INTERVAL = 1.0   # seconds between Google News requests. Raised from 0.3: on a shared
+                            # CI/datacenter IP, 0.3s was fast enough to trip Google's rate limit
+                            # after the first section, returning empty bodies that wiped every
+                            # later section. The daily run is not time-critical, so we crawl
+                            # politely instead. (Also throttles Bing, which reuses this interval.)
 
-def _gnews_get(url, tries=4):
+# Per-run tally of which providers actually returned data, for the health log. gdelt>0 or a high
+# bing count means Google was flaky and the fallbacks did their job.
+PROVIDER_HITS = {"google": 0, "bing": 0, "gdelt": 0}
+
+def _gnews_get(url, tries=6):
     last = None
     for i in range(tries):
         wait = _GNEWS_MIN_INTERVAL - (time.time() - _GNEWS_LAST[0])
@@ -1645,12 +1663,13 @@ def _gnews_get(url, tries=4):
         try:
             root = ET.fromstring(_fetch_bytes(url, ua=BROWSER_UA))
             if list(root.iter("item")):
+                PROVIDER_HITS["google"] += 1
                 return root
             last = "empty body (soft rate-limit)"
         except Exception as e:
             last = e
         if i < tries - 1:
-            time.sleep(1.5 * (i + 1))   # 1.5s, 3s, 4.5s backoff
+            time.sleep(3.0 * (i + 1))   # 3s,6s,9s,12s,15s backoff - longer, to ride out a rate-limit
     print("    gnews gave up after %d tries: %s" % (tries, str(last)[:90]))
     return None
 
@@ -1689,14 +1708,101 @@ def _bing_news(query, cap=15):
                 out.append({"title": unescape(title), "link": link,
                             "ts": _pub_ms(it.findtext("pubDate") or "")})
         if out:
+            PROVIDER_HITS["bing"] += 1
             return out
         time.sleep(0.8)
     return []
 
+def _rss_items(root, cap, default_source, arc):
+    """Normalize a Google/Bing-style RSS root into our candidate dicts (title/url/source/ts/arc),
+    stripping the trailing ' - Source' Google appends to titles. Returns up to `cap` items."""
+    out = []
+    if root is None:
+        return out
+    for it in root.iter("item"):
+        title = (it.findtext("title") or "").strip()
+        link = (it.findtext("link") or "").strip()
+        if not title or not link:
+            continue
+        src_el = it.find("source")
+        source = (src_el.text if (src_el is not None and src_el.text) else "")
+        if source and title.endswith(" - " + source):
+            title = title[: -(len(source) + 3)].strip()
+        out.append({"title": unescape(title), "url": link, "source": source or default_source,
+                    "ts": _pub_ms(it.findtext("pubDate") or ""), "arc": arc})
+        if len(out) >= cap:
+            break
+    return out
+
+_GDELT_LAST = [0.0]
+def _gdelt_news(query, cap=25, when_days=7):
+    """Third, INDEPENDENT provider: the GDELT DOC 2.0 API (a global news index, not Google or
+    Bing infrastructure). This is the backstop so a simultaneous Google+Bing rate-limit still
+    leaves a working source. No API key. Returns [{title,url,source,ts,arc}]; [] on any failure."""
+    u = ("https://api.gdeltproject.org/api/v2/doc/doc?query=%s&mode=ArtList&format=json"
+         "&maxrecords=%d&timespan=%dd&sort=DateDesc"
+         % (urllib.parse.quote(query + " sourcelang:english"), min(max(cap, 1), 75), max(when_days, 1)))
+    wait = _GNEWS_MIN_INTERVAL - (time.time() - _GDELT_LAST[0])
+    if wait > 0:
+        time.sleep(wait)
+    _GDELT_LAST[0] = time.time()
+    try:
+        obj = json.loads(_fetch_bytes(u, ua=BROWSER_UA).decode("utf-8", "ignore") or "{}")
+    except Exception:
+        return []
+    out = []
+    for a in (obj.get("articles") or [])[:cap]:
+        title = (a.get("title") or "").strip()
+        link = (a.get("url") or "").strip()
+        if not title or not link:
+            continue
+        ts = now_ms()
+        try:
+            dt = datetime.datetime.strptime(a.get("seendate") or "", "%Y%m%dT%H%M%SZ")
+            ts = int(dt.replace(tzinfo=datetime.timezone.utc).timestamp() * 1000)
+        except Exception:
+            pass
+        out.append({"title": unescape(title), "url": link,
+                    "source": a.get("domain") or "", "ts": ts, "arc": "breaking"})
+    if out:
+        PROVIDER_HITS["gdelt"] += 1
+    return out
+
+_SEARCH_TOGGLE = [0]
+def news_search(query, cap=25, when_days=7, arc="breaking"):
+    """Keyword news search that tries INDEPENDENT providers in turn until one returns results:
+    Google News and Bing News (order rotates each call to split load and avoid tripping either's
+    rate limit), then GDELT as a final backstop. Returns normalized candidate dicts; the empty
+    list only if ALL providers fail - the whole point is that a single provider outage no longer
+    zeroes out a feeder."""
+    def via_google():
+        root = _gnews_get(GNEWS % urllib.parse.quote("%s when:%dd" % (query, when_days)))
+        return _rss_items(root, cap, query, arc)
+    def via_bing():
+        return [{"title": r["title"], "url": r["link"], "source": "", "ts": r["ts"], "arc": arc}
+                for r in _bing_news(query, cap=cap)]
+    def via_gdelt():
+        rows = _gdelt_news(query, cap=cap, when_days=when_days)
+        for r in rows:
+            r["arc"] = arc
+        return rows
+    google_first = (_SEARCH_TOGGLE[0] % 2 == 0)
+    _SEARCH_TOGGLE[0] += 1
+    order = ([via_google, via_bing] if google_first else [via_bing, via_google]) + [via_gdelt]
+    for fn in order:
+        try:
+            got = fn()
+        except Exception:
+            got = []
+        if got:
+            return got
+    return []
+
 _SITE_TOGGLE = [0]   # round-robins each site: query to a primary provider (load split)
 def _site_crawl(dom, when_days, cap):
-    """Recent items for one domain from Google News or Bing (whichever is this query's
-    primary this run), falling back to the other. Returns [{title, link, source, ts}]."""
+    """Recent items for one domain from Google News or Bing (whichever is this query's primary
+    this run), falling back to the other, then to GDELT as an independent final backstop so no
+    single provider outage can zero out a domain. Returns [{title, link, source, ts}]."""
     google_first = (_SITE_TOGGLE[0] % 2 == 0)
     _SITE_TOGGLE[0] += 1
     def via_google():
@@ -1720,8 +1826,12 @@ def _site_crawl(dom, when_days, cap):
         b = _bing_news("site:%s" % dom, cap=cap + 5)
         return [{"title": r["title"], "link": r["link"], "source": dom, "ts": r["ts"]}
                 for r in b] if b else None
+    def via_gdelt():
+        g = _gdelt_news("domainis:%s" % dom, cap=cap + 5, when_days=when_days)
+        return [{"title": r["title"], "link": r["url"], "source": dom, "ts": r["ts"]}
+                for r in g] if g else None
     first, second = (via_google, via_bing) if google_first else (via_bing, via_google)
-    return first() or second() or []
+    return first() or second() or via_gdelt() or []
 
 def google_news_candidates(section):
     """Recent stories from this section's outlets. The per-domain load is SPLIT across two
@@ -1831,26 +1941,15 @@ def narrative_candidates(section):
     arcs = NARRATIVES.get(section) or []
     items, seen = [], set()
     for a in arcs:
-        url = GNEWS % urllib.parse.quote("%s when:12d" % a["q"])
-        root = _gnews_get(url)
-        if root is None:
-            continue
-        n = 0
-        for it in root.iter("item"):
-            title = (it.findtext("title") or "").strip()
-            link = (it.findtext("link") or "").strip()
-            if not title or not link or link in seen:
+        # Multi-provider search (Google -> Bing -> GDELT) so a single provider's rate-limit no
+        # longer drops an arc. Deeper per-arc pull (10) so hot topics have enough for a full panel.
+        for r in news_search(a["q"], cap=10, when_days=12, arc=a["arc"]):
+            link = r.get("url")
+            if not link or link in seen:
                 continue
             seen.add(link)
-            src_el = it.find("source")
-            source = (src_el.text if (src_el is not None and src_el.text) else "")
-            if source and title.endswith(" - " + source):
-                title = title[: -(len(source) + 3)].strip()
-            items.append({"title": unescape(title), "url": link, "source": source or a["arc"],
-                          "ts": _pub_ms(it.findtext("pubDate") or ""), "arc": a["arc"]})
-            n += 1
-            if n >= 10:      # deeper per-arc pull so hot topics have enough stories for a full panel
-                break
+            r["source"] = r.get("source") or a["arc"]
+            items.append(r)
     return items
 
 def topic_headlines(section, cap=26):
@@ -1860,22 +1959,20 @@ def topic_headlines(section, cap=26):
     of the day's big stories (space permitting)."""
     out, seen = [], set()
     for topic in SECTION_TOPICS.get(section, []):
-        root = _gnews_get(GNEWS_TOPIC % topic)
-        if root is None:
-            continue
+        got = _rss_items(_gnews_get(GNEWS_TOPIC % topic), cap, "Top headlines", "Top headlines")
+        if not got:
+            # Google's topic feed is blocked/empty this run - fall back to a keyword search that
+            # spans Google/Bing/GDELT so the day's consensus stories still surface.
+            got = news_search(TOPIC_QUERY.get(topic, topic), cap=cap, when_days=3, arc="Top headlines")
         n = 0
-        for it in root.iter("item"):
-            title = (it.findtext("title") or "").strip()
-            link = (it.findtext("link") or "").strip()
-            if not title or not link or link in seen:
+        for r in got:
+            link = r.get("url")
+            if not link or link in seen:
                 continue
             seen.add(link)
-            src_el = it.find("source")
-            source = (src_el.text if (src_el is not None and src_el.text) else "")
-            if source and title.endswith(" - " + source):
-                title = title[: -(len(source) + 3)].strip()
-            out.append({"title": unescape(title), "url": link, "source": source or "Top headlines",
-                        "ts": _pub_ms(it.findtext("pubDate") or ""), "arc": "Top headlines"})
+            r["source"] = r.get("source") or "Top headlines"
+            r["arc"] = "Top headlines"
+            out.append(r)
             n += 1
             if n >= cap:
                 break
@@ -2200,6 +2297,114 @@ def _curate_create(client, model, system, msgs):
                 continue
             raise
 
+# ============================ TRENDING / ATTENTION SIGNAL ============================
+# A second axis on top of our frequency ranking: "what is getting outsized attention right now."
+# Used to CATCH MISSES - a big breaking story or a subject our fixed-outlet crawl didn't surface -
+# never to drive selection on its own. Every item is tagged arc="Trending" and folded into the
+# candidate pool as a modest slice; the model is told to include one only if it is genuinely
+# newsworthy and section-appropriate (avoid slop). Reputable sources only, and everything still
+# runs through the normal suppression filter. All fetchers fail safe (return [] on any error), so
+# a source being down or changing shape can never break or empty a page.
+
+# memeorandum = algorithmic "what everyone's talking about" (US politics/general). Its RSS item
+# link is usually a memeorandum permalink, so we extract the real outlet article URL instead.
+MEMEO_FEEDS = {
+    "main":     ["https://www.memeorandum.com/feed.xml"],
+    "politics": ["https://www.memeorandum.com/feed.xml"],
+    "world":    ["https://www.memeorandum.com/feed.xml"],
+    # (Techmeme https://www.techmeme.com/feed.xml is an easy future add for markets/life-culture.)
+}
+
+def _memeorandum(url):
+    """Parse a memeorandum/techmeme RSS river into candidate dicts, resolving each item to the
+    ORIGINATING outlet's article (never a memeorandum/techmeme permalink). Fail-safe: [] on error."""
+    try:
+        root = ET.fromstring(_fetch_bytes(url, ua=BROWSER_UA))
+    except Exception:
+        return []
+    out = []
+    for it in root.iter("item"):
+        title = re.sub(r"<[^>]+>", "", (it.findtext("title") or "")).strip()
+        link = (it.findtext("link") or "").strip()
+        article = ""
+        if link.startswith("http") and "memeorandum.com" not in link and "techmeme.com" not in link:
+            article = link
+        if not article:   # otherwise pull the first EXTERNAL href out of the item description
+            for m in re.finditer(r'href="(https?://[^"]+)"', it.findtext("description") or ""):
+                u = m.group(1)
+                if "memeorandum.com" in u or "techmeme.com" in u:
+                    continue
+                article = u
+                break
+        if not title or not article:
+            continue
+        out.append({"title": unescape(title), "url": article, "source": _outlet_name(article),
+                    "ts": _pub_ms(it.findtext("pubDate") or ""), "arc": "Trending"})
+    return out
+
+# NYT "section" value -> our section. A reader-attention signal (what NYT readers are actually
+# viewing/sharing/emailing), mapped so each of our pages gets its own relevant trending items.
+NYT_SECTION_MAP = {
+    "World": "world", "Business Day": "markets", "Business": "markets", "Your Money": "markets",
+    "Technology": "markets", "Sports": "sports", "Politics": "politics", "U.S.": "politics",
+    "Arts": "life-culture", "Movies": "life-culture", "Books": "life-culture", "Food": "life-culture",
+    "Travel": "life-culture", "Style": "life-culture", "T Magazine": "life-culture",
+    "T:_Style": "life-culture", "Science": "life-culture", "Health": "life-culture", "Well": "life-culture",
+    "Magazine": "life-culture", "Theater": "life-culture", "Real Estate": "life-culture",
+}
+
+_NYT_CACHE = [None]
+def _nyt_most_popular():
+    """NYT Most Popular - viewed + shared + emailed over the last day. Needs env NYT_API_KEY;
+    returns [] (silently skips) if the key is absent or on any error. Cached once per run so all
+    six sections share a single set of API calls."""
+    if _NYT_CACHE[0] is not None:
+        return _NYT_CACHE[0]
+    key = os.environ.get("NYT_API_KEY")
+    if not key:
+        _NYT_CACHE[0] = []
+        return []
+    items, seen = [], set()
+    for kind in ("viewed", "shared", "emailed"):
+        u = ("https://api.nytimes.com/svc/mostpopular/v2/%s/1.json?api-key=%s"
+             % (kind, urllib.parse.quote(key)))
+        try:
+            obj = json.loads(_fetch_bytes(u, ua=BROWSER_UA).decode("utf-8", "ignore") or "{}")
+        except Exception:
+            obj = {}
+        for a in (obj.get("results") or []):
+            link = (a.get("url") or "").strip()
+            title = (a.get("title") or "").strip()
+            if not link or not title or link in seen:
+                continue
+            seen.add(link)
+            items.append({"title": unescape(title), "url": link, "source": "NY Times",
+                          "ts": now_ms(), "arc": "Trending", "nyt_section": a.get("section") or ""})
+        time.sleep(0.3)
+    _NYT_CACHE[0] = items
+    return items
+
+def trending_candidates(section):
+    """Assemble the section's trending/attention candidates (memeorandum + NYT Most Popular),
+    tagged arc='Trending'. main gets everything; the other sections get only items that map to
+    them. A SUPPLEMENT to catch missed/breaking subjects - fed into the pool, not selected here."""
+    out, seen = [], set()
+    for u in MEMEO_FEEDS.get(section, []):
+        for r in _memeorandum(u):
+            if r["url"] in seen:
+                continue
+            seen.add(r["url"])
+            out.append(r)
+    for r in _nyt_most_popular():
+        mapped = NYT_SECTION_MAP.get(r.get("nyt_section", ""), "main")
+        if section != "main" and mapped != section:
+            continue
+        if r["url"] in seen:
+            continue
+        seen.add(r["url"])
+        out.append({k: v for k, v in r.items() if k != "nyt_section"})
+    return out
+
 def curate_live(section):
     from anthropic import Anthropic
     client = Anthropic()
@@ -2208,12 +2413,13 @@ def curate_live(section):
         c.setdefault("arc", "breaking")
     tops = topic_headlines(section)          # the day's cross-outlet consensus big stories
     arcs = narrative_candidates(section)
+    trending = trending_candidates(section)  # attention axis: catch a missed or big breaking subject
     drudge = drudge_candidates() if section == "main" else []
     realclear = realclear_candidates(section)
     editorials = editorial_candidates() if section == "main" else []
     ntb = notthebee_pick(section) if section == "main" else []
     cands, seen = [], set()
-    for c in (tops[:26] + ntb + realclear[:18] + editorials[:24] + drudge[:28] + arcs[:45] + breaking[:45]):
+    for c in (tops[:26] + ntb + trending[:20] + realclear[:18] + editorials[:24] + drudge[:28] + arcs[:45] + breaking[:45]):
         if c["url"] in seen:
             continue
         seen.add(c["url"])
@@ -2224,6 +2430,16 @@ def curate_live(section):
     cands = cands[:150]   # bigger pool so heavily-covered topics have the depth for a full panel
     if not cands:
         raise ValueError("no Google News candidates for %s" % section)
+    # Per-section source tally for the health log: how much each feeder contributed this run, and
+    # whether the Trending signal (memeorandum + NYT Most Popular) actually fired. Non-fatal ("_").
+    _tr_nyt = sum(1 for c in trending if c.get("source") == "NY Times")
+    STATUS["_src_" + section] = (
+        "pool=%d | topheadlines=%d outletcrawl=%d narratives=%d trending=%d(memeo=%d,nyt=%d) realclear=%d%s"
+        % (len(cands), len(tops), len(breaking), len(arcs), len(trending),
+           len(trending) - _tr_nyt, _tr_nyt, len(realclear),
+           (" drudge=%d editorials=%d notthebee=%d" % (len(drudge), len(editorials), len(ntb))
+            if section == "main" else "")))
+    print("  sources[%s]: %s" % (section, STATUS["_src_" + section]))
     # Coverage-driven narrative detection: cluster the live pool by subject and
     # score by distinct-outlet volume + freshness. Relabel emergent members (those
     # arriving as loose 'breaking' items) with their detected cluster name so the
@@ -2246,7 +2462,12 @@ def curate_live(section):
             "\n\n===== EDITORIAL DIRECTION (Drudge-style) =====\n"
             "Each candidate has an 'arc' tag naming the long-running narrative it belongs to "
             "('breaking' = fresh top-of-outlet news; 'Top headlines' = what the major sites are "
-            "collectively leading with right now).\n"
+            "collectively leading with right now; 'Trending' = a story drawing outsized attention "
+            "right now, from a news aggregator or a major outlet's most-read list - use these as a "
+            "safety net to CATCH A BIG BREAKING STORY or a worthwhile subject the rest of the pool "
+            "missed. Promote a 'Trending' item only if it is genuinely newsworthy and fits this "
+            "section; never let it crowd out the majors, and never include low-quality clickbait or "
+            "slop just because it is trending).\n"
             "- COVER THE MAJORS FIRST (most important rule): the page must NOT miss a story that the "
             "major outlets are all covering. FIRST guarantee coverage of every genuinely big story - "
             "the 'Top headlines' candidates, and any subject carried by 3+ different major outlets. Aim "
@@ -3086,8 +3307,25 @@ def ensure_hero_image(section, data):
     except Exception:
         pass
 
+PHOTO_BUDGET = 5          # total column photos on a page: stories + sponsored units
+
+
+def _ad_photo_count(section):
+    """How many of this page's photo budget is already claimed by sponsored units.
+
+    ad-manager writes ad-slots.json (section -> {"images": n}) before curation runs.
+    If the file is missing, unreadable, or has no entry, we assume NO ads — so the
+    page still fills all 5 slots with stories rather than silently under-filling."""
+    try:
+        with open(os.path.join(SITE, "ad-slots.json"), "r", encoding="utf-8") as f:
+            n = int(((json.load(f) or {}).get(section) or {}).get("images", 0))
+        return max(0, min(PHOTO_BUDGET, n))
+    except Exception:
+        return 0
+
+
 def apply_column_images(section, data):
-    """Self-host photos for up to 5 of the most visual column stories the curator flagged
+    """Self-host photos for the most visual column stories the curator flagged
     with "photo": true (Drudge-style images that break up the text) - but never more than 2 in
     any single column, so no one column looks photo-heavy. Reuses the hero image pipeline -
     og:image, then the junk + watermark OCR guard - so column images are clean and never
@@ -3102,9 +3340,12 @@ def apply_column_images(section, data):
                 flagged.append((k, s))
     flagged.sort(key=lambda ks: ks[1].get("timestamp") or 0, reverse=True)
     n = 0
+    # A page always shows PHOTO_BUDGET (5) column photos. Sponsored units take up to 2 of
+    # them; stories take whatever is left — all 5 when no ad is running that day.
+    budget = PHOTO_BUDGET - _ad_photo_count(section)
     per_col = {"left": 0, "center": 0, "right": 0}   # cap: no more than 2 photos per column
     for k, s in flagged:
-        if n >= 5:
+        if n >= budget:
             break
         if per_col[k] >= 2:                          # this column already has its 2 - skip
             continue
@@ -4361,7 +4602,18 @@ def build():
     per_section = {}
     sb_debug = "n/a"
     gift_store = load_gift_links()       # remembered gift/unlock links, reused for walled leads
+    # Cooldown between curated sections: a section's crawl is a burst of Google News requests, and
+    # firing the next burst immediately is what trips the shared-IP rate limit that used to wipe
+    # every section after the first. Pausing lets Google's per-IP window reset. Only applied
+    # between sections we actually curate (not preserved/deploy-only), and never before the first.
+    _SECTION_COOLDOWN = 25
+    _curated_any = False
     for sec in SECTIONS:
+        if sec in targets:
+            if _curated_any:
+                print("  cooldown %ds before curating %s (rate-limit avoidance)" % (_SECTION_COOLDOWN, sec))
+                time.sleep(_SECTION_COOLDOWN)
+            _curated_any = True
         data = data_for(sec, sec in targets)
         data = apply_manual_picks(sec, data)
         data = apply_suppress(data)
@@ -4402,7 +4654,7 @@ def build():
                 data.pop("polls", None)
                 print("  poll averages fetch failed:", e)
         ensure_hero_image(sec, data)            # self-host the hero photo + set hero.img flag
-        data = apply_column_images(sec, data)   # self-host up to 5 Drudge-style column photos
+        data = apply_column_images(sec, data)   # self-host Drudge-style column photos (5 minus ads)
         _scrub_drudge(data)                     # strip false "Drudge" attribution (non-drudgereport links)
         # Write the section + refresh its dated archive snapshot (skipped for empty pages so a
         # bad run never overwrites a good same-day snapshot).
@@ -4443,6 +4695,12 @@ def build():
               "" if deployable else "  <-- INCLUDES A BROKEN PAGE; deploy will be blocked"))
         for _p in problems:
             print("  - %s" % _p)
+
+    # ---- provider usage: which news providers actually returned data this run ----
+    STATUS["_providers"] = ("google=%d bing=%d gdelt=%d"
+                            % (PROVIDER_HITS["google"], PROVIDER_HITS["bing"], PROVIDER_HITS["gdelt"]))
+    print("PROVIDERS this run: %s  (gdelt>0 or high bing = Google was flaky and fallbacks fired)"
+          % STATUS["_providers"])
 
     # ---- social auto-post: pick the day's 10 best NEW stories and post them to X ----
     # Runs only on a full curation run and only when configured; safe no-op otherwise.
