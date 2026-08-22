@@ -2498,6 +2498,15 @@ def curate_live(section):
             "Fold every angle of the subject (the strike, the diplomacy, the market impact, the reaction) "
             "into that single deep panel. If you find yourself titling a second panel about a subject that "
             "already has one, merge them.\n"
+            "- SUBJECT PURITY (HARD RULE): every story INSIDE a panel must be about that panel's ONE "
+            "subject. NEVER append a story on a DIFFERENT subject to an existing panel to bulk it up. "
+            "Stories inside a panel render with NO separator line between them, so a reader cannot tell "
+            "where one subject ends - an unrelated story tacked onto a panel reads as if it were part "
+            "of that topic. Real example to avoid: an Iran-war panel must contain ONLY Iran-war "
+            "stories; do NOT fold in a story about a Trump aide's Secret Service access - that is a "
+            "separate subject and belongs in its OWN panel (if it has 2+ stories) or as a standalone "
+            "column item (if it has one). When in doubt whether a story fits a panel, ask 'is this the "
+            "SAME event/subject as the panel title?' - if not, it goes elsewhere.\n"
             "- PANEL DEPTH: size each panel to how BIG the subject is and how much coverage it is "
             "drawing - two stories is the MINIMUM, never the target. When a topic is important and "
             "widely covered (college-football camp in late summer, a big-tech earnings week, a major "
@@ -4194,7 +4203,10 @@ _PAYWALL_HTML_MARKERS = (
     'content_tier" content="locked"', 'content_tier" content="premium"',
     'subscribe to continue reading', 'to continue reading, subscribe',
     'this article is for subscribers', 'this content is for subscribers',
-    'subscribe to read the full', 'to read the full story, subscribe')
+    'subscribe to read the full', 'to read the full story, subscribe',
+    'subscribe to keep reading', 'subscribe now to keep reading', 'sign in to keep reading',
+    'register to continue reading', 'to continue reading, sign in',
+    'data-testid="paywall"', 'id="paywall"')
 
 def _confirm_free_article(url, timeout=10):
     """Fetch the article and check for paywall signals. Returns True (confirmed readable/free),
@@ -4247,16 +4259,28 @@ def _drop_story_url(data, url):
             ng.append({**g, "stories": st})
     data["groups"] = ng
 
-def replace_paywalled(data, cap=16, gift_store=None):
+def replace_paywalled(data, cap=16, gift_store=None, live_cap=60):
     """For any hard-paywalled link: first use a saved GIFT link for that exact article if we
     have one (keeps the original outlet); else swap in a same-subject article from a FREE source
     (our headline is kept). If nothing free exists, DROP the story from the body rather than link
     a paywall. The HERO is never dropped and never left walled: gift link, else a free same-story
     article, else promoted to one of its own free sublinks."""
     n = [0]
+    lv = [0]
     def keep(s, is_hero=False):
         u = s.get("url")
-        if not (u and _is_paywalled(u)):
+        if not u:
+            return True
+        walled = _is_paywalled(u)
+        if not walled and not _has_gift_token(u) and lv[0] < live_cap:
+            # INDIVIDUAL VERIFICATION: for a body story NOT on the static paywall list, fetch the
+            # article and treat it as walled ONLY if the page CONFIRMS a paywall (schema.org
+            # isAccessibleForFree:false, a subscribe gate, etc.). Fail OPEN on anything we can't
+            # read, so a genuinely free story is never dropped by mistake. Budgeted by live_cap.
+            lv[0] += 1
+            if _confirm_free_article(u, timeout=8) is False:
+                walled = True
+        if not walled:
             return True
         gift = _saved_gift_link(u, gift_store)
         if gift:
@@ -4605,6 +4629,12 @@ def build():
         p = os.path.join(ROOT, extra)
         if os.path.isfile(p):
             shutil.copy2(p, os.path.join(SITE, extra))
+    # Cloudflare Pages Functions (e.g. /api/quotes live-quote proxy). Copied into the deployed
+    # site so `wrangler pages deploy site` picks them up. Function routes take precedence over the
+    # _redirects SPA catch-all below, so /api/* runs the function rather than serving index.html.
+    fdir = os.path.join(ROOT, "functions")
+    if os.path.isdir(fdir):
+        shutil.copytree(fdir, os.path.join(SITE, "functions"), dirs_exist_ok=True)
     with open(os.path.join(SITE, "_redirects"), "w", encoding="utf-8") as f:
         f.write("/*    /index.html   200\n")
 
