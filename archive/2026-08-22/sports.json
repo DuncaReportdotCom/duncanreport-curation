@@ -398,8 +398,8 @@
       "home": "LAR",
       "away": "NO",
       "state": "in",
-      "note": "0:21 - 2nd",
-      "homeScore": "17",
+      "note": "Halftime",
+      "homeScore": "20",
       "awayScore": "0"
     },
     {
@@ -407,9 +407,9 @@
       "home": "MIA",
       "away": "NYG",
       "state": "in",
-      "note": "0:31 - 2nd",
+      "note": "Halftime",
       "homeScore": "3",
-      "awayScore": "17"
+      "awayScore": "20"
     },
     {
       "league": "NFL",
@@ -488,9 +488,9 @@
       "home": "MIA",
       "away": "WSH",
       "state": "in",
-      "note": "Bot 4th",
+      "note": "Top 5th",
       "homeScore": "4",
-      "awayScore": "1"
+      "awayScore": "2"
     },
     {
       "league": "MLB",
