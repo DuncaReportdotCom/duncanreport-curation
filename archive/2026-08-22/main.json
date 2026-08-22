@@ -107,7 +107,7 @@
         },
         {
           "headline": "Debt Officially Tops $40,000,000,000,000",
-          "url": "https://www.fox.com/watch/clip/fmc-11335dcjjrh7o0g4/national-debt-officially-tops-40-trillion-as-spending-concerns-grow",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/us-debt-tops-40-trillion-americans-left-with-the-bill-3",
           "timestamp": 1787227351456,
           "postedAt": 1787227600879
         },
@@ -255,8 +255,7 @@
         "url": "https://www.wandtv.com/news/national/survival-mode-indiana-residents-endure-a-ninth-day-without-power/article_86fd05ac-b3b5-5a77-9a0d-a1bba79a9412.html",
         "timestamp": 1787358709000,
         "photo": true,
-        "postedAt": 1787400409012,
-        "image": "/img/main-0.jpg"
+        "postedAt": 1787400409012
       },
       {
         "headline": "Aide Filmed Sprinting After Trump's Golf Cart In Scotland",
@@ -264,7 +263,7 @@
         "timestamp": 1787329211642,
         "photo": true,
         "postedAt": 1787329471648,
-        "image": "/img/main-2.jpg"
+        "image": "/img/main-1.jpg"
       },
       {
         "headline": "Alaska Charter Plane Crash Kills 8, Including Army Corps Employees",
@@ -272,7 +271,8 @@
         "timestamp": 1787320740000,
         "feature": true,
         "photo": true,
-        "postedAt": 1787329471648
+        "postedAt": 1787329471648,
+        "image": "/img/main-3.jpg"
       },
       {
         "headline": "SNAP Enrollment Dropping Faster Than Expected",
@@ -338,18 +338,12 @@
         "timestamp": 1787357520000,
         "photo": true,
         "postedAt": 1787400409012,
-        "image": "/img/main-1.jpg"
+        "image": "/img/main-0.jpg"
       },
       {
         "headline": "America's Longest-Serving Prisoner Dies At 101 After 8 Stays Of Execution",
         "url": "https://www.dailywire.com/news/americas-longest-serving-prisoner-dies-at-101-after-dodging-execution-8-times",
         "timestamp": 1787328420000,
-        "postedAt": 1787329471648
-      },
-      {
-        "headline": "Dollar Sinks As Investors Flee To Gold, Crypto After Bessent Buyback",
-        "url": "https://dailycaller.com/2026/08/21/dollar-sinks-as-investors-flock-to-gold-crypto-after-bessents-treasury-buyback",
-        "timestamp": 1787327820000,
         "postedAt": 1787329471648
       },
       {
@@ -365,7 +359,7 @@
         "timestamp": 1787322137000,
         "photo": true,
         "postedAt": 1787329471648,
-        "image": "/img/main-3.jpg"
+        "image": "/img/main-2.jpg"
       },
       {
         "headline": "Albany Woman Charged With Plotting To Bomb State Capitol",
