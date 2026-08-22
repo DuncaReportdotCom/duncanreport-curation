@@ -238,6 +238,9 @@ color: #555;
 .group-panel {
 margin-bottom: 16px;
 }
+.group-title {
+font-weight: bold;
+}
 .group-panel-title a {
 font-family: 'Arial Black', Arial, sans-serif;
 font-size: 15px;
@@ -566,6 +569,112 @@ return '<a class="mk-item" href="' + (q.url || WSJ_MKT) + '" target="_blank" sty
 }).join('<span class="mk-sep">|</span>');
 }
 
+// ===== ADDED: live Bitcoin refresh =====
+// BTC trades 24/7, so the once-a-day curated level goes stale. Refresh just the Bitcoin entry
+// client-side on load and every 60s. Tries Coinbase (US-friendly, CORS, no key) then CoinGecko;
+// if both fail it leaves the curated value untouched. Only the Bitcoin item is changed.
+function _setBitcoin(price, pct) {
+var el = document.getElementById('markets');
+if (!el || price == null || !isFinite(price)) return;
+var items = el.querySelectorAll('.mk-item');
+for (var i = 0; i < items.length; i++) {
+var nm = items[i].querySelector('.mk-name');
+if (!nm || nm.textContent.trim() !== 'Bitcoin') continue;
+var v = items[i].querySelector('.mk-val');
+if (v) v.textContent = '$' + price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+if (pct != null && isFinite(pct)) {
+var chg = items[i].querySelector('.mk-chg');
+if (chg) { chg.textContent = (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%'; chg.className = 'mk-chg ' + (pct < 0 ? 'mk-down' : 'mk-up'); }
+}
+return;
+}
+}
+async function fetchLiveBitcoin() {
+try {
+var r = await fetch('https://api.exchange.coinbase.com/products/BTC-USD/stats', { cache: 'no-store' });
+if (r.ok) {
+var s = await r.json();
+var last = parseFloat(s.last), open = parseFloat(s.open);
+if (isFinite(last)) { _setBitcoin(last, (isFinite(open) && open > 0) ? (last - open) / open * 100 : null); return; }
+}
+} catch (e) {}
+try {
+var r2 = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true', { cache: 'no-store' });
+if (r2.ok) {
+var d = await r2.json();
+if (d && d.bitcoin) { _setBitcoin(d.bitcoin.usd, d.bitcoin.usd_24h_change); }
+}
+} catch (e) {}
+}
+var _btcTimer = null;
+function startLiveBitcoin() {
+fetchLiveBitcoin();
+if (_btcTimer) clearInterval(_btcTimer);
+_btcTimer = setInterval(fetchLiveBitcoin, 60000);
+}
+
+// ===== ADDED: live index/commodity quotes (S&P, Dow, Nasdaq, 10-Yr, Gold, Oil) =====
+// Same idea as live sports scores: refresh the strip in place. These go through our own
+// /api/quotes endpoint (a Cloudflare function proxying Yahoo) because browsers can't call Yahoo
+// directly. Bitcoin is handled separately (Coinbase, 24/7). While the regular session is open we
+// poll every 30s; when closed the last values equal the close. On any failure the curated values
+// stay untouched.
+var LIVE_QUOTES = [
+{ name: 'S&P 500', sym: '^GSPC', kind: 'index' },
+{ name: 'Dow',     sym: '^DJI',  kind: 'index' },
+{ name: 'Nasdaq',  sym: '^IXIC', kind: 'index' },
+{ name: '10-Yr',   sym: '^TNX',  kind: 'yield' },
+{ name: 'Gold',    sym: 'GC=F',  kind: 'dollar' },
+{ name: 'Oil',     sym: 'CL=F',  kind: 'dollar' }
+];
+function _fmtLevel(v, kind) {
+if (kind === 'yield') return v.toFixed(2) + '%';
+var n = v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+return (kind === 'dollar') ? '$' + n : n;
+}
+function _setQuote(name, kind, price, prev) {
+var el = document.getElementById('markets');
+if (!el || price == null || !isFinite(price)) return;
+var items = el.querySelectorAll('.mk-item');
+for (var i = 0; i < items.length; i++) {
+var nm = items[i].querySelector('.mk-name');
+if (!nm || nm.textContent.trim() !== name) continue;
+var v = items[i].querySelector('.mk-val');
+if (v) v.textContent = _fmtLevel(price, kind);
+if (prev != null && isFinite(prev) && prev !== 0) {
+var chgEl = items[i].querySelector('.mk-chg');
+if (chgEl) {
+var chg = price - prev, pct = chg / prev * 100;
+var absStr = Math.abs(chg).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+chgEl.textContent = (chg < 0 ? '-' : '+') + absStr + '  ' + (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%';
+chgEl.className = 'mk-chg ' + (chg < 0 ? 'mk-down' : 'mk-up');
+}
+}
+return;
+}
+}
+var _idxTimer = null;
+async function fetchLiveIndices() {
+var syms = LIVE_QUOTES.map(function (q) { return q.sym; }).join(',');
+var data;
+try {
+var r = await fetch('/api/quotes?symbols=' + encodeURIComponent(syms), { cache: 'no-store' });
+if (!r.ok) return;
+data = await r.json();
+} catch (e) { return; }
+if (!data) return;
+var anyOpen = false;
+LIVE_QUOTES.forEach(function (q) {
+var d = data[q.sym];
+if (!d) return;
+_setQuote(q.name, q.kind, d.price, d.prev);
+if (d.state === 'REGULAR') anyOpen = true;
+});
+if (anyOpen) { if (!_idxTimer) _idxTimer = setInterval(fetchLiveIndices, 30000); }
+else if (_idxTimer) { clearInterval(_idxTimer); _idxTimer = null; }
+}
+function startLiveIndices() { fetchLiveIndices(); }
+
 // ===== ADDED: scoreboard (sports page) =====
 function renderScoreboard(games) {
 var el = document.getElementById('scoreboard');
@@ -697,6 +806,8 @@ function renderStories(data) {
 if (currentSection() === 'markets') {
   if (data && data.markets && data.markets.length) { renderMarkets(data.markets); }
   else { renderMarketLinks(); }
+  startLiveBitcoin();   // BTC trades 24/7 - refresh its price live on load + every 60s
+  startLiveIndices();   // S&P/Dow/Nasdaq/10-Yr/Gold/Oil - live during the session, via /api/quotes
 } else { renderMarkets(data && data.markets); }
 if (currentSection() === 'politics') {
   if (data && data.polls && data.polls.length) { renderPolls(data.polls); }
