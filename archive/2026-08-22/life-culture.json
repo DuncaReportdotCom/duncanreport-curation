@@ -1,11 +1,10 @@
 {
-  "lastUpdated": 1787331564787,
-  "heroSetDate": "2026-08-21",
+  "lastUpdated": 1787402477295,
+  "heroSetDate": "2026-08-22",
   "hero": {
-    "headline": "DOLPHINS EAVESDROP ON THEIR PREY — AND ON EACH OTHER",
-    "url": "https://nautil.us/dolphins-eavesdrop-on-their-prey-and-each-other-1284095/",
-    "sublinks": [],
-    "postedAt": 1787331564787,
+    "headline": "ANCIENT SHARK GRAVEYARD FOUND IN EGYPTIAN DESERT",
+    "url": "https://www.sciencealert.com/an-ancient-shark-graveyard-has-been-found-in-the-egyptian-desert",
+    "postedAt": 1787402477295,
     "img": true
   },
   "groups": [
@@ -49,21 +48,58 @@
   "columns": {
     "left": [
       {
+        "headline": "My Favorite Airbnb: A Restored Watchtower In Sicily",
+        "url": "https://www.cntraveler.com/story/my-favorite-airbnb-a-beautifully-restored-watchtower-on-a-secret-slice-of-sicily",
+        "timestamp": 1787398200000,
+        "photo": true,
+        "postedAt": 1787402477295,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "A New Way To Explore Millions Of Artworks Online",
+        "url": "https://links.thisiscolossal.com/post/825645021126623232/discover-millions-of-artworks-from-thousands-of",
+        "timestamp": 1787396451000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Old Nuclear Tests Reveal Secrets About Earth's Core",
+        "url": "https://www.sciencealert.com/all-those-nuclear-tests-decades-ago-have-revealed-something-new-about-our-planets-core",
+        "timestamp": 1787385640000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Dolly Parton Gives Fans Health Update: 'I'm Still Healin''",
+        "url": "https://www.rollingstone.com/music/music-country/dolly-parton-health-update-museum-1235613307/",
+        "timestamp": 1787375265000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Tupac Killer's Associate Gives First Interview As Trial Continues",
+        "url": "https://www.rollingstone.com/music/music-news/tupac-shakur-murder-trial-keffe-d-bet-suge-knight-1235613138/",
+        "timestamp": 1787353314000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Scientists Discover A New Organ Hiding In The Skull",
+        "url": "https://www.sciencealert.com/scientists-discover-a-new-organ-hiding-in-the-skull",
+        "timestamp": 1787159294000,
+        "feature": true,
+        "postedAt": 1787402477295
+      },
+      {
         "headline": "Rare Tornado Hits New York City As Storm Drenches Mid-Atlantic",
         "url": "https://www.foxweather.com/extreme-weather/video-tornado-new-york-long-island-damages-local-beach-club",
         "timestamp": 1787325730000,
         "feature": true,
         "photo": true,
-        "postedAt": 1787331564787,
-        "image": "/img/life-culture-1.jpg"
+        "postedAt": 1787331564787
       },
       {
         "headline": "How Biggie Smalls Led To A Break In The Tupac Shakur Killing",
         "url": "https://news3lv.com/news/local/opening-statements-tupac-shakur-murder-trial-duane-davis-las-vegas-clark-county-court-live-watch-nevada",
         "timestamp": 1787320500000,
         "photo": true,
-        "postedAt": 1787331564787,
-        "image": "/img/life-culture-3.jpg"
+        "postedAt": 1787331564787
       },
       {
         "headline": "Taylor Sheridan Says He Was 'Homeless Twice' Before Success",
@@ -128,12 +164,6 @@
         "postedAt": 1787229361119
       },
       {
-        "headline": "Scientists Find New Organ Hidden In The Skull",
-        "url": "https://www.sciencealert.com/scientists-discover-a-new-organ-hiding-in-the-skull",
-        "timestamp": 1787159294000,
-        "postedAt": 1787229361119
-      },
-      {
         "headline": "The Bloodsucking Insect With A Saw For A Mouth",
         "url": "https://theconversation.com/the-bloodsucking-insect-with-a-saw-for-a-mouth-how-the-tsetse-fly-bites-through-almost-anything-289260",
         "timestamp": 1787146041000,
@@ -162,28 +192,55 @@
         "url": "https://www.seriouseats.com/natural-vs-artificial-flavors-12063097",
         "timestamp": 1787137200000,
         "postedAt": 1787148490172
-      },
-      {
-        "headline": "Frank Beard, ZZ Top's Beardless Drummer, Dies At 77",
-        "url": "https://www.sfexaminer.com/frank-beard-beardless-drummer-for-zz-top-dies-at-77/article_27de6592-d0cc-59aa-aa9c-e7903ba9e570.html",
-        "timestamp": 1787095575000,
-        "photo": true,
-        "postedAt": 1787097208437
-      },
-      {
-        "headline": "How Academia Created Jason Arday",
-        "url": "https://www.npr.org/2026/08/18/nx-s1-5935396/britain-cambridge-professor-jason-arday-hiring-questions",
-        "timestamp": 1787090523000,
-        "postedAt": 1787097208437
-      },
-      {
-        "headline": "This No-Cook Zucchini, Butter Bean And Tuna Salad Makes A Fresh Summer Meal",
-        "url": "https://www.seriouseats.com/zucchini-butter-bean-tuna-salad-recipe-12062817",
-        "timestamp": 1787090400000,
-        "postedAt": 1787097208437
       }
     ],
     "center": [
+      {
+        "headline": "DOLPHINS EAVESDROP ON THEIR PREY — AND ON EACH OTHER",
+        "url": "https://nautil.us/dolphins-eavesdrop-on-their-prey-and-each-other-1284095/",
+        "timestamp": 1787331564787,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "Hibernating Mice Lose Major Brain Connections, Study Finds",
+        "url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
+        "timestamp": 1787397752000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Rapper BigXThaPlug Arrested Ahead Of Iowa State Fair Show",
+        "url": "https://www.kcci.com/article/bigxthaplug-saturdays-iowa-state-fair-grandstand-headliner-arrested-in-texas/73500270",
+        "timestamp": 1787396820000,
+        "photo": true,
+        "postedAt": 1787402477295,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "Asheville's Food Scene And The Rise Of A Farm-To-Table Town",
+        "url": "https://www.afar.com/podcasts/unpacked/s5-e41-eating-asheville-north-caroline",
+        "timestamp": 1787387833000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Pig On The Loose In West Hollywood Finds A Celebrity Home",
+        "url": "https://www.thedodo.com/daily-dodo/pig-caught-running-through-streets-of-west-hollywood-ends-up-adopted-by-a-celebrity",
+        "timestamp": 1787338937000,
+        "photo": true,
+        "postedAt": 1787402477295,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "Natalie Portman At Center Of Literary Furor Over Rachel Cusk Novel",
+        "url": "https://variety.com/2026/film/features/natalie-portman-rachel-cusk-life-of-m-1236839311/",
+        "timestamp": 1787320800000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Taylor Sheridan Says He Needed Money For His $330 Million Ranch",
+        "url": "https://ew.com/taylor-sheridan-retirement-plans-after-yellowstone-stalled-four-sixes-ranch-12065550",
+        "timestamp": 1787296860000,
+        "postedAt": 1787402477295
+      },
       {
         "headline": "A Japanese Hi-Fi Brand Drops An Elite Turntable For Vinyl Fans",
         "url": "https://www.gearpatrol.com/audio/esoteric-t-01-turntable/",
@@ -213,8 +270,7 @@
         "url": "https://www.gq.com/story/carbone-major-food-group-restaurant-empire",
         "timestamp": 1787227200000,
         "photo": true,
-        "postedAt": 1787229361119,
-        "image": "/img/life-culture-4.jpg"
+        "postedAt": 1787229361119
       },
       {
         "headline": "Cabin Crew Face Higher Radiation Cancer Risk Than Nuclear Workers",
@@ -266,28 +322,48 @@
         "timestamp": 1787138906000,
         "photo": true,
         "postedAt": 1787148490172
-      },
-      {
-        "headline": "What It's Like Sailing On The Most Exciting New Cruise To Launch This Year",
-        "url": "https://www.afar.com/magazine/in-depth-review-of-the-orient-express-corinthian-yacht",
-        "timestamp": 1787094225000,
-        "photo": true,
-        "postedAt": 1787097208437
-      },
-      {
-        "headline": "Nobody's Talking About This Weak Link In The Hydrogen Economy: Metal",
-        "url": "https://www.sciencealert.com/nobodys-talking-about-this-weak-link-in-the-hydrogen-economy-metal",
-        "timestamp": 1787090472000,
-        "postedAt": 1787097208437
-      },
-      {
-        "headline": "'Turn The Volume Up!' Traces A History Of Sound",
-        "url": "https://links.thisiscolossal.com/post/825320529706778624/turn-the-volume-up-highlights-the-history-of/amp",
-        "timestamp": 1787090041000,
-        "postedAt": 1787097208437
       }
     ],
     "right": [
+      {
+        "headline": "'The Five Heartbeats' Star Michael Wright Dead At 70",
+        "url": "https://www.tmz.com/2026/08/22/michael-wright-dead/",
+        "timestamp": 1787399547000,
+        "photo": true,
+        "postedAt": 1787402477295,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Your Expired Visa Card Could Be 'Zombified' For Contactless Payments",
+        "url": "https://www.malwarebytes.com/blog/news/2026/08/zombie-card-an-expired-visa-credit-card-can-be-used-for-purchases",
+        "timestamp": 1787394600000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "NASA Cancels Rescue Mission For Aging Swift Telescope",
+        "url": "https://apnews.com/article/swift-telescope-nasa-satellite-rescue-800bfbe5aaba5fec9aadd20bdcc138a5",
+        "timestamp": 1787389200000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "UK: Prince Harry Says Returning To Britain Was 'Impossible'",
+        "url": "https://people.com/prince-harry-meghan-markle-moving-back-uk-with-prince-archie-princess-lilibet-exclusive-12061632",
+        "timestamp": 1787350233000,
+        "photo": true,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Why Some People Are Mosquito Magnets",
+        "url": "https://www.realclearscience.com/video/2026/08/22/why_are_some_people_mosquito_magnets_1201847.html",
+        "timestamp": 1787327340000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Oscar Wilde Still Knows Exactly Who We Are",
+        "url": "https://rvamag.com/art/theatre/review-oscar-wilde-still-knows-exactly-who-we-are.html",
+        "timestamp": 1787167241000,
+        "postedAt": 1787402477295
+      },
       {
         "headline": "SCIENTISTS DISCOVER NEW DINOSAUR SPECIES DEEP IN SAHARA DESERT",
         "url": "https://abcnews.com/International/scientists-discover-new-dinosaur-species-deep-sahara-desert/story?id",
@@ -306,15 +382,14 @@
         "timestamp": 1787328513000,
         "photo": true,
         "postedAt": 1787331564787,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-4.jpg"
       },
       {
         "headline": "Inside Namibia's Remote Hoanib Elephant Camp",
         "url": "https://www.cntraveler.com/hotels/kaokoland/natural-selection-hoanib-elephant-camp",
         "timestamp": 1787325377000,
         "photo": true,
-        "postedAt": 1787331564787,
-        "image": "/img/life-culture-2.jpg"
+        "postedAt": 1787331564787
       },
       {
         "headline": "A Mother-And-Tween's Travel Guide To Seoul's K-Beauty Scene",
@@ -342,12 +417,6 @@
         "postedAt": 1787229361119
       },
       {
-        "headline": "Oscar Wilde Still Knows Exactly Who We Are",
-        "url": "https://rvamag.com/art/theatre/review-oscar-wilde-still-knows-exactly-who-we-are.html",
-        "timestamp": 1787167241000,
-        "postedAt": 1787229361119
-      },
-      {
         "headline": "The Wavy Window Paradox",
         "url": "https://www.realclearscience.com/video/2026/08/20/the_wavy_window_paradox_1201409.html",
         "timestamp": 1787160240000,
@@ -370,24 +439,6 @@
         "url": "https://theconversation.com/what-luigi-mangiones-celebrity-says-about-gen-z-289938",
         "timestamp": 1787142480000,
         "postedAt": 1787148490172
-      },
-      {
-        "headline": "Why You Move Factors Into Whether It Protects You From Dementia",
-        "url": "https://nautil.us/why-you-move-factors-in-to-whether-it-protects-you-from-dementia-1283940",
-        "timestamp": 1787092200000,
-        "postedAt": 1787097208437
-      },
-      {
-        "headline": "How One Woman With A Very Rare Disease Secured A Clinical Trial",
-        "url": "https://www.facebook.com/nytimes/photos/through-sheer-determination-neena-nizar-has-become-the-first-patient-in-a-clinic/1460204112628714/",
-        "timestamp": 1787090400000,
-        "postedAt": 1787097208437
-      },
-      {
-        "headline": "National Symphony Orchestra Announces Season Outside The Kennedy Center",
-        "url": "https://www.wusa9.com/article/entertainment/music/national-symphony-orchestra-season-announcement-no-kennedy-center/65-43f8459d-56be-4faa-8cc0-80e426e9cf56",
-        "timestamp": 1787090400000,
-        "postedAt": 1787097208437
       }
     ]
   }

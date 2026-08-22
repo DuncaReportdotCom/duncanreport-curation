@@ -1,20 +1,24 @@
 {
-  "lastUpdated": 1787330052955,
-  "heroSetDate": "2026-08-21",
+  "lastUpdated": 1787401010479,
+  "heroSetDate": "2026-08-22",
   "hero": {
-    "headline": "PRINCE HARRY, ELTON JOHN ORDERED TO PAY $13 MILLION IN FAILED PRIVACY CASE",
-    "url": "https://apnews.com/article/prince-harry-lawsuit-daily-mail-elton-81f7450c6419cbbd5a2b573217cf5ab1",
+    "headline": "UKRAINE STRIKES RUSSIAN OIL REFINERY IN RETALIATION AFTER DEADLY MALL ATTACK",
+    "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-shopping-centre-attack-b3037438.html",
     "sublinks": [
       {
-        "text": "Total Legal Bill For Harry And Co-Claimants Could Reach £34.5 Million",
-        "url": "https://www.bbc.com/news/articles/c04kwr9r1zlo"
+        "text": "Search continues for survivors buried in Kyiv mall rubble",
+        "url": "https://www.bbc.com/news/articles/c39egw7nmk2o"
       },
       {
-        "text": "Ruling Also Hits Elton John And David Furnish Over Failed Privacy Suit",
-        "url": "https://www.lemonde.fr/en/international/article/2026/08/21/uk-court-orders-prince-harry-elton-john-and-others-to-pay-9-5-million-to-daily-mail-tabloid_6756734_4.html"
+        "text": "Casualties mount on both sides as war grinds on",
+        "url": "https://apnews.com/article/russia-ukraine-war-kyiv-missiles-drones-5e6f60963f2662907441e95c635470c4"
+      },
+      {
+        "text": "How Kyiv turned Trump's dismissal into battlefield initiative",
+        "url": "https://apnews.com/projects/russia-ukraine-war-striking-russia-cards/"
       }
     ],
-    "postedAt": 1787330052955,
+    "postedAt": 1787401010479,
     "img": true
   },
   "groups": [
@@ -22,10 +26,28 @@
       "title": "MIDDLE EAST AND IRAN",
       "stories": [
         {
-          "headline": "Tanker Approached By Unauthorized Vessel Off Yemen",
-          "url": "https://www.arabnews.com/node/2655310/amp",
-          "timestamp": 1787221043000,
-          "postedAt": 1787228296033
+          "headline": "Israel To Investigate Hind Rajab Killing; Mother Wants More",
+          "url": "https://apnews.com/article/hind-rajab-israel-investigation-gaza-edc2d9b929db8cf972d41c35ffea9a56",
+          "timestamp": 1787332740000,
+          "postedAt": 1787401010479
+        },
+        {
+          "headline": "How Israel Is Expanding West Bank Settlements",
+          "url": "https://www.bbc.com/news/articles/c2lq5g4dedpo",
+          "timestamp": 1787340707000,
+          "postedAt": 1787401010479
+        },
+        {
+          "headline": "Iranian Official Urges Qatar To Move Detained Pilots To Hospital",
+          "url": "https://www.arabnews.com/node/2655503/amp",
+          "timestamp": 1787389560000,
+          "postedAt": 1787401010478
+        },
+        {
+          "headline": "Iran Says New US Sanctions Violate Sovereignty Of Other States",
+          "url": "https://www.aljazeera.com/news/2026/8/22/iran-says-new-us-sanctions-violate-sovereignty-of-other-states",
+          "timestamp": 1787390351000,
+          "postedAt": 1787401010478
         },
         {
           "headline": "Syria's Foreign Minister Says Israeli Airbase Strike Was Unjustified",
@@ -40,35 +62,10 @@
           "postedAt": 1787228296033
         },
         {
-          "headline": "Deadly Gaza Strikes Cast Doubt On Ceasefire Progress",
-          "url": "https://apnews.com/article/gaza-israel-war-kushner-talks-trump-netanyahu-8c8741e238c72bcbc45e1647afbde206",
-          "timestamp": 1787189760000,
-          "feature": true,
-          "postedAt": 1787228296033
-        },
-        {
-          "headline": "IAEA Finds 'Tons' Of Nuclear Material In Syria",
-          "url": "https://www.timesofisrael.com/iaea-finds-few-tons-of-nuclear-material-in-syria-says-it-will-go-under-safeguards/",
-          "timestamp": 1787074080000,
-          "postedAt": 1787096218112
-        },
-        {
-          "headline": "Israeli Strike On Gaza City Cafe Kills Six, Targeting Hamas Commanders",
-          "url": "https://www.jpost.com/israel-news/defense-news/article-905915",
-          "timestamp": 1787071938000,
-          "postedAt": 1787096218112
-        },
-        {
-          "headline": "Chinese State Shipping Firms Avoid Chokepoints Threatened By Iran",
-          "url": "https://www.breitbart.com/middle-east/2026/08/18/chinese-state-shipping-companies-back-away-chokepoints-threatened-iran/",
-          "timestamp": 1787088528000,
-          "postedAt": 1787096218112
-        },
-        {
-          "headline": "Trump Threatens To Bomb Oman As Iran War Stalemate Continues",
-          "url": "https://www.cbsnews.com/live-updates/us-iran-war-deal-expired-strait-of-hormuz/",
-          "timestamp": 1787031600000,
-          "postedAt": 1787096218112
+          "headline": "US Ambassador Responds To Rising Israel-Turkey-Syria Tensions",
+          "url": "https://www.pbs.org/newshour/show/u-s-ambassador-responds-to-rising-tensions-between-israel-turkey-and-syria",
+          "timestamp": 1787351717000,
+          "postedAt": 1787401010478
         }
       ]
     },
@@ -121,23 +118,6 @@
       ]
     },
     {
-      "title": "ISRAEL-PALESTINE FALLOUT",
-      "stories": [
-        {
-          "headline": "European Leaders Demand Israel Halt West Bank Settlement Project",
-          "url": "https://www.euronews.com/my-europe/2026/08/20/european-leaders-demand-israel-halt-controversial-e1-settlement-project-in-west-bank",
-          "timestamp": 1787250160000,
-          "postedAt": 1787330052955
-        },
-        {
-          "headline": "Who Was Hind Rajab, And Why Is Israel Investigating Her Killing?",
-          "url": "https://www.aljazeera.com/news/2026/8/20/who-was-hind-rajab-and-why-is-israel-investigating-her-killing",
-          "timestamp": 1787226765000,
-          "postedAt": 1787330052955
-        }
-      ]
-    },
-    {
       "title": "EUROPE'S HEAT AND DROUGHT CRISIS",
       "stories": [
         {
@@ -157,6 +137,39 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "South Korea Ship To Test Arctic Commercial Route",
+        "url": "https://www.reuters.com/world/china/south-korea-ship-test-arctic-commercial-route-amid-western-concerns-2026-08-22/",
+        "timestamp": 1787381220000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "Secret Gun Cache Near Berlin Tied To Possible Russian Assassination Plot",
+        "url": "https://www.breitbart.com/europe/2026/08/22/secret-gun-cache-found-near-berlin-may-be-linked-to-russian-intel/",
+        "feature": true,
+        "timestamp": 1787399649000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "Over 16,000 Ebola Vaccine Doses Arrive In DR Congo",
+        "url": "https://www.aljazeera.com/news/2026/8/22/more-than-16000-doses-of-ervebo-vaccine-arrive-in-ebola-hit-dr-congo",
+        "timestamp": 1787393997000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "UK: Girl, 6, Dies After Family Killed In Sea Off Shoreham",
+        "url": "https://www.bbc.com/news/articles/c629y0kx8gyo",
+        "photo": true,
+        "timestamp": 1787389781000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "One Killed In Sword Attack At Swedish School",
+        "url": "https://www.bbc.com/news/articles/c3r0g7gj2n3o",
+        "photo": true,
+        "timestamp": 1787346204000,
+        "postedAt": 1787401010479
+      },
       {
         "headline": "Macron To Host Saudi Crown Prince For Two-Day State Visit",
         "url": "https://www.arabnews.jp/en/saudi-arabia/article_176413/",
@@ -179,14 +192,6 @@
         "headline": "US, South Korea End Joint Drills Early After North Korea Missile Barrage",
         "url": "https://apnews.com/article/north-south-korea-us-drills-trump-kim-e0350e23feac60adfa60f2cbf5eff27f",
         "timestamp": 1787318400000,
-        "postedAt": 1787330052955
-      },
-      {
-        "headline": "Sweden: Sword Attack At School Injures Several",
-        "url": "https://www.cnn.com/2026/08/21/europe/swedish-school-sword-attack-intl",
-        "timestamp": 1787318175000,
-        "feature": true,
-        "photo": true,
         "postedAt": 1787330052955
       },
       {
@@ -259,47 +264,40 @@
         "url": "https://www.thebulwark.com/p/the-real-danger-of-russias-fake-elections-fraud-war-ukraine-putin-yabloko",
         "timestamp": 1787116899000,
         "postedAt": 1787147405857
-      },
-      {
-        "headline": "US And Canada Hold Last-Minute Talks To Stop Trump's 50% Tariffs",
-        "url": "https://apnews.com/article/tariffs-trump-canada-usmca-trade-aae597c22617bec7a99f670a2c787ef9",
-        "timestamp": 1787090880000,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "Russia's Lavrov Says Britain Risks Being Seen As Party To Ukraine War",
-        "url": "https://www.reuters.com/world/uk/russias-lavrov-says-britain-risks-being-seen-party-ukraine-war-2026-08-18/",
-        "timestamp": 1787072024000,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "Humans Love Having Pets. Other Primates May Too",
-        "url": "https://www.smithsonianmag.com/smart-news/do-monkeys-keep-pets-study-finds-widespread-primate-interactions-with-other-animal-species-from-mice-to-deer-180989356/",
-        "timestamp": 1787061608000,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "Zambia's Hakainde Hichilema Declared Winner Of Troubled Election",
-        "url": "https://apnews.com/article/zambia-election-hichilema-victory-562c0ee56653c8dc835af7556c913aab",
-        "timestamp": 1787054640000,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "Stunning Views Of The Total Solar Eclipse Captured From Space",
-        "url": "https://www.space.com/stargazing/solar-eclipses/see-gorgeous-views-of-the-aug-12-total-solar-eclipse-captured-from-space",
-        "timestamp": 1787047200000,
-        "photo": true,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "US Tourist Dies After Lightning Strike Hiking Sicily's Mount Etna",
-        "url": "https://www.cnn.com/2026/08/18/europe/us-tourist-lightning-strike-mount-etna-italy-hnk",
-        "timestamp": 1787035325000,
-        "photo": true,
-        "postedAt": 1787096218112
       }
     ],
     "center": [
+      {
+        "headline": "Ukraine's Farmers Struggle To Sell Harvest Amid War, Drought",
+        "url": "https://www.dw.com/en/ukraines-farmers-struggle-to-sell-harvest-amid-war-drought/a-78435344",
+        "timestamp": 1787350835000,
+        "postedAt": 1787401010479
+      },
+      {
+        "headline": "Former Envoys Urge Joint France-UK Action On Palestinian Territories",
+        "url": "https://www.arabnews.com/node/2655505/amp",
+        "timestamp": 1787393350000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "Somali Pirates Hijack Oil Tanker Off Yemen",
+        "url": "https://apnews.com/article/somalia-piracy-yemen-puntland-5095054a9227548818dfc819d226dc76",
+        "photo": true,
+        "timestamp": 1787386680000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "Cuban Migrants Describe Deportation By US To Dangerous African Nation",
+        "url": "https://www.cbsnews.com/news/central-african-republic-third-country-deportations/",
+        "timestamp": 1787365080000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "Guyana's Rodrigues Birkett Leads Informal Poll For Next UN Chief",
+        "url": "https://www.aljazeera.com/news/2026/8/22/guyanas-rodrigues-birkett-leads-informal-poll-in-race-to-be-next-un-leader",
+        "timestamp": 1787359014000,
+        "postedAt": 1787401010478
+      },
       {
         "headline": "Germany: Runaway Donkey Jumps Into Van, Injures Three",
         "url": "https://apnews.com/article/germany-donkey-attack-kicking-biting-0e5dcf882eb12fbd870354015a73ba86",
@@ -386,53 +384,35 @@
         "url": "https://www.reuters.com/world/china/china-completes-first-stage-work-disputed-south-china-sea-reef-images-show-2026-08-19/",
         "timestamp": 1787123984000,
         "postedAt": 1787147405857
-      },
-      {
-        "headline": "Migrants Stranded At Europe's Gates In Ceuta Await Their Fate",
-        "url": "https://www.france24.com/en/europe/20260818-ceuta-migrants-stranded-europes-gates-await-their-fate",
-        "timestamp": 1787068361000,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "Angelique Kidjo Becomes First Black African To Get Hollywood Walk Of Fame Star",
-        "url": "https://www.france24.com/en/culture/20260818-angelique-kidjo-hollywood-walk-of-fame",
-        "timestamp": 1787092860000,
-        "photo": true,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "Taliban Marks Five Years In Power, Condemns World For Not Recognizing It",
-        "url": "https://www.breitbart.com/asia/2026/08/18/taliban-marks-five-years-in-power-condemning-the-world-for-not-recognizing-it/",
-        "timestamp": 1787090199000,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "Why Is PM CARES Fund Keeping Large Sums Idle, Asks RTI Activist",
-        "url": "https://www.thehindu.com/news/national/pm-cares-fund-audit-2024-25-domestic-foreign-donations/article71360330.ece",
-        "timestamp": 1787088893000,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "Three Dead After Family Gets Into Difficulty In Sea Near Shoreham Port",
-        "url": "https://www.bbc.com/news/articles/cm2gmjd36pvo",
-        "timestamp": 1787088656000,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "British Honeymoon Couple Killed In Helicopter Crash On Greek Island",
-        "url": "https://www.bbc.com/news/articles/cx2lzj91d84o",
-        "timestamp": 1787067013000,
-        "photo": true,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "Philippine Student Livestreamed Fatal School Shooting Before Taking Own Life",
-        "url": "https://www.ksl.com/article/51611047/philippine-student-livestreamed-fatal-school-shooting-before-taking-own-life-official-says",
-        "timestamp": 1787062169000,
-        "postedAt": 1787096218112
       }
     ],
     "right": [
+      {
+        "headline": "PRINCE HARRY, ELTON JOHN ORDERED TO PAY $13 MILLION IN FAILED PRIVACY CASE",
+        "url": "https://apnews.com/article/prince-harry-lawsuit-daily-mail-elton-81f7450c6419cbbd5a2b573217cf5ab1",
+        "timestamp": 1787330052955,
+        "postedAt": 1787330052955
+      },
+      {
+        "headline": "The Sleeper Trains That Let You Wake Up In Another World",
+        "url": "https://www.cnn.com/2026/08/22/travel/travel-news-sleeper-trains",
+        "timestamp": 1787394629000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "US-Canada Trade Talks Collapse As 50% Tariffs Take Effect",
+        "url": "https://www.lemonde.fr/en/economy/article/2026/08/22/us-canada-trade-talks-collapse-testing-ottawa-s-strategy-of-firmness_6756757_19.html",
+        "feature": true,
+        "timestamp": 1787393046000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "Two-Time Boxing Champion Zolani Tete Shot Dead In South Africa",
+        "url": "https://www.bbc.com/sport/boxing/articles/c98v78n72v5o",
+        "photo": true,
+        "timestamp": 1787389779000,
+        "postedAt": 1787401010478
+      },
       {
         "headline": "RUSSIAN MISSILE STRIKE KILLS AT LEAST 15 IN KYIV AS UKRAINE'S AIR DEFENSES DWINDLE",
         "url": "https://www.bbc.com/news/articles/c98vzmden5yo",
@@ -493,31 +473,6 @@
         "url": "https://www.ms.now/news/rubio-secretary-state-iran-ukraine",
         "timestamp": 1787130000000,
         "postedAt": 1787147405857
-      },
-      {
-        "headline": "US Sanctions ICC President And Senior Prosecutor In Another Move Against The Court",
-        "url": "https://apnews.com/article/international-criminal-court-sanctions-trump-israel-e8da938966f5f8dad763ecf68ea025c9",
-        "timestamp": 1787088240000,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "Choco, Colombia Faces Deeper Hardship After An Earthquake",
-        "url": "https://thechenabtimes.com/2026/08/18/colombias-choco-region-reels-from-devastating-earthquake-facing-deeper-hardship/?amp",
-        "timestamp": 1787070728000,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "People Displaced After Powerful Earthquake In Indonesia, In Photos",
-        "url": "https://apnews.com/photo-gallery/people-await-aid-after-powerful-earthquake-indonesia-photos-3696677a5dc54d5ab4dc52ff05e9b6fb",
-        "timestamp": 1787066940000,
-        "photo": true,
-        "postedAt": 1787096218112
-      },
-      {
-        "headline": "Russia Summons Japanese Envoy Following Putin's Visit To Disputed Islands",
-        "url": "https://apnews.com/article/russia-putin-japan-kuril-islands-northern-territories-61bfbaff966cf066cb623e7825f7d74b",
-        "timestamp": 1787061600000,
-        "postedAt": 1787096218112
       },
       {
         "headline": "Evergrande Founder Jailed For Life After Guilty Plea To Fraud",

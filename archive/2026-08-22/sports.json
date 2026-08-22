@@ -1,23 +1,84 @@
 {
-  "lastUpdated": 1787329790346,
-  "heroSetDate": "2026-08-21",
+  "lastUpdated": 1787400705592,
+  "heroSetDate": "2026-08-22",
   "hero": {
-    "headline": "JANNIK SINNER WITHDRAWS FROM US OPEN WITH KNEE INJURY",
-    "url": "https://www.espn.com/tennis/story/_/id/49681192/jannik-sinner-withdraws-us-open-due-knee-injury",
-    "sublinks": [
-      {
-        "text": "Injury Forces Withdrawal Days Before Tournament's Start",
-        "url": "https://www.bbc.com/sport/tennis/articles/cvgw2qg3e70o"
-      },
-      {
-        "text": "Sinner Becomes Latest Top Seed Sidelined By Injury This Season",
-        "url": "https://frontofficesports.com/jannik-sinner-announces-he-will-miss-the-us-open/"
-      }
-    ],
-    "postedAt": 1787329790346,
+    "headline": "NICK CHUBB ANNOUNCES RETIREMENT FROM NFL",
+    "url": "https://www.espn.com/nfl/story/_/id/49686432/running-back-nick-chubb-announces-retirement-nfl",
+    "postedAt": 1787400705592,
     "img": true
   },
   "groups": [
+    {
+      "title": "KLAY THOMPSON'S NBA OFFSEASON",
+      "stories": [
+        {
+          "headline": "Klay Thompson To Sign With Heat After Mavericks Buyout",
+          "url": "https://bleacherreport.com/articles/25300442-klay-thompson-reportedly-sign-heat-after-agreeing-mavericks-contract-buyout",
+          "timestamp": 1787393861000,
+          "postedAt": 1787400705592
+        },
+        {
+          "headline": "Klay Thompson 'Emotional' Over Russell Westbrook's Retirement",
+          "url": "https://www.msn.com/en-us/sports/nba/why-klay-thompson-is-emotional-over-russell-westbrook-s-nba-retirement/ar-AA2aFNEN",
+          "timestamp": 1787313665000,
+          "postedAt": 1787400705592
+        }
+      ]
+    },
+    {
+      "title": "NFL PRESEASON: JOINT PRACTICES AND CAMP BATTLES HEAT UP",
+      "stories": [
+        {
+          "headline": "Bills Camp Notes: Buffalo Sounds Off On Browns' QBs, Receivers",
+          "url": "https://www.dawgsbynature.com/cleveland-browns-roster-players/130807/browns-vs-bills-joint-practice-deshaun-watson-shedeur-sanders-kc-boston",
+          "timestamp": 1787315844000,
+          "postedAt": 1787329790346
+        },
+        {
+          "headline": "49ers Rout Chargers In Preseason Blowout: Seven Takeaways",
+          "url": "https://ninerswire.usatoday.com/story/sports/nfl/niners/2026/08/21/49ers-chargers-final-score-results-takeaways-dezhaun-stribling-jacob-cowing/91399922007/",
+          "timestamp": 1787310240000,
+          "postedAt": 1787329790346
+        },
+        {
+          "headline": "Raiders Erase 17-Point Deficit To Outlast Texans In Preseason Comeback",
+          "url": "https://www.raiders.com/news/game-recap-raiders-erase-17-point-deficit-outmuscle-texans-down-the-stretch",
+          "timestamp": 1787286809000,
+          "postedAt": 1787329790346
+        },
+        {
+          "headline": "Vikings-Ravens Joint Practice: Day Two Standouts",
+          "url": "https://www.dailynorseman.com/minnesota-vikings-training-camp/98307/vikings-ravens-joint-practice-day-two-report",
+          "timestamp": 1787276040000,
+          "postedAt": 1787329790346
+        },
+        {
+          "headline": "Giants-Dolphins Brawl At Joint Practice Could Bring NFL Discipline",
+          "url": "https://www.cbssports.com/nfl/news/giants-dolphins-joint-practice-fight/",
+          "timestamp": 1787275099000,
+          "feature": true,
+          "postedAt": 1787329790346
+        },
+        {
+          "headline": "Patriots-Eagles Joint Practice: Five Performances That Stood Out",
+          "url": "https://www.patspulpit.com/new-england-patriots-training-camp/133931/winners-losers-second-joint-practice-eagles",
+          "timestamp": 1787259134000,
+          "postedAt": 1787329790346
+        },
+        {
+          "headline": "Falcons, Colts Wrap First Joint Practice Session",
+          "url": "https://www.thefalcoholic.com/atlanta-falcons-training-camp/95281/falcons-colts-joint-training-camp-practices-wednesday-tua-tagovailoa-kevin-stefanski",
+          "timestamp": 1787189880000,
+          "postedAt": 1787227971261
+        },
+        {
+          "headline": "Packers Beat Broncos 33-13 In Preseason Matchup",
+          "url": "https://www.espn.com/nfl/recap?gameId",
+          "timestamp": 1787382503000,
+          "postedAt": 1787400705592
+        }
+      ]
+    },
     {
       "title": "KAI SPEARS WINS $9.25M DEFAMATION VERDICT AGAINST NEW YORK TIMES",
       "stories": [
@@ -71,71 +132,6 @@
       ]
     },
     {
-      "title": "UFC: ROSTER CUTS AND SACRAMENTO FIGHT WEEK",
-      "stories": [
-        {
-          "headline": "The Numbers That Define UFC Sacramento's Main Event Clash",
-          "url": "https://deadspin.com/the-numbers-that-define-ufc-sacramentos-main-event-clash/",
-          "timestamp": 1787320440000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Ketlen Vieira Rips UFC's 'Unbelievable' Decision To Release Her",
-          "url": "https://www.mmafighting.com/pfl/506055/ketlen-vieira-reacts-to-ufcs-unbelievable-decision-to-let-her-go-while-keeping-many-other-fighters-there-who-arent-on-my-level",
-          "timestamp": 1787270400000,
-          "postedAt": 1787329790346
-        }
-      ]
-    },
-    {
-      "title": "NFL PRESEASON: JOINT PRACTICES AND CAMP BATTLES HEAT UP",
-      "stories": [
-        {
-          "headline": "Bills Camp Notes: Buffalo Sounds Off On Browns' QBs, Receivers",
-          "url": "https://www.dawgsbynature.com/cleveland-browns-roster-players/130807/browns-vs-bills-joint-practice-deshaun-watson-shedeur-sanders-kc-boston",
-          "timestamp": 1787315844000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "49ers Rout Chargers In Preseason Blowout: Seven Takeaways",
-          "url": "https://ninerswire.usatoday.com/story/sports/nfl/niners/2026/08/21/49ers-chargers-final-score-results-takeaways-dezhaun-stribling-jacob-cowing/91399922007/",
-          "timestamp": 1787310240000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Raiders Erase 17-Point Deficit To Outlast Texans In Preseason Comeback",
-          "url": "https://www.raiders.com/news/game-recap-raiders-erase-17-point-deficit-outmuscle-texans-down-the-stretch",
-          "timestamp": 1787286809000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Vikings-Ravens Joint Practice: Day Two Standouts",
-          "url": "https://www.dailynorseman.com/minnesota-vikings-training-camp/98307/vikings-ravens-joint-practice-day-two-report",
-          "timestamp": 1787276040000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Giants-Dolphins Brawl At Joint Practice Could Bring NFL Discipline",
-          "url": "https://www.cbssports.com/nfl/news/giants-dolphins-joint-practice-fight/",
-          "timestamp": 1787275099000,
-          "feature": true,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Patriots-Eagles Joint Practice: Five Performances That Stood Out",
-          "url": "https://www.patspulpit.com/new-england-patriots-training-camp/133931/winners-losers-second-joint-practice-eagles",
-          "timestamp": 1787259134000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Falcons, Colts Wrap First Joint Practice Session",
-          "url": "https://www.thefalcoholic.com/atlanta-falcons-training-camp/95281/falcons-colts-joint-training-camp-practices-wednesday-tua-tagovailoa-kevin-stefanski",
-          "timestamp": 1787189880000,
-          "postedAt": 1787227971261
-        }
-      ]
-    },
-    {
       "title": "MLB PENNANT RACE: RESULTS AROUND THE LEAGUE",
       "stories": [
         {
@@ -168,13 +164,37 @@
   "columns": {
     "left": [
       {
+        "headline": "Misiorowski Leads Brewers Past Sale, Braves",
+        "url": "https://deadspin.com/mlb-roundup-jacob-misiorowski-pitches-brewers-past-chris-sale-braves/",
+        "timestamp": 1787386320000,
+        "postedAt": 1787400705592
+      },
+      {
+        "headline": "Rays Unveil Proposed Stadium Deal With Tampa, Hillsborough",
+        "url": "https://www.tampabay.com/news/2026/08/21/tampa-bay-rays-stadium-deal-hillsborough-tampa-votes/",
+        "timestamp": 1787384626000,
+        "postedAt": 1787400705592
+      },
+      {
+        "headline": "Lakers Legends Sound Off On Buss Family Drama",
+        "url": "https://nypost.com/2026/08/21/sports/lakers-legends-react-to-jeanie-buss-family-ownership-drama/",
+        "timestamp": 1787353320000,
+        "postedAt": 1787400705592
+      },
+      {
+        "headline": "NCAA Wins Stay In Colorado Eligibility Lawsuit",
+        "url": "https://www.cbssports.com/college-football/news/ncaa-lawsuit-stay-colorado-2022-college-athletes-ineligible/",
+        "timestamp": 1787327760000,
+        "postedAt": 1787400705592
+      },
+      {
         "headline": "TCU Kicks Safety Off Team After Alleged Locker-Room Assault On Teammate",
         "url": "https://www.barstoolsports.com/blog/3575801/tcu-safety-jacob-fields-kicked-off-team-after-allegedly-assaulting-teammate-in-locker-room-and-sending-him-to-the-hospital",
         "timestamp": 1787329056000,
         "feature": true,
         "photo": true,
         "postedAt": 1787329790346,
-        "image": "/img/sports-0.jpg"
+        "image": "/img/sports-1.jpg"
       },
       {
         "headline": "FIFA Bans Three Argentina Players, Including 10-Game Suspension For Paredes",
@@ -251,30 +271,49 @@
         "url": "https://abcnews.com/GMA/Culture/us-soccer-star-folarin-baloguns-1-game-red/story?id",
         "timestamp": 1787134624000,
         "postedAt": 1787147155924
-      },
-      {
-        "headline": "Near Top-30 Bubble, Viktor Hovland Enters BMW With Surprising St. Louis Connection",
-        "url": "https://deadspin.com/near-top-30-bubble-viktor-hovland-enters-bmw-with-surprising-st-louis-connection/",
-        "timestamp": 1787087820000,
-        "postedAt": 1787095982624
-      },
-      {
-        "headline": "Dodgers Reportedly Placing Struggling Closer Edwin Díaz On Injured List As Bullpen Woes Continue",
-        "url": "https://www.cbssports.com/mlb/news/edwin-diaz-injured-list-dodgers-bullpen/",
-        "timestamp": 1787091180000,
-        "photo": true,
-        "postedAt": 1787095982624,
-        "image": "/img/sports-4.jpg"
       }
     ],
     "center": [
+      {
+        "headline": "JANNIK SINNER WITHDRAWS FROM US OPEN WITH KNEE INJURY",
+        "url": "https://www.espn.com/tennis/story/_/id/49681192/jannik-sinner-withdraws-us-open-due-knee-injury",
+        "timestamp": 1787329790346,
+        "postedAt": 1787329790346
+      },
+      {
+        "headline": "Caitlin Clark, Fever Clinch WNBA Playoff Berth",
+        "url": "https://bleacherreport.com/articles/25469717-caitlin-clark-fever-clinch-2026-wnba-playoff-berth-updated-bracket-picture-and-standings",
+        "timestamp": 1787399211000,
+        "photo": true,
+        "postedAt": 1787400705592
+      },
+      {
+        "headline": "BMW Championship: Top Scorecards Through Day 2",
+        "url": "https://bleacherreport.com/articles/25481126-bmw-championship-leaderboard-2026-review-top-scorecards-and-player-stats-day-2",
+        "timestamp": 1787395929000,
+        "postedAt": 1787400705592
+      },
+      {
+        "headline": "Arsenal Cruise Past Coventry 3-0 On Opening Night",
+        "url": "https://theanalyst.com/articles/arsenal-vs-coventry-stats-premier-league-08-2026",
+        "timestamp": 1787346993000,
+        "postedAt": 1787400705592
+      },
+      {
+        "headline": "Antonelli Tops Norris In Dutch GP Practice",
+        "url": "https://www.autosport.com/f1/news/f1-dutch-gp-antonelli-pips-norris-in-practice-in-poor-showing-for-red-bull/10847862/",
+        "timestamp": 1787313050000,
+        "photo": true,
+        "postedAt": 1787400705592,
+        "image": "/img/sports-4.jpg"
+      },
       {
         "headline": "Object Thrown Onto Court At Dream-Sparks Game Revives WNBA Fan Conduct Concerns",
         "url": "https://frontofficesports.com/sex-toy-thrown-at-dream-sparks-game-reviving-wnbas-2025-issue/",
         "timestamp": 1787323170000,
         "photo": true,
         "postedAt": 1787329790346,
-        "image": "/img/sports-2.jpg"
+        "image": "/img/sports-3.jpg"
       },
       {
         "headline": "Olympic Medalist Jenny Simpson Retires From Running After Collapse",
@@ -337,21 +376,29 @@
         "url": "https://www.mmafighting.com/boxing/505831/eddie-hearn-says-he-should-be-suing-dana-white-over-fury-joshua-claims-white-responds",
         "timestamp": 1787106784000,
         "postedAt": 1787147155924
-      },
-      {
-        "headline": "Ketel Marte Placed On Restricted List, Latest On Diamondbacks Star's Injury Status",
-        "url": "https://bleacherreport.com/articles/25474262-ketel-marte-placed-restricted-list-latest-rumors-diamondbacks-stars-injury-status",
-        "timestamp": 1787090014000,
-        "postedAt": 1787095982624
-      },
-      {
-        "headline": "Max Fried Lands Back On IL With Elbow Injury: How Yankees Can Withstand Another Hit",
-        "url": "https://www.cbssports.com/mlb/news/max-fried-yankees-injured-list-playoff-race-rotation/",
-        "timestamp": 1787087580000,
-        "postedAt": 1787095982624
       }
     ],
     "right": [
+      {
+        "headline": "Vieira Misses Weight For Cyborg Title Fight At PFL Tampa",
+        "url": "https://www.mmafighting.com/pfl/506228/ketlen-vieira-misses-weight-by-7-pounds-for-cris-cyborg-title-fight-at-pfl-tampa",
+        "timestamp": 1787379181000,
+        "postedAt": 1787400705592
+      },
+      {
+        "headline": "Diamondbacks' Ketel Marte Spotted At Casino During Game",
+        "url": "https://arizonasports.com/mlb/arizona-diamondbacks/ketel-marte-casino-reds",
+        "timestamp": 1787374796000,
+        "photo": true,
+        "postedAt": 1787400705592,
+        "image": "/img/sports-0.jpg"
+      },
+      {
+        "headline": "Trump's Capital Car Race: What To Know About Freedom 250",
+        "url": "https://www.aljazeera.com/news/2026/8/21/what-to-know-about-the-freedom-250-grand-prix-trumps-capital-car-race",
+        "timestamp": 1787329910000,
+        "postedAt": 1787400705592
+      },
       {
         "headline": "CAVALIERS LAND PEYTON WATSON, MAX STRUS IN FOUR-TEAM TRADE",
         "url": "https://www.espn.com/nba/story/_/id/49664656/peyton-watson-cavaliers-max-strus-clippers-part-multi-team-trade-nuggets",
@@ -364,21 +411,14 @@
         "timestamp": 1787326397000,
         "photo": true,
         "postedAt": 1787329790346,
-        "image": "/img/sports-1.jpg"
-      },
-      {
-        "headline": "F1 Dutch GP: Antonelli Tops Norris In Practice As Red Bull Struggles",
-        "url": "https://www.autosport.com/f1/news/f1-dutch-gp-antonelli-pips-norris-in-practice-in-poor-showing-for-red-bull/10847862/",
-        "timestamp": 1787313050000,
-        "postedAt": 1787329790346
+        "image": "/img/sports-2.jpg"
       },
       {
         "headline": "Peyton Manning's Freshman Son Makes His Debut As Freak Running Back Steals Show",
         "url": "https://www.foxnews.com/outkick-sports/peyton-mannings-freshman-son-makes-debut-freak-running-back-steals-show",
         "timestamp": 1787312980000,
         "photo": true,
-        "postedAt": 1787329790346,
-        "image": "/img/sports-3.jpg"
+        "postedAt": 1787329790346
       },
       {
         "headline": "Orioles Blast MLB Technology After Disputed Alonso Call",
@@ -417,18 +457,6 @@
         "postedAt": 1787147155924
       },
       {
-        "headline": "Report: Union Finalizing Transfer For USMNT's Mark McKenzie",
-        "url": "https://deadspin.com/report-union-finalizing-transfer-for-usmnts-mark-mckenzie/",
-        "timestamp": 1787090220000,
-        "postedAt": 1787095982624
-      },
-      {
-        "headline": "Rays Stadium Votes Close To Being Set, Hope Is For Next Week",
-        "url": "https://www.tampabay.com/sports/rays/2026/08/18/hagan-rays-stadium-votes-close-being-set-hope-is-next-week/",
-        "timestamp": 1787086737000,
-        "postedAt": 1787095982624
-      },
-      {
         "headline": "Three Tar Heels Picked For FIFA U-20 Women's World Cup",
         "url": "https://goheels.com/news/2026/8/19/womens-soccer-three-heels-set-for-fifa-u-20-womens-world-cup",
         "timestamp": 1787166317000,
@@ -437,24 +465,6 @@
     ]
   },
   "scoreboard": [
-    {
-      "league": "NFL",
-      "home": "JAX",
-      "away": "CAR",
-      "state": "in",
-      "note": "5:13 - 4th",
-      "homeScore": "9",
-      "awayScore": "34"
-    },
-    {
-      "league": "NFL",
-      "home": "DEN",
-      "away": "GB",
-      "state": "in",
-      "note": "3:51 - 2nd",
-      "homeScore": "10",
-      "awayScore": "10"
-    },
     {
       "league": "NFL",
       "home": "DET",
@@ -555,85 +565,22 @@
       "awayScore": "17"
     },
     {
-      "league": "MLB",
-      "home": "CHW",
-      "away": "NYM",
-      "state": "in",
-      "note": "Bot 9th",
-      "homeScore": "4",
-      "awayScore": "4"
+      "league": "NFL",
+      "home": "JAX",
+      "away": "CAR",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "17",
+      "awayScore": "34"
     },
     {
-      "league": "MLB",
-      "home": "HOU",
-      "away": "ATH",
-      "state": "in",
-      "note": "Top 7th",
-      "homeScore": "3",
-      "awayScore": "0"
-    },
-    {
-      "league": "MLB",
-      "home": "KC",
-      "away": "DET",
-      "state": "in",
-      "note": "End 7th",
-      "homeScore": "4",
-      "awayScore": "2"
-    },
-    {
-      "league": "MLB",
-      "home": "TEX",
-      "away": "LAA",
-      "state": "in",
-      "note": "Bot 7th",
-      "homeScore": "0",
-      "awayScore": "0"
-    },
-    {
-      "league": "MLB",
-      "home": "COL",
-      "away": "CLE",
-      "state": "in",
-      "note": "Top 6th",
-      "homeScore": "1",
-      "awayScore": "4"
-    },
-    {
-      "league": "MLB",
-      "home": "ARI",
-      "away": "CIN",
-      "state": "in",
-      "note": "Bot 2nd",
-      "homeScore": "3",
-      "awayScore": "0"
-    },
-    {
-      "league": "MLB",
-      "home": "SD",
-      "away": "MIN",
-      "state": "in",
-      "note": "Bot 3rd",
-      "homeScore": "2",
-      "awayScore": "0"
-    },
-    {
-      "league": "MLB",
-      "home": "SEA",
-      "away": "CHC",
-      "state": "in",
-      "note": "Top 1st",
-      "homeScore": "0",
-      "awayScore": "3"
-    },
-    {
-      "league": "MLB",
-      "home": "LAD",
-      "away": "PIT",
-      "state": "in",
-      "note": "Bot 1st",
-      "homeScore": "0",
-      "awayScore": "1"
+      "league": "NFL",
+      "home": "DEN",
+      "away": "GB",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "13",
+      "awayScore": "33"
     },
     {
       "league": "MLB",
@@ -690,11 +637,92 @@
       "awayScore": "3"
     },
     {
+      "league": "MLB",
+      "home": "CHW",
+      "away": "NYM",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "6",
+      "awayScore": "4"
+    },
+    {
+      "league": "MLB",
+      "home": "HOU",
+      "away": "ATH",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "4",
+      "awayScore": "0"
+    },
+    {
+      "league": "MLB",
+      "home": "KC",
+      "away": "DET",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "5",
+      "awayScore": "2"
+    },
+    {
+      "league": "MLB",
+      "home": "TEX",
+      "away": "LAA",
+      "state": "post",
+      "note": "Final/10",
+      "homeScore": "2",
+      "awayScore": "1"
+    },
+    {
+      "league": "MLB",
+      "home": "COL",
+      "away": "CLE",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "1",
+      "awayScore": "9"
+    },
+    {
+      "league": "MLB",
+      "home": "ARI",
+      "away": "CIN",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "9",
+      "awayScore": "0"
+    },
+    {
+      "league": "MLB",
+      "home": "SD",
+      "away": "MIN",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "6",
+      "awayScore": "2"
+    },
+    {
+      "league": "MLB",
+      "home": "SEA",
+      "away": "CHC",
+      "state": "post",
+      "note": "Final/10",
+      "homeScore": "6",
+      "awayScore": "5"
+    },
+    {
+      "league": "MLB",
+      "home": "LAD",
+      "away": "PIT",
+      "state": "post",
+      "note": "Final/10",
+      "homeScore": "5",
+      "awayScore": "4"
+    },
+    {
       "league": "MLS",
       "home": "MTL",
       "away": "LA",
       "state": "scheduled",
-      "note": "Sat, Aug 22 7:30 PM ET",
+      "note": "7:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -703,7 +731,7 @@
       "home": "CLT",
       "away": "DC",
       "state": "scheduled",
-      "note": "Sat, Aug 22 7:30 PM ET",
+      "note": "7:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -712,7 +740,7 @@
       "home": "CIN",
       "away": "SEA",
       "state": "scheduled",
-      "note": "Sat, Aug 22 7:30 PM ET",
+      "note": "7:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -721,7 +749,7 @@
       "home": "MIA",
       "away": "TOR",
       "state": "scheduled",
-      "note": "Sat, Aug 22 7:30 PM ET",
+      "note": "7:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -730,7 +758,7 @@
       "home": "ORL",
       "away": "RSL",
       "state": "scheduled",
-      "note": "Sat, Aug 22 7:30 PM ET",
+      "note": "7:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -739,7 +767,7 @@
       "home": "RBNY",
       "away": "CHI",
       "state": "scheduled",
-      "note": "Sat, Aug 22 7:30 PM ET",
+      "note": "7:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -748,7 +776,7 @@
       "home": "ATX",
       "away": "PHI",
       "state": "scheduled",
-      "note": "Sat, Aug 22 8:30 PM ET",
+      "note": "8:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -757,7 +785,7 @@
       "home": "NSH",
       "away": "CLB",
       "state": "scheduled",
-      "note": "Sat, Aug 22 8:30 PM ET",
+      "note": "8:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -766,7 +794,7 @@
       "home": "STL",
       "away": "HOU",
       "state": "scheduled",
-      "note": "Sat, Aug 22 8:30 PM ET",
+      "note": "8:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -775,7 +803,7 @@
       "home": "VAN",
       "away": "DAL",
       "state": "scheduled",
-      "note": "Sat, Aug 22 9:30 PM ET",
+      "note": "9:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -784,7 +812,7 @@
       "home": "LAFC",
       "away": "POR",
       "state": "scheduled",
-      "note": "Sat, Aug 22 10:30 PM ET",
+      "note": "10:30 PM ET",
       "homeScore": null,
       "awayScore": null
     },
@@ -793,7 +821,7 @@
       "home": "SD",
       "away": "COL",
       "state": "scheduled",
-      "note": "Sat, Aug 22 10:30 PM ET",
+      "note": "10:30 PM ET",
       "homeScore": null,
       "awayScore": null
     }

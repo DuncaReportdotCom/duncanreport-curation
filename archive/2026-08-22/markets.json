@@ -1,19 +1,63 @@
 {
-  "lastUpdated": 1787330497309,
-  "heroSetDate": "2026-08-21",
+  "lastUpdated": 1787401493426,
+  "heroSetDate": "2026-08-22",
   "hero": {
-    "headline": "BESSENT VOWS TO EXPAND TREASURY BOND BUYBACKS TO PUSH DOWN LONG-TERM YIELDS",
-    "url": "https://finance.yahoo.com/economy/article/one-day-after-doubling-treasury-buybacks-bessent-says-hes-ready-to-boost-them-further-to-push-down-long-term-yields-181218236.html",
+    "headline": "NVIDIA EARNINGS AND JACKSON HOLE SET TO TEST AI-DRIVEN RALLY",
+    "url": "https://www.reuters.com/business/wall-st-week-ahead-nvidia-earnings-jackson-hole-test-pillars-stock-rally-2026-08-21/",
     "sublinks": [
       {
-        "text": "Dollar hits three-month low as buyback plan stokes concern",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-falls-as-investors-weigh-us-treasurys-rescue-efforts-053406923.html"
+        "text": "Expected Stock Swing Ahead Of Wednesday's Report",
+        "url": "https://www.investopedia.com/nvidia-reports-earnings-on-wednesday-here-is-how-much-the-stock-is-expected-to-move-nvda-q2-fy2027-12062509"
+      },
+      {
+        "text": "Three Reasons The Stock's Rebound Could Continue, CNBC Says",
+        "url": "https://www.cnbc.com/2026/08/17/nvidias-stock-has-started-to-come-alive-heres-3-reasons-why-it-can-continue-.html"
       }
     ],
-    "postedAt": 1787330497309,
+    "postedAt": 1787401493426,
     "img": true
   },
   "groups": [
+    {
+      "title": "CHINA'S ROBOT GAMES SHOWCASE AI AMBITIONS",
+      "stories": [
+        {
+          "headline": "China's Humanoid Robot Games Go Mainstream",
+          "url": "https://startupfortune.com/beijing-opens-its-second-world-humanoid-robot-games-with-2056-machines-competing/",
+          "timestamp": 1787396456000,
+          "postedAt": 1787401493426
+        },
+        {
+          "headline": "Chinese Robot Beats Usain Bolt's 100-Meter World Record In Test Run",
+          "url": "https://www.reuters.com/sports/chinese-humanoid-robot-lightning-beats-human-100m-world-record-state-media-says-2026-08-22/",
+          "timestamp": 1787395220000,
+          "postedAt": 1787401493426
+        }
+      ]
+    },
+    {
+      "title": "CRYPTO RALLY ACCELERATES AS WASHINGTON MOVES ON RULES",
+      "stories": [
+        {
+          "headline": "SEC Proposes New 'Regulation Crypto Assets' Framework",
+          "url": "https://www.bakerdonelson.com/sec-proposes-regulation-crypto-assets",
+          "timestamp": 1787341710000,
+          "postedAt": 1787401493426
+        },
+        {
+          "headline": "Washington Goes All-In On Crypto: Clarity Act, SEC Rules, CFTC Warnings",
+          "url": "https://decrypt.co/376204/washington-crypto-trump-clarity-sec-rules-cftc-warnings",
+          "timestamp": 1787335616000,
+          "postedAt": 1787401493426
+        },
+        {
+          "headline": "Kalshi Traders See Bitcoin Rally Ending Year Near Current Levels",
+          "url": "https://www.cnbc.com/2026/08/21/kalshi-traders-say-bitcoin-rally-wont-go-much-higher-by-end-of-2026.html",
+          "timestamp": 1787334205000,
+          "postedAt": 1787401493426
+        }
+      ]
+    },
     {
       "title": "BOND MARKET STRAIN & THE FED",
       "stories": [
@@ -138,18 +182,31 @@
           "url": "https://www.reuters.com/business/energy/oil-prices-steady-investors-assess-us-iran-war-outlook-2026-08-20/",
           "timestamp": 1787188260000,
           "postedAt": 1787228647734
-        },
-        {
-          "headline": "Iran's Secret Plan To Escalate The War",
-          "url": "https://unn.ua/en/news/iran-has-embarked-on-a-secret-plan-to-escalate-the-war-wsj",
-          "timestamp": 1787091766000,
-          "postedAt": 1787096448224
         }
       ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "US Debt Approaches $40 Trillion — Who Pays For It?",
+        "url": "https://www.euronews.com/business/2026/08/22/five-charts-explaining-americas-40-trillion-debt",
+        "timestamp": 1787374816000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Boeing Engineers, Technical Workers Reject Four-Year Contract Offer",
+        "url": "https://www.cnbc.com/2026/08/21/boeing-engineers-technical-workers-reject-contract-offer.html",
+        "timestamp": 1787354609000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Tesla's Door Handles Lead To Its Biggest Recall Yet",
+        "url": "https://qz.com/tesla-china-ev-recall-hidden-door-handles-082126",
+        "timestamp": 1787353800000,
+        "feature": true,
+        "postedAt": 1787401493426
+      },
       {
         "headline": "CK Hutchison Files $1.5 Billion Arbitration Against Panama",
         "url": "https://www.globaltimes.cn/page/202608/1368613.shtml",
@@ -181,7 +238,7 @@
         "timestamp": 1787317965000,
         "photo": true,
         "postedAt": 1787330497309,
-        "image": "/img/markets-0.jpg"
+        "image": "/img/markets-2.jpg"
       },
       {
         "headline": "Walmart US Same-Store Sales Post Slowest Growth in Six Years",
@@ -237,22 +294,55 @@
         "url": "https://apnews.com/article/stocks-futures-bonds-oil-inflation-trump-ai-9e355be634e4a21059fc1d1f20a1239e",
         "timestamp": 1787111120000,
         "postedAt": 1787147612212
-      },
-      {
-        "headline": "OpenAI's Second-Quarter Sales Show Tepid Growth Compared With Anthropic",
-        "url": "https://www.newsquawk.com/headlines/openais-q2-sales-show-tepid-growth-compared-with-anthropic-according-to-wsj",
-        "timestamp": 1787092140000,
-        "postedAt": 1787096448224
-      },
-      {
-        "headline": "Lakers Owner Mark Walter Sought Apollo Loan Backed By Team Stake",
-        "url": "https://nypost.com/2026/08/17/business/mark-walter-probe-raises-fears-of-ripple-effects-across-wall-streets-1t-insurance-bet/",
-        "timestamp": 1787089676000,
-        "photo": true,
-        "postedAt": 1787096448224
       }
     ],
     "center": [
+      {
+        "headline": "Micron CEO Gives Investors $10 Billion Reason To Listen",
+        "url": "https://www.thestreet.com/investing/stocks/micron-10-billion-research-bet",
+        "timestamp": 1787339220000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Samsung Plans Biggest-Ever Buyback Amid AI Windfall",
+        "url": "https://www.capitalbrief.com/briefing/samsung-plans-110b-dividend-and-buyback-after-ai-windfall-09ba62e2-1f95-4951-a8da-47b23c39be97/",
+        "timestamp": 1787395794000,
+        "feature": true,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Meta's Alleged 'Hook, Hold, Harvest' Strategy Laid Out In Antitrust Trial",
+        "url": "https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy",
+        "timestamp": 1787386080000,
+        "photo": true,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "AI Spending Boom Is Outrunning Wall Street Estimates",
+        "url": "https://www.livemint.com/ai/artificial-intelligence/the-ai-spending-boom-is-outrunning-wall-street-estimates-11787377183162.html",
+        "timestamp": 1787374800000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Paramount, State AGs Set Settlement Talks; Newsom Weighs In On Merger",
+        "url": "https://deadline.com/2026/08/gavin-newsom-paramount-merger-settlement-talks-1237048002/",
+        "timestamp": 1787360340000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Former Abercrombie & Fitch CEO Ruled Competent To Face Sex Trafficking Trial",
+        "url": "https://www.nbcnews.com/news/us-news/former-abercrombie-fitch-ceo-michael-jeffries-competent-face-sex-traff-rcna593713",
+        "timestamp": 1787340744000,
+        "photo": true,
+        "postedAt": 1787401493426,
+        "image": "/img/markets-1.jpg"
+      },
+      {
+        "headline": "Dow, S&P 500, Nasdaq Rebound But Post Weekly Loss As Yields Rattle Stocks",
+        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-long-dated-treasury-yields-flash-us-manufacturing-pmi",
+        "timestamp": 1787340300000,
+        "postedAt": 1787401493426
+      },
       {
         "headline": "What The $20 Burrito Conversation Says About The Economy",
         "url": "https://www.investopedia.com/what-the-burrito-says-about-the-economy-12062946",
@@ -291,7 +381,7 @@
         "timestamp": 1787176958000,
         "photo": true,
         "postedAt": 1787228647734,
-        "image": "/img/markets-1.jpg"
+        "image": "/img/markets-3.jpg"
       },
       {
         "headline": "Data Center Fight Hits Fever Pitch Amid AI Buildout",
@@ -324,28 +414,35 @@
         "timestamp": 1787130957000,
         "photo": true,
         "postedAt": 1787147612212
-      },
-      {
-        "headline": "Beyond Marathons And Backflips, China's Robots Face Commercial Test",
-        "url": "https://www.reuters.com/world/asia-pacific/beyond-marathons-backflips-chinas-robots-face-commercial-test-2026-08-18/",
-        "timestamp": 1787094022000,
-        "photo": true,
-        "postedAt": 1787096448224
-      },
-      {
-        "headline": "Global Bond Markets Put Governments On Notice Over Fiscal Risks",
-        "url": "https://www.reuters.com/world/china/selling-grips-bond-markets-us-japan-inflation-fiscal-worries-take-hold-2026-08-18/",
-        "timestamp": 1787093042000,
-        "postedAt": 1787096448224
-      },
-      {
-        "headline": "Tech Selloff Weighs Down Wall Street As Bond Yields Climb",
-        "url": "https://www.reuters.com/business/us-stock-futures-drop-fading-iran-peace-hopes-lift-oil-bond-yields-2026-08-18/",
-        "timestamp": 1787089464000,
-        "postedAt": 1787096448224
       }
     ],
     "right": [
+      {
+        "headline": "BESSENT VOWS TO EXPAND TREASURY BOND BUYBACKS TO PUSH DOWN LONG-TERM YIELDS",
+        "url": "https://finance.yahoo.com/economy/article/one-day-after-doubling-treasury-buybacks-bessent-says-hes-ready-to-boost-them-further-to-push-down-long-term-yields-181218236.html",
+        "timestamp": 1787330497309,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Borrowing Costs Rise Again As Rate-Easing Push Proves Short-Lived",
+        "url": "https://www.bbc.com/news/articles/cvg92p3ez17o",
+        "timestamp": 1787330709000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Veteran CEO Turned 80-Year-Old AC Company Into AI Darling",
+        "url": "https://fortune.com/article/dave-cote-vertiv-stock-performance-ai-boom/",
+        "timestamp": 1787385600000,
+        "photo": true,
+        "postedAt": 1787401493426,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Disney To Cut Medical Insurance For Employee Spouses With Other Coverage",
+        "url": "https://wdwnt.com/2026/08/disney-reportedly-no-longer-covering-benefits-for-insured-spouses-of-employees/",
+        "timestamp": 1787349120000,
+        "postedAt": 1787401493426
+      },
       {
         "headline": "BITCOIN SURGES ABOVE $70,000 AFTER TRUMP PUSH FOR CRYPTO CLARITY ACT",
         "url": "https://www.cnbc.com/2026/08/20/cryptocurrencies-trump-bitcoin-ethereum.html",
@@ -410,7 +507,7 @@
         "timestamp": 1787098140000,
         "photo": true,
         "postedAt": 1787147612212,
-        "image": "/img/markets-2.jpg"
+        "image": "/img/markets-4.jpg"
       }
     ]
   },
@@ -426,7 +523,7 @@
     {
       "name": "Dow",
       "value": "53,277.01",
-      "change": "+517.80",
+      "change": "+517.81",
       "changePct": "+0.98%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
@@ -449,25 +546,25 @@
     },
     {
       "name": "Gold",
-      "value": "$4,661.60",
-      "change": "+90.20",
-      "changePct": "+1.97%",
+      "value": "$4,680.60",
+      "change": "+109.20",
+      "changePct": "+2.39%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$86.64",
-      "change": "-0.19",
-      "changePct": "-0.22%",
-      "up": false,
+      "value": "$87.06",
+      "change": "+0.23",
+      "changePct": "+0.26%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$78,129.13",
-      "change": "-197.84",
-      "changePct": "-0.25%",
+      "value": "$77,274.47",
+      "change": "-1,052.50",
+      "changePct": "-1.34%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     }
