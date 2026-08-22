@@ -1,24 +1,20 @@
 {
-  "lastUpdated": 1787329471648,
-  "heroSetDate": "2026-08-21",
+  "lastUpdated": 1787400409012,
+  "heroSetDate": "2026-08-22",
   "hero": {
-    "headline": "NAVY WEIGHS RENAMING CARRIER FROM BLACK WAR HERO TO TRUMP",
-    "url": "https://www.theguardian.com/us-news/2026/aug/21/navy-carrier-black-war-hero-trump-report",
+    "headline": "CHIEF JUSTICE ROBERTS ALLOWS TRUMP'S $400M BALLROOM TO PROCEED",
+    "url": "https://www.pbs.org/newshour/politics/supreme-court-chief-justice-allows-work-on-trumps-400m-white-house-ballroom-to-continue-for-now",
     "sublinks": [
       {
-        "text": "CNN: Pentagon Officials Confirm Internal Talks Are Underway",
-        "url": "https://www.cnn.com/2026/08/20/politics/navy-weighs-renaming-carrier-black-war-hero-to-trump"
+        "text": "Critics Note The $400 Million Was Never Approved By Congress",
+        "url": "https://www.pbs.org/newshour/politics/supreme-court-chief-justice-allows-work-on-trumps-400m-white-house-ballroom-to-continue-for-now"
       },
       {
-        "text": "Critics Call Move A Rebuke To Military's Honor Tradition",
-        "url": "https://newrepublic.com/post/214595/navy-rename-ship-trump-instead-black-war-hero-doris-miller"
-      },
-      {
-        "text": "Backlash Grows Over Cost Comparison To Sailors' Pay",
-        "url": "https://www.themirror.com/news/us-news/natalie-harp-salary-donald-trump-1991511"
+        "text": "Conservative Legal Analysts Cheer The Emergency Stay",
+        "url": "https://thefederalist.com/2026/08/21/scotus-pauses-blockade-on-trumps-white-house-ballroom-construction/"
       }
     ],
-    "postedAt": 1787329471648,
+    "postedAt": 1787400409012,
     "img": true
   },
   "groups": [
@@ -76,6 +72,65 @@
       ]
     },
     {
+      "title": "NATIONAL DEBT TOPS $40 TRILLION",
+      "stories": [
+        {
+          "headline": "Vance Says Administration Has 'Discreet' Plan For $40 Trillion Owed",
+          "url": "https://www.msn.com/en-us/money/general/ar-AA2aFfBX",
+          "timestamp": 1787400013546,
+          "postedAt": 1787400409012
+        },
+        {
+          "headline": "Dalio Urges Investors To Dump Debt As Crisis Looms",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/dalio-says-sell-bonds-buy-170414392.html",
+          "timestamp": 1787400013546,
+          "postedAt": 1787400409012
+        },
+        {
+          "headline": "Could The Bond Market Burst The Stock Bubble?",
+          "url": "https://www.marketwatch.com/story/the-bond-market-is-going-to-burst-the-stock-market-bubble-1c6f0971",
+          "timestamp": 1787400013546,
+          "postedAt": 1787400409012
+        },
+        {
+          "headline": "US National Debt Passes $40 Trillion Milestone",
+          "url": "https://www.npr.org/2026/08/22/nx-s1-5939552/bipartisan-spending-pushes-u-s-national-debt-past-the-historic-40-trillion-mark",
+          "timestamp": 1787399012000,
+          "feature": true,
+          "postedAt": 1787400409012
+        },
+        {
+          "headline": "Debt Officially Tops $40,000,000,000,000",
+          "url": "https://www.fox.com/watch/clip/fmc-11335dcjjrh7o0g4/national-debt-officially-tops-40-trillion-as-spending-concerns-grow",
+          "timestamp": 1787227351456,
+          "postedAt": 1787227600879
+        },
+        {
+          "headline": "Borrowing Binge Continues Unabated",
+          "url": "https://www.nytimes.com/2026/08/19/business/economy/us-debt-40-trillion.html?unlocked_article_code=1.6lA.i4mf.v0m3cpIMEhkc&smid=url-share",
+          "timestamp": 1787227351456,
+          "postedAt": 1787227600879
+        }
+      ]
+    },
+    {
+      "title": "COLORADO RIVER WATER CUTS",
+      "stories": [
+        {
+          "headline": "Colorado River Lower Basin Braces For Federal Water Cuts",
+          "url": "https://www.npr.org/2026/08/22/nx-s1-5940831/colorado-river-crisis-lower-basin-braces-for-massive-federal-water-cuts",
+          "timestamp": 1787399014000,
+          "postedAt": 1787400409012
+        },
+        {
+          "headline": "Drastic Water Cuts Issued For California, Nevada And Arizona",
+          "url": "https://www.cbsnews.com/news/colorado-river-drastic-water-cuts-california-nevada-arizona-drought/",
+          "timestamp": 1787371080000,
+          "postedAt": 1787400409012
+        }
+      ]
+    },
+    {
       "title": "2026 MIDTERMS: PRIMARY DAY AND KEY SENATE POLLS",
       "stories": [
         {
@@ -107,6 +162,18 @@
           "url": "https://www.dailymail.com/news/us-politics/article-16067425",
           "timestamp": 1787329211642,
           "postedAt": 1787329471648
+        },
+        {
+          "headline": "Florida Democrats' Senate Nominee Clashes With Party Chair Over Socialism",
+          "url": "https://www.axios.com/2026/08/21/florida-democrats-angie-nixon-nikki-fried-socialism",
+          "timestamp": 1787393291000,
+          "postedAt": 1787400409012
+        },
+        {
+          "headline": "Trump Urges South Carolina To Nominate Darline Graham For Senate",
+          "url": "https://apnews.com/article/trump-south-carolina-campaign-darline-graham-senate-96df66a656438fb97daf9d9a551ebda5",
+          "timestamp": 1787360940000,
+          "postedAt": 1787400409012
         }
       ]
     },
@@ -162,30 +229,6 @@
       ]
     },
     {
-      "title": "US NATIONAL DEBT TOPS $40 TRILLION",
-      "stories": [
-        {
-          "headline": "Debt Officially Tops $40,000,000,000,000",
-          "url": "https://www.fox.com/watch/clip/fmc-11335dcjjrh7o0g4/national-debt-officially-tops-40-trillion-as-spending-concerns-grow",
-          "timestamp": 1787227351456,
-          "postedAt": 1787227600879
-        },
-        {
-          "headline": "Borrowing Binge Continues Unabated",
-          "url": "https://www.nytimes.com/2026/08/19/business/economy/us-debt-40-trillion.html?unlocked_article_code=1.6lA.i4mf.v0m3cpIMEhkc&smid=url-share",
-          "timestamp": 1787227351456,
-          "postedAt": 1787227600879
-        },
-        {
-          "headline": "US National Debt Hits $40 Trillion, Rising By $90,000 Per Second",
-          "url": "https://wjla.com/news/local/us-national-debt-hits-40-trillion-rising-by-90000-a-second-committee-says",
-          "timestamp": 1787214792000,
-          "feature": true,
-          "postedAt": 1787227600879
-        }
-      ]
-    },
-    {
       "title": "MIDEAST WAR: CEASEFIRE UNRAVELS AS PRESSURE MOUNTS",
       "stories": [
         {
@@ -229,12 +272,39 @@
   "columns": {
     "left": [
       {
+        "headline": "Plane Crashed On Second Landing Attempt In Alaska Fog, Killing All 8",
+        "url": "https://apnews.com/article/alaska-charter-plane-crash-army-cd21190cad6b7246d903677685f1e928",
+        "timestamp": 1787354760000,
+        "postedAt": 1787400409012
+      },
+      {
+        "headline": "US Citizen Charged With Felony For Deleting Phone Data At Airport",
+        "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html?unlocked_article_code=1.7FA.xXGp.YprutzwuBHdZ&smid=url-share",
+        "timestamp": 1787400013548,
+        "postedAt": 1787400409012
+      },
+      {
+        "headline": "US-Canada Trade Talks Collapse As 50% Tariffs Take Effect",
+        "url": "https://www.axios.com/2026/08/22/us-canada-tariffs-trade-trump-carney",
+        "timestamp": 1787398586000,
+        "feature": true,
+        "postedAt": 1787400409012
+      },
+      {
+        "headline": "Indiana Communities Enter 10th Day Without Power",
+        "url": "https://www.wandtv.com/news/national/survival-mode-indiana-residents-endure-a-ninth-day-without-power/article_86fd05ac-b3b5-5a77-9a0d-a1bba79a9412.html",
+        "timestamp": 1787358709000,
+        "photo": true,
+        "postedAt": 1787400409012,
+        "image": "/img/main-0.jpg"
+      },
+      {
         "headline": "Aide Filmed Sprinting After Trump's Golf Cart In Scotland",
         "url": "https://www.mirror.co.uk/news/politics/donald-trump-extremely-close-aide-37579124",
         "timestamp": 1787329211642,
         "photo": true,
         "postedAt": 1787329471648,
-        "image": "/img/main-0.jpg"
+        "image": "/img/main-2.jpg"
       },
       {
         "headline": "Alaska Charter Plane Crash Kills 8, Including Army Corps Employees",
@@ -242,8 +312,7 @@
         "timestamp": 1787320740000,
         "feature": true,
         "photo": true,
-        "postedAt": 1787329471648,
-        "image": "/img/main-2.jpg"
+        "postedAt": 1787329471648
       },
       {
         "headline": "SNAP Enrollment Dropping Faster Than Expected",
@@ -306,34 +375,29 @@
         "url": "https://www.facebook.com/nytimes/videos/trump-administration-moves-to-allow-logging-in-national-forests/1597009828532359/",
         "timestamp": 1787125500000,
         "postedAt": 1787146872795
-      },
-      {
-        "headline": "Shocking Number Of Gen Zers Report Zero Face-To-Face Interactions Per Day",
-        "url": "https://nypost.com/2026/08/17/us-news/shocking-number-of-gen-z-shut-ins-report-zero-face-to-face-human-interactions-per-day/",
-        "timestamp": 1787095378677,
-        "postedAt": 1787095691983
-      },
-      {
-        "headline": "Ballroom Official Held Quiet Kremlin Talks",
-        "url": "https://archive.is/szsii",
-        "timestamp": 1787095378677,
-        "postedAt": 1787095691983
-      },
-      {
-        "headline": "ZZ Top Drummer Frank Beard Dead At 77",
-        "url": "https://www.tmz.com/2026/08/18/frank-beard-dead/",
-        "timestamp": 1787095378677,
-        "photo": true,
-        "postedAt": 1787095691983
-      },
-      {
-        "headline": "Rosie O'Donnell Hosts Kimmel",
-        "url": "https://www.showbiz411.com/2026/08/18/rosie-odonnell-scores-big-time-on-her-first-night-guest-hosting-kimmel-gives-audience-copies-of-madonnas-album-goes-light-on-trump",
-        "timestamp": 1787095378677,
-        "postedAt": 1787095691983
       }
     ],
     "center": [
+      {
+        "headline": "Lindsay Clancy Trial: What Happened This Week In Court",
+        "url": "https://www.theguardian.com/us-news/2026/aug/22/lindsay-clancy-trial-what-happened-this-week",
+        "timestamp": 1787392860000,
+        "postedAt": 1787400409012
+      },
+      {
+        "headline": "Postal Service Finalizes Plan To Restrict Mail Ballots",
+        "url": "https://www.dailykos.com/stories/2026/8/21/800087871/community/postal-service-strikes-blow-against-democracy/",
+        "timestamp": 1787365889000,
+        "postedAt": 1787400409012
+      },
+      {
+        "headline": "Missing NYC Grandmother Found Dead Near Las Vegas Airport",
+        "url": "https://www.nbcnews.com/news/us-news/missing-new-york-city-grandmother-found-dead-las-vegas-rcna593833",
+        "timestamp": 1787357520000,
+        "photo": true,
+        "postedAt": 1787400409012,
+        "image": "/img/main-1.jpg"
+      },
       {
         "headline": "America's Longest-Serving Prisoner Dies At 101 After 8 Stays Of Execution",
         "url": "https://www.dailywire.com/news/americas-longest-serving-prisoner-dies-at-101-after-dodging-execution-8-times",
@@ -359,7 +423,7 @@
         "timestamp": 1787322137000,
         "photo": true,
         "postedAt": 1787329471648,
-        "image": "/img/main-1.jpg"
+        "image": "/img/main-3.jpg"
       },
       {
         "headline": "Albany Woman Charged With Plotting To Bomb State Capitol",
@@ -381,12 +445,6 @@
         "postedAt": 1787227600879
       },
       {
-        "headline": "Lindsay Clancy Trial Puts Postpartum Psychosis On The Map, Experts Say",
-        "url": "https://www.bbc.com/news/articles/c5yedy98j7po",
-        "timestamp": 1787157055000,
-        "postedAt": 1787227600879
-      },
-      {
         "headline": "Elite Ukrainian Drone Unit Brings War To Moscow's Doorstep",
         "url": "https://apnews.com/article/russia-ukraine-war-drone-strikes-8d9eb77fc5fc29c4771503b75f98b1f4",
         "timestamp": 1787146627523,
@@ -397,23 +455,34 @@
         "url": "https://notthebee.com/article/tajik-killer-who-avoided-jail-due-to-insanity-ruling-flees-us-the-moment-his-mental-hospital-grants-him-a-day-pass/",
         "timestamp": 1787146273000,
         "photo": true,
-        "postedAt": 1787146872795,
-        "image": "/img/main-3.jpg"
+        "postedAt": 1787146872795
       },
       {
         "headline": "Cameron Winter Preps Live Album From Carnegie Hall Show",
         "url": "https://www.rollingstone.com/music/music-news/cameron-winter-live-at-carnegie-hall-album-1235610082/",
         "timestamp": 1787145934000,
         "postedAt": 1787146872795
-      },
-      {
-        "headline": "Ossoff Calls Trump A 'Draft-Dodging, Crook' President",
-        "url": "https://www.msn.com/en-us/news/other/ar-AA2apmgA",
-        "timestamp": 1787095378677,
-        "postedAt": 1787095691983
       }
     ],
     "right": [
+      {
+        "headline": "NAVY WEIGHS RENAMING CARRIER FROM BLACK WAR HERO TO TRUMP",
+        "url": "https://www.theguardian.com/us-news/2026/aug/21/navy-carrier-black-war-hero-trump-report",
+        "timestamp": 1787329471648,
+        "postedAt": 1787329471648
+      },
+      {
+        "headline": "Army Secretary To Step Down Amid Tension With Hegseth",
+        "url": "https://www.military.com/army-secretary-driscoll-step-down-this-year-amid-hegseth-friction-report",
+        "timestamp": 1787400013547,
+        "postedAt": 1787400409012
+      },
+      {
+        "headline": "Trump Allows Tariff-Free Beef Imports, Drawing Rancher Backlash",
+        "url": "https://www.foxbusiness.com/politics/trump-allows-300000-metric-tons-tariff-free-beef-imports-bid-cut-prices-drawing-rancher-backlash",
+        "timestamp": 1787360040000,
+        "postedAt": 1787400409012
+      },
       {
         "headline": "NORTH KOREA FIRES 10 BALLISTIC MISSILES AS TRUMP OUTREACH COLLAPSES",
         "url": "https://www.reuters.com/world/china/north-korea-fires-suspected-ballistic-missile-japanese-authorities-say-2026-08-20/",
@@ -446,13 +515,6 @@
         "postedAt": 1787329471648
       },
       {
-        "headline": "Indiana Residents Endure Ninth Day Without Power",
-        "url": "https://apnews.com/article/indiana-power-outages-gary-ohio-floods-e0fbdd4a721b6269e8ec62e512299b11",
-        "timestamp": 1787265060000,
-        "photo": true,
-        "postedAt": 1787329471648
-      },
-      {
         "headline": "SOCIALIST UPSET IN FLORIDA CAPS ROUGH PRIMARY NIGHT FOR TRUMP-BACKED CANDIDATES",
         "url": "https://www.foxnews.com/politics/socialists-capture-major-florida-victory-hit-miss-night-trump-endorsed-primary-candidates",
         "timestamp": 1787146872795,
@@ -475,24 +537,6 @@
         "url": "https://dailycaller.com/2026/08/19/nick-kyrgios-suspension-tennis-positive-test-cocaine-itia/",
         "timestamp": 1787145540000,
         "postedAt": 1787146872795
-      },
-      {
-        "headline": "Minnesota To Sue Texas Over Extradition Of ICE Agent",
-        "url": "https://www.cbsnews.com/minnesota/news/minnesota-ice-agent-extradition-lawsuit/",
-        "timestamp": 1787095378677,
-        "postedAt": 1787095691983
-      },
-      {
-        "headline": "Tom Holland Set To Make Over $100 Million For Next Spider-Man Film",
-        "url": "https://www.thewrap.com/creative-content/movies/tom-holland-spider-man-brand-new-day-salary-box-office-bonus/",
-        "timestamp": 1787095378677,
-        "postedAt": 1787095691983
-      },
-      {
-        "headline": "US Military Funding Helped Propel China's Robot Dog Program",
-        "url": "https://www.msn.com/en-us/technology/tech-companies/ar-AA2aouub",
-        "timestamp": 1787095378677,
-        "postedAt": 1787095691983
       }
     ]
   }
