@@ -1,0 +1,475 @@
+{
+  "lastUpdated": 1787330497309,
+  "heroSetDate": "2026-08-21",
+  "hero": {
+    "headline": "BESSENT VOWS TO EXPAND TREASURY BOND BUYBACKS TO PUSH DOWN LONG-TERM YIELDS",
+    "url": "https://finance.yahoo.com/economy/article/one-day-after-doubling-treasury-buybacks-bessent-says-hes-ready-to-boost-them-further-to-push-down-long-term-yields-181218236.html",
+    "sublinks": [
+      {
+        "text": "Dollar hits three-month low as buyback plan stokes concern",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-falls-as-investors-weigh-us-treasurys-rescue-efforts-053406923.html"
+      }
+    ],
+    "postedAt": 1787330497309,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "BOND MARKET STRAIN & THE FED",
+      "stories": [
+        {
+          "headline": "Treasury's Bond Plan Like 'Rearranging Deck Chairs On The Titanic,' ING Says",
+          "url": "https://fortune.com/2026/08/20/scott-bessent-us-treasury-4-billion-bond-buyback-plan-rearranging-deckchairs-on-the-titanic-ing/",
+          "timestamp": 1787222820000,
+          "postedAt": 1787228647734
+        },
+        {
+          "headline": "US National Debt Hits $40 Trillion, Rising $90,000 Per Second",
+          "url": "https://wjla.com/news/local/us-national-debt-hits-40-trillion-rising-by-90000-a-second-committee-says",
+          "timestamp": 1787214792000,
+          "postedAt": 1787228647734
+        },
+        {
+          "headline": "Powell Says He Will Stay On Fed's Board After Term Expires",
+          "url": "https://abcnews.com/Business/fed-expected-hold-interest-rates-steady/story?id",
+          "timestamp": 1787207136000,
+          "postedAt": 1787228647734
+        },
+        {
+          "headline": "'Many' Fed Officials Say Higher Rates May Be Needed If Inflation Persists",
+          "url": "https://www.pbs.org/newshour/economy/many-fed-officials-think-higher-rates-will-be-needed-if-inflation-stays-high",
+          "timestamp": 1787174383000,
+          "postedAt": 1787228647734
+        },
+        {
+          "headline": "Trump Pauses 50% Canada Tariffs At 11th Hour, Declares Deal Reached",
+          "url": "https://www.zerohedge.com/economics/trump-pauses-50-canada-tariffs-11th-hour-declares-we-have-deal",
+          "timestamp": 1787143500000,
+          "postedAt": 1787147612212
+        },
+        {
+          "headline": "Marvell Gives Google Option To Buy $12.2B Stake In Chip Deal",
+          "url": "https://finance.yahoo.com/technology/articles/marvell-grants-google-12-2-123812695.html",
+          "timestamp": 1787143092000,
+          "postedAt": 1787147612212
+        },
+        {
+          "headline": "Moderna Shares Surge As Merck Melanoma Vaccine Succeeds In Trial",
+          "url": "https://www.reuters.com/legal/litigation/merck-moderna-say-melanoma-skin-cancer-vaccine-meets-goals-large-trial-2026-08-19/",
+          "timestamp": 1787141836000,
+          "postedAt": 1787147612212
+        },
+        {
+          "headline": "Broadcom Debt Deal Expected To Reach Up To $70 Billion",
+          "url": "https://www.cnbc.com/2026/08/21/broadcom-debt-deal-expected-to-reach-upwards-of-70-billion-sources.html",
+          "timestamp": 1787327909000,
+          "postedAt": 1787330497309
+        }
+      ]
+    },
+    {
+      "title": "RETAILERS NAVIGATE TARIFFS AND BARGAIN HUNTERS",
+      "stories": [
+        {
+          "headline": "Ross Stores Hikes Outlook As Bargain Hunters Drive Sales, Stock Surges",
+          "url": "https://www.investopedia.com/market-update-ross-stores-hikes-its-outlook-as-bargain-hunting-shoppers-drive-up-sales-the-stock-is-surging-rost-12065148",
+          "timestamp": 1787325574000,
+          "postedAt": 1787330497309
+        },
+        {
+          "headline": "Goldman Resets Walmart Target After Brutal Post-Earnings Selloff",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-resets-walmart-stock-target-151704156.html",
+          "timestamp": 1787325424000,
+          "postedAt": 1787330497309
+        },
+        {
+          "headline": "Retailers Use $5 Billion In Tariff Refunds To Appease Investors",
+          "url": "https://talkingpointsmemo.com/news/biggest-us-retailers-use-5-billion-in-trump-tariff-refunds-to-appease-investors",
+          "timestamp": 1787313600000,
+          "postedAt": 1787330497309
+        }
+      ]
+    },
+    {
+      "title": "MICRON AND MEMORY CHIPS RIDE THE AI WAVE",
+      "stories": [
+        {
+          "headline": "4 Memory Stocks Are Darlings Of The AI Boom",
+          "url": "https://www.cnbc.com/2026/08/21/4-memory-stocks-are-darlings-of-the-ai-boom-how-they-differ-and-why-we-own-micron.html",
+          "timestamp": 1787322639000,
+          "postedAt": 1787330497309
+        },
+        {
+          "headline": "Micron CEO Delivers Blunt Message For Stock Investors",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-ceo-delivers-blunt-message-121958557.html",
+          "timestamp": 1787314798000,
+          "postedAt": 1787330497309
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA EARNINGS AND AI DEALMAKING",
+      "stories": [
+        {
+          "headline": "Nvidia In Talks To Acquire $2.3 Billion AI Chip Rival",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-eyes-deal-2-3-145012820.html",
+          "timestamp": 1787323812000,
+          "postedAt": 1787330497309
+        },
+        {
+          "headline": "Nvidia In Talks To Invest In Data-Center Power Developer Cloverleaf",
+          "url": "https://qz.com/nvidia-cloverleaf-infrastructure-investment-data-center-power-082126",
+          "timestamp": 1787315400000,
+          "postedAt": 1787330497309
+        }
+      ]
+    },
+    {
+      "title": "OIL PRICES JUMP ON IRAN TENSIONS",
+      "stories": [
+        {
+          "headline": "Oil Prices Jump After Trump Declares Economic War On Iran",
+          "url": "https://www.marketwatch.com/story/oil-prices-jump-after-trump-declares-economic-war-on-iran-457e7ad9",
+          "timestamp": 1787222760000,
+          "postedAt": 1787228647734
+        },
+        {
+          "headline": "Oil Hits Three-Week High On Middle East Supply Concerns",
+          "url": "https://www.reuters.com/business/energy/oil-prices-steady-investors-assess-us-iran-war-outlook-2026-08-20/",
+          "timestamp": 1787188260000,
+          "postedAt": 1787228647734
+        },
+        {
+          "headline": "Iran's Secret Plan To Escalate The War",
+          "url": "https://unn.ua/en/news/iran-has-embarked-on-a-secret-plan-to-escalate-the-war-wsj",
+          "timestamp": 1787091766000,
+          "postedAt": 1787096448224
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "CK Hutchison Files $1.5 Billion Arbitration Against Panama",
+        "url": "https://www.globaltimes.cn/page/202608/1368613.shtml",
+        "timestamp": 1787328917000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "SK Hynix Could Top Samsung's $80 Billion Shareholder Return",
+        "url": "https://www.cnbc.com/2026/08/21/samsung-shareholder-return-package-sk-hynix-buyback-ai-chip-boom.html",
+        "timestamp": 1787322891000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Dutch Regulator Fines Uber $966 Million Over Automated Driver Suspensions",
+        "url": "https://www.reuters.com/world/dutch-regulator-fines-uber-966-million-automating-driver-suspensions-document-2026-08-21/",
+        "timestamp": 1787322813000,
+        "photo": true,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Trump Admin Taps Ex-JPMorgan Exec Matt Zames To Advise Social Security",
+        "url": "https://www.cnbc.com/2026/08/21/jpmorgan-matt-zames-social-security-administration.html",
+        "timestamp": 1787319976000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "SpaceX Stock Slides 5% On Share Unlock, China Rocket News",
+        "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-slides-5-for-week-following-share-unlock-big-rocket-news-from-china-143100875.html",
+        "timestamp": 1787317965000,
+        "photo": true,
+        "postedAt": 1787330497309,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Walmart US Same-Store Sales Post Slowest Growth in Six Years",
+        "url": "https://chainstoreage.com/walmart-beats-street-q2-eps-revenues-misses-us-comp-sales",
+        "timestamp": 1787184000000,
+        "postedAt": 1787184000000
+      },
+      {
+        "headline": "One Big Thing Is Dragging Down Americans' Economic Vibes",
+        "url": "https://finance.yahoo.com/economy/articles/one-big-thing-dragging-down-090001860.html",
+        "timestamp": 1787216400000,
+        "postedAt": 1787228647734
+      },
+      {
+        "headline": "SK Hynix Shares Surge 12% After Massive Buyback Announcement",
+        "url": "https://www.cnbc.com/2026/08/20/sk-hynixs-south-korean-shares-surge-stock-buyback-.html",
+        "timestamp": 1787196600000,
+        "postedAt": 1787228647734
+      },
+      {
+        "headline": "Carlyle Joins $1 Billion Round For Missile Startup Castelion",
+        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N44G1S9:0-carlyle-joins-1-billion-investment-round-in-missile-startup-castelion-wsj/",
+        "timestamp": 1787180520000,
+        "postedAt": 1787228647734
+      },
+      {
+        "headline": "Whistleblower Leads Testimony In Landmark Trial Against Meta",
+        "url": "https://www.npr.org/2026/08/19/nx-s1-5936648/meta-trial-arturo-bejar-whistleblower-testimony",
+        "timestamp": 1787174415000,
+        "feature": true,
+        "postedAt": 1787228647734
+      },
+      {
+        "headline": "Clarity Act Date Set Ahead Of White House Crypto Summit",
+        "url": "https://en.bloomingbit.io/feed/news/118624",
+        "timestamp": 1787145780000,
+        "postedAt": 1787147612211
+      },
+      {
+        "headline": "Lowe's Gives Muted Outlook, Cites Pressure On Home Improvement Spending",
+        "url": "https://www.cnbc.com/2026/08/19/lowes-low-q2-2026-earnings.html",
+        "timestamp": 1787135236000,
+        "postedAt": 1787147612212
+      },
+      {
+        "headline": "Meta Social Media Addiction Trial Opens With High Stakes For Company",
+        "url": "https://finance.yahoo.com/technology/article/meta-social-media-addiction-trial-kicks-off-with-major-implications-for-companys-future-215458217.html",
+        "timestamp": 1787132904000,
+        "postedAt": 1787147612212
+      },
+      {
+        "headline": "Asian Shares Slide, Kospi Down 5.2%, As Oil Jumps",
+        "url": "https://apnews.com/article/stocks-futures-bonds-oil-inflation-trump-ai-9e355be634e4a21059fc1d1f20a1239e",
+        "timestamp": 1787111120000,
+        "postedAt": 1787147612212
+      },
+      {
+        "headline": "OpenAI's Second-Quarter Sales Show Tepid Growth Compared With Anthropic",
+        "url": "https://www.newsquawk.com/headlines/openais-q2-sales-show-tepid-growth-compared-with-anthropic-according-to-wsj",
+        "timestamp": 1787092140000,
+        "postedAt": 1787096448224
+      },
+      {
+        "headline": "Lakers Owner Mark Walter Sought Apollo Loan Backed By Team Stake",
+        "url": "https://nypost.com/2026/08/17/business/mark-walter-probe-raises-fears-of-ripple-effects-across-wall-streets-1t-insurance-bet/",
+        "timestamp": 1787089676000,
+        "photo": true,
+        "postedAt": 1787096448224
+      }
+    ],
+    "center": [
+      {
+        "headline": "What The $20 Burrito Conversation Says About The Economy",
+        "url": "https://www.investopedia.com/what-the-burrito-says-about-the-economy-12062946",
+        "timestamp": 1787327135000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "GM Faces Safety Probe Over Engine Failures In Nearly 1 Million Vehicles",
+        "url": "https://www.investing.com/news/stock-market-news/nhtsa-opens-probe-into-nearly-1-million-gm-pickups-suvs-over-engine-failure-concerns-4871215",
+        "timestamp": 1787322960000,
+        "photo": true,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Stock Market Closing In On Its Highest Valuation Ever",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-closing-highest-valuation-142000817.html",
+        "timestamp": 1787322000000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "STOCK FUTURES JUMP AS TREASURY MOVE EASES BOND MARKET STRAIN",
+        "url": "https://www.cnbc.com/2026/08/18/stock-market-today-live-updates.html",
+        "timestamp": 1787147612212,
+        "postedAt": 1787147612212
+      },
+      {
+        "headline": "China Sentences Evergrande Founder To Life In Prison",
+        "url": "https://www.npr.org/2026/08/20/nx-s1-5939335/chinese-sentence-founder-evergrande",
+        "timestamp": 1787224620000,
+        "feature": true,
+        "postedAt": 1787228647734
+      },
+      {
+        "headline": "Amazon Aims For Delivery Drones To Reach 500 US Neighborhoods By Year End",
+        "url": "https://arstechnica.com/gadgets/2026/08/amazon-aims-for-delivery-drones-to-reach-500-us-neighborhoods-by-end-of-2026/",
+        "timestamp": 1787176958000,
+        "photo": true,
+        "postedAt": 1787228647734,
+        "image": "/img/markets-1.jpg"
+      },
+      {
+        "headline": "Data Center Fight Hits Fever Pitch Amid AI Buildout",
+        "url": "https://www.axios.com/2026/08/19/ai-power-data-center-electricity-construction",
+        "timestamp": 1787172088000,
+        "postedAt": 1787228647734
+      },
+      {
+        "headline": "Stock Market Calm Hides The Churn Underneath",
+        "url": "https://www.axios.com/2026/08/19/ai-stocks-volatility-momentum",
+        "timestamp": 1787161912000,
+        "postedAt": 1787228647734
+      },
+      {
+        "headline": "Rivian Spinout Also Raises Another $150 Million",
+        "url": "https://techcrunch.com/2026/08/19/rivian-spinout-also-raises-another-150-million/",
+        "timestamp": 1787153987000,
+        "postedAt": 1787228647734
+      },
+      {
+        "headline": "Amazon To Expand Drone Delivery To 500 US Cities",
+        "url": "https://apnews.com/article/amazon-drone-delivery-expansion-walmart-20db399ba65e8bc36a76b547f990b118",
+        "timestamp": 1787133600000,
+        "photo": true,
+        "postedAt": 1787147612212
+      },
+      {
+        "headline": "Chinese Humanoid Robot Maker Surges 600% In Trading Debut",
+        "url": "https://www.theguardian.com/technology/2026/aug/19/unitree-shares-surge-humanoid-robot-firm-chinese-stock-market-debut",
+        "timestamp": 1787130957000,
+        "photo": true,
+        "postedAt": 1787147612212
+      },
+      {
+        "headline": "Beyond Marathons And Backflips, China's Robots Face Commercial Test",
+        "url": "https://www.reuters.com/world/asia-pacific/beyond-marathons-backflips-chinas-robots-face-commercial-test-2026-08-18/",
+        "timestamp": 1787094022000,
+        "photo": true,
+        "postedAt": 1787096448224
+      },
+      {
+        "headline": "Global Bond Markets Put Governments On Notice Over Fiscal Risks",
+        "url": "https://www.reuters.com/world/china/selling-grips-bond-markets-us-japan-inflation-fiscal-worries-take-hold-2026-08-18/",
+        "timestamp": 1787093042000,
+        "postedAt": 1787096448224
+      },
+      {
+        "headline": "Tech Selloff Weighs Down Wall Street As Bond Yields Climb",
+        "url": "https://www.reuters.com/business/us-stock-futures-drop-fading-iran-peace-hopes-lift-oil-bond-yields-2026-08-18/",
+        "timestamp": 1787089464000,
+        "postedAt": 1787096448224
+      }
+    ],
+    "right": [
+      {
+        "headline": "BITCOIN SURGES ABOVE $70,000 AFTER TRUMP PUSH FOR CRYPTO CLARITY ACT",
+        "url": "https://www.cnbc.com/2026/08/20/cryptocurrencies-trump-bitcoin-ethereum.html",
+        "timestamp": 1787228647734,
+        "postedAt": 1787228647734
+      },
+      {
+        "headline": "Trump Pauses Beef Tariff Quota Ahead Of Midterms",
+        "url": "https://www.politico.com/news/2026/08/21/trump-ground-beef-import-tariffs-01045353",
+        "timestamp": 1787328480000,
+        "photo": true,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Citadel Unwinds Over 80% Of Risk Tied To AI Portfolio",
+        "url": "https://www.cnbc.com/2026/08/21/citadel-situational-awareness-ken-griffin.html",
+        "timestamp": 1787323164000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Canada: US Trade Teams To Meet Again As Tariff Deadline Looms",
+        "url": "https://www.reuters.com/world/americas/us-canadian-trade-teams-meet-again-tariffs-deadline-looms-2026-08-21/",
+        "timestamp": 1787322702000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "How America's $40 Trillion Debt Could Hit Your Wallet",
+        "url": "https://www.axios.com/2026/08/20/us-40-trillion-dollars-national-debt-costs-interests",
+        "timestamp": 1787318763000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Job Seekers Say Hiring Process Is 'Broken'",
+        "url": "https://www.usatoday.com/story/money/economy/2026/08/21/job-seekers-say-hiring-is-broken-why/91370272007/",
+        "timestamp": 1787317740000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Harvest Price Hike Hits Business With 1,500% Bill Increase",
+        "url": "https://www.bbc.com/news/articles/clyq011414eo",
+        "timestamp": 1787219044000,
+        "photo": true,
+        "postedAt": 1787228647734
+      },
+      {
+        "headline": "Costco's Latest Deal: Medicare Coverage With That $1.50 Hot Dog",
+        "url": "https://www.usatoday.com/story/money/2026/08/19/costco-medicare-plans-scan-group/91378331007/",
+        "timestamp": 1787187840000,
+        "photo": true,
+        "postedAt": 1787228647734
+      },
+      {
+        "headline": "Buc-ee's Expansion Brings Wave Of Legal Fights",
+        "url": "https://www.usatoday.com/story/money/2026/08/19/bucees-expansion-trademark-lawsuits-legal-fights/91215536007/",
+        "timestamp": 1787137260000,
+        "photo": true,
+        "postedAt": 1787147612212
+      },
+      {
+        "headline": "American Airlines Unveils Major Cabin Upgrade In Premium Battle",
+        "url": "https://www.foxbusiness.com/fox-news-travel/american-airlines-makes-major-cabin-upgrade-battles-premium-passengers",
+        "timestamp": 1787098140000,
+        "photo": true,
+        "postedAt": 1787147612212,
+        "image": "/img/markets-2.jpg"
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,674.37",
+      "change": "+33.21",
+      "changePct": "+0.43%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "53,277.01",
+      "change": "+517.80",
+      "changePct": "+0.98%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "26,180.46",
+      "change": "+113.29",
+      "changePct": "+0.43%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr",
+      "value": "4.74%",
+      "change": "+0.04",
+      "changePct": "+0.89%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$4,661.60",
+      "change": "+90.20",
+      "changePct": "+1.97%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil",
+      "value": "$86.64",
+      "change": "-0.19",
+      "changePct": "-0.22%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$78,129.13",
+      "change": "-197.84",
+      "changePct": "-0.25%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}
