@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787400705592,
+  "lastUpdated": 1787410772454,
   "heroSetDate": "2026-08-22",
   "hero": {
     "headline": "NICK CHUBB ANNOUNCES RETIREMENT FROM NFL",
@@ -130,39 +130,16 @@
           "postedAt": 1787329790346
         }
       ]
-    },
-    {
-      "title": "MLB PENNANT RACE: RESULTS AROUND THE LEAGUE",
-      "stories": [
-        {
-          "headline": "Angels Face Astros, Tinker With Rotation As Kikuchi Nears Return",
-          "url": "https://deadspin.com/angels-face-astros-tinkering-with-rotation-as-yusei-kikuchi-nears-return/",
-          "timestamp": 1787144220000,
-          "postedAt": 1787147155924
-        },
-        {
-          "headline": "Tatis Show Carries Padres Past Mets",
-          "url": "https://www.sandiegouniontribune.com/2026/08/18/the-fernando-tatis-jr-show-carries-padres-past-mets/",
-          "timestamp": 1787111051000,
-          "postedAt": 1787147155924
-        },
-        {
-          "headline": "Mariners Suffer Worst Blowout In Franchise History",
-          "url": "https://www.seattletimes.com/sports/mariners/brewers-deal-mariners-worst-loss-in-franchise-history/",
-          "timestamp": 1787107565000,
-          "postedAt": 1787147155924
-        },
-        {
-          "headline": "Braves' Bats Go Silent In Another Loss",
-          "url": "https://www.batterypower.com/atlanta-braves-scores/138383/braves-vs-twins-final-score-tyler-mahle-bats-lifeless-as-the-braves-drop-another",
-          "timestamp": 1787105280000,
-          "postedAt": 1787147155924
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Inside The Power And Money Struggle At Washington's IndyCar Race",
+        "url": "https://www.politico.com/news/2026/08/22/indycar-race-money-influence-trump-01046102",
+        "timestamp": 1787407920000,
+        "postedAt": 1787410772454
+      },
       {
         "headline": "Misiorowski Leads Brewers Past Sale, Braves",
         "url": "https://deadspin.com/mlb-roundup-jacob-misiorowski-pitches-brewers-past-chris-sale-braves/",
@@ -194,7 +171,7 @@
         "feature": true,
         "photo": true,
         "postedAt": 1787329790346,
-        "image": "/img/sports-1.jpg"
+        "image": "/img/sports-2.jpg"
       },
       {
         "headline": "FIFA Bans Three Argentina Players, Including 10-Game Suspension For Paredes",
@@ -252,25 +229,6 @@
         "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-to-rest-starters-thursday-vs-raiders",
         "timestamp": 1787158419000,
         "postedAt": 1787227971261
-      },
-      {
-        "headline": "Scheffler Wins Handily As BMW Championship Looms, Rahm-LIV Rumors Swirl",
-        "url": "https://www.theringer.com/podcasts/fairway-rollin/2026/08/19/scheffler-wins-handily-the-jon-rahm-liv-latest-and-a-bmw-championship-preview",
-        "timestamp": 1787143596000,
-        "postedAt": 1787147155924
-      },
-      {
-        "headline": "Kyrgios Says He Tested Positive For Cocaine",
-        "url": "https://www.espn.com/tennis/story/_/id/49657802/ex-wimbledon-finalist-kyrgios-says-tested-positive-cocaine",
-        "timestamp": 1787137620000,
-        "photo": true,
-        "postedAt": 1787147155924
-      },
-      {
-        "headline": "What To Know About Folarin Balogun's One-Game Red Card Suspension",
-        "url": "https://abcnews.com/GMA/Culture/us-soccer-star-folarin-baloguns-1-game-red/story?id",
-        "timestamp": 1787134624000,
-        "postedAt": 1787147155924
       }
     ],
     "center": [
@@ -335,12 +293,6 @@
         "postedAt": 1787329790346
       },
       {
-        "headline": "CROW-ARMSTRONG'S WALK-OFF BLAST PUTS HIM IN 30-30 CLUB, FUELS CUBS SURGE",
-        "url": "https://chicago.suntimes.com/cubs/2026/08/17/pete-crow-armstrongs-walk-off-homer-gives-cubs-win-over-white-sox-in-back-and-forth-crosstown-clash",
-        "timestamp": 1787147155924,
-        "postedAt": 1787147155924
-      },
-      {
         "headline": "Why Lions, NFL Coaches Believe Super Bowl Run Is Realistic",
         "url": "https://www.espn.com/nfl/story/_/id/49651690/detroit-lions-super-bowl-window-opportunity-2026",
         "timestamp": 1787220000000,
@@ -364,21 +316,23 @@
         "timestamp": 1787143260000,
         "photo": true,
         "postedAt": 1787227971261
-      },
-      {
-        "headline": "Hadjar's Injury Forces Lineup Changes For Dutch Grand Prix",
-        "url": "https://www.sbnation.com/formula-one/1125356/isack-hadjar-injury-f1-news",
-        "timestamp": 1787141934000,
-        "postedAt": 1787147155924
-      },
-      {
-        "headline": "Eddie Hearn Says He 'Should Be Suing' Dana White Over Fury-Joshua Claims",
-        "url": "https://www.mmafighting.com/boxing/505831/eddie-hearn-says-he-should-be-suing-dana-white-over-fury-joshua-claims-white-responds",
-        "timestamp": 1787106784000,
-        "postedAt": 1787147155924
       }
     ],
     "right": [
+      {
+        "headline": "Inside Cincinnati's $260M Overhaul Of Tennis' 'Worst' Stop",
+        "url": "https://frontofficesports.com/cincinnati-tennis-us-open-250-million-renovations/",
+        "timestamp": 1787407483000,
+        "postedAt": 1787410772454
+      },
+      {
+        "headline": "UFC Sacramento Main Event Preview: Hernandez Vs. Rodrigues",
+        "url": "https://www.cbssports.com/ufc/news/ufc-fight-night-card-predictions-anthony-hernandez-vs-gregory-rodrigues-odds/",
+        "timestamp": 1787405400000,
+        "photo": true,
+        "postedAt": 1787410772454,
+        "image": "/img/sports-0.jpg"
+      },
       {
         "headline": "Vieira Misses Weight For Cyborg Title Fight At PFL Tampa",
         "url": "https://www.mmafighting.com/pfl/506228/ketlen-vieira-misses-weight-by-7-pounds-for-cris-cyborg-title-fight-at-pfl-tampa",
@@ -391,7 +345,7 @@
         "timestamp": 1787374796000,
         "photo": true,
         "postedAt": 1787400705592,
-        "image": "/img/sports-0.jpg"
+        "image": "/img/sports-1.jpg"
       },
       {
         "headline": "Trump's Capital Car Race: What To Know About Freedom 250",
@@ -404,14 +358,6 @@
         "url": "https://www.espn.com/nba/story/_/id/49664656/peyton-watson-cavaliers-max-strus-clippers-part-multi-team-trade-nuggets",
         "timestamp": 1787227971261,
         "postedAt": 1787227971261
-      },
-      {
-        "headline": "Inside IndyCar's Unprecedented Street Race Through Washington, D.C.",
-        "url": "http://www.sbnation.com/indycar/1125531/arrow-mclaren-on-preparing-for-indycar-freedom-250-street-race-track-weve-never-seen-it",
-        "timestamp": 1787326397000,
-        "photo": true,
-        "postedAt": 1787329790346,
-        "image": "/img/sports-2.jpg"
       },
       {
         "headline": "Peyton Manning's Freshman Son Makes His Debut As Freak Running Back Steals Show",
@@ -443,18 +389,6 @@
         "url": "https://www.deseret.com/sports/2026/08/19/byu-football-aaron-roderick-kelly-poppinga-kalani-sitake-scrimmage-first/",
         "timestamp": 1787162400000,
         "postedAt": 1787227971261
-      },
-      {
-        "headline": "Picking The Moment That Defined The NBA's 2025-26 Season",
-        "url": "https://www.espn.com/nba/story/_/id/49640211/nba-2025-2026-season-victor-wembanyama-new-york-knicks-finals-bam-adebayo-tanking-aspiration",
-        "timestamp": 1787137200000,
-        "postedAt": 1787147155924
-      },
-      {
-        "headline": "Preseason College Football Bottom 10: Jayden Daniels' Number Is Up",
-        "url": "https://www.espn.com/college-football/story/_/id/49648152/2026-preseason-college-football-bottom-10-jayden-daniels-number-up",
-        "timestamp": 1787136300000,
-        "postedAt": 1787147155924
       },
       {
         "headline": "Three Tar Heels Picked For FIFA U-20 Women's World Cup",

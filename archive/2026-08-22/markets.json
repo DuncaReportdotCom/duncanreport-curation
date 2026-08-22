@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787401493426,
+  "lastUpdated": 1787411492489,
   "heroSetDate": "2026-08-22",
   "hero": {
     "headline": "NVIDIA EARNINGS AND JACKSON HOLE SET TO TEST AI-DRIVEN RALLY",
@@ -84,24 +84,6 @@
           "url": "https://www.pbs.org/newshour/economy/many-fed-officials-think-higher-rates-will-be-needed-if-inflation-stays-high",
           "timestamp": 1787174383000,
           "postedAt": 1787228647734
-        },
-        {
-          "headline": "Trump Pauses 50% Canada Tariffs At 11th Hour, Declares Deal Reached",
-          "url": "https://www.zerohedge.com/economics/trump-pauses-50-canada-tariffs-11th-hour-declares-we-have-deal",
-          "timestamp": 1787143500000,
-          "postedAt": 1787147612212
-        },
-        {
-          "headline": "Marvell Gives Google Option To Buy $12.2B Stake In Chip Deal",
-          "url": "https://finance.yahoo.com/technology/articles/marvell-grants-google-12-2-123812695.html",
-          "timestamp": 1787143092000,
-          "postedAt": 1787147612212
-        },
-        {
-          "headline": "Moderna Shares Surge As Merck Melanoma Vaccine Succeeds In Trial",
-          "url": "https://www.reuters.com/legal/litigation/merck-moderna-say-melanoma-skin-cancer-vaccine-meets-goals-large-trial-2026-08-19/",
-          "timestamp": 1787141836000,
-          "postedAt": 1787147612212
         },
         {
           "headline": "Broadcom Debt Deal Expected To Reach Up To $70 Billion",
@@ -189,6 +171,12 @@
   "columns": {
     "left": [
       {
+        "headline": "GitLab's New AI Security Suite Could Reshape Growth Outlook",
+        "url": "https://finance.yahoo.com/technology/ai/articles/gitlabs-expanded-single-tenant-ai-120817888.html",
+        "timestamp": 1787400497000,
+        "postedAt": 1787411492489
+      },
+      {
         "headline": "US Debt Approaches $40 Trillion — Who Pays For It?",
         "url": "https://www.euronews.com/business/2026/08/22/five-charts-explaining-americas-40-trillion-debt",
         "timestamp": 1787374816000,
@@ -238,7 +226,7 @@
         "timestamp": 1787317965000,
         "photo": true,
         "postedAt": 1787330497309,
-        "image": "/img/markets-1.jpg"
+        "image": "/img/markets-2.jpg"
       },
       {
         "headline": "Walmart US Same-Store Sales Post Slowest Growth in Six Years",
@@ -270,30 +258,6 @@
         "timestamp": 1787174415000,
         "feature": true,
         "postedAt": 1787228647734
-      },
-      {
-        "headline": "Clarity Act Date Set Ahead Of White House Crypto Summit",
-        "url": "https://en.bloomingbit.io/feed/news/118624",
-        "timestamp": 1787145780000,
-        "postedAt": 1787147612211
-      },
-      {
-        "headline": "Lowe's Gives Muted Outlook, Cites Pressure On Home Improvement Spending",
-        "url": "https://www.cnbc.com/2026/08/19/lowes-low-q2-2026-earnings.html",
-        "timestamp": 1787135236000,
-        "postedAt": 1787147612212
-      },
-      {
-        "headline": "Meta Social Media Addiction Trial Opens With High Stakes For Company",
-        "url": "https://finance.yahoo.com/technology/article/meta-social-media-addiction-trial-kicks-off-with-major-implications-for-companys-future-215458217.html",
-        "timestamp": 1787132904000,
-        "postedAt": 1787147612212
-      },
-      {
-        "headline": "Asian Shares Slide, Kospi Down 5.2%, As Oil Jumps",
-        "url": "https://apnews.com/article/stocks-futures-bonds-oil-inflation-trump-ai-9e355be634e4a21059fc1d1f20a1239e",
-        "timestamp": 1787111120000,
-        "postedAt": 1787147612212
       }
     ],
     "center": [
@@ -335,7 +299,7 @@
         "timestamp": 1787340744000,
         "photo": true,
         "postedAt": 1787401493426,
-        "image": "/img/markets-0.jpg"
+        "image": "/img/markets-1.jpg"
       },
       {
         "headline": "Dow, S&P 500, Nasdaq Rebound But Post Weekly Loss As Yields Rattle Stocks",
@@ -363,12 +327,6 @@
         "postedAt": 1787330497309
       },
       {
-        "headline": "STOCK FUTURES JUMP AS TREASURY MOVE EASES BOND MARKET STRAIN",
-        "url": "https://www.cnbc.com/2026/08/18/stock-market-today-live-updates.html",
-        "timestamp": 1787147612212,
-        "postedAt": 1787147612212
-      },
-      {
         "headline": "China Sentences Evergrande Founder To Life In Prison",
         "url": "https://www.npr.org/2026/08/20/nx-s1-5939335/chinese-sentence-founder-evergrande",
         "timestamp": 1787224620000,
@@ -381,7 +339,7 @@
         "timestamp": 1787176958000,
         "photo": true,
         "postedAt": 1787228647734,
-        "image": "/img/markets-2.jpg"
+        "image": "/img/markets-3.jpg"
       },
       {
         "headline": "Data Center Fight Hits Fever Pitch Amid AI Buildout",
@@ -400,23 +358,15 @@
         "url": "https://techcrunch.com/2026/08/19/rivian-spinout-also-raises-another-150-million/",
         "timestamp": 1787153987000,
         "postedAt": 1787228647734
-      },
-      {
-        "headline": "Amazon To Expand Drone Delivery To 500 US Cities",
-        "url": "https://apnews.com/article/amazon-drone-delivery-expansion-walmart-20db399ba65e8bc36a76b547f990b118",
-        "timestamp": 1787133600000,
-        "photo": true,
-        "postedAt": 1787147612212
-      },
-      {
-        "headline": "Chinese Humanoid Robot Maker Surges 600% In Trading Debut",
-        "url": "https://www.theguardian.com/technology/2026/aug/19/unitree-shares-surge-humanoid-robot-firm-chinese-stock-market-debut",
-        "timestamp": 1787130957000,
-        "photo": true,
-        "postedAt": 1787147612212
       }
     ],
     "right": [
+      {
+        "headline": "Iran Grants Iraqi Oil Tankers Passage Through Hormuz Strait",
+        "url": "https://www.reuters.com/business/energy/iran-grants-permission-number-iraqi-oil-tankers-pass-through-hormuz-2026-08-22/",
+        "timestamp": 1787401289000,
+        "postedAt": 1787411492489
+      },
       {
         "headline": "BESSENT VOWS TO EXPAND TREASURY BOND BUYBACKS TO PUSH DOWN LONG-TERM YIELDS",
         "url": "https://finance.yahoo.com/economy/article/one-day-after-doubling-treasury-buybacks-bessent-says-hes-ready-to-boost-them-further-to-push-down-long-term-yields-181218236.html",
@@ -434,7 +384,8 @@
         "url": "https://fortune.com/article/dave-cote-vertiv-stock-performance-ai-boom/",
         "timestamp": 1787385600000,
         "photo": true,
-        "postedAt": 1787401493426
+        "postedAt": 1787401493426,
+        "image": "/img/markets-0.jpg"
       },
       {
         "headline": "Disney To Cut Medical Insurance For Employee Spouses With Other Coverage",
@@ -492,21 +443,6 @@
         "timestamp": 1787187840000,
         "photo": true,
         "postedAt": 1787228647734
-      },
-      {
-        "headline": "Buc-ee's Expansion Brings Wave Of Legal Fights",
-        "url": "https://www.usatoday.com/story/money/2026/08/19/bucees-expansion-trademark-lawsuits-legal-fights/91215536007/",
-        "timestamp": 1787137260000,
-        "photo": true,
-        "postedAt": 1787147612212
-      },
-      {
-        "headline": "American Airlines Unveils Major Cabin Upgrade In Premium Battle",
-        "url": "https://www.foxbusiness.com/fox-news-travel/american-airlines-makes-major-cabin-upgrade-battles-premium-passengers",
-        "timestamp": 1787098140000,
-        "photo": true,
-        "postedAt": 1787147612212,
-        "image": "/img/markets-3.jpg"
       }
     ]
   },
@@ -521,8 +457,8 @@
     },
     {
       "name": "Dow",
-      "value": "53,277.01",
-      "change": "+517.81",
+      "value": "53,277.00",
+      "change": "+517.80",
       "changePct": "+0.98%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
@@ -561,9 +497,9 @@
     },
     {
       "name": "Bitcoin",
-      "value": "$77,287.11",
-      "change": "-1,039.86",
-      "changePct": "-1.33%",
+      "value": "$76,988.32",
+      "change": "-1,338.65",
+      "changePct": "-1.71%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     }

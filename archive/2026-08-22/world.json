@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787401010479,
+  "lastUpdated": 1787411154314,
   "heroSetDate": "2026-08-22",
   "hero": {
     "headline": "UKRAINE STRIKES RUSSIAN OIL REFINERY IN RETALIATION AFTER DEADLY MALL ATTACK",
@@ -96,24 +96,6 @@
           "url": "https://www.csmonitor.com/World/Europe/2026/0819/russia-yabloko-ukraine-war-wildberries-drone-strikes",
           "timestamp": 1787173210000,
           "postedAt": 1787330052955
-        },
-        {
-          "headline": "Ex-Defense Minister Calls For Election, Cementing Break With Zelensky",
-          "url": "https://newscord.org/article/mykhailo-fedorov-calls-for-wartime-elections-as-zelenskiys-term-ends--Story_20260819_MykhailoFedorovdismice8dd076",
-          "timestamp": 1787144031000,
-          "postedAt": 1787147405857
-        },
-        {
-          "headline": "Second Nord Stream Pipeline Suspect Arrested In Croatia",
-          "url": "https://www.reuters.com/world/second-suspect-nord-stream-case-arrested-croatia-say-german-prosecutors-2026-08-19/",
-          "timestamp": 1787144018000,
-          "postedAt": 1787147405857
-        },
-        {
-          "headline": "Drone Crews Prepare To Strike Again After Warehouse Fire Near Moscow",
-          "url": "https://apnews.com/article/russia-ukraine-war-drone-strikes-8d9eb77fc5fc29c4771503b75f98b1f4",
-          "timestamp": 1787112300000,
-          "postedAt": 1787147405857
         }
       ]
     },
@@ -137,6 +119,19 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "No Deal Reached As US-Canada Tariffs Take Effect At 50%",
+        "url": "https://abcnews.com/Business/trumps-proposed-tariffs-canada-hurtle-deadline-amid-trade/story?id",
+        "timestamp": 1787409387000,
+        "postedAt": 1787411154314
+      },
+      {
+        "headline": "Two Police Officers Among Seven Killed In Chase Crash",
+        "url": "https://www.bbc.com/news/articles/cx272ly3g00o",
+        "timestamp": 1787407531000,
+        "photo": true,
+        "postedAt": 1787411154314
+      },
       {
         "headline": "South Korea Ship To Test Arctic Commercial Route",
         "url": "https://www.reuters.com/world/china/south-korea-ship-test-arctic-commercial-route-amid-western-concerns-2026-08-22/",
@@ -199,8 +194,7 @@
         "url": "https://www.independent.co.uk/news/uk/home-news/ethel-caterham-world-oldest-person-covid-117-birthday-b3037021.html",
         "timestamp": 1787312220000,
         "photo": true,
-        "postedAt": 1787330052955,
-        "image": "/img/world-0.jpg"
+        "postedAt": 1787330052955
       },
       {
         "headline": "Panama Canal To Cut Ship Transits Amid El Niño",
@@ -226,7 +220,7 @@
         "timestamp": 1787223836000,
         "photo": true,
         "postedAt": 1787228296033,
-        "image": "/img/world-1.jpg"
+        "image": "/img/world-0.jpg"
       },
       {
         "headline": "Sudan's Kordofan Fighting Displaces Over 200,000 People",
@@ -240,33 +234,16 @@
         "url": "https://www.reuters.com/world/asia-pacific/taiwan-proposes-boosting-2027-defence-spending-18-record-high-2026-08-20/",
         "timestamp": 1787200920000,
         "postedAt": 1787228296033
-      },
-      {
-        "headline": "Record-Low Harvests And Historic Restrictions Hit Southern Europe",
-        "url": "https://english.elpais.com/climate/2026-08-19/the-great-drought-devours-the-heart-of-europe-record-low-harvests-historic-restrictions-and-a-stalled-economy.html",
-        "timestamp": 1787140035000,
-        "postedAt": 1787147405857
-      },
-      {
-        "headline": "Pakistan Challenges Court Order To Move Imran Khan To Private Hospital",
-        "url": "https://www.aljazeera.com/news/2026/8/19/pakistan-challenges-top-court-order-to-move-imran-khan-to-private-hospital",
-        "timestamp": 1787140125000,
-        "postedAt": 1787147405857
-      },
-      {
-        "headline": "Israel Defends Syria Strike As US Frustration With Netanyahu Grows",
-        "url": "https://www.axios.com/2026/08/18/israel-syria-turkey-strike-military-buildup",
-        "timestamp": 1787129122000,
-        "postedAt": 1787147405857
-      },
-      {
-        "headline": "The Real Danger Of Russia's Fake Elections",
-        "url": "https://www.thebulwark.com/p/the-real-danger-of-russias-fake-elections-fraud-war-ukraine-putin-yabloko",
-        "timestamp": 1787116899000,
-        "postedAt": 1787147405857
       }
     ],
     "center": [
+      {
+        "headline": "Father Leaves 7-Year-Old Son Alone On Mount Fuji Hike",
+        "url": "https://www.bbc.com/news/articles/c93403wg288o",
+        "timestamp": 1787409311000,
+        "photo": true,
+        "postedAt": 1787411154314
+      },
       {
         "headline": "Ukraine's Farmers Struggle To Sell Harvest Amid War, Drought",
         "url": "https://www.dw.com/en/ukraines-farmers-struggle-to-sell-harvest-amid-war-drought/a-78435344",
@@ -360,30 +337,6 @@
         "timestamp": 1787220887000,
         "photo": true,
         "postedAt": 1787228296033
-      },
-      {
-        "headline": "Spain Prepares Transfer Of 500 Migrant Girls From Ceuta, Defying EU",
-        "url": "https://www.euronews.com/my-europe/2026/08/19/spain-ignores-eu-and-prepares-urgent-transfer-of-500-migrant-girls-from-ceuta-to-mainland",
-        "timestamp": 1787128427000,
-        "postedAt": 1787147405857
-      },
-      {
-        "headline": "Moderna Shares Surge As Merck Melanoma Vaccine Succeeds In Trial",
-        "url": "https://www.cnn.com/2026/08/19/health/moderna-merck-mrna-melanoma-vaccine",
-        "timestamp": 1787141036000,
-        "postedAt": 1787147405857
-      },
-      {
-        "headline": "How India's Blocking Of Police-Abuse Film Backfired",
-        "url": "https://www.npr.org/2026/08/19/g-s1-138787/how-indias-blocking-of-a-film-exposing-real-life-police-abuses-backfired",
-        "timestamp": 1787133720000,
-        "postedAt": 1787147405857
-      },
-      {
-        "headline": "China Completes First Stage Of Work On Disputed South China Sea Reef",
-        "url": "https://www.reuters.com/world/china/china-completes-first-stage-work-disputed-south-china-sea-reef-images-show-2026-08-19/",
-        "timestamp": 1787123984000,
-        "postedAt": 1787147405857
       }
     ],
     "right": [
@@ -397,13 +350,6 @@
         "headline": "The Sleeper Trains That Let You Wake Up In Another World",
         "url": "https://www.cnn.com/2026/08/22/travel/travel-news-sleeper-trains",
         "timestamp": 1787394629000,
-        "postedAt": 1787401010478
-      },
-      {
-        "headline": "US-Canada Trade Talks Collapse As 50% Tariffs Take Effect",
-        "url": "https://www.lemonde.fr/en/economy/article/2026/08/22/us-canada-trade-talks-collapse-testing-ottawa-s-strategy-of-firmness_6756757_19.html",
-        "feature": true,
-        "timestamp": 1787393046000,
         "postedAt": 1787401010478
       },
       {
@@ -467,12 +413,6 @@
         "url": "https://www.bbc.com/news/articles/ceqe3y34e9eo",
         "timestamp": 1787221706000,
         "postedAt": 1787228296033
-      },
-      {
-        "headline": "Where's Marco? Rubio Steps Back From Foreign Policy Crises",
-        "url": "https://www.ms.now/news/rubio-secretary-state-iran-ukraine",
-        "timestamp": 1787130000000,
-        "postedAt": 1787147405857
       },
       {
         "headline": "Evergrande Founder Jailed For Life After Guilty Plea To Fraud",

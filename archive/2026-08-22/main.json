@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787400409012,
+  "lastUpdated": 1787410469823,
   "heroSetDate": "2026-08-22",
   "hero": {
     "headline": "CHIEF JUSTICE ROBERTS ALLOWS TRUMP'S $400M BALLROOM TO PROCEED",
@@ -15,7 +15,13 @@
       }
     ],
     "postedAt": 1787400409012,
-    "img": true
+    "img": true,
+    "liveUpdates": [
+      {
+        "source": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-trump-economic-crackdown/"
+      }
+    ]
   },
   "groups": [
     {
@@ -140,18 +146,6 @@
           "postedAt": 1787227600879
         },
         {
-          "headline": "Analysis: How GOP Could Pull Off An Upset In Minnesota",
-          "url": "https://www.realclearpolitics.com/articles/2026/08/19/how_gop_can_pull_off_an_upset_in_minnesota_154425.html",
-          "timestamp": 1787138680000,
-          "postedAt": 1787146872795
-        },
-        {
-          "headline": "Sullivan, Peltola Advance In Alaska Senate Primary",
-          "url": "https://www.theguardian.com/us-news/2026/aug/19/alaska-senate-primary-results",
-          "timestamp": 1787138640000,
-          "postedAt": 1787146872795
-        },
-        {
           "headline": "Poll: Rubio Outperforms Vance In Early 2028 Matchup",
           "url": "https://emersoncollegepolling.com/august-2026-national-poll/",
           "timestamp": 1787329211642,
@@ -227,50 +221,16 @@
           "postedAt": 1787329471648
         }
       ]
-    },
-    {
-      "title": "MIDEAST WAR: CEASEFIRE UNRAVELS AS PRESSURE MOUNTS",
-      "stories": [
-        {
-          "headline": "Fuel Stations Limit Sales Amid Shortages",
-          "url": "https://www.aol.com/articles/moscows-fuel-stations-limit-sales-113017000.html",
-          "timestamp": 1787146627523,
-          "postedAt": 1787146872795
-        },
-        {
-          "headline": "Opinion: When Does The Iran War Become A Forever War?",
-          "url": "https://coloradosun.com/2026/08/19/mike-littwin-iran-forever-war/",
-          "timestamp": 1787130300000,
-          "postedAt": 1787146872795
-        }
-      ]
-    },
-    {
-      "title": "AI ANXIETY: SURVEILLANCE CAMERAS, JOBS AND FAKE CASES",
-      "stories": [
-        {
-          "headline": "Dozens Of Towns Reject AI Cameras That Track Every Move",
-          "url": "https://dailycaller.com/2026/08/19/flock-cameras-surviellance-towns-united-states-arizona-alcu/",
-          "timestamp": 1787145960000,
-          "postedAt": 1787146872795
-        },
-        {
-          "headline": "Trump Weighs In On Controversial Flock Cameras",
-          "url": "https://www.dailywire.com/news/trump-weighs-in-on-controversial-flock-cameras",
-          "timestamp": 1787145842000,
-          "postedAt": 1787146872795
-        },
-        {
-          "headline": "The New Existential Threat To AI",
-          "url": "https://www.axios.com/2026/08/19/data-centers-ai-political-opinion",
-          "timestamp": 1787132167000,
-          "postedAt": 1787146872795
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Pentagon Fires Editor-In-Chief Of Stars And Stripes",
+        "url": "https://www.pbs.org/newshour/politics/stars-and-stripes-editor-reporter-fired-for-insubordination-after-doing-cbs-interview",
+        "timestamp": 1787410100294,
+        "postedAt": 1787410469823
+      },
       {
         "headline": "Plane Crashed On Second Landing Attempt In Alaska Fog, Killing All 8",
         "url": "https://apnews.com/article/alaska-charter-plane-crash-army-cd21190cad6b7246d903677685f1e928",
@@ -357,24 +317,6 @@
         "timestamp": 1787188320000,
         "photo": true,
         "postedAt": 1787227600879
-      },
-      {
-        "headline": "Liberia To Take 1,200 US Deportees",
-        "url": "https://apnews.com/fc41b96abc6f26a9b780ce871b269951",
-        "timestamp": 1787146627523,
-        "postedAt": 1787146872795
-      },
-      {
-        "headline": "Disney Says No To The 'Lyin' King'",
-        "url": "https://www.thebulwark.com/p/disney-says-no-to-the-lyin-king-abc-trump-lawsuit-fcc-carr-license-kimmel-primaries-florida",
-        "timestamp": 1787145287000,
-        "postedAt": 1787146872795
-      },
-      {
-        "headline": "Trump Administration Moves To Allow Logging In Pristine National Forests",
-        "url": "https://www.facebook.com/nytimes/videos/trump-administration-moves-to-allow-logging-in-national-forests/1597009828532359/",
-        "timestamp": 1787125500000,
-        "postedAt": 1787146872795
       }
     ],
     "center": [
@@ -443,39 +385,27 @@
         "url": "https://www.sfchronicle.com/weather/article/hawaii-possible-new-hurricane-22395321.php",
         "timestamp": 1787174428000,
         "postedAt": 1787227600879
-      },
-      {
-        "headline": "Elite Ukrainian Drone Unit Brings War To Moscow's Doorstep",
-        "url": "https://apnews.com/article/russia-ukraine-war-drone-strikes-8d9eb77fc5fc29c4771503b75f98b1f4",
-        "timestamp": 1787146627523,
-        "postedAt": 1787146872795
-      },
-      {
-        "headline": "Killer Who Avoided Jail Flees During Mental Hospital Day Pass",
-        "url": "https://notthebee.com/article/tajik-killer-who-avoided-jail-due-to-insanity-ruling-flees-us-the-moment-his-mental-hospital-grants-him-a-day-pass/",
-        "timestamp": 1787146273000,
-        "photo": true,
-        "postedAt": 1787146872795
-      },
-      {
-        "headline": "Cameron Winter Preps Live Album From Carnegie Hall Show",
-        "url": "https://www.rollingstone.com/music/music-news/cameron-winter-live-at-carnegie-hall-album-1235610082/",
-        "timestamp": 1787145934000,
-        "postedAt": 1787146872795
       }
     ],
     "right": [
+      {
+        "headline": "Army Secretary To Step Down Amid Tension With Hegseth",
+        "url": "https://www.military.com/army-secretary-driscoll-step-down-this-year-amid-hegseth-friction-report",
+        "timestamp": 1787410100294,
+        "feature": true,
+        "postedAt": 1787410469823
+      },
+      {
+        "headline": "Trump Rages At 'Totally Irrelevant' Tucker Carlson",
+        "url": "https://www.mediaite.com/politics/trump/trump-rages-at-totally-irrelevant-tucker-carlson-after-jd-vance-attended-event-with-carlson-funder/",
+        "timestamp": 1787410100294,
+        "postedAt": 1787410469823
+      },
       {
         "headline": "NAVY WEIGHS RENAMING CARRIER FROM BLACK WAR HERO TO TRUMP",
         "url": "https://www.theguardian.com/us-news/2026/aug/21/navy-carrier-black-war-hero-trump-report",
         "timestamp": 1787329471648,
         "postedAt": 1787329471648
-      },
-      {
-        "headline": "Army Secretary To Step Down Amid Tension With Hegseth",
-        "url": "https://www.military.com/army-secretary-driscoll-step-down-this-year-amid-hegseth-friction-report",
-        "timestamp": 1787400013547,
-        "postedAt": 1787400409012
       },
       {
         "headline": "Trump Allows Tariff-Free Beef Imports, Drawing Rancher Backlash",
@@ -515,12 +445,6 @@
         "postedAt": 1787329471648
       },
       {
-        "headline": "SOCIALIST UPSET IN FLORIDA CAPS ROUGH PRIMARY NIGHT FOR TRUMP-BACKED CANDIDATES",
-        "url": "https://www.foxnews.com/politics/socialists-capture-major-florida-victory-hit-miss-night-trump-endorsed-primary-candidates",
-        "timestamp": 1787146872795,
-        "postedAt": 1787146872795
-      },
-      {
         "headline": "Florida School Board At Center Of Culture Wars Loses Conservative Majority",
         "url": "https://www.wtsp.com/article/news/local/sarasotacounty/sarasota-primary-election-school-board-democrats/67-f0c2a92c-e183-4bb5-9f8c-69164ef5e6a9",
         "timestamp": 1787227351456,
@@ -531,12 +455,6 @@
         "url": "https://reason.com/2026/08/19/border-agents-searched-his-phone-5-times-without-a-warrant-hes-asking-the-supreme-court-to-put-a-stop-to-it/",
         "timestamp": 1787154306000,
         "postedAt": 1787227600879
-      },
-      {
-        "headline": "Tennis Star Suspended After Positive Cocaine Test",
-        "url": "https://dailycaller.com/2026/08/19/nick-kyrgios-suspension-tennis-positive-test-cocaine-itia/",
-        "timestamp": 1787145540000,
-        "postedAt": 1787146872795
       }
     ]
   }

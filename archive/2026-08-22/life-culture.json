@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787402477295,
+  "lastUpdated": 1787412527382,
   "heroSetDate": "2026-08-22",
   "hero": {
     "headline": "ANCIENT SHARK GRAVEYARD FOUND IN EGYPTIAN DESERT",
@@ -53,7 +53,7 @@
         "timestamp": 1787398200000,
         "photo": true,
         "postedAt": 1787402477295,
-        "image": "/img/life-culture-1.jpg"
+        "image": "/img/life-culture-2.jpg"
       },
       {
         "headline": "A New Way To Explore Millions Of Artworks Online",
@@ -162,39 +162,15 @@
         "url": "https://kotaku.com/pokemons-30th-anniversary-set-might-be-making-a-mysterious-new-mew-card-the-rarest-ever-2000725936",
         "timestamp": 1787175449000,
         "postedAt": 1787229361119
-      },
-      {
-        "headline": "The Bloodsucking Insect With A Saw For A Mouth",
-        "url": "https://theconversation.com/the-bloodsucking-insect-with-a-saw-for-a-mouth-how-the-tsetse-fly-bites-through-almost-anything-289260",
-        "timestamp": 1787146041000,
-        "postedAt": 1787148490172
-      },
-      {
-        "headline": "Quantum Entanglement Generated From Sunlight For First Time",
-        "url": "https://www.sciencealert.com/for-the-first-time-researchers-have-generated-quantum-entanglement-directly-from-sunlight",
-        "timestamp": 1787140987000,
-        "postedAt": 1787148490172
-      },
-      {
-        "headline": "The Embarrassing Secret Of Kareem Rahma's Success",
-        "url": "https://www.gq.com/story/from-the-desk-of-kareem-rahma",
-        "timestamp": 1787140800000,
-        "postedAt": 1787148490172
-      },
-      {
-        "headline": "Did Smartphones Really Kill Reading?",
-        "url": "https://lithub.com/did-smartphones-really-kill-reading/",
-        "timestamp": 1787137754000,
-        "postedAt": 1787148490172
-      },
-      {
-        "headline": "Natural Flavors Aren't Necessarily Better Than Artificial Ones",
-        "url": "https://www.seriouseats.com/natural-vs-artificial-flavors-12063097",
-        "timestamp": 1787137200000,
-        "postedAt": 1787148490172
       }
     ],
     "center": [
+      {
+        "headline": "The Outsized Power Of A Great Short Story",
+        "url": "https://bigthink.com/books/power-of-the-short-story/",
+        "timestamp": 1787409000000,
+        "postedAt": 1787412527382
+      },
       {
         "headline": "DOLPHINS EAVESDROP ON THEIR PREY — AND ON EACH OTHER",
         "url": "https://nautil.us/dolphins-eavesdrop-on-their-prey-and-each-other-1284095/",
@@ -213,7 +189,7 @@
         "timestamp": 1787396820000,
         "photo": true,
         "postedAt": 1787402477295,
-        "image": "/img/life-culture-2.jpg"
+        "image": "/img/life-culture-3.jpg"
       },
       {
         "headline": "Asheville's Food Scene And The Rise Of A Farm-To-Table Town",
@@ -227,7 +203,7 @@
         "timestamp": 1787338937000,
         "photo": true,
         "postedAt": 1787402477295,
-        "image": "/img/life-culture-3.jpg"
+        "image": "/img/life-culture-4.jpg"
       },
       {
         "headline": "Natalie Portman At Center Of Literary Furor Over Rachel Cusk Novel",
@@ -296,42 +272,30 @@
         "url": "https://engelsbergideas.com/reviews/jonathan-swifts-literary-world/",
         "timestamp": 1787047434000,
         "postedAt": 1787229361119
-      },
-      {
-        "headline": "I Went No Contact With My Parents. I Regret It.",
-        "url": "https://manhattan.institute/article/i-went-no-contact-with-my-parents-i-regret-it",
-        "timestamp": 1787147900000,
-        "postedAt": 1787148490172
-      },
-      {
-        "headline": "This Simple Trick Could Cut Down Your Phone Time",
-        "url": "https://www.sciencealert.com/this-simple-trick-could-finally-help-you-cut-down-on-phone-time",
-        "timestamp": 1787141011000,
-        "postedAt": 1787148490172
-      },
-      {
-        "headline": "The Best Ocean Photos Of The Year",
-        "url": "https://nautil.us/the-best-ocean-photos-of-the-year-1283951",
-        "timestamp": 1787140800000,
-        "photo": true,
-        "postedAt": 1787148490172
-      },
-      {
-        "headline": "Queen Camilla Says It Was 'Difficult' To Keep Charles's Cancer Secret",
-        "url": "https://www.nbcnews.com/world/united-kingdom/king-charles-cancer-diagnosis-camilla-secret-difficult-rcna593289",
-        "timestamp": 1787138906000,
-        "photo": true,
-        "postedAt": 1787148490172
       }
     ],
     "right": [
+      {
+        "headline": "Travis Kelce And Taylor Swift Can Now Wear Matching Cartier Watches",
+        "url": "https://www.gq.com/story/watches-of-the-week-8-23-26",
+        "timestamp": 1787407232000,
+        "photo": true,
+        "postedAt": 1787412527382,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "A Former Cook's Trick For Easier Weeknight Dinners",
+        "url": "https://www.seriouseats.com/food-editor-meal-prep-tips-12065789",
+        "timestamp": 1787407200000,
+        "postedAt": 1787412527382
+      },
       {
         "headline": "'The Five Heartbeats' Star Michael Wright Dead At 70",
         "url": "https://www.tmz.com/2026/08/22/michael-wright-dead/",
         "timestamp": 1787399547000,
         "photo": true,
         "postedAt": 1787402477295,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-1.jpg"
       },
       {
         "headline": "Your Expired Visa Card Could Be 'Zombified' For Contactless Payments",
@@ -381,8 +345,7 @@
         "url": "https://www.atlasobscura.com/places/bunski-kanal",
         "timestamp": 1787328513000,
         "photo": true,
-        "postedAt": 1787331564787,
-        "image": "/img/life-culture-4.jpg"
+        "postedAt": 1787331564787
       },
       {
         "headline": "Inside Namibia's Remote Hoanib Elephant Camp",
@@ -396,12 +359,6 @@
         "url": "https://www.cntraveler.com/story/a-mother-and-tweens-travel-guide-to-k-beauty-hanboks-and-the-brooklyn-of-seoul",
         "timestamp": 1787323041000,
         "postedAt": 1787331564787
-      },
-      {
-        "headline": "Orange Lips And Roaring Calls: DRC's Shy New Rainforest Monkey",
-        "url": "https://theconversation.com/orange-lips-and-roaring-calls-meet-the-drcs-shy-new-rainforest-monkey-288470",
-        "timestamp": 1787148490172,
-        "postedAt": 1787148490172
       },
       {
         "headline": "The Toyota Celica Is Returning—But Will Toyota Go It Alone?",
@@ -421,24 +378,6 @@
         "url": "https://www.realclearscience.com/video/2026/08/20/the_wavy_window_paradox_1201409.html",
         "timestamp": 1787160240000,
         "postedAt": 1787229361119
-      },
-      {
-        "headline": "Beijing Internationalizes Its Cultural Security",
-        "url": "https://jamestown.substack.com/p/beijing-internationalizes-its-cultural",
-        "timestamp": 1787142692000,
-        "postedAt": 1787148490172
-      },
-      {
-        "headline": "Anthony Bourdain Wears The Perfect Chef's Watch In 'Tony'",
-        "url": "https://www.gq.com/story/tony-anthony-bourdain-watch-08-19-26",
-        "timestamp": 1787142548000,
-        "postedAt": 1787148490172
-      },
-      {
-        "headline": "What Luigi Mangione's Celebrity Says About Gen Z",
-        "url": "https://theconversation.com/what-luigi-mangiones-celebrity-says-about-gen-z-289938",
-        "timestamp": 1787142480000,
-        "postedAt": 1787148490172
       }
     ]
   }

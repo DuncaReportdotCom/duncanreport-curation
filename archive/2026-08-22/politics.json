@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787402098214,
+  "lastUpdated": 1787412143843,
   "heroSetDate": "2026-08-22",
   "hero": {
     "headline": "SUPREME COURT ALLOWS TRUMP'S WHITE HOUSE BALLROOM CONSTRUCTION TO PROCEED",
@@ -85,27 +85,16 @@
           "postedAt": 1787331098364
         }
       ]
-    },
-    {
-      "title": "FLOCK SURVEILLANCE CAMERA BACKLASH",
-      "stories": [
-        {
-          "headline": "Dozens Of Towns Reject AI Surveillance Cameras",
-          "url": "https://dailycaller.com/2026/08/19/flock-cameras-surviellance-towns-united-states-arizona-alcu/",
-          "timestamp": 1787145960000,
-          "postedAt": 1787147962722
-        },
-        {
-          "headline": "Trump Weighs In On Controversial Flock Camera Backlash",
-          "url": "https://www.dailywire.com/news/trump-weighs-in-on-controversial-flock-cameras",
-          "timestamp": 1787145842000,
-          "postedAt": 1787147962722
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "ICE Seeks Weapon That Leaves No Mark, Report Finds",
+        "url": "https://www.thebulwark.com/p/ice-wants-a-weapon-that-leaves-no-mark-electric-shock-gloves-compliant-technologies",
+        "timestamp": 1787409060000,
+        "postedAt": 1787412143843
+      },
       {
         "headline": "Canada: No Deal Reached As 50% Tariffs Take Effect In Trade Dispute With US",
         "url": "https://abcnews.com/Business/trumps-proposed-tariffs-canada-hurtle-deadline-amid-trade/story?id",
@@ -159,12 +148,6 @@
         "postedAt": 1787184000000
       },
       {
-        "headline": "SOCIALISTS CAPTURE FLORIDA VICTORY IN HIT-OR-MISS NIGHT FOR TRUMP-BACKED CANDIDATES",
-        "url": "https://www.foxnews.com/politics/socialists-capture-major-florida-victory-hit-miss-night-trump-endorsed-primary-candidates",
-        "timestamp": 1787147962722,
-        "postedAt": 1787147962722
-      },
-      {
         "headline": "Trump Administration Advances Plan To End Roadless Rule",
         "url": "https://www.kptv.com/2026/08/19/trump-administration-moves-ahead-end-roadless-rule-national-forests-including-oregon/",
         "timestamp": 1787166360000,
@@ -189,15 +172,15 @@
         "url": "https://www.ttnews.com/articles/us-tariffs-canada-steel",
         "timestamp": 1787183098000,
         "postedAt": 1787229034472
-      },
-      {
-        "headline": "Trump Admin Seeks To Open Millions Of Acres Of National Forest To Development",
-        "url": "https://dailycaller.com/2026/08/19/roadless-area-conservation-rule-department-of-agriculture-national-forest-system/",
-        "timestamp": 1787146260000,
-        "postedAt": 1787147962722
       }
     ],
     "center": [
+      {
+        "headline": "Maryland School District Updates Gender Policy After Trump Threat",
+        "url": "https://marylandmatters.org/2026/08/20/after-threat-by-doj-anne-arundel-schools-amend-gender-policy/",
+        "timestamp": 1787409217000,
+        "postedAt": 1787412143843
+      },
       {
         "headline": "Klobuchar's Fraud-Fight Claim Takes Hit After GOP Opponent Combs Through Receipts",
         "url": "https://www.foxnews.com/politics/klobuchar-fraud-fight-claim-takes-hit-gop-opponent-combs-receipts-where-were-you",
@@ -274,37 +257,6 @@
         "url": "https://www.lwv.org/blog/what-save-act-means-2026-midterms-approach",
         "timestamp": 1787140800000,
         "postedAt": 1787229034472
-      },
-      {
-        "headline": "Disney Rebuffs Pressure In Escalating FCC Standoff",
-        "url": "https://www.thebulwark.com/p/disney-says-no-to-the-lyin-king-abc-trump-lawsuit-fcc-carr-license-kimmel-primaries-florida",
-        "timestamp": 1787145287000,
-        "postedAt": 1787147962722
-      },
-      {
-        "headline": "Ousted Zelensky Defense Minister Demands Ukraine Elections",
-        "url": "https://www.chicagotribune.com/2026/08/19/zelenskyys-office-is-probed-for-corruption/",
-        "timestamp": 1787144821000,
-        "photo": true,
-        "postedAt": 1787147962722
-      },
-      {
-        "headline": "Manufacturers Hiring Again — Are Tariffs The Reason?",
-        "url": "https://www.qatar-tribune.com/article/249206/opinion/small-businesses-despise-trumps-tariffs-for-good-reason",
-        "timestamp": 1787144521000,
-        "postedAt": 1787147962722
-      },
-      {
-        "headline": "Antonio Villaraigosa Mends Fences",
-        "url": "https://www.politico.com/newsletters/california-playbook/2026/08/19/antonio-villaraigosa-mends-fences-01041354",
-        "timestamp": 1787144400000,
-        "postedAt": 1787147962722
-      },
-      {
-        "headline": "Trump Hints At Oil Pipeline Revival After Canada Breakthrough",
-        "url": "https://www.dailywire.com/news/trump-hints-at-major-oil-pipeline-revival-after-breakthrough-with-canada",
-        "timestamp": 1787142607000,
-        "postedAt": 1787147962722
       }
     ],
     "right": [
@@ -372,19 +324,6 @@
         "timestamp": 1787145508000,
         "photo": true,
         "postedAt": 1787229034472
-      },
-      {
-        "headline": "Covid Cover-Up Suffers Blow In Court, Taibbi Writes",
-        "url": "https://townhall.com/news/mattvespa/2026/08/17/ex-rolling-stone-editor-details-how-the-covid-cover-up-suffered-a-blow-in-court-n2681335",
-        "timestamp": 1787144511000,
-        "postedAt": 1787147962722
-      },
-      {
-        "headline": "'Outstanding Refugee' Faces Criminal Fraud Charges In Minnesota",
-        "url": "https://www.dailywire.com/news/outstanding-refugee-of-minnesota-faces-criminal-fraud-charges",
-        "timestamp": 1787140215000,
-        "photo": true,
-        "postedAt": 1787147962722
       }
     ]
   },
