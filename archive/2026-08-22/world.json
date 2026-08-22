@@ -194,7 +194,8 @@
         "url": "https://www.independent.co.uk/news/uk/home-news/ethel-caterham-world-oldest-person-covid-117-birthday-b3037021.html",
         "timestamp": 1787312220000,
         "photo": true,
-        "postedAt": 1787330052955
+        "postedAt": 1787330052955,
+        "image": "/img/world-0.jpg"
       },
       {
         "headline": "Panama Canal To Cut Ship Transits Amid El Niño",
@@ -220,7 +221,7 @@
         "timestamp": 1787223836000,
         "photo": true,
         "postedAt": 1787228296033,
-        "image": "/img/world-0.jpg"
+        "image": "/img/world-1.jpg"
       },
       {
         "headline": "Sudan's Kordofan Fighting Displaces Over 200,000 People",
