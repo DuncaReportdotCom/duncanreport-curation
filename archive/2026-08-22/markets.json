@@ -63,7 +63,7 @@
       "stories": [
         {
           "headline": "Treasury's Bond Plan Like 'Rearranging Deck Chairs On The Titanic,' ING Says",
-          "url": "https://fortune.com/2026/08/20/scott-bessent-us-treasury-4-billion-bond-buyback-plan-rearranging-deckchairs-on-the-titanic-ing/",
+          "url": "https://mbiz.heraldcorp.com/article/10847408",
           "timestamp": 1787222820000,
           "postedAt": 1787228647734
         },
@@ -457,8 +457,8 @@
     },
     {
       "name": "Dow",
-      "value": "53,277.00",
-      "change": "+517.80",
+      "value": "53,277.01",
+      "change": "+517.81",
       "changePct": "+0.98%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
@@ -497,9 +497,9 @@
     },
     {
       "name": "Bitcoin",
-      "value": "$76,988.32",
-      "change": "-1,338.65",
-      "changePct": "-1.71%",
+      "value": "$77,183.12",
+      "change": "-1,143.85",
+      "changePct": "-1.46%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     }
