@@ -1,0 +1,452 @@
+{
+  "lastUpdated": 1787488508141,
+  "heroSetDate": "2026-08-23",
+  "hero": {
+    "headline": "FED HOLDS RATES STEADY AS INFLATION HITS 3-YEAR HIGH",
+    "url": "https://abcnews.com/Business/fed-set-make-interest-rate-decision-inflation-hits/story?id",
+    "sublinks": [
+      {
+        "text": "Bessent's Treasury Push Seen Undercutting Warsh's Fed",
+        "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2"
+      },
+      {
+        "text": "US Treasuries Face Growing Competition From Higher-Yield Bonds Abroad",
+        "url": "https://fortune.com/2026/08/22/us-debt-competition-higher-yielding-bonds-overseas-treasury-rates/"
+      }
+    ],
+    "postedAt": 1787488508141,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "NVIDIA EARNINGS: WALL STREET BRACES FOR AI TEST",
+      "stories": [
+        {
+          "headline": "Analysts Name Stocks Poised To Ride AI Earnings Wave",
+          "url": "https://www.cnbc.com/2026/08/23/top-analysts-believe-in-the-growth-potential-of-these-3-stocks.html",
+          "timestamp": 1787484545000,
+          "postedAt": 1787488508141
+        },
+        {
+          "headline": "Nvidia's Q2 Earnings To Test Resurgent AI Trade",
+          "url": "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html",
+          "timestamp": 1787484302000,
+          "feature": true,
+          "postedAt": 1787488508141
+        },
+        {
+          "headline": "Nvidia Weighs On Market As New Canada Tariffs Loom",
+          "url": "http://vinanet.vn/aticles-market/Dow-Jones-Futures-Signal-Tentative-Recovery-as-Nvidia-Catalyst-and-Fresh-Canada-Tariffs-Loom-56-16340",
+          "timestamp": 1787454060000,
+          "postedAt": 1787488508141
+        },
+        {
+          "headline": "Nvidia Customers Notified Of AI Chip Price Hikes Above 15%",
+          "url": "https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/",
+          "timestamp": 1787428821000,
+          "postedAt": 1787488508141
+        },
+        {
+          "headline": "Ross Stores Hikes Outlook As Bargain Hunters Drive Sales, Stock Surges",
+          "url": "https://www.investopedia.com/market-update-ross-stores-hikes-its-outlook-as-bargain-hunting-shoppers-drive-up-sales-the-stock-is-surging-rost-12065148",
+          "timestamp": 1787325574000,
+          "postedAt": 1787330497309
+        },
+        {
+          "headline": "Retailers Use $5 Billion In Tariff Refunds To Appease Investors",
+          "url": "https://talkingpointsmemo.com/news/biggest-us-retailers-use-5-billion-in-trump-tariff-refunds-to-appease-investors",
+          "timestamp": 1787313600000,
+          "postedAt": 1787330497309
+        },
+        {
+          "headline": "Walmart's E-Commerce Sales Rise As Deliveries Accelerate",
+          "url": "https://www.foxbusiness.com/retail/walmart-e-commerce-sales-surge-ceo-touts-price-speed-convenience",
+          "timestamp": 1787477702000,
+          "postedAt": 1787488508141
+        },
+        {
+          "headline": "Nvidia In Talks To Invest In Data-Center Power Developer Cloverleaf",
+          "url": "https://qz.com/nvidia-cloverleaf-infrastructure-investment-data-center-power-082126",
+          "timestamp": 1787315400000,
+          "postedAt": 1787330497309
+        }
+      ]
+    },
+    {
+      "title": "CHINA'S ROBOT GAMES SHOWCASE AI AMBITIONS",
+      "stories": [
+        {
+          "headline": "China's Humanoid Robot Games Go Mainstream",
+          "url": "https://startupfortune.com/beijing-opens-its-second-world-humanoid-robot-games-with-2056-machines-competing/",
+          "timestamp": 1787396456000,
+          "postedAt": 1787401493426
+        },
+        {
+          "headline": "Chinese Robot Beats Usain Bolt's 100-Meter World Record In Test Run",
+          "url": "https://www.reuters.com/sports/chinese-humanoid-robot-lightning-beats-human-100m-world-record-state-media-says-2026-08-22/",
+          "timestamp": 1787395220000,
+          "postedAt": 1787401493426
+        }
+      ]
+    },
+    {
+      "title": "CRYPTO RALLY ACCELERATES AS WASHINGTON MOVES ON RULES",
+      "stories": [
+        {
+          "headline": "SEC Proposes New 'Regulation Crypto Assets' Framework",
+          "url": "https://www.bakerdonelson.com/sec-proposes-regulation-crypto-assets",
+          "timestamp": 1787341710000,
+          "postedAt": 1787401493426
+        },
+        {
+          "headline": "Washington Goes All-In On Crypto: Clarity Act, SEC Rules, CFTC Warnings",
+          "url": "https://decrypt.co/376204/washington-crypto-trump-clarity-sec-rules-cftc-warnings",
+          "timestamp": 1787335616000,
+          "postedAt": 1787401493426
+        },
+        {
+          "headline": "Kalshi Traders See Bitcoin Rally Ending Year Near Current Levels",
+          "url": "https://www.cnbc.com/2026/08/21/kalshi-traders-say-bitcoin-rally-wont-go-much-higher-by-end-of-2026.html",
+          "timestamp": 1787334205000,
+          "postedAt": 1787401493426
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Trump Discloses 1,000 Stock Trades Made In June",
+        "url": "https://www.cnbc.com/2026/08/22/trump-reshuffled-his-portfolio-in-june-selling-names-like-meta-and-buying-berkshire-hathaway.html",
+        "timestamp": 1787445660000,
+        "postedAt": 1787488508141
+      },
+      {
+        "headline": "OpenAI Calls For California To Strengthen AI Safety Laws",
+        "url": "https://www.engadget.com/2242200/openai-calls-for-california-to-strengthen-ai-safety-laws/",
+        "timestamp": 1787426824000,
+        "postedAt": 1787488508141
+      },
+      {
+        "headline": "Paramount And California Hold Preliminary Talks On Warner Bros Deal",
+        "url": "https://kwsn.com/2026/08/22/paramount-and-california-to-hold-preliminary-talks-on-warner-bros-deal-nyt-reports/",
+        "timestamp": 1787418446000,
+        "feature": true,
+        "postedAt": 1787488508141
+      },
+      {
+        "headline": "Boeing Engineers Reject Four-Year Contract Offer",
+        "url": "https://www.cnbc.com/2026/08/21/boeing-engineers-technical-workers-reject-contract-offer.html",
+        "timestamp": 1787354520000,
+        "photo": true,
+        "postedAt": 1787488508141,
+        "image": "/img/markets-2.jpg"
+      },
+      {
+        "headline": "GitLab's New AI Security Suite Could Reshape Growth Outlook",
+        "url": "https://finance.yahoo.com/technology/ai/articles/gitlabs-expanded-single-tenant-ai-120817888.html",
+        "timestamp": 1787400497000,
+        "postedAt": 1787411492489
+      },
+      {
+        "headline": "US Debt Approaches $40 Trillion — Who Pays For It?",
+        "url": "https://www.euronews.com/business/2026/08/22/five-charts-explaining-americas-40-trillion-debt",
+        "timestamp": 1787374816000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Tesla's Door Handles Lead To Its Biggest Recall Yet",
+        "url": "https://qz.com/tesla-china-ev-recall-hidden-door-handles-082126",
+        "timestamp": 1787353800000,
+        "feature": true,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "CK Hutchison Files $1.5 Billion Arbitration Against Panama",
+        "url": "https://www.globaltimes.cn/page/202608/1368613.shtml",
+        "timestamp": 1787328917000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "SK Hynix Could Top Samsung's $80 Billion Shareholder Return",
+        "url": "https://www.cnbc.com/2026/08/21/samsung-shareholder-return-package-sk-hynix-buyback-ai-chip-boom.html",
+        "timestamp": 1787322891000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Dutch Regulator Fines Uber $966 Million Over Automated Driver Suspensions",
+        "url": "https://www.reuters.com/world/dutch-regulator-fines-uber-966-million-automating-driver-suspensions-document-2026-08-21/",
+        "timestamp": 1787322813000,
+        "photo": true,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Trump Admin Taps Ex-JPMorgan Exec Matt Zames To Advise Social Security",
+        "url": "https://www.cnbc.com/2026/08/21/jpmorgan-matt-zames-social-security-administration.html",
+        "timestamp": 1787319976000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "SpaceX Stock Slides 5% On Share Unlock, China Rocket News",
+        "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-slides-5-for-week-following-share-unlock-big-rocket-news-from-china-143100875.html",
+        "timestamp": 1787317965000,
+        "photo": true,
+        "postedAt": 1787330497309,
+        "image": "/img/markets-3.jpg"
+      },
+      {
+        "headline": "Broadcom Debt Deal Expected To Reach Up To $70 Billion",
+        "url": "https://www.cnbc.com/2026/08/21/broadcom-debt-deal-expected-to-reach-upwards-of-70-billion-sources.html",
+        "timestamp": 1787327909000,
+        "postedAt": 1787330497309
+      }
+    ],
+    "center": [
+      {
+        "headline": "UK: Small Power Plant Shut Down After Cyberattack Linked To Iran",
+        "url": "https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html",
+        "timestamp": 1787484952000,
+        "photo": true,
+        "postedAt": 1787488508141,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Hormuz Crisis Masks A Deeper Oil Threat That Could Outlast War",
+        "url": "https://www.foxnews.com/world/strait-hormuz-may-only-half-story-new-oil-threat-comes-focus",
+        "timestamp": 1787479256000,
+        "photo": true,
+        "postedAt": 1787488508141,
+        "image": "/img/markets-1.jpg"
+      },
+      {
+        "headline": "Alibaba Plans $10.2 Billion Share Sale To Fund AI Push",
+        "url": "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23/",
+        "timestamp": 1787474007000,
+        "postedAt": 1787488508141
+      },
+      {
+        "headline": "Mark Walter's Sports Empire Reveals Private Credit's Money Machine",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mark-walter-sports-empire-offers-070000533.html",
+        "timestamp": 1787468400000,
+        "postedAt": 1787488508141
+      },
+      {
+        "headline": "Meta Faces Another Round In Court Of Judge Yvonne Gonzalez Rogers",
+        "url": "https://www.cnbc.com/2026/08/22/meet-yvonne-gonzalez-rogers-judge-taking-on-meta.html",
+        "timestamp": 1787400001000,
+        "postedAt": 1787488508141
+      },
+      {
+        "headline": "Micron CEO Gives Investors $10 Billion Reason To Listen",
+        "url": "https://www.thestreet.com/investing/stocks/micron-10-billion-research-bet",
+        "timestamp": 1787339220000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Samsung Plans Biggest-Ever Buyback Amid AI Windfall",
+        "url": "https://www.capitalbrief.com/briefing/samsung-plans-110b-dividend-and-buyback-after-ai-windfall-09ba62e2-1f95-4951-a8da-47b23c39be97/",
+        "timestamp": 1787395794000,
+        "feature": true,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Meta's Alleged 'Hook, Hold, Harvest' Strategy Laid Out In Antitrust Trial",
+        "url": "https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy",
+        "timestamp": 1787386080000,
+        "photo": true,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "AI Spending Boom Is Outrunning Wall Street Estimates",
+        "url": "https://www.moomoo.com/th/news/post/75095764/the-ai-spending-boom-is-outrunning-wall-street-estimates-barronscom",
+        "timestamp": 1787374800000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Paramount, State AGs Set Settlement Talks; Newsom Weighs In On Merger",
+        "url": "https://deadline.com/2026/08/gavin-newsom-paramount-merger-settlement-talks-1237048002/",
+        "timestamp": 1787360340000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Former Abercrombie & Fitch CEO Ruled Competent To Face Sex Trafficking Trial",
+        "url": "https://www.nbcnews.com/news/us-news/former-abercrombie-fitch-ceo-michael-jeffries-competent-face-sex-traff-rcna593713",
+        "timestamp": 1787340744000,
+        "photo": true,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Dow, S&P 500, Nasdaq Rebound But Post Weekly Loss As Yields Rattle Stocks",
+        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-long-dated-treasury-yields-flash-us-manufacturing-pmi",
+        "timestamp": 1787340300000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "What The $20 Burrito Conversation Says About The Economy",
+        "url": "https://www.investopedia.com/what-the-burrito-says-about-the-economy-12062946",
+        "timestamp": 1787327135000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "GM Faces Safety Probe Over Engine Failures In Nearly 1 Million Vehicles",
+        "url": "https://www.investing.com/news/stock-market-news/nhtsa-opens-probe-into-nearly-1-million-gm-pickups-suvs-over-engine-failure-concerns-4871215",
+        "timestamp": 1787322960000,
+        "photo": true,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Stock Market Closing In On Its Highest Valuation Ever",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-closing-highest-valuation-142000817.html",
+        "timestamp": 1787322000000,
+        "postedAt": 1787330497309
+      }
+    ],
+    "right": [
+      {
+        "headline": "Dodgers Owner's Financial Deals Draw Federal Scrutiny",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/where-fraud-happen-mlb-analyst-120000973.html",
+        "timestamp": 1787465918000,
+        "postedAt": 1787488508141
+      },
+      {
+        "headline": "Monthly Spending Breakdown For Retirees 65 And Older",
+        "url": "https://www.investopedia.com/monthly-spending-breakdown-for-retirees-65-and-older-housing-food-transportation-healthcare-12036530",
+        "timestamp": 1787465859000,
+        "postedAt": 1787488508141
+      },
+      {
+        "headline": "Laptop Fire On American Airlines Flight Forces Landing",
+        "url": "https://www.usatoday.com/story/travel/airline-news/2026/08/22/american-airlines-laptop-fire-dfw/91421669007/",
+        "timestamp": 1787415120000,
+        "photo": true,
+        "postedAt": 1787488508141
+      },
+      {
+        "headline": "Man Plans, Markets Laugh",
+        "url": "https://www.realclearmarkets.com/blog/2026/08/22/man_plans_markets_laugh_1201898.html",
+        "timestamp": 1787401560000,
+        "postedAt": 1787488508141
+      },
+      {
+        "headline": "Iran Grants Iraqi Oil Tankers Passage Through Hormuz Strait",
+        "url": "https://www.reuters.com/business/energy/iran-grants-permission-number-iraqi-oil-tankers-pass-through-hormuz-2026-08-22/",
+        "timestamp": 1787401289000,
+        "postedAt": 1787411492489
+      },
+      {
+        "headline": "BESSENT VOWS TO EXPAND TREASURY BOND BUYBACKS TO PUSH DOWN LONG-TERM YIELDS",
+        "url": "https://finance.yahoo.com/economy/article/one-day-after-doubling-treasury-buybacks-bessent-says-hes-ready-to-boost-them-further-to-push-down-long-term-yields-181218236.html",
+        "timestamp": 1787330497309,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Borrowing Costs Rise Again As Rate-Easing Push Proves Short-Lived",
+        "url": "https://www.bbc.com/news/articles/cvg92p3ez17o",
+        "timestamp": 1787330709000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Veteran CEO Turned 80-Year-Old AC Company Into AI Darling",
+        "url": "https://fortune.com/article/dave-cote-vertiv-stock-performance-ai-boom/",
+        "timestamp": 1787385600000,
+        "photo": true,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Disney To Cut Medical Insurance For Employee Spouses With Other Coverage",
+        "url": "https://wdwnt.com/2026/08/disney-reportedly-no-longer-covering-benefits-for-insured-spouses-of-employees/",
+        "timestamp": 1787349120000,
+        "postedAt": 1787401493426
+      },
+      {
+        "headline": "Trump Pauses Beef Tariff Quota Ahead Of Midterms",
+        "url": "https://www.politico.com/news/2026/08/21/trump-ground-beef-import-tariffs-01045353",
+        "timestamp": 1787328480000,
+        "photo": true,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Citadel Unwinds Over 80% Of Risk Tied To AI Portfolio",
+        "url": "https://www.cnbc.com/2026/08/21/citadel-situational-awareness-ken-griffin.html",
+        "timestamp": 1787323164000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Canada: US Trade Teams To Meet Again As Tariff Deadline Looms",
+        "url": "https://www.reuters.com/world/americas/us-canadian-trade-teams-meet-again-tariffs-deadline-looms-2026-08-21/",
+        "timestamp": 1787322702000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "How America's $40 Trillion Debt Could Hit Your Wallet",
+        "url": "https://www.axios.com/2026/08/20/us-40-trillion-dollars-national-debt-costs-interests",
+        "timestamp": 1787318763000,
+        "postedAt": 1787330497309
+      },
+      {
+        "headline": "Job Seekers Say Hiring Process Is 'Broken'",
+        "url": "https://www.usatoday.com/story/money/economy/2026/08/21/job-seekers-say-hiring-is-broken-why/91370272007/",
+        "timestamp": 1787317740000,
+        "postedAt": 1787330497309
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,674.37",
+      "change": "+33.21",
+      "changePct": "+0.43%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "53,277.01",
+      "change": "+517.81",
+      "changePct": "+0.98%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "26,180.46",
+      "change": "+113.29",
+      "changePct": "+0.43%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr",
+      "value": "4.74%",
+      "change": "+0.04",
+      "changePct": "+0.89%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$4,680.60",
+      "change": "+109.20",
+      "changePct": "+2.39%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil",
+      "value": "$87.06",
+      "change": "+0.23",
+      "changePct": "+0.26%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$77,060.57",
+      "change": "-15.49",
+      "changePct": "-0.02%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}
