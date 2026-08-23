@@ -146,7 +146,7 @@
         "timestamp": 1787354520000,
         "photo": true,
         "postedAt": 1787488508141,
-        "image": "/img/markets-3.jpg"
+        "image": "/img/markets-2.jpg"
       },
       {
         "headline": "GitLab's New AI Security Suite Could Reshape Growth Outlook",
@@ -198,7 +198,7 @@
         "timestamp": 1787317965000,
         "photo": true,
         "postedAt": 1787330497309,
-        "image": "/img/markets-4.jpg"
+        "image": "/img/markets-3.jpg"
       },
       {
         "headline": "Broadcom Debt Deal Expected To Reach Up To $70 Billion",
@@ -369,8 +369,7 @@
         "url": "https://fortune.com/article/dave-cote-vertiv-stock-performance-ai-boom/",
         "timestamp": 1787385600000,
         "photo": true,
-        "postedAt": 1787401493426,
-        "image": "/img/markets-2.jpg"
+        "postedAt": 1787401493426
       },
       {
         "headline": "Disney To Cut Medical Insurance For Employee Spouses With Other Coverage",
@@ -431,7 +430,7 @@
     {
       "name": "Nasdaq",
       "value": "26,180.46",
-      "change": "+113.29",
+      "change": "+113.26",
       "changePct": "+0.43%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
@@ -462,9 +461,9 @@
     },
     {
       "name": "Bitcoin",
-      "value": "$77,107.38",
-      "change": "+31.32",
-      "changePct": "+0.04%",
+      "value": "$77,287.69",
+      "change": "+211.63",
+      "changePct": "+0.27%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     }
