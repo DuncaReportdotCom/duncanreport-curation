@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787488508141,
+  "lastUpdated": 1787498229369,
   "heroSetDate": "2026-08-23",
   "hero": {
     "headline": "FED HOLDS RATES STEADY AS INFLATION HITS 3-YEAR HIGH",
@@ -116,6 +116,12 @@
   "columns": {
     "left": [
       {
+        "headline": "How China Weathered The Iran Oil Shock",
+        "url": "https://chinaglobalsouth.com/2026/08/20/trump-warns-economic-consequences-countries-lifeline-iran/",
+        "timestamp": 1787496713000,
+        "postedAt": 1787498229369
+      },
+      {
         "headline": "Trump Discloses 1,000 Stock Trades Made In June",
         "url": "https://www.cnbc.com/2026/08/22/trump-reshuffled-his-portfolio-in-june-selling-names-like-meta-and-buying-berkshire-hathaway.html",
         "timestamp": 1787445660000,
@@ -140,7 +146,7 @@
         "timestamp": 1787354520000,
         "photo": true,
         "postedAt": 1787488508141,
-        "image": "/img/markets-2.jpg"
+        "image": "/img/markets-3.jpg"
       },
       {
         "headline": "GitLab's New AI Security Suite Could Reshape Growth Outlook",
@@ -192,7 +198,7 @@
         "timestamp": 1787317965000,
         "photo": true,
         "postedAt": 1787330497309,
-        "image": "/img/markets-3.jpg"
+        "image": "/img/markets-4.jpg"
       },
       {
         "headline": "Broadcom Debt Deal Expected To Reach Up To $70 Billion",
@@ -202,6 +208,19 @@
       }
     ],
     "center": [
+      {
+        "headline": "Trump Admin Predicts Trade War Would Be 'Devastating' For Canada",
+        "url": "https://finance.yahoo.com/economy/policy/articles/trump-admin-predicts-us-trade-144351146.html",
+        "timestamp": 1787496180000,
+        "postedAt": 1787498229369
+      },
+      {
+        "headline": "Judge Rules Trump's Financial Records Fair Game In BBC Lawsuit",
+        "url": "https://fortune.com/2026/08/23/trump-bbc-subpoena-family-financial-records-ruling/",
+        "timestamp": 1787496660000,
+        "feature": true,
+        "postedAt": 1787498229369
+      },
       {
         "headline": "UK: Small Power Plant Shut Down After Cyberattack Linked To Iran",
         "url": "https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html",
@@ -350,7 +369,8 @@
         "url": "https://fortune.com/article/dave-cote-vertiv-stock-performance-ai-boom/",
         "timestamp": 1787385600000,
         "photo": true,
-        "postedAt": 1787401493426
+        "postedAt": 1787401493426,
+        "image": "/img/markets-2.jpg"
       },
       {
         "headline": "Disney To Cut Medical Insurance For Employee Spouses With Other Coverage",
@@ -442,10 +462,10 @@
     },
     {
       "name": "Bitcoin",
-      "value": "$77,060.57",
-      "change": "-15.49",
-      "changePct": "-0.02%",
-      "up": false,
+      "value": "$77,107.38",
+      "change": "+31.32",
+      "changePct": "+0.04%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     }
   ]

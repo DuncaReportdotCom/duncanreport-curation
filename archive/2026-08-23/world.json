@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787488006763,
+  "lastUpdated": 1787497820383,
   "heroSetDate": "2026-08-23",
   "hero": {
     "headline": "ZELENSKY DISMISSES ELECTION CALLS AMID FIRED MINISTER'S CORRUPTION ALLEGATIONS",
@@ -133,6 +133,12 @@
   "columns": {
     "left": [
       {
+        "headline": "CrossCountry Cancels Almost All Services After Power Cut",
+        "url": "https://www.bbc.com/news/articles/cy9w9y0lz5go",
+        "timestamp": 1787493916000,
+        "postedAt": 1787497820383
+      },
+      {
         "headline": "Lebanon Arrests Food Influencer Over Drug-Laced Treats",
         "url": "https://www.arabnews.com/node/2655592/amp",
         "timestamp": 1787481371000,
@@ -226,6 +232,14 @@
     ],
     "center": [
       {
+        "headline": "Magnitude 5.9 Quake Strikes Eastern Japan, Disrupts Tokyo Trains",
+        "url": "https://globalnation.inquirer.net/335559/m5-9-quake-strikes-eastern-japan-including-tokyo-disrupting-traffic",
+        "timestamp": 1787492812000,
+        "photo": true,
+        "postedAt": 1787497820383,
+        "image": "/img/world-0.jpg"
+      },
+      {
         "headline": "Deadly Ebola Outbreak In Congo's Bundibugyo Region Can Be Stopped, Officials Say",
         "url": "https://allafrica.com/stories/202608230040.html",
         "timestamp": 1787482951000,
@@ -243,14 +257,6 @@
         "timestamp": 1787466188000,
         "photo": true,
         "postedAt": 1787488006763
-      },
-      {
-        "headline": "Magnitude 5.9 Quake Strikes Eastern Japan, Disrupts Tokyo Trains",
-        "url": "https://globalnation.inquirer.net/335559/m5-9-quake-strikes-eastern-japan-including-tokyo-disrupting-traffic",
-        "timestamp": 1787448712000,
-        "photo": true,
-        "postedAt": 1787488006763,
-        "image": "/img/world-0.jpg"
       },
       {
         "headline": "Pope Leo Calls For Dialogue, Cites Hope In Young Catholics",
@@ -331,6 +337,12 @@
     ],
     "right": [
       {
+        "headline": "US-Canada Trade Breakdown Exposes Limits Of Trump's Tariff Strategy",
+        "url": "https://timesofindia.indiatimes.com/business/international-business/why-canada-suspended-us-trade-talks-at-last-minute-despite-trumps-good-relationship-with-carney/articleshow/133417147.cms",
+        "timestamp": 1787495551000,
+        "postedAt": 1787497820383
+      },
+      {
         "headline": "UKRAINE STRIKES RUSSIAN OIL REFINERY IN RETALIATION AFTER DEADLY MALL ATTACK",
         "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-shopping-centre-attack-b3037438.html",
         "timestamp": 1787401010479,
@@ -340,12 +352,6 @@
         "headline": "Togo Says It Has 'Serious' Evidence Against Detained French Journalists",
         "url": "https://allafrica.com/stories/202608230042.html",
         "timestamp": 1787487090000,
-        "postedAt": 1787488006763
-      },
-      {
-        "headline": "US-Canada Trade Breakdown Exposes Limits Of Trump's Strategy",
-        "url": "https://timesofindia.indiatimes.com/business/international-business/why-canada-suspended-us-trade-talks-at-last-minute-despite-trumps-good-relationship-with-carney/articleshow/133417147.cms",
-        "timestamp": 1787484751000,
         "postedAt": 1787488006763
       },
       {

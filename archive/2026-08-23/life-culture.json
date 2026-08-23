@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787489722286,
+  "lastUpdated": 1787499402086,
   "heroSetDate": "2026-08-23",
   "hero": {
     "headline": "STRICT CHILDHOOD SUGAR LIMITS PAID OFF DECADES LATER, STUDY FINDS",
@@ -30,6 +30,19 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "China Postpones Ambitious Chang'e-7 Lunar Launch",
+        "url": "https://phys.org/news/2026-08-china-abruptly-postpones-ambitious-lunar.html",
+        "timestamp": 1787495931000,
+        "feature": true,
+        "postedAt": 1787499402086
+      },
+      {
+        "headline": "JWST Peeks At Callisto's Ancient Scars",
+        "url": "https://phys.org/news/2026-08-jwst-peeks-callisto-ancient-scars.html",
+        "timestamp": 1787497204000,
+        "postedAt": 1787499402086
+      },
       {
         "headline": "Scientists Explain Why Your Pupils Dilate When You're Surprised",
         "url": "https://www.sciencealert.com/scientists-reveal-the-strange-neurological-reason-your-pupils-dilate-when-youre-surprised",
@@ -136,6 +149,12 @@
       }
     ],
     "center": [
+      {
+        "headline": "Heat Dulls Blue Morpho Butterflies' Iridescent Wings",
+        "url": "https://phys.org/news/2026-08-hot-temperatures-dull-blue-morpho.html",
+        "timestamp": 1787497201000,
+        "postedAt": 1787499402086
+      },
       {
         "headline": "7 Basic iPhone Tricks Using iOS 27's New Shortcuts App",
         "url": "https://www.pcmag.com/how-to/13-simple-tips-to-squeeze-more-life-out-of-your-iphone-battery",

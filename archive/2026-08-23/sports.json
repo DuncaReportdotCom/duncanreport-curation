@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787487582734,
+  "lastUpdated": 1787497352451,
   "heroSetDate": "2026-08-23",
   "hero": {
     "headline": "BLUE JAYS HOLD OFF YANKEES AS CEASE FLIRTS WITH NO-HITTER",
@@ -171,6 +171,20 @@
   "columns": {
     "left": [
       {
+        "headline": "Robot Breaks Another Human Track Feat At Humanoid Games",
+        "url": "https://bleacherreport.com/articles/25481614-after-breaking-usain-bolts-record-robot-breaks-another-human-track-feat-world-humanoid-games",
+        "timestamp": 1787495153000,
+        "postedAt": 1787497352451
+      },
+      {
+        "headline": "IndyCar Drivers To Hit 185 Mph On Trump-Hosted D.C. Street Race",
+        "url": "https://abcnews.com/US/wireStory/trump-kick-off-indycar-race-beast-cars-zoom-135878595",
+        "timestamp": 1787495599000,
+        "photo": true,
+        "postedAt": 1787497352451,
+        "image": "/img/sports-0.jpg"
+      },
+      {
         "headline": "Oliver's Camp Absence Tied To Injury, Not Personal Tragedy",
         "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-brady-ed-olivers-absence-is-related-to-an-injury-not-his-personal-tragedy",
         "timestamp": 1787475079000,
@@ -194,7 +208,7 @@
         "timestamp": 1787463060000,
         "photo": true,
         "postedAt": 1787487582734,
-        "image": "/img/sports-0.jpg"
+        "image": "/img/sports-1.jpg"
       },
       {
         "headline": "Inside The Power And Money Struggle At Washington's IndyCar Race",
@@ -226,8 +240,7 @@
         "timestamp": 1787329056000,
         "feature": true,
         "photo": true,
-        "postedAt": 1787329790346,
-        "image": "/img/sports-4.jpg"
+        "postedAt": 1787329790346
       },
       {
         "headline": "FIFA Bans Three Argentina Players, Including 10-Game Suspension For Paredes",
@@ -250,6 +263,12 @@
     ],
     "center": [
       {
+        "headline": "Diamondbacks Look To Close Wild-Card Gap Against Reds",
+        "url": "https://deadspin.com/diamondbacks-look-to-close-wild-card-gap-against-reds/",
+        "timestamp": 1787495220000,
+        "postedAt": 1787497352451
+      },
+      {
         "headline": "Court Order On NCAA Sports Sends Browns TE Wright Into Portal",
         "url": "https://bleacherreport.com/articles/25478978-browns-te-daequan-wright-among-players-enter-transfer-portal-after-court-order-ncaa-sports",
         "timestamp": 1787472676000,
@@ -269,7 +288,7 @@
         "timestamp": 1787450520000,
         "photo": true,
         "postedAt": 1787487582734,
-        "image": "/img/sports-2.jpg"
+        "image": "/img/sports-3.jpg"
       },
       {
         "headline": "JANNIK SINNER WITHDRAWS FROM US OPEN WITH KNEE INJURY",
@@ -349,7 +368,7 @@
         "timestamp": 1787459520000,
         "photo": true,
         "postedAt": 1787487582734,
-        "image": "/img/sports-1.jpg"
+        "image": "/img/sports-2.jpg"
       },
       {
         "headline": "Inside Cincinnati's $260M Overhaul Of Tennis' 'Worst' Stop",
@@ -363,7 +382,7 @@
         "timestamp": 1787405400000,
         "photo": true,
         "postedAt": 1787410772454,
-        "image": "/img/sports-3.jpg"
+        "image": "/img/sports-4.jpg"
       },
       {
         "headline": "Vieira Misses Weight For Cyborg Title Fight At PFL Tampa",

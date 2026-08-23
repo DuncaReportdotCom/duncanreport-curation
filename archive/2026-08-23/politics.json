@@ -1,16 +1,24 @@
 {
-  "lastUpdated": 1787489279221,
+  "lastUpdated": 1787498824183,
   "heroSetDate": "2026-08-23",
   "hero": {
-    "headline": "TRUMP LASHES OUT AS US-CANADA TRADE TALKS COLLAPSE",
-    "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war",
+    "headline": "CANADA'S CARNEY SAYS COUNTRY 'AT WAR' WITH TRUMP OVER TARIFFS",
+    "url": "https://nypost.com/2026/08/23/us-news/canadian-pm-mark-carney-says-country-at-war-with-president-trump-on-trade-we-got-attacked/",
     "sublinks": [
       {
-        "text": "Canada Vows To Match Trump's Tariffs Dollar-For-Dollar",
+        "text": "Trump Says Canada Wants 'Benefits Of Being A State'",
+        "url": "https://www.newsweek.com/trump-issues-first-response-after-us-canada-trade-deal-collapses-12356928"
+      },
+      {
+        "text": "Canada To Match U.S. Tariffs Dollar For Dollar",
         "url": "https://time.com/article/2026/08/22/us-canada-trade-negotiations-breakdown-tariffs/"
+      },
+      {
+        "text": "Carney Faces Test After Warning On Economic Coercion",
+        "url": "https://www.newsmax.com/world/globaltalk/canada-carney-trump-tariffs-economic-coercion-trade/2026/08/23/id/1267036/"
       }
     ],
-    "postedAt": 1787489279221,
+    "postedAt": 1787498824183,
     "img": true
   },
   "groups": [
@@ -147,6 +155,24 @@
     ],
     "center": [
       {
+        "headline": "Jeffries And Kushner Meet Privately As Midterm Attacks Fly",
+        "url": "https://www.newsmax.com/newsfront/hakeem-jeffries-jared-kushner-donald-trump/2026/08/23/id/1267035/",
+        "timestamp": 1787497654000,
+        "postedAt": 1787498824183
+      },
+      {
+        "headline": "El-Sayed's Win Triggers Wave Of Anti-Muslim Rhetoric Online",
+        "url": "https://www.deadlinedetroit.com/articles/34989/washington_post_analysis_el-sayed_s_win_triggered_wave_of_anti-muslim_rhetoric_online",
+        "timestamp": 1787497355000,
+        "postedAt": 1787498824183
+      },
+      {
+        "headline": "How Republicans Turned Against Data Centers",
+        "url": "https://thenevadaindependent.com/article/opinion-nevada-politicians-are-too-slow-to-reckon-with-the-revolt-against-data-centers",
+        "timestamp": 1787497352000,
+        "postedAt": 1787498824183
+      },
+      {
         "headline": "Trump Laying Groundwork To Impose National Emergency By Sowing Election Distrust",
         "url": "https://www.theguardian.com/us-news/2026/aug/23/trump-sowing-election-distrust",
         "timestamp": 1787479320000,
@@ -246,6 +272,12 @@
       }
     ],
     "right": [
+      {
+        "headline": "TRUMP LASHES OUT AS US-CANADA TRADE TALKS COLLAPSE",
+        "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war",
+        "timestamp": 1787489279221,
+        "postedAt": 1787489279221
+      },
       {
         "headline": "Putin Wants To Draft 300,000 New Troops, Zelenskyy Says",
         "url": "https://www.newsmax.com/world/globaltalk/ukraine-russia-draft/2026/08/23/id/1267018/",
