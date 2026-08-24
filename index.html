@@ -3,6 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name='impact-site-verification' value='275fdbdd-e58b-4612-9d4b-ab2240a2adf9'>
 <title>DuncanReport.com</title>
 <link rel="canonical" href="https://duncanreport.com/" />
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -810,6 +811,85 @@ function startLiveScores() {
   _liveScoresTimer = setInterval(tick, 60000);
 }
 
+// ===== ADDED: IndyCar + UFC in the sports left column (ESPN, CORS-open, like live scores) =====
+// IndyCar: the next race with its start time, or a LIVE running-order leaderboard while a race is on.
+// UFC: the next numbered events (UFC 330, 331, ...) with dates - Fight Nights/Contender Series excluded.
+var ESPN_IRL = "https://site.web.api.espn.com/apis/site/v2/sports/racing/irl/scoreboard";
+var ESPN_UFC = "https://site.web.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard";
+function _msWhen(iso) {
+  var t = Date.parse(iso || ""); if (!t) return "";
+  var d = new Date(t);
+  var time = d.toLocaleTimeString('en-US', { timeZone:'America/New_York', hour:'numeric', minute:'2-digit' }) + ' ET';
+  function etDay(x){ return new Date(x.toLocaleString('en-US', { timeZone:'America/New_York' })).toDateString(); }
+  if (etDay(d) === etDay(new Date())) return 'Today ' + time;
+  return d.toLocaleDateString('en-US', { timeZone:'America/New_York', weekday:'short', month:'short', day:'numeric' }) + ' ' + time;
+}
+function indycarHTML(d) {
+  try {
+    var cal = (d.leagues && d.leagues[0] && d.leagues[0].calendar) || [], now = Date.now();
+    var liveEv = (d.events || []).filter(function(ev){
+      var st = ev.competitions && ev.competitions[0] && ev.competitions[0].status && ev.competitions[0].status.type;
+      return st && st.state === 'in'; })[0];
+    if (liveEv) {
+      var comp = liveEv.competitions[0];
+      var board = (comp.competitors || []).slice().sort(function(a,b){ return (a.order||99) - (b.order||99); }).slice(0, 6);
+      var h = '<div class="sb-lg-hdr">INDYCAR &mdash; ' + (liveEv.shortName || liveEv.name || 'Race') + ' <span class="sb-live">LIVE</span></div>';
+      board.forEach(function(c, i){
+        var nm = (c.athlete && (c.athlete.shortName || c.athlete.displayName)) || '';
+        h += '<span class="sb-row"><span class="sb-teams">' + (i+1) + '. ' + nm + '</span></span>';
+      });
+      return h;
+    }
+    var next = cal.filter(function(r){ return Date.parse(r.startDate||"") >= now; })
+                  .sort(function(a,b){ return Date.parse(a.startDate) - Date.parse(b.startDate); })[0];
+    if (!next) return '';
+    var url = 'https://www.indycar.com/schedule';
+    return '<div class="sb-lg-hdr"><a href="' + url + '" target="_blank">INDYCAR</a></div>' +
+      '<a class="sb-row" href="' + url + '" target="_blank"><span class="sb-teams">' + next.label +
+      '</span> <span class="sb-note">' + _msWhen(next.startDate) + '</span></a>';
+  } catch(e) { return ''; }
+}
+function ufcHTML(d) {
+  try {
+    var cal = (d.leagues && d.leagues[0] && d.leagues[0].calendar) || [], now = Date.now();
+    var numbered = cal.filter(function(e){ return /^UFC\s+\d/.test(e.label || "") && Date.parse(e.startDate||"") >= now; })
+                      .sort(function(a,b){ return Date.parse(a.startDate) - Date.parse(b.startDate); }).slice(0, 2);
+    if (!numbered.length) return '';
+    var h = '<div class="sb-lg-hdr">UFC</div>';
+    numbered.forEach(function(e){
+      var id = ((e.event && e.event.$ref) || "").match(/events\/(\d+)/);
+      var href = id ? ('https://www.espn.com/mma/fightcenter/_/id/' + id[1] + '/league/ufc') : 'https://www.espn.com/mma/schedule';
+      h += '<a class="sb-row" href="' + href + '" target="_blank"><span class="sb-teams">' + e.label +
+        '</span> <span class="sb-note">' + _msWhen(e.startDate) + '</span></a>';
+    });
+    return h;
+  } catch(e) { return ''; }
+}
+function paintMotorsports(html) {
+  var left = document.getElementById('col-left'); if (!left) return;
+  var existing = left.querySelector('.ms-block');
+  if (!html) { if (existing) existing.remove(); return; }
+  var block = '<div class="ms-block sb-block">' + html + '</div>';
+  if (existing) { existing.outerHTML = block; return; }
+  var sb = left.querySelector('.sb-block');
+  if (sb) { sb.insertAdjacentHTML('afterend', block); } else { left.insertAdjacentHTML('afterbegin', block); }
+}
+var _msTimer = null;
+function startMotorsports() {
+  if (currentSection() !== 'sports') return;
+  function tick() {
+    Promise.all([
+      fetch(ESPN_IRL, { cache:'no-store' }).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
+      fetch(ESPN_UFC, { cache:'no-store' }).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; })
+    ]).then(function(res){
+      paintMotorsports((res[0] ? indycarHTML(res[0]) : '') + (res[1] ? ufcHTML(res[1]) : ''));
+    }).catch(function(){});
+  }
+  tick();
+  if (_msTimer) clearInterval(_msTimer);
+  _msTimer = setInterval(tick, 60000);
+}
+
 function renderStories(data) {
 // Markets strip renders regardless of hero; sports scores go into the left column below.
 if (currentSection() === 'markets') {
@@ -1146,7 +1226,7 @@ console.error('fetchNews error', err);
 renderStories({});
 }
 // Live scores: refresh the scoreboard from ESPN on the sports page (skip archive views)
-if (currentSection() === 'sports' && !ARCHIVE_DATE) { startLiveScores(); }
+if (currentSection() === 'sports' && !ARCHIVE_DATE) { startLiveScores(); startMotorsports(); }
 })();
 }
 // Auto-run on load
