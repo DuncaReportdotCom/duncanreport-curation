@@ -6,7 +6,7 @@ name: Publish DuncanReport
 #   narrative-review- generate the biweekly narrative review (review.json)
 #   main/sports/world/markets/politics/life-culture - curate just that one page
 #
-# Schedules: full "all" TWICE daily at 06:45 and 09:30 US Central year-round. The 06:45 run gives
+# Schedules: full "all" TWICE daily at 06:00 and 09:30 US Central year-round. The 06:00 run gives
 # the East Coast a fresh site by ~08:15 ET; the 09:30 run (10:30 ET) refreshes with the morning's
 # developing news and lets the hero roll over to the biggest CURRENT story. GitHub cron is UTC-only
 # and does NOT follow daylight saving, so each run fires at BOTH its CDT and CST UTC-equivalents and
@@ -15,8 +15,8 @@ name: Publish DuncanReport
 
 on:
   schedule:
-    - cron: "45 11 * * *"      # 06:45 Central during CDT (summer); gated to 06:xx Central
-    - cron: "45 12 * * *"      # 06:45 Central during CST (winter); gated to 06:xx Central
+    - cron: "0 11 * * *"       # 06:00 Central during CDT (summer); gated to 06:xx Central
+    - cron: "0 12 * * *"       # 06:00 Central during CST (winter); gated to 06:xx Central
     - cron: "30 14 * * *"      # 09:30 Central during CDT (summer); gated to 09:xx Central
     - cron: "30 15 * * *"      # 09:30 Central during CST (winter); gated to 09:xx Central
     - cron: "0 12 1,15 * *"    # biweekly narrative review
@@ -61,8 +61,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # DST-aware gate: both daily crons fire (11:45 and 12:45 UTC), but only the one that is 06:xx in
-  # US Central right now proceeds - so the real run happens at 06:45 Central all year, adjusting for
+  # DST-aware gate: the early daily crons fire (11:00 and 12:00 UTC), but only the one that is 06:xx in
+  # US Central right now proceeds - so the real run happens at 06:00 Central all year, adjusting for
   # daylight saving. Manual runs and the narrative-review cron always proceed. A skipped daily cron
   # ends "neutral" (not a failed/red run).
   gate:
