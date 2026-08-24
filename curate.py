@@ -4795,7 +4795,7 @@ def rolling_balance(section, counts):
     except Exception:
         hist = {}
     hist.setdefault(today, {})[section] = counts        # idempotent: overwrite today's entry
-    cutoff = (datetime.date.today() - datetime.timedelta(days=6)).isoformat()   # keep 7 days incl today
+    cutoff = (datetime.date.today() - datetime.timedelta(days=29)).isoformat()  # keep 30 days incl today
     hist = {d: v for d, v in hist.items() if d >= cutoff}
     try:
         with open(BALANCE_PATH, "w", encoding="utf-8") as f:
@@ -4813,10 +4813,10 @@ def attach_balance(section, data):
     front end can show it in the footer. Only for the ideologically balanced pages."""
     L, R, I = rolling_balance(section, count_leans(data))
     tot = L + R
-    data["balance"] = {"left": L, "right": R, "independent": I, "days": 7, "total": tot,
+    data["balance"] = {"left": L, "right": R, "independent": I, "days": 30, "total": tot,
                        "pctLeft": (round(100 * L / tot) if tot else None),
                        "pctRight": (round(100 * R / tot) if tot else None)}
-    print("  balance[%s] 7-day: L=%d R=%d ind=%d" % (section, L, R, I))
+    print("  balance[%s] 30-day: L=%d R=%d ind=%d" % (section, L, R, I))
     return data
 
 def _write_section(sec, data):
