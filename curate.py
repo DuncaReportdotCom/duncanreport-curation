@@ -2603,6 +2603,29 @@ def curate_live(section):
             "still honor BREADTH and reserve the ODDITY slots regardless of volume.\n"
             % "\n".join(lines))
     editorial += (sports_emphasis() if section == "sports" else EMPHASIS.get(section, ""))
+    if section in ("main", "politics", "world"):
+        strict = ("This is a HARD constraint on this page - hit 50/50 as closely as the candidate pool allows."
+                  if section in ("main", "politics") else
+                  "On the WORLD page treat this as a strong GOAL, not a hard 50/50: international coverage "
+                  "skews establishment/left because most of the world lacks a free or right-of-center press, "
+                  "so a strict split is often impossible. Actively include right-leaning, skeptical, or "
+                  "dissenting takes wherever they genuinely exist, but never force a false balance or invent "
+                  "it where the sourcing isn't there.")
+        editorial += (
+            "\n\n===== IDEOLOGICAL BALANCE (50/50 LEFT-RIGHT) =====\n"
+            "Balance the page by OUTLET LEAN: of the stories drawn from clearly LEFT-leaning and clearly "
+            "RIGHT-leaning outlets, aim for a 50/50 split - as near half-left / half-right as the pool "
+            "allows, measured across the WHOLE page (hero + panels + columns) TOGETHER, not within any one "
+            "column. This is the core of our mission: source diversity, never one side's framing. %s\n"
+            "- WHAT COUNTS: only clearly left- or right-leaning outlets count toward the ratio. "
+            "INDEPENDENT-class voices (e.g. Greenwald, Taibbi, Silver, Weiss) are EXEMPT and count toward "
+            "NEITHER side. Genuinely neutral wires (AP, Reuters, AFP) are likewise not counted as left or "
+            "right.\n"
+            "- HOW: prefer covering the SAME major stories from BOTH sides; when a slot is sourced to one "
+            "lean, look to match it with a comparable story from the other lean; if the candidate pool is "
+            "lopsided, give the marginal slots to the UNDER-represented side. Never let one lean dominate "
+            "the page.\n"
+            % strict)
     try:
         live_hero = (live_current(section) or {}).get("hero") or {}
     except Exception:
@@ -3810,12 +3833,69 @@ def post_to_x(posts, dry_run=False):
     print("  social: posted %d/%d tweets to X" % (n, len(posts)))
     return n, "ok"
 
+# ---- Bluesky (AT Protocol / XRPC) --------------------------------------------
+# Bluesky authenticates with a handle + an APP PASSWORD (never your main password), then posts
+# via plain HTTP XRPC calls - no SDK needed. Each story becomes a post with an external link card
+# (app.bsky.embed.external) so the headline is a rich, clickable card straight to the article.
+# Credentials come from env: BLUESKY_HANDLE and BLUESKY_APP_PASSWORD (GitHub secrets), never code.
+BSKY_HOST = "https://bsky.social"
+
+def _bsky_session(handle, app_pw):
+    body = json.dumps({"identifier": handle, "password": app_pw}).encode()
+    req = urllib.request.Request(BSKY_HOST + "/xrpc/com.atproto.server.createSession",
+                                 data=body, headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.loads(r.read())
+
+def _bsky_create_post(sess, text, link, title):
+    rec = {"$type": "app.bsky.feed.post", "text": text[:300], "langs": ["en"],
+           "createdAt": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")}
+    if link:
+        rec["embed"] = {"$type": "app.bsky.embed.external",
+                        "external": {"uri": link, "title": (title or link)[:300], "description": ""}}
+    body = json.dumps({"repo": sess["did"], "collection": "app.bsky.feed.post", "record": rec}).encode()
+    req = urllib.request.Request(BSKY_HOST + "/xrpc/com.atproto.repo.createRecord", data=body,
+                                 headers={"Content-Type": "application/json",
+                                          "Authorization": "Bearer " + sess["accessJwt"]})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.loads(r.read())
+
+def post_to_bluesky(posts, dry_run=False):
+    """Publish the drafted posts to Bluesky. Needs BLUESKY_HANDLE + BLUESKY_APP_PASSWORD in env.
+    The article link rides in a link card, so the appended section URL is stripped from the text."""
+    handle = os.environ.get("BLUESKY_HANDLE") or "theduncanreport.bsky.social"
+    app_pw = os.environ.get("BLUESKY_APP_PASSWORD")
+    if dry_run:
+        print("  social DRY_RUN - would post %d to Bluesky" % len(posts))
+        return 0, "dry_run"
+    if not (handle and app_pw):
+        print("  social: Bluesky creds not set (need BLUESKY_HANDLE + BLUESKY_APP_PASSWORD); skipping")
+        return 0, "no creds"
+    try:
+        sess = _bsky_session(handle, app_pw)
+    except Exception as e:
+        print("    bluesky auth failed:", repr(e)[:160])
+        return 0, "auth failed"
+    n = 0
+    for p in posts:
+        suffix = " " + _section_url(p["section"])
+        text = p["text"][:-len(suffix)] if p["text"].endswith(suffix) else p["text"]   # link goes in the card
+        try:
+            _bsky_create_post(sess, text, p["url"], p.get("headline"))
+            n += 1
+            time.sleep(0.5)
+        except Exception as e:
+            print("    bluesky post failed:", repr(e)[:160])
+    print("  social: posted %d/%d to Bluesky" % (n, len(posts)))
+    return n, "ok"
+
 def social_publish(per_section, enabled_run):
     """Orchestrate the daily social post: only on a full curation run, only when
-    configured (X creds present or SOCIAL_ENABLE set). Honors SOCIAL_DRY_RUN."""
+    configured (X creds, Bluesky creds, or SOCIAL_ENABLE set). Honors SOCIAL_DRY_RUN."""
     if not enabled_run:
         return
-    if not (os.environ.get("SOCIAL_ENABLE") or os.environ.get("X_API_KEY")):
+    if not (os.environ.get("SOCIAL_ENABLE") or os.environ.get("X_API_KEY")
+            or os.environ.get("BLUESKY_APP_PASSWORD")):
         return   # feature stays off until credentials/flag are added
     dry = bool(os.environ.get("SOCIAL_DRY_RUN"))
     st = _load_social_state()
@@ -3838,7 +3918,9 @@ def social_publish(per_section, enabled_run):
                       ensure_ascii=False, indent=2)
     except Exception:
         pass
-    n, msg = post_to_x(posts, dry_run=dry)
+    nx, _mx = post_to_x(posts, dry_run=dry)
+    nb, _mb = post_to_bluesky(posts, dry_run=dry)
+    n = nx + nb
     if not dry and n:
         now = now_ms()
         for p in posts:                      # mark all attempted so nothing re-posts
@@ -3846,7 +3928,7 @@ def social_publish(per_section, enabled_run):
         cut = now - 7 * 24 * 3600 * 1000     # prune old entries; stories live only 3 days
         st["posted"] = {u: t for u, t in posted.items() if t >= cut}
         _save_social_state(st)
-    STATUS["_social"] = ("dry_run %d drafted" % len(posts)) if dry else ("posted %d to X" % n)
+    STATUS["_social"] = ("dry_run %d drafted" % len(posts)) if dry else ("posted X=%d Bluesky=%d" % (nx, nb))
 
 
 def sports_scoreboard(per_league=10, total=40):
@@ -4385,6 +4467,10 @@ def apply_suppress(data):
 MANUAL_PICKS = {
     "main": [
         {"headline": "Prince Harry and Meghan Moving Their Family Back to the UK", "url": 'https://www.nbcnews.com/world/united-kingdom/prince-harry-meghan-will-move-back-united-kingdom-source-says-rcna593435', "added": '2026-08-20'},
+        # Counterintuitive, multi-narrative Not the Bee item - flagged for a self-hosted photo.
+        {"headline": "More Died From Heat In France This Summer Than In All US Mass Shootings In History",
+         "url": 'https://notthebee.com/article/report-more-people-have-died-from-heat-in-france-this-summer-than-all-us-mass-shootings-in-history',
+         "added": '2026-08-23', "photo": True},
     ],
     "markets": [
         {"headline": "Walmart US Same-Store Sales Post Slowest Growth in Six Years", "url": 'https://chainstoreage.com/walmart-beats-street-q2-eps-revenues-misses-us-comp-sales', "added": '2026-08-20'},
@@ -4442,8 +4528,12 @@ def apply_manual_picks(section, data):
             seen = seen or any(s.get("url") == url for s in (g.get("stories") or []))
         if seen:
             continue
-        cols.setdefault("left", []).insert(0,
-            {"headline": p["headline"], "url": url, "timestamp": added, "postedAt": added})
+        item = {"headline": p["headline"], "url": url, "timestamp": added, "postedAt": added}
+        if p.get("photo"):
+            item["photo"] = True      # apply_column_images self-hosts this story's og:image
+        if p.get("feature"):
+            item["feature"] = True    # dark-red bold emphasis
+        cols.setdefault("left", []).insert(0, item)
     return data
 def build_metrics(per_section, target, traffic=None):
     now = now_ms()
@@ -4545,6 +4635,106 @@ def _preserve_review():
     except Exception:
         pass
 
+
+# ===================== LEFT/RIGHT BALANCE TALLY (rolling 7 days) =====================
+# Outlet-lean map used for the public balance figure. EDITABLE - adjust freely as you refine who
+# counts as left vs right. Only clearly-leaning outlets count toward the 50/50; INDEPENDENT-class
+# voices are shown separately and excluded, and neutral wires (AP/Reuters/AFP) are not counted.
+# Entries may be a registered domain (foxnews.com) OR a full host (greenwald.substack.com).
+LEAN_MAP = {
+    "L": {"cnn.com", "msnbc.com", "nytimes.com", "washingtonpost.com", "npr.org", "politico.com",
+          "nbcnews.com", "abcnews.go.com", "abcnews.com", "cbsnews.com", "theguardian.com",
+          "democracynow.org", "vox.com", "slate.com", "motherjones.com", "thenation.com",
+          "newrepublic.com", "theatlantic.com", "huffpost.com", "dailykos.com", "salon.com",
+          "thedailybeast.com", "mediaite.com", "axios.com", "time.com", "bbc.com", "bbc.co.uk",
+          "pbs.org", "propublica.org", "thebulwark.com", "zeteo.com", "rollingstone.com",
+          "vanityfair.com", "newyorker.com", "latimes.com", "theconversation.com",
+          "heathercoxrichardson.substack.com", "dailymail.com"},
+    "R": {"foxnews.com", "foxbusiness.com", "fox.com", "washingtontimes.com", "nypost.com",
+          "breitbart.com", "dailycaller.com", "washingtonexaminer.com", "dailywire.com",
+          "newsmax.com", "realclearpolitics.com", "realclearinvestigations.com", "realclearpolicy.com",
+          "realclearpolling.com", "realclearworld.com", "realcleardefense.com", "realclearmarkets.com",
+          "thefederalist.com", "nationalreview.com", "spectator.org", "freebeacon.com",
+          "townhall.com", "theblaze.com", "justthenews.com", "notthebee.com", "babylonbee.com",
+          "westernjournal.com", "wnd.com", "zerohedge.com", "pjmedia.com", "hotair.com",
+          "redstate.com", "thepostmillennial.com", "americanthinker.com", "dailymail.co.uk",
+          "nypost.com", "wsj.com"},
+    "ind": {"greenwald.substack.com", "racket.news", "taibbi.substack.com", "natesilver.net",
+            "silverbulletin.com", "thefp.com", "bariweiss.substack.com", "andrewsullivan.substack.com",
+            "persuasion.community", "commonsense.news"},
+}
+
+def _story_lean(url):
+    """'L' / 'R' / 'ind' for a story URL, or None for neutral wires and unclassified outlets."""
+    try:
+        host = urllib.parse.urlparse(url).netloc.lower().split(":")[0]
+    except Exception:
+        return None
+    host = host[4:] if host.startswith("www.") else host
+    rd = _regdom(url)
+    for tag in ("ind", "L", "R"):                 # independents win over lean
+        s = LEAN_MAP[tag]
+        if host in s or rd in s:
+            return tag
+    return None
+
+def count_leans(data):
+    """Tally the page's stories by outlet lean (hero + panels + columns)."""
+    urls = []
+    hero = data.get("hero") or {}
+    if hero.get("url"):
+        urls.append(hero["url"])
+    cols = data.get("columns") or {}
+    for k in ("left", "center", "right"):
+        for s in (cols.get(k) or []):
+            if s.get("url"):
+                urls.append(s["url"])
+    for g in (data.get("groups") or []):
+        for s in (g.get("stories") or []):
+            if s.get("url"):
+                urls.append(s["url"])
+    c = {"L": 0, "R": 0, "ind": 0}
+    for u in urls:
+        t = _story_lean(u)
+        if t:
+            c[t] += 1
+    return c
+
+BALANCE_PATH = os.path.join(ROOT, "balance_history.json")
+
+def rolling_balance(section, counts):
+    """Record today's per-section lean counts and return the rolling 7-day totals (L, R, ind).
+    Persisted to balance_history.json (committed back by the workflow, like gift_links.json)."""
+    today = datetime.date.today().isoformat()
+    try:
+        with open(BALANCE_PATH, encoding="utf-8") as f:
+            hist = json.load(f)
+    except Exception:
+        hist = {}
+    hist.setdefault(today, {})[section] = counts        # idempotent: overwrite today's entry
+    cutoff = (datetime.date.today() - datetime.timedelta(days=6)).isoformat()   # keep 7 days incl today
+    hist = {d: v for d, v in hist.items() if d >= cutoff}
+    try:
+        with open(BALANCE_PATH, "w", encoding="utf-8") as f:
+            json.dump(hist, f, indent=2)
+    except Exception as e:
+        print("    balance history save failed: %s" % e)
+    L = R = I = 0
+    for _d, v in hist.items():
+        sc = v.get(section) or {}
+        L += sc.get("L", 0); R += sc.get("R", 0); I += sc.get("ind", 0)
+    return L, R, I
+
+def attach_balance(section, data):
+    """Compute the rolling 7-day L/R balance for this page and attach it as data['balance'] so the
+    front end can show it in the footer. Only for the ideologically balanced pages."""
+    L, R, I = rolling_balance(section, count_leans(data))
+    tot = L + R
+    data["balance"] = {"left": L, "right": R, "independent": I, "days": 7, "total": tot,
+                       "pctLeft": (round(100 * L / tot) if tot else None),
+                       "pctRight": (round(100 * R / tot) if tot else None)}
+    print("  balance[%s] 7-day: L=%d R=%d ind=%d" % (section, L, R, I))
+    return data
 
 def _write_section(sec, data):
     """Write one section's stories.json into the site bundle and, if it has real content,
@@ -4695,6 +4885,8 @@ def build():
         ensure_hero_image(sec, data)            # self-host the hero photo + set hero.img flag
         data = apply_column_images(sec, data)   # self-host Drudge-style column photos (5 minus ads)
         _scrub_drudge(data)                     # strip false "Drudge" attribution (non-drudgereport links)
+        if sec in ("main", "politics"):
+            attach_balance(sec, data)           # rolling 7-day L/R tally -> data['balance'] (footer)
         # Write the section + refresh its dated archive snapshot (skipped for empty pages so a
         # bad run never overwrites a good same-day snapshot).
         _write_section(sec, data)
