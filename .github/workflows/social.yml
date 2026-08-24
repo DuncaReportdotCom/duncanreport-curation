@@ -1,0 +1,53 @@
+# DuncanReport.com — social auto-poster (X + Bluesky), 6x/day.
+#
+# IMPORTANT: on GitHub this file must live at  .github/workflows/social.yml  (next to publish.yml)
+# for the schedule to run. It posts from the day's already-curated live stories; it does NOT
+# re-curate or redeploy the site. social_state.json is committed back so nothing posts twice.
+name: Social auto-post
+
+on:
+  workflow_dispatch:            # manual "Run workflow" button for testing
+  schedule:
+    # 6 runs/day, ~9am–7pm US Central (after the 08:00 CT curation). Times are UTC.
+    - cron: "0 14,16,18,20,22,0 * * *"
+
+concurrency:
+  group: social-post
+  cancel-in-progress: false
+
+permissions:
+  contents: write               # to commit social_state.json back
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install packages
+        run: pip install anthropic requests tweepy
+      - name: Post the next batch to socials
+        env:
+          SECTION: social-only
+          SOCIAL_BATCH: "2"                                        # stories per run per platform (set 1 for ~6/day)
+          # SOCIAL_DRY_RUN: "1"                                    # uncomment to preview without posting
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+        run: python curate.py
+      - name: Persist social_state.json
+        run: |
+          git config user.name "duncanreport-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add social_state.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "no social_state change"; exit 0; fi
+          git commit -m "social_state $(date -u +%Y-%m-%dT%H:%MZ)"
+          git fetch origin "${{ github.ref_name }}" || true
+          git merge -X ours --no-edit "origin/${{ github.ref_name }}" || true
+          git push || echo "::warning::social_state push failed (non-fatal)"
