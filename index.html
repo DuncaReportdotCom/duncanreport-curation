@@ -416,8 +416,7 @@ border-bottom: 1px solid #eee;
 <a href="/terms.html" style="color:#34435C;text-decoration:underline;">Terms</a> &middot;
 <a href="/archive.html" style="color:#34435C;text-decoration:underline;">Archive</a><br>
 <a href="https://x.com/theduncanreport" target="_blank" rel="noopener" style="color:#34435C;text-decoration:underline;">@theduncanreport on X</a> &middot;
-<a href="/grants.html" style="color:#34435C;text-decoration:underline;">We fund independent investigative journalism</a>
-<div id="balance-line" style="margin-top:5px;font-weight:bold;color:#333;"></div>
+<a href="/grants.html" style="color:#34435C;text-decoration:underline;">We fund independent investigative journalism</a><span id="balance-line" style="font-weight:bold;color:#333;"></span>
 </div>
 <script>
 // Set date
@@ -576,7 +575,7 @@ var el = document.getElementById('balance-line'); if (!el) return;
 var b = data && data.balance;
 if (!b || !b.total) { el.textContent = ''; el.style.display = 'none'; return; }
 el.style.display = '';
-el.textContent = '7-day source balance: ' + b.pctLeft + '% left · ' + b.pctRight + '% right (' + b.total + ' stories)';
+el.textContent = ' · ' + (b.days || 30) + '-day source balance: ' + b.pctLeft + '% left · ' + b.pctRight + '% right';
 }
 
 // ===== ADDED: live Bitcoin refresh =====
