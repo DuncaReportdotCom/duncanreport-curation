@@ -76,41 +76,6 @@
       ]
     },
     {
-      "title": "2026 MIDTERMS: PRIMARY DAY AND KEY SENATE POLLS",
-      "stories": [
-        {
-          "headline": "Poll: Rubio Outperforms Vance In Early 2028 Matchup",
-          "url": "https://emersoncollegepolling.com/august-2026-national-poll/",
-          "timestamp": 1787329211642,
-          "postedAt": 1787329471648
-        },
-        {
-          "headline": "Alarm Bells Ring For Vance As 2028 Buzz Builds",
-          "url": "https://www.dailymail.com/news/us-politics/article-16067425",
-          "timestamp": 1787329211642,
-          "postedAt": 1787329471648
-        },
-        {
-          "headline": "Florida Democrats' Senate Nominee Clashes With Party Chair Over Socialism",
-          "url": "https://www.axios.com/2026/08/21/florida-democrats-angie-nixon-nikki-fried-socialism",
-          "timestamp": 1787393291000,
-          "postedAt": 1787400409012
-        },
-        {
-          "headline": "Trump Urges South Carolina To Nominate Darline Graham For Senate",
-          "url": "https://apnews.com/article/trump-south-carolina-campaign-darline-graham-senate-96df66a656438fb97daf9d9a551ebda5",
-          "timestamp": 1787360940000,
-          "postedAt": 1787400409012
-        },
-        {
-          "headline": "Kushner And Jeffries Meet Privately As House Control Hangs In Balance",
-          "url": "https://www.pbs.org/newshour/politics/jared-kushner-and-democratic-leader-jeffries-meet-with-house-control-at-stake-in-november",
-          "timestamp": 1787513695000,
-          "postedAt": 1787584087122
-        }
-      ]
-    },
-    {
       "title": "NATIONAL DEBT TOPS $40 TRILLION",
       "stories": [
         {
@@ -236,12 +201,6 @@
         "postedAt": 1787584087122
       },
       {
-        "headline": "Michigan Mass Shooter's Violence Had Frightened Loved Ones For Years",
-        "url": "https://www.nbcnews.com/news/us-news/chad-hickman-michigan-shooter-profile-rcna593891",
-        "timestamp": 1787572800000,
-        "postedAt": 1787584087122
-      },
-      {
         "headline": "Homicide Suspect Found Dead By Suicide After Five Bodies Found On Oregon Property",
         "url": "https://www.koin.com/local/washington-county/forest-grove-death-investigation-press-conference-08232026/",
         "timestamp": 1787517413000,
@@ -261,12 +220,6 @@
         "postedAt": 1787443200000,
         "photo": true,
         "image": "/img/main-3.jpg"
-      },
-      {
-        "headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
-        "url": "https://www.foxnews.com/media/hasan-piker-seen-singing-mocking-we-charlie-kirk-song-live-podcast-show",
-        "timestamp": 1787443200000,
-        "postedAt": 1787443200000
       },
       {
         "headline": "More Died From Heat In France This Summer Than In All US Mass Shootings In History",
@@ -651,12 +604,12 @@
     ]
   },
   "balance": {
-    "left": 34,
-    "right": 17,
+    "left": 30,
+    "right": 16,
     "independent": 0,
     "days": 30,
-    "total": 51,
-    "pctLeft": 67,
-    "pctRight": 33
+    "total": 46,
+    "pctLeft": 65,
+    "pctRight": 35
   }
 }

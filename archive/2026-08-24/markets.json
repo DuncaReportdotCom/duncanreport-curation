@@ -76,12 +76,6 @@
           "url": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
           "timestamp": 1787571265000,
           "postedAt": 1787585601797
-        },
-        {
-          "headline": "Hedge Funds Ramp Up Dollar Shorts Ahead Of Bessent's Fiscal Plan",
-          "url": "https://finance.yahoo.com/markets/currencies/articles/hedge-funds-ramp-dollar-shorts-014046158.html",
-          "timestamp": 1787561185000,
-          "postedAt": 1787585601797
         }
       ]
     },
@@ -259,12 +253,6 @@
         "postedAt": 1787585601797
       },
       {
-        "headline": "Low Rhine Water Levels To Slow German Economy, Bundesbank Says",
-        "url": "https://en.ara.cat/economy/the-bundesbank-fears-that-the-low-river-levels-will-slow-down-germany-s-recovery-in-the-third-quarter_25_5828274.html",
-        "timestamp": 1787583201000,
-        "postedAt": 1787585601797
-      },
-      {
         "headline": "How A Trump Intervention Got The DOJ Off Live Nation's Back",
         "url": "https://thecurrency.news/articles/237566/the-trump-intervention-that-got-the-doj-off-live-nations-back/",
         "timestamp": 1787581616000,
@@ -288,13 +276,6 @@
         "headline": "Trump Admin Predicts Trade War Would Be 'Devastating' For Canada",
         "url": "https://finance.yahoo.com/economy/policy/articles/trump-admin-predicts-us-trade-144351146.html",
         "timestamp": 1787496180000,
-        "postedAt": 1787498229369
-      },
-      {
-        "headline": "Judge Rules Trump's Financial Records Fair Game In BBC Lawsuit",
-        "url": "https://fortune.com/2026/08/23/trump-bbc-subpoena-family-financial-records-ruling/",
-        "timestamp": 1787496660000,
-        "feature": true,
         "postedAt": 1787498229369
       },
       {
@@ -452,13 +433,6 @@
         "postedAt": 1787401493426
       },
       {
-        "headline": "Veteran CEO Turned 80-Year-Old AC Company Into AI Darling",
-        "url": "https://fortune.com/article/dave-cote-vertiv-stock-performance-ai-boom/",
-        "timestamp": 1787385600000,
-        "photo": true,
-        "postedAt": 1787401493426
-      },
-      {
         "headline": "Disney To Cut Medical Insurance For Employee Spouses With Other Coverage",
         "url": "https://wdwnt.com/2026/08/disney-reportedly-no-longer-covering-benefits-for-insured-spouses-of-employees/",
         "timestamp": 1787349120000,
@@ -500,57 +474,57 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,656.77",
-      "change": "-17.60",
-      "changePct": "-0.23%",
+      "value": "7,654.82",
+      "change": "-19.55",
+      "changePct": "-0.25%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "53,440.72",
-      "change": "+163.71",
-      "changePct": "+0.31%",
+      "value": "53,448.78",
+      "change": "+171.77",
+      "changePct": "+0.32%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,055.39",
-      "change": "-125.07",
-      "changePct": "-0.48%",
+      "value": "26,000.31",
+      "change": "-180.14",
+      "changePct": "-0.69%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
       "value": "4.70%",
-      "change": "-0.04",
-      "changePct": "-0.84%",
+      "change": "-0.03",
+      "changePct": "-0.72%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Gold",
-      "value": "$4,726.10",
-      "change": "+45.50",
-      "changePct": "+0.97%",
+      "value": "$4,701.40",
+      "change": "+20.80",
+      "changePct": "+0.44%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$85.12",
-      "change": "-1.94",
-      "changePct": "-2.23%",
+      "value": "$85.06",
+      "change": "-2.00",
+      "changePct": "-2.30%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$79,929.92",
-      "change": "+2,202.30",
-      "changePct": "+2.83%",
+      "value": "$78,757.95",
+      "change": "+1,030.33",
+      "changePct": "+1.33%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     }

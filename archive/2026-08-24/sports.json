@@ -658,6 +658,15 @@
       "note": "FT",
       "homeScore": "2",
       "awayScore": "1"
+    },
+    {
+      "league": "NCAAF",
+      "home": "USC",
+      "away": "SJSU",
+      "state": "scheduled",
+      "note": "8/29 - 3:00 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     }
   ]
 }
