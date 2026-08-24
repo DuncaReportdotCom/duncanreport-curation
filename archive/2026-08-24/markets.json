@@ -474,25 +474,25 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,654.82",
-      "change": "-19.55",
-      "changePct": "-0.25%",
+      "value": "7,652.85",
+      "change": "-21.52",
+      "changePct": "-0.28%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "53,448.78",
-      "change": "+171.77",
-      "changePct": "+0.32%",
+      "value": "53,417.16",
+      "change": "+140.15",
+      "changePct": "+0.26%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,000.31",
-      "change": "-180.14",
-      "changePct": "-0.69%",
+      "value": "25,980.19",
+      "change": "-200.26",
+      "changePct": "-0.76%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
@@ -506,25 +506,25 @@
     },
     {
       "name": "Gold",
-      "value": "$4,701.40",
-      "change": "+20.80",
-      "changePct": "+0.44%",
+      "value": "$4,708.40",
+      "change": "+27.80",
+      "changePct": "+0.59%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$85.06",
-      "change": "-2.00",
-      "changePct": "-2.30%",
+      "value": "$85.04",
+      "change": "-2.02",
+      "changePct": "-2.32%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$78,757.95",
-      "change": "+1,030.33",
-      "changePct": "+1.33%",
+      "value": "$78,566.28",
+      "change": "+838.66",
+      "changePct": "+1.08%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     }

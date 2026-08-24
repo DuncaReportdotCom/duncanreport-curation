@@ -178,6 +178,12 @@
     "left": [
       {
         "headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
+        "url": "https://jonathanturley.org/2026/08/23/we-are-charlie-kirk-hasan-piker-mocks-the-murdered-charlie-kirk-to-cheering-crowd/",
+        "timestamp": 1787443200000,
+        "postedAt": 1787443200000
+      },
+      {
+        "headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
         "url": "https://www.foxnews.com/media/hasan-piker-seen-singing-mocking-we-charlie-kirk-song-live-podcast-show",
         "timestamp": 1787443200000,
         "postedAt": 1787443200000
@@ -606,7 +612,7 @@
   "balance": {
     "left": 30,
     "right": 16,
-    "independent": 0,
+    "independent": 1,
     "days": 30,
     "total": 46,
     "pctLeft": 65,
