@@ -183,12 +183,6 @@
         "postedAt": 1787443200000
       },
       {
-        "headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
-        "url": "https://www.foxnews.com/media/hasan-piker-seen-singing-mocking-we-charlie-kirk-song-live-podcast-show",
-        "timestamp": 1787443200000,
-        "postedAt": 1787443200000
-      },
-      {
         "headline": "Illegal Immigrants Deported To Haiti On First Flight After Trump Ends TPS",
         "url": "https://www.dailywire.com/news/exclusive-the-illegal-immigrants-deported-on-first-flight-to-haiti-after-trump-ended-tps",
         "timestamp": 1787582827000,
@@ -611,11 +605,11 @@
   },
   "balance": {
     "left": 30,
-    "right": 16,
+    "right": 15,
     "independent": 1,
     "days": 30,
-    "total": 46,
-    "pctLeft": 65,
-    "pctRight": 35
+    "total": 45,
+    "pctLeft": 67,
+    "pctRight": 33
   }
 }
