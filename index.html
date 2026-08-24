@@ -417,6 +417,7 @@ border-bottom: 1px solid #eee;
 <a href="/archive.html" style="color:#34435C;text-decoration:underline;">Archive</a><br>
 <a href="https://x.com/theduncanreport" target="_blank" rel="noopener" style="color:#34435C;text-decoration:underline;">@theduncanreport on X</a> &middot;
 <a href="/grants.html" style="color:#34435C;text-decoration:underline;">We fund independent investigative journalism</a>
+<div id="balance-line" style="margin-top:5px;font-weight:bold;color:#333;"></div>
 </div>
 <script>
 // Set date
@@ -567,6 +568,15 @@ return '<a class="mk-item" href="' + (q.url || WSJ_MKT) + '" target="_blank" sty
 '<span class="mk-name">' + q.name + '</span> ' +
 '<span class="mk-val">' + q.value + '</span>' + chgHtml + '</a>';
 }).join('<span class="mk-sep">|</span>');
+}
+
+// ===== ADDED: public 7-day left/right source-balance line in the footer =====
+function renderBalance(data) {
+var el = document.getElementById('balance-line'); if (!el) return;
+var b = data && data.balance;
+if (!b || !b.total) { el.textContent = ''; el.style.display = 'none'; return; }
+el.style.display = '';
+el.textContent = '7-day source balance: ' + b.pctLeft + '% left · ' + b.pctRight + '% right (' + b.total + ' stories)';
 }
 
 // ===== ADDED: live Bitcoin refresh =====
@@ -809,6 +819,7 @@ if (currentSection() === 'markets') {
   startLiveBitcoin();   // BTC trades 24/7 - refresh its price live on load + every 60s
   startLiveIndices();   // S&P/Dow/Nasdaq/10-Yr/Gold/Oil - live during the session, via /api/quotes
 } else { renderMarkets(data && data.markets); }
+renderBalance(data);   // 7-day L/R source balance in the footer (main/politics/world carry data.balance)
 if (currentSection() === 'politics') {
   if (data && data.polls && data.polls.length) { renderPolls(data.polls); }
   else { renderPollLinks(); }
