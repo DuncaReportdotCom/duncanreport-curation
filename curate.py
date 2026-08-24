@@ -4377,7 +4377,7 @@ def _drop_story_url(data, url):
             ng.append({**g, "stories": st})
     data["groups"] = ng
 
-def replace_paywalled(data, cap=16, gift_store=None, live_cap=60):
+def replace_paywalled(data, cap=16, gift_store=None, live_cap=25):
     """For any hard-paywalled link: first use a saved GIFT link for that exact article if we
     have one (keeps the original outlet); else swap in a same-subject article from a FREE source
     (our headline is kept). If nothing free exists, DROP the story from the body rather than link
@@ -4396,7 +4396,7 @@ def replace_paywalled(data, cap=16, gift_store=None, live_cap=60):
             # isAccessibleForFree:false, a subscribe gate, etc.). Fail OPEN on anything we can't
             # read, so a genuinely free story is never dropped by mistake. Budgeted by live_cap.
             lv[0] += 1
-            if _confirm_free_article(u, timeout=8) is False:
+            if _confirm_free_article(u, timeout=6) is False:
                 walled = True
         if not walled:
             return True
@@ -4933,7 +4933,11 @@ def build():
         data = apply_manual_picks(sec, data)
         data = apply_suppress(data)
         harvest_gift_links(data, gift_store)   # learn any gift links on this page before swapping
-        data = replace_paywalled(data, gift_store=gift_store)   # gift link, else free same-subject swap
+        # Live paywall verification is EXPENSIVE (it fetches each article). Only run it for sections
+        # we actually CURATE this run; preserved/deploy-only content was already vetted when it was
+        # curated, so skip it there (live_cap=0). This keeps a redeploy fast (~1-2 min) instead of
+        # spending many minutes re-fetching hundreds of already-checked article pages every push.
+        data = replace_paywalled(data, gift_store=gift_store, live_cap=(25 if sec in targets else 0))
         if sec == "life-culture":
             data = cap_fashion(data)     # at most one fashion item, never a fashion panel
         if sec == "sports":
