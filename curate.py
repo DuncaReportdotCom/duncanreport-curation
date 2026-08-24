@@ -857,6 +857,10 @@ NARRATIVES = json.loads(r"""{
    "q": "Trump (approval OR investigation OR lawsuit OR administration OR staff)"
   },
   {
+   "arc": "Jake Lang",
+   "q": "\"Jake Lang\" (Quran OR Koran OR burning OR Dearborn OR Islam OR mosque OR arrest OR rioting OR march OR protest OR Senate OR Florida OR Capitol OR pardon)"
+  },
+  {
    "arc": "2026 elections",
    "q": "2026 (midterm OR Senate race OR House race OR governor race OR primary)"
   },
@@ -1107,6 +1111,10 @@ NARRATIVES = json.loads(r"""{
   {
    "arc": "Trump administration",
    "q": "Trump (administration OR \"executive order\" OR cabinet OR policy)"
+  },
+  {
+   "arc": "Jake Lang",
+   "q": "\"Jake Lang\" (Quran OR Koran OR burning OR Dearborn OR Islam OR mosque OR arrest OR rioting OR march OR protest OR Senate OR Florida OR Capitol OR pardon)"
   },
   {
    "arc": "Congress",
@@ -2603,6 +2611,15 @@ def curate_live(section):
             "still honor BREADTH and reserve the ODDITY slots regardless of volume.\n"
             % "\n".join(lines))
     editorial += (sports_emphasis() if section == "sports" else EMPHASIS.get(section, ""))
+    editorial += (
+        "\n\n===== HEADLINE DISCLOSURE (NO TEASER / CLICKBAIT) =====\n"
+        "ALWAYS err on the side of DISCLOSURE. A headline must NAME the specific who/what it is about "
+        "whenever that is known - never withhold the key fact to force a click. NO curiosity-gap "
+        "teasers: do NOT write 'a popular rock band', 'a major star', 'one US state', 'this company', "
+        "'a beloved actor' when the actual name is available in the candidate story - name it. "
+        "Concrete example: NOT 'Popular Rock Band's Tour Bus In Deadly Upstate Crash' -> YES "
+        "'Buckcherry's Tour Bus In Deadly Upstate New York Crash'. A headline that tells the reader "
+        "WHAT HAPPENED always beats one written to make them click to find out who or what it means.\n")
     if section in ("main", "politics", "world"):
         strict = ("This is a HARD constraint on this page - hit 50/50 as closely as the candidate pool allows."
                   if section in ("main", "politics") else
@@ -3770,8 +3787,8 @@ def _collect_new_stories(per_section, hours=22):
             out.append({"headline": headline, "url": url, "section": sec})
     return out
 
-def draft_social_posts(cands):
-    """Ask Claude to pick the SOCIAL_MAX most interesting new stories and draft an X
+def draft_social_posts(cands, max_posts=SOCIAL_MAX):
+    """Ask Claude to pick the `max_posts` most interesting new stories and draft a
     post for each. Returns [{text, url, section, headline}] with the section link
     already appended."""
     from anthropic import Anthropic
@@ -3786,13 +3803,13 @@ def draft_social_posts(cands):
               "across the picks; at most 1-2 relevant hashtags; keep each post UNDER 230 characters (a link "
               "is appended automatically - do NOT include any URL); vary the topics for breadth; never reveal "
               "that this is automated or AI-written. Return ONLY JSON: {\"posts\":[{\"id\":\"c3\",\"text\":\"...\"}]} "
-              "with up to %d items, strongest first." % (SOCIAL_MAX, SOCIAL_MAX))
+              "with up to %d items, strongest first." % (max_posts, max_posts))
     msg = client.messages.create(model=working_model(client), max_tokens=4000, system=system,
                                  messages=[{"role": "user", "content": "CANDIDATES:\n" + cj}])
     text = "".join((getattr(b, "text", "") or "") for b in msg.content)
     d = extract_json(text) or {}
     posts = []
-    for p in (d.get("posts") or [])[:SOCIAL_MAX]:
+    for p in (d.get("posts") or [])[:max_posts]:
         c = idx.get(p.get("id"))
         t = (p.get("text") or "").strip()
         if not c or not t:
@@ -3889,9 +3906,10 @@ def post_to_bluesky(posts, dry_run=False):
     print("  social: posted %d/%d to Bluesky" % (n, len(posts)))
     return n, "ok"
 
-def social_publish(per_section, enabled_run):
-    """Orchestrate the daily social post: only on a full curation run, only when
-    configured (X creds, Bluesky creds, or SOCIAL_ENABLE set). Honors SOCIAL_DRY_RUN."""
+def social_publish(per_section, enabled_run, max_posts=SOCIAL_MAX):
+    """Orchestrate a social post: only when enabled and configured (X creds, Bluesky creds, or
+    SOCIAL_ENABLE set). Posts up to `max_posts` still-unposted stories to X + Bluesky. Honors
+    SOCIAL_DRY_RUN."""
     if not enabled_run:
         return
     if not (os.environ.get("SOCIAL_ENABLE") or os.environ.get("X_API_KEY")
@@ -3905,7 +3923,7 @@ def social_publish(per_section, enabled_run):
         print("  social: no new stories to post this cycle")
         return
     try:
-        posts = draft_social_posts(cands)
+        posts = draft_social_posts(cands, max_posts=max_posts)
     except Exception as e:
         print("  social: drafting failed:", repr(e)[:160])
         return
@@ -3929,6 +3947,24 @@ def social_publish(per_section, enabled_run):
         st["posted"] = {u: t for u, t in posted.items() if t >= cut}
         _save_social_state(st)
     STATUS["_social"] = ("dry_run %d drafted" % len(posts)) if dry else ("posted X=%d Bluesky=%d" % (nx, nb))
+
+
+def run_social_only():
+    """Post-only run for the 6x/day schedule: load the CURRENT live pages and post the next batch of
+    still-unposted stories to X + Bluesky - no curation, no deploy. Batch = SOCIAL_BATCH (default 2)."""
+    try:
+        batch = max(1, int(os.environ.get("SOCIAL_BATCH", "2")))
+    except Exception:
+        batch = 2
+    per_section = {}
+    for sec in SECTIONS:
+        try:
+            per_section[sec] = live_current(sec)
+        except Exception as e:
+            print("  social-only: could not load live %s: %s" % (sec, repr(e)[:120]))
+            per_section[sec] = {}
+    print("Social-only run: up to %d post(s) per platform this cycle." % batch)
+    social_publish(per_section, enabled_run=True, max_posts=batch)
 
 
 def sports_scoreboard(per_league=10, total=40):
@@ -4471,6 +4507,18 @@ MANUAL_PICKS = {
         {"headline": "More Died From Heat In France This Summer Than In All US Mass Shootings In History",
          "url": 'https://notthebee.com/article/report-more-people-have-died-from-heat-in-france-this-summer-than-all-us-mass-shootings-in-history',
          "added": '2026-08-23', "photo": True},
+        # Jonathan Turley analysis - independent (exempt from the L/R balance tally).
+        {"headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
+         "url": 'https://jonathanturley.org/2026/08/23/we-are-charlie-kirk-hasan-piker-mocks-the-murdered-charlie-kirk-to-cheering-crowd/',
+         "added": '2026-08-23'},
+        # Jake Lang - developing multi-thread story; also a standing NARRATIVE arc (main + politics).
+        {"headline": "Jake Lang Arrested In Minneapolis For Rioting Outside City Hall",
+         "url": 'https://www.mprnews.org/story/2026/08/22/right-wing-influencer-jake-lang-arrested-in-minneapolis-for-suspicion-of-rioting',
+         "added": '2026-08-23', "photo": True},
+        # The origin that started it all: Lang's Quran burning in Dearborn (Fox - balances the arrest pin).
+        {"headline": "Jake Lang's Quran Burning In Dearborn Sparks Clashes With Muslim Residents",
+         "url": 'https://www.foxnews.com/us/anti-islam-protesters-muslims-clash-dearborn-michigan-after-man-attempts-burn-quran',
+         "added": '2026-08-23'},
     ],
     "markets": [
         {"headline": "Walmart US Same-Store Sales Post Slowest Growth in Six Years", "url": 'https://chainstoreage.com/walmart-beats-street-q2-eps-revenues-misses-us-comp-sales', "added": '2026-08-20'},
@@ -4661,7 +4709,7 @@ LEAN_MAP = {
           "nypost.com", "wsj.com"},
     "ind": {"greenwald.substack.com", "racket.news", "taibbi.substack.com", "natesilver.net",
             "silverbulletin.com", "thefp.com", "bariweiss.substack.com", "andrewsullivan.substack.com",
-            "persuasion.community", "commonsense.news"},
+            "persuasion.community", "commonsense.news", "jonathanturley.org"},
 }
 
 def _story_lean(url):
@@ -4798,6 +4846,9 @@ def verify_hero_images(per_section):
 
 def build():
     target = (os.environ.get("SECTION", "all") or "all").strip().lower()
+    if target in ("social-only", "social"):        # 6x/day post-only schedule: no curation, no deploy
+        run_social_only()
+        return
     review_mode = target in ("narrative-review", "review", "arcs-review")
     if target in ("deploy-only", "deploy", "none", "site") or review_mode:
         targets = []
@@ -4933,12 +4984,15 @@ def build():
     print("PROVIDERS this run: %s  (gdelt>0 or high bing = Google was flaky and fallbacks fired)"
           % STATUS["_providers"])
 
-    # ---- social auto-post: pick the day's 10 best NEW stories and post them to X ----
-    # Runs only on a full curation run and only when configured; safe no-op otherwise.
-    try:
-        social_publish(per_section, target in ("", "all"))
-    except Exception as e:
-        print("social step failed:", repr(e)[:160])
+    # ---- social auto-post ----
+    # Posting is normally owned by the separate 6x/day 'social-only' schedule (which persists
+    # social_state across runs so nothing repeats). The main build only posts if explicitly told to
+    # via SOCIAL_IN_BUILD, to avoid double-posting.
+    if os.environ.get("SOCIAL_IN_BUILD"):
+        try:
+            social_publish(per_section, target in ("", "all"))
+        except Exception as e:
+            print("social step failed:", repr(e)[:160])
 
     with open(os.path.join(SITE, "status.json"), "w", encoding="utf-8") as f:
         json.dump({"model_default": MODEL, "model_used": _WORKING_MODEL,
