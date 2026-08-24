@@ -1,24 +1,24 @@
 {
-  "lastUpdated": 1787498824183,
-  "heroSetDate": "2026-08-23",
+  "lastUpdated": 1787586346980,
+  "heroSetDate": "2026-08-24",
   "hero": {
-    "headline": "CANADA'S CARNEY SAYS COUNTRY 'AT WAR' WITH TRUMP OVER TARIFFS",
-    "url": "https://nypost.com/2026/08/23/us-news/canadian-pm-mark-carney-says-country-at-war-with-president-trump-on-trade-we-got-attacked/",
+    "headline": "TRUMP HIKES CANADA AUTO TARIFFS TO 50% AFTER TRADE TALKS COLLAPSE",
+    "url": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
     "sublinks": [
       {
-        "text": "Trump Says Canada Wants 'Benefits Of Being A State'",
-        "url": "https://www.newsweek.com/trump-issues-first-response-after-us-canada-trade-deal-collapses-12356928"
+        "text": "Trade Talks Collapse Just Before Tariff Announcement",
+        "url": "https://www.politico.com/news/2026/08/24/trump-canada-vehicle-steel-tariffs-01046991"
       },
       {
-        "text": "Canada To Match U.S. Tariffs Dollar For Dollar",
-        "url": "https://time.com/article/2026/08/22/us-canada-trade-negotiations-breakdown-tariffs/"
+        "text": "Canada: Ontario Premier Threatens To Cut Electricity, Minerals",
+        "url": "https://www.newsmax.com/world/globaltalk/canada-trade-trump-ontario/2026/08/24/id/1267115/"
       },
       {
-        "text": "Carney Faces Test After Warning On Economic Coercion",
-        "url": "https://www.newsmax.com/world/globaltalk/canada-carney-trump-tariffs-economic-coercion-trade/2026/08/23/id/1267036/"
+        "text": "Transportation Secretary Duffy Calls Canada's Trade Fight 'Foolish'",
+        "url": "https://www.realclearpolitics.com/video/2026/08/23/transportation_sec_sean_duffy_foolish_for_canada_country_wihtout_a_military_to_go_to_war_with_donald_trump.html"
       }
     ],
-    "postedAt": 1787498824183,
+    "postedAt": 1787586346980,
     "img": true
   },
   "groups": [
@@ -69,10 +69,65 @@
           "postedAt": 1787402098214
         }
       ]
+    },
+    {
+      "title": "DATA CENTER BACKLASH GROWS AS TRUMP PUSHES BACK",
+      "stories": [
+        {
+          "headline": "Trump Says Communities Opposing Data Centers Are 'Making A Mistake'",
+          "url": "https://www.axios.com/2026/08/23/trump-data-centers-michael-cohen-interview",
+          "timestamp": 1787578975000,
+          "postedAt": 1787586346980
+        },
+        {
+          "headline": "Texas Data Center, Transmission Line Pauses Could Prove Risky",
+          "url": "https://www.texastribune.org/2026/08/24/texas-765-transmissions-lines-data-centers-pauses-delays/",
+          "timestamp": 1787566211000,
+          "postedAt": 1787586346980
+        },
+        {
+          "headline": "Data Centers Hit Breaking Point Amid Growing Public Backlash",
+          "url": "https://www.politico.com/news/2026/08/24/data-centers-oh-s-t-moment-01046465",
+          "timestamp": 1787562000000,
+          "postedAt": 1787586346980
+        }
+      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Trump Administration Moves To Impose $100,000 Fee On H-1B Visas",
+        "url": "https://www.reuters.com/legal/government/trump-administration-moves-impose-more-than-100000-fee-h-1b-worker-visas-2026-08-24/",
+        "timestamp": 1787578493000,
+        "feature": true,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "Alarm Over $20 Million Plan To Supply ICE Officers With Electric-Shock Gloves",
+        "url": "https://www.theguardian.com/us-news/2026/aug/24/ice-officers-electric-shock-gloves",
+        "timestamp": 1787569680000,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "Jake Lang Arrested On Probable Cause Riot In Minneapolis",
+        "url": "https://www.msn.com/en-us/news/other/jake-lang-arrested-on-probable-cause-riot-in-minneapolis/ar-AA2aOF3b",
+        "timestamp": 1787542936000,
+        "photo": true,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "Farmers Oppose Trump's Plan To Import Beef",
+        "url": "https://www.newsnationnow.com/business/your-money/farmers-oppose-trump-importing-beef-prices/",
+        "timestamp": 1787542711000,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "Jeffries And Kushner Meet Privately As Midterm Attacks Fly",
+        "url": "https://time.com/article/2026/08/24/hakeem-jeffries-private-meeting-with-jared-kushner-draws-backlash-ahead-of-midterms/",
+        "timestamp": 1787475724000,
+        "postedAt": 1787586346980
+      },
       {
         "headline": "'Barbaric' Abortion Provision Fuels Christian Push Against Democratic Governor",
         "url": "https://www.foxnews.com/politics/catholic-group-says-democrats-got-years-cover-abortion-healey-puts-bishops-test",
@@ -92,7 +147,7 @@
         "timestamp": 1787455027000,
         "photo": true,
         "postedAt": 1787489279221,
-        "image": "/img/politics-1.jpg"
+        "image": "/img/politics-3.jpg"
       },
       {
         "headline": "Enten: Florida Now GOP +11, A Reversal From 2016 Democratic Edge",
@@ -105,13 +160,6 @@
         "url": "https://www.thebulwark.com/p/ice-wants-a-weapon-that-leaves-no-mark-electric-shock-gloves-compliant-technologies",
         "timestamp": 1787409060000,
         "postedAt": 1787412143843
-      },
-      {
-        "headline": "Canada: No Deal Reached As 50% Tariffs Take Effect In Trade Dispute With US",
-        "url": "https://abcnews.com/Business/trumps-proposed-tariffs-canada-hurtle-deadline-amid-trade/story?id",
-        "timestamp": 1787398586000,
-        "photo": true,
-        "postedAt": 1787402098214
       },
       {
         "headline": "DOJ, TikTok Settle Children's Privacy Suit For $400 Million",
@@ -155,10 +203,43 @@
     ],
     "center": [
       {
-        "headline": "Jeffries And Kushner Meet Privately As Midterm Attacks Fly",
-        "url": "https://www.newsmax.com/newsfront/hakeem-jeffries-jared-kushner-donald-trump/2026/08/23/id/1267035/",
-        "timestamp": 1787497654000,
-        "postedAt": 1787498824183
+        "headline": "First Deportation Flight To Haiti Departs After Trump Ends TPS",
+        "url": "https://www.dailywire.com/news/exclusive-the-illegal-immigrants-deported-on-first-flight-to-haiti-after-trump-ended-tps",
+        "timestamp": 1787582827000,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "Mark Ruffalo Denies Antisemitism As Old Posts Resurface",
+        "url": "https://www.dailywire.com/news/mark-ruffalo-denies-hes-antisemitic-his-own-posts-tell-a-different-story",
+        "timestamp": 1787582650000,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "Big Four Accounting Firms Under Fire Over Climate Commitments",
+        "url": "https://dailycaller.com/2026/08/24/big-four-accounting-firms-climate-commitments/",
+        "timestamp": 1787580780000,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "US Military Strike Kills Two In Pacific Boat Attack",
+        "url": "https://www.cbsnews.com/news/us-military-destroys-alleged-drug-boat-pacific-deaths/",
+        "timestamp": 1787576437000,
+        "photo": true,
+        "postedAt": 1787586346980,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "Mamdani Administration Pitches Multi-Billion Fix For BQE Cantilever",
+        "url": "https://www.amny.com/news/mamdani-plan-fix-bqe-cantilever/",
+        "timestamp": 1787558422000,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "Secret White House Bunker Undercuts Trump's Ballroom Lawsuit, Officials Say",
+        "url": "https://www.redlakenationnews.com/story/2026/08/24/politics/secret-white-house-bunker-undercuts-trumps-ballroom-lawsuit-ex-officials-say/142356.html",
+        "timestamp": 1787550935000,
+        "photo": true,
+        "postedAt": 1787586346980
       },
       {
         "headline": "El-Sayed's Win Triggers Wave Of Anti-Muslim Rhetoric Online",
@@ -185,14 +266,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/22/us-postal-service-shares-mail-in-ballot-restrictions-despite-court-ruling",
         "timestamp": 1787432343000,
         "postedAt": 1787489279221
-      },
-      {
-        "headline": "America's Largest Cattle Ranchers Group Says Trump's Beef Plan Undermines Farmers",
-        "url": "https://rollcall.com/2026/08/21/trump-creates-beef-with-ranchers-over-new-import-plan/",
-        "timestamp": 1787424900000,
-        "photo": true,
-        "postedAt": 1787489279221,
-        "image": "/img/politics-2.jpg"
       },
       {
         "headline": "Florida Democrats' Senate Nominee, Party Chair Clash Over Socialism",
@@ -273,10 +346,43 @@
     ],
     "right": [
       {
-        "headline": "TRUMP LASHES OUT AS US-CANADA TRADE TALKS COLLAPSE",
-        "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war",
-        "timestamp": 1787489279221,
-        "postedAt": 1787489279221
+        "headline": "Farmers Accuse Government Of Overstepping Property Rights In Nominee Fight",
+        "url": "https://dailycaller.com/2026/08/24/farmers-fish-wildlife-easements-biden-era-policy-kevin-cramer/",
+        "timestamp": 1787585160000,
+        "photo": true,
+        "postedAt": 1787586346980,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "Pentagon Seeks To Curb Chinese Infiltration In US Universities",
+        "url": "https://dailycaller.com/2026/08/24/pentagon-china-universities-donald-trump-student-visas/",
+        "timestamp": 1787584740000,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "Lawsuit Targets Mamdani's Government Grocery Store Plan In NYC",
+        "url": "https://www.foxbusiness.com/politics/big-apple-targeted-lawsuit-over-mamdanis-government-grocery-store-plans",
+        "timestamp": 1787584500000,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "California AG Bonta Cancels Planned Meeting With Paramount",
+        "url": "https://www.breitbart.com/news/california-ag-rob-bonta-cancels-planned-meeting-with-paramount/",
+        "timestamp": 1787582062000,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "Jill Biden Open To Idea Joe Biden Was Drugged Before Debate, Book Says",
+        "url": "https://www.breitbart.com/politics/2026/08/24/nolte-jill-open-to-idea-joe-biden-was-drugged-before-disastrous-debate/amp/",
+        "timestamp": 1787581943000,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "Father Of USS Lincoln Sailor Taken Into ICE Detention While Son Deployed",
+        "url": "https://www.theguardian.com/us-news/2026/aug/24/uss-lincoln-sailor-deployed-iran-war-father-arrested-by-ice",
+        "timestamp": 1787569980000,
+        "photo": true,
+        "postedAt": 1787586346980
       },
       {
         "headline": "Putin Wants To Draft 300,000 New Troops, Zelenskyy Says",
@@ -290,15 +396,14 @@
         "timestamp": 1787479209000,
         "photo": true,
         "postedAt": 1787489279221,
-        "image": "/img/politics-0.jpg"
+        "image": "/img/politics-2.jpg"
       },
       {
         "headline": "Federal Officials Announce Water Cuts As Colorado River Supplies Plunge",
         "url": "https://www.pbs.org/newshour/nation/federal-officials-announce-water-cuts-as-colorado-river-supplies-continue-to-plunge",
         "timestamp": 1787413357000,
         "photo": true,
-        "postedAt": 1787489279221,
-        "image": "/img/politics-3.jpg"
+        "postedAt": 1787489279221
       },
       {
         "headline": "Woman's Alleged ISIS Radicalization Detailed In Capitol Bomb Plot Court Docs",
@@ -328,7 +433,7 @@
       },
       {
         "headline": "Dollar Sinks As Investors Flock To Gold, Crypto After Bessent's Treasury Buyback",
-        "url": "https://dailycaller.com/2026/08/21/dollar-sinks-as-investors-flock-to-gold-crypto-after-bessents-treasury-buyback/",
+        "url": "https://www.aol.com/articles/dollar-trading-near-multi-month-014826000.html",
         "timestamp": 1787327820000,
         "postedAt": 1787331098364
       },
@@ -369,12 +474,12 @@
     }
   ],
   "balance": {
-    "left": 15,
-    "right": 12,
+    "left": 19,
+    "right": 17,
     "independent": 0,
-    "days": 7,
-    "total": 27,
-    "pctLeft": 56,
-    "pctRight": 44
+    "days": 30,
+    "total": 36,
+    "pctLeft": 53,
+    "pctRight": 47
   }
 }

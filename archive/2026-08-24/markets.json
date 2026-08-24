@@ -1,74 +1,87 @@
 {
-  "lastUpdated": 1787498229369,
-  "heroSetDate": "2026-08-23",
+  "lastUpdated": 1787585601797,
+  "heroSetDate": "2026-08-24",
   "hero": {
-    "headline": "FED HOLDS RATES STEADY AS INFLATION HITS 3-YEAR HIGH",
-    "url": "https://abcnews.com/Business/fed-set-make-interest-rate-decision-inflation-hits/story?id",
+    "headline": "TRUMP THREATENS TO DOUBLE TARIFFS ON CANADIAN AUTOS AS TRADE TALKS COLLAPSE",
+    "url": "https://www.reuters.com/business/autos-transportation/trump-says-he-will-raise-tariffs-all-cars-trucks-50-amid-canada-trade-spat-2026-08-24/",
     "sublinks": [
       {
-        "text": "Bessent's Treasury Push Seen Undercutting Warsh's Fed",
-        "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2"
-      },
-      {
-        "text": "US Treasuries Face Growing Competition From Higher-Yield Bonds Abroad",
-        "url": "https://fortune.com/2026/08/22/us-debt-competition-higher-yielding-bonds-overseas-treasury-rates/"
+        "text": "Stocks Slip As U.S.-Canada Trade Spat Escalates",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-24-dow-sp-500-nasdaq-080306047.html"
       }
     ],
-    "postedAt": 1787488508141,
+    "postedAt": 1787585601797,
     "img": true
   },
   "groups": [
     {
-      "title": "NVIDIA EARNINGS: WALL STREET BRACES FOR AI TEST",
+      "title": "NVIDIA EARNINGS LOOM AS CHIP SELLOFF RATTLES AI TRADE",
       "stories": [
         {
-          "headline": "Analysts Name Stocks Poised To Ride AI Earnings Wave",
-          "url": "https://www.cnbc.com/2026/08/23/top-analysts-believe-in-the-growth-potential-of-these-3-stocks.html",
-          "timestamp": 1787484545000,
-          "postedAt": 1787488508141
+          "headline": "AI Trade Under Pressure As Nvidia's Earnings Test The Sector",
+          "url": "https://www.investopedia.com/market-update-the-ai-trade-is-under-pressure-to-start-the-week-nvidia-results-will-test-the-sector-nvda-12066224",
+          "timestamp": 1787582727000,
+          "postedAt": 1787585601797
         },
         {
-          "headline": "Nvidia's Q2 Earnings To Test Resurgent AI Trade",
-          "url": "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html",
-          "timestamp": 1787484302000,
+          "headline": "Key Events This Week: Jackson Hole, Nvidia Earnings And Core PCE",
+          "url": "https://www.zerohedge.com/economics/key-events-week-jackson-hole-nvidia-earnings-and-core-pce",
+          "timestamp": 1787582700000,
+          "postedAt": 1787585601797
+        },
+        {
+          "headline": "Marvell's $120 Billion Google Deal Reshapes Chip-Sector Outlook Ahead Of Earnings",
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mrvl/marvell-technology/news/why-marvell-technology-mrvl-is-up-68-after-expanding-its-equ/amp",
+          "timestamp": 1787581500000,
+          "postedAt": 1787585601797
+        },
+        {
+          "headline": "Nvidia Exploring Price Hikes For Its Largest Customers, Report Says",
+          "url": "https://www.cnbc.com/video/2026/08/24/nvidia-exploring-price-hikes-for-some-of-its-largest-customers-report.html",
+          "timestamp": 1787581390000,
           "feature": true,
-          "postedAt": 1787488508141
+          "postedAt": 1787585601797
         },
         {
-          "headline": "Nvidia Weighs On Market As New Canada Tariffs Loom",
-          "url": "http://vinanet.vn/aticles-market/Dow-Jones-Futures-Signal-Tentative-Recovery-as-Nvidia-Catalyst-and-Fresh-Canada-Tariffs-Loom-56-16340",
-          "timestamp": 1787454060000,
-          "postedAt": 1787488508141
+          "headline": "Semiconductor Stocks Drag S&P 500, Nasdaq Lower Ahead Of Nvidia Earnings",
+          "url": "https://finance.yahoo.com/markets/article/semiconductor-stocks-drag-sp-500-nasdaq-lower-alphacheck-135725875.html",
+          "timestamp": 1787579845000,
+          "postedAt": 1787585601797
         },
         {
-          "headline": "Nvidia Customers Notified Of AI Chip Price Hikes Above 15%",
-          "url": "https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/",
-          "timestamp": 1787428821000,
-          "postedAt": 1787488508141
+          "headline": "Nvidia And New Fed Chair Warsh Set To Test Stock Rally This Week",
+          "url": "https://www.reuters.com/business/wall-st-week-ahead-nvidia-earnings-jackson-hole-test-pillars-stock-rally-2026-08-21/",
+          "timestamp": 1787573925000,
+          "postedAt": 1787585601797
         },
         {
-          "headline": "Ross Stores Hikes Outlook As Bargain Hunters Drive Sales, Stock Surges",
-          "url": "https://www.investopedia.com/market-update-ross-stores-hikes-its-outlook-as-bargain-hunting-shoppers-drive-up-sales-the-stock-is-surging-rost-12065148",
-          "timestamp": 1787325574000,
-          "postedAt": 1787330497309
+          "headline": "Going Into Earnings, Is Nvidia Stock A Buy, Sell, Or Fairly Valued?",
+          "url": "https://global.morningstar.com/en-gb/stocks/going-into-earnings-is-nvidia-stock-buy-sell-or-fairly-valued-4",
+          "timestamp": 1787561596000,
+          "postedAt": 1787585601797
+        }
+      ]
+    },
+    {
+      "title": "BESSENT'S TREASURY BOND BUYBACK PUSH FACES SKEPTICISM",
+      "stories": [
+        {
+          "headline": "Treasury's Bond-Market Intervention Isn't Working, Analysts Say",
+          "url": "https://finance.yahoo.com/economy/policy/articles/treasury-bond-market-intervention-isn-120000124.html",
+          "timestamp": 1787576520000,
+          "postedAt": 1787585601797
         },
         {
-          "headline": "Retailers Use $5 Billion In Tariff Refunds To Appease Investors",
-          "url": "https://talkingpointsmemo.com/news/biggest-us-retailers-use-5-billion-in-trump-tariff-refunds-to-appease-investors",
-          "timestamp": 1787313600000,
-          "postedAt": 1787330497309
+          "headline": "Bessent May Tap Near $1 Trillion Treasury Account To Fund Bond Buybacks",
+          "url": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
+          "timestamp": 1787571265000,
+          "postedAt": 1787585601797
         },
         {
-          "headline": "Walmart's E-Commerce Sales Rise As Deliveries Accelerate",
-          "url": "https://www.foxbusiness.com/retail/walmart-e-commerce-sales-surge-ceo-touts-price-speed-convenience",
-          "timestamp": 1787477702000,
-          "postedAt": 1787488508141
-        },
-        {
-          "headline": "Nvidia In Talks To Invest In Data-Center Power Developer Cloverleaf",
-          "url": "https://qz.com/nvidia-cloverleaf-infrastructure-investment-data-center-power-082126",
-          "timestamp": 1787315400000,
-          "postedAt": 1787330497309
+          "headline": "Hedge Funds Ramp Up Dollar Shorts Ahead Of Bessent's Fiscal Plan",
+          "url": "https://finance.yahoo.com/markets/currencies/articles/hedge-funds-ramp-dollar-shorts-014046158.html",
+          "timestamp": 1787561185000,
+          "postedAt": 1787585601797
         }
       ]
     },
@@ -116,6 +129,37 @@
   "columns": {
     "left": [
       {
+        "headline": "FED HOLDS RATES STEADY AS INFLATION HITS 3-YEAR HIGH",
+        "url": "https://abcnews.com/Business/fed-set-make-interest-rate-decision-inflation-hits/story?id",
+        "timestamp": 1787488508141,
+        "postedAt": 1787488508141
+      },
+      {
+        "headline": "Options Action: Gold's Huge Month",
+        "url": "https://www.cnbc.com/video/2026/08/24/options-action-golds-huge-month.html",
+        "timestamp": 1787583569000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "Goldman Sachs Partner Warns Of 'Huge Danger' In Letting AI Replace Bankers' Reasoning",
+        "url": "https://www.cnbc.com/2026/08/24/goldman-sachs-ai-partner-danger-skills.html",
+        "timestamp": 1787583601000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "California Regulator Halts Talks With Paramount Over $111 Billion Warner Bros. Discovery Deal",
+        "url": "https://www.reuters.com/legal/litigation/california-cancels-talks-with-paramount-over-warner-bros-merger-nyt-reports-2026-08-24/",
+        "timestamp": 1787582324000,
+        "feature": true,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "FDA Approves Alzheimer's Blood Test Developed By Roche And Eli Lilly",
+        "url": "https://www.fiercebiotech.com/medtech/roche-eli-lilly-see-fda-approval-first-its-kind-alzheimers-biomarker-blood-test",
+        "timestamp": 1787574214000,
+        "postedAt": 1787585601797
+      },
+      {
         "headline": "How China Weathered The Iran Oil Shock",
         "url": "https://chinaglobalsouth.com/2026/08/20/trump-warns-economic-consequences-countries-lifeline-iran/",
         "timestamp": 1787496713000,
@@ -134,19 +178,12 @@
         "postedAt": 1787488508141
       },
       {
-        "headline": "Paramount And California Hold Preliminary Talks On Warner Bros Deal",
-        "url": "https://kwsn.com/2026/08/22/paramount-and-california-to-hold-preliminary-talks-on-warner-bros-deal-nyt-reports/",
-        "timestamp": 1787418446000,
-        "feature": true,
-        "postedAt": 1787488508141
-      },
-      {
         "headline": "Boeing Engineers Reject Four-Year Contract Offer",
         "url": "https://www.cnbc.com/2026/08/21/boeing-engineers-technical-workers-reject-contract-offer.html",
         "timestamp": 1787354520000,
         "photo": true,
         "postedAt": 1787488508141,
-        "image": "/img/markets-3.jpg"
+        "image": "/img/markets-2.jpg"
       },
       {
         "headline": "GitLab's New AI Security Suite Could Reshape Growth Outlook",
@@ -198,7 +235,7 @@
         "timestamp": 1787317965000,
         "photo": true,
         "postedAt": 1787330497309,
-        "image": "/img/markets-4.jpg"
+        "image": "/img/markets-3.jpg"
       },
       {
         "headline": "Broadcom Debt Deal Expected To Reach Up To $70 Billion",
@@ -208,6 +245,45 @@
       }
     ],
     "center": [
+      {
+        "headline": "Moderna Bets Big On Cancer Vaccine; Here's What Wall Street Wants To See",
+        "url": "https://www.aol.com/articles/moderna-stock-surge-177-cancer-091040000.html",
+        "timestamp": 1787582700000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "Samsung Plans Biggest-Ever Buyback Amid AI Windfall",
+        "url": "https://www.koreaherald.com/article/10849101",
+        "timestamp": 1787584817000,
+        "feature": true,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "Low Rhine Water Levels To Slow German Economy, Bundesbank Says",
+        "url": "https://en.ara.cat/economy/the-bundesbank-fears-that-the-low-river-levels-will-slow-down-germany-s-recovery-in-the-third-quarter_25_5828274.html",
+        "timestamp": 1787583201000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "How A Trump Intervention Got The DOJ Off Live Nation's Back",
+        "url": "https://thecurrency.news/articles/237566/the-trump-intervention-that-got-the-doj-off-live-nations-back/",
+        "timestamp": 1787581616000,
+        "photo": true,
+        "postedAt": 1787585601797,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Hugging Face In Talks To Be Acquired For $13 Billion",
+        "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+        "timestamp": 1787579246000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "UPS To Invest $2 Billion In International, Healthcare And Supply Chain Units",
+        "url": "https://www.cnbc.com/2026/08/24/ups-global-logistics-investment.html",
+        "timestamp": 1787569201000,
+        "postedAt": 1787585601797
+      },
       {
         "headline": "Trump Admin Predicts Trade War Would Be 'Devastating' For Canada",
         "url": "https://finance.yahoo.com/economy/policy/articles/trump-admin-predicts-us-trade-144351146.html",
@@ -227,15 +303,14 @@
         "timestamp": 1787484952000,
         "photo": true,
         "postedAt": 1787488508141,
-        "image": "/img/markets-0.jpg"
+        "image": "/img/markets-1.jpg"
       },
       {
         "headline": "Hormuz Crisis Masks A Deeper Oil Threat That Could Outlast War",
         "url": "https://www.foxnews.com/world/strait-hormuz-may-only-half-story-new-oil-threat-comes-focus",
         "timestamp": 1787479256000,
         "photo": true,
-        "postedAt": 1787488508141,
-        "image": "/img/markets-1.jpg"
+        "postedAt": 1787488508141
       },
       {
         "headline": "Alibaba Plans $10.2 Billion Share Sale To Fund AI Push",
@@ -262,13 +337,6 @@
         "postedAt": 1787401493426
       },
       {
-        "headline": "Samsung Plans Biggest-Ever Buyback Amid AI Windfall",
-        "url": "https://www.capitalbrief.com/briefing/samsung-plans-110b-dividend-and-buyback-after-ai-windfall-09ba62e2-1f95-4951-a8da-47b23c39be97/",
-        "timestamp": 1787395794000,
-        "feature": true,
-        "postedAt": 1787401493426
-      },
-      {
         "headline": "Meta's Alleged 'Hook, Hold, Harvest' Strategy Laid Out In Antitrust Trial",
         "url": "https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy",
         "timestamp": 1787386080000,
@@ -283,7 +351,7 @@
       },
       {
         "headline": "Paramount, State AGs Set Settlement Talks; Newsom Weighs In On Merger",
-        "url": "https://deadline.com/2026/08/gavin-newsom-paramount-merger-settlement-talks-1237048002/",
+        "url": "https://nypost.com/2026/08/24/business/california-calls-off-paramount-settlement-meeting-as-media-giant-eyes-tennessee-for-new-headquarters/",
         "timestamp": 1787360340000,
         "postedAt": 1787401493426
       },
@@ -322,6 +390,31 @@
     ],
     "right": [
       {
+        "headline": "Scandal-Hit KPMG Australia To Cut Nearly 400 Jobs",
+        "url": "https://www.reuters.com/business/world-at-work/kpmg-australia-plans-cut-5-jobs-warns-soft-conditions-persist-2026-08-24/",
+        "timestamp": 1787584259000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "Taiwan Charges Nine In AI Server Smuggling Case Tied To China",
+        "url": "https://www.koreatimes.co.kr/amp/world/20260824/nvidia-worker-among-9-charged-in-taiwan-chip-smuggling-case",
+        "timestamp": 1787583180000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "3 New Limited-Time Oreo Cookies Hit Stores Today",
+        "url": "https://www.usatoday.com/story/money/food/2026/08/24/oreo-limited-time-flavors-available-in-stores/91438064007/",
+        "timestamp": 1787574120000,
+        "photo": true,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "UK: Eli Lilly Launches Foundayo Weight-Loss Pill",
+        "url": "https://www.reuters.com/legal/litigation/eli-lilly-launches-oral-weight-loss-pill-foundayo-uk-2026-08-23/",
+        "timestamp": 1787572560000,
+        "postedAt": 1787585601797
+      },
+      {
         "headline": "Dodgers Owner's Financial Deals Draw Federal Scrutiny",
         "url": "https://finance.yahoo.com/markets/stocks/articles/where-fraud-happen-mlb-analyst-120000973.html",
         "timestamp": 1787465918000,
@@ -353,12 +446,6 @@
         "postedAt": 1787411492489
       },
       {
-        "headline": "BESSENT VOWS TO EXPAND TREASURY BOND BUYBACKS TO PUSH DOWN LONG-TERM YIELDS",
-        "url": "https://finance.yahoo.com/economy/article/one-day-after-doubling-treasury-buybacks-bessent-says-hes-ready-to-boost-them-further-to-push-down-long-term-yields-181218236.html",
-        "timestamp": 1787330497309,
-        "postedAt": 1787330497309
-      },
-      {
         "headline": "Borrowing Costs Rise Again As Rate-Easing Push Proves Short-Lived",
         "url": "https://www.bbc.com/news/articles/cvg92p3ez17o",
         "timestamp": 1787330709000,
@@ -369,8 +456,7 @@
         "url": "https://fortune.com/article/dave-cote-vertiv-stock-performance-ai-boom/",
         "timestamp": 1787385600000,
         "photo": true,
-        "postedAt": 1787401493426,
-        "image": "/img/markets-2.jpg"
+        "postedAt": 1787401493426
       },
       {
         "headline": "Disney To Cut Medical Insurance For Employee Spouses With Other Coverage",
@@ -414,58 +500,58 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,674.37",
-      "change": "+33.21",
-      "changePct": "+0.43%",
-      "up": true,
+      "value": "7,656.77",
+      "change": "-17.60",
+      "changePct": "-0.23%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "53,277.01",
-      "change": "+517.81",
-      "changePct": "+0.98%",
+      "value": "53,440.72",
+      "change": "+163.71",
+      "changePct": "+0.31%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,180.46",
-      "change": "+113.26",
-      "changePct": "+0.43%",
-      "up": true,
+      "value": "26,055.39",
+      "change": "-125.07",
+      "changePct": "-0.48%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
-      "value": "4.74%",
-      "change": "+0.04",
-      "changePct": "+0.89%",
-      "up": true,
+      "value": "4.70%",
+      "change": "-0.04",
+      "changePct": "-0.84%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Gold",
-      "value": "$4,689.60",
-      "change": "+9.00",
-      "changePct": "+0.19%",
+      "value": "$4,726.10",
+      "change": "+45.50",
+      "changePct": "+0.97%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$85.68",
-      "change": "-1.38",
-      "changePct": "-1.59%",
+      "value": "$85.12",
+      "change": "-1.94",
+      "changePct": "-2.23%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$77,178.84",
-      "change": "-548.78",
-      "changePct": "-0.71%",
-      "up": false,
+      "value": "$79,929.92",
+      "change": "+2,202.30",
+      "changePct": "+2.83%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     }
   ]

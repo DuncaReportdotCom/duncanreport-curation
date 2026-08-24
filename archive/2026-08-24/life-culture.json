@@ -1,11 +1,11 @@
 {
-  "lastUpdated": 1787499402086,
-  "heroSetDate": "2026-08-23",
+  "lastUpdated": 1787586844610,
+  "heroSetDate": "2026-08-24",
   "hero": {
-    "headline": "STRICT CHILDHOOD SUGAR LIMITS PAID OFF DECADES LATER, STUDY FINDS",
-    "url": "https://www.sciencealert.com/these-babies-grew-up-with-strict-sugar-limits-decades-later-the-results-are-dramatic",
+    "headline": "CARDIOLOGISTS ADOPT NEW UNIVERSAL DEFINITION OF HEART FAILURE",
+    "url": "https://www.sciencealert.com/cardiologists-just-changed-the-universal-definition-of-heart-failure",
     "sublinks": [],
-    "postedAt": 1787489722286,
+    "postedAt": 1787586844610,
     "img": true
   },
   "groups": [
@@ -31,6 +31,34 @@
   "columns": {
     "left": [
       {
+        "headline": "Spider-Man: Brand New Day To Oust Titanic From Top 5 All-Time Films",
+        "url": "https://ew.com/spider-man-brand-new-day-poised-to-unseat-titanic-in-all-time-highest-grossing-films-in-global-box-office-history-12066024",
+        "timestamp": 1787524871000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Erling Haaland Has A Buzz Cut Now",
+        "url": "https://www.gq.com/story/erling-haaland-has-a-buzz-cut-now",
+        "timestamp": 1787585700000,
+        "photo": true,
+        "postedAt": 1787586844610,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Henry VIII's Lost Castle Linked To Dover Castle",
+        "url": "https://phys.org/news/2026-08-hidden-plain-sight-evidence-links.html",
+        "timestamp": 1787583610000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "A New Wave Of Cart Pod Power Players Floods Portland",
+        "url": "https://pdx.eater.com/restaurant-news/109501/portland-new-food-cart-pods-modhaus-callback-fremont-garage",
+        "timestamp": 1787583600000,
+        "postedAt": 1787586844610
+      },
+      {
         "headline": "China Postpones Ambitious Chang'e-7 Lunar Launch",
         "url": "https://phys.org/news/2026-08-china-abruptly-postpones-ambitious-lunar.html",
         "timestamp": 1787495931000,
@@ -49,7 +77,7 @@
         "timestamp": 1787479276000,
         "photo": true,
         "postedAt": 1787489722286,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-3.jpg"
       },
       {
         "headline": "Tupac Shakur Murder Trial: Five Takeaways From Week One",
@@ -74,8 +102,7 @@
         "url": "https://www.cntraveler.com/story/my-favorite-airbnb-a-beautifully-restored-watchtower-on-a-secret-slice-of-sicily",
         "timestamp": 1787398200000,
         "photo": true,
-        "postedAt": 1787402477295,
-        "image": "/img/life-culture-4.jpg"
+        "postedAt": 1787402477295
       },
       {
         "headline": "A New Way To Explore Millions Of Artworks Online",
@@ -150,6 +177,40 @@
     ],
     "center": [
       {
+        "headline": "Can-Am Unveils Defender Prerunner And Maverick R Concepts",
+        "url": "https://uncrate.com/can-am-defender-prerunner-and-maverick-r-concepts/",
+        "timestamp": 1787584207000,
+        "photo": true,
+        "postedAt": 1787586844610,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "Reframing Homer's Sirens Through Gender, Nature And Social Order",
+        "url": "https://phys.org/news/2026-08-reframing-homer-sirens-gender-nature.html",
+        "timestamp": 1787581203000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Blancpain Plays All The Notes Of A Hit Watch In 2026",
+        "url": "https://www.gq.com/story/blancpain-bathyscaphe-70th-anniversary-limited-edition-new-watch-alert",
+        "timestamp": 1787580871000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Shelley Fabares, Star Of The Donna Reed Show And Coach, Dies At 82",
+        "url": "https://www.foxnews.com/entertainment/shelley-fabares-star-donna-reed-show-coach-dead-82",
+        "timestamp": 1787574441000,
+        "photo": true,
+        "postedAt": 1787586844610,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "The First New Nuclear Fusion Idea In Decades",
+        "url": "https://www.realclearscience.com/video/2026/08/24/the_first_new_nuclear_fusion_idea_for_decades_1202011.html",
+        "timestamp": 1787497440000,
+        "postedAt": 1787586844610
+      },
+      {
         "headline": "Heat Dulls Blue Morpho Butterflies' Iridescent Wings",
         "url": "https://phys.org/news/2026-08-hot-temperatures-dull-blue-morpho.html",
         "timestamp": 1787497201000,
@@ -173,8 +234,7 @@
         "timestamp": 1787443860000,
         "feature": true,
         "photo": true,
-        "postedAt": 1787489722286,
-        "image": "/img/life-culture-1.jpg"
+        "postedAt": 1787489722286
       },
       {
         "headline": "UK: Prince Harry's Move Driven By Money, Inheritance Calculations",
@@ -260,6 +320,44 @@
     ],
     "right": [
       {
+        "headline": "STRICT CHILDHOOD SUGAR LIMITS PAID OFF DECADES LATER, STUDY FINDS",
+        "url": "https://www.sciencealert.com/these-babies-grew-up-with-strict-sugar-limits-decades-later-the-results-are-dramatic",
+        "timestamp": 1787489722286,
+        "postedAt": 1787489722286
+      },
+      {
+        "headline": "2026 Dodge Durango Hellcat Review: Unapologetically American",
+        "url": "https://www.thedrive.com/car-reviews/2026-dodge-durango-hellcat-review",
+        "timestamp": 1787584158000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Mule Helps Scientists Build Clearest Horse And Donkey Genomes Yet",
+        "url": "http://uknow.uky.edu/research/mule-helps-scientists-build-clearest-horse-and-donkey-genomes-yet",
+        "timestamp": 1787558418000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Disney Knew About Rapes On 2001's Proof Point Film, Actress Alleges",
+        "url": "https://deadline.com/2026/08/disney-rape-lawsuit-raquel-lee-boileau-poof-point-1237048123/",
+        "timestamp": 1787540640000,
+        "feature": true,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Foo Fighters' Hollywood Bowl Debut Sends Off Gustavo Dudamel",
+        "url": "https://www.rollingstone.com/music/music-news/foo-fighters-perform-hollywood-bowl-debut-gustavo-dudamel-1235613590/",
+        "timestamp": 1787509416000,
+        "photo": true,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "I Tried Cycling The Length Of Italy: 2,000 Km In 19 Days",
+        "url": "https://pezcyclingnews.com/features/cycling-length-of-italy-oscar-boyd-film-review/",
+        "timestamp": 1787468463000,
+        "postedAt": 1787586844610
+      },
+      {
         "headline": "ANCIENT SHARK GRAVEYARD FOUND IN EGYPTIAN DESERT",
         "url": "https://www.sciencealert.com/an-ancient-shark-graveyard-has-been-found-in-the-egyptian-desert",
         "timestamp": 1787402477295,
@@ -284,7 +382,7 @@
         "timestamp": 1787407232000,
         "photo": true,
         "postedAt": 1787412527382,
-        "image": "/img/life-culture-2.jpg"
+        "image": "/img/life-culture-4.jpg"
       },
       {
         "headline": "A Former Cook's Trick For Easier Weeknight Dinners",
@@ -297,8 +395,7 @@
         "url": "https://www.tmz.com/2026/08/22/michael-wright-dead/",
         "timestamp": 1787399547000,
         "photo": true,
-        "postedAt": 1787402477295,
-        "image": "/img/life-culture-3.jpg"
+        "postedAt": 1787402477295
       },
       {
         "headline": "Your Expired Visa Card Could Be 'Zombified' For Contactless Payments",

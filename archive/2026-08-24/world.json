@@ -1,27 +1,85 @@
 {
-  "lastUpdated": 1787497820383,
-  "heroSetDate": "2026-08-23",
+  "lastUpdated": 1787584985952,
+  "heroSetDate": "2026-08-24",
   "hero": {
-    "headline": "ZELENSKY DISMISSES ELECTION CALLS AMID FIRED MINISTER'S CORRUPTION ALLEGATIONS",
-    "url": "https://apnews.com/article/russia-ukraine-war-zelenskyy-fedorov-15d84a5a1f52e376ffdf98082cdf9712",
+    "headline": "IRAN'S CURRENCY HITS RECORD LOW AS US READIES 'ECONOMIC D-DAY' SANCTIONS",
+    "url": "https://apnews.com/article/iran-rial-currency-bessent-trade-august-24-2026-e367634d8853c8fa4a341132cd577f31",
     "sublinks": [
       {
-        "text": "Sacked Minister Says Zelensky Has 'Questions To Answer' On Corruption",
-        "url": "https://www.bbc.com/news/articles/cwy4ypzvd7po"
+        "text": "Global Markets Slip Ahead Of Looming Sanctions Announcement",
+        "url": "https://www.rfi.fr/en/international-news/20260824-stocks-oil-slip-ahead-of-us-threat-of-economic-war-against-iran"
       },
       {
-        "text": "Zelensky: Elections Too Risky While Ukraine Fights Russia",
-        "url": "https://www.lemonde.fr/en/international/article/2026/08/23/zelensky-says-elections-too-risky-while-ukraine-fights-russia_6756776_4.html"
+        "text": "Iran Warns Of 'Harsh Response' To Anticipated Sanctions",
+        "url": "https://apnews.com/article/middle-east-iran-israel-syria-august-24-2026-4c37df8a725b49eae2ab1672b4ae4201"
       },
       {
-        "text": "Analysis: Ukraine's Corruption Scandal Deepens",
-        "url": "https://www.realclearworld.com/2026/08/21/ukraine_corruption_scandal_deepens_1201701.html"
+        "text": "Iran's President Calls US Memorandum Best Path Out Of Stalled War",
+        "url": "https://www.pbs.org/newshour/world/irans-president-says-u-s-memorandum-is-best-path-out-of-stalled-war-and-other-middle-east-news"
+      },
+      {
+        "text": "China's Iran Oil Purchases Face New Scrutiny Under Sanctions",
+        "url": "https://www.reuters.com/business/energy/looming-us-sanctions-iran-put-china-oil-buying-spotlight-2026-08-24/"
       }
     ],
-    "postedAt": 1787488006763,
+    "postedAt": 1787584985952,
     "img": true
   },
   "groups": [
+    {
+      "title": "UKRAINE WAR: ALLIES RALLY AS RUSSIA ESCALATES STRIKES",
+      "stories": [
+        {
+          "headline": "France Announces 'Coalition Of The Willing' Meeting As Russia Steps Up Airstrikes",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/21/france-announces-meeting-of-coalition-of-the-willing-ukraine-allies-as-russia-steps-up-airstrikes_6756736_4.html",
+          "timestamp": 1787324791000,
+          "feature": true,
+          "postedAt": 1787330052955
+        },
+        {
+          "headline": "Rosenberg: Russians Feel Fuel Shortages But Not Yet War Fatigue",
+          "url": "https://www.bbc.com/news/articles/c4gknzgje7go",
+          "timestamp": 1787317620000,
+          "postedAt": 1787330052955
+        },
+        {
+          "headline": "Ukraine's New 'Equalizer' Bomb Aims To Cut Reliance On Western Weapons",
+          "url": "https://www.foxnews.com/politics/ukraines-equalizer-bomb-aims-blow-reliance-us-european-weapons",
+          "timestamp": 1787302823000,
+          "postedAt": 1787330052955
+        },
+        {
+          "headline": "ISW: Russian Offensive Makes Incremental Gains In Latest Assessment",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-22-2026/",
+          "timestamp": 1787440773000,
+          "postedAt": 1787488006763
+        },
+        {
+          "headline": "Putin Warns Of 'Far More Destructive' Strikes As Both Sides Trade Attacks",
+          "url": "https://www.aljazeera.com/news/2026/8/22/russian-strikes-kill-6-people-in-ukraine-day-after-shopping-complex-attack",
+          "timestamp": 1787436004000,
+          "postedAt": 1787488006763
+        },
+        {
+          "headline": "European Leaders Mark Ukraine's Independence Day As War Grinds On",
+          "url": "https://apnews.com/article/russia-ukraine-war-independence-burnham-f9db9e721a230e5881405603a423785c",
+          "timestamp": 1787578080000,
+          "postedAt": 1787584985952
+        },
+        {
+          "headline": "France, UK Step Up Missile Support As European Leaders Meet",
+          "url": "https://www.cnbc.com/2026/08/24/ukraine-coalition-support-russia-strikes.html",
+          "timestamp": 1787569201000,
+          "postedAt": 1787584985952
+        },
+        {
+          "headline": "EU Approves €6.1 Billion In New Ukraine Defense Aid",
+          "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences",
+          "timestamp": 1787558060000,
+          "postedAt": 1787584985952
+        }
+      ]
+    },
     {
       "title": "MIDDLE EAST AND IRAN",
       "stories": [
@@ -71,42 +129,6 @@
       ]
     },
     {
-      "title": "UKRAINE WAR: ALLIES RALLY AS RUSSIA ESCALATES STRIKES",
-      "stories": [
-        {
-          "headline": "France Announces 'Coalition Of The Willing' Meeting As Russia Steps Up Airstrikes",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/21/france-announces-meeting-of-coalition-of-the-willing-ukraine-allies-as-russia-steps-up-airstrikes_6756736_4.html",
-          "timestamp": 1787324791000,
-          "feature": true,
-          "postedAt": 1787330052955
-        },
-        {
-          "headline": "Rosenberg: Russians Feel Fuel Shortages But Not Yet War Fatigue",
-          "url": "https://www.bbc.com/news/articles/c4gknzgje7go",
-          "timestamp": 1787317620000,
-          "postedAt": 1787330052955
-        },
-        {
-          "headline": "Ukraine's New 'Equalizer' Bomb Aims To Cut Reliance On Western Weapons",
-          "url": "https://www.foxnews.com/politics/ukraines-equalizer-bomb-aims-blow-reliance-us-european-weapons",
-          "timestamp": 1787302823000,
-          "postedAt": 1787330052955
-        },
-        {
-          "headline": "ISW: Russian Offensive Makes Incremental Gains In Latest Assessment",
-          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-22-2026/",
-          "timestamp": 1787440773000,
-          "postedAt": 1787488006763
-        },
-        {
-          "headline": "Putin Warns Of 'Far More Destructive' Strikes As Both Sides Trade Attacks",
-          "url": "https://www.aljazeera.com/news/2026/8/22/russian-strikes-kill-6-people-in-ukraine-day-after-shopping-complex-attack",
-          "timestamp": 1787436004000,
-          "postedAt": 1787488006763
-        }
-      ]
-    },
-    {
       "title": "ISRAEL STRIKES GAZA AND SYRIA TARGETS",
       "stories": [
         {
@@ -127,6 +149,43 @@
   "columns": {
     "left": [
       {
+        "headline": "Germany's AfD Eyes Saxony-Anhalt Win As Step Toward Federal Power",
+        "url": "https://www.reuters.com/world/germanys-afd-eyes-saxony-anhalt-win-first-step-toward-federal-power-2026-08-23/",
+        "timestamp": 1787503380000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Trump Administration Imposes $100,000 Fee On H-1B Visas",
+        "url": "https://www.thehindu.com/news/international/trump-administration-moves-to-impose-more-than-100000-fee-for-h-1b-worker-visas/article71385078.ece",
+        "timestamp": 1787581352000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Ex-Snooker Champion Graeme Dott Guilty Of Child Sex Abuse",
+        "url": "https://www.bbc.com/news/articles/c0lr80rk0dno",
+        "timestamp": 1787580840000,
+        "photo": true,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "New Zealand Moves To Ban Children Under 16 From Social Media",
+        "url": "https://www.bbc.com/news/articles/cj068q7qj19o",
+        "timestamp": 1787573854000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Norway's King Harald Stabilizes After Health Scare",
+        "url": "https://apnews.com/article/norway-royals-king-harald-hospital-ae69b37496d67157b6841c6c8df5ba50",
+        "timestamp": 1787568000000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Typhoon Narra Triggers Deadly Floods In China, Vietnam",
+        "url": "https://www.reuters.com/business/environment/china-evacuates-tens-thousands-rain-typhoon-narra-lashes-southwest-2026-08-24/",
+        "timestamp": 1787542680000,
+        "postedAt": 1787584985952
+      },
+      {
         "headline": "CrossCountry Cancels Almost All Services After Power Cut",
         "url": "https://www.bbc.com/news/articles/cy9w9y0lz5go",
         "timestamp": 1787493916000,
@@ -144,7 +203,7 @@
         "timestamp": 1787419417000,
         "photo": true,
         "postedAt": 1787488006763,
-        "image": "/img/world-1.jpg"
+        "image": "/img/world-2.jpg"
       },
       {
         "headline": "No Deal Reached As US-Canada Tariffs Take Effect At 50%",
@@ -215,7 +274,7 @@
         "timestamp": 1787312220000,
         "photo": true,
         "postedAt": 1787330052955,
-        "image": "/img/world-2.jpg"
+        "image": "/img/world-3.jpg"
       },
       {
         "headline": "Panama Canal To Cut Ship Transits Amid El Niño",
@@ -226,12 +285,39 @@
     ],
     "center": [
       {
+        "headline": "Guinea Landfill Collapse Kills 31 In Conakry",
+        "url": "https://www.bbc.com/news/articles/c4g3g36z7p6o",
+        "timestamp": 1787570779000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Hungarian Air Force Jet Crashes Near Szolnok",
+        "url": "https://www.euronews.com/my-europe/2026/08/24/hungarian-air-force-gripen-fighter-jet-crashes-near-szolnok",
+        "timestamp": 1787562746000,
+        "photo": true,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Iceland Votes On Whether To Restart EU Membership Talks",
+        "url": "https://apnews.com/article/iceland-eu-referendum-european-union-greenland-trump-fisheries-49d43b4989a198035f1d88ff51875d38",
+        "timestamp": 1787557260000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Zelensky Details Rift With Dismissed Defense Minister Fedorov",
+        "url": "https://www.pbs.org/newshour/world/zelenskyy-details-rift-with-ukraines-dismissed-defense-minister-fedorov",
+        "timestamp": 1787511178000,
+        "postedAt": 1787584985952
+      },
+      {
         "headline": "Magnitude 5.9 Quake Strikes Eastern Japan, Disrupts Tokyo Trains",
         "url": "https://globalnation.inquirer.net/335559/m5-9-quake-strikes-eastern-japan-including-tokyo-disrupting-traffic",
         "timestamp": 1787492812000,
         "photo": true,
         "postedAt": 1787497820383,
-        "image": "/img/world-0.jpg"
+        "image": "/img/world-1.jpg"
       },
       {
         "headline": "Deadly Ebola Outbreak In Congo's Bundibugyo Region Can Be Stopped, Officials Say",
@@ -331,6 +417,44 @@
     ],
     "right": [
       {
+        "headline": "ZELENSKY DISMISSES ELECTION CALLS AMID FIRED MINISTER'S CORRUPTION ALLEGATIONS",
+        "url": "https://apnews.com/article/russia-ukraine-war-zelenskyy-fedorov-15d84a5a1f52e376ffdf98082cdf9712",
+        "timestamp": 1787488006763,
+        "postedAt": 1787488006763
+      },
+      {
+        "headline": "Ocean Just Broke A Temperature Record That May Have Stood For Millennia",
+        "url": "https://www.aol.ca/articles/miami-hits-100-degrees-just-140302000.html",
+        "timestamp": 1787582429000,
+        "photo": true,
+        "postedAt": 1787584985952,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "World Inches Toward Catastrophic Climate Events, Scientists Warn",
+        "url": "https://apnews.com/article/climate-change-disaster-big-one-threat-5b062254250a759483c94376d32ae478",
+        "timestamp": 1787579700000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Syria Sentences 'Barrel Bomb Mufti' Ahmad Hassoun To Life",
+        "url": "https://www.aljazeera.com/news/2026/8/24/hold-ahmad-hassoun-assads-barrel-bomb-mufti-faces-death-penalty",
+        "timestamp": 1787569898000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Kazakhstan's New Ruling Party Projected To Win Elections",
+        "url": "https://www.euronews.com/2026/08/24/kazakhstans-new-ruling-party-projected-to-win-elections",
+        "timestamp": 1787547598000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Syria's Foreign Minister Sees Israel Security Talks Resuming",
+        "url": "https://www.reuters.com/world/middle-east/syria-foreign-minister-sees-israel-security-talks-resuming-despite-no-trust-2026-08-23/",
+        "timestamp": 1787525823000,
+        "postedAt": 1787584985952
+      },
+      {
         "headline": "US-Canada Trade Breakdown Exposes Limits Of Trump's Tariff Strategy",
         "url": "https://timesofindia.indiatimes.com/business/international-business/why-canada-suspended-us-trade-talks-at-last-minute-despite-trumps-good-relationship-with-carney/articleshow/133417147.cms",
         "timestamp": 1787495551000,
@@ -389,12 +513,6 @@
         "headline": "Palestine Action Activists Spared Terrorism Sentencing",
         "url": "https://www.aljazeera.com/news/2026/8/21/very-unusual-uk-palestine-activists-could-be-sentenced-as-terrorists",
         "timestamp": 1787329125000,
-        "postedAt": 1787330052955
-      },
-      {
-        "headline": "Germany's Culture Minister Defends Bauhaus Against 'Populist Attacks'",
-        "url": "https://today.rtl.lu/news/world/manifesto-defends-germanys-iconic-bauhaus-against-populist-attacks-132014524",
-        "timestamp": 1787323738000,
         "postedAt": 1787330052955
       },
       {

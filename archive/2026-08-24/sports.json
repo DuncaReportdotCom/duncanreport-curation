@@ -1,19 +1,55 @@
 {
-  "lastUpdated": 1787497352451,
-  "heroSetDate": "2026-08-23",
+  "lastUpdated": 1787584346508,
+  "heroSetDate": "2026-08-24",
   "hero": {
-    "headline": "BLUE JAYS HOLD OFF YANKEES AS CEASE FLIRTS WITH NO-HITTER",
-    "url": "https://deadspin.com/mlb-roundup-dylan-cease-flirts-with-no-hitter-blue-jays-hold-off-yanks/",
+    "headline": "BROWNS NAME DESHAUN WATSON WEEK 1 STARTER OVER SHEDEUR SANDERS",
+    "url": "https://apnews.com/article/browns-watson-sanders-monken-078db0e378eb5e30f914ad9ce8f78e75",
     "sublinks": [
       {
-        "text": "Full box score and highlights from Toronto's win",
-        "url": "https://www.mlb.com/stories/game/823509"
+        "text": "ESPN Sources Confirm Decision Ends Summer QB Battle",
+        "url": "https://www.espn.com/nfl/story/_/id/49711613/sources-browns-tab-deshaun-watson-not-shedeur-sanders-qb1"
+      },
+      {
+        "text": "Watson Won Job Just Days After Calling Out Fans",
+        "url": "https://www.cbssports.com/nfl/news/browns-deshaun-watson-starting-qb-shedeur-sanders/"
+      },
+      {
+        "text": "Fans Call Move Browns' 'Biggest Embarrassment Yet'",
+        "url": "https://www.barstoolsports.com/blog/3575917/as-a-lifelong-browns-fan-naming-deshaun-watson-qb1-today-might-be-their-biggest-embarrassment-yet"
+      },
+      {
+        "text": "FOX Sports Argues Browns Should Cut Watson Anyway",
+        "url": "https://www.foxsports.com/stories/nfl/the-browns-should-cut-deshaun-watson"
       }
     ],
-    "postedAt": 1787487582734,
+    "postedAt": 1787584346508,
     "img": true
   },
   "groups": [
+    {
+      "title": "ASTROS FIRE GM DANA BROWN DESPITE FIRST-PLACE STANDING",
+      "stories": [
+        {
+          "headline": "Astros Fire GM Despite Holding AL West's No. 1 Seed",
+          "url": "https://bleacherreport.com/articles/25481828-astros-gm-dana-brown-part-ways-despite-being-no-1-seed-al-west-standings",
+          "timestamp": 1787582250000,
+          "postedAt": 1787584346508
+        },
+        {
+          "headline": "Owner Jim Crane Names Himself Interim Head Of Baseball Ops",
+          "url": "https://www.cbssports.com/mlb/news/astros-dana-brown-jim-crane/",
+          "timestamp": 1787579760000,
+          "postedAt": 1787584346508
+        },
+        {
+          "headline": "Dana Brown Out As GM Of First-Place Astros After Recent Skid",
+          "url": "https://www.espn.com/mlb/story/_/id/49711497/dana-brown-gm-first-place-astros-recent-skid",
+          "timestamp": 1787579700000,
+          "feature": true,
+          "postedAt": 1787584346508
+        }
+      ]
+    },
     {
       "title": "NFL PRESEASON: JOINT PRACTICES AND CAMP BATTLES HEAT UP",
       "stories": [
@@ -69,6 +105,40 @@
       ]
     },
     {
+      "title": "TENNESSEE NAMES FRESHMAN FAIZON BRANDON STARTING QB",
+      "stories": [
+        {
+          "headline": "Freshman Faizon Brandon Wins Tennessee Starting QB Job",
+          "url": "https://www.espn.com/college-football/story/_/id/49711401/sources-true-freshman-faizon-brandon-wins-tennessee-qb-job",
+          "timestamp": 1787578500000,
+          "postedAt": 1787584346508
+        },
+        {
+          "headline": "Five-Star Freshman Faces Daunting SEC Slate As Starter",
+          "url": "https://www.cbssports.com/college-football/news/tenessee-faizon-brandon-starting-qb-2026-season/",
+          "timestamp": 1787577120000,
+          "postedAt": 1787584346508
+        }
+      ]
+    },
+    {
+      "title": "KANTER FREEDOM EJECTED FROM WNBA GAME AFTER CLOUD ALTERCATION",
+      "stories": [
+        {
+          "headline": "Courtside Seat Revoked After Sky Guard Confrontation",
+          "url": "https://www.cbssports.com/wnba/news/enes-kanter-freedom-ejected-wnba-game-natasha-cloud-altercation/",
+          "timestamp": 1787575920000,
+          "postedAt": 1787584346508
+        },
+        {
+          "headline": "Kanter Freedom Ejected After Verbal Altercation With Cloud",
+          "url": "https://www.bbc.com/sport/basketball/articles/c87vg1j93pqo",
+          "timestamp": 1787573619000,
+          "postedAt": 1787584346508
+        }
+      ]
+    },
+    {
       "title": "COMBAT SPORTS WEEKEND",
       "stories": [
         {
@@ -116,24 +186,6 @@
       ]
     },
     {
-      "title": "KAI SPEARS WINS $9.25M DEFAMATION VERDICT AGAINST NEW YORK TIMES",
-      "stories": [
-        {
-          "headline": "New York Times Ordered To Pay $9.25M In Spears Defamation Case",
-          "url": "https://frontofficesports.com/new-york-times-defamation-verdict-ex-alabama-player/",
-          "timestamp": 1787327689000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Jury Awards Kai Spears $9.25 Million In Defamation Verdict",
-          "url": "https://www.cbssports.com/college-basketball/news/alabama-basketball-kai-spears-9-25-million-defamation-new-york-times/",
-          "timestamp": 1787327218000,
-          "feature": true,
-          "postedAt": 1787329790346
-        }
-      ]
-    },
-    {
       "title": "COLLEGE FOOTBALL'S FIFTH-YEAR ELIGIBILITY FIGHT",
       "stories": [
         {
@@ -171,6 +223,39 @@
   "columns": {
     "left": [
       {
+        "headline": "LIV Golf Enters Limbo As Season Ends, Future Unclear",
+        "url": "https://frontofficesports.com/liv-golf-enters-limbo-as-2026-season-concludes-with-future-unclear/",
+        "timestamp": 1787583902000,
+        "postedAt": 1787584346508
+      },
+      {
+        "headline": "Chinese Robot Breaks Usain Bolt's 100m World Record",
+        "url": "https://www.cbsnews.com/news/china-robot-usain-bolt-sprint-run-record-faster/",
+        "timestamp": 1787581020000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787584346508,
+        "image": "/img/sports-1.jpg"
+      },
+      {
+        "headline": "Jiri Prochazka Shoots Down UFC Fight Rumors",
+        "url": "https://www.mmafighting.com/ufc/506779/morning-report-jiri-prochazka-shoots-down-fight-rumors-dont-believe-to-every-bullsht-on-internet",
+        "timestamp": 1787572800000,
+        "postedAt": 1787584346508
+      },
+      {
+        "headline": "Pegula Picks Better Mover: Gauff Or Swiatek",
+        "url": "https://tennishead.net/jessica-pegula-picks-whos-the-better-mover-on-court-out-of-coco-gauff-and-iga-swiatek/",
+        "timestamp": 1787569200000,
+        "postedAt": 1787584346508
+      },
+      {
+        "headline": "Raiders' Ashton Jeanty Believed To Have Sprained Ankle",
+        "url": "https://www.espn.com/nfl/story/_/id/49708202/raiders-rb-jeanty-believed-sprained-ankle",
+        "timestamp": 1787541480000,
+        "postedAt": 1787584346508
+      },
+      {
         "headline": "Robot Breaks Another Human Track Feat At Humanoid Games",
         "url": "https://bleacherreport.com/articles/25481614-after-breaking-usain-bolts-record-robot-breaks-another-human-track-feat-world-humanoid-games",
         "timestamp": 1787495153000,
@@ -182,7 +267,7 @@
         "timestamp": 1787495599000,
         "photo": true,
         "postedAt": 1787497352451,
-        "image": "/img/sports-0.jpg"
+        "image": "/img/sports-3.jpg"
       },
       {
         "headline": "Oliver's Camp Absence Tied To Injury, Not Personal Tragedy",
@@ -207,8 +292,7 @@
         "url": "https://deadspin.com/arthur-fils-frances-tiafoe-advance-to-cincinnati-final/",
         "timestamp": 1787463060000,
         "photo": true,
-        "postedAt": 1787487582734,
-        "image": "/img/sports-1.jpg"
+        "postedAt": 1787487582734
       },
       {
         "headline": "Inside The Power And Money Struggle At Washington's IndyCar Race",
@@ -263,6 +347,25 @@
     ],
     "center": [
       {
+        "headline": "UK: Premier League Opening Weekend Winners And Losers",
+        "url": "https://www.bbc.com/sport/football/live/cq4g3n2ll7wwt",
+        "timestamp": 1787581406000,
+        "postedAt": 1787584346508
+      },
+      {
+        "headline": "Vrabel Explains Comments On Patriots' Roster Depth",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-explains-his-comments-about-lack-of-depth-on-roster",
+        "timestamp": 1787578966000,
+        "postedAt": 1787584346508
+      },
+      {
+        "headline": "IndyCar's First DC Race Packs National Mall",
+        "url": "https://www.npr.org/2026/08/24/nx-s1-5939827/washington-d-c-s-first-indycar-race-packed-the-national-mall",
+        "timestamp": 1787564173000,
+        "photo": true,
+        "postedAt": 1787584346508
+      },
+      {
         "headline": "Diamondbacks Look To Close Wild-Card Gap Against Reds",
         "url": "https://deadspin.com/diamondbacks-look-to-close-wild-card-gap-against-reds/",
         "timestamp": 1787495220000,
@@ -288,7 +391,7 @@
         "timestamp": 1787450520000,
         "photo": true,
         "postedAt": 1787487582734,
-        "image": "/img/sports-3.jpg"
+        "image": "/img/sports-4.jpg"
       },
       {
         "headline": "JANNIK SINNER WITHDRAWS FROM US OPEN WITH KNEE INJURY",
@@ -351,6 +454,34 @@
     ],
     "right": [
       {
+        "headline": "BLUE JAYS HOLD OFF YANKEES AS CEASE FLIRTS WITH NO-HITTER",
+        "url": "https://deadspin.com/mlb-roundup-dylan-cease-flirts-with-no-hitter-blue-jays-hold-off-yanks/",
+        "timestamp": 1787487582734,
+        "postedAt": 1787487582734
+      },
+      {
+        "headline": "Fan Brawl Breaks Out Again At White Sox Game",
+        "url": "https://www.barstoolsports.com/blog/3575898/another-week-another-trailer-trash-brawl-at-a-white-sox-game",
+        "timestamp": 1787581056000,
+        "photo": true,
+        "postedAt": 1787584346508,
+        "image": "/img/sports-0.jpg"
+      },
+      {
+        "headline": "Fenway Electric As Red Sox Eye October Path Vs Yankees",
+        "url": "https://www.barstoolsports.com/blog/3575902/fenway-park-is-electric-again-and-the-red-sox-have-a-clear-path-to-host-the-yankees-in-october-and-should-100percent-go-for-it",
+        "timestamp": 1787579256000,
+        "photo": true,
+        "postedAt": 1787584346508,
+        "image": "/img/sports-2.jpg"
+      },
+      {
+        "headline": "Winners And Losers From Chiefs' Second Preseason Game",
+        "url": "https://www.arrowheadpride.com/kansas-city-chiefs-analysis/208484/6-winners-5-losers-chiefs-second-preseason-game",
+        "timestamp": 1787526000000,
+        "postedAt": 1787584346508
+      },
+      {
         "headline": "NICK CHUBB ANNOUNCES RETIREMENT FROM NFL",
         "url": "https://www.espn.com/nfl/story/_/id/49686432/running-back-nick-chubb-announces-retirement-nfl",
         "timestamp": 1787400705592,
@@ -367,8 +498,7 @@
         "url": "https://www.mmafighting.com/boxing/506708/austin-mcbroom-scores-terrifying-knockout-over-faze-temper-in-brand-risk-15-main-event",
         "timestamp": 1787459520000,
         "photo": true,
-        "postedAt": 1787487582734,
-        "image": "/img/sports-2.jpg"
+        "postedAt": 1787487582734
       },
       {
         "headline": "Inside Cincinnati's $260M Overhaul Of Tennis' 'Worst' Stop",
@@ -381,8 +511,7 @@
         "url": "https://www.cbssports.com/ufc/news/ufc-fight-night-card-predictions-anthony-hernandez-vs-gregory-rodrigues-odds/",
         "timestamp": 1787405400000,
         "photo": true,
-        "postedAt": 1787410772454,
-        "image": "/img/sports-4.jpg"
+        "postedAt": 1787410772454
       },
       {
         "headline": "Vieira Misses Weight For Cyborg Title Fight At PFL Tampa",
@@ -424,138 +553,93 @@
     },
     {
       "league": "MLB",
-      "home": "PHI",
-      "away": "STL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "4"
-    },
-    {
-      "league": "MLB",
-      "home": "BAL",
-      "away": "TB",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "1",
-      "awayScore": "3"
-    },
-    {
-      "league": "MLB",
-      "home": "NYY",
-      "away": "TOR",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "8",
-      "awayScore": "3"
-    },
-    {
-      "league": "MLB",
       "home": "MIA",
-      "away": "WSH",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "2"
+      "away": "BOS",
+      "state": "scheduled",
+      "note": "8/24 - 6:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
-      "home": "HOU",
-      "away": "ATH",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "7"
+      "home": "DET",
+      "away": "TB",
+      "state": "scheduled",
+      "note": "8/24 - 6:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
-      "home": "KC",
-      "away": "DET",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "11",
-      "awayScore": "7"
+      "home": "WSH",
+      "away": "COL",
+      "state": "scheduled",
+      "note": "8/24 - 6:45 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "CHW",
-      "away": "NYM",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "1"
+      "away": "TEX",
+      "state": "scheduled",
+      "note": "8/24 - 7:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
-      "home": "TEX",
-      "away": "LAA",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "5",
-      "awayScore": "3"
-    },
-    {
-      "league": "MLB",
-      "home": "COL",
+      "home": "LAA",
       "away": "CLE",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "7"
-    },
-    {
-      "league": "MLB",
-      "home": "BOS",
-      "away": "SF",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "5",
-      "awayScore": "4"
-    },
-    {
-      "league": "MLB",
-      "home": "SEA",
-      "away": "CHC",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "19"
-    },
-    {
-      "league": "MLB",
-      "home": "SD",
-      "away": "MIN",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "8",
-      "awayScore": "1"
-    },
-    {
-      "league": "MLB",
-      "home": "LAD",
-      "away": "PIT",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "4",
-      "awayScore": "0"
+      "state": "scheduled",
+      "note": "8/24 - 9:38 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "ARI",
-      "away": "CIN",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "5",
-      "awayScore": "3"
+      "away": "CHC",
+      "state": "scheduled",
+      "note": "8/24 - 9:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
-      "home": "MIL",
-      "away": "ATL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "4"
+      "home": "ATH",
+      "away": "MIN",
+      "state": "scheduled",
+      "note": "8/24 - 9:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "SEA",
+      "away": "PHI",
+      "state": "scheduled",
+      "note": "8/24 - 9:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "SD",
+      "away": "PIT",
+      "state": "scheduled",
+      "note": "8/24 - 9:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "SF",
+      "away": "CIN",
+      "state": "scheduled",
+      "note": "8/24 - 9:45 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLS",

@@ -1,20 +1,24 @@
 {
-  "lastUpdated": 1787497046450,
-  "heroSetDate": "2026-08-23",
+  "lastUpdated": 1787584087122,
+  "heroSetDate": "2026-08-24",
   "hero": {
-    "headline": "TRUMP'S 50% TARIFFS ON CANADA SET TO TAKE EFFECT IN SEPTEMBER",
-    "url": "https://www.cbc.ca/news/politics/mark-carney-counter-tarrif-response-9.7316934",
+    "headline": "IRAN'S CURRENCY CRASHES TO RECORD LOW AS U.S. READIES NEW SANCTIONS",
+    "url": "https://apnews.com/article/iran-rial-currency-bessent-trade-august-24-2026-e367634d8853c8fa4a341132cd577f31",
     "sublinks": [
       {
-        "text": "Trade Dispute Escalates Into Open 'War' Between Two Nations",
-        "url": "https://apnews.com/857ef76b20a766e370d70176135b678e"
+        "text": "Iran Threatens 45 Tankers With Fines And Seizures In Hormuz Escalation",
+        "url": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/"
       },
       {
-        "text": "Trump Tests Carney's Resolve Amid Economic Coercion Warnings",
-        "url": "https://www.washingtontimes.com/news/2026/aug/23/carney-warned-economic-coercion-trump-testing-canadian-prime-minister/"
+        "text": "Tehran Vows To Defy Trump's Escalating Sanctions",
+        "url": "https://www.nytimes.com/2026/08/24/world/middleeast/iran-sanctions-economy-us-trump.html?unlocked_article_code=1.71A.DGsU.3IxCHW_mc0t_&smid=url-share"
+      },
+      {
+        "text": "U.S. Officials Say Regime Aims To Maximize Disruption",
+        "url": "https://nypost.com/2026/08/23/world-news/iran-hacks-reveal-weak-spot-on-us-uk-grid-as-regime-aims-to-maximize-disruption-expert/"
       }
     ],
-    "postedAt": 1787497046450,
+    "postedAt": 1787584087122,
     "img": true
   },
   "groups": [
@@ -62,6 +66,47 @@
           "url": "https://apnews.com/article/middle-east-iran-israel-west-bank-august-23-2026-a3fff9eba47a5510060e8014b82d794f",
           "timestamp": 1787479860000,
           "postedAt": 1787487018976
+        },
+        {
+          "headline": "Canada: Ottawa Retaliates Against New U.S. Tariffs",
+          "url": "http://finance.yahoo.com/economy/policy/articles/us-canada-fail-reach-trade-042829871.html",
+          "timestamp": 1787583647165,
+          "postedAt": 1787584087122
+        }
+      ]
+    },
+    {
+      "title": "2026 MIDTERMS: PRIMARY DAY AND KEY SENATE POLLS",
+      "stories": [
+        {
+          "headline": "Poll: Rubio Outperforms Vance In Early 2028 Matchup",
+          "url": "https://emersoncollegepolling.com/august-2026-national-poll/",
+          "timestamp": 1787329211642,
+          "postedAt": 1787329471648
+        },
+        {
+          "headline": "Alarm Bells Ring For Vance As 2028 Buzz Builds",
+          "url": "https://www.dailymail.com/news/us-politics/article-16067425",
+          "timestamp": 1787329211642,
+          "postedAt": 1787329471648
+        },
+        {
+          "headline": "Florida Democrats' Senate Nominee Clashes With Party Chair Over Socialism",
+          "url": "https://www.axios.com/2026/08/21/florida-democrats-angie-nixon-nikki-fried-socialism",
+          "timestamp": 1787393291000,
+          "postedAt": 1787400409012
+        },
+        {
+          "headline": "Trump Urges South Carolina To Nominate Darline Graham For Senate",
+          "url": "https://apnews.com/article/trump-south-carolina-campaign-darline-graham-senate-96df66a656438fb97daf9d9a551ebda5",
+          "timestamp": 1787360940000,
+          "postedAt": 1787400409012
+        },
+        {
+          "headline": "Kushner And Jeffries Meet Privately As House Control Hangs In Balance",
+          "url": "https://www.pbs.org/newshour/politics/jared-kushner-and-democratic-leader-jeffries-meet-with-house-control-at-stake-in-november",
+          "timestamp": 1787513695000,
+          "postedAt": 1787584087122
         }
       ]
     },
@@ -108,35 +153,6 @@
           "headline": "Drastic Water Cuts Issued For California, Nevada And Arizona",
           "url": "https://www.cbsnews.com/news/colorado-river-drastic-water-cuts-california-nevada-arizona-drought/",
           "timestamp": 1787371080000,
-          "postedAt": 1787400409012
-        }
-      ]
-    },
-    {
-      "title": "2026 MIDTERMS: PRIMARY DAY AND KEY SENATE POLLS",
-      "stories": [
-        {
-          "headline": "Poll: Rubio Outperforms Vance In Early 2028 Matchup",
-          "url": "https://emersoncollegepolling.com/august-2026-national-poll/",
-          "timestamp": 1787329211642,
-          "postedAt": 1787329471648
-        },
-        {
-          "headline": "Alarm Bells Ring For Vance As 2028 Buzz Builds",
-          "url": "https://www.dailymail.com/news/us-politics/article-16067425",
-          "timestamp": 1787329211642,
-          "postedAt": 1787329471648
-        },
-        {
-          "headline": "Florida Democrats' Senate Nominee Clashes With Party Chair Over Socialism",
-          "url": "https://www.axios.com/2026/08/21/florida-democrats-angie-nixon-nikki-fried-socialism",
-          "timestamp": 1787393291000,
-          "postedAt": 1787400409012
-        },
-        {
-          "headline": "Trump Urges South Carolina To Nominate Darline Graham For Senate",
-          "url": "https://apnews.com/article/trump-south-carolina-campaign-darline-graham-senate-96df66a656438fb97daf9d9a551ebda5",
-          "timestamp": 1787360940000,
           "postedAt": 1787400409012
         }
       ]
@@ -196,6 +212,43 @@
   "columns": {
     "left": [
       {
+        "headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
+        "url": "https://www.foxnews.com/media/hasan-piker-seen-singing-mocking-we-charlie-kirk-song-live-podcast-show",
+        "timestamp": 1787443200000,
+        "postedAt": 1787443200000
+      },
+      {
+        "headline": "Illegal Immigrants Deported To Haiti On First Flight After Trump Ends TPS",
+        "url": "https://www.dailywire.com/news/exclusive-the-illegal-immigrants-deported-on-first-flight-to-haiti-after-trump-ended-tps",
+        "timestamp": 1787582827000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Illinois Officer Convicted In Sonya Massey Killing Dies",
+        "url": "https://www.theguardian.com/us-news/2026/aug/24/sonya-massey-illinois-sean-grayson-dies",
+        "timestamp": 1787582494000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Illegal-Alien Trucker With California License Charged In Fatal Mississippi Crash",
+        "url": "https://notthebee.com/article/cops-say-mississippi-resident-was-killed-by-illegal-alien-trucker-with-california-license/",
+        "timestamp": 1787578792000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Michigan Mass Shooter's Violence Had Frightened Loved Ones For Years",
+        "url": "https://www.nbcnews.com/news/us-news/chad-hickman-michigan-shooter-profile-rcna593891",
+        "timestamp": 1787572800000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Homicide Suspect Found Dead By Suicide After Five Bodies Found On Oregon Property",
+        "url": "https://www.koin.com/local/washington-county/forest-grove-death-investigation-press-conference-08232026/",
+        "timestamp": 1787517413000,
+        "photo": true,
+        "postedAt": 1787584087122
+      },
+      {
         "headline": "Jake Lang's Quran Burning In Dearborn Sparks Clashes With Muslim Residents",
         "url": "https://www.foxnews.com/us/anti-islam-protesters-muslims-clash-dearborn-michigan-after-man-attempts-burn-quran",
         "timestamp": 1787443200000,
@@ -207,7 +260,7 @@
         "timestamp": 1787443200000,
         "postedAt": 1787443200000,
         "photo": true,
-        "image": "/img/main-2.jpg"
+        "image": "/img/main-3.jpg"
       },
       {
         "headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
@@ -221,7 +274,7 @@
         "timestamp": 1787443200000,
         "postedAt": 1787443200000,
         "photo": true,
-        "image": "/img/main-3.jpg"
+        "image": "/img/main-4.jpg"
       },
       {
         "headline": "Michigan Lawmaker Says Viral Voice Clip Accusing Him Is Fake",
@@ -323,6 +376,52 @@
     ],
     "center": [
       {
+        "headline": "TRUMP'S 50% TARIFFS ON CANADA SET TO TAKE EFFECT IN SEPTEMBER",
+        "url": "https://www.cbc.ca/news/politics/mark-carney-counter-tarrif-response-9.7316934",
+        "timestamp": 1787497046450,
+        "postedAt": 1787497046450
+      },
+      {
+        "headline": "Father Awaiting Son's Return From USS Lincoln Deployment Arrested By Border Patrol",
+        "url": "https://apnews.com/article/uss-lincoln-soldier-immigrant-detention-trump-8697cd00f0b3099a0c03932e40f674db",
+        "timestamp": 1787583647165,
+        "photo": true,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Golf Channel Responds To Backlash Over Ad Showing Woman Shoved",
+        "url": "https://www.dailywire.com/news/golf-channel-responds-to-backlash-over-ad-showing-woman-shoved",
+        "timestamp": 1787583167000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "'90210' Alum AnnaLynne McCord Marries Danny Cipriani After Crowdfunding Wedding",
+        "url": "https://pagesix.com/2026/08/24/celebrity-news/90210-alum-annalynne-mccord-marries-danny-cipriani-after-crowdfunding-for-wedding/",
+        "timestamp": 1787582100000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "U.S. Military Kills Two In Boat Attack In Pacific",
+        "url": "https://www.cbsnews.com/news/us-military-destroys-alleged-drug-boat-pacific-deaths/",
+        "timestamp": 1787576437000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Fast-Moving Wildfire Forces Thousands To Evacuate Near Reno, Nevada",
+        "url": "https://www.nbcnews.com/news/us-news/fast-moving-wildfire-shifting-winds-threatens-reno-nevada-forcing-thou-rcna594079",
+        "timestamp": 1787571914000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787584087122,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Farmers Oppose Trump's Plan To Import Beef",
+        "url": "https://www.newsnationnow.com/business/your-money/farmers-oppose-trump-importing-beef-prices/",
+        "timestamp": 1787542711000,
+        "postedAt": 1787584087122
+      },
+      {
         "headline": "War, Weather And Trade Spats Pound World's Breadbaskets",
         "url": "https://www.nytimes.com/2026/08/23/climate/wheat-harvests-bread-prices-war-heat.html?unlocked_article_code=1.7lA.4CXR.az2rw1jlY8DN&smid=url-share",
         "timestamp": 1787496689747,
@@ -383,8 +482,7 @@
         "url": "https://www.nbcnews.com/news/us-news/missing-new-york-city-grandmother-found-dead-las-vegas-rcna593833",
         "timestamp": 1787357520000,
         "photo": true,
-        "postedAt": 1787400409012,
-        "image": "/img/main-4.jpg"
+        "postedAt": 1787400409012
       },
       {
         "headline": "America's Longest-Serving Prisoner Dies At 101 After 8 Stays Of Execution",
@@ -414,6 +512,39 @@
       }
     ],
     "right": [
+      {
+        "headline": "Cirque Du Soleil Acrobat Files $16M Lawsuit Over Bone-Breaking Fall",
+        "url": "https://www.oregonlive.com/portland/2026/08/cirque-du-soleil-performer-sues-for-16m-after-she-breaks-11-bones-in-fall-before-portland-crowd.html",
+        "timestamp": 1787583060000,
+        "photo": true,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Metals Recovered By Russia From Alleged UFO Not From Earth, Investigator Claims",
+        "url": "https://www.newsnationnow.com/space/metals-recovered-russia-alleged-ufo-ross-coulthart/",
+        "timestamp": 1787583051000,
+        "photo": true,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Trump Administration Moves To Impose $100,000 Fee For H-1B Visas",
+        "url": "https://www.reuters.com/legal/government/trump-administration-moves-impose-more-than-100000-fee-h-1b-worker-visas-2026-08-24/",
+        "timestamp": 1787578493000,
+        "feature": true,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Lawsuit Targets Mamdani's Government Grocery Store Plan",
+        "url": "https://www.foxbusiness.com/politics/big-apple-targeted-lawsuit-over-mamdanis-government-grocery-store-plans",
+        "timestamp": 1787574480000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Inside Trump's Push To Remake Global Women's Health Policy",
+        "url": "https://www.wric.com/news/politics/ap-inside-trumps-remake-of-the-white-house-rose-garden-first-a-stone-patio-then-statues/",
+        "timestamp": 1787544000000,
+        "postedAt": 1787584087122
+      },
       {
         "headline": "GOP Politicians Turn Against Data Centers",
         "url": "https://thenevadaindependent.com/article/opinion-nevada-politicians-are-too-slow-to-reckon-with-the-revolt-against-data-centers",
@@ -445,7 +576,7 @@
         "feature": true,
         "photo": true,
         "postedAt": 1787487018976,
-        "image": "/img/main-0.jpg"
+        "image": "/img/main-1.jpg"
       },
       {
         "headline": "UK: Prince William's Royal Mentor Reveals Mother's Secret MI5 Past",
@@ -453,7 +584,7 @@
         "timestamp": 1787482814000,
         "photo": true,
         "postedAt": 1787487018976,
-        "image": "/img/main-1.jpg"
+        "image": "/img/main-2.jpg"
       },
       {
         "headline": "15-Year-Old Arrested In Deadly Shooting At High School Football Game",
@@ -510,16 +641,22 @@
         "url": "https://www.cbsnews.com/news/haiti-deportees-us-ends-tps-protection/",
         "timestamp": 1787313420000,
         "postedAt": 1787329471648
+      },
+      {
+        "headline": "Trump Says Communities Opposing Data Centers Are 'Making A Mistake'",
+        "url": "https://www.axios.com/2026/08/23/trump-data-centers-michael-cohen-interview",
+        "timestamp": 1787578975000,
+        "postedAt": 1787584087122
       }
     ]
   },
   "balance": {
-    "left": 28,
-    "right": 12,
+    "left": 34,
+    "right": 17,
     "independent": 0,
-    "days": 7,
-    "total": 40,
-    "pctLeft": 70,
-    "pctRight": 30
+    "days": 30,
+    "total": 51,
+    "pctLeft": 67,
+    "pctRight": 33
   }
 }
