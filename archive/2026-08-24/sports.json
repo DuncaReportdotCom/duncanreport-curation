@@ -417,109 +417,10 @@
       "league": "NFL",
       "home": "TEN",
       "away": "SEA",
-      "state": "in",
-      "note": "12:32 - 2nd",
-      "homeScore": "3",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "19",
       "awayScore": "16"
-    },
-    {
-      "league": "NFL",
-      "home": "DET",
-      "away": "WSH",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "17",
-      "awayScore": "13"
-    },
-    {
-      "league": "NFL",
-      "home": "CLE",
-      "away": "BUF",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "7",
-      "awayScore": "31"
-    },
-    {
-      "league": "NFL",
-      "home": "IND",
-      "away": "ATL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "34"
-    },
-    {
-      "league": "NFL",
-      "home": "MIN",
-      "away": "BAL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "3",
-      "awayScore": "13"
-    },
-    {
-      "league": "NFL",
-      "home": "LAR",
-      "away": "NO",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "34",
-      "awayScore": "0"
-    },
-    {
-      "league": "NFL",
-      "home": "MIA",
-      "away": "NYG",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "3",
-      "awayScore": "26"
-    },
-    {
-      "league": "NFL",
-      "home": "CIN",
-      "away": "CHI",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "27",
-      "awayScore": "9"
-    },
-    {
-      "league": "NFL",
-      "home": "NE",
-      "away": "PHI",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "24",
-      "awayScore": "21"
-    },
-    {
-      "league": "NFL",
-      "home": "TB",
-      "away": "KC",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "16",
-      "awayScore": "15"
-    },
-    {
-      "league": "NFL",
-      "home": "ARI",
-      "away": "DAL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "13",
-      "awayScore": "34"
-    },
-    {
-      "league": "MLB",
-      "home": "MIL",
-      "away": "ATL",
-      "state": "in",
-      "note": "Mid 6th",
-      "homeScore": "1",
-      "awayScore": "3"
     },
     {
       "league": "MLB",
@@ -648,13 +549,13 @@
       "awayScore": "3"
     },
     {
-      "league": "MLS",
-      "home": "ATL",
-      "away": "SKC",
-      "state": "in",
-      "note": "90'",
+      "league": "MLB",
+      "home": "MIL",
+      "away": "ATL",
+      "state": "post",
+      "note": "Final",
       "homeScore": "2",
-      "awayScore": "1"
+      "awayScore": "4"
     },
     {
       "league": "MLS",
@@ -663,6 +564,15 @@
       "state": "post",
       "note": "FT",
       "homeScore": "1",
+      "awayScore": "1"
+    },
+    {
+      "league": "MLS",
+      "home": "ATL",
+      "away": "SKC",
+      "state": "post",
+      "note": "FT",
+      "homeScore": "2",
       "awayScore": "1"
     }
   ]

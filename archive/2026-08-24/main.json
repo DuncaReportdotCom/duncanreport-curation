@@ -196,12 +196,32 @@
   "columns": {
     "left": [
       {
+        "headline": "Jake Lang's Quran Burning In Dearborn Sparks Clashes With Muslim Residents",
+        "url": "https://www.foxnews.com/us/anti-islam-protesters-muslims-clash-dearborn-michigan-after-man-attempts-burn-quran",
+        "timestamp": 1787443200000,
+        "postedAt": 1787443200000
+      },
+      {
+        "headline": "Jake Lang Arrested In Minneapolis For Rioting Outside City Hall",
+        "url": "https://www.mprnews.org/story/2026/08/22/right-wing-influencer-jake-lang-arrested-in-minneapolis-for-suspicion-of-rioting",
+        "timestamp": 1787443200000,
+        "postedAt": 1787443200000,
+        "photo": true,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
+        "url": "https://www.foxnews.com/media/hasan-piker-seen-singing-mocking-we-charlie-kirk-song-live-podcast-show",
+        "timestamp": 1787443200000,
+        "postedAt": 1787443200000
+      },
+      {
         "headline": "More Died From Heat In France This Summer Than In All US Mass Shootings In History",
         "url": "https://notthebee.com/article/report-more-people-have-died-from-heat-in-france-this-summer-than-all-us-mass-shootings-in-history",
         "timestamp": 1787443200000,
         "postedAt": 1787443200000,
         "photo": true,
-        "image": "/img/main-2.jpg"
+        "image": "/img/main-3.jpg"
       },
       {
         "headline": "Michigan Lawmaker Says Viral Voice Clip Accusing Him Is Fake",
@@ -272,8 +292,7 @@
         "url": "https://www.mirror.co.uk/news/politics/donald-trump-extremely-close-aide-37579124",
         "timestamp": 1787329211642,
         "photo": true,
-        "postedAt": 1787329471648,
-        "image": "/img/main-4.jpg"
+        "postedAt": 1787329471648
       },
       {
         "headline": "Alaska Charter Plane Crash Kills 8, Including Army Corps Employees",
@@ -365,7 +384,7 @@
         "timestamp": 1787357520000,
         "photo": true,
         "postedAt": 1787400409012,
-        "image": "/img/main-3.jpg"
+        "image": "/img/main-4.jpg"
       },
       {
         "headline": "America's Longest-Serving Prisoner Dies At 101 After 8 Stays Of Execution",
@@ -496,11 +515,11 @@
   },
   "balance": {
     "left": 28,
-    "right": 10,
+    "right": 12,
     "independent": 0,
     "days": 7,
-    "total": 38,
-    "pctLeft": 74,
-    "pctRight": 26
+    "total": 40,
+    "pctLeft": 70,
+    "pctRight": 30
   }
 }
