@@ -1,0 +1,26 @@
+{
+  "main": [
+    {"headline": "Prince Harry and Meghan Moving Their Family Back to the UK", "url": "https://www.nbcnews.com/world/united-kingdom/prince-harry-meghan-will-move-back-united-kingdom-source-says-rcna593435", "added": "2026-08-20"},
+    {"headline": "More Died From Heat In France This Summer Than In All US Mass Shootings In History", "url": "https://notthebee.com/article/report-more-people-have-died-from-heat-in-france-this-summer-than-all-us-mass-shootings-in-history", "added": "2026-08-23", "photo": true},
+    {"headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd", "url": "https://jonathanturley.org/2026/08/23/we-are-charlie-kirk-hasan-piker-mocks-the-murdered-charlie-kirk-to-cheering-crowd/", "added": "2026-08-23"},
+    {"headline": "Jake Lang Arrested In Minneapolis For Rioting Outside City Hall", "url": "https://www.mprnews.org/story/2026/08/22/right-wing-influencer-jake-lang-arrested-in-minneapolis-for-suspicion-of-rioting", "added": "2026-08-23", "photo": true},
+    {"headline": "Jake Lang's Quran Burning In Dearborn Sparks Clashes With Muslim Residents", "url": "https://www.foxnews.com/us/anti-islam-protesters-muslims-clash-dearborn-michigan-after-man-attempts-burn-quran", "added": "2026-08-23"}
+  ],
+  "markets": [
+    {"headline": "Walmart US Same-Store Sales Post Slowest Growth in Six Years", "url": "https://chainstoreage.com/walmart-beats-street-q2-eps-revenues-misses-us-comp-sales", "added": "2026-08-20"}
+  ],
+  "life-culture": [
+    {"headline": "How to Stock Your Home Bar, According to a Woman", "url": "https://www.insidehook.com/drinks/every-grown-man-should-stock-home-bar", "added": "2026-08-06"}
+  ],
+  "politics": [
+    {"hero": true, "added": "2026-08-13",
+     "headline": "MILWAUKEE ELECTION NIGHT CHAOS: 5 OF 9 USB DRIVES ARRIVE WITHOUT RESULTS",
+     "url": "https://www.votebeat.org/wisconsin/2026/08/12/milwaukee-election-error-delayed-results-2026-primary/",
+     "sublinks": [
+       {"text": "Officials blame a download error for the hours-long delay", "url": "https://urbanmilwaukee.com/2026/08/12/milwaukee-election-results-delayed-by-download-error/"},
+       {"text": "Five of nine drives arrived missing all results, forcing a retabulation", "url": "https://www.westernjournal.com/breaking-overnight-5-9-usb-drives-missing-election-results-blue-stronghold-milwaukee/"},
+       {"text": "Steve Kornacki's on-air reaction goes viral as Wisconsin retabulates", "url": "https://www.primetimer.com/news/steve-kornackis-shocked-expression-goes-viral-after-learning-wisconsin-election-results-will-be-retabulated-due-to-missing-results-on-5-of-9-usb-sticks"}
+     ]},
+    {"headline": "FBI Seizes Eric Swalwell's Devices in Sexual Misconduct Probe", "url": "https://www.cbsnews.com/news/swalwell-fbi-search-warrants-devices-sexual-misconduct-investigation/", "added": "2026-08-20"}
+  ]
+}
