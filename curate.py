@@ -4500,46 +4500,81 @@ def apply_suppress(data):
         data["heroSetDate"] = None
     return data
 
-MANUAL_PICKS = {
-    "main": [
-        {"headline": "Prince Harry and Meghan Moving Their Family Back to the UK", "url": 'https://www.nbcnews.com/world/united-kingdom/prince-harry-meghan-will-move-back-united-kingdom-source-says-rcna593435', "added": '2026-08-20'},
-        # Counterintuitive, multi-narrative Not the Bee item - flagged for a self-hosted photo.
-        {"headline": "More Died From Heat In France This Summer Than In All US Mass Shootings In History",
-         "url": 'https://notthebee.com/article/report-more-people-have-died-from-heat-in-france-this-summer-than-all-us-mass-shootings-in-history',
-         "added": '2026-08-23', "photo": True},
-        # Jonathan Turley analysis - independent (exempt from the L/R balance tally).
-        {"headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
-         "url": 'https://jonathanturley.org/2026/08/23/we-are-charlie-kirk-hasan-piker-mocks-the-murdered-charlie-kirk-to-cheering-crowd/',
-         "added": '2026-08-23'},
-        # Jake Lang - developing multi-thread story; also a standing NARRATIVE arc (main + politics).
-        {"headline": "Jake Lang Arrested In Minneapolis For Rioting Outside City Hall",
-         "url": 'https://www.mprnews.org/story/2026/08/22/right-wing-influencer-jake-lang-arrested-in-minneapolis-for-suspicion-of-rioting',
-         "added": '2026-08-23', "photo": True},
-        # The origin that started it all: Lang's Quran burning in Dearborn (Fox - balances the arrest pin).
-        {"headline": "Jake Lang's Quran Burning In Dearborn Sparks Clashes With Muslim Residents",
-         "url": 'https://www.foxnews.com/us/anti-islam-protesters-muslims-clash-dearborn-michigan-after-man-attempts-burn-quran',
-         "added": '2026-08-23'},
-    ],
-    "markets": [
-        {"headline": "Walmart US Same-Store Sales Post Slowest Growth in Six Years", "url": 'https://chainstoreage.com/walmart-beats-street-q2-eps-revenues-misses-us-comp-sales', "added": '2026-08-20'},
-    ],
-    "life-culture": [
-        {"headline": 'How to Stock Your Home Bar, According to a Woman', "url": 'https://www.insidehook.com/drinks/every-grown-man-should-stock-home-bar', "added": '2026-08-06'},
-    ],
-    "politics": [
-        # Forced LEAD: Wisconsin/Milwaukee USB-drive election controversy. Nonpartisan Votebeat
-        # is the hero, with a local, a right-leaning, and the viral-moment angle as sublinks.
-        {"hero": True, "added": '2026-08-13',
-         "headline": "MILWAUKEE ELECTION NIGHT CHAOS: 5 OF 9 USB DRIVES ARRIVE WITHOUT RESULTS",
-         "url": 'https://www.votebeat.org/wisconsin/2026/08/12/milwaukee-election-error-delayed-results-2026-primary/',
-         "sublinks": [
-            {"text": "Officials blame a download error for the hours-long delay", "url": 'https://urbanmilwaukee.com/2026/08/12/milwaukee-election-results-delayed-by-download-error/'},
-            {"text": "Five of nine drives arrived missing all results, forcing a retabulation", "url": 'https://www.westernjournal.com/breaking-overnight-5-9-usb-drives-missing-election-results-blue-stronghold-milwaukee/'},
-            {"text": "Steve Kornacki's on-air reaction goes viral as Wisconsin retabulates", "url": 'https://www.primetimer.com/news/steve-kornackis-shocked-expression-goes-viral-after-learning-wisconsin-election-results-will-be-retabulated-due-to-missing-results-on-5-of-9-usb-sticks'},
-         ]},
-        {"headline": "FBI Seizes Eric Swalwell's Devices in Sexual Misconduct Probe", "url": 'https://www.cbsnews.com/news/swalwell-fbi-search-warrants-devices-sexual-misconduct-investigation/', "added": '2026-08-20'},
-    ],
-}
+# ---- Externalized hand-added content (edit these JSON files, not the code) ----------------------
+# manual_picks.json  = pinned articles per section; extra_narratives.json = additive standing arcs.
+# Both are loaded here, validated, and FAIL-SAFE: a missing/invalid file or bad entry is skipped
+# with a warning and never breaks the build. Add via the files directly or the 'Add pick' Action.
+EXTRA_NARRATIVES_PATH = os.path.join(ROOT, "extra_narratives.json")
+
+def _merge_extra_narratives():
+    """Additively merge hand-added arcs into NARRATIVES, leaving the built-in list untouched."""
+    try:
+        with open(EXTRA_NARRATIVES_PATH, encoding="utf-8") as f:
+            extra = json.load(f)
+    except FileNotFoundError:
+        return
+    except Exception as e:
+        print("  extra_narratives.json invalid - ignoring:", repr(e)[:160]); return
+    if not isinstance(extra, dict):
+        return
+    n = 0
+    for sec, arcs in extra.items():
+        if sec not in set(SECTIONS) or not isinstance(arcs, list):
+            continue
+        for a in arcs:
+            if isinstance(a, dict) and a.get("arc") and a.get("q"):
+                NARRATIVES.setdefault(sec, []).append({"arc": a["arc"].strip(), "q": a["q"].strip()})
+                n += 1
+    if n:
+        print("  merged %d extra narrative arc(s) from extra_narratives.json" % n)
+
+_merge_extra_narratives()
+
+MANUAL_PICKS_PATH = os.path.join(ROOT, "manual_picks.json")
+
+def _load_manual_picks():
+    """Load hand-placed picks from manual_picks.json (per-section lists of
+    {headline, url, added, [photo], [hero], [feature], [sublinks]}). Validated and fail-safe."""
+    try:
+        with open(MANUAL_PICKS_PATH, encoding="utf-8") as f:
+            raw = json.load(f)
+    except FileNotFoundError:
+        return {}
+    except Exception as e:
+        print("  manual_picks.json invalid - ignoring all picks this run:", repr(e)[:160])
+        return {}
+    if not isinstance(raw, dict):
+        print("  manual_picks.json must be an object keyed by section - ignoring")
+        return {}
+    out, valid = {}, set(SECTIONS)
+    today = datetime.date.today().isoformat()
+    for sec, picks in raw.items():
+        if sec not in valid or not isinstance(picks, list):
+            continue
+        clean = []
+        for p in picks:
+            if not isinstance(p, dict):
+                continue
+            url = (p.get("url") or "").strip()
+            headline = (p.get("headline") or "").strip()
+            if not url or not headline:
+                print("  manual_picks: skipping entry missing url/headline in %s" % sec)
+                continue
+            entry = {"headline": headline, "url": url, "added": (p.get("added") or today)}
+            for k in ("hero", "photo", "feature"):
+                if p.get(k):
+                    entry[k] = True
+            if isinstance(p.get("sublinks"), list):
+                sls = [{"text": (sl.get("text") or "").strip(), "url": (sl.get("url") or "").strip()}
+                       for sl in p["sublinks"] if isinstance(sl, dict) and sl.get("url")]
+                if sls:
+                    entry["sublinks"] = sls
+            clean.append(entry)
+        if clean:
+            out[sec] = clean
+    return out
+
+MANUAL_PICKS = _load_manual_picks()
 
 def apply_manual_picks(section, data):
     """Inject hand-placed articles directly onto a page (guaranteed to appear). Each shows for
