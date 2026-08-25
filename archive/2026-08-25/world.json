@@ -161,7 +161,8 @@
         "url": "https://www.euronews.com/2026/08/24/kazakhstans-new-ruling-party-projected-to-win-elections",
         "timestamp": 1787547598000,
         "photo": true,
-        "postedAt": 1787658124509
+        "postedAt": 1787658124509,
+        "image": "/img/world-3.jpg"
       },
       {
         "headline": "Germany's AfD Eyes Saxony-Anhalt Win As Step Toward Federal Power",
@@ -217,8 +218,7 @@
         "url": "https://www.pbs.org/newshour/world/student-killed-in-sword-attack-at-a-swedish-school-was-a-17-year-old-girl",
         "timestamp": 1787419417000,
         "photo": true,
-        "postedAt": 1787488006763,
-        "image": "/img/world-4.jpg"
+        "postedAt": 1787488006763
       },
       {
         "headline": "No Deal Reached As US-Canada Tariffs Take Effect At 50%",
@@ -309,7 +309,7 @@
         "timestamp": 1787492812000,
         "photo": true,
         "postedAt": 1787497820383,
-        "image": "/img/world-3.jpg"
+        "image": "/img/world-4.jpg"
       },
       {
         "headline": "Deadly Ebola Outbreak In Congo's Bundibugyo Region Can Be Stopped, Officials Say",
