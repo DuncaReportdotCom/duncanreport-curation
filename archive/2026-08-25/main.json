@@ -2,15 +2,9 @@
   "lastUpdated": 1787657451672,
   "heroSetDate": "2026-08-25",
   "hero": {
-    "headline": "SUPREME COURT CLEARS PATH FOR TRUMP'S MAIL-IN VOTING LIMITS",
-    "url": "https://www.scotusblog.com/2026/08/supreme-court-allows-trump-administration-to-move-forward-with-order-imposing-restrictions-on-ma/",
-    "sublinks": [
-      {
-        "text": "Analysis: Ruling Merely Delays Fight Over Mail-In Ballots",
-        "url": "https://www.nationalreview.com/corner/supreme-court-kicks-the-can-on-trumps-mail-in-ballots-order/"
-      }
-    ],
-    "postedAt": 1787657451672,
+    "headline": "Dolly Parton, country music icon, dies at 80",
+    "url": "https://www.nbcnews.com/news/us-news/dolly-parton-county-music-icon-dies-80-rcna236277",
+    "sublinks": [],
     "img": true
   },
   "groups": [
@@ -156,12 +150,6 @@
         "postedAt": 1787616000000,
         "photo": true,
         "image": "/img/main-1.jpg"
-      },
-      {
-        "headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
-        "url": "https://news3lv.com/news/nation-world/leftist-streamer-hasan-piker-mocks-charlie-kirk-during-a-live-show-turning-point-usa-podcast-conservatives",
-        "timestamp": 1787443200000,
-        "postedAt": 1787443200000
       },
       {
         "headline": "Illegal Immigrants Deported To Haiti On First Flight After Trump Ends TPS",
@@ -521,12 +509,12 @@
     ]
   },
   "balance": {
-    "left": 59,
+    "left": 60,
     "right": 30,
     "independent": 2,
     "days": 30,
-    "total": 89,
-    "pctLeft": 66,
-    "pctRight": 34
+    "total": 90,
+    "pctLeft": 67,
+    "pctRight": 33
   }
 }
