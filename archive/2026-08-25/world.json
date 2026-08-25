@@ -1,53 +1,90 @@
 {
-  "lastUpdated": 1787584985952,
-  "heroSetDate": "2026-08-24",
+  "lastUpdated": 1787658124509,
+  "heroSetDate": "2026-08-25",
   "hero": {
-    "headline": "IRAN'S CURRENCY HITS RECORD LOW AS US READIES 'ECONOMIC D-DAY' SANCTIONS",
-    "url": "https://apnews.com/article/iran-rial-currency-bessent-trade-august-24-2026-e367634d8853c8fa4a341132cd577f31",
+    "headline": "RARE TORNADO RIPS THROUGH SOUTHERN FRANCE VILLAGE, INJURING 39",
+    "url": "https://apnews.com/article/france-tornado-pomas-dozens-injured-176e48d07dad6d5caadfe40e54d721ee",
     "sublinks": [
       {
-        "text": "Global Markets Slip Ahead Of Looming Sanctions Announcement",
-        "url": "https://www.rfi.fr/en/international-news/20260824-stocks-oil-slip-ahead-of-us-threat-of-economic-war-against-iran"
+        "text": "Aude Region Left Reeling In Storm's Immediate Aftermath",
+        "url": "https://www.france24.com/en/france/20260824-tornado-devastates-village-southwestern-france-aude-region"
       },
       {
-        "text": "Iran Warns Of 'Harsh Response' To Anticipated Sanctions",
-        "url": "https://apnews.com/article/middle-east-iran-israel-syria-august-24-2026-4c37df8a725b49eae2ab1672b4ae4201"
-      },
-      {
-        "text": "Iran's President Calls US Memorandum Best Path Out Of Stalled War",
-        "url": "https://www.pbs.org/newshour/world/irans-president-says-u-s-memorandum-is-best-path-out-of-stalled-war-and-other-middle-east-news"
-      },
-      {
-        "text": "China's Iran Oil Purchases Face New Scrutiny Under Sanctions",
-        "url": "https://www.reuters.com/business/energy/looming-us-sanctions-iran-put-china-oil-buying-spotlight-2026-08-24/"
+        "text": "Meteorologists Call It One Of France's Rare Tornado Events",
+        "url": "https://www.reuters.com/business/environment/houses-damaged-after-tornado-hits-aude-southern-france-2026-08-25/"
       }
     ],
-    "postedAt": 1787584985952,
+    "postedAt": 1787658124509,
     "img": true
   },
   "groups": [
     {
-      "title": "UKRAINE WAR: ALLIES RALLY AS RUSSIA ESCALATES STRIKES",
+      "title": "IRAN WAR: SANCTIONS AND ATTACKS DEEPEN MIDEAST FALLOUT",
       "stories": [
         {
-          "headline": "France Announces 'Coalition Of The Willing' Meeting As Russia Steps Up Airstrikes",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/21/france-announces-meeting-of-coalition-of-the-willing-ukraine-allies-as-russia-steps-up-airstrikes_6756736_4.html",
-          "timestamp": 1787324791000,
-          "feature": true,
-          "postedAt": 1787330052955
+          "headline": "China Vows To 'Safeguard Interests' After US Widens Iran Sanctions",
+          "url": "https://www.bbc.com/news/articles/clyl8965j5go",
+          "timestamp": 1787655363000,
+          "postedAt": 1787658124509
         },
         {
-          "headline": "Rosenberg: Russians Feel Fuel Shortages But Not Yet War Fatigue",
-          "url": "https://www.bbc.com/news/articles/c4gknzgje7go",
-          "timestamp": 1787317620000,
-          "postedAt": 1787330052955
+          "headline": "Four India-Based Firms Hit By New US Iran Sanctions",
+          "url": "https://www.thehindu.com/business/Economy/four-india-based-companies-bear-the-brunt-of-us-iran-sanctions/article71388216.ece",
+          "timestamp": 1787652119000,
+          "postedAt": 1787658124509
         },
         {
-          "headline": "Ukraine's New 'Equalizer' Bomb Aims To Cut Reliance On Western Weapons",
-          "url": "https://www.foxnews.com/politics/ukraines-equalizer-bomb-aims-blow-reliance-us-european-weapons",
-          "timestamp": 1787302823000,
-          "postedAt": 1787330052955
+          "headline": "Ship Disabled By Suspected Attack In Strait Of Hormuz",
+          "url": "https://apnews.com/article/middle-east-iran-israel-hormuz-pakistan-august-25-2026-1a4fa2e3812c458a25a561b38dc89f09",
+          "timestamp": 1787651160000,
+          "postedAt": 1787658124509
         },
+        {
+          "headline": "Can Economic Pressure Succeed Where Strikes And Talks Failed?",
+          "url": "https://www.npr.org/2026/08/25/nx-s1-5943572/trump-iran-sanctions",
+          "timestamp": 1787648829000,
+          "postedAt": 1787658124509
+        },
+        {
+          "headline": "Six Months Into Iran War, Nearly Half Of Global Oil Flows Through Conflict Zones",
+          "url": "https://www.reuters.com/business/energy/six-months-into-iran-war-almost-half-global-oil-flows-war-zones-2026-08-25/",
+          "timestamp": 1787644252000,
+          "postedAt": 1787658124509
+        },
+        {
+          "headline": "Houthis Claim Strike On Saudi Tanker In Red Sea Escalation",
+          "url": "https://www.euronews.com/2026/08/24/houthis-claim-strike-on-saudi-tanker-in-latest-red-sea-escalation",
+          "timestamp": 1787586852000,
+          "postedAt": 1787658124509
+        },
+        {
+          "headline": "Iranian Official Urges Qatar To Move Detained Pilots To Hospital",
+          "url": "https://www.arabnews.com/node/2655503/amp",
+          "timestamp": 1787389560000,
+          "postedAt": 1787401010478
+        }
+      ]
+    },
+    {
+      "title": "MACRON, MBS UNVEIL $7 BILLION SAUDI-BACKED THEME PARK NEAR PARIS",
+      "stories": [
+        {
+          "headline": "'Colossal' Theme Park Project Unveiled As Saudi Crown Prince Visits France",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/25/colossal-theme-park-project-near-paris-unveiled-as-saudi-arabia-s-mbs-visits-france_6756817_4.html",
+          "timestamp": 1787655281000,
+          "postedAt": 1787658124509
+        },
+        {
+          "headline": "Dragon Ball Z Theme Park Gets $7 Billion Green Light",
+          "url": "https://www.cnbc.com/2026/08/25/dragon-ball-z-theme-park-france-paris.html",
+          "timestamp": 1787647988000,
+          "postedAt": 1787658124509
+        }
+      ]
+    },
+    {
+      "title": "UKRAINE WAR: ALLIES RALLY AS RUSSIA ESCALATES STRIKES",
+      "stories": [
         {
           "headline": "ISW: Russian Offensive Makes Incremental Gains In Latest Assessment",
           "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-22-2026/",
@@ -81,54 +118,6 @@
       ]
     },
     {
-      "title": "MIDDLE EAST AND IRAN",
-      "stories": [
-        {
-          "headline": "Israel To Investigate Hind Rajab Killing; Mother Wants More",
-          "url": "https://apnews.com/article/hind-rajab-israel-investigation-gaza-edc2d9b929db8cf972d41c35ffea9a56",
-          "timestamp": 1787332740000,
-          "postedAt": 1787401010479
-        },
-        {
-          "headline": "How Israel Is Expanding West Bank Settlements",
-          "url": "https://www.bbc.com/news/articles/c2lq5g4dedpo",
-          "timestamp": 1787340707000,
-          "postedAt": 1787401010479
-        },
-        {
-          "headline": "Iranian Official Urges Qatar To Move Detained Pilots To Hospital",
-          "url": "https://www.arabnews.com/node/2655503/amp",
-          "timestamp": 1787389560000,
-          "postedAt": 1787401010478
-        },
-        {
-          "headline": "Iran Says New US Sanctions Violate Sovereignty Of Other States",
-          "url": "https://www.aljazeera.com/news/2026/8/22/iran-says-new-us-sanctions-violate-sovereignty-of-other-states",
-          "timestamp": 1787390351000,
-          "postedAt": 1787401010478
-        },
-        {
-          "headline": "US Ambassador Responds To Rising Israel-Turkey-Syria Tensions",
-          "url": "https://www.pbs.org/newshour/show/u-s-ambassador-responds-to-rising-tensions-between-israel-turkey-and-syria",
-          "timestamp": 1787351717000,
-          "postedAt": 1787401010478
-        },
-        {
-          "headline": "Report: Iran Hacked And Shut Down British Power Plant For Days",
-          "url": "https://www.breitbart.com/europe/2026/08/23/iran-hacked-and-shut-down-a-british-power-plant-for-days-report/",
-          "timestamp": 1787479058000,
-          "feature": true,
-          "postedAt": 1787488006763
-        },
-        {
-          "headline": "'Unprecedented' Cyberattack On UK Power Plant Tied To Iranian Hackers",
-          "url": "https://www.jpost.com/international/islamic-terrorism/article-906279",
-          "timestamp": 1787462185000,
-          "postedAt": 1787488006763
-        }
-      ]
-    },
-    {
       "title": "ISRAEL STRIKES GAZA AND SYRIA TARGETS",
       "stories": [
         {
@@ -148,6 +137,32 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Zelensky Tells Putin Ukrainian Army Turning Russian Soldiers Into 'Fertilizer'",
+        "url": "https://www.breitbart.com/europe/2026/08/25/zelensky-tells-putin-ukrainian-army-turning-russian-soldiers-into-fertilizer/",
+        "timestamp": 1787656589000,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "UK To Help Ukraine Build Long-Range Missiles With Classified Tech",
+        "url": "https://apnews.com/article/uk-ukraine-missiles-scalp-defense-classified-range-52630a94448a2d2aa830a733ae899c33",
+        "timestamp": 1787622480000,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "UK's Rarest Bird Of Prey Rears New Chicks In Secret Location",
+        "url": "https://www.bbc.com/news/articles/c7vgvvyr78eo",
+        "timestamp": 1787560308000,
+        "photo": true,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "Kazakhstan's New Ruling Party Projected To Win Sunday Elections",
+        "url": "https://www.euronews.com/2026/08/24/kazakhstans-new-ruling-party-projected-to-win-elections",
+        "timestamp": 1787547598000,
+        "photo": true,
+        "postedAt": 1787658124509
+      },
       {
         "headline": "Germany's AfD Eyes Saxony-Anhalt Win As Step Toward Federal Power",
         "url": "https://www.reuters.com/world/germanys-afd-eyes-saxony-anhalt-win-first-step-toward-federal-power-2026-08-23/",
@@ -203,7 +218,7 @@
         "timestamp": 1787419417000,
         "photo": true,
         "postedAt": 1787488006763,
-        "image": "/img/world-2.jpg"
+        "image": "/img/world-4.jpg"
       },
       {
         "headline": "No Deal Reached As US-Canada Tariffs Take Effect At 50%",
@@ -243,46 +258,23 @@
         "photo": true,
         "timestamp": 1787389781000,
         "postedAt": 1787401010478
-      },
-      {
-        "headline": "Macron To Host Saudi Crown Prince For Two-Day State Visit",
-        "url": "https://www.arabnews.jp/en/saudi-arabia/article_176413/",
-        "timestamp": 1787278084000,
-        "postedAt": 1787330052955
-      },
-      {
-        "headline": "Ethiopia, US Agree To Strategic Defense And Security Cooperation",
-        "url": "https://allafrica.com/stories/202608210600.html",
-        "timestamp": 1787325842000,
-        "postedAt": 1787330052955
-      },
-      {
-        "headline": "Hong Kong Convicts Two Organizers Of Tiananmen Vigils In Security Case",
-        "url": "https://apnews.com/article/hong-kong-tiananmen-verdict-alliance-9e1f5c915931eecfa083053dd262548b",
-        "timestamp": 1787322060000,
-        "postedAt": 1787330052955
-      },
-      {
-        "headline": "US, South Korea End Joint Drills Early After North Korea Missile Barrage",
-        "url": "https://apnews.com/article/north-south-korea-us-drills-trump-kim-e0350e23feac60adfa60f2cbf5eff27f",
-        "timestamp": 1787318400000,
-        "postedAt": 1787330052955
-      },
-      {
-        "headline": "World's Oldest Person, 110, Reveals Secret To Longevity After Surviving Covid",
-        "url": "https://www.independent.co.uk/news/uk/home-news/ethel-caterham-world-oldest-person-covid-117-birthday-b3037021.html",
-        "timestamp": 1787312220000,
-        "photo": true,
-        "postedAt": 1787330052955
-      },
-      {
-        "headline": "Panama Canal To Cut Ship Transits Amid El Niño",
-        "url": "https://www.bbc.com/news/articles/cwyl0jkxxryo",
-        "timestamp": 1787294768000,
-        "postedAt": 1787330052955
       }
     ],
     "center": [
+      {
+        "headline": "Putin Decree Opens Door To State Control After Deep Ukrainian Strikes",
+        "url": "https://apnews.com/article/russia-ukraine-war-putin-companies-drones-f2ef0ded42dfab093bd9b08a8157b931",
+        "timestamp": 1787651880000,
+        "feature": true,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "Indonesia Chokes On Haze As Wildfires Intensify Amid Super El Niño",
+        "url": "https://www.theguardian.com/world/2026/aug/25/indonesia-wildfires-kalimantan-smoke-super-el-nino",
+        "timestamp": 1787631480000,
+        "photo": true,
+        "postedAt": 1787658124509
+      },
       {
         "headline": "Guinea Landfill Collapse Kills 31 In Conakry",
         "url": "https://www.bbc.com/news/articles/c4g3g36z7p6o",
@@ -296,7 +288,8 @@
         "url": "https://www.euronews.com/my-europe/2026/08/24/hungarian-air-force-gripen-fighter-jet-crashes-near-szolnok",
         "timestamp": 1787562746000,
         "photo": true,
-        "postedAt": 1787584985952
+        "postedAt": 1787584985952,
+        "image": "/img/world-2.jpg"
       },
       {
         "headline": "Iceland Votes On Whether To Restart EU Membership Talks",
@@ -316,7 +309,7 @@
         "timestamp": 1787492812000,
         "photo": true,
         "postedAt": 1787497820383,
-        "image": "/img/world-1.jpg"
+        "image": "/img/world-3.jpg"
       },
       {
         "headline": "Deadly Ebola Outbreak In Congo's Bundibugyo Region Can Be Stopped, Officials Say",
@@ -380,34 +373,43 @@
         "url": "https://www.aljazeera.com/news/2026/8/22/guyanas-rodrigues-birkett-leads-informal-poll-in-race-to-be-next-un-leader",
         "timestamp": 1787359014000,
         "postedAt": 1787401010478
-      },
-      {
-        "headline": "Germany: Runaway Donkey Jumps Into Van, Injures Three",
-        "url": "https://apnews.com/article/germany-donkey-attack-kicking-biting-0e5dcf882eb12fbd870354015a73ba86",
-        "timestamp": 1787325300000,
-        "photo": true,
-        "postedAt": 1787330052955
-      },
-      {
-        "headline": "'Perfect Storm' Threatens Global Food Supply As Grain Prices Soar",
-        "url": "https://www.cnbc.com/2026/08/21/grain-price-russia-food-supply.html",
-        "timestamp": 1787288401000,
-        "postedAt": 1787330052955
-      },
-      {
-        "headline": "Cameroon's Ailing President Biya Returns Home After Long Absence",
-        "url": "https://apnews.com/article/cameroon-paul-biya-returns-3f39e488f1ea1d2ea121fa2d43da4fd5",
-        "timestamp": 1787274960000,
-        "postedAt": 1787330052955
-      },
-      {
-        "headline": "China, Indonesia Deepen Military And Minerals Ties",
-        "url": "https://www.reuters.com/world/china/china-indonesia-ministers-meet-friday-discuss-security-economic-issues-2026-08-20/",
-        "timestamp": 1787266920000,
-        "postedAt": 1787330052955
       }
     ],
     "right": [
+      {
+        "headline": "IRAN'S CURRENCY HITS RECORD LOW AS US READIES 'ECONOMIC D-DAY' SANCTIONS",
+        "url": "https://apnews.com/article/iran-rial-currency-bessent-trade-august-24-2026-e367634d8853c8fa4a341132cd577f31",
+        "timestamp": 1787584985952,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Danish PM Blasts Plastic Surgeon's Beauty Advice: 'Perfectly Fine With My Body'",
+        "url": "https://www.nbcnews.com/world/europe/mette-frederiksen-danish-pm-blasts-plastic-surgeons-beauty-advice-rcna594255",
+        "timestamp": 1787651472000,
+        "photo": true,
+        "postedAt": 1787658124509,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Germany Vows Retribution As Third Drone Found At Airport",
+        "url": "https://www.euronews.com/my-europe/2026/08/25/german-investigators-find-third-drone-and-suspected-explosives-at-leipzighalle-airport-loc",
+        "timestamp": 1787640550000,
+        "feature": true,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "Haiti Gang Raid Leaves 47 Dead Amid Calls For Protection",
+        "url": "https://www.reuters.com/world/americas/gang-attack-near-haitis-capital-leaves-30-dead-2026-08-24/",
+        "timestamp": 1787614070000,
+        "feature": true,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "Ambush In South Sudan Kills UN Peacekeeping Troops",
+        "url": "https://www.aljazeera.com/news/2026/8/24/ambush-in-south-sudan-kills-peacekeeping-troops",
+        "timestamp": 1787605345000,
+        "postedAt": 1787658124509
+      },
       {
         "headline": "ZELENSKY DISMISSES ELECTION CALLS AMID FIRED MINISTER'S CORRUPTION ALLEGATIONS",
         "url": "https://apnews.com/article/russia-ukraine-war-zelenskyy-fedorov-15d84a5a1f52e376ffdf98082cdf9712",
@@ -420,7 +422,7 @@
         "timestamp": 1787582429000,
         "photo": true,
         "postedAt": 1787584985952,
-        "image": "/img/world-0.jpg"
+        "image": "/img/world-1.jpg"
       },
       {
         "headline": "World Inches Toward Catastrophic Climate Events, Scientists Warn",
@@ -432,12 +434,6 @@
         "headline": "Syria Sentences 'Barrel Bomb Mufti' Ahmad Hassoun To Life",
         "url": "https://www.aljazeera.com/news/2026/8/24/hold-ahmad-hassoun-assads-barrel-bomb-mufti-faces-death-penalty",
         "timestamp": 1787569898000,
-        "postedAt": 1787584985952
-      },
-      {
-        "headline": "Kazakhstan's New Ruling Party Projected To Win Elections",
-        "url": "https://www.euronews.com/2026/08/24/kazakhstans-new-ruling-party-projected-to-win-elections",
-        "timestamp": 1787547598000,
         "postedAt": 1787584985952
       },
       {
@@ -477,36 +473,11 @@
         "postedAt": 1787488006763
       },
       {
-        "headline": "PRINCE HARRY, ELTON JOHN ORDERED TO PAY $13 MILLION IN FAILED PRIVACY CASE",
-        "url": "https://apnews.com/article/prince-harry-lawsuit-daily-mail-elton-81f7450c6419cbbd5a2b573217cf5ab1",
-        "timestamp": 1787330052955,
-        "postedAt": 1787330052955
-      },
-      {
         "headline": "Two-Time Boxing Champion Zolani Tete Shot Dead In South Africa",
         "url": "https://www.bbc.com/sport/boxing/articles/c98v78n72v5o",
         "photo": true,
         "timestamp": 1787389779000,
         "postedAt": 1787401010478
-      },
-      {
-        "headline": "Palestine Action Activists Spared Terrorism Sentencing",
-        "url": "https://www.aljazeera.com/news/2026/8/21/very-unusual-uk-palestine-activists-could-be-sentenced-as-terrorists",
-        "timestamp": 1787329125000,
-        "postedAt": 1787330052955
-      },
-      {
-        "headline": "Kazakhstan Prepares For Tightly Controlled Election",
-        "url": "https://www.reuters.com/world/china/kazakhstan-hold-snap-election-expected-tighten-presidents-control-2026-08-20/",
-        "timestamp": 1787230742000,
-        "postedAt": 1787330052955
-      },
-      {
-        "headline": "Pirates Hijack Cargo Ship Carrying Turkish Weapons Off Somalia",
-        "url": "https://apnews.com/article/somalia-pirates-turkey-weapons-mogadishu-8b5799be6bbb2f6e42feeb85ba47f37a",
-        "timestamp": 1787230320000,
-        "photo": true,
-        "postedAt": 1787330052955
       }
     ]
   }

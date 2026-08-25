@@ -1,31 +1,89 @@
 {
-  "lastUpdated": 1787584346508,
-  "heroSetDate": "2026-08-24",
+  "lastUpdated": 1787657718877,
+  "heroSetDate": "2026-08-25",
   "hero": {
-    "headline": "BROWNS NAME DESHAUN WATSON WEEK 1 STARTER OVER SHEDEUR SANDERS",
-    "url": "https://apnews.com/article/browns-watson-sanders-monken-078db0e378eb5e30f914ad9ce8f78e75",
-    "sublinks": [
-      {
-        "text": "ESPN Sources Confirm Decision Ends Summer QB Battle",
-        "url": "https://www.espn.com/nfl/story/_/id/49711613/sources-browns-tab-deshaun-watson-not-shedeur-sanders-qb1"
-      },
-      {
-        "text": "Watson Won Job Just Days After Calling Out Fans",
-        "url": "https://www.cbssports.com/nfl/news/browns-deshaun-watson-starting-qb-shedeur-sanders/"
-      },
-      {
-        "text": "Fans Call Move Browns' 'Biggest Embarrassment Yet'",
-        "url": "https://www.barstoolsports.com/blog/3575917/as-a-lifelong-browns-fan-naming-deshaun-watson-qb1-today-might-be-their-biggest-embarrassment-yet"
-      },
-      {
-        "text": "FOX Sports Argues Browns Should Cut Watson Anyway",
-        "url": "https://www.foxsports.com/stories/nfl/the-browns-should-cut-deshaun-watson"
-      }
-    ],
-    "postedAt": 1787584346508,
+    "headline": "49ERS OWNER JED YORK ARRESTED AT TRAILER PARK ON DISORDERLY CONDUCT CHARGE",
+    "url": "https://nypost.com/2026/08/24/sports/details-of-49ers-owner-jed-yorks-140-trailer-park-prostitution-arrest-emerge/",
+    "postedAt": 1787657718877,
     "img": true
   },
   "groups": [
+    {
+      "title": "ENES KANTER FREEDOM, ROYCE WHITE'S WNBA DRAFT BID",
+      "stories": [
+        {
+          "headline": "Enes Kanter Freedom, Royce White Ruled Ineligible For WNBA Draft",
+          "url": "https://bleacherreport.com/articles/25483340-enes-kanter-freedom-and-royce-white-are-not-eligible-wnba-draft-ap-source-says",
+          "timestamp": 1787643055000,
+          "postedAt": 1787657718877
+        },
+        {
+          "headline": "Courtside Seat Revoked After Sky Guard Confrontation",
+          "url": "https://www.cbssports.com/wnba/news/enes-kanter-freedom-ejected-wnba-game-natasha-cloud-altercation/",
+          "timestamp": 1787575920000,
+          "postedAt": 1787584346508
+        },
+        {
+          "headline": "Kanter Freedom Ejected After Verbal Altercation With Cloud",
+          "url": "https://www.bbc.com/sport/basketball/articles/c87vg1j93pqo",
+          "timestamp": 1787573619000,
+          "postedAt": 1787584346508
+        }
+      ]
+    },
+    {
+      "title": "NFL PRESEASON WEEK 2 CAMP REPORT",
+      "stories": [
+        {
+          "headline": "Patriots Trade WR Kayshon Boutte To Texans For Safety",
+          "url": "https://www.profootballrumors.com/2026/08/patriots-to-trade-wr-kayshon-boutte-to-texans-for-s-jaylen-reed",
+          "timestamp": 1787634300000,
+          "postedAt": 1787657718877
+        },
+        {
+          "headline": "Packers Camp: Fight Breaks Out, Defense Dominates",
+          "url": "https://www.jsonline.com/story/sports/nfl/packers/2026/08/24/green-bay-packers-training-camp-today-practice-updates--live/91441121007/",
+          "timestamp": 1787610600000,
+          "postedAt": 1787657718877
+        },
+        {
+          "headline": "Michael Penix Participates In Falcons' Monday Practice",
+          "url": "https://www.thefalcoholic.com/atlanta-falcons-roster/95378/michael-penix-jr-injury-update-medically-cleared-returns-to-practice",
+          "timestamp": 1787604635000,
+          "postedAt": 1787657718877
+        },
+        {
+          "headline": "Ashton Jeanty Avoids Major Injury, Other RBs Unclear For Week 1",
+          "url": "https://www.cbssports.com/nfl/news/latest-nfl-injury-updates/",
+          "timestamp": 1787598797000,
+          "postedAt": 1787657718877
+        },
+        {
+          "headline": "Rookie Grades: David Bailey Sacks, Carnell Tate Quiet",
+          "url": "https://www.nfl.com/news/2026-nfl-preseason-week-2-rookie-grades-jets-david-bailey-records-sack-no-4-pick-carnell-tate-still-quiet",
+          "timestamp": 1787592816000,
+          "postedAt": 1787657718877
+        },
+        {
+          "headline": "Christian Gonzalez Returns To Patriots Practice",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-gonzalez-returns-to-patriots-practice",
+          "timestamp": 1787590262000,
+          "postedAt": 1787657718877
+        },
+        {
+          "headline": "Oregon's Projected Depth Chart Entering Final Camp Week",
+          "url": "https://duckswire.usatoday.com/story/sports/college/ducks/football/2026/08/24/oregon-ducks-projected-depth-chart-2026-fall-camp-update/91435569007/",
+          "timestamp": 1787617980000,
+          "postedAt": 1787657718877
+        },
+        {
+          "headline": "LSU's Lane Kiffin Defends Pursuit Of NFL Players Returning To College",
+          "url": "https://www.espn.com/college-football/story/_/id/49715699/lsu-lane-kiffin-defends-pursuit-nfl-players-returning-college",
+          "timestamp": 1787607900000,
+          "postedAt": 1787657718877
+        }
+      ]
+    },
     {
       "title": "ASTROS FIRE GM DANA BROWN DESPITE FIRST-PLACE STANDING",
       "stories": [
@@ -51,60 +109,6 @@
       ]
     },
     {
-      "title": "NFL PRESEASON: JOINT PRACTICES AND CAMP BATTLES HEAT UP",
-      "stories": [
-        {
-          "headline": "Bills Camp Notes: Buffalo Sounds Off On Browns' QBs, Receivers",
-          "url": "https://www.dawgsbynature.com/cleveland-browns-roster-players/130807/browns-vs-bills-joint-practice-deshaun-watson-shedeur-sanders-kc-boston",
-          "timestamp": 1787315844000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "49ers Rout Chargers In Preseason Blowout: Seven Takeaways",
-          "url": "https://ninerswire.usatoday.com/story/sports/nfl/niners/2026/08/21/49ers-chargers-final-score-results-takeaways-dezhaun-stribling-jacob-cowing/91399922007/",
-          "timestamp": 1787310240000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Raiders Erase 17-Point Deficit To Outlast Texans In Preseason Comeback",
-          "url": "https://www.raiders.com/news/game-recap-raiders-erase-17-point-deficit-outmuscle-texans-down-the-stretch",
-          "timestamp": 1787286809000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Vikings-Ravens Joint Practice: Day Two Standouts",
-          "url": "https://www.dailynorseman.com/minnesota-vikings-training-camp/98307/vikings-ravens-joint-practice-day-two-report",
-          "timestamp": 1787276040000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Giants-Dolphins Brawl At Joint Practice Could Bring NFL Discipline",
-          "url": "https://www.cbssports.com/nfl/news/giants-dolphins-joint-practice-fight/",
-          "timestamp": 1787275099000,
-          "feature": true,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Patriots-Eagles Joint Practice: Five Performances That Stood Out",
-          "url": "https://www.patspulpit.com/new-england-patriots-training-camp/133931/winners-losers-second-joint-practice-eagles",
-          "timestamp": 1787259134000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Packers Beat Broncos 33-13 In Preseason Matchup",
-          "url": "https://www.espn.com/nfl/recap?gameId",
-          "timestamp": 1787382503000,
-          "postedAt": 1787400705592
-        },
-        {
-          "headline": "Patriots-Eagles Preseason Finale Wraps Week 2 Slate",
-          "url": "https://www.foxsports.com/nfl/preseason-week-2-philadelphia-eagles-vs-new-england-patriots-aug-22-2026-game-boxscore-11167",
-          "timestamp": 1787468605000,
-          "postedAt": 1787487582734
-        }
-      ]
-    },
-    {
       "title": "TENNESSEE NAMES FRESHMAN FAIZON BRANDON STARTING QB",
       "stories": [
         {
@@ -117,23 +121,6 @@
           "headline": "Five-Star Freshman Faces Daunting SEC Slate As Starter",
           "url": "https://www.cbssports.com/college-football/news/tenessee-faizon-brandon-starting-qb-2026-season/",
           "timestamp": 1787577120000,
-          "postedAt": 1787584346508
-        }
-      ]
-    },
-    {
-      "title": "KANTER FREEDOM EJECTED FROM WNBA GAME AFTER CLOUD ALTERCATION",
-      "stories": [
-        {
-          "headline": "Courtside Seat Revoked After Sky Guard Confrontation",
-          "url": "https://www.cbssports.com/wnba/news/enes-kanter-freedom-ejected-wnba-game-natasha-cloud-altercation/",
-          "timestamp": 1787575920000,
-          "postedAt": 1787584346508
-        },
-        {
-          "headline": "Kanter Freedom Ejected After Verbal Altercation With Cloud",
-          "url": "https://www.bbc.com/sport/basketball/articles/c87vg1j93pqo",
-          "timestamp": 1787573619000,
           "postedAt": 1787584346508
         }
       ]
@@ -184,44 +171,35 @@
           "postedAt": 1787400705592
         }
       ]
-    },
-    {
-      "title": "COLLEGE FOOTBALL'S FIFTH-YEAR ELIGIBILITY FIGHT",
-      "stories": [
-        {
-          "headline": "Appeals Court Stays Injunction Granting NFL Players Fifth Year Of College Eligibility",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/appeals-court-stays-injunction-granting-fifth-year-of-college-eligibility-to-nfl-players",
-          "timestamp": 1787326837000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Inside College Football's Bizarre, Escalating Eligibility Loophole Fight",
-          "url": "https://sports.yahoo.com/college-football/article/an-nfl-player-lsu-and-a-legal-loophole-college-footballs-bizarre-eligibility-fight-is-getting-wild-004046214.html",
-          "timestamp": 1787326087000,
-          "postedAt": 1787329790346
-        }
-      ]
-    },
-    {
-      "title": "TIMBERWOLVES/LYNX OWNERSHIP SALE TO MARC STAD",
-      "stories": [
-        {
-          "headline": "Marc Lore's Wolves Sale Marks Another NBA Ownership Stunner",
-          "url": "https://frontofficesports.com/marc-lore-sells-timberwolves/",
-          "timestamp": 1787326472000,
-          "postedAt": 1787329790346
-        },
-        {
-          "headline": "Sources: Marc Stad Completes Deal For Lead Stake In Timberwolves, Lynx",
-          "url": "https://www.espn.com/nba/story/_/id/49681800/sources-stad-reaches-deal-controlling-stake-t-wolves-lynx",
-          "timestamp": 1787325240000,
-          "postedAt": 1787329790346
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Cubs Blank Diamondbacks 7-0",
+        "url": "https://www.bleachernation.com/cubs/2026/08/24/enhanced-box-score-cubs-7-diamondbacks-0-august-24-2026/",
+        "timestamp": 1787631758000,
+        "postedAt": 1787657718877
+      },
+      {
+        "headline": "Judge's Injunction Clears RJ Luis To Play At LSU",
+        "url": "https://www.on3.com/news/louisiana-judge-grants-rj-luis-injuction-opens-door-to-spend-2026-27-season-at-lsu/",
+        "timestamp": 1787622598000,
+        "postedAt": 1787657718877
+      },
+      {
+        "headline": "Jalen Ramsey: 'Pay Joey Porter'",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-ramsey-says-pay-joey-porter",
+        "timestamp": 1787614867000,
+        "postedAt": 1787657718877
+      },
+      {
+        "headline": "Chelsea Beat Fulham 3-2 As Rogers, Palmer Shine",
+        "url": "https://www.bbc.com/sport/football/articles/cx2d2w7z190o",
+        "timestamp": 1787604849000,
+        "photo": true,
+        "postedAt": 1787657718877
+      },
       {
         "headline": "LIV Golf Enters Limbo As Season Ends, Future Unclear",
         "url": "https://frontofficesports.com/liv-golf-enters-limbo-as-2026-season-concludes-with-future-unclear/",
@@ -235,7 +213,7 @@
         "feature": true,
         "photo": true,
         "postedAt": 1787584346508,
-        "image": "/img/sports-1.jpg"
+        "image": "/img/sports-3.jpg"
       },
       {
         "headline": "Jiri Prochazka Shoots Down UFC Fight Rumors",
@@ -267,7 +245,7 @@
         "timestamp": 1787495599000,
         "photo": true,
         "postedAt": 1787497352451,
-        "image": "/img/sports-3.jpg"
+        "image": "/img/sports-4.jpg"
       },
       {
         "headline": "Oliver's Camp Absence Tied To Injury, Not Personal Tragedy",
@@ -317,35 +295,29 @@
         "url": "https://www.cbssports.com/college-football/news/ncaa-lawsuit-stay-colorado-2022-college-athletes-ineligible/",
         "timestamp": 1787327760000,
         "postedAt": 1787400705592
-      },
-      {
-        "headline": "TCU Kicks Safety Off Team After Alleged Locker-Room Assault On Teammate",
-        "url": "https://www.barstoolsports.com/blog/3575801/tcu-safety-jacob-fields-kicked-off-team-after-allegedly-assaulting-teammate-in-locker-room-and-sending-him-to-the-hospital",
-        "timestamp": 1787329056000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1787329790346
-      },
-      {
-        "headline": "FIFA Bans Three Argentina Players, Including 10-Game Suspension For Paredes",
-        "url": "https://apnews.com/article/argentina-players-banned-paredes-fifa-world-cup-c11abb71d9b3e3860b4d817b644f988c",
-        "timestamp": 1787326440000,
-        "postedAt": 1787329790346
-      },
-      {
-        "headline": "Ronaldinho, 46, Signs To Play Professionally Again In Italy's Serie C",
-        "url": "https://www.barstoolsports.com/blog/3575752/brazil-soccer-legend-ronaldinho-is-coming-out-of-retirement-at-46-years-old-c",
-        "timestamp": 1787322756000,
-        "postedAt": 1787329790346
-      },
-      {
-        "headline": "Mariners Call Up Top Pitching Prospect Kade Anderson For MLB Debut",
-        "url": "https://www.espn.com/mlb/story/_/id/49674829/sources-mariners-call-top-pitching-prospect-kade-anderson",
-        "timestamp": 1787276154000,
-        "postedAt": 1787329790346
       }
     ],
     "center": [
+      {
+        "headline": "BROWNS NAME DESHAUN WATSON WEEK 1 STARTER OVER SHEDEUR SANDERS",
+        "url": "https://apnews.com/article/browns-watson-sanders-monken-078db0e378eb5e30f914ad9ce8f78e75",
+        "timestamp": 1787584346508,
+        "postedAt": 1787584346508
+      },
+      {
+        "headline": "New Padres Owners: 'We Are All In'",
+        "url": "https://www.mlb.com/news/padres-introduce-new-owners-kwanza-jones-jose-e-feliciano",
+        "timestamp": 1787611669000,
+        "postedAt": 1787657718877
+      },
+      {
+        "headline": "Coco Gauff Overtakes Serena Williams In Career Milestone After Cincinnati Win",
+        "url": "https://tennishead.net/coco-gauff-overtakes-serena-williams-in-one-specific-area-after-triumphing-in-cincinnati/",
+        "timestamp": 1787605200000,
+        "photo": true,
+        "postedAt": 1787657718877,
+        "image": "/img/sports-1.jpg"
+      },
       {
         "headline": "UK: Premier League Opening Weekend Winners And Losers",
         "url": "https://www.bbc.com/sport/football/live/cq4g3n2ll7wwt",
@@ -390,14 +362,7 @@
         "url": "https://www.thoroughbreddailynews.com/knightsbridge-romps-in-pacific-classic/",
         "timestamp": 1787450520000,
         "photo": true,
-        "postedAt": 1787487582734,
-        "image": "/img/sports-4.jpg"
-      },
-      {
-        "headline": "JANNIK SINNER WITHDRAWS FROM US OPEN WITH KNEE INJURY",
-        "url": "https://www.espn.com/tennis/story/_/id/49681192/jannik-sinner-withdraws-us-open-due-knee-injury",
-        "timestamp": 1787329790346,
-        "postedAt": 1787329790346
+        "postedAt": 1787487582734
       },
       {
         "headline": "Caitlin Clark, Fever Clinch WNBA Playoff Berth",
@@ -424,35 +389,30 @@
         "timestamp": 1787313050000,
         "photo": true,
         "postedAt": 1787400705592
-      },
-      {
-        "headline": "Object Thrown Onto Court At Dream-Sparks Game Revives WNBA Fan Conduct Concerns",
-        "url": "https://frontofficesports.com/sex-toy-thrown-at-dream-sparks-game-reviving-wnbas-2025-issue/",
-        "timestamp": 1787323170000,
-        "photo": true,
-        "postedAt": 1787329790346
-      },
-      {
-        "headline": "Olympic Medalist Jenny Simpson Retires From Running After Collapse",
-        "url": "https://www.espn.com/olympics/story/_/id/49680958/olympic-medalist-simpson-running-chapter-collapse",
-        "timestamp": 1787319600000,
-        "photo": true,
-        "postedAt": 1787329790346
-      },
-      {
-        "headline": "College Football's Best Coaching Matchups Of 2026: Freeman-Cristobal Headlines",
-        "url": "https://www.cbssports.com/college-football/news/college-football-best-coaching-matchups-2026-marcus-freeman-mario-cristobal/",
-        "timestamp": 1787319548000,
-        "postedAt": 1787329790346
-      },
-      {
-        "headline": "MLS Considers Playoff Overhaul With Double-Elimination, Reseeding",
-        "url": "https://www.theguardian.com/football/2026/aug/20/mls-playoff-format-overhaul",
-        "timestamp": 1787243580000,
-        "postedAt": 1787329790346
       }
     ],
     "right": [
+      {
+        "headline": "Study Finds At Least 25% Of Former NFL Players Had CTE",
+        "url": "https://www.npr.org/2026/08/25/nx-s1-5943168/cte-nfl-concussions-deaths-study",
+        "timestamp": 1787648400000,
+        "feature": true,
+        "postedAt": 1787657718877
+      },
+      {
+        "headline": "California Coach Fired After Kicking Football Into Player's Groin",
+        "url": "https://www.barstoolsports.com/blog/3575909/this-high-school-football-coach-in-california-was-fired-after-kicking-a-into",
+        "timestamp": 1787646456000,
+        "photo": true,
+        "postedAt": 1787657718877,
+        "image": "/img/sports-0.jpg"
+      },
+      {
+        "headline": "Giants' Malik Nabers Expected Ready For Season Opener",
+        "url": "https://www.espn.com/nfl/story/_/id/49715422/harbaugh-reasonable-assume-nabers-ready-opener",
+        "timestamp": 1787605320000,
+        "postedAt": 1787657718877
+      },
       {
         "headline": "BLUE JAYS HOLD OFF YANKEES AS CEASE FLIRTS WITH NO-HITTER",
         "url": "https://deadspin.com/mlb-roundup-dylan-cease-flirts-with-no-hitter-blue-jays-hold-off-yanks/",
@@ -465,15 +425,14 @@
         "timestamp": 1787581056000,
         "photo": true,
         "postedAt": 1787584346508,
-        "image": "/img/sports-0.jpg"
+        "image": "/img/sports-2.jpg"
       },
       {
         "headline": "Fenway Electric As Red Sox Eye October Path Vs Yankees",
         "url": "https://www.barstoolsports.com/blog/3575902/fenway-park-is-electric-again-and-the-red-sox-have-a-clear-path-to-host-the-yankees-in-october-and-should-100percent-go-for-it",
         "timestamp": 1787579256000,
         "photo": true,
-        "postedAt": 1787584346508,
-        "image": "/img/sports-2.jpg"
+        "postedAt": 1787584346508
       },
       {
         "headline": "Winners And Losers From Chiefs' Second Preseason Game",
@@ -531,13 +490,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/21/what-to-know-about-the-freedom-250-grand-prix-trumps-capital-car-race",
         "timestamp": 1787329910000,
         "postedAt": 1787400705592
-      },
-      {
-        "headline": "Peyton Manning's Freshman Son Makes His Debut As Freak Running Back Steals Show",
-        "url": "https://www.foxnews.com/outkick-sports/peyton-mannings-freshman-son-makes-debut-freak-running-back-steals-show",
-        "timestamp": 1787312980000,
-        "photo": true,
-        "postedAt": 1787329790346
       }
     ]
   },
@@ -550,60 +502,6 @@
       "note": "Final",
       "homeScore": "19",
       "awayScore": "16"
-    },
-    {
-      "league": "MLB",
-      "home": "LAA",
-      "away": "CLE",
-      "state": "in",
-      "note": "Mid 9th",
-      "homeScore": "1",
-      "awayScore": "4"
-    },
-    {
-      "league": "MLB",
-      "home": "ARI",
-      "away": "CHC",
-      "state": "in",
-      "note": "Top 9th",
-      "homeScore": "0",
-      "awayScore": "7"
-    },
-    {
-      "league": "MLB",
-      "home": "ATH",
-      "away": "MIN",
-      "state": "in",
-      "note": "Top 8th",
-      "homeScore": "1",
-      "awayScore": "9"
-    },
-    {
-      "league": "MLB",
-      "home": "SEA",
-      "away": "PHI",
-      "state": "in",
-      "note": "End 7th",
-      "homeScore": "9",
-      "awayScore": "2"
-    },
-    {
-      "league": "MLB",
-      "home": "SD",
-      "away": "PIT",
-      "state": "in",
-      "note": "Top 8th",
-      "homeScore": "1",
-      "awayScore": "2"
-    },
-    {
-      "league": "MLB",
-      "home": "SF",
-      "away": "CIN",
-      "state": "in",
-      "note": "Top 9th",
-      "homeScore": "5",
-      "awayScore": "0"
     },
     {
       "league": "MLB",
@@ -640,6 +538,60 @@
       "note": "Final",
       "homeScore": "2",
       "awayScore": "11"
+    },
+    {
+      "league": "MLB",
+      "home": "LAA",
+      "away": "CLE",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "2",
+      "awayScore": "4"
+    },
+    {
+      "league": "MLB",
+      "home": "ARI",
+      "away": "CHC",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "0",
+      "awayScore": "7"
+    },
+    {
+      "league": "MLB",
+      "home": "ATH",
+      "away": "MIN",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "6",
+      "awayScore": "9"
+    },
+    {
+      "league": "MLB",
+      "home": "SEA",
+      "away": "PHI",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "9",
+      "awayScore": "2"
+    },
+    {
+      "league": "MLB",
+      "home": "SD",
+      "away": "PIT",
+      "state": "post",
+      "note": "Final/12",
+      "homeScore": "2",
+      "awayScore": "3"
+    },
+    {
+      "league": "MLB",
+      "home": "SF",
+      "away": "CIN",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "5",
+      "awayScore": "0"
     },
     {
       "league": "MLS",

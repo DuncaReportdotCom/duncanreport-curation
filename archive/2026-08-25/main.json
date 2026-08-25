@@ -1,77 +1,69 @@
 {
-  "lastUpdated": 1787584087122,
-  "heroSetDate": "2026-08-24",
+  "lastUpdated": 1787657451672,
+  "heroSetDate": "2026-08-25",
   "hero": {
-    "headline": "IRAN'S CURRENCY CRASHES TO RECORD LOW AS U.S. READIES NEW SANCTIONS",
-    "url": "https://apnews.com/article/iran-rial-currency-bessent-trade-august-24-2026-e367634d8853c8fa4a341132cd577f31",
+    "headline": "SUPREME COURT CLEARS PATH FOR TRUMP'S MAIL-IN VOTING LIMITS",
+    "url": "https://www.scotusblog.com/2026/08/supreme-court-allows-trump-administration-to-move-forward-with-order-imposing-restrictions-on-ma/",
     "sublinks": [
       {
-        "text": "Iran Threatens 45 Tankers With Fines And Seizures In Hormuz Escalation",
-        "url": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/"
-      },
-      {
-        "text": "Tehran Vows To Defy Trump's Escalating Sanctions",
-        "url": "https://www.nytimes.com/2026/08/24/world/middleeast/iran-sanctions-economy-us-trump.html?unlocked_article_code=1.71A.DGsU.3IxCHW_mc0t_&smid=url-share"
-      },
-      {
-        "text": "U.S. Officials Say Regime Aims To Maximize Disruption",
-        "url": "https://nypost.com/2026/08/23/world-news/iran-hacks-reveal-weak-spot-on-us-uk-grid-as-regime-aims-to-maximize-disruption-expert/"
+        "text": "Analysis: Ruling Merely Delays Fight Over Mail-In Ballots",
+        "url": "https://www.nationalreview.com/corner/supreme-court-kicks-the-can-on-trumps-mail-in-ballots-order/"
       }
     ],
-    "postedAt": 1787584087122,
+    "postedAt": 1787657451672,
     "img": true
   },
   "groups": [
     {
-      "title": "IRAN WAR IMPASSE DEEPENS AS TRUMP PRESSURES ALLIES, MARKETS REEL",
+      "title": "US-CANADA TRADE WAR ESCALATES",
       "stories": [
         {
-          "headline": "US Warned Of Possible Iran 'October Surprise'",
-          "url": "https://www.the-express.com/news/us-news/214356/us-warned-october-surprise-iran",
-          "timestamp": 1787329211642,
-          "postedAt": 1787329471648
+          "headline": "Canada: Ottawa Threatens To Cut Electricity Supply To US",
+          "url": "https://www.independent.co.uk/b3038268.html",
+          "timestamp": 1787657008994,
+          "postedAt": 1787657451672
         },
         {
-          "headline": "Trump's 'Economic D-Day' Claims First Victim: US Markets, Not Iran",
-          "url": "https://www.aljazeera.com/news/2026/8/21/trumps-economic-d-day-claims-first-victim-not-iran-but-us-markets",
-          "timestamp": 1787320302000,
-          "postedAt": 1787329471648
+          "headline": "US-Canada Trade War Spirals After Tariffs Take Effect",
+          "url": "https://apnews.com/53c4f83c8365c14b372b314396ae8179",
+          "timestamp": 1787657008994,
+          "postedAt": 1787657451672
         },
         {
-          "headline": "Trump Lashes Out At Allies As Iran War Victory Proves Elusive",
-          "url": "https://outsidethebeltway.com/trump-frustrated-iran-wont-surrender/",
-          "timestamp": 1787282673000,
-          "postedAt": 1787329471648
+          "headline": "WSJ: Trump's Canada Tariffs Are His 'Dumbest' Move Yet",
+          "url": "https://www.huffpost.com/entry/wall-street-journal-blasts-trump-canada-feud_n_6a8c5ac2e4b0c0b31a43a380",
+          "timestamp": 1787657008994,
+          "postedAt": 1787657451672
         },
         {
-          "headline": "Vance: War Entering 'New Phase' Of Economic Pressure On Iran",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-us-economic-threat-defeat/",
-          "timestamp": 1787222640000,
-          "postedAt": 1787329471648
+          "headline": "Does US Have Political Will To Outlast Canada Trade War?",
+          "url": "https://www.politico.com/news/2026/08/25/us-canadian-trade-war-political-will-01048491",
+          "timestamp": 1787648400000,
+          "postedAt": 1787657451672
         },
         {
-          "headline": "Pakistan's Army Chief To Visit Tehran Amid Diplomacy Push",
-          "url": "https://www.reuters.com/world/asia-pacific/iran-says-pakistans-army-chief-visit-tehran-monday-2026-08-23/",
-          "timestamp": 1787483280000,
-          "postedAt": 1787487018976
+          "headline": "Piker's Violence Prediction Against Jews Rattles Michigan Race",
+          "url": "https://www.washingtontimes.com/news/2026/aug/24/hasan-pikers-prediction-violence-american-jews-rattles-michigan/",
+          "timestamp": 1787657008994,
+          "postedAt": 1787657451672
         },
         {
-          "headline": "Iran To Meet Pakistani Mediator After New US Sanctions",
-          "url": "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-august-23",
-          "timestamp": 1787482513000,
-          "postedAt": 1787487018976
+          "headline": "El-Sayed 'Cuts Through' Watters's Fox News Attacks, Allies Say",
+          "url": "https://zeteo.com/p/abdul-el-sayed-went-on-fox-and-cut",
+          "timestamp": 1787655725000,
+          "postedAt": 1787657451672
         },
         {
-          "headline": "Iran's President Calls US Memorandum Best Path Out Of War",
-          "url": "https://apnews.com/article/middle-east-iran-israel-west-bank-august-23-2026-a3fff9eba47a5510060e8014b82d794f",
-          "timestamp": 1787479860000,
-          "postedAt": 1787487018976
+          "headline": "El-Sayed Clashes With Jesse Watters Over Immigration, Iran",
+          "url": "https://thehill.com/homenews/campaign/6048253-el-sayed-watters-immigration-iran/",
+          "timestamp": 1787625420000,
+          "postedAt": 1787657451672
         },
         {
-          "headline": "Canada: Ottawa Retaliates Against New U.S. Tariffs",
-          "url": "http://finance.yahoo.com/economy/policy/articles/us-canada-fail-reach-trade-042829871.html",
-          "timestamp": 1787583647165,
-          "postedAt": 1787584087122
+          "headline": "El-Sayed Distances Himself From Influencer's Remarks On Jews",
+          "url": "https://www.cnn.com/2026/08/24/politics/abdul-el-sayed-hasan-piker-statement",
+          "timestamp": 1787616840000,
+          "postedAt": 1787657451672
         }
       ]
     },
@@ -121,72 +113,40 @@
           "postedAt": 1787400409012
         }
       ]
-    },
-    {
-      "title": "DEARBORN RELIGIOUS TENSIONS BOIL OVER AT CITY COUNCIL",
-      "stories": [
-        {
-          "headline": "Protesters Shout 'Allahu Akbar' As Black Pastor Fires Back At Council",
-          "url": "https://notthebee.com/article/this-black-pastor-shared-spicy-thoughts-with-dearborns-all-muslim-city-council-as-protesters-shouted-allahu-akbar-outside",
-          "timestamp": 1787327492000,
-          "postedAt": 1787329471648
-        },
-        {
-          "headline": "Pastor's Fiery Speech Ignites Dearborn Council Meeting",
-          "url": "https://www.foxnews.com/politics/pastor-declares-dearborn-under-sharia-law-religious-tensions-erupt-city-meeting",
-          "timestamp": 1787264380000,
-          "postedAt": 1787329471648
-        }
-      ]
-    },
-    {
-      "title": "TORNADOES TOUCH DOWN ACROSS NORTHEAST",
-      "stories": [
-        {
-          "headline": "Video Captures Tornadoes Touching Down In New York, Delaware",
-          "url": "https://www.bbc.com/news/videos/cy07x9ne871o",
-          "timestamp": 1787322950000,
-          "postedAt": 1787329471648
-        },
-        {
-          "headline": "Spotter Confirms Tornado Hit Kent County, Delaware",
-          "url": "https://www.wdel.com/news/video-spotter-confirmed-tornado-reported-in-kent-county-with-thursday-evening-storms/article_c2729ce4-5311-4164-809b-4d044f2b068f.html",
-          "timestamp": 1787308690000,
-          "postedAt": 1787329471648
-        }
-      ]
-    },
-    {
-      "title": "SWALWELL SEAT FALLOUT: SUCCESSOR ELECTED AS MISCONDUCT PROBE WIDENS",
-      "stories": [
-        {
-          "headline": "Federal Agents Seize Devices From Ex-Rep. Swalwell In Misconduct Probe",
-          "url": "https://www.npr.org/2026/08/21/nx-s1-5940542/federal-agents-seize-eric-swalwell-sexual-misconduct-probe",
-          "timestamp": 1787291388000,
-          "postedAt": 1787329471648
-        },
-        {
-          "headline": "Aisha Wahab Wins California Special Election To Replace Swalwell",
-          "url": "https://www.pbs.org/newshour/politics/state-lawmaker-aisha-wahab-wins-california-special-election-to-replace-former-rep-swalwell",
-          "timestamp": 1787274740000,
-          "postedAt": 1787329471648
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "South Carolina Senate Runoff Set: Graham Vs. Norman",
+        "url": "https://www.theguardian.com/us-news/2026/aug/25/south-carolina-senate-runoff-election",
+        "timestamp": 1787652000000,
+        "postedAt": 1787657451672
+      },
+      {
+        "headline": "NJ Teens' Stolen G-Wagon Chase Kills Beloved Couple",
+        "url": "https://nypost.com/2026/08/25/us-news/4-nj-teens-steal-220k-g-wagon-lead-cops-on-hours-long-car-chase-before-crashing-killing-beloved-couple/",
+        "timestamp": 1787631300000,
+        "photo": true,
+        "postedAt": 1787657451672
+      },
+      {
+        "headline": "Forest Grove Quintuple Homicide Victims Identified",
+        "url": "https://www.kgw.com/article/news/crime/forest-grove-oregon-5-dead-murder-mass-homicide-kimsey-property-benjamin-parker/283-584a502e-0b47-4a62-913a-8e7857480486",
+        "timestamp": 1787613420000,
+        "postedAt": 1787657451672
+      },
       {
         "headline": "Report: Iran Puts $10 Million Bounty on the Head of Barron Trump",
         "url": "https://www.breitbart.com/national-security/2026/08/24/report-iran-puts-10-million-bounty-on-the-head-of-barron-trump/",
         "timestamp": 1787616000000,
         "postedAt": 1787616000000,
         "photo": true,
-        "image": "/img/main-0.jpg"
+        "image": "/img/main-1.jpg"
       },
       {
         "headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
-        "url": "https://jonathanturley.org/2026/08/23/we-are-charlie-kirk-hasan-piker-mocks-the-murdered-charlie-kirk-to-cheering-crowd/",
+        "url": "https://news3lv.com/news/nation-world/leftist-streamer-hasan-piker-mocks-charlie-kirk-during-a-live-show-turning-point-usa-podcast-conservatives",
         "timestamp": 1787443200000,
         "postedAt": 1787443200000
       },
@@ -226,8 +186,7 @@
         "url": "https://www.mprnews.org/story/2026/08/22/right-wing-influencer-jake-lang-arrested-in-minneapolis-for-suspicion-of-rioting",
         "timestamp": 1787443200000,
         "postedAt": 1787443200000,
-        "photo": true,
-        "image": "/img/main-4.jpg"
+        "photo": true
       },
       {
         "headline": "More Died From Heat In France This Summer Than In All US Mass Shootings In History",
@@ -299,47 +258,23 @@
         "timestamp": 1787358709000,
         "photo": true,
         "postedAt": 1787400409012
-      },
-      {
-        "headline": "Aide Filmed Sprinting After Trump's Golf Cart In Scotland",
-        "url": "https://www.mirror.co.uk/news/politics/donald-trump-extremely-close-aide-37579124",
-        "timestamp": 1787329211642,
-        "photo": true,
-        "postedAt": 1787329471648
-      },
-      {
-        "headline": "Alaska Charter Plane Crash Kills 8, Including Army Corps Employees",
-        "url": "https://www.nbcnews.com/news/us-news/charter-plane-carrying-8-crashes-western-alaska-rcna593687",
-        "timestamp": 1787320740000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1787329471648
-      },
-      {
-        "headline": "SNAP Enrollment Dropping Faster Than Expected",
-        "url": "https://apnews.com/article/snap-benefits-children-work-requirement-34f582040d8f35a6f44443cdc57692e4",
-        "timestamp": 1787320260000,
-        "postedAt": 1787329471648
-      },
-      {
-        "headline": "Judge Weighs New Evidence In Karmelo Anthony Retrial Bid",
-        "url": "https://www.newsnationnow.com/crime/unheard-evidence-karmelo-anthony-seeks-retrial/",
-        "timestamp": 1787318942000,
-        "postedAt": 1787329471648
-      },
-      {
-        "headline": "Cuba Says US Sanctions Block Its Private-Investment Push",
-        "url": "https://apnews.com/article/cuba-us-sanctions-economy-reform-investment-65b19b9e3abf8a14945e4510c9557f83",
-        "timestamp": 1787308500000,
-        "postedAt": 1787329471648
       }
     ],
     "center": [
       {
-        "headline": "TRUMP'S 50% TARIFFS ON CANADA SET TO TAKE EFFECT IN SEPTEMBER",
-        "url": "https://www.cbc.ca/news/politics/mark-carney-counter-tarrif-response-9.7316934",
-        "timestamp": 1787497046450,
-        "postedAt": 1787497046450
+        "headline": "Montana Shooting, House Fire Leave Multiple Dead, Including Children",
+        "url": "https://www.nbcnews.com/news/us-news/multiple-dead-children-billings-montana-shooting-fire-rcna594239",
+        "timestamp": 1787628600000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787657451672,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Firefighters Gain Ground On Nevada Wildfire That Destroyed 30 Homes",
+        "url": "https://apnews.com/article/hawk-fire-reno-nevada-evacuations-b572e2a15fe6a263231e04ea932cf6c8",
+        "timestamp": 1787617560000,
+        "postedAt": 1787657451672
       },
       {
         "headline": "Father Awaiting Son's Return From USS Lincoln Deployment Arrested By Border Patrol",
@@ -373,7 +308,7 @@
         "feature": true,
         "photo": true,
         "postedAt": 1787584087122,
-        "image": "/img/main-1.jpg"
+        "image": "/img/main-2.jpg"
       },
       {
         "headline": "Farmers Oppose Trump's Plan To Import Beef",
@@ -443,35 +378,28 @@
         "timestamp": 1787357520000,
         "photo": true,
         "postedAt": 1787400409012
-      },
-      {
-        "headline": "America's Longest-Serving Prisoner Dies At 101 After 8 Stays Of Execution",
-        "url": "https://www.dailywire.com/news/americas-longest-serving-prisoner-dies-at-101-after-dodging-execution-8-times",
-        "timestamp": 1787328420000,
-        "postedAt": 1787329471648
-      },
-      {
-        "headline": "Penn State Students Ran Alleged Campus Cocaine Ring, Investigators Say",
-        "url": "https://www.bbc.com/news/articles/c39egklv2kwo",
-        "timestamp": 1787322813000,
-        "photo": true,
-        "postedAt": 1787329471648
-      },
-      {
-        "headline": "Nebraska District Asks Police To Stop Using Shock Gloves On Students",
-        "url": "https://www.nbcnews.com/news/us-news/nebraskas-largest-school-district-asks-police-stop-using-electric-shoc-rcna593722",
-        "timestamp": 1787322137000,
-        "photo": true,
-        "postedAt": 1787329471648
-      },
-      {
-        "headline": "Albany Woman Charged With Plotting To Bomb State Capitol",
-        "url": "https://gothamist.com/news/albany-woman-planned-to-bomb-state-capitol-federal-prosecutors-say",
-        "timestamp": 1787317260000,
-        "postedAt": 1787329471648
       }
     ],
     "right": [
+      {
+        "headline": "IRAN'S CURRENCY CRASHES TO RECORD LOW AS U.S. READIES NEW SANCTIONS",
+        "url": "https://apnews.com/article/iran-rial-currency-bessent-trade-august-24-2026-e367634d8853c8fa4a341132cd577f31",
+        "timestamp": 1787584087122,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Study Finds At Least 1 In 4 NFL Players Get Brain Disease",
+        "url": "https://www.npr.org/2026/08/25/nx-s1-5943168/cte-nfl-concussions-deaths-study",
+        "timestamp": 1787648409000,
+        "photo": true,
+        "postedAt": 1787657451672
+      },
+      {
+        "headline": "Lockerbie Bombing Trial Postponed Days Before Start",
+        "url": "https://www.bbc.com/news/articles/cq63rmj1zl1o",
+        "timestamp": 1787641143000,
+        "postedAt": 1787657451672
+      },
       {
         "headline": "Cirque Du Soleil Acrobat Files $16M Lawsuit Over Bone-Breaking Fall",
         "url": "https://www.oregonlive.com/portland/2026/08/cirque-du-soleil-performer-sues-for-16m-after-she-breaks-11-bones-in-fall-before-portland-crowd.html",
@@ -536,7 +464,7 @@
         "feature": true,
         "photo": true,
         "postedAt": 1787487018976,
-        "image": "/img/main-2.jpg"
+        "image": "/img/main-3.jpg"
       },
       {
         "headline": "UK: Prince William's Royal Mentor Reveals Mother's Secret MI5 Past",
@@ -544,7 +472,7 @@
         "timestamp": 1787482814000,
         "photo": true,
         "postedAt": 1787487018976,
-        "image": "/img/main-3.jpg"
+        "image": "/img/main-4.jpg"
       },
       {
         "headline": "15-Year-Old Arrested In Deadly Shooting At High School Football Game",
@@ -566,41 +494,10 @@
         "postedAt": 1787410469823
       },
       {
-        "headline": "NAVY WEIGHS RENAMING CARRIER FROM BLACK WAR HERO TO TRUMP",
-        "url": "https://www.theguardian.com/us-news/2026/aug/21/navy-carrier-black-war-hero-trump-report",
-        "timestamp": 1787329471648,
-        "postedAt": 1787329471648
-      },
-      {
         "headline": "Trump Allows Tariff-Free Beef Imports, Drawing Rancher Backlash",
         "url": "https://www.foxbusiness.com/politics/trump-allows-300000-metric-tons-tariff-free-beef-imports-bid-cut-prices-drawing-rancher-backlash",
         "timestamp": 1787360040000,
         "postedAt": 1787400409012
-      },
-      {
-        "headline": "DOJ Seeks To Question FBI Officials Tied To Mar-a-Lago Search",
-        "url": "http://yahoo.com/news/politics/articles/doj-seeks-fbi-officials-tied-234332094.html",
-        "timestamp": 1787329211643,
-        "postedAt": 1787329471648
-      },
-      {
-        "headline": "Court Slashes $50M Judgment Against Alex Jones Over Sandy Hook Hoax Claims",
-        "url": "https://apnews.com/article/alex-jones-infowars-newtown-b7866ab5ef652bbc7307ae55b09937ce",
-        "timestamp": 1787324700000,
-        "feature": true,
-        "postedAt": 1787329471648
-      },
-      {
-        "headline": "US, Canada Say Final Trade Deal Near As Tariff Deadline Looms",
-        "url": "https://www.cnbc.com/2026/08/21/trump-canada-tariffs-trade-deal-deadline.html",
-        "timestamp": 1787314649000,
-        "postedAt": 1787329471648
-      },
-      {
-        "headline": "First Deportees Arrive In Haiti After US Ends TPS Protection",
-        "url": "https://www.cbsnews.com/news/haiti-deportees-us-ends-tps-protection/",
-        "timestamp": 1787313420000,
-        "postedAt": 1787329471648
       },
       {
         "headline": "Trump Says Communities Opposing Data Centers Are 'Making A Mistake'",
@@ -611,12 +508,12 @@
     ]
   },
   "balance": {
-    "left": 60,
-    "right": 31,
-    "independent": 2,
+    "left": 59,
+    "right": 29,
+    "independent": 1,
     "days": 30,
-    "total": 91,
-    "pctLeft": 66,
-    "pctRight": 34
+    "total": 88,
+    "pctLeft": 67,
+    "pctRight": 33
   }
 }

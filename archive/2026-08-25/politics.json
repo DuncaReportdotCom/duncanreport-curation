@@ -1,24 +1,20 @@
 {
-  "lastUpdated": 1787586346980,
-  "heroSetDate": "2026-08-24",
+  "lastUpdated": 1787659384582,
+  "heroSetDate": "2026-08-25",
   "hero": {
-    "headline": "TRUMP HIKES CANADA AUTO TARIFFS TO 50% AFTER TRADE TALKS COLLAPSE",
-    "url": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
+    "headline": "SUPREME COURT ALLOWS TRUMP'S MAIL-IN VOTING RESTRICTIONS TO PROCEED",
+    "url": "https://www.scotusblog.com/2026/08/supreme-court-allows-trump-administration-to-move-forward-with-order-imposing-restrictions-on-ma/",
     "sublinks": [
       {
-        "text": "Trade Talks Collapse Just Before Tariff Announcement",
-        "url": "https://www.politico.com/news/2026/08/24/trump-canada-vehicle-steel-tariffs-01046991"
+        "text": "Ruling Could Open Door To Election 'Chaos,' AP Analysis Warns",
+        "url": "https://apnews.com/article/elections-mail-voting-supreme-court-midterms-3780d57190a317e63fd19583c8ebb143"
       },
       {
-        "text": "Canada: Ontario Premier Threatens To Cut Electricity, Minerals",
-        "url": "https://www.newsmax.com/world/globaltalk/canada-trade-trump-ontario/2026/08/24/id/1267115/"
-      },
-      {
-        "text": "Transportation Secretary Duffy Calls Canada's Trade Fight 'Foolish'",
-        "url": "https://www.realclearpolitics.com/video/2026/08/23/transportation_sec_sean_duffy_foolish_for_canada_country_wihtout_a_military_to_go_to_war_with_donald_trump.html"
+        "text": "Brennan Center: Ruling Shows Court Still Leaning On 'Shadow Docket'",
+        "url": "https://www.brennancenter.org/our-work/analysis-opinion/dragging-supreme-court-out-shadows"
       }
     ],
-    "postedAt": 1787586346980,
+    "postedAt": 1787659384582,
     "img": true
   },
   "groups": [
@@ -44,19 +40,6 @@
           "postedAt": 1787402098214
         },
         {
-          "headline": "First Deportees Arrive In Haiti After US Ends TPS Protection",
-          "url": "https://www.cbsnews.com/news/haiti-deportees-us-ends-tps-protection/",
-          "timestamp": 1787313420000,
-          "feature": true,
-          "postedAt": 1787331098364
-        },
-        {
-          "headline": "Judge Says DOJ Claims Are 'Hard To Take Seriously' In Iowa Deportation Case",
-          "url": "https://iowacapitaldispatch.com/2026/08/19/judge-doj-claims-are-hard-to-take-seriously-in-iowa-deportation-case/",
-          "timestamp": 1787180620000,
-          "postedAt": 1787331098364
-        },
-        {
           "headline": "Iran's President Says US Memorandum Is Best Path Out Of Stalled War",
           "url": "https://apnews.com/article/middle-east-iran-israel-west-bank-august-23-2026-a3fff9eba47a5510060e8014b82d794f",
           "timestamp": 1787479860000,
@@ -67,35 +50,60 @@
           "url": "https://rollcall.com/2026/08/21/progressive-aisha-wahab-wins-california-special-election-for-swalwells-seat/",
           "timestamp": 1787307883000,
           "postedAt": 1787402098214
+        },
+        {
+          "headline": "Farmers Say Tariffs, Iran War Create New Cost Crisis",
+          "url": "https://news.sbs.co.kr/amp/news.amp?news_id",
+          "timestamp": 1787657546000,
+          "postedAt": 1787659384582
+        },
+        {
+          "headline": "US Has Economic Strength To Withstand Canada Trade War — Does It Have Political Will?",
+          "url": "https://www.politico.com/news/2026/08/25/us-canadian-trade-war-political-will-01048491",
+          "timestamp": 1787648400000,
+          "postedAt": 1787659384582
         }
       ]
     },
     {
-      "title": "DATA CENTER BACKLASH GROWS AS TRUMP PUSHES BACK",
+      "title": "LINDSAY CLANCY TRIAL STIRS RELIGION, ABORTION DEBATES",
       "stories": [
         {
-          "headline": "Trump Says Communities Opposing Data Centers Are 'Making A Mistake'",
-          "url": "https://www.axios.com/2026/08/23/trump-data-centers-michael-cohen-interview",
-          "timestamp": 1787578975000,
-          "postedAt": 1787586346980
+          "headline": "What Support For Lindsay Clancy Reveals About The Abortion Debate",
+          "url": "https://www.dailywire.com/news/what-the-support-for-lindsay-clancy-reveals-about-the-abortion-debate",
+          "timestamp": 1787652082000,
+          "postedAt": 1787659384582
         },
         {
-          "headline": "Texas Data Center, Transmission Line Pauses Could Prove Risky",
-          "url": "https://www.texastribune.org/2026/08/24/texas-765-transmissions-lines-data-centers-pauses-delays/",
-          "timestamp": 1787566211000,
-          "postedAt": 1787586346980
-        },
-        {
-          "headline": "Data Centers Hit Breaking Point Amid Growing Public Backlash",
-          "url": "https://www.politico.com/news/2026/08/24/data-centers-oh-s-t-moment-01046465",
-          "timestamp": 1787562000000,
-          "postedAt": 1787586346980
+          "headline": "Religious References In Lindsay Clancy Trial Anger Judge, Defense",
+          "url": "https://www.facebook.com/nytimes/posts/news-analysis-americans-have-been-riveted-by-the-televised-trial-of-lindsay-clan/1464987858817006/",
+          "timestamp": 1787614133000,
+          "postedAt": 1787659384582
         }
       ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Sonya Massey's Family Feels Robbed Of 'True Justice' After Officer's Death",
+        "url": "https://nypost.com/2026/08/25/us-news/sonya-masseys-family-feel-robbed-of-true-justice-after-cop-who-murdered-her-dies/",
+        "timestamp": 1787654640000,
+        "photo": true,
+        "postedAt": 1787659384582
+      },
+      {
+        "headline": "Justice Kagan's Conflict Of Interest In Supreme Court's Climate Case",
+        "url": "https://www.dailywire.com/news/justice-kagans-conflict-of-interest-in-the-supreme-courts-big-climate-case",
+        "timestamp": 1787652682000,
+        "postedAt": 1787659384582
+      },
+      {
+        "headline": "Jeffries Defends Kushner Meeting, Vows Tough Oversight Of Trump",
+        "url": "https://www.yahoo.com/news/videos/joe-scarborough-defends-hakeem-jeffries-130202534.html",
+        "timestamp": 1787627296000,
+        "postedAt": 1787659384582
+      },
       {
         "headline": "Trump Administration Moves To Impose $100,000 Fee On H-1B Visas",
         "url": "https://www.reuters.com/legal/government/trump-administration-moves-impose-more-than-100000-fee-h-1b-worker-visas-2026-08-24/",
@@ -180,28 +188,23 @@
         "url": "https://missouriindependent.com/2026/08/19/judge-hears-arguments-in-case-over-missouri-redistricting-referendum/",
         "timestamp": 1787186552000,
         "postedAt": 1787402098214
-      },
-      {
-        "headline": "Texas Slashes $50M Judgment Against Alex Jones Over False Sandy Hook Claim",
-        "url": "https://www.theguardian.com/us-news/2026/aug/21/alex-jones-texas-court-sandy-hook-school-shooting-hoax",
-        "timestamp": 1787326320000,
-        "photo": true,
-        "postedAt": 1787331098364
-      },
-      {
-        "headline": "SNAP Enrollment Dropping Faster Than Expected",
-        "url": "https://apnews.com/article/snap-benefits-children-work-requirement-34f582040d8f35a6f44443cdc57692e4",
-        "timestamp": 1787320260000,
-        "postedAt": 1787331098364
-      },
-      {
-        "headline": "Sycophancy In Stereo As Former Trump Critic Michael Cohen Loses His Nerve",
-        "url": "https://www.theguardian.com/us-news/2026/aug/20/michael-cohen-trump-radio-interview",
-        "timestamp": 1787276520000,
-        "postedAt": 1787331098364
       }
     ],
     "center": [
+      {
+        "headline": "Conservatives Aren't Connecting With Young Women, Analysts Say",
+        "url": "https://www.dailywire.com/news/conservatives-arent-connecting-with-young-women-its-time-to-try-something-new",
+        "timestamp": 1787655951000,
+        "postedAt": 1787659384582
+      },
+      {
+        "headline": "Firefighters Make Progress Against Nevada Wildfire That Destroyed 30+ Homes",
+        "url": "https://apnews.com/article/hawk-fire-reno-nevada-evacuations-b572e2a15fe6a263231e04ea932cf6c8",
+        "timestamp": 1787617560000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1787659384582
+      },
       {
         "headline": "First Deportation Flight To Haiti Departs After Trump Ends TPS",
         "url": "https://www.dailywire.com/news/exclusive-the-illegal-immigrants-deported-on-first-flight-to-haiti-after-trump-ended-tps",
@@ -256,21 +259,9 @@
         "postedAt": 1787489279221
       },
       {
-        "headline": "USPS Shares Mail-In Ballot Restrictions Despite Court Ruling",
-        "url": "https://www.aljazeera.com/news/2026/8/22/us-postal-service-shares-mail-in-ballot-restrictions-despite-court-ruling",
-        "timestamp": 1787432343000,
-        "postedAt": 1787489279221
-      },
-      {
         "headline": "Florida Democrats' Senate Nominee, Party Chair Clash Over Socialism",
         "url": "https://www.axios.com/2026/08/21/florida-democrats-angie-nixon-nikki-fried-socialism",
         "timestamp": 1787352456000,
-        "postedAt": 1787489279221
-      },
-      {
-        "headline": "Trump Asks Supreme Court To Hear Defamation Case Against CNN",
-        "url": "https://www.scotusblog.com/2026/08/trump-asks-supreme-court-to-hear-his-defamation-case-against-cnn/",
-        "timestamp": 1787270801000,
         "postedAt": 1787489279221
       },
       {
@@ -309,36 +300,27 @@
         "timestamp": 1787259091000,
         "photo": true,
         "postedAt": 1787402098214
-      },
-      {
-        "headline": "MAGA Inc. Sits On Campaign Cash As Donors Say Only Trump Can Save Paxton",
-        "url": "https://www.politico.com/news/2026/08/21/trump-maga-pac-spending-texas-01045426",
-        "timestamp": 1787321040000,
-        "postedAt": 1787331098364
-      },
-      {
-        "headline": "Alaska Charter Plane Crash Kills 8, Including Army Corps Employees",
-        "url": "https://www.nbcnews.com/news/us-news/charter-plane-carrying-8-crashes-western-alaska-rcna593687",
-        "timestamp": 1787320740000,
-        "feature": true,
-        "postedAt": 1787331098364
-      },
-      {
-        "headline": "Backlash Grows Over Possible Renaming Of Navy Carrier Honoring Black War Hero",
-        "url": "https://www.theguardian.com/us-news/2026/aug/21/navy-carrier-black-war-hero-trump-report",
-        "timestamp": 1787319240000,
-        "postedAt": 1787331098364
-      },
-      {
-        "headline": "Dearborn Pastor Unleashes On City Council As Religious Tensions Erupt",
-        "url": "https://www.foxnews.com/politics/pastor-declares-dearborn-under-sharia-law-religious-tensions-erupt-city-meeting",
-        "timestamp": 1787264380000,
-        "photo": true,
-        "postedAt": 1787331098364,
-        "image": "/img/politics-4.jpg"
       }
     ],
     "right": [
+      {
+        "headline": "TRUMP HIKES CANADA AUTO TARIFFS TO 50% AFTER TRADE TALKS COLLAPSE",
+        "url": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
+        "timestamp": 1787586346980,
+        "postedAt": 1787586346980
+      },
+      {
+        "headline": "Trump's Pro-Serbia, Pro-Balkans Shift Called Smart Move",
+        "url": "https://www.washingtontimes.com/news/2026/aug/25/donald-trumps-smart-pro-serbia-pro-balkans-shift/",
+        "timestamp": 1787656533000,
+        "postedAt": 1787659384582
+      },
+      {
+        "headline": "Blue State's Water Failures Could Threaten US Food Supply, Lawmaker Warns",
+        "url": "https://www.foxnews.com/politics/blue-states-water-failures-could-threaten-food-supplies-across-us-lawmaker-warns",
+        "timestamp": 1787652039000,
+        "postedAt": 1787659384582
+      },
       {
         "headline": "Lawsuit Targets Mamdani's Government Grocery Store Plan In NYC",
         "url": "https://www.foxbusiness.com/politics/big-apple-targeted-lawsuit-over-mamdanis-government-grocery-store-plans",
@@ -411,24 +393,6 @@
         "url": "https://www.al.com/politics/2026/08/democratic-senator-80-slammed-over-ai-debate-answer-the-problem-with-our-gerontocracy.html",
         "timestamp": 1787333220000,
         "postedAt": 1787402098214
-      },
-      {
-        "headline": "Dollar Sinks As Investors Flock To Gold, Crypto After Bessent's Treasury Buyback",
-        "url": "https://www.aol.com/articles/dollar-trading-near-multi-month-014826000.html",
-        "timestamp": 1787327820000,
-        "postedAt": 1787331098364
-      },
-      {
-        "headline": "Alex Vindman Says He'll Give Away His Multimillion-Dollar War Chest",
-        "url": "https://www.forexfactory.com/news/1414433-alex-vindman-says-hell-give-away-his-multimillion-dollar",
-        "timestamp": 1787318260000,
-        "postedAt": 1787331098364
-      },
-      {
-        "headline": "Cuba Says US Sanctions Are Blocking Efforts To Open Economy To Private Investment",
-        "url": "https://apnews.com/article/cuba-us-sanctions-economy-reform-investment-65b19b9e3abf8a14945e4510c9557f83",
-        "timestamp": 1787308500000,
-        "postedAt": 1787331098364
       }
     ]
   },
@@ -455,12 +419,12 @@
     }
   ],
   "balance": {
-    "left": 38,
-    "right": 28,
+    "left": 31,
+    "right": 33,
     "independent": 0,
     "days": 30,
-    "total": 66,
-    "pctLeft": 58,
-    "pctRight": 42
+    "total": 64,
+    "pctLeft": 48,
+    "pctRight": 52
   }
 }

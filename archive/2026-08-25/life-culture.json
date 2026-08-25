@@ -1,35 +1,46 @@
 {
-  "lastUpdated": 1787586844610,
-  "heroSetDate": "2026-08-24",
+  "lastUpdated": 1787659824068,
+  "heroSetDate": "2026-08-25",
   "hero": {
-    "headline": "CARDIOLOGISTS ADOPT NEW UNIVERSAL DEFINITION OF HEART FAILURE",
-    "url": "https://www.sciencealert.com/cardiologists-just-changed-the-universal-definition-of-heart-failure",
-    "sublinks": [],
-    "postedAt": 1787586844610,
+    "headline": "SURGEONS INJECT MITOCHONDRIA FROM WOMAN'S LEG INTO HER EYES IN WORLD FIRST",
+    "url": "https://www.sciencealert.com/world-first-mitochondria-from-a-womans-leg-were-injected-into-her-eyes",
+    "postedAt": 1787659824068,
     "img": true
   },
-  "groups": [
-    {
-      "title": "BOX OFFICE RECORD BREAKERS",
-      "stories": [
-        {
-          "headline": "'The Odyssey' Tops Marvel Hit To Set R-Rated Box Office Record",
-          "url": "https://www.usatoday.com/story/entertainment/movies/2026/08/20/odyssey-box-office-record-deadpool-wolverine/91390411007/",
-          "timestamp": 1787255460000,
-          "feature": true,
-          "postedAt": 1787331564787
-        },
-        {
-          "headline": "Ragtime Sets Lincoln Center Box Office Record In Final Week",
-          "url": "https://www.aussietheatre.com.au/international/ragtime-lincoln-center-theater-weekly-record/",
-          "timestamp": 1787079300000,
-          "postedAt": 1787331564787
-        }
-      ]
-    }
-  ],
+  "groups": [],
   "columns": {
     "left": [
+      {
+        "headline": "'Odyssey' Breaks New Box Office Record For Christopher Nolan",
+        "url": "https://www.al.com/life/2026/08/odyssey-breaks-new-box-office-record-for-christopher-nolan.html",
+        "timestamp": 1787504820000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "These Super-Fudgy Brownies Are Loaded With Dulce De Leche And Sea Salt",
+        "url": "https://www.seriouseats.com/salted-dulce-de-leche-brownies-recipe-12067141",
+        "timestamp": 1787659253000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Target Apologizes For Children's Clown Halloween Costume After Backlash",
+        "url": "https://www.reuters.com/business/retail-consumer/target-apologizes-childrens-clown-halloween-costume-after-backlash-2026-08-24/",
+        "timestamp": 1787623560000,
+        "photo": true,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Study Reveals A Physical Activity Paradox For Dementia Risk",
+        "url": "https://www.realclearscience.com/articles/2026/08/25/study_reveals_a_physical_activity_paradox_for_dementia_risk_1202291.html",
+        "timestamp": 1787599500000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Penguin Poop Makes Clouds, Study Finds",
+        "url": "https://www.realclearscience.com/video/2026/08/25/penguin_poop_makes_clouds_1202215.html",
+        "timestamp": 1787580840000,
+        "postedAt": 1787659824068
+      },
       {
         "headline": "Spider-Man: Brand New Day To Oust Titanic From Top 5 All-Time Films",
         "url": "https://ew.com/spider-man-brand-new-day-poised-to-unseat-titanic-in-all-time-highest-grossing-films-in-global-box-office-history-12066024",
@@ -42,7 +53,7 @@
         "timestamp": 1787585700000,
         "photo": true,
         "postedAt": 1787586844610,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-1.jpg"
       },
       {
         "headline": "Henry VIII's Lost Castle Linked To Dover Castle",
@@ -128,55 +139,42 @@
         "timestamp": 1787159294000,
         "feature": true,
         "postedAt": 1787402477295
-      },
-      {
-        "headline": "Rare Tornado Hits New York City As Storm Drenches Mid-Atlantic",
-        "url": "https://www.foxweather.com/extreme-weather/video-tornado-new-york-long-island-damages-local-beach-club",
-        "timestamp": 1787325730000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1787331564787
-      },
-      {
-        "headline": "How Biggie Smalls Led To A Break In The Tupac Shakur Killing",
-        "url": "https://news3lv.com/news/local/opening-statements-tupac-shakur-murder-trial-duane-davis-las-vegas-clark-county-court-live-watch-nevada",
-        "timestamp": 1787320500000,
-        "photo": true,
-        "postedAt": 1787331564787
-      },
-      {
-        "headline": "Taylor Sheridan Says He Was 'Homeless Twice' Before Success",
-        "url": "https://ew.com/taylor-sheridan-says-he-was-homeless-twice-and-lived-in-his-car-12064569",
-        "timestamp": 1787250356000,
-        "postedAt": 1787331564787
-      },
-      {
-        "headline": "Nietzsche Made Europe Uncomfortable. Who Will Do It Today?",
-        "url": "https://www.omanobserver.om/ampArticle/1194810",
-        "timestamp": 1787242983000,
-        "postedAt": 1787331564787
-      },
-      {
-        "headline": "Nobel-Prize Worthy: A New Type Of Matter",
-        "url": "https://www.realclearscience.com/video/2026/08/21/nobel-prize_worthy_a_new_type_of_matter_1201621.html",
-        "timestamp": 1787234100000,
-        "postedAt": 1787331564787
-      },
-      {
-        "headline": "Six Key Fall 2026 Fashion Trends To Know",
-        "url": "https://www.vogue.com/article/fall-winter-2026-fashion-trends",
-        "timestamp": 1787154103000,
-        "postedAt": 1787331564787
       }
     ],
     "center": [
+      {
+        "headline": "How Much Sleep Do You Really Need? Forget The Eight-Hour Rule",
+        "url": "https://theconversation.com/how-much-sleep-do-i-need-why-you-can-forget-the-eight-hour-sleep-rule-289863",
+        "timestamp": 1787656445000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Omega's Beloved Entry-Level Speedmaster Finally Returns",
+        "url": "https://www.gearpatrol.com/watches/omega-speedmaster-38-2026/",
+        "timestamp": 1787652060000,
+        "photo": true,
+        "postedAt": 1787659824068,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Why The World's Largest Megaproject Collapsed",
+        "url": "https://www.realclearscience.com/video/2026/08/25/why_the_worlds_largest_megaproject_collapsed_1202214.html",
+        "timestamp": 1787580420000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Scientists Discover A Bizarre New Way Life Can Make DNA — Without DNA",
+        "url": "https://www.sciencealert.com/scientists-discover-a-bizarre-new-way-life-can-make-dna-without-dna",
+        "timestamp": 1787450446000,
+        "postedAt": 1787659824068
+      },
       {
         "headline": "Can-Am Unveils Defender Prerunner And Maverick R Concepts",
         "url": "https://uncrate.com/can-am-defender-prerunner-and-maverick-r-concepts/",
         "timestamp": 1787584207000,
         "photo": true,
         "postedAt": 1787586844610,
-        "image": "/img/life-culture-1.jpg"
+        "image": "/img/life-culture-2.jpg"
       },
       {
         "headline": "Reframing Homer's Sirens Through Gender, Nature And Social Order",
@@ -195,8 +193,7 @@
         "url": "https://www.foxnews.com/entertainment/shelley-fabares-star-donna-reed-show-coach-dead-82",
         "timestamp": 1787574441000,
         "photo": true,
-        "postedAt": 1787586844610,
-        "image": "/img/life-culture-2.jpg"
+        "postedAt": 1787586844610
       },
       {
         "headline": "The First New Nuclear Fusion Idea In Decades",
@@ -286,27 +283,28 @@
         "url": "https://ew.com/taylor-sheridan-retirement-plans-after-yellowstone-stalled-four-sixes-ranch-12065550",
         "timestamp": 1787296860000,
         "postedAt": 1787402477295
-      },
-      {
-        "headline": "A Japanese Hi-Fi Brand Drops An Elite Turntable For Vinyl Fans",
-        "url": "https://www.gearpatrol.com/audio/esoteric-t-01-turntable/",
-        "timestamp": 1787329928000,
-        "postedAt": 1787331564787
-      },
-      {
-        "headline": "GTA 6 Driving Physics Hint At A Return To Realism",
-        "url": "https://www.thedrive.com/?taxonomy",
-        "timestamp": 1787327273000,
-        "postedAt": 1787331564787
-      },
-      {
-        "headline": "The Two Behaviors That Make You Socially Magnetic",
-        "url": "https://bigthink.com/mind-behavior/the-2-behaviors-that-make-you-socially-magnetic/",
-        "timestamp": 1787322036000,
-        "postedAt": 1787331564787
       }
     ],
     "right": [
+      {
+        "headline": "CARDIOLOGISTS ADOPT NEW UNIVERSAL DEFINITION OF HEART FAILURE",
+        "url": "https://www.sciencealert.com/cardiologists-just-changed-the-universal-definition-of-heart-failure",
+        "timestamp": 1787586844610,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Scientists May Have Found The Brain Cells Crucial For Motivation",
+        "url": "https://www.sciencealert.com/scientists-may-have-found-the-exact-brain-cells-crucial-for-sustaining-motivation",
+        "timestamp": 1787652136000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Jelly Roll Celebrates His 300-Pound Weight Loss On 'Kimmel'",
+        "url": "https://uz.kursiv.media/en/2026-08-25/jelly-roll-about-his-weight-loss-that-means-ive-lost-an-entire-donald-trump/",
+        "timestamp": 1787634796000,
+        "photo": true,
+        "postedAt": 1787659824068
+      },
       {
         "headline": "STRICT CHILDHOOD SUGAR LIMITS PAID OFF DECADES LATER, STUDY FINDS",
         "url": "https://www.sciencealert.com/these-babies-grew-up-with-strict-sugar-limits-decades-later-the-results-are-dramatic",
@@ -401,32 +399,6 @@
         "url": "https://rvamag.com/art/theatre/review-oscar-wilde-still-knows-exactly-who-we-are.html",
         "timestamp": 1787167241000,
         "postedAt": 1787402477295
-      },
-      {
-        "headline": "Tissot Upgrades The PRX With A New Dial",
-        "url": "https://www.gearpatrol.com/watches/tissot-prx-40-mother-of-pearl/",
-        "timestamp": 1787330661000,
-        "postedAt": 1787331564787
-      },
-      {
-        "headline": "The Hidden Karst Canal Of Malo Polje",
-        "url": "https://www.atlasobscura.com/places/bunski-kanal",
-        "timestamp": 1787328513000,
-        "photo": true,
-        "postedAt": 1787331564787
-      },
-      {
-        "headline": "Inside Namibia's Remote Hoanib Elephant Camp",
-        "url": "https://www.cntraveler.com/hotels/kaokoland/natural-selection-hoanib-elephant-camp",
-        "timestamp": 1787325377000,
-        "photo": true,
-        "postedAt": 1787331564787
-      },
-      {
-        "headline": "A Mother-And-Tween's Travel Guide To Seoul's K-Beauty Scene",
-        "url": "https://www.cntraveler.com/story/a-mother-and-tweens-travel-guide-to-k-beauty-hanboks-and-the-brooklyn-of-seoul",
-        "timestamp": 1787323041000,
-        "postedAt": 1787331564787
       }
     ]
   }

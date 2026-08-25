@@ -1,16 +1,20 @@
 {
-  "lastUpdated": 1787585601797,
-  "heroSetDate": "2026-08-24",
+  "lastUpdated": 1787658479783,
+  "heroSetDate": "2026-08-25",
   "hero": {
-    "headline": "TRUMP THREATENS TO DOUBLE TARIFFS ON CANADIAN AUTOS AS TRADE TALKS COLLAPSE",
-    "url": "https://www.reuters.com/business/autos-transportation/trump-says-he-will-raise-tariffs-all-cars-trucks-50-amid-canada-trade-spat-2026-08-24/",
+    "headline": "DRUCKENMILLER WARNS BESSENT HE 'WILL LOSE' BOND MARKET FIGHT",
+    "url": "https://www.theguardian.com/business/2026/aug/25/us-treasury-scott-bessent-bond-buying-donald-trump-stanley-druckenmiller",
     "sublinks": [
       {
-        "text": "Stocks Slip As U.S.-Canada Trade Spat Escalates",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-24-dow-sp-500-nasdaq-080306047.html"
+        "text": "Bond Market Anxiety Raises Stakes For Fed Chair Warsh's Jackson Hole Debut",
+        "url": "https://www.reuters.com/business/bond-market-anxiety-raises-stakes-warshs-debut-jackson-hole-speech-2026-08-24/"
+      },
+      {
+        "text": "Treasury's Bond Moves Amount To 'Soft-Form Financial Repression,' Analysts Say",
+        "url": "https://fortune.com/2026/08/23/treasury-bond-buyback-dollar-yen-currency-markets-financial-repression-us-debt-costs/"
       }
     ],
-    "postedAt": 1787585601797,
+    "postedAt": 1787658479783,
     "img": true
   },
   "groups": [
@@ -63,19 +67,43 @@
       ]
     },
     {
-      "title": "BESSENT'S TREASURY BOND BUYBACK PUSH FACES SKEPTICISM",
+      "title": "BITCOIN PUSHES TOWARD $80,000",
       "stories": [
         {
-          "headline": "Treasury's Bond-Market Intervention Isn't Working, Analysts Say",
-          "url": "https://finance.yahoo.com/economy/policy/articles/treasury-bond-market-intervention-isn-120000124.html",
-          "timestamp": 1787576520000,
-          "postedAt": 1787585601797
+          "headline": "Bitcoin Hits $80,000, Then Immediately Falls Back",
+          "url": "https://cryptorank.io/news/feed/8e47d-bitcoin-price-hits-77k-but-80k-could-trigger-sharp-reversal",
+          "timestamp": 1787656980000,
+          "postedAt": 1787658479783
         },
         {
-          "headline": "Bessent May Tap Near $1 Trillion Treasury Account To Fund Bond Buybacks",
-          "url": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
-          "timestamp": 1787571265000,
-          "postedAt": 1787585601797
+          "headline": "Bitcoin Rises Above $80,000 As Soft Dollar, Debasement Fears Boost Momentum",
+          "url": "https://www.reuters.com/business/finance/bitcoin-rises-above-80000-soft-dollar-debasement-fears-boost-momentum-2026-08-25/",
+          "timestamp": 1787635140000,
+          "postedAt": 1787658479783
+        },
+        {
+          "headline": "Bitcoin Extends Gains As Crypto Rally Gathers Pace",
+          "url": "https://www.cnbc.com/2026/08/25/bitcoin-price-near-80000-cryptocurrency-ether-us-treasuries.html",
+          "timestamp": 1787627100000,
+          "postedAt": 1787658479783
+        },
+        {
+          "headline": "SEC Proposes New 'Regulation Crypto Assets' Framework",
+          "url": "https://www.bakerdonelson.com/sec-proposes-regulation-crypto-assets",
+          "timestamp": 1787341710000,
+          "postedAt": 1787401493426
+        },
+        {
+          "headline": "Washington Goes All-In On Crypto: Clarity Act, SEC Rules, CFTC Warnings",
+          "url": "https://decrypt.co/376204/washington-crypto-trump-clarity-sec-rules-cftc-warnings",
+          "timestamp": 1787335616000,
+          "postedAt": 1787401493426
+        },
+        {
+          "headline": "VW CEO Says Germany Must Shoulder Half Of Global Job Cuts",
+          "url": "https://www.marketscreener.com/news/vw-ceo-says-half-of-global-job-cuts-must-come-from-germany-ce7858d8db8df024",
+          "timestamp": 1787653516000,
+          "postedAt": 1787658479783
         }
       ]
     },
@@ -95,33 +123,31 @@
           "postedAt": 1787401493426
         }
       ]
-    },
-    {
-      "title": "CRYPTO RALLY ACCELERATES AS WASHINGTON MOVES ON RULES",
-      "stories": [
-        {
-          "headline": "SEC Proposes New 'Regulation Crypto Assets' Framework",
-          "url": "https://www.bakerdonelson.com/sec-proposes-regulation-crypto-assets",
-          "timestamp": 1787341710000,
-          "postedAt": 1787401493426
-        },
-        {
-          "headline": "Washington Goes All-In On Crypto: Clarity Act, SEC Rules, CFTC Warnings",
-          "url": "https://decrypt.co/376204/washington-crypto-trump-clarity-sec-rules-cftc-warnings",
-          "timestamp": 1787335616000,
-          "postedAt": 1787401493426
-        },
-        {
-          "headline": "Kalshi Traders See Bitcoin Rally Ending Year Near Current Levels",
-          "url": "https://www.cnbc.com/2026/08/21/kalshi-traders-say-bitcoin-rally-wont-go-much-higher-by-end-of-2026.html",
-          "timestamp": 1787334205000,
-          "postedAt": 1787401493426
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Private Equity's $860 Billion Zombie Company Problem",
+        "url": "https://fortune.com/2026/08/25/private-equitys-860-billion-zombie-company-problem/",
+        "timestamp": 1787655240000,
+        "postedAt": 1787658479783
+      },
+      {
+        "headline": "Anthropic Tells SF Staff To Work From Home Amid Possible Security Strike",
+        "url": "https://cryptobriefing.com/anthropic-san-francisco-staff-work-from-home/",
+        "timestamp": 1787649138000,
+        "postedAt": 1787658479783
+      },
+      {
+        "headline": "Nvidia Employee Charged With Smuggling Advanced Chips Into China",
+        "url": "https://www.aljazeera.com/economy/2026/8/25/nvidia-supermicro-employees-charged-over-export-of-ai-servers-to-china",
+        "timestamp": 1787635871000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787658479783,
+        "image": "/img/markets-2.jpg"
+      },
       {
         "headline": "FED HOLDS RATES STEADY AS INFLATION HITS 3-YEAR HIGH",
         "url": "https://abcnews.com/Business/fed-set-make-interest-rate-decision-inflation-hits/story?id",
@@ -177,7 +203,7 @@
         "timestamp": 1787354520000,
         "photo": true,
         "postedAt": 1787488508141,
-        "image": "/img/markets-2.jpg"
+        "image": "/img/markets-4.jpg"
       },
       {
         "headline": "GitLab's New AI Security Suite Could Reshape Growth Outlook",
@@ -197,48 +223,23 @@
         "timestamp": 1787353800000,
         "feature": true,
         "postedAt": 1787401493426
-      },
-      {
-        "headline": "CK Hutchison Files $1.5 Billion Arbitration Against Panama",
-        "url": "https://www.globaltimes.cn/page/202608/1368613.shtml",
-        "timestamp": 1787328917000,
-        "postedAt": 1787330497309
-      },
-      {
-        "headline": "SK Hynix Could Top Samsung's $80 Billion Shareholder Return",
-        "url": "https://www.cnbc.com/2026/08/21/samsung-shareholder-return-package-sk-hynix-buyback-ai-chip-boom.html",
-        "timestamp": 1787322891000,
-        "postedAt": 1787330497309
-      },
-      {
-        "headline": "Dutch Regulator Fines Uber $966 Million Over Automated Driver Suspensions",
-        "url": "https://www.reuters.com/world/dutch-regulator-fines-uber-966-million-automating-driver-suspensions-document-2026-08-21/",
-        "timestamp": 1787322813000,
-        "photo": true,
-        "postedAt": 1787330497309
-      },
-      {
-        "headline": "Trump Admin Taps Ex-JPMorgan Exec Matt Zames To Advise Social Security",
-        "url": "https://www.cnbc.com/2026/08/21/jpmorgan-matt-zames-social-security-administration.html",
-        "timestamp": 1787319976000,
-        "postedAt": 1787330497309
-      },
-      {
-        "headline": "SpaceX Stock Slides 5% On Share Unlock, China Rocket News",
-        "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-slides-5-for-week-following-share-unlock-big-rocket-news-from-china-143100875.html",
-        "timestamp": 1787317965000,
-        "photo": true,
-        "postedAt": 1787330497309,
-        "image": "/img/markets-3.jpg"
-      },
-      {
-        "headline": "Broadcom Debt Deal Expected To Reach Up To $70 Billion",
-        "url": "https://www.cnbc.com/2026/08/21/broadcom-debt-deal-expected-to-reach-upwards-of-70-billion-sources.html",
-        "timestamp": 1787327909000,
-        "postedAt": 1787330497309
       }
     ],
     "center": [
+      {
+        "headline": "United Airlines Adds 2027 Routes Spanning Sardinia To Okinawa",
+        "url": "https://www.cnbc.com/2026/08/25/united-airlines-2027-international-routes.html",
+        "timestamp": 1787655601000,
+        "photo": true,
+        "postedAt": 1787658479783,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Nayax To Buy Parking-Technology Company For $350 Million",
+        "url": "https://www.marketwatch.com/story/nayax-to-buy-parking-technology-company-for-350-million-6926d2eb?mod",
+        "timestamp": 1787654760000,
+        "postedAt": 1787658479783
+      },
       {
         "headline": "Moderna Bets Big On Cancer Vaccine; Here's What Wall Street Wants To See",
         "url": "https://www.aol.com/articles/moderna-stock-surge-177-cancer-091040000.html",
@@ -258,7 +259,7 @@
         "timestamp": 1787581616000,
         "photo": true,
         "postedAt": 1787585601797,
-        "image": "/img/markets-0.jpg"
+        "image": "/img/markets-3.jpg"
       },
       {
         "headline": "Hugging Face In Talks To Be Acquired For $13 Billion",
@@ -283,8 +284,7 @@
         "url": "https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html",
         "timestamp": 1787484952000,
         "photo": true,
-        "postedAt": 1787488508141,
-        "image": "/img/markets-1.jpg"
+        "postedAt": 1787488508141
       },
       {
         "headline": "Hormuz Crisis Masks A Deeper Oil Threat That Could Outlast War",
@@ -348,28 +348,29 @@
         "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-long-dated-treasury-yields-flash-us-manufacturing-pmi",
         "timestamp": 1787340300000,
         "postedAt": 1787401493426
-      },
-      {
-        "headline": "What The $20 Burrito Conversation Says About The Economy",
-        "url": "https://www.investopedia.com/what-the-burrito-says-about-the-economy-12062946",
-        "timestamp": 1787327135000,
-        "postedAt": 1787330497309
-      },
-      {
-        "headline": "GM Faces Safety Probe Over Engine Failures In Nearly 1 Million Vehicles",
-        "url": "https://www.investing.com/news/stock-market-news/nhtsa-opens-probe-into-nearly-1-million-gm-pickups-suvs-over-engine-failure-concerns-4871215",
-        "timestamp": 1787322960000,
-        "photo": true,
-        "postedAt": 1787330497309
-      },
-      {
-        "headline": "Stock Market Closing In On Its Highest Valuation Ever",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-closing-highest-valuation-142000817.html",
-        "timestamp": 1787322000000,
-        "postedAt": 1787330497309
       }
     ],
     "right": [
+      {
+        "headline": "TRUMP THREATENS TO DOUBLE TARIFFS ON CANADIAN AUTOS AS TRADE TALKS COLLAPSE",
+        "url": "https://www.reuters.com/business/autos-transportation/trump-says-he-will-raise-tariffs-all-cars-trucks-50-amid-canada-trade-spat-2026-08-24/",
+        "timestamp": 1787585601797,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "US Futures Higher Amid Ongoing Trade War With Canada",
+        "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24",
+        "timestamp": 1787655960000,
+        "postedAt": 1787658479783
+      },
+      {
+        "headline": "Lego Posts Record First-Half Revenue On Strong Sales",
+        "url": "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html",
+        "timestamp": 1787641201000,
+        "photo": true,
+        "postedAt": 1787658479783,
+        "image": "/img/markets-1.jpg"
+      },
       {
         "headline": "Scandal-Hit KPMG Australia To Cut Nearly 400 Jobs",
         "url": "https://www.reuters.com/business/world-at-work/kpmg-australia-plans-cut-5-jobs-warns-soft-conditions-persist-2026-08-24/",
@@ -437,37 +438,6 @@
         "url": "https://wdwnt.com/2026/08/disney-reportedly-no-longer-covering-benefits-for-insured-spouses-of-employees/",
         "timestamp": 1787349120000,
         "postedAt": 1787401493426
-      },
-      {
-        "headline": "Trump Pauses Beef Tariff Quota Ahead Of Midterms",
-        "url": "https://www.politico.com/news/2026/08/21/trump-ground-beef-import-tariffs-01045353",
-        "timestamp": 1787328480000,
-        "photo": true,
-        "postedAt": 1787330497309
-      },
-      {
-        "headline": "Citadel Unwinds Over 80% Of Risk Tied To AI Portfolio",
-        "url": "https://www.cnbc.com/2026/08/21/citadel-situational-awareness-ken-griffin.html",
-        "timestamp": 1787323164000,
-        "postedAt": 1787330497309
-      },
-      {
-        "headline": "Canada: US Trade Teams To Meet Again As Tariff Deadline Looms",
-        "url": "https://www.reuters.com/world/americas/us-canadian-trade-teams-meet-again-tariffs-deadline-looms-2026-08-21/",
-        "timestamp": 1787322702000,
-        "postedAt": 1787330497309
-      },
-      {
-        "headline": "How America's $40 Trillion Debt Could Hit Your Wallet",
-        "url": "https://www.axios.com/2026/08/20/us-40-trillion-dollars-national-debt-costs-interests",
-        "timestamp": 1787318763000,
-        "postedAt": 1787330497309
-      },
-      {
-        "headline": "Job Seekers Say Hiring Process Is 'Broken'",
-        "url": "https://www.usatoday.com/story/money/economy/2026/08/21/job-seekers-say-hiring-is-broken-why/91370272007/",
-        "timestamp": 1787317740000,
-        "postedAt": 1787330497309
       }
     ]
   },
@@ -506,25 +476,25 @@
     },
     {
       "name": "Gold",
-      "value": "$4,689.80",
-      "change": "-8.00",
-      "changePct": "-0.17%",
-      "up": false,
-      "url": "https://www.wsj.com/market-data"
-    },
-    {
-      "name": "Oil",
-      "value": "$85.41",
-      "change": "+0.40",
-      "changePct": "+0.47%",
+      "value": "$4,699.50",
+      "change": "+1.70",
+      "changePct": "+0.04%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
+      "name": "Oil",
+      "value": "$82.36",
+      "change": "-2.65",
+      "changePct": "-3.12%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
       "name": "Bitcoin",
-      "value": "$80,405.91",
-      "change": "+1,423.64",
-      "changePct": "+1.80%",
+      "value": "$79,132.01",
+      "change": "+149.74",
+      "changePct": "+0.19%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     }
