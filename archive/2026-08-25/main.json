@@ -118,6 +118,19 @@
   "columns": {
     "left": [
       {
+        "headline": "CIA Director Ratcliffe On USAF Cargo Jet Flight To Moscow",
+        "url": "https://www.zerohedge.com/geopolitical/us-air-force-c-17-makes-mysterious-visit-moscow",
+        "timestamp": 1787616000000,
+        "postedAt": 1787616000000,
+        "feature": true
+      },
+      {
+        "headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
+        "url": "https://jonathanturley.org/2026/08/23/we-are-charlie-kirk-hasan-piker-mocks-the-murdered-charlie-kirk-to-cheering-crowd/",
+        "timestamp": 1787443200000,
+        "postedAt": 1787443200000
+      },
+      {
         "headline": "South Carolina Senate Runoff Set: Graham Vs. Norman",
         "url": "https://www.theguardian.com/us-news/2026/aug/25/south-carolina-senate-runoff-election",
         "timestamp": 1787652000000,
@@ -509,11 +522,11 @@
   },
   "balance": {
     "left": 59,
-    "right": 29,
-    "independent": 1,
+    "right": 30,
+    "independent": 2,
     "days": 30,
-    "total": 88,
-    "pctLeft": 67,
-    "pctRight": 33
+    "total": 89,
+    "pctLeft": 66,
+    "pctRight": 34
   }
 }
