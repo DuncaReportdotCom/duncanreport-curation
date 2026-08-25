@@ -1,0 +1,433 @@
+{
+  "lastUpdated": 1787586844610,
+  "heroSetDate": "2026-08-24",
+  "hero": {
+    "headline": "CARDIOLOGISTS ADOPT NEW UNIVERSAL DEFINITION OF HEART FAILURE",
+    "url": "https://www.sciencealert.com/cardiologists-just-changed-the-universal-definition-of-heart-failure",
+    "sublinks": [],
+    "postedAt": 1787586844610,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "BOX OFFICE RECORD BREAKERS",
+      "stories": [
+        {
+          "headline": "'The Odyssey' Tops Marvel Hit To Set R-Rated Box Office Record",
+          "url": "https://www.usatoday.com/story/entertainment/movies/2026/08/20/odyssey-box-office-record-deadpool-wolverine/91390411007/",
+          "timestamp": 1787255460000,
+          "feature": true,
+          "postedAt": 1787331564787
+        },
+        {
+          "headline": "Ragtime Sets Lincoln Center Box Office Record In Final Week",
+          "url": "https://www.aussietheatre.com.au/international/ragtime-lincoln-center-theater-weekly-record/",
+          "timestamp": 1787079300000,
+          "postedAt": 1787331564787
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Spider-Man: Brand New Day To Oust Titanic From Top 5 All-Time Films",
+        "url": "https://ew.com/spider-man-brand-new-day-poised-to-unseat-titanic-in-all-time-highest-grossing-films-in-global-box-office-history-12066024",
+        "timestamp": 1787524871000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Erling Haaland Has A Buzz Cut Now",
+        "url": "https://www.gq.com/story/erling-haaland-has-a-buzz-cut-now",
+        "timestamp": 1787585700000,
+        "photo": true,
+        "postedAt": 1787586844610,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Henry VIII's Lost Castle Linked To Dover Castle",
+        "url": "https://phys.org/news/2026-08-hidden-plain-sight-evidence-links.html",
+        "timestamp": 1787583610000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "A New Wave Of Cart Pod Power Players Floods Portland",
+        "url": "https://pdx.eater.com/restaurant-news/109501/portland-new-food-cart-pods-modhaus-callback-fremont-garage",
+        "timestamp": 1787583600000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "China Postpones Ambitious Chang'e-7 Lunar Launch",
+        "url": "https://phys.org/news/2026-08-china-abruptly-postpones-ambitious-lunar.html",
+        "timestamp": 1787495931000,
+        "feature": true,
+        "postedAt": 1787499402086
+      },
+      {
+        "headline": "JWST Peeks At Callisto's Ancient Scars",
+        "url": "https://phys.org/news/2026-08-jwst-peeks-callisto-ancient-scars.html",
+        "timestamp": 1787497204000,
+        "postedAt": 1787499402086
+      },
+      {
+        "headline": "Scientists Explain Why Your Pupils Dilate When You're Surprised",
+        "url": "https://www.sciencealert.com/scientists-reveal-the-strange-neurological-reason-your-pupils-dilate-when-youre-surprised",
+        "timestamp": 1787479276000,
+        "photo": true,
+        "postedAt": 1787489722286,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "Powerhouse Museum Chief Defends Her Billion-Dollar Vision",
+        "url": "https://www.theaustralian.com.au/culture/powerhouse-chief-lisa-havilah-defends-divisive-915m-museum-against-fierce-criticism/news-story/19e923bf4715a2cac8cdbc1b1cf490c2",
+        "timestamp": 1787256204000,
+        "postedAt": 1787489722286
+      },
+      {
+        "headline": "Very Low Birth Weight Linked To Reduced Adult Executive Function",
+        "url": "https://www.realclearscience.com/articles/2026/08/21/very_low_birth_weight_linked_to_reduced_executive_function_as_an_adult_1201571.html",
+        "timestamp": 1787244060000,
+        "postedAt": 1787489722286
+      },
+      {
+        "headline": "My Favorite Airbnb: A Restored Watchtower In Sicily",
+        "url": "https://www.cntraveler.com/story/my-favorite-airbnb-a-beautifully-restored-watchtower-on-a-secret-slice-of-sicily",
+        "timestamp": 1787398200000,
+        "photo": true,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "A New Way To Explore Millions Of Artworks Online",
+        "url": "https://links.thisiscolossal.com/post/825645021126623232/discover-millions-of-artworks-from-thousands-of",
+        "timestamp": 1787396451000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Old Nuclear Tests Reveal Secrets About Earth's Core",
+        "url": "https://www.sciencealert.com/all-those-nuclear-tests-decades-ago-have-revealed-something-new-about-our-planets-core",
+        "timestamp": 1787385640000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Dolly Parton Gives Fans Health Update: 'I'm Still Healin''",
+        "url": "https://ew.com/dolly-parton-updates-fans-on-health-issues-after-missing-dollywood-event-12065829",
+        "timestamp": 1787375265000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Tupac Killer's Associate Gives First Interview As Trial Continues",
+        "url": "https://abc7.com/post/tupac-shakur-murder-trial-duane-keffe-davis-has-testy-exchange-prosecutor/19716318/",
+        "timestamp": 1787353314000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Scientists Discover A New Organ Hiding In The Skull",
+        "url": "https://www.sciencealert.com/scientists-discover-a-new-organ-hiding-in-the-skull",
+        "timestamp": 1787159294000,
+        "feature": true,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Rare Tornado Hits New York City As Storm Drenches Mid-Atlantic",
+        "url": "https://www.foxweather.com/extreme-weather/video-tornado-new-york-long-island-damages-local-beach-club",
+        "timestamp": 1787325730000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "How Biggie Smalls Led To A Break In The Tupac Shakur Killing",
+        "url": "https://news3lv.com/news/local/opening-statements-tupac-shakur-murder-trial-duane-davis-las-vegas-clark-county-court-live-watch-nevada",
+        "timestamp": 1787320500000,
+        "photo": true,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "Taylor Sheridan Says He Was 'Homeless Twice' Before Success",
+        "url": "https://ew.com/taylor-sheridan-says-he-was-homeless-twice-and-lived-in-his-car-12064569",
+        "timestamp": 1787250356000,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "Nietzsche Made Europe Uncomfortable. Who Will Do It Today?",
+        "url": "https://www.omanobserver.om/ampArticle/1194810",
+        "timestamp": 1787242983000,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "Nobel-Prize Worthy: A New Type Of Matter",
+        "url": "https://www.realclearscience.com/video/2026/08/21/nobel-prize_worthy_a_new_type_of_matter_1201621.html",
+        "timestamp": 1787234100000,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "Six Key Fall 2026 Fashion Trends To Know",
+        "url": "https://www.vogue.com/article/fall-winter-2026-fashion-trends",
+        "timestamp": 1787154103000,
+        "postedAt": 1787331564787
+      }
+    ],
+    "center": [
+      {
+        "headline": "Can-Am Unveils Defender Prerunner And Maverick R Concepts",
+        "url": "https://uncrate.com/can-am-defender-prerunner-and-maverick-r-concepts/",
+        "timestamp": 1787584207000,
+        "photo": true,
+        "postedAt": 1787586844610,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "Reframing Homer's Sirens Through Gender, Nature And Social Order",
+        "url": "https://phys.org/news/2026-08-reframing-homer-sirens-gender-nature.html",
+        "timestamp": 1787581203000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Blancpain Plays All The Notes Of A Hit Watch In 2026",
+        "url": "https://www.gq.com/story/blancpain-bathyscaphe-70th-anniversary-limited-edition-new-watch-alert",
+        "timestamp": 1787580871000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Shelley Fabares, Star Of The Donna Reed Show And Coach, Dies At 82",
+        "url": "https://www.foxnews.com/entertainment/shelley-fabares-star-donna-reed-show-coach-dead-82",
+        "timestamp": 1787574441000,
+        "photo": true,
+        "postedAt": 1787586844610,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "The First New Nuclear Fusion Idea In Decades",
+        "url": "https://www.realclearscience.com/video/2026/08/24/the_first_new_nuclear_fusion_idea_for_decades_1202011.html",
+        "timestamp": 1787497440000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Heat Dulls Blue Morpho Butterflies' Iridescent Wings",
+        "url": "https://phys.org/news/2026-08-hot-temperatures-dull-blue-morpho.html",
+        "timestamp": 1787497201000,
+        "postedAt": 1787499402086
+      },
+      {
+        "headline": "7 Basic iPhone Tricks Using iOS 27's New Shortcuts App",
+        "url": "https://www.pcmag.com/how-to/13-simple-tips-to-squeeze-more-life-out-of-your-iphone-battery",
+        "timestamp": 1787477400000,
+        "postedAt": 1787489722286
+      },
+      {
+        "headline": "One Type Of Diabetes Responds Better To Weekly GLP-1 Drug Than Insulin",
+        "url": "https://www.sciencealert.com/one-type-of-diabetes-responds-better-to-a-weekly-glp-1-drug-than-to-insulin",
+        "timestamp": 1787472036000,
+        "postedAt": 1787489722286
+      },
+      {
+        "headline": "Popular Rock Band's Tour Bus In Deadly Upstate Crash",
+        "url": "https://www.wyff4.com/article/buckcherry-band-tour-bus-crash/73501711",
+        "timestamp": 1787443860000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787489722286
+      },
+      {
+        "headline": "UK: Prince Harry's Move Driven By Money, Inheritance Calculations",
+        "url": "https://www.yahoo.com/entertainment/videos/prince-harry-u-k-move-190644989.html",
+        "timestamp": 1787425604000,
+        "photo": true,
+        "postedAt": 1787489722286
+      },
+      {
+        "headline": "African Literature Grapples With Autochthony Vs. Commercialization",
+        "url": "https://guardian.ng/news/african-literature-autochthony-vs-commercialisation/",
+        "timestamp": 1787245860000,
+        "postedAt": 1787489722286
+      },
+      {
+        "headline": "The Outsized Power Of A Great Short Story",
+        "url": "https://bigthink.com/books/power-of-the-short-story/",
+        "timestamp": 1787409000000,
+        "postedAt": 1787412527382
+      },
+      {
+        "headline": "Hibernating Mice Lose Major Brain Connections, Study Finds",
+        "url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
+        "timestamp": 1787397752000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Rapper BigXThaPlug Arrested Ahead Of Iowa State Fair Show",
+        "url": "https://www.kcci.com/article/bigxthaplug-saturdays-iowa-state-fair-grandstand-headliner-arrested-in-texas/73500270",
+        "timestamp": 1787396820000,
+        "photo": true,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Asheville's Food Scene And The Rise Of A Farm-To-Table Town",
+        "url": "https://www.afar.com/podcasts/unpacked/s5-e41-eating-asheville-north-caroline",
+        "timestamp": 1787387833000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Pig On The Loose In West Hollywood Finds A Celebrity Home",
+        "url": "https://www.thedodo.com/daily-dodo/pig-caught-running-through-streets-of-west-hollywood-ends-up-adopted-by-a-celebrity",
+        "timestamp": 1787338937000,
+        "photo": true,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Natalie Portman At Center Of Literary Furor Over Rachel Cusk Novel",
+        "url": "https://variety.com/2026/film/features/natalie-portman-rachel-cusk-life-of-m-1236839311/",
+        "timestamp": 1787320800000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Taylor Sheridan Says He Needed Money For His $330 Million Ranch",
+        "url": "https://ew.com/taylor-sheridan-retirement-plans-after-yellowstone-stalled-four-sixes-ranch-12065550",
+        "timestamp": 1787296860000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "A Japanese Hi-Fi Brand Drops An Elite Turntable For Vinyl Fans",
+        "url": "https://www.gearpatrol.com/audio/esoteric-t-01-turntable/",
+        "timestamp": 1787329928000,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "GTA 6 Driving Physics Hint At A Return To Realism",
+        "url": "https://www.thedrive.com/?taxonomy",
+        "timestamp": 1787327273000,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "The Two Behaviors That Make You Socially Magnetic",
+        "url": "https://bigthink.com/mind-behavior/the-2-behaviors-that-make-you-socially-magnetic/",
+        "timestamp": 1787322036000,
+        "postedAt": 1787331564787
+      }
+    ],
+    "right": [
+      {
+        "headline": "STRICT CHILDHOOD SUGAR LIMITS PAID OFF DECADES LATER, STUDY FINDS",
+        "url": "https://www.sciencealert.com/these-babies-grew-up-with-strict-sugar-limits-decades-later-the-results-are-dramatic",
+        "timestamp": 1787489722286,
+        "postedAt": 1787489722286
+      },
+      {
+        "headline": "2026 Dodge Durango Hellcat Review: Unapologetically American",
+        "url": "https://www.thedrive.com/car-reviews/2026-dodge-durango-hellcat-review",
+        "timestamp": 1787584158000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Mule Helps Scientists Build Clearest Horse And Donkey Genomes Yet",
+        "url": "http://uknow.uky.edu/research/mule-helps-scientists-build-clearest-horse-and-donkey-genomes-yet",
+        "timestamp": 1787558418000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "I Tried Cycling The Length Of Italy: 2,000 Km In 19 Days",
+        "url": "https://pezcyclingnews.com/features/cycling-length-of-italy-oscar-boyd-film-review/",
+        "timestamp": 1787468463000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "ANCIENT SHARK GRAVEYARD FOUND IN EGYPTIAN DESERT",
+        "url": "https://www.sciencealert.com/an-ancient-shark-graveyard-has-been-found-in-the-egyptian-desert",
+        "timestamp": 1787402477295,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Humble Weather Balloon Gets A Green Makeover",
+        "url": "https://phys.org/news/2026-08-humble-balloon-green-makeover.html",
+        "timestamp": 1787478003000,
+        "photo": true,
+        "postedAt": 1787489722286
+      },
+      {
+        "headline": "Inside The Bikes And Builders Of MADE 2026",
+        "url": "https://bikepacking.com/bikes/bikes-and-builders-of-made-2026-part-2/",
+        "timestamp": 1787400063000,
+        "postedAt": 1787489722286
+      },
+      {
+        "headline": "Travis Kelce And Taylor Swift Can Now Wear Matching Cartier Watches",
+        "url": "https://www.gq.com/story/watches-of-the-week-8-23-26",
+        "timestamp": 1787407232000,
+        "photo": true,
+        "postedAt": 1787412527382,
+        "image": "/img/life-culture-4.jpg"
+      },
+      {
+        "headline": "A Former Cook's Trick For Easier Weeknight Dinners",
+        "url": "https://www.seriouseats.com/food-editor-meal-prep-tips-12065789",
+        "timestamp": 1787407200000,
+        "postedAt": 1787412527382
+      },
+      {
+        "headline": "'The Five Heartbeats' Star Michael Wright Dead At 70",
+        "url": "https://www.tmz.com/2026/08/22/michael-wright-dead/",
+        "timestamp": 1787399547000,
+        "photo": true,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Your Expired Visa Card Could Be 'Zombified' For Contactless Payments",
+        "url": "https://www.malwarebytes.com/blog/news/2026/08/zombie-card-an-expired-visa-credit-card-can-be-used-for-purchases",
+        "timestamp": 1787394600000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "NASA Cancels Rescue Mission For Aging Swift Telescope",
+        "url": "https://apnews.com/article/swift-telescope-nasa-satellite-rescue-800bfbe5aaba5fec9aadd20bdcc138a5",
+        "timestamp": 1787389200000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "UK: Prince Harry Says Returning To Britain Was 'Impossible'",
+        "url": "https://people.com/prince-harry-meghan-markle-moving-back-uk-with-prince-archie-princess-lilibet-exclusive-12061632",
+        "timestamp": 1787350233000,
+        "photo": true,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Why Some People Are Mosquito Magnets",
+        "url": "https://www.realclearscience.com/video/2026/08/22/why_are_some_people_mosquito_magnets_1201847.html",
+        "timestamp": 1787327340000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Oscar Wilde Still Knows Exactly Who We Are",
+        "url": "https://rvamag.com/art/theatre/review-oscar-wilde-still-knows-exactly-who-we-are.html",
+        "timestamp": 1787167241000,
+        "postedAt": 1787402477295
+      },
+      {
+        "headline": "Tissot Upgrades The PRX With A New Dial",
+        "url": "https://www.gearpatrol.com/watches/tissot-prx-40-mother-of-pearl/",
+        "timestamp": 1787330661000,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "The Hidden Karst Canal Of Malo Polje",
+        "url": "https://www.atlasobscura.com/places/bunski-kanal",
+        "timestamp": 1787328513000,
+        "photo": true,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "Inside Namibia's Remote Hoanib Elephant Camp",
+        "url": "https://www.cntraveler.com/hotels/kaokoland/natural-selection-hoanib-elephant-camp",
+        "timestamp": 1787325377000,
+        "photo": true,
+        "postedAt": 1787331564787
+      },
+      {
+        "headline": "A Mother-And-Tween's Travel Guide To Seoul's K-Beauty Scene",
+        "url": "https://www.cntraveler.com/story/a-mother-and-tweens-travel-guide-to-k-beauty-hanboks-and-the-brooklyn-of-seoul",
+        "timestamp": 1787323041000,
+        "postedAt": 1787331564787
+      }
+    ]
+  }
+}
