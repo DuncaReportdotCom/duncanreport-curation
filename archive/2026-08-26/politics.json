@@ -1,55 +1,81 @@
 {
-  "lastUpdated": 1787659384582,
-  "heroSetDate": "2026-08-25",
+  "lastUpdated": 1787746055850,
+  "heroSetDate": "2026-08-26",
   "hero": {
-    "headline": "SUPREME COURT ALLOWS TRUMP'S MAIL-IN VOTING RESTRICTIONS TO PROCEED",
-    "url": "https://www.scotusblog.com/2026/08/supreme-court-allows-trump-administration-to-move-forward-with-order-imposing-restrictions-on-ma/",
+    "headline": "SEN. GRAHAM WINS GOP NOMINATION FOR U.S. SENATE IN SOUTH CAROLINA",
+    "url": "https://www.npr.org/2026/08/25/nx-s1-5943041/south-carolina-senate-runoff-graham-norman-trump-endorsement",
     "sublinks": [
       {
-        "text": "Ruling Could Open Door To Election 'Chaos,' AP Analysis Warns",
-        "url": "https://apnews.com/article/elections-mail-voting-supreme-court-midterms-3780d57190a317e63fd19583c8ebb143"
+        "text": "Trump Endorsement Cited As Key Factor In Runoff Win",
+        "url": "https://thefederalist.com/2026/08/26/trump-endorsement-brings-very-nice-lady-victory-in-south-carolina-senate-runoff/"
       },
       {
-        "text": "Brennan Center: Ruling Shows Court Still Leaning On 'Shadow Docket'",
-        "url": "https://www.brennancenter.org/our-work/analysis-opinion/dragging-supreme-court-out-shadows"
+        "text": "Graham Contrasts Democratic Rival With Kamala Harris In Victory Speech",
+        "url": "https://www.realclearpolitics.com/video/2026/08/25/sen_darline_graham_wins_primary_if_you_like_kamala_harris_youre_going_to_love_annie_andrews.html"
+      },
+      {
+        "text": "Graham Defeats Norman To Advance To General Election",
+        "url": "https://www.newsnationnow.com/politics/south-carolina-runoff-darline-graham-trumps-political-influence/"
       }
     ],
-    "postedAt": 1787659384582,
+    "postedAt": 1787746055850,
     "img": true
   },
   "groups": [
     {
-      "title": "IRAN STANDOFF DEEPENS",
+      "title": "HASAN PIKER CONTROVERSY IN MICHIGAN SENATE RACE",
       "stories": [
         {
-          "headline": "Families Of USS Abraham Lincoln Crew Upset Over Trump, Hegseth Remarks",
-          "url": "https://www.usatoday.com/story/news/politics/2026/08/22/uss-abraham-lincoln-families-trump-hegseth-comments/91386484007/",
-          "timestamp": 1787389500000,
-          "postedAt": 1787402098214
+          "headline": "Democrats Focus On Piker While Giving Trump, Rogers A Pass, Critic Says",
+          "url": "https://zeteo.com/p/dems-obsess-over-hasan-piker-give",
+          "timestamp": 1787742594000,
+          "postedAt": 1787746055850
         },
         {
-          "headline": "Iranian President Says Iran Should End The War",
-          "url": "https://www.dailywire.com/news/live-updates-iranian-protests-intensify-as-citizens-demand-end-to-ayatollah-rule",
-          "timestamp": 1787381006000,
-          "postedAt": 1787402098214
+          "headline": "El-Sayed Distances Himself From Piker Amid Senate Race",
+          "url": "https://thehill.com/homenews/campaign/6050484-el-sayed-distances-piker-comments/",
+          "timestamp": 1787693940000,
+          "postedAt": 1787746055850
+        }
+      ]
+    },
+    {
+      "title": "2026 MIDTERM PRIMARY RESULTS",
+      "stories": [
+        {
+          "headline": "Sullivan Advances From Alaska U.S. Senate Primary",
+          "url": "https://apnews.com/article/alaska-primary-senate-congress-midterms-dan-sullivan-592c7fb777ed9e68da0c31d8ed7346e8",
+          "timestamp": 1787719620000,
+          "postedAt": 1787746055850
         },
         {
-          "headline": "Trump Calls Iran War 'A Little Detour' As Tehran Keeps Up Defiance Ahead Of Sanctions",
-          "url": "https://www.yahoo.com/news/politics/articles/iran-live-updates-tehran-adopt-074458959.html",
-          "timestamp": 1787375160000,
-          "postedAt": 1787402098214
+          "headline": "Trump-Backed Candidate Wins Oklahoma Governor Primary",
+          "url": "https://www.politico.com/news/2026/08/25/mazzei-wins-oklahoma-governor-runoff-01050323",
+          "timestamp": 1787713440000,
+          "postedAt": 1787746055850
         },
+        {
+          "headline": "Democratic Socialists Notch Win In Oklahoma Senate Runoff",
+          "url": "https://www.nbcnews.com/politics/2026-election/nkiyla-jasmine-thomas-wins-oklahoma-senate-primary-democrat-rcna593618",
+          "timestamp": 1787705400000,
+          "postedAt": 1787746055850
+        },
+        {
+          "headline": "David Scott's Daughter Defeated In Georgia House Special Election",
+          "url": "https://thehill.com/homenews/campaign/6047844-blair-wins-georgia-house-special-election/",
+          "timestamp": 1787704920000,
+          "postedAt": 1787746055850
+        }
+      ]
+    },
+    {
+      "title": "IRAN STANDOFF DEEPENS",
+      "stories": [
         {
           "headline": "Iran's President Says US Memorandum Is Best Path Out Of Stalled War",
           "url": "https://apnews.com/article/middle-east-iran-israel-west-bank-august-23-2026-a3fff9eba47a5510060e8014b82d794f",
           "timestamp": 1787479860000,
           "postedAt": 1787489279221
-        },
-        {
-          "headline": "Progressive Aisha Wahab Wins Special Election For Swalwell's Former Seat",
-          "url": "https://rollcall.com/2026/08/21/progressive-aisha-wahab-wins-california-special-election-for-swalwells-seat/",
-          "timestamp": 1787307883000,
-          "postedAt": 1787402098214
         },
         {
           "headline": "Farmers Say Tariffs, Iran War Create New Cost Crisis",
@@ -85,6 +111,25 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Supreme Court Gives Trump Victory On Mail-In Voting Restrictions",
+        "url": "https://www.theblaze.com/news/supreme-court-trump-mailin-ballots",
+        "timestamp": 1787742406000,
+        "feature": true,
+        "postedAt": 1787746055850
+      },
+      {
+        "headline": "Canada: Politicians Say Trump Can Rename Lake Ontario, But It Will Always Be Lake Ontario",
+        "url": "https://abcnews.com/Politics/trump-floats-renaming-lake-ontario-lake-america-denies/story?id",
+        "timestamp": 1787721350000,
+        "postedAt": 1787746055850
+      },
+      {
+        "headline": "Court Ruling Threatens Republicans' Midterm TV Ad Advantage",
+        "url": "https://www.axios.com/2026/08/26/tv-ad-rates-republicans-democrats-court-ruling",
+        "timestamp": 1787707038000,
+        "postedAt": 1787746055850
+      },
       {
         "headline": "Sonya Massey's Family Feels Robbed Of 'True Justice' After Officer's Death",
         "url": "https://nypost.com/2026/08/25/us-news/sonya-masseys-family-feel-robbed-of-true-justice-after-cop-who-murdered-her-dies/",
@@ -164,33 +209,37 @@
         "postedAt": 1787489279221
       },
       {
-        "headline": "ICE Seeks Weapon That Leaves No Mark, Report Finds",
-        "url": "https://www.thebulwark.com/p/ice-wants-a-weapon-that-leaves-no-mark-electric-shock-gloves-compliant-technologies",
-        "timestamp": 1787409060000,
-        "postedAt": 1787412143843
-      },
-      {
-        "headline": "DOJ, TikTok Settle Children's Privacy Suit For $400 Million",
-        "url": "https://www.axios.com/2026/08/21/doj-tiktok-biden-lawsuit-settlement",
-        "timestamp": 1787382002000,
-        "feature": true,
-        "postedAt": 1787402098214
-      },
-      {
-        "headline": "Postal Service Publishes Finalized Plan To Restrict Mail Ballots",
-        "url": "https://www.reuters.com/world/us-postal-service-issues-rules-tighten-mail-in-voting-if-court-gives-ok-2026-08-22/",
-        "timestamp": 1787365889000,
-        "feature": true,
-        "postedAt": 1787402098214
-      },
-      {
-        "headline": "Judge Blocks Referendum On Gerrymandered Missouri Redistricting Plan",
-        "url": "https://missouriindependent.com/2026/08/19/judge-hears-arguments-in-case-over-missouri-redistricting-referendum/",
-        "timestamp": 1787186552000,
-        "postedAt": 1787402098214
+        "headline": "Grocers Warn They'll Fight Mamdani's Taxpayer-Backed Stores",
+        "url": "https://www.foxnews.com/politics/grocers-issue-warning-mamdanis-taxpayer-backed-stores-going-after-them",
+        "timestamp": 1787734817000,
+        "postedAt": 1787746055850
       }
     ],
     "center": [
+      {
+        "headline": "Trump Admin Pauses Visa Appointments Worldwide",
+        "url": "https://www.foxnews.com/politics/trump-immigrant-visa-interview-pause",
+        "timestamp": 1787730117000,
+        "postedAt": 1787746055850
+      },
+      {
+        "headline": "Washington Post Ordered To Rehire Writer Fired Over Kirk Comments",
+        "url": "https://www.theblaze.com/news/wapo-ordered-to-rehire-anti-white-radical-fired-over-charlie-kirk-assassination-comments",
+        "timestamp": 1787741815000,
+        "postedAt": 1787746055850
+      },
+      {
+        "headline": "Talarico Criticized For Politicizing Amazon Worker's Death",
+        "url": "https://www.theblaze.com/news/talarico-amazon-death-worker-misinformation",
+        "timestamp": 1787739952000,
+        "postedAt": 1787746055850
+      },
+      {
+        "headline": "Rubio Tells Allies U.S. Shifting From Strikes To Sanctions On Iran",
+        "url": "https://www.axios.com/2026/08/25/rubio-iran-war-hormuz-oil",
+        "timestamp": 1787725961000,
+        "postedAt": 1787746055850
+      },
       {
         "headline": "Conservatives Aren't Connecting With Young Women, Analysts Say",
         "url": "https://www.dailywire.com/news/conservatives-arent-connecting-with-young-women-its-time-to-try-something-new",
@@ -269,45 +318,40 @@
         "url": "https://19thnews.org/2026/08/aisha-wahab-california-house-swalwell/",
         "timestamp": 1787264294000,
         "postedAt": 1787489279221
-      },
-      {
-        "headline": "Maryland School District Updates Gender Policy After Trump Threat",
-        "url": "https://marylandmatters.org/2026/08/20/after-threat-by-doj-anne-arundel-schools-amend-gender-policy/",
-        "timestamp": 1787409217000,
-        "postedAt": 1787412143843
-      },
-      {
-        "headline": "Klobuchar's Fraud-Fight Claim Takes Hit After GOP Opponent Combs Through Receipts",
-        "url": "https://www.foxnews.com/politics/klobuchar-fraud-fight-claim-takes-hit-gop-opponent-combs-receipts-where-were-you",
-        "timestamp": 1787392857000,
-        "postedAt": 1787402098214
-      },
-      {
-        "headline": "Trump Approval Rating Hits New Low Ahead Of Midterms",
-        "url": "https://www.yahoo.com/news/politics/articles/trump-approval-rating-hits-low-114016931.html",
-        "timestamp": 1787373600000,
-        "postedAt": 1787402098214
-      },
-      {
-        "headline": "NAACP Rips Trump Over Aircraft Carrier Name, Calling It A 'Slap In The Face'",
-        "url": "https://www.usatoday.com/story/news/politics/2026/08/21/slap-in-the-face-naacp-rips-trump-over-aircraft-carrier-name/91412367007/",
-        "timestamp": 1787354700000,
-        "postedAt": 1787402098214
-      },
-      {
-        "headline": "New Jersey Governor Signs Shield Law Protecting Reproductive, Transgender Care",
-        "url": "https://newjerseymonitor.com/2026/08/20/sherrill-signs-reproductive-transgender-shield-law/",
-        "timestamp": 1787259091000,
-        "photo": true,
-        "postedAt": 1787402098214
       }
     ],
     "right": [
       {
-        "headline": "TRUMP HIKES CANADA AUTO TARIFFS TO 50% AFTER TRADE TALKS COLLAPSE",
-        "url": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
-        "timestamp": 1787586346980,
-        "postedAt": 1787586346980
+        "headline": "American Bar Association Confident It Can Fend Off Trump Accreditation Fight",
+        "url": "https://www.theblaze.com/news/woke-american-bar-association-confident-it-will-fend-off-trumps-fight-to-strip-it-of-law-school-accreditation-monopoly",
+        "timestamp": 1787742466000,
+        "postedAt": 1787746055850
+      },
+      {
+        "headline": "CBP Seizes Millions In Counterfeit Shoes And Watches",
+        "url": "https://www.theblaze.com/news/counterfeit-shoes-watches-seized-cbp",
+        "timestamp": 1787740284000,
+        "photo": true,
+        "postedAt": 1787746055850
+      },
+      {
+        "headline": "Why Young Men Are Done With Mike Pence-Style Conservatism",
+        "url": "https://www.theblaze.com/columns/opinion/why-young-men-are-done-with-mike-pence-conservatism",
+        "timestamp": 1787738419000,
+        "postedAt": 1787746055850
+      },
+      {
+        "headline": "Trump Submits Saudi Nuclear Agreement To Congress For Review",
+        "url": "https://apnews.com/article/trump-saudi-arabia-civil-nuclear-congress-2be6c822995be2a9f2a39b2c05e8f9b0",
+        "timestamp": 1787710320000,
+        "postedAt": 1787746055850
+      },
+      {
+        "headline": "Secret Service Spokesman, Two Others Suspended Amid Leak Probe",
+        "url": "https://www.realclearpolitics.com/articles/2026/08/26/secret_service_spokesman_two_others_suspended_amid_leak_probe_154446.html",
+        "timestamp": 1787695200000,
+        "photo": true,
+        "postedAt": 1787746055850
       },
       {
         "headline": "Trump's Pro-Serbia, Pro-Balkans Shift Called Smart Move",
@@ -369,30 +413,10 @@
         "image": "/img/politics-3.jpg"
       },
       {
-        "headline": "Woman's Alleged ISIS Radicalization Detailed In Capitol Bomb Plot Court Docs",
-        "url": "https://www.foxnews.com/us/womans-alleged-isis-radicalization-unfolded-online-before-capitol-bomb-plot-court-docs",
-        "timestamp": 1787392807000,
-        "postedAt": 1787402098214
-      },
-      {
-        "headline": "JD Vance Holds Midterm Rally In Ohio Hometown",
-        "url": "https://www.aljazeera.com/news/2026/8/21/us-vice-president-jd-vance-holds-midterm-election-rally-in-ohio-hometown",
-        "timestamp": 1787354005000,
-        "photo": true,
-        "postedAt": 1787402098214
-      },
-      {
-        "headline": "Iryna Zarutska's Family Sues Alleging No Security Guard Was On Train",
-        "url": "https://www.foxnews.com/us/iryna-zarutska-family-files-wrongful-death-lawsuit-alleging-no-security-guard-train",
-        "timestamp": 1787349793000,
-        "photo": true,
-        "postedAt": 1787402098214
-      },
-      {
-        "headline": "Democratic Senator, 80, Slammed Over AI Debate Answer On 'Our Gerontocracy'",
-        "url": "https://www.al.com/politics/2026/08/democratic-senator-80-slammed-over-ai-debate-answer-the-problem-with-our-gerontocracy.html",
-        "timestamp": 1787333220000,
-        "postedAt": 1787402098214
+        "headline": "Canada: Carney Chose Dairy Cartel And China Over Trump Trade Deal",
+        "url": "https://www.theblaze.com/lifestyle/milk-money-how-mark-carney-chose-the-dairy-cartel-and-china-over-a-trump-trade-deal",
+        "timestamp": 1787742379000,
+        "postedAt": 1787746055850
       }
     ]
   },
@@ -419,11 +443,11 @@
     }
   ],
   "balance": {
-    "left": 43,
-    "right": 52,
+    "left": 48,
+    "right": 58,
     "independent": 0,
     "days": 30,
-    "total": 95,
+    "total": 106,
     "pctLeft": 45,
     "pctRight": 55
   }

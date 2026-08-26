@@ -1,23 +1,63 @@
 {
-  "lastUpdated": 1787658124509,
-  "heroSetDate": "2026-08-25",
+  "lastUpdated": 1787744839563,
+  "heroSetDate": "2026-08-26",
   "hero": {
-    "headline": "RARE TORNADO RIPS THROUGH SOUTHERN FRANCE VILLAGE, INJURING 39",
-    "url": "https://apnews.com/article/france-tornado-pomas-dozens-injured-176e48d07dad6d5caadfe40e54d721ee",
+    "headline": "FLASH FLOODS SWEEP NEPAL-TIBET BORDER, HUNDREDS OF TOURISTS MISSING",
+    "url": "https://www.dw.com/en/nepal-tibet-china-flood-river-mudslide/a-78505576",
     "sublinks": [
       {
-        "text": "Aude Region Left Reeling In Storm's Immediate Aftermath",
-        "url": "https://www.france24.com/en/france/20260824-tornado-devastates-village-southwestern-france-aude-region"
+        "text": "Hundreds Of Tourists Reported Missing In Flood-Hit Region",
+        "url": "https://www.scmp.com/news/asia/south-asia/article/3365311/flash-flood-nepal-washes-away-villages-power-projects-near-tibet-border"
       },
       {
-        "text": "Meteorologists Call It One Of France's Rare Tornado Events",
-        "url": "https://www.reuters.com/business/environment/houses-damaged-after-tornado-hits-aude-southern-france-2026-08-25/"
+        "text": "Mudslide In Tibet's Gyirong Causes 'Major Casualties' Near China Border",
+        "url": "https://www.reuters.com/world/china/tibets-gyirong-suffers-major-casualties-mudslide-xinhua-reports-2026-08-26/"
       }
     ],
-    "postedAt": 1787658124509,
+    "liveUpdates": [
+      {
+        "source": "NYT",
+        "url": "https://www.nytimes.com/live/2026/08/26/world/nepal-floods"
+      }
+    ],
+    "postedAt": 1787744839563,
     "img": true
   },
   "groups": [
+    {
+      "title": "SOUTH KOREA'S JEJU MISSING-PERSON SCANDAL",
+      "stories": [
+        {
+          "headline": "Jeju Officer Accused Of Falsely Closing Missing-Person Cases After Two Found Dead",
+          "url": "https://www.scmp.com/video/world/3365342/jeju-island-officer-accused-falsely-closing-missing-person-cases-after-2-found-dead?pgtype",
+          "timestamp": 1787742420000,
+          "postedAt": 1787744839563
+        },
+        {
+          "headline": "South Korea's Lee Calls For Police Accountability After Jeju Cases",
+          "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-calls-greater-police-accountability-after-jeju-missing-person-2026-08-26/",
+          "timestamp": 1787714160000,
+          "postedAt": 1787744839563
+        }
+      ]
+    },
+    {
+      "title": "CEUTA MIGRANT CRISIS ROCKS SPAIN AND EU",
+      "stories": [
+        {
+          "headline": "Ceuta Residents Protest Government's Migrant Shelter Plans",
+          "url": "https://www.breitbart.com/europe/2026/08/26/pedro-sanchez-son-of-a-ceuta-residents-protest-against-govts-invading-migrant-shelter-plans/amp/",
+          "timestamp": 1787737556000,
+          "postedAt": 1787744839563
+        },
+        {
+          "headline": "Spain Requests Emergency EU Funding Over Ceuta Migrant Surge",
+          "url": "https://www.aljazeera.com/news/2026/8/25/spain-requests-emergency-funding-from-the-eu-over-ceuta-migrants",
+          "timestamp": 1787679264000,
+          "postedAt": 1787744839563
+        }
+      ]
+    },
     {
       "title": "IRAN WAR: SANCTIONS AND ATTACKS DEEPEN MIDEAST FALLOUT",
       "stories": [
@@ -56,12 +96,6 @@
           "url": "https://www.euronews.com/2026/08/24/houthis-claim-strike-on-saudi-tanker-in-latest-red-sea-escalation",
           "timestamp": 1787586852000,
           "postedAt": 1787658124509
-        },
-        {
-          "headline": "Iranian Official Urges Qatar To Move Detained Pilots To Hospital",
-          "url": "https://www.arabnews.com/node/2655503/amp",
-          "timestamp": 1787389560000,
-          "postedAt": 1787401010478
         }
       ]
     },
@@ -138,6 +172,56 @@
   "columns": {
     "left": [
       {
+        "headline": "Putin, Sharaa Discuss Deepening Ties In Phone Call, Kremlin Says",
+        "url": "https://www.timesofisrael.com/liveblog_entry/putin-sharaa-speak-by-phone-discuss-deepening-ties-kremlin-says/",
+        "timestamp": 1787740795000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "Analysis: How Mark Carney's Speeches Became Political Earthquakes",
+        "url": "https://www.theguardian.com/commentisfree/2026/aug/26/mark-carney-speeches-trump",
+        "timestamp": 1787741820000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "US Senate Democrats Urge Israel To Rein In West Bank Violence",
+        "url": "https://www.reuters.com/world/us/us-senate-democrats-urge-israel-rein-west-bank-violence-2026-08-26/",
+        "timestamp": 1787740296000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "Pakistan Hospital Nursery Fire Kills 14 Newborns",
+        "url": "https://apnews.com/article/pakistan-islamabad-hospital-fire-nursery-infants-killed-277ecc4d3dc2e87b7be49e2911c43c0b",
+        "timestamp": 1787739360000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "Zuckerberg's Plan To Replace Meta Staff With AI Implodes",
+        "url": "https://www.reuters.com/investigations/mark-zuckerberg-had-bold-plan-replace-meta-staff-with-ai-heres-how-it-imploded-2026-08-26/",
+        "timestamp": 1787738820000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "Frankfurt Airport Employee Dies After Contracting Malaria",
+        "url": "https://www.euronews.com/my-europe/2026/08/26/frankfurt-airport-employee-dies-after-contracting-malaria-operator-fraport-says",
+        "timestamp": 1787737249000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "China Braces For More Heavy Rain From Back-To-Back Storms",
+        "url": "https://www.reuters.com/business/environment/china-prepares-more-heavy-rain-back-to-back-storms-2026-08-26/",
+        "timestamp": 1787712480000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "Analysis: Russia's War Won't End Until Putin Accepts Ukrainian Independence",
+        "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/russias-war-will-not-end-until-putin-accepts-ukrainian-independence/",
+        "timestamp": 1787691000000,
+        "postedAt": 1787744839563
+      },
+      {
         "headline": "Zelensky Tells Putin Ukrainian Army Turning Russian Soldiers Into 'Fertilizer'",
         "url": "https://www.breitbart.com/europe/2026/08/25/zelensky-tells-putin-ukrainian-army-turning-russian-soldiers-into-fertilizer/",
         "timestamp": 1787656589000,
@@ -162,7 +246,7 @@
         "timestamp": 1787547598000,
         "photo": true,
         "postedAt": 1787658124509,
-        "image": "/img/world-3.jpg"
+        "image": "/img/world-4.jpg"
       },
       {
         "headline": "Germany's AfD Eyes Saxony-Anhalt Win As Step Toward Federal Power",
@@ -219,48 +303,67 @@
         "timestamp": 1787419417000,
         "photo": true,
         "postedAt": 1787488006763
-      },
-      {
-        "headline": "No Deal Reached As US-Canada Tariffs Take Effect At 50%",
-        "url": "https://abcnews.com/Business/trumps-proposed-tariffs-canada-hurtle-deadline-amid-trade/story?id",
-        "timestamp": 1787409387000,
-        "postedAt": 1787411154314
-      },
-      {
-        "headline": "Two Police Officers Among Seven Killed In Chase Crash",
-        "url": "https://www.bbc.com/news/articles/cx272ly3g00o",
-        "timestamp": 1787407531000,
-        "photo": true,
-        "postedAt": 1787411154314
-      },
-      {
-        "headline": "South Korea Ship To Test Arctic Commercial Route",
-        "url": "https://www.reuters.com/world/china/south-korea-ship-test-arctic-commercial-route-amid-western-concerns-2026-08-22/",
-        "timestamp": 1787381220000,
-        "postedAt": 1787401010478
-      },
-      {
-        "headline": "Secret Gun Cache Near Berlin Tied To Possible Russian Assassination Plot",
-        "url": "https://www.breitbart.com/europe/2026/08/22/secret-gun-cache-found-near-berlin-may-be-linked-to-russian-intel/",
-        "feature": true,
-        "timestamp": 1787399649000,
-        "postedAt": 1787401010478
-      },
-      {
-        "headline": "Over 16,000 Ebola Vaccine Doses Arrive In DR Congo",
-        "url": "https://www.aljazeera.com/news/2026/8/22/more-than-16000-doses-of-ervebo-vaccine-arrive-in-ebola-hit-dr-congo",
-        "timestamp": 1787393997000,
-        "postedAt": 1787401010478
-      },
-      {
-        "headline": "UK: Girl, 6, Dies After Family Killed In Sea Off Shoreham",
-        "url": "https://www.bbc.com/news/articles/c629y0kx8gyo",
-        "photo": true,
-        "timestamp": 1787389781000,
-        "postedAt": 1787401010478
       }
     ],
     "center": [
+      {
+        "headline": "RARE TORNADO RIPS THROUGH SOUTHERN FRANCE VILLAGE, INJURING 39",
+        "url": "https://apnews.com/article/france-tornado-pomas-dozens-injured-176e48d07dad6d5caadfe40e54d721ee",
+        "timestamp": 1787658124509,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "Gulf Ship Traffic Through Hormuz Stays Below 10-Day Average",
+        "url": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
+        "timestamp": 1787718540000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "Prince Harry And Family Head Back To UK From US",
+        "url": "https://www.straitstimes.com/world/europe/prince-harry-and-family-due-back-in-uk-as-they-return-from-us-bbc-reports",
+        "timestamp": 1787743680000,
+        "photo": true,
+        "postedAt": 1787744839563,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "French PM Visits Mayotte To Speed Cyclone Reconstruction",
+        "url": "https://www.rfi.fr/en/france/20260826-french-pm-visits-mayotte-to-speed-up-slow-reconstruction-after-cyclone",
+        "timestamp": 1787741169000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "How Mali's Big Bet On Russia Is Backfiring",
+        "url": "https://www.dw.com/en/how-malis-big-bet-on-russia-is-backfiring-mapped-out/video-78507212",
+        "timestamp": 1787738398000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "Zelenskyy Awards Musk Ukraine's Top Honor Despite Past Criticism",
+        "url": "https://www.euronews.com/my-europe/2026/08/26/zelenskyy-awards-elon-musk-ukraines-order-of-freedom-despite-years-of-criticism",
+        "timestamp": 1787736812000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "Haiti Gang Attack Leaves 47 Dead, 50 Kidnapped",
+        "url": "https://www.npr.org/2026/08/26/nx-s1-5944787/50-kidnapped-haiti-gang-attack-47-dead",
+        "timestamp": 1787723134000,
+        "feature": true,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "Chinese Artist Jailed For Mao Sculptures Deemed Slanderous",
+        "url": "https://www.theguardian.com/world/2026/aug/25/artist-gao-zhen-sculptures-mao-zedong-jailed-china",
+        "timestamp": 1787707860000,
+        "photo": true,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "UK Tax Rises Loom As Manchester's Burnham Faces Fiscal Crunch",
+        "url": "https://oilprice.com/Energy/Energy-General/UK-Tax-Rises-Back-on-the-Table-as-Burnham-Faces-Fiscal-Crunch.html",
+        "timestamp": 1787684400000,
+        "postedAt": 1787744839563
+      },
       {
         "headline": "Putin Decree Opens Door To State Control After Deep Ukrainian Strikes",
         "url": "https://apnews.com/article/russia-ukraine-war-putin-companies-drones-f2ef0ded42dfab093bd9b08a8157b931",
@@ -289,7 +392,7 @@
         "timestamp": 1787562746000,
         "photo": true,
         "postedAt": 1787584985952,
-        "image": "/img/world-2.jpg"
+        "image": "/img/world-3.jpg"
       },
       {
         "headline": "Iceland Votes On Whether To Restart EU Membership Talks",
@@ -308,8 +411,7 @@
         "url": "https://globalnation.inquirer.net/335559/m5-9-quake-strikes-eastern-japan-including-tokyo-disrupting-traffic",
         "timestamp": 1787492812000,
         "photo": true,
-        "postedAt": 1787497820383,
-        "image": "/img/world-4.jpg"
+        "postedAt": 1787497820383
       },
       {
         "headline": "Deadly Ebola Outbreak In Congo's Bundibugyo Region Can Be Stopped, Officials Say",
@@ -335,47 +437,41 @@
         "url": "https://www.politico.com/news/2026/08/22/pope-leo-calls-for-dialogue-over-conflict-says-young-catholics-are-a-sign-of-hope-01046799",
         "timestamp": 1787436720000,
         "postedAt": 1787488006763
-      },
-      {
-        "headline": "Father Leaves 7-Year-Old Son Alone On Mount Fuji Hike",
-        "url": "https://www.bbc.com/news/articles/c93403wg288o",
-        "timestamp": 1787409311000,
-        "photo": true,
-        "postedAt": 1787411154314
-      },
-      {
-        "headline": "Ukraine's Farmers Struggle To Sell Harvest Amid War, Drought",
-        "url": "https://www.dw.com/en/ukraines-farmers-struggle-to-sell-harvest-amid-war-drought/a-78435344",
-        "timestamp": 1787350835000,
-        "postedAt": 1787401010479
-      },
-      {
-        "headline": "Former Envoys Urge Joint France-UK Action On Palestinian Territories",
-        "url": "https://www.arabnews.com/node/2655505/amp",
-        "timestamp": 1787393350000,
-        "postedAt": 1787401010478
-      },
-      {
-        "headline": "Somali Pirates Hijack Oil Tanker Off Yemen",
-        "url": "https://apnews.com/article/somalia-piracy-yemen-puntland-5095054a9227548818dfc819d226dc76",
-        "photo": true,
-        "timestamp": 1787386680000,
-        "postedAt": 1787401010478
-      },
-      {
-        "headline": "Cuban Migrants Describe Deportation By US To Dangerous African Nation",
-        "url": "https://www.cbsnews.com/news/central-african-republic-third-country-deportations/",
-        "timestamp": 1787365080000,
-        "postedAt": 1787401010478
-      },
-      {
-        "headline": "Guyana's Rodrigues Birkett Leads Informal Poll For Next UN Chief",
-        "url": "https://www.aljazeera.com/news/2026/8/22/guyanas-rodrigues-birkett-leads-informal-poll-in-race-to-be-next-un-leader",
-        "timestamp": 1787359014000,
-        "postedAt": 1787401010478
       }
     ],
     "right": [
+      {
+        "headline": "Fact Check: Viral Ship Launch Video Falsely Linked To Kenya's Lake Victoria",
+        "url": "https://factcheck.afp.com/doc.afp.com.C4WF463",
+        "timestamp": 1787743148000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "India's Assam Tea Industry Faces Climate-Driven Labor Crisis",
+        "url": "https://www.dw.com/en/india-assam-tea-industry-faces-climate-driven-labor-crisis/a-78506414",
+        "timestamp": 1787742424000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "Gaza's Children Lose Simple Joy As Israel Warns Against Kite-Flying",
+        "url": "https://www.rfi.fr/en/middle-east/20260826-gaza-s-children-lose-simple-joy-as-israel-warns-against-kite-flying",
+        "timestamp": 1787740934000,
+        "photo": true,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "Lebanon Accuses Israel Of Burning Forest, Farmland In South",
+        "url": "https://www.rfi.fr/en/middle-east/20260826-lebanon-accuses-israel-of-burning-forest-farmland-in-south",
+        "timestamp": 1787736981000,
+        "postedAt": 1787744839563
+      },
+      {
+        "headline": "Fire At Russian Gas Chemical Complex Kills 3, Injures 150",
+        "url": "https://www.reuters.com/world/china/more-than-120-injured-fire-russian-gas-chemical-complex-one-chinese-worker-2026-08-25/",
+        "timestamp": 1787700366000,
+        "feature": true,
+        "postedAt": 1787744839563
+      },
       {
         "headline": "IRAN'S CURRENCY HITS RECORD LOW AS US READIES 'ECONOMIC D-DAY' SANCTIONS",
         "url": "https://apnews.com/article/iran-rial-currency-bessent-trade-august-24-2026-e367634d8853c8fa4a341132cd577f31",
@@ -388,19 +484,12 @@
         "timestamp": 1787651472000,
         "photo": true,
         "postedAt": 1787658124509,
-        "image": "/img/world-0.jpg"
+        "image": "/img/world-1.jpg"
       },
       {
         "headline": "Germany Vows Retribution As Third Drone Found At Airport",
         "url": "https://www.euronews.com/my-europe/2026/08/25/german-investigators-find-third-drone-and-suspected-explosives-at-leipzighalle-airport-loc",
         "timestamp": 1787640550000,
-        "feature": true,
-        "postedAt": 1787658124509
-      },
-      {
-        "headline": "Haiti Gang Raid Leaves 47 Dead Amid Calls For Protection",
-        "url": "https://www.reuters.com/world/americas/gang-attack-near-haitis-capital-leaves-30-dead-2026-08-24/",
-        "timestamp": 1787614070000,
         "feature": true,
         "postedAt": 1787658124509
       },
@@ -422,7 +511,7 @@
         "timestamp": 1787582429000,
         "photo": true,
         "postedAt": 1787584985952,
-        "image": "/img/world-1.jpg"
+        "image": "/img/world-2.jpg"
       },
       {
         "headline": "World Inches Toward Catastrophic Climate Events, Scientists Warn",
@@ -449,12 +538,6 @@
         "postedAt": 1787497820383
       },
       {
-        "headline": "UKRAINE STRIKES RUSSIAN OIL REFINERY IN RETALIATION AFTER DEADLY MALL ATTACK",
-        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-shopping-centre-attack-b3037438.html",
-        "timestamp": 1787401010479,
-        "postedAt": 1787401010479
-      },
-      {
         "headline": "Togo Says It Has 'Serious' Evidence Against Detained French Journalists",
         "url": "https://allafrica.com/stories/202608230042.html",
         "timestamp": 1787487090000,
@@ -471,13 +554,6 @@
         "url": "https://www.bbc.com/news/videos/c7vgvj6e1emo",
         "timestamp": 1787478125000,
         "postedAt": 1787488006763
-      },
-      {
-        "headline": "Two-Time Boxing Champion Zolani Tete Shot Dead In South Africa",
-        "url": "https://www.bbc.com/sport/boxing/articles/c98v78n72v5o",
-        "photo": true,
-        "timestamp": 1787389779000,
-        "postedAt": 1787401010478
       }
     ]
   }

@@ -1,15 +1,79 @@
 {
-  "lastUpdated": 1787659824068,
-  "heroSetDate": "2026-08-25",
+  "lastUpdated": 1787746626343,
+  "heroSetDate": "2026-08-26",
   "hero": {
-    "headline": "SURGEONS INJECT MITOCHONDRIA FROM WOMAN'S LEG INTO HER EYES IN WORLD FIRST",
-    "url": "https://www.sciencealert.com/world-first-mitochondria-from-a-womans-leg-were-injected-into-her-eyes",
-    "postedAt": 1787659824068,
+    "headline": "TINY CHANNELS IN YOUR NECK MAY DETERMINE HOW YOUR BRAIN AGES",
+    "url": "https://www.sciencealert.com/tiny-channels-in-your-neck-might-determine-how-your-brain-ages",
+    "sublinks": [],
+    "postedAt": 1787746626343,
     "img": true
   },
-  "groups": [],
+  "groups": [
+    {
+      "title": "DOLLY PARTON TRIBUTES POUR IN",
+      "stories": [
+        {
+          "headline": "Jelly Roll Pays Tribute To Dolly Parton, Calls Her 'The Last American Everyone Liked'",
+          "url": "https://www.billboard.com/music/country/jelly-roll-tribute-dolly-parton-1236324814/",
+          "timestamp": 1787745879000,
+          "postedAt": 1787746626343
+        },
+        {
+          "headline": "Essay: Dolly Parton Symbolized A Vanishing America",
+          "url": "https://unherd.com/newsroom/dolly-parton-symbolised-a-vanishing-america/?edition",
+          "timestamp": 1787737275000,
+          "postedAt": 1787746626343
+        },
+        {
+          "headline": "Jack White Delivers Emotional 'Jolene' Cover In Honor Of Dolly Parton",
+          "url": "https://www.rollingstone.com/music/music-news/jack-white-dolly-parton-jolene-cover-live-tribute-1235615698/",
+          "timestamp": 1787728359000,
+          "postedAt": 1787746626343
+        },
+        {
+          "headline": "Dolly Parton's Flamboyant Style Remembered: 'I'm Not A Fashion Icon, I'm An Eyesore'",
+          "url": "https://www.theguardian.com/music/2026/aug/26/dolly-parton-style-fashion",
+          "timestamp": 1787727660000,
+          "postedAt": 1787746626343
+        }
+      ]
+    }
+  ],
   "columns": {
     "left": [
+      {
+        "headline": "This Hidden Glacier Holds Enough Water To Fill 600 Olympic Pools",
+        "url": "https://nautil.us/this-hidden-glacier-has-enough-water-to-fill-600-olympic-swimming-pools-1284443",
+        "timestamp": 1787742000000,
+        "photo": true,
+        "postedAt": 1787746626343,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "UK: Virgin To Run Trains Through The Channel Tunnel",
+        "url": "https://theconversation.com/virgin-to-run-trains-through-the-channel-tunnel-passengers-will-have-a-choice-290203",
+        "timestamp": 1787739224000,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "Ketamine Is 'Unambiguously' An Opioid, New Molecular Evidence Shows",
+        "url": "https://www.sciencealert.com/unambiguous-ketamine-is-an-opioid-new-molecular-evidence-shows",
+        "timestamp": 1787738461000,
+        "feature": true,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "Australia's Music Industry Bans AI Songs From Charts",
+        "url": "https://apnews.com/article/australia-ai-generated-music-charts-ban-aria-9bfb0c91166ae4405a6df1a3c4891687",
+        "timestamp": 1787676300000,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "Is The Oedipus Complex Real?",
+        "url": "https://www.britannica.com/story/is-the-oedipus-complex-real",
+        "timestamp": 1787547600000,
+        "postedAt": 1787746626343
+      },
       {
         "headline": "'Odyssey' Breaks New Box Office Record For Christopher Nolan",
         "url": "https://www.al.com/life/2026/08/odyssey-breaks-new-box-office-record-for-christopher-nolan.html",
@@ -53,7 +117,7 @@
         "timestamp": 1787585700000,
         "photo": true,
         "postedAt": 1787586844610,
-        "image": "/img/life-culture-1.jpg"
+        "image": "/img/life-culture-3.jpg"
       },
       {
         "headline": "Henry VIII's Lost Castle Linked To Dover Castle",
@@ -87,8 +151,7 @@
         "url": "https://www.sciencealert.com/scientists-reveal-the-strange-neurological-reason-your-pupils-dilate-when-youre-surprised",
         "timestamp": 1787479276000,
         "photo": true,
-        "postedAt": 1787489722286,
-        "image": "/img/life-culture-3.jpg"
+        "postedAt": 1787489722286
       },
       {
         "headline": "Powerhouse Museum Chief Defends Her Billion-Dollar Vision",
@@ -101,47 +164,28 @@
         "url": "https://www.realclearscience.com/articles/2026/08/21/very_low_birth_weight_linked_to_reduced_executive_function_as_an_adult_1201571.html",
         "timestamp": 1787244060000,
         "postedAt": 1787489722286
-      },
-      {
-        "headline": "My Favorite Airbnb: A Restored Watchtower In Sicily",
-        "url": "https://www.cntraveler.com/story/my-favorite-airbnb-a-beautifully-restored-watchtower-on-a-secret-slice-of-sicily",
-        "timestamp": 1787398200000,
-        "photo": true,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "A New Way To Explore Millions Of Artworks Online",
-        "url": "https://links.thisiscolossal.com/post/825645021126623232/discover-millions-of-artworks-from-thousands-of",
-        "timestamp": 1787396451000,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "Old Nuclear Tests Reveal Secrets About Earth's Core",
-        "url": "https://www.sciencealert.com/all-those-nuclear-tests-decades-ago-have-revealed-something-new-about-our-planets-core",
-        "timestamp": 1787385640000,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "Dolly Parton Gives Fans Health Update: 'I'm Still Healin''",
-        "url": "https://ew.com/dolly-parton-updates-fans-on-health-issues-after-missing-dollywood-event-12065829",
-        "timestamp": 1787375265000,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "Tupac Killer's Associate Gives First Interview As Trial Continues",
-        "url": "https://abc7.com/post/tupac-shakur-murder-trial-duane-keffe-davis-has-testy-exchange-prosecutor/19716318/",
-        "timestamp": 1787353314000,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "Scientists Discover A New Organ Hiding In The Skull",
-        "url": "https://www.sciencealert.com/scientists-discover-a-new-organ-hiding-in-the-skull",
-        "timestamp": 1787159294000,
-        "feature": true,
-        "postedAt": 1787402477295
       }
     ],
     "center": [
+      {
+        "headline": "Taylor Fritz's Secret To Success? League Of Legends",
+        "url": "https://www.gq.com/story/taylor-fritz-routine-excellence",
+        "timestamp": 1787745600000,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "How Ikea Turned An Xbox Controller Thumbstick Into A Design Icon",
+        "url": "https://fastcompanyme.com/co-design/ikeas-new-collab-turns-xbox-controllers-into-furniture/",
+        "timestamp": 1787738400000,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "N.J. Restaurant's 'Happy Wheelchair Birthday' Dessert Note Goes Viral",
+        "url": "https://www.nj.com/food/2026/08/nj-restaurant-writes-happy-wheelchair-birthday-on-disabled-customers-dessert-heres-what-we-know.html",
+        "timestamp": 1787698800000,
+        "photo": true,
+        "postedAt": 1787746626343
+      },
       {
         "headline": "How Much Sleep Do You Really Need? Forget The Eight-Hour Rule",
         "url": "https://theconversation.com/how-much-sleep-do-i-need-why-you-can-forget-the-eight-hour-sleep-rule-289863",
@@ -154,7 +198,7 @@
         "timestamp": 1787652060000,
         "photo": true,
         "postedAt": 1787659824068,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-2.jpg"
       },
       {
         "headline": "Why The World's Largest Megaproject Collapsed",
@@ -174,7 +218,7 @@
         "timestamp": 1787584207000,
         "photo": true,
         "postedAt": 1787586844610,
-        "image": "/img/life-culture-2.jpg"
+        "image": "/img/life-culture-4.jpg"
       },
       {
         "headline": "Reframing Homer's Sirens Through Gender, Nature And Social Order",
@@ -239,53 +283,35 @@
         "url": "https://guardian.ng/news/african-literature-autochthony-vs-commercialisation/",
         "timestamp": 1787245860000,
         "postedAt": 1787489722286
-      },
-      {
-        "headline": "The Outsized Power Of A Great Short Story",
-        "url": "https://bigthink.com/books/power-of-the-short-story/",
-        "timestamp": 1787409000000,
-        "postedAt": 1787412527382
-      },
-      {
-        "headline": "Hibernating Mice Lose Major Brain Connections, Study Finds",
-        "url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
-        "timestamp": 1787397752000,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "Rapper BigXThaPlug Arrested Ahead Of Iowa State Fair Show",
-        "url": "https://www.kcci.com/article/bigxthaplug-saturdays-iowa-state-fair-grandstand-headliner-arrested-in-texas/73500270",
-        "timestamp": 1787396820000,
-        "photo": true,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "Asheville's Food Scene And The Rise Of A Farm-To-Table Town",
-        "url": "https://www.afar.com/podcasts/unpacked/s5-e41-eating-asheville-north-caroline",
-        "timestamp": 1787387833000,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "Pig On The Loose In West Hollywood Finds A Celebrity Home",
-        "url": "https://www.thedodo.com/daily-dodo/pig-caught-running-through-streets-of-west-hollywood-ends-up-adopted-by-a-celebrity",
-        "timestamp": 1787338937000,
-        "photo": true,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "Natalie Portman At Center Of Literary Furor Over Rachel Cusk Novel",
-        "url": "https://variety.com/2026/film/features/natalie-portman-rachel-cusk-life-of-m-1236839311/",
-        "timestamp": 1787320800000,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "Taylor Sheridan Says He Needed Money For His $330 Million Ranch",
-        "url": "https://ew.com/taylor-sheridan-retirement-plans-after-yellowstone-stalled-four-sixes-ranch-12065550",
-        "timestamp": 1787296860000,
-        "postedAt": 1787402477295
       }
     ],
     "right": [
+      {
+        "headline": "SURGEONS INJECT MITOCHONDRIA FROM WOMAN'S LEG INTO HER EYES IN WORLD FIRST",
+        "url": "https://www.sciencealert.com/world-first-mitochondria-from-a-womans-leg-were-injected-into-her-eyes",
+        "timestamp": 1787659824068,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "EREV Powertrains Heading To Hyundai And Genesis Lineup In 2027",
+        "url": "https://www.caranddriver.com/news/a73527970/hyundai-genesis-erev-powertrains-2027/",
+        "timestamp": 1787740372000,
+        "photo": true,
+        "postedAt": 1787746626343,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "What The Bartender Really Thinks About Your Spritz Order",
+        "url": "https://streamlinefeed.co.ke/news/bartenders-reveal-what-they-really-think-of-your-spritz-order",
+        "timestamp": 1787739076000,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "Six Weird Ways That Animals Pee",
+        "url": "https://www.realclearscience.com/video/2026/08/26/six_weird_ways_that_animals_pee_1202440.html",
+        "timestamp": 1787667000000,
+        "postedAt": 1787746626343
+      },
       {
         "headline": "CARDIOLOGISTS ADOPT NEW UNIVERSAL DEFINITION OF HEART FAILURE",
         "url": "https://www.sciencealert.com/cardiologists-just-changed-the-universal-definition-of-heart-failure",
@@ -330,12 +356,6 @@
         "postedAt": 1787586844610
       },
       {
-        "headline": "ANCIENT SHARK GRAVEYARD FOUND IN EGYPTIAN DESERT",
-        "url": "https://www.sciencealert.com/an-ancient-shark-graveyard-has-been-found-in-the-egyptian-desert",
-        "timestamp": 1787402477295,
-        "postedAt": 1787402477295
-      },
-      {
         "headline": "Humble Weather Balloon Gets A Green Makeover",
         "url": "https://phys.org/news/2026-08-humble-balloon-green-makeover.html",
         "timestamp": 1787478003000,
@@ -347,58 +367,6 @@
         "url": "https://bikepacking.com/bikes/bikes-and-builders-of-made-2026-part-2/",
         "timestamp": 1787400063000,
         "postedAt": 1787489722286
-      },
-      {
-        "headline": "Travis Kelce And Taylor Swift Can Now Wear Matching Cartier Watches",
-        "url": "https://www.gq.com/story/watches-of-the-week-8-23-26",
-        "timestamp": 1787407232000,
-        "photo": true,
-        "postedAt": 1787412527382,
-        "image": "/img/life-culture-4.jpg"
-      },
-      {
-        "headline": "A Former Cook's Trick For Easier Weeknight Dinners",
-        "url": "https://www.seriouseats.com/food-editor-meal-prep-tips-12065789",
-        "timestamp": 1787407200000,
-        "postedAt": 1787412527382
-      },
-      {
-        "headline": "'The Five Heartbeats' Star Michael Wright Dead At 70",
-        "url": "https://www.tmz.com/2026/08/22/michael-wright-dead/",
-        "timestamp": 1787399547000,
-        "photo": true,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "Your Expired Visa Card Could Be 'Zombified' For Contactless Payments",
-        "url": "https://www.malwarebytes.com/blog/news/2026/08/zombie-card-an-expired-visa-credit-card-can-be-used-for-purchases",
-        "timestamp": 1787394600000,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "NASA Cancels Rescue Mission For Aging Swift Telescope",
-        "url": "https://apnews.com/article/swift-telescope-nasa-satellite-rescue-800bfbe5aaba5fec9aadd20bdcc138a5",
-        "timestamp": 1787389200000,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "UK: Prince Harry Says Returning To Britain Was 'Impossible'",
-        "url": "https://people.com/prince-harry-meghan-markle-moving-back-uk-with-prince-archie-princess-lilibet-exclusive-12061632",
-        "timestamp": 1787350233000,
-        "photo": true,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "Why Some People Are Mosquito Magnets",
-        "url": "https://www.realclearscience.com/video/2026/08/22/why_are_some_people_mosquito_magnets_1201847.html",
-        "timestamp": 1787327340000,
-        "postedAt": 1787402477295
-      },
-      {
-        "headline": "Oscar Wilde Still Knows Exactly Who We Are",
-        "url": "https://rvamag.com/art/theatre/review-oscar-wilde-still-knows-exactly-who-we-are.html",
-        "timestamp": 1787167241000,
-        "postedAt": 1787402477295
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787657451672,
+  "lastUpdated": 1787743952755,
   "heroSetDate": "2026-08-26",
   "hero": {
     "headline": "Dolly Parton, country music icon, dies at 80",
@@ -8,6 +8,36 @@
     "img": true
   },
   "groups": [
+    {
+      "title": "2026 MIDTERM ELECTION UPDATES",
+      "stories": [
+        {
+          "headline": "Darline Graham Wins SC GOP Nomination To Succeed Late Brother In Senate",
+          "url": "https://apnews.com/article/south-carolina-election-lindsey-graham-03899983c3702842039e99d62e16ddad",
+          "timestamp": 1787743425228,
+          "feature": true,
+          "postedAt": 1787743952755
+        },
+        {
+          "headline": "Trump-Backed Candidate Wins Oklahoma Governor Primary",
+          "url": "https://www.politico.com/news/2026/08/25/mazzei-wins-oklahoma-governor-runoff-01050323",
+          "timestamp": 1787713440000,
+          "postedAt": 1787743952755
+        },
+        {
+          "headline": "Democrat Everton Blair Wins Georgia Special Election For Late Rep. Scott's Seat",
+          "url": "https://www.nbcnews.com/politics/2026-election/everton-blair-wins-georgia-house-democrat-special-election-rcna593580",
+          "timestamp": 1787704740000,
+          "postedAt": 1787743952755
+        },
+        {
+          "headline": "Talarico Continues To Edge Paxton In Texas Senate Poll",
+          "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/08/25/560302/james-talarico-continues-to-edge-out-ken-paxton-in-texas-u-s-senate-race-new-poll-finds/",
+          "timestamp": 1787682115000,
+          "postedAt": 1787743952755
+        }
+      ]
+    },
     {
       "title": "US-CANADA TRADE WAR ESCALATES",
       "stories": [
@@ -62,49 +92,42 @@
       ]
     },
     {
-      "title": "NATIONAL DEBT TOPS $40 TRILLION",
+      "title": "IRAN WAR NEARS SIX-MONTH MARK",
       "stories": [
         {
-          "headline": "Vance Says Administration Has 'Discreet' Plan For $40 Trillion Owed",
-          "url": "https://www.msn.com/en-us/money/general/ar-AA2aFfBX",
-          "timestamp": 1787400013546,
-          "postedAt": 1787400409012
+          "headline": "Is Iran's Presumed Next Supreme Leader Mojtaba Khamenei Already Dead?",
+          "url": "https://www.wionews.com/world/mojtaba-khamenei-s-voice-heard-for-first-time-in-video-released-by-iran-amid-health-concerns-1787639500193/amp",
+          "timestamp": 1787743425228,
+          "postedAt": 1787743952755
         },
         {
-          "headline": "Dalio Urges Investors To Dump Debt As Crisis Looms",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/dalio-says-sell-bonds-buy-170414392.html",
-          "timestamp": 1787400013546,
-          "postedAt": 1787400409012
+          "headline": "Rubio Tells Allies US Shifting From Strikes To Sanctions On Iran",
+          "url": "https://www.axios.com/2026/08/25/rubio-iran-war-hormuz-oil",
+          "timestamp": 1787725961000,
+          "postedAt": 1787743952755
         },
         {
-          "headline": "Could The Bond Market Burst The Stock Bubble?",
-          "url": "https://www.marketwatch.com/story/the-bond-market-is-going-to-burst-the-stock-market-bubble-1c6f0971",
-          "timestamp": 1787400013546,
-          "postedAt": 1787400409012
-        },
-        {
-          "headline": "US National Debt Passes $40 Trillion Milestone",
-          "url": "https://www.npr.org/2026/08/22/nx-s1-5939552/bipartisan-spending-pushes-u-s-national-debt-past-the-historic-40-trillion-mark",
-          "timestamp": 1787399012000,
-          "feature": true,
-          "postedAt": 1787400409012
+          "headline": "Iran War Already Shaping Up As A November Ballot Issue",
+          "url": "https://www.politico.com/news/2026/08/25/iran-war-midterm-elections-01049015",
+          "timestamp": 1787675640000,
+          "postedAt": 1787743952755
         }
       ]
     },
     {
-      "title": "COLORADO RIVER WATER CUTS",
+      "title": "MAMDANI'S NYC POLICY FIGHTS",
       "stories": [
         {
-          "headline": "Colorado River Lower Basin Braces For Federal Water Cuts",
-          "url": "https://www.npr.org/2026/08/22/nx-s1-5940831/colorado-river-crisis-lower-basin-braces-for-massive-federal-water-cuts",
-          "timestamp": 1787399014000,
-          "postedAt": 1787400409012
+          "headline": "Grocers Warn They'll 'Go After' Mamdani's Taxpayer-Backed Stores",
+          "url": "https://www.foxnews.com/politics/grocers-issue-warning-mamdanis-taxpayer-backed-stores-going-after-them",
+          "timestamp": 1787734817000,
+          "postedAt": 1787743952755
         },
         {
-          "headline": "Drastic Water Cuts Issued For California, Nevada And Arizona",
-          "url": "https://www.cbsnews.com/news/colorado-river-drastic-water-cuts-california-nevada-arizona-drought/",
-          "timestamp": 1787371080000,
-          "postedAt": 1787400409012
+          "headline": "Mamdani's Lawyers Defend Pied-À-Terre Tax Rollout In Court",
+          "url": "https://therealdeal.com/new-york/2026/08/25/co-ops-pied-a-terre-tax-problems-may-trigger-more-lawsuits/",
+          "timestamp": 1787700555000,
+          "postedAt": 1787743952755
         }
       ]
     }
@@ -112,17 +135,45 @@
   "columns": {
     "left": [
       {
+        "headline": "Judge Deals Setback To Separate Trump Mail-In Ballot Plan",
+        "url": "https://www.reuters.com/world/us-supreme-court-lifts-judicial-hurdle-trumps-mail-in-ballot-curbs-2026-08-24/",
+        "timestamp": 1787718730000,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "American Bar Association Says It's 'Confident' It Can Fend Off Trump Accreditation Fight",
+        "url": "https://www.theblaze.com/news/woke-american-bar-association-confident-it-will-fend-off-trumps-fight-to-strip-it-of-law-school-accreditation-monopoly",
+        "timestamp": 1787742466000,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "Family Demands Answers After College Student Fatally Shot By Police At Wrong Door",
+        "url": "https://www.cbsnews.com/news/glenn-bubba-pysher-shooting-upper-pottsgrove-pennsylvania/",
+        "timestamp": 1787712183000,
+        "photo": true,
+        "postedAt": 1787743952755,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Montana Man Kills 8 Relatives, Including 4 Kids, At Sunday Dinner",
+        "url": "https://apnews.com/article/billings-montana-family-killed-house-burned-e977fa5e9cd635eea4e111ad8b2c79ff",
+        "timestamp": 1787710740000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "Inmates Convicted Of Child And Dog Rape Sue Washington State Over Denied Gender Care",
+        "url": "https://notthebee.com/article/male-inmates-sue-washington-for-denying-them-gender-care-they-are-in-prison-for-two-child-rapes-three-dog-rapes-and-one-baby-murder/",
+        "timestamp": 1787676334000,
+        "postedAt": 1787743952755
+      },
+      {
         "headline": "CIA Director Ratcliffe On USAF Cargo Jet Flight To Moscow",
         "url": "https://www.zerohedge.com/geopolitical/us-air-force-c-17-makes-mysterious-visit-moscow",
         "timestamp": 1787616000000,
         "postedAt": 1787616000000,
         "feature": true
-      },
-      {
-        "headline": "Hasan Piker Mocks Murdered Charlie Kirk To A Cheering Crowd",
-        "url": "https://jonathanturley.org/2026/08/23/we-are-charlie-kirk-hasan-piker-mocks-the-murdered-charlie-kirk-to-cheering-crowd/",
-        "timestamp": 1787443200000,
-        "postedAt": 1787443200000
       },
       {
         "headline": "South Carolina Senate Runoff Set: Graham Vs. Norman",
@@ -149,7 +200,7 @@
         "timestamp": 1787616000000,
         "postedAt": 1787616000000,
         "photo": true,
-        "image": "/img/main-1.jpg"
+        "image": "/img/main-3.jpg"
       },
       {
         "headline": "Illegal Immigrants Deported To Haiti On First Flight After Trump Ends TPS",
@@ -177,36 +228,10 @@
         "postedAt": 1787584087122
       },
       {
-        "headline": "Jake Lang's Quran Burning In Dearborn Sparks Clashes With Muslim Residents",
-        "url": "https://www.foxnews.com/us/anti-islam-protesters-muslims-clash-dearborn-michigan-after-man-attempts-burn-quran",
-        "timestamp": 1787443200000,
-        "postedAt": 1787443200000
-      },
-      {
-        "headline": "Jake Lang Arrested In Minneapolis For Rioting Outside City Hall",
-        "url": "https://www.mprnews.org/story/2026/08/22/right-wing-influencer-jake-lang-arrested-in-minneapolis-for-suspicion-of-rioting",
-        "timestamp": 1787443200000,
-        "postedAt": 1787443200000,
-        "photo": true
-      },
-      {
-        "headline": "More Died From Heat In France This Summer Than In All US Mass Shootings In History",
-        "url": "https://notthebee.com/article/report-more-people-have-died-from-heat-in-france-this-summer-than-all-us-mass-shootings-in-history",
-        "timestamp": 1787443200000,
-        "postedAt": 1787443200000,
-        "photo": true
-      },
-      {
         "headline": "Michigan Lawmaker Says Viral Voice Clip Accusing Him Is Fake",
         "url": "https://archive.is/4AZHq",
         "timestamp": 1787496689747,
         "postedAt": 1787497046450
-      },
-      {
-        "headline": "CHIEF JUSTICE ROBERTS ALLOWS TRUMP'S $400M BALLROOM TO PROCEED",
-        "url": "https://www.pbs.org/newshour/politics/supreme-court-chief-justice-allows-work-on-trumps-400m-white-house-ballroom-to-continue-for-now",
-        "timestamp": 1787400409012,
-        "postedAt": 1787400409012
       },
       {
         "headline": "Poll: Only Three States Still Back Trump",
@@ -234,34 +259,23 @@
         "timestamp": 1787435520000,
         "photo": true,
         "postedAt": 1787487018976
-      },
-      {
-        "headline": "Pentagon Fires Editor-In-Chief Of Stars And Stripes",
-        "url": "https://www.pbs.org/newshour/politics/stars-and-stripes-editor-reporter-fired-for-insubordination-after-doing-cbs-interview",
-        "timestamp": 1787410100294,
-        "postedAt": 1787410469823
-      },
-      {
-        "headline": "Plane Crashed On Second Landing Attempt In Alaska Fog, Killing All 8",
-        "url": "https://apnews.com/article/alaska-charter-plane-crash-army-cd21190cad6b7246d903677685f1e928",
-        "timestamp": 1787354760000,
-        "postedAt": 1787400409012
-      },
-      {
-        "headline": "US Citizen Charged With Felony For Deleting Phone Data At Airport",
-        "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html?unlocked_article_code=1.7FA.xXGp.YprutzwuBHdZ&smid=url-share",
-        "timestamp": 1787400013548,
-        "postedAt": 1787400409012
-      },
-      {
-        "headline": "Indiana Communities Enter 10th Day Without Power",
-        "url": "https://www.wandtv.com/news/national/survival-mode-indiana-residents-endure-a-ninth-day-without-power/article_86fd05ac-b3b5-5a77-9a0d-a1bba79a9412.html",
-        "timestamp": 1787358709000,
-        "photo": true,
-        "postedAt": 1787400409012
       }
     ],
     "center": [
+      {
+        "headline": "Billionaire NFL Owner Arrested At Trailer Park In Prostitution Sting",
+        "url": "https://www.theblaze.com/news/nfl-owner-prostitution-arrest-trailer",
+        "timestamp": 1787743133000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "Texas Drag Show Restrictions Ruled Unconstitutional Again",
+        "url": "https://www.texastribune.org/2026/08/25/texas-drag-show-ban-law-unconstitutional-second-ruling/",
+        "timestamp": 1787692706000,
+        "postedAt": 1787743952755
+      },
       {
         "headline": "Montana Shooting, House Fire Leave Multiple Dead, Including Children",
         "url": "https://www.nbcnews.com/news/us-news/multiple-dead-children-billings-montana-shooting-fire-rcna594239",
@@ -269,7 +283,7 @@
         "feature": true,
         "photo": true,
         "postedAt": 1787657451672,
-        "image": "/img/main-0.jpg"
+        "image": "/img/main-2.jpg"
       },
       {
         "headline": "Firefighters Gain Ground On Nevada Wildfire That Destroyed 30 Homes",
@@ -309,7 +323,7 @@
         "feature": true,
         "photo": true,
         "postedAt": 1787584087122,
-        "image": "/img/main-2.jpg"
+        "image": "/img/main-4.jpg"
       },
       {
         "headline": "Farmers Oppose Trump's Plan To Import Beef",
@@ -360,28 +374,29 @@
         "url": "https://www.cbsnews.com/news/army-secretary-dan-driscoll-considering-stepping-down/",
         "timestamp": 1787455027000,
         "postedAt": 1787487018976
-      },
-      {
-        "headline": "Lindsay Clancy Trial: What Happened This Week In Court",
-        "url": "https://www.theguardian.com/us-news/2026/aug/22/lindsay-clancy-trial-what-happened-this-week",
-        "timestamp": 1787392860000,
-        "postedAt": 1787400409012
-      },
-      {
-        "headline": "Postal Service Finalizes Plan To Restrict Mail Ballots",
-        "url": "https://www.dailykos.com/stories/2026/8/21/800087871/community/postal-service-strikes-blow-against-democracy/",
-        "timestamp": 1787365889000,
-        "postedAt": 1787400409012
-      },
-      {
-        "headline": "Missing NYC Grandmother Found Dead Near Las Vegas Airport",
-        "url": "https://www.nbcnews.com/news/us-news/missing-new-york-city-grandmother-found-dead-las-vegas-rcna593833",
-        "timestamp": 1787357520000,
-        "photo": true,
-        "postedAt": 1787400409012
       }
     ],
     "right": [
+      {
+        "headline": "Democrats Obsess Over Hasan Piker While Giving Trump, Rogers A Pass",
+        "url": "https://zeteo.com/p/dems-obsess-over-hasan-piker-give",
+        "timestamp": 1787742594000,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "Trump Admin Pauses Visa Appointments Worldwide Amid Heightened Screening",
+        "url": "https://www.foxnews.com/politics/trump-immigrant-visa-interview-pause",
+        "timestamp": 1787730117000,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "Kennedy Center Finances Deteriorated Sharply After Trump Name Change",
+        "url": "https://foxchattanooga.com/news/nation-world/kennedy-center-projects-23-million-deficit-after-trump-name-change-documents-show",
+        "timestamp": 1787700891000,
+        "photo": true,
+        "postedAt": 1787743952755,
+        "image": "/img/main-1.jpg"
+      },
       {
         "headline": "IRAN'S CURRENCY CRASHES TO RECORD LOW AS U.S. READIES NEW SANCTIONS",
         "url": "https://apnews.com/article/iran-rial-currency-bessent-trade-august-24-2026-e367634d8853c8fa4a341132cd577f31",
@@ -464,41 +479,20 @@
         "timestamp": 1787482825000,
         "feature": true,
         "photo": true,
-        "postedAt": 1787487018976,
-        "image": "/img/main-3.jpg"
+        "postedAt": 1787487018976
       },
       {
         "headline": "UK: Prince William's Royal Mentor Reveals Mother's Secret MI5 Past",
         "url": "https://www.foxnews.com/entertainment/prince-william-harry-former-royal-mentor-reveals-mother-secret-mi5-past-decades-silence",
         "timestamp": 1787482814000,
         "photo": true,
-        "postedAt": 1787487018976,
-        "image": "/img/main-4.jpg"
+        "postedAt": 1787487018976
       },
       {
         "headline": "15-Year-Old Arrested In Deadly Shooting At High School Football Game",
         "url": "https://bakersfieldnow.com/news/local/15-year-old-arrested-in-deadly-shooting-at-independence-high-football-game-crime-safety-teen-kern-county-bakersfield",
         "timestamp": 1787466597000,
         "postedAt": 1787487018976
-      },
-      {
-        "headline": "Army Secretary To Step Down Amid Tension With Hegseth",
-        "url": "https://www.military.com/army-secretary-driscoll-step-down-this-year-amid-hegseth-friction-report",
-        "timestamp": 1787410100294,
-        "feature": true,
-        "postedAt": 1787410469823
-      },
-      {
-        "headline": "Trump Rages At 'Totally Irrelevant' Tucker Carlson",
-        "url": "https://www.mediaite.com/politics/trump/trump-rages-at-totally-irrelevant-tucker-carlson-after-jd-vance-attended-event-with-carlson-funder/",
-        "timestamp": 1787410100294,
-        "postedAt": 1787410469823
-      },
-      {
-        "headline": "Trump Allows Tariff-Free Beef Imports, Drawing Rancher Backlash",
-        "url": "https://www.foxbusiness.com/politics/trump-allows-300000-metric-tons-tariff-free-beef-imports-bid-cut-prices-drawing-rancher-backlash",
-        "timestamp": 1787360040000,
-        "postedAt": 1787400409012
       },
       {
         "headline": "Trump Says Communities Opposing Data Centers Are 'Making A Mistake'",
@@ -509,12 +503,12 @@
     ]
   },
   "balance": {
-    "left": 90,
-    "right": 45,
-    "independent": 3,
+    "left": 86,
+    "right": 47,
+    "independent": 2,
     "days": 30,
-    "total": 135,
-    "pctLeft": 67,
-    "pctRight": 33
+    "total": 133,
+    "pctLeft": 65,
+    "pctRight": 35
   }
 }

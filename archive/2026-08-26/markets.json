@@ -1,32 +1,76 @@
 {
-  "lastUpdated": 1787658479783,
-  "heroSetDate": "2026-08-25",
+  "lastUpdated": 1787745248492,
+  "heroSetDate": "2026-08-26",
   "hero": {
-    "headline": "DRUCKENMILLER WARNS BESSENT HE 'WILL LOSE' BOND MARKET FIGHT",
-    "url": "https://www.theguardian.com/business/2026/aug/25/us-treasury-scott-bessent-bond-buying-donald-trump-stanley-druckenmiller",
+    "headline": "NVIDIA'S DEPENDENCE ON HYPERSCALERS FACES BIG TEST IN EARNINGS REPORT",
+    "url": "https://www.cnbc.com/2026/08/25/nvidias-dependence-on-hyperscalers-faces-big-test-in-earnings-report.html",
     "sublinks": [
       {
-        "text": "Bond Market Anxiety Raises Stakes For Fed Chair Warsh's Jackson Hole Debut",
-        "url": "https://www.reuters.com/business/bond-market-anxiety-raises-stakes-warshs-debut-jackson-hole-speech-2026-08-24/"
+        "text": "Nvidia stock enters the report on a 7-day losing streak",
+        "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-is-on-a-7-day-losing-streak-ahead-of-its-big-earnings-report-121527754.html"
       },
       {
-        "text": "Treasury's Bond Moves Amount To 'Soft-Form Financial Repression,' Analysts Say",
-        "url": "https://fortune.com/2026/08/23/treasury-bond-buyback-dollar-yen-currency-markets-financial-repression-us-debt-costs/"
+        "text": "Options market is pricing a $280 billion swing in Nvidia shares",
+        "url": "https://www.reuters.com/business/nvidia-shares-set-280-billion-price-swing-after-earnings-options-show-2026-08-25/"
+      },
+      {
+        "text": "What Wall Street's top CIOs are watching for in the numbers",
+        "url": "https://www.foxbusiness.com/video/6404037074112"
       }
     ],
-    "postedAt": 1787658479783,
+    "liveUpdates": [
+      {
+        "source": "WSJ",
+        "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-today-08-26-2026"
+      }
+    ],
+    "postedAt": 1787745248492,
     "img": true
   },
   "groups": [
     {
-      "title": "NVIDIA EARNINGS LOOM AS CHIP SELLOFF RATTLES AI TRADE",
+      "title": "IRAN AND OMAN MOVE TO REOPEN HORMUZ AS OIL SLIDES",
       "stories": [
         {
-          "headline": "AI Trade Under Pressure As Nvidia's Earnings Test The Sector",
-          "url": "https://www.investopedia.com/market-update-the-ai-trade-is-under-pressure-to-start-the-week-nvidia-results-will-test-the-sector-nvda-12066224",
-          "timestamp": 1787582727000,
-          "postedAt": 1787585601797
+          "headline": "Satellite Images Show Gulf Producers Ramping Up As Hormuz Talks Advance",
+          "url": "https://www.zerohedge.com/energy/oil-dumps-iran-oman-push-reopen-hormuz-satellite-image-show-gulf-producers-ramping",
+          "timestamp": 1787741700000,
+          "postedAt": 1787745248492
         },
+        {
+          "headline": "Oil Prices Extend Slide As Iran And Oman Eye Temporary Hormuz Deal",
+          "url": "https://www.marketwatch.com/story/oil-prices-extend-slide-as-iran-and-oman-eye-temporary-hormuz-deal-a86a86bf",
+          "timestamp": 1787734440000,
+          "postedAt": 1787745248492
+        }
+      ]
+    },
+    {
+      "title": "BESSENT'S BOND-MARKET SHOWDOWN WITH THE FED",
+      "stories": [
+        {
+          "headline": "Bessent Goes On A Global 'Yield Trip' To Sell Treasurys Abroad",
+          "url": "https://www.cnbc.com/2026/08/24/prediction-market-traders-skeptical-bessent-will-send-yields-lower.html",
+          "timestamp": 1787739021000,
+          "postedAt": 1787745248492
+        },
+        {
+          "headline": "Bessent's Bond Intervention Puts Treasury On Collision Course With Fed",
+          "url": "https://www.tradingview.com/news/cryptobriefing:57eeb9b0f094b:0-us-treasury-s-bond-buyback-push-puts-bessent-on-a-collision-course-with-the-fed/",
+          "timestamp": 1787736679000,
+          "postedAt": 1787745248492
+        },
+        {
+          "headline": "Why Bessent Should Fear The Bond Market, Insiders Warn",
+          "url": "https://www.politico.com/news/2026/08/26/bessent-bonds-us-financial-market-01049797",
+          "timestamp": 1787734860000,
+          "postedAt": 1787745248492
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA EARNINGS LOOM AS CHIP SELLOFF RATTLES AI TRADE",
+      "stories": [
         {
           "headline": "Key Events This Week: Jackson Hole, Nvidia Earnings And Core PCE",
           "url": "https://www.zerohedge.com/economics/key-events-week-jackson-hole-nvidia-earnings-and-core-pce",
@@ -88,45 +132,41 @@
           "postedAt": 1787658479783
         },
         {
-          "headline": "SEC Proposes New 'Regulation Crypto Assets' Framework",
-          "url": "https://www.bakerdonelson.com/sec-proposes-regulation-crypto-assets",
-          "timestamp": 1787341710000,
-          "postedAt": 1787401493426
-        },
-        {
-          "headline": "Washington Goes All-In On Crypto: Clarity Act, SEC Rules, CFTC Warnings",
-          "url": "https://decrypt.co/376204/washington-crypto-trump-clarity-sec-rules-cftc-warnings",
-          "timestamp": 1787335616000,
-          "postedAt": 1787401493426
-        },
-        {
           "headline": "VW CEO Says Germany Must Shoulder Half Of Global Job Cuts",
           "url": "https://www.marketscreener.com/news/vw-ceo-says-half-of-global-job-cuts-must-come-from-germany-ce7858d8db8df024",
           "timestamp": 1787653516000,
           "postedAt": 1787658479783
         }
       ]
-    },
-    {
-      "title": "CHINA'S ROBOT GAMES SHOWCASE AI AMBITIONS",
-      "stories": [
-        {
-          "headline": "China's Humanoid Robot Games Go Mainstream",
-          "url": "https://startupfortune.com/beijing-opens-its-second-world-humanoid-robot-games-with-2056-machines-competing/",
-          "timestamp": 1787396456000,
-          "postedAt": 1787401493426
-        },
-        {
-          "headline": "Chinese Robot Beats Usain Bolt's 100-Meter World Record In Test Run",
-          "url": "https://www.reuters.com/sports/chinese-humanoid-robot-lightning-beats-human-100m-world-record-state-media-says-2026-08-22/",
-          "timestamp": 1787395220000,
-          "postedAt": 1787401493426
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Buffett's Successor Greg Abel Has 30% Of Berkshire's Portfolio In Two AI Stocks",
+        "url": "https://www.fool.com/investing/2026/08/26/warren-buffett-abel-30-brka-portfolio-2-ai-stocks/",
+        "timestamp": 1787736933000,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "SoftBank Mulls Up To $20 Billion Bond Sale For OpenAI Financing",
+        "url": "https://www.reuters.com/world/asia-pacific/softbank-mulls-up-20-billion-bond-sale-openai-financing-bloomberg-news-reports-2026-08-26/",
+        "timestamp": 1787728252000,
+        "feature": true,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "Deloitte Agrees To Pay $21.5 Million To Settle DOJ DEI Probe",
+        "url": "https://www.foxbusiness.com/politics/deloitte-agrees-pay-21-5-million-settle-doj-probe-dei-practices",
+        "timestamp": 1787719800000,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "Citadel Securities Reverses Its Bearish Call On Long Bonds",
+        "url": "https://cryptobriefing.com/citadel-securities-flight-bullish-us-bonds/",
+        "timestamp": 1787704320000,
+        "postedAt": 1787745248492
+      },
       {
         "headline": "Private Equity's $860 Billion Zombie Company Problem",
         "url": "https://fortune.com/2026/08/25/private-equitys-860-billion-zombie-company-problem/",
@@ -204,28 +244,35 @@
         "photo": true,
         "postedAt": 1787488508141,
         "image": "/img/markets-4.jpg"
-      },
-      {
-        "headline": "GitLab's New AI Security Suite Could Reshape Growth Outlook",
-        "url": "https://finance.yahoo.com/technology/ai/articles/gitlabs-expanded-single-tenant-ai-120817888.html",
-        "timestamp": 1787400497000,
-        "postedAt": 1787411492489
-      },
-      {
-        "headline": "US Debt Approaches $40 Trillion — Who Pays For It?",
-        "url": "https://www.euronews.com/business/2026/08/22/five-charts-explaining-americas-40-trillion-debt",
-        "timestamp": 1787374816000,
-        "postedAt": 1787401493426
-      },
-      {
-        "headline": "Tesla's Door Handles Lead To Its Biggest Recall Yet",
-        "url": "https://qz.com/tesla-china-ev-recall-hidden-door-handles-082126",
-        "timestamp": 1787353800000,
-        "feature": true,
-        "postedAt": 1787401493426
       }
     ],
     "center": [
+      {
+        "headline": "China's Moonshot In Talks With Microsoft, Amazon, Google Over K3 Revenue Sharing",
+        "url": "https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/",
+        "timestamp": 1787732085000,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "China Orders Huge Recall Of Tesla And Other Cars Over Safety Rules",
+        "url": "https://www.reuters.com/business/autos-transportation/china-flexes-its-auto-safety-chops-with-huge-recall-tesla-other-cars-2026-08-26/",
+        "timestamp": 1787712120000,
+        "photo": true,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "Meta, States Have Discussed Settling Teen Social Media Case",
+        "url": "https://www.reuters.com/legal/litigation/meta-us-states-have-discussed-settling-teen-social-media-harm-case-bloomberg-2026-08-26/",
+        "timestamp": 1787708220000,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "Musk's SpaceX To Build $100 Billion Launch Facility In Louisiana",
+        "url": "https://www.bbc.com/news/articles/cq5xel4v642o",
+        "timestamp": 1787707927000,
+        "photo": true,
+        "postedAt": 1787745248492
+      },
       {
         "headline": "United Airlines Adds 2027 Routes Spanning Sardinia To Okinawa",
         "url": "https://www.cnbc.com/2026/08/25/united-airlines-2027-international-routes.html",
@@ -310,47 +357,35 @@
         "url": "https://www.cnbc.com/2026/08/22/meet-yvonne-gonzalez-rogers-judge-taking-on-meta.html",
         "timestamp": 1787400001000,
         "postedAt": 1787488508141
-      },
-      {
-        "headline": "Micron CEO Gives Investors $10 Billion Reason To Listen",
-        "url": "https://www.thestreet.com/investing/stocks/micron-10-billion-research-bet",
-        "timestamp": 1787339220000,
-        "postedAt": 1787401493426
-      },
-      {
-        "headline": "Meta's Alleged 'Hook, Hold, Harvest' Strategy Laid Out In Antitrust Trial",
-        "url": "https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy",
-        "timestamp": 1787386080000,
-        "photo": true,
-        "postedAt": 1787401493426
-      },
-      {
-        "headline": "AI Spending Boom Is Outrunning Wall Street Estimates",
-        "url": "https://www.moomoo.com/th/news/post/75095764/the-ai-spending-boom-is-outrunning-wall-street-estimates-barronscom",
-        "timestamp": 1787374800000,
-        "postedAt": 1787401493426
-      },
-      {
-        "headline": "Paramount, State AGs Set Settlement Talks; Newsom Weighs In On Merger",
-        "url": "https://nypost.com/2026/08/24/business/california-calls-off-paramount-settlement-meeting-as-media-giant-eyes-tennessee-for-new-headquarters/",
-        "timestamp": 1787360340000,
-        "postedAt": 1787401493426
-      },
-      {
-        "headline": "Former Abercrombie & Fitch CEO Ruled Competent To Face Sex Trafficking Trial",
-        "url": "https://www.nbcnews.com/news/us-news/former-abercrombie-fitch-ceo-michael-jeffries-competent-face-sex-traff-rcna593713",
-        "timestamp": 1787340744000,
-        "photo": true,
-        "postedAt": 1787401493426
-      },
-      {
-        "headline": "Dow, S&P 500, Nasdaq Rebound But Post Weekly Loss As Yields Rattle Stocks",
-        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-long-dated-treasury-yields-flash-us-manufacturing-pmi",
-        "timestamp": 1787340300000,
-        "postedAt": 1787401493426
       }
     ],
     "right": [
+      {
+        "headline": "Shopping Malls Charge For Prime Parking, And It's Not Going Well",
+        "url": "https://www.usatoday.com/story/money/retail/2026/08/26/why-shopping-malls-are-charging-you-for-premium-parking/91450581007/",
+        "timestamp": 1787741400000,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "Soaring Summer Power Bills Spark Protests -- And Even Disconnections",
+        "url": "https://www.npr.org/2026/08/26/nx-s1-5943289/electric-bills-summer-heat-oklahoma-power",
+        "timestamp": 1787734860000,
+        "photo": true,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "Target Faces Renewed Backlash Over Halloween Costume With 'Minstrel Show' Features",
+        "url": "https://www.npr.org/2026/08/26/g-s1-140195/target-halloween-costume-backlash",
+        "timestamp": 1787723158000,
+        "photo": true,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "California Attorney General Ramps Up Criticism Of Paramount",
+        "url": "https://www.editorandpublisher.com/stories/california-attorney-general-ramps-up-criticism-of-paramount,263239",
+        "timestamp": 1787689860000,
+        "postedAt": 1787745248492
+      },
       {
         "headline": "TRUMP THREATENS TO DOUBLE TARIFFS ON CANADIAN AUTOS AS TRADE TALKS COLLAPSE",
         "url": "https://www.reuters.com/business/autos-transportation/trump-says-he-will-raise-tariffs-all-cars-trucks-50-amid-canada-trade-spat-2026-08-24/",
@@ -422,22 +457,10 @@
         "postedAt": 1787488508141
       },
       {
-        "headline": "Iran Grants Iraqi Oil Tankers Passage Through Hormuz Strait",
-        "url": "https://www.reuters.com/business/energy/iran-grants-permission-number-iraqi-oil-tankers-pass-through-hormuz-2026-08-22/",
-        "timestamp": 1787401289000,
-        "postedAt": 1787411492489
-      },
-      {
-        "headline": "Borrowing Costs Rise Again As Rate-Easing Push Proves Short-Lived",
-        "url": "https://www.bbc.com/news/articles/cvg92p3ez17o",
-        "timestamp": 1787330709000,
-        "postedAt": 1787401493426
-      },
-      {
-        "headline": "Disney To Cut Medical Insurance For Employee Spouses With Other Coverage",
-        "url": "https://wdwnt.com/2026/08/disney-reportedly-no-longer-covering-benefits-for-insured-spouses-of-employees/",
-        "timestamp": 1787349120000,
-        "postedAt": 1787401493426
+        "headline": "Bill Gates Calls For 'Human Reserved' Jobs To Protect Workers From AI",
+        "url": "https://www.theguardian.com/technology/2026/aug/26/bill-gates-human-reserved-jobs-ai-takeover",
+        "timestamp": 1787727661000,
+        "postedAt": 1787745248492
       }
     ]
   },
@@ -476,26 +499,26 @@
     },
     {
       "name": "Gold",
-      "value": "$4,707.40",
-      "change": "+12.90",
-      "changePct": "+0.27%",
-      "up": true,
+      "value": "$4,674.70",
+      "change": "-19.80",
+      "changePct": "-0.42%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$80.19",
-      "change": "-2.17",
-      "changePct": "-2.63%",
+      "value": "$80.40",
+      "change": "-1.96",
+      "changePct": "-2.38%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$79,049.99",
-      "change": "+521.58",
-      "changePct": "+0.66%",
-      "up": true,
+      "value": "$78,497.88",
+      "change": "-30.53",
+      "changePct": "-0.04%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     }
   ]
