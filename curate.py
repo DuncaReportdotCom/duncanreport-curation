@@ -647,6 +647,14 @@ DOMAINS = json.loads(r"""{
   "nypost.com",
   "washingtonexaminer.com",
   "washingtontimes.com",
+  "freebeacon.com",
+  "theblaze.com",
+  "justthenews.com",
+  "dailysignal.com",
+  "townhall.com",
+  "thepostmillennial.com",
+  "thecentersquare.com",
+  "realclearinvestigations.com",
   "wsj.com",
   "newsnationnow.com",
   "notthebee.com",
@@ -706,7 +714,18 @@ DOMAINS = json.loads(r"""{
   "washingtonexaminer.com",
   "dailywire.com",
   "newsmax.com",
+  "nationalreview.com",
+  "thefederalist.com",
+  "freebeacon.com",
+  "theblaze.com",
+  "justthenews.com",
+  "dailysignal.com",
+  "townhall.com",
+  "thepostmillennial.com",
+  "thecentersquare.com",
   "realclearpolitics.com",
+  "realclearinvestigations.com",
+  "newsnationnow.com",
   "heathercoxrichardson.substack.com",
   "thefp.com",
   "slowboring.com",
@@ -1987,7 +2006,7 @@ def topic_headlines(section, cap=26):
     return out
 
 OPINION_DOMAINS = ["nationalreview.com", "thefederalist.com", "spectator.org", "reason.com",
-    "thedispatch.com", "dailywire.com", "freebeacon.com", "city-journal.org", "washingtonexaminer.com",
+    "thedispatch.com", "freebeacon.com", "city-journal.org", "washingtonexaminer.com",
     "thenation.com", "newrepublic.com", "motherjones.com", "vox.com", "slate.com", "jacobin.com",
     "theatlantic.com", "prospect.org", "currentaffairs.org",
     "quillette.com", "unherd.com", "spiked-online.com"]
@@ -2642,6 +2661,10 @@ def curate_live(section):
             "lean, look to match it with a comparable story from the other lean; if the candidate pool is "
             "lopsided, give the marginal slots to the UNDER-represented side. Never let one lean dominate "
             "the page.\n"
+            "- SELF-CORRECT AND HOLD: do not settle for 'close enough' in one direction. If the page is "
+            "drifting away from 50/50, deliberately OVER-WEIGHT the under-represented side on this cycle "
+            "until it is back to even, then hold it there day after day. 50/50 is the target every single "
+            "day, not a long-run average - a run of left-heavy or right-heavy days is a failure to fix now.\n"
             % strict)
     try:
         live_hero = (live_current(section) or {}).get("hero") or {}
@@ -4611,7 +4634,11 @@ def apply_manual_picks(section, data):
             seen = seen or any(s.get("url") == url for s in (g.get("stories") or []))
         if seen:
             continue
-        item = {"headline": p["headline"], "url": url, "timestamp": added, "postedAt": added}
+        # Rank the pick near the TOP on its add-day (postedAt = end of that day, so it sits above the
+        # day's news), then let it sink naturally as newer stories arrive on following days. `timestamp`
+        # stays at the add-date, which drives the 3-day expiry so it never lingers for many days.
+        item = {"headline": p["headline"], "url": url, "timestamp": added,
+                "postedAt": added + 86400000 - 1}
         if p.get("photo"):
             item["photo"] = True      # apply_column_images self-hosts this story's og:image
         if p.get("feature"):
@@ -4741,6 +4768,7 @@ LEAN_MAP = {
           "townhall.com", "theblaze.com", "justthenews.com", "notthebee.com", "babylonbee.com",
           "westernjournal.com", "wnd.com", "zerohedge.com", "pjmedia.com", "hotair.com",
           "redstate.com", "thepostmillennial.com", "americanthinker.com", "dailymail.co.uk",
+          "dailysignal.com", "thecentersquare.com", "theblaze.com", "justthenews.com", "townhall.com",
           "nypost.com", "wsj.com"},
     "ind": {"greenwald.substack.com", "racket.news", "taibbi.substack.com", "natesilver.net",
             "silverbulletin.com", "thefp.com", "bariweiss.substack.com", "andrewsullivan.substack.com",
@@ -5081,9 +5109,9 @@ def build():
     _today = datetime.date.today().isoformat()
     _pages = [("/", "daily", "1.0"), ("/sports", "daily", "0.8"), ("/world", "daily", "0.8"),
               ("/markets", "daily", "0.8"), ("/politics", "daily", "0.8"), ("/life-culture", "daily", "0.8"),
-              ("/archive", "daily", "0.4"), ("/about", "monthly", "0.3"), ("/contact", "monthly", "0.3"),
-              ("/privacy", "monthly", "0.2"), ("/terms", "monthly", "0.2"), ("/how-we-curate", "monthly", "0.4"),
-              ("/grants", "monthly", "0.5")]
+              ("/archive.html", "daily", "0.4"), ("/about.html", "monthly", "0.3"), ("/contact.html", "monthly", "0.3"),
+              ("/privacy.html", "monthly", "0.2"), ("/terms.html", "monthly", "0.2"), ("/how-we-curate.html", "monthly", "0.4"),
+              ("/grants.html", "monthly", "0.5")]
     _sm = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for _loc, _cf, _pri in _pages:
