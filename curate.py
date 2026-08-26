@@ -2626,6 +2626,11 @@ def curate_live(section):
             "Use them: PROMOTE high-volume and rising clusters into titled narrative panels "
             "(group their candidate ids under one panel), and give a FADING cluster at most one "
             "wrap-up link or drop it - do not keep featuring a story whose coverage has collapsed. "
+            "VERIFY BEFORE GROUPING: this clustering is AUTOMATED and sometimes lumps UNRELATED stories "
+            "together (for example a state Senate candidate mixed into a 'Canada trade war' cluster). "
+            "Before building a panel from a cluster, confirm EVERY story in it is about the SAME subject "
+            "as the panel title, and MOVE OUT any that are not - a panel must NEVER contain an off-topic "
+            "story (see SUBJECT PURITY). "
             "A high outlet count across the balanced source set is a strong signal, not an order: "
             "still honor BREADTH and reserve the ODDITY slots regardless of volume.\n"
             % "\n".join(lines))
