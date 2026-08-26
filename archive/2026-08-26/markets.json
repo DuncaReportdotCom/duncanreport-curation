@@ -467,57 +467,57 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,677.28",
-      "change": "+24.42",
-      "changePct": "+0.32%",
-      "up": true,
+      "value": "7,667.79",
+      "change": "-9.49",
+      "changePct": "-0.12%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "53,577.40",
-      "change": "+160.24",
-      "changePct": "+0.30%",
-      "up": true,
+      "value": "53,436.47",
+      "change": "-140.93",
+      "changePct": "-0.26%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,151.30",
-      "change": "+171.11",
-      "changePct": "+0.66%",
-      "up": true,
+      "value": "26,056.98",
+      "change": "-94.32",
+      "changePct": "-0.36%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
-      "value": "4.65%",
-      "change": "+0.01",
-      "changePct": "+0.30%",
+      "value": "4.67%",
+      "change": "+0.03",
+      "changePct": "+0.63%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Gold",
-      "value": "$4,676.50",
-      "change": "-18.00",
-      "changePct": "-0.38%",
+      "value": "$4,655.00",
+      "change": "-39.50",
+      "changePct": "-0.84%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$80.27",
-      "change": "-2.09",
-      "changePct": "-2.54%",
-      "up": false,
+      "value": "$82.90",
+      "change": "+0.54",
+      "changePct": "+0.66%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$78,352.13",
-      "change": "-176.28",
-      "changePct": "-0.22%",
+      "value": "$78,046.19",
+      "change": "-482.22",
+      "changePct": "-0.61%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     }

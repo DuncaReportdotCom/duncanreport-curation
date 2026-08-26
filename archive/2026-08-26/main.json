@@ -135,6 +135,13 @@
   "columns": {
     "left": [
       {
+        "headline": "Tim Curry dead at 80: Reports",
+        "url": "https://www.newsnationnow.com/entertainment-news/tim-curry-dead-rocky-horror/",
+        "timestamp": 1787702400000,
+        "postedAt": 1787788799999,
+        "feature": true
+      },
+      {
         "headline": "Judge Deals Setback To Separate Trump Mail-In Ballot Plan",
         "url": "https://www.reuters.com/world/us-supreme-court-lifts-judicial-hurdle-trumps-mail-in-ballot-curbs-2026-08-24/",
         "timestamp": 1787718730000,
@@ -199,8 +206,7 @@
         "url": "https://www.breitbart.com/national-security/2026/08/24/report-iran-puts-10-million-bounty-on-the-head-of-barron-trump/",
         "timestamp": 1787616000000,
         "postedAt": 1787616000000,
-        "photo": true,
-        "image": "/img/main-3.jpg"
+        "photo": true
       },
       {
         "headline": "Illegal Immigrants Deported To Haiti On First Flight After Trump Ends TPS",
@@ -323,7 +329,7 @@
         "feature": true,
         "photo": true,
         "postedAt": 1787584087122,
-        "image": "/img/main-4.jpg"
+        "image": "/img/main-3.jpg"
       },
       {
         "headline": "Farmers Oppose Trump's Plan To Import Beef",
@@ -479,7 +485,8 @@
         "timestamp": 1787482825000,
         "feature": true,
         "photo": true,
-        "postedAt": 1787487018976
+        "postedAt": 1787487018976,
+        "image": "/img/main-4.jpg"
       },
       {
         "headline": "UK: Prince William's Royal Mentor Reveals Mother's Secret MI5 Past",
