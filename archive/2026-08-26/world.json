@@ -1,0 +1,484 @@
+{
+  "lastUpdated": 1787658124509,
+  "heroSetDate": "2026-08-25",
+  "hero": {
+    "headline": "RARE TORNADO RIPS THROUGH SOUTHERN FRANCE VILLAGE, INJURING 39",
+    "url": "https://apnews.com/article/france-tornado-pomas-dozens-injured-176e48d07dad6d5caadfe40e54d721ee",
+    "sublinks": [
+      {
+        "text": "Aude Region Left Reeling In Storm's Immediate Aftermath",
+        "url": "https://www.france24.com/en/france/20260824-tornado-devastates-village-southwestern-france-aude-region"
+      },
+      {
+        "text": "Meteorologists Call It One Of France's Rare Tornado Events",
+        "url": "https://www.reuters.com/business/environment/houses-damaged-after-tornado-hits-aude-southern-france-2026-08-25/"
+      }
+    ],
+    "postedAt": 1787658124509,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "IRAN WAR: SANCTIONS AND ATTACKS DEEPEN MIDEAST FALLOUT",
+      "stories": [
+        {
+          "headline": "China Vows To 'Safeguard Interests' After US Widens Iran Sanctions",
+          "url": "https://www.bbc.com/news/articles/clyl8965j5go",
+          "timestamp": 1787655363000,
+          "postedAt": 1787658124509
+        },
+        {
+          "headline": "Four India-Based Firms Hit By New US Iran Sanctions",
+          "url": "https://www.thehindu.com/business/Economy/four-india-based-companies-bear-the-brunt-of-us-iran-sanctions/article71388216.ece",
+          "timestamp": 1787652119000,
+          "postedAt": 1787658124509
+        },
+        {
+          "headline": "Ship Disabled By Suspected Attack In Strait Of Hormuz",
+          "url": "https://apnews.com/article/middle-east-iran-israel-hormuz-pakistan-august-25-2026-1a4fa2e3812c458a25a561b38dc89f09",
+          "timestamp": 1787651160000,
+          "postedAt": 1787658124509
+        },
+        {
+          "headline": "Can Economic Pressure Succeed Where Strikes And Talks Failed?",
+          "url": "https://www.npr.org/2026/08/25/nx-s1-5943572/trump-iran-sanctions",
+          "timestamp": 1787648829000,
+          "postedAt": 1787658124509
+        },
+        {
+          "headline": "Six Months Into Iran War, Nearly Half Of Global Oil Flows Through Conflict Zones",
+          "url": "https://www.reuters.com/business/energy/six-months-into-iran-war-almost-half-global-oil-flows-war-zones-2026-08-25/",
+          "timestamp": 1787644252000,
+          "postedAt": 1787658124509
+        },
+        {
+          "headline": "Houthis Claim Strike On Saudi Tanker In Red Sea Escalation",
+          "url": "https://www.euronews.com/2026/08/24/houthis-claim-strike-on-saudi-tanker-in-latest-red-sea-escalation",
+          "timestamp": 1787586852000,
+          "postedAt": 1787658124509
+        },
+        {
+          "headline": "Iranian Official Urges Qatar To Move Detained Pilots To Hospital",
+          "url": "https://www.arabnews.com/node/2655503/amp",
+          "timestamp": 1787389560000,
+          "postedAt": 1787401010478
+        }
+      ]
+    },
+    {
+      "title": "MACRON, MBS UNVEIL $7 BILLION SAUDI-BACKED THEME PARK NEAR PARIS",
+      "stories": [
+        {
+          "headline": "'Colossal' Theme Park Project Unveiled As Saudi Crown Prince Visits France",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/25/colossal-theme-park-project-near-paris-unveiled-as-saudi-arabia-s-mbs-visits-france_6756817_4.html",
+          "timestamp": 1787655281000,
+          "postedAt": 1787658124509
+        },
+        {
+          "headline": "Dragon Ball Z Theme Park Gets $7 Billion Green Light",
+          "url": "https://www.cnbc.com/2026/08/25/dragon-ball-z-theme-park-france-paris.html",
+          "timestamp": 1787647988000,
+          "postedAt": 1787658124509
+        }
+      ]
+    },
+    {
+      "title": "UKRAINE WAR: ALLIES RALLY AS RUSSIA ESCALATES STRIKES",
+      "stories": [
+        {
+          "headline": "ISW: Russian Offensive Makes Incremental Gains In Latest Assessment",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-august-22-2026/",
+          "timestamp": 1787440773000,
+          "postedAt": 1787488006763
+        },
+        {
+          "headline": "Putin Warns Of 'Far More Destructive' Strikes As Both Sides Trade Attacks",
+          "url": "https://www.aljazeera.com/news/2026/8/22/russian-strikes-kill-6-people-in-ukraine-day-after-shopping-complex-attack",
+          "timestamp": 1787436004000,
+          "postedAt": 1787488006763
+        },
+        {
+          "headline": "European Leaders Mark Ukraine's Independence Day As War Grinds On",
+          "url": "https://apnews.com/article/russia-ukraine-war-independence-burnham-f9db9e721a230e5881405603a423785c",
+          "timestamp": 1787578080000,
+          "postedAt": 1787584985952
+        },
+        {
+          "headline": "France, UK Step Up Missile Support As European Leaders Meet",
+          "url": "https://www.cnbc.com/2026/08/24/ukraine-coalition-support-russia-strikes.html",
+          "timestamp": 1787569201000,
+          "postedAt": 1787584985952
+        },
+        {
+          "headline": "EU Approves €6.1 Billion In New Ukraine Defense Aid",
+          "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences",
+          "timestamp": 1787558060000,
+          "postedAt": 1787584985952
+        }
+      ]
+    },
+    {
+      "title": "ISRAEL STRIKES GAZA AND SYRIA TARGETS",
+      "stories": [
+        {
+          "headline": "IDF Says Strikes Killed Hamas Tunnel Commander Who Held Oct. 7 Hostage",
+          "url": "https://www.timesofisrael.com/idf-says-hamas-tunnel-commander-and-oct-7-hostage-holder-killed-in-gaza-strikes/",
+          "timestamp": 1787428860000,
+          "postedAt": 1787488006763
+        },
+        {
+          "headline": "Israel Gave US No Notice Before Strikes On Syrian Base, Envoy Says",
+          "url": "https://www.aljazeera.com/news/2026/8/22/envoy-says-israel-did-not-give-the-us-notice-before-strikes-on-syrian-base",
+          "timestamp": 1787426610000,
+          "postedAt": 1787488006763
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Zelensky Tells Putin Ukrainian Army Turning Russian Soldiers Into 'Fertilizer'",
+        "url": "https://www.breitbart.com/europe/2026/08/25/zelensky-tells-putin-ukrainian-army-turning-russian-soldiers-into-fertilizer/",
+        "timestamp": 1787656589000,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "UK To Help Ukraine Build Long-Range Missiles With Classified Tech",
+        "url": "https://apnews.com/article/uk-ukraine-missiles-scalp-defense-classified-range-52630a94448a2d2aa830a733ae899c33",
+        "timestamp": 1787622480000,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "UK's Rarest Bird Of Prey Rears New Chicks In Secret Location",
+        "url": "https://www.bbc.com/news/articles/c7vgvvyr78eo",
+        "timestamp": 1787560308000,
+        "photo": true,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "Kazakhstan's New Ruling Party Projected To Win Sunday Elections",
+        "url": "https://www.euronews.com/2026/08/24/kazakhstans-new-ruling-party-projected-to-win-elections",
+        "timestamp": 1787547598000,
+        "photo": true,
+        "postedAt": 1787658124509,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Germany's AfD Eyes Saxony-Anhalt Win As Step Toward Federal Power",
+        "url": "https://www.reuters.com/world/germanys-afd-eyes-saxony-anhalt-win-first-step-toward-federal-power-2026-08-23/",
+        "timestamp": 1787503380000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Trump Administration Imposes $100,000 Fee On H-1B Visas",
+        "url": "https://www.thehindu.com/news/international/trump-administration-moves-to-impose-more-than-100000-fee-for-h-1b-worker-visas/article71385078.ece",
+        "timestamp": 1787581352000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Ex-Snooker Champion Graeme Dott Guilty Of Child Sex Abuse",
+        "url": "https://www.bbc.com/news/articles/c0lr80rk0dno",
+        "timestamp": 1787580840000,
+        "photo": true,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "New Zealand Moves To Ban Children Under 16 From Social Media",
+        "url": "https://www.bbc.com/news/articles/cj068q7qj19o",
+        "timestamp": 1787573854000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Norway's King Harald Stabilizes After Health Scare",
+        "url": "https://apnews.com/article/norway-royals-king-harald-hospital-ae69b37496d67157b6841c6c8df5ba50",
+        "timestamp": 1787568000000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Typhoon Narra Triggers Deadly Floods In China, Vietnam",
+        "url": "https://www.reuters.com/business/environment/china-evacuates-tens-thousands-rain-typhoon-narra-lashes-southwest-2026-08-24/",
+        "timestamp": 1787542680000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "CrossCountry Cancels Almost All Services After Power Cut",
+        "url": "https://www.bbc.com/news/articles/cy9w9y0lz5go",
+        "timestamp": 1787493916000,
+        "postedAt": 1787497820383
+      },
+      {
+        "headline": "Lebanon Arrests Food Influencer Over Drug-Laced Treats",
+        "url": "https://www.arabnews.com/node/2655592/amp",
+        "timestamp": 1787481371000,
+        "postedAt": 1787488006763
+      },
+      {
+        "headline": "Student Killed In Sword Attack At Swedish School Was 17-Year-Old Girl",
+        "url": "https://www.pbs.org/newshour/world/student-killed-in-sword-attack-at-a-swedish-school-was-a-17-year-old-girl",
+        "timestamp": 1787419417000,
+        "photo": true,
+        "postedAt": 1787488006763,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "No Deal Reached As US-Canada Tariffs Take Effect At 50%",
+        "url": "https://abcnews.com/Business/trumps-proposed-tariffs-canada-hurtle-deadline-amid-trade/story?id",
+        "timestamp": 1787409387000,
+        "postedAt": 1787411154314
+      },
+      {
+        "headline": "Two Police Officers Among Seven Killed In Chase Crash",
+        "url": "https://www.bbc.com/news/articles/cx272ly3g00o",
+        "timestamp": 1787407531000,
+        "photo": true,
+        "postedAt": 1787411154314
+      },
+      {
+        "headline": "South Korea Ship To Test Arctic Commercial Route",
+        "url": "https://www.reuters.com/world/china/south-korea-ship-test-arctic-commercial-route-amid-western-concerns-2026-08-22/",
+        "timestamp": 1787381220000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "Secret Gun Cache Near Berlin Tied To Possible Russian Assassination Plot",
+        "url": "https://www.breitbart.com/europe/2026/08/22/secret-gun-cache-found-near-berlin-may-be-linked-to-russian-intel/",
+        "feature": true,
+        "timestamp": 1787399649000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "Over 16,000 Ebola Vaccine Doses Arrive In DR Congo",
+        "url": "https://www.aljazeera.com/news/2026/8/22/more-than-16000-doses-of-ervebo-vaccine-arrive-in-ebola-hit-dr-congo",
+        "timestamp": 1787393997000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "UK: Girl, 6, Dies After Family Killed In Sea Off Shoreham",
+        "url": "https://www.bbc.com/news/articles/c629y0kx8gyo",
+        "photo": true,
+        "timestamp": 1787389781000,
+        "postedAt": 1787401010478
+      }
+    ],
+    "center": [
+      {
+        "headline": "Putin Decree Opens Door To State Control After Deep Ukrainian Strikes",
+        "url": "https://apnews.com/article/russia-ukraine-war-putin-companies-drones-f2ef0ded42dfab093bd9b08a8157b931",
+        "timestamp": 1787651880000,
+        "feature": true,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "Indonesia Chokes On Haze As Wildfires Intensify Amid Super El Niño",
+        "url": "https://www.theguardian.com/world/2026/aug/25/indonesia-wildfires-kalimantan-smoke-super-el-nino",
+        "timestamp": 1787631480000,
+        "photo": true,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "Guinea Landfill Collapse Kills 31 In Conakry",
+        "url": "https://www.bbc.com/news/articles/c4g3g36z7p6o",
+        "timestamp": 1787570779000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Hungarian Air Force Jet Crashes Near Szolnok",
+        "url": "https://www.euronews.com/my-europe/2026/08/24/hungarian-air-force-gripen-fighter-jet-crashes-near-szolnok",
+        "timestamp": 1787562746000,
+        "photo": true,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Iceland Votes On Whether To Restart EU Membership Talks",
+        "url": "https://apnews.com/article/iceland-eu-referendum-european-union-greenland-trump-fisheries-49d43b4989a198035f1d88ff51875d38",
+        "timestamp": 1787557260000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Zelensky Details Rift With Dismissed Defense Minister Fedorov",
+        "url": "https://www.pbs.org/newshour/world/zelenskyy-details-rift-with-ukraines-dismissed-defense-minister-fedorov",
+        "timestamp": 1787511178000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Magnitude 5.9 Quake Strikes Eastern Japan, Disrupts Tokyo Trains",
+        "url": "https://globalnation.inquirer.net/335559/m5-9-quake-strikes-eastern-japan-including-tokyo-disrupting-traffic",
+        "timestamp": 1787492812000,
+        "photo": true,
+        "postedAt": 1787497820383,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "Deadly Ebola Outbreak In Congo's Bundibugyo Region Can Be Stopped, Officials Say",
+        "url": "https://allafrica.com/stories/202608230040.html",
+        "timestamp": 1787482951000,
+        "postedAt": 1787488006763
+      },
+      {
+        "headline": "Lula, Bolsonaro's Son Hold Rival Rallies As Brazil Campaign Heats Up",
+        "url": "https://www.france24.com/en/presidential-campaign-heats-up-in-brazil-as-lula-and-f-bolsonaro-hold-rival-rallies",
+        "timestamp": 1787477960000,
+        "postedAt": 1787488006763
+      },
+      {
+        "headline": "Search Resumes For 22 Crew After Cargo Ship Sinks Off India",
+        "url": "https://www.dw.com/en/search-resumes-for-22-crew-after-cargo-ship-sinks-off-india/a-78472142",
+        "timestamp": 1787466188000,
+        "photo": true,
+        "postedAt": 1787488006763
+      },
+      {
+        "headline": "Pope Leo Calls For Dialogue, Cites Hope In Young Catholics",
+        "url": "https://www.politico.com/news/2026/08/22/pope-leo-calls-for-dialogue-over-conflict-says-young-catholics-are-a-sign-of-hope-01046799",
+        "timestamp": 1787436720000,
+        "postedAt": 1787488006763
+      },
+      {
+        "headline": "Father Leaves 7-Year-Old Son Alone On Mount Fuji Hike",
+        "url": "https://www.bbc.com/news/articles/c93403wg288o",
+        "timestamp": 1787409311000,
+        "photo": true,
+        "postedAt": 1787411154314
+      },
+      {
+        "headline": "Ukraine's Farmers Struggle To Sell Harvest Amid War, Drought",
+        "url": "https://www.dw.com/en/ukraines-farmers-struggle-to-sell-harvest-amid-war-drought/a-78435344",
+        "timestamp": 1787350835000,
+        "postedAt": 1787401010479
+      },
+      {
+        "headline": "Former Envoys Urge Joint France-UK Action On Palestinian Territories",
+        "url": "https://www.arabnews.com/node/2655505/amp",
+        "timestamp": 1787393350000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "Somali Pirates Hijack Oil Tanker Off Yemen",
+        "url": "https://apnews.com/article/somalia-piracy-yemen-puntland-5095054a9227548818dfc819d226dc76",
+        "photo": true,
+        "timestamp": 1787386680000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "Cuban Migrants Describe Deportation By US To Dangerous African Nation",
+        "url": "https://www.cbsnews.com/news/central-african-republic-third-country-deportations/",
+        "timestamp": 1787365080000,
+        "postedAt": 1787401010478
+      },
+      {
+        "headline": "Guyana's Rodrigues Birkett Leads Informal Poll For Next UN Chief",
+        "url": "https://www.aljazeera.com/news/2026/8/22/guyanas-rodrigues-birkett-leads-informal-poll-in-race-to-be-next-un-leader",
+        "timestamp": 1787359014000,
+        "postedAt": 1787401010478
+      }
+    ],
+    "right": [
+      {
+        "headline": "IRAN'S CURRENCY HITS RECORD LOW AS US READIES 'ECONOMIC D-DAY' SANCTIONS",
+        "url": "https://apnews.com/article/iran-rial-currency-bessent-trade-august-24-2026-e367634d8853c8fa4a341132cd577f31",
+        "timestamp": 1787584985952,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Danish PM Blasts Plastic Surgeon's Beauty Advice: 'Perfectly Fine With My Body'",
+        "url": "https://www.nbcnews.com/world/europe/mette-frederiksen-danish-pm-blasts-plastic-surgeons-beauty-advice-rcna594255",
+        "timestamp": 1787651472000,
+        "photo": true,
+        "postedAt": 1787658124509,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Germany Vows Retribution As Third Drone Found At Airport",
+        "url": "https://www.euronews.com/my-europe/2026/08/25/german-investigators-find-third-drone-and-suspected-explosives-at-leipzighalle-airport-loc",
+        "timestamp": 1787640550000,
+        "feature": true,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "Haiti Gang Raid Leaves 47 Dead Amid Calls For Protection",
+        "url": "https://www.reuters.com/world/americas/gang-attack-near-haitis-capital-leaves-30-dead-2026-08-24/",
+        "timestamp": 1787614070000,
+        "feature": true,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "Ambush In South Sudan Kills UN Peacekeeping Troops",
+        "url": "https://www.aljazeera.com/news/2026/8/24/ambush-in-south-sudan-kills-peacekeeping-troops",
+        "timestamp": 1787605345000,
+        "postedAt": 1787658124509
+      },
+      {
+        "headline": "ZELENSKY DISMISSES ELECTION CALLS AMID FIRED MINISTER'S CORRUPTION ALLEGATIONS",
+        "url": "https://apnews.com/article/russia-ukraine-war-zelenskyy-fedorov-15d84a5a1f52e376ffdf98082cdf9712",
+        "timestamp": 1787488006763,
+        "postedAt": 1787488006763
+      },
+      {
+        "headline": "Ocean Just Broke A Temperature Record That May Have Stood For Millennia",
+        "url": "https://www.aol.ca/articles/miami-hits-100-degrees-just-140302000.html",
+        "timestamp": 1787582429000,
+        "photo": true,
+        "postedAt": 1787584985952,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "World Inches Toward Catastrophic Climate Events, Scientists Warn",
+        "url": "https://apnews.com/article/climate-change-disaster-big-one-threat-5b062254250a759483c94376d32ae478",
+        "timestamp": 1787579700000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Syria Sentences 'Barrel Bomb Mufti' Ahmad Hassoun To Life",
+        "url": "https://www.aljazeera.com/news/2026/8/24/hold-ahmad-hassoun-assads-barrel-bomb-mufti-faces-death-penalty",
+        "timestamp": 1787569898000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "Syria's Foreign Minister Sees Israel Security Talks Resuming",
+        "url": "https://www.reuters.com/world/middle-east/syria-foreign-minister-sees-israel-security-talks-resuming-despite-no-trust-2026-08-23/",
+        "timestamp": 1787525823000,
+        "postedAt": 1787584985952
+      },
+      {
+        "headline": "US-Canada Trade Breakdown Exposes Limits Of Trump's Tariff Strategy",
+        "url": "https://timesofindia.indiatimes.com/business/international-business/why-canada-suspended-us-trade-talks-at-last-minute-despite-trumps-good-relationship-with-carney/articleshow/133417147.cms",
+        "timestamp": 1787495551000,
+        "postedAt": 1787497820383
+      },
+      {
+        "headline": "UKRAINE STRIKES RUSSIAN OIL REFINERY IN RETALIATION AFTER DEADLY MALL ATTACK",
+        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-shopping-centre-attack-b3037438.html",
+        "timestamp": 1787401010479,
+        "postedAt": 1787401010479
+      },
+      {
+        "headline": "Togo Says It Has 'Serious' Evidence Against Detained French Journalists",
+        "url": "https://allafrica.com/stories/202608230042.html",
+        "timestamp": 1787487090000,
+        "postedAt": 1787488006763
+      },
+      {
+        "headline": "Ex-Cricket Captains Urge Pakistan For Humane Treatment Of Imran Khan",
+        "url": "https://www.thehindu.com/sport/cricket/former-cricket-captains-urge-pakistan-for-humane-treatment-proper-medical-care-for-imran-khan/article71380708.ece",
+        "timestamp": 1787481004000,
+        "postedAt": 1787488006763
+      },
+      {
+        "headline": "Robots Compete In Boxing And Sprinting At World Humanoid Games",
+        "url": "https://www.bbc.com/news/videos/c7vgvj6e1emo",
+        "timestamp": 1787478125000,
+        "postedAt": 1787488006763
+      },
+      {
+        "headline": "Two-Time Boxing Champion Zolani Tete Shot Dead In South Africa",
+        "url": "https://www.bbc.com/sport/boxing/articles/c98v78n72v5o",
+        "photo": true,
+        "timestamp": 1787389779000,
+        "postedAt": 1787401010478
+      }
+    ]
+  }
+}
