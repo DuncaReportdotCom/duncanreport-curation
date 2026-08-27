@@ -2,9 +2,22 @@
   "lastUpdated": 1787844130020,
   "heroSetDate": "2026-08-27",
   "hero": {
-    "headline": "Dolly Parton, country music icon, dies at 80",
-    "url": "https://www.nbcnews.com/news/us-news/dolly-parton-county-music-icon-dies-80-rcna236277",
-    "sublinks": [],
+    "headline": "FLASH FLOOD ON THE NEPAL-TIBET BORDER KILLS 157, HUNDREDS OF TOURISTS MISSING",
+    "url": "https://www.nbcnews.com/world/asia/flash-flood-nepal-tibet-villages-destroyed-american-tourists-missing-rcna594473",
+    "sublinks": [
+      {
+        "text": "BBC: live updates on the Nepal-Tibet flood disaster",
+        "url": "https://www.bbc.com/news/live/c6y8mjmnpxv0t"
+      },
+      {
+        "text": "Landslide blocked the Bhote Koshi river, sending a torrent downstream",
+        "url": "https://time.com/article/2026/08/26/hundreds-feared-dead-including-foreign-tourists-after-flash-floods-in-nepal/"
+      },
+      {
+        "text": "Video: the torrent sweeps away the Tibet-Nepal border crossing",
+        "url": "https://x.com/ravipandey2643/status/2092559194453098786"
+      }
+    ],
     "img": true
   },
   "groups": [
@@ -98,13 +111,6 @@
   ],
   "columns": {
     "left": [
-      {
-        "headline": "Secret Service places 3 officials on leave amid misconduct probe",
-        "url": "https://www.politico.com/news/2026/08/26/secret-service-misconduct-investigation",
-        "timestamp": 1787702400000,
-        "postedAt": 1787788799999,
-        "feature": true
-      },
       {
         "headline": "New Documents Refute RFK Jr.'s Claim Samoa Trip Wasn't About Vaccines",
         "url": "https://apnews.com/article/rfk-jr-kennedy-samoa-vaccines-mmr-ba6ad3ffadca48599b1c178a392fb37b",
@@ -365,11 +371,11 @@
     ]
   },
   "balance": {
-    "left": 106,
+    "left": 105,
     "right": 62,
     "independent": 2,
     "days": 30,
-    "total": 168,
+    "total": 167,
     "pctLeft": 63,
     "pctRight": 37
   }
