@@ -1,0 +1,402 @@
+{
+  "lastUpdated": 1787842313645,
+  "heroSetDate": "2026-08-27",
+  "hero": {
+    "headline": "YAYOI KUSAMA, POLKA-DOT POP ART ICON, DIES AT 97",
+    "url": "https://apnews.com/article/yayoi-kusama-artist-obituary-f92e15d5e6a446f48f3675ddd2418b8a",
+    "sublinks": [],
+    "postedAt": 1787842313645,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "DOLLY PARTON TRIBUTES POUR IN",
+      "stories": [
+        {
+          "headline": "Jelly Roll Pays Tribute To Dolly Parton, Calls Her 'The Last American Everyone Liked'",
+          "url": "https://www.billboard.com/music/country/jelly-roll-tribute-dolly-parton-1236324814/",
+          "timestamp": 1787745879000,
+          "postedAt": 1787746626343
+        },
+        {
+          "headline": "Essay: Dolly Parton Symbolized A Vanishing America",
+          "url": "https://unherd.com/newsroom/dolly-parton-symbolised-a-vanishing-america/?edition",
+          "timestamp": 1787737275000,
+          "postedAt": 1787746626343
+        },
+        {
+          "headline": "Jack White Delivers Emotional 'Jolene' Cover In Honor Of Dolly Parton",
+          "url": "https://www.rollingstone.com/music/music-news/jack-white-dolly-parton-jolene-cover-live-tribute-1235615698/",
+          "timestamp": 1787728359000,
+          "postedAt": 1787746626343
+        },
+        {
+          "headline": "Dolly Parton's Flamboyant Style Remembered: 'I'm Not A Fashion Icon, I'm An Eyesore'",
+          "url": "https://www.theguardian.com/music/2026/aug/26/dolly-parton-style-fashion",
+          "timestamp": 1787727660000,
+          "postedAt": 1787746626343
+        },
+        {
+          "headline": "A Biopic, Coffee Brand And Dog Treats Among Dolly Parton's Business Projects Still To Come",
+          "url": "https://www.bbc.com/news/articles/c9dwy750jpdo",
+          "timestamp": 1787828410000,
+          "postedAt": 1787842313645
+        },
+        {
+          "headline": "Dolly Parton's Books Program Already Had Funding Issues",
+          "url": "https://www.newser.com/story/395362/state-budget-cuts-imperil-dolly-parton-imagination-library.html",
+          "timestamp": 1787788800000,
+          "postedAt": 1787842313645
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Traders Brought Central American Cacao To Georgia 1,000 Years Ago",
+        "url": "https://arstechnica.com/science/2026/08/traders-brought-central-american-cacao-to-georgia-1000-years-ago/",
+        "timestamp": 1787840562000,
+        "photo": true,
+        "postedAt": 1787842313645,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Peter Cullen, Voice Of Optimus Prime In 'Transformers,' Dies At 85",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/peter-cullen-optimus-prime-transformers-eeyore-1236683075/",
+        "timestamp": 1787840233000,
+        "photo": true,
+        "postedAt": 1787842313645
+      },
+      {
+        "headline": "I've Lived In Spain For 16 Years — Here Are 7 Beaches Actually Worth Visiting",
+        "url": "https://www.afar.com/magazine/the-most-beautiful-beaches-in-spain-according-to-a-local",
+        "timestamp": 1787839999000,
+        "postedAt": 1787842313645
+      },
+      {
+        "headline": "Hyundai Wants To Build Trucks In The US For The Whole World",
+        "url": "https://www.thedrive.com/news/hyundai-wants-to-build-trucks-in-the-us-for-the-whole-world-tds",
+        "timestamp": 1787837906000,
+        "postedAt": 1787842313645
+      },
+      {
+        "headline": "Prosecutors Rest In Tupac Shakur Murder Trial, Defense Up Next",
+        "url": "https://apnews.com/article/tupac-shakur-shooting-murder-trial-1239e5e027cd6879913db1de012976f8",
+        "timestamp": 1787781960000,
+        "postedAt": 1787842313645
+      },
+      {
+        "headline": "1999: A Year In Film",
+        "url": "https://www.realclearbooks.com/articles/2026/08/26/1999_a_year_in_film_1202339.html",
+        "timestamp": 1787742482000,
+        "postedAt": 1787842313645
+      },
+      {
+        "headline": "This Hidden Glacier Holds Enough Water To Fill 600 Olympic Pools",
+        "url": "https://nautil.us/this-hidden-glacier-has-enough-water-to-fill-600-olympic-swimming-pools-1284443",
+        "timestamp": 1787742000000,
+        "photo": true,
+        "postedAt": 1787746626343,
+        "image": "/img/life-culture-4.jpg"
+      },
+      {
+        "headline": "UK: Virgin To Run Trains Through The Channel Tunnel",
+        "url": "https://theconversation.com/virgin-to-run-trains-through-the-channel-tunnel-passengers-will-have-a-choice-290203",
+        "timestamp": 1787739224000,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "Ketamine Is 'Unambiguously' An Opioid, New Molecular Evidence Shows",
+        "url": "https://www.sciencealert.com/unambiguous-ketamine-is-an-opioid-new-molecular-evidence-shows",
+        "timestamp": 1787738461000,
+        "feature": true,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "Australia's Music Industry Bans AI Songs From Charts",
+        "url": "https://apnews.com/article/australia-ai-generated-music-charts-ban-aria-9bfb0c91166ae4405a6df1a3c4891687",
+        "timestamp": 1787676300000,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "Is The Oedipus Complex Real?",
+        "url": "https://www.britannica.com/story/is-the-oedipus-complex-real",
+        "timestamp": 1787547600000,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "'Odyssey' Breaks New Box Office Record For Christopher Nolan",
+        "url": "https://www.al.com/life/2026/08/odyssey-breaks-new-box-office-record-for-christopher-nolan.html",
+        "timestamp": 1787504820000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "These Super-Fudgy Brownies Are Loaded With Dulce De Leche And Sea Salt",
+        "url": "https://www.seriouseats.com/salted-dulce-de-leche-brownies-recipe-12067141",
+        "timestamp": 1787659253000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Target Apologizes For Children's Clown Halloween Costume After Backlash",
+        "url": "https://www.reuters.com/business/retail-consumer/target-apologizes-childrens-clown-halloween-costume-after-backlash-2026-08-24/",
+        "timestamp": 1787623560000,
+        "photo": true,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Study Reveals A Physical Activity Paradox For Dementia Risk",
+        "url": "https://www.realclearscience.com/articles/2026/08/25/study_reveals_a_physical_activity_paradox_for_dementia_risk_1202291.html",
+        "timestamp": 1787599500000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Penguin Poop Makes Clouds, Study Finds",
+        "url": "https://www.realclearscience.com/video/2026/08/25/penguin_poop_makes_clouds_1202215.html",
+        "timestamp": 1787580840000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Spider-Man: Brand New Day To Oust Titanic From Top 5 All-Time Films",
+        "url": "https://ew.com/spider-man-brand-new-day-poised-to-unseat-titanic-in-all-time-highest-grossing-films-in-global-box-office-history-12066024",
+        "timestamp": 1787524871000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Erling Haaland Has A Buzz Cut Now",
+        "url": "https://www.gq.com/story/erling-haaland-has-a-buzz-cut-now",
+        "timestamp": 1787585700000,
+        "photo": true,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Henry VIII's Lost Castle Linked To Dover Castle",
+        "url": "https://phys.org/news/2026-08-hidden-plain-sight-evidence-links.html",
+        "timestamp": 1787583610000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "A New Wave Of Cart Pod Power Players Floods Portland",
+        "url": "https://pdx.eater.com/restaurant-news/109501/portland-new-food-cart-pods-modhaus-callback-fremont-garage",
+        "timestamp": 1787583600000,
+        "postedAt": 1787586844610
+      }
+    ],
+    "center": [
+      {
+        "headline": "Star Trek At 60: Why Its Focus On Humanity, Not Aliens, Endures",
+        "url": "https://theconversation.com/star-trek-at-60-the-secret-of-this-pioneering-series-was-its-exploration-of-humanity-not-aliens-290646",
+        "timestamp": 1787839001000,
+        "postedAt": 1787842313645
+      },
+      {
+        "headline": "Your Baby's First Lambo Is A $5,000 Limited-Edition Stroller",
+        "url": "https://www.caranddriver.com/car-accessories/a73532826/lamborghini-stroller/",
+        "timestamp": 1787834841000,
+        "photo": true,
+        "postedAt": 1787842313645,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "YouTuber Chris Sails Arrested For Allegedly Lying To Police About Kids' Safety",
+        "url": "https://www.tmz.com/2026/08/27/chris-sails-arrested/",
+        "timestamp": 1787817634000,
+        "photo": true,
+        "postedAt": 1787842313645,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "Here Are The 2026 Michelin Star Winners In Las Vegas",
+        "url": "https://vegas.eater.com/restaurant-news/131551/2026-michelin-star-winners-las-vegas-nevada-restaurants",
+        "timestamp": 1787804280000,
+        "postedAt": 1787842313645
+      },
+      {
+        "headline": "Susan Sarandon, Carol Burnett Lead Tributes To Tim Curry",
+        "url": "https://www.thebeat925.ca/news/797849/susan-sarandon-carol-burnett-and-more-pay-tribute-to-the-late-tim-curry",
+        "timestamp": 1787778076000,
+        "postedAt": 1787842313645
+      },
+      {
+        "headline": "Scientists Discover 149 New Deep-Sea Species At Indian Ocean Seamounts",
+        "url": "https://news.mongabay.com/2026/08/scientists-discover-149-new-deep-sea-species-at-remote-indian-ocean-seamounts/",
+        "timestamp": 1787746389000,
+        "postedAt": 1787842313645
+      },
+      {
+        "headline": "Taylor Fritz's Secret To Success? League Of Legends",
+        "url": "https://www.gq.com/story/taylor-fritz-routine-excellence",
+        "timestamp": 1787745600000,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "How Ikea Turned An Xbox Controller Thumbstick Into A Design Icon",
+        "url": "https://fastcompanyme.com/co-design/ikeas-new-collab-turns-xbox-controllers-into-furniture/",
+        "timestamp": 1787738400000,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "N.J. Restaurant's 'Happy Wheelchair Birthday' Dessert Note Goes Viral",
+        "url": "https://www.nj.com/food/2026/08/nj-restaurant-writes-happy-wheelchair-birthday-on-disabled-customers-dessert-heres-what-we-know.html",
+        "timestamp": 1787698800000,
+        "photo": true,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "How Much Sleep Do You Really Need? Forget The Eight-Hour Rule",
+        "url": "https://theconversation.com/how-much-sleep-do-i-need-why-you-can-forget-the-eight-hour-sleep-rule-289863",
+        "timestamp": 1787656445000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Omega's Beloved Entry-Level Speedmaster Finally Returns",
+        "url": "https://www.gearpatrol.com/watches/omega-speedmaster-38-2026/",
+        "timestamp": 1787652060000,
+        "photo": true,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Why The World's Largest Megaproject Collapsed",
+        "url": "https://www.realclearscience.com/video/2026/08/25/why_the_worlds_largest_megaproject_collapsed_1202214.html",
+        "timestamp": 1787580420000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Scientists Discover A Bizarre New Way Life Can Make DNA — Without DNA",
+        "url": "https://www.sciencealert.com/scientists-discover-a-bizarre-new-way-life-can-make-dna-without-dna",
+        "timestamp": 1787450446000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Can-Am Unveils Defender Prerunner And Maverick R Concepts",
+        "url": "https://uncrate.com/can-am-defender-prerunner-and-maverick-r-concepts/",
+        "timestamp": 1787584207000,
+        "photo": true,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Reframing Homer's Sirens Through Gender, Nature And Social Order",
+        "url": "https://phys.org/news/2026-08-reframing-homer-sirens-gender-nature.html",
+        "timestamp": 1787581203000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Blancpain Plays All The Notes Of A Hit Watch In 2026",
+        "url": "https://www.gq.com/story/blancpain-bathyscaphe-70th-anniversary-limited-edition-new-watch-alert",
+        "timestamp": 1787580871000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Shelley Fabares, Star Of The Donna Reed Show And Coach, Dies At 82",
+        "url": "https://www.foxnews.com/entertainment/shelley-fabares-star-donna-reed-show-coach-dead-82",
+        "timestamp": 1787574441000,
+        "photo": true,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "The First New Nuclear Fusion Idea In Decades",
+        "url": "https://www.realclearscience.com/video/2026/08/24/the_first_new_nuclear_fusion_idea_for_decades_1202011.html",
+        "timestamp": 1787497440000,
+        "postedAt": 1787586844610
+      }
+    ],
+    "right": [
+      {
+        "headline": "TINY CHANNELS IN YOUR NECK MAY DETERMINE HOW YOUR BRAIN AGES",
+        "url": "https://www.sciencealert.com/tiny-channels-in-your-neck-might-determine-how-your-brain-ages",
+        "timestamp": 1787746626343,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "American Men's Tennis Is Back: Meet The Next Generation Of Stars",
+        "url": "https://www.gq.com/story/american-tennis-players-portfolio-us-open-2026",
+        "timestamp": 1787839707000,
+        "postedAt": 1787842313645
+      },
+      {
+        "headline": "This Tree's Sap Is So Toxic It Can Blur Vision And Kill You",
+        "url": "https://www.sciencealert.com/this-tree-has-sap-so-toxic-it-causes-blurred-vision-and-can-kill-you",
+        "timestamp": 1787835648000,
+        "postedAt": 1787842313645
+      },
+      {
+        "headline": "This Month's Coolest Timepiece Is A $16,000 Clock You Build Yourself",
+        "url": "https://www.gq.com/story/watch-guy-watches-august-2026",
+        "timestamp": 1787834894000,
+        "postedAt": 1787842313645
+      },
+      {
+        "headline": "UK: Harry And Meghan Arrive For Extended Stay Six Years After Royal Exit",
+        "url": "https://www.nbcnews.com/world/united-kingdom/harry-meghan-extended-stay-uk-royal-family-exit-montecito-california-rcna594480",
+        "timestamp": 1787834440000,
+        "photo": true,
+        "postedAt": 1787842313645,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "SURGEONS INJECT MITOCHONDRIA FROM WOMAN'S LEG INTO HER EYES IN WORLD FIRST",
+        "url": "https://www.sciencealert.com/world-first-mitochondria-from-a-womans-leg-were-injected-into-her-eyes",
+        "timestamp": 1787659824068,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "EREV Powertrains Heading To Hyundai And Genesis Lineup In 2027",
+        "url": "https://www.caranddriver.com/news/a73527970/hyundai-genesis-erev-powertrains-2027/",
+        "timestamp": 1787740372000,
+        "photo": true,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "What The Bartender Really Thinks About Your Spritz Order",
+        "url": "https://streamlinefeed.co.ke/news/bartenders-reveal-what-they-really-think-of-your-spritz-order",
+        "timestamp": 1787739076000,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "Six Weird Ways That Animals Pee",
+        "url": "https://www.realclearscience.com/video/2026/08/26/six_weird_ways_that_animals_pee_1202440.html",
+        "timestamp": 1787667000000,
+        "postedAt": 1787746626343
+      },
+      {
+        "headline": "CARDIOLOGISTS ADOPT NEW UNIVERSAL DEFINITION OF HEART FAILURE",
+        "url": "https://www.sciencealert.com/cardiologists-just-changed-the-universal-definition-of-heart-failure",
+        "timestamp": 1787586844610,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Scientists May Have Found The Brain Cells Crucial For Motivation",
+        "url": "https://www.sciencealert.com/scientists-may-have-found-the-exact-brain-cells-crucial-for-sustaining-motivation",
+        "timestamp": 1787652136000,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "Jelly Roll Celebrates His 300-Pound Weight Loss On 'Kimmel'",
+        "url": "https://uz.kursiv.media/en/2026-08-25/jelly-roll-about-his-weight-loss-that-means-ive-lost-an-entire-donald-trump/",
+        "timestamp": 1787634796000,
+        "photo": true,
+        "postedAt": 1787659824068
+      },
+      {
+        "headline": "2026 Dodge Durango Hellcat Review: Unapologetically American",
+        "url": "https://www.thedrive.com/car-reviews/2026-dodge-durango-hellcat-review",
+        "timestamp": 1787584158000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "Mule Helps Scientists Build Clearest Horse And Donkey Genomes Yet",
+        "url": "http://uknow.uky.edu/research/mule-helps-scientists-build-clearest-horse-and-donkey-genomes-yet",
+        "timestamp": 1787558418000,
+        "postedAt": 1787586844610
+      },
+      {
+        "headline": "I Tried Cycling The Length Of Italy: 2,000 Km In 19 Days",
+        "url": "https://pezcyclingnews.com/features/cycling-length-of-italy-oscar-boyd-film-review/",
+        "timestamp": 1787468463000,
+        "postedAt": 1787586844610
+      }
+    ]
+  }
+}

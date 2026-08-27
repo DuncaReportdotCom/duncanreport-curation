@@ -1,0 +1,548 @@
+{
+  "lastUpdated": 1787841369265,
+  "heroSetDate": "2026-08-27",
+  "hero": {
+    "headline": "NVIDIA STOCK SURGES 7% AS BLOWOUT EARNINGS EASE AI GROWTH FEARS",
+    "url": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
+    "sublinks": [
+      {
+        "text": "Nvidia Guides To 70% Revenue Growth In 2028",
+        "url": "https://www.axios.com/2026/08/26/nvidia-earnings-jensen-huang-ai"
+      },
+      {
+        "text": "Sales Doubled, But Wall Street Fixates On What Comes Next",
+        "url": "https://www.cnn.com/2026/08/26/tech/nvidia-earnings"
+      },
+      {
+        "text": "Analysts Say Nvidia Now Acts Like The 'Central Bank Of AI'",
+        "url": "https://finance.yahoo.com/markets/article/nvidia-is-looking-more-like-the-central-bank-of-ai-213156835.html"
+      },
+      {
+        "text": "Morningstar Weighs In: Is Nvidia Stock Still A Buy After The Beat?",
+        "url": "https://global.morningstar.com/en-gb/stocks/nvidia-what-we-think-stock-after-earnings"
+      }
+    ],
+    "liveUpdates": [
+      {
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html"
+      }
+    ],
+    "postedAt": 1787841369265,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "NVIDIA EARNINGS LOOM AS CHIP SELLOFF RATTLES AI TRADE",
+      "stories": [
+        {
+          "headline": "Key Events This Week: Jackson Hole, Nvidia Earnings And Core PCE",
+          "url": "https://www.zerohedge.com/economics/key-events-week-jackson-hole-nvidia-earnings-and-core-pce",
+          "timestamp": 1787582700000,
+          "postedAt": 1787585601797
+        },
+        {
+          "headline": "Marvell's $120 Billion Google Deal Reshapes Chip-Sector Outlook Ahead Of Earnings",
+          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mrvl/marvell-technology/news/why-marvell-technology-mrvl-is-up-68-after-expanding-its-equ/amp",
+          "timestamp": 1787581500000,
+          "postedAt": 1787585601797
+        },
+        {
+          "headline": "Nvidia Exploring Price Hikes For Its Largest Customers, Report Says",
+          "url": "https://www.cnbc.com/video/2026/08/24/nvidia-exploring-price-hikes-for-some-of-its-largest-customers-report.html",
+          "timestamp": 1787581390000,
+          "feature": true,
+          "postedAt": 1787585601797
+        },
+        {
+          "headline": "Semiconductor Stocks Drag S&P 500, Nasdaq Lower Ahead Of Nvidia Earnings",
+          "url": "https://finance.yahoo.com/markets/article/semiconductor-stocks-drag-sp-500-nasdaq-lower-alphacheck-135725875.html",
+          "timestamp": 1787579845000,
+          "postedAt": 1787585601797
+        },
+        {
+          "headline": "Nvidia And New Fed Chair Warsh Set To Test Stock Rally This Week",
+          "url": "https://www.reuters.com/business/wall-st-week-ahead-nvidia-earnings-jackson-hole-test-pillars-stock-rally-2026-08-21/",
+          "timestamp": 1787573925000,
+          "postedAt": 1787585601797
+        },
+        {
+          "headline": "Fed Chair Warsh Faces Jackson Hole Spotlight With Inflation, Rate Path In Focus",
+          "url": "https://www.foxbusiness.com/economy/fed-chair-warsh-faces-jackson-hole-spotlight-inflation-rate-path-focus",
+          "timestamp": 1787824800000,
+          "postedAt": 1787841369265
+        },
+        {
+          "headline": "Fed Governor Lisa Cook Says No 'Legitimate Basis' For Removal Over Mortgage Claims",
+          "url": "https://www.axios.com/2026/08/26/trump-fed-lisa-cook",
+          "timestamp": 1787789066000,
+          "postedAt": 1787841369265
+        }
+      ]
+    },
+    {
+      "title": "BITCOIN RALLY TOPS $80,000 AS ANALYSTS EYE HIGHER TARGETS",
+      "stories": [
+        {
+          "headline": "Analysts Say Bitcoin Could Double By Next Year, Hit $500,000 By 2030",
+          "url": "https://www.marketwatch.com/story/why-these-analysts-say-bitcoin-will-double-by-next-year-and-could-reach-500-000-at-the-end-of-the-decade-23ec78f3",
+          "timestamp": 1787837520000,
+          "postedAt": 1787841369265
+        },
+        {
+          "headline": "Why Bitcoin Surged To $80,000, And What May Come Next",
+          "url": "https://global.morningstar.com/en-ca/markets/why-bitcoin-surged-usd-80000-what-may-come-next",
+          "timestamp": 1787824826000,
+          "postedAt": 1787841369265
+        },
+        {
+          "headline": "Bernstein Sees Bitcoin Reaching $150,000 By Mid-2027, Cuts Strategy Target To $350",
+          "url": "https://www.theblock.co/news/markets/2026-08-26-bernstein-sees-bitcoin-reaching-150000-by-mid-2027-amid-debasement-trade-but-cuts-strategy-target-to-350-412778",
+          "timestamp": 1787739678000,
+          "postedAt": 1787841369265
+        },
+        {
+          "headline": "Bitcoin ETFs See Biggest Weekly Inflow In 10 Months During Rally",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-post-strongest-weekly-154700094.html",
+          "timestamp": 1787604129000,
+          "postedAt": 1787841369265
+        },
+        {
+          "headline": "Bitcoin Hits $80,000, Then Immediately Falls Back",
+          "url": "https://cryptorank.io/news/feed/8e47d-bitcoin-price-hits-77k-but-80k-could-trigger-sharp-reversal",
+          "timestamp": 1787656980000,
+          "postedAt": 1787658479783
+        },
+        {
+          "headline": "Bitcoin Rises Above $80,000 As Soft Dollar, Debasement Fears Boost Momentum",
+          "url": "https://www.reuters.com/business/finance/bitcoin-rises-above-80000-soft-dollar-debasement-fears-boost-momentum-2026-08-25/",
+          "timestamp": 1787635140000,
+          "postedAt": 1787658479783
+        },
+        {
+          "headline": "Bitcoin Extends Gains As Crypto Rally Gathers Pace",
+          "url": "https://www.cnbc.com/2026/08/25/bitcoin-price-near-80000-cryptocurrency-ether-us-treasuries.html",
+          "timestamp": 1787627100000,
+          "postedAt": 1787658479783
+        },
+        {
+          "headline": "VW CEO Says Germany Must Shoulder Half Of Global Job Cuts",
+          "url": "https://www.marketscreener.com/news/vw-ceo-says-half-of-global-job-cuts-must-come-from-germany-ce7858d8db8df024",
+          "timestamp": 1787653516000,
+          "postedAt": 1787658479783
+        }
+      ]
+    },
+    {
+      "title": "IRAN AND OMAN MOVE TO REOPEN HORMUZ AS OIL SLIDES",
+      "stories": [
+        {
+          "headline": "Satellite Images Show Gulf Producers Ramping Up As Hormuz Talks Advance",
+          "url": "https://www.zerohedge.com/energy/oil-dumps-iran-oman-push-reopen-hormuz-satellite-image-show-gulf-producers-ramping",
+          "timestamp": 1787741700000,
+          "postedAt": 1787745248492
+        },
+        {
+          "headline": "Oil Prices Extend Slide As Iran And Oman Eye Temporary Hormuz Deal",
+          "url": "https://www.marketwatch.com/story/oil-prices-extend-slide-as-iran-and-oman-eye-temporary-hormuz-deal-a86a86bf",
+          "timestamp": 1787734440000,
+          "postedAt": 1787745248492
+        }
+      ]
+    },
+    {
+      "title": "BESSENT'S BOND-MARKET SHOWDOWN WITH THE FED",
+      "stories": [
+        {
+          "headline": "Bessent Goes On A Global 'Yield Trip' To Sell Treasurys Abroad",
+          "url": "https://www.cnbc.com/2026/08/24/prediction-market-traders-skeptical-bessent-will-send-yields-lower.html",
+          "timestamp": 1787739021000,
+          "postedAt": 1787745248492
+        },
+        {
+          "headline": "Bessent's Bond Intervention Puts Treasury On Collision Course With Fed",
+          "url": "https://www.tradingview.com/news/cryptobriefing:57eeb9b0f094b:0-us-treasury-s-bond-buyback-push-puts-bessent-on-a-collision-course-with-the-fed/",
+          "timestamp": 1787736679000,
+          "postedAt": 1787745248492
+        },
+        {
+          "headline": "Why Bessent Should Fear The Bond Market, Insiders Warn",
+          "url": "https://www.politico.com/news/2026/08/26/bessent-bonds-us-financial-market-01049797",
+          "timestamp": 1787734860000,
+          "postedAt": 1787745248492
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Best Buy Tops Quarterly Estimates, Raises Outlook On Computing Strength",
+        "url": "https://www.cnbc.com/2026/08/27/best-buy-bby-q2-2027-earnings.html",
+        "timestamp": 1787828465000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Trump Tariffs Pose New Headache For US Data Centers",
+        "url": "https://www.politico.com/news/2026/08/27/data-centers-chips-tariffs-threat-01050957",
+        "timestamp": 1787821200000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Jensen Huang's Dinner Companions See Their Stock Prices Double",
+        "url": "https://fortune.com/2026/08/27/nvidia-ceo-jensen-huang-eats-stock-doubles-q2/",
+        "timestamp": 1787807700000,
+        "photo": true,
+        "postedAt": 1787841369265,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Boston Scientific Cyberattack Causes 'Global Disruption' To Operations",
+        "url": "https://techcrunch.com/2026/08/26/medical-device-maker-boston-scientific-says-a-cyberattack-is-causing-a-global-disruption-to-its-operations/",
+        "timestamp": 1787768589000,
+        "photo": true,
+        "postedAt": 1787841369265,
+        "image": "/img/markets-3.jpg"
+      },
+      {
+        "headline": "What Happened To The So-Called AI Job Apocalypse?",
+        "url": "https://www.realclearmarkets.com/articles/2026/08/25/what_happened_to_the_so-called_ai_job_apocalypse_1201528.html",
+        "timestamp": 1787596765000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Buffett's Successor Greg Abel Has 30% Of Berkshire's Portfolio In Two AI Stocks",
+        "url": "https://www.fool.com/investing/2026/08/26/warren-buffett-abel-30-brka-portfolio-2-ai-stocks/",
+        "timestamp": 1787736933000,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "SoftBank Mulls Up To $20 Billion Bond Sale For OpenAI Financing",
+        "url": "https://www.reuters.com/world/asia-pacific/softbank-mulls-up-20-billion-bond-sale-openai-financing-bloomberg-news-reports-2026-08-26/",
+        "timestamp": 1787728252000,
+        "feature": true,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "Deloitte Agrees To Pay $21.5 Million To Settle DOJ DEI Probe",
+        "url": "https://www.foxbusiness.com/politics/deloitte-agrees-pay-21-5-million-settle-doj-probe-dei-practices",
+        "timestamp": 1787719800000,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "Citadel Securities Reverses Its Bearish Call On Long Bonds",
+        "url": "https://cryptobriefing.com/citadel-securities-flight-bullish-us-bonds/",
+        "timestamp": 1787704320000,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "Private Equity's $860 Billion Zombie Company Problem",
+        "url": "https://fortune.com/2026/08/25/private-equitys-860-billion-zombie-company-problem/",
+        "timestamp": 1787655240000,
+        "postedAt": 1787658479783
+      },
+      {
+        "headline": "Anthropic Tells SF Staff To Work From Home Amid Possible Security Strike",
+        "url": "https://cryptobriefing.com/anthropic-san-francisco-staff-work-from-home/",
+        "timestamp": 1787649138000,
+        "postedAt": 1787658479783
+      },
+      {
+        "headline": "Nvidia Employee Charged With Smuggling Advanced Chips Into China",
+        "url": "https://www.aljazeera.com/economy/2026/8/25/nvidia-supermicro-employees-charged-over-export-of-ai-servers-to-china",
+        "timestamp": 1787635871000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787658479783
+      },
+      {
+        "headline": "Options Action: Gold's Huge Month",
+        "url": "https://www.cnbc.com/video/2026/08/24/options-action-golds-huge-month.html",
+        "timestamp": 1787583569000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "Goldman Sachs Partner Warns Of 'Huge Danger' In Letting AI Replace Bankers' Reasoning",
+        "url": "https://www.cnbc.com/2026/08/24/goldman-sachs-ai-partner-danger-skills.html",
+        "timestamp": 1787583601000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "California Regulator Halts Talks With Paramount Over $111 Billion Warner Bros. Discovery Deal",
+        "url": "https://www.reuters.com/legal/litigation/california-cancels-talks-with-paramount-over-warner-bros-merger-nyt-reports-2026-08-24/",
+        "timestamp": 1787582324000,
+        "feature": true,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "FDA Approves Alzheimer's Blood Test Developed By Roche And Eli Lilly",
+        "url": "https://www.fiercebiotech.com/medtech/roche-eli-lilly-see-fda-approval-first-its-kind-alzheimers-biomarker-blood-test",
+        "timestamp": 1787574214000,
+        "postedAt": 1787585601797
+      }
+    ],
+    "center": [
+      {
+        "headline": "NVIDIA'S DEPENDENCE ON HYPERSCALERS FACES BIG TEST IN EARNINGS REPORT",
+        "url": "https://www.cnbc.com/2026/08/25/nvidias-dependence-on-hyperscalers-faces-big-test-in-earnings-report.html",
+        "timestamp": 1787745248492,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "US Goods-Trade Deficit Widens To Largest Since March 2025",
+        "url": "https://www.reuters.com/world/us/jobless-claims-dip-latest-week-goods-trade-deficit-widens-july-2026-08-27/",
+        "timestamp": 1787838133000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "US Probes Apex Logistics Over Alleged Nvidia Chip Smuggling",
+        "url": "https://qz.com/apex-logistics-kuehne-nagel-nvidia-chip-smuggling-china-082726",
+        "timestamp": 1787819045000,
+        "feature": true,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Bill Gates Warns AI Could Upend American Jobs",
+        "url": "https://www.cbsnews.com/news/bill-gates-ai-jobs-warning/",
+        "timestamp": 1787776500000,
+        "photo": true,
+        "postedAt": 1787841369265,
+        "image": "/img/markets-2.jpg"
+      },
+      {
+        "headline": "Salesforce Stock Jumps 18% On AI Growth, Anthropic Investment Gain",
+        "url": "https://www.cnbc.com/2026/08/26/salesforce-crm-q2-earnings-report-2027.html",
+        "timestamp": 1787774851000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "China's Moonshot In Talks With Microsoft, Amazon, Google Over K3 Revenue Sharing",
+        "url": "https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/",
+        "timestamp": 1787732085000,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "China Orders Huge Recall Of Tesla And Other Cars Over Safety Rules",
+        "url": "https://www.reuters.com/business/autos-transportation/china-flexes-its-auto-safety-chops-with-huge-recall-tesla-other-cars-2026-08-26/",
+        "timestamp": 1787712120000,
+        "photo": true,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "Musk's SpaceX To Build $100 Billion Launch Facility In Louisiana",
+        "url": "https://www.bbc.com/news/articles/cq5xel4v642o",
+        "timestamp": 1787707927000,
+        "photo": true,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "United Airlines Adds 2027 Routes Spanning Sardinia To Okinawa",
+        "url": "https://www.cnbc.com/2026/08/25/united-airlines-2027-international-routes.html",
+        "timestamp": 1787655601000,
+        "photo": true,
+        "postedAt": 1787658479783,
+        "image": "/img/markets-4.jpg"
+      },
+      {
+        "headline": "Nayax To Buy Parking-Technology Company For $350 Million",
+        "url": "https://www.marketwatch.com/story/nayax-to-buy-parking-technology-company-for-350-million-6926d2eb?mod",
+        "timestamp": 1787654760000,
+        "postedAt": 1787658479783
+      },
+      {
+        "headline": "Moderna Bets Big On Cancer Vaccine; Here's What Wall Street Wants To See",
+        "url": "https://www.aol.com/articles/moderna-stock-surge-177-cancer-091040000.html",
+        "timestamp": 1787582700000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "Samsung Plans Biggest-Ever Buyback Amid AI Windfall",
+        "url": "https://www.koreaherald.com/article/10849101",
+        "timestamp": 1787584817000,
+        "feature": true,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "How A Trump Intervention Got The DOJ Off Live Nation's Back",
+        "url": "https://thecurrency.news/articles/237566/the-trump-intervention-that-got-the-doj-off-live-nations-back/",
+        "timestamp": 1787581616000,
+        "photo": true,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "Hugging Face In Talks To Be Acquired For $13 Billion",
+        "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+        "timestamp": 1787579246000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "UPS To Invest $2 Billion In International, Healthcare And Supply Chain Units",
+        "url": "https://www.cnbc.com/2026/08/24/ups-global-logistics-investment.html",
+        "timestamp": 1787569201000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "Meta's Social Media Settlement Is Not Enough, Critics Say",
+        "url": "https://www.nbcdfw.com/news/national-international/time-limits-midnight-cutoff-meta-new-rules-for-kids-critics/4068670/",
+        "timestamp": 1787796780000,
+        "postedAt": 1787841369265
+      }
+    ],
+    "right": [
+      {
+        "headline": "Tiny AI Stock Has Crushed Micron And Nvidia This Year",
+        "url": "https://www.fool.com/investing/2026/08/27/this-tiny-ai-stock-has-crushed-micron-and-nvidia-t/",
+        "timestamp": 1787836950000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "India's Sensex Slips Below 77,000 Amid Market Volatility",
+        "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-27th-august-2026/article71392989.ece",
+        "timestamp": 1787779680000,
+        "photo": true,
+        "postedAt": 1787841369265,
+        "image": "/img/markets-1.jpg"
+      },
+      {
+        "headline": "The Real AI Boom Hasn't Yet Begun, RealClear Argues",
+        "url": "https://www.realclearmarkets.com/articles/2026/08/27/the_real_artificial_intelligence_boom_hasnt_yet_begun_1202472.html",
+        "timestamp": 1787771672000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Stock Market Nears Its Highest Valuation In History",
+        "url": "https://www.fool.com/investing/2026/08/27/stock-market-been-reaching-record-highs-history/",
+        "timestamp": 1787767200000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Shopping Malls Charge For Prime Parking, And It's Not Going Well",
+        "url": "https://www.usatoday.com/story/money/retail/2026/08/26/why-shopping-malls-are-charging-you-for-premium-parking/91450581007/",
+        "timestamp": 1787741400000,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "Soaring Summer Power Bills Spark Protests -- And Even Disconnections",
+        "url": "https://www.npr.org/2026/08/26/nx-s1-5943289/electric-bills-summer-heat-oklahoma-power",
+        "timestamp": 1787734860000,
+        "photo": true,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "Target Faces Renewed Backlash Over Halloween Costume With 'Minstrel Show' Features",
+        "url": "https://www.npr.org/2026/08/26/g-s1-140195/target-halloween-costume-backlash",
+        "timestamp": 1787723158000,
+        "photo": true,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "California Attorney General Ramps Up Criticism Of Paramount",
+        "url": "https://www.editorandpublisher.com/stories/california-attorney-general-ramps-up-criticism-of-paramount,263239",
+        "timestamp": 1787689860000,
+        "postedAt": 1787745248492
+      },
+      {
+        "headline": "TRUMP THREATENS TO DOUBLE TARIFFS ON CANADIAN AUTOS AS TRADE TALKS COLLAPSE",
+        "url": "https://www.reuters.com/business/autos-transportation/trump-says-he-will-raise-tariffs-all-cars-trucks-50-amid-canada-trade-spat-2026-08-24/",
+        "timestamp": 1787585601797,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "US Futures Higher Amid Ongoing Trade War With Canada",
+        "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24",
+        "timestamp": 1787655960000,
+        "postedAt": 1787658479783
+      },
+      {
+        "headline": "Lego Posts Record First-Half Revenue On Strong Sales",
+        "url": "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html",
+        "timestamp": 1787641201000,
+        "photo": true,
+        "postedAt": 1787658479783
+      },
+      {
+        "headline": "Scandal-Hit KPMG Australia To Cut Nearly 400 Jobs",
+        "url": "https://www.reuters.com/business/world-at-work/kpmg-australia-plans-cut-5-jobs-warns-soft-conditions-persist-2026-08-24/",
+        "timestamp": 1787584259000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "Taiwan Charges Nine In AI Server Smuggling Case Tied To China",
+        "url": "https://www.koreatimes.co.kr/amp/world/20260824/nvidia-worker-among-9-charged-in-taiwan-chip-smuggling-case",
+        "timestamp": 1787583180000,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "3 New Limited-Time Oreo Cookies Hit Stores Today",
+        "url": "https://www.usatoday.com/story/money/food/2026/08/24/oreo-limited-time-flavors-available-in-stores/91438064007/",
+        "timestamp": 1787574120000,
+        "photo": true,
+        "postedAt": 1787585601797
+      },
+      {
+        "headline": "UK: Eli Lilly Launches Foundayo Weight-Loss Pill",
+        "url": "https://www.reuters.com/legal/litigation/eli-lilly-launches-oral-weight-loss-pill-foundayo-uk-2026-08-23/",
+        "timestamp": 1787572560000,
+        "postedAt": 1787585601797
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,715.87",
+      "change": "+40.17",
+      "changePct": "+0.52%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "53,550.54",
+      "change": "+86.66",
+      "changePct": "+0.16%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "26,434.27",
+      "change": "+304.08",
+      "changePct": "+1.16%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr",
+      "value": "4.66%",
+      "change": "-0.00",
+      "changePct": "-0.04%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$4,629.60",
+      "change": "-23.70",
+      "changePct": "-0.51%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil",
+      "value": "$82.82",
+      "change": "+0.59",
+      "changePct": "+0.72%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$80,059.11",
+      "change": "+1,032.36",
+      "changePct": "+1.31%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}

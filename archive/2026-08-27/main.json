@@ -1,0 +1,466 @@
+{
+  "lastUpdated": 1787840281635,
+  "heroSetDate": "2026-08-27",
+  "hero": {
+    "headline": "Dolly Parton, country music icon, dies at 80",
+    "url": "https://www.nbcnews.com/news/us-news/dolly-parton-county-music-icon-dies-80-rcna236277",
+    "sublinks": [],
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "SECRET SERVICE LEAK PROBE WIDENS",
+      "stories": [
+        {
+          "headline": "Report: Secret Service Leaking On Trump; FBI, CIA Now Investigating",
+          "url": "https://www.dailymail.com/news/article-16081413",
+          "timestamp": 1787839888543,
+          "postedAt": 1787840281635
+        },
+        {
+          "headline": "More Officials Placed On Leave As Leak Probe Expands",
+          "url": "https://www.cnn.com/2026/08/25/politics/secret-service-officials-on-leave-misconduct-investigation",
+          "timestamp": 1787839888543,
+          "postedAt": 1787840281635
+        }
+      ]
+    },
+    {
+      "title": "US-CANADA TRADE WAR ESCALATES",
+      "stories": [
+        {
+          "headline": "Canada: Ottawa Threatens To Cut Electricity Supply To US",
+          "url": "https://www.independent.co.uk/b3038268.html",
+          "timestamp": 1787657008994,
+          "postedAt": 1787657451672
+        },
+        {
+          "headline": "US-Canada Trade War Spirals After Tariffs Take Effect",
+          "url": "https://apnews.com/53c4f83c8365c14b372b314396ae8179",
+          "timestamp": 1787657008994,
+          "postedAt": 1787657451672
+        },
+        {
+          "headline": "WSJ: Trump's Canada Tariffs Are His 'Dumbest' Move Yet",
+          "url": "https://www.huffpost.com/entry/wall-street-journal-blasts-trump-canada-feud_n_6a8c5ac2e4b0c0b31a43a380",
+          "timestamp": 1787657008994,
+          "postedAt": 1787657451672
+        },
+        {
+          "headline": "Does US Have Political Will To Outlast Canada Trade War?",
+          "url": "https://www.politico.com/news/2026/08/25/us-canadian-trade-war-political-will-01048491",
+          "timestamp": 1787648400000,
+          "postedAt": 1787657451672
+        },
+        {
+          "headline": "Piker's Violence Prediction Against Jews Rattles Michigan Race",
+          "url": "https://www.washingtontimes.com/news/2026/aug/24/hasan-pikers-prediction-violence-american-jews-rattles-michigan/",
+          "timestamp": 1787657008994,
+          "postedAt": 1787657451672
+        },
+        {
+          "headline": "El-Sayed 'Cuts Through' Watters's Fox News Attacks, Allies Say",
+          "url": "https://zeteo.com/p/abdul-el-sayed-went-on-fox-and-cut",
+          "timestamp": 1787655725000,
+          "postedAt": 1787657451672
+        },
+        {
+          "headline": "El-Sayed Clashes With Jesse Watters Over Immigration, Iran",
+          "url": "https://thehill.com/homenews/campaign/6048253-el-sayed-watters-immigration-iran/",
+          "timestamp": 1787625420000,
+          "postedAt": 1787657451672
+        },
+        {
+          "headline": "El-Sayed Distances Himself From Influencer's Remarks On Jews",
+          "url": "https://www.cnn.com/2026/08/24/politics/abdul-el-sayed-hasan-piker-statement",
+          "timestamp": 1787616840000,
+          "postedAt": 1787657451672
+        }
+      ]
+    },
+    {
+      "title": "MAMDANI'S NYC POLICY FIGHTS",
+      "stories": [
+        {
+          "headline": "Grocers Warn They'll 'Go After' Mamdani's Taxpayer-Backed Stores",
+          "url": "https://www.foxnews.com/politics/grocers-issue-warning-mamdanis-taxpayer-backed-stores-going-after-them",
+          "timestamp": 1787734817000,
+          "postedAt": 1787743952755
+        },
+        {
+          "headline": "Mamdani's Lawyers Defend Pied-À-Terre Tax Rollout In Court",
+          "url": "https://therealdeal.com/new-york/2026/08/25/co-ops-pied-a-terre-tax-problems-may-trigger-more-lawsuits/",
+          "timestamp": 1787700555000,
+          "postedAt": 1787743952755
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Secret Service places 3 officials on leave amid misconduct probe",
+        "url": "https://www.politico.com/news/2026/08/26/secret-service-misconduct-investigation",
+        "timestamp": 1787702400000,
+        "postedAt": 1787788799999,
+        "feature": true
+      },
+      {
+        "headline": "New Documents Refute RFK Jr.'s Claim Samoa Trip Wasn't About Vaccines",
+        "url": "https://apnews.com/article/rfk-jr-kennedy-samoa-vaccines-mmr-ba6ad3ffadca48599b1c178a392fb37b",
+        "timestamp": 1787832000000,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "Social Security's 'Benefit Cliff' Arrives As Washington Stalls",
+        "url": "https://www.politico.com/news/2026/08/27/social-security-insolvent-cliff-01050928",
+        "timestamp": 1787821200000,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "CIA Chief Made Secretive Moscow Trip To Warn Russia Against Attacking NATO",
+        "url": "https://www.cnbc.com/2026/08/27/ratcliffe-moscow-russia-nato-ukraine-iran.html",
+        "timestamp": 1787815662000,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "Maryland Republicans Win First Round In Redistricting Challenge",
+        "url": "https://marylandmatters.org/2026/08/26/maryland-republicans-take-round-one-in-redistricting-challenge/",
+        "timestamp": 1787800557000,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "Judge Blocks Texas Drag Show Ban, Citing Dolly Parton's Legacy",
+        "url": "https://thehill.com/regulation/court-battles/6052735-texas-drag-law-struck-down/",
+        "timestamp": 1787765100000,
+        "photo": true,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "Tim Curry dead at 80: Reports",
+        "url": "https://www.newsnationnow.com/entertainment-news/tim-curry-dead-rocky-horror/",
+        "timestamp": 1787702400000,
+        "postedAt": 1787788799999,
+        "feature": true
+      },
+      {
+        "headline": "Judge Deals Setback To Separate Trump Mail-In Ballot Plan",
+        "url": "https://www.reuters.com/world/us-supreme-court-lifts-judicial-hurdle-trumps-mail-in-ballot-curbs-2026-08-24/",
+        "timestamp": 1787718730000,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "American Bar Association Says It's 'Confident' It Can Fend Off Trump Accreditation Fight",
+        "url": "https://www.theblaze.com/news/woke-american-bar-association-confident-it-will-fend-off-trumps-fight-to-strip-it-of-law-school-accreditation-monopoly",
+        "timestamp": 1787742466000,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "Family Demands Answers After College Student Fatally Shot By Police At Wrong Door",
+        "url": "https://www.cbsnews.com/news/glenn-bubba-pysher-shooting-upper-pottsgrove-pennsylvania/",
+        "timestamp": 1787712183000,
+        "photo": true,
+        "postedAt": 1787743952755,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Montana Man Kills 8 Relatives, Including 4 Kids, At Sunday Dinner",
+        "url": "https://apnews.com/article/billings-montana-family-killed-house-burned-e977fa5e9cd635eea4e111ad8b2c79ff",
+        "timestamp": 1787710740000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "Inmates Convicted Of Child And Dog Rape Sue Washington State Over Denied Gender Care",
+        "url": "https://notthebee.com/article/male-inmates-sue-washington-for-denying-them-gender-care-they-are-in-prison-for-two-child-rapes-three-dog-rapes-and-one-baby-murder/",
+        "timestamp": 1787676334000,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "CIA Director Ratcliffe On USAF Cargo Jet Flight To Moscow",
+        "url": "https://www.zerohedge.com/geopolitical/us-air-force-c-17-makes-mysterious-visit-moscow",
+        "timestamp": 1787616000000,
+        "postedAt": 1787616000000,
+        "feature": true
+      },
+      {
+        "headline": "South Carolina Senate Runoff Set: Graham Vs. Norman",
+        "url": "https://www.theguardian.com/us-news/2026/aug/25/south-carolina-senate-runoff-election",
+        "timestamp": 1787652000000,
+        "postedAt": 1787657451672
+      },
+      {
+        "headline": "NJ Teens' Stolen G-Wagon Chase Kills Beloved Couple",
+        "url": "https://nypost.com/2026/08/25/us-news/4-nj-teens-steal-220k-g-wagon-lead-cops-on-hours-long-car-chase-before-crashing-killing-beloved-couple/",
+        "timestamp": 1787631300000,
+        "photo": true,
+        "postedAt": 1787657451672
+      },
+      {
+        "headline": "Forest Grove Quintuple Homicide Victims Identified",
+        "url": "https://www.kgw.com/article/news/crime/forest-grove-oregon-5-dead-murder-mass-homicide-kimsey-property-benjamin-parker/283-584a502e-0b47-4a62-913a-8e7857480486",
+        "timestamp": 1787613420000,
+        "postedAt": 1787657451672
+      },
+      {
+        "headline": "Report: Iran Puts $10 Million Bounty on the Head of Barron Trump",
+        "url": "https://www.breitbart.com/national-security/2026/08/24/report-iran-puts-10-million-bounty-on-the-head-of-barron-trump/",
+        "timestamp": 1787616000000,
+        "postedAt": 1787616000000,
+        "photo": true
+      },
+      {
+        "headline": "Illegal Immigrants Deported To Haiti On First Flight After Trump Ends TPS",
+        "url": "https://www.dailywire.com/news/exclusive-the-illegal-immigrants-deported-on-first-flight-to-haiti-after-trump-ended-tps",
+        "timestamp": 1787582827000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Illinois Officer Convicted In Sonya Massey Killing Dies",
+        "url": "https://www.theguardian.com/us-news/2026/aug/24/sonya-massey-illinois-sean-grayson-dies",
+        "timestamp": 1787582494000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Illegal-Alien Trucker With California License Charged In Fatal Mississippi Crash",
+        "url": "https://notthebee.com/article/cops-say-mississippi-resident-was-killed-by-illegal-alien-trucker-with-california-license/",
+        "timestamp": 1787578792000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Homicide Suspect Found Dead By Suicide After Five Bodies Found On Oregon Property",
+        "url": "https://www.koin.com/local/washington-county/forest-grove-death-investigation-press-conference-08232026/",
+        "timestamp": 1787517413000,
+        "photo": true,
+        "postedAt": 1787584087122
+      }
+    ],
+    "center": [
+      {
+        "headline": "Missouri Deputy AG Found Alive After 6 Days Missing On Wyoming Peak",
+        "url": "https://www.foxnews.com/us/missouri-deputy-ag-missing-6-days-seeking-summit-wyomings-tallest-peak-found-alive",
+        "timestamp": 1787832523000,
+        "photo": true,
+        "postedAt": 1787840281635,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Six Flags Rollercoaster Leaves Two Women Hospitalized With Same Brain Injury",
+        "url": "https://www.cnn.com/2026/08/27/us/six-flags-rollercoaster-brain-injury-invs",
+        "timestamp": 1787824830000,
+        "photo": true,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "Army Plans Nuclear Microreactors At Five Bases In $2.2B Energy Push",
+        "url": "https://www.foxbusiness.com/energy/us-army-plans-nuclear-microreactors-5-military-bases-part-2-2b-energy-security-push",
+        "timestamp": 1787803140000,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "Accused 9/11 Plotters Set To Stand Trial In 2028",
+        "url": "https://www.axios.com/2026/08/27/911-attacks-khalid-sheikh-mohammed-trial-2028",
+        "timestamp": 1787789298000,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "Michigan House Candidate Called Baltimore Bridge Collapse A 'Climate Activist's Dream'",
+        "url": "https://freebeacon.com/democrats/michigan-democratic-house-candidate-called-fatal-baltimore-bridge-collapse-a-climate-activist-dream-and-praised-the-houthis-in-bizarre-podcast/",
+        "timestamp": 1787779554000,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "Billionaire NFL Owner Arrested At Trailer Park In Prostitution Sting",
+        "url": "https://www.theblaze.com/news/nfl-owner-prostitution-arrest-trailer",
+        "timestamp": 1787743133000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "Montana Shooting, House Fire Leave Multiple Dead, Including Children",
+        "url": "https://www.nbcnews.com/news/us-news/multiple-dead-children-billings-montana-shooting-fire-rcna594239",
+        "timestamp": 1787628600000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787657451672,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "Firefighters Gain Ground On Nevada Wildfire That Destroyed 30 Homes",
+        "url": "https://apnews.com/article/hawk-fire-reno-nevada-evacuations-b572e2a15fe6a263231e04ea932cf6c8",
+        "timestamp": 1787617560000,
+        "postedAt": 1787657451672
+      },
+      {
+        "headline": "Father Awaiting Son's Return From USS Lincoln Deployment Arrested By Border Patrol",
+        "url": "https://apnews.com/article/uss-lincoln-soldier-immigrant-detention-trump-8697cd00f0b3099a0c03932e40f674db",
+        "timestamp": 1787583647165,
+        "photo": true,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Golf Channel Responds To Backlash Over Ad Showing Woman Shoved",
+        "url": "https://www.dailywire.com/news/golf-channel-responds-to-backlash-over-ad-showing-woman-shoved",
+        "timestamp": 1787583167000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "'90210' Alum AnnaLynne McCord Marries Danny Cipriani After Crowdfunding Wedding",
+        "url": "https://pagesix.com/2026/08/24/celebrity-news/90210-alum-annalynne-mccord-marries-danny-cipriani-after-crowdfunding-for-wedding/",
+        "timestamp": 1787582100000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "U.S. Military Kills Two In Boat Attack In Pacific",
+        "url": "https://www.cbsnews.com/news/us-military-destroys-alleged-drug-boat-pacific-deaths/",
+        "timestamp": 1787576437000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Fast-Moving Wildfire Forces Thousands To Evacuate Near Reno, Nevada",
+        "url": "https://www.nbcnews.com/news/us-news/fast-moving-wildfire-shifting-winds-threatens-reno-nevada-forcing-thou-rcna594079",
+        "timestamp": 1787571914000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Farmers Oppose Trump's Plan To Import Beef",
+        "url": "https://www.newsnationnow.com/business/your-money/farmers-oppose-trump-importing-beef-prices/",
+        "timestamp": 1787542711000,
+        "postedAt": 1787584087122
+      }
+    ],
+    "right": [
+      {
+        "headline": "Designer Creates World's Most Hideous Hawaiian Shirt To Beat AI Surveillance",
+        "url": "https://futurism.com/future-society/hideous-shirt-hide-artist-ai-surveillance-camera",
+        "timestamp": 1787839888543,
+        "photo": true,
+        "postedAt": 1787840281635,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "DHS Probe Finds FEMA Left Trump Supporters To Fend For Themselves After Hurricane",
+        "url": "https://www.theblaze.com/news/fema-trump-biden-hurricane-noem",
+        "timestamp": 1787838043000,
+        "photo": true,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "Nasdaq Leads Wall Street Rally After Nvidia Eases AI Fears",
+        "url": "https://www.reuters.com/business/nasdaq-futures-take-lead-after-nvidia-forecast-refuels-ai-trade-2026-08-27/",
+        "timestamp": 1787837746000,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "Lindsay Clancy Murder Trial Heads To Closing Arguments",
+        "url": "https://www.cbsnews.com/boston/live-updates/lindsay-clancy-trial-live-updates-closing-arguments/",
+        "timestamp": 1787837400000,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "ICE Officer Charged In Minneapolis Shooting Released After Extradition Fight",
+        "url": "https://apnews.com/article/minnesota-texas-ice-shooting-christian-castro-extradition-d1299b21657fe35afae615386d40552d",
+        "timestamp": 1787834040000,
+        "feature": true,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "Florida Man Arrested For Destroying Decoy Flock Surveillance Camera",
+        "url": "https://notthebee.com/article/florida-man-arrested-for-destroying-decoy-flock-camera/",
+        "timestamp": 1787763316000,
+        "postedAt": 1787840281635
+      },
+      {
+        "headline": "Democrats Obsess Over Hasan Piker While Giving Trump, Rogers A Pass",
+        "url": "https://zeteo.com/p/dems-obsess-over-hasan-piker-give",
+        "timestamp": 1787742594000,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "Trump Admin Pauses Visa Appointments Worldwide Amid Heightened Screening",
+        "url": "https://www.foxnews.com/politics/trump-immigrant-visa-interview-pause",
+        "timestamp": 1787730117000,
+        "postedAt": 1787743952755
+      },
+      {
+        "headline": "Kennedy Center Finances Deteriorated Sharply After Trump Name Change",
+        "url": "https://foxchattanooga.com/news/nation-world/kennedy-center-projects-23-million-deficit-after-trump-name-change-documents-show",
+        "timestamp": 1787700891000,
+        "photo": true,
+        "postedAt": 1787743952755,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "IRAN'S CURRENCY CRASHES TO RECORD LOW AS U.S. READIES NEW SANCTIONS",
+        "url": "https://apnews.com/article/iran-rial-currency-bessent-trade-august-24-2026-e367634d8853c8fa4a341132cd577f31",
+        "timestamp": 1787584087122,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Study Finds At Least 1 In 4 NFL Players Get Brain Disease",
+        "url": "https://www.npr.org/2026/08/25/nx-s1-5943168/cte-nfl-concussions-deaths-study",
+        "timestamp": 1787648409000,
+        "photo": true,
+        "postedAt": 1787657451672
+      },
+      {
+        "headline": "Lockerbie Bombing Trial Postponed Days Before Start",
+        "url": "https://www.bbc.com/news/articles/cq63rmj1zl1o",
+        "timestamp": 1787641143000,
+        "postedAt": 1787657451672
+      },
+      {
+        "headline": "Cirque Du Soleil Acrobat Files $16M Lawsuit Over Bone-Breaking Fall",
+        "url": "https://www.oregonlive.com/portland/2026/08/cirque-du-soleil-performer-sues-for-16m-after-she-breaks-11-bones-in-fall-before-portland-crowd.html",
+        "timestamp": 1787583060000,
+        "photo": true,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Metals Recovered By Russia From Alleged UFO Not From Earth, Investigator Claims",
+        "url": "https://www.newsnationnow.com/space/metals-recovered-russia-alleged-ufo-ross-coulthart/",
+        "timestamp": 1787583051000,
+        "photo": true,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Trump Administration Moves To Impose $100,000 Fee For H-1B Visas",
+        "url": "https://www.reuters.com/legal/government/trump-administration-moves-impose-more-than-100000-fee-h-1b-worker-visas-2026-08-24/",
+        "timestamp": 1787578493000,
+        "feature": true,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Lawsuit Targets Mamdani's Government Grocery Store Plan",
+        "url": "https://www.foxbusiness.com/politics/big-apple-targeted-lawsuit-over-mamdanis-government-grocery-store-plans",
+        "timestamp": 1787574480000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Inside Trump's Push To Remake Global Women's Health Policy",
+        "url": "https://www.wric.com/news/politics/ap-inside-trumps-remake-of-the-white-house-rose-garden-first-a-stone-patio-then-statues/",
+        "timestamp": 1787544000000,
+        "postedAt": 1787584087122
+      },
+      {
+        "headline": "Trump Says Communities Opposing Data Centers Are 'Making A Mistake'",
+        "url": "https://www.axios.com/2026/08/23/trump-data-centers-michael-cohen-interview",
+        "timestamp": 1787578975000,
+        "postedAt": 1787584087122
+      }
+    ]
+  },
+  "balance": {
+    "left": 109,
+    "right": 65,
+    "independent": 2,
+    "days": 30,
+    "total": 174,
+    "pctLeft": 63,
+    "pctRight": 37
+  }
+}
