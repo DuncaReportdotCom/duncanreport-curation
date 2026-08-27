@@ -2721,8 +2721,10 @@ def curate_live(section):
               "these candidates - do not invent stories, headlines, or URLs. In your output set each "
               "story's url field to that candidate's id (e.g. c7), NOT a real URL, and use its ts (Unix "
               "ms) as the timestamp. Build hero, groups, and columns per SCHEMA.md, following the "
-              "EDITORIAL DIRECTION. For hero.sublinks pick 2-4 DIFFERENT candidates about the same hero "
-              "story, each a distinct angle (a development, reaction, analysis, or key detail); write each "
+              "EDITORIAL DIRECTION. For hero.sublinks pick 4-6 DIFFERENT candidates about the same hero "
+              "story (aim for at least 4 whenever the coverage exists) - the lead story deserves depth, so "
+              "give the reader MULTIPLE PERSPECTIVES on it, deliberately spanning LEFT and RIGHT outlets. "
+              "Each is a distinct angle (a development, reaction, analysis, or key detail); write each "
               "sublink text to describe its OWN unique angle - never restate the headline or repeat "
               "another sublink. CRITICAL: each distinct news event may appear ONLY ONCE across the entire page (hero, groups, and columns combined). If several candidates cover the same event, use only the single best one; never list the same event as multiple items and never repeat the hero story in the groups or columns. For MAJOR narrative groups (main page) you MAY add an \"editorials\" array to a group: 2-4 candidate ids of opinion pieces (arc='editorial') about that narrative, from DIFFERENT outlets spanning left and right (the outlet name is the label; there is no 'center'). If the hero is a major, still-developing breaking event and some candidates have \"live\": true, add a \"liveUpdates\" array to the hero: up to 3 candidate ids of live-update pages from different major outlets. Use candidate ids for editorials and liveUpdates too - never invent URLs; omit these fields when they do not apply. Output ONLY the JSON object in a ```json block."
               "%s\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
@@ -4583,6 +4585,14 @@ def _load_manual_picks():
         for p in picks:
             if not isinstance(p, dict):
                 continue
+            if p.get("panel") and isinstance(p.get("stories"), list):     # focus-section (titled panel)
+                sts = [{"headline": (s.get("headline") or "").strip(), "url": (s.get("url") or "").strip()}
+                       for s in p["stories"] if isinstance(s, dict) and s.get("url") and s.get("headline")]
+                if len(sts) >= 2:
+                    clean.append({"panel": p["panel"].strip(), "added": (p.get("added") or today), "stories": sts})
+                else:
+                    print("  manual_picks: panel '%s' in %s needs 2+ stories - skipped" % (p.get("panel"), sec))
+                continue
             url = (p.get("url") or "").strip()
             headline = (p.get("headline") or "").strip()
             if not url or not headline:
@@ -4615,6 +4625,25 @@ def apply_manual_picks(section, data):
             added = int(datetime.datetime(y, m, d).timestamp() * 1000)
         except Exception:
             added = now
+        if p.get("panel"):                       # focus-section: inject a titled group of related stories
+            if now - added >= THREE_DAYS_MS:
+                continue
+            urls = {s.get("url") for s in (p.get("stories") or []) if s.get("url")}
+            if not urls:
+                continue
+            cols = data.setdefault("columns", {})
+            for k in ("left", "center", "right"):     # de-dupe: pull these stories out of columns/panels
+                cols[k] = [s for s in (cols.get(k) or []) if s.get("url") not in urls]
+            regrouped = []
+            for g in (data.get("groups") or []):
+                st = [s for s in (g.get("stories") or []) if s.get("url") not in urls]
+                if st:
+                    regrouped.append({**g, "stories": st})
+            gstories = [{"headline": s["headline"], "url": s["url"], "timestamp": added,
+                         "postedAt": added + 86400000 - 1} for s in p["stories"] if s.get("url")]
+            regrouped.insert(0, {"title": p["panel"], "stories": gstories})   # focus section leads the panels
+            data["groups"] = regrouped
+            continue
         url = p.get("url")
         if not url or now - added >= THREE_DAYS_MS:
             continue
