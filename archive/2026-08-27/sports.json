@@ -194,8 +194,7 @@
         "url": "https://www.mmafighting.com/ufc/507278/bella-mir-releases-statement-following-disappointing-contender-series-loss",
         "timestamp": 1787792220000,
         "photo": true,
-        "postedAt": 1787840615448,
-        "image": "/img/sports-1.jpg"
+        "postedAt": 1787840615448
       },
       {
         "headline": "Week 0 what to watch: UNC looks for revenge against TCU",
@@ -260,7 +259,8 @@
         "timestamp": 1787581020000,
         "feature": true,
         "photo": true,
-        "postedAt": 1787584346508
+        "postedAt": 1787584346508,
+        "image": "/img/sports-4.jpg"
       },
       {
         "headline": "Jiri Prochazka Shoots Down UFC Fight Rumors",
@@ -372,7 +372,7 @@
         "timestamp": 1787605200000,
         "photo": true,
         "postedAt": 1787657718877,
-        "image": "/img/sports-4.jpg"
+        "image": "/img/sports-3.jpg"
       },
       {
         "headline": "UK: Premier League Opening Weekend Winners And Losers",
@@ -444,7 +444,7 @@
         "timestamp": 1787712877000,
         "photo": true,
         "postedAt": 1787744377058,
-        "image": "/img/sports-2.jpg"
+        "image": "/img/sports-1.jpg"
       },
       {
         "headline": "Seahawks Safety Bud Clark Out For Season With Ankle Injury",
@@ -465,7 +465,7 @@
         "timestamp": 1787646456000,
         "photo": true,
         "postedAt": 1787657718877,
-        "image": "/img/sports-3.jpg"
+        "image": "/img/sports-2.jpg"
       },
       {
         "headline": "Giants' Malik Nabers Expected Ready For Season Opener",
