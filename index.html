@@ -798,9 +798,10 @@ function fetchLiveScoreboard() {
             else { if (t && (t - now) >= 0 && (t - now) < 5*DAY) { g.awayScore = null; g.homeScore = null; g.note = whenNote(g.note, t); upcoming.push(g); } }
           } catch(e) {}
         });
-        if (finals.length) { var md = Math.max.apply(null, finals.map(function(g){ return etday(g._t); })); finals = finals.filter(function(g){ return etday(g._t) === md; }); }
+        var _todayET = etday(now);
+        finals = finals.filter(function(g){ return etday(g._t) === _todayET; });   // only games finished TODAY - never yesterday's
         if (upcoming.length) { var sd = Math.min.apply(null, upcoming.map(function(g){ return etday(g._t); })); upcoming = upcoming.filter(function(g){ return etday(g._t) === sd; }); }
-        byLeague[league] = live.concat(upcoming, finals);   // live, then next game, then last game
+        byLeague[league] = live.concat(upcoming, finals);   // live, then today's next game, then today's finals
       }).catch(function(){});
   })).then(function() {
     var games = [];
