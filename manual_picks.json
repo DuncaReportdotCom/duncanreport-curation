@@ -28,35 +28,24 @@
       "added": "2026-08-23"
     },
     {
-      "headline": "Report: Iran Puts $10 Million Bounty on the Head of Barron Trump",
-      "url": "https://www.breitbart.com/national-security/2026/08/24/report-iran-puts-10-million-bounty-on-the-head-of-barron-trump/",
-      "added": "2026-08-25",
-      "photo": true
-    },
-    {
-      "headline": "CIA Director Ratcliffe On USAF Cargo Jet Flight To Moscow",
-      "url": "https://www.zerohedge.com/geopolitical/us-air-force-c-17-makes-mysterious-visit-moscow",
-      "added": "2026-08-25",
-      "feature": true
-    },
-    {
-      "headline": "Dolly Parton, country music icon, dies at 80",
-      "url": "https://www.nbcnews.com/news/us-news/dolly-parton-county-music-icon-dies-80-rcna236277",
-      "added": "2026-08-25",
-      "photo": true,
-      "hero": true
-    },
-    {
-      "headline": "Tim Curry dead at 80: Reports",
-      "url": "https://www.newsnationnow.com/entertainment-news/tim-curry-dead-rocky-horror/",
-      "added": "2026-08-26",
-      "feature": true
-    },
-    {
-      "headline": "Secret Service places 3 officials on leave amid misconduct probe",
-      "url": "https://www.politico.com/news/2026/08/26/secret-service-misconduct-investigation",
-      "added": "2026-08-26",
-      "feature": true
+      "hero": true,
+      "added": "2026-08-27",
+      "headline": "FLASH FLOOD ON THE NEPAL-TIBET BORDER KILLS 157, HUNDREDS OF TOURISTS MISSING",
+      "url": "https://www.nbcnews.com/world/asia/flash-flood-nepal-tibet-villages-destroyed-american-tourists-missing-rcna594473",
+      "sublinks": [
+        {
+          "text": "BBC: live updates on the Nepal-Tibet flood disaster",
+          "url": "https://www.bbc.com/news/live/c6y8mjmnpxv0t"
+        },
+        {
+          "text": "Landslide blocked the Bhote Koshi river, sending a torrent downstream",
+          "url": "https://time.com/article/2026/08/26/hundreds-feared-dead-including-foreign-tourists-after-flash-floods-in-nepal/"
+        },
+        {
+          "text": "Video: the torrent sweeps away the Tibet-Nepal border crossing",
+          "url": "https://x.com/ravipandey2643/status/2092559194453098786"
+        }
+      ]
     }
   ],
   "markets": [
@@ -98,14 +87,6 @@
       "headline": "FBI Seizes Eric Swalwell's Devices in Sexual Misconduct Probe",
       "url": "https://www.cbsnews.com/news/swalwell-fbi-search-warrants-devices-sexual-misconduct-investigation/",
       "added": "2026-08-20"
-    }
-  ],
-  "sports": [
-    {
-      "headline": "Week 0 what to watch: UNC looks for revenge against TCU",
-      "url": "https://sports.yahoo.com/college-football/article/week-0-what-to-watch-unc-looks-for-revenge-against-tcu-nc-state-virginia-open-with-acc-matchup-185338432.html",
-      "added": "2026-08-26",
-      "feature": true
     }
   ]
 }
