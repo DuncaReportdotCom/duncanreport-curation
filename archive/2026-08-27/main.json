@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787840281635,
+  "lastUpdated": 1787844130020,
   "heroSetDate": "2026-08-27",
   "hero": {
     "headline": "Dolly Parton, country music icon, dies at 80",
@@ -209,34 +209,15 @@
         "timestamp": 1787616000000,
         "postedAt": 1787616000000,
         "photo": true
-      },
-      {
-        "headline": "Illegal Immigrants Deported To Haiti On First Flight After Trump Ends TPS",
-        "url": "https://www.dailywire.com/news/exclusive-the-illegal-immigrants-deported-on-first-flight-to-haiti-after-trump-ended-tps",
-        "timestamp": 1787582827000,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "Illinois Officer Convicted In Sonya Massey Killing Dies",
-        "url": "https://www.theguardian.com/us-news/2026/aug/24/sonya-massey-illinois-sean-grayson-dies",
-        "timestamp": 1787582494000,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "Illegal-Alien Trucker With California License Charged In Fatal Mississippi Crash",
-        "url": "https://notthebee.com/article/cops-say-mississippi-resident-was-killed-by-illegal-alien-trucker-with-california-license/",
-        "timestamp": 1787578792000,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "Homicide Suspect Found Dead By Suicide After Five Bodies Found On Oregon Property",
-        "url": "https://www.koin.com/local/washington-county/forest-grove-death-investigation-press-conference-08232026/",
-        "timestamp": 1787517413000,
-        "photo": true,
-        "postedAt": 1787584087122
       }
     ],
     "center": [
+      {
+        "headline": "Americans Face Surging Toilet Paper Prices Amid Canada Trade War",
+        "url": "https://www.theguardian.com/us-news/2026/aug/26/paper-product-toilet-paper-tariffs-us-canada",
+        "timestamp": 1787843512508,
+        "postedAt": 1787844130020
+      },
       {
         "headline": "Missouri Deputy AG Found Alive After 6 Days Missing On Wyoming Peak",
         "url": "https://www.foxnews.com/us/missouri-deputy-ag-missing-6-days-seeking-summit-wyomings-tallest-peak-found-alive",
@@ -292,48 +273,22 @@
         "url": "https://apnews.com/article/hawk-fire-reno-nevada-evacuations-b572e2a15fe6a263231e04ea932cf6c8",
         "timestamp": 1787617560000,
         "postedAt": 1787657451672
-      },
-      {
-        "headline": "Father Awaiting Son's Return From USS Lincoln Deployment Arrested By Border Patrol",
-        "url": "https://apnews.com/article/uss-lincoln-soldier-immigrant-detention-trump-8697cd00f0b3099a0c03932e40f674db",
-        "timestamp": 1787583647165,
-        "photo": true,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "Golf Channel Responds To Backlash Over Ad Showing Woman Shoved",
-        "url": "https://www.dailywire.com/news/golf-channel-responds-to-backlash-over-ad-showing-woman-shoved",
-        "timestamp": 1787583167000,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "'90210' Alum AnnaLynne McCord Marries Danny Cipriani After Crowdfunding Wedding",
-        "url": "https://pagesix.com/2026/08/24/celebrity-news/90210-alum-annalynne-mccord-marries-danny-cipriani-after-crowdfunding-for-wedding/",
-        "timestamp": 1787582100000,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "U.S. Military Kills Two In Boat Attack In Pacific",
-        "url": "https://www.cbsnews.com/news/us-military-destroys-alleged-drug-boat-pacific-deaths/",
-        "timestamp": 1787576437000,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "Fast-Moving Wildfire Forces Thousands To Evacuate Near Reno, Nevada",
-        "url": "https://www.nbcnews.com/news/us-news/fast-moving-wildfire-shifting-winds-threatens-reno-nevada-forcing-thou-rcna594079",
-        "timestamp": 1787571914000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "Farmers Oppose Trump's Plan To Import Beef",
-        "url": "https://www.newsnationnow.com/business/your-money/farmers-oppose-trump-importing-beef-prices/",
-        "timestamp": 1787542711000,
-        "postedAt": 1787584087122
       }
     ],
     "right": [
+      {
+        "headline": "Wind Projects Replaced By $900 Million Payday To Trump Donor's Firm",
+        "url": "https://www.msn.com/en-us/money/general/how-wind-projects-got-replaced-by-a-900-million-payday-to-a-trump-donor-s-firm/ar-AA2b25Pn",
+        "timestamp": 1787843512507,
+        "feature": true,
+        "postedAt": 1787844130020
+      },
+      {
+        "headline": "Seattle's Brewing Backlash Against DSA Politics",
+        "url": "https://www.nationalreview.com/corner/the-brewing-anti-dsa-backlash-in-seattle/",
+        "timestamp": 1787842633000,
+        "postedAt": 1787844130020
+      },
       {
         "headline": "Designer Creates World's Most Hideous Hawaiian Shirt To Beat AI Surveillance",
         "url": "https://futurism.com/future-society/hideous-shirt-hide-artist-ai-surveillance-camera",
@@ -395,12 +350,6 @@
         "image": "/img/main-3.jpg"
       },
       {
-        "headline": "IRAN'S CURRENCY CRASHES TO RECORD LOW AS U.S. READIES NEW SANCTIONS",
-        "url": "https://apnews.com/article/iran-rial-currency-bessent-trade-august-24-2026-e367634d8853c8fa4a341132cd577f31",
-        "timestamp": 1787584087122,
-        "postedAt": 1787584087122
-      },
-      {
         "headline": "Study Finds At Least 1 In 4 NFL Players Get Brain Disease",
         "url": "https://www.npr.org/2026/08/25/nx-s1-5943168/cte-nfl-concussions-deaths-study",
         "timestamp": 1787648409000,
@@ -412,54 +361,15 @@
         "url": "https://www.bbc.com/news/articles/cq63rmj1zl1o",
         "timestamp": 1787641143000,
         "postedAt": 1787657451672
-      },
-      {
-        "headline": "Cirque Du Soleil Acrobat Files $16M Lawsuit Over Bone-Breaking Fall",
-        "url": "https://www.oregonlive.com/portland/2026/08/cirque-du-soleil-performer-sues-for-16m-after-she-breaks-11-bones-in-fall-before-portland-crowd.html",
-        "timestamp": 1787583060000,
-        "photo": true,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "Metals Recovered By Russia From Alleged UFO Not From Earth, Investigator Claims",
-        "url": "https://www.newsnationnow.com/space/metals-recovered-russia-alleged-ufo-ross-coulthart/",
-        "timestamp": 1787583051000,
-        "photo": true,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "Trump Administration Moves To Impose $100,000 Fee For H-1B Visas",
-        "url": "https://www.reuters.com/legal/government/trump-administration-moves-impose-more-than-100000-fee-h-1b-worker-visas-2026-08-24/",
-        "timestamp": 1787578493000,
-        "feature": true,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "Lawsuit Targets Mamdani's Government Grocery Store Plan",
-        "url": "https://www.foxbusiness.com/politics/big-apple-targeted-lawsuit-over-mamdanis-government-grocery-store-plans",
-        "timestamp": 1787574480000,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "Inside Trump's Push To Remake Global Women's Health Policy",
-        "url": "https://www.wric.com/news/politics/ap-inside-trumps-remake-of-the-white-house-rose-garden-first-a-stone-patio-then-statues/",
-        "timestamp": 1787544000000,
-        "postedAt": 1787584087122
-      },
-      {
-        "headline": "Trump Says Communities Opposing Data Centers Are 'Making A Mistake'",
-        "url": "https://www.axios.com/2026/08/23/trump-data-centers-michael-cohen-interview",
-        "timestamp": 1787578975000,
-        "postedAt": 1787584087122
       }
     ]
   },
   "balance": {
-    "left": 109,
-    "right": 65,
+    "left": 106,
+    "right": 62,
     "independent": 2,
     "days": 30,
-    "total": 174,
+    "total": 168,
     "pctLeft": 63,
     "pctRight": 37
   }
