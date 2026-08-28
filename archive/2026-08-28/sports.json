@@ -18,21 +18,9 @@
       "title": "NFL PRESEASON FINALE WEEK: ROSTER BATTLES HEAT UP",
       "stories": [
         {
-          "headline": "Browns' Todd Monken Praises Dillon Gabriel, Taylen Green",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-happy-with-dillon-gabriel-and-taylen-green-but-we-cant-keep-everybody",
-          "timestamp": 1787916508000,
-          "postedAt": 1787920338754
-        },
-        {
           "headline": "Who's Rising, Falling After Steelers' Preseason Finale Vs Bills",
           "url": "https://www.post-gazette.com/sports/steelers/2026/08/27/steelers-will-howard-germie-bernard-max-iheanachor/stories/202608270038",
           "timestamp": 1787905530000,
-          "postedAt": 1787920338754
-        },
-        {
-          "headline": "Kubiak Mum On Raiders Starter As Fernando Mendoza Struggles",
-          "url": "https://www.espn.com/nfl/story/_/id/49749940/kubiak-mum-raiders-starter-fernando-mendoza-struggles",
-          "timestamp": 1787896680000,
           "postedAt": 1787920338754
         },
         {
@@ -42,21 +30,9 @@
           "postedAt": 1787920338754
         },
         {
-          "headline": "49ers Studs And Duds: RB Jordan James, Depth Ends Shine",
-          "url": "https://www.mercurynews.com/2026/08/27/49ers-studs-and-duds-rb-jordan-james-depth-des-shine-in-preseason-finale/",
-          "timestamp": 1787885972000,
-          "postedAt": 1787920338754
-        },
-        {
           "headline": "NFL Preseason Week 3 Recap: Fantasy Takeaways From Thursday's Games",
           "url": "https://www.pff.com/news/fantasy-football-preseason-week-3-thursday-recap-immediate-takeaways",
           "timestamp": 1787877540000,
-          "postedAt": 1787920338754
-        },
-        {
-          "headline": "Bears' Joint Practice: Another Elite DT Gives Offensive Line Fits",
-          "url": "https://www.chicagotribune.com/2026/08/27/chicago-bears-tennessee-titans-joint-practice/",
-          "timestamp": 1787873265000,
           "postedAt": 1787920338754
         },
         {
@@ -64,23 +40,6 @@
           "url": "https://www.seattletimes.com/sports/seahawks/seahawks-preseason-finale-will-be-jalen-milroe-show-once-again/",
           "timestamp": 1787868222000,
           "postedAt": 1787920338754
-        }
-      ]
-    },
-    {
-      "title": "ENES KANTER FREEDOM, ROYCE WHITE'S WNBA DRAFT BID",
-      "stories": [
-        {
-          "headline": "Aaliyah Edwards Posts Career-High 26 As Sun Top Sky",
-          "url": "https://deadspin.com/aaliyah-edwards-posts-career-high-26-as-sun-top-sky/",
-          "timestamp": 1787725920000,
-          "postedAt": 1787744377058
-        },
-        {
-          "headline": "Dallas Wings Clinch Final WNBA Playoff Berth With 23rd Win",
-          "url": "https://www.espn.com/wnba/story/_/id/49728293/dallas-wings-secure-final-wnba-playoff-berth-23rd-win",
-          "timestamp": 1787716200000,
-          "postedAt": 1787744377058
         }
       ]
     },
@@ -196,6 +155,18 @@
         "timestamp": 1787699778000,
         "feature": true,
         "postedAt": 1787744377058
+      },
+      {
+        "headline": "Browns' Todd Monken Praises Dillon Gabriel, Taylen Green",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-happy-with-dillon-gabriel-and-taylen-green-but-we-cant-keep-everybody",
+        "timestamp": 1787916508000,
+        "postedAt": 1787920338754
+      },
+      {
+        "headline": "Bears' Joint Practice: Another Elite DT Gives Offensive Line Fits",
+        "url": "https://www.chicagotribune.com/2026/08/27/chicago-bears-tennessee-titans-joint-practice/",
+        "timestamp": 1787873265000,
+        "postedAt": 1787920338754
       }
     ],
     "center": [
@@ -292,6 +263,18 @@
         "url": "https://www.foxnews.com/outkick-sports/us-olympic-hero-nancy-hogshead-launches-petition-calling-wnba-restrict-gender-eligibility",
         "timestamp": 1787697138000,
         "postedAt": 1787744377058
+      },
+      {
+        "headline": "Kubiak Mum On Raiders Starter As Fernando Mendoza Struggles",
+        "url": "https://www.espn.com/nfl/story/_/id/49749940/kubiak-mum-raiders-starter-fernando-mendoza-struggles",
+        "timestamp": 1787896680000,
+        "postedAt": 1787920338754
+      },
+      {
+        "headline": "Aaliyah Edwards Posts Career-High 26 As Sun Top Sky",
+        "url": "https://deadspin.com/aaliyah-edwards-posts-career-high-26-as-sun-top-sky/",
+        "timestamp": 1787725920000,
+        "postedAt": 1787744377058
       }
     ],
     "right": [
@@ -383,6 +366,18 @@
         "headline": "Freedom 250 Delivers Huge Ratings Bump For IndyCar On Fox",
         "url": "https://racer.com/2026/08/25/freedom-250-delivers-huge-ratings-bump-for-indycar-on-fox",
         "timestamp": 1787696040000,
+        "postedAt": 1787744377058
+      },
+      {
+        "headline": "49ers Studs And Duds: RB Jordan James, Depth Ends Shine",
+        "url": "https://www.mercurynews.com/2026/08/27/49ers-studs-and-duds-rb-jordan-james-depth-des-shine-in-preseason-finale/",
+        "timestamp": 1787885972000,
+        "postedAt": 1787920338754
+      },
+      {
+        "headline": "Dallas Wings Clinch Final WNBA Playoff Berth With 23rd Win",
+        "url": "https://www.espn.com/wnba/story/_/id/49728293/dallas-wings-secure-final-wnba-playoff-berth-23rd-win",
+        "timestamp": 1787716200000,
         "postedAt": 1787744377058
       }
     ]
@@ -519,9 +514,9 @@
       "home": "CHC",
       "away": "CIN",
       "state": "in",
-      "note": "Top 1st",
-      "homeScore": "0",
-      "awayScore": "0"
+      "note": "Top 6th",
+      "homeScore": "3",
+      "awayScore": "2"
     },
     {
       "league": "MLB",

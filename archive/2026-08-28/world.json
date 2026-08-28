@@ -88,52 +88,6 @@
       ]
     },
     {
-      "title": "NEPAL-TIBET FLOOD DISASTER",
-      "stories": [
-        {
-          "headline": "India Placed On High Alert As Himalayan Flood Toll Climbs",
-          "url": "https://m.economictimes.com/news/international/world-news/nepal-flash-flood-2026-updates-death-toll-missing-tibet-border-himalayas-floods-latest-news/articleshow/133556062.cms",
-          "timestamp": 1787837325000,
-          "postedAt": 1787841053821
-        },
-        {
-          "headline": "A Look Back At The World's Deadliest Glacier Disasters",
-          "url": "https://www.reuters.com/business/environment/worlds-deadliest-glacier-disasters-2026-08-27/",
-          "timestamp": 1787827064000,
-          "postedAt": 1787841053821
-        }
-      ]
-    },
-    {
-      "title": "UKRAINE WAR",
-      "stories": [
-        {
-          "headline": "Russia Threatens To Strike UK Military Targets Over British Missiles",
-          "url": "https://www.reuters.com/world/europe/russia-says-it-could-strike-uk-military-targets-response-ukrainian-strikes-using-2026-08-27/",
-          "timestamp": 1787827969000,
-          "postedAt": 1787841053821
-        },
-        {
-          "headline": "Car Bomb Kills Military Officer In St. Petersburg",
-          "url": "https://www.themoscowtimes.com/2026/08/27/car-bomb-kills-military-officer-in-st-petersburg-a93586",
-          "timestamp": 1787823060000,
-          "postedAt": 1787841053821
-        },
-        {
-          "headline": "Baltic States Arm Up As Leaked Letter Shows Growing Russia Fears",
-          "url": "https://www.rferl.org/a/baltics-russia-security-threat-eu-letter-nato-defense/33840594.html",
-          "timestamp": 1787812018000,
-          "postedAt": 1787841053821
-        },
-        {
-          "headline": "Kremlin Sources Say Putin Preparing To Escalate War, Possibly With Tactical Nuke",
-          "url": "https://meduza.io/en/feature/2026/08/26/kremlin-sources-tell-bloomberg-that-putin-is-preparing-to-escalate-the-war-in-ukraine-a-growing-number-of-russian-officials-believe-that-could-eventually-mean-a-tactical-nuclear-weapon",
-          "timestamp": 1787777340000,
-          "postedAt": 1787841053821
-        }
-      ]
-    },
-    {
       "title": "SOUTH KOREA'S JEJU MISSING-PERSON SCANDAL",
       "stories": [
         {
@@ -276,6 +230,12 @@
         "url": "https://www.atlanticcouncil.org/blogs/ukrainealert/russias-war-will-not-end-until-putin-accepts-ukrainian-independence/",
         "timestamp": 1787691000000,
         "postedAt": 1787744839563
+      },
+      {
+        "headline": "Baltic States Arm Up As Leaked Letter Shows Growing Russia Fears",
+        "url": "https://www.rferl.org/a/baltics-russia-security-threat-eu-letter-nato-defense/33840594.html",
+        "timestamp": 1787812018000,
+        "postedAt": 1787841053821
       }
     ],
     "center": [
@@ -365,7 +325,7 @@
         "timestamp": 1787743680000,
         "photo": true,
         "postedAt": 1787744839563,
-        "image": "/img/world-2.jpg"
+        "image": "/img/world-0.jpg"
       },
       {
         "headline": "French PM Visits Mayotte To Speed Cyclone Reconstruction",
@@ -397,6 +357,18 @@
         "url": "https://oilprice.com/Energy/Energy-General/UK-Tax-Rises-Back-on-the-Table-as-Burnham-Faces-Fiscal-Crunch.html",
         "timestamp": 1787684400000,
         "postedAt": 1787744839563
+      },
+      {
+        "headline": "Russia Threatens To Strike UK Military Targets Over British Missiles",
+        "url": "https://www.reuters.com/world/europe/russia-says-it-could-strike-uk-military-targets-response-ukrainian-strikes-using-2026-08-27/",
+        "timestamp": 1787827969000,
+        "postedAt": 1787841053821
+      },
+      {
+        "headline": "Kremlin Sources Say Putin Preparing To Escalate War, Possibly With Tactical Nuke",
+        "url": "https://meduza.io/en/feature/2026/08/26/kremlin-sources-tell-bloomberg-that-putin-is-preparing-to-escalate-the-war-in-ukraine-a-growing-number-of-russian-officials-believe-that-could-eventually-mean-a-tactical-nuclear-weapon",
+        "timestamp": 1787777340000,
+        "postedAt": 1787841053821
       }
     ],
     "right": [
@@ -444,8 +416,7 @@
         "url": "https://www.straitstimes.com/videos/6404181643112",
         "timestamp": 1787914629000,
         "photo": true,
-        "postedAt": 1787920786200,
-        "image": "/img/world-0.jpg"
+        "postedAt": 1787920786200
       },
       {
         "headline": "UK: Defence Secretary's Budget Avoids Setting 3% Spending Date",
@@ -464,8 +435,7 @@
         "url": "https://www.straitstimes.com/world/europe/tunisia-recovers-bodies-of-last-missing-migrants-from-sunken-boat",
         "timestamp": 1787839740000,
         "photo": true,
-        "postedAt": 1787841053821,
-        "image": "/img/world-1.jpg"
+        "postedAt": 1787841053821
       },
       {
         "headline": "Suspect Arrested In Mexico Livestream Killing Of Influencer",
@@ -511,6 +481,24 @@
         "timestamp": 1787700366000,
         "feature": true,
         "postedAt": 1787744839563
+      },
+      {
+        "headline": "India Placed On High Alert As Himalayan Flood Toll Climbs",
+        "url": "https://m.economictimes.com/news/international/world-news/nepal-flash-flood-2026-updates-death-toll-missing-tibet-border-himalayas-floods-latest-news/articleshow/133556062.cms",
+        "timestamp": 1787837325000,
+        "postedAt": 1787841053821
+      },
+      {
+        "headline": "A Look Back At The World's Deadliest Glacier Disasters",
+        "url": "https://www.reuters.com/business/environment/worlds-deadliest-glacier-disasters-2026-08-27/",
+        "timestamp": 1787827064000,
+        "postedAt": 1787841053821
+      },
+      {
+        "headline": "Car Bomb Kills Military Officer In St. Petersburg",
+        "url": "https://www.themoscowtimes.com/2026/08/27/car-bomb-kills-military-officer-in-st-petersburg-a93586",
+        "timestamp": 1787823060000,
+        "postedAt": 1787841053821
       }
     ]
   }

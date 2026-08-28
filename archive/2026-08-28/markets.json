@@ -40,30 +40,6 @@
           "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-post-strongest-weekly-154700094.html",
           "timestamp": 1787604129000,
           "postedAt": 1787841369265
-        },
-        {
-          "headline": "Nvidia Will Be The Most Profitable Company In The US Next Year",
-          "url": "https://www.theglobeandmail.com/investing/markets/stocks/MU/pressreleases/4268669/nvidia-just-guided-for-70-revenue-growth-in-fiscal-year-2028-heres-what-that-means-for-ai-stocks/",
-          "timestamp": 1787915880000,
-          "postedAt": 1787921159134
-        },
-        {
-          "headline": "Jensen Huang Says He Favors Taxes But Disagrees With Bill Gates On AI Fallout Plan",
-          "url": "https://fortune.com/2026/08/28/jensen-huang-bill-gates-ai-tax-wealth-society-jobs/",
-          "timestamp": 1787912580000,
-          "postedAt": 1787921159134
-        },
-        {
-          "headline": "Nvidia Pauses Revenue-Sharing Deals With AI Cloud Companies",
-          "url": "https://www.reuters.com/business/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports-2026-08-27/",
-          "timestamp": 1787867160000,
-          "postedAt": 1787921159134
-        },
-        {
-          "headline": "S&P 500 Futures Mixed As Investors Count Down To Warsh's Jackson Hole Address",
-          "url": "https://www.cnbc.com/2026/08/27/stock-market-today-live-updates.html",
-          "timestamp": 1787912040000,
-          "postedAt": 1787921159134
         }
       ]
     },
@@ -193,6 +169,12 @@
         "url": "https://cryptobriefing.com/citadel-securities-flight-bullish-us-bonds/",
         "timestamp": 1787704320000,
         "postedAt": 1787745248492
+      },
+      {
+        "headline": "Jensen Huang Says He Favors Taxes But Disagrees With Bill Gates On AI Fallout Plan",
+        "url": "https://fortune.com/2026/08/28/jensen-huang-bill-gates-ai-tax-wealth-society-jobs/",
+        "timestamp": 1787912580000,
+        "postedAt": 1787921159134
       }
     ],
     "center": [
@@ -275,6 +257,18 @@
         "url": "https://www.nbcdfw.com/news/national-international/time-limits-midnight-cutoff-meta-new-rules-for-kids-critics/4068670/",
         "timestamp": 1787796780000,
         "postedAt": 1787841369265
+      },
+      {
+        "headline": "Nvidia Will Be The Most Profitable Company In The US Next Year",
+        "url": "https://www.theglobeandmail.com/investing/markets/stocks/MU/pressreleases/4268669/nvidia-just-guided-for-70-revenue-growth-in-fiscal-year-2028-heres-what-that-means-for-ai-stocks/",
+        "timestamp": 1787915880000,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "Nvidia Pauses Revenue-Sharing Deals With AI Cloud Companies",
+        "url": "https://www.reuters.com/business/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports-2026-08-27/",
+        "timestamp": 1787867160000,
+        "postedAt": 1787921159134
       }
     ],
     "right": [
@@ -360,63 +354,69 @@
         "url": "https://www.editorandpublisher.com/stories/california-attorney-general-ramps-up-criticism-of-paramount,263239",
         "timestamp": 1787689860000,
         "postedAt": 1787745248492
+      },
+      {
+        "headline": "S&P 500 Futures Mixed As Investors Count Down To Warsh's Jackson Hole Address",
+        "url": "https://www.cnbc.com/2026/08/27/stock-market-today-live-updates.html",
+        "timestamp": 1787912040000,
+        "postedAt": 1787921159134
       }
     ]
   },
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,711.37",
-      "change": "-19.62",
-      "changePct": "-0.25%",
+      "value": "7,714.95",
+      "change": "-16.04",
+      "changePct": "-0.21%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "53,543.45",
-      "change": "-25.99",
-      "changePct": "-0.05%",
-      "up": false,
+      "value": "53,574.84",
+      "change": "+5.40",
+      "changePct": "+0.01%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,410.45",
-      "change": "-130.90",
-      "changePct": "-0.49%",
+      "value": "26,422.84",
+      "change": "-118.51",
+      "changePct": "-0.45%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
-      "value": "4.73%",
-      "change": "+0.06",
-      "changePct": "+1.20%",
+      "value": "4.72%",
+      "change": "+0.05",
+      "changePct": "+1.03%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Gold",
-      "value": "$4,503.10",
-      "change": "-160.90",
-      "changePct": "-3.45%",
+      "value": "$4,508.90",
+      "change": "-155.10",
+      "changePct": "-3.33%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$83.48",
-      "change": "-0.05",
-      "changePct": "-0.06%",
+      "value": "$83.41",
+      "change": "-0.12",
+      "changePct": "-0.14%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$77,516.04",
-      "change": "-2,745.82",
-      "changePct": "-3.42%",
+      "value": "$77,468.57",
+      "change": "-2,793.29",
+      "changePct": "-3.48%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     }

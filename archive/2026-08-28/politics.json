@@ -27,29 +27,6 @@
   },
   "groups": [
     {
-      "title": "IMMIGRATION POLICY FIGHTS",
-      "stories": [
-        {
-          "headline": "ICE Arrests Of Immigrants With No Criminal Record Are Soaring",
-          "url": "https://minnesotareformer.com/2026/08/25/ice-arrests-in-minnesota-return-to-pre-surge-levels-while-soaring-nationwide/",
-          "timestamp": 1787921069000,
-          "postedAt": 1787921830923
-        },
-        {
-          "headline": "Trump DOJ Sues Four States Over In-State Tuition For Illegal Immigrants",
-          "url": "https://thepostmillennial.com/trump-doj-sues-arizona-new-mexico-oregon-washington-over-in-state-tuition-for-illegal-immigrants",
-          "timestamp": 1787919779000,
-          "postedAt": 1787921830923
-        },
-        {
-          "headline": "Analysis Argues For One-Year TPS Extension For Salvadorans",
-          "url": "https://www.realclearpolitics.com/articles/2026/08/28/extend_tps_for_salvadorans_for_one_year_154449.html",
-          "timestamp": 1787918553000,
-          "postedAt": 1787921830923
-        }
-      ]
-    },
-    {
       "title": "2026 MIDTERM PRIMARY RESULTS",
       "stories": [
         {
@@ -63,36 +40,6 @@
           "url": "https://www.politico.com/news/2026/08/25/mazzei-wins-oklahoma-governor-runoff-01050323",
           "timestamp": 1787713440000,
           "postedAt": 1787746055850
-        },
-        {
-          "headline": "Democratic Socialists Notch Win In Oklahoma Senate Runoff",
-          "url": "https://www.nbcnews.com/politics/2026-election/nkiyla-jasmine-thomas-wins-oklahoma-senate-primary-democrat-rcna593618",
-          "timestamp": 1787705400000,
-          "postedAt": 1787746055850
-        },
-        {
-          "headline": "David Scott's Daughter Defeated In Georgia House Special Election",
-          "url": "https://thehill.com/homenews/campaign/6047844-blair-wins-georgia-house-special-election/",
-          "timestamp": 1787704920000,
-          "postedAt": 1787746055850
-        },
-        {
-          "headline": "Feds Uncover U.N.-Oct. 7 Link As El-Sayed Pushes Funding For Group",
-          "url": "https://www.dailywire.com/news/feds-uncover-disturbing-u-n-oct-7-link-as-el-sayed-pushes-more-cash-for-org?elementPosition",
-          "timestamp": 1787840642000,
-          "postedAt": 1787841959790
-        },
-        {
-          "headline": "Democrats Focus On Piker While Giving Trump, Rogers A Pass, Critic Says",
-          "url": "https://zeteo.com/p/dems-obsess-over-hasan-piker-give",
-          "timestamp": 1787742594000,
-          "postedAt": 1787746055850
-        },
-        {
-          "headline": "Talarico Calls Voter Fraud Claims Against Him 'Non-Existent' In Texas Senate Race",
-          "url": "https://thefederalist.com/2026/08/28/exclusive-james-talarico-dogged-by-voter-fraud-accusations-says-voter-fraud-is-non-existent-in-texas/",
-          "timestamp": 1787916619000,
-          "postedAt": 1787921830923
         }
       ]
     },
@@ -143,23 +90,6 @@
           "headline": "Maryland Republicans Win Round One In Redistricting Challenge",
           "url": "https://marylandmatters.org/2026/08/26/maryland-republicans-take-round-one-in-redistricting-challenge/",
           "timestamp": 1787800557000,
-          "postedAt": 1787841959790
-        }
-      ]
-    },
-    {
-      "title": "US WEIGHS NATO POSTURE AMID RUSSIA TENSIONS",
-      "stories": [
-        {
-          "headline": "Trump, Hegseth Weigh Pulling US Troops From Europe",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/hegseth-pentagon-troops-europe-nato-b3040124.html",
-          "timestamp": 1787815680000,
-          "postedAt": 1787841959790
-        },
-        {
-          "headline": "CIA Chief Ratcliffe Made Secret Moscow Trip To Warn Russia Against NATO Attack",
-          "url": "https://www.cnbc.com/2026/08/27/ratcliffe-moscow-russia-nato-ukraine-iran.html",
-          "timestamp": 1787815662000,
           "postedAt": 1787841959790
         }
       ]
@@ -240,6 +170,36 @@
         "url": "https://www.foxnews.com/politics/grocers-issue-warning-mamdanis-taxpayer-backed-stores-going-after-them",
         "timestamp": 1787734817000,
         "postedAt": 1787746055850
+      },
+      {
+        "headline": "ICE Arrests Of Immigrants With No Criminal Record Are Soaring",
+        "url": "https://minnesotareformer.com/2026/08/25/ice-arrests-in-minnesota-return-to-pre-surge-levels-while-soaring-nationwide/",
+        "timestamp": 1787921069000,
+        "postedAt": 1787921830923
+      },
+      {
+        "headline": "Trump DOJ Sues Four States Over In-State Tuition For Illegal Immigrants",
+        "url": "https://thepostmillennial.com/trump-doj-sues-arizona-new-mexico-oregon-washington-over-in-state-tuition-for-illegal-immigrants",
+        "timestamp": 1787919779000,
+        "postedAt": 1787921830923
+      },
+      {
+        "headline": "Democratic Socialists Notch Win In Oklahoma Senate Runoff",
+        "url": "https://www.nbcnews.com/politics/2026-election/nkiyla-jasmine-thomas-wins-oklahoma-senate-primary-democrat-rcna593618",
+        "timestamp": 1787705400000,
+        "postedAt": 1787746055850
+      },
+      {
+        "headline": "Feds Uncover U.N.-Oct. 7 Link As El-Sayed Pushes Funding For Group",
+        "url": "https://www.dailywire.com/news/feds-uncover-disturbing-u-n-oct-7-link-as-el-sayed-pushes-more-cash-for-org?elementPosition",
+        "timestamp": 1787840642000,
+        "postedAt": 1787841959790
+      },
+      {
+        "headline": "Talarico Calls Voter Fraud Claims Against Him 'Non-Existent' In Texas Senate Race",
+        "url": "https://thefederalist.com/2026/08/28/exclusive-james-talarico-dogged-by-voter-fraud-accusations-says-voter-fraud-is-non-existent-in-texas/",
+        "timestamp": 1787916619000,
+        "postedAt": 1787921830923
       }
     ],
     "center": [
@@ -323,6 +283,30 @@
         "url": "https://www.axios.com/2026/08/25/rubio-iran-war-hormuz-oil",
         "timestamp": 1787725961000,
         "postedAt": 1787746055850
+      },
+      {
+        "headline": "Analysis Argues For One-Year TPS Extension For Salvadorans",
+        "url": "https://www.realclearpolitics.com/articles/2026/08/28/extend_tps_for_salvadorans_for_one_year_154449.html",
+        "timestamp": 1787918553000,
+        "postedAt": 1787921830923
+      },
+      {
+        "headline": "David Scott's Daughter Defeated In Georgia House Special Election",
+        "url": "https://thehill.com/homenews/campaign/6047844-blair-wins-georgia-house-special-election/",
+        "timestamp": 1787704920000,
+        "postedAt": 1787746055850
+      },
+      {
+        "headline": "Democrats Focus On Piker While Giving Trump, Rogers A Pass, Critic Says",
+        "url": "https://zeteo.com/p/dems-obsess-over-hasan-piker-give",
+        "timestamp": 1787742594000,
+        "postedAt": 1787746055850
+      },
+      {
+        "headline": "Trump, Hegseth Weigh Pulling US Troops From Europe",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/hegseth-pentagon-troops-europe-nato-b3040124.html",
+        "timestamp": 1787815680000,
+        "postedAt": 1787841959790
       }
     ],
     "right": [
@@ -427,6 +411,12 @@
         "timestamp": 1787695200000,
         "photo": true,
         "postedAt": 1787746055850
+      },
+      {
+        "headline": "CIA Chief Ratcliffe Made Secret Moscow Trip To Warn Russia Against NATO Attack",
+        "url": "https://www.cnbc.com/2026/08/27/ratcliffe-moscow-russia-nato-ukraine-iran.html",
+        "timestamp": 1787815662000,
+        "postedAt": 1787841959790
       }
     ]
   },

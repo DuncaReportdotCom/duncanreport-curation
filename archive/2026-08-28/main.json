@@ -112,8 +112,7 @@
         "url": "https://www.2news.com/news/fire/83-year-old-reno-woman-dies-from-injuries-sustained-in-hawk-fire-community-meeting-thursday/article_fdf51688-9d3a-4089-9254-b50a2927f3b5.html",
         "timestamp": 1787879269000,
         "photo": true,
-        "postedAt": 1787920070577,
-        "image": "/img/main-2.jpg"
+        "postedAt": 1787920070577
       },
       {
         "headline": "'Idiocracy' Predicted Our World, But Not In The Way You Think",
@@ -224,7 +223,7 @@
         "timestamp": 1787862233000,
         "photo": true,
         "postedAt": 1787920070577,
-        "image": "/img/main-3.jpg"
+        "image": "/img/main-2.jpg"
       },
       {
         "headline": "Americans Face Surging Toilet Paper Prices Amid Canada Trade War",
@@ -237,7 +236,8 @@
         "url": "https://www.foxnews.com/us/missouri-deputy-ag-missing-6-days-seeking-summit-wyomings-tallest-peak-found-alive",
         "timestamp": 1787832523000,
         "photo": true,
-        "postedAt": 1787840281635
+        "postedAt": 1787840281635,
+        "image": "/img/main-4.jpg"
       },
       {
         "headline": "Six Flags Rollercoaster Leaves Two Women Hospitalized With Same Brain Injury",
@@ -333,7 +333,7 @@
         "timestamp": 1787839888543,
         "photo": true,
         "postedAt": 1787840281635,
-        "image": "/img/main-4.jpg"
+        "image": "/img/main-3.jpg"
       },
       {
         "headline": "DHS Probe Finds FEMA Left Trump Supporters To Fend For Themselves After Hurricane",
