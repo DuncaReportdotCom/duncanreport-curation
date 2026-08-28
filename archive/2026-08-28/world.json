@@ -1,35 +1,21 @@
 {
-  "lastUpdated": 1787920786200,
+  "lastUpdated": 1787942106524,
   "heroSetDate": "2026-08-28",
   "hero": {
-    "headline": "NEPAL-CHINA FLOOD DEATH TOLL TOPS 500 AS NEW LAKE THREAT LOOMS",
-    "url": "https://apnews.com/article/nepal-tibet-china-glacier-floods-ae9973b5fd2b1dc6d54c3e88b1b55bdc",
+    "headline": "NEPAL FLOOD MISSING TOLL SURGES PAST 2,000 AS GLACIAL LAKE THREAT LOOMS",
+    "url": "https://www.lemonde.fr/en/international/article/2026/08/28/nepal-floods-number-of-missing-jumps-to-over-2-000_6756944_4.html",
     "sublinks": [
       {
-        "text": "Rescue Operations Resume After Barrier Lake Threat Eases",
-        "url": "https://www.reuters.com/business/environment/rescuers-scour-nepal-flood-debris-risk-fresh-flooding-grows-2026-08-28/"
+        "text": "Rescuers Pull Mud-Caked Survivors From Wreckage",
+        "url": "https://apnews.com/article/nepal-tibet-china-glacier-floods-ae9973b5fd2b1dc6d54c3e88b1b55bdc"
       },
       {
-        "text": "Survivors Describe Desperate Escape From Rushing Floodwaters",
-        "url": "https://www.rfi.fr/en/international-news/20260828-ran-for-our-lives-tales-of-survival-from-nepal-china-disaster"
-      },
-      {
-        "text": "Officials Warn Of Further Flooding As Barrier Lake Overflows Again",
-        "url": "https://www.straitstimes.com/videos/6404193965112"
-      },
-      {
-        "text": "Rescue Effort Was Paused Earlier When Lake Broke Its Banks",
-        "url": "https://www.dw.com/en/nepal-china-flood-rescue-on-hold-as-lake-breaks-banks/a-78539559"
+        "text": "Drone Footage Shows Himalayan Glacier Collapse That Triggered Flood",
+        "url": "https://www.bbc.com/news/videos/ckg8l9gpvqdo"
       }
     ],
-    "liveUpdates": [
-      {
-        "source": "NYT",
-        "url": "https://www.nytimes.com/live/2026/08/27/world/nepal-tibet-flash-floods"
-      }
-    ],
-    "postedAt": 1787920786200,
-    "img": false
+    "postedAt": 1787942106524,
+    "img": true
   },
   "groups": [
     {
@@ -168,6 +154,18 @@
   "columns": {
     "left": [
       {
+        "headline": "Norway's King Harald, Who Fled Nazis As A Child, Modernized The Monarchy",
+        "url": "https://www.npr.org/2026/08/28/nx-s1-5947778/norways-king-harald-v-dies-king-haakon-viii",
+        "timestamp": 1787936075000,
+        "postedAt": 1787942106524
+      },
+      {
+        "headline": "Fed Chair Warsh Signals Rate Hikes May Be Needed As Inflation Stays Elevated",
+        "url": "https://apnews.com/article/federal-reserve-warsh-interest-trump-inflation-ab896df808df3a5a3fa8b943ac5f3867",
+        "timestamp": 1787937600000,
+        "postedAt": 1787942106524
+      },
+      {
         "headline": "Taiwan Election Body Rejects Referendum On Reviving Caning",
         "url": "https://www.straitstimes.com/asia/taiwan-election-commission-rejects-caning-referendum-proposal",
         "timestamp": 1787915940000,
@@ -230,13 +228,6 @@
         "postedAt": 1787841053821
       },
       {
-        "headline": "Norway's King Harald In 'Very Serious' Health Condition",
-        "url": "https://nypost.com/2026/08/27/world-news/norways-king-harald-hospitalized-in-very-serious-health-condition/",
-        "timestamp": 1787818980000,
-        "photo": true,
-        "postedAt": 1787841053821
-      },
-      {
         "headline": "Putin, Sharaa Discuss Deepening Ties In Phone Call, Kremlin Says",
         "url": "https://www.timesofisrael.com/liveblog_entry/putin-sharaa-speak-by-phone-discuss-deepening-ties-kremlin-says/",
         "timestamp": 1787740795000,
@@ -288,6 +279,18 @@
       }
     ],
     "center": [
+      {
+        "headline": "Israeli Strikes Kill Five In Gaza As Iran Touts New Russia Energy Deal",
+        "url": "https://apnews.com/article/middle-east-iran-israel-august-28-2026-6c8334dbec806f41666ff75e728768b8",
+        "timestamp": 1787935680000,
+        "postedAt": 1787942106524
+      },
+      {
+        "headline": "Hindu Nationalist Leader Spurs Protests Ahead Of New York City Speech",
+        "url": "https://apnews.com/article/hindu-nationalist-rss-mohan-bhagwat-new-york-protest-934a58a17a491eeeb71fd9285378121a",
+        "timestamp": 1787937000000,
+        "postedAt": 1787942106524
+      },
       {
         "headline": "India Signs Deal With US To Buy Javelin Anti-Tank Missiles",
         "url": "https://www.reuters.com/world/india/india-plans-buy-javelin-anti-tank-missile-system-us-ambassador-india-says-2026-08-28/",
@@ -397,6 +400,20 @@
       }
     ],
     "right": [
+      {
+        "headline": "Violence Breaks Out In Ceuta As Migrant Crisis Continues",
+        "url": "https://www.bbc.com/news/articles/cy9zj11gwzxo",
+        "timestamp": 1787934659000,
+        "feature": true,
+        "postedAt": 1787942106524
+      },
+      {
+        "headline": "Six Injured After Sign Falls At Christian Festival Near Steyning",
+        "url": "https://www.bbc.com/news/articles/cwyz52x45jxo",
+        "timestamp": 1787937291000,
+        "photo": true,
+        "postedAt": 1787942106524
+      },
       {
         "headline": "'BUTCHER OF BOSNIA' RATKO MLADIC DIES AT 84 IN HAGUE PRISON",
         "url": "https://www.reuters.com/world/bosnian-serb-general-ratko-mladic-convicted-genocide-has-died-un-official-says-2026-08-27/",

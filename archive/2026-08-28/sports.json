@@ -518,10 +518,10 @@
       "league": "MLB",
       "home": "CHC",
       "away": "CIN",
-      "state": "scheduled",
-      "note": "8/28 - 2:20 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Top 1st",
+      "homeScore": "0",
+      "awayScore": "0"
     },
     {
       "league": "MLB",
