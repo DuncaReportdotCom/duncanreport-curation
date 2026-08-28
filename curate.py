@@ -3134,7 +3134,19 @@ def _valid_image(path, min_bytes=3000, min_dim=200):
             im.verify()                     # detect truncation / corruption
         with Image.open(path) as im2:
             w, h = im2.size
-        return w >= min_dim and h >= min_dim
+            if not (w >= min_dim and h >= min_dim):
+                return False
+            # Reject near-solid-color PLACEHOLDERS (a colored block with a couple of letters or a
+            # logo - not a real photo): quantize to 16 colors; if one covers 85%+ of the frame it is
+            # effectively blank. Wrapped so any error fails OPEN and a real photo is never dropped.
+            try:
+                q = im2.convert("RGB").resize((64, 64)).quantize(colors=16)
+                cnts = q.getcolors(64 * 64) or []
+                if cnts and max(c[0] for c in cnts) / float(64 * 64) > 0.85:
+                    return False
+            except Exception:
+                pass
+        return True
     except Exception:
         return False
 
@@ -3598,8 +3610,8 @@ RCP_GENERIC = "https://www.realclearpolling.com/polls/state-of-the-union/generic
 # Generic congressional ballot (Dem vs Rep) - RealClearPolitics average, cited to RCP and
 # refreshed live from Wikipedia's House-polling aggregators table. This dated snapshot is the
 # safety net when the live parse is unavailable.
-GENERIC_FALLBACK = {"name": "Generic Congressional Vote", "value": "Dem +6.5",
-                    "sub": "", "url": RCP_GENERIC, "asOf": "Aug 5, 2026"}
+GENERIC_FALLBACK = {"name": "Generic Congressional Vote", "value": "Dem +6.4",
+                    "sub": "", "url": RCP_GENERIC, "asOf": "Aug 27, 2026"}
 POLL_FALLBACK = [
     {"name": "Trump Approval", "value": "39%/58%", "sub": "", "url": RCP_APPROVAL, "asOf": "Aug 7, 2026"},
     dict(GENERIC_FALLBACK),
@@ -3685,8 +3697,13 @@ def _fmt_margin(margin):
     return ("%.1f" % margin).rstrip("0").rstrip(".")   # 7.0 -> "7", 6.5 -> "6.5"
 
 def _generic_ballot_item():
-    """Build the Generic Congressional Vote strip item: live RCP lead via Wikipedia when
-    available (e.g. 'Dem +6.5'), otherwise the dated fallback. Cited to the RCP ballot page."""
+    """Generic Congressional Vote strip item. PINNED to GENERIC_FALLBACK for now: Wikipedia's
+    aggregator row was lagging behind the real RCP average (showing 6.1 when RCP was 6.4), so we use
+    the hand-set value instead of the live pull. UPDATE `GENERIC_FALLBACK` (value + asOf) whenever RCP
+    moves. To re-enable the live Wikipedia fetch, restore the _wikipedia_generic_ballot() block below.
+    """
+    return dict(GENERIC_FALLBACK)
+    # --- live pull (disabled while Wikipedia lags; restore to re-enable) ---
     gb = _wikipedia_generic_ballot()
     if gb:
         leader, margin, date = gb
