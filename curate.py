@@ -2975,6 +2975,62 @@ def _same_subject(a, b):
         return True
     return len(_group_sig(a) & _group_sig(b)) >= 3
 
+# Category / scheduling words that are NOT a subject on their own - two WNBA game stories share
+# "WNBA" but that does not make them the same subject as an "Enes Kanter / Royce White" panel.
+_CATEGORY_TERMS = set((
+    "wnba nba nfl mlb nhl mls ncaa ncaaf ncaab ncaam ufc mma boxing pga lpga golf nascar indycar f1 "
+    "formula tennis atp wta epl premier uefa fifa olympics olympic paralympic soccer football basketball "
+    "baseball hockey game games matchup matchups score scores scoreboard win wins won winning loss losses "
+    "lose lost beat beats defeat defeats defeated tops topped rout blowout final finals playoff playoffs "
+    "postseason standings roster schedule results result recap roundup highlights preview week weeks day "
+    "days today tonight tomorrow watch guide coverage").split())
+
+def _panel_subject(g):
+    """The SPECIFIC subject terms a panel's stories must share - the title's significant tokens minus
+    generic-news and sport/category words. Empty when the title is only a category (leave it alone)."""
+    return _sig_norm(g.get("title") or "") - _CATEGORY_TERMS
+
+def enforce_panel_purity(data):
+    """Deterministic safeguard against off-topic / padded panels: a story stays in a panel only if it
+    shares a SPECIFIC subject term with the panel title (category words like 'WNBA' don't count). Any
+    story that doesn't is moved out to a column; a panel left with fewer than 2 on-topic stories is
+    dissolved (its title claimed a subject the stories don't cover) and its stories become column
+    items. Never relies on the model. Category-only titles are left untouched."""
+    groups = data.get("groups") or []
+    kept, orphans = [], []
+    for g in groups:
+        subj = _panel_subject(g)
+        stories = g.get("stories") or []
+        if not subj or len(stories) < 2:
+            kept.append(g); continue
+        good = [s for s in stories if (_sig_norm(s.get("headline") or "") - _CATEGORY_TERMS) & subj]
+        bad = [s for s in stories if s not in good]
+        if len(good) >= 2:
+            kept.append({**g, "stories": good})
+            orphans.extend(bad)
+        else:
+            orphans.extend(stories)          # bogus panel: title's subject isn't covered - dissolve it
+            if bad and good != bad:
+                print("    panel purity: dissolved off-topic panel '%s'" % (g.get("title") or "")[:60])
+    data["groups"] = kept
+    cols = data.setdefault("columns", {})
+    seen = set()
+    for gg in kept:
+        for s in (gg.get("stories") or []):
+            if s.get("url"): seen.add(s["url"])
+    for k in ("left", "center", "right"):
+        for s in (cols.get(k) or []):
+            if s.get("url"): seen.add(s["url"])
+    for s in orphans:
+        u = s.get("url")
+        if not u or u in seen:
+            continue
+        seen.add(u)
+        k = min(("left", "center", "right"), key=lambda c: len(cols.get(c) or []))
+        cols.setdefault(k, []).append(s)
+    data["columns"] = cols
+    return data
+
 def _merge_similar_groups(data):
     """HARD RULE: one focus section per subject. Consolidate every narrative panel that covers the
     same subject into a SINGLE panel (transitively), so a big story like the Iran war can never be
@@ -3113,7 +3169,7 @@ def _download_image(url, dest):
         f.write(blob)
     return True
 
-def _valid_image(path, min_bytes=3000, min_dim=200):
+def _valid_image(path, min_bytes=3000, min_dim=200, landscape=False):
     """True only if `path` is a real, adequately-sized image (not missing, empty, truncated, a
     1x1 tracking pixel, or a tiny logo). Uses PIL when available to catch corruption/dimensions;
     otherwise falls back to magic-byte sniffing + a size floor so broken files are still caught."""
@@ -3136,6 +3192,8 @@ def _valid_image(path, min_bytes=3000, min_dim=200):
             w, h = im2.size
             if not (w >= min_dim and h >= min_dim):
                 return False
+            if landscape and w < h * 1.2:       # hero frame is wide: reject portrait/square shots
+                return False                    # (a tall phone screenshot leaves big white margins)
             # Reject near-solid-color PLACEHOLDERS (a colored block with a couple of letters or a
             # logo - not a real photo): quantize to 16 colors; if one covers 85%+ of the frame it is
             # effectively blank. Wrapped so any error fails OPEN and a real photo is never dropped.
@@ -3300,7 +3358,7 @@ def _try_hero_images(urls, dest):
         seen.add(u)
         try:
             if re.search(r"\.(jpg|jpeg|png|webp)(\?|$)", str(u), re.I) and not _is_junk_img(u):
-                if _download_image(u, dest) and not _image_has_watermark(dest):
+                if _download_image(u, dest) and _valid_image(dest, landscape=True) and not _image_has_watermark(dest):
                     return True
                 continue
             real = decode_gnews(u) if "news.google.com" in str(u) else u
@@ -3309,7 +3367,7 @@ def _try_hero_images(urls, dest):
             tries += 1
             img_url = og_image_url(real)
             if img_url and not _is_junk_img(img_url) and _download_image(img_url, dest):
-                if not _image_has_watermark(dest):
+                if _valid_image(dest, landscape=True) and not _image_has_watermark(dest):
                     return True
         except Exception:
             continue
@@ -5017,6 +5075,7 @@ def build():
         # curated, so skip it there (live_cap=0). This keeps a redeploy fast (~1-2 min) instead of
         # spending many minutes re-fetching hundreds of already-checked article pages every push.
         data = replace_paywalled(data, gift_store=gift_store, live_cap=(25 if sec in targets else 0))
+        data = enforce_panel_purity(data)      # strip off-topic/padded stories from panels (deterministic)
         if sec == "life-culture":
             data = cap_fashion(data)     # at most one fashion item, never a fashion panel
         if sec == "sports":
