@@ -4723,6 +4723,10 @@ def apply_manual_picks(section, data):
         if not url or now - added >= THREE_DAYS_MS:
             continue
         if p.get("hero"):
+            # A hero pick leads ONLY on the day it was added - never a permanent pin. After that day
+            # curation owns the hero again, so the lead rotates normally.
+            if (p.get("added") or "") != datetime.date.today().isoformat():
+                continue
             # De-dupe: drop this story anywhere it already appears, then force it as the lead.
             cols = data.setdefault("columns", {})
             for k in ("left", "center", "right"):
