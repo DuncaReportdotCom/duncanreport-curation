@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1788011497975,
+  "lastUpdated": 1788012890046,
   "heroSetDate": "2026-08-29",
   "hero": {
     "headline": "FLASH FLOOD ON THE NEPAL-TIBET BORDER KILLS 157, HUNDREDS OF TOURISTS MISSING",
@@ -77,6 +77,12 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "High Debt And Rising Prices Catch Up To Trump As Midterms Near",
+        "url": "https://www.nytimes.com/2026/08/29/us/politics/trump-economy-inflation.html?unlocked_article_code=1.9FA.mLQa.bx0XcJ2iw2XP&smid=url-share",
+        "timestamp": 1788012513287,
+        "postedAt": 1788012890046
+      },
       {
         "headline": "Fired Stars And Stripes Journalists Get One-Week Reprieve",
         "url": "https://www.politico.com/news/2026/08/28/stars-and-stripes-journalists-facing-firing-get-one-week-reprieve-01055447",
@@ -202,6 +208,12 @@
       }
     ],
     "center": [
+      {
+        "headline": "FBI Loosens Hiring Rules On Prostitution And Bestiality",
+        "url": "https://www.cbsnews.com/news/fbi-candidates-prostitutes-theft",
+        "timestamp": 1788012513287,
+        "postedAt": 1788012890046
+      },
       {
         "headline": "Man Sets Himself On Fire Inside Google Office",
         "url": "https://nypost.com/2026/08/28/us-news/man-sets-himself-on-fire-in-lobby-of-google-office-building-in-lower-manhattan",
@@ -332,6 +344,13 @@
     ],
     "right": [
       {
+        "headline": "Hegseth Blocks Promotions Of Four Army Officers As Purge Widens",
+        "url": "https://www.nytimes.com/2026/08/28/us/politics/hegseth-blocks-army-promotions.html?unlocked_article_code=1.9FA.CEap.Y7p6VBhAP-g8&smid=url-share",
+        "timestamp": 1788012513288,
+        "feature": true,
+        "postedAt": 1788012890046
+      },
+      {
         "headline": "Report: Karoline Leavitt In Talks To Host 'The View'",
         "url": "https://www.dailymail.com/news/article-16084293",
         "timestamp": 1788011213012,
@@ -459,12 +478,12 @@
     ]
   },
   "balance": {
-    "left": 140,
+    "left": 143,
     "right": 97,
     "independent": 2,
     "days": 30,
-    "total": 237,
-    "pctLeft": 59,
-    "pctRight": 41
+    "total": 240,
+    "pctLeft": 60,
+    "pctRight": 40
   }
 }
