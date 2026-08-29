@@ -1558,7 +1558,10 @@ def merge(existing, fresh):
     # on the page as the new lead.
     hp = hero.get("postedAt")
     overstayed = bool(hp) and (now_ms() - hp) >= THREE_DAYS_MS
-    if overstayed or (hero_stale and not hero.get("headline")):
+    # A genuinely dominant, still-developing narrative (model flags heroOverride) may lead past the
+    # 3-day cap - the daily refresh already swaps in today's article/headline/links, so it stays
+    # fresh without being force-rotated off. The cap still retires a lead that just lingered.
+    if (overstayed and not override) or (hero_stale and not hero.get("headline")):
         pool = []
         for k in ("left", "center", "right"):
             pool += ex_cols.get(k) or []
@@ -2486,10 +2489,8 @@ def curate_live(section):
         lab = id2cluster.get(i)
         if lab and c.get("arc", "breaking") == "breaking":
             c["arc"] = lab
-    by_id = {"c%d" % i: c for i, c in enumerate(cands)}
-    cand_json = json.dumps([{"id": "c%d" % i, "title": c["title"], "source": c["source"],
-                             "ts": c["ts"], "arc": c.get("arc", "breaking"), "live": bool(c.get("live"))}
-                            for i, c in enumerate(cands)], ensure_ascii=False)
+    # by_id and the candidate JSON are (re)built per attempt in the curation loop below, so the
+    # pool can shrink on a retry. Nothing outside that loop needs them here.
     today = datetime.date.today().isoformat()
     editorial = ""
     if NARRATIVES.get(section):
@@ -2707,9 +2708,10 @@ def curate_live(section):
             "The headline currently showing is: \"%s\". Choose today's hero as the single biggest "
             "CURRENT story - something published in roughly the last day or two. Prefer a DIFFERENT "
             "story than the one above so the front page changes day to day; do NOT re-use a days-old "
-            "ongoing topic as the hero just because it is prominent. Keep the same hero ONLY if that "
-            "exact story is still the clearly dominant breaking news - in that case set the top-level "
-            "boolean \"heroOverride\": true; otherwise set \"heroOverride\": false.\n"
+            "ongoing topic as the hero just because it is prominent. Keep leading with the same NARRATIVE "
+            "only if it is still the clearly dominant breaking news - in that case set the top-level "
+            "boolean \"heroOverride\": true and refresh it to today's newest development (see DAY-TO-DAY "
+            "FRESHNESS below); otherwise set \"heroOverride\": false.\n"
             "NEW OVER LOUD (tie-breaker): a reader opening the page wants to learn something they did not "
             "already know. When two stories are comparably big, lead with the one that is NEWER and more "
             "SURPRISING - what actually broke or took an unexpected turn in the last several hours - rather "
@@ -2725,18 +2727,21 @@ def curate_live(section):
             "article (the same story from a free outlet, or the next-best free story). Paywalled outlets "
             "are still fine as SIGNAL and for panels/columns where a free version is linked, but the hero "
             "itself must never send a reader to a wall.\n"
-            "DAY-TO-DAY FRESHNESS (all pages): headlines should change from one day to the next. Barring "
-            "a genuinely dominant, still-developing story (a Super Bowl, a war, a major disaster), do NOT "
-            "run the same story as the hero on consecutive days - several days of the same headline is "
-            "boring. When a dominant story legitimately DOES stay on top - about THREE days at most as a "
-            "guideline, not a hard rule - each day's hero MUST highlight a DIFFERENT ASPECT of it: for a "
-            "Super Bowl, e.g. security or a threat at the event one day, a player or insider interview and "
-            "the controversy it sparked another, the scene and logistics, a key matchup or storyline, then "
-            "the aftermath and reaction. A 'who will win / prediction / preview' framing may be used as "
-            "the hero headline AT MOST ONCE across those days. Never repeat a headline you have already "
-            "run.%s"
+            "DAY-TO-DAY FRESHNESS (all pages): the LEAD NARRATIVE may stay on top for as long as it is "
+            "genuinely the biggest current story. A routine story should not linger, but a truly dominant, "
+            "still-developing one (a war, a major disaster, a president assassinated) can rightly lead for "
+            "many days or even weeks. When it does, set \"heroOverride\": true AND REFRESH THE HERO EVERY "
+            "DAY: the overall narrative stays, but the specific story underneath must be TODAY'S newest "
+            "development - a NEW headline about what actually advanced today, a FRESH lead article (a "
+            "DIFFERENT candidate URL, published in roughly the last day), and FRESH sublinks pointing to "
+            "today's coverage (the new developments, reactions, and analysis). The daily image will follow "
+            "the new lead article, so it changes too. Do NOT reuse yesterday's headline or yesterday's lead "
+            "article; older or background pieces on the same narrative may still appear, but as LOWER "
+            "sublinks or in the columns below - never as today's top link. If the narrative is NO LONGER "
+            "clearly dominant, move on to the biggest fresh story instead (set \"heroOverride\": false). "
+            "Never repeat a headline you have already run.%s"
             % (live_hero.get("headline"), recent_txt))
-    system = ("You are the DuncanReport.com curation engine for the '%s' section. Today is %s. Follow the "
+    _system_head = ("You are the DuncanReport.com curation engine for the '%s' section. Today is %s. Follow the "
               "CORE CONTRACT and the SECTION rules. You are given CANDIDATE stories pulled from this "
               "section's outlets and its narrative arcs via Google News. SELECT and ORGANIZE ONLY from "
               "these candidates - do not invent stories, headlines, or URLs. In your output set each "
@@ -2748,8 +2753,8 @@ def curate_live(section):
               "Each is a distinct angle (a development, reaction, analysis, or key detail); write each "
               "sublink text to describe its OWN unique angle - never restate the headline or repeat "
               "another sublink. CRITICAL: each distinct news event may appear ONLY ONCE across the entire page (hero, groups, and columns combined). If several candidates cover the same event, use only the single best one; never list the same event as multiple items and never repeat the hero story in the groups or columns. For MAJOR narrative groups (main page) you MAY add an \"editorials\" array to a group: 2-4 candidate ids of opinion pieces (arc='editorial') about that narrative, from DIFFERENT outlets spanning left and right (the outlet name is the label; there is no 'center'). If the hero is a major, still-developing breaking event and some candidates have \"live\": true, add a \"liveUpdates\" array to the hero: up to 3 candidate ids of live-update pages from different major outlets. Use candidate ids for editorials and liveUpdates too - never invent URLs; omit these fields when they do not apply. Output ONLY the JSON object in a ```json block."
-              "%s\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n%s"
-              % (section, today, editorial, CORE, PROMPTS.get(section, ""), cand_json))
+              "%s\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n"
+              % (section, today, editorial, CORE, PROMPTS.get(section, "")))
     model = working_model(client)
     msgs = [{"role": "user",
              "content": "Curate the current %s cycle from the candidates and return the stories.json." % section}]
@@ -2757,14 +2762,28 @@ def curate_live(section):
     # page's answer is large). msg holds the final message for diagnostics; it stays None on a
     # clean stream, so every downstream reference must guard for that (an earlier bug crashed
     # here with UnboundLocalError when a streamed answer failed to parse).
-    # Get a parseable answer, with SPACED RETRIES. A single transient overload can make BOTH the
-    # streamed call and the instant non-streaming retry come back empty (stop=max_tokens, len=0) in
-    # the same instant - which used to fail the whole section (the 'no JSON parsed' error). We now
-    # retry the full call a few times with backoff so a momentary blip recovers instead of leaving
-    # the page stale.
-    data, text, msg = None, "", None
+    # Get a parseable answer, retrying with BACKOFF and a SHRINKING CANDIDATE POOL so the run can
+    # always complete the update. Two independent failure modes are covered:
+    #   * transient overload -> the streamed call AND the instant non-streaming retry can both come
+    #     back empty (stop=max_tokens, len=0) in the same instant. A spaced retry recovers it.
+    #   * answer too big for the token ceiling -> feeding fewer candidates shrinks BOTH the prompt
+    #     and the required JSON answer, so a smaller (but complete) page fits and the section still
+    #     gets freshly curated instead of falling back to stale content.
+    # The FIRST attempt uses the full pool (normal runs are unchanged); only failures shrink it.
+    def _cand_json_for(pool):
+        return json.dumps([{"id": "c%d" % i, "title": c["title"], "source": c["source"],
+                            "ts": c["ts"], "arc": c.get("arc", "breaking"), "live": bool(c.get("live"))}
+                           for i, c in enumerate(pool)], ensure_ascii=False)
+    full = len(cands)
+    pool_sizes = sorted({n for n in (full, 90, 55, 35) if n <= full}, reverse=True) or [full]
     _delays = [6, 15, 30]
-    for _attempt in range(len(_delays) + 1):
+    data, text, msg = None, "", None
+    for _attempt, _sz in enumerate(pool_sizes):
+        pool = cands[:_sz]
+        by_id = {"c%d" % i: c for i, c in enumerate(pool)}      # id->candidate for THIS attempt
+        system = _system_head + _cand_json_for(pool)
+        if _attempt:
+            print("    retrying with a smaller candidate pool (%d -> %d) so the answer fits" % (full, _sz))
         msg, text = None, ""
         try:
             text, msg = _curate_stream(client, model, system, msgs)  # largest allowed max_tokens
@@ -2777,8 +2796,7 @@ def curate_live(section):
         data = extract_json(text)
         if not data:
             # A streamed answer that won't parse (truncated/garbled/empty) gets one clean
-            # non-streaming retry before we give up - this is what recovers a section instead of
-            # leaving it stale.
+            # non-streaming retry before we shrink.
             print("    no JSON from stream (len=%d); non-streaming retry" % len(text or ""))
             try:
                 text2, msg2 = _curate_create(client, model, system, msgs)
@@ -2790,20 +2808,20 @@ def curate_live(section):
             except Exception as e:
                 print("    non-streaming retry failed (%s)" % e)
         if not data and text:
-            # The answer was cut off at the token limit (stop=max_tokens) so the JSON never
-            # closed - salvage it by trimming to the last complete story/panel and closing the
-            # brackets. A slightly shorter page beats a failed, stale section.
+            # Cut off at the token limit (stop=max_tokens) so the JSON never closed - salvage it by
+            # trimming to the last complete story/panel and closing the brackets. A slightly shorter
+            # page beats a failed, stale section.
             salv = salvage_truncated_json(text)
             if salv and valid(salv):
                 data = salv
                 print("    recovered a truncated answer via salvage (%d chars)" % len(text))
         if data:
             break
-        if _attempt < len(_delays):
+        if _attempt < len(pool_sizes) - 1:
             stop = getattr(msg, "stop_reason", "?") if msg is not None else "?"
-            wait = _delays[_attempt]
+            wait = _delays[min(_attempt, len(_delays) - 1)]
             print("    empty/unparseable answer (len=%d, stop=%s); retry %d/%d in %ds"
-                  % (len(text or ""), stop, _attempt + 1, len(_delays), wait))
+                  % (len(text or ""), stop, _attempt + 1, len(pool_sizes) - 1, wait))
             time.sleep(wait)
     if not data:
         stop = getattr(msg, "stop_reason", "?") if msg is not None else "?"
@@ -5193,30 +5211,51 @@ def build():
         print("  hero-image verify failed:", repr(e)[:160])
 
     # ---- health check: flag anything that broke so the workflow can alert on it ----
-    problems = []
+    problems = []; warnings = []
     for _s, _st in STATUS.items():
         if _s.startswith("_"):     # auxiliary markers (polls, social) are non-fatal - never fail the run
             continue
         _l = str(_st).lower()
         if "failed" in _l or "credit" in _l or "error" in _l:
-            problems.append("%s: %s" % (_s, str(_st)[:160]))
+            # A section whose fresh curation failed but which still has real (preserved) content has
+            # COMPLETED the update from last-good data - that's a warning, not a run failure. Only a
+            # genuinely empty page (handled below) or no-model (handled below) is a hard problem.
+            if _s in SECTIONS and _has_real_content(per_section.get(_s) or {}):
+                warnings.append("%s: fresh curation failed, kept preserved content (%s)" % (_s, str(_st)[:120]))
+            else:
+                problems.append("%s: %s" % (_s, str(_st)[:160]))
     for _s in SECTIONS:
         if not _has_real_content(per_section.get(_s) or {}):
             problems.append("%s page is EMPTY" % _s)
     if isinstance(sb_debug, str) and sb_debug.startswith("error"):
-        problems.append("sports scoreboard fetch: %s" % sb_debug[:120])
+        warnings.append("sports scoreboard fetch: %s" % sb_debug[:120])   # auxiliary; page still has stories
     if targets and os.environ.get("ANTHROPIC_API_KEY") and not _WORKING_MODEL:
         problems.append("no working Anthropic model (API key / credit / model problem)")
     critical = [p for p in problems if "EMPTY" in p]     # a broken/empty page must NOT go live
     ok = not problems
     deployable = not critical
-    if ok:
-        print("HEALTH: all good")
+    # SUCCESS CONFIRMATION: the run "completed the update" if the site can deploy AND every page
+    # carries real content (freshly curated OR preserved last-good). updated/preserved say which.
+    updated   = [s for s in SECTIONS if STATUS.get(s) == "curated-live"]
+    preserved = [s for s in SECTIONS if (s in targets and STATUS.get(s) != "curated-live")]
+    all_populated = all(_has_real_content(per_section.get(s) or {}) for s in SECTIONS)
+    completed = bool(deployable and all_populated)
+    if completed:
+        print("RUN COMPLETE: update will deploy. freshly curated=%s%s"
+              % (updated or "[]", ("  |  preserved-fallback=%s" % preserved) if preserved else ""))
     else:
+        print("RUN INCOMPLETE: %s" % ("; ".join(critical) if critical else "site not deployable"))
+    if warnings:
+        print("WARNINGS (%d, non-fatal):" % len(warnings))
+        for _w in warnings:
+            print("  ! %s" % _w)
+    if problems:
         print("HEALTH: %d problem(s)%s:" % (len(problems),
               "" if deployable else "  <-- INCLUDES A BROKEN PAGE; deploy will be blocked"))
         for _p in problems:
             print("  - %s" % _p)
+    elif not warnings:
+        print("HEALTH: all good")
 
     # ---- provider usage: which news providers actually returned data this run ----
     STATUS["_providers"] = ("google=%d bing=%d gdelt=%d"
@@ -5238,7 +5277,9 @@ def build():
         json.dump({"model_default": MODEL, "model_used": _WORKING_MODEL,
                    "key_present": bool(os.environ.get("ANTHROPIC_API_KEY")),
                    "target": os.environ.get("SECTION", "all"), "scoreboard": sb_debug,
-                   "ok": ok, "deployable": deployable, "problems": problems,
+                   "ok": ok, "deployable": deployable, "completed": completed,
+                   "updated": updated, "preserved": preserved,
+                   "problems": problems, "warnings": warnings,
                    "critical": critical, "sections": STATUS}, f, indent=2)
 
     try:
