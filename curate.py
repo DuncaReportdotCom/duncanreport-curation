@@ -2736,38 +2736,54 @@ def curate_live(section):
     # page's answer is large). msg holds the final message for diagnostics; it stays None on a
     # clean stream, so every downstream reference must guard for that (an earlier bug crashed
     # here with UnboundLocalError when a streamed answer failed to parse).
-    msg, text = None, ""
-    try:
-        text, msg = _curate_stream(client, model, system, msgs)      # largest allowed max_tokens
-    except Exception as e:
-        print("    stream failed (%s); non-streaming fallback" % e)
+    # Get a parseable answer, with SPACED RETRIES. A single transient overload can make BOTH the
+    # streamed call and the instant non-streaming retry come back empty (stop=max_tokens, len=0) in
+    # the same instant - which used to fail the whole section (the 'no JSON parsed' error). We now
+    # retry the full call a few times with backoff so a momentary blip recovers instead of leaving
+    # the page stale.
+    data, text, msg = None, "", None
+    _delays = [6, 15, 30]
+    for _attempt in range(len(_delays) + 1):
+        msg, text = None, ""
         try:
-            text, msg = _curate_create(client, model, system, msgs)
-        except Exception as e2:
-            print("    non-streaming call also failed (%s)" % e2)
-    data = extract_json(text)
-    if not data:
-        # A streamed answer that won't parse (truncated/garbled/empty) gets one clean
-        # non-streaming retry before we give up - this is what recovers a section instead of
-        # leaving it stale.
-        print("    no JSON from first attempt (len=%d); non-streaming retry" % len(text or ""))
-        try:
-            text2, msg2 = _curate_create(client, model, system, msgs)
-            d2 = extract_json(text2)
-            if d2:
-                data, text, msg = d2, text2, msg2
-            elif msg is None:
-                msg, text = msg2, (text or text2)
+            text, msg = _curate_stream(client, model, system, msgs)  # largest allowed max_tokens
         except Exception as e:
-            print("    non-streaming retry failed (%s)" % e)
-    if not data and text:
-        # Last resort: the answer was cut off at the token limit (stop=max_tokens) so the JSON
-        # never closed - salvage it by trimming to the last complete story/panel and closing the
-        # brackets. A slightly shorter page beats a failed, stale section.
-        salv = salvage_truncated_json(text)
-        if salv and valid(salv):
-            data = salv
-            print("    recovered a truncated answer via salvage (%d chars)" % len(text))
+            print("    stream failed (%s); non-streaming fallback" % e)
+            try:
+                text, msg = _curate_create(client, model, system, msgs)
+            except Exception as e2:
+                print("    non-streaming call also failed (%s)" % e2)
+        data = extract_json(text)
+        if not data:
+            # A streamed answer that won't parse (truncated/garbled/empty) gets one clean
+            # non-streaming retry before we give up - this is what recovers a section instead of
+            # leaving it stale.
+            print("    no JSON from stream (len=%d); non-streaming retry" % len(text or ""))
+            try:
+                text2, msg2 = _curate_create(client, model, system, msgs)
+                d2 = extract_json(text2)
+                if d2:
+                    data, text, msg = d2, text2, msg2
+                elif msg is None:
+                    msg, text = msg2, (text or text2)
+            except Exception as e:
+                print("    non-streaming retry failed (%s)" % e)
+        if not data and text:
+            # The answer was cut off at the token limit (stop=max_tokens) so the JSON never
+            # closed - salvage it by trimming to the last complete story/panel and closing the
+            # brackets. A slightly shorter page beats a failed, stale section.
+            salv = salvage_truncated_json(text)
+            if salv and valid(salv):
+                data = salv
+                print("    recovered a truncated answer via salvage (%d chars)" % len(text))
+        if data:
+            break
+        if _attempt < len(_delays):
+            stop = getattr(msg, "stop_reason", "?") if msg is not None else "?"
+            wait = _delays[_attempt]
+            print("    empty/unparseable answer (len=%d, stop=%s); retry %d/%d in %ds"
+                  % (len(text or ""), stop, _attempt + 1, len(_delays), wait))
+            time.sleep(wait)
     if not data:
         stop = getattr(msg, "stop_reason", "?") if msg is not None else "?"
         raise ValueError("no JSON parsed (len=%d, stop=%s): %s"
