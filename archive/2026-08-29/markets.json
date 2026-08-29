@@ -49,12 +49,6 @@
           "url": "https://www.newarab.com/news/us-set-limits-egyptian-bank-effort-pressure-iran",
           "timestamp": 1787983200000,
           "postedAt": 1788006808748
-        },
-        {
-          "headline": "US Makes An Example Of Egypt's Banque Misr Over Iran Ties",
-          "url": "https://www.iranintl.com/en/202608284624",
-          "timestamp": 1787946614000,
-          "postedAt": 1788006808748
         }
       ]
     },
@@ -392,8 +386,8 @@
     },
     {
       "name": "Dow",
-      "value": "53,560.00",
-      "change": "-9.40",
+      "value": "53,559.99",
+      "change": "-9.41",
       "changePct": "-0.02%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
@@ -432,9 +426,9 @@
     },
     {
       "name": "Bitcoin",
-      "value": "$77,534.40",
-      "change": "-303.99",
-      "changePct": "-0.39%",
+      "value": "$77,653.76",
+      "change": "-184.63",
+      "changePct": "-0.24%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     }
