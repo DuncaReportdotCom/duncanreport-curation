@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1788005327290,
+  "lastUpdated": 1788011497975,
   "heroSetDate": "2026-08-29",
   "hero": {
     "headline": "FLASH FLOOD ON THE NEPAL-TIBET BORDER KILLS 157, HUNDREDS OF TOURISTS MISSING",
@@ -140,7 +140,7 @@
         "timestamp": 1787890106000,
         "photo": true,
         "postedAt": 1787920070577,
-        "image": "/img/main-1.jpg"
+        "image": "/img/main-2.jpg"
       },
       {
         "headline": "83-Year-Old Reno Woman Dies From Injuries In Hawk Fire",
@@ -148,7 +148,7 @@
         "timestamp": 1787879269000,
         "photo": true,
         "postedAt": 1787920070577,
-        "image": "/img/main-3.jpg"
+        "image": "/img/main-4.jpg"
       },
       {
         "headline": "'Idiocracy' Predicted Our World, But Not In The Way You Think",
@@ -202,6 +202,21 @@
       }
     ],
     "center": [
+      {
+        "headline": "Man Sets Himself On Fire Inside Google Office",
+        "url": "https://nypost.com/2026/08/28/us-news/man-sets-himself-on-fire-in-lobby-of-google-office-building-in-lower-manhattan",
+        "timestamp": 1788011213012,
+        "feature": true,
+        "postedAt": 1788011497975
+      },
+      {
+        "headline": "Michelle Obama On Her Kids: 'I Don't Miss Them'",
+        "url": "https://www.dailywire.com/news/michelle-obama-on-her-kids-i-dont-miss-them-i-dont",
+        "timestamp": 1788010478000,
+        "photo": true,
+        "postedAt": 1788011497975,
+        "image": "/img/main-0.jpg"
+      },
       {
         "headline": "Canada: What Tariffs Really Cost Canadians And Americans",
         "url": "https://www.bbc.com/news/articles/cx2z4dv6vn2o",
@@ -268,8 +283,7 @@
         "url": "https://www.pbs.org/newshour/nation/tate-brothers-appear-in-court-asking-to-be-released-from-jail-during-extradition-fight",
         "timestamp": 1787862233000,
         "photo": true,
-        "postedAt": 1787920070577,
-        "image": "/img/main-4.jpg"
+        "postedAt": 1787920070577
       },
       {
         "headline": "Americans Face Surging Toilet Paper Prices Amid Canada Trade War",
@@ -318,6 +332,13 @@
     ],
     "right": [
       {
+        "headline": "Report: Karoline Leavitt In Talks To Host 'The View'",
+        "url": "https://www.dailymail.com/news/article-16084293",
+        "timestamp": 1788011213012,
+        "photo": true,
+        "postedAt": 1788011497975
+      },
+      {
         "headline": "Trump Administration Appeals Ruling Halting Mail-In Voting Rules",
         "url": "https://wgme.com/news/local/temporary-14-day-halt-hits-part-of-trump-mail-in-voting-order-administration-appeals",
         "timestamp": 1787946108000,
@@ -335,7 +356,7 @@
         "timestamp": 1787968200000,
         "photo": true,
         "postedAt": 1788005327290,
-        "image": "/img/main-0.jpg"
+        "image": "/img/main-1.jpg"
       },
       {
         "headline": "Navy Punishes Sailor Who Attempted Suicide By Jumping Overboard",
@@ -356,7 +377,7 @@
         "timestamp": 1787888460000,
         "photo": true,
         "postedAt": 1787920070577,
-        "image": "/img/main-2.jpg"
+        "image": "/img/main-3.jpg"
       },
       {
         "headline": "White House Construction Tied To Radio Glitch That Let Copter Near Jet",
@@ -438,11 +459,11 @@
     ]
   },
   "balance": {
-    "left": 139,
-    "right": 95,
+    "left": 140,
+    "right": 97,
     "independent": 2,
     "days": 30,
-    "total": 234,
+    "total": 237,
     "pctLeft": 59,
     "pctRight": 41
   }
