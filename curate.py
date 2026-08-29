@@ -1437,6 +1437,14 @@ def _new_cap(existing):
     hours = max(0.0, (now_ms() - last) / 3600000.0)
     return max(NEW_MIN, min(NEW_MAX, int(hours * NEW_PER_HOUR + 0.999)))
 
+# One-time hero retirement. A URL listed here is not allowed to stay locked as TODAY's hero: the
+# same-day hero lock is bypassed for it so the next run rolls the lead over to the fresh curation
+# pick (the retired story demotes to a column and lives out its normal 3 days). This is a manual,
+# one-shot escape hatch for a lead that was set in error - clear entries once they've rolled off.
+_RETIRE_HERO = {
+    "https://www.nbcnews.com/world/asia/flash-flood-nepal-tibet-villages-destroyed-american-tourists-missing-rcna594473",
+}
+
 def merge(existing, fresh):
     ex = existing or {}; fr = fresh or {}
     orig = _orig_ts(ex)
@@ -1528,7 +1536,8 @@ def merge(existing, fresh):
     override = bool(fr.get("heroOverride"))
     hero_posted = ex_hero.get("postedAt")
     hero_stale = bool(hero_posted) and (now_ms() - hero_posted) >= THREE_DAYS_MS
-    if ex_hero.get("headline") and ex.get("heroSetDate") == today and not override and not hero_stale:
+    retired = ex_hero.get("url") in _RETIRE_HERO   # one-time: force TODAY's locked lead to roll over
+    if ex_hero.get("headline") and ex.get("heroSetDate") == today and not override and not hero_stale and not retired:
         hero, hero_date = dict(ex_hero), ex.get("heroSetDate")
         fr_lu = (fr.get("hero") or {}).get("liveUpdates")   # live-updates refresh every run
         if fr_lu:
@@ -2652,6 +2661,18 @@ def curate_live(section):
                   "so a strict split is often impossible. Actively include right-leaning, skeptical, or "
                   "dissenting takes wherever they genuinely exist, but never force a false balance or invent "
                   "it where the sourcing isn't there.")
+        tilt = ""
+        _ts = _trailing_split(section)
+        if _ts:
+            pl, pr, _tl, _tr = _ts
+            if abs(pl - 50) >= 3:                     # only steer once the drift is real
+                lead   = "left" if pl > pr else "right"
+                behind = "right" if pl > pr else "left"
+                tilt = ("\n- TRAILING 30-DAY STANDING (context, NOT a quota for this one page): left %d%% / "
+                        "right %d%%. Because the trailing window is %s-heavy right now, give this cycle's "
+                        "MARGINAL slots to the %s side so the 30-day average drifts back toward 50/50 over "
+                        "the COMING DAYS - a gentle, sustained nudge, never a jarring one-day swing."
+                        % (pl, pr, lead, behind))
         editorial += (
             "\n\n===== IDEOLOGICAL BALANCE (50/50 LEFT-RIGHT) =====\n"
             "Balance the page by OUTLET LEAN: of the stories drawn from clearly LEFT-leaning and clearly "
@@ -2666,11 +2687,11 @@ def curate_live(section):
             "lean, look to match it with a comparable story from the other lean; if the candidate pool is "
             "lopsided, give the marginal slots to the UNDER-represented side. Never let one lean dominate "
             "the page.\n"
-            "- SELF-CORRECT AND HOLD: do not settle for 'close enough' in one direction. If the page is "
-            "drifting away from 50/50, deliberately OVER-WEIGHT the under-represented side on this cycle "
-            "until it is back to even, then hold it there day after day. 50/50 is the target every single "
-            "day, not a long-run average - a run of left-heavy or right-heavy days is a failure to fix now.\n"
-            % strict)
+            "- MAINTAIN, THEN LET IT REALIGN: aim for ~50/50 on THIS page every day and hold it there. "
+            "When the trailing 30-day standing is off, do NOT snap it back in a single day - apply a "
+            "modest, sustained tilt toward the under-represented side so the rolling average returns to "
+            "even OVER TIME. Never force a false balance or a jarring one-day overcorrection.%s\n"
+            % (strict, tilt))
     try:
         live_hero = (live_current(section) or {}).get("hero") or {}
     except Exception:
@@ -4964,6 +4985,28 @@ def rolling_balance(section, counts):
         sc = v.get(section) or {}
         L += sc.get("L", 0); R += sc.get("R", 0); I += sc.get("ind", 0)
     return L, R, I
+
+def _trailing_split(section, include_today=False):
+    """Read the rolling L/R history for a section and return (pctLeft, pctRight, L, R) for the
+    trailing 30 days. Lets the daily prompt SEE the current standing so it can tilt this cycle's
+    marginal slots toward the under-represented side and let the average realign over time.
+    Returns None when there isn't enough history to steer by (avoids chasing noise)."""
+    today = datetime.date.today().isoformat()
+    try:
+        with open(BALANCE_PATH, encoding="utf-8") as f:
+            hist = json.load(f)
+    except Exception:
+        return None
+    L = R = 0
+    for d, v in hist.items():
+        if not include_today and d == today:   # steer by the standing BEFORE today's run
+            continue
+        sc = v.get(section) or {}
+        L += sc.get("L", 0); R += sc.get("R", 0)
+    tot = L + R
+    if tot < 20:
+        return None
+    return (round(100 * L / tot), round(100 * R / tot), L, R)
 
 def attach_balance(section, data):
     """Compute the rolling 7-day L/R balance for this page and attach it as data['balance'] so the
