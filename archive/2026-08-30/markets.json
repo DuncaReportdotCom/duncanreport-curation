@@ -101,8 +101,7 @@
         "url": "https://www.forbes.com/sites/maryroeloffs/2026/08/29/billionaire-tim-draper-selling-his-private-island-in-tanzania-wants-offers-by-email/",
         "timestamp": 1788018764000,
         "photo": true,
-        "postedAt": 1788096705766,
-        "image": "/img/markets-1.jpg"
+        "postedAt": 1788096705766
       },
       {
         "headline": "Walmart To Pay $50 Million To Settle Opioid Lawsuit",
@@ -192,7 +191,7 @@
         "timestamp": 1787807700000,
         "photo": true,
         "postedAt": 1787841369265,
-        "image": "/img/markets-3.jpg"
+        "image": "/img/markets-2.jpg"
       },
       {
         "headline": "Boston Scientific Cyberattack Causes 'Global Disruption' To Operations",
@@ -288,7 +287,7 @@
         "timestamp": 1787874175000,
         "photo": true,
         "postedAt": 1787921159134,
-        "image": "/img/markets-2.jpg"
+        "image": "/img/markets-1.jpg"
       },
       {
         "headline": "US Goods-Trade Deficit Widens To Largest Since March 2025",
@@ -308,7 +307,8 @@
         "url": "https://www.cbsnews.com/news/bill-gates-ai-jobs-warning/",
         "timestamp": 1787776500000,
         "photo": true,
-        "postedAt": 1787841369265
+        "postedAt": 1787841369265,
+        "image": "/img/markets-4.jpg"
       },
       {
         "headline": "Salesforce Stock Jumps 18% On AI Growth, Anthropic Investment Gain",
@@ -416,7 +416,7 @@
         "timestamp": 1787779680000,
         "photo": true,
         "postedAt": 1787841369265,
-        "image": "/img/markets-4.jpg"
+        "image": "/img/markets-3.jpg"
       },
       {
         "headline": "The Real AI Boom Hasn't Yet Begun, RealClear Argues",
@@ -477,7 +477,7 @@
     {
       "name": "Nasdaq",
       "value": "26,402.42",
-      "change": "-138.93",
+      "change": "-138.98",
       "changePct": "-0.52%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
@@ -492,26 +492,26 @@
     },
     {
       "name": "Gold",
-      "value": "$4,529.90",
-      "change": "-134.10",
-      "changePct": "-2.88%",
+      "value": "$4,504.50",
+      "change": "-25.40",
+      "changePct": "-0.56%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$83.40",
-      "change": "-0.13",
-      "changePct": "-0.16%",
-      "up": false,
+      "value": "$84.84",
+      "change": "+1.44",
+      "changePct": "+1.73%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$78,711.58",
-      "change": "+476.83",
-      "changePct": "+0.61%",
-      "up": true,
+      "value": "$77,547.57",
+      "change": "-687.18",
+      "changePct": "-0.88%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     }
   ]
