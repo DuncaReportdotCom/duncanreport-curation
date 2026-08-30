@@ -6,19 +6,19 @@ name: Publish DuncanReport
 #   narrative-review- generate the biweekly narrative review (review.json)
 #   main/sports/world/markets/politics/life-culture - curate just that one page
 #
-# Schedules: full "all" TWICE daily at 06:00 and 09:30 US Central year-round. The 06:00 run gives
-# the East Coast a fresh site by ~08:15 ET; the 09:30 run (10:30 ET) refreshes with the morning's
-# developing news and lets the hero roll over to the biggest CURRENT story. GitHub cron is UTC-only
-# and does NOT follow daylight saving, so each run fires at BOTH its CDT and CST UTC-equivalents and
-# the "gate" job below lets only the one that lands on 06:xx or 09:xx Central actually run.
-# 1st & 15th 12:00 UTC -> narrative-review.
+# Schedules: the four daily crons below are all MORNING attempts. GitHub cron is UTC-only, ignores
+# daylight saving, AND is frequently delayed by many minutes, so a single fixed time is unreliable.
+# The "gate" job accepts a wide morning window (Central 05:00-11:59) and de-dupes on the live site's
+# lastUpdated: the first cron that gets through publishes the day's update, later crons skip, and a
+# failed attempt is automatically retried by the next cron. Net effect: ONE reliable morning update
+# per day, self-healing against GitHub's cron delays.  1st & 15th 12:00 UTC -> narrative-review.
 
 on:
   schedule:
-    - cron: "0 11 * * *"       # 06:00 Central during CDT (summer); gated to 06:xx Central
-    - cron: "0 12 * * *"       # 06:00 Central during CST (winter); gated to 06:xx Central
-    - cron: "30 14 * * *"      # 09:30 Central during CDT (summer); gated to 09:xx Central
-    - cron: "30 15 * * *"      # 09:30 Central during CST (winter); gated to 09:xx Central
+    - cron: "0 11 * * *"       # ~06:00 Central (CDT) - primary morning attempt
+    - cron: "0 12 * * *"       # ~06:00 Central (CST) / backup - retries if the first was delayed/failed
+    - cron: "30 14 * * *"      # ~09:30 Central (CDT) / later-morning backup
+    - cron: "30 15 * * *"      # ~09:30 Central (CST) / later-morning backup
     - cron: "0 12 1,15 * *"    # biweekly narrative review
   # Auto deploy-only: pushing a story addition (edit to curate.py) or a front-end tweak (index.html)
   # rebuilds and redeploys WITHOUT re-curating - the manual pick appears within a couple minutes.
@@ -72,14 +72,34 @@ jobs:
     steps:
       - id: check
         run: |
-          H=$(TZ=America/Chicago date +%H)
-          if [ "${{ github.event_name }}" != "schedule" ] || [ "${{ github.event.schedule }}" = "0 12 1,15 * *" ]; then
-            echo "proceed=true" >> "$GITHUB_OUTPUT"
-          elif [ "$H" = "06" ] || [ "$H" = "09" ]; then
-            echo "proceed=true" >> "$GITHUB_OUTPUT"
-          else
+          EVENT="${{ github.event_name }}"
+          SCHED="${{ github.event.schedule }}"
+          # Manual runs and the biweekly narrative-review cron always proceed.
+          if [ "$EVENT" != "schedule" ] || [ "$SCHED" = "0 12 1,15 * *" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          # Scheduled daily run. GitHub routinely DELAYS cron by many minutes (worst at the top of
+          # the hour), which used to push the run past a narrow hour check and skip the whole morning
+          # update. Instead: accept a WIDE morning window (Central 05:00-11:59) and DE-DUPE by the
+          # live site's lastUpdated. The first cron of the day that gets through publishes; later
+          # crons see today's date and skip. If an earlier attempt failed to deploy, lastUpdated
+          # stays old so the next cron automatically RETRIES - the morning update is self-healing.
+          H=$((10#$(TZ=America/Chicago date +%H)))
+          if [ "$H" -lt 5 ] || [ "$H" -gt 11 ]; then
             echo "proceed=false" >> "$GITHUB_OUTPUT"
-            echo "Skipping: US Central time is $(TZ=America/Chicago date +%H:%M), not 06:xx or 09:xx - wrong cron for the current DST period."
+            echo "Skipping: Central $(TZ=America/Chicago date +%H:%M) is outside the 05:00-11:59 morning window."
+            exit 0
+          fi
+          TODAY=$(TZ=America/Chicago date +%Y-%m-%d)
+          LU_MS=$(curl -s --max-time 20 https://duncanreport.com/stories.json \
+                   | python3 -c "import sys,json; print(int(json.load(sys.stdin).get('lastUpdated',0)))" 2>/dev/null || echo 0)
+          LU=$(TZ=America/Chicago date -d "@$((LU_MS/1000))" +%Y-%m-%d 2>/dev/null || echo "")
+          if [ "$LU" = "$TODAY" ]; then
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping: site already updated today ($LU) - the morning run already completed."
+          else
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            echo "Proceeding: site last updated '$LU', today is '$TODAY' (Central $(TZ=America/Chicago date +%H:%M))."
           fi
 
   publish:
@@ -165,4 +185,3 @@ jobs:
         if: always()
         run: |
           python -c "import json,sys; d=json.load(open('site/status.json')); p=d.get('problems') or []; [print('::error::'+str(x)) for x in p]; print('Health OK' if (not p and d.get('ok',True)) else 'PROBLEMS FOUND'); sys.exit(0 if (not p and d.get('ok',True)) else 1)"
-
