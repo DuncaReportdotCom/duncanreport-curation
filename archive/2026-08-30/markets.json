@@ -1,0 +1,518 @@
+{
+  "lastUpdated": 1788096705766,
+  "heroSetDate": "2026-08-30",
+  "hero": {
+    "headline": "FED CHAIR WARSH, TREASURY'S BESSENT SPLIT OVER RATE PATH",
+    "url": "https://en.bloomingbit.io/feed/news/119374",
+    "sublinks": [
+      {
+        "text": "Trump Slams Fed Policy, Says Rates Should Be Far Lower",
+        "url": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html"
+      },
+      {
+        "text": "S&P 500 Slides As Traders Price In Fresh Rate-Hike Warning",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-28-2026"
+      }
+    ],
+    "postedAt": 1788096705766,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "US QUIETLY CHANGES KEY RETIREMENT RULES",
+      "stories": [
+        {
+          "headline": "What's The Real US Retirement Age? Here Are Four Estimates",
+          "url": "https://www.usatoday.com/story/money/personal-finance/2026/08/29/retirement-age-in-america-social-security-medicare/91406670007/",
+          "timestamp": 1787994612000,
+          "postedAt": 1788006808748
+        },
+        {
+          "headline": "US Quietly Changes Three Retirement Rules With No Fanfare",
+          "url": "https://finance.yahoo.com/economy/policy/articles/3-retirement-rules-were-changed-114500503.html",
+          "timestamp": 1787978700000,
+          "postedAt": 1788006808748
+        }
+      ]
+    },
+    {
+      "title": "US TIGHTENS FINANCIAL SQUEEZE ON IRAN-LINKED BANKS",
+      "stories": [
+        {
+          "headline": "US Campaign To Isolate Iran Financially Closes In On Dubai",
+          "url": "https://www.iranintl.com/en/202608293662",
+          "timestamp": 1787990100000,
+          "postedAt": 1788006808748
+        },
+        {
+          "headline": "US Restricts UAE Bank Branch Over Iran Links",
+          "url": "https://www.newarab.com/news/us-set-limits-egyptian-bank-effort-pressure-iran",
+          "timestamp": 1787983200000,
+          "postedAt": 1788006808748
+        }
+      ]
+    },
+    {
+      "title": "BITCOIN RALLY TOPS $80,000 AS ANALYSTS EYE HIGHER TARGETS",
+      "stories": [
+        {
+          "headline": "Analysts Say Bitcoin Could Double By Next Year, Hit $500,000 By 2030",
+          "url": "https://www.marketwatch.com/story/why-these-analysts-say-bitcoin-will-double-by-next-year-and-could-reach-500-000-at-the-end-of-the-decade-23ec78f3",
+          "timestamp": 1787837520000,
+          "postedAt": 1787841369265
+        },
+        {
+          "headline": "Why Bitcoin Surged To $80,000, And What May Come Next",
+          "url": "https://global.morningstar.com/en-ca/markets/why-bitcoin-surged-usd-80000-what-may-come-next",
+          "timestamp": 1787824826000,
+          "postedAt": 1787841369265
+        },
+        {
+          "headline": "Bernstein Sees Bitcoin Reaching $150,000 By Mid-2027, Cuts Strategy Target To $350",
+          "url": "https://www.theblock.co/news/markets/2026-08-26-bernstein-sees-bitcoin-reaching-150000-by-mid-2027-amid-debasement-trade-but-cuts-strategy-target-to-350-412778",
+          "timestamp": 1787739678000,
+          "postedAt": 1787841369265
+        },
+        {
+          "headline": "Bitcoin ETFs See Biggest Weekly Inflow In 10 Months During Rally",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-post-strongest-weekly-154700094.html",
+          "timestamp": 1787604129000,
+          "postedAt": 1787841369265
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Egyptian Bank Swept Into Treasury's Iran Sanctions Crackdown",
+        "url": "https://www.iranintl.com/en/202608308160",
+        "timestamp": 1788092831000,
+        "postedAt": 1788096705766
+      },
+      {
+        "headline": "Retailers Handle Tariff Refunds In Sharply Different Ways This Earnings Season",
+        "url": "https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html",
+        "timestamp": 1788091202000,
+        "postedAt": 1788096705766
+      },
+      {
+        "headline": "Billionaire Seeks Buyer For Tanzania Private Island—Fast",
+        "url": "https://www.forbes.com/sites/maryroeloffs/2026/08/29/billionaire-tim-draper-selling-his-private-island-in-tanzania-wants-offers-by-email/",
+        "timestamp": 1788018764000,
+        "photo": true,
+        "postedAt": 1788096705766,
+        "image": "/img/markets-1.jpg"
+      },
+      {
+        "headline": "Walmart To Pay $50 Million To Settle Opioid Lawsuit",
+        "url": "https://thehill.com/regulation/court-battles/6059138-walmart-opioid-lawsuit-settlement/",
+        "timestamp": 1787965730000,
+        "feature": true,
+        "postedAt": 1788096705766
+      },
+      {
+        "headline": "Nvidia Locks In $279 Billion Bet On Memory Chips",
+        "url": "https://www.fool.com/investing/2026/08/29/nvidia-just-locked-in-a-279-billion-bet-on-memory/",
+        "timestamp": 1787979600000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "Single, 74, With $10 Million: What Should I Do With It?",
+        "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1",
+        "timestamp": 1787998560000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "Meta To Pay $17.1 Billion In Social Media Settlement",
+        "url": "https://www.cnbc.com/2026/08/29/meta-settlement-tiktok-youtube-snap-teen-safety.html",
+        "timestamp": 1787994165000,
+        "feature": true,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "Goodyear Burns Cash As Turnaround Plan Continues",
+        "url": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html",
+        "timestamp": 1787979600000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "Lawmakers Probe Insider Trading At Energy Fuels After Bears Ears Rollback",
+        "url": "https://democrats-naturalresources.house.gov/media/press-releases/huffman-dexter-open-investigation-into-insider-trading-at-energy-fuels-after-trump-guts-bears-ears",
+        "timestamp": 1787974920000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "SpaceX Unveils Bold New Plan To Win Back Investors",
+        "url": "https://www.thestreet.com/investing/stocks/spacex-spcx-plans-louisiana-starbase-spaceport",
+        "timestamp": 1787958180000,
+        "photo": true,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "Panama Canal Congestion Drives Gas Tankers To Unusual Routes",
+        "url": "https://www.energyconnects.com/news/gas-lng/2026/august/panama-canal-congestion-drives-gas-tankers-to-unusual-routes/",
+        "timestamp": 1787909765000,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "UK: Steel Magnate Sanjeev Gupta's Family Takes £24 Million Mortgage On Belgravia Mansion",
+        "url": "https://www.afr.com/rear-window/sanjeev-gupta-pulls-out-of-scots-college-20260826-p60rpq",
+        "timestamp": 1787908978000,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "Businesses Get Tariff Refunds, But Consumers See No Cut",
+        "url": "https://www.npr.org/2026/08/28/nx-s1-5946782/businesses-getting-tariff-refunds-why-arent-consumers-getting-their-cut",
+        "timestamp": 1787907600000,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "FAA Moves To Fire LaGuardia Air Traffic Controllers After Deadly March Collision",
+        "url": "https://abcnews.com/US/faa-fire-laguardia-air-traffic-controllers-after-deadly/story?id",
+        "timestamp": 1787874530000,
+        "photo": true,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "Best Buy Tops Quarterly Estimates, Raises Outlook On Computing Strength",
+        "url": "https://www.cnbc.com/2026/08/27/best-buy-bby-q2-2027-earnings.html",
+        "timestamp": 1787828465000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Trump Tariffs Pose New Headache For US Data Centers",
+        "url": "https://www.politico.com/news/2026/08/27/data-centers-chips-tariffs-threat-01050957",
+        "timestamp": 1787821200000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Jensen Huang's Dinner Companions See Their Stock Prices Double",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-ceo-jensen-huang-eats-dinner-with-someone-and-their-stock-price-doubles-the-next-day-051553426.html",
+        "timestamp": 1787807700000,
+        "photo": true,
+        "postedAt": 1787841369265,
+        "image": "/img/markets-3.jpg"
+      },
+      {
+        "headline": "Boston Scientific Cyberattack Causes 'Global Disruption' To Operations",
+        "url": "https://techcrunch.com/2026/08/26/medical-device-maker-boston-scientific-says-a-cyberattack-is-causing-a-global-disruption-to-its-operations/",
+        "timestamp": 1787768589000,
+        "photo": true,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "What Happened To The So-Called AI Job Apocalypse?",
+        "url": "https://www.realclearmarkets.com/articles/2026/08/25/what_happened_to_the_so-called_ai_job_apocalypse_1201528.html",
+        "timestamp": 1787596765000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Jensen Huang Says He Favors Taxes But Disagrees With Bill Gates On AI Fallout Plan",
+        "url": "https://fortune.com/2026/08/28/jensen-huang-bill-gates-ai-tax-wealth-society-jobs/",
+        "timestamp": 1787912580000,
+        "postedAt": 1787921159134
+      }
+    ],
+    "center": [
+      {
+        "headline": "Jobs Report, Broadcom Earnings Pose Next Test For Stock Rally",
+        "url": "https://www.msn.com/en-us/money/top-stocks/jobs-report-broadcom-results-pose-next-hurdles-for-stock-market-rally/ar-AA2bdsU1",
+        "timestamp": 1788069596000,
+        "postedAt": 1788096705766
+      },
+      {
+        "headline": "9th Circuit Ruling Revives Arizona's Kalshi Prediction-Market Case",
+        "url": "https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/",
+        "timestamp": 1787952858000,
+        "postedAt": 1788096705766
+      },
+      {
+        "headline": "Corn And Wheat Prices Jump To Highest Levels In Three Years",
+        "url": "https://www.cnbc.com/2026/08/28/corn-and-wheat-prices-jump-to-highest-prices-in-more-than-three-years.html",
+        "timestamp": 1787947256000,
+        "postedAt": 1788096705766
+      },
+      {
+        "headline": "PAYPAL STOCK CRASHES AS ADVENT-STRIPE ABANDON $50 BILLION TAKEOVER BID",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/paypal-stock-crashes-18-stripe-113147946.html",
+        "timestamp": 1787921159134,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "Swiss Wealth Managers Urge Delay To Ownership Register After Hack",
+        "url": "https://cryptobriefing.com/swiss-ownership-register-delay-liechtenstein-hack/",
+        "timestamp": 1788001202000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "Glencore Threatened With $1.4 Billion Lawsuit From Trader Radiant",
+        "url": "https://www.gurufocus.com/news/9058939/radiant-world-threatens-legal-action-against-glencore-glncy",
+        "timestamp": 1787981156000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "Crypto Exchange Pitches Debit Card With 2% Bitcoin Cashback",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/debit-card-offers-2-cashback-113700569.html",
+        "timestamp": 1787978220000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "OpenAI Ends Cursor Partnership Over Musk Company Contract Violations",
+        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+        "timestamp": 1787975820000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "Lawsuit Claims Grok Chatbot Was Trained On Child Sexual Abuse Material",
+        "url": "https://gizmodo.com/grok-not-only-generates-child-porn-but-was-also-trained-on-it-new-lawsuit-claims-2000804488",
+        "timestamp": 1787950213000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "BYD's Global Push Finally Delivers As Profits Rise For First Time Since 2025",
+        "url": "https://kalkine.com.au/news/technology/brainchip-wins-global-ai-award-as-akidatag-pushes-into-commercial-markets-is-edge-ai-finally-turning-into-revenue",
+        "timestamp": 1787920680000,
+        "feature": true,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "Japan's Yen Intervention Hits Record $96 Billion In Past Month",
+        "url": "https://www.933thedrive.com/2026/08/28/japan-spent-record-96-5-billion-to-support-yen-over-past-month-ministry-data-shows/",
+        "timestamp": 1787914073000,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "Cyclospora Outbreak Linked To Recalled Iceberg Lettuce Spreads To 3 More States",
+        "url": "https://www.cbsnews.com/news/cyclospora-outbreak-recalled-iceberg-lettuce-more-states/",
+        "timestamp": 1787874175000,
+        "photo": true,
+        "postedAt": 1787921159134,
+        "image": "/img/markets-2.jpg"
+      },
+      {
+        "headline": "US Goods-Trade Deficit Widens To Largest Since March 2025",
+        "url": "https://www.reuters.com/world/us/jobless-claims-dip-latest-week-goods-trade-deficit-widens-july-2026-08-27/",
+        "timestamp": 1787838133000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "US Probes Apex Logistics Over Alleged Nvidia Chip Smuggling",
+        "url": "https://qz.com/apex-logistics-kuehne-nagel-nvidia-chip-smuggling-china-082726",
+        "timestamp": 1787819045000,
+        "feature": true,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Bill Gates Warns AI Could Upend American Jobs",
+        "url": "https://www.cbsnews.com/news/bill-gates-ai-jobs-warning/",
+        "timestamp": 1787776500000,
+        "photo": true,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Salesforce Stock Jumps 18% On AI Growth, Anthropic Investment Gain",
+        "url": "https://www.cnbc.com/2026/08/26/salesforce-crm-q2-earnings-report-2027.html",
+        "timestamp": 1787774851000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Nvidia Will Be The Most Profitable Company In The US Next Year",
+        "url": "https://www.theglobeandmail.com/investing/markets/stocks/MU/pressreleases/4268669/nvidia-just-guided-for-70-revenue-growth-in-fiscal-year-2028-heres-what-that-means-for-ai-stocks/",
+        "timestamp": 1787915880000,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "Nvidia Pauses Revenue-Sharing Deals With AI Cloud Companies",
+        "url": "https://www.reuters.com/business/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports-2026-08-27/",
+        "timestamp": 1787867160000,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "Five Wildest Discoveries From OpenAI's HuggingFace Investigation",
+        "url": "https://www.axios.com/2026/08/29/openai-huggingface-hack-investigation-highlights",
+        "timestamp": 1788008601000,
+        "postedAt": 1788096705766
+      }
+    ],
+    "right": [
+      {
+        "headline": "Charts Show How Leverage-Happy Investors Are Reshaping The Stock Market",
+        "url": "https://www.marketwatch.com/story/these-charts-show-how-leverage-happy-investors-are-transforming-the-stock-market-d4e350c3",
+        "timestamp": 1788094800000,
+        "postedAt": 1788096705766
+      },
+      {
+        "headline": "Inside The World's Most Expensive Neighborhood: $550 Million Apartments And F1 Stars",
+        "url": "https://www.forbes.com/sites/giacomotognini/2026/08/30/inside-the-worlds-most-expensive-neighborhood-550-million-apartments-f1-stars-and-billionaires/",
+        "timestamp": 1788085800000,
+        "photo": true,
+        "postedAt": 1788096705766,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Morgan Stanley Sees Bigger Story In SpaceX's $100 Billion Bet",
+        "url": "https://www.thestreet.com/investing/spacex-stock-morgan-stanley-louisiana-starbase",
+        "timestamp": 1788048420000,
+        "postedAt": 1788096705766
+      },
+      {
+        "headline": "Bitcoin's Price Move Mirrors Gold, Grayscale Says It's No Coincidence",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-moving-gold-grayscale-195016841.html",
+        "timestamp": 1787946616000,
+        "postedAt": 1788096705766
+      },
+      {
+        "headline": "S&P 500 Keeps Climbing Even As Market Breadth Narrows",
+        "url": "https://www.marketwatch.com/story/the-s-p-500-keeps-climbing-on-days-when-stocks-broadly-struggle-heres-whats-going-on-60ad5c72",
+        "timestamp": 1788001200000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "Should Apple's John Ternus Ditch Annual iPhone Upgrades?",
+        "url": "https://www.forbes.com/sites/ewanspence/2026/08/28/apple-iphone-18-pro-ceo-john-ternus-software-services-pivot/",
+        "timestamp": 1787997626000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "Bitmine's Tom Lee: Ethereum Could Hit $6,000 If Bitcoin Reaches $150,000",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bitmines-tom-lee-sees-6-121654503.html",
+        "timestamp": 1787980560000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "AARP Warns Against This 401(k) Move Amid Market Swings",
+        "url": "https://finance.yahoo.com/markets/articles/could-lose-25-35-aarp-121500853.html",
+        "timestamp": 1787980560000,
+        "postedAt": 1788006808748
+      },
+      {
+        "headline": "NVIDIA STOCK SURGES 7% AS BLOWOUT EARNINGS EASE AI GROWTH FEARS",
+        "url": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
+        "timestamp": 1787841369265,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Why Your Boss Doesn't Seem To Care About Your Tech Career Anymore",
+        "url": "https://www.yahoo.com/lifestyle/articles/self-care-control-manicure-says-120000896.html",
+        "timestamp": 1787910304000,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "Musk's AI Company Sues Its Own Users As Grok Deepfake Lawsuits Mount",
+        "url": "https://www.politico.com/news/2026/08/28/elon-musk-xai-lawsuits-grok-deepfakes-01053817",
+        "timestamp": 1787907600000,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "Tiny AI Stock Has Crushed Micron And Nvidia This Year",
+        "url": "https://www.fool.com/investing/2026/08/27/this-tiny-ai-stock-has-crushed-micron-and-nvidia-t/",
+        "timestamp": 1787836950000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "India's Sensex Slips Below 77,000 Amid Market Volatility",
+        "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-27th-august-2026/article71392989.ece",
+        "timestamp": 1787779680000,
+        "photo": true,
+        "postedAt": 1787841369265,
+        "image": "/img/markets-4.jpg"
+      },
+      {
+        "headline": "The Real AI Boom Hasn't Yet Begun, RealClear Argues",
+        "url": "https://www.realclearmarkets.com/articles/2026/08/27/the_real_artificial_intelligence_boom_hasnt_yet_begun_1202472.html",
+        "timestamp": 1787771672000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "Stock Market Nears Its Highest Valuation In History",
+        "url": "https://www.fool.com/investing/2026/08/27/stock-market-been-reaching-record-highs-history/",
+        "timestamp": 1787767200000,
+        "postedAt": 1787841369265
+      },
+      {
+        "headline": "S&P 500 Futures Mixed As Investors Count Down To Warsh's Jackson Hole Address",
+        "url": "https://www.cnbc.com/2026/08/27/stock-market-today-live-updates.html",
+        "timestamp": 1787912040000,
+        "postedAt": 1787921159134
+      },
+      {
+        "headline": "Drone Strike Sparks Blaze At Russian Oil Refinery In Kirishi",
+        "url": "https://www.moneycontrol.com/world/a-tea-break-saved-five-chhattisgarh-friends-from-nepal-s-deadly-flash-floods-article-14018305.html",
+        "timestamp": 1788083980000,
+        "postedAt": 1788096705766
+      },
+      {
+        "headline": "Sony Music, Warner Sue Anthropic Over 'Brazen' IP Theft",
+        "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+        "timestamp": 1788028919000,
+        "feature": true,
+        "postedAt": 1788096705766
+      },
+      {
+        "headline": "AI Giants Warn Cybersecurity 'Apocalypse' Could Hit Within Months",
+        "url": "https://www.axios.com/2026/08/27/openai-anthropic-issue-dire-cyber-threat-warning",
+        "timestamp": 1787999400000,
+        "postedAt": 1788096705766
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,711.76",
+      "change": "-19.23",
+      "changePct": "-0.25%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "53,559.99",
+      "change": "-9.41",
+      "changePct": "-0.02%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "26,402.42",
+      "change": "-138.93",
+      "changePct": "-0.52%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr",
+      "value": "4.72%",
+      "change": "+0.05",
+      "changePct": "+1.03%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$4,529.90",
+      "change": "-134.10",
+      "changePct": "-2.88%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil",
+      "value": "$83.40",
+      "change": "-0.13",
+      "changePct": "-0.16%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$78,711.58",
+      "change": "+476.83",
+      "changePct": "+0.61%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}
