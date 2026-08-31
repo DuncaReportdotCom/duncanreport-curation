@@ -15,10 +15,17 @@ name: Publish DuncanReport
 
 on:
   schedule:
-    - cron: "0 11 * * *"       # ~06:00 Central (CDT) - primary morning attempt
-    - cron: "0 12 * * *"       # ~06:00 Central (CST) / backup - retries if the first was delayed/failed
-    - cron: "30 14 * * *"      # ~09:30 Central (CDT) / later-morning backup
-    - cron: "30 15 * * *"      # ~09:30 Central (CST) / later-morning backup
+    # Many morning attempts. GitHub often fires cron late (hours, for this repo), so we buy extra
+    # lottery tickets: the de-dupe means only the FIRST one to actually fire publishes; the rest
+    # exit in seconds. Spread ~06:00-11:00 Central so an early landing is likely on a good day and a
+    # delayed one is still caught.
+    - cron: "0 11 * * *"       # ~06:00 Central (CDT) - earliest morning attempt
+    - cron: "30 11 * * *"      # ~06:30 Central (CDT)
+    - cron: "0 12 * * *"       # ~06:00 Central (CST) / ~07:00 (CDT)
+    - cron: "0 13 * * *"       # ~08:00 Central (CDT) - mid-morning retry
+    - cron: "30 14 * * *"      # ~09:30 Central (CDT)
+    - cron: "30 15 * * *"      # ~09:30 Central (CST) / ~10:30 (CDT)
+    - cron: "0 16 * * *"       # ~11:00 Central (CDT) - last morning retry
     - cron: "0 12 1,15 * *"    # biweekly narrative review
   # Auto deploy-only: pushing a story addition (edit to curate.py) or a front-end tweak (index.html)
   # rebuilds and redeploys WITHOUT re-curating - the manual pick appears within a couple minutes.
@@ -84,10 +91,16 @@ jobs:
           # live site's lastUpdated. The first cron of the day that gets through publishes; later
           # crons see today's date and skip. If an earlier attempt failed to deploy, lastUpdated
           # stays old so the next cron automatically RETRIES - the morning update is self-healing.
+          # GitHub can delay this repo's cron by SEVERAL HOURS (observed a 06:00 cron firing near
+          # 13:40 Central), so the window must be generous - it exists only to avoid a pathological
+          # overnight publish, not to enforce a tight time. The de-dupe below is what guarantees a
+          # single daily update. Crons never fire EARLY, so the natural earliest publish is ~05-06:00
+          # Central; on a good GitHub day that is when it lands, on a bad day it slips later but still
+          # runs the same day.
           H=$((10#$(TZ=America/Chicago date +%H)))
-          if [ "$H" -lt 5 ] || [ "$H" -gt 11 ]; then
+          if [ "$H" -lt 5 ] || [ "$H" -gt 17 ]; then
             echo "proceed=false" >> "$GITHUB_OUTPUT"
-            echo "Skipping: Central $(TZ=America/Chicago date +%H:%M) is outside the 05:00-11:59 morning window."
+            echo "Skipping: Central $(TZ=America/Chicago date +%H:%M) is outside the 05:00-17:59 daytime window."
             exit 0
           fi
           TODAY=$(TZ=America/Chicago date +%Y-%m-%d)
