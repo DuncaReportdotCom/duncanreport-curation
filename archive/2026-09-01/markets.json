@@ -173,8 +173,7 @@
         "url": "https://www.forbes.com/sites/maryroeloffs/2026/08/29/billionaire-tim-draper-selling-his-private-island-in-tanzania-wants-offers-by-email/",
         "timestamp": 1788018764000,
         "photo": true,
-        "postedAt": 1788096705766,
-        "image": "/img/markets-2.jpg"
+        "postedAt": 1788096705766
       },
       {
         "headline": "Walmart To Pay $50 Million To Settle Opioid Lawsuit",
@@ -481,57 +480,57 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,686.14",
-      "change": "-25.62",
-      "changePct": "-0.33%",
+      "value": "7,642.09",
+      "change": "-44.05",
+      "changePct": "-0.57%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "53,185.90",
-      "change": "-374.10",
-      "changePct": "-0.70%",
+      "value": "52,829.78",
+      "change": "-356.12",
+      "changePct": "-0.67%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,370.89",
-      "change": "-31.53",
-      "changePct": "-0.12%",
+      "value": "26,157.12",
+      "change": "-213.76",
+      "changePct": "-0.81%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
-      "value": "4.76%",
-      "change": "+0.04",
-      "changePct": "+0.81%",
+      "value": "4.77%",
+      "change": "+0.02",
+      "changePct": "+0.34%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Gold",
-      "value": "$4,421.10",
-      "change": "-60.40",
-      "changePct": "-1.35%",
+      "value": "$4,412.50",
+      "change": "-69.00",
+      "changePct": "-1.54%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$87.86",
-      "change": "+2.10",
-      "changePct": "+2.45%",
+      "value": "$88.90",
+      "change": "+3.14",
+      "changePct": "+3.66%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$77,977.58",
-      "change": "-581.53",
-      "changePct": "-0.74%",
+      "value": "$77,621.14",
+      "change": "-937.97",
+      "changePct": "-1.19%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     }

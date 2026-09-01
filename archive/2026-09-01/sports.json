@@ -550,111 +550,138 @@
   "scoreboard": [
     {
       "league": "MLB",
-      "home": "ATL",
-      "away": "SF",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "3",
-      "awayScore": "7"
-    },
-    {
-      "league": "MLB",
       "home": "TB",
       "away": "NYM",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "3"
+      "state": "scheduled",
+      "note": "9/1 - 6:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "CIN",
       "away": "SD",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "0",
-      "awayScore": "5"
+      "state": "scheduled",
+      "note": "9/1 - 6:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "PIT",
+      "away": "SF",
+      "state": "scheduled",
+      "note": "9/1 - 6:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "CLE",
+      "away": "TOR",
+      "state": "scheduled",
+      "note": "9/1 - 6:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "WSH",
-      "away": "MIA",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "3"
+      "away": "ATL",
+      "state": "scheduled",
+      "note": "9/1 - 6:45 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "BOS",
       "away": "SEA",
-      "state": "post",
-      "note": "Final/10",
-      "homeScore": "9",
-      "awayScore": "8"
+      "state": "scheduled",
+      "note": "9/1 - 6:45 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "MIN",
       "away": "DET",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "11",
-      "awayScore": "1"
+      "state": "scheduled",
+      "note": "9/1 - 7:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "KC",
+      "away": "MIA",
+      "state": "scheduled",
+      "note": "9/1 - 7:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "CHC",
       "away": "MIL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "17",
-      "awayScore": "3"
+      "state": "scheduled",
+      "note": "9/1 - 7:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "TEX",
       "away": "ATH",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "8",
-      "awayScore": "1"
+      "state": "scheduled",
+      "note": "9/1 - 8:05 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "HOU",
       "away": "CHW",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "3"
+      "state": "scheduled",
+      "note": "9/1 - 8:10 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "COL",
       "away": "BAL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "1",
-      "awayScore": "2"
+      "state": "scheduled",
+      "note": "9/1 - 8:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "LAA",
       "away": "NYY",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "10",
-      "awayScore": "1"
+      "state": "scheduled",
+      "note": "9/1 - 9:38 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "ARI",
       "away": "PHI",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "1",
-      "awayScore": "2"
+      "state": "scheduled",
+      "note": "9/1 - 9:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "LAD",
+      "away": "STL",
+      "state": "scheduled",
+      "note": "9/1 - 10:10 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLS",
