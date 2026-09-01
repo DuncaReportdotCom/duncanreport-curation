@@ -1,23 +1,56 @@
 {
-  "lastUpdated": 1788265505226,
+  "lastUpdated": 1788297911115,
   "heroSetDate": "2026-09-01",
   "hero": {
-    "headline": "TANKERS HIT IN STRAIT OF HORMUZ AS TRUMP WEIGHS MORE STRIKES ON IRAN",
-    "url": "https://www.cbsnews.com/live-updates/iran-war-us-strikes-strait-of-hormuz-larak-island/",
+    "headline": "U.S. MILITARY LAUNCHES FRESH STRIKES ON IRANIAN FORCES IN STRAIT OF HORMUZ",
+    "url": "https://www.axios.com/2026/09/01/hormuz-centcom-strikes-trump-iran",
     "sublinks": [
       {
-        "text": "Iran's 'Castle Breaker' missile emerges as a key weapon in the conflict",
-        "url": "https://www.usatoday.com/story/news/politics/2026/08/31/castle-breaker-missile-havoc-iran-us-war/91496889007/"
+        "text": "Pentagon Confirms Second Wave Of Strikes On Iranian Targets",
+        "url": "https://www.dailywire.com/news/live-updates-iranian-protests-intensify-as-citizens-demand-end-to-ayatollah-rule"
       },
       {
-        "text": "Netanyahu says he used US cable news coverage to help build support for the war",
-        "url": "https://zeteo.com/p/netanyahu-brags-how-us-cable-news"
+        "text": "Treasury's Bessent Vows To 'Asphyxiate' Iran's Economy, Freeze Assets",
+        "url": "https://www.foxbusiness.com/politics/bessent-vows-asphyxiate-iran-economically-warns-regimes-offshore-assets-frozen"
+      },
+      {
+        "text": "Carrier Strike Group Heads To Thailand After Mideast Deployment",
+        "url": "https://apnews.com/article/thailand-us-aircraft-carrier-lincoln-port-visit-7eae17d3e25204262d6ee6d0ff8274ea"
       }
     ],
-    "postedAt": 1788265505226,
+    "postedAt": 1788297911115,
     "img": true
   },
   "groups": [
+    {
+      "title": "ILLEGAL IMMIGRATION CRIME VICTIMS SPEAK OUT",
+      "stories": [
+        {
+          "headline": "Father Of Girl Left Disabled By Illegal Immigrant Rips Democrats",
+          "url": "https://www.realclearpolitics.com/video/2026/09/01/father_of_girl_left_disabled_by_illegal_immigrant_rips_democrats_theres_no_way_you_guys_are_sorry.html",
+          "timestamp": 1788296915000,
+          "postedAt": 1788297911115
+        },
+        {
+          "headline": "Illegal Immigrant Accused Of Raping Elderly Florida Woman",
+          "url": "https://www.dailywire.com/news/illegal-immigrant-accused-of-raping-elderly-florida-woman",
+          "timestamp": 1788295264000,
+          "postedAt": 1788297911115
+        },
+        {
+          "headline": "ICE To Spend $2M On Robot Dogs For Immigration Crackdown",
+          "url": "https://www.newsnationnow.com/video/ice-to-spend-2m-on-robot-dogs-for-immigration-crackdown-morning-in-america/12121354/",
+          "timestamp": 1788186684000,
+          "postedAt": 1788189146927
+        },
+        {
+          "headline": "Far-Right Immigration Critic Milo Yiannopoulos Deported From U.S.",
+          "url": "https://www.npr.org/2026/08/29/nx-s1-5948731/milo-yiannopoulos-arrested-overstaying-us-visa",
+          "timestamp": 1788037754000,
+          "postedAt": 1788097344076
+        }
+      ]
+    },
     {
       "title": "VENEZUELA OIL DEAL DRAWS SCRUTINY",
       "stories": [
@@ -122,23 +155,6 @@
       ]
     },
     {
-      "title": "IMMIGRATION ENFORCEMENT EXPANSION",
-      "stories": [
-        {
-          "headline": "ICE To Spend $2M On Robot Dogs For Immigration Crackdown",
-          "url": "https://www.newsnationnow.com/video/ice-to-spend-2m-on-robot-dogs-for-immigration-crackdown-morning-in-america/12121354/",
-          "timestamp": 1788186684000,
-          "postedAt": 1788189146927
-        },
-        {
-          "headline": "Far-Right Immigration Critic Milo Yiannopoulos Deported From U.S.",
-          "url": "https://www.npr.org/2026/08/29/nx-s1-5948731/milo-yiannopoulos-arrested-overstaying-us-visa",
-          "timestamp": 1788037754000,
-          "postedAt": 1788097344076
-        }
-      ]
-    },
-    {
       "title": "MAIL-IN VOTING FIGHT INTENSIFIES AFTER COURT RULINGS",
       "stories": [
         {
@@ -165,6 +181,27 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "DeSantis Deals Blow To Controversial Flock Cameras",
+        "url": "https://www.dailysignal.com/2026/09/01/desantis-flock-cameras/",
+        "timestamp": 1788295331000,
+        "postedAt": 1788297911115
+      },
+      {
+        "headline": "Judge To Decide If Tyler Robinson Stands Trial In Kirk Assassination",
+        "url": "https://www.nbcnews.com/news/us-news/judge-decide-whether-tyler-robinson-will-stand-trial-charlie-kirks-ass-rcna595489",
+        "timestamp": 1788295117000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1788297911115,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "U.S. Claims Majority Control Of Venezuela's Oil Reserves",
+        "url": "https://www.democracynow.org/2026/9/1/venezuela_trump_oil_grab",
+        "timestamp": 1788295019000,
+        "postedAt": 1788297911115
+      },
       {
         "headline": "Whistle-Blower Says Trump Officials Are Defying Court Orders On Mail Voting",
         "url": "https://www.facebook.com/nytimes/posts/breaking-news-a-whistle-blower-at-the-us-postal-service-said-trump-officials-wer/1473580491291076/",
@@ -227,66 +264,23 @@
         "timestamp": 1788078733000,
         "photo": true,
         "postedAt": 1788097344076
-      },
-      {
-        "headline": "Sullivan Goes On Attack In First Post-Primary Faceoff For Alaska Senate Seat",
-        "url": "https://alaskabeacon.com/2026/08/28/sullivan-goes-on-attack-in-first-post-primary-faceoff-for-alaskas-u-s-senate-race/",
-        "timestamp": 1787961274000,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "MAGA Already Fighting Over 2028 As Trump Fights Everyone Else",
-        "url": "https://www.thebulwark.com/p/maga-is-already-fighting-over-2028",
-        "timestamp": 1788003056000,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "Canada: Canadians Vow To Boycott US-Made Goods Over Trump Policies",
-        "url": "https://www.theguardian.com/business/2026/aug/29/if-its-made-in-the-us-i-dont-buy-it-canadians-on-boycotting-trumps-america",
-        "timestamp": 1788001320000,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "Hollywood Has An Unlikely Ally In Its Push To Win Over Trump",
-        "url": "https://www.politico.com/news/2026/08/29/jon-voight-trump-hollywood-deli-01055219",
-        "timestamp": 1788001200000,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "Catholic Nuns Fight New York's Assisted-Suicide Mandate",
-        "url": "https://www.dailywire.com/news/the-catholic-nuns-fighting-new-yorks-suicide-mandate",
-        "timestamp": 1787997871000,
-        "photo": true,
-        "postedAt": 1788007411651,
-        "image": "/img/politics-3.jpg"
-      },
-      {
-        "headline": "Zelensky Orders Ukraine To Hit Russia With 1,000 Drones A Day",
-        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-burnham-missiles-nato-b3040764.html",
-        "timestamp": 1787983065000,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "Trump Says He'll Visit Pentagon, Not Ground Zero, For 9/11 Ceremony",
-        "url": "https://www.nbcnews.com/politics/donald-trump/trump-says-ll-visit-pentagon-rather-ground-zero-911-ceremony-rcna594974",
-        "timestamp": 1787968200000,
-        "photo": true,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "California Lawmakers Move To Shield Coast From Trump's Oil Agenda",
-        "url": "https://www.politico.com/news/2026/08/28/california-coast-trump-oil-01055337",
-        "timestamp": 1787959680000,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "Jeffries, Ocasio-Cortez Look To November At 2026 March On Washington",
-        "url": "https://thehill.com/homenews/campaign/6058105-jeffries-ocasio-cortez-midterms-march-on-washington/",
-        "timestamp": 1787945160000,
-        "postedAt": 1788007411651
       }
     ],
     "center": [
+      {
+        "headline": "Two Democrats Cross Aisle To Save Johnson From Shutdown Fight",
+        "url": "https://thehill.com/homenews/house/6063798-golden-perez-gop-bills-advance/",
+        "timestamp": 1788295260000,
+        "postedAt": 1788297911115
+      },
+      {
+        "headline": "17-Year-Old Charged With Murder In Livestreamed California Mosque Shooting",
+        "url": "https://www.livenowfox.com/news/teen-california-mosque-shooting-charged-murder",
+        "timestamp": 1788294502000,
+        "photo": true,
+        "postedAt": 1788297911115,
+        "image": "/img/politics-2.jpg"
+      },
       {
         "headline": "Vance Characterizes Democratic Senate Hopeful Abdul El-Sayed As 'Evil'",
         "url": "https://www.nbcnews.com/politics/2026-election/vance-democratic-senate-abdul-el-sayed-evil-michigan-rcna594871",
@@ -310,8 +304,7 @@
         "url": "https://www.orlandosentinel.com/2026/08/31/florida-orders-flock-cameras-off-of-state-roads/",
         "timestamp": 1788224559000,
         "photo": true,
-        "postedAt": 1788265505226,
-        "image": "/img/politics-0.jpg"
+        "postedAt": 1788265505226
       },
       {
         "headline": "U.S. Cuts Off Antifa's Global Leftist Lifeline",
@@ -357,53 +350,23 @@
         "url": "https://www.npr.org/2026/08/28/nx-s1-5940881/democrats-congress-midterm-elections-trump",
         "timestamp": 1787907600000,
         "postedAt": 1788097344076
-      },
-      {
-        "headline": "Gov. Abbott Blocks Texas Agencies From Spending On Flock Cameras",
-        "url": "https://www.texastribune.org/2026/08/28/texas-greg-abbott-flock-cameras-order-state-money/",
-        "timestamp": 1787953408000,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "Poll Pits Trump Against Reagan And Lincoln, With Surprising Results",
-        "url": "https://www.theblaze.com/news/trump-lincoln-reagan-admirable-republicans",
-        "timestamp": 1788005454000,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "US National Debt Crosses $40 Trillion Threshold",
-        "url": "https://www.theblaze.com/columns/opinion/to-err-is-human-to-owe-40-trillion-is-washington",
-        "timestamp": 1788004928000,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "Hunter Biden's Lawyer Says IRS Whistleblowers Pushed DOJ To Prosecute",
-        "url": "https://www.dailysignal.com/2026/08/29/hunter-bidens-lawyer-doj-would-not-have-prosecuted-without-pressure-from-irs-whistleblowers/",
-        "timestamp": 1787997780000,
-        "photo": true,
-        "postedAt": 1788007411651,
-        "image": "/img/politics-4.jpg"
-      },
-      {
-        "headline": "War Weighs On Iran's Economy As US Intensifies Sanctions",
-        "url": "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/",
-        "timestamp": 1787969040000,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "Stars And Stripes Journalists Facing Firing Get One-Week Reprieve",
-        "url": "https://www.politico.com/news/2026/08/28/stars-and-stripes-journalists-facing-firing-get-one-week-reprieve-01055447",
-        "timestamp": 1787963100000,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "Feds Announce They'll 'Crush' Far-Left Tech 'Collective'",
-        "url": "https://www.theblaze.com/tech/lazer-tag-dhs-ai-collective",
-        "timestamp": 1788004039000,
-        "postedAt": 1788007411651
       }
     ],
     "right": [
+      {
+        "headline": "What To Know About USPS Mail-In Ballot Rule Amid Whistleblower Claims",
+        "url": "https://www.washingtonexaminer.com/news/justice/4708235/what-to-know-usps-mail-in-ballot-rule-whistleblower-claims/",
+        "timestamp": 1788294780000,
+        "postedAt": 1788297911115
+      },
+      {
+        "headline": "South Korea Sees Signs Trump-Kim Talks Could Return",
+        "url": "https://dailycaller.com/2026/09/01/donald-trump-kim-jong-un-potential-talks-south-korean-intelligence",
+        "timestamp": 1788294720000,
+        "photo": true,
+        "postedAt": 1788297911115,
+        "image": "/img/politics-1.jpg"
+      },
       {
         "headline": "Attorney In NY AG's Office Says He Was Told To 'Target Trump'",
         "url": "https://thefederalist.com/2026/09/01/whistleblower-in-letitia-james-office-says-he-was-ordered-to-target-trump/",
@@ -440,15 +403,14 @@
         "timestamp": 1788184140000,
         "photo": true,
         "postedAt": 1788189146927,
-        "image": "/img/politics-1.jpg"
+        "image": "/img/politics-3.jpg"
       },
       {
         "headline": "Google Maps Renames Lake Ontario 'Lake America' For US Users After Trump Order",
         "url": "https://www.foxbusiness.com/lifestyle/google-maps-changes-lake-ontario-lake-america-us-users-trump-order-its-official",
         "timestamp": 1788124320000,
         "photo": true,
-        "postedAt": 1788189146927,
-        "image": "/img/politics-2.jpg"
+        "postedAt": 1788189146927
       },
       {
         "headline": "Sen. Hawley Opens Investigation Into Flock Surveillance Cameras",
@@ -463,20 +425,6 @@
         "timestamp": 1788084012000,
         "photo": true,
         "postedAt": 1788097344076
-      },
-      {
-        "headline": "Judge Throws Out Confession By Alleged 9/11 Mastermind Khalid Sheikh Mohammed",
-        "url": "https://www.cbsnews.com/news/judge-throws-out-confession-alleged-911-mastermind-khalid-sheikh-mohammad/",
-        "timestamp": 1787977260000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1788007411651
-      },
-      {
-        "headline": "Trump Signs Order Creating US Space Academy",
-        "url": "https://www.aljazeera.com/news/2026/8/28/president-donald-trump-signs-order-creating-us-space-academy",
-        "timestamp": 1787945203000,
-        "postedAt": 1788007411651
       },
       {
         "headline": "The Republican Party's Grave Warning To American Jews If Democrats Win",
@@ -545,12 +493,12 @@
     }
   ],
   "balance": {
-    "left": 151,
+    "left": 146,
     "right": 208,
     "independent": 0,
     "days": 30,
-    "total": 359,
-    "pctLeft": 42,
-    "pctRight": 58
+    "total": 354,
+    "pctLeft": 41,
+    "pctRight": 59
   }
 }

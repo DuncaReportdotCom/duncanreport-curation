@@ -1,24 +1,32 @@
 {
-  "lastUpdated": 1788264684134,
+  "lastUpdated": 1788297293403,
   "heroSetDate": "2026-09-01",
   "hero": {
-    "headline": "IRAN-LINKED STRIKES HIT TANKERS NEAR HORMUZ; OIL SURGES PAST $92",
+    "headline": "OIL SURGES TO 6-WEEK HIGH AS U.S. STRIKES IRAN NEAR HORMUZ",
     "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708",
     "sublinks": [
       {
-        "text": "Diesel Crack Spread Tops $100 As Tankers Struck Near Hormuz",
-        "url": "https://www.zerohedge.com/energy/projectiles-hit-two-supertankers-exiting-hormuz-brent-tops-92-diesel-crack-breaches-100"
+        "text": "Wall Street Sinks As Oil, Treasury Yields Jump To Start September",
+        "url": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-major-indexes-drop-to-begin-new-trading-month-as-oil-prices-treasury-yields-jump/ar-AA2bl8lO"
       },
       {
-        "text": "Reuters: Renewed US-Iran Strikes Stoke Global Oil Supply Fears",
-        "url": "https://www.reuters.com/business/energy/oil-prices-rise-latest-fighting-resurrects-middle-east-supply-disruption-risks-2026-09-01/"
+        "text": "Bond Yields Hit Fresh Highs On Inflation Fears",
+        "url": "https://www.bbc.com/news/articles/c980y8r98y2o"
       },
       {
-        "text": "Dow, S&P, Nasdaq Futures Slide As Inflation, Fed Fears Compound",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-1-dow-sp-500-nasdaq-080617884.html"
+        "text": "Traders Rush For Rate-Spike Protection As Stocks, Gold, Crypto All Tumble",
+        "url": "https://www.zerohedge.com/markets/rate-spike-hedgers-go-bonkers-iran-attacks-spike-oil-stocks-gold-crypto-all-tank"
+      },
+      {
+        "text": "Trump To Meet Oil Refiners In Push To Lower Gas Prices",
+        "url": "https://www.cnbc.com/2026/08/31/trump-refiners-gas-prices-refining-capacity.html"
+      },
+      {
+        "text": "10-Year Treasury Nears 'Danger Zone' Amid Selloff",
+        "url": "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone-891cd45d"
       }
     ],
-    "postedAt": 1788264684134,
+    "postedAt": 1788297293403,
     "img": true
   },
   "groups": [
@@ -44,44 +52,31 @@
           "postedAt": 1788264684134
         }
       ]
-    },
-    {
-      "title": "US QUIETLY CHANGES KEY RETIREMENT RULES",
-      "stories": [
-        {
-          "headline": "What's The Real US Retirement Age? Here Are Four Estimates",
-          "url": "https://www.usatoday.com/story/money/personal-finance/2026/08/29/retirement-age-in-america-social-security-medicare/91406670007/",
-          "timestamp": 1787994612000,
-          "postedAt": 1788006808748
-        },
-        {
-          "headline": "US Quietly Changes Three Retirement Rules With No Fanfare",
-          "url": "https://finance.yahoo.com/economy/policy/articles/3-retirement-rules-were-changed-114500503.html",
-          "timestamp": 1787978700000,
-          "postedAt": 1788006808748
-        }
-      ]
-    },
-    {
-      "title": "US TIGHTENS FINANCIAL SQUEEZE ON IRAN-LINKED BANKS",
-      "stories": [
-        {
-          "headline": "US Campaign To Isolate Iran Financially Closes In On Dubai",
-          "url": "https://www.iranintl.com/en/202608293662",
-          "timestamp": 1787990100000,
-          "postedAt": 1788006808748
-        },
-        {
-          "headline": "US Restricts UAE Bank Branch Over Iran Links",
-          "url": "https://www.newarab.com/news/us-set-limits-egyptian-bank-effort-pressure-iran",
-          "timestamp": 1787983200000,
-          "postedAt": 1788006808748
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Apple's First Foldable iPhone: Latest On Its Release Date",
+        "url": "https://www.forbes.com/sites/davidphelan/2026/09/01/apples-first-foldable-iphone-the-latest-news-on-its-release/",
+        "timestamp": 1788292800000,
+        "postedAt": 1788297293403
+      },
+      {
+        "headline": "Apple's John Ternus Hypes 'Huge Launch Next Week' In First Memo As CEO",
+        "url": "https://techcrunch.com/2026/09/01/john-ternus-hypes-huge-launch-next-week-in-first-memo-as-apple-ceo/",
+        "timestamp": 1788291928000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1788297293403,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Goldman Sachs, BofA, Others Plan Joint Dollar Stablecoin For 2027",
+        "url": "https://www.reuters.com/business/finance/goldman-sachs-bofa-others-plan-issue-dollar-stablecoin-together-2027-2026-09-01/",
+        "timestamp": 1788283420000,
+        "postedAt": 1788297293403
+      },
       {
         "headline": "Morgan Stanley Sees 43% Robinhood Surge Without Crypto Boost",
         "url": "https://www.marketwatch.com/story/morgan-stanley-sees-a-43-surge-for-robinhood-without-help-from-crypto-906389d9",
@@ -136,7 +131,7 @@
         "timestamp": 1788184140000,
         "photo": true,
         "postedAt": 1788188383985,
-        "image": "/img/markets-0.jpg"
+        "image": "/img/markets-1.jpg"
       },
       {
         "headline": "MIT Economist Says America Is Asking The Wrong Question About Its $40 Trillion Debt",
@@ -181,52 +176,22 @@
         "timestamp": 1787965730000,
         "feature": true,
         "postedAt": 1788096705766
-      },
-      {
-        "headline": "Nvidia Locks In $279 Billion Bet On Memory Chips",
-        "url": "https://www.fool.com/investing/2026/08/29/nvidia-just-locked-in-a-279-billion-bet-on-memory/",
-        "timestamp": 1787979600000,
-        "postedAt": 1788006808748
-      },
-      {
-        "headline": "Single, 74, With $10 Million: What Should I Do With It?",
-        "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1",
-        "timestamp": 1787998560000,
-        "postedAt": 1788006808748
-      },
-      {
-        "headline": "Meta To Pay $17.1 Billion In Social Media Settlement",
-        "url": "https://www.cnbc.com/2026/08/29/meta-settlement-tiktok-youtube-snap-teen-safety.html",
-        "timestamp": 1787994165000,
-        "feature": true,
-        "postedAt": 1788006808748
-      },
-      {
-        "headline": "Goodyear Burns Cash As Turnaround Plan Continues",
-        "url": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html",
-        "timestamp": 1787979600000,
-        "postedAt": 1788006808748
-      },
-      {
-        "headline": "Lawmakers Probe Insider Trading At Energy Fuels After Bears Ears Rollback",
-        "url": "https://democrats-naturalresources.house.gov/media/press-releases/huffman-dexter-open-investigation-into-insider-trading-at-energy-fuels-after-trump-guts-bears-ears",
-        "timestamp": 1787974920000,
-        "postedAt": 1788006808748
-      },
-      {
-        "headline": "SpaceX Unveils Bold New Plan To Win Back Investors",
-        "url": "https://www.thestreet.com/investing/stocks/spacex-spcx-plans-louisiana-starbase-spaceport",
-        "timestamp": 1787958180000,
-        "photo": true,
-        "postedAt": 1788006808748
       }
     ],
     "center": [
       {
-        "headline": "Apple's John Ternus Takes Helm As AI, Memory Crunch Loom",
-        "url": "https://www.cnbc.com/2026/09/01/apple-enters-ternus-era-as-ai-challenges-and-memory-crunch-intensify.html",
-        "timestamp": 1788260401000,
-        "postedAt": 1788264684134
+        "headline": "Stan Kroenke Buys Los Angeles Angels In $4 Billion Deal",
+        "url": "https://www.forbes.com/sites/zacharyfolk/2026/09/01/stan-kroenke-buys-los-angeles-angels-in-4-billion-deal/",
+        "timestamp": 1788295200000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1788297293403
+      },
+      {
+        "headline": "Anthropic Says New Fable AI Model Is Cheaper, Better At Coding",
+        "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less/",
+        "timestamp": 1788285662000,
+        "postedAt": 1788297293403
       },
       {
         "headline": "Trump's Venezuela Energy Push A 'Major Problem' For Europe",
@@ -313,43 +278,38 @@
         "postedAt": 1788096705766
       },
       {
-        "headline": "Swiss Wealth Managers Urge Delay To Ownership Register After Hack",
-        "url": "https://cryptobriefing.com/swiss-ownership-register-delay-liechtenstein-hack/",
-        "timestamp": 1788001202000,
-        "postedAt": 1788006808748
-      },
-      {
-        "headline": "Glencore Threatened With $1.4 Billion Lawsuit From Trader Radiant",
-        "url": "https://www.gurufocus.com/news/9058939/radiant-world-threatens-legal-action-against-glencore-glncy",
-        "timestamp": 1787981156000,
-        "postedAt": 1788006808748
-      },
-      {
-        "headline": "Crypto Exchange Pitches Debit Card With 2% Bitcoin Cashback",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/debit-card-offers-2-cashback-113700569.html",
-        "timestamp": 1787978220000,
-        "postedAt": 1788006808748
-      },
-      {
-        "headline": "OpenAI Ends Cursor Partnership Over Musk Company Contract Violations",
-        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-        "timestamp": 1787975820000,
-        "postedAt": 1788006808748
-      },
-      {
-        "headline": "Lawsuit Claims Grok Chatbot Was Trained On Child Sexual Abuse Material",
-        "url": "https://gizmodo.com/grok-not-only-generates-child-porn-but-was-also-trained-on-it-new-lawsuit-claims-2000804488",
-        "timestamp": 1787950213000,
-        "postedAt": 1788006808748
-      },
-      {
         "headline": "Five Wildest Discoveries From OpenAI's HuggingFace Investigation",
         "url": "https://www.axios.com/2026/08/29/openai-huggingface-hack-investigation-highlights",
         "timestamp": 1788008601000,
         "postedAt": 1788096705766
+      },
+      {
+        "headline": "HP Stock Outperforms After Strong Trading Day",
+        "url": "https://www.marketwatch.com/data-news/hp-inc-stock-outperforms-competitors-on-strong-trading-day-2c0bc263-b25f6ef37f94",
+        "timestamp": 1788294600000,
+        "postedAt": 1788297293403
       }
     ],
     "right": [
+      {
+        "headline": "Bank Of America VP Fatally Stabbed In Times Square",
+        "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/09/01/bank-of-america-vice-president-fatally-stabbed-in-times-square-what-we-know/",
+        "timestamp": 1788288671000,
+        "postedAt": 1788297293403
+      },
+      {
+        "headline": "Google Locks Up Largest Geothermal Power Deal Ever",
+        "url": "https://www.fool.com/investing/2026/09/01/google-just-locked-up-the-largest-geothermal-power-deal-ever-made/",
+        "timestamp": 1788287649000,
+        "postedAt": 1788297293403
+      },
+      {
+        "headline": "San Clemente Condo Owners Hit With Sudden $26,000 HOA Fee",
+        "url": "https://abc7.com/post/san-clemente-condo-owners-stunned-sudden-26000-hoa-fee-emergency-roof-assessment/19754573/",
+        "timestamp": 1788282901000,
+        "photo": true,
+        "postedAt": 1788297293403
+      },
       {
         "headline": "TRUMP THREATENS FRESH IRAN STRIKES; OIL TOPS $90, DOW SLIDES 350 POINTS",
         "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-and-nasdaq-set-to-fall-as-brent-oil-tops-90-after-u-s-strike-on-iran",
@@ -364,12 +324,6 @@
         "postedAt": 1788264684134
       },
       {
-        "headline": "Google, Fervo Ink Largest-Ever Geothermal Power Deal",
-        "url": "https://www.investing.com/news/stock-market-news/fervo-energy-stock-jumps-on-google-geothermal-power-deal-93CH-4883838",
-        "timestamp": 1788256800000,
-        "postedAt": 1788264684134
-      },
-      {
         "headline": "Twin Wants Brother To Pay Share On Inherited Houses",
         "url": "https://www.marketwatch.com/story/its-not-fair-my-twin-brother-and-i-were-left-houses-by-our-parents-can-i-make-him-pay-his-share-for-taxes-and-upkeep-43feb780",
         "timestamp": 1788254100000,
@@ -381,7 +335,7 @@
         "timestamp": 1788177616000,
         "photo": true,
         "postedAt": 1788188383985,
-        "image": "/img/markets-1.jpg"
+        "image": "/img/markets-2.jpg"
       },
       {
         "headline": "Bank Of England Chief Warns New AI Models Threaten Financial Stability",
@@ -413,24 +367,6 @@
         "timestamp": 1788085800000,
         "photo": true,
         "postedAt": 1788096705766
-      },
-      {
-        "headline": "S&P 500 Keeps Climbing Even As Market Breadth Narrows",
-        "url": "https://www.marketwatch.com/story/the-s-p-500-keeps-climbing-on-days-when-stocks-broadly-struggle-heres-whats-going-on-60ad5c72",
-        "timestamp": 1788001200000,
-        "postedAt": 1788006808748
-      },
-      {
-        "headline": "Bitmine's Tom Lee: Ethereum Could Hit $6,000 If Bitcoin Reaches $150,000",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/bitmines-tom-lee-sees-6-121654503.html",
-        "timestamp": 1787980560000,
-        "postedAt": 1788006808748
-      },
-      {
-        "headline": "AARP Warns Against This 401(k) Move Amid Market Swings",
-        "url": "https://finance.yahoo.com/markets/articles/could-lose-25-35-aarp-121500853.html",
-        "timestamp": 1787980560000,
-        "postedAt": 1788006808748
       },
       {
         "headline": "Drone Strike Sparks Blaze At Russian Oil Refinery In Kirishi",
@@ -480,57 +416,57 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,642.09",
-      "change": "-44.05",
-      "changePct": "-0.57%",
+      "value": "7,631.47",
+      "change": "-54.67",
+      "changePct": "-0.71%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "52,829.78",
-      "change": "-356.12",
-      "changePct": "-0.67%",
+      "value": "52,766.88",
+      "change": "-419.02",
+      "changePct": "-0.79%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,157.12",
-      "change": "-213.76",
-      "changePct": "-0.81%",
+      "value": "26,099.77",
+      "change": "-271.12",
+      "changePct": "-1.03%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
-      "value": "4.77%",
-      "change": "+0.02",
-      "changePct": "+0.34%",
+      "value": "4.80%",
+      "change": "+0.04",
+      "changePct": "+0.80%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Gold",
-      "value": "$4,412.50",
-      "change": "-69.00",
-      "changePct": "-1.54%",
+      "value": "$4,375.70",
+      "change": "-105.80",
+      "changePct": "-2.36%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$88.90",
-      "change": "+3.14",
-      "changePct": "+3.66%",
+      "value": "$90.68",
+      "change": "+4.92",
+      "changePct": "+5.74%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$77,621.14",
-      "change": "-937.97",
-      "changePct": "-1.19%",
+      "value": "$77,075.01",
+      "change": "-1,484.10",
+      "changePct": "-1.89%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     }

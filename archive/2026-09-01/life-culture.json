@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1788266087690,
+  "lastUpdated": 1788298559941,
   "heroSetDate": "2026-09-01",
   "hero": {
     "headline": "DUANE 'KEFFE D' DAVIS FOUND GUILTY OF MURDERING TUPAC SHAKUR",
@@ -96,6 +96,19 @@
   "columns": {
     "left": [
       {
+        "headline": "Wendell Berry, Novelist Who Extolled America's Agrarian Past, Dies At 92",
+        "url": "https://www.ewtnnews.com/world/us/wendell-berry-agrarian-writer-who-envisioned-a-world-redeemed-only-by-love-dies-at-92",
+        "timestamp": 1788296760000,
+        "feature": true,
+        "postedAt": 1788298559941
+      },
+      {
+        "headline": "Ed Sheeran Concert Incident That Injured Six Workers Under Investigation",
+        "url": "https://www.freep.com/story/news/local/michigan/detroit/2026/09/01/ed-sheeran-ford-field-6-workers-injured-investigation/91555062007/",
+        "timestamp": 1788293880000,
+        "postedAt": 1788298559941
+      },
+      {
         "headline": "The Greenest Building Is The One Still Standing After A Disaster",
         "url": "https://theconversation.com/the-greenest-building-is-the-one-still-standing-after-a-disaster-290313",
         "timestamp": 1788264374000,
@@ -114,7 +127,7 @@
         "timestamp": 1788177600000,
         "photo": true,
         "postedAt": 1788266087690,
-        "image": "/img/life-culture-3.jpg"
+        "image": "/img/life-culture-4.jpg"
       },
       {
         "headline": "Scientists Discover Diamonds Can Generate Electricity",
@@ -136,7 +149,7 @@
       },
       {
         "headline": "Howard Stern Cuts SiriusXM Show To Once A Week, Signs HBO Max Deal",
-        "url": "https://www.hollywoodreporter.com/business/digital/howard-stern-new-hbo-max-deal-weekly-siriusxm-show-1236685643/",
+        "url": "https://www.wkyc.com/article/news/nation-world/howard-stern-hbo-max-sirius-xm/507-0aaf810e-1e3d-4d0f-a8af-b44da19ace1c",
         "timestamp": 1788185623000,
         "postedAt": 1788189787827
       },
@@ -157,8 +170,7 @@
         "url": "https://www.ynetnews.com/culture/article/h100hmaguzl",
         "timestamp": 1788169405000,
         "photo": true,
-        "postedAt": 1788189787827,
-        "image": "/img/life-culture-4.jpg"
+        "postedAt": 1788189787827
       },
       {
         "headline": "Aging Isn't A Failure - It's A Recalibration, Scientists Argue",
@@ -171,12 +183,6 @@
         "url": "https://www.counterfire.org/article/walter-benjamin-on-the-concept-of-history-revisited/",
         "timestamp": 1787997100000,
         "postedAt": 1788189787827
-      },
-      {
-        "headline": "DOLLY PARTON DIES; FANS SEND 'JOLENE' STREAMING SURGE IN TRIBUTE",
-        "url": "https://www.wyff4.com/article/dolly-parton-jolene-streams-nashville/73542773",
-        "timestamp": 1788007871739,
-        "postedAt": 1788007871739
       },
       {
         "headline": "Inside Meta's Push To Put Robots To Work In Data Centers",
@@ -196,41 +202,29 @@
         "url": "https://www.sfgate.com/travel/burningman/article/burning-man-camp-economics-22403744.php",
         "timestamp": 1788001611000,
         "postedAt": 1788097747480
-      },
-      {
-        "headline": "8 Expert-Backed Recipes For Perfect Roast Chicken",
-        "url": "https://www.seriouseats.com/best-roast-chicken-recipes-12072458",
-        "timestamp": 1788004800000,
-        "postedAt": 1788007871739
-      },
-      {
-        "headline": "Peter Cullen, Voice Of Optimus Prime, Dies At 85",
-        "url": "https://snjtoday.com/peter-cullen-voice-of-optimus-prime-and-eeyore-dies-at-85/",
-        "timestamp": 1787946300000,
-        "feature": true,
-        "postedAt": 1788007871739
-      },
-      {
-        "headline": "Lioness And Cub Spotted Roaming Loose In Indiana",
-        "url": "https://www.usatoday.com/story/news/nation/2026/08/28/lioness-and-cub-spotted-in-madison-county-indiana/91507153007/",
-        "timestamp": 1787932260000,
-        "photo": true,
-        "postedAt": 1788007871739
-      },
-      {
-        "headline": "Translator Emily Wilson Is Redoing Her Landmark 'Odyssey'",
-        "url": "https://apnews.com/article/emily-wilson-odyssey-translation-homer-a05084e4753528dff13766703161d24d",
-        "timestamp": 1787911200000,
-        "postedAt": 1788007871739
-      },
-      {
-        "headline": "Harry Styles Makes The Case Against Menswear's Biggest Trend",
-        "url": "https://www.esquire.com/uk/style/fashion/a73530590/harry-styles-baggy/",
-        "timestamp": 1787759554000,
-        "postedAt": 1788007871739
       }
     ],
     "center": [
+      {
+        "headline": "Porsche's New Purist-Grade 911 Continues Legendary Alpine Legacy",
+        "url": "https://www.gearpatrol.com/cars/porsche-911-gt3-bergsport/",
+        "timestamp": 1788296969000,
+        "photo": true,
+        "postedAt": 1788298559941,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "In Uzbekistan, A Prized Religious Artifact Anchors A New Museum",
+        "url": "https://www.cntraveler.com/story/in-uzbekistan-a-prized-religious-artifact-sits-at-the-heart-of-a-new-museum",
+        "timestamp": 1788294789000,
+        "postedAt": 1788298559941
+      },
+      {
+        "headline": "Miley Cyrus Announces New Album 'Bass Persuades,' Books Hollywood Bowl Shows",
+        "url": "https://ca.billboard.com/music/pop/miley-cyrus-new-album-bass-persuades-release-date-shows",
+        "timestamp": 1788293277000,
+        "postedAt": 1788298559941
+      },
       {
         "headline": "GPS SIGNALS GLITCHED ACROSS THE US BY UP TO 33 FEET, BAFFLING SCIENTISTS",
         "url": "https://www.sciencealert.com/gps-glitched-across-the-us-by-as-much-as-33-feet-scientists-have-never-seen-this-before",
@@ -249,19 +243,12 @@
         "timestamp": 1788264000000,
         "photo": true,
         "postedAt": 1788266087690,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-2.jpg"
       },
       {
         "headline": "New Zero-Calorie Sugar Is 3,500 Times Sweeter Than Sucrose",
         "url": "https://www.sciencealert.com/this-new-zero-cal-sugar-is-3500-times-sweeter-than-sucrose-but-doesnt-spike-insulin",
         "timestamp": 1788260533000,
-        "postedAt": 1788266087690
-      },
-      {
-        "headline": "Wendell Berry, Advocate For Simple Living, Dies At 92",
-        "url": "https://apnews.com/article/wendell-berry-obit-d20b66bb8a1d298153f760f30662a4f7",
-        "timestamp": 1788233760000,
-        "feature": true,
         "postedAt": 1788266087690
       },
       {
@@ -315,19 +302,6 @@
         "postedAt": 1788097747480
       },
       {
-        "headline": "How To Run A Chatbot On Your Own Computer",
-        "url": "https://www.techrepublic.com/fr/article/how-to-use-the-windows-10-troubleshooter-to-fix-just-about-anything-on-your-computer/",
-        "timestamp": 1787997600000,
-        "postedAt": 1788007871739
-      },
-      {
-        "headline": "Six Never-Before-Seen Structures Found Deep Inside Earth",
-        "url": "https://www.sciencealert.com/six-never-before-seen-mystery-structures-found-lurking-deep-inside-the-earth",
-        "timestamp": 1787990519000,
-        "photo": true,
-        "postedAt": 1788007871739
-      },
-      {
         "headline": "Ella Langley Delivers Emotional 'Jolene' Tribute In Alabama",
         "url": "https://www.foxnews.com/outkick-culture/ella-langley-honors-dolly-parton-emotional-jolene-cover-alabama-concert",
         "timestamp": 1788182008000,
@@ -335,6 +309,32 @@
       }
     ],
     "right": [
+      {
+        "headline": "Hoka's New Multi-Day Hiking Boot Draws On Its Most Iconic Trail Runner",
+        "url": "https://www.gearpatrol.com/footwear/hoka-speedgoat-7-hike-gtx/",
+        "timestamp": 1788297174000,
+        "postedAt": 1788298559941
+      },
+      {
+        "headline": "Naomi Osaka's Tribute To Allen Iverson Was As Tough As It Gets",
+        "url": "https://www.gq.com/story/naomi-osaka-us-open-allen-iverson-09-01-2026",
+        "timestamp": 1788296985000,
+        "photo": true,
+        "postedAt": 1788298559941,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "An Autumn In Sun Valley Is Unlike Any Other",
+        "url": "https://www.atlasobscura.com/articles/fall-activities-sun-valley-idaho",
+        "timestamp": 1788294980000,
+        "postedAt": 1788298559941
+      },
+      {
+        "headline": "Ford Builds An Unconventional Off-Roader On Its Signature Pony Car",
+        "url": "https://www.gearpatrol.com/cars/fords-making-an-unconventional-mustang-based-off-roader/",
+        "timestamp": 1788294483000,
+        "postedAt": 1788298559941
+      },
       {
         "headline": "Are We Prepared If Space Missions Actually Find Alien Life?",
         "url": "https://theconversation.com/many-space-missions-are-searching-for-life-beyond-earth-but-are-we-prepared-for-the-fallout-if-they-succeed-288171",
@@ -353,7 +353,7 @@
         "timestamp": 1788263049000,
         "photo": true,
         "postedAt": 1788266087690,
-        "image": "/img/life-culture-1.jpg"
+        "image": "/img/life-culture-3.jpg"
       },
       {
         "headline": "NASA's Mars Program May Rely On Helicopters, Not New Rovers",
@@ -378,8 +378,7 @@
         "url": "https://www.gearpatrol.com/briefings/today-in-gear/today-in-gear-august-31-2026/",
         "timestamp": 1788186861000,
         "photo": true,
-        "postedAt": 1788189787827,
-        "image": "/img/life-culture-2.jpg"
+        "postedAt": 1788189787827
       },
       {
         "headline": "New Metamaterials Could Enable Invisibility Cloaks And Thinner Lenses",
@@ -430,31 +429,6 @@
         "timestamp": 1787943480000,
         "photo": true,
         "postedAt": 1788097747480
-      },
-      {
-        "headline": "Your Drawing Style Can Reveal Parkinson's With 99% Accuracy",
-        "url": "https://www.sciencealert.com/the-way-you-draw-can-reveal-parkinsons-disease-with-up-to-99-accuracy-study-reveals",
-        "timestamp": 1788004919000,
-        "postedAt": 1788007871739
-      },
-      {
-        "headline": "Inside The Kitsch, Memorabilia, And Excess Of The Hard Rock Empire",
-        "url": "https://www.cntraveler.com/story/long-live-the-hard-rock-inside-the-kitsch-memorabilia-and-excess-that-lives-on",
-        "timestamp": 1787994000000,
-        "postedAt": 1788007871739
-      },
-      {
-        "headline": "What Really Happens If You Skip Airplane Mode In Flight",
-        "url": "https://www.afar.com/magazine/what-does-airplane-mode-do-and-why-do-you-need-to-use-it",
-        "timestamp": 1787989481000,
-        "postedAt": 1788007871739
-      },
-      {
-        "headline": "The Strange Fungus That Grows Around Whiskey Distilleries",
-        "url": "https://www.realclearscience.com/articles/2026/08/29/the_strange_fungus_that_grows_around_whiskey_distilleries_1203135.html",
-        "timestamp": 1787942280000,
-        "photo": true,
-        "postedAt": 1788007871739
       }
     ]
   }

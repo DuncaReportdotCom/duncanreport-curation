@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1788263862292,
+  "lastUpdated": 1788296460918,
   "heroSetDate": "2026-09-01",
   "hero": {
     "headline": "MESSI RETIRES FROM INTERNATIONAL SOCCER AFTER WORLD CUP TITLE, 125 GOALS",
@@ -104,6 +104,32 @@
   "columns": {
     "left": [
       {
+        "headline": "MLB Teams Whose Playoff Dreams Have Made It Into September",
+        "url": "https://deadspin.com/mlb-teams-whose-playoff-dreams-have-made-it-into-september/",
+        "timestamp": 1788292260000,
+        "postedAt": 1788296460918
+      },
+      {
+        "headline": "Ducks To Retire Ryan Getzlaf's No. 15 In January",
+        "url": "https://deadspin.com/ducks-to-retire-ryan-getzlafs-no-15-in-january-ceremony/",
+        "timestamp": 1788294720000,
+        "photo": true,
+        "postedAt": 1788296460918,
+        "image": "/img/sports-0.jpg"
+      },
+      {
+        "headline": "No. 3 Georgia Keeps Guard Up Vs. Tennessee State",
+        "url": "https://deadspin.com/kirby-smart-no-3-georgia-keep-guard-up-vs-tennessee-state/",
+        "timestamp": 1788292320000,
+        "postedAt": 1788296460918
+      },
+      {
+        "headline": "UFC Shanghai Recap, Paris Card Preview",
+        "url": "https://www.barstoolsports.com/podcast-episode/2BuaXAXDkpwKIzezHSOLyCwj/down-goes-umar-ufc-shanghai-recap-fight-news-and",
+        "timestamp": 1788291057000,
+        "postedAt": 1788296460918
+      },
+      {
         "headline": "NFL Execs Name 10 Breakout Players To Watch In 2026",
         "url": "https://www.si.com/nfl/nfl-execs-coaches-identify-10-breakout-players-2026",
         "timestamp": 1788256803000,
@@ -146,7 +172,7 @@
         "timestamp": 1788184297000,
         "photo": true,
         "postedAt": 1788187269273,
-        "image": "/img/sports-3.jpg"
+        "image": "/img/sports-4.jpg"
       },
       {
         "headline": "McEnroe Names Top US Open Men's Contenders",
@@ -173,8 +199,7 @@
         "timestamp": 1788079795000,
         "feature": true,
         "photo": true,
-        "postedAt": 1788095679536,
-        "image": "/img/sports-4.jpg"
+        "postedAt": 1788095679536
       },
       {
         "headline": "William Jewell Running Back Dies After In-Game Medical Emergency",
@@ -194,37 +219,6 @@
         "url": "https://www.motorsport.com/f1/news/one-detail-of-lando-norris-mclaren-extension-has-f1-fans-talking/10850406/",
         "timestamp": 1788000696000,
         "postedAt": 1788095679536
-      },
-      {
-        "headline": "Yahoo Sports Ranks 2026's 10 Biggest College Football Games",
-        "url": "https://sports.yahoo.com/articles/top-10-biggest-college-football-100052118.html",
-        "timestamp": 1787997652000,
-        "postedAt": 1788005657598
-      },
-      {
-        "headline": "Sosa's Pinch-Hit Slam In 9th Lifts Phillies Past Angels 5-3",
-        "url": "https://thescore.com/mlb/news/3587865/edmundo-sosas-pinch-hit-grand-slam-in-9-th-propels-phillies-to-a-wild-5-3-win-over-angels",
-        "timestamp": 1787995472000,
-        "photo": true,
-        "postedAt": 1788005657598
-      },
-      {
-        "headline": "Packers Coach 'Fully Anticipates' Josh Jacobs On Roster Amid Charges",
-        "url": "https://www.espn.com/nfl/story/_/id/49759295/matt-lafleur-fully-anticipate-josh-jacobs-packers",
-        "timestamp": 1787980200000,
-        "postedAt": 1788005657598
-      },
-      {
-        "headline": "Bayern Munich Roll Past Stuttgart 5-1",
-        "url": "https://www.bavarianfootballworks.com/bayern-munich-match-observations/248934/match-report-analysis-observations-bayern-munich-vfb-stuttgart-bundesliga-win-kane-musiala-olise-diaz-gnabry-brown-undav-kimmich-upamecano-davies-saibari",
-        "timestamp": 1787977800000,
-        "postedAt": 1788005657598
-      },
-      {
-        "headline": "Twins Call Up Top Prospect Walker Jenkins To Boost Fading Playoff Hopes",
-        "url": "https://www.aarongleeman.com/twins-call-up-top-prospect-walker-jenkins-in-an-effort-to-keep-fading-playoff-hopes-alive/",
-        "timestamp": 1787898888000,
-        "postedAt": 1788005657598
       },
       {
         "headline": "Diamondbacks' Week Could Include Ketel Marte's Return",
@@ -253,6 +247,30 @@
       }
     ],
     "center": [
+      {
+        "headline": "Skylar Diggins Laments Sky's Practice Facility Delay",
+        "url": "https://frontofficesports.com/article/skylar-diggins-laments-chicago-skys-practice-facility-delay/",
+        "timestamp": 1788295978000,
+        "postedAt": 1788296460918
+      },
+      {
+        "headline": "UK: Man City's Transfer Carousel Compounds Tottenham's Woes",
+        "url": "https://www.si.com/soccer/man-city-compound-tottenham-woes-with-whirlwind-transfer-carousel",
+        "timestamp": 1788293445000,
+        "postedAt": 1788296460918
+      },
+      {
+        "headline": "USATF Indoor Championships Headed To Indianapolis In 2027-28",
+        "url": "https://sports.yahoo.com/articles/usatf-indoor-championships-headed-indianapolis-195355636.html",
+        "timestamp": 1788292435000,
+        "postedAt": 1788296460918
+      },
+      {
+        "headline": "Iowa Still Undecided On Starting QB Entering Week 1",
+        "url": "https://sports.yahoo.com/articles/iowa-football-still-undecided-starting-193523032.html",
+        "timestamp": 1788291323000,
+        "postedAt": 1788296460918
+      },
       {
         "headline": "AARON DONALD COMES OUT OF RETIREMENT TO REJOIN RAMS",
         "url": "https://www.foxnews.com/outkick-sports/aaron-donald-reveals-wifes-advice-helped-decision-come-out-retirement-rejoin-rams",
@@ -292,7 +310,7 @@
         "timestamp": 1788185894000,
         "photo": true,
         "postedAt": 1788187269273,
-        "image": "/img/sports-2.jpg"
+        "image": "/img/sports-3.jpg"
       },
       {
         "headline": "Phillies' Zack Wheeler Development Could Change Playoff Outlook",
@@ -312,12 +330,6 @@
         "timestamp": 1788149040000,
         "feature": true,
         "postedAt": 1788187269273
-      },
-      {
-        "headline": "NFL PRESEASON CONCLUDES AS LEAGUE-WIDE ROSTER-CUT DEADLINE LOOMS",
-        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-annual-frenzy-of-nfl-transactions-happens-this-weekend",
-        "timestamp": 1788005657598,
-        "postedAt": 1788005657598
       },
       {
         "headline": "How Alex Eala Turned The Philippines Into A Tennis Nation",
@@ -344,32 +356,6 @@
         "timestamp": 1788041400000,
         "photo": true,
         "postedAt": 1788095679536
-      },
-      {
-        "headline": "Nurmagomedov Beats Song To Headline UFC Shanghai",
-        "url": "https://www.mmafighting.com/ufc/507466/ufc-shanghai-results-nurmagomedov-vs-song",
-        "timestamp": 1787997610000,
-        "photo": true,
-        "postedAt": 1788005657598
-      },
-      {
-        "headline": "Clark, Mitchell Combine For 68 Points In Fever's Rout Of Sun",
-        "url": "https://www.espn.com/wnba/story/_/id/49758105/clark-mitchell-combine-68-fever-blowout-win-sun",
-        "timestamp": 1787970240000,
-        "photo": true,
-        "postedAt": 1788005657598
-      },
-      {
-        "headline": "Jerry Sandusky, From Prison, Claims Innocence Ahead Of Hearing",
-        "url": "https://6abc.com/post/jerry-sandusky-speaks-pennsylvania-prison-ahead-court-hearing-am-innocent-man-exclusive/19753051/",
-        "timestamp": 1787955886000,
-        "postedAt": 1788005657598
-      },
-      {
-        "headline": "Red Sox Keep Anthony, Story Out Of Lineup For Yankees Series",
-        "url": "https://www.mlb.com/news/roman-anthony-trevor-story-nearing-return-for-red-sox",
-        "timestamp": 1787982152000,
-        "postedAt": 1788005657598
       },
       {
         "headline": "Steelers Cut Two More Players, Including Former First-Round Pick",
@@ -404,12 +390,24 @@
     ],
     "right": [
       {
+        "headline": "UK: Chelsea Agree £47M Move For Monaco's Camara",
+        "url": "https://sports.yahoo.com/articles/chelsea-agree-47-1m-move-203120694.html",
+        "timestamp": 1788294680000,
+        "postedAt": 1788296460918
+      },
+      {
+        "headline": "DeWanna Bonner Unlocks New Options For Dream",
+        "url": "https://sports.yahoo.com/video/dewanna-bonner-unlocks-some-new-possibilities-for-the-dream-192835017.html",
+        "timestamp": 1788290915000,
+        "postedAt": 1788296460918
+      },
+      {
         "headline": "High School Sidelines Clogged With Content Creators",
         "url": "https://frontofficesports.com/article/high-school-football-sidelines-clogged-with-creators/",
         "timestamp": 1788258768000,
         "photo": true,
         "postedAt": 1788263862292,
-        "image": "/img/sports-0.jpg"
+        "image": "/img/sports-1.jpg"
       },
       {
         "headline": "Yankees Rip Red Sox Broadcaster Over Beaning Comment",
@@ -429,7 +427,7 @@
         "timestamp": 1788231954000,
         "photo": true,
         "postedAt": 1788263862292,
-        "image": "/img/sports-1.jpg"
+        "image": "/img/sports-2.jpg"
       },
       {
         "headline": "BELICHICK, USC, NC STATE HEADLINE COLLEGE FOOTBALL WEEK 0",
@@ -475,33 +473,6 @@
         "url": "https://www.nj.com/yankees/2026/08/aaron-boone-calls-out-yankees-after-bad-loss-to-red-sox.html",
         "timestamp": 1788040560000,
         "postedAt": 1788095679536
-      },
-      {
-        "headline": "Man Who Posed As 49ers Player Arrested On Fraud Charges",
-        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/man-who-posed-as-49ers-player-is-arrested-for-fraud",
-        "timestamp": 1787973115000,
-        "photo": true,
-        "postedAt": 1788005657598
-      },
-      {
-        "headline": "Cale Makar Signs Largest Contract In NHL History",
-        "url": "https://www.denverpost.com/2026/08/28/avalanche-makar-signs-massive-contract/",
-        "timestamp": 1787952223000,
-        "photo": true,
-        "feature": true,
-        "postedAt": 1788005657598
-      },
-      {
-        "headline": "MLB-Leading Brewers Beat Rangers 6-1 Behind Henderson's Gem",
-        "url": "https://thescore.com/mlb/news/3587767/henderson-allows-1-hit-in-7-innings-as-the-mlb-leading-brewers-beat-the-rangers-6-1",
-        "timestamp": 1787995472000,
-        "postedAt": 1788005657598
-      },
-      {
-        "headline": "Yankees Win Again On Bare-Minimum Offense, Sharp Pitching",
-        "url": "https://www.pinstripealley.com/yankees-scores-standings/204805/yankees-red-sox-game-score-recap-schlittler-bellinger-throw-goldschmidt-homer-shutout-win",
-        "timestamp": 1787970240000,
-        "postedAt": 1788005657598
       },
       {
         "headline": "Falcons Acquiring Dexter From Bears",
@@ -709,15 +680,6 @@
       "note": "9/3 - 9:00 PM EDT",
       "homeScore": null,
       "awayScore": null
-    },
-    {
-      "league": "NCAAF",
-      "home": "USC",
-      "away": "SJSU",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "42",
-      "awayScore": "26"
     }
   ]
 }

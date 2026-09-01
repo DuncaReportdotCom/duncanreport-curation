@@ -1,32 +1,28 @@
 {
-  "lastUpdated": 1788264271508,
+  "lastUpdated": 1788296841483,
   "heroSetDate": "2026-09-01",
   "hero": {
-    "headline": "TWO OIL TANKERS ATTACKED IN STRAIT OF HORMUZ AMID US-IRAN TENSIONS",
-    "url": "https://www.reuters.com/business/energy/two-tankers-carrying-saudi-oil-attacked-strait-hormuz-2026-09-01/",
+    "headline": "US LAUNCHES NEW STRIKES ON IRAN AFTER TANKER ATTACKS IN STRAIT OF HORMUZ",
+    "url": "https://www.reuters.com/world/middle-east/iran-urges-us-comply-with-interim-deal-after-trump-threatens-further-strikes-2026-09-01/",
     "sublinks": [
       {
-        "text": "EU's Kallas Says Hormuz Diplomacy Has 'Produced No Results'",
-        "url": "https://www.politico.eu/article/eu-kaja-kallas-says-hormuz-diplomacy-has-produced-no-results/"
+        "text": "Pentagon Confirms Strikes Hit IRGC Targets Near Hormuz",
+        "url": "https://www.euronews.com/2026/09/01/us-military-says-it-struck-irgc-targets-in-iran-after-attacks-on-shipping-in-strait-of-hor"
       },
       {
-        "text": "Tehran Urges Return To June Nuclear Deal As Oil Prices Climb",
-        "url": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html"
+        "text": "Two Tankers Were Simultaneously Struck Before US Response",
+        "url": "https://www.breitbart.com/middle-east/2026/09/01/two-oil-tankers-simultaneously-attacked-in-strait-of-hormuz/amp/"
       },
       {
-        "text": "Iran Says It Will Restore Ceasefire If US Does The Same",
-        "url": "https://www.dw.com/en/iran-says-it-will-return-to-ceasefire-if-us-does/a-78586314"
+        "text": "Iran Presses Washington To Honor Ceasefire Memorandum",
+        "url": "https://www.aljazeera.com/news/2026/9/1/iran-urges-us-to-honour-commitments-under-mou"
       },
       {
-        "text": "Iran's President Vows Reciprocity If US Honors Interim Deal",
-        "url": "https://www.reuters.com/world/middle-east/irans-president-says-tehran-will-reciprocate-if-us-honours-interim-deal-2026-09-01/"
-      },
-      {
-        "text": "UAE Intercepts Iranian Drone Over Its Territorial Waters",
-        "url": "https://apnews.com/article/iran-us-war-uea-august-31-2026-9f34873bad9a928574c36ee984c3f96b"
+        "text": "Tehran Had Offered Ceasefire Path Just Hours Before Barrage",
+        "url": "https://www.newsnationnow.com/world/us-iran-war-strait-of-hormuz-sanctions/"
       }
     ],
-    "postedAt": 1788264271508,
+    "postedAt": 1788296841483,
     "img": true
   },
   "groups": [
@@ -47,19 +43,6 @@
           "postedAt": 1788096168821
         },
         {
-          "headline": "Viral Video Falsely Linked To Nepal-Tibet Floods Was Actually Indian Landslide",
-          "url": "https://factcheck.afp.com/doc.afp.com.C6PF2CQ",
-          "timestamp": 1788003044000,
-          "postedAt": 1788006349373
-        },
-        {
-          "headline": "Flood Survivors Reach Safe Ground As Nearly 3,000 Remain Missing",
-          "url": "https://apnews.com/article/nepal-china-flood-rescue-fde34c839b648f93f6aa011f044deb00",
-          "timestamp": 1787998740000,
-          "feature": true,
-          "postedAt": 1788006349373
-        },
-        {
           "headline": "Photos: Deadly Flood Tears Through Nepal And Tibet",
           "url": "https://www.news24.com/world/nepal-toll-surges-as-rescuers-struggle-through-unimaginable-disaster-20260831-0776",
           "timestamp": 1788183766000,
@@ -70,6 +53,12 @@
           "url": "https://www.scmp.com/news/china/politics/article/3366006/glacier-risk-hangs-over-china-nepal-border-region-remembers-mudslide-victims?module",
           "timestamp": 1788262565000,
           "postedAt": 1788264271508
+        },
+        {
+          "headline": "Nepal Flood Survivors Return To Ruins Of Their Homes",
+          "url": "https://www.dw.com/en/nepal-floods-survivors-homes-rescue/video-78654153",
+          "timestamp": 1788290979000,
+          "postedAt": 1788296841483
         }
       ]
     },
@@ -130,52 +119,37 @@
           "postedAt": 1788096168821
         }
       ]
-    },
-    {
-      "title": "NIGER UNREST: TROOPS CLASH AT PRESIDENTIAL PALACE",
-      "stories": [
-        {
-          "headline": "Clashes Erupt In Niger After Troops Try To Storm Presidential Palace",
-          "url": "https://www.scmp.com/news/world/africa/article/3365712/clashes-niger-after-troops-try-storm-presidential-palace",
-          "timestamp": 1788003853000,
-          "feature": true,
-          "postedAt": 1788006349373
-        },
-        {
-          "headline": "Niger's Military Government Says It Has Crushed Niamey Uprising",
-          "url": "https://www.rfi.fr/ha/ra-ayoyi/20260829-gwamnatin-sojin-nijar-ta-ce-ta-murkushe-wani-masu-bore-a-birnin-yamai",
-          "timestamp": 1788003189000,
-          "postedAt": 1788006349373
-        }
-      ]
-    },
-    {
-      "title": "SIX MONTHS INTO THE IRAN WAR",
-      "stories": [
-        {
-          "headline": "China's Middle East Policy At Crossroads Six Months Into War",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3365708/chinas-middle-east-policy-crossroads-6-months-us-israeli-war-iran?module",
-          "timestamp": 1788001208000,
-          "postedAt": 1788006349373
-        },
-        {
-          "headline": "Iran's President Admits US Sanctions Are Hurting Economy",
-          "url": "https://www.timesofisrael.com/liveblog_entry/irans-president-admits-us-sanctions-impacting-economy-after-previously-insisting-theyd-have-no-effect/",
-          "timestamp": 1787994756000,
-          "feature": true,
-          "postedAt": 1788006349373
-        },
-        {
-          "headline": "Iranian Americans Remain Divided Over War's Endgame",
-          "url": "https://www.cnn.com/2026/08/29/us/iran-war-iranian-americans-six-months-hnk",
-          "timestamp": 1787979629000,
-          "postedAt": 1788006349373
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Germany Blames Russia For Drone Attack At Leipzig Airport",
+        "url": "https://www.theguardian.com/world/2026/sep/01/germany-blames-russia-drone-attack-leipzig-airport",
+        "timestamp": 1788295800000,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Ryanair's Boeing 737 Stairs Tied To Hundreds Of Passenger Falls, Study Finds",
+        "url": "https://www.euronews.com/business/2026/09/01/ryanair-boeing-737-stairs-85-falls-in-three-years-ansv-study-finds",
+        "timestamp": 1788294497000,
+        "photo": true,
+        "postedAt": 1788296841483,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Keir Starmer To Stand Down As MP To Focus On World Affairs",
+        "url": "https://www.theguardian.com/politics/2026/sep/01/keir-starmer-to-stand-down-as-mp",
+        "timestamp": 1788293040000,
+        "feature": true,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Nestle To Offload Mainstream Vitamin Brands For $1 Billion",
+        "url": "https://www.reuters.com/legal/transactional/nestle-divest-mainstream-supplements-business-1-billion-2026-09-01/",
+        "timestamp": 1788292148000,
+        "postedAt": 1788296841483
+      },
       {
         "headline": "Russian Air Attacks Kill 12 In Kyiv Region On Sixth Day Of Strikes",
         "url": "https://www.reuters.com/world/europe/explosions-heard-ukraines-kyiv-four-people-injured-2026-09-01/",
@@ -246,12 +220,6 @@
         "postedAt": 1788187980175
       },
       {
-        "headline": "RUSSIAN STRIKE ON KYIV-AREA WAREHOUSE KILLS AT LEAST 37",
-        "url": "https://www.reuters.com/world/europe/russian-strike-kyiv-area-warehouse-causes-detonation-killing-27-2026-08-29/",
-        "timestamp": 1788006349373,
-        "postedAt": 1788006349373
-      },
-      {
         "headline": "Madrid Unveils €165 Million Emergency Package For Ceuta",
         "url": "https://www.euronews.com/my-europe/2026/08/30/spain-announces-165m-emergency-package-for-ceuta-as-migrant-returns-continue",
         "timestamp": 1788093944000,
@@ -277,36 +245,6 @@
         "postedAt": 1788096168821
       },
       {
-        "headline": "AfD Battles Rivals For Young Voters On Social Media",
-        "url": "https://www.dw.com/en/the-afd-and-the-influencers-the-battle-for-young-voters/video-78556863",
-        "timestamp": 1788001430000,
-        "postedAt": 1788006349373
-      },
-      {
-        "headline": "UK: Anti-Asylum Protests Engulf Norfolk Town Amid RAF Barnham Row",
-        "url": "https://www.theguardian.com/uk-news/2026/aug/29/the-battle-over-raf-barnham-how-ominous-anti-asylum-protests-engulfed-a-small-norfolk-town",
-        "timestamp": 1787997180000,
-        "postedAt": 1788006349373
-      },
-      {
-        "headline": "3 Confirmed Dead After Students Swept Out To Sea Off Japan",
-        "url": "https://www.straitstimes.com/asia/east-asia/3-confirmed-dead-after-students-swept-out-to-sea-off-south-western-japan?ref",
-        "timestamp": 1787994900000,
-        "postedAt": 1788006349373
-      },
-      {
-        "headline": "Iceland Holds Knife-Edge Referendum On EU Membership Talks",
-        "url": "https://www.dw.com/en/iceland-holds-knife-edge-referendum-on-eu-membership-talks/a-78554025",
-        "timestamp": 1787985537000,
-        "postedAt": 1788006349373
-      },
-      {
-        "headline": "Gunfire And Explosions Heard Across Niamey",
-        "url": "https://www.dw.com/en/niger-attacks-gunfire-explosions/a-78554001",
-        "timestamp": 1787998711000,
-        "postedAt": 1788006349373
-      },
-      {
         "headline": "CIA Chief Said To Have Proposed Trump-Putin-Zelensky Summit",
         "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-cia-chief-kyiv-strikes-b3041688.html",
         "timestamp": 1788078205000,
@@ -314,6 +252,25 @@
       }
     ],
     "center": [
+      {
+        "headline": "Government Borrowing Costs Rise Anew, Pressuring Global Policymakers",
+        "url": "https://www.reuters.com/world/asia-pacific/global-bond-rout-deepens-japan-yield-hits-key-threshold-2026-09-01/",
+        "timestamp": 1788290822000,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Will Bangladesh Join The Mecca Defense Alliance?",
+        "url": "https://www.dw.com/en/will-bangladesh-join-the-mecca-defense-alliance/a-78613944",
+        "timestamp": 1788294163000,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Apple Maps Renames Lake Ontario 'Lake America' After Trump Order",
+        "url": "https://www.axios.com/2026/08/31/trump-lake-america-apple-maps-request",
+        "timestamp": 1788293468000,
+        "photo": true,
+        "postedAt": 1788296841483
+      },
       {
         "headline": "Norway's New King To Swear Oath Before Parliament",
         "url": "https://www.reuters.com/world/europe/norways-new-king-swear-oath-before-parliament-after-haralds-death-2026-09-01/",
@@ -405,7 +362,7 @@
         "timestamp": 1788088877000,
         "photo": true,
         "postedAt": 1788096168821,
-        "image": "/img/world-1.jpg"
+        "image": "/img/world-2.jpg"
       },
       {
         "headline": "Israeli Strike Kills Two In Gaza, Including 3-Year-Old Boy",
@@ -418,27 +375,15 @@
         "url": "https://www.usatoday.com/story/news/world/2026/08/30/cuba-economic-reforms-law-exclusive/91529744007/",
         "timestamp": 1788080820000,
         "postedAt": 1788096168821
-      },
-      {
-        "headline": "Spud-Tacular Hotel Celebrates Potatoes In Food, Facials And Farming",
-        "url": "https://www.scmp.com/lifestyle/travel-leisure/article/3365548/spud-tacular-hotel-celebrates-potatoes-food-facials-and-farming",
-        "timestamp": 1788002107000,
-        "postedAt": 1788006349373
-      },
-      {
-        "headline": "Solar-Powered Ambulance Completes Successful Trial Run In Africa",
-        "url": "https://www.africanews.com/amp/2026/08/29/solar-powered-ambulance-completes-successful-trial-run/",
-        "timestamp": 1787995612000,
-        "postedAt": 1788006349373
-      },
-      {
-        "headline": "US Military Families Endure 'Roller Coaster Of Emotions' Over War",
-        "url": "https://www.arabnews.com/node/2656224/amp",
-        "timestamp": 1787998887000,
-        "postedAt": 1788006349373
       }
     ],
     "right": [
+      {
+        "headline": "Golan Warns Sara Netanyahu Of $825,000 Suit Over Oct. 7 Conspiracy Theory",
+        "url": "https://www.timesofisrael.com/yair-golan-warns-sara-netanyahu-of-825000-suit-for-airing-oct-7-conspiracy-theory/",
+        "timestamp": 1788292223000,
+        "postedAt": 1788296841483
+      },
       {
         "headline": "UAE INTERCEPTS IRANIAN DRONE AFTER WEEKEND US STRIKES ON ROCKET LAUNCHERS IN IRAN",
         "url": "https://apnews.com/article/iran-us-war-uea-august-31-2026-9f34873bad9a928574c36ee984c3f96b",
@@ -481,13 +426,7 @@
         "timestamp": 1788181819000,
         "photo": true,
         "postedAt": 1788187980175,
-        "image": "/img/world-0.jpg"
-      },
-      {
-        "headline": "Canada: Apple May Rename Lake Ontario 'Lake America' After Trump Push",
-        "url": "https://www.reuters.com/world/americas/apple-may-change-lake-ontario-lake-america-soon-after-talk-with-trump-us-2026-08-31/",
-        "timestamp": 1788181389000,
-        "postedAt": 1788187980175
+        "image": "/img/world-1.jpg"
       },
       {
         "headline": "Israel Signs €3 Billion Arms Export Deal With Greece",
@@ -525,24 +464,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cddv43d4jn2o",
         "timestamp": 1788080416000,
         "postedAt": 1788096168821
-      },
-      {
-        "headline": "German Insurer Allianz Weighs $8.6 Billion Takeover Of AA Roadside Rescue",
-        "url": "https://www.straitstimes.com/business/german-insurer-allianz-weighs-8-6-billion-takeover-of-aa-roadside-rescue-giant-report?ref",
-        "timestamp": 1787999280000,
-        "postedAt": 1788006349373
-      },
-      {
-        "headline": "US Arrests Far-Right Provocateur Milo Yiannopoulos",
-        "url": "https://www.dw.com/en/us-arrests-far-right-provocateur-milo-yiannopoulos/a-78553559",
-        "timestamp": 1787996623000,
-        "postedAt": 1788006349373
-      },
-      {
-        "headline": "Temasek Backs Singapore Airlines' Air India Investment",
-        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365702/temasek-backs-singapore-airlines-air-india-investment-amid-growing-scrutiny",
-        "timestamp": 1787995252000,
-        "postedAt": 1788006349373
       },
       {
         "headline": "Russia's Jet-Powered Drones Empty Kyiv Supermarket Shelves, Rattle Ukrainians",
