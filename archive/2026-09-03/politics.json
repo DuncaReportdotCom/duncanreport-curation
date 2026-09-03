@@ -1,27 +1,64 @@
 {
-  "lastUpdated": 1788349365003,
-  "heroSetDate": "2026-09-02",
+  "lastUpdated": 1788436315828,
+  "heroSetDate": "2026-09-03",
   "hero": {
-    "headline": "IRAN ATTACKS US BASES IN MIDDLE EAST AFTER STRIKE REPORTEDLY KILLED FIVE AT WEDDING PARTY",
-    "url": "https://www.bbc.com/news/articles/cj06q4ynpmjo",
+    "headline": "CONGRESS AVERTS SHUTDOWN, PUSHES FUNDING FIGHT PAST MIDTERMS",
+    "url": "https://www.cbsnews.com/news/house-vote-government-shutdown-funding-bill/",
     "sublinks": [
       {
-        "text": "Hostilities Between U.S. And Iran Continue To Intensify",
-        "url": "https://www.npr.org/2026/09/02/nx-s1-5952239/strikes-between-u-s-and-iran-continue-as-hostilities-intensify"
+        "text": "Guardian: How Leaders Sold Voters On The Temporary Truce",
+        "url": "https://www.theguardian.com/us-news/2026/sep/01/house-bill-prevents-government-shutdown"
       },
       {
-        "text": "USS Abraham Lincoln Leaves Region After Extended Iran Deployment",
-        "url": "https://www.nbcnews.com/world/asia/uss-abraham-lincoln-arrives-thailand-extended-iran-deployment-rcna595651"
+        "text": "NPR: What Else Rides Along In The Package, From ICE Cameras To Border Funds",
+        "url": "https://www.npr.org/2026/09/02/g-s1-141513/up-first-newsletter-iran-war-ice-body-cameras-massachusetts-ed-markey-government-shutdown"
       },
       {
-        "text": "Analysis: Why Iran Walked Away From The Deal With Washington",
-        "url": "https://www.realclearpolitics.com/2026/09/02/why_iran_torched_the_deal_with_us_709695.html"
+        "text": "Federal Workers Brace For Impact As Agencies Await Full-Year Budgets",
+        "url": "https://federalnewsnetwork.com/congress/2026/09/house-passes-short-term-funding-bill-to-avoid-a-shutdown-before-the-election/"
+      },
+      {
+        "text": "Nutrition Advocates Press For Permanent Virtual WIC Services In Deal",
+        "url": "https://www.nwica.org/press-releases/congress-moves-to-avoid-shutdown-national-wic-association-continues-push-for-permanent-virtual-services"
+      },
+      {
+        "text": "One Democrat Explains Her Yes Vote On The Funding Package",
+        "url": "https://houlahan.house.gov/news/documentsingle.aspx?DocumentID"
       }
     ],
-    "postedAt": 1788349365003,
+    "postedAt": 1788436315827,
     "img": true
   },
   "groups": [
+    {
+      "title": "DATA CENTERS BACKLASH IN THE MIDTERMS",
+      "stories": [
+        {
+          "headline": "AI Startup Sets Up Camp In Saudi Arabia To Avoid US Data Center Backlash",
+          "url": "https://www.washingtonexaminer.com/policy/technology/4705922/american-ai-startup-saudi-arabia-us-data-center-backlash/",
+          "timestamp": 1788187560000,
+          "postedAt": 1788189146927
+        },
+        {
+          "headline": "Trump Says Data Centers Will Make Communities 'Successful And Rich'",
+          "url": "https://thepostmillennial.com/breaking-trump-says-data-centers-will-make-american-communities-successful-and-rich-create-jobs",
+          "timestamp": 1788186784000,
+          "postedAt": 1788189146927
+        },
+        {
+          "headline": "Bipartisan Backlash Against Data Centers Shakes Up Midterms",
+          "url": "https://www.cnn.com/2026/08/31/politics/data-centers-backlash-midterms-invs-vis",
+          "timestamp": 1788166829000,
+          "postedAt": 1788189146927
+        },
+        {
+          "headline": "Democrats Road-Test New Data Center Attack Line",
+          "url": "https://www.politico.com/news/2026/09/03/data-centers-midterms-tax-credit-01063014",
+          "timestamp": 1788425100000,
+          "postedAt": 1788436315827
+        }
+      ]
+    },
     {
       "title": "TRUMP OFFICIALS NAVIGATE G20 SUMMIT CONTROVERSY",
       "stories": [
@@ -42,13 +79,6 @@
           "url": "https://www.politico.com/news/2026/08/30/trump-kristen-welker-fcc-punish-01056440",
           "timestamp": 1788147240000,
           "postedAt": 1788189146927
-        },
-        {
-          "headline": "Judge Again Blocks Trump's Mail Ballot Order, Setting Up New Appeal",
-          "url": "https://www.pbs.org/newshour/amp/politics/judge-again-blocks-trump-mail-ballot-executive-order-in-ruling-thats-likely-to-be-swiftly-appealed",
-          "timestamp": 1787935034000,
-          "feature": true,
-          "postedAt": 1788097344076
         }
       ]
     },
@@ -89,12 +119,6 @@
           "url": "https://www.newsnationnow.com/video/ice-to-spend-2m-on-robot-dogs-for-immigration-crackdown-morning-in-america/12121354/",
           "timestamp": 1788186684000,
           "postedAt": 1788189146927
-        },
-        {
-          "headline": "Far-Right Immigration Critic Milo Yiannopoulos Deported From U.S.",
-          "url": "https://www.npr.org/2026/08/29/nx-s1-5948731/milo-yiannopoulos-arrested-overstaying-us-visa",
-          "timestamp": 1788037754000,
-          "postedAt": 1788097344076
         }
       ]
     },
@@ -137,33 +161,47 @@
           "postedAt": 1788189146927
         }
       ]
-    },
-    {
-      "title": "DATA CENTERS BACKLASH IN THE MIDTERMS",
-      "stories": [
-        {
-          "headline": "AI Startup Sets Up Camp In Saudi Arabia To Avoid US Data Center Backlash",
-          "url": "https://www.washingtonexaminer.com/policy/technology/4705922/american-ai-startup-saudi-arabia-us-data-center-backlash/",
-          "timestamp": 1788187560000,
-          "postedAt": 1788189146927
-        },
-        {
-          "headline": "Trump Says Data Centers Will Make Communities 'Successful And Rich'",
-          "url": "https://thepostmillennial.com/breaking-trump-says-data-centers-will-make-american-communities-successful-and-rich-create-jobs",
-          "timestamp": 1788186784000,
-          "postedAt": 1788189146927
-        },
-        {
-          "headline": "Bipartisan Backlash Against Data Centers Shakes Up Midterms",
-          "url": "https://www.cnn.com/2026/08/31/politics/data-centers-backlash-midterms-invs-vis",
-          "timestamp": 1788166829000,
-          "postedAt": 1788189146927
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Alabama Governor Backs Trump's Trucking Crackdown",
+        "url": "https://governor.alabama.gov/newsroom/2026/09/governor-ivey-backs-trump-administration-trucking-crackdown-as-alabama-leads-the-way/",
+        "timestamp": 1788361154000,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Brewery Cancels 'Family-Friendly' Drag Show Over Threats Tied To Migrant Fundraiser",
+        "url": "https://www.theblaze.com/news/drag-brunch-children-illegal-aliens",
+        "timestamp": 1788434585000,
+        "photo": true,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "China Working On Weather Modification Weapons",
+        "url": "https://www.washingtontimes.com/news/2026/sep/2/inside-ring-china-working-weather-modification-weapons/",
+        "timestamp": 1788430197000,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Trump To Travel For Embattled Republicans In Final 30 Days Of Midterms",
+        "url": "https://www.politico.com/news/2026/09/02/trump-to-travel-for-embattled-republicans-in-last-30-days-of-midterms-01062987",
+        "timestamp": 1788398040000,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Judge Blocks Trump's Latest Effort To Narrow Birthright Citizenship",
+        "url": "https://www.cbsnews.com/news/judge-blocks-trump-executive-order-birthright-citizenship/",
+        "timestamp": 1788396660000,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Missouri Supreme Court Questions Effort To Keep Redistricting Referendum Off Ballot",
+        "url": "https://missouriindependent.com/2026/09/02/missouri-supreme-court-questions-effort-to-keep-redistricting-referendum-off-ballot/",
+        "timestamp": 1788370668000,
+        "postedAt": 1788436315827
+      },
       {
         "headline": "Sen. Ed Markey, 80, Wins Democratic Primary Over Generational-Change Challenger",
         "url": "https://apnews.com/article/massachusetts-senate-primary-election-markey-moulton-7968135279320c758b0fd4750d864db9",
@@ -256,25 +294,6 @@
         "postedAt": 1788189146927
       },
       {
-        "headline": "CIA Director Reportedly Proposed Trump-Putin-Zelensky Summit",
-        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-cia-chief-kyiv-strikes-b3041688.html",
-        "timestamp": 1788084507000,
-        "postedAt": 1788097344076
-      },
-      {
-        "headline": "Trump Administration Deports Relative Of Afghans Who Aided U.S. Military To Central African Republic",
-        "url": "https://www.npr.org/2026/08/30/nx-s1-5949230/trump-administration-deports-afghan-central-african-republic",
-        "timestamp": 1788078733000,
-        "photo": true,
-        "postedAt": 1788097344076
-      },
-      {
-        "headline": "Opinion: Mail Ballot Safeguards Get Their Chance",
-        "url": "https://www.realclearpolitics.com/articles/2026/08/30/supreme_court_just_gave_mail-in_ballot_safeguards_a_chance_154457.html",
-        "timestamp": 1788040800000,
-        "postedAt": 1788097344076
-      },
-      {
         "headline": "Officials Defend Deal With Controversial Venezuelan Oil Baron",
         "url": "https://www.axios.com/2026/09/01/us-officials-defend-deal-venezuelan-oil-baron",
         "timestamp": 1788325922000,
@@ -282,6 +301,56 @@
       }
     ],
     "center": [
+      {
+        "headline": "IRAN ATTACKS US BASES IN MIDDLE EAST AFTER STRIKE REPORTEDLY KILLED FIVE AT WEDDING PARTY",
+        "url": "https://www.bbc.com/news/articles/cj06q4ynpmjo",
+        "timestamp": 1788349365003,
+        "postedAt": 1788349365003
+      },
+      {
+        "headline": "GOP Congressman To Introduce Resolution Condemning Sharia Law Before Midterms",
+        "url": "https://www.dailysignal.com/2026/09/03/keith-self-sharia-law-house/",
+        "timestamp": 1788435000000,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Gloria Steinem, Feminist Icon And Ms. Magazine Co-Founder, Dies At 92",
+        "url": "https://apnews.com/article/gloria-steinem-dies-724836935f6547fda60f361c15238d14",
+        "timestamp": 1788432840000,
+        "feature": true,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Hegseth Headed For Clash With GOP Senators As Frustrations Grow",
+        "url": "https://thehill.com/policy/defense/6067589-hegseth-pentagon-senator-clash/",
+        "timestamp": 1788429600000,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Plane Carrying DHS Secretary Mullin Makes Emergency Landing After Engine Failure",
+        "url": "https://www.nbcwashington.com/news/local/coast-guard-plane-dhs-secretary-mullin-emergency-landing-dca/4149492/",
+        "timestamp": 1788409128000,
+        "photo": true,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Who Is Alejandro Betancourt, Oil Baron Behind The US-Venezuela Oil Deal?",
+        "url": "https://www.bbc.com/news/articles/cyvze0n4vy1o",
+        "timestamp": 1788393208000,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Obama-Appointed Judge Ripped For Blocking Trump's Mail-Ballot Rule",
+        "url": "https://www.foxnews.com/politics/obama-appointed-judge-ripped-blocking-trump-mail-ballot-rule-run-out-clock",
+        "timestamp": 1788381334000,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Trump Administration Pays Out Milestone $100 Billion In Tariff Refunds",
+        "url": "https://abcnews.com/Business/trump-administration-pays-milestone-100-billion-tariff-refunds/story?id",
+        "timestamp": 1788381206000,
+        "postedAt": 1788436315827
+      },
       {
         "headline": "U.S. MILITARY LAUNCHES FRESH STRIKES ON IRANIAN FORCES IN STRAIT OF HORMUZ",
         "url": "https://www.axios.com/2026/09/01/hormuz-centcom-strikes-trump-iran",
@@ -359,38 +428,52 @@
         "postedAt": 1788189146927
       },
       {
-        "headline": "Trump Loses Bid To Move NYC Hush-Money Case To Federal Court",
-        "url": "https://www.courthousenews.com/trump-loses-longshot-bid-to-transfer-nyc-hush-money-case-to-federal-court",
-        "timestamp": 1787957570000,
-        "postedAt": 1788097344076
-      },
-      {
-        "headline": "Trump Administration Quietly Moves To Give Part Of Yosemite To Private Developer",
-        "url": "https://www.notus.org/agencies/trump-administration-yosemite-private-developer-deal",
-        "timestamp": 1787936867000,
-        "photo": true,
-        "postedAt": 1788097344076
-      },
-      {
-        "headline": "How Democrats In Congress Are Preparing For Trump Midterm Election Interference",
-        "url": "https://www.npr.org/2026/08/28/nx-s1-5940881/democrats-congress-midterm-elections-trump",
-        "timestamp": 1787907600000,
-        "postedAt": 1788097344076
-      },
-      {
-        "headline": "Postal Service Rule Could Bar Millions From Voting By Mail",
-        "url": "https://votingrightslab.org/2026/08/28/what-you-need-to-know-about-the-proposed-usps-mail-ballot-rule/",
-        "timestamp": 1788080463000,
-        "postedAt": 1788097344076
-      },
-      {
         "headline": "DHS Launches Voter-Fraud 'Surge' Probes In Nine States",
         "url": "https://thefederalist.com/2026/09/02/report-dhs-launches-voter-fraud-surge-probes-in-nine-states/",
         "timestamp": 1788348606000,
         "postedAt": 1788349365003
+      },
+      {
+        "headline": "Congress Rejects Constitutional Amendment To Restrict Supreme Court Size",
+        "url": "https://www.aljazeera.com/news/2026/9/3/us-congress-rejects-constitutional-amendment-to-restrict-supreme-court-size",
+        "timestamp": 1788398073000,
+        "postedAt": 1788436315827
       }
     ],
     "right": [
+      {
+        "headline": "Report: 200,000 Chinese Bots Found Hiding On X",
+        "url": "https://www.theblaze.com/tech/x-chinese-bot-farm",
+        "timestamp": 1788433238000,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Trump's USDA Unveils Plan To Break Up Meatpacking Monopoly",
+        "url": "https://www.theblaze.com/shows/the-glenn-beck-program/glenn-beck-takes-on-big-beef-trumps-usda-unveils-plan-to-break-the-meatpacking-monopoly",
+        "timestamp": 1788431577000,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Patagonia Sues Trump Over Slashing Of Protected Utah Lands",
+        "url": "https://www.theguardian.com/us-news/2026/sep/02/trump-patagonia-lawsuit-utah-national-monuments",
+        "timestamp": 1788399540000,
+        "photo": true,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "US Strikes Iran Again As Tehran Targets American Allies In Gulf Region",
+        "url": "https://www.pbs.org/newshour/show/u-s-strikes-iran-again-as-tehran-targets-american-allies-in-gulf-region",
+        "timestamp": 1788389726000,
+        "feature": true,
+        "postedAt": 1788436315827
+      },
+      {
+        "headline": "Mamdani Imposes One-Year Ban On AI For Most NYC Students",
+        "url": "https://www.reuters.com/technology/mamdani-imposes-one-year-ban-ai-most-nyc-students-2026-09-02/",
+        "timestamp": 1788378780000,
+        "photo": true,
+        "postedAt": 1788436315827
+      },
       {
         "headline": "The Army Needs Good Leaders. Why Is Hegseth Firing Them?",
         "url": "https://www.cbsnews.com/news/military-leaders-fired-forced-out-resigned-hegseth-defense-secretary-trump-pentagon/",
@@ -408,12 +491,6 @@
         "url": "https://www.newsmax.com/newsfront/beef-cattle-ranchers/2026/09/02/id/1268084/",
         "timestamp": 1788344450000,
         "postedAt": 1788349365003
-      },
-      {
-        "headline": "What To Know About USPS Mail-In Ballot Rule Amid Whistleblower Claims",
-        "url": "https://www.washingtonexaminer.com/news/justice/4708235/what-to-know-usps-mail-in-ballot-rule-whistleblower-claims/",
-        "timestamp": 1788294780000,
-        "postedAt": 1788297911115
       },
       {
         "headline": "South Korea Sees Signs Trump-Kim Talks Could Return",
@@ -442,12 +519,6 @@
         "postedAt": 1788265505226
       },
       {
-        "headline": "VENEZUELA'S INTERIM PRESIDENT DETAILS TERMS OF U.S. OIL DEAL",
-        "url": "https://thehill.com/policy/international/6059462-venezuela-us-oil-deal/",
-        "timestamp": 1788097344076,
-        "postedAt": 1788097344076
-      },
-      {
         "headline": "G20 Finance Meeting: Bessent, Warsh Set To Give Remarks",
         "url": "https://www.cnbc.com/2026/08/31/g20-finance-meeting-live-updates.html",
         "timestamp": 1788184260000,
@@ -467,20 +538,6 @@
         "timestamp": 1788124320000,
         "photo": true,
         "postedAt": 1788189146927
-      },
-      {
-        "headline": "Sen. Hawley Opens Investigation Into Flock Surveillance Cameras",
-        "url": "https://www.theblaze.com/tech/senator-josh-hawley-flock-investigation",
-        "timestamp": 1788095240000,
-        "photo": true,
-        "postedAt": 1788097344076
-      },
-      {
-        "headline": "Newsom Hit With Lawsuit Threat As Whistleblower Alleges 'Monumental' Fraud Scandal",
-        "url": "https://www.foxnews.com/politics/newsom-hit-lawsuit-threat-whistleblower-begs-trump-help-monumental-fraud-scandal",
-        "timestamp": 1788084012000,
-        "photo": true,
-        "postedAt": 1788097344076
       },
       {
         "headline": "The Republican Party's Grave Warning To American Jews If Democrats Win",
@@ -505,12 +562,6 @@
         "url": "https://thehill.com/homenews/administration/6059702-homan-milo-yiannopoulos-deported/",
         "timestamp": 1788112320000,
         "postedAt": 1788189146927
-      },
-      {
-        "headline": "DHS Confirms Yiannopoulos Was Detained By ICE At Louisiana Airport",
-        "url": "https://www.theblaze.com/news/milo-yiannopoulos-ice-detain-louisiana",
-        "timestamp": 1788094190000,
-        "postedAt": 1788097344076
       },
       {
         "headline": "White House Strikes New Drug-Pricing Deals",
@@ -549,12 +600,12 @@
     }
   ],
   "balance": {
-    "left": 194,
-    "right": 266,
+    "left": 198,
+    "right": 267,
     "independent": 0,
     "days": 30,
-    "total": 460,
-    "pctLeft": 42,
-    "pctRight": 58
+    "total": 465,
+    "pctLeft": 43,
+    "pctRight": 57
   }
 }

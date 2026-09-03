@@ -1,27 +1,54 @@
 {
-  "lastUpdated": 1788348831629,
-  "heroSetDate": "2026-09-02",
+  "lastUpdated": 1788435391857,
+  "heroSetDate": "2026-09-03",
   "hero": {
-    "headline": "GLOBAL BOND ROUT DEEPENS AS INFLATION FEARS AND IRAN TENSIONS MOUNT",
-    "url": "https://www.cnbc.com/2026/09/02/global-bond-yields-inflation-rates.html",
+    "headline": "WALL STREET RALLIES AS BOND SELLOFF PAUSES, YEN SURGES ON INTERVENTION FEARS",
+    "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-03/",
     "sublinks": [
       {
-        "text": "Stocks Slide As US And Iran Trade Direct Attacks",
-        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-02/"
+        "text": "Yen Hits One-month High On Bets Of Further Bank Of Japan Intervention",
+        "url": "https://www.cnbc.com/2026/09/03/yen-japan-intervention-boj.html"
       },
       {
-        "text": "Why A 5% 10-Year Yield Could Force Trump's Hand",
-        "url": "https://www.investopedia.com/can-the-us-government-keep-bond-yields-under-12070359"
+        "text": "Treasury Selloff Pauses As Oil Holds Near $94 A Barrel",
+        "url": "https://eurasiabusinessnews.com/2026/09/02/stock-market-today-treasury-selloff-pauses-while-wall-street-stocks-rise-oil-price-at-94/"
       },
       {
-        "text": "Japan's Benchmark Bond Yield Hits 3% For First Time In 30 Years",
-        "url": "https://www.reuters.com/world/asia-pacific/japans-benchmark-bond-yield-rises-3-first-time-30-years-2026-09-01/"
+        "text": "S&P 500, Dow Extend Rebound After Three-day Skid",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
+      },
+      {
+        "text": "How Investors Can Protect Their Money From The Bond Rout",
+        "url": "https://www.cnbc.com/2026/09/02/bond-market-selloff-rates-fixed-income-treasury-yields.html"
       }
     ],
-    "postedAt": 1788348831629,
+    "liveUpdates": [
+      {
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/02/stock-market-today-live-updates.html"
+      }
+    ],
+    "postedAt": 1788435391857,
     "img": true
   },
   "groups": [
+    {
+      "title": "SNOWFLAKE EARNINGS BEAT LIFTS AI SOFTWARE STOCK",
+      "stories": [
+        {
+          "headline": "Wall Street Analysts React To Snowflake's Surging Shares",
+          "url": "https://www.marketwatch.com/story/shares-in-snowflake-are-surging-heres-what-wall-street-analysts-are-saying-0b6343c0",
+          "timestamp": 1788431820000,
+          "postedAt": 1788435391857
+        },
+        {
+          "headline": "Snowflake Earnings, Revenue, Guidance Top Estimates; Stock Jumps",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-shares-rise-q2-revenue-101849891.html",
+          "timestamp": 1788386220000,
+          "postedAt": 1788435391857
+        }
+      ]
+    },
     {
       "title": "OIL AND ENERGY PRICES SURGE ON IRAN TENSIONS",
       "stories": [
@@ -79,10 +106,55 @@
   "columns": {
     "left": [
       {
-        "headline": "How Safe Is Nvidia's Empire?",
-        "url": "https://www.artforum.com/columns/backpage-empire-safe-1234758044/",
-        "timestamp": 1788342266000,
-        "postedAt": 1788348831629
+        "headline": "AI Cloud Math Is Broken, Shifting Power Within Big Tech",
+        "url": "https://www.marketwatch.com/story/the-ai-cloud-math-is-broken-and-its-creating-a-power-shift-within-big-tech-5652da0f",
+        "timestamp": 1788433200000,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "OpenAI, Anthropic Security Workers Authorize Strike",
+        "url": "https://www.kqed.org/news/12098063/workers-guarding-san-franciscos-wealthiest-companies-vote-to-authorize-a-strike",
+        "timestamp": 1788430943000,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "Pakistan Raises $3 Billion In Junk Bond Sale After Credit Upgrades",
+        "url": "https://www.moneycontrol.com/world/pakistan-raises-3-billion-in-two-part-junk-bond-sale-article-14021378.html",
+        "timestamp": 1788429654000,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "Ukraine's Drone War Devours 4% Of Global Germanium Demand",
+        "url": "https://www.zerohedge.com/commodities/ukraines-drone-warfare-devouring-4-global-germanium-demand-china-chokes-supplies-how",
+        "timestamp": 1788428700000,
+        "photo": true,
+        "postedAt": 1788435391857,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Trump Puts Tariffs Up To 100% On Foreign-made Drones",
+        "url": "https://www.ndtvprofit.com/world/trump-imposes-tariffs-of-up-to-100-on-foreign-made-drones-11995551",
+        "timestamp": 1788408065000,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "Microsoft Reveals Azure Cloud Sales In Reporting Shift",
+        "url": "https://www.reuters.com/business/retail-consumer/microsoft-reveal-azure-cloud-sales-financial-reporting-shift-2026-09-02/",
+        "timestamp": 1788384926000,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "Google's New Gemini 3.8 Flash Model 'Works Harder' But May Cost More",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+        "timestamp": 1788379900000,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "Google Spared Breakup Of Online Ad Monopoly",
+        "url": "https://nypost.com/2026/09/02/business/ruling-letting-google-dodge-breakup-of-digital-ad-monopoly-draws-critics-outrage-olympic-level-of-mental-gymnastics/",
+        "timestamp": 1788378797000,
+        "feature": true,
+        "postedAt": 1788435391857
       },
       {
         "headline": "AI Data Centers Are 'Best Thing' For Working-Class Americans, Investor Says",
@@ -103,7 +175,7 @@
         "feature": true,
         "photo": true,
         "postedAt": 1788297293403,
-        "image": "/img/markets-0.jpg"
+        "image": "/img/markets-1.jpg"
       },
       {
         "headline": "Goldman Sachs, BofA, Others Plan Joint Dollar Stablecoin For 2027",
@@ -164,8 +236,7 @@
         "url": "https://time.com/article/2026/08/31/kalshi-george-santos-lifetime-ban/",
         "timestamp": 1788184140000,
         "photo": true,
-        "postedAt": 1788188383985,
-        "image": "/img/markets-1.jpg"
+        "postedAt": 1788188383985
       },
       {
         "headline": "MIT Economist Says America Is Asking The Wrong Question About Its $40 Trillion Debt",
@@ -184,35 +255,36 @@
         "url": "https://www.reuters.com/business/autos-transportation/gms-canadian-workers-approve-deal-adding-truck-ontario-plant-amid-us-trade-war-2026-08-31/",
         "timestamp": 1788136980000,
         "postedAt": 1788188383985
-      },
-      {
-        "headline": "Egyptian Bank Swept Into Treasury's Iran Sanctions Crackdown",
-        "url": "https://www.iranintl.com/en/202608308160",
-        "timestamp": 1788092831000,
-        "postedAt": 1788096705766
-      },
-      {
-        "headline": "Retailers Handle Tariff Refunds In Sharply Different Ways This Earnings Season",
-        "url": "https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html",
-        "timestamp": 1788091202000,
-        "postedAt": 1788096705766
-      },
-      {
-        "headline": "Billionaire Seeks Buyer For Tanzania Private Island—Fast",
-        "url": "https://www.forbes.com/sites/maryroeloffs/2026/08/29/billionaire-tim-draper-selling-his-private-island-in-tanzania-wants-offers-by-email/",
-        "timestamp": 1788018764000,
-        "photo": true,
-        "postedAt": 1788096705766
-      },
-      {
-        "headline": "Walmart To Pay $50 Million To Settle Opioid Lawsuit",
-        "url": "https://thehill.com/regulation/court-battles/6059138-walmart-opioid-lawsuit-settlement/",
-        "timestamp": 1787965730000,
-        "feature": true,
-        "postedAt": 1788096705766
       }
     ],
     "center": [
+      {
+        "headline": "SEC Proposes Tailored Exemptions For Crypto Asset Offerings",
+        "url": "https://www.fintechanddigitalassets.com/2026/09/sec-proposes-tailored-exemptions-for-cryptoasset-offerings/",
+        "timestamp": 1788378215000,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "Uber Layoffs Add To Rising Tech Job Cuts",
+        "url": "https://www.sfgate.com/tech/article/uber-layoffs-22415310.php",
+        "timestamp": 1788395772000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "Southwest Airlines To Open New Lounges In 4 Airports",
+        "url": "https://www.usatoday.com/story/travel/airline-news/2026/09/02/southwest-airlines-opening-lounges-airports/91583617007/",
+        "timestamp": 1788383340000,
+        "photo": true,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "Employer Health Costs Set For Sharpest Rise In 20 Years",
+        "url": "https://thehill.com/policy/healthcare/6066452-employer-health-costs-spike-2027/",
+        "timestamp": 1788368940000,
+        "postedAt": 1788435391857
+      },
       {
         "headline": "OIL SURGES TO 6-WEEK HIGH AS U.S. STRIKES IRAN NEAR HORMUZ",
         "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708",
@@ -300,30 +372,6 @@
         "postedAt": 1788188383985
       },
       {
-        "headline": "Jobs Report, Broadcom Earnings Pose Next Test For Stock Rally",
-        "url": "https://www.msn.com/en-us/money/top-stocks/jobs-report-broadcom-results-pose-next-hurdles-for-stock-market-rally/ar-AA2bdsU1",
-        "timestamp": 1788069596000,
-        "postedAt": 1788096705766
-      },
-      {
-        "headline": "9th Circuit Ruling Revives Arizona's Kalshi Prediction-Market Case",
-        "url": "https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/",
-        "timestamp": 1787952858000,
-        "postedAt": 1788096705766
-      },
-      {
-        "headline": "Corn And Wheat Prices Jump To Highest Levels In Three Years",
-        "url": "https://www.cnbc.com/2026/08/28/corn-and-wheat-prices-jump-to-highest-prices-in-more-than-three-years.html",
-        "timestamp": 1787947256000,
-        "postedAt": 1788096705766
-      },
-      {
-        "headline": "Five Wildest Discoveries From OpenAI's HuggingFace Investigation",
-        "url": "https://www.axios.com/2026/08/29/openai-huggingface-hack-investigation-highlights",
-        "timestamp": 1788008601000,
-        "postedAt": 1788096705766
-      },
-      {
         "headline": "HP Stock Outperforms After Strong Trading Day",
         "url": "https://www.marketwatch.com/data-news/hp-inc-stock-outperforms-competitors-on-strong-trading-day-2c0bc263-b25f6ef37f94",
         "timestamp": 1788294600000,
@@ -346,9 +394,52 @@
         "url": "https://www.axios.com/2026/09/01/interest-rates-finance-bessent",
         "timestamp": 1788305876000,
         "postedAt": 1788348831629
+      },
+      {
+        "headline": "Broadcom Sees $230 Billion In AI Revenue By 2028, Analyst Says",
+        "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-sees-230b-ai-revenue-023424926.html",
+        "timestamp": 1788402840000,
+        "postedAt": 1788435391857
       }
     ],
     "right": [
+      {
+        "headline": "GLOBAL BOND ROUT DEEPENS AS INFLATION FEARS AND IRAN TENSIONS MOUNT",
+        "url": "https://www.cnbc.com/2026/09/02/global-bond-yields-inflation-rates.html",
+        "timestamp": 1788348831629,
+        "postedAt": 1788348831629
+      },
+      {
+        "headline": "Diesel Prices Have No Quick Fix As Diluted Gas Only Cuts Gasoline Costs",
+        "url": "https://www.thedrive.com/news/the-feds-diluted-gas-to-cut-prices-diesel-has-no-such-fix",
+        "timestamp": 1788371594000,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "EU's Small-parcel Fee On China Triggers Drop In Imports",
+        "url": "https://www.premiumbeautynews.com/en/eu-small-parcels-tax-cuts-import,28105",
+        "timestamp": 1788429702000,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "Gold Holds Gain As Trump's War Comments Ease Inflation Jitters",
+        "url": "https://uk.finance.yahoo.com/news/gold-holds-gain-trump-war-235831736.html",
+        "timestamp": 1788429105000,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "US Urges G20 Nations To Allow AI Training On Creators' Work",
+        "url": "https://www.reuters.com/business/media-telecom/nvidia-ceo-urges-g20-avoid-ai-rules-theoretical-harms-2026-09-02/",
+        "timestamp": 1788386670000,
+        "postedAt": 1788435391857
+      },
+      {
+        "headline": "House Panel Subpoenas Oracle's Ellison Over VA Records Project",
+        "url": "https://www.politico.com/news/2026/09/02/ellison-subpoena-veterans-health-records-01062124",
+        "timestamp": 1788373320000,
+        "photo": true,
+        "postedAt": 1788435391857
+      },
       {
         "headline": "Data Center Spending Seen Reaching $31.6 Trillion By 2050",
         "url": "https://www.energyconnects.com/news/utilities/2026/september/data-center-spending-to-reach-316-trillion-by-2050-on-ai-boom/",
@@ -420,38 +511,6 @@
         "postedAt": 1788188383985
       },
       {
-        "headline": "Charts Show How Leverage-Happy Investors Are Reshaping The Stock Market",
-        "url": "https://www.marketwatch.com/story/these-charts-show-how-leverage-happy-investors-are-transforming-the-stock-market-d4e350c3",
-        "timestamp": 1788094800000,
-        "postedAt": 1788096705766
-      },
-      {
-        "headline": "Inside The World's Most Expensive Neighborhood: $550 Million Apartments And F1 Stars",
-        "url": "https://www.forbes.com/sites/giacomotognini/2026/08/30/inside-the-worlds-most-expensive-neighborhood-550-million-apartments-f1-stars-and-billionaires/",
-        "timestamp": 1788085800000,
-        "photo": true,
-        "postedAt": 1788096705766
-      },
-      {
-        "headline": "Drone Strike Sparks Blaze At Russian Oil Refinery In Kirishi",
-        "url": "https://www.moneycontrol.com/world/a-tea-break-saved-five-chhattisgarh-friends-from-nepal-s-deadly-flash-floods-article-14018305.html",
-        "timestamp": 1788083980000,
-        "postedAt": 1788096705766
-      },
-      {
-        "headline": "Sony Music, Warner Sue Anthropic Over 'Brazen' IP Theft",
-        "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-        "timestamp": 1788028919000,
-        "feature": true,
-        "postedAt": 1788096705766
-      },
-      {
-        "headline": "AI Giants Warn Cybersecurity 'Apocalypse' Could Hit Within Months",
-        "url": "https://www.axios.com/2026/08/27/openai-anthropic-issue-dire-cyber-threat-warning",
-        "timestamp": 1787999400000,
-        "postedAt": 1788096705766
-      },
-      {
         "headline": "A Quieter Fed Faces A Higher Bar For Standing Pat",
         "url": "https://www.forbes.com/sites/danirvine/2026/08/31/a-quieter-fed-and-a-higher-bar-for-standing-pat/",
         "timestamp": 1788187283000,
@@ -474,6 +533,12 @@
         "url": "https://www.csmonitor.com/Business/2026/0828/warsh-bessent-inflation-economy",
         "timestamp": 1787945940000,
         "postedAt": 1788188383985
+      },
+      {
+        "headline": "HPE Lifts Sales Forecast On AI Demand For Servers, Networking",
+        "url": "https://www.reuters.com/business/dell-again-lifts-forecasts-ai-demand-powers-record-results-2026-09-01/",
+        "timestamp": 1788393147000,
+        "postedAt": 1788435391857
       }
     ]
   },
@@ -489,7 +554,7 @@
     {
       "name": "Dow",
       "value": "53,061.95",
-      "change": "+295.07",
+      "change": "+295.05",
       "changePct": "+0.56%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
@@ -512,25 +577,25 @@
     },
     {
       "name": "Gold",
-      "value": "$4,445.30",
-      "change": "+30.70",
-      "changePct": "+0.70%",
+      "value": "$4,479.80",
+      "change": "+65.20",
+      "changePct": "+1.48%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$90.76",
-      "change": "-0.25",
-      "changePct": "-0.27%",
-      "up": false,
+      "value": "$92.50",
+      "change": "+1.49",
+      "changePct": "+1.64%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$77,328.01",
-      "change": "+17.84",
-      "changePct": "+0.02%",
+      "value": "$77,878.48",
+      "change": "+568.31",
+      "changePct": "+0.74%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     }

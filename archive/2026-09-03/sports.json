@@ -1,11 +1,11 @@
 {
-  "lastUpdated": 1788347964910,
-  "heroSetDate": "2026-09-02",
+  "lastUpdated": 1788434343868,
+  "heroSetDate": "2026-09-03",
   "hero": {
-    "headline": "TCU PLAYER HOSPITALIZED WITH BRAIN BLEED AFTER TEAMMATE ASSAULT IN LOCKER ROOM",
-    "url": "https://abcnews.com/US/tcu-player-assaulted-locker-room-teammate-suffers-brain/story?id",
+    "headline": "NBA SUSPENDS CLIPPERS OWNER STEVE BALLMER, FINES TEAM $30M OVER KAWHI LEONARD CAP CIRCUMVENTION",
+    "url": "https://www.npr.org/2026/09/02/nx-s1-5954825/nba-suspends-clippers-owner-ballmer-fines-team-30m-kawhi-leonard-700k-in-cap-circumvention-case",
     "sublinks": [],
-    "postedAt": 1788347964910,
+    "postedAt": 1788434343868,
     "img": true
   },
   "groups": [
@@ -29,6 +29,12 @@
           "url": "https://www.usopen.org/en_US/news/articles/2026-08-31/after_an_early_2026_us_open_exit_where_does_novak_djokovic_go_from_here.html",
           "timestamp": 1788212544000,
           "postedAt": 1788263862292
+        },
+        {
+          "headline": "US Open Day 4 Bracket: Winners, Losers And Day 5 Schedule",
+          "url": "https://bleacherreport.com/articles/25495571-us-open-tennis-2026-results-day-4-bracket-winners-losers-highlights-and-day-5-schedule",
+          "timestamp": 1788406208000,
+          "postedAt": 1788434343868
         }
       ]
     },
@@ -65,44 +71,62 @@
           "postedAt": 1788187269273
         }
       ]
-    },
-    {
-      "title": "COLTS WR KEENAN ALLEN ARRESTED FOR DUI",
-      "stories": [
-        {
-          "headline": "Report: Allen's Arrest Happened Downtown Overnight",
-          "url": "https://sports.yahoo.com/articles/colts-wideout-keenan-allen-reportedly-120004228.html",
-          "timestamp": 1788091204000,
-          "postedAt": 1788095679536
-        },
-        {
-          "headline": "Colts WR Keenan Allen Arrested For DUI",
-          "url": "https://fox59.com/news/colts-wr-keenan-allen-arrested-for-dui/",
-          "timestamp": 1788085011000,
-          "postedAt": 1788095679536
-        }
-      ]
-    },
-    {
-      "title": "UFC SHANGHAI: NURMAGOMEDOV KNOCKOUT SHOCKER",
-      "stories": [
-        {
-          "headline": "Biggest Winners And Losers From UFC Shanghai",
-          "url": "https://sports.yahoo.com/articles/biggest-winners-loser-ufc-shanghai-110000440.html",
-          "timestamp": 1788087600000,
-          "postedAt": 1788095679536
-        },
-        {
-          "headline": "Umar Nurmagomedov Speaks Out After Shocking Knockout Loss",
-          "url": "https://www.mmafighting.com/ufc/507754/umar-nurmagomedov-releases-statement-following-devastating-ufc-shanghai-knockout-loss",
-          "timestamp": 1788019942000,
-          "postedAt": 1788095679536
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Caitlin Clark Set For Team USA World Cup Debut",
+        "url": "https://sports.yahoo.com/articles/caitlin-clark-ready-team-usa-100417952.html",
+        "timestamp": 1788429857000,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Luka Modric Wants Return To Real Madrid",
+        "url": "https://africa.espn.com/football/story/_/id/49811659/luka-modric-not-thinking-retirement-try-stay-present",
+        "timestamp": 1788433203000,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Former NFL Cornerback Alphonso Smith Jr. Dies At 40",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/former-nfl-cb-alphonso-smith-jr-dies-at-40",
+        "timestamp": 1788429375000,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Jalen Hurts Admits He And A.J. Brown Have Grown Apart",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-hurts-acknowledges-that-clearly-he-and-a-j-brown-grew-apart",
+        "timestamp": 1788423165000,
+        "feature": true,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Tiger Woods Pleads No Contest To Reckless Driving Charge Over Rollover Crash",
+        "url": "https://apnews.com/article/tiger-woods-dui-crash-plea-change-04efe75a28deb0c3ffdf70a35f88d640",
+        "timestamp": 1788386040000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Suspect In Saquon Barkley Home Burglary Arrested",
+        "url": "https://www.nbcphiladelphia.com/news/local/suspect-involved-in-burglary-of-saquon-barkleys-house-arrested-officials-say/4457532/",
+        "timestamp": 1788382541000,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Evangelista Traded To Devils By Predators For Two Draft Picks",
+        "url": "https://www.nhl.com/news/luke-evangelista-traded-to-new-jersey-devils-by-nashville-predators",
+        "timestamp": 1788374063000,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Kirk Cousins Named Raiders' QB1 Over Fernando Mendoza For Week 1",
+        "url": "https://bleacherreport.com/articles/25495547-kirk-cousins-named-raiders-qb1-over-fernando-mendoza-nfl-week-1-vs-dolphins",
+        "timestamp": 1788367837000,
+        "photo": true,
+        "postedAt": 1788434343868
+      },
       {
         "headline": "No. 1 Zverev Survives Five-Set U.S. Open Opener",
         "url": "https://deadspin.com/no-1-alexander-zverev-wins-last-2-sets-survives-us-open-opener/",
@@ -171,7 +195,7 @@
       },
       {
         "headline": "NFL Execs Name 10 Breakout Players To Watch In 2026",
-        "url": "https://www.si.com/nfl/nfl-execs-coaches-identify-10-breakout-players-2026",
+        "url": "https://www.baltimoreravens.com/news/late-for-work-jakobi-lane-breakout-candidate-lamar-jackson-espn-nfl-top-100-player-rankings",
         "timestamp": 1788256803000,
         "postedAt": 1788263862292
       },
@@ -227,52 +251,6 @@
         "postedAt": 1788187269273
       },
       {
-        "headline": "Red-Hot Royals Chase Series Sweep Of Guardians",
-        "url": "https://deadspin.com/red-hot-royals-chase-series-sweep-of-guardians/",
-        "timestamp": 1788090720000,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "Filip Hrgovic Stuns Moses Itauma To Win Heavyweight Title",
-        "url": "https://www.nbcnews.com/sports/boxing/filip-hrgovic-defeats-moses-itauma-london-heavyweight-boxing-champion-rcna595094",
-        "timestamp": 1788079795000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "William Jewell Running Back Dies After In-Game Medical Emergency",
-        "url": "https://www.theguardian.com/sport/2026/aug/29/division-ii-running-back-dies-after-experiencing-medical-emergency-on-the-sideline-shortly-after-scoring-touchdown",
-        "timestamp": 1788046980000,
-        "feature": true,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "Viktor Hovland Leads Tour Championship Into Final Round",
-        "url": "https://sports.yahoo.com/golf/article/tour-championship-viktor-hovland-holds-solo-lead-entering-final-round-with-ryan-gerard-and-scottie-scheffler-behind-him-230119673.html",
-        "timestamp": 1788044479000,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "Lando Norris' McLaren Contract Extension Sparks Fan Debate",
-        "url": "https://www.motorsport.com/f1/news/one-detail-of-lando-norris-mclaren-extension-has-f1-fans-talking/10850406/",
-        "timestamp": 1788000696000,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "Diamondbacks' Week Could Include Ketel Marte's Return",
-        "url": "https://sports.yahoo.com/articles/diamondbacks-week-sees-phillies-maybe-120150415.html",
-        "timestamp": 1788091310000,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "Cowboys Acquire OT Jones In Trade For Two Draft Picks",
-        "url": "https://www.espn.com/nfl/story/_/id/49766398/sources-cowboys-acquire-ot-jones-exchange-two-draft-picks",
-        "timestamp": 1788042900000,
-        "feature": true,
-        "postedAt": 1788095679536
-      },
-      {
         "headline": "Winners And Losers From Jaguars' 53-Man Decisions",
         "url": "https://www.si.com/nfl/jaguars/onsi/jacksonville-7-winners-6-losers-from-53-man-decisions-james-gladstone-draft-picks",
         "timestamp": 1788135787000,
@@ -286,6 +264,43 @@
       }
     ],
     "center": [
+      {
+        "headline": "49ers' Sam Okuayinonu Misses Flight To Australia, Questionable With Foot Injury",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-de-sam-okuayinonu-not-on-team-flight-to-australia-questionable-with-foot-injury",
+        "timestamp": 1788427164000,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Sports World Praying For ESPN's Holly Rowe After Heartbreaking News",
+        "url": "https://sports.yahoo.com/articles/sports-world-praying-espns-holly-152913546.html",
+        "timestamp": 1788429615000,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Katie Taylor Gets Personal Reply From Her Boxing Hero",
+        "url": "https://www.bbc.com/sport/boxing/articles/cx2zj2rg8e5o",
+        "timestamp": 1788420570000,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "NC Middle School Student Dies After Cardiac Arrest At Football Practice",
+        "url": "https://www.wral.com/news/state/northwest-guilford-middle-school-student-cardiac-arrest-football-practice-september-2026/",
+        "timestamp": 1788409584000,
+        "feature": true,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "No. 1 Nebraska Volleyball Sweeps South Dakota State",
+        "url": "https://www.on3.com/teams/nebraska-cornhuskers/news/nebraska-volleyball/",
+        "timestamp": 1788399223000,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Georgia AG Tells SEC To 'Take All Measures Available' If LSU Plays Pros",
+        "url": "https://www.espn.com/college-football/story/_/id/49806514/georgia-ag-sec-take-all-measures-available-lsu-plays-pros",
+        "timestamp": 1788382020000,
+        "postedAt": 1788434343868
+      },
       {
         "headline": "USMNT Striker Folarin Balogun's Move To Everton Falls Through",
         "url": "https://deadspin.com/folarin-balogun-reportedly-scraps-transfer-to-everton/",
@@ -388,38 +403,6 @@
         "postedAt": 1788187269273
       },
       {
-        "headline": "How Alex Eala Turned The Philippines Into A Tennis Nation",
-        "url": "https://frontofficesports.com/alex-eala-changing-tennis-phillipines/",
-        "timestamp": 1788087777000,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "Roger Federer Moved To Tears At Tennis Hall Of Fame Induction",
-        "url": "https://apnews.com/article/roger-federer-mary-carillo-international-tennis-hall-of-fame-45c02876e2f67106a2a9f233468d9ece",
-        "timestamp": 1788062400000,
-        "photo": true,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "Mike Perry's Bad Weekend Gets Worse With Early Injury Loss",
-        "url": "https://sports.yahoo.com/mma/live/duel-arena-live-results-round-by-round-scoring-live-stream-for-tonights-mike-perry-vs-brandon-jenkins-fight-063000872.html",
-        "timestamp": 1788058080000,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "Pete Crow-Armstrong's Three-Homer Game Boosts MVP Case",
-        "url": "https://www.cbssports.com/mlb/news/pete-crow-armstrong-nl-mvp-cubs-reds/",
-        "timestamp": 1788041400000,
-        "photo": true,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "Steelers Cut Two More Players, Including Former First-Round Pick",
-        "url": "https://www.si.com/nfl/steelers/onsi/pittsburgh-steelers-cut-two-more-players-including-former-first-round-pick",
-        "timestamp": 1788040006000,
-        "postedAt": 1788095679536
-      },
-      {
         "headline": "Notre Dame Scheduling Decision Helps Explain USC's Empty Seats",
         "url": "https://sports.yahoo.com/articles/notre-dame-decision-helps-explain-125605615.html",
         "timestamp": 1788180965000,
@@ -442,9 +425,49 @@
         "url": "https://www.dallasnews.com/sports/cowboys/article/dallas-cowboys-53-man-roster-cuts-nfc-contenders-22407909.php",
         "timestamp": 1788137247000,
         "postedAt": 1788187269273
+      },
+      {
+        "headline": "Collin Klein Set For Kansas State Coaching Debut Vs Nicholls",
+        "url": "https://deadspin.com/collin-klein-next-gen-kansas-state-coach-to-debut-against-nicholls/",
+        "timestamp": 1788423420000,
+        "postedAt": 1788434343868
       }
     ],
     "right": [
+      {
+        "headline": "TCU PLAYER HOSPITALIZED WITH BRAIN BLEED AFTER TEAMMATE ASSAULT IN LOCKER ROOM",
+        "url": "https://abcnews.com/US/tcu-player-assaulted-locker-room-teammate-suffers-brain/story?id",
+        "timestamp": 1788347964910,
+        "postedAt": 1788347964910
+      },
+      {
+        "headline": "Former Steeler Warns Joey Porter Jr. Not To 'Pull A Le'Veon Bell'",
+        "url": "https://steelersdepot.com/2026/09/it-doesnt-work-joey-former-steeler-pleads-with-porter-not-to-pull-a-leveon-bell/",
+        "timestamp": 1788429683000,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Stanford Faces Clemson In Season-Opening Matchup",
+        "url": "https://sports.yahoo.com/ncaaw/stanford-cardinal-clemson-tigers-202612310120/",
+        "timestamp": 1788429517000,
+        "photo": true,
+        "postedAt": 1788434343868,
+        "image": "/img/sports-0.jpg"
+      },
+      {
+        "headline": "Lamar Jackson Says Ravens' New Offense Will Catch Defenses Off Guard",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-on-ravens-new-offense-defenses-arent-prepared-for-whats-in-store",
+        "timestamp": 1788423049000,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Jordan Chiles Announces 2028 Olympics Run With Assist From Michael Jordan",
+        "url": "https://www.nbcnews.com/sports/olympics/jordan-chiles-assist-michael-jordan-2028-games-los-angeles-rcna595792",
+        "timestamp": 1788388669000,
+        "photo": true,
+        "postedAt": 1788434343868,
+        "image": "/img/sports-1.jpg"
+      },
       {
         "headline": "MESSI RETIRES FROM INTERNATIONAL SOCCER AFTER WORLD CUP TITLE, 125 GOALS",
         "url": "https://apnews.com/article/messi-argentina-retires-8df27ab2059a740ea5bc97dbc6a49725",
@@ -462,16 +485,14 @@
         "url": "https://sports.yahoo.com/articles/webb-skenes-duel-turns-35-060606859.html",
         "timestamp": 1788329160000,
         "photo": true,
-        "postedAt": 1788347964910,
-        "image": "/img/sports-0.jpg"
+        "postedAt": 1788347964910
       },
       {
         "headline": "Messi Inspires Inter Miami To Seven-Goal Rout",
         "url": "https://sports.yahoo.com/videos/messi-inspires-inter-miami-7-043000336.html",
         "timestamp": 1788323400000,
         "photo": true,
-        "postedAt": 1788347964910,
-        "image": "/img/sports-1.jpg"
+        "postedAt": 1788347964910
       },
       {
         "headline": "UK: Chelsea Agree £47M Move For Monaco's Camara",
@@ -512,12 +533,6 @@
         "postedAt": 1788263862292
       },
       {
-        "headline": "BELICHICK, USC, NC STATE HEADLINE COLLEGE FOOTBALL WEEK 0",
-        "url": "https://www.usatoday.com/story/sports/ncaaf/2026/08/30/college-football-week-0-winners-losers-bill-belichick/91533597007/",
-        "timestamp": 1788095679536,
-        "postedAt": 1788095679536
-      },
-      {
         "headline": "Another Brawl Breaks Out At Wrigley Field",
         "url": "https://www.barstoolsports.com/blog/3576230/there-was-another-brawl-at-wrigley-field-saturday-and-i-am-once-again-begging",
         "timestamp": 1788183251000,
@@ -529,31 +544,6 @@
         "url": "https://sports.yahoo.com/articles/sergio-perez-trying-help-hire-125350118.html",
         "timestamp": 1788180830000,
         "postedAt": 1788187269273
-      },
-      {
-        "headline": "Ryan Preece Wins At Daytona In Overtime, Clinches Chase Bid",
-        "url": "https://www.nbcsports.com/nascar/news/ryan-preece-wins-at-daytona-in-overtime-clinches-nascar-chase-bid",
-        "timestamp": 1788085150000,
-        "photo": true,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "Shohei Ohtani Scratched From Sunday Start, Dodgers Weigh Next Steps",
-        "url": "https://www.mlbtraderumors.com/2026/08/shohei-ohtani-will-not-pitch-sunday-dodgers-determining-next-steps.html",
-        "timestamp": 1788040654000,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "Aaron Boone Calls Out Yankees After Bad Loss To Red Sox",
-        "url": "https://www.nj.com/yankees/2026/08/aaron-boone-calls-out-yankees-after-bad-loss-to-red-sox.html",
-        "timestamp": 1788040560000,
-        "postedAt": 1788095679536
-      },
-      {
-        "headline": "Falcons Acquiring Dexter From Bears",
-        "url": "https://www.thescore.com/nfl/news/3588678/report-falcons-acquiring-dexter-from-bears",
-        "timestamp": 1788093491000,
-        "postedAt": 1788095679536
       },
       {
         "headline": "USC Issues Statement On Poor Home-Opener Attendance",
@@ -598,86 +588,20 @@
         "postedAt": 1788347964910
       },
       {
-        "headline": "Devils Acquire Evangelista From Predators For Two Picks",
-        "url": "https://www.nhl.com/news/luke-evangelista-traded-to-new-jersey-devils-by-nashville-predators",
-        "timestamp": 1788322463000,
-        "postedAt": 1788347964910
+        "headline": "What Stan Kroenke's Angels Purchase Really Means",
+        "url": "https://sports.yahoo.com/articles/sporticast-2-words-explain-stan-095500390.html",
+        "timestamp": 1788429300000,
+        "postedAt": 1788434343868
+      },
+      {
+        "headline": "Michigan Opens Season Hosting Toledo",
+        "url": "https://sports.yahoo.com/ncaab/toledo-rockets-michigan-wolverines-202612300357/",
+        "timestamp": 1788429597000,
+        "postedAt": 1788434343868
       }
     ]
   },
   "scoreboard": [
-    {
-      "league": "MLB",
-      "home": "TB",
-      "away": "NYM",
-      "state": "in",
-      "note": "Top 9th",
-      "homeScore": "4",
-      "awayScore": "10"
-    },
-    {
-      "league": "MLB",
-      "home": "PIT",
-      "away": "SF",
-      "state": "in",
-      "note": "Top 10th",
-      "homeScore": "3",
-      "awayScore": "4"
-    },
-    {
-      "league": "MLB",
-      "home": "MIN",
-      "away": "DET",
-      "state": "in",
-      "note": "Top 6th",
-      "homeScore": "1",
-      "awayScore": "5"
-    },
-    {
-      "league": "MLB",
-      "home": "KC",
-      "away": "MIA",
-      "state": "in",
-      "note": "End 5th",
-      "homeScore": "6",
-      "awayScore": "4"
-    },
-    {
-      "league": "MLB",
-      "home": "CHC",
-      "away": "MIL",
-      "state": "in",
-      "note": "Top 5th",
-      "homeScore": "5",
-      "awayScore": "6"
-    },
-    {
-      "league": "MLB",
-      "home": "HOU",
-      "away": "CHW",
-      "state": "in",
-      "note": "Top 6th",
-      "homeScore": "0",
-      "awayScore": "0"
-    },
-    {
-      "league": "MLB",
-      "home": "LAA",
-      "away": "NYY",
-      "state": "scheduled",
-      "note": "9/2 - 9:38 PM EDT",
-      "homeScore": null,
-      "awayScore": null
-    },
-    {
-      "league": "MLB",
-      "home": "LAD",
-      "away": "STL",
-      "state": "scheduled",
-      "note": "9/2 - 10:10 PM EDT",
-      "homeScore": null,
-      "awayScore": null
-    },
     {
       "league": "MLB",
       "home": "CIN",
@@ -734,12 +658,84 @@
     },
     {
       "league": "MLB",
+      "home": "TB",
+      "away": "NYM",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "4",
+      "awayScore": "10"
+    },
+    {
+      "league": "MLB",
+      "home": "PIT",
+      "away": "SF",
+      "state": "post",
+      "note": "Final/10",
+      "homeScore": "4",
+      "awayScore": "5"
+    },
+    {
+      "league": "MLB",
       "home": "CLE",
       "away": "TOR",
       "state": "post",
       "note": "Final",
       "homeScore": "0",
       "awayScore": "11"
+    },
+    {
+      "league": "MLB",
+      "home": "MIN",
+      "away": "DET",
+      "state": "post",
+      "note": "Final/12",
+      "homeScore": "6",
+      "awayScore": "11"
+    },
+    {
+      "league": "MLB",
+      "home": "KC",
+      "away": "MIA",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "6",
+      "awayScore": "9"
+    },
+    {
+      "league": "MLB",
+      "home": "CHC",
+      "away": "MIL",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "5",
+      "awayScore": "9"
+    },
+    {
+      "league": "MLB",
+      "home": "HOU",
+      "away": "CHW",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "2",
+      "awayScore": "0"
+    },
+    {
+      "league": "MLB",
+      "home": "LAA",
+      "away": "NYY",
+      "state": "post",
+      "note": "Final/10",
+      "homeScore": "3",
+      "awayScore": "6"
+    },
+    {
+      "league": "MLB",
+      "home": "LAD",
+      "away": "STL",
+      "state": "post",
+      "note": "Final/10",
+      "homeScore": "6",
+      "awayScore": "8"
     },
     {
       "league": "MLS",

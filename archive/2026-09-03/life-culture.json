@@ -1,41 +1,17 @@
 {
-  "lastUpdated": 1788349894442,
-  "heroSetDate": "2026-09-02",
+  "lastUpdated": 1788436944756,
+  "heroSetDate": "2026-09-03",
   "hero": {
-    "headline": "PHYSICISTS MAY HAVE FOUND THE BEST EVIDENCE OF DARK MATTER YET",
-    "url": "https://www.sciencealert.com/breaking-physicists-may-have-found-the-best-evidence-of-dark-matter-yet",
+    "headline": "AUCTIONED 'FOX HEAD' TURNS OUT TO BE A LONG-EXTINCT SPECIES, NOT A FOX",
+    "url": "https://www.sciencealert.com/antique-fox-head-bought-at-auction-wasnt-a-fox-at-all-it-was-a-long-extinct-species",
     "sublinks": [],
-    "postedAt": 1788349894442,
+    "postedAt": 1788436944756,
     "img": true
   },
   "groups": [
     {
       "title": "DOLLY PARTON TRIBUTES CONTINUE",
       "stories": [
-        {
-          "headline": "How Dolly Parton Built A Tourism Empire In Rural Tennessee",
-          "url": "https://www.foxbusiness.com/media/how-dolly-parton-transformed-small-tennessee-town-tourism-empire",
-          "timestamp": 1788087600000,
-          "postedAt": 1788097747480
-        },
-        {
-          "headline": "Bill Maher Draws Backlash Over Dolly Parton Death Comment",
-          "url": "https://www.independent.co.uk/arts-entertainment/music/news/dolly-parton-death-bill-maher-real-time-b3041696.html",
-          "timestamp": 1788074160000,
-          "postedAt": 1788097747480
-        },
-        {
-          "headline": "Dolly Parton's Former Solvang Retreat Hits The Market",
-          "url": "https://www.housebeautiful.com/lifestyle/entertainment/a73521107/dolly-parton-solvang-home-for-sale/",
-          "timestamp": 1788056820000,
-          "postedAt": 1788097747480
-        },
-        {
-          "headline": "Why Dolly Parton Was Never Eligible For A Grammy Song Of The Year",
-          "url": "https://www.billboard.com/lists/dolly-parton-not-eligible-grammy-i-will-always-love-you/",
-          "timestamp": 1787881657000,
-          "postedAt": 1788097747480
-        },
         {
           "headline": "Jane Fonda Remembers Dolly Parton On Day Of Her Funeral",
           "url": "https://ew.com/jane-fonda-chokes-up-remembering-dolly-parton-on-day-of-her-funeral-12074807",
@@ -73,28 +49,55 @@
           "postedAt": 1788189787827
         }
       ]
-    },
-    {
-      "title": "DAISY CHAIN FIELDS FESTIVAL DONATION SURGE",
-      "stories": [
-        {
-          "headline": "Inside Daisy Chain Fields Festival's Best Moments",
-          "url": "https://www.billboard.com/lists/olivia-rodrigo-daisy-chain-fields-music-festival-recap/",
-          "timestamp": 1788088634000,
-          "postedAt": 1788097747480
-        },
-        {
-          "headline": "Melinda French Gates Doubles Donation To Olivia Rodrigo's Festival, Total Hits $20 Million",
-          "url": "https://www.hollywoodreporter.com/music/music-news/olivia-rodrigo-daisy-chain-fields-20m-melinda-gates-1236685002/",
-          "timestamp": 1788063218000,
-          "feature": true,
-          "postedAt": 1788097747480
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "PHYSICISTS MAY HAVE FOUND THE BEST EVIDENCE OF DARK MATTER YET",
+        "url": "https://www.sciencealert.com/breaking-physicists-may-have-found-the-best-evidence-of-dark-matter-yet",
+        "timestamp": 1788349894442,
+        "postedAt": 1788349894442
+      },
+      {
+        "headline": "UK: How The Domesday Book Shaped Modern England",
+        "url": "https://unherd.com/2026/09/how-domesday-made-modern-england/",
+        "timestamp": 1788430883000,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "Parasites Found In 96% Of Fish From A Recent Tuna Haul",
+        "url": "https://www.sciencealert.com/scientists-find-parasites-in-almost-every-fish-from-a-recent-tuna-haul-96-were-infected",
+        "timestamp": 1788429782000,
+        "photo": true,
+        "postedAt": 1788436944756,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Kennedy Center Removes 'Blue' Sculpture From Its Grounds",
+        "url": "https://apnews.com/article/kennedy-center-blue-sculpture-removed-trump-shapiro-c28c6b03fa412e2a70a324ba0476d031",
+        "timestamp": 1788407460000,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "HBO's 'Harry Potter' Remake Trailer Reveals Sorting Hat And Quidditch Scenes",
+        "url": "https://variety.com/2026/tv/news/harry-potter-trailer-hbo-quidditch-1236699211/",
+        "timestamp": 1788361980000,
+        "photo": true,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "Researchers Find Dozens Of Genes Linked To OCD And Tic Disorders",
+        "url": "https://www.news-medical.net/news/20260902/Researchers-discover-dozens-of-genes-tied-to-OCD-and-tic-disorders.aspx",
+        "timestamp": 1788351780000,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "Scientists Discover Why Snake Embryos Twist Into Spirals",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260901070516.htm",
+        "timestamp": 1788266415000,
+        "postedAt": 1788436944756
+      },
       {
         "headline": "Whether You're An Introvert Or Extravert May Decide How You Should Use AI",
         "url": "https://theconversation.com/whether-youre-an-introvert-or-extravert-may-decide-how-you-should-use-ai-290210",
@@ -158,8 +161,7 @@
         "url": "https://www.space.com/astronomy/mars/scientists-discover-massive-thermal-anomaly-beneath-the-surface-of-mars",
         "timestamp": 1788177600000,
         "photo": true,
-        "postedAt": 1788266087690,
-        "image": "/img/life-culture-4.jpg"
+        "postedAt": 1788266087690
       },
       {
         "headline": "Scientists Discover Diamonds Can Generate Electricity",
@@ -193,7 +195,7 @@
       },
       {
         "headline": "Ramones Fans Celebrate Band's 50th Anniversary At Cemetery",
-        "url": "https://www.dailynews.com/2026/08/31/50th-anniversary-of-the-ramones-debut-honored-with-hollywood-forever-bash/",
+        "url": "https://www.ad-hoc-news.de/unterhaltung/musik/ramones-50th-anniversary-tribute-lights-up-los-angeles/70047171",
         "timestamp": 1788183194000,
         "postedAt": 1788189787827
       },
@@ -215,28 +217,35 @@
         "url": "https://www.counterfire.org/article/walter-benjamin-on-the-concept-of-history-revisited/",
         "timestamp": 1787997100000,
         "postedAt": 1788189787827
-      },
-      {
-        "headline": "Inside Meta's Push To Put Robots To Work In Data Centers",
-        "url": "https://arstechnica.com/civis/threads/inside-meta%E2%80%99s-push-to-put-robots-to-work-in-data-centers.1514574/",
-        "timestamp": 1788090577000,
-        "postedAt": 1788097747480
-      },
-      {
-        "headline": "The Night The Beatles Made Their Final Live Stand",
-        "url": "https://www.rollingstone.com/music/music-features/beatles-candlestick-park-final-show-1235617750/",
-        "timestamp": 1788008823000,
-        "photo": true,
-        "postedAt": 1788097747480
-      },
-      {
-        "headline": "Inflation Comes For Burning Man, Iconic Camps Bow Out",
-        "url": "https://www.sfgate.com/travel/burningman/article/burning-man-camp-economics-22403744.php",
-        "timestamp": 1788001611000,
-        "postedAt": 1788097747480
       }
     ],
     "center": [
+      {
+        "headline": "Europe's Antique Carousels Captured Eternally Whirling",
+        "url": "https://links.thisiscolossal.com/post/826728472212881408/europes-carousels-eternally-whirl-in-luca",
+        "timestamp": 1788429710000,
+        "photo": true,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "Jazz Singer Cassandra Wilson Dies At 70",
+        "url": "https://apnews.com/article/cassandra-wilson-dead-7bbf74ead70df41b8341be9e4969c3ce",
+        "timestamp": 1788423720000,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "George Lucas Says Opening His Long-Delayed Museum 'Almost Broke My Will'",
+        "url": "https://variety.com/gallery/george-lucas-museum-star-wars-los-angeles/",
+        "timestamp": 1788397680000,
+        "feature": true,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "Olivia Rodrigo's Fan-Led Daisy Chain Fields Festival Puts Power In Fans' Hands",
+        "url": "https://www.npr.org/2026/09/02/nx-s1-5953948/olivia-rodrigo-daisy-chain-fields-festival-review",
+        "timestamp": 1788377773000,
+        "postedAt": 1788436944756
+      },
       {
         "headline": "DUANE 'KEFFE D' DAVIS FOUND GUILTY OF MURDERING TUPAC SHAKUR",
         "url": "https://www.aljazeera.com/news/2026/9/1/ex-gang-leader-keffe-d-found-guilty-of-killing-rap-legend-tupac-shakur",
@@ -275,7 +284,7 @@
         "timestamp": 1788296969000,
         "photo": true,
         "postedAt": 1788298559941,
-        "image": "/img/life-culture-1.jpg"
+        "image": "/img/life-culture-2.jpg"
       },
       {
         "headline": "In Uzbekistan, A Prized Religious Artifact Anchors A New Museum",
@@ -323,12 +332,6 @@
         "postedAt": 1788266087690
       },
       {
-        "headline": "NASA'S ROMAN SPACE TELESCOPE LAUNCHES ON MISSION TO MAP THE COSMOS",
-        "url": "https://phys.org/news/2026-08-nasa-roman-telescope-cosmic-mission.html",
-        "timestamp": 1788097747480,
-        "postedAt": 1788097747480
-      },
-      {
         "headline": "Thylacine Skull Reveals Very Different Hunting Style Than Wolves Or Tigers",
         "url": "https://phys.org/visualstories/2026-08-tiger-wolf-australian-thylacine-skull.amp",
         "timestamp": 1788188817000,
@@ -360,19 +363,69 @@
         "postedAt": 1788189787827
       },
       {
-        "headline": "16 Acme Products That Help Make Wile E. Coyote's Case",
-        "url": "https://www.cartoonbrew.com/cartoon-study/coyote-vs-acme-wile-e-clips-266098.html",
-        "timestamp": 1788079345000,
-        "postedAt": 1788097747480
-      },
-      {
         "headline": "Ella Langley Delivers Emotional 'Jolene' Tribute In Alabama",
         "url": "https://www.foxnews.com/outkick-culture/ella-langley-honors-dolly-parton-emotional-jolene-cover-alabama-concert",
         "timestamp": 1788182008000,
         "postedAt": 1788189787827
+      },
+      {
+        "headline": "Gloria Steinem, 'Personification Of The Women's Movement,' Dies At 92",
+        "url": "https://www.nytimes.com/2026/09/03/us/politics/gloria-steinem-dead.html?unlocked_article_code=1.-VA.WVly.LHkqhjcCUPm8&smid=url-share",
+        "timestamp": 1788430037000,
+        "postedAt": 1788436944756
       }
     ],
     "right": [
+      {
+        "headline": "Skip The Layer Cake: 9x13 Desserts That Are Just As Impressive",
+        "url": "https://www.seriouseats.com/editor-favorite-9x13-desserts-12076072",
+        "timestamp": 1788433200000,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "FDA Approves New Covid Vaccines For Fall Rollout",
+        "url": "https://www.sacbee.com/news/local/health-and-medicine/article317088563.html",
+        "timestamp": 1788431127000,
+        "feature": true,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "New 'Devil Flower' Species Discovered In Thai National Park",
+        "url": "https://phys.org/visualstories/2026-09-devil-species-thai-national.amp",
+        "timestamp": 1788428830000,
+        "photo": true,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "Shattered Lands: Five Partitions And The Making Of Modern Asia",
+        "url": "https://lithub.com/tag/shattered-lands-five-partitions-and-the-making-of-modern-asia/",
+        "timestamp": 1788427880000,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "Dolly Parton's Niece Reveals Why Singer Kept Cancer Diagnosis Secret",
+        "url": "https://www.al.com/life/2026/09/dolly-partons-niece-reveals-why-country-music-legend-kept-cancer-secret.html",
+        "timestamp": 1788386220000,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "'Artificial Intelligence' Has Been Misnamed, Scientists Argue",
+        "url": "https://www.realclearscience.com/articles/2026/09/03/artificial_intelligence_has_been_misnamed_1204062.html",
+        "timestamp": 1788377640000,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "Scientists Find An Unexpected Mental Health Benefit Of Ozempic",
+        "url": "https://scitechdaily.com/scientists-discover-an-unexpected-mental-health-benefit-of-ozempic/",
+        "timestamp": 1788357267000,
+        "postedAt": 1788436944756
+      },
+      {
+        "headline": "Met Cancels John Galliano Fashion Exhibit After Controversy",
+        "url": "https://abc7ny.com/story/metropolitan-museum-art-cancels-john-galliano-exhibit-controversy/19769743/",
+        "timestamp": 1788196079000,
+        "postedAt": 1788436944756
+      },
       {
         "headline": "Scientists Discover Two Superconducting States Hiding As One",
         "url": "https://www.sciencealert.com/scientists-discover-two-superconducting-states-hiding-as-one",
@@ -386,14 +439,6 @@
         "postedAt": 1788349894442
       },
       {
-        "headline": "The Apple Watch Became An Unlikely Fashion Icon By Simply Not Being Ugly",
-        "url": "https://www.popsci.com/gear/looking-back-apple-watch-fashion-accessory/",
-        "timestamp": 1788269497000,
-        "photo": true,
-        "postedAt": 1788349894442,
-        "image": "/img/life-culture-2.jpg"
-      },
-      {
         "headline": "Hoka's New Multi-Day Hiking Boot Draws On Its Most Iconic Trail Runner",
         "url": "https://www.gearpatrol.com/footwear/hoka-speedgoat-7-hike-gtx/",
         "timestamp": 1788297174000,
@@ -405,7 +450,7 @@
         "timestamp": 1788296985000,
         "photo": true,
         "postedAt": 1788298559941,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-1.jpg"
       },
       {
         "headline": "Ford Builds An Unconventional Off-Roader On Its Signature Pony Car",
@@ -430,7 +475,8 @@
         "url": "https://www.atlasobscura.com/places/silver-creek-preserve",
         "timestamp": 1788263049000,
         "photo": true,
-        "postedAt": 1788266087690
+        "postedAt": 1788266087690,
+        "image": "/img/life-culture-4.jpg"
       },
       {
         "headline": "NASA's Mars Program May Rely On Helicopters, Not New Rovers",
@@ -487,25 +533,6 @@
         "url": "https://www.tmz.com/2026/08/31/aaliyah-uncle-and-cousin-court-battle-over-music-rights/",
         "timestamp": 1788163236000,
         "postedAt": 1788189787827
-      },
-      {
-        "headline": "What 40 Years Of Running The Same Trails Taught One Runner",
-        "url": "https://www.insidehook.com/running/ive-learned-running-same-trails-40-years",
-        "timestamp": 1788090300000,
-        "postedAt": 1788097747480
-      },
-      {
-        "headline": "Grand Theft Auto VI Delay Sparks Gamer Revolt",
-        "url": "https://www.spiked-online.com/2026/08/30/grand-theft-auto-vi-why-gamers-are-in-revolt/",
-        "timestamp": 1788083738000,
-        "postedAt": 1788097747480
-      },
-      {
-        "headline": "Indiana Sheriff Fields Report Of Lion, Cub Loose",
-        "url": "https://www.newser.com/story/395496/indiana-sheriff-fields-report-of-lion-cub.html",
-        "timestamp": 1787943480000,
-        "photo": true,
-        "postedAt": 1788097747480
       }
     ]
   }

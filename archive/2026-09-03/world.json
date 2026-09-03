@@ -1,47 +1,90 @@
 {
-  "lastUpdated": 1788348486006,
-  "heroSetDate": "2026-09-02",
+  "lastUpdated": 1788434819900,
+  "heroSetDate": "2026-09-03",
   "hero": {
-    "headline": "TRUMP VOWS MORE STRIKES AFTER IRAN MINES TANKERS IN HORMUZ RETALIATION",
-    "url": "https://www.npr.org/2026/09/02/g-s1-141500/us-iran-war",
+    "headline": "TRUMP WEIGHS ENDING IRAN WAR AS TEHRAN DEFIES WARNING, HITS GULF BASES",
+    "url": "https://aa.com.tr/en/americas/trump-weighs-ending-iran-war-as-pentagon-extends-deployments-report/4045881",
     "sublinks": [
       {
-        "text": "Iran Hits Two Tankers With Hormuz Naval Mines, Strikes Regional Targets",
+        "text": "Iran Says Tankers Struck Hormuz Mines; U.S. Disputes The Account",
         "url": "https://www.cnbc.com/2026/09/02/us-iran-war-trump-hormuz-irgc-jordan-bahrain.html"
       },
       {
-        "text": "Saudi Shipping Firm Says Two Sailors Killed In Hormuz Incident",
-        "url": "https://www.reuters.com/world/middle-east/saudi-shipping-company-bahri-says-two-sailors-killed-incident-hormuz-2026-09-02/"
+        "text": "UN And Aid Groups Warn Of Rising Civilian Toll From The Strikes",
+        "url": "https://www.reuters.com/world/middle-east/iran-war-escalation-raises-concern-over-civilian-death-toll-2026-09-03/"
       },
       {
-        "text": "Iran's President Offers To Reciprocate If US Returns To June Peace Deal",
-        "url": "https://www.forbes.com/sites/siladityaray/2026/09/01/iran-president-offers-to-reciprocate-if-us-returns-to-june-interim-peace-deal/"
+        "text": "Israel's Katz Threatens To Hit Iranian Energy Infrastructure If Attacked",
+        "url": "https://www.timesofisrael.com/liveblog_entry/katz-if-iran-attacks-israel-will-be-free-from-all-constraints-and-strike-energy-infrastructure/"
       },
       {
-        "text": "IAEA Reports Progress On Syria Nuclear Probe, None On Iran",
-        "url": "https://www.reuters.com/world/middle-east/iaea-reports-progress-syria-investigation-none-iran-2026-09-01/"
+        "text": "Treasury's Bessent Faces G20 Pushback Over War And U.S. Debt",
+        "url": "https://www.politico.com/news/2026/08/31/bessent-g20-us-debt-iran-war-01056820"
+      },
+      {
+        "text": "Kuwait's Iranian Residents Feel The Squeeze As War Grinds On",
+        "url": "https://www.rfi.fr/en/international-news/20260903-kuwait-s-iranians-under-pressure-since-start-of-war"
       }
     ],
-    "postedAt": 1788348486006,
+    "liveUpdates": [
+      {
+        "source": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-dismisses-diplomacy-tehran-says-wedding-hit-in-strike/"
+      }
+    ],
+    "postedAt": 1788434819900,
     "img": true
   },
   "groups": [
     {
-      "title": "NEPAL-CHINA GLACIER FLOOD DISASTER",
+      "title": "GERMANY UNDER RUSSIAN HYBRID ATTACK",
       "stories": [
         {
-          "headline": "Rescuers Race To Find Thousands Missing After Glacier Collapse",
-          "url": "https://www.reuters.com/world/china/china-identifies-countries-261-foreigners-missing-himalayan-mudslide-2026-08-30/",
-          "timestamp": 1788093837000,
-          "feature": true,
-          "postedAt": 1788096168821
+          "headline": "UK Summons Russian Chargé D'affaires Over Leipzig Airport Attack",
+          "url": "https://www.straitstimes.com/world/europe/britain-summons-russian-charge-daffaires-over-leipzig-airport-attack",
+          "timestamp": 1788433560000,
+          "postedAt": 1788434819900
         },
         {
-          "headline": "Photos Show Scale Of Devastation Across Flood Zone",
-          "url": "https://indianexpress.com/article/world/nepal-floods-before-and-after-satellite-images-reveal-scale-of-destruction-10854549/",
-          "timestamp": 1788091965000,
-          "postedAt": 1788096168821
+          "headline": "Germany Says Arson Attack Targeted Defense Firm",
+          "url": "https://www.dw.com/en/germany-news-police-say-arson-attack-targeted-defense-firm/live-78818089",
+          "timestamp": 1788433425000,
+          "postedAt": 1788434819900
         },
+        {
+          "headline": "EU And NATO Vow To Step Up Pressure On Russia After Germany Escalation",
+          "url": "https://www.bbc.com/news/articles/ce9e810pg7ko",
+          "timestamp": 1788405684000,
+          "postedAt": 1788434819900
+        }
+      ]
+    },
+    {
+      "title": "CEUTA CRISIS ROCKS SPAIN",
+      "stories": [
+        {
+          "headline": "Sánchez Dismisses Police Claim Morocco Instigated Ceuta Crisis",
+          "url": "https://www.politico.eu/article/pedro-sanchez-dismisses-police-claim-that-morocco-instigated-ceuta-crisis/",
+          "timestamp": 1788429829000,
+          "postedAt": 1788434819900
+        },
+        {
+          "headline": "Massive Nationwide Protests Shake Spain Over Ceuta Migrant Crisis",
+          "url": "https://www.breitbart.com/europe/2026/09/03/watch-massive-nationwide-protests-in-spain-against-migrant-invasion-of-ceuta/",
+          "timestamp": 1788428075000,
+          "postedAt": 1788434819900
+        },
+        {
+          "headline": "Spanish Government In Turmoil As Ceuta Crisis Deepens",
+          "url": "https://www.euronews.com/my-europe/2026/09/03/spanish-government-in-turmoil-as-ceuta-crisis-deepens",
+          "timestamp": 1788416981000,
+          "postedAt": 1788434819900
+        }
+      ]
+    },
+    {
+      "title": "NEPAL-CHINA GLACIER FLOOD DISASTER",
+      "stories": [
         {
           "headline": "Photos: Deadly Flood Tears Through Nepal And Tibet",
           "url": "https://www.news24.com/world/nepal-toll-surges-as-rescuers-struggle-through-unimaginable-disaster-20260831-0776",
@@ -96,33 +139,42 @@
           "postedAt": 1788187980175
         }
       ]
-    },
-    {
-      "title": "ICELAND VOTERS REJECT REOPENING EU ACCESSION TALKS",
-      "stories": [
-        {
-          "headline": "Analysis: The Real Reason Iceland Said No To Brussels",
-          "url": "https://www.politico.eu/article/iceland-referendum-question-marks-no-camp-successful/",
-          "timestamp": 1788091123000,
-          "postedAt": 1788096168821
-        },
-        {
-          "headline": "Four Takeaways From Iceland's EU Referendum",
-          "url": "https://www.euronews.com/my-europe/2026/08/30/iceland-says-no-four-takeaways-from-the-eu-accession-referendum",
-          "timestamp": 1788087928000,
-          "postedAt": 1788096168821
-        },
-        {
-          "headline": "Icelandic Voters Reject Reopening EU Membership Talks",
-          "url": "https://apnews.com/article/iceland-european-union-election-referendum-accession-fish-d29f8d4e140894fe22db17005e9c2a2e",
-          "timestamp": 1788085140000,
-          "postedAt": 1788096168821
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Putin Cites Chance Of Peace Deal But Says Airspace Warning Complicates It",
+        "url": "https://www.reuters.com/world/europe/putin-cites-chance-peace-deal-says-ukrainian-aviation-warning-makes-it-harder-2026-09-03/",
+        "timestamp": 1788429224000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Feminist Icon Gloria Steinem Dies At 92",
+        "url": "https://www.reuters.com/world/feminist-activist-gloria-steinem-dies-age-92-2026-09-03/",
+        "timestamp": 1788432583000,
+        "photo": true,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Experts Call Initial US Aid To Nepal Flood Victims 'Pitiful'",
+        "url": "https://www.theguardian.com/us-news/2026/sep/02/nepal-flood-aid",
+        "timestamp": 1788399000000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Xi Visits Egypt Seeking Deeper Chinese Influence In Middle East",
+        "url": "https://apnews.com/article/egypt-china-middle-east-iran-war-us-946c3b90b6251c08fdcb219e24a088a2",
+        "timestamp": 1788398940000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Macron And King Charles III Hail Ties Viewing Bayeux Tapestry",
+        "url": "https://apnews.com/article/macron-london-king-burnham-bayeux-tapestry-8ca368eaa2d328271d44ca76ce9cf984",
+        "timestamp": 1788377820000,
+        "photo": true,
+        "postedAt": 1788434819900
+      },
       {
         "headline": "Israel Bars US Citizens Over Criticism, Ties To Palestinian Activists",
         "url": "https://www.npr.org/2026/09/02/nx-s1-5950449/israel-bars-americans-over-palestinian-ties",
@@ -161,12 +213,6 @@
         "photo": true,
         "postedAt": 1788348486006,
         "image": "/img/world-0.jpg"
-      },
-      {
-        "headline": "Germany Blames Russia For Drone Attack At Leipzig Airport",
-        "url": "https://www.theguardian.com/world/2026/sep/01/germany-blames-russia-drone-attack-leipzig-airport",
-        "timestamp": 1788295800000,
-        "postedAt": 1788296841483
       },
       {
         "headline": "Ryanair's Boeing 737 Stairs Tied To Hundreds Of Passenger Falls, Study Finds",
@@ -221,12 +267,6 @@
         "postedAt": 1788264271508
       },
       {
-        "headline": "BOAT CARRYING ABOUT 270 PEOPLE CAPSIZES OFF NORTH CYPRUS; ONE DEAD",
-        "url": "https://www.reuters.com/world/europe/boat-with-around-270-people-capsizes-off-north-cyprus-media-says-2026-08-30/",
-        "timestamp": 1788096168821,
-        "postedAt": 1788096168821
-      },
-      {
         "headline": "Germany's Far Right Eyes Small Eastern State As Springboard To National Power",
         "url": "https://www.politico.eu/article/germany-far-right-eyes-small-eastern-state-merseburg-springboard-national-power/",
         "timestamp": 1788187292000,
@@ -257,40 +297,41 @@
         "url": "https://www.realcleardefense.com/articles/2026/08/31/the_us_national_security_implications_of_an_independent_greenland_1203174.html",
         "timestamp": 1788172908000,
         "postedAt": 1788187980175
-      },
-      {
-        "headline": "Madrid Unveils €165 Million Emergency Package For Ceuta",
-        "url": "https://www.euronews.com/my-europe/2026/08/30/spain-announces-165m-emergency-package-for-ceuta-as-migrant-returns-continue",
-        "timestamp": 1788093944000,
-        "postedAt": 1788096168821
-      },
-      {
-        "headline": "NPR Names Inaugural Winner Of 'Fat Marmot Week'",
-        "url": "https://www.npr.org/player/embed/nx-s1-5945683/nx-s1-9906700",
-        "timestamp": 1788094990000,
-        "photo": true,
-        "postedAt": 1788096168821
-      },
-      {
-        "headline": "Niger Capital Returns To Normal After Soldiers' Mutiny",
-        "url": "https://www.rfi.fr/en/international-news/20260830-niamey-back-to-normal-after-soldier-mutiny",
-        "timestamp": 1788092770000,
-        "postedAt": 1788096168821
-      },
-      {
-        "headline": "Canada Ends Hong Kong Migration Pathway, Leaving Some 'Stuck'",
-        "url": "https://www.scmp.com/news/hong-kong/society/article/3365748/stuck-canada-ends-hong-kong-migration-pathway-some-turn-us-and-uk?module",
-        "timestamp": 1788091988000,
-        "postedAt": 1788096168821
-      },
-      {
-        "headline": "CIA Chief Said To Have Proposed Trump-Putin-Zelensky Summit",
-        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-cia-chief-kyiv-strikes-b3041688.html",
-        "timestamp": 1788078205000,
-        "postedAt": 1788096168821
       }
     ],
     "center": [
+      {
+        "headline": "Apple Faces $2.7 Billion UK Lawsuit Over App Tracking Rules",
+        "url": "https://www.reuters.com/business/retail-consumer/apple-facing-27-billion-uk-lawsuit-over-unfair-app-tracking-rules-2026-09-03/",
+        "timestamp": 1788432680000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Estonian Defence Minister Quits Over €70M Arms Scandal",
+        "url": "https://www.euronews.com/my-europe/2026/09/03/estonian-defence-minister-resigns-in-70m-eu-funded-procurement-scandal-for-ukraine",
+        "timestamp": 1788431657000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Crisis-Hit Cuba's Schools Face Shortage Of Uniforms And Teachers",
+        "url": "https://english.elpais.com/international/2026-09-03/back-to-school-in-crisis-hit-cuba-families-contend-with-shortage-of-uniforms-teachers-and-basic-equipment.html",
+        "timestamp": 1788431354000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "The Astonishing Hidden Life Of Mr T",
+        "url": "https://www.theguardian.com/lifeandstyle/2026/sep/03/i-dont-chase-the-dollar-i-never-did-the-astonishing-hidden-life-of-mr-t",
+        "timestamp": 1788430620000,
+        "photo": true,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Jury In Malta Acquits Businessman In Journalist's Killing",
+        "url": "https://apnews.com/article/malta-journalist-killed-caruana-galizia-yorgen-fenech-e2cd05e8e19e9a5239a7f9d2aaa66893",
+        "timestamp": 1788389100000,
+        "feature": true,
+        "postedAt": 1788434819900
+      },
       {
         "headline": "EU's Kallas Calls Leipzig Attack 'State-Sponsored Terrorism'",
         "url": "https://www.breitbart.com/europe/2026/09/02/eus-top-diplomat-accuses-russia-of-state-sponsored-terrorism/amp/",
@@ -367,12 +408,6 @@
         "postedAt": 1788264271508
       },
       {
-        "headline": "Spanish PM Says Israel And Russia Spread Disinformation On Ceuta Crisis",
-        "url": "https://www.france24.com/en/europe/20260831-spanish-pm-sanchez-says-israel-and-russia-spread-disinformation-on-ceuta-migrant-crisis",
-        "timestamp": 1788164420000,
-        "postedAt": 1788187980175
-      },
-      {
         "headline": "Experts Puzzled Over US-Venezuela Oil Deal, Call For Transparency",
         "url": "https://www.reuters.com/legal/litigation/experts-lawyers-puzzled-over-us-venezuela-oil-deal-call-contract-transparency-2026-08-31/",
         "timestamp": 1788182469000,
@@ -407,48 +442,39 @@
         "url": "https://www.politico.eu/article/czech-mep-jana-nagyova-andrej-babis-ally-guilty-eu-subsidy-fraud-appellate-court-rules/",
         "timestamp": 1788181629000,
         "postedAt": 1788187980175
-      },
-      {
-        "headline": "EU Envoy Visits Site, Calls Besieged Resident By Phone",
-        "url": "https://www.timesofisrael.com/liveblog_entry/eu-envoy-visits-qusra-holds-phone-call-with-resident-of-besieged-home-after-settler-attack/",
-        "timestamp": 1788093022000,
-        "postedAt": 1788096168821
-      },
-      {
-        "headline": "Uzbekistan Confirmed As Second Buyer Of China's J-10CE Fighter",
-        "url": "https://www.scmp.com/news/china/military/article/3365756/uzbekistan-confirmed-second-country-buy-chinas-j-10ce-fighter",
-        "timestamp": 1788092668000,
-        "photo": true,
-        "postedAt": 1788096168821
-      },
-      {
-        "headline": "Venezuela's Interim President Says US Energy Deal Will Last 25 Years",
-        "url": "https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/",
-        "timestamp": 1788090453000,
-        "postedAt": 1788096168821
-      },
-      {
-        "headline": "Gunman Kills One, Wounds Five At Swiss Rave",
-        "url": "https://www.cbsnews.com/news/switzerland-aarau-rave-shooting/",
-        "timestamp": 1788088877000,
-        "photo": true,
-        "postedAt": 1788096168821,
-        "image": "/img/world-3.jpg"
-      },
-      {
-        "headline": "Israeli Strike Kills Two In Gaza, Including 3-Year-Old Boy",
-        "url": "https://www.reuters.com/world/middle-east/israeli-strike-kills-two-people-including-3-year-old-boy-gaza-medics-say-2026-08-30/",
-        "timestamp": 1788088371000,
-        "postedAt": 1788096168821
-      },
-      {
-        "headline": "Cuba Begins Economic Reforms As US Tightens Grip",
-        "url": "https://www.usatoday.com/story/news/world/2026/08/30/cuba-economic-reforms-law-exclusive/91529744007/",
-        "timestamp": 1788080820000,
-        "postedAt": 1788096168821
       }
     ],
     "right": [
+      {
+        "headline": "TRUMP VOWS MORE STRIKES AFTER IRAN MINES TANKERS IN HORMUZ RETALIATION",
+        "url": "https://www.npr.org/2026/09/02/g-s1-141500/us-iran-war",
+        "timestamp": 1788348486006,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Buster Keaton's Epic Train Chase Turns 100",
+        "url": "https://www.npr.org/2026/09/03/nx-s1-5921324/the-general-buster-keaton-anniversary",
+        "timestamp": 1788433200000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Poland Calls For Stricter EU Visa Controls On Russians",
+        "url": "https://www.politico.eu/article/poland-radoslaw-sikorski-calls-for-stricter-russia-visa-restrictions-eu/",
+        "timestamp": 1788431927000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "The US And Venezuela: A Century-Old Relationship Drenched In Oil",
+        "url": "https://www.theguardian.com/world/2026/sep/03/us-venezuela-visual-look-century-old-relationship-drenched-in-oil",
+        "timestamp": 1788430260000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Italy's Meloni Sets Government Longevity Record",
+        "url": "https://apnews.com/article/italy-meloni-government-longevity-record-election-84dc931418ddcbd9b00ed497233fe922",
+        "timestamp": 1788429720000,
+        "postedAt": 1788434819900
+      },
       {
         "headline": "Badenoch And Burnham Draw New Battle Lines As Leaders Face Off",
         "url": "https://www.theguardian.com/politics/2026/sep/02/conservative-reshuffle-is-a-response-to-shifting-political-tides",
@@ -522,37 +548,6 @@
         "url": "https://www.dw.com/en/israel-signs-3-billion-arms-export-deal-with-greece/a-78572062",
         "timestamp": 1788170745000,
         "postedAt": 1788187980175
-      },
-      {
-        "headline": "Investors Prosper, Consumers Pay As War's Toll Turns Uneven",
-        "url": "https://apnews.com/article/iran-economy-stocks-trump-airlines-energy-oil-dd9861bbb882b04e1680f6b2847b3495",
-        "timestamp": 1788073500000,
-        "postedAt": 1788096168821
-      },
-      {
-        "headline": "Settlers Detain British Activist Over Alleged 'Indecent Act'",
-        "url": "https://www.timesofisrael.com/settlers-detain-british-activist-for-alleged-indecent-act-hand-him-over-to-police/",
-        "timestamp": 1788092182000,
-        "postedAt": 1788096168821
-      },
-      {
-        "headline": "Ben Gvir Posts Video Mocking Palestinian Inmates' Complaints",
-        "url": "https://www.timesofisrael.com/ben-gvir-posts-video-mocking-palestinian-female-inmates-complaints-about-conditions/",
-        "timestamp": 1788090367000,
-        "postedAt": 1788096168821
-      },
-      {
-        "headline": "Scientists Find New Clue In Narwhal Tusk X-Rays",
-        "url": "https://www.discoverwildlife.com/animal-facts/marine-animals/narwhal-tusk-shape",
-        "timestamp": 1788089010000,
-        "photo": true,
-        "postedAt": 1788096168821
-      },
-      {
-        "headline": "Far-Right AfD Poised To Win German State Election",
-        "url": "https://www.bbc.co.uk/news/articles/cddv43d4jn2o",
-        "timestamp": 1788080416000,
-        "postedAt": 1788096168821
       },
       {
         "headline": "Russia's Jet-Powered Drones Empty Kyiv Supermarket Shelves, Rattle Ukrainians",
