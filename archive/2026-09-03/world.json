@@ -1,0 +1,571 @@
+{
+  "lastUpdated": 1788348486006,
+  "heroSetDate": "2026-09-02",
+  "hero": {
+    "headline": "TRUMP VOWS MORE STRIKES AFTER IRAN MINES TANKERS IN HORMUZ RETALIATION",
+    "url": "https://www.npr.org/2026/09/02/g-s1-141500/us-iran-war",
+    "sublinks": [
+      {
+        "text": "Iran Hits Two Tankers With Hormuz Naval Mines, Strikes Regional Targets",
+        "url": "https://www.cnbc.com/2026/09/02/us-iran-war-trump-hormuz-irgc-jordan-bahrain.html"
+      },
+      {
+        "text": "Saudi Shipping Firm Says Two Sailors Killed In Hormuz Incident",
+        "url": "https://www.reuters.com/world/middle-east/saudi-shipping-company-bahri-says-two-sailors-killed-incident-hormuz-2026-09-02/"
+      },
+      {
+        "text": "Iran's President Offers To Reciprocate If US Returns To June Peace Deal",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/09/01/iran-president-offers-to-reciprocate-if-us-returns-to-june-interim-peace-deal/"
+      },
+      {
+        "text": "IAEA Reports Progress On Syria Nuclear Probe, None On Iran",
+        "url": "https://www.reuters.com/world/middle-east/iaea-reports-progress-syria-investigation-none-iran-2026-09-01/"
+      }
+    ],
+    "postedAt": 1788348486006,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "NEPAL-CHINA GLACIER FLOOD DISASTER",
+      "stories": [
+        {
+          "headline": "Rescuers Race To Find Thousands Missing After Glacier Collapse",
+          "url": "https://www.reuters.com/world/china/china-identifies-countries-261-foreigners-missing-himalayan-mudslide-2026-08-30/",
+          "timestamp": 1788093837000,
+          "feature": true,
+          "postedAt": 1788096168821
+        },
+        {
+          "headline": "Photos Show Scale Of Devastation Across Flood Zone",
+          "url": "https://indianexpress.com/article/world/nepal-floods-before-and-after-satellite-images-reveal-scale-of-destruction-10854549/",
+          "timestamp": 1788091965000,
+          "postedAt": 1788096168821
+        },
+        {
+          "headline": "Photos: Deadly Flood Tears Through Nepal And Tibet",
+          "url": "https://www.news24.com/world/nepal-toll-surges-as-rescuers-struggle-through-unimaginable-disaster-20260831-0776",
+          "timestamp": 1788183766000,
+          "postedAt": 1788187980175
+        },
+        {
+          "headline": "Glacier Risk Still Looms Over China-Nepal Border Region",
+          "url": "https://www.scmp.com/news/china/politics/article/3366006/glacier-risk-hangs-over-china-nepal-border-region-remembers-mudslide-victims?module",
+          "timestamp": 1788262565000,
+          "postedAt": 1788264271508
+        },
+        {
+          "headline": "Nepal Flood Survivors Return To Ruins Of Their Homes",
+          "url": "https://www.dw.com/en/nepal-floods-survivors-homes-rescue/video-78654153",
+          "timestamp": 1788290979000,
+          "postedAt": 1788296841483
+        }
+      ]
+    },
+    {
+      "title": "TRUMP'S VENEZUELA OIL TAKEOVER DEAL",
+      "stories": [
+        {
+          "headline": "Trump Vows US Will Take 'All' Of Venezuela's Oil As Deal Details Emerge",
+          "url": "https://www.euronews.com/business/2026/09/01/trump-vows-us-will-take-all-of-venezuelas-oil-as-deal-details-emerge",
+          "timestamp": 1788258356000,
+          "feature": true,
+          "postedAt": 1788264271508
+        },
+        {
+          "headline": "Venezuela Oil Deal Raises Red Flags For Major Producers",
+          "url": "https://www.reuters.com/business/energy/trumps-oil-deal-with-venezuela-raises-red-flags-some-major-producers-sources-say-2026-09-01/",
+          "timestamp": 1788258125000,
+          "postedAt": 1788264271508
+        }
+      ]
+    },
+    {
+      "title": "SCO SUMMIT: XI, PUTIN AND MODI CONVENE",
+      "stories": [
+        {
+          "headline": "Xi Tells Putin Foundations Of Ties Will Be Stronger",
+          "url": "https://www.straitstimes.com/asia/chinas-xi-tells-putin-that-foundations-of-ties-will-be-stronger",
+          "timestamp": 1788186900000,
+          "postedAt": 1788187980175
+        },
+        {
+          "headline": "Modi Meets Iran's President, With Putin Talks To Follow At SCO",
+          "url": "https://www.aljazeera.com/news/2026/8/31/xi-modi-and-putin-set-to-meet-for-sco-summit-whats-on-the-agenda",
+          "timestamp": 1788182233000,
+          "postedAt": 1788187980175
+        }
+      ]
+    },
+    {
+      "title": "ICELAND VOTERS REJECT REOPENING EU ACCESSION TALKS",
+      "stories": [
+        {
+          "headline": "Analysis: The Real Reason Iceland Said No To Brussels",
+          "url": "https://www.politico.eu/article/iceland-referendum-question-marks-no-camp-successful/",
+          "timestamp": 1788091123000,
+          "postedAt": 1788096168821
+        },
+        {
+          "headline": "Four Takeaways From Iceland's EU Referendum",
+          "url": "https://www.euronews.com/my-europe/2026/08/30/iceland-says-no-four-takeaways-from-the-eu-accession-referendum",
+          "timestamp": 1788087928000,
+          "postedAt": 1788096168821
+        },
+        {
+          "headline": "Icelandic Voters Reject Reopening EU Membership Talks",
+          "url": "https://apnews.com/article/iceland-european-union-election-referendum-accession-fish-d29f8d4e140894fe22db17005e9c2a2e",
+          "timestamp": 1788085140000,
+          "postedAt": 1788096168821
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Israel Bars US Citizens Over Criticism, Ties To Palestinian Activists",
+        "url": "https://www.npr.org/2026/09/02/nx-s1-5950449/israel-bars-americans-over-palestinian-ties",
+        "timestamp": 1788339600000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "UN Says World Must Navigate 'Reality' Of 1.5C Overshoot",
+        "url": "https://www.rfi.fr/en/international-news/20260902-un-says-world-must-navigate-reality-of-1-5c-overshoot",
+        "timestamp": 1788346219000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "TikTok Ban Divides European Commission",
+        "url": "https://www.politico.eu/article/tiktok-ban-divides-european-commission/",
+        "timestamp": 1788344119000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Ebola Death Toll Passes 3,000 In DR Congo",
+        "url": "https://www.rfi.fr/en/international-news/20260902-ebola-death-toll-passes-3-000-in-dr-congo-official-data",
+        "timestamp": 1788343693000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Germany Successfully Tests Israeli Ballistic Missile System",
+        "url": "https://www.reuters.com/business/aerospace-defense/germany-successfully-tests-israeli-ballistic-missile-officials-say-2026-09-02/",
+        "timestamp": 1788342101000,
+        "photo": true,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Nepal Father Borrows $13, Walks Days Searching For Missing Son",
+        "url": "https://www.aljazeera.com/features/2026/9/2/nepal-floods-father-borrows-13-walks-for-days-to-search-for-missing-son",
+        "timestamp": 1788333565000,
+        "photo": true,
+        "postedAt": 1788348486006,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Germany Blames Russia For Drone Attack At Leipzig Airport",
+        "url": "https://www.theguardian.com/world/2026/sep/01/germany-blames-russia-drone-attack-leipzig-airport",
+        "timestamp": 1788295800000,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Ryanair's Boeing 737 Stairs Tied To Hundreds Of Passenger Falls, Study Finds",
+        "url": "https://www.euronews.com/business/2026/09/01/ryanair-boeing-737-stairs-85-falls-in-three-years-ansv-study-finds",
+        "timestamp": 1788294497000,
+        "photo": true,
+        "postedAt": 1788296841483,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Keir Starmer To Stand Down As MP To Focus On World Affairs",
+        "url": "https://www.theguardian.com/politics/2026/sep/01/keir-starmer-to-stand-down-as-mp",
+        "timestamp": 1788293040000,
+        "feature": true,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Nestle To Offload Mainstream Vitamin Brands For $1 Billion",
+        "url": "https://www.reuters.com/legal/transactional/nestle-divest-mainstream-supplements-business-1-billion-2026-09-01/",
+        "timestamp": 1788292148000,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Russian Air Attacks Kill 12 In Kyiv Region On Sixth Day Of Strikes",
+        "url": "https://www.reuters.com/world/europe/explosions-heard-ukraines-kyiv-four-people-injured-2026-09-01/",
+        "timestamp": 1788220800000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Le Pen Sparks Backlash With Proposal To Ban Hijab",
+        "url": "https://www.politico.eu/article/marine-le-pen-national-rally-france-backlash-hijab-ban-proposal/",
+        "timestamp": 1788261634000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Freddie Mercury's Best Friend Mary Austin Tells Untold Story",
+        "url": "https://www.theguardian.com/music/2026/sep/01/freddie-mercury-lover-mary-austin-interview",
+        "timestamp": 1788261540000,
+        "photo": true,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "India Busts Firm Faking Expiry Dates On PepsiCo, Nestle Exports",
+        "url": "https://www.reuters.com/world/china/india-busts-firm-faking-expiry-dates-nutrition-labels-pepsico-nestle-food-2026-09-01/",
+        "timestamp": 1788256755000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Canada's Ruling Liberals Sweep Special Elections, Boosting Carney",
+        "url": "https://www.theguardian.com/world/2026/sep/01/canada-liberals-special-elections-mark-carney",
+        "timestamp": 1788251760000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "BOAT CARRYING ABOUT 270 PEOPLE CAPSIZES OFF NORTH CYPRUS; ONE DEAD",
+        "url": "https://www.reuters.com/world/europe/boat-with-around-270-people-capsizes-off-north-cyprus-media-says-2026-08-30/",
+        "timestamp": 1788096168821,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "Germany's Far Right Eyes Small Eastern State As Springboard To National Power",
+        "url": "https://www.politico.eu/article/germany-far-right-eyes-small-eastern-state-merseburg-springboard-national-power/",
+        "timestamp": 1788187292000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "India Smashes Growth Forecasts As Investment Surges",
+        "url": "https://www.reuters.com/business/indias-gdp-grows-78-april-june-2026-08-31/",
+        "timestamp": 1788183654000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Ebola Infections Top 6,000 In Congo, Government Figures Show",
+        "url": "https://www.straitstimes.com/world/more-than-6000-people-infected-with-ebola-in-congo-government-figures-show",
+        "timestamp": 1788181800000,
+        "feature": true,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Search Continues For 18 Missing After Cyprus Ferry Capsize",
+        "url": "https://www.bbc.com/news/articles/c1mv5ggg1l8o",
+        "timestamp": 1788176465000,
+        "feature": true,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Greenland's Independence Carries US National Security Stakes",
+        "url": "https://www.realcleardefense.com/articles/2026/08/31/the_us_national_security_implications_of_an_independent_greenland_1203174.html",
+        "timestamp": 1788172908000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Madrid Unveils €165 Million Emergency Package For Ceuta",
+        "url": "https://www.euronews.com/my-europe/2026/08/30/spain-announces-165m-emergency-package-for-ceuta-as-migrant-returns-continue",
+        "timestamp": 1788093944000,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "NPR Names Inaugural Winner Of 'Fat Marmot Week'",
+        "url": "https://www.npr.org/player/embed/nx-s1-5945683/nx-s1-9906700",
+        "timestamp": 1788094990000,
+        "photo": true,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "Niger Capital Returns To Normal After Soldiers' Mutiny",
+        "url": "https://www.rfi.fr/en/international-news/20260830-niamey-back-to-normal-after-soldier-mutiny",
+        "timestamp": 1788092770000,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "Canada Ends Hong Kong Migration Pathway, Leaving Some 'Stuck'",
+        "url": "https://www.scmp.com/news/hong-kong/society/article/3365748/stuck-canada-ends-hong-kong-migration-pathway-some-turn-us-and-uk?module",
+        "timestamp": 1788091988000,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "CIA Chief Said To Have Proposed Trump-Putin-Zelensky Summit",
+        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-cia-chief-kyiv-strikes-b3041688.html",
+        "timestamp": 1788078205000,
+        "postedAt": 1788096168821
+      }
+    ],
+    "center": [
+      {
+        "headline": "EU's Kallas Calls Leipzig Attack 'State-Sponsored Terrorism'",
+        "url": "https://www.breitbart.com/europe/2026/09/02/eus-top-diplomat-accuses-russia-of-state-sponsored-terrorism/amp/",
+        "timestamp": 1788345013000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Erdogan Says Turkey Would Consider Joining China-Russia Security Bloc",
+        "url": "https://www.reuters.com/world/china/erdogan-says-turkey-would-consider-full-membership-china-russia-led-security-2026-09-02/",
+        "timestamp": 1788344985000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Turkish Cargo Ship Sinks Off Istanbul, 10 Missing",
+        "url": "https://www.rfi.fr/en/international-news/20260902-10-missing-as-turkish-cargo-ship-sinks-after-collision-off-istanbul",
+        "timestamp": 1788344173000,
+        "photo": true,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Gary Glitter Pleads Not Guilty To Historical UK Sex Offence Charges",
+        "url": "https://www.straitstimes.com/world/europe/ex-pop-star-gary-glitter-pleads-not-guilty-to-uk-charges-of-historical-sex-offences?ref",
+        "timestamp": 1788341760000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Denmark Sends Conscripts To Greenland As Arctic Tensions Grow",
+        "url": "https://www.reuters.com/world/denmark-sends-conscripts-greenland-arctic-tensions-grow-2026-09-02/",
+        "timestamp": 1788341249000,
+        "photo": true,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Government Borrowing Costs Rise Anew, Pressuring Global Policymakers",
+        "url": "https://www.reuters.com/world/asia-pacific/global-bond-rout-deepens-japan-yield-hits-key-threshold-2026-09-01/",
+        "timestamp": 1788290822000,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Will Bangladesh Join The Mecca Defense Alliance?",
+        "url": "https://www.dw.com/en/will-bangladesh-join-the-mecca-defense-alliance/a-78613944",
+        "timestamp": 1788294163000,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Apple Maps Renames Lake Ontario 'Lake America' After Trump Order",
+        "url": "https://www.axios.com/2026/08/31/trump-lake-america-apple-maps-request",
+        "timestamp": 1788293468000,
+        "photo": true,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Norway's New King To Swear Oath Before Parliament",
+        "url": "https://www.reuters.com/world/europe/norways-new-king-swear-oath-before-parliament-after-haralds-death-2026-09-01/",
+        "timestamp": 1788256317000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Israeli Strikes Kill Four In Gaza As Military Arrests Hamas Militant",
+        "url": "https://www.reuters.com/world/middle-east/israeli-fire-kills-four-people-including-three-children-gaza-medics-say-2026-09-01/",
+        "timestamp": 1788259664000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Eurozone Inflation Jumps To 3.3% As Energy Prices Surge",
+        "url": "https://www.euronews.com/business/2026/09/01/eurozone-inflation-jumps-to-33-in-august-as-energy-prices-surge",
+        "timestamp": 1788255795000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "China-Taiwan Tensions Weigh On Pacific Leaders Meeting",
+        "url": "https://www.reuters.com/world/china/china-warns-consequences-over-taiwans-attendance-pacific-leaders-meeting-2026-09-01/",
+        "timestamp": 1788223980000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Spanish PM Says Israel And Russia Spread Disinformation On Ceuta Crisis",
+        "url": "https://www.france24.com/en/europe/20260831-spanish-pm-sanchez-says-israel-and-russia-spread-disinformation-on-ceuta-migrant-crisis",
+        "timestamp": 1788164420000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Experts Puzzled Over US-Venezuela Oil Deal, Call For Transparency",
+        "url": "https://www.reuters.com/legal/litigation/experts-lawyers-puzzled-over-us-venezuela-oil-deal-call-contract-transparency-2026-08-31/",
+        "timestamp": 1788182469000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Turkey Says It Has Black Sea Grain Plan, In Contact With Russia And Ukraine",
+        "url": "https://www.reuters.com/world/middle-east/turkey-says-it-has-black-sea-grain-plan-is-contact-with-russia-ukraine-2026-08-31/",
+        "timestamp": 1788182384000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "French MEP Glucksmann's Path To Elysee Faces Surprise Hurdle",
+        "url": "https://www.politico.eu/article/french-mep-raphael-glucksmanns-france-election-2027-hurdle/",
+        "timestamp": 1788182376000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Man Arrested After Swiss Rave Shooting Killed 22-Year-Old Woman",
+        "url": "https://www.bbc.com/news/articles/cddv92n194vo",
+        "timestamp": 1788181895000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Netanyahu Warns Winter's Party Could 'Bring Down' His Bloc",
+        "url": "https://www.timesofisrael.com/netanyahu-warns-winters-party-could-bring-down-his-coalition-urges-meeting/",
+        "timestamp": 1788181672000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Czech MEP And Babis Ally Found Guilty Of EU Subsidy Fraud",
+        "url": "https://www.politico.eu/article/czech-mep-jana-nagyova-andrej-babis-ally-guilty-eu-subsidy-fraud-appellate-court-rules/",
+        "timestamp": 1788181629000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "EU Envoy Visits Site, Calls Besieged Resident By Phone",
+        "url": "https://www.timesofisrael.com/liveblog_entry/eu-envoy-visits-qusra-holds-phone-call-with-resident-of-besieged-home-after-settler-attack/",
+        "timestamp": 1788093022000,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "Uzbekistan Confirmed As Second Buyer Of China's J-10CE Fighter",
+        "url": "https://www.scmp.com/news/china/military/article/3365756/uzbekistan-confirmed-second-country-buy-chinas-j-10ce-fighter",
+        "timestamp": 1788092668000,
+        "photo": true,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "Venezuela's Interim President Says US Energy Deal Will Last 25 Years",
+        "url": "https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/",
+        "timestamp": 1788090453000,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "Gunman Kills One, Wounds Five At Swiss Rave",
+        "url": "https://www.cbsnews.com/news/switzerland-aarau-rave-shooting/",
+        "timestamp": 1788088877000,
+        "photo": true,
+        "postedAt": 1788096168821,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "Israeli Strike Kills Two In Gaza, Including 3-Year-Old Boy",
+        "url": "https://www.reuters.com/world/middle-east/israeli-strike-kills-two-people-including-3-year-old-boy-gaza-medics-say-2026-08-30/",
+        "timestamp": 1788088371000,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "Cuba Begins Economic Reforms As US Tightens Grip",
+        "url": "https://www.usatoday.com/story/news/world/2026/08/30/cuba-economic-reforms-law-exclusive/91529744007/",
+        "timestamp": 1788080820000,
+        "postedAt": 1788096168821
+      }
+    ],
+    "right": [
+      {
+        "headline": "Badenoch And Burnham Draw New Battle Lines As Leaders Face Off",
+        "url": "https://www.theguardian.com/politics/2026/sep/02/conservative-reshuffle-is-a-response-to-shifting-political-tides",
+        "timestamp": 1788342420000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Oil Prices Steady As Traders Weigh Hormuz Supply Risks",
+        "url": "https://www.reuters.com/business/energy/oil-up-nearly-1-us-iran-trade-fresh-strikes-2026-09-02/",
+        "timestamp": 1788343212000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "India Urged To Review Green Finance Rules, Build Nuclear Workforce",
+        "url": "https://www.reuters.com/business/energy/india-urged-review-green-finance-rules-build-workforce-nuclear-expansion-2026-09-02/",
+        "timestamp": 1788342345000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Golan Warns Sara Netanyahu Of $825,000 Suit Over Oct. 7 Conspiracy Theory",
+        "url": "https://www.timesofisrael.com/yair-golan-warns-sara-netanyahu-of-825000-suit-for-airing-oct-7-conspiracy-theory/",
+        "timestamp": 1788292223000,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "UAE INTERCEPTS IRANIAN DRONE AFTER WEEKEND US STRIKES ON ROCKET LAUNCHERS IN IRAN",
+        "url": "https://apnews.com/article/iran-us-war-uea-august-31-2026-9f34873bad9a928574c36ee984c3f96b",
+        "timestamp": 1788187980175,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Spanish PM Says Morocco Not To Blame For Ceuta Border Breach",
+        "url": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez",
+        "timestamp": 1788226200000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Venezuela's Maduro To Test US Courts' Reluctance On International Law",
+        "url": "https://www.reuters.com/legal/government/venezuelas-maduro-test-us-courts-reluctance-apply-international-law-criminal-2026-09-01/",
+        "timestamp": 1788260535000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "China Says Solar Power Has Outpaced Coal For First Time",
+        "url": "https://www.euronews.com/2026/09/01/solar-outpaces-coal-for-the-first-time-in-china-how-does-europe-compare",
+        "timestamp": 1788255654000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "How Young Cameroonians End Up Fighting In Russia's War",
+        "url": "https://www.dw.com/en/deceived-and-deployed-how-young-cameroonians-end-up-fighting-in-russias-war-in-ukraine/a-78513256",
+        "timestamp": 1788184098000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Algeria Moves To Restore Death Penalty For Deliberate Forest Fires",
+        "url": "https://www.africanews.com/amp/2026/08/31/algeria-moves-to-restore-death-penalty-for-deliberate-forest-fires/",
+        "timestamp": 1788182738000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Suspected Russian Shadow-Fleet Tanker Boarded By EU Forces In Mediterranean",
+        "url": "https://www.euronews.com/my-europe/2026/08/31/suspected-russian-shadow-fleet-oil-tanker-boarded-by-eu-forces-in-the-mediterranean",
+        "timestamp": 1788181819000,
+        "photo": true,
+        "postedAt": 1788187980175,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Israel Signs €3 Billion Arms Export Deal With Greece",
+        "url": "https://www.dw.com/en/israel-signs-3-billion-arms-export-deal-with-greece/a-78572062",
+        "timestamp": 1788170745000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Investors Prosper, Consumers Pay As War's Toll Turns Uneven",
+        "url": "https://apnews.com/article/iran-economy-stocks-trump-airlines-energy-oil-dd9861bbb882b04e1680f6b2847b3495",
+        "timestamp": 1788073500000,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "Settlers Detain British Activist Over Alleged 'Indecent Act'",
+        "url": "https://www.timesofisrael.com/settlers-detain-british-activist-for-alleged-indecent-act-hand-him-over-to-police/",
+        "timestamp": 1788092182000,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "Ben Gvir Posts Video Mocking Palestinian Inmates' Complaints",
+        "url": "https://www.timesofisrael.com/ben-gvir-posts-video-mocking-palestinian-female-inmates-complaints-about-conditions/",
+        "timestamp": 1788090367000,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "Scientists Find New Clue In Narwhal Tusk X-Rays",
+        "url": "https://www.discoverwildlife.com/animal-facts/marine-animals/narwhal-tusk-shape",
+        "timestamp": 1788089010000,
+        "photo": true,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "Far-Right AfD Poised To Win German State Election",
+        "url": "https://www.bbc.co.uk/news/articles/cddv43d4jn2o",
+        "timestamp": 1788080416000,
+        "postedAt": 1788096168821
+      },
+      {
+        "headline": "Russia's Jet-Powered Drones Empty Kyiv Supermarket Shelves, Rattle Ukrainians",
+        "url": "https://www.npr.org/2026/08/31/g-s1-141181/russia-ukraine-war",
+        "timestamp": 1788171865000,
+        "postedAt": 1788187980175
+      },
+      {
+        "headline": "Defense Executive Says 'Germany And Russia Are At War'",
+        "url": "https://www.politico.eu/article/germany-and-russia-are-at-war-says-top-defense-exec-stefan-thumann-donaustahl/",
+        "timestamp": 1788259430000,
+        "postedAt": 1788264271508
+      }
+    ]
+  }
+}
