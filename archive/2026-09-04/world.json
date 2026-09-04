@@ -1,0 +1,570 @@
+{
+  "lastUpdated": 1788521224405,
+  "heroSetDate": "2026-09-04",
+  "hero": {
+    "headline": "IRAN STRIKES KUWAIT WITH MISSILES AND DRONES AFTER US STRIKES",
+    "url": "https://www.foxnews.com/live-news/us-iran-war-strikes-strait-of-hormuz-09-03-26",
+    "sublinks": [
+      {
+        "text": "US Confirms New Strikes On Iran, Warns Against Retaliation",
+        "url": "https://www.pbs.org/newshour/world/u-s-military-says-its-hitting-new-targets-in-iran-again"
+      },
+      {
+        "text": "Top House Republican Says US Effort In Iran Is 'Stalled'",
+        "url": "https://www.mediaite.com/media/news/top-house-republican-says-us-is-clearly-stalled-in-iran-no-question-about-it/"
+      },
+      {
+        "text": "UN Brief: US-Iran War Intensifies Alongside Ukraine, Myanmar Crises",
+        "url": "https://news.un.org/en/story/2026/09/1168268"
+      }
+    ],
+    "postedAt": 1788521224405,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "UKRAINE WAR: RUSSIA STRIKES INTENSIFY",
+      "stories": [
+        {
+          "headline": "Ukraine Renews Push For Russia's Frozen Assets",
+          "url": "https://www.politico.eu/article/ukraine-renews-push-russia-frozen-assets/",
+          "timestamp": 1788520411000,
+          "postedAt": 1788521224405
+        },
+        {
+          "headline": "Trump Envoys To Visit Russia And Ukraine This Weekend, TASS Says",
+          "url": "https://www.reuters.com/world/europe/trump-envoys-visit-russia-ukraine-weekend-tass-reports-2026-09-04/",
+          "timestamp": 1788515737000,
+          "postedAt": 1788521224405
+        },
+        {
+          "headline": "WHO Warehouse Storing Medical Supplies Attacked In Kyiv Region",
+          "url": "https://www.straitstimes.com/world/europe/who-warehouse-storing-medical-supplies-attacked-overnight-in-kyiv-region-who-says?ref",
+          "timestamp": 1788514860000,
+          "postedAt": 1788521224405
+        },
+        {
+          "headline": "Russia May Force More Men Into Ukraine Fight As Losses Mount",
+          "url": "https://www.pbs.org/newshour/show/russia-may-force-more-men-to-fight-in-ukraine-as-military-faces-heavy-losses",
+          "timestamp": 1788474922000,
+          "postedAt": 1788521224405
+        },
+        {
+          "headline": "EU And NATO Vow To Step Up Pressure On Russia After Germany Escalation",
+          "url": "https://www.bbc.com/news/articles/ce9e810pg7ko",
+          "timestamp": 1788405684000,
+          "postedAt": 1788434819900
+        }
+      ]
+    },
+    {
+      "title": "ARGENTINA REIGNITES FALKLANDS DISPUTE",
+      "stories": [
+        {
+          "headline": "UK Asserts 'Unshakeable' Falklands Commitment As Milei Presses Claim",
+          "url": "https://www.breitbart.com/europe/2026/09/04/uk-asserts-unshakeable-falklands-commitment-as-milei-presses-claim/",
+          "timestamp": 1788518713000,
+          "postedAt": 1788521224405
+        },
+        {
+          "headline": "Argentina's Milei Escalates Falklands Dispute Amid Oil Tensions",
+          "url": "https://apnews.com/article/argentina-president-donald-trump-javier-milei-falkland-islands-britain-e84d99c99cfb1cb1ad232be8e3ea6c8a",
+          "timestamp": 1788506880000,
+          "postedAt": 1788521224405
+        }
+      ]
+    },
+    {
+      "title": "NEPAL-CHINA FLOOD DISASTER: RESCUES CONTINUE",
+      "stories": [
+        {
+          "headline": "Nepal's 'Himalayan Tsunami': What We Know",
+          "url": "https://www.rfi.fr/en/international-news/20260904-nepal-s-himalayan-tsunami-what-we-know",
+          "timestamp": 1788517691000,
+          "postedAt": 1788521224405
+        },
+        {
+          "headline": "Rescuers Pull Two Workers Alive Over A Week After Nepal-China Floods",
+          "url": "https://www.cnn.com/2026/09/03/world/live-news/nepal-china-flood-hnk-intl",
+          "timestamp": 1788515940000,
+          "postedAt": 1788521224405
+        },
+        {
+          "headline": "Nepal Flood Losses Estimated At $2.56 Billion",
+          "url": "https://www.reuters.com/business/environment/nepal-flood-losses-estimated-256-billion-official-says-2026-09-04/",
+          "timestamp": 1788491040000,
+          "postedAt": 1788521224405
+        },
+        {
+          "headline": "Glacier Risk Still Looms Over China-Nepal Border Region",
+          "url": "https://www.scmp.com/news/china/politics/article/3366006/glacier-risk-hangs-over-china-nepal-border-region-remembers-mudslide-victims?module",
+          "timestamp": 1788262565000,
+          "postedAt": 1788264271508
+        },
+        {
+          "headline": "Nepal Flood Survivors Return To Ruins Of Their Homes",
+          "url": "https://www.dw.com/en/nepal-floods-survivors-homes-rescue/video-78654153",
+          "timestamp": 1788290979000,
+          "postedAt": 1788296841483
+        }
+      ]
+    },
+    {
+      "title": "ISRAEL-LEBANON BORDER TENSIONS",
+      "stories": [
+        {
+          "headline": "Red Cross Transfers Four People Released By Israel To Lebanon",
+          "url": "https://www.rfi.fr/en/middle-east/20260904-red-cross-says-transferred-four-people-released-by-israel-to-lebanon",
+          "timestamp": 1788517451000,
+          "postedAt": 1788521224405
+        },
+        {
+          "headline": "Israel Says It Cleared Hezbollah Fighters From Tunnels Under Lebanon Ridge",
+          "url": "https://www.reuters.com/world/middle-east/israel-says-it-has-cleared-hezbollah-fighters-tunnels-under-key-lebanon-ridge-2026-09-04/",
+          "timestamp": 1788515354000,
+          "postedAt": 1788521224405
+        }
+      ]
+    },
+    {
+      "title": "CEUTA CRISIS ROCKS SPAIN",
+      "stories": [
+        {
+          "headline": "Sánchez Dismisses Police Claim Morocco Instigated Ceuta Crisis",
+          "url": "https://www.politico.eu/article/pedro-sanchez-dismisses-police-claim-that-morocco-instigated-ceuta-crisis/",
+          "timestamp": 1788429829000,
+          "postedAt": 1788434819900
+        },
+        {
+          "headline": "Massive Nationwide Protests Shake Spain Over Ceuta Migrant Crisis",
+          "url": "https://www.breitbart.com/europe/2026/09/03/watch-massive-nationwide-protests-in-spain-against-migrant-invasion-of-ceuta/",
+          "timestamp": 1788428075000,
+          "postedAt": 1788434819900
+        },
+        {
+          "headline": "Spanish Government In Turmoil As Ceuta Crisis Deepens",
+          "url": "https://www.euronews.com/my-europe/2026/09/03/spanish-government-in-turmoil-as-ceuta-crisis-deepens",
+          "timestamp": 1788416981000,
+          "postedAt": 1788434819900
+        }
+      ]
+    },
+    {
+      "title": "TRUMP'S VENEZUELA OIL TAKEOVER DEAL",
+      "stories": [
+        {
+          "headline": "Trump Vows US Will Take 'All' Of Venezuela's Oil As Deal Details Emerge",
+          "url": "https://www.euronews.com/business/2026/09/01/trump-vows-us-will-take-all-of-venezuelas-oil-as-deal-details-emerge",
+          "timestamp": 1788258356000,
+          "feature": true,
+          "postedAt": 1788264271508
+        },
+        {
+          "headline": "Venezuela Oil Deal Raises Red Flags For Major Producers",
+          "url": "https://www.reuters.com/business/energy/trumps-oil-deal-with-venezuela-raises-red-flags-some-major-producers-sources-say-2026-09-01/",
+          "timestamp": 1788258125000,
+          "postedAt": 1788264271508
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Spanish PM Insists No Proof Morocco Drove Ceuta Invasion",
+        "url": "https://www.breitbart.com/europe/2026/09/04/spanish-pm-sanchez-says-no-solid-proof-morocco-planned-ceuta-invasion/",
+        "timestamp": 1788514927000,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "Romanian Prosecutors Indict Andrew Tate For Trafficking Minors",
+        "url": "https://www.reuters.com/world/romanian-prosecutors-indict-andrew-tate-trafficking-minors-money-laundering-2026-09-04/",
+        "timestamp": 1788515232000,
+        "feature": true,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "At Least 37 Dead In Nigeria Pipeline Incident",
+        "url": "https://www.reuters.com/world/africa/least-37-dead-nigeria-pipeline-incident-group-says-2026-09-04/",
+        "timestamp": 1788513888000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "Pacific Leaders Fail To Unanimously Condemn China's Missile Launch",
+        "url": "https://apnews.com/article/pacific-islands-forum-china-missile-launch-palau-cc1d1750ef59bfe8e44a6770b1b7d3fb",
+        "timestamp": 1788511680000,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "Denmark Expects To Send First Migrants To Non-EU Return Hub In 2027",
+        "url": "https://www.reuters.com/world/denmark-expects-send-first-migrants-return-hub-outside-eu-2027-2026-09-04/",
+        "timestamp": 1788504780000,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "Typhoon Saudel Brings Torrential Rain, Flooding To China's Coast",
+        "url": "https://www.reuters.com/business/environment/typhoon-saudel-brings-torrential-rain-flooding-chinas-coastal-areas-2026-09-04/",
+        "timestamp": 1788492180000,
+        "photo": true,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "Putin Cites Chance Of Peace Deal But Says Airspace Warning Complicates It",
+        "url": "https://www.reuters.com/world/europe/putin-cites-chance-peace-deal-says-ukrainian-aviation-warning-makes-it-harder-2026-09-03/",
+        "timestamp": 1788429224000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Feminist Icon Gloria Steinem Dies At 92",
+        "url": "https://www.reuters.com/world/feminist-activist-gloria-steinem-dies-age-92-2026-09-03/",
+        "timestamp": 1788432583000,
+        "photo": true,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Experts Call Initial US Aid To Nepal Flood Victims 'Pitiful'",
+        "url": "https://www.theguardian.com/us-news/2026/sep/02/nepal-flood-aid",
+        "timestamp": 1788399000000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Xi Visits Egypt Seeking Deeper Chinese Influence In Middle East",
+        "url": "https://apnews.com/article/egypt-china-middle-east-iran-war-us-946c3b90b6251c08fdcb219e24a088a2",
+        "timestamp": 1788398940000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Macron And King Charles III Hail Ties Viewing Bayeux Tapestry",
+        "url": "https://apnews.com/article/macron-london-king-burnham-bayeux-tapestry-8ca368eaa2d328271d44ca76ce9cf984",
+        "timestamp": 1788377820000,
+        "photo": true,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Israel Bars US Citizens Over Criticism, Ties To Palestinian Activists",
+        "url": "https://www.npr.org/2026/09/02/nx-s1-5950449/israel-bars-americans-over-palestinian-ties",
+        "timestamp": 1788339600000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "UN Says World Must Navigate 'Reality' Of 1.5C Overshoot",
+        "url": "https://www.rfi.fr/en/international-news/20260902-un-says-world-must-navigate-reality-of-1-5c-overshoot",
+        "timestamp": 1788346219000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "TikTok Ban Divides European Commission",
+        "url": "https://www.politico.eu/article/tiktok-ban-divides-european-commission/",
+        "timestamp": 1788344119000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Ebola Death Toll Passes 3,000 In DR Congo",
+        "url": "https://www.rfi.fr/en/international-news/20260902-ebola-death-toll-passes-3-000-in-dr-congo-official-data",
+        "timestamp": 1788343693000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Germany Successfully Tests Israeli Ballistic Missile System",
+        "url": "https://www.reuters.com/business/aerospace-defense/germany-successfully-tests-israeli-ballistic-missile-officials-say-2026-09-02/",
+        "timestamp": 1788342101000,
+        "photo": true,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Nepal Father Borrows $13, Walks Days Searching For Missing Son",
+        "url": "https://www.aljazeera.com/features/2026/9/2/nepal-floods-father-borrows-13-walks-for-days-to-search-for-missing-son",
+        "timestamp": 1788333565000,
+        "photo": true,
+        "postedAt": 1788348486006,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Ryanair's Boeing 737 Stairs Tied To Hundreds Of Passenger Falls, Study Finds",
+        "url": "https://www.euronews.com/business/2026/09/01/ryanair-boeing-737-stairs-85-falls-in-three-years-ansv-study-finds",
+        "timestamp": 1788294497000,
+        "photo": true,
+        "postedAt": 1788296841483,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Keir Starmer To Stand Down As MP To Focus On World Affairs",
+        "url": "https://www.theguardian.com/politics/2026/sep/01/keir-starmer-to-stand-down-as-mp",
+        "timestamp": 1788293040000,
+        "feature": true,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Nestle To Offload Mainstream Vitamin Brands For $1 Billion",
+        "url": "https://www.reuters.com/legal/transactional/nestle-divest-mainstream-supplements-business-1-billion-2026-09-01/",
+        "timestamp": 1788292148000,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Russian Air Attacks Kill 12 In Kyiv Region On Sixth Day Of Strikes",
+        "url": "https://www.reuters.com/world/europe/explosions-heard-ukraines-kyiv-four-people-injured-2026-09-01/",
+        "timestamp": 1788220800000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Le Pen Sparks Backlash With Proposal To Ban Hijab",
+        "url": "https://www.politico.eu/article/marine-le-pen-national-rally-france-backlash-hijab-ban-proposal/",
+        "timestamp": 1788261634000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Freddie Mercury's Best Friend Mary Austin Tells Untold Story",
+        "url": "https://www.theguardian.com/music/2026/sep/01/freddie-mercury-lover-mary-austin-interview",
+        "timestamp": 1788261540000,
+        "photo": true,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "India Busts Firm Faking Expiry Dates On PepsiCo, Nestle Exports",
+        "url": "https://www.reuters.com/world/china/india-busts-firm-faking-expiry-dates-nutrition-labels-pepsico-nestle-food-2026-09-01/",
+        "timestamp": 1788256755000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Canada's Ruling Liberals Sweep Special Elections, Boosting Carney",
+        "url": "https://www.theguardian.com/world/2026/sep/01/canada-liberals-special-elections-mark-carney",
+        "timestamp": 1788251760000,
+        "postedAt": 1788264271508
+      }
+    ],
+    "center": [
+      {
+        "headline": "US Dollar Slumps To Start September As Yen Surges",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-slumps-start-september-002947285.html",
+        "timestamp": 1788515203000,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "New Zealand Approves MDMA For PTSD Treatment",
+        "url": "https://www.euronews.com/health/2026/09/04/new-zealand-approves-party-drug-mdma-for-treating-patients-with-ptsd",
+        "timestamp": 1788513881000,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "Russia To Close German Cultural Centers Amid Rising Tensions",
+        "url": "https://apnews.com/article/russia-germany-goethe-institute-close-airport-drone-1e72ac4fd59f4a1f44859bd2e78dbde6",
+        "timestamp": 1788486120000,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "UN Report: Global Warming Will Exceed 1.5-Degree Limit",
+        "url": "https://www.pbs.org/newshour/science/global-warming-will-exceed-1-5-degree-limit-un-says-in-report-that-maps-path-back-below-danger-zone",
+        "timestamp": 1788476721000,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "Apple Faces $2.7 Billion UK Lawsuit Over App Tracking Rules",
+        "url": "https://www.reuters.com/business/retail-consumer/apple-facing-27-billion-uk-lawsuit-over-unfair-app-tracking-rules-2026-09-03/",
+        "timestamp": 1788432680000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Estonian Defence Minister Quits Over €70M Arms Scandal",
+        "url": "https://www.euronews.com/my-europe/2026/09/03/estonian-defence-minister-resigns-in-70m-eu-funded-procurement-scandal-for-ukraine",
+        "timestamp": 1788431657000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Crisis-Hit Cuba's Schools Face Shortage Of Uniforms And Teachers",
+        "url": "https://english.elpais.com/international/2026-09-03/back-to-school-in-crisis-hit-cuba-families-contend-with-shortage-of-uniforms-teachers-and-basic-equipment.html",
+        "timestamp": 1788431354000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "The Astonishing Hidden Life Of Mr T",
+        "url": "https://www.theguardian.com/lifeandstyle/2026/sep/03/i-dont-chase-the-dollar-i-never-did-the-astonishing-hidden-life-of-mr-t",
+        "timestamp": 1788430620000,
+        "photo": true,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Jury In Malta Acquits Businessman In Journalist's Killing",
+        "url": "https://apnews.com/article/malta-journalist-killed-caruana-galizia-yorgen-fenech-e2cd05e8e19e9a5239a7f9d2aaa66893",
+        "timestamp": 1788389100000,
+        "feature": true,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "EU's Kallas Calls Leipzig Attack 'State-Sponsored Terrorism'",
+        "url": "https://www.breitbart.com/europe/2026/09/02/eus-top-diplomat-accuses-russia-of-state-sponsored-terrorism/amp/",
+        "timestamp": 1788345013000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Erdogan Says Turkey Would Consider Joining China-Russia Security Bloc",
+        "url": "https://www.reuters.com/world/china/erdogan-says-turkey-would-consider-full-membership-china-russia-led-security-2026-09-02/",
+        "timestamp": 1788344985000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Turkish Cargo Ship Sinks Off Istanbul, 10 Missing",
+        "url": "https://www.rfi.fr/en/international-news/20260902-10-missing-as-turkish-cargo-ship-sinks-after-collision-off-istanbul",
+        "timestamp": 1788344173000,
+        "photo": true,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Gary Glitter Pleads Not Guilty To Historical UK Sex Offence Charges",
+        "url": "https://www.straitstimes.com/world/europe/ex-pop-star-gary-glitter-pleads-not-guilty-to-uk-charges-of-historical-sex-offences?ref",
+        "timestamp": 1788341760000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Denmark Sends Conscripts To Greenland As Arctic Tensions Grow",
+        "url": "https://www.reuters.com/world/denmark-sends-conscripts-greenland-arctic-tensions-grow-2026-09-02/",
+        "timestamp": 1788341249000,
+        "photo": true,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Government Borrowing Costs Rise Anew, Pressuring Global Policymakers",
+        "url": "https://www.reuters.com/world/asia-pacific/global-bond-rout-deepens-japan-yield-hits-key-threshold-2026-09-01/",
+        "timestamp": 1788290822000,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Will Bangladesh Join The Mecca Defense Alliance?",
+        "url": "https://www.dw.com/en/will-bangladesh-join-the-mecca-defense-alliance/a-78613944",
+        "timestamp": 1788294163000,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Apple Maps Renames Lake Ontario 'Lake America' After Trump Order",
+        "url": "https://www.axios.com/2026/08/31/trump-lake-america-apple-maps-request",
+        "timestamp": 1788293468000,
+        "photo": true,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Norway's New King To Swear Oath Before Parliament",
+        "url": "https://www.reuters.com/world/europe/norways-new-king-swear-oath-before-parliament-after-haralds-death-2026-09-01/",
+        "timestamp": 1788256317000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Israeli Strikes Kill Four In Gaza As Military Arrests Hamas Militant",
+        "url": "https://www.reuters.com/world/middle-east/israeli-fire-kills-four-people-including-three-children-gaza-medics-say-2026-09-01/",
+        "timestamp": 1788259664000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Eurozone Inflation Jumps To 3.3% As Energy Prices Surge",
+        "url": "https://www.euronews.com/business/2026/09/01/eurozone-inflation-jumps-to-33-in-august-as-energy-prices-surge",
+        "timestamp": 1788255795000,
+        "postedAt": 1788264271508
+      }
+    ],
+    "right": [
+      {
+        "headline": "TRUMP WEIGHS ENDING IRAN WAR AS TEHRAN DEFIES WARNING, HITS GULF BASES",
+        "url": "https://aa.com.tr/en/americas/trump-weighs-ending-iran-war-as-pentagon-extends-deployments-report/4045881",
+        "timestamp": 1788434819900,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "EU Blasts Serbia Over 'Butcher Of Bosnia' Funeral",
+        "url": "https://www.politico.eu/article/eu-blasts-serbia-over-ratko-mladic-funeral/",
+        "timestamp": 1788515954000,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "Canada: Toronto's Rogers Stadium Severely Damaged In Thunderstorm",
+        "url": "https://nypost.com/2026/09/04/world-news/torontos-50000-seater-rogers-stadium-smashed-by-severe-storms-ahead-of-ac-dc-concert/",
+        "timestamp": 1788475489000,
+        "photo": true,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "Brazil Weighs Reciprocal Measures After EU Halts Imports",
+        "url": "https://apnews.com/article/brazil-european-union-exports-halt-e7afd13a1b455d01a216f8f7ad34cebb",
+        "timestamp": 1788471900000,
+        "postedAt": 1788521224405
+      },
+      {
+        "headline": "TRUMP VOWS MORE STRIKES AFTER IRAN MINES TANKERS IN HORMUZ RETALIATION",
+        "url": "https://www.npr.org/2026/09/02/g-s1-141500/us-iran-war",
+        "timestamp": 1788348486006,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Buster Keaton's Epic Train Chase Turns 100",
+        "url": "https://www.npr.org/2026/09/03/nx-s1-5921324/the-general-buster-keaton-anniversary",
+        "timestamp": 1788433200000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Poland Calls For Stricter EU Visa Controls On Russians",
+        "url": "https://www.politico.eu/article/poland-radoslaw-sikorski-calls-for-stricter-russia-visa-restrictions-eu/",
+        "timestamp": 1788431927000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "The US And Venezuela: A Century-Old Relationship Drenched In Oil",
+        "url": "https://www.theguardian.com/world/2026/sep/03/us-venezuela-visual-look-century-old-relationship-drenched-in-oil",
+        "timestamp": 1788430260000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Italy's Meloni Sets Government Longevity Record",
+        "url": "https://apnews.com/article/italy-meloni-government-longevity-record-election-84dc931418ddcbd9b00ed497233fe922",
+        "timestamp": 1788429720000,
+        "postedAt": 1788434819900
+      },
+      {
+        "headline": "Badenoch And Burnham Draw New Battle Lines As Leaders Face Off",
+        "url": "https://www.theguardian.com/politics/2026/sep/02/conservative-reshuffle-is-a-response-to-shifting-political-tides",
+        "timestamp": 1788342420000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Oil Prices Steady As Traders Weigh Hormuz Supply Risks",
+        "url": "https://www.reuters.com/business/energy/oil-up-nearly-1-us-iran-trade-fresh-strikes-2026-09-02/",
+        "timestamp": 1788343212000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "India Urged To Review Green Finance Rules, Build Nuclear Workforce",
+        "url": "https://www.reuters.com/business/energy/india-urged-review-green-finance-rules-build-workforce-nuclear-expansion-2026-09-02/",
+        "timestamp": 1788342345000,
+        "postedAt": 1788348486006
+      },
+      {
+        "headline": "Golan Warns Sara Netanyahu Of $825,000 Suit Over Oct. 7 Conspiracy Theory",
+        "url": "https://www.timesofisrael.com/yair-golan-warns-sara-netanyahu-of-825000-suit-for-airing-oct-7-conspiracy-theory/",
+        "timestamp": 1788292223000,
+        "postedAt": 1788296841483
+      },
+      {
+        "headline": "Venezuela's Maduro To Test US Courts' Reluctance On International Law",
+        "url": "https://www.reuters.com/legal/government/venezuelas-maduro-test-us-courts-reluctance-apply-international-law-criminal-2026-09-01/",
+        "timestamp": 1788260535000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "China Says Solar Power Has Outpaced Coal For First Time",
+        "url": "https://www.euronews.com/2026/09/01/solar-outpaces-coal-for-the-first-time-in-china-how-does-europe-compare",
+        "timestamp": 1788255654000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Defense Executive Says 'Germany And Russia Are At War'",
+        "url": "https://www.politico.eu/article/germany-and-russia-are-at-war-says-top-defense-exec-stefan-thumann-donaustahl/",
+        "timestamp": 1788259430000,
+        "postedAt": 1788264271508
+      },
+      {
+        "headline": "Germany Says Arson Attack Targeted Defense Firm",
+        "url": "https://www.dw.com/en/germany-news-police-say-arson-attack-targeted-defense-firm/live-78818089",
+        "timestamp": 1788433425000,
+        "postedAt": 1788434819900
+      }
+    ]
+  }
+}
