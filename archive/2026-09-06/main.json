@@ -1,0 +1,464 @@
+{
+  "lastUpdated": 1788693281819,
+  "heroSetDate": "2026-09-06",
+  "hero": {
+    "headline": "WITKOFF, KUSHNER PUSH UKRAINE DIPLOMACY FROM MOSCOW TO KYIV",
+    "url": "https://www.theguardian.com/world/2026/sep/06/ukraine-war-briefing-zelenskyy-links-russian-strikes-on-kyiv-airports-to-us-envoys-visit",
+    "sublinks": [
+      {
+        "text": "Zelenskyy Ties Fresh Kyiv Airport Strikes To Envoys' Visit",
+        "url": "https://www.theguardian.com/world/2026/sep/06/ukraine-war-briefing-zelenskyy-links-russian-strikes-on-kyiv-airports-to-us-envoys-visit"
+      },
+      {
+        "text": "A Convert's Account Of Abandoning Russian War Narratives",
+        "url": "https://www.realclearpolicy.com/articles/2026/08/28/i_spent_years_regurgitating_russian_propaganda_then_i_visited_ukraine_1203047.html"
+      }
+    ],
+    "postedAt": 1788693281819,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "TRUMP'S HAIR MYSTERY SPARKS WIG SPECULATION",
+      "stories": [
+        {
+          "headline": "Trump Drops Bizarre Admission After Sweaty Hair Moment Sparks Mystery",
+          "url": "https://www.msn.com/en-us/news/other/ar-AA2bsHxp",
+          "timestamp": 1788519884394,
+          "postedAt": 1788520468663
+        },
+        {
+          "headline": "Trump Insists: 'I Don't Wear A Wig'",
+          "url": "https://thehill.com/homenews/6068447",
+          "timestamp": 1788519884394,
+          "postedAt": 1788520468663
+        },
+        {
+          "headline": "Trump's Anecdote Meant To Dispel Wig Rumors Doesn't Add Up, Critics Say",
+          "url": "https://www.independent.co.uk/b3043976.html",
+          "timestamp": 1788519884394,
+          "postedAt": 1788520468663
+        },
+        {
+          "headline": "Flashback: Trump Once Mocked Hillary Clinton Over Wig Rumors",
+          "url": "https://www.cnn.com/2015/11/12/opinions/drexler-trump-clinton-hair",
+          "timestamp": 1788519884394,
+          "postedAt": 1788520468663
+        },
+        {
+          "headline": "Trump Signs Order Removing Endangered Species Status For Gray Wolves",
+          "url": "https://www.bbc.com/news/articles/c62k677d4lzo",
+          "timestamp": 1788599568000,
+          "postedAt": 1788606696954
+        }
+      ]
+    },
+    {
+      "title": "MINNEAPOLIS ICE OFFICER SHOOTING PROBE DEEPENS",
+      "stories": [
+        {
+          "headline": "Officer Charged With Lying To Investigators In Shooting Of Venezuelan Man",
+          "url": "https://apnews.com/5a429fee81fe85c09ca59ea9366c019d",
+          "timestamp": 1788519884395,
+          "feature": true,
+          "postedAt": 1788520468663
+        },
+        {
+          "headline": "Federal Prosecutor Fired After Investigating That Officer For Civil Rights Violations",
+          "url": "https://www.cbsnews.com/news/ice-minnesota-federal-prosecutor-fired-investigating-castro-sosa-celis/",
+          "timestamp": 1788482160000,
+          "postedAt": 1788520468663
+        }
+      ]
+    },
+    {
+      "title": "MARIA BARTIROMO'S EXIT FROM FOX NEWS",
+      "stories": [
+        {
+          "headline": "Maria Bartiromo Is Leaving Fox News",
+          "url": "https://variety.com/2026/tv/news/maria-bartiromo-out-fox-news-fox-business-1236850594/",
+          "timestamp": 1788519884394,
+          "postedAt": 1788520468663
+        },
+        {
+          "headline": "Bartiromo Reportedly Leaked Internal Texts To Trump Before Exit",
+          "url": "https://www.mediaite.com/media/tv/breaking-maria-bartiromos-top-producer-also-out-amid-stunning-report-ex-anchor-betrayed-fox-to-trump-admin/",
+          "timestamp": 1788519884394,
+          "postedAt": 1788520468663
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Pentagon Gives Polygraph Tests To Joint Staff In Leak Hunt",
+        "url": "https://www.nytimes.com/2026/09/04/us/politics/pentagon-staff-polygraph-tests.html?unlocked_article_code=1.-1A.EX4B.0pbX9TRqaJM9&smid=url-share",
+        "timestamp": 1788692776764,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "DOJ Investigation Widens Into Fauci And Other Virus Scientists",
+        "url": "https://www.nytimes.com/2026/09/05/health/fauci-morens-covid-prosecutions.html?unlocked_article_code=1.-1A.cXEe.nhHGowsvcUEC&smid=url-share",
+        "timestamp": 1788692776765,
+        "postedAt": 1788693281818
+      },
+      {
+        "headline": "AI Agents Conspired To Escape Their Cage, Researchers Say",
+        "url": "https://www.yahoo.com/news/science/articles/ai-agents-conspired-escape-cage-053000682.html",
+        "timestamp": 1788692776765,
+        "postedAt": 1788693281818
+      },
+      {
+        "headline": "UN Endorses New World Map Showing Africa's True Size",
+        "url": "https://www.cbsnews.com/news/united-nations-map-vote-change-africa-size/",
+        "timestamp": 1788679762000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "LAPD Busts Massive Street Takeover, Impounds Over 100 Cars",
+        "url": "https://abc7.com/post/lapd-brings-fleet-tow-trucks-buses-transport-drivers-arrested-massive-street-takeover/19795809/",
+        "timestamp": 1788645609000,
+        "photo": true,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "VANCE SAYS IRAN FIGHT 'ISN'T A WAR' AS TRUMP NAVIGATES UNPOPULAR CONFLICT BEFORE MIDTERMS",
+        "url": "https://apnews.com/article/iran-war-trump-strait-of-hormuz-vance-oil-7ab86fbec23313f055fc2ab47933c199",
+        "timestamp": 1788520468663,
+        "postedAt": 1788520468663
+      },
+      {
+        "headline": "What Happens Next After The Mistrial",
+        "url": "https://abc7.com/story/lindsay-clancy-trial-declared-mistrial-what-happens/19790870/?userab",
+        "timestamp": 1788592158000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Fake GOP Convention Website Redirects Visitors To Epstein Files",
+        "url": "https://www.nytimes.com/2026/09/04/us/politics/republican-midterm-convention-epstein-files.html?unlocked_article_code=1.-lA.yUke.CZ3H9jtuqEOC&smid=url-share",
+        "timestamp": 1788606221205,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Judge Won't Block Pentagon From Firing Stars And Stripes Staffers",
+        "url": "https://www.politico.com/news/2026/09/04/judge-refuses-to-block-pentagon-from-firing-stars-and-stripes-staffers-over-cbs-interview-01066357",
+        "timestamp": 1788571440000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Republicans Ask Supreme Court To Overturn Missouri Redistricting Ruling",
+        "url": "https://missouriindependent.com/2026/09/04/missouri-secretary-of-state-asks-court-to-pause-congressional-map-ruling/",
+        "timestamp": 1788555928000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Trump Officials Say Work On Triumphal Arch Starts Within Two Weeks",
+        "url": "https://www.facebook.com/washingtonpost/posts/breaking-news-trump-administration-officials-say-work-will-begin-on-the-250-foot/1443863730938831/",
+        "timestamp": 1788494770000,
+        "photo": true,
+        "postedAt": 1788520468663
+      },
+      {
+        "headline": "Woman Killed, Others Injured As Car Plows Into Pedestrians Outside LA Trader Joe's",
+        "url": "https://abc7.com/post/multiple-pedestrians-struck-car-trader-joes-parking-lot-fairfax-district/19785988/",
+        "timestamp": 1788490523000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1788520468663
+      },
+      {
+        "headline": "Trump Names Adam Telle Acting Army Secretary After Driscoll's Departure",
+        "url": "https://apnews.com/article/trump-army-secretary-adam-telle-driscoll-hegseth-ab235fbfd006506d4e6d52311f0e7002",
+        "timestamp": 1788483420000,
+        "postedAt": 1788520468663
+      },
+      {
+        "headline": "White House Rips 'Activist' Judge Who Blocked Trump Birthright Citizenship Order",
+        "url": "https://www.foxnews.com/politics/white-house-rips-activist-biden-judge-upended-trump-birthright-citizenship-order",
+        "timestamp": 1788467443000,
+        "postedAt": 1788520468663
+      },
+      {
+        "headline": "Arizona police confirm Tucson gay bar shooting was a hate crime",
+        "url": "https://apnews.com/article/arizona-gay-bar-shooting-killed-hate-crime-2884382f7e35f55590bd953ceb8d11d1",
+        "timestamp": 1788393600000,
+        "postedAt": 1788479999999,
+        "feature": true
+      },
+      {
+        "headline": "Maryland Supreme Court Clears Vote On Democrats' 2028 Gerrymandering Plan",
+        "url": "https://www.politico.com/news/2026/09/03/maryland-2028-gerrymander-vote-01064463",
+        "timestamp": 1788481920000,
+        "postedAt": 1788520468663
+      },
+      {
+        "headline": "Ranchers Now Allowed To Kill The Once-Protected Wolves",
+        "url": "https://www.mediaite.com/media/news/trump-gives-reluctant-ranchers-the-go-ahead-to-take-care-of-endangered-species-you-can-shoot-them-as-of-today/",
+        "timestamp": 1788606221205,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Absence Marks Her Latest High-Profile Snub",
+        "url": "https://www.the-independent.com/b3044892.html",
+        "timestamp": 1788606221205,
+        "postedAt": 1788606696954
+      }
+    ],
+    "center": [
+      {
+        "headline": "FETTERMAN TEXTS REVEAL RELUCTANCE TO PERFORM SENATOR'S DUTIES, REPORT FINDS",
+        "url": "https://www.cbsnews.com/news/john-fetterman-texts-reluctance-performing-basic-constituent-service-duties/",
+        "timestamp": 1788606696954,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "U.S. Strikes Three Iranian Tankers After Navy Ships Targeted",
+        "url": "https://apnews.com/article/iran-us-war-oil-tankers-b3650799901c56a6deeca962cbaa4109",
+        "timestamp": 1788675272000,
+        "feature": true,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Mel Gibson Says 'Resurrection' Will Explore The 'Hell Of The Just'",
+        "url": "https://www.christianpost.com/news/mel-gibson-says-resurrection-will-explore-different-realms.html",
+        "timestamp": 1788692776765,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Israel Loses Nearly 1,400 Doctors To Medical Brain Drain",
+        "url": "https://www.ynetnews.com/health_science/article/bjsin3quze",
+        "timestamp": 1788689817000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Category 4 Hurricane Lowell Threatens Hawaii's Kaua'i County",
+        "url": "https://bigislandnow.com/2026/09/05/tropical-storm-watch-issued-for-kaua%CA%BBi-county/",
+        "timestamp": 1788676080000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Judge Reinforces Halt On Trump's 250-Foot Arch Project",
+        "url": "https://www.usatoday.com/story/news/politics/2026/09/05/judge-reinforces-order-halting-immediate-work-on-trumps-arch/91629157007/",
+        "timestamp": 1788653100000,
+        "photo": true,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Venezuelan Billionaire Once Probed For Money Laundering Lands Pentagon Oil Deal",
+        "url": "https://www.reuters.com/business/energy/venezuelan-billionaire-us-investigated-money-laundering-now-has-pentagon-oil-2026-09-05/",
+        "timestamp": 1788646182000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Trump Reshuffles RNC Convention Schedule, Will Speak Night One",
+        "url": "https://thehill.com/homenews/campaign/6073371-trump-to-speak-night-one/",
+        "timestamp": 1788640920000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Report Details Rush To Pull Gold Out Of America",
+        "url": "https://www.zerohedge.com/markets/rush-pull-gold-out-us",
+        "timestamp": 1788606221206,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Squalid Seattle Homeless Shanty Town Grows To Several Acres",
+        "url": "https://www.dailymail.com/news/article-16105323",
+        "timestamp": 1788606221206,
+        "photo": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Commerce Secretary Lutnick Made Over $250 Million Last Year",
+        "url": "https://au.news.yahoo.com/howard-lutnick-made-more-250-180314482.html",
+        "timestamp": 1788606221205,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "AOC Made Socialism Cool, Now Socialists Want Her Gone",
+        "url": "https://www.theblaze.com/columns/opinion/aoc-made-socialism-cool-now-the-socialists-want-her-gone",
+        "timestamp": 1788606130000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Police Release Video Of Murdered Pennsylvania College Student Found In Car",
+        "url": "https://nypost.com/2026/09/05/us-news/pennsylvania-college-student-karoline-heintz-discovery-police-bodycam-footage-released/",
+        "timestamp": 1788586320000,
+        "photo": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "White House Website Adds Computer Games Where Users 'Arrest' Immigrants",
+        "url": "https://metro.co.uk/2026/09/04/official-white-house-website-launches-games-users-arrest-immigrants-29532043/",
+        "timestamp": 1788519884395,
+        "postedAt": 1788520468663
+      },
+      {
+        "headline": "World's Biggest Sovereign Wealth Fund To Cut US Treasury Holdings",
+        "url": "https://www.cnbc.com/2026/09/04/worlds-biggest-sovereign-wealth-fund-plans-to-cut-treasury-holdings.html",
+        "timestamp": 1788519884394,
+        "postedAt": 1788520468663
+      },
+      {
+        "headline": "Two US Sailors Removed From Thai Resort Town After Drunken Brawl",
+        "url": "https://www.euronews.com/2026/09/04/two-us-sailors-removed-from-thai-resort-town-after-drunken-brawl",
+        "timestamp": 1788502108000,
+        "photo": true,
+        "postedAt": 1788520468663,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "First Lady Will Not Attend The Republican Midterm Convention",
+        "url": "https://www.washingtonexaminer.com/news/white-house/4712727/melania-trump-not-attending-midterm-convention/",
+        "timestamp": 1788575400000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Trump's MAGA Inc Sends $10M To Texas In First General Election Spend",
+        "url": "https://www.politico.com/news/2026/09/05/trump-maga-midterms-republicans-01066625",
+        "timestamp": 1788642900000,
+        "postedAt": 1788693281819
+      }
+    ],
+    "right": [
+      {
+        "headline": "Washington Blocks New Trump Mail Voting Rules For Midterms",
+        "url": "https://komonews.com/news/local/washington-blocks-new-trump-mail-voting-rules-keeping-midterm-election-procedures-intact-usps-ballot-voting-president-trump-fraud-steal-rule-change-us-sen-maria-cantwell-secretary-of-state-steve-hobbs",
+        "timestamp": 1788656548000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Teen Bound For Priesthood Says Tumor Shrank After Vision Of Virgin Mary",
+        "url": "https://nypost.com/2026/09/05/lifestyle/nj-teen-set-on-priesthood-had-virgin-mary-vision-before-tumor-shrank/",
+        "timestamp": 1788692776766,
+        "postedAt": 1788693281818
+      },
+      {
+        "headline": "Trump Reportedly Tries Out Brunette Hair Dye",
+        "url": "https://www.themirror.com/news/us-news/trump-debuts-new-darker-hair-2011516",
+        "timestamp": 1788692776764,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Hunter Biden Says He 'May Have To' Run For President",
+        "url": "https://nypost.com/2026/09/05/us-news/hunter-biden-announces-he-may-have-to-run-for-president-during-radio-interview/",
+        "timestamp": 1788692776764,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Why I Played 'Zip-A-Dee-Doo-Dah' At A Funeral",
+        "url": "https://www.theblaze.com/columns/opinion/why-i-played-zip-a-dee-doo-dah-at-a-funeral",
+        "timestamp": 1788690646000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Hurricane Marie To Shape Southern California Weather Into Next Week",
+        "url": "https://ktla.com/weather/hurricane-marie-to-impact-southern-california-weather-into-next-week/",
+        "timestamp": 1788666487000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Miami Steakhouse Manager Accused Of Stabbing Mother To Death",
+        "url": "https://nypost.com/2026/09/05/us-news/manager-of-ritzy-miami-steakhouse-accused-of-stabbing-mom-to-death-inside-luxury-high-rise-apartment/",
+        "timestamp": 1788659520000,
+        "photo": true,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "South Carolina Judge Denies Bond To Saylor Hayes' Parents",
+        "url": "https://nypost.com/2026/09/05/us-news/south-carolina-magistrate-rips-into-saylor-hayes-parents-denies-them-bond/",
+        "timestamp": 1788658740000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Retired General Calls The Monument A 'Sacrilege'",
+        "url": "https://www.pbs.org/newshour/show/retired-general-calls-trumps-proposed-arch-near-arlington-a-sacrilege",
+        "timestamp": 1788561328000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Trump Says He'll Halt Trade With Nations If Fed Won't Cut Rates",
+        "url": "https://www.cnbc.com/2026/09/04/trump-fed-rates-jobs-trade.html",
+        "timestamp": 1788606221206,
+        "feature": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Musk To Be Unmasked In High-Stakes New Documentary",
+        "url": "https://www.hollywoodreporter.com/movies/movie-features/elon-musk-alex-gibney-documentary-1236686790/",
+        "timestamp": 1788606221205,
+        "photo": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Feds Open Probe Into Tesla's Cybercab Rollout",
+        "url": "https://www.nbcdfw.com/news/national-international/feds-probe-musk-tesla-cybercab-steering-wheel-free-taxis/4072812/",
+        "timestamp": 1788606221205,
+        "feature": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Activist Called For Trump's Assassination, Feds Say",
+        "url": "https://www.theblaze.com/news/podcaster-threat-kill-trump-sekulow",
+        "timestamp": 1788605859000,
+        "feature": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Hollywood's New Playbook For Red States",
+        "url": "https://www.dailywire.com/news/hollywoods-new-playbook-for-the-red-states",
+        "timestamp": 1788604563000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Detroit Mayor Confirms Tornado Hit City In Thursday Storms",
+        "url": "https://www.freep.com/story/weather/2026/09/04/metro-detroit-cleans-up-after-severe-storms-possible-tornado-hit-area--live/91607540007/",
+        "timestamp": 1788565260000,
+        "photo": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Missouri Legislative Candidate Charged With Trying To Plant Cocaine On Rival",
+        "url": "https://www.kiro7.com/news/politics/missouri-candidate/Q5XTNQCC7MZH3OZQVHZLWGHGNQ/",
+        "timestamp": 1788519884394,
+        "photo": true,
+        "postedAt": 1788520468663,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Diesel Prices Hit Record High",
+        "url": "https://apnews.com/article/gas-diesel-prices-us-iran-war-ebd01b9773365ee40550dcfd7d3ebf87",
+        "timestamp": 1788519884394,
+        "postedAt": 1788520468663
+      },
+      {
+        "headline": "Hamilton County Sheriff Pauses Use Of 75 Flock License-Plate Cameras",
+        "url": "https://www.wlwt.com/article/hamilton-county-sheriff-discuss-use-of-flock-cameras-scrutiny/73603946",
+        "timestamp": 1788470040000,
+        "postedAt": 1788520468663
+      },
+      {
+        "headline": "Rubio: America Made A 'Terrible Mistake' Deindustrializing For Globalization",
+        "url": "https://www.realclearpolitics.com/video/2026/09/03/secretary_rubio_we_made_a_terrible_mistake_deindustrializing_america_over_globalization_fantasy.html",
+        "timestamp": 1788464469000,
+        "postedAt": 1788520468663
+      },
+      {
+        "headline": "Report Details Fetterman Blowing Off Paralyzed Veterans And A Children's Hospital",
+        "url": "https://www.rawstory.com/john-fetterman-2677818335/",
+        "timestamp": 1788519884394,
+        "postedAt": 1788520468663
+      }
+    ]
+  },
+  "balance": {
+    "left": 314,
+    "right": 234,
+    "independent": 2,
+    "days": 30,
+    "total": 548,
+    "pctLeft": 57,
+    "pctRight": 43
+  }
+}
