@@ -1,0 +1,441 @@
+{
+  "lastUpdated": 1788782335250,
+  "heroSetDate": "2026-09-07",
+  "hero": {
+    "headline": "AFD SEEKS CONSERVATIVE ALLIES AFTER HISTORIC GERMAN STATE ELECTION WIN",
+    "url": "https://www.reuters.com/world/europe/far-right-afd-courts-conservative-support-after-historic-german-state-election-2026-09-07/",
+    "sublinks": [
+      {
+        "text": "Exit Polls Show Far-Right Party With Commanding Lead",
+        "url": "https://www.npr.org/2026/09/06/nx-s1-5955677/german-afd-far-right-exit"
+      },
+      {
+        "text": "Analysis: AfD's 44% Result Tests Germany's 'Firewall' Doctrine",
+        "url": "https://www.axios.com/2026/09/06/afd-saxony-anhalt-germany-far-right-firewall"
+      },
+      {
+        "text": "How Russia's Hybrid Campaign Compounds Merz's AfD Problem",
+        "url": "https://www.cfr.org/articles/far-right-afd-and-russian-hybrid-campaign-pose-twin-threat-to-germanys-merz"
+      },
+      {
+        "text": "World Reacts: Musk Cheers, Tusk Despairs Over AfD Win",
+        "url": "https://www.politico.eu/article/elon-musk-donald-tusk-alternative-for-germany-afd-win-saxony-anhalt/"
+      },
+      {
+        "text": "AfD Split Over Whether To Embrace Trump As It Nears Power",
+        "url": "https://www.cnn.com/2026/09/05/europe/germany-state-election-afd-trump-russia-intl"
+      }
+    ],
+    "postedAt": 1788782335250,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "US-IRAN WAR: ESCALATION OR STANDOFF?",
+      "stories": [
+        {
+          "headline": "Will The US-Iran Standoff Escalate Or Stay Contained?",
+          "url": "https://www.straitstimes.com/world/middle-east/latest-flare-up-between-the-us-and-iran-will-there-be-major-escalation-or-just-more-of-the-same?ref",
+          "timestamp": 1788780600000,
+          "postedAt": 1788782335250
+        },
+        {
+          "headline": "Rep. Lawler: Iran War 'Certainly Not Small Potatoes'",
+          "url": "https://www.politico.com/news/2026/09/06/mike-lawler-donald-trump-small-potatoes-01066684",
+          "timestamp": 1788710760000,
+          "postedAt": 1788782335250
+        },
+        {
+          "headline": "Iranian Forces Target US Naval Drone Entering Strait Of Hormuz",
+          "url": "https://www.euronews.com/2026/09/06/iranian-forces-target-us-naval-drone-attempting-to-enter-strait-of-hormuz",
+          "timestamp": 1788686196000,
+          "postedAt": 1788693954586
+        },
+        {
+          "headline": "Iran Says It Targeted Oil Tankers In Response To US Strikes",
+          "url": "https://www.iranintl.com/en/liveblog/202609050975",
+          "timestamp": 1788685847000,
+          "postedAt": 1788693954586
+        }
+      ]
+    },
+    {
+      "title": "UKRAINE WAR AND THE STALLED PEACE PUSH",
+      "stories": [
+        {
+          "headline": "Kushner And Witkoff Visit Kyiv To Restart Peace Talks With Russia",
+          "url": "https://www.npr.org/2026/09/07/nx-s1-5959692/kushner-and-witkoff-visit-ukraine-with-hopes-of-restarting-peace-talks-with-russia",
+          "timestamp": 1788777823000,
+          "postedAt": 1788782335250
+        },
+        {
+          "headline": "What's Behind The Latest US-Russia Diplomacy On Ukraine?",
+          "url": "https://www.aljazeera.com/news/2026/9/6/putin-meets-us-envoys-whats-behind-latest-diplomacy-on-russia-ukraine-war",
+          "timestamp": 1788707565000,
+          "postedAt": 1788782335250
+        }
+      ]
+    },
+    {
+      "title": "UN BACKS EFFORT TO FIX AFRICA'S SIZE ON WORLD MAPS",
+      "stories": [
+        {
+          "headline": "UN Backs Effort To Show Africa's True Size On Maps",
+          "url": "https://www.rfi.fr/en/international/20260905-un-backs-effort-to-drop-mercator-map-and-show-size-of-africa-more-accurately",
+          "timestamp": 1788604863000,
+          "postedAt": 1788607534251
+        },
+        {
+          "headline": "Effort To Depict Africa Correctly Faces US Opposition",
+          "url": "https://www.politico.eu/article/un-backs-effort-to-depict-africa-correctly-on-maps-despite-us-opposition/",
+          "timestamp": 1788601170000,
+          "postedAt": 1788607534251
+        }
+      ]
+    },
+    {
+      "title": "NEPAL: TUNNEL RESCUES OFFER HOPE 10 DAYS AFTER DEADLY FLOODS",
+      "stories": [
+        {
+          "headline": "Chinese National Rescued From Nepal Tunnel After 10 Days",
+          "url": "https://www.reuters.com/world/china/chinese-national-rescued-nepal-tunnel-day-after-2-nepalis-pulled-out-alive-2026-09-05/",
+          "timestamp": 1788601652000,
+          "postedAt": 1788607534251
+        },
+        {
+          "headline": "Tunnel Rescue Revives Hopes Amid Flood Recovery",
+          "url": "https://www.rfi.fr/en/international-news/20260905-nepal-tunnel-rescue-revives-hopes-10-days-after-flood",
+          "timestamp": 1788598836000,
+          "postedAt": 1788607534251
+        },
+        {
+          "headline": "Nepal's Health System 'Not Prepared' For Flood Disaster",
+          "url": "https://www.npr.org/2026/09/04/nx-s1-5954050/nepal-flood-waters-physical-mental-health",
+          "timestamp": 1788554468000,
+          "postedAt": 1788607534251
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Nepal Holds Day Of Mourning As Border Flood Toll Hits 1,300",
+        "url": "https://apnews.com/article/nepal-tibet-floods-mourning-f5477d09ca1c56541450828302818d73",
+        "timestamp": 1788773820000,
+        "feature": true,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Can Tech Giants Curb AI Data Centers' Growing Thirst For Water?",
+        "url": "https://www.euronews.com/next/2026/09/07/tech-giants-claim-they-can-curb-ai-data-centres-thirst-for-water",
+        "timestamp": 1788780460000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Israeli Air Attacks Kill At Least 11 In Southern Lebanon",
+        "url": "https://www.aljazeera.com/news/2026/9/7/israeli-air-attack-kills-at-least-10-people-in-southern-lebanon",
+        "timestamp": 1788777300000,
+        "feature": true,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Russia Opens First Road Bridge With North Korea",
+        "url": "https://www.dw.com/en/russia-opens-first-road-bridge-with-north-korea/a-79142595",
+        "timestamp": 1788776362000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Angry Locals Block Beach As Mass Tourism Protests Escalate In Spain",
+        "url": "https://www.foxnews.com/travel/angry-locals-block-famous-beach-mass-tourism-protests-escalate-vacation-hot-spot",
+        "timestamp": 1788703217000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Rahul Gandhi Backs Student Protests In Maharashtra",
+        "url": "https://www.dw.com/en/india-news-rahul-gandhi-backs-student-protests-in-maharashtra/live-79043198",
+        "timestamp": 1788691385000,
+        "postedAt": 1788693954586
+      },
+      {
+        "headline": "Israel's Judicial Overhaul Fate Now Rests With Courts, Elections",
+        "url": "https://www.timesofisrael.com/coalition-scored-successes-in-judicial-overhaul-but-high-court-elections-will-decide-its-fate/",
+        "timestamp": 1788683746000,
+        "postedAt": 1788693954586
+      },
+      {
+        "headline": "Egypt Sentences TV Presenter, 11 Others To Death In Drug Case",
+        "url": "https://www.bbc.com/news/articles/c5y7gk9knnlo",
+        "timestamp": 1788681922000,
+        "postedAt": 1788693954586
+      },
+      {
+        "headline": "Anak Krakatau Eruption Forces Flight Cancellations Across Indonesia",
+        "url": "https://apnews.com/article/indonesia-volcano-eruption-airport-flights-cancel-12c3cb67859b2c51054b378d60148d33",
+        "timestamp": 1788680760000,
+        "photo": true,
+        "postedAt": 1788693954586
+      },
+      {
+        "headline": "Japan's Prince Hisahito Turns 20 As Male-Only Succession Rules Reinforced",
+        "url": "https://apnews.com/article/japan-prince-hisahito-birthday-succession-naruhito-aiko-a34222534cd81692fee238e7219c3934",
+        "timestamp": 1788656940000,
+        "photo": true,
+        "postedAt": 1788693954586
+      },
+      {
+        "headline": "How Mexico's US Trade Strategy Differs From Canada's",
+        "url": "https://amp.dw.com/en/how-will-mexicos-us-trade-strategy-differ-from-canadas/video-79045250",
+        "timestamp": 1788600649000,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "Vietnam, Myanmar Agree To Deepen Defense Ties",
+        "url": "https://www.reuters.com/world/asia-pacific/vietnam-myanmar-agree-deepen-defence-ties-during-min-aung-hlaing-visit-2026-09-05/",
+        "timestamp": 1788599509000,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "Andrew Tate Indicted In Romania For Trafficking Minors",
+        "url": "https://www.aljazeera.com/news/2026/9/4/andrew-tate-indicted-in-romania-for-trafficking-minors-money-laundering",
+        "timestamp": 1788551488000,
+        "photo": true,
+        "postedAt": 1788607534251,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Zelenskyy Says War Looks Set To Continue Into Winter",
+        "url": "https://www.dw.com/en/ukraine-zelenskyy-says-war-looks-set-to-go-on-into-winter/live-79135930",
+        "timestamp": 1788779848000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "ISW: Russian Offensive Grinds On Despite Diplomatic Push",
+        "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-september-6-2026/",
+        "timestamp": 1788743728000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "German Police Defuse 21 Explosive Devices Near Power Grid",
+        "url": "https://www.straitstimes.com/world/europe/police-in-eastern-german-state-defuse-21-explosive-devices-found-near-power-grid",
+        "timestamp": 1788777660000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Germany's Satellite Rocket Marks First Launch From Continental Europe",
+        "url": "https://www.euronews.com/next/2026/09/06/germanys-satellite-rocket-marks-first-successful-launch-from-continental-europe",
+        "timestamp": 1788692944000,
+        "postedAt": 1788693954586
+      }
+    ],
+    "center": [
+      {
+        "headline": "Israeli Strike Kills Man And Daughter In Gaza, Medics Say",
+        "url": "https://www.reuters.com/world/middle-east/israeli-strike-kills-two-people-gaza-medics-say-2026-09-06/",
+        "timestamp": 1788729582000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "EU To Crack Down On Short-Term Rentals To Cut Housing Prices",
+        "url": "https://www.politico.eu/article/eu-short-term-rentals-prices-affordable-housing-act/",
+        "timestamp": 1788777601000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Rescuers Dig Through Debris After Delhi Building Collapse Kills Seven",
+        "url": "https://www.bbc.com/news/articles/c8r6ezx1jmro",
+        "timestamp": 1788777061000,
+        "photo": true,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Why Is Kenya Cracking Down On Foreign Traders And Small Retailers?",
+        "url": "https://www.aljazeera.com/news/2026/9/7/why-is-kenya-cracking-down-on-foreign-traders-and-small-retailers",
+        "timestamp": 1788743456000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "North Korea's Kim Says New Destroyer Part Of Nuclear Response System",
+        "url": "https://www.reuters.com/world/asia-pacific/north-koreas-kim-jong-un-says-new-destroyer-will-be-part-nuclear-response-system-2026-09-06/",
+        "timestamp": 1788730320000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Farage Ally Says He'd Use Military To 'Crush' Argentina Over Falklands",
+        "url": "https://www.politico.eu/article/nigel-farage-would-use-military-crush-argentina-falklands-dispute-senior-ally-says/",
+        "timestamp": 1788623700000,
+        "postedAt": 1788693954586
+      },
+      {
+        "headline": "Netanyahu Calls Qatar A 'Hostile State' Amid Iran Tensions",
+        "url": "https://www.euronews.com/2026/09/06/netanyahu-calls-qatar-hostile-state-as-doha-pushes-back-against-iran",
+        "timestamp": 1788693323000,
+        "photo": true,
+        "postedAt": 1788693954586,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Iran Sentences Twin Sisters To Death Over Protest Role",
+        "url": "https://www.theguardian.com/world/2026/sep/06/taraneh-romina-rahimi-twin-sisters-jailed-over-iran-protests",
+        "timestamp": 1788690240000,
+        "feature": true,
+        "postedAt": 1788693954586
+      },
+      {
+        "headline": "Police Slow To Respond To Dover Protest, Council Says",
+        "url": "https://www.bbc.com/news/articles/cew9dq9we5eo",
+        "timestamp": 1788688437000,
+        "postedAt": 1788693954586
+      },
+      {
+        "headline": "Fighter Jet Crashes At Air Show, Killing Two Pilots",
+        "url": "https://www.foxnews.com/world/fighter-jet-crashes-air-show-killing-2-pilots-thousands-spectators-watching",
+        "timestamp": 1788639414000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1788693954586,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "El Nino And Wars Fuel Triple Food Crisis",
+        "url": "https://www.dw.com/en/el-ni%C3%B1o-and-wars-fuel-triple-food-crisis/video-79046282",
+        "timestamp": 1788606580000,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "Report: Israeli PM Delayed Reaching Army HQ On Oct. 7",
+        "url": "https://www.timesofisrael.com/report-pm-didnt-leave-his-home-for-army-hq-until-2-hours-after-oct-7-invasion-began/",
+        "timestamp": 1788606225000,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "Farage Aides Resign Amid Donation Scandal Sting",
+        "url": "https://www.cbsnews.com/news/nigel-farage-aides-uk-donation-scandal/",
+        "timestamp": 1788557160000,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "AfD Courts Families At Magdeburg Campaign Festival",
+        "url": "https://www.euronews.com/my-europe/2026/09/05/final-sprint-before-saxony-anhalt-vote-afd-campaign-family-festival-in-magdeburg",
+        "timestamp": 1788602145000,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "Rescuers Pull Two Survivors From Flood Debris After 10 Days",
+        "url": "https://apnews.com/article/nepal-floods-chinese-national-alive-f9a6d181a30af8366700e47e498ec3b1",
+        "timestamp": 1788600900000,
+        "feature": true,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "Defence Officials Warn Europe Is Failing To Deter Russia's Hybrid War",
+        "url": "https://www.theguardian.com/world/2026/sep/05/europe-unable-sustain-war-of-attrition-russia-defence-officials-say",
+        "timestamp": 1788724805000,
+        "postedAt": 1788782335250
+      }
+    ],
+    "right": [
+      {
+        "headline": "Ceuta Border Breach Has Pushed Spain To Breaking Point",
+        "url": "https://www.spiked-online.com/2026/09/06/the-invasion-of-ceuta-has-driven-spain-to-breaking-point/",
+        "timestamp": 1788702913000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Jaguar Land Rover To Cut 4,000 Jobs As European Car Sector Slumps",
+        "url": "https://www.rfi.fr/en/international-news/20260907-jaguar-land-rover-to-cut-4-000-jobs-as-european-car-sector-hits-skids",
+        "timestamp": 1788778840000,
+        "feature": true,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Thousands Gather In Belgrade For Ratko Mladic's Funeral",
+        "url": "https://www.reuters.com/world/thousands-gather-belgrade-funeral-convicted-war-criminal-ratko-mladic-2026-09-07/",
+        "timestamp": 1788778183000,
+        "photo": true,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Finland: Trial Begins For Man Accused Of Abusing 361 Children Online",
+        "url": "https://www.breitbart.com/europe/2026/09/07/finland-trial-begins-against-man-accused-of-sexually-abusing-361-children-online/amp/",
+        "timestamp": 1788776370000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "Jamaica To Bring Slavery Reparations Petition To King Charles",
+        "url": "https://www.bbc.com/news/articles/clyqvkyekkeo",
+        "timestamp": 1788712785000,
+        "photo": true,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "How Significant Are Yemeni Government's Gains Against Houthis?",
+        "url": "https://www.aljazeera.com/news/2026/9/6/how-significant-are-the-yemeni-governments-military-gains-against-the-houthis",
+        "timestamp": 1788703245000,
+        "postedAt": 1788782335250
+      },
+      {
+        "headline": "US STRIKES IRANIAN TANKER NEAR KHARG ISLAND AS GULF WAR ESCALATES",
+        "url": "https://www.reuters.com/world/middle-east/explosions-heard-near-irans-kharg-island-gulf-origin-unknown-fars-news-says-2026-09-05/",
+        "timestamp": 1788607534251,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "Frankfurt Airport Workers Die After Malaria Infections",
+        "url": "https://www.dw.com/en/frankfurt-airport-workers-die-after-malaria-infection/a-78512056",
+        "timestamp": 1788682378000,
+        "postedAt": 1788693954586
+      },
+      {
+        "headline": "Over 60 Killed As Houthis Battle Saudi-Backed Forces Near Red Sea",
+        "url": "https://www.timesofisrael.com/over-60-killed-in-yemen-as-houthis-battle-saudi-backed-forces-near-red-sea-gateway/",
+        "timestamp": 1788627420000,
+        "postedAt": 1788693954586
+      },
+      {
+        "headline": "Balaclava-Clad Protesters Block Road At Port Of Dover",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/05/black-clad-protesters-balaclavas-block-road-port-of-dover-kent",
+        "timestamp": 1788603960000,
+        "photo": true,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "US Ambassador Visits Palestinian Town Amid Settler Violence",
+        "url": "https://www.reuters.com/world/middle-east/us-ambassador-visits-palestinian-town-amid-rise-west-bank-settler-violence-2026-09-05/",
+        "timestamp": 1788599866000,
+        "photo": true,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "Guerrilla Drone Attack Kills Two In Colombia",
+        "url": "https://www.afp.com/en/guerrilla-drone-attack-kills-two-colombia",
+        "timestamp": 1788597772000,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "Philippine VP Duterte Posts Bail After Grave-Threats Arrest Order",
+        "url": "https://www.reuters.com/world/asia-pacific/philippine-vp-duterte-posts-bail-after-arrest-order-alleged-grave-threats-2026-09-05/",
+        "timestamp": 1788590040000,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "Trump's Response Awaited As Argentina's Falklands Demands Grow",
+        "url": "https://www.bbc.com/news/articles/c980g0g7yyjo",
+        "timestamp": 1788589204000,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "Bolivia Military Base Explosion Kills At Least 2, 14 Missing",
+        "url": "https://www.reuters.com/world/americas/explosion-bolivia-military-base-kills-least-10-official-says-2026-09-05/",
+        "timestamp": 1788571920000,
+        "postedAt": 1788607534251
+      },
+      {
+        "headline": "Lavrov Warns Germany Is Moving Toward War With Russia",
+        "url": "https://www.freemalaysiatoday.com/category/highlight/2026/09/07/lavrov-warns-germany-moving-towards-war-with-russia",
+        "timestamp": 1788715383000,
+        "postedAt": 1788782335250
+      }
+    ]
+  }
+}

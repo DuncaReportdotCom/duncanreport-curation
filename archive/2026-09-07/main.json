@@ -1,0 +1,447 @@
+{
+  "lastUpdated": 1788781467928,
+  "heroSetDate": "2026-09-07",
+  "hero": {
+    "headline": "CARGO PLANE OVERRUNS RUNWAY AT MIAMI AIRPORT, KILLING AT LEAST 5",
+    "url": "https://apnews.com/article/cargo-plane-crash-miami-airport-amazon-prime-d5118998e880f380a3fd8786e35fd9bb",
+    "sublinks": [],
+    "postedAt": 1788781467928,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "GAS PRICES AND TARIFFS SQUEEZE CONSUMERS",
+      "stories": [
+        {
+          "headline": "Diesel Prices Soar 60%",
+          "url": "https://www.cnbc.com/2026/09/04/diesel-price-record-high-ukraine-iran-inflation.html",
+          "timestamp": 1788781044218,
+          "postedAt": 1788781467928
+        },
+        {
+          "headline": "Canada: Retaliatory Tariffs Take Effect As Trump Threatens To Escalate",
+          "url": "https://www.nytimes.com/2026/09/07/world/canada/tariffs-trade-war-carney-trump.html?unlocked_article_code=1._VA.Wkt-.1moW7oEE6gaf&smid=url-share",
+          "timestamp": 1788781044218,
+          "postedAt": 1788781467928
+        },
+        {
+          "headline": "Venezuela Oil Deal Won't Cut Gas Prices Anytime Soon, Experts Say",
+          "url": "https://www.pbs.org/newshour/economy/u-s-venezuela-oil-deal-wont-reduce-domestic-gasoline-prices-anytime-soon-experts-say",
+          "timestamp": 1788628660000,
+          "postedAt": 1788781467928
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR: ESCALATION AND MIXED MESSAGING",
+      "stories": [
+        {
+          "headline": "Iran Vows To Expand Control Of Strait Of Hormuz As Oil Prices Climb",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/",
+          "timestamp": 1788777960000,
+          "postedAt": 1788781467928
+        },
+        {
+          "headline": "Rep. Lawler: Iran War 'Certainly Not Small Potatoes'",
+          "url": "https://www.politico.com/news/2026/09/06/mike-lawler-donald-trump-small-potatoes-01066684",
+          "timestamp": 1788710760000,
+          "postedAt": 1788781467928
+        }
+      ]
+    },
+    {
+      "title": "FETTERMAN FALLOUT CONTINUES",
+      "stories": [
+        {
+          "headline": "Pennsylvania Democrat Says He 'Might' Challenge Fetterman In 2028",
+          "url": "https://thehill.com/homenews/campaign/6074036-deluzio-challenges-fetterman-2028/",
+          "timestamp": 1788722160000,
+          "postedAt": 1788781467928
+        },
+        {
+          "headline": "Fetterman Accuses 'Disgruntled Staffers' Of Spreading 'Lies'",
+          "url": "https://www.motherjones.com/politics/2026/09/john-fetterman-staffers-wall-street-journal-cnn/",
+          "timestamp": 1788690240000,
+          "postedAt": 1788781467928
+        }
+      ]
+    },
+    {
+      "title": "GOP EYES MIDTERMS AMID TRUMP'S LOW APPROVAL",
+      "stories": [
+        {
+          "headline": "Republicans Find No Escape From Trump Ahead Of Midterms",
+          "url": "https://www.news24.com.au/politics/us-politics/donald-trump-to-hit-the-campaign-trail-for-republicans-ahead-of-the-midterms/video/8c0cb5db1e4deacb1f0ae28574d7638b",
+          "timestamp": 1788685486000,
+          "postedAt": 1788781467928
+        },
+        {
+          "headline": "How Popular Is Donald Trump, Really?",
+          "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+          "timestamp": 1788526500000,
+          "postedAt": 1788781467928
+        },
+        {
+          "headline": "Trump Signs Order Removing Endangered Species Status For Gray Wolves",
+          "url": "https://www.bbc.com/news/articles/c62k677d4lzo",
+          "timestamp": 1788599568000,
+          "postedAt": 1788606696954
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "WITKOFF, KUSHNER PUSH UKRAINE DIPLOMACY FROM MOSCOW TO KYIV",
+        "url": "https://www.theguardian.com/world/2026/sep/06/ukraine-war-briefing-zelenskyy-links-russian-strikes-on-kyiv-airports-to-us-envoys-visit",
+        "timestamp": 1788693281819,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Giuliani Says Mamdani Should Skip 9/11 Memorial",
+        "url": "https://www.newser.com/story/395995/giuliani-urges-mamdani-to-skip-911-memorial-events.html",
+        "timestamp": 1788765480000,
+        "postedAt": 1788781467928
+      },
+      {
+        "headline": "Trump Shares Map Renaming New Mexico As 'New America'",
+        "url": "https://sourcenm.com/2026/09/06/new-mexico-officials-reject-trump-post-proposing-state-name-change/",
+        "timestamp": 1788748560000,
+        "postedAt": 1788781467928
+      },
+      {
+        "headline": "EU To Give Greenland Cash Boost Amid Trump Annexation Drive",
+        "url": "https://www.reuters.com/world/eu-give-greenland-cash-boost-amid-trump-annexation-drive-2026-09-06/",
+        "timestamp": 1788739020000,
+        "postedAt": 1788781467928
+      },
+      {
+        "headline": "Nearly 70 Arrested In Massive LA Street Takeover Event",
+        "url": "https://www.independent.co.uk/news/world/americas/crime/los-angeles-street-takeover-arrests-b3045556.html",
+        "timestamp": 1788714540000,
+        "photo": true,
+        "postedAt": 1788781467928,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "August Jobs Report Puts Focus Back On Inflation",
+        "url": "https://www.pbs.org/newshour/economy/hiring-burst-of-162000-jobs-in-august-puts-the-focus-squarely-back-on-inflation-in-the-u-s",
+        "timestamp": 1788533121000,
+        "postedAt": 1788781467928
+      },
+      {
+        "headline": "Pentagon Gives Polygraph Tests To Joint Staff In Leak Hunt",
+        "url": "https://www.nytimes.com/2026/09/04/us/politics/pentagon-staff-polygraph-tests.html?unlocked_article_code=1.-1A.EX4B.0pbX9TRqaJM9&smid=url-share",
+        "timestamp": 1788692776764,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "DOJ Investigation Widens Into Fauci And Other Virus Scientists",
+        "url": "https://www.nytimes.com/2026/09/05/health/fauci-morens-covid-prosecutions.html?unlocked_article_code=1.-1A.cXEe.nhHGowsvcUEC&smid=url-share",
+        "timestamp": 1788692776765,
+        "postedAt": 1788693281818
+      },
+      {
+        "headline": "AI Agents Conspired To Escape Their Cage, Researchers Say",
+        "url": "https://www.yahoo.com/news/science/articles/ai-agents-conspired-escape-cage-053000682.html",
+        "timestamp": 1788692776765,
+        "postedAt": 1788693281818
+      },
+      {
+        "headline": "UN Endorses New World Map Showing Africa's True Size",
+        "url": "https://www.cbsnews.com/news/united-nations-map-vote-change-africa-size/",
+        "timestamp": 1788679762000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "What Happens Next After The Mistrial",
+        "url": "https://abc7.com/story/lindsay-clancy-trial-declared-mistrial-what-happens/19790870/?userab",
+        "timestamp": 1788592158000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Fake GOP Convention Website Redirects Visitors To Epstein Files",
+        "url": "https://www.nytimes.com/2026/09/04/us/politics/republican-midterm-convention-epstein-files.html?unlocked_article_code=1.-lA.yUke.CZ3H9jtuqEOC&smid=url-share",
+        "timestamp": 1788606221205,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Judge Won't Block Pentagon From Firing Stars And Stripes Staffers",
+        "url": "https://www.politico.com/news/2026/09/04/judge-refuses-to-block-pentagon-from-firing-stars-and-stripes-staffers-over-cbs-interview-01066357",
+        "timestamp": 1788571440000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Republicans Ask Supreme Court To Overturn Missouri Redistricting Ruling",
+        "url": "https://missouriindependent.com/2026/09/04/missouri-secretary-of-state-asks-court-to-pause-congressional-map-ruling/",
+        "timestamp": 1788555928000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Ranchers Now Allowed To Kill The Once-Protected Wolves",
+        "url": "https://www.mediaite.com/media/news/trump-gives-reluctant-ranchers-the-go-ahead-to-take-care-of-endangered-species-you-can-shoot-them-as-of-today/",
+        "timestamp": 1788606221205,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Absence Marks Her Latest High-Profile Snub",
+        "url": "https://www.the-independent.com/b3044892.html",
+        "timestamp": 1788606221205,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "GOP Bets On 'Trumpapalooza' Rallies To Defy Midterm History",
+        "url": "https://www.realclearpolitics.com/articles/2026/09/06/gop_bets_on_trumpapalooza_to_defy_midterm_history_154479.html",
+        "timestamp": 1788670800000,
+        "postedAt": 1788781467928
+      }
+    ],
+    "center": [
+      {
+        "headline": "Armed Man Lunges At Ohio Governor Candidate Amy Acton",
+        "url": "https://apnews.com/article/election-2026-ohio-acton-attack-92abb7d809134b43630e01e25b3b9125",
+        "timestamp": 1788781044219,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1788781467928
+      },
+      {
+        "headline": "High Surf Warning Issued As Hurricane Lowell Moves Toward Hawaii",
+        "url": "https://bigislandnow.com/2026/09/06/lowell-now-a-powerful-category-3-hurricane-some-fluctuations-in-intensity-possible-through-early-sunday/",
+        "timestamp": 1788777234000,
+        "postedAt": 1788781467928
+      },
+      {
+        "headline": "Trump Administration Again Appeals Mail-In Ballot Dispute To Supreme Court",
+        "url": "https://www.scotusblog.com/2026/09/trump-administration-again-appeals-mail-in-ballot-dispute-to-the-supreme-court/",
+        "timestamp": 1788716373000,
+        "feature": true,
+        "postedAt": 1788781467928
+      },
+      {
+        "headline": "Storms Pound North Carolina, Leave Trail Of Damage And Power Outages",
+        "url": "https://abc11.com/post/severe-weather-nc-storms-pound-wake-durham-fayetteville-moore-counties-leave-trail-damage-power-outages/19796885/",
+        "timestamp": 1788705019000,
+        "photo": true,
+        "postedAt": 1788781467928
+      },
+      {
+        "headline": "Wisconsin Woman Becomes First Trans Lesbian Dean In The Episcopal Church",
+        "url": "https://notthebee.com/article/wisconsin-woman-becomes-first-trans-lesbian-dean-in-the-episcopal-church/",
+        "timestamp": 1788697265000,
+        "postedAt": 1788781467928
+      },
+      {
+        "headline": "FETTERMAN TEXTS REVEAL RELUCTANCE TO PERFORM SENATOR'S DUTIES, REPORT FINDS",
+        "url": "https://www.cbsnews.com/news/john-fetterman-texts-reluctance-performing-basic-constituent-service-duties/",
+        "timestamp": 1788606696954,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "U.S. Strikes Three Iranian Tankers After Navy Ships Targeted",
+        "url": "https://apnews.com/article/iran-us-war-oil-tankers-b3650799901c56a6deeca962cbaa4109",
+        "timestamp": 1788675272000,
+        "feature": true,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Mel Gibson Says 'Resurrection' Will Explore The 'Hell Of The Just'",
+        "url": "https://www.christianpost.com/news/mel-gibson-says-resurrection-will-explore-different-realms.html",
+        "timestamp": 1788692776765,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Israel Loses Nearly 1,400 Doctors To Medical Brain Drain",
+        "url": "https://www.ynetnews.com/health_science/article/bjsin3quze",
+        "timestamp": 1788689817000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Judge Reinforces Halt On Trump's 250-Foot Arch Project",
+        "url": "https://www.usatoday.com/story/news/politics/2026/09/05/judge-reinforces-order-halting-immediate-work-on-trumps-arch/91629157007/",
+        "timestamp": 1788653100000,
+        "photo": true,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Venezuelan Billionaire Once Probed For Money Laundering Lands Pentagon Oil Deal",
+        "url": "https://www.reuters.com/business/energy/venezuelan-billionaire-us-investigated-money-laundering-now-has-pentagon-oil-2026-09-05/",
+        "timestamp": 1788646182000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Trump Reshuffles RNC Convention Schedule, Will Speak Night One",
+        "url": "https://thehill.com/homenews/campaign/6073371-trump-to-speak-night-one/",
+        "timestamp": 1788640920000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Report Details Rush To Pull Gold Out Of America",
+        "url": "https://www.zerohedge.com/markets/rush-pull-gold-out-us",
+        "timestamp": 1788606221206,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Squalid Seattle Homeless Shanty Town Grows To Several Acres",
+        "url": "https://www.dailymail.com/news/article-16105323",
+        "timestamp": 1788606221206,
+        "photo": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Commerce Secretary Lutnick Made Over $250 Million Last Year",
+        "url": "https://au.news.yahoo.com/howard-lutnick-made-more-250-180314482.html",
+        "timestamp": 1788606221205,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "AOC Made Socialism Cool, Now Socialists Want Her Gone",
+        "url": "https://www.theblaze.com/columns/opinion/aoc-made-socialism-cool-now-the-socialists-want-her-gone",
+        "timestamp": 1788606130000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Police Release Video Of Murdered Pennsylvania College Student Found In Car",
+        "url": "https://nypost.com/2026/09/05/us-news/pennsylvania-college-student-karoline-heintz-discovery-police-bodycam-footage-released/",
+        "timestamp": 1788586320000,
+        "photo": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "First Lady Will Not Attend The Republican Midterm Convention",
+        "url": "https://www.washingtonexaminer.com/news/white-house/4712727/melania-trump-not-attending-midterm-convention/",
+        "timestamp": 1788575400000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Trump's MAGA Inc Sends $10M To Texas In First General Election Spend",
+        "url": "https://www.politico.com/news/2026/09/05/trump-maga-midterms-republicans-01066625",
+        "timestamp": 1788642900000,
+        "postedAt": 1788693281819
+      }
+    ],
+    "right": [
+      {
+        "headline": "Trump Debuts Darker Hair, Sparking Online Buzz",
+        "url": "https://www.foxnews.com/politics/trump-appears-debut-darker-hair-sparking-online-buzz",
+        "timestamp": 1788737988000,
+        "photo": true,
+        "postedAt": 1788781467928,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "California Flight Instructor Danna Eady And Two Sons Killed In Fresno Plane Crash",
+        "url": "https://nypost.com/2026/09/06/us-news/california-flight-instructor-danna-eady-and-two-sons-killed-in-fresno-plane-crash/",
+        "timestamp": 1788737280000,
+        "photo": true,
+        "postedAt": 1788781467928
+      },
+      {
+        "headline": "Washington Blocks New Trump Mail Voting Rules For Midterms",
+        "url": "https://komonews.com/news/local/washington-blocks-new-trump-mail-voting-rules-keeping-midterm-election-procedures-intact-usps-ballot-voting-president-trump-fraud-steal-rule-change-us-sen-maria-cantwell-secretary-of-state-steve-hobbs",
+        "timestamp": 1788656548000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Teen Bound For Priesthood Says Tumor Shrank After Vision Of Virgin Mary",
+        "url": "https://nypost.com/2026/09/05/lifestyle/nj-teen-set-on-priesthood-had-virgin-mary-vision-before-tumor-shrank/",
+        "timestamp": 1788692776766,
+        "postedAt": 1788693281818
+      },
+      {
+        "headline": "Trump Reportedly Tries Out Brunette Hair Dye",
+        "url": "https://www.themirror.com/news/us-news/trump-debuts-new-darker-hair-2011516",
+        "timestamp": 1788692776764,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Hunter Biden Says He 'May Have To' Run For President",
+        "url": "https://nypost.com/2026/09/05/us-news/hunter-biden-announces-he-may-have-to-run-for-president-during-radio-interview/",
+        "timestamp": 1788692776764,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Why I Played 'Zip-A-Dee-Doo-Dah' At A Funeral",
+        "url": "https://www.theblaze.com/columns/opinion/why-i-played-zip-a-dee-doo-dah-at-a-funeral",
+        "timestamp": 1788690646000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Hurricane Marie To Shape Southern California Weather Into Next Week",
+        "url": "https://ktla.com/weather/hurricane-marie-to-impact-southern-california-weather-into-next-week/",
+        "timestamp": 1788666487000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Miami Steakhouse Manager Accused Of Stabbing Mother To Death",
+        "url": "https://nypost.com/2026/09/05/us-news/manager-of-ritzy-miami-steakhouse-accused-of-stabbing-mom-to-death-inside-luxury-high-rise-apartment/",
+        "timestamp": 1788659520000,
+        "photo": true,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "South Carolina Judge Denies Bond To Saylor Hayes' Parents",
+        "url": "https://nypost.com/2026/09/05/us-news/south-carolina-magistrate-rips-into-saylor-hayes-parents-denies-them-bond/",
+        "timestamp": 1788658740000,
+        "postedAt": 1788693281819
+      },
+      {
+        "headline": "Retired General Calls The Monument A 'Sacrilege'",
+        "url": "https://www.pbs.org/newshour/show/retired-general-calls-trumps-proposed-arch-near-arlington-a-sacrilege",
+        "timestamp": 1788561328000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Trump Says He'll Halt Trade With Nations If Fed Won't Cut Rates",
+        "url": "https://www.cnbc.com/2026/09/04/trump-fed-rates-jobs-trade.html",
+        "timestamp": 1788606221206,
+        "feature": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Musk To Be Unmasked In High-Stakes New Documentary",
+        "url": "https://www.hollywoodreporter.com/movies/movie-features/elon-musk-alex-gibney-documentary-1236686790/",
+        "timestamp": 1788606221205,
+        "photo": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Feds Open Probe Into Tesla's Cybercab Rollout",
+        "url": "https://www.nbcdfw.com/news/national-international/feds-probe-musk-tesla-cybercab-steering-wheel-free-taxis/4072812/",
+        "timestamp": 1788606221205,
+        "feature": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Activist Called For Trump's Assassination, Feds Say",
+        "url": "https://www.theblaze.com/news/podcaster-threat-kill-trump-sekulow",
+        "timestamp": 1788605859000,
+        "feature": true,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Hollywood's New Playbook For Red States",
+        "url": "https://www.dailywire.com/news/hollywoods-new-playbook-for-the-red-states",
+        "timestamp": 1788604563000,
+        "postedAt": 1788606696954
+      },
+      {
+        "headline": "Detroit Mayor Confirms Tornado Hit City In Thursday Storms",
+        "url": "https://www.freep.com/story/weather/2026/09/04/metro-detroit-cleans-up-after-severe-storms-possible-tornado-hit-area--live/91607540007/",
+        "timestamp": 1788565260000,
+        "photo": true,
+        "postedAt": 1788606696954
+      }
+    ]
+  },
+  "balance": {
+    "left": 332,
+    "right": 249,
+    "independent": 3,
+    "days": 30,
+    "total": 581,
+    "pctLeft": 57,
+    "pctRight": 43
+  }
+}
