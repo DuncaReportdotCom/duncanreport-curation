@@ -1,0 +1,450 @@
+{
+  "lastUpdated": 1788868300506,
+  "heroSetDate": "2026-09-08",
+  "hero": {
+    "headline": "CANADA'S RETALIATORY TARIFFS TAKE EFFECT AS TRUMP FUELS TRADE RIFT WITH ANNEXATION MAP",
+    "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
+    "sublinks": [
+      {
+        "text": "Trump responds with map showing U.S. flag over Canada, Greenland and Mexico",
+        "url": "https://thehill.com/homenews/administration/6075255-trump-map-territorial-ambitions/"
+      },
+      {
+        "text": "Analysis: how Canada is striking back against the tariffs",
+        "url": "https://www.realclearpolitics.com/2026/09/08/canada_strikes_back_710288.html"
+      },
+      {
+        "text": "Former Canadian finance minister on what the trade war means",
+        "url": "https://www.npr.org/2026/09/08/nx-s1-5955613/former-canadian-minister-of-finance-discusses-trade-war-between-the-u-s-and-canada"
+      }
+    ],
+    "postedAt": 1788868300506,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "NEW HAMPSHIRE PRIMARY TESTS TRUMP AND THE LEFT",
+      "stories": [
+        {
+          "headline": "Tuesday's Primary Puts Trump And The Left To The Test",
+          "url": "https://www.nbcnews.com/politics/2026-election/new-hampshire-primaries-test-trump-left-rcna596109",
+          "timestamp": 1788858000000,
+          "postedAt": 1788868300506
+        },
+        {
+          "headline": "Controversy Swirls Around Trump's Venezuela Business Partner",
+          "url": "https://thehill.com/policy/energy-environment/6072632-trump-venezuelan-oil-deal/",
+          "timestamp": 1788688800000,
+          "postedAt": 1788695093519
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR ESCALATES AS OIL NEARS $100 A BARREL",
+      "stories": [
+        {
+          "headline": "Analysis: Iran Wants War With America To Save Itself From Its Own People",
+          "url": "https://www.washingtonexaminer.com/op-eds/4714651/us-strategy-defeat-iran-regime-without-war/",
+          "timestamp": 1788865200000,
+          "postedAt": 1788868300506
+        },
+        {
+          "headline": "Iran Threatens New Escalation As U.S. Pressure Mounts",
+          "url": "https://www.newsnationnow.com/video/iran-threatens-new-escalation-as-us-pressure-mounts-morning-in-america/12146861/",
+          "timestamp": 1788865159000,
+          "postedAt": 1788868300506
+        },
+        {
+          "headline": "Oil Nears $100 A Barrel As Strait Of Hormuz Stalemate Persists",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/",
+          "timestamp": 1788845460000,
+          "feature": true,
+          "postedAt": 1788868300506
+        }
+      ]
+    },
+    {
+      "title": "KUSHNER, WITKOFF PUSH TO RESTART UKRAINE PEACE TALKS",
+      "stories": [
+        {
+          "headline": "Kushner And Witkoff Meet Ukrainian Officials In Kyiv",
+          "url": "https://www.npr.org/2026/09/07/nx-s1-5959692/kushner-and-witkoff-visit-ukraine-with-hopes-of-restarting-peace-talks-with-russia",
+          "timestamp": 1788777823000,
+          "postedAt": 1788783631496
+        },
+        {
+          "headline": "US Envoys Present 'More Effective' Peace Proposals",
+          "url": "https://www.france24.com/en/europe/20260907-us-envoys-more-effective-ukraine-peace-proposals-kyiv",
+          "timestamp": 1788741088000,
+          "postedAt": 1788783631496
+        }
+      ]
+    },
+    {
+      "title": "LINDSAY CLANCY MISTRIAL: AFTERMATH",
+      "stories": [
+        {
+          "headline": "Fundraiser For Clancy's Parents Tops $1.1 Million",
+          "url": "https://www.rollingstone.com/culture/culture-news/fundraiser-lindsay-clancy-parents-1-million-mistrial-1235622158/",
+          "timestamp": 1788635148000,
+          "postedAt": 1788695093519
+        },
+        {
+          "headline": "Key Things To Know About Clancy Case After Mistrial",
+          "url": "https://www.pbs.org/newshour/nation/key-things-to-know-about-lindsay-clancys-case-after-judge-declares-mistrial",
+          "timestamp": 1788550901000,
+          "postedAt": 1788695093519
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "TRUMP ADMIN RENEWS SUPREME COURT BID TO RESTRICT MAIL VOTING AHEAD OF MIDTERMS",
+        "url": "https://www.scotusblog.com/2026/09/trump-administration-again-appeals-mail-in-ballot-dispute-to-the-supreme-court/",
+        "timestamp": 1788783631496,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Poll: GOP's Latino Gains Fade In House Battleground Districts",
+        "url": "https://www.axios.com/2026/09/08/poll-latino-voters-trump-gains-fade",
+        "timestamp": 1788858536000,
+        "postedAt": 1788868300506
+      },
+      {
+        "headline": "Trump Envoys Confronted Over Putin Talks During Kyiv Visit",
+        "url": "https://www.independent.co.uk/news/world/europe/trump-envoys-putin-kushner-witkoff-kyiv-moscow-confront-b3046094.html",
+        "timestamp": 1788796680000,
+        "photo": true,
+        "postedAt": 1788868300506,
+        "image": "/img/politics-2.jpg"
+      },
+      {
+        "headline": "Legal Veterans Mobilize Against Trump's 'Full-Out Assault On Democracy'",
+        "url": "https://www.theguardian.com/us-news/2026/sep/07/trump-midterm-elections-rule-of-law-democracy",
+        "timestamp": 1788782400000,
+        "postedAt": 1788868300506
+      },
+      {
+        "headline": "Trump Officials Draft Plan To Pay At-Home Parents",
+        "url": "https://gvwire.com/2026/09/06/trump-officials-draft-plan-to-pay-at-home-parents-using-funds-for-working-ones/",
+        "timestamp": 1788629438000,
+        "postedAt": 1788868300506
+      },
+      {
+        "headline": "Report: South Korea, US Agree On $22.3B Texas Gas Plant Investment",
+        "url": "https://www.newsmax.com/politics/sputh-korea-texas-gas/2026/09/07/id/1268566/",
+        "timestamp": 1788779893000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Wisconsin Democrats Aim For Control After Gerrymander Struck Down",
+        "url": "https://cryptobriefing.com/wisconsin-democrats-target-legislative-control-after-redistricting-boost/",
+        "timestamp": 1788771631000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Mexico: US Curbs Government Travel To Border City Over Threat Concerns",
+        "url": "https://www.foxnews.com/world/us-restricts-government-travel-mexican-border-city-threat-concerns",
+        "timestamp": 1788755643000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Armed Man Arrested After Lunging At Ohio Governor Candidate Amy Acton",
+        "url": "https://www.dispatch.com/story/news/politics/2026/09/06/armed-man-attacks-ohio-governor-candidate-amy-acton-several-injured/91644512007/",
+        "timestamp": 1788748200000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Hinojosa Welcomes Attention After Trump's $10M Paxton Investment",
+        "url": "https://thehill.com/homenews/campaign/6074013-hinojosa-texas-elections-democrats-tossup-attention/",
+        "timestamp": 1788722400000,
+        "photo": true,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Missouri Election 'Crisis': Supreme Court Faults One State Official",
+        "url": "https://www.stltoday.com/news/local/government-politics/article_e84fc694-888c-493d-947b-db809e7e9781.html",
+        "timestamp": 1788699600000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Trump Administration Stalled PFAS Wastewater Survey, Ex-EPA Officials Say",
+        "url": "https://www.pbs.org/newshour/politics/trump-administration-stalled-a-survey-of-pfas-in-wastewater-former-epa-officials-say",
+        "timestamp": 1788561931000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Republican Candidate Arrested Over Alleged Plot To Plant Drugs On Primary Rival",
+        "url": "https://www.theblaze.com/news/plant-drugs-republican-primary-missouri",
+        "timestamp": 1788693649000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1788695093519
+      },
+      {
+        "headline": "Judge Reinforces Order Halting Work On Trump's 250-Foot Arch",
+        "url": "https://www.usatoday.com/story/news/politics/2026/09/05/judge-reinforces-order-halting-immediate-work-on-trumps-arch/91629157007/",
+        "timestamp": 1788653100000,
+        "photo": true,
+        "postedAt": 1788695093519
+      },
+      {
+        "headline": "Trump Administration Drafting Post-War Middle East Plan",
+        "url": "https://www.axios.com/2026/09/04/trump-middle-east-iran-post-war-strategy",
+        "timestamp": 1788544823000,
+        "postedAt": 1788695093519
+      },
+      {
+        "headline": "Will The Shaheen Family Retain Its Senate Seat?",
+        "url": "https://www.politico.com/news/2026/09/08/shaheen-new-hampshire-01066554",
+        "timestamp": 1788861300000,
+        "postedAt": 1788868300506
+      }
+    ],
+    "center": [
+      {
+        "headline": "What To Watch As Republicans Gather In Dallas For Trump's Convention",
+        "url": "https://apnews.com/article/trump-republican-midterm-convention-what-to-watch-58c69a86f10e5147735f1486af88604b",
+        "timestamp": 1788863460000,
+        "photo": true,
+        "postedAt": 1788868300506
+      },
+      {
+        "headline": "Petition To Bar Mamdani From 9/11 Ceremony Tops 100,000 Signatures",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/09/08/petition-urging-mamdanis-exclusion-from-911-event-hits-100000-signs-amid-similar-push-by-giuliani-pataki/",
+        "timestamp": 1788858273000,
+        "photo": true,
+        "postedAt": 1788868300506
+      },
+      {
+        "headline": "Gallup: Americans' Satisfaction With Schools Hits New Low",
+        "url": "https://apnews.com/article/education-poll-public-school-gallup-2e2826f7508e7b13fb62690e8f4ec71f",
+        "timestamp": 1788843260000,
+        "postedAt": 1788868300506
+      },
+      {
+        "headline": "UAE Builds Alternative Trade And Energy Routes After Iran Attacks",
+        "url": "https://www.newsmax.com/world/globaltalk/uae-alternative-routes-trade/2026/09/07/id/1268570/",
+        "timestamp": 1788781237000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Purple-State Candidates Tout Cross-Party Endorsements To Woo Swing Voters",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4713343/candidates-purple-states-cross-party-endorsement-appeal-independent-voters/",
+        "timestamp": 1788778800000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Trump Shares Map Renaming New Mexico As 'New America'",
+        "url": "https://time.com/article/2026/09/07/trump-shares-map-renaming-new-mexico-as-new-america-amid-uproar/",
+        "timestamp": 1788748560000,
+        "photo": true,
+        "postedAt": 1788783631496,
+        "image": "/img/politics-3.jpg"
+      },
+      {
+        "headline": "Pennsylvania Democrat Says He 'Might' Challenge Fetterman In 2028",
+        "url": "https://thehill.com/homenews/campaign/6074036-deluzio-challenges-fetterman-2028/",
+        "timestamp": 1788722160000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Analysis: Does Trump Really Want To Win The Midterms?",
+        "url": "https://www.realclearpolitics.com/articles/2026/09/07/does_trump_really_want_to_win_the_midterms_154477.html",
+        "timestamp": 1788714000000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Analysis: GOP Bets On 'Trumpapalooza' To Defy Midterm History",
+        "url": "https://www.realclearpolitics.com/articles/2026/09/06/gop_bets_on_trumpapalooza_to_defy_midterm_history_154479.html",
+        "timestamp": 1788645600000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Judge Lets Minnesota Enforce Anti-Nudification App Law Over xAI Objection",
+        "url": "https://www.mprnews.org/story/2026/09/04/judge-lets-minnesota-enforce-antinudification-app-law-over-xai-objection-as-case-proceeds",
+        "timestamp": 1788539220000,
+        "photo": true,
+        "postedAt": 1788695093519,
+        "image": "/img/politics-4.jpg"
+      },
+      {
+        "headline": "'Not Responsible' Verdict Would Have Set Women Back 100 Years, Column Argues",
+        "url": "https://www.dailywire.com/news/a-lindsay-clancy-not-responsible-verdict-would-have-sent-women-back-100-years",
+        "timestamp": 1788692801000,
+        "postedAt": 1788695093519
+      },
+      {
+        "headline": "Kremlin Signals Openness To Renewed Negotiations",
+        "url": "https://www.newsmax.com/world/globaltalk/kremlin-peace-talks-russia/2026/09/07/id/1268564/",
+        "timestamp": 1788778859000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "US Military Says It Hit 3 Iranian Tankers After Navy Ships Targeted",
+        "url": "https://apnews.com/article/iran-us-war-oil-tankers-b3650799901c56a6deeca962cbaa4109",
+        "timestamp": 1788675272000,
+        "postedAt": 1788695093519
+      },
+      {
+        "headline": "Iran War Likely To Drag On Another Six Months, Ex-Defense Secretary Warns",
+        "url": "https://www.theguardian.com/world/2026/sep/06/iran-war-trump-leon-panetta-interview",
+        "timestamp": 1788690060000,
+        "postedAt": 1788695093519
+      },
+      {
+        "headline": "Sununu And Shaheen Vie To Keep Political Dynasties Alive",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4714695/new-hampshire-stefany-shaheen-john-e-sununu-political-dynasties/",
+        "timestamp": 1788865200000,
+        "postedAt": 1788868300506
+      },
+      {
+        "headline": "Judge Appears Skeptical Of Case For Mail Voting Restrictions",
+        "url": "https://www.democracydocket.com/news-alerts/judge-appears-deeply-skeptical-of-case-for-trumps-mail-voting-restrictions/",
+        "timestamp": 1788464536000,
+        "postedAt": 1788695093519
+      }
+    ],
+    "right": [
+      {
+        "headline": "Ex-Counterintelligence Officer: Trump's Defenders Sabotage His Case",
+        "url": "https://www.washingtonexaminer.com/op-eds/4713287/trump-foreign-policy-defenders-sabotage/",
+        "timestamp": 1788865200000,
+        "postedAt": 1788868300506
+      },
+      {
+        "headline": "Meet The Under-The-Radar Democrats As Radical As Party Headliners",
+        "url": "https://www.washingtonexaminer.com/op-eds/4713260/centrist-democrats-radical-voting-records/",
+        "timestamp": 1788865200000,
+        "postedAt": 1788868300506
+      },
+      {
+        "headline": "U.S. Forces Sink Narco-Refueling Station Tied To Ecuadorian Cartel",
+        "url": "https://www.foxnews.com/us/us-forces-sink-narco-refueling-station-linked-ecuadorian-cartel-pacific-southcom",
+        "timestamp": 1788827082000,
+        "photo": true,
+        "postedAt": 1788868300506,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "Leaders React After Alleged Attack On Amy Acton At Canfield Fair",
+        "url": "https://www.wfmj.com/news/local-news/canfield/state-local-leaders-weigh-in-following-alleged-attack-of-amy-acton-at-canfield-fair/article_3d533243-441d-46d4-9939-fc1431e11f55.html",
+        "timestamp": 1788802643000,
+        "photo": true,
+        "postedAt": 1788868300506,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "Sen. Tim Scott: Democrats Will Impeach Trump, Cabinet And Judges",
+        "url": "https://www.realclearpolitics.com/video/2026/09/07/sen_tim_scott_radical_and_weird_democrats_will_impeach_trump_his_cabinet_and_even_judges.html",
+        "timestamp": 1788714000000,
+        "postedAt": 1788868300506
+      },
+      {
+        "headline": "Rep. Randy Fine: GOP Must Tout Trump's Wins",
+        "url": "https://www.newsmax.com/newsmax-tv/randy-fine-gop-convention-trump/2026/09/07/id/1268568/",
+        "timestamp": 1788780406000,
+        "photo": true,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "DOJ Civil Rights Unit Gets New Mission: Voter Fraud",
+        "url": "https://www.nbcnews.com/politics/justice-department/trump-administration-gives-doj-civil-rights-unit-new-job-voter-fraud-rcna595406",
+        "timestamp": 1788778860000,
+        "feature": true,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Analysis: Trump Emerges As 'Most Anti-Union' President, Unions Say",
+        "url": "https://www.theguardian.com/us-news/2026/sep/07/trump-workers-labor-union",
+        "timestamp": 1788778800000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "How California Exploits Federal Loophole For $1,600 Ambulance Rides",
+        "url": "https://www.washingtonexaminer.com/op-eds/4713080/california-medicaid-loophole-ambulance-igt-funding-federal-tax-dollars/",
+        "timestamp": 1788778800000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Giuliani Says Mamdani Should Skip 9/11 Memorial",
+        "url": "https://www.newser.com/story/395995/giuliani-urges-mamdani-to-skip-911-memorial-events.html",
+        "timestamp": 1788765480000,
+        "photo": true,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "EU To Give Greenland Cash Boost Amid Trump Annexation Push",
+        "url": "https://www.reuters.com/world/eu-give-greenland-cash-boost-amid-trump-annexation-drive-2026-09-06/",
+        "timestamp": 1788739020000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Supreme Court Again Declines To Take Up COVID-19 Vaccine Mandate Case",
+        "url": "https://www.scotusblog.com/2026/09/in-final-scheduled-summer-order-list-supreme-court-again-declines-to-weigh-in-on-covid-19-vaccin/",
+        "timestamp": 1788532120000,
+        "postedAt": 1788783631496
+      },
+      {
+        "headline": "Josh Hawley Expands 'Unprecedented' National Surveillance Investigation",
+        "url": "https://www.theblaze.com/tech/josh-hawley-flock-widen-invesitgation",
+        "timestamp": 1788693167000,
+        "postedAt": 1788695093519
+      },
+      {
+        "headline": "GOP's Midterm Anxiety Collides With Democrats' Leadership Battle",
+        "url": "https://www.dailywire.com/episode/district-club-ep-1",
+        "timestamp": 1788692441000,
+        "postedAt": 1788695093519
+      },
+      {
+        "headline": "Court Rules For Gay Math Teacher Challenging NY District's Pride Flag Ban",
+        "url": "https://www.theblaze.com/news/gay-math-teacher-pride-flag",
+        "timestamp": 1788689162000,
+        "photo": true,
+        "postedAt": 1788695093519
+      },
+      {
+        "headline": "Venezuelan Billionaire Once Probed For Money Laundering Lands Pentagon Oil Deal",
+        "url": "https://www.reuters.com/business/energy/venezuelan-billionaire-us-investigated-money-laundering-now-has-pentagon-oil-2026-09-05/",
+        "timestamp": 1788646182000,
+        "postedAt": 1788695093519
+      }
+    ]
+  },
+  "polls": [
+    {
+      "name": "Trump Approval",
+      "value": "40%/57%",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
+      "asOf": "Sep 6, 2026"
+    },
+    {
+      "name": "Generic Congressional Vote",
+      "value": "Dem +6.4",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "Aug 27, 2026"
+    },
+    {
+      "name": "Right Direction",
+      "value": "30%/61%",
+      "sub": "",
+      "url": "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating"
+    }
+  ],
+  "balance": {
+    "left": 309,
+    "right": 389,
+    "independent": 0,
+    "days": 30,
+    "total": 698,
+    "pctLeft": 44,
+    "pctRight": 56
+  }
+}
