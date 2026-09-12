@@ -1,0 +1,498 @@
+{
+  "lastUpdated": 1789211575492,
+  "heroSetDate": "2026-09-12",
+  "hero": {
+    "headline": "AMERICA MARKS 25TH ANNIVERSARY OF SEPT. 11 ATTACKS",
+    "url": "https://www.politico.com/news/2026/09/11/political-unity-permeates-25th-anniversary-of-9-11-01073118",
+    "sublinks": [
+      {
+        "text": "Trump, Hegseth Link Iran War To 9/11 Legacy At Pentagon Memorial",
+        "url": "https://www.politico.com/news/2026/09/11/trump-hegseth-iran-war-9-11-01072088"
+      },
+      {
+        "text": "AOC-Mamdani Exchange At Ground Zero Ceremony Sparks Backlash",
+        "url": "https://www.foxnews.com/politics/aoc-mamdani-interaction-caught-cam-9-11-memorial-sparks-online-fury"
+      },
+      {
+        "text": "Claim Of GOP 'Smear' Over AOC-Mamdani Moment Falls Apart, Critics Say",
+        "url": "https://newrepublic.com/post/215356/republicans-smear-alexandria-ocasio-cortez-zohran-mamdani-collapses"
+      },
+      {
+        "text": "9/11 Widow Confronts Saudi Arabia's Role During Ceremony",
+        "url": "https://www.axios.com/2026/09/11/911-widow-saudi-arabia-trump"
+      },
+      {
+        "text": "Remembering Pregnant Victims Killed In The 9/11 Attacks",
+        "url": "https://www.nationalreview.com/the-lifeline/remembering-mothers-and-their-unborn-children-murdered-on-9-11/"
+      },
+      {
+        "text": "Accused 9/11 Mastermind's Trial Still Unresolved After 25 Years",
+        "url": "https://www.pbs.org/newshour/world/trial-remains-elusive-for-purported-mastermind-accused-of-plotting-9-11-attacks"
+      }
+    ],
+    "postedAt": 1789211575492,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "GOP MIDTERM CONVENTION AFTERMATH",
+      "stories": [
+        {
+          "headline": "Fact Check: False Claims Circulated At GOP Midterm Convention",
+          "url": "https://apnews.com/article/fact-check-republican-gop-midterm-trump-vance-3b8535f12326b2c7f42f208cfd434250",
+          "timestamp": 1789156740000,
+          "postedAt": 1789211575492
+        },
+        {
+          "headline": "Convention Finale Turns Into Vance's 2028 Audition",
+          "url": "https://thehill.com/homenews/campaign/6083650-vance-rnc-keynote-2028-chatter/",
+          "timestamp": 1789098540000,
+          "postedAt": 1789211575492
+        },
+        {
+          "headline": "Iran War Barely Mentioned At Republican Midterm Convention",
+          "url": "https://www.nbcnews.com/politics/trump-administration/iran-war-largely-ignored-republican-midterm-convention-rcna597141",
+          "timestamp": 1789096980000,
+          "postedAt": 1789211575492
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR ESCALATES AS OIL PRICES SURGE",
+      "stories": [
+        {
+          "headline": "Iran Releases Video Of U.S. Navy Vessel On Fire",
+          "url": "https://www.express.co.uk/news/2247515",
+          "timestamp": 1789124725952,
+          "postedAt": 1789125220382
+        },
+        {
+          "headline": "Diesel Prices Hit All-Time High Amid Gulf Conflict",
+          "url": "https://www.nbcnews.com/business/energy/diesel-record-price-trump-inflation-rcna596843",
+          "timestamp": 1789124725952,
+          "postedAt": 1789125220382
+        },
+        {
+          "headline": "Trump: 'No Regrets' On Iran War As U.S. Ramps Up Economic Pressure",
+          "url": "https://www.cnbc.com/2026/09/11/us-iran-war-trump-hormuz-banks-oil-sanctions.html",
+          "timestamp": 1789090980000,
+          "feature": true,
+          "postedAt": 1789125220382
+        },
+        {
+          "headline": "Cost Of Iran War Keeps Growing Even As Trump Insists It's Worth It",
+          "url": "https://www.politico.com/news/2026/09/10/trump-says-the-iran-war-is-worth-the-price-the-bill-keeps-growing-01071075",
+          "timestamp": 1789072200000,
+          "postedAt": 1789125220382
+        },
+        {
+          "headline": "Trump Accuses Iran Of Meddling In Midterms As Missiles Target U.S. Base In Jordan",
+          "url": "https://thehill.com/newsletters/defense-national-security/6080270-trump-admits-iran-war-will-not-end-before-midterms/",
+          "timestamp": 1789007027000,
+          "postedAt": 1789039577425
+        },
+        {
+          "headline": "US Inflation Accelerates As Gas Prices Spike",
+          "url": "https://www.pbs.org/newshour/economy/u-s-inflation-accelerated-last-month-as-gas-prices-spiked-squeezing-americans-finances",
+          "timestamp": 1789140960000,
+          "postedAt": 1789211575492
+        },
+        {
+          "headline": "Iranians Lose Jobs, Struggle To Get By Amid War And Sanctions",
+          "url": "https://www.npr.org/2026/09/11/g-s1-142935/iran-us-war-jobs-economy",
+          "timestamp": 1789155575000,
+          "postedAt": 1789211575492
+        }
+      ]
+    },
+    {
+      "title": "AMERICA MARKS 25TH ANNIVERSARY OF 9/11",
+      "stories": [
+        {
+          "headline": "Franklin Graham Calls On America To 'Turn Back' To God 25 Years After 9/11",
+          "url": "https://www.foxnews.com/faith-values/franklin-graham-calls-america-turn-back-god-25-years-after-911-still-need-his-help-today",
+          "timestamp": 1789085820000,
+          "postedAt": 1789125220382
+        },
+        {
+          "headline": "How To Watch Today's 9/11 Memorial Events Marking 25th Anniversary",
+          "url": "https://www.pbs.org/newshour/nation/how-to-watch-9-11-memorial-events-as-u-s-marks-25th-anniversary",
+          "timestamp": 1789075163000,
+          "postedAt": 1789125220382
+        }
+      ]
+    },
+    {
+      "title": "SUPREME COURT ELECTION LAW FIGHTS",
+      "stories": [
+        {
+          "headline": "Missouri Gerrymandered Map Fight Heads Back To Supreme Court",
+          "url": "https://missouriindependent.com/2026/09/09/denny-hoskins-asks-federal-judge-to-block-missouri-supreme-court-contempt-hearing/",
+          "timestamp": 1788997369000,
+          "postedAt": 1789039577425
+        },
+        {
+          "headline": "States Warn Supreme Court Of 'Chaos' Over USPS Mail Ballot Rules",
+          "url": "https://www.democracydocket.com/news-alerts/usps-voting-rule-would-be-chaos-if-implemented-this-close-to-election-blue-states-warn-supreme-court/",
+          "timestamp": 1788987295000,
+          "postedAt": 1789039577425
+        }
+      ]
+    },
+    {
+      "title": "HURRICANE LOWELL BATTERS HAWAII, SENDS SWELLS TO CALIFORNIA",
+      "stories": [
+        {
+          "headline": "Hurricane Lowell Leaves Trail Of Destruction Across Kauai",
+          "url": "https://www.nbcnews.com/weather/hurricanes/hurricane-lowell-flooding-destruction-hawaii-kauai-rcna596804",
+          "timestamp": 1788993787000,
+          "postedAt": 1789039577425
+        },
+        {
+          "headline": "Huge Waves From Hurricane Blast Southern California Beaches",
+          "url": "https://www.sfchronicle.com/california/article/beaches-hurricane-marie-22423985.php",
+          "timestamp": 1788989835000,
+          "postedAt": 1789039577425
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "New Poll Puts Trump's Approval Rating At 33%",
+        "url": "https://poll.qu.edu/poll-release?releaseid=3965",
+        "timestamp": 1789211024374,
+        "postedAt": 1789211575492
+      },
+      {
+        "headline": "DeSantis Offers Florida Asylum To Holdout Juror In Clancy Case",
+        "url": "https://thehill.com/homenews/state-watch/6085748-florida-offers-asylum-holdout-juror/",
+        "timestamp": 1789177380000,
+        "postedAt": 1789211575492
+      },
+      {
+        "headline": "Man Arrested In Death Of Mississippi Woman Found Hanging From Tree",
+        "url": "https://www.cbsnews.com/news/tasia-fortune-mississippi-hanging-arrest/",
+        "timestamp": 1789170723000,
+        "photo": true,
+        "postedAt": 1789211575492,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Denver Socialist Cites Food-Stamp Fraud Conviction As Mayoral Qualification",
+        "url": "https://freebeacon.com/latest-news/denver-socialist-says-shes-qualified-to-serve-as-mayor-because-she-was-convicted-of-stealing-food-stamps/",
+        "timestamp": 1789153066000,
+        "photo": true,
+        "postedAt": 1789211575492,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "TRUMP FLOATS $5,000 PAYMENT TO VOTERS IF GOP WINS MIDTERMS",
+        "url": "https://www.msn.com/en-us/politics/government/desperate-trump-offers-brazen-cash-bribe-in-bonkers-speech/ar-AA2bWmoY",
+        "timestamp": 1789039577425,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "Talarico Leads Paxton By 4 Points In Texas Senate Poll",
+        "url": "https://thehill.com/homenews/campaign/6083122-james-talarico-ken-paxton-texas-senate-aarp-poll/",
+        "timestamp": 1789074120000,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "UK: Ex-MI6 Chief Warns China Could 'Switch Off The Lights' At Any Moment",
+        "url": "https://www.dailymail.com/news/article-16121519",
+        "timestamp": 1789124725953,
+        "photo": true,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "Kimmel Releases Talarico Interview Online Amid FCC Dispute",
+        "url": "https://www.usatoday.com/story/entertainment/tv/2026/09/11/jimmy-kimmel-james-talarico-interview-fcc/91697042007/",
+        "timestamp": 1789100880000,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "Hawaii Governor Asks Trump For Help After Hurricane Damage",
+        "url": "https://thebusinessjournal.com/hurricane-lowell-hawaii-damage/",
+        "timestamp": 1789088913000,
+        "photo": true,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "Newsom Signs Sweeping New Online Child Safety Rules",
+        "url": "https://www.kqed.org/news/12099017/gov-newsom-signs-sweeping-new-rules-for-online-child-safety",
+        "timestamp": 1789079828000,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "WWII-Era T-6 Harvard Warplane Crashes At Pennsylvania Airport",
+        "url": "https://6abc.com/post/small-plane-crashes-heritage-field-airport-limerick-township-pa/19812855/",
+        "timestamp": 1789031818000,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "CIA Officer's Arrest With 303 Gold Bars Spotlights Pentagon's No. 2",
+        "url": "https://www.nbcnews.com/politics/national-security/cia-officers-arrest-303-gold-bars-thrusts-pentagons-no-2-unwelcome-spo-rcna349589",
+        "timestamp": 1789030800000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "Trump Administration Accuses Berkeley Law School Of Racial Discrimination",
+        "url": "https://www.kqed.org/news/12098895/trump-admin-accuses-uc-berkeley-law-school-of-racial-discrimination-in-admissions",
+        "timestamp": 1788986936000,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "Houthi Forces Escalate Attacks, Widening Mideast War",
+        "url": "https://apnews.com/article/yemen-houthis-iran-mokha-mandeb-shipping-saudi-025d052a14d9481258d51009a76d0bd6",
+        "timestamp": 1789124725952,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "White House Defends Trump's $45,000 Gifts To Natalie Harp, Other Aides",
+        "url": "https://www.pbs.org/newshour/show/news-wrap-white-house-defends-trumps-45000-gifts-to-natalie-harp-and-other-aides",
+        "timestamp": 1788993905000,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "Panera Bread Stalking Suspect Was In US Illegally, Officials Say",
+        "url": "https://www.kcra.com/article/sacramento-stalker-panera-bread-execution-dhs-immigration/73690437",
+        "timestamp": 1789184580000,
+        "postedAt": 1789211575492
+      },
+      {
+        "headline": "200,000 Salvadorans Await Word On Protected Status",
+        "url": "https://www.pbs.org/newshour/politics/200000-salvadoran-immigrants-hope-for-protection-amid-trump-administration-silence",
+        "timestamp": 1789075164000,
+        "postedAt": 1789211575492
+      }
+    ],
+    "center": [
+      {
+        "headline": "Nvidia In Talks To Invest In Anthropic's Mega IPO",
+        "url": "https://www.msn.com/en-us/money/other/exclusive-nvidia-in-talks-to-invest-in-anthropic-s-mega-ipo-sources-say/ar-AA2c3Gy1",
+        "timestamp": 1789211024374,
+        "feature": true,
+        "postedAt": 1789211575492
+      },
+      {
+        "headline": "Syria: Prisoners Revolt, Set Fire To Aleppo-Area Prison, 7 Killed",
+        "url": "https://www.ynetnews.com/article/gooq7atcb",
+        "timestamp": 1789209936000,
+        "feature": true,
+        "postedAt": 1789211575492
+      },
+      {
+        "headline": "CDC Undercounts Defensive Gun Uses, Study Finds",
+        "url": "https://www.realclearpolitics.com/articles/2026/09/11/cdc_undercounts_defensive_gun_uses_154492.html",
+        "timestamp": 1789137646000,
+        "postedAt": 1789211575492
+      },
+      {
+        "headline": "Kaua'i Tallies Damage From Storm Lowell",
+        "url": "https://www.civilbeat.org/2026/09/hurricane-lowell-niihau-news-emerges-while-gov-likens-kauai-hit-to-iniki/",
+        "timestamp": 1789120860000,
+        "photo": true,
+        "postedAt": 1789211575492,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Microsoft Brings Age Verification To Windows",
+        "url": "https://reclaimthenet.org/microsofts-brings-verification-system-to-windows",
+        "timestamp": 1789124725953,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "RFK Jr.'s $9,000-An-Hour Military Jet Perk Exposed",
+        "url": "https://www.mediaite.com/politics/rfk-jr-reportedly-used-9000-an-hour-military-jet-to-attend-gop-campaign-events/",
+        "timestamp": 1789124725952,
+        "photo": true,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "Rand Paul Preaches Fiscal Restraint While Flying Private On Taxpayer Dime",
+        "url": "https://www.politico.com/news/2026/09/11/rand-paul-private-jets-01071502",
+        "timestamp": 1789116300000,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "Trump Loyalist Joseph DiGenova Quits 'Grand Conspiracy' Case",
+        "url": "https://abcnews.com/US/loyalist-tapped-trump-oversee-controversial-doj-probe-targeting/story?id",
+        "timestamp": 1789092086000,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "Studio CEOs Spending Millions On Bodyguards",
+        "url": "https://www.hollywoodreporter.com/business/business-news/hollywood-ceo-security-costs-soar-threats-1236693944/",
+        "timestamp": 1789038393660,
+        "photo": true,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "The Democrats Who Aren't Criticizing John Fetterman",
+        "url": "https://www.politico.com/news/2026/09/10/john-fetterman-senate-party-switch-01070121",
+        "timestamp": 1789029900000,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "Trump Administration Proposes Eliminating Race Questions From Census",
+        "url": "https://newscord.org/article/trump-administration-proposes-excluding-noncitizens-from-us-census-removing-race--Story_20260910_Amajorandradicalchane3637d32",
+        "timestamp": 1789008480000,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "Getty Fire Erupts Along 405 Freeway Near Getty Center",
+        "url": "https://abc7.com/post/firefighters-battle-brush-fire-405-freeway-sepulveda-pass/19812647/",
+        "timestamp": 1789008219000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "Democratic Socialist Ousts Providence Mayor In Primary",
+        "url": "https://thehill.com/homenews/campaign/6079175-democratic-socialist-wins-providence-mayoral-primary/",
+        "timestamp": 1789000500000,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "Cesar Chavez Rape Accuser Sues Foundations",
+        "url": "https://www.newser.com/story/396178/cesar-chavez-rape-accuser-sues-foundations.html",
+        "timestamp": 1788997200000,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "Ex-Health Official Running For Ohio Governor Missed COVID Meetings, Staff Say",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/state/4717716/amy-acton-cried-on-job-curled-upfloor-covid-former-staffers-recount/",
+        "timestamp": 1788988920000,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "Afghan Woman Deported In First-Ever 'Alien Terrorist' Court Case",
+        "url": "https://www.axios.com/2026/09/11/alien-terrorist-court-first-deportation",
+        "timestamp": 1789159386000,
+        "postedAt": 1789211575492
+      },
+      {
+        "headline": "Canada: Businesses Brace For Impact Of Trump's Trade War",
+        "url": "https://www.aljazeera.com/economy/2026/9/12/how-canadians-are-bracing-for-the-impact-of-trumps-trade-war",
+        "timestamp": 1789174526000,
+        "postedAt": 1789211575492
+      }
+    ],
+    "right": [
+      {
+        "headline": "TRUMP TELLS GOP CONVENTION TO VOTE AND 'CHEAT LIKE HELL'",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/09/11/cheat-like-hell-trump-makes-gop-convention-attendees-pledge-to-vote-in-bizarre-moment/",
+        "timestamp": 1789125220382,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "UK: Trump-Pardoned Crypto Investor Donates $50 Million To Farage's Reform Party",
+        "url": "https://www.yahoo.com/news/articles/crypto-entrepreneur-pardoned-trump-donates-203032496.html",
+        "timestamp": 1789211024374,
+        "postedAt": 1789211575492
+      },
+      {
+        "headline": "Teen Rescued After Clinging To Overturned Boat For Days In Bering Sea",
+        "url": "https://www.theguardian.com/us-news/2026/sep/11/teen-boy-alaska-boating-rescue",
+        "timestamp": 1789158840000,
+        "photo": true,
+        "postedAt": 1789211575492
+      },
+      {
+        "headline": "How Another 9/11 Was Prevented Five Years Later",
+        "url": "https://www.washingtonexaminer.com/opinion/beltway-confidential/4721414/how-another-9-11-prevented-just-five-years-later/",
+        "timestamp": 1789141920000,
+        "postedAt": 1789211575492
+      },
+      {
+        "headline": "Musk Threatens Legal Action Over Damning Documentary",
+        "url": "https://www.thewrap.com/creative-content/movies/elon-musk-threatens-legal-action-over-documentary/",
+        "timestamp": 1789124725953,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "Essay: How 9/11 Changed American Politics",
+        "url": "https://www.sltrib.com/opinion/commentary/2026/09/09/opinion-wendell-berry-champion",
+        "timestamp": 1789123246000,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "Seatmate Of Duct-Taped Airline Passenger Describes 'Flight From Hell'",
+        "url": "https://www.theblaze.com/shows/the-glenn-beck-program/seatmate-of-duct-taped-passenger-tells-beck-the-full-story",
+        "timestamp": 1789122679000,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "Florida Executes Man Convicted In String Of Killings",
+        "url": "https://www.newser.com/story/396252/florida-executes-man-convicted-of-killing-suspected-in-others.html",
+        "timestamp": 1789080840000,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "15-Year-Old Survives Hours In Frigid Alaska Waters",
+        "url": "https://www.alaskasnewssource.com/2026/09/10/kneeling-praying-waves-crashing-15-year-old-survives-waters-alaska/",
+        "timestamp": 1789079520000,
+        "photo": true,
+        "postedAt": 1789125220382,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "Sacramento Standoff Suspect Had Stalked Woman He Executed, Sheriff Says",
+        "url": "https://www.kcra.com/article/sacramento-highway-50-panera-shooting-rohit-rohit/73654267",
+        "timestamp": 1789014660000,
+        "photo": true,
+        "postedAt": 1789039577425,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "States File Two Lawsuits Over Trump's Cuts To Endangered Species Act",
+        "url": "https://www.detroitnews.com/story/news/nation/2026/09/09/us-states-sue-trump-administration-for-weakening-endangered-species-protections/91682233007/",
+        "timestamp": 1788992882000,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "Why September 11 Still Isn't A Federal Holiday",
+        "url": "https://www.pbs.org/newshour/nation/why-9-11-isnt-a-federal-holiday-according-to-experts",
+        "timestamp": 1788982177000,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "White House Fears Iran War Could Drag On For Years",
+        "url": "https://energynow.com/2026/05/white-house-has-few-tools-for-gas-price-relief-as-iran-war-drags-on/",
+        "timestamp": 1789038393660,
+        "postedAt": 1789039577425
+      },
+      {
+        "headline": "Bush: Americans 'Don't Pay Attention' To Lesson Of 9/11",
+        "url": "https://www.cbsnews.com/news/george-w-bush-911-attacks-condoleezza-rice",
+        "timestamp": 1789124725952,
+        "postedAt": 1789125220382
+      },
+      {
+        "headline": "Alme Leads Bodnar In Montana Senate Race",
+        "url": "https://montanafreepress.org/2026/09/11/alme-holds-an-8-point-lead-over-bodnar-in-senate-race/",
+        "timestamp": 1789169906000,
+        "postedAt": 1789211575492
+      },
+      {
+        "headline": "DHS Secretary Claims Ilhan Omar Married Her Brother To Bring Him Into US",
+        "url": "https://notthebee.com/article/homeland-security-secretary-says-ilhan-omar-married-her-brother-to-try-to-bring-him-into-the-united-states/",
+        "timestamp": 1789157126000,
+        "postedAt": 1789211575492
+      }
+    ]
+  },
+  "balance": {
+    "left": 432,
+    "right": 314,
+    "independent": 6,
+    "days": 30,
+    "total": 746,
+    "pctLeft": 58,
+    "pctRight": 42
+  }
+}
