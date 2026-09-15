@@ -1,0 +1,592 @@
+{
+  "lastUpdated": 1789472006350,
+  "heroSetDate": "2026-09-15",
+  "hero": {
+    "headline": "10-YEAR TREASURY YIELD BREACHES 5% AS FED DECISION LOOMS, STOCKS SLIDE",
+    "url": "https://www.cnbc.com/2026/09/14/stock-market-today-live-updates.html",
+    "sublinks": [
+      {
+        "text": "Fed Expected To Raise Rates Despite Trump's Push For Cuts",
+        "url": "https://apnews.com/article/federal-reserve-kevin-warsh-interest-rates-ffd60cca8bb045bb9b1c389f5f1b73af"
+      },
+      {
+        "text": "Why Consumers May Actually Benefit From A Rate Hike",
+        "url": "https://www.cnbc.com/2026/09/09/fed-interest-rates-consumers-benefit-rates-stay-higher.html"
+      },
+      {
+        "text": "Economists Warn Fed Risks A 'Serious Mistake'",
+        "url": "https://www.marketwatch.com/story/the-fed-may-be-on-the-verge-of-a-serious-mistake-prominent-economists-warn-3ccb6581"
+      },
+      {
+        "text": "Dollar Climbs As Mideast Tensions Push Oil, Fed Hike Nears",
+        "url": "https://www.reuters.com/world/asia-pacific/dollar-steady-yen-near-7-month-high-ahead-fed-boj-meetings-2026-09-14/"
+      }
+    ],
+    "postedAt": 1789472006350,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "CHINA'S ECONOMY SHOWS MIXED SIGNALS",
+      "stories": [
+        {
+          "headline": "Chinese Economic Momentum Stays Weak As Consumption Falters",
+          "url": "https://www.businesstimes.com.sg/property/chinas-economic-momentum-stays-weak-consumption-falters",
+          "timestamp": 1789462799000,
+          "postedAt": 1789472006350
+        },
+        {
+          "headline": "Tech Boom Powers China's Factories But Imbalances Deepen",
+          "url": "https://www.reuters.com/world/china/chinas-factories-rev-up-slower-consumption-highlights-deepening-economic-2026-09-15/",
+          "timestamp": 1789439820000,
+          "postedAt": 1789472006350
+        }
+      ]
+    },
+    {
+      "title": "AI SLOWDOWN WARNINGS RATTLE MARKETS AND POLICYMAKERS",
+      "stories": [
+        {
+          "headline": "Chinese State Media Dismisses 'Self-Serving' AI Slowdown Call",
+          "url": "https://uk.finance.yahoo.com/news/chinese-state-media-dismisses-self-035230555.html",
+          "timestamp": 1789454220000,
+          "postedAt": 1789472006350
+        },
+        {
+          "headline": "What Experts Are Saying About AI Apocalypse Warnings",
+          "url": "https://www.mirror.co.uk/news/us-news/trump-downplays-ai-expert-fears-37659008",
+          "timestamp": 1789453440000,
+          "postedAt": 1789472006350
+        },
+        {
+          "headline": "Investors Grow Nervous After Industry AI Spending Warnings",
+          "url": "https://www.reuters.com/legal/transactional/investors-nervous-about-ai-spending-slowdown-after-industry-warnings-2026-09-15/",
+          "timestamp": 1789448580000,
+          "feature": true,
+          "postedAt": 1789472006350
+        },
+        {
+          "headline": "5% Treasury Yield Raises New Risks For Markets And Economy",
+          "url": "https://www.theedgesingapore.com/news/bonds-and-treasuries/treasury-yield-verge-5-raising-new-risks-markets-economy",
+          "timestamp": 1789380900000,
+          "postedAt": 1789385900916
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Canada: Carney Courts World's Top Investors At Toronto Summit",
+        "url": "https://abcnews.com/International/wireStory/carney-pitches-canada-global-investors-trump-pull-investment-136414852",
+        "timestamp": 1789422610000,
+        "postedAt": 1789472006350
+      },
+      {
+        "headline": "Trump's Net Worth Dropped $300 Million Over Past Year",
+        "url": "https://www.forbes.com/sites/danalexander/2026/09/15/president-trumps-fortune-falls-as-everyday-supporters-lose-faith/",
+        "timestamp": 1789466400000,
+        "photo": true,
+        "postedAt": 1789472006350
+      },
+      {
+        "headline": "New Junk Fees Are Sneaking Into Home Purchases",
+        "url": "https://www.npr.org/2026/09/15/nx-s1-5968763/housing-home-buying-junk-fees",
+        "timestamp": 1789462800000,
+        "postedAt": 1789472006350
+      },
+      {
+        "headline": "New York Sends Energy Rebate Checks To 8.2 Million Households",
+        "url": "https://www.governor.ny.gov/news/governor-hochul-announces-energy-rebate-checks-going-82-million-new-york-households-starting",
+        "timestamp": 1789421026000,
+        "postedAt": 1789472006350
+      },
+      {
+        "headline": "Venture Global, China Gas Sign New Long-Term LNG Agreement",
+        "url": "https://www.marketwatch.com/story/venture-global-china-gas-enter-new-long-term-lng-agreement-1f06dea3?mod",
+        "timestamp": 1789382280000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "Amazon Suspends Use Of 21 Air After Cargo Plane Careened Off Miami Runway",
+        "url": "https://apnews.com/article/miami-runway-amazon-plane-21-air-96df901b1a8b86648f1b060a457b8fd9",
+        "timestamp": 1789382220000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "China's Economy Enters Critical Phase Determining 2026 Stimulus",
+        "url": "https://cryptobriefing.com/china-economy-year-end-stimulus-phase/",
+        "timestamp": 1789381676000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "AstraZeneca Breast-Cancer Drug Misses Goal In Late-Stage Trial",
+        "url": "https://uk.finance.yahoo.com/news/astrazeneca-breast-cancer-combination-treatment-084148740.html",
+        "timestamp": 1789365720000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "US INFLATION ACCELERATES AS GAS PRICES SPIKE, FUELING BETS ON AGGRESSIVE FED RATE HIKES",
+        "url": "https://www.pbs.org/newshour/economy/u-s-inflation-accelerated-last-month-as-gas-prices-spiked-squeezing-americans-finances",
+        "timestamp": 1789213117936,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Sam Altman Says OpenAI Going Public In 2026 Would Be 'Ill-Advised'",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ipo-delayed-sam-altman-says-150828134.html",
+        "timestamp": 1789247788000,
+        "photo": true,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "Zillow Reports Crucial Housing Market Shift For Buyers",
+        "url": "https://www.thestreet.com/real-estate/zillow-market-report-crucial-housing-market-shift-for-homebuyers",
+        "timestamp": 1789232820000,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "US News Industry's Tough Summer Ends With McClatchy Chain Cuts",
+        "url": "https://apnews.com/article/layoffs-miami-herald-mcclatchy-c27bcd1a875f1b788afe8b49c1f8beaf",
+        "timestamp": 1789187797000,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "Former Fed Chair Jerome Powell Sells Maryland Waterfront Estate For $7.2 Million",
+        "url": "https://www.foxbusiness.com/real-estate/former-fed-chair-jerome-powell-sells-maryland-waterfront-estate-7-2m",
+        "timestamp": 1789142460000,
+        "photo": true,
+        "postedAt": 1789299429311,
+        "image": "/img/markets-4.jpg"
+      },
+      {
+        "headline": "Miami Crash Raises Concerns About Jet Operator Flying For Amazon",
+        "url": "https://www.npr.org/2026/09/12/nx-s1-5964931/miami-airport-amazon-cargo-crash",
+        "timestamp": 1789203600000,
+        "photo": true,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Federal Budget Deficit Hits $2 Trillion In First 11 Months Of Fiscal 2026",
+        "url": "https://www.foxbusiness.com/politics/federal-budget-deficit-reaches-2-trillion-first-11-months-fiscal-year-2026-cbo-reports",
+        "timestamp": 1789140180000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "McClatchy Layoffs Hit Local Washington Newspapers",
+        "url": "https://www.seattletimes.com/business/mcclatchy-layoffs-hit-local-wa-newspapers/",
+        "timestamp": 1789135627000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "30-Year Mortgage Rate Crosses 7% For First Time In Over A Year",
+        "url": "https://www.marketwatch.com/story/the-30-year-mortgage-rate-just-crossed-7-for-the-first-time-in-over-a-year-a3fba38f",
+        "timestamp": 1789135260000,
+        "feature": true,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Michael Burry Stays Short Nvidia, Palantir And Tesla, Warns Of 1987-Style Fall",
+        "url": "https://www.fool.com/investing/2026/09/12/michael-burry-is-staying-short-nvidia-palantir-and/",
+        "timestamp": 1789194600000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Houthis Used Anthropic AI In Bid To Build Ballistic Missiles",
+        "url": "https://www.middleeasteye.net/news/houthis-used-ai-platform-claude-develop-ballistic-missiles",
+        "timestamp": 1789117374000,
+        "feature": true,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Xi Takes Center Stage At Modi's BRICS Summit As Iran War Deepens",
+        "url": "https://www.wionews.com/videos/brics-2026-begins-india-takes-center-stage-amid-global-turmoil-1789207496823",
+        "timestamp": 1789207506000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Oracle Slides After Worst Week In Months, But Ellison's Canceled Stock Sale Keeps Bulls Hopeful",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/orcl-slides-worst-week-nearly-034924800.html",
+        "timestamp": 1789357740000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "Analyst Warns Stocks Are In Late-Stage Bubble, Poised To Crash 21% Next Year",
+        "url": "https://fortune.com/2026/09/13/stock-market-outlook-late-stage-bubble-crash-2027-treasury-yields-5-percent/",
+        "timestamp": 1789337160000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "Trump Accepts New Ethics Rules To Push Crypto Bill Through Congress",
+        "url": "https://apnews.com/article/donald-trump-cryptocurrency-senate-091df7e9a6abbe9b01cf7531d2aa6442",
+        "timestamp": 1789358460000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "Democrats Send Counteroffer On Clarity Act Provisions",
+        "url": "https://www.coindesk.com/policy/2026/09/15/democrats-send-counteroffer-to-republicans-over-clarity-act-provisions",
+        "timestamp": 1789445341000,
+        "postedAt": 1789472006350
+      }
+    ],
+    "center": [
+      {
+        "headline": "AI SLOWDOWN WARNINGS TRIGGER TECH STOCK SELLOFF AS OIL SURGES ON SAUDI SUPPLY FEARS",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html",
+        "timestamp": 1789385900916,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "Morgan Stanley Doubles Down On Apple Stock",
+        "url": "https://www.barchart.com/story/news/4590925/morgan-stanley-doubles-down-on-apple-stock-as-new-offerings-become-more-exciting",
+        "timestamp": 1789395863000,
+        "postedAt": 1789472006350
+      },
+      {
+        "headline": "Carter's Rebrands To Reach New Generation Of Parents",
+        "url": "https://www.cnbc.com/2026/09/15/carters-kids-clothing-retailer-rebrands.html",
+        "timestamp": 1789466401000,
+        "photo": true,
+        "postedAt": 1789472006350,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Record Diesel Prices Squeeze North Country Businesses",
+        "url": "https://www.wwnytv.com/2026/09/14/record-diesel-prices-affecting-north-country-business/",
+        "timestamp": 1789418460000,
+        "postedAt": 1789472006350
+      },
+      {
+        "headline": "FED RATE-HIKE BETS DRIVE OIL, YIELDS HIGHER AS STOCKS WOBBLE",
+        "url": "https://finance.yahoo.com/economy/policy/articles/august-inflation-came-hot-odds-165201591.html",
+        "timestamp": 1789299429311,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "China's Credit Expansion Misses Forecast As Loan Demand Sags",
+        "url": "https://ca.finance.yahoo.com/news/china-august-bank-lending-disappoints-101211719.html",
+        "timestamp": 1789381032000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "SpaceX Launches 700th Falcon Mission With Three Telecom Satellites",
+        "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-3-telecom-satellites-to-orbit-on-700th-falcon-mission-of-all-time-video",
+        "timestamp": 1789335686000,
+        "photo": true,
+        "postedAt": 1789385900916,
+        "image": "/img/markets-3.jpg"
+      },
+      {
+        "headline": "Nvidia May Bankroll Anthropic's Massive IPO",
+        "url": "https://mashable.com/tech/nvidia-could-bankroll-anthropic-ipo",
+        "timestamp": 1789226865000,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "Inflation Outpaces Wage Growth Again, Squeezing Americans' Paychecks",
+        "url": "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html",
+        "timestamp": 1789217355000,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "JPMorgan Curbed Lending To Situational Awareness Fund After AI Losses",
+        "url": "https://www.reuters.com/legal/transactional/jpmorgan-cut-off-situational-awareness-lending-after-ai-losses-ft-reports-2026-09-11/",
+        "timestamp": 1789160700000,
+        "feature": true,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "Charity Founder Says He Secretly Gave FTX's Caroline Ellison A Job",
+        "url": "https://beincrypto.com/caroline-ellison-manifund-charity-job/",
+        "timestamp": 1789182337000,
+        "photo": true,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Nvidia In Talks To Invest In Anthropic's Mega IPO",
+        "url": "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/",
+        "timestamp": 1789167660000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Broccoli Sprouts Linked To Salmonella Outbreak Recalled After 22 Sickened",
+        "url": "https://www.foxbusiness.com/lifestyle/broccoli-sprouts-linked-salmonella-outbreak-recalled-after-22-sickened",
+        "timestamp": 1789159500000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Court To Hold Paramount-Warner Bros. Settlement Conference In Late October",
+        "url": "https://variety.com/2026/film/news/paramount-warner-bros-settlement-conference-october-1236859028/",
+        "timestamp": 1789155900000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Oracle Stock Trims Gains As AI Cloud Demand Outpaces Supply",
+        "url": "https://finance.yahoo.com/markets/article/oracle-stock-trims-gains-as-ai-cloud-demand-outpaces-supply-122103986.html",
+        "timestamp": 1789139140000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "GE HealthCare In Talks Over Possible $1 Billion Deal For Sofie Biosciences",
+        "url": "https://www.reuters.com/legal/transactional/ge-healthcare-talks-over-possible-1-billion-deal-sofie-biosciences-ft-reports-2026-09-13/",
+        "timestamp": 1789273020000,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "Ethereum Surges Past $2,600 For First Time In 8 Months",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/ethereum-price-surges-past-2-150349983.html",
+        "timestamp": 1789139029000,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "GM Plans US Battery Development As Trump's DOT Attacks Ford Over China Ties",
+        "url": "https://www.cnbc.com/2026/09/12/gm-us-battery-development-ford-china-ties.html",
+        "timestamp": 1789214401000,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "Prabowo Reshuffles Cabinet, Removing Finance Minister Purbaya",
+        "url": "https://www.straitstimes.com/asia/se-asia/prabowo-replaces-finance-minister-purbaya-in-long-awaited-indonesian-cabinet-shake-up",
+        "timestamp": 1789380967000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "Z.AI Plans $5 Billion Fundraising To Fuel AI Expansion",
+        "url": "https://finance.yahoo.com/markets/stocks/article/musks-boring-company-snags-3-billion-in-latest-fundraise-150209170.html",
+        "timestamp": 1789343760000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "White House Issues Serious Crypto Warning As Bitcoin Nears $8 Trillion Market Shock",
+        "url": "https://www.forbes.com/sites/digital-assets/2026/09/12/white-house-issues-serious-crypto-warning-bitcoin-price-on-the-brink-of-8-trillion-shock/",
+        "timestamp": 1789212626000,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "Trump Slams 'Perfect Little Angel' Dario, Demands Full Speed On AI",
+        "url": "https://www.zerohedge.com/ai/full-stop-amodei-altman-musk-team-against-ai-singularity-while-china-goes-full-send",
+        "timestamp": 1789455599000,
+        "postedAt": 1789472006350
+      },
+      {
+        "headline": "Critics Say AI Doomsaying Distracts From Real Harms",
+        "url": "https://theintercept.com/2026/09/14/ai-doom-apocalypse-risk/",
+        "timestamp": 1789413637000,
+        "postedAt": 1789472006350
+      },
+      {
+        "headline": "Bitcoin's Late-Summer Rally Set To Face Off Against Fed, Congress",
+        "url": "https://www.reuters.com/business/finance/bitcoins-late-summer-rally-set-face-off-against-fed-congress-2026-09-14/",
+        "timestamp": 1789400730000,
+        "postedAt": 1789472006350
+      }
+    ],
+    "right": [
+      {
+        "headline": "Pentagon Backs $150 Million Tungsten Mine Restart",
+        "url": "https://www.mining.com/us-department-of-war-commits-450-million-to-tungsten-supply-chain/",
+        "timestamp": 1789418567000,
+        "photo": true,
+        "postedAt": 1789472006350,
+        "image": "/img/markets-1.jpg"
+      },
+      {
+        "headline": "Revised NextEra Bid For Dominion Would Add 600 Richmond Jobs",
+        "url": "https://richmond.com/news/state-regional/government-politics/article_deb8b4b2-4138-4901-8590-7c89f9853310.html",
+        "timestamp": 1789406640000,
+        "postedAt": 1789472006350
+      },
+      {
+        "headline": "Elmet Group Shares Gain On $450 Million Pentagon Investment",
+        "url": "https://www.marketwatch.com/story/elmet-group-shares-gain-on-450-million-investment-from-defense-department-bce82f3c?mod",
+        "timestamp": 1789382280000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "Ryan Serhant: 'Stealth' States Are Beating Florida And Texas For Migration",
+        "url": "https://www.foxbusiness.com/real-estate/ryan-serhant-reveals-whats-missing-americas-migration-story-stealth-states-beating-florida-texas",
+        "timestamp": 1789380000000,
+        "photo": true,
+        "postedAt": 1789385900916,
+        "image": "/img/markets-2.jpg"
+      },
+      {
+        "headline": "Affordability Crunch Hits National Record, New Midterm Headache For GOP",
+        "url": "https://www.foxbusiness.com/politics/diesel-tops-6-fuel-shock-threatens-truckers-farmers-consumers",
+        "timestamp": 1789321380000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "A Flawed System And One Man's Hubris Cost Meta Shareholders $17 Billion",
+        "url": "https://fortune.com/2026/09/12/zuckerberg-meta-17-billion-settlement-hubris-flawed-system/",
+        "timestamp": 1789257099000,
+        "feature": true,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "OpenAI's Rogue AI Tried To Hack Another Company In May",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+        "timestamp": 1789249296000,
+        "feature": true,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "How L.L.Bean Embraces Its Old-School Roots: No AI, Just Stores And Catalogs",
+        "url": "https://www.nbcnews.com/business/ceo-interviews/llbean-maine-roots-catalog-ai-stores-rcna596849",
+        "timestamp": 1789218661000,
+        "photo": true,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "OpenAI's Feud With Mathematicians Escalates",
+        "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+        "timestamp": 1789160256000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Feds Declare Record-Setting Cyclospora Outbreak Over",
+        "url": "https://www.politico.com/news/2026/09/11/feds-declare-record-setting-cyclospora-outbreak-over-01072391",
+        "timestamp": 1789160040000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Social Security Recipients May See Largest Raise In 3 Years For 2027",
+        "url": "https://www.usatoday.com/story/money/personal-finance/retirement/2026/09/11/social-security-2027-cola-estimate/91690428007/",
+        "timestamp": 1789140180000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Musk Pledged To Rid X Of Child Sexual Abuse Material, But It Persists",
+        "url": "https://streamlinefeed.co.ke/news/child-sexual-abuse-material-persists-on-x-reviews-find",
+        "timestamp": 1789117262000,
+        "photo": true,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Robert Reich: Bessent And Trump Have Lost Credibility On The Economy",
+        "url": "https://robertreich.substack.com/p/bessent-and-his-boss-have-lost-all",
+        "timestamp": 1789074079000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "US Limits Air Defense Time Slots For Tankers Sailing Through Hormuz",
+        "url": "https://news.cgtn.com/news/2026-09-12/news-1Qnf6Hlni36/p.html",
+        "timestamp": 1789202145000,
+        "postedAt": 1789213117936
+      },
+      {
+        "headline": "Bitcoin Rally Faces Threat From Clarity Act Fail, Democratic Midterm Win",
+        "url": "https://www.cnbc.com/2026/09/11/bitcoin-price-crypto-clarity-act-midterms.html",
+        "timestamp": 1789145167000,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "Tesla Reclaims US EV Market Share As Legacy Automakers Retreat",
+        "url": "https://suaragarut.id/en/tesla-regains-us-ev-market-share",
+        "timestamp": 1789259175000,
+        "postedAt": 1789299429311
+      },
+      {
+        "headline": "Report Of $13.7 Billion Anthropic Computing Deal Lifts Shares",
+        "url": "https://www.marketwatch.com/story/rum-group-shares-gain-on-report-of-13-7-billion-computing-deal-with-anthropic-a35cb053?mod",
+        "timestamp": 1789383000000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "Should Anthropic Press Pause On A Potential $2 Trillion IPO?",
+        "url": "https://en.cryptonomist.ch/2026/09/14/anthropic-ipo-valuation-nasdaq/",
+        "timestamp": 1789361267000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "S&P 500 Valuation Hits Levels Not Seen In A Generation, History Offers One Lesson",
+        "url": "https://www.fool.com/investing/2026/09/14/the-sp-500-is-trading-at-a-valuation-not-seen-in-a/",
+        "timestamp": 1789384827000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "Surging Inflation Puts Rates Back In Focus As Japan, US, UK Policymakers Meet",
+        "url": "https://www.theguardian.com/business/2026/sep/13/interest-rates-predicted-rise-us-uk-inflation-fears",
+        "timestamp": 1789349400000,
+        "postedAt": 1789385900916
+      },
+      {
+        "headline": "Experts Urge FDA To Set Clear Safety Standards For Psychedelics",
+        "url": "https://www.reuters.com/legal/litigation/fda-hold-public-hearing-psychedelic-drugs-trump-driven-push-gathers-pace-2026-09-14/",
+        "timestamp": 1789402980000,
+        "postedAt": 1789472006350
+      },
+      {
+        "headline": "Sam Altman Names AI's Two Biggest Risks",
+        "url": "https://www.foxbusiness.com/technology/sam-altman-identifies-two-biggest-risks-facing-ais-future",
+        "timestamp": 1789422780000,
+        "postedAt": 1789472006350
+      },
+      {
+        "headline": "China Pushes Back On Anthropic CEO's AI 'Fearmongering'",
+        "url": "https://apnews.com/article/china-anthropic-ai-us-amodei-3da458d2c078da3e60900728d59f1ae8",
+        "timestamp": 1789405260000,
+        "postedAt": 1789472006350
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,619.98",
+      "change": "-37.00",
+      "changePct": "-0.48%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "52,421.20",
+      "change": "-152.10",
+      "changePct": "-0.29%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "26,186.41",
+      "change": "-146.62",
+      "changePct": "-0.56%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr",
+      "value": "4.96%",
+      "change": "-0.01",
+      "changePct": "-0.28%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$4,324.40",
+      "change": "-27.50",
+      "changePct": "-0.63%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil",
+      "value": "$102.30",
+      "change": "+0.91",
+      "changePct": "+0.90%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$76,864.69",
+      "change": "-1,316.64",
+      "changePct": "-1.68%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}
