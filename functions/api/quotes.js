@@ -1,16 +1,8 @@
 // Cloudflare Pages Function: GET /api/quotes?symbols=^GSPC,^DJI,^IXIC,^TNX,GC=F,CL=F
-//
-// Live market quotes for the Markets strip. Browsers can't call Yahoo Finance directly (no CORS),
-// so the page calls this same-origin endpoint and we proxy Yahoo server-side - the SAME source the
-// daily curation uses, so the numbers stay consistent. Returns
-// { "<symbol>": { price, prev, state } } where `state` is Yahoo's marketState (REGULAR when open).
-// On any failure a symbol is simply omitted and the page keeps its curated value, so this can never
-// break the strip.
-//
-// HARD TIMEOUT on every upstream call (this was the bug: without it, one stalled Yahoo request hung
-// the whole endpoint indefinitely, the browser's fetch timed out, and the strip silently froze on
-// the curated numbers). Each symbol tries query1 then query2 with a short abort timeout, so the
-// endpoint always returns quickly with whatever it could get.
+// Live market quotes for the Markets strip. Proxies Yahoo server-side (browsers can't call it: no
+// CORS). Returns { "<symbol>": { price, prev, state } }. HARD TIMEOUT on every upstream call so a
+// stalled Yahoo request can never hang the endpoint; failed symbols are omitted and the page keeps
+// its curated value.
 const HOSTS = ["query1.finance.yahoo.com", "query2.finance.yahoo.com"];
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) " +
@@ -54,7 +46,7 @@ async function quote(sym) {
       /* aborted or errored on this host - try the next one */
     }
   }
-  return null; // omit this symbol; the page falls back to its curated value
+  return null;
 }
 
 export async function onRequestGet(context) {
