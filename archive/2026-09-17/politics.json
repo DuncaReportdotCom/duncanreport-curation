@@ -1,0 +1,566 @@
+{
+  "lastUpdated": 1789645448629,
+  "heroSetDate": "2026-09-17",
+  "hero": {
+    "headline": "CONGRESS SENDS RUSSIA SANCTIONS BILL TO TRUMP'S DESK",
+    "url": "https://www.npr.org/2026/09/16/nx-s1-5971289/russia-sanctions-house-vote-lindsey-graham",
+    "sublinks": [
+      {
+        "text": "Bill Grants Trump Power To Slap 100% Tariffs On Russian Oil Buyers",
+        "url": "https://www.washingtontimes.com/news/2026/sep/16/history-calling-congress-gives-trump-power-sanction-russian-oil/"
+      },
+      {
+        "text": "Jeffries Warns Sanctions Bill Contains 'So Many Loopholes'",
+        "url": "https://www.theguardian.com/us-news/live/2026/sep/17/donald-trump-democrats-republicans-russia-sanctions-us-politics-latest-news"
+      },
+      {
+        "text": "Rep. Meeks Statement Following House Vote On Sanctions Bill",
+        "url": "https://democrats-foreignaffairs.house.gov/2026/9/meeks-issues-statement-following-vote-on-russia-sanctions-tariffs-bill"
+      },
+      {
+        "text": "CNBC: How The New 100% Tariffs Could Hit Global Oil Markets",
+        "url": "https://www.cnbc.com/2026/09/16/russia-sanctions-bill-lindsey-graham-congress.html"
+      }
+    ],
+    "postedAt": 1789645448629,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "SUPREME COURT MAIL-BALLOT RULING FALLOUT",
+      "stories": [
+        {
+          "headline": "Trump Rips Into Supreme Court Over Ruling On Midterm Elections",
+          "url": "https://www.theblaze.com/news/trump-supreme-court-ruling-midterm",
+          "timestamp": 1789644254000,
+          "postedAt": 1789645448629
+        },
+        {
+          "headline": "Kavanaugh Throws Trump A 'Lifeline' On Mail Ballot Rules Despite Court Loss",
+          "url": "https://www.foxnews.com/politics/kavanaugh-throws-trump-lifeline-mail-ballot-rules-despite-supreme-court-loss-midterms",
+          "timestamp": 1789635653000,
+          "postedAt": 1789645448629
+        }
+      ]
+    },
+    {
+      "title": "CONGRESS KEEPS PRESSURING TRUMP OVER IRAN WAR",
+      "stories": [
+        {
+          "headline": "Iran War Puts Future US Military Presence In Middle East In Question",
+          "url": "https://thehill.com/homenews/6094213-us-military-middle-east-withdrawal/",
+          "timestamp": 1789639200000,
+          "postedAt": 1789645448629
+        },
+        {
+          "headline": "House Votes For Third Time To End Iran War As Conflict Drags On",
+          "url": "https://abc7ny.com/story/house-votes-third-time-end-iran-war-conflict-drags/19838811/",
+          "timestamp": 1789554836000,
+          "postedAt": 1789645448629
+        },
+        {
+          "headline": "Seven Republicans Join Democrats In House Vote To End Iran War",
+          "url": "https://www.aljazeera.com/news/2026/9/16/us-house-votes-to-end-iran-war-7-republicans-join-in-favour",
+          "timestamp": 1789537801000,
+          "postedAt": 1789559141688
+        }
+      ]
+    },
+    {
+      "title": "MICHIGAN SENATE DEBATE ROW",
+      "stories": [
+        {
+          "headline": "Rogers Says He 'Never Agreed' To El-Sayed Debate, Calls It Unfair '2-On-1'",
+          "url": "https://thehill.com/homenews/campaign/6094433-mike-rogers-el-sayed-debate-never-agreed/",
+          "timestamp": 1789611120000,
+          "postedAt": 1789645448629
+        },
+        {
+          "headline": "El-Sayed Debates Empty Podium After Rogers Skips Michigan Senate Faceoff",
+          "url": "https://www.realclearpolitics.com/video/2026/09/16/abdul_el-sayed_debates_empty_podium_mike_rogers_had_time_to_speak_at_gop_convention_in_dallas_but_skipped_this_debate.html",
+          "timestamp": 1789491600000,
+          "postedAt": 1789645448629
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "CHARLIE KIRK'S FAMILY SIGNALS INTENT TO SUE OVER 'STUNNING' SECURITY FAILURES",
+        "url": "https://abcnews.com/US/charlie-kirks-family-signals-intent-sue-alleging-stunning/story?id",
+        "timestamp": 1789559141689,
+        "postedAt": 1789559141689
+      },
+      {
+        "headline": "Trump's Mass-Deportation Promise Is Disappearing, Report Finds",
+        "url": "https://www.theblaze.com/columns/opinion/the-mass-deportation-promise-is-disappearing",
+        "timestamp": 1789639228000,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "Kamala Harris Sticking To Her Own Timeline On 2028 Decision",
+        "url": "https://www.cnn.com/2026/09/17/politics/kamala-harris-2028-presidential-campaign-democrats",
+        "timestamp": 1789635629000,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "Family Of Texas Woman Who Died While Pregnant Sues Paxton, Doctors Over Denied Abortion",
+        "url": "https://thehill.com/homenews/state-watch/6094214-texas-woman-family-suing-paxton/",
+        "timestamp": 1789598280000,
+        "photo": true,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "California Billionaire Tax Draws Majority Support In New Poll — With A Catch",
+        "url": "https://nypost.com/2026/09/16/us-news/california-billionaire-tax-draws-majority-support-in-new-poll/",
+        "timestamp": 1789594860000,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "Rep. Meeks Places Hold On Trump Administration's $2.8 Billion Bomb Sale To Israel",
+        "url": "https://democrats-foreignaffairs.house.gov/2026/9/meeks-places-hold-on-trump-administration-s-2-8-billion-bomb-sale-to-israel",
+        "timestamp": 1789592134000,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "Joe Manchin Endorses Republican, Calls Her 'Soul Of The Senate'",
+        "url": "https://www.theblaze.com/news/manchin-endorse-susan-collins-senate",
+        "timestamp": 1789555785000,
+        "photo": true,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "Senators Grill Trump's Health Nominees, Including Surgeon General Pick",
+        "url": "https://www.npr.org/2026/09/16/nx-s1-5968780/trump-rfk-jr-health-nomination-surgeon-general",
+        "timestamp": 1789552800000,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "US Acknowledges For First Time It Has Deployed Weapons In Space",
+        "url": "https://www.npr.org/2026/09/16/nx-s1-5970937/us-weapons-space",
+        "timestamp": 1789543588000,
+        "feature": true,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "DOJ Accuses Russian Agents Of Plotting To Murder US-Based Dissident",
+        "url": "https://www.cbsnews.com/news/doj-accuses-russian-intelligence-agents-murder-plot/",
+        "timestamp": 1789523580000,
+        "photo": true,
+        "postedAt": 1789559141688,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "Trump Says US 'Open' To Iran Deal As Tanker Hit In Strait Of Hormuz",
+        "url": "https://abcnews.com/International/live-updates/iran-live-updates-oil-prices-rise-after-strikes/?id",
+        "timestamp": 1789465014000,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Tactical Agents Arrest 'Active Scout' Near Arizona Border, CBP Says",
+        "url": "https://www.theblaze.com/news/active-scout-arizona-mexico-border",
+        "timestamp": 1789468255000,
+        "photo": true,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Vermont Man On Trial For Shooting 3 Palestinian Students Says CIA Told Him To Do It",
+        "url": "https://apnews.com/article/jason-eaton-vermont-palestinian-students-shooting-e3a4e8a4d437997ffdf2d0f90d86b473",
+        "timestamp": 1789424280000,
+        "photo": true,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Cruz Expects Senate Vote On Protect College Sports Act Soon",
+        "url": "https://www.espn.com/college-sports/story/_/id/49943619/ted-cruz-expects-senate-vote-protect-college-sports-act-week-next",
+        "timestamp": 1789423740000,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "The Immigration Politics Of A Felon's Pardon",
+        "url": "https://www.realclearpolitics.com/articles/2026/09/15/the_immigration_politics_of_a_felons_pardon_154504.html",
+        "timestamp": 1789423200000,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Crypto Industry Says It's Now Or Never For The Clarity Act",
+        "url": "https://thehill.com/opinion/finance/6086356-lummis-clarity-act-crypto/",
+        "timestamp": 1789385400000,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "Diesel Prices Hit All-Time High As Saudi Pipeline Shutdown Jolts Oil Markets",
+        "url": "https://www.nbcnews.com/business/business-news/diesel-oil-prices-jump-saudi-pipeline-shut-hormuz-talks-postponed-iran-rcna597579",
+        "timestamp": 1789381737000,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "Texas Republicans Denounce Railroad Commissioner Candidate Over Racist Post",
+        "url": "https://www.nbcnews.com/politics/elections/texas-republicans-call-railroad-commissioner-candidate-racist-social-m-rcna597581",
+        "timestamp": 1789347900000,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "Chicago Mayor Brandon Johnson Launches Reelection Bid, Banks On Progressive Turnout",
+        "url": "https://www.politico.com/news/2026/09/13/brandon-johnson-reelection-campaign-progressives-dsa-01073547",
+        "timestamp": 1789306200000,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "Kennedy Center Board Votes To Close Facility",
+        "url": "https://www.npr.org/2026/09/16/g-s1-143569/up-first-newsletter-fed-reserve-interest-rates-iran-war-kennedy-center-contraception",
+        "timestamp": 1789557586000,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "Commentary Warns AI Could Bring Its Own '9/11 Moment'",
+        "url": "https://www.theblaze.com/columns/opinion/the-9-11-generation-may-be-building-ais-9-11-moment",
+        "timestamp": 1789554841000,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "Poll: Americans Increasingly Worried About AI's Environmental Impact",
+        "url": "https://apnews.com/article/ai-environmental-impact-data-centers-trump-228d625ab7c62cd583bc67d65074f7d4",
+        "timestamp": 1789549500000,
+        "postedAt": 1789559141688
+      }
+    ],
+    "center": [
+      {
+        "headline": "Nearly 8 In 10 Americans Back Politicians Who Defend US Companies Abroad, Poll Shows",
+        "url": "https://dailycaller.com/2026/09/17/new-poll-americans-foreign-companies",
+        "timestamp": 1789644360000,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "Coastal Homeowners Say FEMA Gives Them No Option As Houses Collapse Into Ocean",
+        "url": "https://www.npr.org/2026/09/17/nx-s1-5844642/fema-homes-collapse-ocean-climate-north-carolina-maine",
+        "timestamp": 1789635600000,
+        "photo": true,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "Speaker Johnson Recesses House Early As Massie Pushes Hegseth Impeachment",
+        "url": "https://apnews.com/article/house-recess-johnson-massie-impeachment-hegseth-epstein-3ace27e682dd85c0146df79189be119c",
+        "timestamp": 1789606140000,
+        "feature": true,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "Brit Hume: Rising Prices Are 'Killing' Trump Administration And Republicans",
+        "url": "https://www.realclearpolitics.com/video/2026/09/16/brit_hume_rising_prices_are_killing_the_trump_administration_and_republicans.html?video",
+        "timestamp": 1789491600000,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "How China Is Stealing America's AI",
+        "url": "https://www.yahoo.com/news/videos/attorney-general-todd-blanche-asked-191304819.html",
+        "timestamp": 1789557809000,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "Homan Confirms 'Ongoing Criminal Investigation' Into Ilhan Omar",
+        "url": "https://www.theblaze.com/news/homan-omar-criminal-investigation",
+        "timestamp": 1789554674000,
+        "photo": true,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "Piece Urges US To Recognize Somaliland, South Arabia To Curb Houthis",
+        "url": "https://www.washingtonexaminer.com/opinion/4727543/stop-houthis-recognize-somaliland-and-south-arabia/",
+        "timestamp": 1789552800000,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "Texas, Federal Officials Announce Noncitizen Voting Charges Against Seven",
+        "url": "https://www.texastribune.org/2026/09/15/texas-paxton-noncitizen-voter-charges-investigations/",
+        "timestamp": 1789515376000,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "GOP Congressman Calls To Impeach Defense Secretary Pete Hegseth",
+        "url": "https://www.aljazeera.com/news/2026/9/15/republican-congressman-calls-to-impeach-us-defence-secretary-pete-hegseth",
+        "timestamp": 1789512053000,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "Mitch McConnell Grilled Over Unexpected Move Day After Return",
+        "url": "https://www.nj.com/politics/2026/09/mitch-mcconnell-gets-grilled-over-unexpected-move-less-than-24-hours-after-return.html",
+        "timestamp": 1789504920000,
+        "photo": true,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "Senate Crypto Bill Sparks Major Battle Over Industry Rules",
+        "url": "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote",
+        "timestamp": 1789462800000,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "DHS Whistleblower Alleges Workers Lied To Access State Voter Data",
+        "url": "https://www.axios.com/2026/09/14/trump-dhs-voter-data-false-statements",
+        "timestamp": 1789454972000,
+        "feature": true,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Georgia's 23-Year-Old Mayor Ousted 10 Months After Historic Win",
+        "url": "https://www.foxnews.com/us/georgia-mayor-23-ousted-10-months-after-making-history-states-youngest-mayor",
+        "timestamp": 1789438293000,
+        "photo": true,
+        "postedAt": 1789472616348,
+        "image": "/img/politics-3.jpg"
+      },
+      {
+        "headline": "Newsom Says He Won't Run In 2028 If Harris Does",
+        "url": "https://www.nbcnews.com/politics/2028-election/gavin-newsom-says-wont-run-2028-kamala-harris-rcna597825",
+        "timestamp": 1789429939000,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Mitch McConnell Returns To Senate After Three-Month Health Absence",
+        "url": "https://www.cnbc.com/2026/09/14/mitch-mcconnell-returns-senate-capitol-health-fall.html",
+        "timestamp": 1789423382000,
+        "photo": true,
+        "postedAt": 1789472616348,
+        "image": "/img/politics-4.jpg"
+      },
+      {
+        "headline": "How Trump Is Spending His $400 Million Political War Chest",
+        "url": "https://popular.info/p/how-trump-is-spending-his-400-million",
+        "timestamp": 1789381914000,
+        "photo": true,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "How Republicans Secretly Recruited John Fetterman For Their Convention",
+        "url": "https://www.axios.com/2026/09/14/inside-fetterman-appearance-gop-convention",
+        "timestamp": 1789377818000,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "Charlie Kirk Statue Vandalized Outside Turning Point USA Headquarters",
+        "url": "https://www.aljazeera.com/news/2026/9/14/charlie-kirk-statue-vandalised-outside-turning-point-usa-headquarters",
+        "timestamp": 1789346843000,
+        "photo": true,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "Trump Administration Sues Arkansas Over In-State Tuition For DACA Students",
+        "url": "https://arkansasadvocate.com/2026/09/11/trump-administration-sues-arkansas-over-in-state-tuition-for-daca-students-other-immigrants/",
+        "timestamp": 1789153845000,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "Rep. Casar Pushes Bill To Pause Advanced AI Development",
+        "url": "https://www.npr.org/2026/09/14/nx-s1-5968058/texas-rep-greg-casar-discusses-bill-to-temporarily-pause-advanced-ai-development",
+        "timestamp": 1789383027000,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "Trump Says He'd Accept 'Guardrails' For Artificial Intelligence",
+        "url": "https://www.washingtontimes.com/news/2026/sep/13/trump-says-would-agree-guardrails-artificial-intelligence/",
+        "timestamp": 1789382240000,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "Speaker Johnson Rejects Rushing An 'Emergency' AI Bill Through Congress",
+        "url": "https://www.realclearpolitics.com/video/2026/09/13/speaker_johnson_on_ai_regulation_last_thing_we_need_is_for_everyone_to_panic.html",
+        "timestamp": 1789232400000,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "AI Debate Riles Washington Ahead Of Midterms",
+        "url": "https://www.dailysignal.com/2026/09/15/beyer-seeks-hearings-about-ai-regulation/",
+        "timestamp": 1789470000000,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Inside Senate Majority Leader Thune's AI Dilemma",
+        "url": "https://www.politico.com/news/2026/09/15/john-thune-ai-safety-dilemma-01076368",
+        "timestamp": 1789461900000,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Trump Says $5,000 Dividend Checks Will 'Happen 100 Percent'",
+        "url": "https://thehill.com/homenews/administration/6087307-trump-promises-5000-dividend-checks/",
+        "timestamp": 1789345620000,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "Trump Administration Suffers Double Legal Setback On Immigration Policy",
+        "url": "https://www.aljazeera.com/news/2026/9/15/trump-administration-suffers-double-legal-setback-over-immigration-rules",
+        "timestamp": 1789439738000,
+        "postedAt": 1789472616348
+      }
+    ],
+    "right": [
+      {
+        "headline": "Ex-Republican Renames Himself 'No-Trump,' Runs As Democrat — And Loses",
+        "url": "https://www.theblaze.com/news/ex-republican-changes-his-name-to-no-trump-and-runs-as-a-democrat-but-it-doesn-t-pay-off",
+        "timestamp": 1789637487000,
+        "photo": true,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "Frail McConnell Needs Assist From GOP Colleagues During Senate Vote",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/mitch-mcconnell-senate-vote-age-b3051568.html",
+        "timestamp": 1789600620000,
+        "photo": true,
+        "postedAt": 1789645448629,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "One Issue Unifies Republicans And Democrats Ahead Of Midterms, Poll Finds",
+        "url": "https://apnews.com/article/ai-environmental-impact-data-centers-trump-228d625ab7c62cd583bc67d65074f7d4",
+        "timestamp": 1789591320000,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "Klobuchar Questions FBI Director Patel Over Good, Pretti Investigations",
+        "url": "https://www.cbsnews.com/minnesota/news/amy-klobuchar-kash-patel-fbi-renee-good-alex-pretti-investigations/",
+        "timestamp": 1789567537000,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "RCP Polling Minute: Midterm Map Shifts With Seven Weeks To Go",
+        "url": "https://www.realclearpolitics.com/video/2026/09/16/rcp_polling_minute-_midterm_map_shifts_with_seven_weeks_to_go.html",
+        "timestamp": 1789491600000,
+        "postedAt": 1789645448629
+      },
+      {
+        "headline": "Democrats Map Narrow Path Through Red States To Retake Senate",
+        "url": "https://www.washingtontimes.com/news/2026/sep/15/democrats-map-clear-narrow-route-take-back-senate-november/",
+        "timestamp": 1789555167000,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "NPR Explores Vanity Fair Profile Of JD Vance's Political Rise At Yale",
+        "url": "https://www.npr.org/2026/09/16/nx-s1-5970450/vanity-fair-feature-profiles-the-political-development-of-jd-vance-at-yale",
+        "timestamp": 1789551753000,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "Would-Be Trump Assassin Practiced 100-Yard Shot Day Before Attack, FBI Documents Show",
+        "url": "https://www.nbcnews.com/news/us-news/trump-butler-pennsylvania-assassination-attempt-fbi-documents-rcna597986",
+        "timestamp": 1789523580000,
+        "photo": true,
+        "postedAt": 1789559141688,
+        "image": "/img/politics-2.jpg"
+      },
+      {
+        "headline": "ACLU: Trump Administration Has Deported Thousands In Third-Country Removals",
+        "url": "https://www.aclu.org/news/immigrants-rights/the-trump-administration-is-disappearing-immigrants-and-asylum-seekers-in-growing-third-country-removal-campaign",
+        "timestamp": 1789502251000,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "Wisconsin Supreme Court To Hear Congressional Map Arguments",
+        "url": "https://www.wpr.org/news/wisconsin-supreme-court-congressional-map-arguments",
+        "timestamp": 1789489099000,
+        "postedAt": 1789559141688
+      },
+      {
+        "headline": "Campus Free Speech Is Alive — Barely",
+        "url": "https://www.theblaze.com/columns/opinion/campus-free-speech-is-alive-barely",
+        "timestamp": 1789471855000,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Texas Lawmaker Bo French's Comments On UT Students Called 'Disgusting'",
+        "url": "https://www.texastribune.org/2026/09/14/bo-french-university-texas-austin-students/",
+        "timestamp": 1789437793000,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Ossoff Vs. Collins: New GOP Poll Gives Georgia Senate Race Update",
+        "url": "https://www.newsweek.com/jon-ossoff-vs-mike-collins-new-gop-poll-gives-race-update-50-days-out-12441633",
+        "timestamp": 1789424220000,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Houthis Seize Two Strategic Red Sea Islands, Other Mideast Developments",
+        "url": "https://www.newsmax.com/world/globaltalk/mideast-iran-yemen-houthis-israel-saudi-oil/2026/09/14/id/1269334/",
+        "timestamp": 1789383672000,
+        "photo": true,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "RFK Jr. Claims Credit For Big Pharma's Success In Cutting Obesity",
+        "url": "https://www.washingtonexaminer.com/in_focus/4724177/rfk-jr-claims-credit-big-pharma-success-obesity-decline/",
+        "timestamp": 1789383600000,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "AARP Accused Of Stoking Fear Over Social Security To Boost Donations",
+        "url": "https://www.washingtonexaminer.com/op-eds/4723294/social-security-insolvency-bipartisan-commission/",
+        "timestamp": 1789383600000,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "XX-XY Athletics Founder Says Leading Fight For Women's Sports Is 'Hardest Thing' She's Done",
+        "url": "https://www.dailywire.com/news/leading-xx-xy-athletics-is-the-hardest-thing-ive-ever-done?author",
+        "timestamp": 1789382165000,
+        "photo": true,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "EPA Expected To Erase Climate Pollution Limits On Power Plants",
+        "url": "https://www.facebook.com/nytimes/posts/breaking-news-the-epa-is-said-to-be-planning-to-announce-that-the-us-will-no-lon/1485125943469864/",
+        "timestamp": 1789351897000,
+        "feature": true,
+        "postedAt": 1789386537024
+      },
+      {
+        "headline": "Washington's AI Response Falls Into Predictable Partisan Patterns",
+        "url": "https://www.nbcnews.com/politics/politics-news/washingtons-ai-response-falls-predictable-patterns-politics-desk-rcna597871",
+        "timestamp": 1789466812000,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Trump Calls Nvidia's Jensen Huang, Dismisses AI Fears As 'Hoax'",
+        "url": "https://www.foxbusiness.com/technology/trump-calls-nvidia-ceo-jensen-huang-during-summit-dismisses-ai-fears-hoax",
+        "timestamp": 1789438500000,
+        "postedAt": 1789472616348
+      },
+      {
+        "headline": "Bannon And Sanders Jointly Condemn Tech 'Oligarchs,' Demand AI Reforms",
+        "url": "https://www.nbcnews.com/news/us-news/bernie-sanders-steve-bannon-teamed-ai-fight-rcna598005",
+        "timestamp": 1789549740000,
+        "postedAt": 1789559141688
+      }
+    ]
+  },
+  "polls": [
+    {
+      "name": "Trump Approval",
+      "value": "39%/57%",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
+      "asOf": "Sep 12, 2026"
+    },
+    {
+      "name": "Generic Congressional Vote",
+      "value": "Dem +6.4",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "Aug 27, 2026"
+    },
+    {
+      "name": "Right Direction",
+      "value": "30%/61%",
+      "sub": "",
+      "url": "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating"
+    }
+  ],
+  "balance": {
+    "left": 520,
+    "right": 611,
+    "independent": 0,
+    "days": 30,
+    "total": 1131,
+    "pctLeft": 46,
+    "pctRight": 54
+  }
+}
