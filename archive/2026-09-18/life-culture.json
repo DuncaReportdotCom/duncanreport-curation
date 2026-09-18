@@ -1,20 +1,11 @@
 {
-  "lastUpdated": 1789645987328,
-  "heroSetDate": "2026-09-17",
+  "lastUpdated": 1789733391223,
+  "heroSetDate": "2026-09-18",
   "hero": {
-    "headline": "'SPIDER-MAN: BRAND NEW DAY' TOPS 'STAR WARS' AS HIGHEST-GROSSING U.S. MOVIE EVER",
-    "url": "https://gizmodo.com/spider-man-beats-star-wars-to-become-highest-grossing-movie-in-u-s-history-2000812601",
-    "sublinks": [
-      {
-        "text": "Box office trackers officially confirm the new domestic record",
-        "url": "https://variety.com/2026/film/box-office/spider-man-beats-star-wars-biggest-movie-domestic-box-office-1236836593/"
-      },
-      {
-        "text": "Lucasfilm publicly congratulates Marvel on breaking its own mark",
-        "url": "https://gvwire.com/2026/09/16/lucasfilm-congratulates-spider-man-for-breaking-star-wars-domestic-box-office-record/"
-      }
-    ],
-    "postedAt": 1789645987328,
+    "headline": "SCIENTISTS DISCOVER THE HUMAN BRAIN HAS TWO DISTINCT EVOLUTIONARY ORIGINS",
+    "url": "https://www.sciencealert.com/the-human-brain-has-two-distinct-origins-scientists-discover",
+    "sublinks": [],
+    "postedAt": 1789733391223,
     "img": true
   },
   "groups": [
@@ -45,6 +36,47 @@
   "columns": {
     "left": [
       {
+        "headline": "'SPIDER-MAN: BRAND NEW DAY' TOPS 'STAR WARS' AS HIGHEST-GROSSING U.S. MOVIE EVER",
+        "url": "https://gizmodo.com/spider-man-beats-star-wars-to-become-highest-grossing-movie-in-u-s-history-2000812601",
+        "timestamp": 1789645987328,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "10 Ways to Upgrade Jarred Tomato Sauce That Are Worth the Effort",
+        "url": "https://www.seriouseats.com/how-to-upgrade-jarred-tomato-sauce-12127111",
+        "timestamp": 1789730164000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Earth's Magnetic Field Flip, Heard as Sound, Is an Unnerving Horror",
+        "url": "https://www.sciencealert.com/earths-magnetic-field-flipping-heard-as-a-sound-is-an-unnerving-horror",
+        "timestamp": 1789729497000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Rocket Report: ULA Faces Uncertain Future as Falcon 9 Hits 700 Launches",
+        "url": "https://arstechnica.com/space/2026/09/rocket-report-ula-flies-into-uncertain-future-falcon-9-family-hits-700-launches/",
+        "timestamp": 1789729211000,
+        "photo": true,
+        "postedAt": 1789733391223,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "Nobel Laureate Uses AI to Create Molecules Not Found in Nature",
+        "url": "https://www.techbuzz.ai/articles/nobel-winner-uses-ai-to-design-molecules-beyond-nature",
+        "timestamp": 1789727400000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Scientists Finally Know the Body Temperature of the Tyrannosaurus Rex",
+        "url": "https://newsroom.ucla.edu/releases/scientists-finally-know-the-body-temperature-of-the-tyrannosaurus-rex",
+        "timestamp": 1789581997000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789733391223,
+        "image": "/img/life-culture-6.jpg"
+      },
+      {
         "headline": "Food Editors Share Kitchen Shortcuts For Easier Weeknight Cooking",
         "url": "https://www.seriouseats.com/editor-kitchen-shortcuts-12125260",
         "timestamp": 1789642800000,
@@ -62,7 +94,7 @@
         "timestamp": 1789622378000,
         "photo": true,
         "postedAt": 1789645987328,
-        "image": "/img/life-culture-1.jpg"
+        "image": "/img/life-culture-4.jpg"
       },
       {
         "headline": "UK: King Charles Reportedly Unhappy With Earl Spencer's New Memoir",
@@ -99,62 +131,34 @@
         "url": "https://artsfuse.org/334278/book-review-edward-gorey-up-close-and-not-quite-in-focus/",
         "timestamp": 1789383929000,
         "postedAt": 1789559676338
-      },
-      {
-        "headline": "2027 Ford F-150 Raptor And Tremor Get Cheaper — Here's The Catch",
-        "url": "https://www.thedrive.com/news/the-2027-ford-f-150-raptor-and-tremor-will-be-thousands-cheaper-heres-the-catch",
-        "timestamp": 1789466400000,
-        "photo": true,
-        "postedAt": 1789473025771,
-        "image": "/img/life-culture-4.jpg"
-      },
-      {
-        "headline": "The Indian Removal Act Of 1830: The Last Act Of A Long Story",
-        "url": "https://www.realclearhistory.com/articles/2026/09/14/the_indian_removal_act_of_1830_the_last_act_of_a_long_story_1205571.html",
-        "timestamp": 1789354813000,
-        "postedAt": 1789473025771
-      },
-      {
-        "headline": "A Historic Swiss Watchmaker Is Getting A Relaunch",
-        "url": "https://www.insidehook.com/watches/gallet-watchmaker-relaunch-breitling/amp",
-        "timestamp": 1789380371000,
-        "photo": true,
-        "postedAt": 1789386984184,
-        "image": "/img/life-culture-5.jpg"
-      },
-      {
-        "headline": "Why Do People Still Get Married?",
-        "url": "https://www.realclearscience.com/articles/2026/09/14/why_do_people_still_get_married_1205876.html",
-        "timestamp": 1789328460000,
-        "postedAt": 1789386984184
-      },
-      {
-        "headline": "Emily St. John Mandel Discusses Writing A Novel Of Dystopian Counterlives",
-        "url": "https://lithub.com/emily-st-john-mandel-on-writing-a-novel-of-dystopian-counterlives/",
-        "timestamp": 1789464583000,
-        "postedAt": 1789473025771
-      },
-      {
-        "headline": "Widow's Bay Dominates Emmys With Six Wins, Pluribus And The Pitt Trail",
-        "url": "https://www.televisionacademy.com/features/news/awards-news/78th-emmys-winners-recap",
-        "timestamp": 1789446231000,
-        "feature": true,
-        "postedAt": 1789473025771
-      },
-      {
-        "headline": "Michael J. Fox Receives Emotional Standing Ovation For Humanitarian Award",
-        "url": "https://variety.com/2026/tv/news/michael-j-fox-emmy-humanitarian-parkinsons-1236861934/",
-        "timestamp": 1789438260000,
-        "postedAt": 1789473025771
-      },
-      {
-        "headline": "A Look Back At His Most Iconic Designs, In Pictures",
-        "url": "https://www.bbc.com/news/articles/c9e8enjrn3dyo",
-        "timestamp": 1789440819000,
-        "postedAt": 1789473025771
       }
     ],
     "center": [
+      {
+        "headline": "The Long, Fascinating History of Food Additives - and Why We're Stuck With Them",
+        "url": "https://theconversation.com/the-long-fascinating-history-of-food-additives-and-why-were-stuck-with-them-283094",
+        "timestamp": 1789723652000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "'Monster: The Lizzie Borden Story' Panned by Critics and Audiences",
+        "url": "https://www.forbes.com/sites/timlammers/2026/09/18/monster-the-lizzie-borden-story-butchered-by-rotten-tomatoes-critics-and-audiences/",
+        "timestamp": 1789708371000,
+        "photo": true,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "'Resident Evil' Reboot Racing Toward Healthy Box Office Haul",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/resident-evil-box-office-zach-cregger-reboot-opening-1236705092/",
+        "timestamp": 1789695547000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Disney Names New Streaming Boss in Major Division Shake-Up",
+        "url": "https://www.hollywoodreporter.com/business/business-news/disney-streaming-chairman-adam-smith-joe-earley-tv-1236704657/",
+        "timestamp": 1789686451000,
+        "postedAt": 1789733391223
+      },
       {
         "headline": "'Fast & Furious' Roller Coaster Is A Ferociously Fun Thrill Ride",
         "url": "https://mynewsla.com/hollywood/2026/09/16/fast-furious-coaster-opens-at-universal-studios-hollywood-2/",
@@ -181,7 +185,7 @@
         "timestamp": 1789595757000,
         "photo": true,
         "postedAt": 1789645987328,
-        "image": "/img/life-culture-2.jpg"
+        "image": "/img/life-culture-5.jpg"
       },
       {
         "headline": "Why Everything Weighs Less In Antarctica",
@@ -201,7 +205,7 @@
         "timestamp": 1789553672000,
         "photo": true,
         "postedAt": 1789559676338,
-        "image": "/img/life-culture-3.jpg"
+        "image": "/img/life-culture-7.jpg"
       },
       {
         "headline": "The Wellness Philosophy Of Citius Mag Founder Chris Chavez",
@@ -214,45 +218,6 @@
         "url": "https://www.bbc.com/news/articles/c3v4z2vwrkpo",
         "timestamp": 1789472704000,
         "postedAt": 1789559676338
-      },
-      {
-        "headline": "SCIENTISTS IDENTIFY THE 'DOOMSDAY' SEEDS THAT COULD LAST THE LONGEST",
-        "url": "https://www.sciencealert.com/scientists-identify-the-doomsday-seeds-that-could-last-the-longest",
-        "timestamp": 1789386984184,
-        "postedAt": 1789386984184
-      },
-      {
-        "headline": "Famous Galaxy's Black Hole Has Been Hiding Its Most Violent Behavior",
-        "url": "https://phys.org/news/2026-09-famous-galaxy-black-hole-violent.html",
-        "timestamp": 1789471201000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1789473025771
-      },
-      {
-        "headline": "Europe's E-Waste Is A Valuable Resource — Let's Not Throw It Away",
-        "url": "https://theconversation.com/europes-e-waste-is-a-valuable-resource-lets-not-throw-it-away-290453",
-        "timestamp": 1789466078000,
-        "postedAt": 1789473025771
-      },
-      {
-        "headline": "China Let AI Run An Eye Clinic - Here's What Happened",
-        "url": "https://www.sciencealert.com/china-just-let-ai-run-an-eye-clinic-heres-what-happened",
-        "timestamp": 1789380067000,
-        "postedAt": 1789386984184
-      },
-      {
-        "headline": "Celine Dion Returns To The Stage In Paris After Six-Year Absence",
-        "url": "https://www.cbs19.tv/video/news/local/celine-dion-returns-to-the-stage-in-paris-after-years-away-from-performing/501-a5be9a09-0072-477c-bd25-7367fe1ebfc6",
-        "timestamp": 1789314190000,
-        "photo": true,
-        "postedAt": 1789386984184
-      },
-      {
-        "headline": "Matthew Rhys Makes History Winning All Three Top Acting Emmys",
-        "url": "https://uk.news.yahoo.com/matthew-rhys-makes-emmy-history-011717948.html",
-        "timestamp": 1789435020000,
-        "postedAt": 1789473025771
       },
       {
         "headline": "If Computers Count Every Petal, Who Still Tastes The Cherries?",
@@ -269,6 +234,47 @@
     ],
     "right": [
       {
+        "headline": "Route 66 Turns 100: Where to Detour for 6 UNESCO World Heritage Sites",
+        "url": "https://www.afar.com/magazine/unesco-world-heritage-sites-you-can-reach-from-route-66",
+        "timestamp": 1789732813000,
+        "photo": true,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "7 More Watches Rolex Should Revive, According to the Watch Illuminati",
+        "url": "https://www.gq.com/story/rolex-watches-that-deserve-a-comeback-after-padellone",
+        "timestamp": 1789732500000,
+        "photo": true,
+        "postedAt": 1789733391223,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Isabel Allende on Finding the Freedom to Write",
+        "url": "https://lithub.com/isabel-allende-on-finding-the-freedom-to-write/",
+        "timestamp": 1789723851000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "The Bayeux Tapestry: How a Medieval Wonder Was Reinvented for Modern Times",
+        "url": "https://theconversation.com/the-bayeux-tapestry-how-this-medieval-wonder-was-reinvented-for-modern-times-291812",
+        "timestamp": 1789723359000,
+        "photo": true,
+        "postedAt": 1789733391223,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "2026 National Book Award for Fiction Longlist Revealed",
+        "url": "https://lithub.com/heres-the-longlist-for-the-2026-national-book-award-for-fiction/",
+        "timestamp": 1789654886000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Kate Atkinson's New Historical Novel Escapes to a Festival Most Americans Haven't Heard Of",
+        "url": "https://www.npr.org/2026/09/16/nx-s1-5969746/our-noble-selves-review-kate-atkinson",
+        "timestamp": 1789573423000,
+        "postedAt": 1789733391223
+      },
+      {
         "headline": "NEW STUDY SUGGESTS A WOMAN RULED ANCIENT EGYPT 5,000 YEARS AGO",
         "url": "https://www.realclearscience.com/articles/2026/09/16/new_study_suggests_a_female_ruled_ancient_egypt_5000_years_ago_1206388.html",
         "timestamp": 1789559676338,
@@ -278,15 +284,13 @@
         "headline": "Just Smelling Coffee May Change Your Mood And Brain Activity",
         "url": "https://www.sciencealert.com/just-smelling-coffee-may-change-your-mood-and-brain-activity",
         "timestamp": 1789642868000,
-        "postedAt": 1789645987328,
-        "image": "/img/life-culture-6.jpg"
+        "postedAt": 1789645987328
       },
       {
         "headline": "This Portable Party Speaker Is Almost Too Loud To Handle",
         "url": "https://www.rtings.com/speaker/reviews/best/loud-bluetooth",
         "timestamp": 1789642800000,
-        "postedAt": 1789645987328,
-        "image": "/img/life-culture-7.jpg"
+        "postedAt": 1789645987328
       },
       {
         "headline": "WWI Submarine Wreck Is Leaking Explosives Into The North Sea",
@@ -294,7 +298,7 @@
         "timestamp": 1789639273000,
         "photo": true,
         "postedAt": 1789645987328,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-3.jpg"
       },
       {
         "headline": "Salman Rushdie And Rachel Eliza Griffiths Turn His Stabbing Into A Love Story",
@@ -310,46 +314,10 @@
         "postedAt": 1789645987328
       },
       {
-        "headline": "AUSTRALIA'S INDIGENOUS POPULATION WAS SEVEN TIMES LARGER THAN PREVIOUSLY ESTIMATED, STUDY FINDS",
-        "url": "https://www.sciencealert.com/australias-indigenous-population-was-7-times-larger-than-estimated-study-finds",
-        "timestamp": 1789473025771,
-        "postedAt": 1789473025771
-      },
-      {
         "headline": "New Sculptures Blend Symmetry And Organic, Biomorphic Forms",
         "url": "https://links.thisiscolossal.com/post/827911062700605440/symmetry-and-biomorphic-forms-characterize-roberta",
         "timestamp": 1789557516000,
         "postedAt": 1789559676338
-      },
-      {
-        "headline": "First Evidence In Humans That BPA Can Alter Insulin Sensitivity",
-        "url": "https://www.sciencealert.com/first-evidence-in-humans-that-bpa-can-alter-insulin-sensitivity",
-        "timestamp": 1789470114000,
-        "postedAt": 1789473025771
-      },
-      {
-        "headline": "San Francisco Opera Cancels Season Opener As Musicians Strike",
-        "url": "https://www.kqed.org/arts/13993840/sf-opera-opener-cancelled-opera-in-the-park-simon-boccanegra-union-contract",
-        "timestamp": 1789272213000,
-        "postedAt": 1789386984184
-      },
-      {
-        "headline": "Stephen Colbert Celebrates Late Show Emmy Win After Trump Attacks",
-        "url": "https://www.usatoday.com/story/entertainment/tv-streaming/awards/emmys/2026/09/14/stephen-colbert-wins-late-show-emmys-2026/91678443007/",
-        "timestamp": 1789447020000,
-        "postedAt": 1789473025771
-      },
-      {
-        "headline": "Robert Redford, Nicholas Brendon Left Out Of In Memoriam Segment",
-        "url": "https://ew.com/robert-redford-nicholas-brendon-left-out-of-2026-emmys-in-memoriam-12113279",
-        "timestamp": 1789442460000,
-        "postedAt": 1789473025771
-      },
-      {
-        "headline": "Taylor Swift Skips Emmys For Chiefs Game With Travis Kelce, Tom Cruise",
-        "url": "https://apnews.com/article/taylor-swift-denver-broncos-kansas-city-chiefs-9610d2edfa434c3247e1918c4007c9b1",
-        "timestamp": 1789434960000,
-        "postedAt": 1789473025771
       },
       {
         "headline": "How China Is Stealing America's AI",
