@@ -21,7 +21,7 @@ If a change seems necessary, stop and ask first.
 - Group panel titles: ALL CAPS
 - Column story headlines: Title Case with acronyms preserved (punctuation-stripping
   `toTitleCase` function)
-- All links: dark blue `#00008B`
+- Links: slate navy `#34435C`. Featured stories (story flag `feature`: true) render in dark red `#9B1C1C`, bold
 - Underline behavior (as live): top-nav links and `.col-section-title` links are underlined
   at rest; `.col-link` and `.sub-headline` links are NOT underlined at rest — they underline
   on hover only
@@ -41,7 +41,10 @@ If a change seems necessary, stop and ask first.
 
 - Source bar: half left-leaning, half right-leaning outlets — intentional, signals the
   editorial mission. Do not reorder, rebalance, or restyle.
-- No age labels, no colored category tags, no images
+- No age labels, no colored category tags. The hero photo sits at the very top of the page. Below it every page carries 8 column photos.
+  Sponsored units take up to 2 of them and standalone COLUMN stories take the rest (Drudge-style,
+  rendered above the headline), so a page with no ads running shows 8 story photos and a page with
+  both ad slots filled shows 6. Column photos render at max-height 175px. Ads render through the identical markup. No other images - none on panels, no category tags, no source-bar icons
 - Satire entries: small grey "Satire" badge (`.satire-tag` CSS class + `tagPrefix()` helper)
 
 ---
