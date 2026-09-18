@@ -585,9 +585,9 @@
       "home": "BUF",
       "away": "DET",
       "state": "in",
-      "note": "1:51 - 2nd",
+      "note": "Halftime",
       "homeScore": "27",
-      "awayScore": "7"
+      "awayScore": "10"
     },
     {
       "league": "NFL",
@@ -720,25 +720,16 @@
       "home": "NYM",
       "away": "PHI",
       "state": "in",
-      "note": "Bot 8th",
+      "note": "End 9th",
       "homeScore": "0",
       "awayScore": "3"
-    },
-    {
-      "league": "MLB",
-      "home": "HOU",
-      "away": "KC",
-      "state": "in",
-      "note": "Top 9th",
-      "homeScore": "6",
-      "awayScore": "2"
     },
     {
       "league": "MLB",
       "home": "CHW",
       "away": "DET",
       "state": "in",
-      "note": "Top 7th",
+      "note": "Top 8th",
       "homeScore": "3",
       "awayScore": "1"
     },
@@ -747,7 +738,7 @@
       "home": "TEX",
       "away": "BOS",
       "state": "in",
-      "note": "Top 6th",
+      "note": "Top 7th",
       "homeScore": "3",
       "awayScore": "0"
     },
@@ -755,10 +746,10 @@
       "league": "MLB",
       "home": "LAA",
       "away": "MIN",
-      "state": "scheduled",
-      "note": "9/17 - 9:38 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Bot 1st",
+      "homeScore": "3",
+      "awayScore": "0"
     },
     {
       "league": "MLB",
@@ -795,6 +786,15 @@
       "note": "Final",
       "homeScore": "2",
       "awayScore": "9"
+    },
+    {
+      "league": "MLB",
+      "home": "HOU",
+      "away": "KC",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "6",
+      "awayScore": "2"
     },
     {
       "league": "NHL",
