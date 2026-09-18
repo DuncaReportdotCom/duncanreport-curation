@@ -2611,12 +2611,14 @@ def curate_live(section):
             "sparingly for genuine standouts only (a major breaking development, the day's dominant story); "
             "if everything is red, nothing stands out. Do NOT flag the hero (it already leads). A featured "
             "story can be a column item or a panel story.\n"
-            "- PHOTOS: choose the 6-8 most VISUALLY striking standalone COLUMN stories - the ones that "
-            "will have a great news photo (a dramatic scene, a notable face, a vivid moment), NOT abstract, "
-            "financial, or text-only topics - and add \"photo\": true to those story objects (at most 8 per "
-            "page, and no more than 3 in any single column - spread them across left/center/right). These "
-            "become Drudge-style images that break up the columns, so pick for picture quality "
-            "and impact. Do not flag hero or panel stories, only standalone column items.\n"
+            "- PHOTOS: the page ALWAYS shows 8 column photos, so flag a SURPLUS - the 10-12 most "
+            "VISUALLY striking standalone COLUMN stories (a dramatic scene, a notable face, a vivid "
+            "moment), NOT abstract, financial, or text-only topics - by adding \"photo\": true to those "
+            "story objects. Spread them across left/center/right (aim for at least 3 per column). Flagging "
+            "more than 8 lets the best-looking images win and covers any whose photo can't be fetched, so "
+            "all 8 slots fill with strong pictures. These become Drudge-style images that break up the "
+            "columns, so pick for picture quality and impact. Do not flag hero or panel stories, only "
+            "standalone column items.\n"
             "- PAYWALLS: when the same story is available from BOTH a hard-paywalled outlet (WSJ, FT, "
             "Bloomberg, The Economist, Barron's, The Times of London, Telegraph) and a freely-readable one, "
             "LINK the free version. Keep using paywalled outlets for headlines and as a signal of what "
@@ -3570,6 +3572,31 @@ def apply_column_images(section, data):
                 per_col[k] += 1
         except Exception as e:
             print("    column image failed:", str(e)[:70])
+    # HARD FILL to the full budget: the page should always show its 8 photos. If the curator's
+    # flagged picks didn't yield enough (too few flagged, or some images failed to fetch), top up
+    # from the remaining column stories - newest first, still capped per column - using any with a
+    # fetchable photo. Flagged stories (photo=true) are skipped so we never re-fetch a known miss.
+    # `tries` bounds the extra fetching on image-poor days so a run can't stall chasing photos.
+    if n < budget:
+        extra = [(k, s) for k in ("left", "center", "right")
+                 for s in (cols.get(k) or [])
+                 if not s.get("image") and not s.get("photo")]
+        extra.sort(key=lambda ks: ks[1].get("timestamp") or 0, reverse=True)
+        tries = 0
+        for k, s in extra:
+            if n >= budget or tries >= 30:
+                break
+            if per_col[k] >= 3:
+                continue
+            tries += 1
+            dest = os.path.join(SITE, "img", "%s-%d.jpg" % (section, n))
+            try:
+                if s.get("url") and _try_hero_images([s["url"]], dest):
+                    s["image"] = "/img/%s-%d.jpg" % (section, n)
+                    n += 1
+                    per_col[k] += 1
+            except Exception as e:
+                print("    column image (fill) failed:", str(e)[:70])
     if n:
         print("  column images: %d for %s" % (n, section))
     return data
