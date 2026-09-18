@@ -292,7 +292,8 @@
         "headline": "UNC Players Cited After Traffic Stop, One On Gun Charge, Sit Out Vs. Clemson",
         "url": "https://www.wral.com/sports/northcarolina-players-cited-speeding-carrying-concealed-weapon-september-2026/",
         "timestamp": 1789615198000,
-        "postedAt": 1789644024199
+        "postedAt": 1789644024199,
+        "image": "/img/sports-7.jpg"
       },
       {
         "headline": "Jets Goalie Connor Hellebuyck Skips Camp, Draws Suspension",
@@ -584,9 +585,9 @@
       "home": "BUF",
       "away": "DET",
       "state": "in",
-      "note": "3:42 - 1st",
-      "homeScore": "14",
-      "awayScore": "0"
+      "note": "1:51 - 2nd",
+      "homeScore": "27",
+      "awayScore": "7"
     },
     {
       "league": "NFL",
@@ -719,25 +720,25 @@
       "home": "NYM",
       "away": "PHI",
       "state": "in",
-      "note": "Top 6th",
+      "note": "Bot 8th",
       "homeScore": "0",
-      "awayScore": "1"
+      "awayScore": "3"
     },
     {
       "league": "MLB",
       "home": "HOU",
       "away": "KC",
       "state": "in",
-      "note": "Bot 6th",
-      "homeScore": "4",
-      "awayScore": "1"
+      "note": "Top 9th",
+      "homeScore": "6",
+      "awayScore": "2"
     },
     {
       "league": "MLB",
       "home": "CHW",
       "away": "DET",
       "state": "in",
-      "note": "Bot 4th",
+      "note": "Top 7th",
       "homeScore": "3",
       "awayScore": "1"
     },
@@ -746,7 +747,7 @@
       "home": "TEX",
       "away": "BOS",
       "state": "in",
-      "note": "End 2nd",
+      "note": "Top 6th",
       "homeScore": "3",
       "awayScore": "0"
     },

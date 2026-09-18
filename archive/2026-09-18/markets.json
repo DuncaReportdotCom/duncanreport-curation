@@ -189,13 +189,15 @@
         "headline": "10-YEAR TREASURY YIELD BREACHES 5% AS FED DECISION LOOMS, STOCKS SLIDE",
         "url": "https://www.cnbc.com/2026/09/14/stock-market-today-live-updates.html",
         "timestamp": 1789472006350,
-        "postedAt": 1789472006350
+        "postedAt": 1789472006350,
+        "image": "/img/markets-7.jpg"
       },
       {
         "headline": "UK: Bank Of England Halts Long-Dated Gilt Sales As Yields Soar",
         "url": "https://www.zerohedge.com/markets/bank-england-stop-selling-20-and-30-year-gilts-yields-soar",
         "timestamp": 1789541100000,
-        "postedAt": 1789558474430
+        "postedAt": 1789558474430,
+        "image": "/img/markets-6.jpg"
       },
       {
         "headline": "Judge Sets Date For Paramount-WBD Antitrust Settlement Talks",
@@ -603,26 +605,26 @@
     },
     {
       "name": "Gold",
-      "value": "$4,398.10",
-      "change": "-1.60",
-      "changePct": "-0.04%",
-      "up": false,
+      "value": "$4,400.70",
+      "change": "+1.00",
+      "changePct": "+0.02%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$100.87",
-      "change": "-1.04",
-      "changePct": "-1.02%",
+      "value": "$101.22",
+      "change": "-0.69",
+      "changePct": "-0.68%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$76,336.60",
-      "change": "-14.08",
-      "changePct": "-0.02%",
-      "up": false,
+      "value": "$76,528.65",
+      "change": "+177.97",
+      "changePct": "+0.23%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     }
   ]

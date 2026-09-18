@@ -193,7 +193,8 @@
         "headline": "Diesel Prices Hit All-Time High As Saudi Pipeline Shutdown Jolts Oil Markets",
         "url": "https://www.nbcnews.com/business/business-news/diesel-oil-prices-jump-saudi-pipeline-shut-hormuz-talks-postponed-iran-rcna597579",
         "timestamp": 1789381737000,
-        "postedAt": 1789386537024
+        "postedAt": 1789386537024,
+        "image": "/img/politics-7.jpg"
       },
       {
         "headline": "Texas Republicans Denounce Railroad Commissioner Candidate Over Racist Post",
@@ -529,7 +530,8 @@
         "headline": "Bannon And Sanders Jointly Condemn Tech 'Oligarchs,' Demand AI Reforms",
         "url": "https://www.nbcnews.com/news/us-news/bernie-sanders-steve-bannon-teamed-ai-fight-rcna598005",
         "timestamp": 1789549740000,
-        "postedAt": 1789559141688
+        "postedAt": 1789559141688,
+        "image": "/img/politics-6.jpg"
       }
     ]
   },
