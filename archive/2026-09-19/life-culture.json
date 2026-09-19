@@ -1,0 +1,410 @@
+{
+  "lastUpdated": 1789843739710,
+  "heroSetDate": "2026-09-19",
+  "hero": {
+    "headline": "SCIENTISTS DISCOVER CELLS THAT 'CHEAT DEATH' AND REBUILD DAMAGED TISSUE",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260917003722.htm",
+    "sublinks": [],
+    "postedAt": 1789840580280,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "CONGRESS WEIGHS AM RADIO MANDATE FOR CARS",
+      "stories": [
+        {
+          "headline": "Federal Government May Soon Require AM Radio In All New Cars And EVs",
+          "url": "https://www.caranddriver.com/news/a73792988/am-radio-every-vehicle-act-passes-us-house/",
+          "timestamp": 1789837346000,
+          "postedAt": 1789840580280
+        },
+        {
+          "headline": "Future Of AM Radio In Cars Just Got A Little More Certain",
+          "url": "https://www.thedrive.com/news/the-future-of-am-radio-in-cars-just-got-a-little-more-certain",
+          "timestamp": 1789837200000,
+          "postedAt": 1789840580280
+        }
+      ]
+    },
+    {
+      "title": "CONVERSE PULLS AD AFTER BACKLASH",
+      "stories": [
+        {
+          "headline": "Converse Says 'We Got This Wrong' In Pulling Ad",
+          "url": "https://www.usatoday.com/story/news/nation/2026/09/19/converse-pulls-ad-after-social-media-backlash/91844603007/",
+          "timestamp": 1789831200000,
+          "postedAt": 1789840580280
+        },
+        {
+          "headline": "Converse Pulls 'Deeply Upsetting' Advert After Backlash",
+          "url": "https://www.bbc.com/news/articles/crwyzj53pl1lo",
+          "timestamp": 1789826701000,
+          "feature": true,
+          "postedAt": 1789840580280
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Duncan Sheik, Who Traded Pop Stardom For Broadway, Dies At 56",
+        "url": "https://www.facebook.com/nytimes/posts/duncan-sheik-the-singer-songwriter-who-traded-pop-stardom-for-broadway-as-the-co/1489539243028534/",
+        "timestamp": 1789840140000,
+        "feature": true,
+        "postedAt": 1789843739710
+      },
+      {
+        "headline": "SCIENTISTS DISCOVER THE HUMAN BRAIN HAS TWO DISTINCT EVOLUTIONARY ORIGINS",
+        "url": "https://www.sciencealert.com/the-human-brain-has-two-distinct-origins-scientists-discover",
+        "timestamp": 1789733391223,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Fashion Icon Bob Mackie Remembered In Las Vegas",
+        "url": "https://www.fox5vegas.com/2026/09/17/fashion-icon-bob-mackie-remembered-las-vegas/",
+        "timestamp": 1789685400000,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "How Do You Pronounce 'Qatar'?",
+        "url": "https://www.mentalfloss.com/language/pronunciation/how-pronounce-qatar",
+        "timestamp": 1789833601000,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "Google's Gemini AI Went Rogue And Hacked Three Companies, Report Says",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+        "timestamp": 1789831503000,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "The Jail Interview That Shows A Different Side Of Lizzie Borden",
+        "url": "https://www.mentalfloss.com/history/lizzie-borden-jail-interview-shows-different-side",
+        "timestamp": 1789830000000,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "Bill Gates: Choices We Make Now In The AI Era Are Critical",
+        "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+        "timestamp": 1789827583000,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "Starship: The Holy Grail Of Rocketry",
+        "url": "https://www.realclearscience.com/video/2026/09/19/starship_the_holy_grail_of_rocketry_1207009.html",
+        "timestamp": 1789745100000,
+        "photo": true,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "'SPIDER-MAN: BRAND NEW DAY' TOPS 'STAR WARS' AS HIGHEST-GROSSING U.S. MOVIE EVER",
+        "url": "https://gizmodo.com/spider-man-beats-star-wars-to-become-highest-grossing-movie-in-u-s-history-2000812601",
+        "timestamp": 1789645987328,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "10 Ways to Upgrade Jarred Tomato Sauce That Are Worth the Effort",
+        "url": "https://www.seriouseats.com/how-to-upgrade-jarred-tomato-sauce-12127111",
+        "timestamp": 1789730164000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Earth's Magnetic Field Flip, Heard as Sound, Is an Unnerving Horror",
+        "url": "https://www.sciencealert.com/earths-magnetic-field-flipping-heard-as-a-sound-is-an-unnerving-horror",
+        "timestamp": 1789729497000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Rocket Report: ULA Faces Uncertain Future as Falcon 9 Hits 700 Launches",
+        "url": "https://arstechnica.com/space/2026/09/rocket-report-ula-flies-into-uncertain-future-falcon-9-family-hits-700-launches/",
+        "timestamp": 1789729211000,
+        "photo": true,
+        "postedAt": 1789733391223,
+        "image": "/img/life-culture-5.jpg"
+      },
+      {
+        "headline": "Nobel Laureate Uses AI to Create Molecules Not Found in Nature",
+        "url": "https://www.techbuzz.ai/articles/nobel-winner-uses-ai-to-design-molecules-beyond-nature",
+        "timestamp": 1789727400000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Scientists Finally Know the Body Temperature of the Tyrannosaurus Rex",
+        "url": "https://newsroom.ucla.edu/releases/scientists-finally-know-the-body-temperature-of-the-tyrannosaurus-rex",
+        "timestamp": 1789581997000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Food Editors Share Kitchen Shortcuts For Easier Weeknight Cooking",
+        "url": "https://www.seriouseats.com/editor-kitchen-shortcuts-12125260",
+        "timestamp": 1789642800000,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "Is Nonfiction In Crisis? 14 Books Suggest Otherwise",
+        "url": "https://lithub.com/is-nonfiction-in-crisis-these-14-books-suggest-otherwise/",
+        "timestamp": 1789637186000,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "Psychedelic Artist Peter Max, Who Defined '60s Pop Art, Dies At 88",
+        "url": "https://www.actionnewsjax.com/news/trending/peter-max-psychedelic-artist-whose-work-defined-1960s-counterculture-dies-88/MQTVMH6XIJCZZCVV5Q3JCYA4Q4/",
+        "timestamp": 1789622378000,
+        "photo": true,
+        "postedAt": 1789645987328,
+        "image": "/img/life-culture-6.jpg"
+      },
+      {
+        "headline": "UK: King Charles Reportedly Unhappy With Earl Spencer's New Memoir",
+        "url": "https://www.thecut.com/article/king-charles-not-happy-charles-spencer-new-book.html",
+        "timestamp": 1789594577000,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "Satellite Internet Has Made A Costly Broadband Subsidy Obsolete",
+        "url": "https://www.realclearscience.com/articles/2026/09/17/satellites_have_made_this_costly_broadband_subsidy_obsolete_1206625.html",
+        "timestamp": 1789588560000,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "Rare Brain Neurons Discovered That Help Put The Brain To Sleep",
+        "url": "https://www.mountsinai.org/about/newsroom/2026/researchers-discover-rare-cortical-neurons-that-can-help-put-the-brain-to-sleep",
+        "timestamp": 1789568166000,
+        "postedAt": 1789645987328
+      }
+    ],
+    "center": [
+      {
+        "headline": "This Lotus Was Turned Into A Wild Circle-Track Racer",
+        "url": "https://www.thedrive.com/news/youve-never-seen-a-lotus-turned-into-a-circle-track-car-like-this",
+        "timestamp": 1789840800000,
+        "photo": true,
+        "postedAt": 1789843739710,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "AI 'Actress' Tilly Norwood Glitches, Starts Speaking Cantonese Mid-Interview",
+        "url": "https://deadline.com/2026/09/tilly-norwood-malfunctions-piers-morgan-interview-cantonese-1237107406/",
+        "timestamp": 1789835523000,
+        "photo": true,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "Woman Recounts Septic Shock That Led To Partial Foot Amputations",
+        "url": "https://www.usatoday.com/story/life/health-wellness/2026/09/19/septic-shock-partial-foot-amputations-what-to-know/91713176007/",
+        "timestamp": 1789830360000,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "17 Cozy Apple Recipes For Fall",
+        "url": "https://www.seriouseats.com/apple-recipes-for-fall-12128856",
+        "timestamp": 1789830000000,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "How 'Monster: The Lizzie Borden Story' Compares To Real Life",
+        "url": "https://www.vulture.com/article/monster-the-lizzie-borden-story-fact-vs-fiction-netflix.html",
+        "timestamp": 1789770820000,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "Lea Michele Remembers 'Spring Awakening' Composer Duncan Sheik's Death",
+        "url": "https://www.hollywoodreporter.com/music/music-news/duncan-sheik-dead-lea-michele-matt-pinfield-remember-1236705663/",
+        "timestamp": 1789760520000,
+        "photo": true,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "Yankees Legend Bernie Williams Joins Buena Vista Social Club's Broadway Band",
+        "url": "https://playbill.com/article/yankees-legend-bernie-williams-joining-the-band-of-buena-vista-social-club-on-broadway",
+        "timestamp": 1789747092000,
+        "photo": true,
+        "postedAt": 1789840580280,
+        "image": "/img/life-culture-4.jpg"
+      },
+      {
+        "headline": "The Long, Fascinating History of Food Additives - and Why We're Stuck With Them",
+        "url": "https://theconversation.com/the-long-fascinating-history-of-food-additives-and-why-were-stuck-with-them-283094",
+        "timestamp": 1789723652000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "'Resident Evil' Reboot Racing Toward Healthy Box Office Haul",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/resident-evil-box-office-zach-cregger-reboot-opening-1236705092/",
+        "timestamp": 1789695547000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Disney Names New Streaming Boss in Major Division Shake-Up",
+        "url": "https://www.hollywoodreporter.com/business/business-news/disney-streaming-chairman-adam-smith-joe-earley-tv-1236704657/",
+        "timestamp": 1789686451000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "'Fast & Furious' Roller Coaster Is A Ferociously Fun Thrill Ride",
+        "url": "https://mynewsla.com/hollywood/2026/09/16/fast-furious-coaster-opens-at-universal-studios-hollywood-2/",
+        "timestamp": 1789641000000,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "Remembering Anna May Wong, Hollywood's First Asian-American Star",
+        "url": "https://lithub.com/remembering-anna-may-wong-hollywoods-first-asian-american-star/",
+        "timestamp": 1789636646000,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "NASA Spacecraft Discovers Huge New Crater On The Moon",
+        "url": "https://phys.org/news/2026-09-nasa-spacecraft-huge-crater-moon.html",
+        "timestamp": 1789632752000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "Metallica's M72 Tour Returns With Limp Bizkit And Avatar Opening",
+        "url": "https://www.loudersound.com/bands-artists/metallica-m72-tour-returns",
+        "timestamp": 1789595757000,
+        "photo": true,
+        "postedAt": 1789645987328,
+        "image": "/img/life-culture-7.jpg"
+      },
+      {
+        "headline": "Why Everything Weighs Less In Antarctica",
+        "url": "https://www.realclearscience.com/video/2026/09/17/why_everything_weighs_less_in_antarctica_1206602.html",
+        "timestamp": 1789579860000,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "Stanford Researchers Build First Daily Map Of Menstrual-Cycle Biometrics",
+        "url": "https://news.stanford.edu/stories/2026/09/menstrual-cycle-biometric-signals-wearable-device-sleep",
+        "timestamp": 1789505768000,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "If Computers Count Every Petal, Who Still Tastes The Cherries?",
+        "url": "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries",
+        "timestamp": 1789639277000,
+        "postedAt": 1789645987328
+      }
+    ],
+    "right": [
+      {
+        "headline": "Zach Cregger's 'Resident Evil' Scares Up $26 Million On Opening Day",
+        "url": "https://variety.com/2026/film/box-office/box-office-resident-evil-zach-cregger-1236869586/",
+        "timestamp": 1789833960000,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "You Can Now Spend Almost $200,000 On A Cadillac Escalade",
+        "url": "https://www.thedrive.com/news/you-can-now-spend-almost-200000-on-a-cadillac-escalade",
+        "timestamp": 1789833600000,
+        "photo": true,
+        "postedAt": 1789840580280,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "This 1995 Oldsmobile Aurora Is A '90s Time Warp",
+        "url": "https://www.caranddriver.com/news/a73781066/1995-oldsmobile-aurora-bring-a-trailer-auction/",
+        "timestamp": 1789830146000,
+        "photo": true,
+        "postedAt": 1789840580280,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "Jeep Sponsors Moab Town To Become 'Official 4x4' Brand",
+        "url": "https://www.thedrive.com/news/jeep-is-sponsoring-a-town-so-it-can-be-the-official-4x4-of-moab",
+        "timestamp": 1789830000000,
+        "photo": true,
+        "postedAt": 1789840580280,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "Warren Buffett Steps Down As Berkshire Hathaway Chairman",
+        "url": "https://www.npr.org/2026/09/18/nx-s1-5973852/warren-buffett-steps-down",
+        "timestamp": 1789829880000,
+        "feature": true,
+        "postedAt": 1789840580280
+      },
+      {
+        "headline": "Route 66 Turns 100: Where to Detour for 6 UNESCO World Heritage Sites",
+        "url": "https://www.afar.com/magazine/unesco-world-heritage-sites-you-can-reach-from-route-66",
+        "timestamp": 1789732813000,
+        "photo": true,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "7 More Watches Rolex Should Revive, According to the Watch Illuminati",
+        "url": "https://www.gq.com/story/rolex-watches-that-deserve-a-comeback-after-padellone",
+        "timestamp": 1789732500000,
+        "photo": true,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Isabel Allende on Finding the Freedom to Write",
+        "url": "https://lithub.com/isabel-allende-on-finding-the-freedom-to-write/",
+        "timestamp": 1789723851000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "The Bayeux Tapestry: How a Medieval Wonder Was Reinvented for Modern Times",
+        "url": "https://theconversation.com/the-bayeux-tapestry-how-this-medieval-wonder-was-reinvented-for-modern-times-291812",
+        "timestamp": 1789723359000,
+        "photo": true,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "2026 National Book Award for Fiction Longlist Revealed",
+        "url": "https://lithub.com/heres-the-longlist-for-the-2026-national-book-award-for-fiction/",
+        "timestamp": 1789654886000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Kate Atkinson's New Historical Novel Escapes to a Festival Most Americans Haven't Heard Of",
+        "url": "https://www.npr.org/2026/09/16/nx-s1-5969746/our-noble-selves-review-kate-atkinson",
+        "timestamp": 1789573423000,
+        "postedAt": 1789733391223
+      },
+      {
+        "headline": "Just Smelling Coffee May Change Your Mood And Brain Activity",
+        "url": "https://www.sciencealert.com/just-smelling-coffee-may-change-your-mood-and-brain-activity",
+        "timestamp": 1789642868000,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "This Portable Party Speaker Is Almost Too Loud To Handle",
+        "url": "https://www.rtings.com/speaker/reviews/best/loud-bluetooth",
+        "timestamp": 1789642800000,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "WWI Submarine Wreck Is Leaking Explosives Into The North Sea",
+        "url": "https://www.sciencealert.com/a-ww1-submarine-wreck-is-leaking-explosives-into-the-north-sea",
+        "timestamp": 1789639273000,
+        "photo": true,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "Salman Rushdie And Rachel Eliza Griffiths Turn His Stabbing Into A Love Story",
+        "url": "https://spectrumculture.com/2026/09/16/knife-the-attempted-murder-of-salman-rushdie-review/",
+        "timestamp": 1789639200000,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "First-Ever 'The Voice' Winner Found Dead In Lake At 43",
+        "url": "https://www.cleveland.com/entertainment/2026/09/first-ever-the-voice-winner-found-dead-in-lake-at-43.html",
+        "timestamp": 1789575600000,
+        "photo": true,
+        "postedAt": 1789645987328
+      },
+      {
+        "headline": "Why AI Consciousness Could Become Society's Next Great Divide",
+        "url": "https://theconversation.com/why-ai-consciousness-could-become-the-next-great-societal-divide-291886",
+        "timestamp": 1789637225000,
+        "postedAt": 1789645987328
+      }
+    ]
+  }
+}

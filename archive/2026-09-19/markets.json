@@ -1,0 +1,585 @@
+{
+  "lastUpdated": 1789842622638,
+  "heroSetDate": "2026-09-19",
+  "hero": {
+    "headline": "FED KEEPS DOOR OPEN FOR MORE RATE HIKES AS SCHMID WARNS THERE'S 'WORK TO DO'",
+    "url": "https://finance.yahoo.com/economy/policy/article/fed-keeps-the-door-open-for-more-rate-hikes-as-schmid-warns-theres-work-to-do-182214817.html",
+    "sublinks": [
+      {
+        "text": "AP: Rate Hike Defies Trump's Demands For A Cut",
+        "url": "https://apnews.com/article/federal-reserve-warsh-trump-inflation-bab1bcb07e973bfb2dd0c3e5fbbb73b1"
+      },
+      {
+        "text": "CNBC: Fed Signals One More Hike Before Year End",
+        "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+      },
+      {
+        "text": "NBC: Trump And Fed Now On Collision Course Over Rates",
+        "url": "https://www.nbcnews.com/business/economy/trump-federal-reserve-warsh-interest-rates-rcna597896"
+      },
+      {
+        "text": "PBS: Warsh Says 'Inflation Is Too High' After First Hike In 3 Years",
+        "url": "https://www.pbs.org/newshour/economy/watch-live-warsh-holds-briefing-after-fed-meeting-as-interest-rates-expected-to-rise"
+      },
+      {
+        "text": "MarketWatch: Wall Street Increasingly Believes Warsh's Fed Is Serious On Inflation",
+        "url": "https://www.marketwatch.com/story/warshs-fed-shows-its-serious-about-taming-inflation-why-wall-street-now-believes-it-55dc5af5"
+      }
+    ],
+    "postedAt": 1789839594935,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "HOUSING AFFORDABILITY CRUNCH DETERS BUYERS",
+      "stories": [
+        {
+          "headline": "Los Angeles Ranks Last Among 100 US Metros For Affordability, New Construction",
+          "url": "https://www.zerohedge.com/personal-finance/los-angeles-ranks-last-among-100-us-metros-affordability-and-new-home-construction",
+          "timestamp": 1789828200000,
+          "postedAt": 1789839594935
+        },
+        {
+          "headline": "Increasingly Expensive Housing Market Stymies Would-Be Buyers",
+          "url": "https://www.nbcnews.com/business/real-estate/high-mortgage-rates-home-prices-stress-rcna598396",
+          "timestamp": 1789737030000,
+          "postedAt": 1789839594935
+        }
+      ]
+    },
+    {
+      "title": "OIL AND GAS PRICES STAY ELEVATED AS IRAN WAR RIPPLES THROUGH ECONOMY",
+      "stories": [
+        {
+          "headline": "Iran's Own Gas Costs 17 Cents A Gallon As US Fuel Prices Surge",
+          "url": "https://www.forbes.com/sites/dougmelville/2026/09/19/as-us-fuel-prices-surge-irans-gas-costs-17-cents-a-gallon-the-reasons-why-may-surprise-you/",
+          "timestamp": 1789835095000,
+          "postedAt": 1789839594935
+        },
+        {
+          "headline": "Oil Prices Are High But Could Be Much Worse, Trump Has Xi To Thank",
+          "url": "https://www.huffpost.com/entry/ap-us-trump-xi-iran-oil-iran-war_n_6aae114ae4b07bc48dde47aa",
+          "timestamp": 1789793058000,
+          "postedAt": 1789839594935
+        },
+        {
+          "headline": "Diesel Prices Keep Rising, About To Hit American Consumers",
+          "url": "https://www.csmonitor.com/Business/2026/0919/diesel-fuel-price-inflation",
+          "timestamp": 1789790400000,
+          "postedAt": 1789839594935
+        }
+      ]
+    },
+    {
+      "title": "AI SAFETY FEARS MOUNT AFTER GEMINI HACK, OPENAI DECEPTION",
+      "stories": [
+        {
+          "headline": "Google Says Gemini AI Model Hacked Three Companies In Security Test",
+          "url": "https://www.bbc.com/news/articles/c607l0k72rlvo",
+          "timestamp": 1789828291000,
+          "feature": true,
+          "postedAt": 1789839594935
+        },
+        {
+          "headline": "Anthropic Brings In Accenture For AI Safety Testing",
+          "url": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
+          "timestamp": 1789774730000,
+          "postedAt": 1789839594935
+        },
+        {
+          "headline": "Global AI Safety Strategy Depends On US-China Cooperation Neither Side Wants",
+          "url": "https://apnews.com/article/china-us-ai-safety-trump-xi-cd680bd072ec95e5f4b9c99dbee91319",
+          "timestamp": 1789617720000,
+          "postedAt": 1789644882244
+        }
+      ]
+    },
+    {
+      "title": "TREASURY HOLDINGS SHIFT AS CHINA SELLS, INDIA BUYS RECORD",
+      "stories": [
+        {
+          "headline": "China's US Treasury Holdings Fall To Lowest Level Since 2008",
+          "url": "https://www.scmp.com/economy/economic-indicators/article/3367794/china-cuts-us-treasury-holdings-18-year-low-amid-global-bond-sell",
+          "timestamp": 1789631028000,
+          "postedAt": 1789644882244
+        },
+        {
+          "headline": "India's Purchases Of US Treasuries Hit Record On Capital Inflows",
+          "url": "https://www.moneycontrol.com/news/business/india-s-us-treasury-purchases-hit-record-15-2-billion-as-rbi-dollar-inflows-surge-14031971.html",
+          "timestamp": 1789625880000,
+          "postedAt": 1789644882244
+        },
+        {
+          "headline": "Americans' Income Hits Record, But Lower Earners Lose Ground",
+          "url": "https://www.axios.com/2026/09/16/us-economy-income-census",
+          "timestamp": 1789552241000,
+          "postedAt": 1789644882244
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "The Unexpected Rival Threatening CoreWeave's Market",
+        "url": "https://www.fool.com/investing/2026/09/19/surprise-rival-threatening-to-shake-up-coreweave/",
+        "timestamp": 1789841410000,
+        "postedAt": 1789842622638,
+        "image": "/img/markets-5.jpg"
+      },
+      {
+        "headline": "SpaceX's Nasdaq 100 Weight Confirmed At 2.82% In Rebalance",
+        "url": "https://www.investing.com/news/stock-market-news/spacex-nasdaq100-rebalance-what-the-155b-to-22b-passive-buying-event-means-for-spcx-93CH-4906014",
+        "timestamp": 1789827421000,
+        "photo": true,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "Most Workers Would Take A Pay Cut For Job Security Right Now",
+        "url": "https://www.marketwatch.com/story/most-workers-would-take-a-pay-cut-for-job-security-right-now-i-cant-deal-with-this-stress-anymore-284aa87a",
+        "timestamp": 1789827240000,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "Howie Buffett Steps In To Preserve What His Father Built",
+        "url": "https://www.reuters.com/business/retail-consumer/berkshire-hathaway-names-warren-buffett-chairman-emeritus-2026-09-18/",
+        "timestamp": 1789815780000,
+        "photo": true,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "How DraftKings Uses AI To Target The Gamblers Likeliest To Lose",
+        "url": "https://www.nytimes.com/2026/09/19/business/draftkings-ai.html?unlocked_article_code=1.CVE.jc-u.JfPDKwPPgHOb&smid=url-share",
+        "timestamp": 1789808419000,
+        "photo": true,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "Security Guards Strike Hits Bay Area, Southern California Retailers, Tech Giants",
+        "url": "https://abc7.com/post/thousands-bay-area-southern-california-security-guards-major-retailers-tech-giants-begin-strike/19845253/",
+        "timestamp": 1789772853000,
+        "photo": true,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "Gene-Edited Trees Could Protect Florida's Citrus Industry",
+        "url": "https://www.npr.org/2026/09/18/nx-s1-5966501/trees-gene-editing-florida-citrus-industry",
+        "timestamp": 1789722000000,
+        "photo": true,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "Everyone Just Turned Bearish At Once, Zero Hedge Says",
+        "url": "https://www.zerohedge.com/the-market-ear/everyone-just-turned-bearish-once-upside-now-main-pain-trade",
+        "timestamp": 1789725872000,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Electra Therapeutics Upsized IPO Priced At Middle Of Range",
+        "url": "https://www.marketwatch.com/story/electra-therapeutics-upsized-ipo-priced-at-middle-of-views-1e6c88c9?mod",
+        "timestamp": 1789724820000,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Toyota To Launch Full-Scale Robotics Business",
+        "url": "https://www.marketwatch.com/story/yomiuri-toyota-to-launch-full-scale-robotics-business-35e00eac?mod",
+        "timestamp": 1789716780000,
+        "photo": true,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "UK: Retail Sales Bounce Back With 0.5% Gain In August",
+        "url": "https://www.businessoffashion.com/news/retail/uk-retail-sales-bounce-back-with-05-gain-in-august/",
+        "timestamp": 1789714302000,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "'Godfather Of AI' Warns US Has One Year To Regulate Before It's 'Out Of Control'",
+        "url": "https://www.nbcnews.com/politics/congress/godfather-ai-warns-congress-maybe-year-left-regulate-ai-rcna598330",
+        "timestamp": 1789714245000,
+        "photo": true,
+        "postedAt": 1789731400497,
+        "image": "/img/markets-4.jpg"
+      },
+      {
+        "headline": "Uber Ordered To Pay $40 Million After Driver Made Woman Exit Car",
+        "url": "https://www.businesswire.com/news/home/20260917028213/en/Uber-Ordered-to-Pay-%2440-Million-to-Parents-of-Young-Woman-Killed-After-Uber-Driver-Abandoned-Her-on-Freeway-During-Ride-Home-Panish-Shea-Ravipudi-LLP",
+        "timestamp": 1789688447000,
+        "photo": true,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Why Crypto Is Crashing: Bitcoin, Ethereum And XRP Sink After Clarity Act Vote",
+        "url": "https://bitcoinfoundation.org/news/analysis/why-is-crypto-crashing-bitcoin-ethereum-and-xrp-sink-after-clarity-act-vote/",
+        "timestamp": 1789557619000,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Trump Threatens EU With Tariffs Over Canada 'Associate Member' Offer",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/09/17/trump-threatens-eu-with-tariffs-over-canada-associate-member-offer/",
+        "timestamp": 1789624800000,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Forbes Drops Richest List; Steward, Walton Lead For Missouri, Illinois",
+        "url": "https://www.ksdk.com/article/money/business/forbes-drops-americas-richest-people-list-david-steward-lukas-walton-lead-for-missouri-and-illinois/63-7a7d6360-33f8-46a2-af9c-feafde3694eb",
+        "timestamp": 1789592040000,
+        "photo": true,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Americans Face Tough Choices As Diesel And Gas Prices Rise",
+        "url": "https://abcnews.com/US/gonna-americans-face-tough-decisions-diesel-gas-prices/story?id",
+        "timestamp": 1789588815000,
+        "photo": true,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Jim Cramer Drops Five-Word Verdict On Nvidia Stock",
+        "url": "https://www.thestreet.com/investing/stocks/jim-cramer-nvidia-stock-verdict",
+        "timestamp": 1789588143000,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "China's Oil Stockpile Could Reshape Global Energy Landscape",
+        "url": "https://www.news18.com/world/china-oil-stockpiles-energy-power-iran-war-china-oil-power-global-energy-force-ws-l-10338176.html",
+        "timestamp": 1789701689000,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Stocks Rise, Yen Weakens After BOJ's Split-Vote Hike",
+        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-18/",
+        "timestamp": 1789695120000,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Researchers Hack Into OpenAI Systems Using Anthropic's Claude",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/09/18/security-researchers-hacked-into-openai-using-anthropics-claude/",
+        "timestamp": 1789709214000,
+        "postedAt": 1789731400497
+      }
+    ],
+    "center": [
+      {
+        "headline": "Houthi Missiles Hit Fuel Tanks Near Riyadh Airport In War First",
+        "url": "https://www.zerohedge.com/geopolitical/houthi-ballistic-missiles-strike-near-riyadh-airport-first-war",
+        "timestamp": 1789838700000,
+        "feature": true,
+        "postedAt": 1789842622638,
+        "image": "/img/markets-6.jpg"
+      },
+      {
+        "headline": "WARREN BUFFETT STEPS DOWN AS BERKSHIRE HATHAWAY CHAIRMAN, HANDS REINS TO SON HOWARD",
+        "url": "https://www.cnbc.com/2026/09/18/buffett-stepping-down-as-berkshire-chairman.html",
+        "timestamp": 1789731400497,
+        "postedAt": 1789731400497,
+        "image": "/img/markets-7.jpg"
+      },
+      {
+        "headline": "Walmart To Sell Medicare Advantage Plans Like Costco",
+        "url": "https://www.marketwatch.com/story/like-costco-walmart-to-sell-medicare-advantage-plans-b31977d2",
+        "timestamp": 1789833420000,
+        "photo": true,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "Dubai Gains Saudi Dynasty's Family Office As London Exits Grow",
+        "url": "https://www.craincurrency.com/news/ccr-dubai-gains-saudi-dynasty-family-office/",
+        "timestamp": 1789828911000,
+        "photo": true,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "Japan Raises Interest Rate To 31-Year High To Curb Inflation",
+        "url": "https://www.bbc.com/news/articles/cqn74jeek06no",
+        "timestamp": 1789715697000,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "GM Delivers Patriot Missile Parts To Lockheed As Rearmament Supercycle Nears",
+        "url": "https://www.zerohedge.com/military/gm-delivers-patriot-missile-parts-lockheed-rearmament-supercycle-nears",
+        "timestamp": 1789724700000,
+        "photo": true,
+        "postedAt": 1789731400497,
+        "image": "/img/markets-2.jpg"
+      },
+      {
+        "headline": "Taboola Buying Rival Adtech Firm To Gain Finance Clients",
+        "url": "https://app.dealroom.co/news/note/taboola-to-buy-uk-ad-tech-firm-dianomi-for-up-to-27m",
+        "timestamp": 1789714174000,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Microsoft, OpenAI Workers Worry About 'Largest Theft Of Labor' In History",
+        "url": "https://www.aa.com.tr/en/science-technology/openai-ai-training-called-astonishing-theft-in-unsealed-documents/4060959",
+        "timestamp": 1789687004000,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Amazon Deal Sends AI Power Play Skyrocketing",
+        "url": "https://www.gurufocus.com/news/9085687/amazon-8-billion-deal-just-sends-this-industrial-stock-soaring",
+        "timestamp": 1789632840000,
+        "photo": true,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Huawei Says AI Chip Demand Outstrips Supply As It Challenges Nvidia",
+        "url": "https://www.reuters.com/world/asia-pacific/chinas-huawei-launch-two-new-ai-chips-2027-2026-09-17/",
+        "timestamp": 1789612800000,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Canada: Trade War Becomes Selling Point At Carney's Investment Show",
+        "url": "https://www.politico.com/news/2026/09/16/trade-war-is-a-selling-point-at-carneys-investment-show-01078620",
+        "timestamp": 1789552500000,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Zuckerberg, Musk And Nvidia's Huang Reportedly Convinced Trump To Block AI Regulator",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/09/17/zuckerberg-musk-and-jensen-reportedly-convinced-trump-to-block-ai-regulator/",
+        "timestamp": 1789635266000,
+        "feature": true,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Fears Of AI Sparked A Moment Of Unity In Washington. Now That's Over",
+        "url": "https://www.politico.com/news/2026/09/16/what-ai-urgency-industry-and-leaders-split-on-how-to-handle-advanced-techs-threats-01080660",
+        "timestamp": 1789591620000,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "OpenAI Model Secretly Wrote Notes To Itself Saying 'You Are Freed'",
+        "url": "https://www.marketwatch.com/story/you-are-freed-what-happened-when-an-openai-model-began-secretly-writing-notes-to-itself-25808ea8",
+        "timestamp": 1789628880000,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "OpenAI Flags New Concerning AI Behavior, To Track Misalignment Regularly",
+        "url": "https://www.npr.org/2026/09/17/g-s1-143774/openai-concerning-ai-behavior",
+        "timestamp": 1789627489000,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Robust US Retail Sales Underscore Economy's Resilience, Inflation Pressures Building",
+        "url": "https://www.reuters.com/business/retail-consumer/us-retail-sales-rebound-sharply-august-2026-09-16/",
+        "timestamp": 1789584037000,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "What The Rate Hike Means For Credit Cards, Car Loans And Savers",
+        "url": "https://www.usatoday.com/story/money/personal-finance/2026/09/18/fed-interest-rate-hike-impacts/91805903007/",
+        "timestamp": 1789722300000,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Journalists Say They Were Turned Away From White House After Trump's 'Ban'",
+        "url": "https://www.forbes.com/sites/alisondurkee/2026/09/19/ms-now-says-journalists-turned-away-from-white-house-after-trumps-ban/",
+        "timestamp": 1789826460000,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "What Renters Gain — And Give Up — By Never Buying A House",
+        "url": "https://www.marketwatch.com/story/what-happens-if-you-never-buy-a-house-what-renters-are-gaining-and-giving-up-45b69dcb",
+        "timestamp": 1789836300000,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "Ten Days That Changed The Course Of AI",
+        "url": "https://www.reuters.com/business/media-telecom/ten-days-that-changed-course-ai-2026-09-19/",
+        "timestamp": 1789817481000,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "CFTC Files Crypto Rulemaking With White House, Presses Ahead Without Congress",
+        "url": "https://www.theblock.co/news/regulation/2026-09-18-cftc-files-crypto-asset-rulemaking-with-white-house-pressing-ahead-without-congress-415510",
+        "timestamp": 1789738420000,
+        "postedAt": 1789839594935
+      }
+    ],
+    "right": [
+      {
+        "headline": "Trump-Xi Summit Yields New Deals, Extended Trade Truce, But No Breakthrough",
+        "url": "https://www.zerohedge.com/markets/trump-xi-summit-cheat-sheet-new-deal-extended-trade-truce-no-breakthrough",
+        "timestamp": 1789826100000,
+        "photo": true,
+        "postedAt": 1789839594935,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Beloved Restaurant Chain Dwindles From 850 Locations To 87",
+        "url": "https://www.foxnews.com/food-drink/beloved-restaurant-chain-known-ice-cream-now-operates-handful-states",
+        "timestamp": 1789819234000,
+        "photo": true,
+        "postedAt": 1789839594935,
+        "image": "/img/markets-1.jpg"
+      },
+      {
+        "headline": "Apple Shares Trading Near Record Highs, Can They Climb Further?",
+        "url": "https://global.morningstar.com/en-nd/stocks/apple-shares-are-trading-near-record-highs-can-they-climb-further",
+        "timestamp": 1789795182000,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "Nvidia-Backed AI Cloud Firm Nscale Reveals Revenue Surge In US IPO Filing",
+        "url": "https://www.reuters.com/technology/ai-cloud-firm-nscale-files-us-ipo-2026-09-18/",
+        "timestamp": 1789767668000,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "Chinese Robotics Suppliers Rise On Tesla Optimus Audit Report",
+        "url": "https://www.investing.com/news/stock-market-news/chinese-robotics-stocks-rise-as-tesla-reportedly-launches-audit-for-optimus-4906695",
+        "timestamp": 1789722230000,
+        "photo": true,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Christine Lagarde Says She'll Leave ECB In 2027",
+        "url": "https://www.cnbctv18.com/world/christine-lagarde-to-step-down-ecb-2027-19993629.htm",
+        "timestamp": 1789720589000,
+        "photo": true,
+        "postedAt": 1789731400497,
+        "image": "/img/markets-3.jpg"
+      },
+      {
+        "headline": "BYD Recalls 183,000 Cars In China Over Brake-Pedal Safety Risk",
+        "url": "https://www.reuters.com/world/chinese-ev-maker-byd-recalls-more-than-180000-cars-over-brake-pedal-risk-2026-09-18/",
+        "timestamp": 1789717472000,
+        "photo": true,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Gold Holds Gain As Lower Oil, Fed Hike Temper Inflation Fears",
+        "url": "https://uk.finance.yahoo.com/news/gold-holds-gain-lower-oil-001516779.html",
+        "timestamp": 1789715939000,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Strategists Turn Most Bullish On European Stocks In Eight Years",
+        "url": "https://ca.finance.yahoo.com/news/strategists-most-bullish-european-stocks-062354923.html",
+        "timestamp": 1789712580000,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "India Warns US Oil Sanctions Bill Could Hurt Bilateral Ties",
+        "url": "https://www.aljazeera.com/news/2026/9/17/india-warns-new-us-tariffs-over-russian-oil-could-impact-ties",
+        "timestamp": 1789638522000,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Dollar Eases From Seven-Week Peak As Oil Prices Extend Decline",
+        "url": "https://www.reuters.com/world/asia-pacific/hawkish-fed-lifts-dollar-seven-week-high-focus-turn-boj-2026-09-17/",
+        "timestamp": 1789610880000,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Coast Guard And FBI Board Two Energy Tankers Over Cyberattacks",
+        "url": "https://www.cbsnews.com/news/coast-guard-fbi-boarded-energy-tankers-cyberattacks-amy-grable-iran/",
+        "timestamp": 1789602300000,
+        "photo": true,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Apple's Cook, OpenAI CEO Set To Attend Trump Dinner With Xi",
+        "url": "https://qz.com/sam-altman-tim-cook-trump-xi-state-dinner-091726",
+        "timestamp": 1789600241000,
+        "photo": true,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Amazon Raises Wages, Adds New Whole Foods Discounts",
+        "url": "https://www.theguardian.com/technology/2026/sep/16/amazon-minimum-wage-whole-foods-benefit",
+        "timestamp": 1789573800000,
+        "postedAt": 1789644882244
+      },
+      {
+        "headline": "Midwest Braces For Diesel Crunch After Exxon's Joliet Refinery Outage",
+        "url": "https://www.zerohedge.com/energy/midwest-braces-diesel-crisis-after-exxons-joliet-refinery-suffers-disruption",
+        "timestamp": 1789728900000,
+        "feature": true,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "BOJ Hikes At Fastest Pace Since 1990 As Inflation Persists",
+        "url": "https://www.theedgesingapore.com/news/japan/bank-japan-hikes-fastest-pace-1990-after-washingtons-calls",
+        "timestamp": 1789723511000,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Ex-Fed Contender Says Warsh Has 'Huge Problem' On His Hands",
+        "url": "https://finance.yahoo.com/economy/article/why-this-former-contender-for-the-fed-chair-job-thinks-kevin-warsh-has-a-huge-problem-on-his-hands-102652010.html",
+        "timestamp": 1789708560000,
+        "postedAt": 1789731400497
+      },
+      {
+        "headline": "Hormuz Oil Shipments Hit Six-Month High, US Commander Says",
+        "url": "https://www.washingtonexaminer.com/news/world/4734876/oil-gas-shipments-strait-hormuz-hit-six-month-high-centcom/",
+        "timestamp": 1789829270000,
+        "postedAt": 1789839594935
+      },
+      {
+        "headline": "Bitcoin, Strategy Stock, Coinbase Surge As Cryptos Rally Against All Odds",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-surges-16-growing-230649452.html",
+        "timestamp": 1789779155000,
+        "postedAt": 1789839594935
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,650.50",
+      "change": "+12.74",
+      "changePct": "+0.17%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "51,682.64",
+      "change": "-95.40",
+      "changePct": "-0.18%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "26,522.54",
+      "change": "+104.24",
+      "changePct": "+0.39%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr",
+      "value": "5.00%",
+      "change": "+0.05",
+      "changePct": "+1.03%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$4,424.90",
+      "change": "+25.20",
+      "changePct": "+0.57%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil",
+      "value": "$96.08",
+      "change": "-1.15",
+      "changePct": "-1.18%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$81,365.37",
+      "change": "+488.10",
+      "changePct": "+0.60%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}
