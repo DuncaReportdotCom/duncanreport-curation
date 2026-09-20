@@ -1,0 +1,489 @@
+{
+  "lastUpdated": 1789902943808,
+  "heroSetDate": "2026-09-20",
+  "hero": {
+    "headline": "TRUMP ABANDONS TOUGH CHINA RHETORIC, ROLLS OUT RED CARPET FOR XI",
+    "url": "https://apnews.com/article/trump-xi-china-relationship-ai-tariffs-iran-2716ee31afa579e9ca18ae76cbe35ab9",
+    "sublinks": [
+      {
+        "text": "Treasury's Bessent, China's He To Launch Trade, AI Talks",
+        "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/"
+      },
+      {
+        "text": "Analysis: Beijing Using Washington's Own Trade Playbook",
+        "url": "https://www.realclearpolitics.com/articles/2026/09/19/china_is_using_washingtons_playbook_154520.html"
+      }
+    ],
+    "postedAt": 1789902943808,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "2026 MIDTERMS: GOP ANXIETY GROWS AS SENATE RACES TIGHTEN",
+      "stories": [
+        {
+          "headline": "Vulnerable Republicans Distance Themselves From MAGA Ahead Of Midterms",
+          "url": "https://kesq.com/news/national-politics/cnn-us-politics/2026/09/19/vulnerable-republicans-are-increasingly-defying-president-trump-ahead-of-the-midterms/",
+          "timestamp": 1789902288077,
+          "postedAt": 1789902943808
+        },
+        {
+          "headline": "Early Voting Begins In Key 2026 Battleground States",
+          "url": "https://www.moneycontrol.com/world/us-midterm-voting-starts-in-key-states-with-election-45-days-out-article-14033566.html",
+          "timestamp": 1789902288077,
+          "postedAt": 1789902943808
+        }
+      ]
+    },
+    {
+      "title": "MIDWEST FLOODING THREAT",
+      "stories": [
+        {
+          "headline": "Midwest, Central Plains Brace For Days Of Rain, Flood Threat",
+          "url": "https://weather.com/2026/09/19/forecast/regional/flood-threat-kansas-city-chicago-midwest-minneapolis",
+          "timestamp": 1789829801000,
+          "postedAt": 1789838116463
+        },
+        {
+          "headline": "Flooding, Mudslide Reported After 7+ Inches Of Rain Falls In Minnesota",
+          "url": "https://bringmethenews.com/minnesota-weather/latest-rain-totals-flooding-mudslide-reported-after-7-inches-of-rain-falls-in-minnesota",
+          "timestamp": 1789821843000,
+          "postedAt": 1789838116463
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Newsom Signs Bills To Shield California Elections From Trump Interference",
+        "url": "https://www.gov.ca.gov/2026/09/19/governor-newsom-signs-new-laws-to-protect-california-elections-from-trump-interference/",
+        "timestamp": 1789854960000,
+        "postedAt": 1789902943808,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "How Trump Reshaped The Kennedy Center",
+        "url": "https://www.dw.com/en/thousands-protest-kennedy-center-demolition-fears/a-79337558",
+        "timestamp": 1789894883000,
+        "photo": true,
+        "postedAt": 1789902943808
+      },
+      {
+        "headline": "US Military Says It Killed Four In Caribbean Drug Boat Strike",
+        "url": "https://www.politico.com/news/2026/09/19/us-military-says-it-killed-four-in-strike-on-alleged-drug-smuggling-boat-in-the-caribbean-01085409",
+        "timestamp": 1789866420000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789902943808
+      },
+      {
+        "headline": "Sikh Trucker Stabbed In Wyoming Knife Attack Stirs Community Fears",
+        "url": "https://apnews.com/article/wyoming-sikh-truck-driver-attack-a5a64d89774eea0a5d9ecc7c1f67706a",
+        "timestamp": 1789840822411,
+        "photo": true,
+        "postedAt": 1789841330981
+      },
+      {
+        "headline": "Trump Administration Sued Over Threat To Deploy Federal Law Enforcement At Voting Sites",
+        "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-administration-sued-federal-law-enforcement-voting",
+        "timestamp": 1789750980000,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "DraftKings Uses Bots To Target Gamblers Likeliest To Lose",
+        "url": "https://www.nytimes.com/2026/09/19/business/draftkings-ai.html?unlocked_article_code=1.CVE.jc-u.JfPDKwPPgHOb&smid=url-share",
+        "timestamp": 1789837530051,
+        "feature": true,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "Republicans In Tough Races Tiptoe Away From MAGA",
+        "url": "https://www.theaustralian.com.au/business/the-wall-street-journal/republicans-in-tough-races-tiptoe-away-from-trump/news-story/24fc238efd3eb64a3022cb547595b2e4",
+        "timestamp": 1789837530050,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "Ed Sheeran And Macklemore: How A Tour Spiraled Into Controversy",
+        "url": "https://www.bbc.com/news/articles/c64gvqg0k27po",
+        "timestamp": 1789835260000,
+        "photo": true,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "Protesters Form Human Chain Outside Kennedy Center Over Closure",
+        "url": "https://www.usatoday.com/story/news/politics/2026/09/18/protesters-chain-kennedy-center-trump-jfk-arts/91834538007/",
+        "timestamp": 1789833480000,
+        "photo": true,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "The Deadly History Behind LA's News Helicopter Crashes",
+        "url": "https://www.theguardian.com/us-news/2026/sep/20/la-helicopter-news-crash-history",
+        "timestamp": 1789826460000,
+        "photo": true,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "Deported Men Bound, Beaten In Equatorial Guinea Detention Hotel, Lawyers Say",
+        "url": "https://www.theguardian.com/us-news/2026/sep/18/us-men-deported-hotel-equatorial-guinea",
+        "timestamp": 1789768740000,
+        "photo": true,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "GOP Lawmakers Suspect Ulterior Motive Behind Big Tech's AI Doomsday Warnings",
+        "url": "https://www.foxnews.com/politics/gop-lawmakers-smell-something-else-behind-big-techs-ai-doomsday-warnings-something-else-going-on",
+        "timestamp": 1789745912000,
+        "postedAt": 1789838116463,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Election Model Gives Democrats 84% Odds Of Retaking The House",
+        "url": "https://votehub.com/2026-forecast/house/",
+        "timestamp": 1789729480960,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Oprah Winfrey At 72: 'I'm Most Proud Of The Woman I Have Become'",
+        "url": "https://youtu.be/adQyLViK_ZU?t=294",
+        "timestamp": 1789729480961,
+        "photo": true,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Universal Getting Cold Feet On Releasing Elon Musk Documentary",
+        "url": "https://www.hollywoodreporter.com/news/politics-news/elon-musk-movie-gibney-canceled-universal-1236704232/",
+        "timestamp": 1789729480960,
+        "photo": true,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Driver Who Hit LA Bus Before News Helicopter Crash Charged With Murder",
+        "url": "https://apnews.com/article/helicopter-bus-crash-los-angeles-murder-charges-146f627f7fe883ee222659e1491f046c",
+        "timestamp": 1789708080000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Alleged Predator Used Craigslist To Target Prostitutes, Victim's Cousin Says",
+        "url": "https://www.newsnationnow.com/us-news/northeast/raymond-horsch-craigslist-ad-nicole-fusaro/",
+        "timestamp": 1789704117000,
+        "photo": true,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "US Institute Of Peace Sues To Block Trump From Carving Name Into Building",
+        "url": "https://www.politico.com/news/2026/09/17/trump-carving-us-institute-of-peace-01083535",
+        "timestamp": 1789696440000,
+        "photo": true,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "RFK Jr. Promises Anti-Vaccine Activists A 'Friend In The White House' Amid Measles Outbreak",
+        "url": "https://www.theguardian.com/us-news/2026/sep/17/rfk-jr-measles-anti-vaccine-organization",
+        "timestamp": 1789694520000,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Juror In Lindsay Clancy Murder Trial Opens Up About Deliberations, Retrial",
+        "url": "https://turnto10.com/news/local/nbc-10-speaks-with-a-juror-from-the-lindsay-clancy-murder-trial-sept-17-2026",
+        "timestamp": 1789685615000,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Iran War Fallout Drives Global Pain At The Gas Pump",
+        "url": "https://www.axios.com/2026/09/19/iran-war-global-pain-fuel-prices",
+        "timestamp": 1789860327000,
+        "postedAt": 1789902943808
+      }
+    ],
+    "center": [
+      {
+        "headline": "Ed Sheeran Breaks Down Onstage After Israel Remarks Draw Backlash",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16145677",
+        "timestamp": 1789902288077,
+        "photo": true,
+        "postedAt": 1789902943808
+      },
+      {
+        "headline": "Chuck Norris Dies",
+        "url": "https://www.theblaze.com/lifestyle/chuck-norris-died-the-emmys-were-still-too-scared-to-say-his-name",
+        "timestamp": 1789902058000,
+        "photo": true,
+        "postedAt": 1789902943808
+      },
+      {
+        "headline": "North Korea Fires Two Missiles Off East Coast",
+        "url": "https://www.reuters.com/world/asia-pacific/north-korea-fires-missile-off-east-coast-yonhap-says-2026-09-20/",
+        "timestamp": 1789885080000,
+        "postedAt": 1789902943808
+      },
+      {
+        "headline": "Texas A&M Fans Greet Defense Secretary Hegseth At Kyle Field",
+        "url": "https://www.houstonchronicle.com/sports/college/aggies/article/pete-hegseth-kyle-field-tamu-22439801.php",
+        "timestamp": 1789867100000,
+        "postedAt": 1789902943808
+      },
+      {
+        "headline": "White House Turns Away CNN, Politico Reporters Under New Media Ban",
+        "url": "https://www.reuters.com/world/white-house-turns-away-cnn-ms-now-politico-reporters-after-trump-announces-ban-2026-09-19/",
+        "timestamp": 1789843646000,
+        "postedAt": 1789902943808
+      },
+      {
+        "headline": "Fashion CEO Resigns After Physical Clash With PETA Protesters",
+        "url": "https://www.mediaite.com/media/news/top-fashion-ceo-resigns-position-of-20-years-after-physical-clash-with-peta-protesters/",
+        "timestamp": 1789840822411,
+        "photo": true,
+        "postedAt": 1789841330981,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Family Of Child-Killing Utah Dance Mom Claims She Was 'The Best' Mother",
+        "url": "https://thepostmillennial.com/family-of-child-killing-utah-dance-mom-claims-she-was-the-best-mother",
+        "timestamp": 1789835938000,
+        "photo": true,
+        "postedAt": 1789838116463,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Secret Contracts Reveal Undisclosed Terms In Trump's Drug-Pricing Deals",
+        "url": "https://thenerdstash.com/show-us-your-receipts-sen-elizabeth-warren-faces-backlash-after-grilling-trump-hhs-nominee-chris-klomp-over-secret-pharma-deals/",
+        "timestamp": 1789835750000,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "China Is Using Washington's Own Playbook",
+        "url": "https://www.realclearpolitics.com/articles/2026/09/19/china_is_using_washingtons_playbook_154520.html",
+        "timestamp": 1789821530000,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "Cuba's Power Grid Collapses Again, Leaving Millions Without Power",
+        "url": "https://www.cbsnews.com/news/cuba-power-grid-collapse-trump-administration-energy-blockade/",
+        "timestamp": 1789819871000,
+        "photo": true,
+        "postedAt": 1789838116463,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Europe Braces For Wider War As Russia Ramps Up 'Hybrid Threats'",
+        "url": "https://www.washingtonexaminer.com/news/world/4734562/europe-prepares-wider-war-russia-threats-ukraine/",
+        "timestamp": 1789785480000,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "Weeks Before Midterms, Almost Everything Is Getting More Expensive",
+        "url": "https://www.livemint.com/global/weeks-before-the-midterms-almost-everything-is-getting-more-expensive-11789708928043.html",
+        "timestamp": 1789729480960,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Late-Night TV's Future In Doubt Amid Kimmel Budget Cuts",
+        "url": "https://www.hollywoodreporter.com/tv/tv-news/end-of-late-night-tv-nears-kimmel-lorne-michaels-1236700515/",
+        "timestamp": 1789729480961,
+        "photo": true,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Space Force General Warns: Prepare For Battle Around The Moon",
+        "url": "https://www.defenseone.com/threats/2026/09/pentagon-battles-moon-joint-chiefs-chairman/416021/",
+        "timestamp": 1789729480960,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Trump Cites Man From Racially Charged 1988 Campaign Ad At NC Rally",
+        "url": "https://apnews.com/article/trump-wilie-horton-north-carolina-whatley-5bf8a542f360561241e4f82abb3d869a",
+        "timestamp": 1789704240000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Tillis Backs Hegseth Impeachment Resolution: 'He Needs To Go'",
+        "url": "https://thehill.com/homenews/senate/6097194-tillis-calls-for-hegseth-impeachment/",
+        "timestamp": 1789698780000,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "F-16 Fighter Jet Crashes In Residential Area Of Northern Michigan",
+        "url": "https://www.nbcnews.com/news/us-news/f-16-fighter-jet-crashes-residential-area-northern-michigan-rcna598451",
+        "timestamp": 1789693920000,
+        "photo": true,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "New Trump Rule Allows Killing Endangered Wildlife If Not The Intended Target",
+        "url": "https://apnews.com/article/endangered-species-killing-wildlife-trump-a4f2c2392dd6b9f8cfb35eb0a4716092",
+        "timestamp": 1789683600000,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Miami's Immigrant Community Grips With Fear Over Crackdown",
+        "url": "https://www.axios.com/2026/09/17/republicans-immigration-trump-miami-backyard",
+        "timestamp": 1789710436000,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Explosions Reported In Saudi Capital Amid Houthi Conflict",
+        "url": "https://www.nytimes.com/2026/09/19/world/middleeast/saudi-arabia-riyadh-houthis.html?unlocked_article_code=1.CVE.irLL.OaV6fix0Kjgg&smid=url-share",
+        "timestamp": 1789837530051,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "Stephen Miller Leads Push To Accelerate Removal Of Migrant Children",
+        "url": "https://www.theguardian.com/us-news/2026/sep/19/stephen-miller-trump-migrant-children",
+        "timestamp": 1789837530050,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "Trump Administration Begins Building Border Wall In Texas' Big Bend Region",
+        "url": "https://apnews.com/article/border-wall-immigration-trump-texas-customs-border-protection-cdcdc43cd541cf0b42cb43c7cf9d0d8f",
+        "timestamp": 1789776180000,
+        "postedAt": 1789838116463
+      }
+    ],
+    "right": [
+      {
+        "headline": "U.N.-BACKED PANEL SAYS U.S. MAY HAVE COMMITTED WAR CRIMES IN IRAN STRIKES",
+        "url": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes",
+        "timestamp": 1789730120233,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Right-Wing Musician Pat Boone Urges Trump To Speak Less",
+        "url": "https://www.jpost.com/american-politics/article-909119",
+        "timestamp": 1789837530050,
+        "postedAt": 1789838116463,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "Texas City's Garbage Trucks Join The Surveillance State",
+        "url": "https://www.theblaze.com/tech/in-this-big-texas-city-garbage-trucks-have-joined-the-surveillance-state",
+        "timestamp": 1789835420000,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "GOP Senator Says Russian Oligarch Paying For Trump Wedding Weekend Is 'Corruption'",
+        "url": "https://www.washingtontimes.com/news/2026/sep/19/gop-senator-says-russian-oligarch-paying-trump-wedding-weekend/",
+        "timestamp": 1789835079000,
+        "feature": true,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "One Pilot Dies, Another Survives After Gliders Collide In New York",
+        "url": "https://www.nbcnews.com/news/us-news/police-investigating-aircraft-collision-new-york-rcna598616",
+        "timestamp": 1789762260000,
+        "photo": true,
+        "postedAt": 1789838116463,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "Cousin Says Philadelphia Killer Raymond Horsch Preyed On Prostitutes",
+        "url": "https://www.newsnationnow.com/crime/raymond-horsch-craigslist-ad-nicole-fusaro/",
+        "timestamp": 1789734913000,
+        "photo": true,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "Warren Buffett Steps Down As Berkshire Hathaway Chairman",
+        "url": "https://www.npr.org/2026/09/18/nx-s1-5973852/warren-buffett-steps-down",
+        "timestamp": 1789729480961,
+        "photo": true,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Next-Generation Fighter Jets Won't Have Pilots, Pentagon Says",
+        "url": "https://www.washingtontimes.com/news/2026/sep/17/air-force-advancing-quickly-toward-pilotless-fighter-jets/",
+        "timestamp": 1789729480960,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Canada: Carney Floats Long-Shot Plan For Citizens To Live And Work In EU",
+        "url": "https://www.bbc.com/news/articles/cx980qj57r89o",
+        "timestamp": 1789694590000,
+        "photo": true,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "US Marshals Arrest 3 Suspects In Deadly Chelan Hills Fire",
+        "url": "https://www.king5.com/article/news/crime/us-marshals-service-arrests-second-suspect-deadly-chelan-hills-fire/281-ebad34e5-f27b-486f-8b58-92200f7875f5",
+        "timestamp": 1789683960000,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Smart Devices Can Now Testify Against You In Court",
+        "url": "https://www.the-independent.com/b3052060.html",
+        "timestamp": 1789729480961,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Red And Blue America Agree: Flock Surveillance Cameras Must Go",
+        "url": "https://abcnews.com/US/flock-cameras-trigger-nationwide-backlash-privacy-concerns-police/story?id",
+        "timestamp": 1789729480961,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Senator Blocks Bill To Lower Electricity Prices Linked To AI Data Centers",
+        "url": "https://thehill.com/policy/energy-environment/6096398-heinrich-blocks-husted-data-center-bill/",
+        "timestamp": 1789704000000,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Immigration Officer Convicted Of Sexually Assaulting, Robbing Women",
+        "url": "https://www.cbsnews.com/chicago/news/border-patrol-agent-luis-uribe-convicted-sexual-assault-robbery/",
+        "timestamp": 1789698364000,
+        "postedAt": 1789730120233
+      },
+      {
+        "headline": "Pentagon Hid True U.S. Troop Death Toll From Iran War, Report Finds",
+        "url": "https://thehill.com/policy/defense/6099284-pentagon-omitted-service-member-deaths/",
+        "timestamp": 1789781036000,
+        "feature": true,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "Court Rules Warrant Not Required For Cell Phone Searches At Border",
+        "url": "https://archive.is/BvmjY",
+        "timestamp": 1789837530050,
+        "postedAt": 1789838116463
+      },
+      {
+        "headline": "FBI Warns ICE Officers Of Doxxers Posing As 'Tradwife' Dating Profiles",
+        "url": "https://www.washingtonexaminer.com/news/business/4733166/fbi-warns-ice-officers-of-doxxers-posing-as-tradwife-dating-profiles/",
+        "timestamp": 1789759860000,
+        "postedAt": 1789838116463,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "How AI Data Centers Are Really Affecting Local Communities",
+        "url": "https://www.theblaze.com/tech/truth-about-data-centers",
+        "timestamp": 1789900310000,
+        "postedAt": 1789902943808
+      },
+      {
+        "headline": "Trump To Form 'AI Force,' Name AI Czar, Reject Calls For Constraints",
+        "url": "https://abcnews.com/Politics/trump-form-new-ai-force-continues-call-ai/story?id",
+        "timestamp": 1789870431000,
+        "postedAt": 1789902943808
+      },
+      {
+        "headline": "GOP Senator Predicts Iran War Will End Within Six Months",
+        "url": "https://iowacapitaldispatch.com/2026/09/19/us-sen-john-kennedy-in-iowa-predicts-end-of-iran-war-in-6-months/",
+        "timestamp": 1789871979000,
+        "postedAt": 1789902943808
+      }
+    ]
+  },
+  "balance": {
+    "left": 637,
+    "right": 449,
+    "independent": 6,
+    "days": 30,
+    "total": 1086,
+    "pctLeft": 59,
+    "pctRight": 41
+  }
+}

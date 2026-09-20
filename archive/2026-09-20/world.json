@@ -1,0 +1,558 @@
+{
+  "lastUpdated": 1789903846996,
+  "heroSetDate": "2026-09-20",
+  "hero": {
+    "headline": "UKRAINE LAUNCHES LARGEST-EVER DRONE BARRAGE ON MOSCOW, IGNITES OIL REFINERY",
+    "url": "https://www.euronews.com/my-europe/2026/09/20/moscow-hit-by-largest-scale-attack-on-capital-so-far-mayor-says",
+    "sublinks": [
+      {
+        "text": "Over 1,000 Drones Fired At Russia, Hundreds Aimed At Moscow",
+        "url": "https://www.breitbart.com/europe/2026/09/20/ukraine-fires-over-1000-drones-at-russia-including-hundreds-at-moscow/"
+      },
+      {
+        "text": "Attack Lands On Final Day Of Russia's Occupied-Territory Elections",
+        "url": "https://www.politico.eu/article/ukraine-drone-attack-moscow-elections/"
+      },
+      {
+        "text": "Russia Reports Two Killed In The Drone Assault",
+        "url": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says"
+      }
+    ],
+    "postedAt": 1789903846996,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "GERMANY: BERLIN AND MECKLENBURG VOTE AMID AFD SURGE",
+      "stories": [
+        {
+          "headline": "In Cosmopolitan Berlin, Elections Remain Closed To Foreigners",
+          "url": "https://www.dw.com/en/in-cosmopolitan-berlin-elections-still-closed-to-foreigners/a-78744579",
+          "timestamp": 1789900938000,
+          "postedAt": 1789903846996
+        },
+        {
+          "headline": "Germany's Berlin, Mecklenburg-Western Pomerania States Head To Polls",
+          "url": "https://www.aljazeera.com/news/2026/9/20/two-german-states-go-to-the-polls-after-far-right-gains",
+          "timestamp": 1789891101000,
+          "feature": true,
+          "postedAt": 1789903846996
+        }
+      ]
+    },
+    {
+      "title": "CANADA-EU 'ASSOCIATE MEMBER' PUSH: MACRON AND CARNEY MEET",
+      "stories": [
+        {
+          "headline": "Why Carney's EU Associate Membership Bid Matters, Name Aside",
+          "url": "https://www.euronews.com/my-europe/2026/09/20/newsletter-carney-is-right-on-eu-associate-membership-the-name-is-irrelevant-the-politics-",
+          "timestamp": 1789898765000,
+          "postedAt": 1789903846996
+        },
+        {
+          "headline": "Macron, Carney To Meet In French Atlantic Archipelago In Signal To Trump",
+          "url": "https://www.reuters.com/world/americas/macron-carney-meet-french-atlantic-archipelago-signal-trump-2026-09-20/",
+          "timestamp": 1789876980000,
+          "postedAt": 1789903846996
+        }
+      ]
+    },
+    {
+      "title": "ASIAN GAMES: CHINA DOMINATES POOL, MYANMAR STUNS IN TEQBALL",
+      "stories": [
+        {
+          "headline": "China Dominate The Pool As Yu Zidi, Pan Zhanle Win Gold",
+          "url": "https://www.scmp.com/sport/china/article/3368152/asian-games-chinas-yu-zidi-caps-golden-debut-record-setting-win",
+          "timestamp": 1789895570000,
+          "postedAt": 1789903846996
+        },
+        {
+          "headline": "Myanmar Win First Asian Games Teqball Gold As Puyol Watches",
+          "url": "https://www.straitstimes.com/sport/myanmar-win-first-asian-games-teqball-gold-as-spain-great-carles-puyol-watches",
+          "timestamp": 1789895340000,
+          "postedAt": 1789903846996
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR: HORMUZ PROGRESS, WAR CRIMES ALLEGATIONS AND MOUNTING COSTS",
+      "stories": [
+        {
+          "headline": "South Korea Tells Trump It Won't Send Troops To Iran",
+          "url": "https://www.nbcnews.com/world/asia/south-korea-rules-out-military-involvement-middle-east-conflict-rcna598489",
+          "timestamp": 1789835050000,
+          "postedAt": 1789838990485
+        },
+        {
+          "headline": "US Escorts 1 Billion Barrels Of Oil Through Strait Of Hormuz, Military Says",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-of-hormuz-oil-houthis/",
+          "timestamp": 1789828200000,
+          "postedAt": 1789838990485
+        },
+        {
+          "headline": "World Leaders Gather At UN As Iran Executes Political Prisoners",
+          "url": "https://www.realclearworld.com/articles/2026/09/19/world_leaders_are_gathering_at_the_un_as_iran_executes_its_political_prisoners_1207018.html",
+          "timestamp": 1789820785000,
+          "postedAt": 1789838990485
+        },
+        {
+          "headline": "UN Mission Says US Strike On Iran School Was Likely A War Crime",
+          "url": "https://www.timesofisrael.com/un-mission-us-strike-that-hit-iran-school-was-indiscriminate-likely-a-war-crime/",
+          "timestamp": 1789726050000,
+          "postedAt": 1789730995687
+        },
+        {
+          "headline": "Trump Says He's Approaching Major Crossroads In Iran War",
+          "url": "https://www.axios.com/2026/09/17/trump-axios-interview-iran-war",
+          "timestamp": 1789694330000,
+          "feature": true,
+          "postedAt": 1789730995687
+        }
+      ]
+    },
+    {
+      "title": "NATO: GERMAN GENERAL TAKES TOP MILITARY POST",
+      "stories": [
+        {
+          "headline": "German General Breuer Elected To Head Top NATO Military Body",
+          "url": "https://www.reuters.com/business/aerospace-defense/german-general-breuer-elected-head-top-nato-military-body-2026-09-19/",
+          "timestamp": 1789832023000,
+          "postedAt": 1789838990485
+        },
+        {
+          "headline": "NATO 'Ready' For Potential Russian False-Flag Attack, Top General Says",
+          "url": "https://www.politico.eu/article/nato-ready-russia-false-flag-attack-giuseppe-cavo-dragone/",
+          "timestamp": 1789828374000,
+          "postedAt": 1789838990485
+        }
+      ]
+    },
+    {
+      "title": "ISRAEL AND GAZA",
+      "stories": [
+        {
+          "headline": "Israeli Strikes Kill Three In Gaza, Medics Say",
+          "url": "https://www.reuters.com/world/middle-east/israeli-strikes-kill-three-people-gaza-medics-say-2026-09-19/",
+          "timestamp": 1789829222000,
+          "postedAt": 1789838990485
+        },
+        {
+          "headline": "Inside The Breakdown Of UK-Israel Relations Over West Bank Settlements",
+          "url": "https://www.inss.org.il/publication/survey-palestinians-2026/",
+          "timestamp": 1789818251000,
+          "postedAt": 1789838990485
+        }
+      ]
+    },
+    {
+      "title": "SOUTH AFRICA'S FEMICIDE CRISIS",
+      "stories": [
+        {
+          "headline": "South Africa 'Feels Like A Prison' For Women Amid Femicide Wave",
+          "url": "https://www.npr.org/2026/09/18/nx-s1-5973822/south-africa-feels-like-a-prison-for-women-amid-spate-of-femicides",
+          "timestamp": 1789727954000,
+          "postedAt": 1789730995687
+        },
+        {
+          "headline": "Ninth Woman's Body Found As South Africa Probes Killing Spree",
+          "url": "https://www.aljazeera.com/news/2026/9/17/ninth-womans-body-found-as-south-africa-probes-series-of-killings",
+          "timestamp": 1789700307000,
+          "postedAt": 1789730995687
+        }
+      ]
+    },
+    {
+      "title": "ED SHEERAN TOUR BACKLASH",
+      "stories": [
+        {
+          "headline": "How Ed Sheeran's Tour Became A Clash Over Palestinians And Antisemitism",
+          "url": "https://www.clashmusic.com/news/macklemore-removed-from-ed-sheeran-tour-after-free-palestine-speech/",
+          "timestamp": 1789725214000,
+          "postedAt": 1789730995687
+        },
+        {
+          "headline": "Ed Sheeran Backlash Grows As Radio Bans Songs, Fans Unfollow",
+          "url": "https://www.euronews.com/culture/2026/09/18/ed-sheeran-backlash-continues-as-radio-station-bans-songs-and-instagram-fans-unfollow",
+          "timestamp": 1789722990000,
+          "postedAt": 1789730995687
+        }
+      ]
+    },
+    {
+      "title": "CEUTA MIGRANT CRISIS DEEPENS",
+      "stories": [
+        {
+          "headline": "Two Soldiers Injured In Separate Attacks By Migrants At Ceuta",
+          "url": "https://www.breitbart.com/europe/2026/09/18/ceuta-crisis-two-soldiers-injured-in-separate-attacks-by-invading-migrants/",
+          "timestamp": 1789723870000,
+          "postedAt": 1789730995687
+        },
+        {
+          "headline": "Migrant Sea Crossings To Europe Drop Sharply As Deaths Rise: IOM",
+          "url": "https://www.aljazeera.com/news/2026/9/17/migrant-crossings-to-europe-by-sea-drop-sharply-amid-heightened-risks-iom",
+          "timestamp": 1789688747000,
+          "postedAt": 1789730995687
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Zelenskyy Offers To Meet Putin At G20 In Miami",
+        "url": "https://www.dw.com/en/dw-exclusive-zelenskyy-offers-to-meet-putin-at-g20-in-miami/a-79241703?maca",
+        "timestamp": 1789893680000,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Caribbean States Take 'Racial Discrimination' Slavery Lawsuit Against UK To UN",
+        "url": "https://www.breitbart.com/europe/2026/09/20/caribbean-states-look-to-u-n-with-racial-discrimination-slavery-lawsuit-against-uk/",
+        "timestamp": 1789900838000,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Argentina's Milei Reignites Dispute Over Falkland Islands",
+        "url": "https://www.dw.com/en/argentina-milei-reignites-dispute-over-falkland-islands/a-78896474?maca",
+        "timestamp": 1789897428000,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Earl Spencer Accused Of Peddling Diana's Privacy, Say King's Allies",
+        "url": "https://ozarab.media/earl-spencer-claims-dominate-sunday-front-pages/",
+        "timestamp": 1789883362000,
+        "photo": true,
+        "postedAt": 1789903846996,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "World Leaders Return To UN Amid Wars In Middle East And Ukraine",
+        "url": "https://www.reuters.com/world/china/world-leaders-return-un-amid-wars-middle-east-ukraine-2026-09-20/",
+        "timestamp": 1789880700000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Le Pen's National Rally Rebukes Russia In Rare Move",
+        "url": "https://www.politico.eu/article/france-national-rally-russia-rebuke/",
+        "timestamp": 1789834649000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Far-Left Protesters Attacked Restore Britain Campaigners, Rupert Lowe Claims",
+        "url": "https://www.breitbart.com/europe/2026/09/19/far-left-protesters-attacked-restore-britain-leafleting-campaigners-claims-rupert-lowe/",
+        "timestamp": 1789837072000,
+        "photo": true,
+        "postedAt": 1789838990485,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "Cuba Works To Restore Power After Another Blackout",
+        "url": "https://www.afp.com/en/cuba-works-restore-power-after-another-blackout",
+        "timestamp": 1789835779000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Warren Buffett Steps Down As Berkshire Hathaway Chairman",
+        "url": "https://www.npr.org/2026/09/18/nx-s1-5973852/warren-buffett-steps-down",
+        "timestamp": 1789829880000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Princess Diana's Brother Blames Lack Of Care For Prince Harry's Post-Funeral 'Spin Out'",
+        "url": "https://pagesix.com/2026/09/19/royal-family/princess-dianas-brother-claims-lack-of-care-for-prince-harry-after-moms-funeral-caused-him-to-spin-out-of-control/",
+        "timestamp": 1789828620000,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Nigeria Names Panel To Probe Deaths Of 37 Miners Held In Detention",
+        "url": "https://www.rfi.fr/en/africa/20260919-nigeria-names-panel-to-probe-deaths-of-37-miners-held-in-detention",
+        "timestamp": 1789828179000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Congress Must Save The Navy From 'Catastrophic Failure,' Analysis Warns",
+        "url": "https://www.realcleardefense.com/articles/2026/09/19/congress_must_save_the_navy_from_catastrophic_failure_barreling_toward_a_hollow_navy_1207043.html",
+        "timestamp": 1789817214000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Protests Erupt In Nigeria After 37 Miners Die In Custody",
+        "url": "https://www.reuters.com/world/africa/protests-erupt-nigeria-after-33-miners-die-custody-paramilitary-agency-2026-09-18/",
+        "timestamp": 1789724075000,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "India Finds Nestlé Baby Food Sample Substandard, Takes Legal Action",
+        "url": "https://www.reuters.com/world/india/indias-food-regulator-initiates-legal-action-against-nestle-2026-09-18/",
+        "timestamp": 1789728072000,
+        "photo": true,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "UK: Activist Who Defaced Churchill Statue Avoids Punishment",
+        "url": "https://www.breitbart.com/europe/2026/09/18/pro-palestine-activist-who-spray-painted-londons-churchill-statue-avoids-punishment/",
+        "timestamp": 1789725243000,
+        "photo": true,
+        "postedAt": 1789730995687,
+        "image": "/img/world-5.jpg"
+      },
+      {
+        "headline": "US Military Moves Drones To South America For Counternarcotics Push",
+        "url": "https://www.cnn.com/2026/09/18/politics/us-military-drones-south-america",
+        "timestamp": 1789722029000,
+        "photo": true,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "Philippines: Two Students Killed In School Shooting, Teen Suspect Dead",
+        "url": "https://www.myrtlebeachonline.com/news/nation-world/world/article317290812.html",
+        "timestamp": 1789721332000,
+        "feature": true,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "UN Condemns 'Shocking Pattern' Of Sexual Violence By Russia In Ukraine",
+        "url": "https://www.euronews.com/2026/09/19/un-condemns-shocking-pattern-of-sexual-violence-by-russian-troops-in-ukraine",
+        "timestamp": 1789821181000,
+        "postedAt": 1789838990485
+      }
+    ],
+    "center": [
+      {
+        "headline": "Saudi Arabia Says Houthis Tried To Attack Its Capital",
+        "url": "https://www.npr.org/2026/09/19/nx-s1-5974980/saudi-arabia-houthis-attempted-attack-capital",
+        "timestamp": 1789876643000,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "AI Bubble Collapse May Be Bigger Threat Than Slowdown, Analysts Warn",
+        "url": "https://www.theguardian.com/business/2026/sep/20/ai-slowdown-calls-collapse-of-bubble-datacentre-tech-firms",
+        "timestamp": 1789901520000,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "North Korea Launches Suspected Ballistic Missile Into East Sea",
+        "url": "https://www.euronews.com/2026/09/20/north-korea-launches-suspected-ballistic-missile-into-east-sea",
+        "timestamp": 1789901182000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789903846996,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Indonesia Rescue Team Recovers Another Victim From Capsized Ship",
+        "url": "https://www.reuters.com/world/asia-pacific/indonesias-rescue-agency-recovers-more-victims-capsized-ship-authorities-say-2026-09-20/",
+        "timestamp": 1789895100000,
+        "photo": true,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Congo Launches Ebola Vaccination Campaign For Frontline Workers",
+        "url": "https://www.africanews.com/amp/2026/09/20/congo-launches-ebola-vaccination-campaign-for-frontline-workers/",
+        "timestamp": 1789894634000,
+        "photo": true,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "South Africans Run And Mourn After Nine Women Killed",
+        "url": "https://www.reuters.com/world/africa/after-deaths-nine-women-south-africans-gather-run-mourn-demand-change-2026-09-19/",
+        "timestamp": 1789838267000,
+        "photo": true,
+        "postedAt": 1789842039453
+      },
+      {
+        "headline": "Prosecutors: Pilots Were Drunk When They Crashed Private Jet In Libya",
+        "url": "https://www.breitbart.com/africa/2026/09/19/prosecutors-pilots-were-drunk-when-they-crashed-a-private-jet-in-libya/",
+        "timestamp": 1789837418000,
+        "photo": true,
+        "postedAt": 1789838990485,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Liberland: Where Micronation Utopia Meets Reality",
+        "url": "https://www.dw.com/en/between-utopia-and-reality-liberland-seeks-citizens/video-79339673",
+        "timestamp": 1789833144000,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Congolese Cyclist Dies In Crash During 'Pedals For Peace' Journey",
+        "url": "https://www.rfi.fr/en/africa/20260919-congolese-cyclist-masaisai-dies-in-crash-during-pedals-for-peace-journey",
+        "timestamp": 1789831186000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Methanol-Tainted Drink Kills 48, Blinds Some In Nigeria",
+        "url": "https://www.scmp.com/news/world/africa/article/3368125/methanol-tainted-nigeria-drink-kills-48-182-made-ill-government",
+        "timestamp": 1789827841000,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "From Refugee Child To Berlin Mayor? Meet Elif Eralp",
+        "url": "https://www.dw.com/en/elif-eralp-from-refugee-child-to-berlin-mayor/video-79319887",
+        "timestamp": 1789827001000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Trump Hails 'Major Progress' On New US Base In Poland",
+        "url": "https://www.dw.com/en/trump-hails-major-progress-in-setting-up-us-base-in-poland/a-79316328",
+        "timestamp": 1789720502000,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "Japan Tests Robot Trash Bins At Tokyo's Busiest Rail Station",
+        "url": "https://www.afp.com/en/japans-busiest-rail-station-tests-robot-bins",
+        "timestamp": 1789727304000,
+        "photo": true,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "At Least 16 Killed In Attack On Pakistani Mosque",
+        "url": "https://www.bbc.com/news/articles/ckn9wenz8wjwo",
+        "timestamp": 1789726382000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "Bank Of Japan Hikes Rates At Fastest Pace Since 1990",
+        "url": "https://www.chosun.com/english/market-money-en/2026/09/18/N664RYMPBJF4BO2WU52GRLDEWA/",
+        "timestamp": 1789723511000,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "Berlin: Far-Left Politician Eyes City Hall, Echoing Mamdani",
+        "url": "https://www.timesofisrael.com/first-they-take-manhattan-looking-to-mimic-mamdani-far-lefts-elif-eralp-eyes-berlin-city-hall/",
+        "timestamp": 1789720850000,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "Greenland, Denmark Say Trump Deal Won't Compromise Sovereignty",
+        "url": "https://www.reuters.com/world/europe/greenland-denmark-say-us-deal-will-not-cede-sovereignty-2026-09-19/",
+        "timestamp": 1789832857000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Russia Reports Cyberattacks On Electoral System As Occupied-Territory Vote Continues",
+        "url": "https://www.reuters.com/world/europe/russia-reports-online-attacks-electoral-system-second-day-parliamentary-vote-2026-09-19/",
+        "timestamp": 1789817428000,
+        "postedAt": 1789838990485
+      }
+    ],
+    "right": [
+      {
+        "headline": "THICK SMOKE, AIR RAID ALERTS RATTLE SAUDI CAPITAL RIYADH",
+        "url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport",
+        "timestamp": 1789838990485,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Uganda Suspends Military Ties With Turkey Over Dissident's Extradition",
+        "url": "https://www.rfi.fr/en/africa/20260920-uganda-suspends-military-ties-with-turkey-over-extradition-of-museveni-critic-lumbuye",
+        "timestamp": 1789900142000,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Afghan Athlete Hashimi: From Dressing As A Man To Competing With The Elite",
+        "url": "https://www.reuters.com/sports/dressing-man-competing-with-elite-no-backpedalling-afghan-hashimi-2026-09-20/",
+        "timestamp": 1789899745000,
+        "photo": true,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Thousands Protest Climate Inaction In Switzerland",
+        "url": "https://www.afp.com/en/thousands-protest-inaction-over-climate-crisis-switzerland",
+        "timestamp": 1789840951000,
+        "photo": true,
+        "postedAt": 1789842039453
+      },
+      {
+        "headline": "Chinese Robots Dance Their Way To 'America's Got Talent' Finale",
+        "url": "https://www.afp.com/en/chinese-robots-dance-their-way-americas-got-talent-finale",
+        "timestamp": 1789835779000,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "China's Delivery Drivers Get €20 Uniform Winning Top French Design Award",
+        "url": "https://www.scmp.com/economy/china-economy/article/3368121/first-top-european-design-prize-awarded-eu20-uniform-chinas-delivery-drivers",
+        "timestamp": 1789831192000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Ancient Nazi U-Boat Off Norway Feared To Be Ticking 'Mercury Bomb'",
+        "url": "https://www.euronews.com/my-europe/2026/09/19/a-ticking-mercury-bomb-ancient-nazi-u-boat-lies-off-norway",
+        "timestamp": 1789830948000,
+        "photo": true,
+        "postedAt": 1789838990485,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "Holocaust Survivor Calls AfD's Saxony-Anhalt Win 'Very Dangerous'",
+        "url": "https://amp.dw.com/en/holocaust-survivor-on-very-dangerous-afd-saxony-anhalt-win/video-79336668",
+        "timestamp": 1789830290000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Oktoberfest 2026 Opens With Lederhosen And First Keg Tapped",
+        "url": "https://www.theguardian.com/culture/gallery/2026/sep/19/oktoberfest-2026-day-one-munich-beer-in-pictures",
+        "timestamp": 1789822140000,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Perth Shark Attack: Rare Kill Order Issued, Victim Identified As Greg O'Neill",
+        "url": "https://www.bbc.com/news/articles/cqwyzdnk442lo",
+        "timestamp": 1789818622000,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Warnings Spread Across The Himalayas After Nepal Floods",
+        "url": "https://www.southeastarrow.com/news/we-didnt-have-any-warning-semos-nepal-community-reacts-to-deadly-floods-devastating-their-country-2a9eb644",
+        "timestamp": 1789704069000,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "Shark Kills Swimmer Off Western Australian Beach",
+        "url": "https://abcnews.com/International/wireStory/fatal-shark-attack-suspected-australian-city-beach-136550779",
+        "timestamp": 1789727108000,
+        "photo": true,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "UK: Church Of England Walks Back Interfaith Prize To Bin Laden Apologist",
+        "url": "https://www.breitbart.com/europe/2026/09/18/church-of-england-walks-back-giving-top-interfaith-prize-to-man-who-called-osama-bin-laden-the-sword-of-god/",
+        "timestamp": 1789722535000,
+        "photo": true,
+        "postedAt": 1789730995687,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "China's Top AI Models Generate Just 10% Of OpenAI, Anthropic Revenue",
+        "url": "https://www.scmp.com/tech/big-tech/article/3367991/top-chinese-ai-models-make-10-openai-anthropic-revenue-despite-high-valuations-report",
+        "timestamp": 1789722006000,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "France Probes Misuse Of Smart Glasses In Sexual Harassment Cases",
+        "url": "https://www.reuters.com/technology/french-prosecutors-regulators-step-up-scrutiny-smart-glasses-2026-09-18/",
+        "timestamp": 1789711380000,
+        "photo": true,
+        "postedAt": 1789730995687
+      },
+      {
+        "headline": "Italy Sends Navy To Protect Merchant Ships From Houthis",
+        "url": "https://www.breitbart.com/europe/2026/09/18/italy-wont-wait-for-slow-eu-will-send-navy-to-protect-merchant-ships-from-houthis/",
+        "timestamp": 1789728389000,
+        "postedAt": 1789730995687,
+        "image": "/img/world-7.jpg"
+      }
+    ]
+  }
+}
