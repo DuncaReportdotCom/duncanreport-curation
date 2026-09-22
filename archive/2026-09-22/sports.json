@@ -171,7 +171,7 @@
         "timestamp": 1789985700000,
         "photo": true,
         "postedAt": 1789989448615,
-        "image": "/img/sports-6.jpg"
+        "image": "/img/sports-5.jpg"
       },
       {
         "headline": "Jayden Daniels Dislocates Elbow As Commanders Fall To Cowboys",
@@ -218,7 +218,8 @@
         "url": "https://www.thescore.com/mlb/news/3603638/rangers-beat-blue-jays-to-take-sole-possession-of-al-west-lead",
         "timestamp": 1789888946000,
         "photo": true,
-        "postedAt": 1789903326375
+        "postedAt": 1789903326375,
+        "image": "/img/sports-7.jpg"
       },
       {
         "headline": "Alabama-FSU Set To Restart After Second Weather Delay",
@@ -293,7 +294,7 @@
         "timestamp": 1790026281000,
         "photo": true,
         "postedAt": 1790076121363,
-        "image": "/img/sports-3.jpg"
+        "image": "/img/sports-2.jpg"
       },
       {
         "headline": "MLB Labor Battle Escalates: Timeline For A Possible Lockout",
@@ -308,7 +309,7 @@
         "photo": true,
         "feature": true,
         "postedAt": 1790076121363,
-        "image": "/img/sports-4.jpg"
+        "image": "/img/sports-3.jpg"
       },
       {
         "headline": "The Lane Kiffin Revenge Party Delivered On Its Promise",
@@ -317,7 +318,7 @@
         "photo": true,
         "feature": true,
         "postedAt": 1790076121363,
-        "image": "/img/sports-5.jpg"
+        "image": "/img/sports-4.jpg"
       },
       {
         "headline": "KENTUCKY UPSETS NO. 9 TEXAS A&M AS FANS TORCH COUCHES IN CELEBRATION",
@@ -462,8 +463,7 @@
         "url": "https://www.phillyvoice.com/report-eagles-are-signing-te-zach-ertz-their-practice-squad/",
         "timestamp": 1790030602000,
         "photo": true,
-        "postedAt": 1790076121363,
-        "image": "/img/sports-2.jpg"
+        "postedAt": 1790076121363
       },
       {
         "headline": "Vikings' Murray Clears Concussion Protocol, Will Start Vs. Bucs",
@@ -496,7 +496,7 @@
         "timestamp": 1789960318000,
         "photo": true,
         "postedAt": 1789989448615,
-        "image": "/img/sports-7.jpg"
+        "image": "/img/sports-6.jpg"
       },
       {
         "headline": "JOSHUA VAN RETAINS UFC FLYWEIGHT TITLE AS COLBY COVINGTON STUNS BELAL MUHAMMAD AT UFC 331",
