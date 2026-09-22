@@ -1,0 +1,649 @@
+{
+  "lastUpdated": 1790076636840,
+  "heroSetDate": "2026-09-22",
+  "hero": {
+    "headline": "DIPLOMATS DESCRIBE WORLD 'IN TURMOIL' AS TRUMP HEADS TO UN AMID IRAN WAR",
+    "url": "https://apnews.com/article/united-nations-general-assembly-unga-trump-war-83dfe88eaf541fdcef3a4758010bef6e",
+    "sublinks": [
+      {
+        "text": "Trump's UN Speech Overshadowed By Iran War Fallout",
+        "url": "https://www.nbcnews.com/politics/trump-administration/trump-address-united-nations-general-assembly-iran-war-rcna599085"
+      },
+      {
+        "text": "Gulf Leaders Meet Trump Fearing More War, Less US Protection",
+        "url": "https://www.cnn.com/2026/09/22/middleeast/gulf-leaders-trump-fear-more-war-less-protection-intl"
+      },
+      {
+        "text": "Iran Executes Political Prisoners As World Leaders Gather",
+        "url": "https://www.realclearworld.com/articles/2026/09/19/world_leaders_are_gathering_at_the_un_as_iran_executes_its_political_prisoners_1207018.html"
+      }
+    ],
+    "postedAt": 1790076636840,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "CHINA: XI-TRUMP MEETING PREP",
+      "stories": [
+        {
+          "headline": "China Tightens Fentanyl Precursor Controls Ahead Of Xi-Trump Meeting",
+          "url": "https://www.scmp.com/economy/article/3368405/china-tightens-control-more-fentanyl-precursors-ahead-xi-trump-meeting",
+          "timestamp": 1790073897000,
+          "postedAt": 1790076636840
+        },
+        {
+          "headline": "Xi Expected To Press Trump To Halt Taiwan Arms Sales, Sources Say",
+          "url": "https://www.reuters.com/world/china/chinas-xi-expected-press-trump-halt-taiwan-arms-sales-under-1982-agreement-2026-09-22/",
+          "timestamp": 1790073080000,
+          "feature": true,
+          "postedAt": 1790076636840
+        }
+      ]
+    },
+    {
+      "title": "GERMANY: MERZ ELECTION FALLOUT",
+      "stories": [
+        {
+          "headline": "CDU Unrest Grows As Merz Clings To Power 'On Borrowed Time'",
+          "url": "https://www.theguardian.com/world/2026/sep/21/german-state-election-humiliation-friedrich-merz-borrowed-time-cdu-unrest-grows",
+          "timestamp": 1790040600000,
+          "postedAt": 1790076636840
+        },
+        {
+          "headline": "Germany's Berlin, Mecklenburg-Western Pomerania States Head To Polls",
+          "url": "https://www.aljazeera.com/news/2026/9/20/two-german-states-go-to-the-polls-after-far-right-gains",
+          "timestamp": 1789891101000,
+          "feature": true,
+          "postedAt": 1789903846996
+        }
+      ]
+    },
+    {
+      "title": "UKRAINE WAR ESCALATES AFTER RECORD DRONE BARRAGE",
+      "stories": [
+        {
+          "headline": "Russian Drones Slam Southern Ukraine After Kyiv's 1,000-Drone Weekend Barrage",
+          "url": "https://www.euronews.com/my-europe/2026/09/21/russian-drones-slam-southern-ukraine-city-after-kyivs-1000-drone-weekend-barrage",
+          "timestamp": 1789986832000,
+          "postedAt": 1789989927033
+        },
+        {
+          "headline": "Ukrainians Brace For Worst Wartime Winter Of Airstrikes",
+          "url": "https://www.japantimes.co.jp/news/2026/09/21/world/ukraine-wartime-winter-airstrikes/",
+          "timestamp": 1789985051000,
+          "postedAt": 1789989927033
+        },
+        {
+          "headline": "Why Europe Is Preparing For A Wider Conflict Beyond Ukraine",
+          "url": "https://www.cnn.com/2026/09/21/politics/nato-prepares-russia-widen-ukraine-war-mcgurk",
+          "timestamp": 1789963229000,
+          "postedAt": 1789989927033
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR: HORMUZ PROGRESS, WAR CRIMES ALLEGATIONS AND MOUNTING COSTS",
+      "stories": [
+        {
+          "headline": "South Korea Tells Trump It Won't Send Troops To Iran",
+          "url": "https://www.nbcnews.com/world/asia/south-korea-rules-out-military-involvement-middle-east-conflict-rcna598489",
+          "timestamp": 1789835050000,
+          "postedAt": 1789838990485
+        },
+        {
+          "headline": "US Escorts 1 Billion Barrels Of Oil Through Strait Of Hormuz, Military Says",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-of-hormuz-oil-houthis/",
+          "timestamp": 1789828200000,
+          "postedAt": 1789838990485
+        },
+        {
+          "headline": "World Leaders Gather At UN As Iran Executes Political Prisoners",
+          "url": "https://www.realclearworld.com/articles/2026/09/19/world_leaders_are_gathering_at_the_un_as_iran_executes_its_political_prisoners_1207018.html",
+          "timestamp": 1789820785000,
+          "postedAt": 1789838990485
+        },
+        {
+          "headline": "Trump Threatens To 'Blow The Entire Nation Up' As Iran Warns Of Painful Strikes",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-update-oil-houthis-riyadh-b3053306.html",
+          "timestamp": 1789985984000,
+          "feature": true,
+          "postedAt": 1789989927033
+        }
+      ]
+    },
+    {
+      "title": "CANADA-EU 'ASSOCIATE MEMBER' PUSH: MACRON AND CARNEY MEET",
+      "stories": [
+        {
+          "headline": "Why Carney's EU Associate Membership Bid Matters, Name Aside",
+          "url": "https://www.euronews.com/my-europe/2026/09/20/newsletter-carney-is-right-on-eu-associate-membership-the-name-is-irrelevant-the-politics-",
+          "timestamp": 1789898765000,
+          "postedAt": 1789903846996
+        },
+        {
+          "headline": "Macron, Carney To Meet In French Atlantic Archipelago In Signal To Trump",
+          "url": "https://www.reuters.com/world/americas/macron-carney-meet-french-atlantic-archipelago-signal-trump-2026-09-20/",
+          "timestamp": 1789876980000,
+          "postedAt": 1789903846996
+        }
+      ]
+    },
+    {
+      "title": "NATO: GERMAN GENERAL TAKES TOP MILITARY POST",
+      "stories": [
+        {
+          "headline": "German General Breuer Elected To Head Top NATO Military Body",
+          "url": "https://www.reuters.com/business/aerospace-defense/german-general-breuer-elected-head-top-nato-military-body-2026-09-19/",
+          "timestamp": 1789832023000,
+          "postedAt": 1789838990485
+        },
+        {
+          "headline": "NATO 'Ready' For Potential Russian False-Flag Attack, Top General Says",
+          "url": "https://www.politico.eu/article/nato-ready-russia-false-flag-attack-giuseppe-cavo-dragone/",
+          "timestamp": 1789828374000,
+          "postedAt": 1789838990485
+        }
+      ]
+    },
+    {
+      "title": "ISRAEL AND GAZA",
+      "stories": [
+        {
+          "headline": "Israeli Strikes Kill Three In Gaza, Medics Say",
+          "url": "https://www.reuters.com/world/middle-east/israeli-strikes-kill-three-people-gaza-medics-say-2026-09-19/",
+          "timestamp": 1789829222000,
+          "postedAt": 1789838990485
+        },
+        {
+          "headline": "Inside The Breakdown Of UK-Israel Relations Over West Bank Settlements",
+          "url": "https://www.inss.org.il/publication/survey-palestinians-2026/",
+          "timestamp": 1789818251000,
+          "postedAt": 1789838990485
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "GERMANY'S MERZ CLINGS ON AFTER 'DISASTER' STATE ELECTION LOSS",
+        "url": "https://www.reuters.com/world/merz-clings-after-german-election-disaster-2026-09-21/",
+        "timestamp": 1789989927033,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "Macron Pushes For Energy Truce Between Ukraine And Russia",
+        "url": "https://www.politico.eu/article/emmanuel-macron-pushes-for-energy-truce-between-ukraine-and-russia/",
+        "timestamp": 1790076010000,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "Hong Kong Animal Groups Call For Tighter Pet Laws After Fatal Mauling",
+        "url": "https://www.scmp.com/news/hong-kong/society/article/3368298/hong-kong-animal-groups-call-tighter-pet-laws-after-suspected-fatal-mauling",
+        "timestamp": 1790072697000,
+        "photo": true,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "Two North Korea Asian Games Members Seek Asylum In Japan",
+        "url": "https://www.straitstimes.com/sport/two-north-korea-members-of-asian-games-seek-asylum-in-japan-report-says",
+        "timestamp": 1790070240000,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "Four Dead As Typhoon Dujuan Lashes Tokyo",
+        "url": "https://www.bbc.com/news/articles/cm3wj2lexl97o",
+        "timestamp": 1790056715000,
+        "photo": true,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "Nigeria Detention Deaths: 'One After Another, They Started Dying'",
+        "url": "https://www.reuters.com/world/africa/one-after-another-they-started-dying-survivors-recount-deaths-detention-nigeria-2026-09-22/",
+        "timestamp": 1790053500000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "Indonesia's Fire Haze Takes 'Visceral' Toll On Millions",
+        "url": "https://www.theguardian.com/world/2026/sep/21/indonesia-borneo-sumatra-fires-smoke-toxic-air",
+        "timestamp": 1789984560000,
+        "photo": true,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "How Being A Tax Haven Has Transformed Jersey",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/21/its-unrecognisable-how-being-a-tax-haven-has-changed-jersey",
+        "timestamp": 1789984440000,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "Canada: Police Officer Shot Outside Ontario Synagogue On Yom Kippur",
+        "url": "https://abcnews.com/International/police-officer-shot-synagogue-yom-kippur-ontario-officials/story?id",
+        "timestamp": 1789971761000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "Powerful Explosions Rock Syrian Army Site Near Aleppo",
+        "url": "https://www.aljazeera.com/news/2026/9/21/powerful-explosions-at-syrian-army-site-near-aleppo-injures-at-least-four",
+        "timestamp": 1789965160000,
+        "photo": true,
+        "postedAt": 1789989927033,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Zelenskyy Offers To Meet Putin At G20 In Miami",
+        "url": "https://www.dw.com/en/dw-exclusive-zelenskyy-offers-to-meet-putin-at-g20-in-miami/a-79241703?maca",
+        "timestamp": 1789893680000,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Caribbean States Take 'Racial Discrimination' Slavery Lawsuit Against UK To UN",
+        "url": "https://www.breitbart.com/europe/2026/09/20/caribbean-states-look-to-u-n-with-racial-discrimination-slavery-lawsuit-against-uk/",
+        "timestamp": 1789900838000,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Argentina's Milei Reignites Dispute Over Falkland Islands",
+        "url": "https://www.dw.com/en/argentina-milei-reignites-dispute-over-falkland-islands/a-78896474?maca",
+        "timestamp": 1789897428000,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Earl Spencer Accused Of Peddling Diana's Privacy, Say King's Allies",
+        "url": "https://ozarab.media/earl-spencer-claims-dominate-sunday-front-pages/",
+        "timestamp": 1789883362000,
+        "photo": true,
+        "postedAt": 1789903846996,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "World Leaders Return To UN Amid Wars In Middle East And Ukraine",
+        "url": "https://www.reuters.com/world/china/world-leaders-return-un-amid-wars-middle-east-ukraine-2026-09-20/",
+        "timestamp": 1789880700000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Le Pen's National Rally Rebukes Russia In Rare Move",
+        "url": "https://www.politico.eu/article/france-national-rally-russia-rebuke/",
+        "timestamp": 1789834649000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Far-Left Protesters Attacked Restore Britain Campaigners, Rupert Lowe Claims",
+        "url": "https://www.breitbart.com/europe/2026/09/19/far-left-protesters-attacked-restore-britain-leafleting-campaigners-claims-rupert-lowe/",
+        "timestamp": 1789837072000,
+        "photo": true,
+        "postedAt": 1789838990485,
+        "image": "/img/world-5.jpg"
+      },
+      {
+        "headline": "Cuba Works To Restore Power After Another Blackout",
+        "url": "https://www.afp.com/en/cuba-works-restore-power-after-another-blackout",
+        "timestamp": 1789835779000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Warren Buffett Steps Down As Berkshire Hathaway Chairman",
+        "url": "https://www.npr.org/2026/09/18/nx-s1-5973852/warren-buffett-steps-down",
+        "timestamp": 1789829880000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Princess Diana's Brother Blames Lack Of Care For Prince Harry's Post-Funeral 'Spin Out'",
+        "url": "https://pagesix.com/2026/09/19/royal-family/princess-dianas-brother-claims-lack-of-care-for-prince-harry-after-moms-funeral-caused-him-to-spin-out-of-control/",
+        "timestamp": 1789828620000,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Congress Must Save The Navy From 'Catastrophic Failure,' Analysis Warns",
+        "url": "https://www.realcleardefense.com/articles/2026/09/19/congress_must_save_the_navy_from_catastrophic_failure_barreling_toward_a_hollow_navy_1207043.html",
+        "timestamp": 1789817214000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "UN Condemns 'Shocking Pattern' Of Sexual Violence By Russia In Ukraine",
+        "url": "https://www.euronews.com/2026/09/19/un-condemns-shocking-pattern-of-sexual-violence-by-russian-troops-in-ukraine",
+        "timestamp": 1789821181000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Saudi Arabia Ran Tests Before Resuming East-West Oil Pipeline",
+        "url": "https://www.usnews.com/news/world/articles/2026-09-22/saudi-arabia-restarts-east-west-oil-pipeline-to-resume-exports-from-yanbu-sources-say",
+        "timestamp": 1790072482000,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "In Cosmopolitan Berlin, Elections Remain Closed To Foreigners",
+        "url": "https://www.dw.com/en/in-cosmopolitan-berlin-elections-still-closed-to-foreigners/a-78744579",
+        "timestamp": 1789900938000,
+        "postedAt": 1789903846996
+      }
+    ],
+    "center": [
+      {
+        "headline": "Angel One Tycoon Buys Mumbai Tower For $74 Million",
+        "url": "https://streamlinefeed.co.ke/news/angel-one-founder-buys-mumbai-tower-in-record-deal",
+        "timestamp": 1790073929000,
+        "photo": true,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "Australia Confirms F-35 Fighter Jet Parts Mistakenly Diverted To Hong Kong",
+        "url": "https://www.cnn.com/2026/09/22/australia/australia-us-f-35-fighter-jet-parts-missing-intl-hnk",
+        "timestamp": 1790072551000,
+        "photo": true,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "Turkey Student Arrested After 11 Injured In Shotgun Shooting",
+        "url": "https://www.scmp.com/news/world/article/3368398/turkey-student-arrested-after-11-injured-shotgun-shooting",
+        "timestamp": 1790072331000,
+        "photo": true,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "EU Strikes Philippines Trade Deal In Push To Diversify",
+        "url": "https://www.euronews.com/my-europe/2026/09/22/eu-seals-philippines-trade-deal-in-push-to-diversify-away-from-china-and-us",
+        "timestamp": 1790070852000,
+        "postedAt": 1790076636840,
+        "image": "/img/world-7.jpg"
+      },
+      {
+        "headline": "Argentine Judge Charges 7 Iranians Over 1994 AMIA Bombing",
+        "url": "https://www.timesofisrael.com/argentine-judge-charges-7-iranians-1-lebanese-over-1994-amia-jewish-center-bombing/",
+        "timestamp": 1790070129000,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "'Planetary Boundaries' Necessary For Life Breached, Scientists Warn",
+        "url": "https://www.euronews.com/2026/09/22/pressure-is-rising-weve-already-breached-7-out-of-9-planetary-boundaries-can-we-change-cou",
+        "timestamp": 1790046056000,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "China And Europe Should Not Fight Trade Wars, Chinese Foreign Minister Says",
+        "url": "https://www.reuters.com/world/china/china-europe-should-not-fight-trade-wars-chinese-foreign-minister-says-2026-09-21/",
+        "timestamp": 1790034180000,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "India's Medal Tally Climbs To Six At Asian Games",
+        "url": "https://www.dw.com/en/india-news-indias-medal-tally-at-asian-games-rises-to-six/live-79349941",
+        "timestamp": 1789987879000,
+        "photo": true,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "New Air Traffic Control Failure Delays Flights At UK Airports",
+        "url": "https://www.reuters.com/world/uk/delays-uks-manchester-airport-over-air-traffic-control-failure-telegraph-reports-2026-09-21/",
+        "timestamp": 1789987784000,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "EU Nears Deal To Resolve Dispute Over Delisting Russian Oligarch Usmanov",
+        "url": "https://www.euronews.com/my-europe/2026/09/21/eu-nears-deal-to-break-impasse-over-french-request-to-remove-usmanov-from-sanctions",
+        "timestamp": 1789986469000,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "Irish Regulator Fines Google €403 Million Over Location Data",
+        "url": "https://www.reuters.com/business/media-telecom/irish-regulator-fines-google-403-million-over-location-data-processing-2026-09-21/",
+        "timestamp": 1789984760000,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "World Leaders Convene At UN Amid War, AI And Climate Strains",
+        "url": "https://apnews.com/article/un-assembly-leaders-ai-trump-netanyahu-climate-c4727651b9030d6e7f81c0457a33440b",
+        "timestamp": 1789963380000,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "Saudi Arabia Says Houthis Tried To Attack Its Capital",
+        "url": "https://www.npr.org/2026/09/19/nx-s1-5974980/saudi-arabia-houthis-attempted-attack-capital",
+        "timestamp": 1789876643000,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "AI Bubble Collapse May Be Bigger Threat Than Slowdown, Analysts Warn",
+        "url": "https://www.theguardian.com/business/2026/sep/20/ai-slowdown-calls-collapse-of-bubble-datacentre-tech-firms",
+        "timestamp": 1789901520000,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "North Korea Launches Suspected Ballistic Missile Into East Sea",
+        "url": "https://www.euronews.com/2026/09/20/north-korea-launches-suspected-ballistic-missile-into-east-sea",
+        "timestamp": 1789901182000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1789903846996,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Indonesia Rescue Team Recovers Another Victim From Capsized Ship",
+        "url": "https://www.reuters.com/world/asia-pacific/indonesias-rescue-agency-recovers-more-victims-capsized-ship-authorities-say-2026-09-20/",
+        "timestamp": 1789895100000,
+        "photo": true,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Congo Launches Ebola Vaccination Campaign For Frontline Workers",
+        "url": "https://www.africanews.com/amp/2026/09/20/congo-launches-ebola-vaccination-campaign-for-frontline-workers/",
+        "timestamp": 1789894634000,
+        "photo": true,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "South Africans Run And Mourn After Nine Women Killed",
+        "url": "https://www.reuters.com/world/africa/after-deaths-nine-women-south-africans-gather-run-mourn-demand-change-2026-09-19/",
+        "timestamp": 1789838267000,
+        "photo": true,
+        "postedAt": 1789842039453
+      },
+      {
+        "headline": "Prosecutors: Pilots Were Drunk When They Crashed Private Jet In Libya",
+        "url": "https://www.breitbart.com/africa/2026/09/19/prosecutors-pilots-were-drunk-when-they-crashed-a-private-jet-in-libya/",
+        "timestamp": 1789837418000,
+        "photo": true,
+        "postedAt": 1789838990485,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "Liberland: Where Micronation Utopia Meets Reality",
+        "url": "https://www.dw.com/en/between-utopia-and-reality-liberland-seeks-citizens/video-79339673",
+        "timestamp": 1789833144000,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Congolese Cyclist Dies In Crash During 'Pedals For Peace' Journey",
+        "url": "https://www.rfi.fr/en/africa/20260919-congolese-cyclist-masaisai-dies-in-crash-during-pedals-for-peace-journey",
+        "timestamp": 1789831186000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Methanol-Tainted Drink Kills 48, Blinds Some In Nigeria",
+        "url": "https://www.scmp.com/news/world/africa/article/3368125/methanol-tainted-nigeria-drink-kills-48-182-made-ill-government",
+        "timestamp": 1789827841000,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "From Refugee Child To Berlin Mayor? Meet Elif Eralp",
+        "url": "https://www.dw.com/en/elif-eralp-from-refugee-child-to-berlin-mayor/video-79319887",
+        "timestamp": 1789827001000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Greenland, Denmark Say Trump Deal Won't Compromise Sovereignty",
+        "url": "https://www.reuters.com/world/europe/greenland-denmark-say-us-deal-will-not-cede-sovereignty-2026-09-19/",
+        "timestamp": 1789832857000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Russia Reports Cyberattacks On Electoral System As Occupied-Territory Vote Continues",
+        "url": "https://www.reuters.com/world/europe/russia-reports-online-attacks-electoral-system-second-day-parliamentary-vote-2026-09-19/",
+        "timestamp": 1789817428000,
+        "postedAt": 1789838990485
+      }
+    ],
+    "right": [
+      {
+        "headline": "Despite Wealth And Weapons, Saudis Fumbling Against Houthis",
+        "url": "https://www.timesofisrael.com/despite-wealth-and-advanced-weapons-saudis-fumbling-in-fight-against-houthis/",
+        "timestamp": 1790063868000,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "UK Seeks To Broker Global AI Agreement At G20",
+        "url": "https://www.politico.eu/article/uk-seeks-to-broker-global-ai-agreement-at-g20/",
+        "timestamp": 1790072700000,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "From Smart Glasses To AI Pins, Privacy Fears Challenge Tech's Next Big Bet",
+        "url": "https://www.reuters.com/business/media-telecom/smart-glasses-ai-pins-privacy-fears-challenge-techs-next-big-bet-2026-09-22/",
+        "timestamp": 1790072530000,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "Germany Says Costa Losing Touch 'With Reality' On EU Budget",
+        "url": "https://www.politico.eu/article/germany-antonio-costa-eu-budget/",
+        "timestamp": 1790072410000,
+        "photo": true,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "UK Borrowing Jumps As Debt Costs Eat Into Healey's Headroom",
+        "url": "https://www.radionewshub.com/articles/business/Government-borrowing-hits-second-highest-August-on-record-in-setback-for-Healey",
+        "timestamp": 1790071140000,
+        "photo": true,
+        "postedAt": 1790076636840,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "The Syrian Trap: Why Israel Must Block Turkish A2/AD Umbrella",
+        "url": "https://blogs.timesofisrael.com/the-syrian-trap-why-israel-must-block-a-turkish-a2-ad-umbrella/",
+        "timestamp": 1790070900000,
+        "postedAt": 1790076636840
+      },
+      {
+        "headline": "Former Shenzhen Mayor Qin Weizhong Placed Under Graft Probe",
+        "url": "https://www.scmp.com/news/china/politics/article/3368269/former-shenzhen-mayor-qin-weizhong-under-graft-probe-chinas-discipline-body",
+        "timestamp": 1789987293000,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "SoftBank Launches $11 Billion Bond Sale To Fund OpenAI Investment",
+        "url": "https://www.reuters.com/business/media-telecom/softbank-group-launches-over-10-billion-bonds-openai-investment-term-sheet-shows-2026-09-21/",
+        "timestamp": 1789986483000,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "Singapore Holds First Money-Laundering Asset Auction, Nets $862,000",
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3368197/singapore-nets-us862000-first-auction-money-laundering-case",
+        "timestamp": 1789984786000,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "THICK SMOKE, AIR RAID ALERTS RATTLE SAUDI CAPITAL RIYADH",
+        "url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport",
+        "timestamp": 1789838990485,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Uganda Suspends Military Ties With Turkey Over Dissident's Extradition",
+        "url": "https://www.rfi.fr/en/africa/20260920-uganda-suspends-military-ties-with-turkey-over-extradition-of-museveni-critic-lumbuye",
+        "timestamp": 1789900142000,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Afghan Athlete Hashimi: From Dressing As A Man To Competing With The Elite",
+        "url": "https://www.reuters.com/sports/dressing-man-competing-with-elite-no-backpedalling-afghan-hashimi-2026-09-20/",
+        "timestamp": 1789899745000,
+        "photo": true,
+        "postedAt": 1789903846996
+      },
+      {
+        "headline": "Thousands Protest Climate Inaction In Switzerland",
+        "url": "https://www.afp.com/en/thousands-protest-inaction-over-climate-crisis-switzerland",
+        "timestamp": 1789840951000,
+        "photo": true,
+        "postedAt": 1789842039453
+      },
+      {
+        "headline": "Chinese Robots Dance Their Way To 'America's Got Talent' Finale",
+        "url": "https://www.afp.com/en/chinese-robots-dance-their-way-americas-got-talent-finale",
+        "timestamp": 1789835779000,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "China's Delivery Drivers Get €20 Uniform Winning Top French Design Award",
+        "url": "https://www.scmp.com/economy/china-economy/article/3368121/first-top-european-design-prize-awarded-eu20-uniform-chinas-delivery-drivers",
+        "timestamp": 1789831192000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Ancient Nazi U-Boat Off Norway Feared To Be Ticking 'Mercury Bomb'",
+        "url": "https://www.euronews.com/my-europe/2026/09/19/a-ticking-mercury-bomb-ancient-nazi-u-boat-lies-off-norway",
+        "timestamp": 1789830948000,
+        "photo": true,
+        "postedAt": 1789838990485,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "Holocaust Survivor Calls AfD's Saxony-Anhalt Win 'Very Dangerous'",
+        "url": "https://amp.dw.com/en/holocaust-survivor-on-very-dangerous-afd-saxony-anhalt-win/video-79336668",
+        "timestamp": 1789830290000,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Oktoberfest 2026 Opens With Lederhosen And First Keg Tapped",
+        "url": "https://www.theguardian.com/culture/gallery/2026/sep/19/oktoberfest-2026-day-one-munich-beer-in-pictures",
+        "timestamp": 1789822140000,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Perth Shark Attack: Rare Kill Order Issued, Victim Identified As Greg O'Neill",
+        "url": "https://www.bbc.com/news/articles/cqwyzdnk442lo",
+        "timestamp": 1789818622000,
+        "photo": true,
+        "postedAt": 1789838990485
+      },
+      {
+        "headline": "Putin's Party Dominates In Russia's 'Sham' Elections",
+        "url": "https://www.politico.eu/article/vladimir-putin-ruling-party-secures-majority-russian-parliamentary-elections/",
+        "timestamp": 1789986210000,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "German Auto Workers Protest As VW Profit Warning Rocks Sector",
+        "url": "https://www.reuters.com/business/volkswagen-porsche-shares-extend-losses-following-profit-warning-2026-09-21/",
+        "timestamp": 1789984073000,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "Volkswagen Drops Out Of Euro Stoxx 50 As Pressure Mounts",
+        "url": "https://www.euronews.com/business/2026/09/21/volkswagen-exits-euro-stoxx-50-as-index-removal-adds-to-pressure-on-troubled-firm",
+        "timestamp": 1789984007000,
+        "postedAt": 1789989927033
+      },
+      {
+        "headline": "Myanmar Win First Asian Games Teqball Gold As Puyol Watches",
+        "url": "https://www.straitstimes.com/sport/myanmar-win-first-asian-games-teqball-gold-as-spain-great-carles-puyol-watches",
+        "timestamp": 1789895340000,
+        "postedAt": 1789903846996
+      }
+    ]
+  }
+}
