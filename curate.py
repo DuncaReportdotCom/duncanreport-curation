@@ -3501,19 +3501,18 @@ def ensure_hero_image(section, data):
             hero["img"] = True
             print("    hero image saved for %s (related coverage)" % section)
             return
-    # Final escalation: a unique magazine feature or essay (common on Life & Culture) is written
-    # in language no wire story shares, so the phrase searches above find nothing. Fall back to a
-    # broad search on the headline's strongest SINGLE terms, one at a time - e.g. 'blackout' -
-    # which reliably yields a clean, topical news photo. A relevant illustrative image beats the
-    # grey placeholder for a feature lead.
-    for term in _headline_terms(hl)[:4]:
-        if term in tried:
-            continue
-        tried.add(term)
-        related = _related_links(term)
+    # Final escalation: a unique feature/essay (common on Life & Culture) may share no phrase with
+    # wire coverage. Try ONE more query from the two STRONGEST headline terms TOGETHER (e.g.
+    # "mammoth bones") - still on-topic. We deliberately do NOT search single generic terms one at a
+    # time anymore: that pulled a COMPLETELY off-topic image (a soccer photo onto a science lead).
+    # If nothing matches, the clean branded placeholder shows - a wrong image is worse than none.
+    strong = _sig_query(hl, 2)
+    if strong and strong not in tried:
+        tried.add(strong)
+        related = _related_links(strong)
         if related and _try_hero_images(related, dest):
             hero["img"] = True
-            print("    hero image saved for %s (topical term '%s')" % (section, term))
+            print("    hero image saved for %s (topical '%s')" % (section, strong))
             return
     hero["img"] = False       # no clean photo -> front end shows the branded placeholder cleanly
     try:
@@ -4721,7 +4720,8 @@ MANUAL_PICKS_PATH = os.path.join(ROOT, "manual_picks.json")
 
 def _load_manual_picks():
     """Load hand-placed picks from manual_picks.json (per-section lists of
-    {headline, url, added, [photo], [hero], [feature], [sublinks]}). Validated and fail-safe."""
+    {headline, url, added, [photo], [hero], [feature], [sublinks], [image]}). An `image` is a direct
+    image-URL override for the hero photo (used when a story matches the current hero). Fail-safe."""
     try:
         with open(MANUAL_PICKS_PATH, encoding="utf-8") as f:
             raw = json.load(f)
@@ -4756,6 +4756,9 @@ def _load_manual_picks():
                 print("  manual_picks: skipping entry missing url/headline in %s" % sec)
                 continue
             entry = {"headline": headline, "url": url, "added": (p.get("added") or today)}
+            _img = (p.get("image") or "").strip()
+            if _img:                                  # optional hero-image override (direct image URL)
+                entry["image"] = _img
             for k in ("hero", "photo", "feature"):
                 if p.get(k):
                     entry[k] = True
@@ -4804,6 +4807,16 @@ def apply_manual_picks(section, data):
         url = p.get("url")
         if not url or now - added >= THREE_DAYS_MS:
             continue
+        if p.get("image") and not p.get("hero"):
+            # IMAGE OVERRIDE (no re-pinning): if this pick carries a direct image URL and its story
+            # is the CURRENT hero, swap in that photo. Fixes a wrong/mismatched hero image without
+            # forcing the lead; if that story isn't the hero (it rolled over), it harmlessly no-ops.
+            _h = data.get("hero") or {}
+            if _h.get("url") == url:
+                _h["image"] = p["image"]
+                data["hero"] = _h
+                print("    manual hero-image override applied for %s" % section)
+            continue
         if p.get("hero"):
             # A hero pick leads ONLY on the day it was added - never a permanent pin. After that day
             # curation owns the hero again, so the lead rotates normally.
@@ -4819,8 +4832,13 @@ def apply_manual_picks(section, data):
                 if st:
                     regrouped.append({**g, "stories": st})
             data["groups"] = regrouped
+            _prev = data.get("hero") or {}
             data["hero"] = {"headline": p["headline"], "url": url,
                             "sublinks": [dict(sl) for sl in (p.get("sublinks") or [])]}
+            if p.get("image"):
+                data["hero"]["image"] = p["image"]                   # honor an image override on a hero pick
+            if _prev.get("url") == url and _prev.get("postedAt"):
+                data["hero"]["postedAt"] = _prev["postedAt"]         # same lead: keep its age clock
             data["heroSetDate"] = datetime.date.today().isoformat()  # lock it in for the day
             continue
         cols = data.setdefault("columns", {})
