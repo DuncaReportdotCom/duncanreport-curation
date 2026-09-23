@@ -1,0 +1,562 @@
+{
+  "lastUpdated": 1790163345035,
+  "heroSetDate": "2026-09-23",
+  "hero": {
+    "headline": "STOCKS MIXED AS NASDAQ NOTCHES FRESH RECORD AHEAD OF TRUMP-XI SUMMIT",
+    "url": "https://www.cnbc.com/2026/09/22/stock-market-today-live-updates.html",
+    "sublinks": [
+      {
+        "text": "Rate Jitters And Softer Oil Prices Keep Futures In Check",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081532735.html"
+      },
+      {
+        "text": "History Says This Warning Sign Has Only Flashed Once Before In 145 Years",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-warning-flashing-red-103000411.html"
+      },
+      {
+        "text": "Oil Prices Swing As Markets Weigh Trump's UN Speech, Saudi Pipeline Fix",
+        "url": "https://www.nbcnews.com/business/business-news/oil-prices-fall-saudi-pipeline-iran-hormuz-trump-talks-rcna599166"
+      },
+      {
+        "text": "Dow Futures Edge Higher As U.S.-Iran Talks Continue",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-23-2026"
+      }
+    ],
+    "liveUpdates": [
+      {
+        "source": "Stock market",
+        "url": "https://www.livemint.com/market/stock-market-news/us-stock-market-live-updates-dow-jones-trades-flat-xi-jinping-us-visit-us-iran-news-in-focus-11790159539990.html"
+      }
+    ],
+    "postedAt": 1790163345035,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "CHIP STOCKS RIDE THE AI WAVE: MICRON, NVIDIA IN FOCUS",
+      "stories": [
+        {
+          "headline": "Micron Stock Is Up Over 260%. Where It May Be Heading Next",
+          "url": "https://www.forbes.com/sites/investor-hub/article/micron-technology-stock-up-over-260-where-is-it-heading-next/",
+          "timestamp": 1790159400000,
+          "postedAt": 1790163345035
+        },
+        {
+          "headline": "Two Undervalued Semiconductor Stocks To Watch Amid AI Growth Skepticism",
+          "url": "https://global.morningstar.com/en-nd/stocks/2-undervalued-semiconductor-stocks-watch-while-market-is-skeptical-ai-growth",
+          "timestamp": 1790143580000,
+          "postedAt": 1790163345035
+        },
+        {
+          "headline": "Micron Surges Past Early Buy Point With Earnings Ahead",
+          "url": "https://www.fxleaders.com/news/2026/09/22/micron-q4-earnings-preview-can-memory-demand-sustain-the-mu-stock-rally-as-profit-expectations-surge/",
+          "timestamp": 1790108460000,
+          "postedAt": 1790163345035
+        }
+      ]
+    },
+    {
+      "title": "NOVO NORDISK'S TURNAROUND STRUGGLES",
+      "stories": [
+        {
+          "headline": "Novo Nordisk Plunges As Investor Day Fails To Reassure Wall Street",
+          "url": "https://www.zerohedge.com/markets/investor-day-bust-novo-nordisk-plunges-wall-streets-turnaround-hopes-fade",
+          "timestamp": 1789988100000,
+          "postedAt": 1789990372319
+        },
+        {
+          "headline": "Novo Faces Calls To Chart Path Beyond Weight-Loss Drugs",
+          "url": "https://www.reuters.com/legal/litigation/wegovy-maker-novo-faces-calls-map-out-strategy-beyond-weight-loss-drugs-2026-09-21/",
+          "timestamp": 1789966920000,
+          "postedAt": 1789990372319
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Hackers Say They Breached FBI, Stole Data On Bureau Employees",
+        "url": "https://nypost.com/2026/09/22/tech/shinyhunters-hackers-say-they-breached-fbi-stole-data-on-bureau-employees/",
+        "timestamp": 1790113560000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Bitcoin's Latest Move Echoes A Rare Pattern Last Seen In 2012",
+        "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-on-a-streak-it-hasn-t-hit-since-2012",
+        "timestamp": 1790151045000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Big Tech's Cash Flow Seen Tripling To $2 Trillion As AI Bets Grow",
+        "url": "https://finance.yahoo.com/markets/article/the-future-of-ai-growth-rests-on-big-techs-cash-flow-tripling-to-2-trillion-chart-of-the-day-100000169.html",
+        "timestamp": 1790158165000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Euro-Zone Business Activity Hits Three-Year High On Services",
+        "url": "https://www.globalbankingandfinance.com/euro-zone-business-activity-posts-surprise-upturn-september/",
+        "timestamp": 1790153323000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Chinese Car Brands Hit Record European Market Share On Hybrid Sales",
+        "url": "https://ca.finance.yahoo.com/news/chinese-car-brands-hit-record-040000142.html",
+        "timestamp": 1790152155000,
+        "photo": true,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Nvidia-Backed AI Startup Seeks $10 Billion Ahead Of Australian IPO",
+        "url": "https://theedgemalaysia.com/node/819066",
+        "timestamp": 1790149572000,
+        "feature": true,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Microsoft To Give DARPA Hands-On Access To Quantum System In Maryland",
+        "url": "https://www.reuters.com/business/microsoft-give-darpa-hands-on-access-to-quantum-system-new-maryland-site-2026-09-22/",
+        "timestamp": 1790107665000,
+        "photo": true,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Nvidia Stock Flashes Warning Sign As Valuation Falls",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-flashing-warning-sign-092802277.html",
+        "timestamp": 1790069282000,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Satellite Maker Planet Labs Opens Berlin Factory As Military Demand Booms",
+        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45E0IM:0-us-satellite-maker-planet-labs-opens-berlin-factory-as-military-demand-booms-ft/",
+        "timestamp": 1790067601000,
+        "photo": true,
+        "postedAt": 1790077117306,
+        "image": "/img/markets-1.jpg"
+      },
+      {
+        "headline": "Alibaba Unveils AI Chip To Drive Global Data Center Buildout",
+        "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-add-data-centers-europe-015911428.html",
+        "timestamp": 1790063481000,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Bitcoin's Price Clears Hurdle That Has Preceded Past Bull Runs",
+        "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-s-price-has-cleared-a-key-hurdle-that-has-historically-preceded-major-bull-runs",
+        "timestamp": 1789962983000,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "SoftBank Seeks Over $11 Billion In Junk Bonds To Back OpenAI",
+        "url": "https://www.japantimes.co.jp/business/2026/09/21/companies/softbank-11-billion-junk-bonds-openai-bet/",
+        "timestamp": 1789984893000,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "Greenland-Exposed US Stocks Rally After Security Agreement",
+        "url": "https://www.marketwatch.com/story/u-s-listed-companies-exposed-to-greenland-receive-lift-following-security-agreement-11b44fc7?mod",
+        "timestamp": 1789987440000,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "How Safe Is It To Live Near A Data Center?",
+        "url": "https://www.forbes.com/sites/technology/article/are-data-centers-dangerous/",
+        "timestamp": 1789986600000,
+        "photo": true,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "Gold Steadies As Traders Weigh Inflation And Fed Outlook",
+        "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/gold-steadies-traders-weigh-inflation-and-fed-hike-outlook",
+        "timestamp": 1789986291000,
+        "photo": true,
+        "postedAt": 1789990372319,
+        "image": "/img/markets-3.jpg"
+      },
+      {
+        "headline": "Digital Euro Makes Debut In Wholesale Financial Markets",
+        "url": "https://glitchwire.com/news/ecb-launches-pontes-a-digital-euro-platform-for-banks-as-europe-races-to-counter/",
+        "timestamp": 1789984810000,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "Hunter Biden Meme Coin Loses 98% Of Value In One Hour",
+        "url": "https://www.fool.com/investing/2026/09/20/the-hunter-biden-meme-coin-lost-98-of-its-value-in/",
+        "timestamp": 1789898450000,
+        "postedAt": 1789904376040
+      },
+      {
+        "headline": "Gas Turbine Shortage Sends AI Developers Back To Boilers And Steam",
+        "url": "https://www.zerohedge.com/energy/gas-turbine-shortage-sends-ai-developers-back-boilers-and-steam",
+        "timestamp": 1789886761000,
+        "postedAt": 1789904376040
+      },
+      {
+        "headline": "Goldman Strategists Flag Bubble Concerns As Earnings Outpace Economy",
+        "url": "https://www.marketwatch.com/story/corporate-earnings-are-growing-much-faster-than-the-economy-what-goldman-strategists-say-about-bubble-concerns-1f625fb3",
+        "timestamp": 1789985580000,
+        "feature": true,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "Nuclear Renaissance Disconnect: Utilities Plan Big While Stocks Lag",
+        "url": "https://www.zerohedge.com/energy/nuclear-renaissance-disconnect-utilities-plan-big-while-stocks-lag",
+        "timestamp": 1790070300000,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "ECB's Lane Warns New Energy Shock Would Extend Inflation",
+        "url": "https://www.investing.com/news/stock-market-news/ecbs-lane-warns-of-higher-stickier-inflation-as-second-energy-wave-hits-93CH-4909873",
+        "timestamp": 1790068474000,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Korean Chip Stocks Gain As Meta's Muse AI Agent Spurs Enthusiasm",
+        "url": "https://www.cnbctv18.com/market/south-korean-chip-stocks-gain-as-metas-muse-ai-agent-spurs-enthusiasm-19995293.htm",
+        "timestamp": 1790069052000,
+        "postedAt": 1790077117306
+      }
+    ],
+    "center": [
+      {
+        "headline": "BITCOIN HITS 8-MONTH HIGH NEAR $86,000 BEFORE PARING GAINS",
+        "url": "https://www.marketwatch.com/story/bitcoin-hits-an-8-month-high-and-sends-a-clear-message-about-risk-appetite-right-now-edc7b9a5",
+        "timestamp": 1790077117306,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Worries About AI 'Internet Takeover' Gain New Urgency In Doomsday Scenarios",
+        "url": "https://apnews.com/article/ai-hugging-face-swarm-internet-takeover-amodei-0053ba1b6c8144b2927d2501be9eb919",
+        "timestamp": 1790136000000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "The Battle Between The Fed And Trump Intensifies",
+        "url": "https://www.trtworld.com/article/3cd098ea7d66",
+        "timestamp": 1790156770000,
+        "postedAt": 1790163345035,
+        "image": "/img/markets-7.jpg"
+      },
+      {
+        "headline": "SoftBank Starts Jumbo High-Yield Bond Sale To Finance AI Push",
+        "url": "https://www.moneycontrol.com/news/business/softbank-starts-jumbo-high-yield-bond-sale-to-finance-ai-push-14035974.html",
+        "timestamp": 1790155579000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Wall Street Says It's Time To Buy This Lagging Oil Giant",
+        "url": "https://www.marketwatch.com/story/this-oil-giant-has-lagged-its-leading-rivals-through-two-energy-crises-now-one-wall-street-giant-says-its-time-to-buy-987838c3",
+        "timestamp": 1790151840000,
+        "photo": true,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Chinese AI Firms Fall On Report Of DeepSeek, Moonshot Probe",
+        "url": "https://finance.yahoo.com/technology/ai/articles/chinese-ai-firms-fall-report-050044060.html",
+        "timestamp": 1790148644000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "BitNet Signals Potential End Of AI's GPU Dependency",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/22/why-bitnet-signals-the-end-of-gpu-dependency-in-ai/",
+        "timestamp": 1790073000000,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Paul Krugman Asks Whether Crypto Rally Could Upend Democrats' 'Blue Wave'",
+        "url": "https://paulkrugman.substack.com/p/will-crypto-crash-the-blue-wave",
+        "timestamp": 1790070367000,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Mining Titans Hire Rothschild To Advise On South Africa F1 Deal",
+        "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/mining-titans-hire-rothschild-to-advise-on-south-africa-f1-deal",
+        "timestamp": 1790069400000,
+        "photo": true,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Machine-Learning Model Predicts Next Move For 10-Year Treasury Yield",
+        "url": "https://www.marketwatch.com/story/what-this-machine-learning-model-with-65-accuracy-says-is-coming-next-for-the-10-year-treasury-55d76b8f",
+        "timestamp": 1790068980000,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Historic Bull-Bear Divide Signals Stock Market Slowdown",
+        "url": "https://www.investing.com/news/stock-market-news/ibm-stock-outlook-trading-at-a-discount-with-mixed-signals-ahead-of-october-earnings-93CH-4909452",
+        "timestamp": 1790067604000,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "LAWSUIT ACCUSES OPENAI, ANTHROPIC, XAI, GOOGLE OF ILLEGAL AI SLOWDOWN PACT",
+        "url": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
+        "timestamp": 1789904376040,
+        "postedAt": 1789904376040
+      },
+      {
+        "headline": "Mortgage Refinance Rates Climb Again",
+        "url": "https://www.forbes.com/advisor/mortgages/refinance/mortgage-refinance-rates-09-21-26/",
+        "timestamp": 1789984805000,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "Warsh Passes The Mic To Xi, But It's Still About Rates",
+        "url": "https://www.zerohedge.com/markets/warsh-passes-mic-xi-its-still-about-rates",
+        "timestamp": 1789989600000,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "VW Board Recommends 4,100 More Job Cuts At Porsche",
+        "url": "https://www.zerohedge.com/economics/vw-supervisory-board-recommends-another-4100-job-cuts-porsche",
+        "timestamp": 1789986600000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1789990372319,
+        "image": "/img/markets-2.jpg"
+      },
+      {
+        "headline": "Buffett's Farewell Letter Delivers Blunt Investment Advice",
+        "url": "https://www.fool.com/investing/2026/09/21/warren-buffett-just-released-a-farewell-letter-it/",
+        "timestamp": 1789983074000,
+        "photo": true,
+        "postedAt": 1789990372319,
+        "image": "/img/markets-5.jpg"
+      },
+      {
+        "headline": "House Prices Survived Last Rate Rise. Will They This Time?",
+        "url": "https://www.noradarealestate.com/blog/fixed-mortgage-rate-rises-by-69-basis-points-year-over-year/",
+        "timestamp": 1789895141000,
+        "postedAt": 1789904376040
+      },
+      {
+        "headline": "Could 2027 Social Security COLA Still Get Downgraded Before Oct. 14?",
+        "url": "https://www.fool.com/retirement/2026/09/20/could-the-2027-social-security-cola-still-get-a-do/",
+        "timestamp": 1789893190000,
+        "postedAt": 1789904376040
+      },
+      {
+        "headline": "Inside The 24 Hours That Exposed Tata's Brutal Power Struggle",
+        "url": "https://m.economictimes.com/news/company/corporate-trends/inside-the-24-hours-that-laid-bare-tatas-brutal-power-struggle/articleshow/134350035.cms",
+        "timestamp": 1789885080000,
+        "postedAt": 1789904376040
+      },
+      {
+        "headline": "Merz Fights For Survival After Record German Election Defeat",
+        "url": "https://www.dw.com/en/germany-elections-berlin-mecklenburg-vorpommern-mecklenburg-western-pomerania/live-79322092",
+        "timestamp": 1789987145000,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "CNN, MS NOW And Politico To Sue Jointly Over Access Ban",
+        "url": "https://abcnews.com/US/cnn-ms-now-politico-sue-trump-admin-white/story?id",
+        "timestamp": 1789986642000,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "Dollar General CEO: Even Upper-Middle Shoppers Acting Like Lower-Income Amid Fuel Crisis",
+        "url": "https://www.zerohedge.com/economics/dollar-general-ceo-warns-even-upper-middle-acting-lower-income-amid-fuel-crisis",
+        "timestamp": 1789891460000,
+        "postedAt": 1789904376040
+      }
+    ],
+    "right": [
+      {
+        "headline": "Trump Says He Backs Diesel Export Ban To Curb Soaring Energy Costs",
+        "url": "https://www.theguardian.com/us-news/2026/sep/22/trump-diesel-export-ban",
+        "timestamp": 1790133540000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Fed Warns Of Coming 'Reckoning' For Savings Account Holders",
+        "url": "https://finance.yahoo.com/economy/policy/articles/federal-delivers-warning-americans-savings-103500121.html",
+        "timestamp": 1790159700000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Walmart Recalls Popular Frozen Item Over Possible Listeria Risk",
+        "url": "https://www.foxbusiness.com/lifestyle/check-your-freezer-popular-walmart-item-recalled-over-possible-listeria-risk",
+        "timestamp": 1790122980000,
+        "photo": true,
+        "postedAt": 1790163345035,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "OpenAI Wants Elite Mathematicians' Help To Avoid Fumbling Again",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+        "timestamp": 1790122620000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "12 S&P 500 Stocks Now Worth $1 Trillion Or More",
+        "url": "https://www.technology.org/2026/09/22/amd-1-trillion-market-cap-ai-chip-rally/",
+        "timestamp": 1790076480000,
+        "feature": true,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Health Systems Turn To Midwife-Led Maternity Startups As Hospitals Cut Units",
+        "url": "https://www.forbes.com/sites/geristengel/2026/09/22/hospitals-are-outsourcing-the-maternity-care-they-keep-shutting-down/",
+        "timestamp": 1790074843000,
+        "photo": true,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Latest HELOC And Home Equity Loan Rates For September 22",
+        "url": "https://www.forbes.com/advisor/home-equity/current-home-equity-interest-rates-09-22-26",
+        "timestamp": 1790071264000,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Copper Rises For Sixth Day Toward Record On China Tightness",
+        "url": "https://ca.finance.yahoo.com/news/copper-rises-sixth-day-toward-035305152.html",
+        "timestamp": 1790065235000,
+        "photo": true,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Venezuela's Oil Revival Could Take A Decade Or Two To Reach Record Output",
+        "url": "https://www.zerohedge.com/energy/venezuelas-oil-revival-faces-decade-or-two-climb-back-record-output-piper-sandler-warns",
+        "timestamp": 1789983900000,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "Trump Presses Zelenskyy To Stop Hitting Russian Refineries",
+        "url": "https://english.alarabiya.net/News/world/2026/09/21/trump-presses-zelenskyy-to-stop-hitting-russian-refineries-report",
+        "timestamp": 1789986049000,
+        "photo": true,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "Artist Hacks CitiBike To Highlight NYC's Affordability Crisis",
+        "url": "https://www.yahoo.com/lifestyle/articles/artist-hacked-citibike-nycs-affordability-093101944.html",
+        "timestamp": 1789983086000,
+        "photo": true,
+        "postedAt": 1789990372319,
+        "image": "/img/markets-4.jpg"
+      },
+      {
+        "headline": "UK: Air Traffic Control Glitch Disrupts Flights Across Scotland",
+        "url": "https://www.bbc.com/news/articles/cmlylpgdwz56o",
+        "timestamp": 1789979844000,
+        "photo": true,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "Greg Abel Plowed $4.2 Billion Into Buffett's Favorite Stock — And It Wasn't Apple",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/greg-abel-recently-plowed-4-111000213.html",
+        "timestamp": 1789877460000,
+        "postedAt": 1789904376040
+      },
+      {
+        "headline": "US Miner Almonty Strikes Major Deal With Africa's Top Tungsten Producer",
+        "url": "https://www.zerohedge.com/markets/us-miner-almonty-strikes-major-deal-africas-largest-tungsten-producing-country",
+        "timestamp": 1789886318000,
+        "photo": true,
+        "postedAt": 1789904376040,
+        "image": "/img/markets-6.jpg"
+      },
+      {
+        "headline": "Robotaxis Are Coming For Important Jobs",
+        "url": "https://tradersunion.com/news/financial-news/show/3398179-robotaxis-threaten-immigrant-jobs-london/",
+        "timestamp": 1789886265000,
+        "photo": true,
+        "postedAt": 1789904376040
+      },
+      {
+        "headline": "Retail Sales Hit Record High As Consumer Sentiment Hits Record Low",
+        "url": "https://www.zerohedge.com/markets/us-retail-sales-rebound-strongly-august",
+        "timestamp": 1789884009000,
+        "postedAt": 1789904376040
+      },
+      {
+        "headline": "Major News Outlets To Sue Trump Administration Over White House Ban",
+        "url": "https://katiecouric.com/news/politics-and-policy/trump-press-ban-from-white-house-legality/",
+        "timestamp": 1789987818000,
+        "feature": true,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "Fear Is Gone From Markets, But The Risks Aren't",
+        "url": "https://www.zerohedge.com/the-market-ear/fear-gone-risks-arent",
+        "timestamp": 1789987157000,
+        "postedAt": 1789990372319
+      },
+      {
+        "headline": "Saudi Arabia Restarts East-West Pipeline, To Resume Exports From Yanbu",
+        "url": "https://www.reuters.com/business/energy/saudi-arabia-restarts-east-west-oil-pipeline-resume-exports-yanbu-sources-say-2026-09-22/",
+        "timestamp": 1790072266000,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Oil Prices Gain As Hopes Fade For US-Iran Talks",
+        "url": "https://www.aa.com.tr/en/energy/oil/oil-falls-more-than-2-as-us-iran-diplomacy-gains-momentum/59736",
+        "timestamp": 1790059020000,
+        "postedAt": 1790077117306
+      },
+      {
+        "headline": "Nasdaq, Dow And S&P 500 Little Changed As AI Trade Powers Market",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-22-nasdaq-dow-sp-500-080625961.html",
+        "timestamp": 1790067606000,
+        "postedAt": 1790077117306
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,764.64",
+      "change": "-0.06",
+      "changePct": "-0.00%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "51,863.69",
+      "change": "-185.11",
+      "changePct": "-0.36%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "27,244.28",
+      "change": "+122.18",
+      "changePct": "+0.45%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr",
+      "value": "4.97%",
+      "change": "+0.00",
+      "changePct": "+0.10%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$4,342.20",
+      "change": "-34.20",
+      "changePct": "-0.78%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil",
+      "value": "$90.42",
+      "change": "-0.10",
+      "changePct": "-0.11%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$85,495.65",
+      "change": "-699.63",
+      "changePct": "-0.81%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}
