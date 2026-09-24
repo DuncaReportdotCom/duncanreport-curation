@@ -440,10 +440,10 @@
       "league": "MLB",
       "home": "PIT",
       "away": "STL",
-      "state": "scheduled",
-      "note": "9/24 - 12:35 PM EDT",
-      "homeScore": null,
-      "awayScore": null
+      "state": "in",
+      "note": "Bot 1st",
+      "homeScore": "1",
+      "awayScore": "1"
     },
     {
       "league": "MLB",

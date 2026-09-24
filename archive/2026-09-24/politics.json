@@ -461,20 +461,21 @@
       "value": "39%/60%",
       "sub": "",
       "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
-      "asOf": "Sep 23, 2026"
+      "asOf": "Sep 24, 2026"
     },
     {
       "name": "Generic Congressional Vote",
-      "value": "Dem +6.4",
+      "value": "Dem +7.7",
       "sub": "",
       "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
-      "asOf": "Aug 27, 2026"
+      "asOf": "Sep 23, 2026"
     },
     {
       "name": "Right Direction",
-      "value": "30%/61%",
+      "value": "35%",
       "sub": "",
-      "url": "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating"
+      "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/right_direction_or_wrong_track",
+      "asOf": "Sep 17, 2026"
     }
   ],
   "balance": {
