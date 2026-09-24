@@ -3765,12 +3765,11 @@ RCP_GENERIC = "https://www.realclearpolling.com/polls/state-of-the-union/generic
 # Generic congressional ballot (Dem vs Rep) - RealClearPolitics average, cited to RCP and
 # refreshed live from Wikipedia's House-polling aggregators table. This dated snapshot is the
 # safety net when the live parse is unavailable.
-GENERIC_FALLBACK = {"name": "Generic Congressional Vote", "value": "Dem +6.4",
-                    "sub": "", "url": RCP_GENERIC, "asOf": "Aug 27, 2026"}
+GENERIC_FALLBACK = {"name": "Generic Congressional Vote", "value": "Dem +7.7",
+                    "sub": "", "url": RCP_GENERIC, "asOf": "Sep 23, 2026"}
 POLL_FALLBACK = [
-    {"name": "Trump Approval", "value": "39%/58%", "sub": "", "url": RCP_APPROVAL, "asOf": "Aug 7, 2026"},
+    {"name": "Trump Approval", "value": "39%/60%", "sub": "", "url": RCP_APPROVAL, "asOf": "Sep 23, 2026"},
     dict(GENERIC_FALLBACK),
-    {"name": "Right Direction", "value": "30%/61%", "sub": "", "url": BALLOTPEDIA_POLLS},
 ]
 
 # Backup approval source when the live Ballotpedia fetch is blocked (the CI runner case):
@@ -3852,13 +3851,10 @@ def _fmt_margin(margin):
     return ("%.1f" % margin).rstrip("0").rstrip(".")   # 7.0 -> "7", 6.5 -> "6.5"
 
 def _generic_ballot_item():
-    """Generic Congressional Vote strip item. PINNED to GENERIC_FALLBACK for now: Wikipedia's
-    aggregator row was lagging behind the real RCP average (showing 6.1 when RCP was 6.4), so we use
-    the hand-set value instead of the live pull. UPDATE `GENERIC_FALLBACK` (value + asOf) whenever RCP
-    moves. To re-enable the live Wikipedia fetch, restore the _wikipedia_generic_ballot() block below.
-    """
-    return dict(GENERIC_FALLBACK)
-    # --- live pull (disabled while Wikipedia lags; restore to re-enable) ---
+    """Generic Congressional Vote strip item. Pulls the RealClearPolitics generic-ballot average
+    LIVE from Wikipedia's 2026 House-elections aggregator table (it carries RCP's paired Dem/Rep
+    value with an as-of date, and is fetchable from any IP). Falls back to the dated GENERIC_FALLBACK
+    only if the live fetch/parse fails."""
     gb = _wikipedia_generic_ballot()
     if gb:
         leader, margin, date = gb
@@ -3870,21 +3866,107 @@ def _generic_ballot_item():
         return item
     return dict(GENERIC_FALLBACK)
 
+# Right Direction / Wrong Track. PRIMARY source is the RealClearPolitics "Direction of Country"
+# AGGREGATE (a neutral multi-pollster average, BOTH right-direction and wrong-track). RCP blocks
+# automated scraping of its interactive UI, but it SERVER-RENDERS the current average into the page
+# HTML ("Right Direction 33.7% Wrong Track 59.9%") and that page - and RCP's JSON feeds - are
+# reachable from a datacenter IP, so the runner can fetch it. FALLBACK is Rasmussen's public
+# right-direction figure. Neither is ever a frozen pin - the dated DIRECTION_FALLBACK shows only if
+# both live fetches fail.
+RCP_DIRECTION_PAGE = "https://www.realclearpolling.com/polls/state-of-the-union/direction-of-country"
+RASMUSSEN_DIRECTION = "https://www.rasmussenreports.com/public_content/politics/mood_of_america/right_direction_or_wrong_track"
+DIRECTION_FALLBACK = {"name": "Right Direction", "value": "34%/60%", "sub": "", "url": RCP_DIRECTION_PAGE, "asOf": "Sep 24, 2026"}
+
+def _rcp_direction():
+    """(right-direction %, wrong-track %) as integers from RCP's 'Direction of Country' average.
+    RCP server-renders the current aggregate into the page HTML, e.g. 'Right Direction 33.7% Wrong
+    Track 59.9%'. Datacenter-fetchable. Returns None on failure."""
+    raw = None
+    for i in range(3):
+        try:
+            blob = _fetch_bytes(RCP_DIRECTION_PAGE, ua=BROWSER_UA, timeout=25).decode("utf-8", "ignore")
+            if blob and len(blob) > 10000:
+                raw = blob
+                break
+        except Exception as e:
+            print("    rcp direction fetch try %d failed: %s" % (i + 1, str(e)[:70]))
+        time.sleep(1.5 * (i + 1))
+    if not raw:
+        return None
+    txt = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", raw)))
+    rd = re.search(r"Right Direction\s*(\d{1,2}(?:\.\d)?)\s*%", txt)
+    wt = re.search(r"Wrong Track\s*(\d{1,2}(?:\.\d)?)\s*%", txt)
+    if not (rd and wt):
+        return None
+    rdv, wtv = round(float(rd.group(1))), round(float(wt.group(1)))
+    if not (0 <= rdv <= 100 and 0 <= wtv <= 100):
+        return None
+    return (rdv, wtv)
+
+def _rasmussen_direction():
+    """(right-direction %, as-of date) from Rasmussen's public 'Right Direction or Wrong Track'
+    lead, e.g. 'Thirty-five percent (35%) ... right direction ... week ending September 17, 2026'.
+    Only the right-direction figure is public. Datacenter-fetchable. None on failure. FALLBACK
+    source when the RCP aggregate can't be fetched."""
+    raw = None
+    for i in range(3):
+        try:
+            blob = _fetch_bytes(RASMUSSEN_DIRECTION, ua=BROWSER_UA, timeout=25).decode("utf-8", "ignore")
+            if blob and len(blob) > 5000:
+                raw = blob
+                break
+        except Exception as e:
+            print("    rasmussen direction fetch try %d failed: %s" % (i + 1, str(e)[:70]))
+        time.sleep(1.5 * (i + 1))
+    if not raw:
+        return None
+    txt = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", raw)))
+    m = re.search(r"\((\d{1,2})%\)\s*of\s*(?:Likely\s*)?U\.S\.\s*Voters?\s*(?:think|say|believe)[^.]*?right direction",
+                  txt, re.I)
+    if not m:
+        return None
+    pct = int(m.group(1))
+    if not (0 <= pct <= 100):
+        return None
+    dm = re.search(r"week ending\s+([A-Z][a-z]+ \d{1,2},? 20\d\d)", txt, re.I)
+    return (pct, dm.group(1) if dm else "")
+
+def _direction_item():
+    """Right Direction strip item. PRIMARY: RCP 'Direction of Country' aggregate (both numbers,
+    live). FALLBACK: Rasmussen's public right-direction figure. Dated DIRECTION_FALLBACK only if
+    both live sources fail - never a frozen pin."""
+    rcp = _rcp_direction()
+    if rcp:
+        rdv, wtv = rcp
+        return {"name": "Right Direction", "value": "%d%%/%d%%" % (rdv, wtv), "sub": "", "url": RCP_DIRECTION_PAGE}
+    ras = _rasmussen_direction()
+    if ras:
+        pct, date = ras
+        item = {"name": "Right Direction", "value": "%d%%" % pct, "sub": "", "url": RASMUSSEN_DIRECTION}
+        if date:
+            item["asOf"] = _short_date(date)
+        return item
+    return dict(DIRECTION_FALLBACK)
+
 def _poll_backup(reason):
-    """Live Ballotpedia unreachable/unparseable: refresh the presidential-approval and the
-    generic-congressional-ballot numbers from Wikipedia (fetchable from any IP), and keep the
-    slow-moving Direction figure from the dated fallback."""
-    out = [dict(x) for x in POLL_FALLBACK]
+    """Live Ballotpedia unreachable/unparseable: refresh presidential-approval and the generic
+    congressional ballot from Wikipedia, and Right Direction from Rasmussen - all fetchable from a
+    datacenter IP - so the strip stays live even when Ballotpedia blocks the runner. Each figure
+    falls back to its dated value only if its OWN live fetch fails; nothing is ever a frozen pin."""
+    out = [dict(POLL_FALLBACK[0]), dict(POLL_FALLBACK[1])]   # approval + generic ballot only (both live via Wikipedia)
     wa = _wikipedia_trump_approval()
     if wa:
         appr, disappr, date = wa
         out[0] = {"name": "Trump Approval", "value": "%d%%/%d%%" % (round(float(appr)), round(float(disappr))),
                   "sub": "", "url": RCP_APPROVAL, "asOf": _short_date(date)}
-    out[1] = _generic_ballot_item()          # RCP generic ballot, live via Wikipedia or dated
+    out[1] = _generic_ballot_item()          # RCP generic ballot, live via Wikipedia
+    out.append(_direction_item())            # Right Direction, live via RCP (Rasmussen fallback)
     gb_live = out[1] != dict(GENERIC_FALLBACK)
-    live = ", ".join(x for x in (("approval" if wa else ""), ("generic ballot" if gb_live else "")) if x)
-    STATUS["_polls"] = ("RCP %s live via Wikipedia; rest fallback (%s)" % (live, reason) if live
-                        else "fallback (%s; Wikipedia backup also failed)" % reason)
+    dir_live = out[2] != dict(DIRECTION_FALLBACK)
+    live = ", ".join(x for x in (("approval" if wa else ""), ("generic ballot" if gb_live else ""),
+                                 ("direction" if dir_live else "")) if x)
+    STATUS["_polls"] = ("live via Wikipedia/Rasmussen: %s (%s)" % (live, reason) if live
+                        else "fallback (%s; live backups also failed)" % reason)
     return out
 
 def poll_averages():
@@ -3917,8 +3999,7 @@ def poll_averages():
     asof = dm.group(1) if dm else ""
     # Ballotpedia supplies presidential approval + direction-of-country; the generic
     # congressional ballot is NOT on this page and is fetched separately (RCP via Wikipedia).
-    specs = [("Trump Approval", "Presidential approval", "disapprove"),
-             ("Right Direction", "Direction of country", "wrong track")]
+    specs = [("Trump Approval", "Presidential approval", "disapprove")]
     out = []
     for label, metric, negword in specs:
         m = re.search(re.escape(metric) + r" \(average\):\s*Last 30 days\s*(\d{1,2})%\s*(\d{1,2})%", text)
@@ -3930,8 +4011,10 @@ def poll_averages():
         return _poll_backup("parse found 0")
     if asof:
         out[0]["asOf"] = asof
-    # Insert the generic congressional ballot between approval and direction.
+    # Strip order: approval (Ballotpedia) + generic ballot (RCP via Wikipedia) + Right Direction
+    # (Rasmussen, live). Direction always comes from Rasmussen so its format is consistent every run.
     out.insert(1, _generic_ballot_item())
+    out.append(_direction_item())
     STATUS["_polls"] = "%d fetched (live)" % len(out)
     return out
 
