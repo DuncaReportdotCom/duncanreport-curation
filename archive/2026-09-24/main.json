@@ -1,0 +1,474 @@
+{
+  "lastUpdated": 1790248560776,
+  "heroSetDate": "2026-09-24",
+  "hero": {
+    "headline": "COURT ORDERS TRUMP ADMINISTRATION TO RESTORE WHITE HOUSE PRESS ACCESS FOR CNN, POLITICO",
+    "url": "https://www.npr.org/2026/09/24/nx-s1-5979582/judge-order-trump-restore-access-white-house",
+    "sublinks": [
+      {
+        "text": "Analysis: Trump Bracing To Lose This Fight With The Press",
+        "url": "https://www.vox.com/today-explained-newsletter/503797/white-house-press-ban-hearing"
+      }
+    ],
+    "postedAt": 1790248560776,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "MIDEAST WAR: HOUTHIS ADVANCE AS TRUMP HALTS AIRSTRIKES",
+      "stories": [
+        {
+          "headline": "Houthis Move To Seize Strategic Terrain After Trump Calls Off Airstrikes",
+          "url": "https://www.theguardian.com/world/2026/sep/21/houthis-seize-strategic-terrain-yemen-trump-calls-off-airstrikes-last-minute",
+          "timestamp": 1790040600000,
+          "feature": true,
+          "postedAt": 1790075726670
+        },
+        {
+          "headline": "Two GOP Senate Candidates Break With Trump, Call For Swift End To Iran War",
+          "url": "https://www.reuters.com/world/us/two-republican-senate-candidates-call-swift-end-iran-war-diverging-trump-2026-09-21/",
+          "timestamp": 1790032980000,
+          "postedAt": 1790075726670
+        },
+        {
+          "headline": "Rival Poll Finds Trump Approval Crashing To 29% Weeks Before Election",
+          "url": "https://americanresearchgroup.com/economy/",
+          "timestamp": 1790075229859,
+          "postedAt": 1790075726670
+        },
+        {
+          "headline": "GOP Ramps Up Midterm Defense In Trump-Won States",
+          "url": "https://www.politico.com/news/2026/09/22/republicans-senate-house-map-midterm-fears-01086866",
+          "timestamp": 1790067600000,
+          "postedAt": 1790075726670
+        },
+        {
+          "headline": "Trump And Xi See Tensions Flare Over AI, Trade And Iran But Still Seek Stability",
+          "url": "https://apnews.com/article/trump-xi-summit-tensions-ai-competition-e560910c897fedb0448eda4cdbfdbaea",
+          "timestamp": 1790067720000,
+          "postedAt": 1790075726670
+        }
+      ]
+    },
+    {
+      "title": "ECONOMY ANXIETY DEEPENS AS RATES AND PRICES CLIMB",
+      "stories": [
+        {
+          "headline": "Treasury Rates Hit 19-Year High",
+          "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+          "timestamp": 1790247885230,
+          "postedAt": 1790248560776
+        },
+        {
+          "headline": "Bond Market Selloff Deepens, Traders Say",
+          "url": "https://www.msn.com/en-us/news/other/us-30-year-bond-yield-rises-to-highest-since-2004-as-selloff-deepens/ar-AA2cShBb",
+          "timestamp": 1790247885230,
+          "postedAt": 1790248560776
+        },
+        {
+          "headline": "Record Diesel Prices Threaten To Spoil Thanksgiving Travel",
+          "url": "https://www.marketwatch.com/story/record-breaking-diesel-prices-look-set-to-push-grocery-bills-even-higher-and-thanksgiving-is-getting-closer-178d3959",
+          "timestamp": 1790247885230,
+          "postedAt": 1790248560776
+        }
+      ]
+    },
+    {
+      "title": "MEDIA MERGER SHAKES UP CNN, HOLLYWOOD",
+      "stories": [
+        {
+          "headline": "CNN Newsroom Mood 'Like A Funeral' As Merger Advances",
+          "url": "https://variety.com/2026/tv/news/cnn-funeral-path-hazy-paramount-wins-warner-1236872113/",
+          "timestamp": 1790161544259,
+          "postedAt": 1790162104879
+        },
+        {
+          "headline": "David Ellison Emerges As Media's New Power Player",
+          "url": "https://www.nytimes.com/2026/09/22/business/media/david-ellison-hollywood-mega-mogul.html?unlocked_article_code=1.DFE.GhCR.Ib_CCYOawCs6&smid=url-share",
+          "timestamp": 1790161544259,
+          "postedAt": 1790162104879
+        },
+        {
+          "headline": "Kara Swisher Blasts Merger On Way Out: 'F— These Guys'",
+          "url": "https://www.mediaite.com/media/news/fck-these-guys-kara-swisher-says-shes-leaving-cnn-following-ellison-merger/",
+          "timestamp": 1790161544259,
+          "postedAt": 1790162104879
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "IRAN FLOATS TERMS FOR HORMUZ REOPENING AS TRUMP SAYS DEAL MAY WAIT UNTIL AFTER MIDTERMS",
+        "url": "https://www.cnbc.com/2026/09/23/us-iran-war-trump-hormuz.html",
+        "timestamp": 1790162104879,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "ICE Detained US Citizen, Left Him Injured In Chicago Suburb",
+        "url": "https://www.cnn.com/2026/09/24/us/ice-us-citizen-detained-evanston",
+        "timestamp": 1790240429000,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Paramount-Warner Bros. Reportedly Eyes Musk Investment",
+        "url": "https://www.semafor.com/article/09/23/2026/paramount-weighs-tapping-musk-for-equity-investment",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "Netanyahu Set To Confront Mamdani During UN Visit",
+        "url": "https://www.newsnationnow.com/video/netanyahu-set-to-confront-mamdani-during-un-visit-morning-in-america/12201145/",
+        "timestamp": 1790247104000,
+        "photo": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Judge Tosses Trump's Lawsuit Against Des Moines Register",
+        "url": "https://www.axios.com/2026/09/23/trump-des-moines-register-lawsuit-dismissed",
+        "timestamp": 1790236505000,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Five Indianapolis Officers Charged After Post's Reporting On Flock Misuse",
+        "url": "https://www.redlakenationnews.com/story/2026/09/24/news/five-indianapolis-officers-charged-following-the-posts-reporting-on-flock-misuse/143039.html",
+        "timestamp": 1790230689000,
+        "feature": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "'I Am The Code': Trump Clashes With Ballroom Architect Over Safety",
+        "url": "https://www.msn.com/en-us/news/other/i-am-the-code-trump-clashed-with-ballroom-architect-over-safety-issues/ar-AA2cOB1m?ocid=BingNewsSerp",
+        "timestamp": 1790161544259,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "Dolly Parton's Estate In Turmoil After Extortion Accusations",
+        "url": "https://www.nytimes.com/2026/09/22/arts/music/dolly-parton-restraining-order-bryan-seaver.html?unlocked_article_code=1.DVE.2Ilu.WmasnfSEBmB8&smid=url-share",
+        "timestamp": 1790161544260,
+        "photo": true,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "GOP Senator Breaks Ranks, Calls For Probe Into Don Jr.",
+        "url": "https://newrepublic.com/post/215700/republican-senator-calls-investigation-trump-jr-wedding",
+        "timestamp": 1790161544259,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "ICE Officer In Texas Shooting Was Recruit, Had No Body Camera",
+        "url": "https://www.aa.com.tr/en/americas/us-immigration-agency-who-shot-venezuelan-man-in-texas-didnt-use-body-camera-report/4066021",
+        "timestamp": 1790137920000,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "US Strikes Greenland Deal For 'Permanent Control Over Security'",
+        "url": "https://www.cnbc.com/2026/09/22/trump-greenland-security-deal-military-bases-.html",
+        "timestamp": 1790053218000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1790075726670,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "Princeton Is No Longer No. 1 In US News College Rankings",
+        "url": "https://www.mycentraljersey.com/story/news/education/college/2026/09/22/new-no-1-college-mit-princeton-rankings/91822878007/",
+        "timestamp": 1790049665000,
+        "postedAt": 1790075726670
+      },
+      {
+        "headline": "Fat Bear Week 2026 Is Here: Meet Chunk, Bucky And Other Contenders",
+        "url": "https://www.cbsnews.com/news/fat-bear-week-2026-contenders-voting-katmai/",
+        "timestamp": 1790038936000,
+        "photo": true,
+        "postedAt": 1790075726670,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "US Man Convicted In 2023 Shooting Of Three Palestinian Students In Vermont",
+        "url": "https://www.aljazeera.com/news/2026/9/21/us-man-convicted-in-2023-shooting-of-three-palestinian-students-in-vermont",
+        "timestamp": 1790021237000,
+        "postedAt": 1790075726670
+      },
+      {
+        "headline": "Tina Brown: The Spencers Vs. The Windsors, Again",
+        "url": "https://tinabrown.substack.com/p/the-spencers-vs-windsorsagain",
+        "timestamp": 1790161544260,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "Trump Tells CNN 'You Should Not Be Here' At UN",
+        "url": "https://apnews.com/article/white-house-media-ban-trump-cnn-032e2bf36028b02f37ad29ae4dba450b",
+        "timestamp": 1790136120000,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "Poll Shows Democrats Winning Both Texas Senate And Governor Races",
+        "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-texas-september-2026/",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Analysis: Xi Is Getting What He Wants From The Summit",
+        "url": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-ai-safety-chips-us-china-dialogue.html",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "ChatGPT Reportedly Gave Student Tips On Evading Vandalism Charges",
+        "url": "http://www.thesmokinggun.com/documents/crime/chatgpt-transcript-178592",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776
+      }
+    ],
+    "center": [
+      {
+        "headline": "Florida Governor Candidate Byron Donalds Stands By Trump After Website Scrub",
+        "url": "https://www.cbsnews.com/news/florida-governor-candidate-byron-donalds-trump-mentions-disappear-from-website/",
+        "timestamp": 1790221740000,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Report: Some Trump Supporters Are Urging Him To Declare Martial Law For Midterms",
+        "url": "https://www.rawstory.com/trump-martial-law-2677923051/",
+        "timestamp": 1790247885230,
+        "feature": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Report: MAGA Podcasters Are Moving On From Trump",
+        "url": "https://www.yahoo.com/news/politics/articles/donald-trump-biggest-online-backers-073939167.html",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Trump's Push To Acquire Greenland Almost Broke NATO — Greenland May Be The Winner",
+        "url": "https://apnews.com/article/greenland-denmark-us-un-colonialism-security-a7ba8a250e217cbe9eb0eab757cb7af1",
+        "timestamp": 1790229120000,
+        "photo": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Venezuela's Maduro Goes From 'Dictator' To Trump Ally On World Stage",
+        "url": "https://amp.axios.com/trump-venezuela-rodriguez-meeting-elections-b0def29d-39ba-4246-be86-13c69d0d4930.html",
+        "timestamp": 1790210580000,
+        "photo": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "GOP Leaks Turn Ugly As Trump's Poll Numbers Bottom Out",
+        "url": "https://newrepublic.com/article/215738/trump-hits-record-poll-low-gop-leaks-worsen-bottom-falling-out",
+        "timestamp": 1790154000000,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "FBI Reportedly Hacked, Employee Data Feared Stolen",
+        "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+        "timestamp": 1790161544260,
+        "feature": true,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "Analysts Warn Oil Could Top $150 A Barrel",
+        "url": "https://www.marketwatch.com/story/oil-could-top-150-a-barrel-if-supplies-further-tighten-bank-of-america-warns-2fcd5bd3",
+        "timestamp": 1790161544259,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "Wendy's Faces 300 Closures As Beef Prices Surge",
+        "url": "https://www.themirror.com/lifestyle/food-drink/wendys-faces-300-closures-across-2034913",
+        "timestamp": 1790161544259,
+        "photo": true,
+        "postedAt": 1790162104879,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Trump Discloses Over 1,100 Stock Trades, Including $25M In Tech Sales",
+        "url": "https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html",
+        "timestamp": 1790161544259,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "Essay: What Occupy Wall Street Taught Me About Elite Overproduction",
+        "url": "https://unherd.com/2026/09/what-i-learned-occupying-london/",
+        "timestamp": 1790161288000,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "Zelensky Proposes Energy Ceasefire, Seeks Trilateral Talks With Putin, Trump",
+        "url": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html",
+        "timestamp": 1790150390000,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "Postal Worker Accused Of Tossing 300 Ballots In Utah Election",
+        "url": "https://kutv.com/news/local/us-postal-worker-accused-of-throwing-away-around-300-ballots-in-recent-utah-election",
+        "timestamp": 1790137274000,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "2 Dead After Helicopter Fighting Dome Fire Crashes",
+        "url": "https://www.kcra.com/article/yosemite-helicopter-crash-dome-fire-fly-precision/73821033",
+        "timestamp": 1790058360000,
+        "photo": true,
+        "postedAt": 1790075726670,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "'Looksmaxxing' Influencer Charged With Rape In Massachusetts",
+        "url": "https://www.nbcnews.com/news/us-news/clavicular-looksmaxxing-charged-rape-massachusetts-rcna599130",
+        "timestamp": 1790047200000,
+        "photo": true,
+        "postedAt": 1790075726670,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "Abbott Halts Texas Data Center Permits",
+        "url": "https://www.politico.com/news/2026/09/21/abbott-texas-data-center-permits-halt-01086398",
+        "timestamp": 1790031600000,
+        "postedAt": 1790075726670
+      },
+      {
+        "headline": "Feds Hide Locations Of Thousands Of Immigration Detainees",
+        "url": "https://apnews.com/c3329a70bce424879bc5880b286c019c",
+        "timestamp": 1790075229860,
+        "postedAt": 1790075726670
+      },
+      {
+        "headline": "Iran's President Gets Rare Opportunity To Make His Case To The World",
+        "url": "https://timesofindia.indiatimes.com/world/us/iran-president-invited-to-new-york-for-un-but-restricted-to-hotel-un-route/articleshow/134408208.cms",
+        "timestamp": 1790035200000,
+        "postedAt": 1790075726670
+      }
+    ],
+    "right": [
+      {
+        "headline": "Trump Reportedly Smirked As 'Crass' Iranian President Lashed Out At US",
+        "url": "https://www.foxnews.com/world/trump-smirked-iranian-president-lashed-us-fiery-un-speech-expert",
+        "timestamp": 1790208652000,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Canada: Report Says Grandmother Was Euthanized Against Her Will",
+        "url": "https://www.dailymail.com/news/article-16136457",
+        "timestamp": 1790247885230,
+        "photo": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Ellison Reportedly 'Hesitant' To Hand CNN To Bari Weiss",
+        "url": "https://nypost.com/2026/09/22/media/speculation-about-bari-weiss-future-is-coming-to-a-head-heres-what-well-placed-sources-say/",
+        "timestamp": 1790247885230,
+        "photo": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Zelenskyy Urges World Leaders To Keep Choking Russia's War Revenues",
+        "url": "https://apnews.com/article/ukraine-russia-war-finances-zelenskyy-eae6556129152914081b48774236d397",
+        "timestamp": 1790235000000,
+        "photo": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Pentagon Investigates After China Obtains Parts From F-35 Stealth Jet",
+        "url": "https://apnews.com/article/f35-parts-china-hong-kong-australia-c0b248635c79cae9446a2bd7bf4a32f8",
+        "timestamp": 1790218020000,
+        "feature": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Canada: Fourth Rescued Beluga Dies After Marineland Move",
+        "url": "https://www.usatoday.com/story/news/nation/2026/09/22/fourth-beluga-whale-dies-marineland-relocation-scrutiny/91895804007/",
+        "timestamp": 1790138220000,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "Pasta Becomes Latest Product Hit By Food Recall",
+        "url": "https://www.dailymail.com/health/article-16151191",
+        "timestamp": 1790161544260,
+        "photo": true,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "AOC On Presidential Run: 'Life Doesn't Wait For You To Be Ready'",
+        "url": "https://www.nytimes.com/2026/09/22/us/politics/aoc-2028-presidential-race.html?unlocked_article_code=1.DFE.CCPN.449eUBqzNGLt&smid=url-share",
+        "timestamp": 1790075229860,
+        "postedAt": 1790075726670
+      },
+      {
+        "headline": "Bear Encounters Rising Across The Nation",
+        "url": "https://www.98online.com/why-black-bear-sightings-are-increasing-across-the-u-s-this-year-2",
+        "timestamp": 1790075229860,
+        "photo": true,
+        "postedAt": 1790075726670,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Pennsylvania Measles Cases Near 800 As Outbreak Grows",
+        "url": "https://www.streetinsider.com/Reuters/Pennsylvania+measles+cases+near+800+as+outbreak+grows/27085044.html",
+        "timestamp": 1790075229860,
+        "postedAt": 1790075726670
+      },
+      {
+        "headline": "Scientists Are Finally Starting To Figure Out Alzheimer's",
+        "url": "https://www.vox.com/podcasts/503465/alzheimers-research-progress-amyloid-tau-glp1",
+        "timestamp": 1790027100000,
+        "postedAt": 1790075726670
+      },
+      {
+        "headline": "Extreme Overcrowding And Abuse Plague Florida ICE Facilities",
+        "url": "https://www.local10.com/news/local/2026/09/21/whistleblower-report-details-poor-living-conditions-at-multiple-florida-ice-facilities-including-in-miramar/",
+        "timestamp": 1790075229860,
+        "postedAt": 1790075726670
+      },
+      {
+        "headline": "Videos Reveal New Details About ICE Shooting In Austin",
+        "url": "https://www.kxan.com/investigations/new-videos-show-moments-before-after-ice-shooting/",
+        "timestamp": 1790067825000,
+        "postedAt": 1790075726670
+      },
+      {
+        "headline": "Xi Gets Rare Planeside Welcome From Trump In Washington",
+        "url": "https://apnews.com/article/trump-xi-arrival-washington-state-visit-baea8dbdb8c832ae1b295579709dc967",
+        "timestamp": 1790136180000,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "UK: Diana's Brother Revives Shock Claim About King's Past",
+        "url": "https://www.mercurynews.com/2026/09/17/king-charles-valet-rumor-sexual-past/amp/",
+        "timestamp": 1790161544260,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "DOJ Urges Court To Reject Lawsuit Over Media Ban",
+        "url": "https://www.npr.org/2026/09/23/nx-s1-5978614/doj-defend-white-house-media-ban",
+        "timestamp": 1790154407000,
+        "postedAt": 1790162104879
+      },
+      {
+        "headline": "Grand Spectacle Staged For Xi's Visit",
+        "url": "https://www.devdiscourse.com/article/international/3981529-trump-plans-grand-spectacle-for-potentially-tense-xi-talks?amp",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Australia's PM Says OpenAI Hacked Government Health Website",
+        "url": "https://www.yahoo.com/news/world/articles/australian-pm-says-openai-hacked-232712261.html",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776
+      }
+    ]
+  },
+  "balance": {
+    "left": 674,
+    "right": 445,
+    "independent": 4,
+    "days": 30,
+    "total": 1119,
+    "pctLeft": 60,
+    "pctRight": 40
+  }
+}

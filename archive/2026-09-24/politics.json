@@ -1,0 +1,500 @@
+{
+  "lastUpdated": 1790250462626,
+  "heroSetDate": "2026-09-24",
+  "hero": {
+    "headline": "JUDGE ORDERS WHITE HOUSE TO RESTORE PRESS ACCESS FOR CNN, MS NOW AND POLITICO",
+    "url": "https://www.nbcnews.com/politics/trump-administration/judge-ruling-white-house-restore-access-media-ban-cnn-politico-ms-now-rcna599391",
+    "sublinks": [
+      {
+        "text": "NPR: Ruling Finds Press Ban Violated First Amendment Rights",
+        "url": "https://www.npr.org/2026/09/24/nx-s1-5979582/judge-order-trump-restore-access-white-house"
+      },
+      {
+        "text": "NewsNation: White House Reviewing Appeal Options After Order",
+        "url": "https://www.newsnationnow.com/politics/ap-judge-orders-white-house-to-restore-access-to-news-outlets-trump-banned/"
+      },
+      {
+        "text": "NPR: Ruling Arrives As Trump Hosts Xi For State Visit",
+        "url": "https://www.npr.org/2026/09/24/nx-s1-5979585/court-temporarily-blocks-media-ban-trump-xi-white-house-meeting-unga-diplomacy"
+      }
+    ],
+    "postedAt": 1790250462626,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "2026 MIDTERMS TAKE SHAPE",
+      "stories": [
+        {
+          "headline": "Nate Silver's FLIPR Model Updates 2026 Midterm Forecast",
+          "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+          "timestamp": 1790245435000,
+          "postedAt": 1790250462626
+        },
+        {
+          "headline": "Georgia House Candidate Voted In 2026 Primaries In Two States, Records Show",
+          "url": "https://www.ajc.com/news/2026/09/georgia-house-candidate-voted-in-2026-primaries-in-two-states-records-show/",
+          "timestamp": 1790217000000,
+          "postedAt": 1790250462626
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR ESCALATION PLAYS OUT AT UN",
+      "stories": [
+        {
+          "headline": "Oil Prices Rise As US And Iran Trade Fresh Threats In Seven-Month War",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-un-speech-annihilate-threat-talks-resume/",
+          "timestamp": 1790227051000,
+          "postedAt": 1790250462626
+        },
+        {
+          "headline": "Speaker Johnson Calls For 'Resolution' Of Iran War",
+          "url": "https://thehill.com/homenews/house/6107442-mike-johnson-iran-war-resolution/",
+          "timestamp": 1790198580000,
+          "postedAt": 1790250462626
+        },
+        {
+          "headline": "US And Iran Hold Direct Talks At UN After Trump's Threat",
+          "url": "https://www.newsnationnow.com/video/us-and-iran-hold-talks-at-un-after-trump-threat-morning-in-america/12196862/",
+          "timestamp": 1790159563000,
+          "postedAt": 1790163926842
+        },
+        {
+          "headline": "Iran Floats Conditions For Reopening Hormuz As Trump Eyes Post-Midterm Deal",
+          "url": "https://www.cnbc.com/2026/09/23/us-iran-war-trump-hormuz.html",
+          "timestamp": 1790141868000,
+          "postedAt": 1790163926842
+        }
+      ]
+    },
+    {
+      "title": "TRUMP HOSTS XI FOR STATE VISIT AMID AI AND TRADE TENSIONS",
+      "stories": [
+        {
+          "headline": "Xi To Make First Chinese State Visit To US In Over A Decade",
+          "url": "https://www.theblaze.com/news/xi-jinpeng-trump-state-visit",
+          "timestamp": 1790159467000,
+          "postedAt": 1790163926842
+        },
+        {
+          "headline": "Trump And Xi Explore AI Arms-Race Cooperation",
+          "url": "https://www.politico.com/newsletters/playbook/2026/09/23/trump-and-xis-ai-arms-embrace-01089155",
+          "timestamp": 1790158893000,
+          "postedAt": 1790163926842
+        },
+        {
+          "headline": "Trump Plans Pomp And Pageantry For Xi Amid China Tensions",
+          "url": "https://www.wsbradio.com/news/world/chinas-xi-kicks-off/66AATTARQI6SHM7WNYPISEF2XU/",
+          "timestamp": 1790133240000,
+          "postedAt": 1790163926842
+        },
+        {
+          "headline": "Trump Pushes To Rebrand AI As 'Super Intelligence' Ahead Of Xi Summit",
+          "url": "https://www.axios.com/2026/09/22/trump-ai-super-intelligence-rebrand",
+          "timestamp": 1790121813000,
+          "postedAt": 1790163926842
+        },
+        {
+          "headline": "Trump-Xi Meeting Produces Diplomatic Split Screen On AI, Trade, Iran",
+          "url": "https://www.reuters.com/world/china/diplomatic-split-screen-trump-xi-meet-2026-09-24/",
+          "timestamp": 1790226180000,
+          "postedAt": 1790250462626
+        }
+      ]
+    },
+    {
+      "title": "GREENLAND MILITARY BASES DEAL WITH DENMARK",
+      "stories": [
+        {
+          "headline": "What To Know About Trump's Agreement With Denmark And Greenland Leaders",
+          "url": "https://www.newsmax.com/world/globaltalk/denmark-us-greenland-agreement-explainer/2026/09/23/id/1270353/",
+          "timestamp": 1790161297000,
+          "postedAt": 1790163926842
+        },
+        {
+          "headline": "US To Build Two Military Bases In Greenland Under New Denmark Deal",
+          "url": "https://www.bbc.com/news/articles/c9dr74g32g8go",
+          "timestamp": 1790113015000,
+          "postedAt": 1790163926842
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Judge Tosses Trump's Lawsuit Against Des Moines Register",
+        "url": "https://www.axios.com/2026/09/23/trump-des-moines-register-lawsuit-dismissed",
+        "timestamp": 1790236505000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790250462626
+      },
+      {
+        "headline": "Sherrill Let Lt. Gov. Serve As Acting NJ Governor For 18 Days Amid Internal Probe",
+        "url": "https://www.politico.com/news/2026/09/23/nj-sherrill-lieutenant-governor-investigation-01091086",
+        "timestamp": 1790208720000,
+        "photo": true,
+        "postedAt": 1790250462626
+      },
+      {
+        "headline": "ProPublica: Collins Dismissed Maine Poll As Old News, But Some Claims Aren't True",
+        "url": "https://www.propublica.org/article/debunking-susan-collins-fbi-navatek-investigation-claims",
+        "timestamp": 1790202850000,
+        "photo": true,
+        "postedAt": 1790250462626,
+        "image": "/img/politics-3.jpg"
+      },
+      {
+        "headline": "Trump-Backed Missouri Map Returns To Supreme Court For Third Time",
+        "url": "https://apnews.com/article/supreme-court-missouri-redistricting-congressional-map-4359373974681c4170a6a4410ffd019d",
+        "timestamp": 1790135700000,
+        "feature": true,
+        "postedAt": 1790163926842
+      },
+      {
+        "headline": "US Rebukes Australia Over Proposed Social Media Algorithm Limits",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/09/23/us-rebukes-australia-for-plan-to-target-social-media-algorithms",
+        "timestamp": 1790151608000,
+        "postedAt": 1790163926842
+      },
+      {
+        "headline": "ICE Officer In Texas Shooting Was Recruit, Not Wearing Body Camera",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/wilber-rafael-garces-perez-austin-texas-ice-b3054912.html",
+        "timestamp": 1790137920000,
+        "photo": true,
+        "postedAt": 1790163926842,
+        "image": "/img/politics-5.jpg"
+      },
+      {
+        "headline": "Trump Administration To Remove 760,000 ACA Enrollees Over Fraud Claims",
+        "url": "https://apnews.com/article/vance-healthcare-oz-aca-fraud-task-force-eb57a4819c8a876a72c1301a112e21dc",
+        "timestamp": 1790117460000,
+        "feature": true,
+        "postedAt": 1790163926842
+      },
+      {
+        "headline": "Kagan Steers Supreme Court Clear Of High-Profile Surrogacy Fight",
+        "url": "https://thehill.com/regulation/court-battles/6105403-kagan-denies-surrogacy-emergency-bid/",
+        "timestamp": 1790117400000,
+        "photo": true,
+        "postedAt": 1790163926842
+      },
+      {
+        "headline": "White House Holds First Military Spouse Commission Meeting",
+        "url": "https://www.dailywire.com/news/white-house-hosts-first-military-spouse-commission-meeting-aimed-at-bettering-military-family-life?elementPosition",
+        "timestamp": 1790076412000,
+        "photo": true,
+        "postedAt": 1790077825650,
+        "image": "/img/politics-7.jpg"
+      },
+      {
+        "headline": "Iceland Vote Seen As Test For EU Enlargement Momentum",
+        "url": "https://www.newsmax.com/platinum/iceland-tells-brussels-no-thanks-again/2026/09/11/id/1269175/",
+        "timestamp": 1790073225000,
+        "photo": true,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Rubio Plays Quiet 'Shadow Kissinger' Role In Trump Foreign Policy",
+        "url": "https://www.washingtonexaminer.com/op-eds/4735532/marco-rubio-shadow-secretary-state/",
+        "timestamp": 1790071200000,
+        "photo": true,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Man Shot By ICE Says He Was Detained With Bullet Near Spine",
+        "url": "https://www.wwnytv.com/2026/09/22/man-shot-by-ice-detained-with-bullet-still-his-back-is-back-hospital-attorney-says/",
+        "timestamp": 1790055922000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Houthis Move To Seize Territory After Trump Calls Off Strikes",
+        "url": "https://www.theguardian.com/world/2026/sep/21/houthis-seize-strategic-terrain-yemen-trump-calls-off-airstrikes-last-minute",
+        "timestamp": 1790040600000,
+        "photo": true,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Abbott Halts New Data Center Permits In Texas",
+        "url": "https://www.politico.com/news/2026/09/21/abbott-texas-data-center-permits-halt-01086398",
+        "timestamp": 1790031600000,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Zelenskyy Urges UN To Keep Choking Russia's War Revenues",
+        "url": "https://apnews.com/article/ukraine-russia-war-finances-zelenskyy-eae6556129152914081b48774236d397",
+        "timestamp": 1790235000000,
+        "postedAt": 1790250462626
+      },
+      {
+        "headline": "GOP Ramps Up Midterm Defense In Trump-Won States",
+        "url": "https://www.politico.com/news/2026/09/22/republicans-senate-house-map-midterm-fears-01086866",
+        "timestamp": 1790067600000,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Guatemalan Man Dies In Crash During Attempted ICE Traffic Stop",
+        "url": "https://www.nbcnews.com/news/us-news/guatemalan-man-dies-crash-attempted-ice-traffic-stop-rcna599379",
+        "timestamp": 1790189795000,
+        "postedAt": 1790250462626
+      }
+    ],
+    "center": [
+      {
+        "headline": "Netanyahu Set To Confront NYC Mayor-Elect Mamdani During UN Visit",
+        "url": "https://www.newsnationnow.com/video/netanyahu-set-to-confront-mamdani-during-un-visit-morning-in-america/12201145/",
+        "timestamp": 1790247104000,
+        "photo": true,
+        "postedAt": 1790250462626
+      },
+      {
+        "headline": "DoorDash Admits It 'Screwed Up,' Will Pay NYC Workers Over $100 Million",
+        "url": "https://popular.info/p/doordash-admits-it-screwed-up-will",
+        "timestamp": 1790245869000,
+        "postedAt": 1790250462626
+      },
+      {
+        "headline": "Netanyahu Takes UN Stage With Eye On Israel's Election",
+        "url": "https://www.aljazeera.com/news/2026/9/24/netanyahus-un-speech-a-high-stakes-test-for-audiences-at-home",
+        "timestamp": 1790239982000,
+        "photo": true,
+        "postedAt": 1790250462626,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "Trump's Push To Acquire Greenland Leaves Greenland The Likely Winner",
+        "url": "https://apnews.com/article/greenland-denmark-us-un-colonialism-security-a7ba8a250e217cbe9eb0eab757cb7af1",
+        "timestamp": 1790229120000,
+        "photo": true,
+        "postedAt": 1790250462626
+      },
+      {
+        "headline": "Florida Governor Candidate Byron Donalds Stands By Trump Amid Website Edits",
+        "url": "https://www.cbsnews.com/news/florida-governor-candidate-byron-donalds-trump-mentions-disappear-from-website/",
+        "timestamp": 1790221740000,
+        "photo": true,
+        "postedAt": 1790250462626,
+        "image": "/img/politics-2.jpg"
+      },
+      {
+        "headline": "Pentagon Investigates After China Obtains Parts From F-35 Stealth Fighter",
+        "url": "https://apnews.com/article/f35-parts-china-hong-kong-australia-c0b248635c79cae9446a2bd7bf4a32f8",
+        "timestamp": 1790218020000,
+        "photo": true,
+        "postedAt": 1790250462626
+      },
+      {
+        "headline": "The Republican Urge To Start Wars In The Middle East",
+        "url": "https://jewishinsider.com/2026/09/vulnerable-republican-candidates-urge-end-iran-war/",
+        "timestamp": 1790157733000,
+        "postedAt": 1790163926842
+      },
+      {
+        "headline": "Zelenskyy Says Ukraine Ready For 'Energy Ceasefire,' Seeks Trilateral Talks With Putin And Trump",
+        "url": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html",
+        "timestamp": 1790150390000,
+        "photo": true,
+        "postedAt": 1790163926842,
+        "image": "/img/politics-4.jpg"
+      },
+      {
+        "headline": "Postal Worker Accused Of Tossing 300 Ballots In Recent Utah Election",
+        "url": "https://kutv.com/news/local/us-postal-worker-accused-of-throwing-away-around-300-ballots-in-recent-utah-election",
+        "timestamp": 1790137274000,
+        "photo": true,
+        "postedAt": 1790163926842
+      },
+      {
+        "headline": "Report: Israel Funding AI Chatbot Propaganda Campaign",
+        "url": "https://zeteo.com/p/scoop-israel-is-funding-ai-chatbot",
+        "timestamp": 1790075484000,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "US Strikes Greenland Deal For 'Permanent Control' Over Security, Report Says",
+        "url": "https://www.cnbc.com/2026/09/22/trump-greenland-security-deal-military-bases-.html",
+        "timestamp": 1790053218000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Appeals Court Backs Missouri's Gerrymandered Map, Puts Ruling On Hold",
+        "url": "https://missouriindependent.com/2026/09/21/appeals-court-backs-missouris-gerrymandered-map-but-decision-is-put-on-hold/",
+        "timestamp": 1790033732000,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Turley: Trump Ready To Challenge Legal Precedent On Press Access",
+        "url": "https://www.realclearpolitics.com/video/2026/09/21/turley_trump_seems_ready_to_challenge_the_legal_precedent_on_white_house_press_access.html?video",
+        "timestamp": 1789923600000,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Ex-Texas Lawmaker Vows He'll 'Never' Back Paxton In Senate Race",
+        "url": "https://www.cnn.com/2026/09/23/politics/talarico-ad-glenn-rogers-criticizes-ken-paxton-texas-senate",
+        "timestamp": 1790157689000,
+        "postedAt": 1790163926842
+      },
+      {
+        "headline": "Iowa Poll Flashes Warning Sign For Republicans Ahead Of November",
+        "url": "https://www.theblaze.com/columns/opinion/iowa-is-flashing-a-giant-red-warning-light-for-november",
+        "timestamp": 1790244027000,
+        "postedAt": 1790250462626
+      },
+      {
+        "headline": "Democrats Face Uphill Climb In Tennessee House Races",
+        "url": "https://tennesseelookout.com/2026/09/21/democrats-face-uphill-battle-in-winning-any-tennessee-u-s-house-race/",
+        "timestamp": 1790037769000,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Venezuelan Man Shot By ICE Officer Needs Surgery To Remove Bullet, Rep. Casar Says",
+        "url": "https://www.texastribune.org/2026/09/23/texas-austin-shooting-ice-officer-no-body-cam-reports/",
+        "timestamp": 1790184949000,
+        "postedAt": 1790250462626
+      }
+    ],
+    "right": [
+      {
+        "headline": "DOJ URGES COURT TO REJECT LAWSUIT OVER TRUMP'S WHITE HOUSE MEDIA BAN",
+        "url": "https://www.npr.org/2026/09/23/nx-s1-5978614/doj-defend-white-house-media-ban",
+        "timestamp": 1790163926842,
+        "postedAt": 1790163926842
+      },
+      {
+        "headline": "Universities Lead Push To Bring DEI Into AI Research",
+        "url": "https://www.theblaze.com/tech/dei-is-trying-to-take-over-ai-these-universities-are-leading-the-charge",
+        "timestamp": 1790247627000,
+        "postedAt": 1790250462626
+      },
+      {
+        "headline": "New York Climate Law Targeting Oil Companies Ruled Unconstitutional",
+        "url": "https://www.washingtontimes.com/news/2026/sep/23/new-yorks-climate-law-tried-punish-oil-companies-ruled/",
+        "timestamp": 1790247595000,
+        "photo": true,
+        "postedAt": 1790250462626
+      },
+      {
+        "headline": "Daily Caller: Inside The Implosion Of A 'Revolutionary' Lesbian Bar",
+        "url": "https://dailycaller.com/2026/09/24/duke-last-ditch-bar-massachusetts-lesbian-progressive-woke-implosion/",
+        "timestamp": 1790244000000,
+        "photo": true,
+        "postedAt": 1790250462626,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "Board Of Peace To Unveil $2.45 Billion Gaza Recovery Plan",
+        "url": "https://www.newsmax.com/world/globaltalk/trump-board-of-peace-2-billion/2026/09/23/id/1270350/",
+        "timestamp": 1790159932000,
+        "photo": true,
+        "postedAt": 1790163926842
+      },
+      {
+        "headline": "On Patriotism And Starving The Soul Of A Republic",
+        "url": "https://www.dailywire.com/news/on-patriotism-and-starving-the-soul-of-a-republic",
+        "timestamp": 1790154299000,
+        "postedAt": 1790163926842
+      },
+      {
+        "headline": "What To Know About The Pay-To-Play Allegations Against Susan Collins",
+        "url": "https://www.pressherald.com/2026/09/22/what-to-know-about-the-pay-to-play-allegations-against-susan-collins/",
+        "timestamp": 1790115317000,
+        "photo": true,
+        "postedAt": 1790163926842,
+        "image": "/img/politics-6.jpg"
+      },
+      {
+        "headline": "States Settle Suit Over Paramount-Warner Merger, Clearing $81B Deal",
+        "url": "https://www.washingtontimes.com/news/2026/sep/22/states-settle-suit-paramount-warner-merger-clearing-key-hurdle-81/",
+        "timestamp": 1790075350000,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "House Democrats Bristle As One Of Their Own Backs A Republican",
+        "url": "https://www.axios.com/2026/09/21/jared-golden-mike-lawler-house-democrats-reaction",
+        "timestamp": 1790063910000,
+        "photo": true,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "NJ Voting Methods Stay Unchanged After Supreme Court Ruling",
+        "url": "https://www.njspotlightnews.org/2026/09/methods-of-voting-in-nj-unchanged-this-year-following-supreme-court-decision/",
+        "timestamp": 1790050119000,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Inside The GOP's 'War For Eyeballs' Ahead Of Midterms",
+        "url": "https://www.axios.com/2026/09/21/republicans-democrats-senate-campaign-ad-spending-impressions",
+        "timestamp": 1790033456000,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Diesel Price Spike Stokes GOP Panic In Iowa",
+        "url": "https://thehill.com/homenews/analysis/6102812-ashley-hinson-iran-war/",
+        "timestamp": 1790071200000,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Virginia's Wittman-Taylor Race Could Decide House Control",
+        "url": "https://virginiamercury.com/2026/09/21/with-us-house-control-hanging-in-the-balance-wittman-faces-taylor-in-contentious-va-01-race/",
+        "timestamp": 1790001707000,
+        "postedAt": 1790077825650
+      },
+      {
+        "headline": "Russian Strikes Kill 8 In Ukraine As UN Debates How To End War",
+        "url": "https://www.newsmax.com/world/globaltalk/russia-ukraine-war/2026/09/24/id/1270495/",
+        "timestamp": 1790249499000,
+        "postedAt": 1790250462626
+      },
+      {
+        "headline": "Texas Senate, Railroad Commission Races Remain Tight, New Poll Finds",
+        "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/09/22/562540/u-s-senate-texas-railroad-commission-races-remain-tight-less-than-month-before-early-voting-tsu-poll-finds/",
+        "timestamp": 1790111550000,
+        "postedAt": 1790163926842
+      },
+      {
+        "headline": "ICE Detains US Citizen, Leaves Him Injured In Chicago Suburb",
+        "url": "https://www.cnn.com/2026/09/24/us/ice-us-citizen-detained-evanston",
+        "timestamp": 1790240429000,
+        "feature": true,
+        "postedAt": 1790250462626
+      }
+    ]
+  },
+  "polls": [
+    {
+      "name": "Trump Approval",
+      "value": "39%/60%",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
+      "asOf": "Sep 23, 2026"
+    },
+    {
+      "name": "Generic Congressional Vote",
+      "value": "Dem +6.4",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "Aug 27, 2026"
+    },
+    {
+      "name": "Right Direction",
+      "value": "30%/61%",
+      "sub": "",
+      "url": "https://ballotpedia.org/Ballotpedia's_Polling_Index:_Presidential_approval_rating"
+    }
+  ],
+  "balance": {
+    "left": 621,
+    "right": 706,
+    "independent": 4,
+    "days": 30,
+    "total": 1327,
+    "pctLeft": 47,
+    "pctRight": 53
+  }
+}
