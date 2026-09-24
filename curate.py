@@ -2655,7 +2655,15 @@ def curate_live(section):
         "'a beloved actor' when the actual name is available in the candidate story - name it. "
         "Concrete example: NOT 'Popular Rock Band's Tour Bus In Deadly Upstate Crash' -> YES "
         "'Buckcherry's Tour Bus In Deadly Upstate New York Crash'. A headline that tells the reader "
-        "WHAT HAPPENED always beats one written to make them click to find out who or what it means.\n")
+        "WHAT HAPPENED always beats one written to make them click to find out who or what it means.\n"
+        "DISTINCT HEADLINES (no near-duplicates side by side): when TWO items cover the SAME story - a "
+        "left and a right outlet paired on one event, two stories inside a panel, opinion pieces in an "
+        "\"editorials\" array, or the hero and its sublinks - each headline MUST be worded DIFFERENTLY: a "
+        "different angle, detail, or emphasis, ideally reflecting that outlet's own framing. NEVER place "
+        "two headlines that are identical or nearly identical next to each other - it reads like a "
+        "duplication bug and looks unprofessional. If the only thing telling two items apart is the outlet "
+        "name, REWRITE one so its headline carries a distinct fact or perspective (e.g. one leads with "
+        "what happened, the other with the reaction, the dispute, or the key number).\n")
     if section in ("main", "politics", "world"):
         strict = ("This is a HARD constraint on this page - hit 50/50 as closely as the candidate pool allows."
                   if section in ("main", "politics") else
@@ -2690,6 +2698,14 @@ def curate_live(section):
             "lean, look to match it with a comparable story from the other lean; if the candidate pool is "
             "lopsided, give the marginal slots to the UNDER-represented side. Never let one lean dominate "
             "the page.\n"
+            "- BIAS-CONCERN PAIRING: when a story is ideologically charged or the coverage itself is clearly "
+            "slanted - an election dispute, an immigration or crime story, a culture-war flashpoint, "
+            "anything where left and right report DIFFERENT facts or framing - DELIBERATELY run it from BOTH "
+            "sides: a left-leaning and a right-leaning outlet on the same event, side by side (grouped in one "
+            "panel, or as adjacent items). Write each headline from THAT side's perspective so the two read "
+            "as genuinely different takes, never near-identical echoes (see DISTINCT HEADLINES above). "
+            "Showing both framings IS the point here - it lets the reader see the split instead of being "
+            "handed one side's spin.\n"
             "- MAINTAIN, THEN LET IT REALIGN: aim for ~50/50 on THIS page every day and hold it there. "
             "When the trailing 30-day standing is off, do NOT snap it back in a single day - apply a "
             "modest, sustained tilt toward the under-represented side so the rolling average returns to "
