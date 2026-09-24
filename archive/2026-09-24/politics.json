@@ -40,35 +40,6 @@
       ]
     },
     {
-      "title": "IRAN WAR ESCALATION PLAYS OUT AT UN",
-      "stories": [
-        {
-          "headline": "Oil Prices Rise As US And Iran Trade Fresh Threats In Seven-Month War",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-un-speech-annihilate-threat-talks-resume/",
-          "timestamp": 1790227051000,
-          "postedAt": 1790250462626
-        },
-        {
-          "headline": "Speaker Johnson Calls For 'Resolution' Of Iran War",
-          "url": "https://thehill.com/homenews/house/6107442-mike-johnson-iran-war-resolution/",
-          "timestamp": 1790198580000,
-          "postedAt": 1790250462626
-        },
-        {
-          "headline": "US And Iran Hold Direct Talks At UN After Trump's Threat",
-          "url": "https://www.newsnationnow.com/video/us-and-iran-hold-talks-at-un-after-trump-threat-morning-in-america/12196862/",
-          "timestamp": 1790159563000,
-          "postedAt": 1790163926842
-        },
-        {
-          "headline": "Iran Floats Conditions For Reopening Hormuz As Trump Eyes Post-Midterm Deal",
-          "url": "https://www.cnbc.com/2026/09/23/us-iran-war-trump-hormuz.html",
-          "timestamp": 1790141868000,
-          "postedAt": 1790163926842
-        }
-      ]
-    },
-    {
       "title": "TRUMP HOSTS XI FOR STATE VISIT AMID AI AND TRADE TENSIONS",
       "stories": [
         {
@@ -100,6 +71,18 @@
           "url": "https://www.reuters.com/world/china/diplomatic-split-screen-trump-xi-meet-2026-09-24/",
           "timestamp": 1790226180000,
           "postedAt": 1790250462626
+        },
+        {
+          "headline": "Oil Prices Rise As US And Iran Trade Fresh Threats In Seven-Month War",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-un-speech-annihilate-threat-talks-resume/",
+          "timestamp": 1790227051000,
+          "postedAt": 1790250462626
+        },
+        {
+          "headline": "US And Iran Hold Direct Talks At UN After Trump's Threat",
+          "url": "https://www.newsnationnow.com/video/us-and-iran-hold-talks-at-un-after-trump-threat-morning-in-america/12196862/",
+          "timestamp": 1790159563000,
+          "postedAt": 1790163926842
         }
       ]
     },
@@ -462,6 +445,12 @@
         "url": "https://www.cnn.com/2026/09/24/us/ice-us-citizen-detained-evanston",
         "timestamp": 1790240429000,
         "feature": true,
+        "postedAt": 1790250462626
+      },
+      {
+        "headline": "Speaker Johnson Calls For 'Resolution' Of Iran War",
+        "url": "https://thehill.com/homenews/house/6107442-mike-johnson-iran-war-resolution/",
+        "timestamp": 1790198580000,
         "postedAt": 1790250462626
       }
     ]
