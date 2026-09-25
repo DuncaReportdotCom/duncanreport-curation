@@ -1,0 +1,465 @@
+{
+  "lastUpdated": 1790335956137,
+  "heroSetDate": "2026-09-25",
+  "hero": {
+    "headline": "HOUTHIS CLAIM ATTACK ON RIYADH, ARAMCO FACILITY IN YANBU",
+    "url": "https://www.reuters.com/world/middle-east/houthis-say-they-attacked-riyadh-aramco-facilities-yanbu-2026-09-24/",
+    "sublinks": [
+      {
+        "text": "Saudi Arabia's Allies Rally Behind Riyadh As Houthi Attacks Escalate",
+        "url": "https://www.reuters.com/world/middle-east/allies-unite-behind-saudi-arabia-houthis-step-up-attacks-2026-09-25/"
+      },
+      {
+        "text": "Opinion: It's Time For Riyadh To 'Finish Off' The Houthis",
+        "url": "https://www.realclearworld.com/articles/2026/09/17/time_for_mbs_to_finish_off_the_houthis_1206604.html"
+      }
+    ],
+    "postedAt": 1790335956137,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "TRUMP HOSTS XI: WARM DINNER, HARD LINE ON TAIWAN",
+      "stories": [
+        {
+          "headline": "Trump Hosts Xi For State Dinner With Tech CEOs",
+          "url": "https://www.dw.com/en/donald-trump-hosts-xi-jinping-for-state-dinner-with-tech-titans/live-79404511",
+          "timestamp": 1790333389000,
+          "postedAt": 1790335956137
+        },
+        {
+          "headline": "Xi Calls On US To 'Oppose' Taiwan Independence As Trump Hails China As WWII Ally",
+          "url": "https://www.japantimes.co.jp/news/2026/09/25/asia-pacific/politics/trump-xi-taiwan-world-war-ii/",
+          "timestamp": 1790331525000,
+          "postedAt": 1790335956137
+        }
+      ]
+    },
+    {
+      "title": "UKRAINE WAR: STRIKES, SANCTIONS AND NEW WEAPONS",
+      "stories": [
+        {
+          "headline": "Poland Says Russia May Be Behind Starlink Arson Hitting Ukrainian Military",
+          "url": "https://www.breitbart.com/europe/2026/09/25/poland-says-russia-may-be-behind-arson-of-starlink-base-station/",
+          "timestamp": 1790332406000,
+          "postedAt": 1790335956137
+        },
+        {
+          "headline": "Trump Signs Sweeping New Russia Sanctions Into Law",
+          "url": "https://www.dw.com/en/trump-signs-broad-russia-sanctions-bill/a-79335115?maca",
+          "timestamp": 1790331368000,
+          "postedAt": 1790335956137
+        },
+        {
+          "headline": "Zelensky Says Trump Has Agreed To Grant Ukraine Patriot Missile License",
+          "url": "https://www.euronews.com/2026/09/25/trump-makes-final-decision-to-grant-ukraine-patriot-license-zelenskyy-says",
+          "timestamp": 1790327664000,
+          "postedAt": 1790335956137
+        },
+        {
+          "headline": "Russian Strikes Kill Eight Ukrainian Civilians As UN Debates War's End",
+          "url": "https://www.pbs.org/newshour/world/russian-strikes-kill-8-civilians-in-ukraine-as-un-debates-how-to-end-the-war",
+          "timestamp": 1790282053000,
+          "postedAt": 1790335956137
+        },
+        {
+          "headline": "Zelensky Says Ukraine Sent Two North Korean POWs To South Korea",
+          "url": "https://apnews.com/article/south-korea-ukraine-zelenskyy-north-korea-pows-4ad738b6b9ceb30cad12cef70058aa6e",
+          "timestamp": 1790217000000,
+          "postedAt": 1790249465333
+        },
+        {
+          "headline": "Russia Pounds Kyiv With Drone Strikes As Zelensky Addresses UN",
+          "url": "https://www.reuters.com/world/europe/russia-hits-kyiv-petrol-stations-kills-one-2026-09-23/",
+          "timestamp": 1790202803000,
+          "postedAt": 1790249465333
+        },
+        {
+          "headline": "How Ukraine's Drone Campaign Brought War To Russia's Doorstep",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-drone-attacks-russia-oil-refineries-putin-b3054686.html",
+          "timestamp": 1790141340000,
+          "postedAt": 1790162865322
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR: WASHINGTON AND TEHRAN AT AN IMPASSE",
+      "stories": [
+        {
+          "headline": "UAE Bars Iranian Airlines As US Sanctions Squeeze Tehran's Aviation Sector",
+          "url": "https://www.aljazeera.com/economy/2026/9/25/uae-bars-iranian-airlines-as-us-sanctions-squeeze-irans-aviation-sector",
+          "timestamp": 1790295993000,
+          "postedAt": 1790335956137
+        },
+        {
+          "headline": "Iran's President Says It's Up To US To Choose To End The War",
+          "url": "https://www.reuters.com/world/middle-east/irans-president-says-it-is-up-us-choose-if-it-wants-end-iran-war-2026-09-24/",
+          "timestamp": 1790293355000,
+          "postedAt": 1790335956137
+        },
+        {
+          "headline": "Senate Republicans Block Democratic Push To End Iran War",
+          "url": "https://www.theguardian.com/us-news/2026/sep/24/senate-war-powers-vote-fail",
+          "timestamp": 1790276760000,
+          "postedAt": 1790335956137
+        }
+      ]
+    },
+    {
+      "title": "ASIAN GAMES: WORLD RECORDS FALL",
+      "stories": [
+        {
+          "headline": "Gymnast Carlos Yulo Completes Full Gold Collection At Asian Games",
+          "url": "https://www.rfi.fr/en/sports/20260924-olympic-champion-yulo-completes-gymnastics-gold-collection-at-asian-games",
+          "timestamp": 1790247154000,
+          "postedAt": 1790249465333
+        },
+        {
+          "headline": "Japan's Ohashi Smashes 200m Breaststroke World Record For Gold",
+          "url": "https://www.straitstimes.com/sport/japans-ohashi-smashes-200m-breaststroke-world-record-for-asian-games-gold",
+          "timestamp": 1790241960000,
+          "postedAt": 1790249465333
+        }
+      ]
+    },
+    {
+      "title": "ETHIOPIA-TIGRAY TENSIONS ESCALATE TOWARD NEW WAR",
+      "stories": [
+        {
+          "headline": "EU Calls For 'De-Escalation' As Tigray Clashes Intensify",
+          "url": "https://www.rfi.fr/en/africa/20260924-eu-calls-for-de-escalation-as-tigray-rebels-clash-with-ethiopian-forces",
+          "timestamp": 1790242982000,
+          "postedAt": 1790249465333
+        },
+        {
+          "headline": "Ethiopia And Tigray Forces Trade Blame Over New Offensives",
+          "url": "https://www.bbc.com/news/articles/cry8zwwq21pxo",
+          "timestamp": 1790224667000,
+          "postedAt": 1790249465333
+        }
+      ]
+    },
+    {
+      "title": "CHAGOS ISLANDS DEAL IN DOUBT",
+      "stories": [
+        {
+          "headline": "Minister Says Chagos Deal 'Can't Go Ahead' Without US Support",
+          "url": "https://www.theguardian.com/world/2026/sep/23/chagos-islands-diego-garcia-streeting-us-support",
+          "timestamp": 1790158380000,
+          "postedAt": 1790162865322
+        },
+        {
+          "headline": "UK Reviews Chagos Islands Deal After Trump Calls It 'Terrible'",
+          "url": "https://www.politico.eu/article/uk-donald-trump-chagos-islands-deal-wes-streeting-diego-garcia/",
+          "timestamp": 1790158260000,
+          "postedAt": 1790162865322
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Poland Halts Asylum Claims At Belarus Border, Urges Europe To Follow",
+        "url": "https://abcnews.com/Business/wireStory/poland-halted-asylum-claims-belarus-border-now-europe-136744786",
+        "timestamp": 1790319673000,
+        "postedAt": 1790335956137,
+        "image": "/img/world-7.jpg"
+      },
+      {
+        "headline": "Tata Sons: The Rules, The Rift And What Happens Next",
+        "url": "https://www.reuters.com/legal/transactional/tata-sons-rules-rift-what-happens-next-2026-09-25/",
+        "timestamp": 1790331389000,
+        "postedAt": 1790335956137
+      },
+      {
+        "headline": "Storm Menaces Japan After Highest Cyclone Tally Since 1966",
+        "url": "https://www.japantimes.co.jp/news/2026/09/25/japan/tropical-storm-surigae-japan/",
+        "timestamp": 1790328720000,
+        "photo": true,
+        "postedAt": 1790335956137,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Danish Intelligence Warns Russia Could Attack A NATO Country Within Months",
+        "url": "https://www.cnbc.com/2026/09/25/russia-ukraine-war-nato-denmark-putin.html",
+        "timestamp": 1790324767000,
+        "feature": true,
+        "postedAt": 1790335956137,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "Netanyahu Set To Rebuke New York's Mamdani In UN Address",
+        "url": "https://www.reuters.com/world/middle-east/netanyahu-expected-berate-new-yorks-mamdani-campaign-speech-un-address-2026-09-24/",
+        "timestamp": 1790243435000,
+        "postedAt": 1790249465333
+      },
+      {
+        "headline": "Pope Leo Voices Concern Over Risk Of AI 'Apocalypse'",
+        "url": "https://www.reuters.com/business/pope-leo-risk-an-ai-apocalypse-is-major-concern-2026-09-24/",
+        "timestamp": 1790244562000,
+        "photo": true,
+        "postedAt": 1790249465333
+      },
+      {
+        "headline": "EU Alarmed As Chinese Hybrid Car Sales Surge In Europe",
+        "url": "https://www.theguardian.com/business/2026/sep/24/eu-sales-chinese-hybrid-cars-rocket",
+        "timestamp": 1790244060000,
+        "postedAt": 1790249465333
+      },
+      {
+        "headline": "6-Year-Old Sets New Rubik's Cube World Record",
+        "url": "https://www.redlakenationnews.com/story/2026/09/24/features/6-year-old-sets-rubiks-cube-world-record/143045.html",
+        "timestamp": 1790217600000,
+        "photo": true,
+        "postedAt": 1790249465333
+      },
+      {
+        "headline": "Milei Renews Argentina's Falklands Claim At The UN",
+        "url": "https://apnews.com/article/united-nations-general-assembly-milei-argentina-britain-falklands-64f19bec568a6e783263d2dbd55a2e7e",
+        "timestamp": 1790184139000,
+        "photo": true,
+        "postedAt": 1790249465333
+      },
+      {
+        "headline": "Six Arrested At UK Rally Against Migrant Boat Held At Sea For Hours",
+        "url": "https://www.euronews.com/2026/09/23/uk-police-arrest-six-at-protest-against-migrant-boat-that-spent-36-hours-at-sea",
+        "timestamp": 1790157599000,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "EU Commission Seeks To Release Hungary's Frozen Funds",
+        "url": "https://www.politico.eu/article/commission-proposed-unlocking-funding-for-hungary-frozen-under-orban/",
+        "timestamp": 1790162212000,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "Trump Meets US-Backed Venezuelan President For First Time Since Maduro Ousted",
+        "url": "https://www.bbc.com/news/articles/cj207y30wp0lo",
+        "timestamp": 1790156930000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "Canada: Ex-Soldier Opens Fire At Synagogue On Yom Kippur, Wounds Officer",
+        "url": "https://nypost.com/2026/09/22/world-news/ex-canadian-soldier-opens-fire-at-synagogue-on-yom-kippur-wounds-cop-in-possible-antisemitic-attack-officials/",
+        "timestamp": 1790121420000,
+        "photo": true,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "UN Chief Warns Superpowers Cannot Solve World's Problems In Final Address",
+        "url": "https://www.theguardian.com/world/2026/sep/22/un-chief-antonio-guterres-final-general-assembly-address",
+        "timestamp": 1790115900000,
+        "photo": true,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "Houthis Push Deeper Into Western Yemen, Upending Civilian Life",
+        "url": "https://www.npr.org/2026/09/22/g-s1-144261/yemen-houthis-saudi-iran-humanitarian-crisis",
+        "timestamp": 1790074777000,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "Ban On CNN, MS NOW And Politico Access Struck Down",
+        "url": "https://www.afp.com/en/us-judge-blocks-white-house-ban-cnn-ms-now-politico",
+        "timestamp": 1790241736000,
+        "postedAt": 1790249465333
+      }
+    ],
+    "center": [
+      {
+        "headline": "NATO SCRAMBLES JETS AFTER RUSSIAN HELICOPTER VIOLATES POLISH AIRSPACE",
+        "url": "https://www.breitbart.com/europe/2026/09/24/nato-jets-scrambled-after-russian-helicopter-enters-polish-airspace/",
+        "timestamp": 1790249465333,
+        "postedAt": 1790249465333
+      },
+      {
+        "headline": "Volkswagen, Audi To Recall Nearly A Million Cars In Germany",
+        "url": "https://www.dw.com/en/volkswagen-audi-to-recall-almost-1-million-cars-in-germany/a-79426960",
+        "timestamp": 1790329414000,
+        "photo": true,
+        "postedAt": 1790335956137
+      },
+      {
+        "headline": "Explosion Collapses Building In Athens, Injuring Three",
+        "url": "https://www.reuters.com/world/building-partially-collapses-after-explosion-central-athens-one-person-2026-09-25/",
+        "timestamp": 1790327595000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1790335956137
+      },
+      {
+        "headline": "Nepal Seeks Grants, Not Loans, For Flood Recovery After Glacier Disaster",
+        "url": "https://www.reuters.com/business/environment/nepal-seeks-grants-not-loans-flood-recovery-after-deadly-glacier-disaster-2026-09-25/",
+        "timestamp": 1790301960000,
+        "postedAt": 1790335956137
+      },
+      {
+        "headline": "What Is A 'Super El Niño' And How Would It Alter Weather?",
+        "url": "https://www.reuters.com/business/environment/what-is-super-el-nio-how-will-it-affect-weather-2026-09-24/",
+        "timestamp": 1790242458000,
+        "postedAt": 1790249465333
+      },
+      {
+        "headline": "Viking Leader Eyes Rivals Ahead Of The Everest Defense",
+        "url": "https://www.straitstimes.com/sport/racing/viking-leader-can-put-rivals-to-the-sword",
+        "timestamp": 1790242200000,
+        "photo": true,
+        "postedAt": 1790249465333,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "Amazon Bets $3 Billion On India's Fast-Delivery Boom",
+        "url": "https://www.reuters.com/business/retail-consumer/amazon-bets-3-billion-indias-fast-delivery-boom-sources-say-2026-09-24/",
+        "timestamp": 1790241838000,
+        "postedAt": 1790249465333
+      },
+      {
+        "headline": "Cuba Hit By Another Nationwide Blackout Amid US Fuel Blockade",
+        "url": "https://www.dw.com/en/cuba-faces-another-nationwide-blackout-amid-us-fuel-blockade/a-79335396?maca",
+        "timestamp": 1790241092000,
+        "photo": true,
+        "postedAt": 1790249465333
+      },
+      {
+        "headline": "Tigrayan Forces Seize Ethiopian Airport, Airlines Suspend Flights",
+        "url": "https://www.reuters.com/world/africa/ethiopian-airlines-suspends-flights-tigray-region-2026-01-07/",
+        "timestamp": 1790158954000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "Europe's Economy Proves Resilient Despite War-Driven Energy Shock",
+        "url": "https://www.reuters.com/business/euro-zone-business-activity-posts-surprise-upturn-september-pmi-shows-2026-09-23/",
+        "timestamp": 1790157037000,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "Mass Shooting At South African House Party Kills 11, Including Pregnant Woman",
+        "url": "https://apnews.com/article/south-africa-house-party-shooting-91416626e0cf789bf2f801061bb8b46a",
+        "timestamp": 1790153640000,
+        "photo": true,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "South Sudan's Kiir Dissolves Government Ahead Of First National Elections",
+        "url": "https://www.aljazeera.com/news/2026/9/23/south-sudan-dissolves-government-ahead-of-first-ever-national-elections",
+        "timestamp": 1790128915000,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "US And China Hold First AI Dialogue Amid Tech Tensions",
+        "url": "https://www.scmp.com/economy/policy/article/3368653/china-us-hold-first-ai-dialogue-amid-mounting-tech-tensions-commerce-ministry",
+        "timestamp": 1790241627000,
+        "postedAt": 1790249465333
+      },
+      {
+        "headline": "600,000 Faithful Expected To Flood Paris For Pope's Open-Air Mass",
+        "url": "https://www.breitbart.com/europe/2026/09/25/over-600000-faithful-expected-at-pope-leo-xivs-large-open-air-mass-in-paris/",
+        "timestamp": 1790326977000,
+        "postedAt": 1790335956137,
+        "image": "/img/world-5.jpg"
+      }
+    ],
+    "right": [
+      {
+        "headline": "Canada: Police Rule Ontario Synagogue Shootout A Hate-Motivated Crime",
+        "url": "https://www.breitbart.com/europe/2026/09/25/canada-police-rule-shootout-outside-ontario-synagogue-as-hate-motivated/",
+        "timestamp": 1790331359000,
+        "photo": true,
+        "postedAt": 1790335956137,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Austria's Yodelling Tradition Goes Underground In Graz",
+        "url": "https://www.africanews.com/amp/2026/09/25/austria-yodelling-tradition-goes-underground-in-graz/",
+        "timestamp": 1790328602000,
+        "postedAt": 1790335956137
+      },
+      {
+        "headline": "Calls Grow To Remove Pink As UNICEF Ambassador Over Macklemore Criticism",
+        "url": "https://www.timesofisrael.com/calls-grow-to-remove-pink-as-unicef-ambassador-over-her-criticism-of-macklemore/",
+        "timestamp": 1790327893000,
+        "postedAt": 1790335956137
+      },
+      {
+        "headline": "Italy: Meloni Government Bans Burqas, Caps Foreign Students In Schools",
+        "url": "https://www.aljazeera.com/news/2026/9/25/meloni-government-bans-burqas-caps-foreign-students-in-italian-schools",
+        "timestamp": 1790302238000,
+        "photo": true,
+        "postedAt": 1790335956137,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "US AND IRANIAN OFFICIALS MEET IN NEW YORK TO DISCUSS ENDING WAR",
+        "url": "https://www.axios.com/2026/09/22/unga-iran-us-trump-war",
+        "timestamp": 1790162865322,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "Nine Kazakh Soldiers Dead After Being Swept Out To Sea In Drills",
+        "url": "https://www.reuters.com/world/asia-pacific/nine-kazakh-military-personnel-dead-after-being-washed-out-sea-during-exercises-2026-09-24/",
+        "timestamp": 1790241866000,
+        "photo": true,
+        "postedAt": 1790249465333
+      },
+      {
+        "headline": "Erdogan Tells Zelensky Black Sea Attacks Are 'Inexplicable'",
+        "url": "https://www.reuters.com/world/middle-east/turkeys-erdogan-tells-ukraines-zelenskiy-that-black-sea-attacks-are-inexplicable-2026-09-24/",
+        "timestamp": 1790225100000,
+        "photo": true,
+        "postedAt": 1790249465333
+      },
+      {
+        "headline": "Spain: Protests Erupt After Elderly Woman Forcibly Evicted",
+        "url": "https://www.euronews.com/2026/09/23/forced-eviction-of-87-year-old-maricarmen-despite-un-appeal-causes-outrage-in-spain",
+        "timestamp": 1790192653000,
+        "photo": true,
+        "postedAt": 1790249465333,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "Netanyahu Slams Macron's 'Grotesque' Claim That Hamas Never Operated In West Bank",
+        "url": "https://www.timesofisrael.com/netanyahu-decries-macrons-grotesque-claim-that-hamas-never-operated-in-west-bank/",
+        "timestamp": 1790158419000,
+        "photo": true,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "France: Holocaust Denier Jailed For Denying Nazi Gas Chambers",
+        "url": "https://www.timesofisrael.com/french-holocaust-denier-jailed-for-denying-nazi-gas-chambers-saying-jews-spread-disease/",
+        "timestamp": 1790156987000,
+        "photo": true,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "Swiss Lawmakers Back 90% Capital Plan In Blow To UBS",
+        "url": "https://www.reuters.com/business/finance/swiss-upper-house-backs-90-cet1-capital-backing-ubs-foreign-units-2026-09-23/",
+        "timestamp": 1790155434000,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "Estonia Shuts Border As Fears Grow Over Russian Invasion Of NATO",
+        "url": "https://www.newsweek.com/how-putins-invasion-of-nato-could-unfold-as-estonia-border-closed-12471982",
+        "timestamp": 1790091960000,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "Zelenskyy Proposes Energy Ceasefire, Seeks Trilateral Meeting With Putin And Trump",
+        "url": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html",
+        "timestamp": 1790150390000,
+        "postedAt": 1790162865322
+      },
+      {
+        "headline": "Judge Blocks Trump's White House Media Ban, Orders Access Restored",
+        "url": "https://www.reuters.com/world/judge-lifts-trumps-white-house-ban-cnn-ms-now-politico-2026-09-24/",
+        "timestamp": 1790247634000,
+        "feature": true,
+        "postedAt": 1790249465333
+      }
+    ]
+  }
+}

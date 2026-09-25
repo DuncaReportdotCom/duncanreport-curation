@@ -1,0 +1,527 @@
+{
+  "lastUpdated": 1790336395462,
+  "heroSetDate": "2026-09-25",
+  "hero": {
+    "headline": "TREASURY YIELD SURGE COOLS AS GLOBAL BOND SELLOFF EASES, STOCKS SET TO RISE",
+    "url": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html",
+    "sublinks": [
+      {
+        "text": "US Mortgage Rates Top 7% For First Time In 20 Months",
+        "url": "https://www.theguardian.com/business/2026/sep/24/mortgage-rates-housing-market"
+      },
+      {
+        "text": "Bond Market Is Screaming — Why Aren't Stocks Listening?",
+        "url": "https://www.zerohedge.com/the-market-ear/bond-market-screaming-why-arent-stocks-listening"
+      },
+      {
+        "text": "Morgan Stanley Reverses Its Bearish Call On The Dollar",
+        "url": "https://www.marketwatch.com/story/we-were-wrong-why-morgan-stanley-changed-its-tune-on-the-u-s-dollar-and-what-it-expects-now-7826fb96"
+      },
+      {
+        "text": "Asian Stocks Slide As Bond Selloff Persists Despite Trump-Xi Summit",
+        "url": "https://www.investing.com/news/stock-market-news/asia-stocks-slip-as-bond-selloff-weighs-trumpxi-summit-offers-little-relief-4916561"
+      }
+    ],
+    "postedAt": 1790336395462,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "OIL PRICES AND DIESEL CRISIS DEEPEN AMID IRAN TENSIONS",
+      "stories": [
+        {
+          "headline": "Brent Crude Climbs Above $105 On US-Iran Escalation Fears",
+          "url": "https://uk.finance.yahoo.com/news/brent-climbs-above-101-us-094207011.html",
+          "timestamp": 1790242260000,
+          "feature": true,
+          "postedAt": 1790249904639
+        },
+        {
+          "headline": "White House Weighs Diesel Export Ban Despite Industry Warnings",
+          "url": "https://www.politico.com/news/2026/09/23/white-house-ban-diesel-01089294",
+          "timestamp": 1790241211000,
+          "postedAt": 1790249904639
+        },
+        {
+          "headline": "Louisiana Declares Emergency Over Record Diesel Prices",
+          "url": "https://www.wafb.com/2026/09/23/landry-declares-emergency-help-farmers-loggers-cope-with-record-diesel-prices/",
+          "timestamp": 1790178360000,
+          "postedAt": 1790249904639
+        },
+        {
+          "headline": "Oil Executives Declare Fuel Crisis As Diesel Shortage Bites",
+          "url": "https://www.thestreet.com/economy/fuel-crisis-diesel-prices",
+          "timestamp": 1790150580000,
+          "postedAt": 1790249904639
+        },
+        {
+          "headline": "EU Launches Diplomatic Offensive To Stop Trump's Diesel Export Ban",
+          "url": "https://www.politico.eu/article/eu-launches-diplomatic-offensive-to-stop-trumps-diesel-export-ban/",
+          "timestamp": 1790251800000,
+          "postedAt": 1790336395462
+        },
+        {
+          "headline": "Energy Secretary Wright Says Diesel Export Ban Won't Work",
+          "url": "https://www.reuters.com/legal/litigation/us-energy-secretary-wright-says-diesel-export-ban-would-not-work-2026-09-23/",
+          "timestamp": 1790201142000,
+          "postedAt": 1790336395462
+        }
+      ]
+    },
+    {
+      "title": "CHIP STOCKS RIDE THE AI WAVE: MICRON, NVIDIA IN FOCUS",
+      "stories": [
+        {
+          "headline": "Micron Stock Is Up Over 260%. Where It May Be Heading Next",
+          "url": "https://www.forbes.com/sites/investor-hub/article/micron-technology-stock-up-over-260-where-is-it-heading-next/",
+          "timestamp": 1790159400000,
+          "postedAt": 1790163345035
+        },
+        {
+          "headline": "Two Undervalued Semiconductor Stocks To Watch Amid AI Growth Skepticism",
+          "url": "https://global.morningstar.com/en-nd/stocks/2-undervalued-semiconductor-stocks-watch-while-market-is-skeptical-ai-growth",
+          "timestamp": 1790143580000,
+          "postedAt": 1790163345035
+        },
+        {
+          "headline": "Micron Surges Past Early Buy Point With Earnings Ahead",
+          "url": "https://www.fxleaders.com/news/2026/09/22/micron-q4-earnings-preview-can-memory-demand-sustain-the-mu-stock-rally-as-profit-expectations-surge/",
+          "timestamp": 1790108460000,
+          "postedAt": 1790163345035
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Florida's Private Train Brightline Goes Bankrupt Overrun By Debt",
+        "url": "https://www.inc.com/kevin-haynes/brightline-reportedly-nearing-bankruptcy-1-decision-could-keep-trains-running/91409860",
+        "timestamp": 1790326828000,
+        "photo": true,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "Bitget Says $351 Million Affected In Breach, Halts Withdrawals",
+        "url": "https://thedefiant.io/news/cefi/bitget-disables-withdrawals-165-million-one-address-four-chains",
+        "timestamp": 1790318940000,
+        "feature": true,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "Starbucks To Close 250 Stores This Week",
+        "url": "https://finance.yahoo.com/markets/stocks/article/starbucks-to-close-250-stores-this-week-155846029.html",
+        "timestamp": 1790286027000,
+        "photo": true,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "MGM Resorts Eyeing Bid For Barry Diller's People Incorporated",
+        "url": "https://tvnewscheck.com/business/article/mgm-resorts-eyeing-bid-for-barry-dillers-people-incorporated/",
+        "timestamp": 1790285880000,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "Hyundai Expected To Outsell Ford In Q3 As Detroit Lacks Hybrids",
+        "url": "https://www.cnbc.com/2026/09/24/hyundai-set-to-outsell-ford-in-q3-as-detroit-automakers-lack-hybrids.html",
+        "timestamp": 1790262019000,
+        "photo": true,
+        "postedAt": 1790336395462,
+        "image": "/img/markets-2.jpg"
+      },
+      {
+        "headline": "Fed Holds Interest Rates Steady As Inflation Hits 3-Year High",
+        "url": "https://abcnews.com/Business/fed-set-make-interest-rate-decision-inflation-hits/story?id",
+        "timestamp": 1790221926000,
+        "feature": true,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "Zuckerberg Says Meta's Muse AI Agent Will Take A Transaction Fee",
+        "url": "https://finance.yahoo.com/technology/article/metas-zuckerberg-says-muse-ai-agent-will-take-a-small-fee-from-transactions-234639802.html",
+        "timestamp": 1790207199000,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "Merck's Remigromig Meets Primary Endpoint In Phase 2b/3 Trial",
+        "url": "https://www.marketwatch.com/story/merck-phase-2b-3-trial-for-remigromig-meets-primary-endpoint-010e9e34?mod",
+        "timestamp": 1790248320000,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "Global Debt Tops $365 Trillion As Economists Warn Of 'Vicious Cycle'",
+        "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html",
+        "timestamp": 1790236045000,
+        "feature": true,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "FDA Panel Backs Blood Tests As Cancer Screening Breakthrough",
+        "url": "https://firstwordpharma.com/story/8092506",
+        "timestamp": 1790203440000,
+        "photo": true,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "McDonald's To Spend $8.5 Billion Revamping Restaurants And Tech",
+        "url": "https://www.foxbusiness.com/markets/mcdonalds-spend-8-5b-revamping-restaurants-tech-franchise-support",
+        "timestamp": 1790189820000,
+        "photo": true,
+        "postedAt": 1790249904639,
+        "image": "/img/markets-4.jpg"
+      },
+      {
+        "headline": "Nike Founder Phil Knight Donates $1 Billion To University Of Oregon",
+        "url": "https://www.forbes.com/sites/michaeltnietzel/2026/09/23/phil-and-penny-knight-donate-1-billion-to-the-university-of-oregon/",
+        "timestamp": 1790165658000,
+        "photo": true,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "Hackers Say They Breached FBI, Stole Data On Bureau Employees",
+        "url": "https://nypost.com/2026/09/22/tech/shinyhunters-hackers-say-they-breached-fbi-stole-data-on-bureau-employees/",
+        "timestamp": 1790113560000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Bitcoin's Latest Move Echoes A Rare Pattern Last Seen In 2012",
+        "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-on-a-streak-it-hasn-t-hit-since-2012",
+        "timestamp": 1790151045000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Big Tech's Cash Flow Seen Tripling To $2 Trillion As AI Bets Grow",
+        "url": "https://finance.yahoo.com/markets/article/the-future-of-ai-growth-rests-on-big-techs-cash-flow-tripling-to-2-trillion-chart-of-the-day-100000169.html",
+        "timestamp": 1790158165000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Chinese Car Brands Hit Record European Market Share On Hybrid Sales",
+        "url": "https://ca.finance.yahoo.com/news/chinese-car-brands-hit-record-040000142.html",
+        "timestamp": 1790152155000,
+        "photo": true,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Nvidia-Backed AI Startup Seeks $10 Billion Ahead Of Australian IPO",
+        "url": "https://theedgemalaysia.com/node/819066",
+        "timestamp": 1790149572000,
+        "feature": true,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Microsoft To Give DARPA Hands-On Access To Quantum System In Maryland",
+        "url": "https://www.reuters.com/business/microsoft-give-darpa-hands-on-access-to-quantum-system-new-maryland-site-2026-09-22/",
+        "timestamp": 1790107665000,
+        "photo": true,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Oracle Invokes 'Force Majeure' On Data Center, Sinking Its Stock",
+        "url": "https://www.reuters.com/business/oracle-cites-force-majeure-shield-itself-controversial-data-center-bloomberg-2026-09-24/",
+        "timestamp": 1790284320000,
+        "postedAt": 1790336395462
+      }
+    ],
+    "center": [
+      {
+        "headline": "TREASURY YIELDS SURGE TO MULTIYEAR HIGHS, STOCK FUTURES SINK AS XI ARRIVES FOR TRUMP SUMMIT",
+        "url": "https://www.cnbc.com/2026/09/23/stock-market-today-live-updates.html",
+        "timestamp": 1790249904639,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "Trump Shared Concerns Over Weak Yen With Japan's Takaichi",
+        "url": "https://www.japantimes.co.jp/business/2026/09/25/trump-concern-weak-yen-takaichi/",
+        "timestamp": 1790330527000,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "US Backs Elon Musk's Bid To Overturn €120M EU Fine Against X",
+        "url": "https://www.bbc.com/news/articles/cq0m373ee0v0o",
+        "timestamp": 1790329713000,
+        "photo": true,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "Warren Buffett's Sobering 4-Word Farewell Message To Investors",
+        "url": "https://www.fool.com/investing/2026/09/25/warren-buffett-is-saying-farewell-with-a-sobering/",
+        "timestamp": 1790329500000,
+        "photo": true,
+        "postedAt": 1790336395462,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Airbus Offers Divestments To Secure Brussels Backing For Space Merger",
+        "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45G1FM:0-airbus-offers-divestments-to-secure-brussels-backing-for-space-merger-ft/",
+        "timestamp": 1790328327000,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "Tech Leaders Who Attended Trump's Dinner For Xi — And One Notable Absence",
+        "url": "https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/",
+        "timestamp": 1790322994000,
+        "photo": true,
+        "postedAt": 1790336395462,
+        "image": "/img/markets-1.jpg"
+      },
+      {
+        "headline": "IonQ Stock Surges After Quantum Computing Deal With Nvidia",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-ionq-stock-today-003505638.html",
+        "timestamp": 1790198700000,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "Clarity Act Fails In Senate, Clouding Crypto Industry's 2027 Outlook",
+        "url": "https://www.fool.com/investing/2026/09/24/the-clarity-act-fails-to-pass-in-senate-heres-the/",
+        "timestamp": 1790247361000,
+        "feature": true,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "Elizabeth Holmes To Transfer To Halfway House In August 2027",
+        "url": "https://nypost.com/2026/09/23/us-news/theranos-fraudster-elizabeth-holmes-set-to-move-into-halfway-house-report/",
+        "timestamp": 1790222034000,
+        "photo": true,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "YouTube Promises Custom Feeds And More AI Later This Year",
+        "url": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/",
+        "timestamp": 1790192153000,
+        "photo": true,
+        "postedAt": 1790249904639,
+        "image": "/img/markets-3.jpg"
+      },
+      {
+        "headline": "Bentley Tests Wealthy Buyers' Appetite For Its First EV",
+        "url": "https://www.reuters.com/business/retail-consumer/bentley-tests-wealthy-buyers-interest-going-electric-with-first-ev-2026-09-23/",
+        "timestamp": 1790187840000,
+        "photo": true,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "Behind The Blunder That Halted Newark Airport - And Why It Could Recur",
+        "url": "https://www.nj.com/news/2026/09/behind-the-oops-that-brought-newark-airport-to-a-screeching-halt-and-why-it-could-happen-again.html",
+        "timestamp": 1790162520000,
+        "photo": true,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "Worries About AI 'Internet Takeover' Gain New Urgency In Doomsday Scenarios",
+        "url": "https://apnews.com/article/ai-hugging-face-swarm-internet-takeover-amodei-0053ba1b6c8144b2927d2501be9eb919",
+        "timestamp": 1790136000000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "The Battle Between The Fed And Trump Intensifies",
+        "url": "https://www.trtworld.com/article/3cd098ea7d66",
+        "timestamp": 1790156770000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "SoftBank Starts Jumbo High-Yield Bond Sale To Finance AI Push",
+        "url": "https://www.moneycontrol.com/news/business/softbank-starts-jumbo-high-yield-bond-sale-to-finance-ai-push-14035974.html",
+        "timestamp": 1790155579000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Wall Street Says It's Time To Buy This Lagging Oil Giant",
+        "url": "https://www.marketwatch.com/story/this-oil-giant-has-lagged-its-leading-rivals-through-two-energy-crises-now-one-wall-street-giant-says-its-time-to-buy-987838c3",
+        "timestamp": 1790151840000,
+        "photo": true,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Chinese AI Firms Fall On Report Of DeepSeek, Moonshot Probe",
+        "url": "https://finance.yahoo.com/technology/ai/articles/chinese-ai-firms-fall-report-050044060.html",
+        "timestamp": 1790148644000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Tennessee School Buses Grind To Halt Under Trump Fuel Policy",
+        "url": "https://www.alternet.org/trump-tennessee-diesel-prices/",
+        "timestamp": 1790170320000,
+        "postedAt": 1790249904639
+      }
+    ],
+    "right": [
+      {
+        "headline": "UK: Banks Tap Billions In BOE Repo Cash To Profit On Bond Trades",
+        "url": "https://www.indiaipo.in/news/detail/rbi-bond-sales-fx-intervention-help-halve-indias-cash-overhang",
+        "timestamp": 1790328009000,
+        "postedAt": 1790336395462,
+        "image": "/img/markets-7.jpg"
+      },
+      {
+        "headline": "12 Takeaways From Ousted Disney CEO Bob Chapek's New Book",
+        "url": "https://variety.com/2026/film/news/takeaways-bob-chapek-book-ousted-disney-ceo-1236875084/",
+        "timestamp": 1790296920000,
+        "photo": true,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "Costco Reports Higher Q4 Profit, Revenue On Resilient Consumer Spending",
+        "url": "https://www.moomoo.com/news/post/1000199400/costco-reports-higher-4q-profit-revenue-on-resilient-consumer-spending",
+        "timestamp": 1790289660000,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "One Blood Test Could Screen For 50 Cancers. Here's Why It's Controversial",
+        "url": "https://www.inc.com/chloe-aiello/this-controversial-cancer-test-just-passed-a-key-fda-vote-heres-why-its-dividing-experts/91410446",
+        "timestamp": 1790265600000,
+        "photo": true,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "Micron's Rally Looks Overdone Until You Price In The Memory Shortage",
+        "url": "https://www.trefis.com/stock/mu/articles/616418/microns-rally-looks-overdone-until-you-price-the-memory-shortage/2026-09-24",
+        "timestamp": 1790258331000,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "STOCKS MIXED AS NASDAQ NOTCHES FRESH RECORD AHEAD OF TRUMP-XI SUMMIT",
+        "url": "https://www.cnbc.com/2026/09/22/stock-market-today-live-updates.html",
+        "timestamp": 1790163345035,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Trump Sold Tens Of Millions In AI And Tech Shares, Led By Microsoft",
+        "url": "https://www.scmp.com/tech/article/3368525/trump-offloads-tens-millions-ai-tech-shares-led-microsoft-amazon-meta",
+        "timestamp": 1790166607000,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "167,000 Pounds Of Mislabeled Meat Recalled Nationwide",
+        "url": "https://www.cnn.com/2026/09/24/us/meat-recall-usda-star-meat-delivery-hnk",
+        "timestamp": 1790237147000,
+        "photo": true,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "The AI Build-Out Is Becoming America's Biggest Economic Bet Ever",
+        "url": "https://thecurrency.news/articles/240676/the-ai-build-out-is-becoming-the-biggest-economic-bet-in-u-s-history/",
+        "timestamp": 1790211600000,
+        "feature": true,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "Walmart Pasta Recalled Nationwide Over Safety Concern",
+        "url": "https://www.usatoday.com/story/money/consumer-protection/recalls-alerts/2026/09/23/pasta-sold-walmart-locations-nationwide-recalled/91906130007/",
+        "timestamp": 1790190420000,
+        "photo": true,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "Gen Z's Iced Coffee Habit In Interviews Could Be Costing Them Jobs",
+        "url": "https://fortune.com/2026/09/23/recruiters-say-gen-z-could-be-hurting-chances-landing-a-job-showing-up-interviews-with-iced-coffee-isnt-really-about-coffee/",
+        "timestamp": 1790179980000,
+        "photo": true,
+        "postedAt": 1790249904639,
+        "image": "/img/markets-5.jpg"
+      },
+      {
+        "headline": "Fed Warns Of Coming 'Reckoning' For Savings Account Holders",
+        "url": "https://finance.yahoo.com/economy/policy/articles/federal-delivers-warning-americans-savings-103500121.html",
+        "timestamp": 1790159700000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Walmart Recalls Popular Frozen Item Over Possible Listeria Risk",
+        "url": "https://www.foxbusiness.com/lifestyle/check-your-freezer-popular-walmart-item-recalled-over-possible-listeria-risk",
+        "timestamp": 1790122980000,
+        "photo": true,
+        "postedAt": 1790163345035,
+        "image": "/img/markets-6.jpg"
+      },
+      {
+        "headline": "OpenAI Wants Elite Mathematicians' Help To Avoid Fumbling Again",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+        "timestamp": 1790122620000,
+        "postedAt": 1790163345035
+      },
+      {
+        "headline": "Mortgage Rates Top 7% For First Time In Over Two Years",
+        "url": "https://www.cbsnews.com/news/mortgage-rates-top-7-percent-mba/",
+        "timestamp": 1790172600000,
+        "postedAt": 1790249904639
+      },
+      {
+        "headline": "Top Endowment Chief Warns OpenAI And Anthropic Face Big Trouble",
+        "url": "https://tradersunion.com/news/financial-news/show/3495431-washington-endowment-questions-openai-anthropic-economics/",
+        "timestamp": 1790326888000,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "JPMorgan Sends Strong Signal To Meta Stock Investors",
+        "url": "https://www.thestreet.com/investing/stocks/jpmorgan-sends-strong-message-to-meta-stock-investors",
+        "timestamp": 1790292780000,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "Akamai Signs $11.6 Billion Cloud Deal With Anthropic, Takes Equity Stake",
+        "url": "https://www.reuters.com/technology/akamai-anthropic-sign-116-billion-cloud-services-deal-2026-09-24/",
+        "timestamp": 1790290543000,
+        "postedAt": 1790336395462
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,704.13",
+      "change": "-1.90",
+      "changePct": "-0.02%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "51,349.98",
+      "change": "-161.62",
+      "changePct": "-0.31%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "26,939.37",
+      "change": "+3.34",
+      "changePct": "+0.01%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr",
+      "value": "5.16%",
+      "change": "+0.05",
+      "changePct": "+0.94%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$4,342.00",
+      "change": "+44.00",
+      "changePct": "+1.02%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil",
+      "value": "$92.49",
+      "change": "-2.12",
+      "changePct": "-2.24%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$84,827.31",
+      "change": "+449.18",
+      "changePct": "+0.53%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}
