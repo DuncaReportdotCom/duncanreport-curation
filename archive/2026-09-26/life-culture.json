@@ -1,28 +1,28 @@
 {
-  "lastUpdated": 1790380781440,
-  "heroSetDate": "2026-09-25",
+  "lastUpdated": 1790424221275,
+  "heroSetDate": "2026-09-26",
   "hero": {
-    "headline": "SCIENTISTS DISCOVER NEW DINOSAUR SPECIES DEEP IN SAHARA DESERT",
-    "url": "https://abcnews.com/International/scientists-discover-new-dinosaur-species-deep-sahara-desert/story?id",
+    "headline": "EARTH'S CORE TUG-OF-WAR IS QUIETLY CHANGING THE LENGTH OF OUR DAYS",
+    "url": "https://thedebrief.org/earths-inner-core-may-be-secretly-changing-the-length-of-our-days/",
     "sublinks": [],
-    "postedAt": 1790337736472,
+    "postedAt": 1790424221275,
     "img": true
   },
   "groups": [
     {
-      "title": "NEW YORK TIMES' 100 BEST TV SHOWS LIST STIRS DEBATE",
+      "title": "NYT'S '100 BEST TV SHOWS' LIST SPARKS BACKLASH",
       "stories": [
         {
-          "headline": "New York Times Names Its 100 Best TV Shows Of The 21st Century",
-          "url": "https://www.mensjournal.com/news/new-york-times-names-100-best-shows-of-21st-century-but-were-these-6-greats-snubbed",
-          "timestamp": 1790380173000,
-          "postedAt": 1790380781440
+          "headline": "The New York Times Publishes Its 100 Best TV Shows Of The 21st Century",
+          "url": "https://www.hollywoodreporter.com/business/business-news/inside-ny-times-100-best-tv-shows-of-the-21st-century-list-1236709926/",
+          "timestamp": 1790423094000,
+          "postedAt": 1790424221275
         },
         {
-          "headline": "Hollywood Reporter Examines Why Times Embraced TV 'Canon'",
-          "url": "https://www.hollywoodreporter.com/business/business-news/inside-ny-times-100-best-tv-shows-of-the-21st-century-list-1236709926/",
-          "timestamp": 1790352915000,
-          "postedAt": 1790380781440
+          "headline": "Why 'The Sopranos' Was Left Off The New York Times' Top 100 List",
+          "url": "https://www.forbes.com/sites/erikkain/2026/09/25/the-sopranos-new-york-times-100-best-tv-shows-list/",
+          "timestamp": 1790363310000,
+          "postedAt": 1790424221275
         }
       ]
     },
@@ -64,6 +64,20 @@
   "columns": {
     "left": [
       {
+        "headline": "Why Does Meta's Adults-Only AI Companion 'Muse' Look Like A Kids' Toy?",
+        "url": "https://mezha.net/eng/news/59bb0325_meta_introduces_muse_charm/",
+        "timestamp": 1790418600000,
+        "photo": true,
+        "postedAt": 1790424221275
+      },
+      {
+        "headline": "Dolly Parton Day Declared In Cities And States Across The US",
+        "url": "https://www.theguardian.com/music/2026/sep/25/dolly-parton-day-declared",
+        "timestamp": 1790372220000,
+        "photo": true,
+        "postedAt": 1790424221275
+      },
+      {
         "headline": "American Airlines Retires International First Class For New Top Tier",
         "url": "https://www.afar.com/magazine/a-first-look-at-american-airlines-new-flagship-suites",
         "timestamp": 1790377604000,
@@ -79,13 +93,6 @@
         "image": "/img/life-culture-1.jpg"
       },
       {
-        "headline": "Dolly Parton Day Declared In Cities And States Nationwide",
-        "url": "https://www.theguardian.com/music/2026/sep/25/dolly-parton-day-declared",
-        "timestamp": 1790372220000,
-        "photo": true,
-        "postedAt": 1790380781440
-      },
-      {
         "headline": "PHYSICISTS DETECT A 300 TEV PHOTON THAT SHOULD NEVER HAVE REACHED EARTH",
         "url": "https://www.sciencealert.com/physicists-detect-a-300-tev-photon-that-should-never-have-reached-earth",
         "timestamp": 1790251071478,
@@ -95,7 +102,8 @@
         "headline": "The Cheap Trick That Could Cool Your Home Next Summer",
         "url": "https://theconversation.com/theres-something-you-can-do-now-to-cool-your-home-next-summer-and-its-far-cheaper-than-air-conditioning-291828",
         "timestamp": 1790334252000,
-        "postedAt": 1790337736472
+        "postedAt": 1790337736472,
+        "image": "/img/life-culture-7.jpg"
       },
       {
         "headline": "Rocket Report: Is The Era Of Cheap Launch Over?",
@@ -161,28 +169,34 @@
         "url": "https://littlevillagemag.com/book-review-what-they-stole-by-paige-towers/",
         "timestamp": 1790098953000,
         "postedAt": 1790251071478
-      },
-      {
-        "headline": "Daily Stress May Cause Lasting Heart Changes, Raising Stroke Risk",
-        "url": "https://www.sciencealert.com/daily-stress-may-drive-lasting-structural-changes-in-your-heart-increasing-stroke-risk",
-        "timestamp": 1790161412000,
-        "postedAt": 1790164463580
-      },
-      {
-        "headline": "This App Makes Your Laptop Screen Look Like Paper",
-        "url": "https://9to5google.com/2026/09/21/googlebook-hands-on-what-makes-a-laptop-a-laptop-video/",
-        "timestamp": 1790160300000,
-        "postedAt": 1790164463580
-      },
-      {
-        "headline": "Kate Tolo Wants To Be 'The Female Bryan Johnson' — For Women",
-        "url": "https://youtu.be/-4GqndDjigY?is",
-        "timestamp": 1790159400000,
-        "photo": true,
-        "postedAt": 1790164463580
       }
     ],
     "center": [
+      {
+        "headline": "SCIENTISTS DISCOVER NEW DINOSAUR SPECIES DEEP IN SAHARA DESERT",
+        "url": "https://abcnews.com/International/scientists-discover-new-dinosaur-species-deep-sahara-desert/story?id",
+        "timestamp": 1790337736472,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "Even A Small Blood Pressure Drop May Protect Your Brain, Scans Show",
+        "url": "https://www.sciencealert.com/even-a-small-drop-in-blood-pressure-may-help-protect-your-brain-scans-reveal",
+        "timestamp": 1790416944000,
+        "postedAt": 1790424221275
+      },
+      {
+        "headline": "The Simple Trick That Keeps Scrambled Eggs Creamy Even If You Overcook Them",
+        "url": "https://www.seriouseats.com/hk-scrambled-eggs-tip-12133393",
+        "timestamp": 1790411267000,
+        "photo": true,
+        "postedAt": 1790424221275
+      },
+      {
+        "headline": "A Reader's Deep Dive Into Lee Kuan Yew's Memoirs",
+        "url": "https://www.astralcodexten.com/p/your-book-review-lee-kuan-yews-memoirs",
+        "timestamp": 1790375170000,
+        "postedAt": 1790424221275
+      },
       {
         "headline": "Porsche 944 Reborn As A Shooting Brake Custom Build",
         "url": "https://uncrate.com/carpoint-gt-k44-porsche-944-shooting-brake/",
@@ -272,42 +286,22 @@
         "timestamp": 1790110800000,
         "photo": true,
         "postedAt": 1790251071478
-      },
-      {
-        "headline": "New Electric Airliner Can Fly 36 Passengers Between Regional Airports",
-        "url": "https://robbreport.com/motors/aviation/heart-aerospace-es-36-electric-airliner-1238665641/",
-        "timestamp": 1790161200000,
-        "photo": true,
-        "postedAt": 1790164463580
-      },
-      {
-        "headline": "Scientists May Have Solved The 'Mind Control' Cat Parasite Mystery",
-        "url": "https://www.sciencealert.com/the-mind-control-cat-parasite-manipulating-you-may-have-a-simple-explanation",
-        "timestamp": 1790157811000,
-        "photo": true,
-        "postedAt": 1790164463580
-      },
-      {
-        "headline": "Hayden Panettiere Died From Fentanyl Overdose After Rehab, Coroner Says",
-        "url": "https://apnews.com/article/hayden-panettiere-cause-of-death-drugs-fentanyl-229349e2bb6e19d985372d8524b09fc8",
-        "timestamp": 1790114220000,
-        "postedAt": 1790164463580
-      },
-      {
-        "headline": "What Would A Godlike Civilization Actually Look Like?",
-        "url": "https://www.realclearscience.com/video/2026/09/23/what_a_godlike_civilization_would_look_like_1207633.html",
-        "timestamp": 1790080920000,
-        "postedAt": 1790164463580
-      },
-      {
-        "headline": "Lucas Museum's Vehicular Art Collection Is A Must-See For Car Fans",
-        "url": "https://www.jalopnik.com/2264782/george-lucas-museum-narrative-art-best-collection-vehicular-art-star-wars-props/",
-        "timestamp": 1790029712000,
-        "photo": true,
-        "postedAt": 1790164463580
       }
     ],
     "right": [
+      {
+        "headline": "Guatemala Moves To Save Rare 'Living Fossil' Fish From Extinction",
+        "url": "https://phys.org/news/2026-09-guatemala-survival-vulnerable-fossil-fish.html",
+        "timestamp": 1790413950000,
+        "photo": true,
+        "postedAt": 1790424221275
+      },
+      {
+        "headline": "Popular Supplement Boosts Strength Even Without Exercise, Study Finds",
+        "url": "https://www.sciencealert.com/popular-supplement-increases-strength-even-without-exercise-study-shows",
+        "timestamp": 1790409744000,
+        "postedAt": 1790424221275
+      },
       {
         "headline": "Kansas City Ribs Get A Great Plains Twist From An Unexpected Fruit",
         "url": "https://www.seriouseats.com/smoked-pork-ribs-with-plum-barbecue-sauce-recipe-12139090",
@@ -365,12 +359,6 @@
         "image": "/img/life-culture-5.jpg"
       },
       {
-        "headline": "Will AI Deny Us Agency? Why Human Minds Need To Be Challenged",
-        "url": "https://unherd.com/2026/09/ai-is-anti-education/",
-        "timestamp": 1790164463580,
-        "postedAt": 1790164463580
-      },
-      {
         "headline": "Apple's Pricey M5 Ultra Mac Studio Turns Reviewer Into A 'Vibe Coder'",
         "url": "https://arstechnica.com/gadgets/2026/09/review-apples-hyper-pricey-m5-ultra-mac-studio-made-me-into-a-vibe-coder/",
         "timestamp": 1790247604000,
@@ -396,26 +384,6 @@
         "timestamp": 1790107200000,
         "photo": true,
         "postedAt": 1790251071478
-      },
-      {
-        "headline": "Small Undersea Volcanoes May Unleash Outsized Tsunamis",
-        "url": "https://arstechnica.com/science/2026/09/small-undersea-volcanoes-may-unleash-outsized-tsunamis/",
-        "timestamp": 1790162130000,
-        "postedAt": 1790164463580
-      },
-      {
-        "headline": "There Are Now 17,000 Satellites In Orbit — And Growing",
-        "url": "https://arstechnica.com/space/2026/09/there-are-now-17000-satellites-in-orbit-and-growing-should-we-be-concerned/",
-        "timestamp": 1790161217000,
-        "photo": true,
-        "postedAt": 1790164463580,
-        "image": "/img/life-culture-7.jpg"
-      },
-      {
-        "headline": "Booker Prize 2026: Six Novels Make The Shortlist",
-        "url": "https://www.npr.org/2026/09/22/nx-s1-5977872/booker-prize-shortlist-2026",
-        "timestamp": 1790115515000,
-        "postedAt": 1790164463580
       }
     ]
   }

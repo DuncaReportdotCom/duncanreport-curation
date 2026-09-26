@@ -1,0 +1,509 @@
+{
+  "lastUpdated": 1790421719625,
+  "heroSetDate": "2026-09-26",
+  "hero": {
+    "headline": "SUPREME COURT RULINGS SCRAMBLE 2026 MIDTERM MAP",
+    "url": "https://www.nbcnews.com/politics/rcna596611",
+    "sublinks": [
+      {
+        "text": "What The Voter-Citizenship Database Ruling Means For Midterm Purges",
+        "url": "https://www.pbs.org/newshour/show/what-the-supreme-courts-voter-citizenship-database-decision-means-for-the-midterms"
+      },
+      {
+        "text": "Critics Call Newly-Approved Voter Database 'Flawed'",
+        "url": "https://www.motherjones.com/politics/2026/09/supreme-court-save-database/"
+      },
+      {
+        "text": "Prediction Markets Give Democrats 85% Odds Of Winning The House",
+        "url": "https://votehub.com/2026-forecast/house/"
+      },
+      {
+        "text": "RealClearPolitics: Senate Map Adds Three New Toss-Up Races",
+        "url": "https://www.realclearpolitics.com/video/2026/09/23/rcp_polling_minute_major_midterm_shift_as_senate_map_adds_3_toss-ups.html"
+      }
+    ],
+    "postedAt": 1790421719625,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "SUPREME COURT DEPORTATION FIGHT ESCALATES",
+      "stories": [
+        {
+          "headline": "Why Justice Jackson's Stay Denial Should Send Case To Full Court",
+          "url": "https://reason.com/volokh/2026/09/24/because-kbj-denied-administrative-stay-in-third-country-removal-case-the-application-should-be-referred-to-the-full-court-now/",
+          "timestamp": 1790296386000,
+          "postedAt": 1790335040575
+        },
+        {
+          "headline": "Trump Admin Asks Supreme Court To Lift Limits On Third-Country Deportations",
+          "url": "https://www.politico.com/news/2026/09/24/third-country-deportations-supreme-court-emergency-appeal",
+          "timestamp": 1790287680000,
+          "postedAt": 1790335040575
+        },
+        {
+          "headline": "California Supreme Court Orders Return Of 650,000 Seized Ballots",
+          "url": "https://apnews.com/article/sheriff-ballots-seized-california-supreme-court-e77a7eda321df80fa69da835e925e5b0",
+          "timestamp": 1790292600000,
+          "postedAt": 1790335040575
+        }
+      ]
+    },
+    {
+      "title": "NEW JERSEY LIEUTENANT GOVERNOR RESIGNS",
+      "stories": [
+        {
+          "headline": "NY Post: NJ Lt. Gov. Resigns Amid Sex Harassment Scandal",
+          "url": "https://nypost.com/2026/09/25/us-news/nj-lt-gov-dale-caldwell-resigns-amid-bombshell-sexual-harassment-inquiry/",
+          "timestamp": 1790378052638,
+          "postedAt": 1790378508377
+        },
+        {
+          "headline": "New Jersey Lieutenant Governor Resigns After Damaging Ethics Report",
+          "url": "https://www.nbcnews.com/politics/politics-news/new-jersey-lieutenant-governor-resigns-ethics-report-rcna599885",
+          "timestamp": 1790371082000,
+          "postedAt": 1790378508377
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR: DIPLOMATIC PUSH AND POLITICAL FALLOUT",
+      "stories": [
+        {
+          "headline": "Iran Says It's Up To U.S. To End War As China Presses For De-Escalation",
+          "url": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
+          "timestamp": 1790314641000,
+          "postedAt": 1790335040575
+        },
+        {
+          "headline": "How Every Senator Voted On The Iran War Powers Resolution",
+          "url": "https://abcnews.com/Politics/senate-fails-adopt-iran-war-powers-resolution-despite/story?id",
+          "timestamp": 1790301600000,
+          "postedAt": 1790335040575
+        }
+      ]
+    },
+    {
+      "title": "ECONOMY ANXIETY DEEPENS AS RATES AND PRICES CLIMB",
+      "stories": [
+        {
+          "headline": "Treasury Rates Hit 19-Year High",
+          "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+          "timestamp": 1790247885230,
+          "postedAt": 1790248560776
+        },
+        {
+          "headline": "Bond Market Selloff Deepens, Traders Say",
+          "url": "https://www.msn.com/en-us/news/other/us-30-year-bond-yield-rises-to-highest-since-2004-as-selloff-deepens/ar-AA2cShBb",
+          "timestamp": 1790247885230,
+          "postedAt": 1790248560776
+        },
+        {
+          "headline": "Record Diesel Prices Threaten To Spoil Thanksgiving Travel",
+          "url": "https://www.marketwatch.com/story/record-breaking-diesel-prices-look-set-to-push-grocery-bills-even-higher-and-thanksgiving-is-getting-closer-178d3959",
+          "timestamp": 1790247885230,
+          "postedAt": 1790248560776
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "White House Blocks CNN From Air Force One Trip",
+        "url": "https://apnews.com/article/white-house-media-ban-cnn-network-pool-c32504981ee2f5b3c137e57d9d36f33e",
+        "timestamp": 1790420539386,
+        "postedAt": 1790421719625
+      },
+      {
+        "headline": "SpaceX Starship Debris Adds To Orbital Junk Problem",
+        "url": "https://archive.ph/tFr8f",
+        "timestamp": 1790420539386,
+        "photo": true,
+        "postedAt": 1790421719625
+      },
+      {
+        "headline": "New Jersey Flooding Intensifies As Nor'easter Takes Shape",
+        "url": "https://www.npr.org/2026/09/26/g-s1-145146/roads-flood-in-new-jersey",
+        "timestamp": 1790401418000,
+        "photo": true,
+        "postedAt": 1790421719625
+      },
+      {
+        "headline": "CNBC: History Shows Calamities When Rates Rise This Fast",
+        "url": "https://www.cnbc.com/2026/09/24/history-shows-financial-calamities-occur-when-rates-rise-rapidly-like-this-something-always-breaks.html",
+        "timestamp": 1790378052638,
+        "postedAt": 1790378508377
+      },
+      {
+        "headline": "NY Post: Frat Leaders Arrested After Cops Find Dozens Of Teens In Basement",
+        "url": "https://nypost.com/2026/09/25/us-news/frat-leaders-arrested-after-cops-found-dozens-of-nearly-naked-teens-in-dingy-basement-in-suspected-hazing-incident/",
+        "timestamp": 1790378052638,
+        "postedAt": 1790378508377
+      },
+      {
+        "headline": "US Military Lays Groundwork For Potential Action Around Cuba",
+        "url": "https://www.cbsnews.com/news/u-s-groundwork-potential-action-cuba-trump/",
+        "timestamp": 1790334364082,
+        "photo": true,
+        "postedAt": 1790335040575,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Pittsburgh Pediatric Doctor Fatally Stabbed, Wife Wounded In Home Attack",
+        "url": "https://www.nbcnews.com/news/us-news/pittsburgh-pediatric-doctor-fatally-stabbed-wife-wounded-attack-slept-rcna599769",
+        "timestamp": 1790306820000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790335040575,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Survivor Of 2024 Trump Rally Assassination Attempt Has Died",
+        "url": "https://www.wtae.com/article/butler-county-trump-rally-victim-jim-copenhaver-dies/73872405",
+        "timestamp": 1790295780000,
+        "photo": true,
+        "postedAt": 1790335040575,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "ICE Wasted Tens Of Millions On 'Uninformed' Detention Plans, GAO Finds",
+        "url": "https://www.pbs.org/newshour/politics/ice-has-wasted-tens-of-millions-of-dollars-with-uninformed-detention-plans-gao-finds",
+        "timestamp": 1790284198000,
+        "postedAt": 1790335040575
+      },
+      {
+        "headline": "New Yorkers Lined Streets Against Netanyahu's Visit",
+        "url": "https://www.motherjones.com/politics/2026/09/israel-gaza-protest-netanyahu-new-york-united-nations-speech/",
+        "timestamp": 1790269560000,
+        "postedAt": 1790335040575
+      },
+      {
+        "headline": "ICE Detained US Citizen, Left Him Injured In Chicago Suburb",
+        "url": "https://www.theguardian.com/us-news/2026/sep/24/citizen-injured-ice-mistaken-fugitive-arrest",
+        "timestamp": 1790240429000,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Paramount-Warner Bros. Reportedly Eyes Musk Investment",
+        "url": "https://www.semafor.com/article/09/23/2026/paramount-weighs-tapping-musk-for-equity-investment",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Netanyahu Set To Confront Mamdani During UN Visit",
+        "url": "https://www.newsnationnow.com/video/netanyahu-set-to-confront-mamdani-during-un-visit-morning-in-america/12201145/",
+        "timestamp": 1790247104000,
+        "photo": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Judge Tosses Trump's Lawsuit Against Des Moines Register",
+        "url": "https://www.axios.com/2026/09/23/trump-des-moines-register-lawsuit-dismissed",
+        "timestamp": 1790236505000,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Five Indianapolis Officers Charged After Post's Reporting On Flock Misuse",
+        "url": "https://www.redlakenationnews.com/story/2026/09/24/news/five-indianapolis-officers-charged-following-the-posts-reporting-on-flock-misuse/143039.html",
+        "timestamp": 1790230689000,
+        "feature": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Poll Shows Democrats Winning Both Texas Senate And Governor Races",
+        "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-texas-september-2026/",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Analysis: Xi Is Getting What He Wants From The Summit",
+        "url": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-ai-safety-chips-us-china-dialogue.html",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "ChatGPT Reportedly Gave Student Tips On Evading Vandalism Charges",
+        "url": "http://www.thesmokinggun.com/documents/crime/chatgpt-transcript-178592",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Daily Wire: Conservatives Call Map Ruling A 'Diabolical' Legal Setback",
+        "url": "https://www.dailywire.com/episode/thats-so-criminal-ep-44",
+        "timestamp": 1790377476000,
+        "postedAt": 1790378508377
+      },
+      {
+        "headline": "Kansas Beef Processing Disrupted By Immigration Crackdown",
+        "url": "https://www.msn.com/en-us/news/other/ar-AA2cYwuF",
+        "timestamp": 1790420539386,
+        "postedAt": 1790421719625
+      }
+    ],
+    "center": [
+      {
+        "headline": "TRUMP HOSTS XI AT STATE DINNER PACKED WITH TECH TITANS",
+        "url": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi",
+        "timestamp": 1790335040575,
+        "postedAt": 1790335040575
+      },
+      {
+        "headline": "Xi Summit Ends Long On Pomp, Short On Progress",
+        "url": "https://www.yahoo.com/news/politics/articles/trump-xi-inspect-founding-documents-165446832.html",
+        "timestamp": 1790420539386,
+        "postedAt": 1790421719625,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "'Hemorrhaging': Cracks Emerge In Florida's Republican Firewall",
+        "url": "https://www.msn.com/en-us/news/other/ar-AA2cX4TM",
+        "timestamp": 1790420539386,
+        "postedAt": 1790421719625
+      },
+      {
+        "headline": "DOJ Plans Biggest Election 'Observer' Effort In History",
+        "url": "https://www.msn.com/en-us/news/other/ar-AA2cWSgB",
+        "timestamp": 1790420539386,
+        "postedAt": 1790421719625
+      },
+      {
+        "headline": "Inside Trump's 'Super Intelligence' Naming Problem",
+        "url": "https://www.axios.com/2026/09/25/trump-ai-super-intelligence-tech-definition",
+        "timestamp": 1790393941000,
+        "postedAt": 1790421719625
+      },
+      {
+        "headline": "Civil Rights Lawyer Ben Crump Releases Data From Victim's Cellphone",
+        "url": "https://www.theguardian.com/us-news/2026/sep/25/nolan-wells-ben-crump-cellphone",
+        "timestamp": 1790371920000,
+        "postedAt": 1790378508377
+      },
+      {
+        "headline": "NBC: Halloween Comes Early For Republicans Bracing For Midterms",
+        "url": "https://www.nbcnews.com/politics/rcna599378",
+        "timestamp": 1790378052638,
+        "postedAt": 1790378508377
+      },
+      {
+        "headline": "Are 8% Mortgage Rates Now Inevitable?",
+        "url": "https://www.marketwatch.com/story/8-mortgage-rates-are-not-an-impossibility-as-the-30-year-fixed-rate-surges-aa202464",
+        "timestamp": 1790334364081,
+        "postedAt": 1790335040575
+      },
+      {
+        "headline": "Tucker Carlson Now Calls For Trump To Be Removed From Office",
+        "url": "https://www.mediaite.com/media/podcasts/tucker-carlson-issues-shocking-call-for-trumps-cabinet-to-remove-him-from-office-via-25th-amendment-he-should-be-bundled-up-and-taken-out/",
+        "timestamp": 1790334364082,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790335040575
+      },
+      {
+        "headline": "GOP Report: Democrat Prosecutor Helped Illegal Aliens Escape Deportation",
+        "url": "https://www.theblaze.com/news/democratic-prosecutor-illegals-drunken-driving",
+        "timestamp": 1790332332000,
+        "postedAt": 1790335040575
+      },
+      {
+        "headline": "Nolo Becomes Hurricane As Hawaii Braces For Catastrophic Flooding",
+        "url": "https://weather.com/2026/09/25/storms/hurricane/hawaii-hurricane-nolo-flooding-wind-forecast",
+        "timestamp": 1790328222000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790335040575,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Ole Miss Identifies 2 Students Found Dead Amid Kratom Concerns",
+        "url": "https://www.nbcnews.com/news/us-news/university-mississippi-identifies-2-students-found-dead-cases-raise-kr-rcna599706",
+        "timestamp": 1790278800000,
+        "postedAt": 1790335040575
+      },
+      {
+        "headline": "Transgender ICU Nurse Arrested On Multiple Counts Of Abusing NICU Baby",
+        "url": "https://notthebee.com/article/transgender-icu-nurse-arrested-on-multiple-counts-of-abusing-nicu-baby-at-michigan-hospital/",
+        "timestamp": 1790273077000,
+        "photo": true,
+        "postedAt": 1790335040575,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "Florida Governor Candidate Byron Donalds Stands By Trump After Website Scrub",
+        "url": "https://www.cbsnews.com/news/florida-governor-candidate-byron-donalds-trump-mentions-disappear-from-website/",
+        "timestamp": 1790221740000,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Report: Some Trump Supporters Are Urging Him To Declare Martial Law For Midterms",
+        "url": "https://www.rawstory.com/trump-martial-law-2677923051/",
+        "timestamp": 1790247885230,
+        "feature": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Report: MAGA Podcasters Are Moving On From Trump",
+        "url": "https://www.yahoo.com/news/politics/articles/donald-trump-biggest-online-backers-073939167.html",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Trump's Push To Acquire Greenland Almost Broke NATO — Greenland May Be The Winner",
+        "url": "https://apnews.com/article/greenland-denmark-us-un-colonialism-security-a7ba8a250e217cbe9eb0eab757cb7af1",
+        "timestamp": 1790229120000,
+        "photo": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Venezuela's Maduro Goes From 'Dictator' To Trump Ally On World Stage",
+        "url": "https://amp.axios.com/trump-venezuela-rodriguez-meeting-elections-b0def29d-39ba-4246-be86-13c69d0d4930.html",
+        "timestamp": 1790210580000,
+        "photo": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Inside The ICE Surge That Quietly Swept Across The USA",
+        "url": "https://www.nytimes.com/2026/09/25/us/ice-surge-immigration-arrests.html?unlocked_article_code=1.D1E.R1yC.-C1Fny_ShTwP&smid=url-share",
+        "timestamp": 1790420539386,
+        "feature": true,
+        "postedAt": 1790421719625
+      }
+    ],
+    "right": [
+      {
+        "headline": "Trump Rejects Iran's Seven-Day Ceasefire Proposal",
+        "url": "https://www.aljazeera.com/news/2026/9/26/trump-reportedly-rejects-irans-seven-day-ceasefire-proposal-whats-next",
+        "timestamp": 1790415772000,
+        "postedAt": 1790421719625
+      },
+      {
+        "headline": "Inside Trump's Unhappy Mood At The Xi Summit",
+        "url": "https://www.dailymail.com/debate/article-16158107/midterms-trump-panic-texts-emails-mark-halperin.html",
+        "timestamp": 1790420539386,
+        "photo": true,
+        "postedAt": 1790421719625
+      },
+      {
+        "headline": "Neighbor War Tears Apart Park City, Utah",
+        "url": "https://www.dailymail.com/yourmoney/article-16160435",
+        "timestamp": 1790420539386,
+        "photo": true,
+        "postedAt": 1790421719625
+      },
+      {
+        "headline": "The Hill: Trump To Campaign In Deep Red Oklahoma, Alabama",
+        "url": "https://thehill.com/homenews/6111164",
+        "timestamp": 1790378052638,
+        "postedAt": 1790378508377
+      },
+      {
+        "headline": "COURT ORDERS TRUMP ADMINISTRATION TO RESTORE WHITE HOUSE PRESS ACCESS FOR CNN, POLITICO",
+        "url": "https://www.npr.org/2026/09/24/nx-s1-5979582/judge-order-trump-restore-access-white-house",
+        "timestamp": 1790248560776,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Fifth-Grade Teacher, Boy Die In Iowa Lake On Field Trip",
+        "url": "https://www.nbcnews.com/news/us-news/bodies-teacher-10-year-old-student-recovered-water-incident-iowa-field-rcna599666",
+        "timestamp": 1790294901000,
+        "photo": true,
+        "postedAt": 1790335040575,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "Ex-Mistress Testifies In Former 'American Idol' Contestant's Murder Trial",
+        "url": "https://abcnews.com/US/mistress-gets-emotional-reading-texts-testimony-former-american/story?id",
+        "timestamp": 1790282624000,
+        "photo": true,
+        "postedAt": 1790335040575
+      },
+      {
+        "headline": "St. Paul Mayor Accused Of Sexual Harassment, Touching Police Chief's Thigh",
+        "url": "https://www.nbcnews.com/news/us-news/st-paul-mayor-called-milf-touched-police-chiefs-thigh-sexual-harassmen-rcna599598",
+        "timestamp": 1790278139000,
+        "photo": true,
+        "postedAt": 1790335040575,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "Trump Reportedly Smirked As 'Crass' Iranian President Lashed Out At US",
+        "url": "https://www.foxnews.com/world/trump-smirked-iranian-president-lashed-us-fiery-un-speech-expert",
+        "timestamp": 1790208652000,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Canada: Report Says Grandmother Was Euthanized Against Her Will",
+        "url": "https://www.dailymail.com/news/article-16136457",
+        "timestamp": 1790247885230,
+        "photo": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Ellison Reportedly 'Hesitant' To Hand CNN To Bari Weiss",
+        "url": "https://nypost.com/2026/09/22/media/speculation-about-bari-weiss-future-is-coming-to-a-head-heres-what-well-placed-sources-say/",
+        "timestamp": 1790247885230,
+        "photo": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Zelenskyy Urges World Leaders To Keep Choking Russia's War Revenues",
+        "url": "https://apnews.com/article/ukraine-russia-war-finances-zelenskyy-eae6556129152914081b48774236d397",
+        "timestamp": 1790235000000,
+        "photo": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Pentagon Investigates After China Obtains Parts From F-35 Stealth Jet",
+        "url": "https://apnews.com/article/f35-parts-china-hong-kong-australia-c0b248635c79cae9446a2bd7bf4a32f8",
+        "timestamp": 1790218020000,
+        "feature": true,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Grand Spectacle Staged For Xi's Visit",
+        "url": "https://www.devdiscourse.com/article/international/3981529-trump-plans-grand-spectacle-for-potentially-tense-xi-talks?amp",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "Australia's PM Says OpenAI Hacked Government Health Website",
+        "url": "https://www.yahoo.com/news/world/articles/australian-pm-says-openai-hacked-232712261.html",
+        "timestamp": 1790247885230,
+        "postedAt": 1790248560776
+      },
+      {
+        "headline": "'America's Bishop' Beatified As 50,000 Catholics Attend",
+        "url": "https://www.audacy.com/kmox/news/local/thousands-of-catholics-in-st-louis-for-beatification-mass-for-legendary-archbishop-fulton-sheen",
+        "timestamp": 1790294658000,
+        "postedAt": 1790335040575
+      },
+      {
+        "headline": "GOP Lawmaker: Texas Should Have Caught Error That Delayed 178,000 Registrations",
+        "url": "https://www.texastribune.org/2026/09/24/dps-voter-registration-applications-error-paul-bettencourt-team/",
+        "timestamp": 1790292444000,
+        "postedAt": 1790335040575
+      },
+      {
+        "headline": "Mediaite: Trump Mocks Biden In Front Of Xi, Sparking Backlash",
+        "url": "https://www.mediaite.com/online/utterly-disgusting-trump-mocks-biden-in-front-of-chinas-xi-sparking-furious-online-backlash/",
+        "timestamp": 1790378052638,
+        "postedAt": 1790378508377
+      },
+      {
+        "headline": "Spiked: Trump-Xi Summit Was Really About Taiwan",
+        "url": "https://www.spiked-online.com/2026/09/25/the-trump-xi-summit-was-about-one-thing-taiwan/",
+        "timestamp": 1790376930000,
+        "postedAt": 1790378508377
+      }
+    ]
+  },
+  "balance": {
+    "left": 687,
+    "right": 427,
+    "independent": 4,
+    "days": 30,
+    "total": 1114,
+    "pctLeft": 62,
+    "pctRight": 38
+  }
+}
