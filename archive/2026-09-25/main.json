@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790335040575,
+  "lastUpdated": 1790378508377,
   "heroSetDate": "2026-09-25",
   "hero": {
     "headline": "TRUMP HOSTS XI AT STATE DINNER PACKED WITH TECH TITANS",
@@ -31,23 +31,6 @@
   },
   "groups": [
     {
-      "title": "IRAN WAR: DIPLOMATIC PUSH AND POLITICAL FALLOUT",
-      "stories": [
-        {
-          "headline": "Iran Says It's Up To U.S. To End War As China Presses For De-Escalation",
-          "url": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
-          "timestamp": 1790314641000,
-          "postedAt": 1790335040575
-        },
-        {
-          "headline": "How Every Senator Voted On The Iran War Powers Resolution",
-          "url": "https://abcnews.com/Politics/senate-fails-adopt-iran-war-powers-resolution-despite/story?id",
-          "timestamp": 1790301600000,
-          "postedAt": 1790335040575
-        }
-      ]
-    },
-    {
       "title": "SUPREME COURT DEPORTATION FIGHT ESCALATES",
       "stories": [
         {
@@ -66,6 +49,40 @@
           "headline": "California Supreme Court Orders Return Of 650,000 Seized Ballots",
           "url": "https://apnews.com/article/sheriff-ballots-seized-california-supreme-court-e77a7eda321df80fa69da835e925e5b0",
           "timestamp": 1790292600000,
+          "postedAt": 1790335040575
+        }
+      ]
+    },
+    {
+      "title": "NEW JERSEY LIEUTENANT GOVERNOR RESIGNS",
+      "stories": [
+        {
+          "headline": "NY Post: NJ Lt. Gov. Resigns Amid Sex Harassment Scandal",
+          "url": "https://nypost.com/2026/09/25/us-news/nj-lt-gov-dale-caldwell-resigns-amid-bombshell-sexual-harassment-inquiry/",
+          "timestamp": 1790378052638,
+          "postedAt": 1790378508377
+        },
+        {
+          "headline": "New Jersey Lieutenant Governor Resigns After Damaging Ethics Report",
+          "url": "https://www.nbcnews.com/politics/politics-news/new-jersey-lieutenant-governor-resigns-ethics-report-rcna599885",
+          "timestamp": 1790371082000,
+          "postedAt": 1790378508377
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR: DIPLOMATIC PUSH AND POLITICAL FALLOUT",
+      "stories": [
+        {
+          "headline": "Iran Says It's Up To U.S. To End War As China Presses For De-Escalation",
+          "url": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
+          "timestamp": 1790314641000,
+          "postedAt": 1790335040575
+        },
+        {
+          "headline": "How Every Senator Voted On The Iran War Powers Resolution",
+          "url": "https://abcnews.com/Politics/senate-fails-adopt-iran-war-powers-resolution-despite/story?id",
+          "timestamp": 1790301600000,
           "postedAt": 1790335040575
         }
       ]
@@ -119,6 +136,18 @@
   ],
   "columns": {
     "left": [
+      {
+        "headline": "CNBC: History Shows Calamities When Rates Rise This Fast",
+        "url": "https://www.cnbc.com/2026/09/24/history-shows-financial-calamities-occur-when-rates-rise-rapidly-like-this-something-always-breaks.html",
+        "timestamp": 1790378052638,
+        "postedAt": 1790378508377
+      },
+      {
+        "headline": "NY Post: Frat Leaders Arrested After Cops Find Dozens Of Teens In Basement",
+        "url": "https://nypost.com/2026/09/25/us-news/frat-leaders-arrested-after-cops-found-dozens-of-nearly-naked-teens-in-dingy-basement-in-suspected-hazing-incident/",
+        "timestamp": 1790378052638,
+        "postedAt": 1790378508377
+      },
       {
         "headline": "US Military Lays Groundwork For Potential Action Around Cuba",
         "url": "https://www.cbsnews.com/news/u-s-groundwork-potential-action-cuba-trump/",
@@ -248,9 +277,34 @@
         "url": "http://www.thesmokinggun.com/documents/crime/chatgpt-transcript-178592",
         "timestamp": 1790247885230,
         "postedAt": 1790248560776
+      },
+      {
+        "headline": "Daily Wire: Conservatives Call Map Ruling A 'Diabolical' Legal Setback",
+        "url": "https://www.dailywire.com/episode/thats-so-criminal-ep-44",
+        "timestamp": 1790377476000,
+        "postedAt": 1790378508377
       }
     ],
     "center": [
+      {
+        "headline": "Civil Rights Lawyer Ben Crump Releases Data From Victim's Cellphone",
+        "url": "https://www.theguardian.com/us-news/2026/sep/25/nolan-wells-ben-crump-cellphone",
+        "timestamp": 1790371920000,
+        "postedAt": 1790378508377
+      },
+      {
+        "headline": "NBC: Halloween Comes Early For Republicans Bracing For Midterms",
+        "url": "https://www.nbcnews.com/politics/rcna599378",
+        "timestamp": 1790378052638,
+        "postedAt": 1790378508377
+      },
+      {
+        "headline": "US Immigration Crackdown Hits Kansas, Disrupts Beef Processing",
+        "url": "https://www.reuters.com/world/us/us-immigration-crackdown-hits-kansas-disrupts-beef-processing-2026-09-25/",
+        "timestamp": 1790377272000,
+        "feature": true,
+        "postedAt": 1790378508377
+      },
       {
         "headline": "Are 8% Mortgage Rates Now Inevitable?",
         "url": "https://www.marketwatch.com/story/8-mortgage-rates-are-not-an-impossibility-as-the-30-year-fixed-rate-surges-aa202464",
@@ -381,6 +435,12 @@
     ],
     "right": [
       {
+        "headline": "The Hill: Trump To Campaign In Deep Red Oklahoma, Alabama",
+        "url": "https://thehill.com/homenews/6111164",
+        "timestamp": 1790378052638,
+        "postedAt": 1790378508377
+      },
+      {
         "headline": "COURT ORDERS TRUMP ADMINISTRATION TO RESTORE WHITE HOUSE PRESS ACCESS FOR CNN, POLITICO",
         "url": "https://www.npr.org/2026/09/24/nx-s1-5979582/judge-order-trump-restore-access-white-house",
         "timestamp": 1790248560776,
@@ -503,15 +563,27 @@
         "url": "https://www.texastribune.org/2026/09/24/dps-voter-registration-applications-error-paul-bettencourt-team/",
         "timestamp": 1790292444000,
         "postedAt": 1790335040575
+      },
+      {
+        "headline": "Mediaite: Trump Mocks Biden In Front Of Xi, Sparking Backlash",
+        "url": "https://www.mediaite.com/online/utterly-disgusting-trump-mocks-biden-in-front-of-chinas-xi-sparking-furious-online-backlash/",
+        "timestamp": 1790378052638,
+        "postedAt": 1790378508377
+      },
+      {
+        "headline": "Spiked: Trump-Xi Summit Was Really About Taiwan",
+        "url": "https://www.spiked-online.com/2026/09/25/the-trump-xi-summit-was-about-one-thing-taiwan/",
+        "timestamp": 1790376930000,
+        "postedAt": 1790378508377
       }
     ]
   },
   "balance": {
-    "left": 673,
-    "right": 432,
+    "left": 677,
+    "right": 435,
     "independent": 4,
     "days": 30,
-    "total": 1105,
+    "total": 1112,
     "pctLeft": 61,
     "pctRight": 39
   }

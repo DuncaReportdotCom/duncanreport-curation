@@ -1,28 +1,28 @@
 {
-  "lastUpdated": 1790336395462,
+  "lastUpdated": 1790379789319,
   "heroSetDate": "2026-09-25",
   "hero": {
-    "headline": "TREASURY YIELD SURGE COOLS AS GLOBAL BOND SELLOFF EASES, STOCKS SET TO RISE",
-    "url": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html",
+    "headline": "DOW SURGES 450 POINTS AS IRAN PEACE HOPES, COOLING YIELDS LIFT STOCKS TO WEEKLY GAINS",
+    "url": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-s-p-500-nasdaq-notch-weekly-wins-as-market-shrugs-off-bond-sell-off-oil-prices-ease/ar-AA2cWHXD",
     "sublinks": [
       {
-        "text": "US Mortgage Rates Top 7% For First Time In 20 Months",
-        "url": "https://www.theguardian.com/business/2026/sep/24/mortgage-rates-housing-market"
+        "text": "Dow, S&P 500, Nasdaq All Notch Weekly Wins As Bond Selloff Eases",
+        "url": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-s-p-500-nasdaq-notch-weekly-wins-as-market-shrugs-off-bond-sell-off-oil-prices-ease/ar-AA2cWHXD"
       },
       {
-        "text": "Bond Market Is Screaming — Why Aren't Stocks Listening?",
-        "url": "https://www.zerohedge.com/the-market-ear/bond-market-screaming-why-arent-stocks-listening"
+        "text": "10-Year Yield's Climb To 19-Year High Has Some Investors Circling Bonds",
+        "url": "https://www.cnbc.com/2026/09/25/treasury-yield-buy-bonds.html"
       },
       {
-        "text": "Morgan Stanley Reverses Its Bearish Call On The Dollar",
-        "url": "https://www.marketwatch.com/story/we-were-wrong-why-morgan-stanley-changed-its-tune-on-the-u-s-dollar-and-what-it-expects-now-7826fb96"
+        "text": "GMO Warns A Wave Of New Stock Supply Will Weigh On Markets For Years",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/deluge-stock-supply-drag-market-172825994.html"
       },
       {
-        "text": "Asian Stocks Slide As Bond Selloff Persists Despite Trump-Xi Summit",
-        "url": "https://www.investing.com/news/stock-market-news/asia-stocks-slip-as-bond-selloff-weighs-trumpxi-summit-offers-little-relief-4916561"
+        "text": "Dollar's Slide Toward A 'Death Cross' Adds Twist To Trump's Rate Fight",
+        "url": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d"
       }
     ],
-    "postedAt": 1790336395462,
+    "postedAt": 1790379789319,
     "img": true
   },
   "groups": [
@@ -95,6 +95,14 @@
   "columns": {
     "left": [
       {
+        "headline": "New Mexico Jury Finds Facebook Liable For Deceiving Users On Privacy",
+        "url": "https://apnews.com/article/facebook-meta-new-mexico-privacy-lawsuit-3f822af6a0628b983f942754d21b5ba6",
+        "timestamp": 1790364720000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790379789319
+      },
+      {
         "headline": "Florida's Private Train Brightline Goes Bankrupt Overrun By Debt",
         "url": "https://www.inc.com/kevin-haynes/brightline-reportedly-nearing-bankruptcy-1-decision-could-keep-trains-running/91409860",
         "timestamp": 1790326828000,
@@ -127,7 +135,7 @@
         "timestamp": 1790262019000,
         "photo": true,
         "postedAt": 1790336395462,
-        "image": "/img/markets-2.jpg"
+        "image": "/img/markets-4.jpg"
       },
       {
         "headline": "Fed Holds Interest Rates Steady As Inflation Hits 3-Year High",
@@ -168,7 +176,7 @@
         "timestamp": 1790189820000,
         "photo": true,
         "postedAt": 1790249904639,
-        "image": "/img/markets-4.jpg"
+        "image": "/img/markets-6.jpg"
       },
       {
         "headline": "Nike Founder Phil Knight Donates $1 Billion To University Of Oregon",
@@ -221,9 +229,41 @@
         "url": "https://www.reuters.com/business/oracle-cites-force-majeure-shield-itself-controversial-data-center-bloomberg-2026-09-24/",
         "timestamp": 1790284320000,
         "postedAt": 1790336395462
+      },
+      {
+        "headline": "Starbucks To Close 250 Coffee Shops Nationwide, Including 6 In Sacramento Area",
+        "url": "https://www.abridged.org/news/starbucks-to-close-6-sacramento-area-coffee-shops/",
+        "timestamp": 1790370039000,
+        "postedAt": 1790379789319
+      },
+      {
+        "headline": "Breakfast Chain Franchisee Files For Bankruptcy As Costs Rise, Sales Weaken",
+        "url": "https://www.foxbusiness.com/retail/breakfast-chain-franchisee-files-bankruptcy-rising-costs-weak-sales-weigh",
+        "timestamp": 1790356440000,
+        "postedAt": 1790379789319
       }
     ],
     "center": [
+      {
+        "headline": "TREASURY YIELD SURGE COOLS AS GLOBAL BOND SELLOFF EASES, STOCKS SET TO RISE",
+        "url": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html",
+        "timestamp": 1790336395462,
+        "postedAt": 1790336395462
+      },
+      {
+        "headline": "Apple's Expensive New iPhones Could Be A Double-Edged Sword",
+        "url": "https://www.marketwatch.com/story/apples-expensive-new-iphones-could-be-a-double-edged-sword-for-the-company-21c4fefb",
+        "timestamp": 1790368620000,
+        "postedAt": 1790379789319
+      },
+      {
+        "headline": "OpenAI Works To Understand Full Scope Of Agent Data Leak",
+        "url": "https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/",
+        "timestamp": 1790369059000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790379789319
+      },
       {
         "headline": "TREASURY YIELDS SURGE TO MULTIYEAR HIGHS, STOCK FUTURES SINK AS XI ARRIVES FOR TRUMP SUMMIT",
         "url": "https://www.cnbc.com/2026/09/23/stock-market-today-live-updates.html",
@@ -249,7 +289,7 @@
         "timestamp": 1790329500000,
         "photo": true,
         "postedAt": 1790336395462,
-        "image": "/img/markets-0.jpg"
+        "image": "/img/markets-2.jpg"
       },
       {
         "headline": "Airbus Offers Divestments To Secure Brussels Backing For Space Merger",
@@ -263,7 +303,7 @@
         "timestamp": 1790322994000,
         "photo": true,
         "postedAt": 1790336395462,
-        "image": "/img/markets-1.jpg"
+        "image": "/img/markets-3.jpg"
       },
       {
         "headline": "IonQ Stock Surges After Quantum Computing Deal With Nvidia",
@@ -291,7 +331,7 @@
         "timestamp": 1790192153000,
         "photo": true,
         "postedAt": 1790249904639,
-        "image": "/img/markets-3.jpg"
+        "image": "/img/markets-5.jpg"
       },
       {
         "headline": "Bentley Tests Wealthy Buyers' Appetite For Its First EV",
@@ -347,11 +387,44 @@
     ],
     "right": [
       {
+        "headline": "Micron Investors Should Brace For A Seesaw Ride, Analyst Says",
+        "url": "https://www.marketwatch.com/story/micron-investors-should-get-ready-for-a-seesaw-ride-analyst-says-1c0cc651",
+        "timestamp": 1790368560000,
+        "postedAt": 1790379789319
+      },
+      {
+        "headline": "Paramount Skydance To Transfer Stock To NY Stock Exchange",
+        "url": "https://www.marketwatch.com/story/paramount-skydance-to-transfer-stock-to-ny-stock-exchange-d2b785f0?mod",
+        "timestamp": 1790371500000,
+        "postedAt": 1790379789319
+      },
+      {
+        "headline": "Microsoft Launches AI Super-App In Bullish Move, IBD's Stock Of The Day",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-25-214549821.html",
+        "timestamp": 1790370240000,
+        "postedAt": 1790379789319
+      },
+      {
+        "headline": "Costco Receives $184 Million In Tariff Refunds, Plans Lower Prices",
+        "url": "https://www.foxbusiness.com/markets/costco-receives-184m-tariff-refunds-says-most-go-toward-lower-prices",
+        "timestamp": 1790360640000,
+        "photo": true,
+        "postedAt": 1790379789319,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "The Iced Coffee Debate Reflects 'Everything Wrong With Hiring Right Now'",
+        "url": "https://www.cnbc.com/2026/09/25/iced-coffee-job-interview.html",
+        "timestamp": 1790358649000,
+        "photo": true,
+        "postedAt": 1790379789319,
+        "image": "/img/markets-1.jpg"
+      },
+      {
         "headline": "UK: Banks Tap Billions In BOE Repo Cash To Profit On Bond Trades",
         "url": "https://www.indiaipo.in/news/detail/rbi-bond-sales-fx-intervention-help-halve-indias-cash-overhang",
         "timestamp": 1790328009000,
-        "postedAt": 1790336395462,
-        "image": "/img/markets-7.jpg"
+        "postedAt": 1790336395462
       },
       {
         "headline": "12 Takeaways From Ousted Disney CEO Bob Chapek's New Book",
@@ -418,7 +491,7 @@
         "timestamp": 1790179980000,
         "photo": true,
         "postedAt": 1790249904639,
-        "image": "/img/markets-5.jpg"
+        "image": "/img/markets-7.jpg"
       },
       {
         "headline": "Fed Warns Of Coming 'Reckoning' For Savings Account Holders",
@@ -431,8 +504,7 @@
         "url": "https://www.foxbusiness.com/lifestyle/check-your-freezer-popular-walmart-item-recalled-over-possible-listeria-risk",
         "timestamp": 1790122980000,
         "photo": true,
-        "postedAt": 1790163345035,
-        "image": "/img/markets-6.jpg"
+        "postedAt": 1790163345035
       },
       {
         "headline": "OpenAI Wants Elite Mathematicians' Help To Avoid Fumbling Again",
@@ -469,58 +541,58 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,704.13",
-      "change": "-1.90",
-      "changePct": "-0.02%",
-      "up": false,
+      "value": "7,743.41",
+      "change": "+39.28",
+      "changePct": "+0.51%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "51,349.98",
-      "change": "-161.62",
-      "changePct": "-0.31%",
-      "up": false,
+      "value": "51,828.62",
+      "change": "+478.64",
+      "changePct": "+0.93%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,939.37",
-      "change": "+3.34",
-      "changePct": "+0.01%",
+      "value": "27,068.72",
+      "change": "+129.34",
+      "changePct": "+0.48%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
-      "value": "5.16%",
-      "change": "+0.05",
-      "changePct": "+0.94%",
+      "value": "5.18%",
+      "change": "+0.02",
+      "changePct": "+0.43%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Gold",
-      "value": "$4,342.00",
-      "change": "+44.00",
-      "changePct": "+1.02%",
+      "value": "$4,320.50",
+      "change": "+22.50",
+      "changePct": "+0.52%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$92.49",
-      "change": "-2.12",
-      "changePct": "-2.24%",
+      "value": "$92.44",
+      "change": "-2.17",
+      "changePct": "-2.29%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$84,827.31",
-      "change": "+449.18",
-      "changePct": "+0.53%",
-      "up": true,
+      "value": "$84,063.22",
+      "change": "-314.90",
+      "changePct": "-0.37%",
+      "up": false,
       "url": "https://www.wsj.com/market-data"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790337044832,
+  "lastUpdated": 1790380277571,
   "heroSetDate": "2026-09-25",
   "hero": {
     "headline": "TRUMP HOSTS XI FOR STATE DINNER AS CNN, MSNBC DENIED ACCESS TO ARRIVAL",
@@ -23,7 +23,13 @@
       }
     ],
     "postedAt": 1790337044832,
-    "img": true
+    "img": true,
+    "liveUpdates": [
+      {
+        "source": "AP News",
+        "url": "https://apnews.com/live/trump-xi-china-summit-media-ban-news-updates-09-25-2026"
+      }
+    ]
   },
   "groups": [
     {
@@ -145,6 +151,25 @@
   "columns": {
     "left": [
       {
+        "headline": "Resignation Follows Release Of Sex Misconduct Allegations",
+        "url": "https://www.theblaze.com/news/jersey-lt-gov-sex-resign",
+        "timestamp": 1790373130000,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "OpenAI's AI Meddled With US Government Websites, Report Finds",
+        "url": "https://www.facebook.com/nytimes/posts/breaking-news-openais-technology-went-rogue-and-meddled-with-three-us-government/1496450179004107/",
+        "timestamp": 1790378200000,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "White House Calls Pro-Trump Fox Ad A 'Public Service Announcement'",
+        "url": "https://www.theguardian.com/us-news/2026/sep/25/white-house-pro-trump-ad-fox",
+        "timestamp": 1790377440000,
+        "photo": true,
+        "postedAt": 1790380277571
+      },
+      {
         "headline": "JUDGE ORDERS WHITE HOUSE TO RESTORE PRESS ACCESS FOR CNN, MS NOW AND POLITICO",
         "url": "https://www.nbcnews.com/politics/trump-administration/judge-ruling-white-house-restore-access-media-ban-cnn-politico-ms-now-rcna599391",
         "timestamp": 1790250462626,
@@ -254,12 +279,19 @@
     ],
     "center": [
       {
+        "headline": "Mexican Cartels Deploying 'Alarming' Drone Advances, US Officials Warn",
+        "url": "https://www.newsnationnow.com/us-news/immigration/border-coverage/cartels/mexican-cartels-drone-advances/",
+        "timestamp": 1790372858000,
+        "photo": true,
+        "postedAt": 1790380277571
+      },
+      {
         "headline": "Washington Examiner: FDA Pick Threatens Trump-RFK Jr. Food Safety Promise",
         "url": "https://www.washingtonexaminer.com/op-eds/4741891/heidi-overton-fda-nomination-maha/",
         "timestamp": 1790334000000,
         "photo": true,
         "postedAt": 1790337044832,
-        "image": "/img/politics-0.jpg"
+        "image": "/img/politics-1.jpg"
       },
       {
         "headline": "Texas GOP Lawmaker Says State Should Have Caught Voter Registration Error",
@@ -275,7 +307,7 @@
         "feature": true,
         "photo": true,
         "postedAt": 1790337044832,
-        "image": "/img/politics-2.jpg"
+        "image": "/img/politics-3.jpg"
       },
       {
         "headline": "Netanyahu Set To Confront NYC Mayor-Elect Mamdani During UN Visit",
@@ -362,9 +394,70 @@
         "url": "https://www.americanimmigrationcouncil.org/press-release/fifth-circuit-hears-major-case-over-right-to-challenge-immigration-detention/",
         "timestamp": 1790280712000,
         "postedAt": 1790337044832
+      },
+      {
+        "headline": "Reversal Follows Daily Wire Investigative Report",
+        "url": "https://www.dailywire.com/news/josh-shapiro-abandons-draconian-power-grab-following-daily-wire-report?author",
+        "timestamp": 1790378868000,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "Shapiro Reverses Law After Voter Backlash",
+        "url": "https://www.dailysignal.com/2026/09/25/shapiro-walks-back-law/",
+        "timestamp": 1790375402000,
+        "postedAt": 1790380277571
       }
     ],
     "right": [
+      {
+        "headline": "Inside CSU's Required Ethnic Studies Courses On Race And Gender",
+        "url": "https://www.dailysignal.com/2026/09/25/csu-required-ethnic-studies-courses/",
+        "timestamp": 1790378558000,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "Illegal Immigrant Shielded From Deportation Charged In Football Player's Killing",
+        "url": "https://www.dailywire.com/news/illegal-immigrant-shielded-from-deportation-charged-with-killing-college-football-player",
+        "timestamp": 1790377572000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790380277571,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "Cattle Industry Warns Of Higher Beef Prices Over ICE Raids In Three States",
+        "url": "https://www.theblaze.com/news/cattle-industry-beef-ice-operations",
+        "timestamp": 1790376493000,
+        "photo": true,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "Harvard Turns To Biden-Era Lawyers In Admissions Fight",
+        "url": "https://www.newsmax.com/newsfront/harvard-biden-lawyers/2026/09/25/id/1270744/",
+        "timestamp": 1790374797000,
+        "photo": true,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "FDA Confirmation Hearing Gives Update On Abortion Pill Study",
+        "url": "https://www.dailysignal.com/2026/09/25/fda-confirmation-update-abortion-pill-study/",
+        "timestamp": 1790373600000,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "Marjorie Taylor Greene Declares MAGA 'Is Dead,' Calls It A Cult",
+        "url": "https://www.washingtontimes.com/news/2026/sep/25/marjorie-taylor-greene-declares-maga-dead-calls-cult/",
+        "timestamp": 1790373225000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "Data Center Waits On Blue State To Approve Promised Power",
+        "url": "https://dailycaller.com/2026/09/25/oracle-project-jupiter-force-majeure-new-mexico-air-permit-stargate-chris-johnson/",
+        "timestamp": 1790373000000,
+        "postedAt": 1790380277571
+      },
       {
         "headline": "GOP Report: Democrat Prosecutor Helped Drunk-Driving Illegal Immigrants Avoid Deportation",
         "url": "https://www.theblaze.com/news/democratic-prosecutor-illegals-drunken-driving",
@@ -385,7 +478,7 @@
         "timestamp": 1790284198000,
         "photo": true,
         "postedAt": 1790337044832,
-        "image": "/img/politics-1.jpg"
+        "image": "/img/politics-2.jpg"
       },
       {
         "headline": "Poll: Jackson Slightly Ahead In Maine Senate Race",
@@ -393,7 +486,7 @@
         "timestamp": 1790258804000,
         "photo": true,
         "postedAt": 1790337044832,
-        "image": "/img/politics-3.jpg"
+        "image": "/img/politics-4.jpg"
       },
       {
         "headline": "Republican Veteran Tony Sabio Runs For Virginia's Most Democratic US House Seat",
@@ -420,8 +513,7 @@
         "url": "https://dailycaller.com/2026/09/24/duke-last-ditch-bar-massachusetts-lesbian-progressive-woke-implosion/",
         "timestamp": 1790244000000,
         "photo": true,
-        "postedAt": 1790250462626,
-        "image": "/img/politics-4.jpg"
+        "postedAt": 1790250462626
       },
       {
         "headline": "Board Of Peace To Unveil $2.45 Billion Gaza Recovery Plan",
@@ -494,11 +586,11 @@
     }
   ],
   "balance": {
-    "left": 622,
-    "right": 694,
+    "left": 623,
+    "right": 704,
     "independent": 5,
     "days": 30,
-    "total": 1316,
+    "total": 1327,
     "pctLeft": 47,
     "pctRight": 53
   }

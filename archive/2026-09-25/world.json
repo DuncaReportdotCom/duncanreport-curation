@@ -1,23 +1,52 @@
 {
-  "lastUpdated": 1790335956137,
+  "lastUpdated": 1790379320193,
   "heroSetDate": "2026-09-25",
   "hero": {
-    "headline": "HOUTHIS CLAIM ATTACK ON RIYADH, ARAMCO FACILITY IN YANBU",
-    "url": "https://www.reuters.com/world/middle-east/houthis-say-they-attacked-riyadh-aramco-facilities-yanbu-2026-09-24/",
+    "headline": "IRAN OFFERS TO REOPEN STRAIT OF HORMUZ WITHIN 7 DAYS, RESTART NUCLEAR TALKS",
+    "url": "https://www.pbs.org/newshour/world/iran-has-suggested-a-deal-to-reopen-the-strait-of-hormuz-in-7-days",
     "sublinks": [
       {
-        "text": "Saudi Arabia's Allies Rally Behind Riyadh As Houthi Attacks Escalate",
+        "text": "Oil Prices Rise As US And Iran Trade Fresh War Threats",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-trump-un-speech-annihilate-threat-talks-resume/"
+      },
+      {
+        "text": "Iranian President: Ending War Is Washington's Choice",
+        "url": "https://www.reuters.com/world/middle-east/irans-president-says-it-is-up-us-choose-if-it-wants-end-iran-war-2026-09-24/"
+      },
+      {
+        "text": "Trump And Xi Discuss Middle East War, Iran's 7-Day Plan",
         "url": "https://www.reuters.com/world/middle-east/allies-unite-behind-saudi-arabia-houthis-step-up-attacks-2026-09-25/"
       },
       {
-        "text": "Opinion: It's Time For Riyadh To 'Finish Off' The Houthis",
-        "url": "https://www.realclearworld.com/articles/2026/09/17/time_for_mbs_to_finish_off_the_houthis_1206604.html"
+        "text": "US Senator Husted: Iran War 'Needs To End As Quickly As Possible'",
+        "url": "https://www.politico.com/news/2026/09/22/jon-husted-iran-war-quick-end-trump-01088614"
+      },
+      {
+        "text": "Analysis: Could Iran Reroute Oil Trade Overland If Hormuz Stays Shut?",
+        "url": "https://www.dw.com/en/can-iran-replace-sea-trade-with-land-routes/a-79211179?maca"
       }
     ],
-    "postedAt": 1790335956137,
+    "postedAt": 1790379320193,
     "img": true
   },
   "groups": [
+    {
+      "title": "POPE LEO'S FRANCE VISIT",
+      "stories": [
+        {
+          "headline": "Pope Calls Worshippers 'Saints Of France' After AI Warning",
+          "url": "https://www.afp.com/en/pope-calls-worshippers-saints-france-after-ai-warning",
+          "timestamp": 1790370465000,
+          "postedAt": 1790379320193
+        },
+        {
+          "headline": "Pope Leo Warns AI Poses Threat To Humanity As France Visit Opens",
+          "url": "https://www.theguardian.com/world/2026/sep/25/pope-leo-ai-threat-to-humanity-three-day-france-visit",
+          "timestamp": 1790356920000,
+          "postedAt": 1790379320193
+        }
+      ]
+    },
     {
       "title": "TRUMP HOSTS XI: WARM DINNER, HARD LINE ON TAIWAN",
       "stories": [
@@ -160,11 +189,39 @@
   "columns": {
     "left": [
       {
+        "headline": "Pakistani, Saudi, Turkish Military Chiefs Discuss Closer Ties",
+        "url": "https://www.reuters.com/world/asia-pacific/pakistan-saudi-turkish-chiefs-discuss-closer-military-ties-2026-09-25/",
+        "timestamp": 1790369953000,
+        "postedAt": 1790379320193
+      },
+      {
+        "headline": "6 Missing After Explosion In Athens Tourist District",
+        "url": "https://www.yahoo.com/news/world/articles/six-missing-building-blast-historic-173728649.html",
+        "timestamp": 1790367378000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790379320193,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "African Leaders Push For Permanent UN Security Council Seats",
+        "url": "https://qz.com/african-leaders-permanent-un-security-council-seats-092526",
+        "timestamp": 1790363928000,
+        "photo": true,
+        "postedAt": 1790379320193,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Backlash To 'NAZA' Exposes Limits Of Israeli Citizenship",
+        "url": "https://theintercept.com/2026/09/25/naza-documentary-film-netanyahu-israel-revoke-citizenship/",
+        "timestamp": 1790360741000,
+        "postedAt": 1790379320193
+      },
+      {
         "headline": "Poland Halts Asylum Claims At Belarus Border, Urges Europe To Follow",
         "url": "https://abcnews.com/Business/wireStory/poland-halted-asylum-claims-belarus-border-now-europe-136744786",
         "timestamp": 1790319673000,
-        "postedAt": 1790335956137,
-        "image": "/img/world-7.jpg"
+        "postedAt": 1790335956137
       },
       {
         "headline": "Tata Sons: The Rules, The Rift And What Happens Next",
@@ -178,15 +235,14 @@
         "timestamp": 1790328720000,
         "photo": true,
         "postedAt": 1790335956137,
-        "image": "/img/world-1.jpg"
+        "image": "/img/world-3.jpg"
       },
       {
         "headline": "Danish Intelligence Warns Russia Could Attack A NATO Country Within Months",
         "url": "https://www.cnbc.com/2026/09/25/russia-ukraine-war-nato-denmark-putin.html",
         "timestamp": 1790324767000,
         "feature": true,
-        "postedAt": 1790335956137,
-        "image": "/img/world-6.jpg"
+        "postedAt": 1790335956137
       },
       {
         "headline": "Netanyahu Set To Rebuke New York's Mamdani In UN Address",
@@ -270,6 +326,32 @@
     ],
     "center": [
       {
+        "headline": "HOUTHIS CLAIM ATTACK ON RIYADH, ARAMCO FACILITY IN YANBU",
+        "url": "https://www.reuters.com/world/middle-east/houthis-say-they-attacked-riyadh-aramco-facilities-yanbu-2026-09-24/",
+        "timestamp": 1790335956137,
+        "postedAt": 1790335956137
+      },
+      {
+        "headline": "PM Feared Gaza Strikes Would Derail Saudi Talks, Report Says",
+        "url": "https://www.timesofisrael.com/despite-pre-oct-7-warning-pm-reportedly-feared-gaza-strikes-would-undermine-saudi-talks/",
+        "timestamp": 1790369580000,
+        "postedAt": 1790379320193
+      },
+      {
+        "headline": "Trump-Xi Summit Ends Without Major AI Agreement",
+        "url": "https://www.theguardian.com/technology/2026/sep/25/trump-xi-ai-arms-race",
+        "timestamp": 1790374260000,
+        "photo": true,
+        "postedAt": 1790379320193
+      },
+      {
+        "headline": "UN Expands List Of Firms Tied To Illegal Israeli Settlements",
+        "url": "https://www.aljazeera.com/news/2026/9/25/un-expands-list-of-firms-involved-in-illegal-israeli-settlement-activities",
+        "timestamp": 1790364480000,
+        "postedAt": 1790379320193,
+        "image": "/img/world-7.jpg"
+      },
+      {
         "headline": "NATO SCRAMBLES JETS AFTER RUSSIAN HELICOPTER VIOLATES POLISH AIRSPACE",
         "url": "https://www.breitbart.com/europe/2026/09/24/nato-jets-scrambled-after-russian-helicopter-enters-polish-airspace/",
         "timestamp": 1790249465333,
@@ -308,7 +390,7 @@
         "timestamp": 1790242200000,
         "photo": true,
         "postedAt": 1790249465333,
-        "image": "/img/world-3.jpg"
+        "image": "/img/world-5.jpg"
       },
       {
         "headline": "Amazon Bets $3 Billion On India's Fast-Delivery Boom",
@@ -360,18 +442,37 @@
         "headline": "600,000 Faithful Expected To Flood Paris For Pope's Open-Air Mass",
         "url": "https://www.breitbart.com/europe/2026/09/25/over-600000-faithful-expected-at-pope-leo-xivs-large-open-air-mass-in-paris/",
         "timestamp": 1790326977000,
-        "postedAt": 1790335956137,
-        "image": "/img/world-5.jpg"
+        "postedAt": 1790335956137
       }
     ],
     "right": [
+      {
+        "headline": "Yemen Government Calls On Citizens To Fight Iran-Backed Houthis",
+        "url": "https://www.jpost.com/middle-east/article-909734",
+        "timestamp": 1790360535000,
+        "postedAt": 1790379320193
+      },
+      {
+        "headline": "Guatemala Works To Save Rare 'Fossil' Fish From Extinction",
+        "url": "https://www.afp.com/en/guatemala-ensures-survival-vulnerable-fossil-fish",
+        "timestamp": 1790377465000,
+        "photo": true,
+        "postedAt": 1790379320193
+      },
+      {
+        "headline": "Mbappe Injured As Zidane Wins France Debut, Italy Falls To Belgium",
+        "url": "https://www.rfi.fr/en/sports/20260925-mbappe-injured-as-zidane-wins-on-france-debut-italy-lose-on-mancini-return",
+        "timestamp": 1790374200000,
+        "photo": true,
+        "postedAt": 1790379320193
+      },
       {
         "headline": "Canada: Police Rule Ontario Synagogue Shootout A Hate-Motivated Crime",
         "url": "https://www.breitbart.com/europe/2026/09/25/canada-police-rule-shootout-outside-ontario-synagogue-as-hate-motivated/",
         "timestamp": 1790331359000,
         "photo": true,
         "postedAt": 1790335956137,
-        "image": "/img/world-0.jpg"
+        "image": "/img/world-2.jpg"
       },
       {
         "headline": "Austria's Yodelling Tradition Goes Underground In Graz",
@@ -391,7 +492,7 @@
         "timestamp": 1790302238000,
         "photo": true,
         "postedAt": 1790335956137,
-        "image": "/img/world-2.jpg"
+        "image": "/img/world-4.jpg"
       },
       {
         "headline": "US AND IRANIAN OFFICIALS MEET IN NEW YORK TO DISCUSS ENDING WAR",
@@ -419,7 +520,7 @@
         "timestamp": 1790192653000,
         "photo": true,
         "postedAt": 1790249465333,
-        "image": "/img/world-4.jpg"
+        "image": "/img/world-6.jpg"
       },
       {
         "headline": "Netanyahu Slams Macron's 'Grotesque' Claim That Hamas Never Operated In West Bank",

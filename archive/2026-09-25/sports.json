@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790335419170,
+  "lastUpdated": 1790378883555,
   "heroSetDate": "2026-09-25",
   "hero": {
     "headline": "GUARDIANS CLINCH PLAYOFF BERTH AS MLB POSTSEASON FIELD NEARS COMPLETION",
@@ -23,6 +23,23 @@
   },
   "groups": [
     {
+      "title": "NOR'EASTER FORCES MLB SCHEDULE SHUFFLE",
+      "stories": [
+        {
+          "headline": "Red Sox-Cubs Finale Moved To Tampa's Tropicana Field To Dodge Nor'easter",
+          "url": "https://sports.yahoo.com/mlb/article/red-sox-move-final-game-of-series-vs-cubs-to-tampa-bays-tropicana-field-to-avoid-noreaster-storm-223709937.html",
+          "timestamp": 1790375829000,
+          "postedAt": 1790378883555
+        },
+        {
+          "headline": "Strengthening Nor'easter Threatens East Coast With Floods, Power Outages",
+          "url": "https://www.usatoday.com/story/news/weather/2026/09/25/noreaster-weekend-weather-forecast/91935115007/",
+          "timestamp": 1790367060000,
+          "postedAt": 1790378883555
+        }
+      ]
+    },
+    {
       "title": "NFL WEEK 3 INJURY WATCH",
       "stories": [
         {
@@ -42,6 +59,13 @@
           "url": "https://sports.mynorthwest.com/nfl/seattle-seahawks/seattle-seahawks-injury-report-includes-good-and-bad-news",
           "timestamp": 1790293491000,
           "postedAt": 1790335419170
+        },
+        {
+          "headline": "Nick Bosa Out Multiple Weeks With Calf Injury, Deepening 49ers' D-Line Woes",
+          "url": "https://www.sfchronicle.com/sports/49ers/article/49ers-nick-bosa-multiple-weeks-calf-injury-22449026.php",
+          "timestamp": 1790373338000,
+          "feature": true,
+          "postedAt": 1790378883555
         }
       ]
     },
@@ -100,6 +124,21 @@
   "columns": {
     "left": [
       {
+        "headline": "Broncos' J.K. Dobbins, RJ Harvey On Track To Play Despite Injury Concerns",
+        "url": "https://sports.yahoo.com/articles/j-k-dobbins-rj-harvey-204225829.html",
+        "timestamp": 1790368945000,
+        "postedAt": 1790378883555
+      },
+      {
+        "headline": "Kylian Mbappé Alarms France With Knee Injury In Friendly, Zidane Provides Update",
+        "url": "https://www.gazettextra.com/sports/national/mbapp-limps-off-with-apparent-knee-injury-after-scoring-for-france-against-turkey/article_0436c3c7-976e-5ee0-8da2-46fbb8c695e6.html",
+        "timestamp": 1790369371000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790378883555,
+        "image": "/img/sports-1.jpg"
+      },
+      {
         "headline": "How All Eight WNBA Playoff Teams Could Win The Title",
         "url": "https://www.espn.com/wnba/story/_/id/50017923/wnba-playoffs-2026-preview-teams-postseason-odds-championship",
         "timestamp": 1790310240000,
@@ -132,7 +171,7 @@
         "timestamp": 1790230400000,
         "photo": true,
         "postedAt": 1790335419170,
-        "image": "/img/sports-4.jpg"
+        "image": "/img/sports-7.jpg"
       },
       {
         "headline": "Dolphins Notebook: Sieler's Patience, Jackson's Struggles",
@@ -145,8 +184,7 @@
         "url": "https://www.sounderatheart.com/2026/09/sounders-vs-rsl-recap-3/",
         "timestamp": 1790225027000,
         "photo": true,
-        "postedAt": 1790248882557,
-        "image": "/img/sports-5.jpg"
+        "postedAt": 1790248882557
       },
       {
         "headline": "Arch Manning Leads Texas Into Neyland Stadium, Where Uncle Peyton Once Ruled",
@@ -167,8 +205,7 @@
         "url": "https://sny.tv/articles/exploring-quarterback-options-for-giants-to-add",
         "timestamp": 1790196931000,
         "photo": true,
-        "postedAt": 1790248882557,
-        "image": "/img/sports-6.jpg"
+        "postedAt": 1790248882557
       },
       {
         "headline": "Coaching Salary Cap Proposal Added To Protect College Sports Act",
@@ -226,6 +263,41 @@
     ],
     "center": [
       {
+        "headline": "NFLPA's JC Tretter Says Brazil Field Conditions Reinforce Player Safety Concerns",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jc-tretter-field-condition-in-brazil-reinforces-nflpa-concerns-about-international-games",
+        "timestamp": 1790363963000,
+        "postedAt": 1790378883555
+      },
+      {
+        "headline": "Viral Moment Brings Some Levity To Packers' Ugly Loss To Falcons",
+        "url": "https://fox11online.com/sports/packers-and-nfl/viral-moment-brings-humor-to-painful-packers-performance-in-loss-to-the-falcons-pulse-green-bay-atlanta-maddie-clark-fan-lambeau-field",
+        "timestamp": 1790372947000,
+        "photo": true,
+        "postedAt": 1790378883555,
+        "image": "/img/sports-0.jpg"
+      },
+      {
+        "headline": "FBI Arrests Former Moanalua Girls Wrestling Coach",
+        "url": "https://sports.yahoo.com/articles/fbi-arrests-former-coach-moanalua-213600037.html",
+        "timestamp": 1790372160000,
+        "photo": true,
+        "postedAt": 1790378883555
+      },
+      {
+        "headline": "Ravens' Zay Flowers Questionable, Tackle Ronnie Stanley Ruled Out",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/wr-zay-flowers-questionable-ot-ronnie-stanley-out-for-ravens",
+        "timestamp": 1790369813000,
+        "postedAt": 1790378883555
+      },
+      {
+        "headline": "Vladimir Guerrero Jr. Apologizes To Blue Jays Fans, Teammates For Contract Comments",
+        "url": "https://www.thescore.com/mlb/news/3608535/guerrero-apologizes-to-jays-fans-teammates-i-regret-my-comments",
+        "timestamp": 1790368293000,
+        "photo": true,
+        "postedAt": 1790378883555,
+        "image": "/img/sports-2.jpg"
+      },
+      {
         "headline": "Zach Ertz Says He's Glad To Be Back In Philadelphia, His Favorite Place",
         "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zach-ertz-i-never-wanted-to-leave-philadelphia-glad-to-be-back-to-my-favorite-place",
         "timestamp": 1790326739000,
@@ -245,19 +317,13 @@
         "timestamp": 1790288675000,
         "photo": true,
         "postedAt": 1790335419170,
-        "image": "/img/sports-3.jpg"
+        "image": "/img/sports-6.jpg"
       },
       {
         "headline": "D.C. Unveils Master Plan For RFK Stadium Redevelopment",
         "url": "https://www.axios.com/local/washington-dc/2026/09/24/rfk-stadium-development-commanders",
         "timestamp": 1790286068000,
         "postedAt": 1790335419170
-      },
-      {
-        "headline": "Broncos' Jonah Coleman Out Of Practice; Dobbins, Harvey Limited",
-        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jonah-coleman-out-of-broncos-practice-j-k-dobbins-rj-harvey-limited",
-        "timestamp": 1790232836000,
-        "postedAt": 1790248882557
       },
       {
         "headline": "Longtime Lakers PA Announcer Lawrence Tanter Dies",
@@ -303,8 +369,7 @@
         "url": "https://www.foxnews.com/outkick-sports/college-basketball-tv-analyst-former-duke-assistant-chris-spatola-coach-k-son-in-law-dies-47",
         "timestamp": 1790132208000,
         "photo": true,
-        "postedAt": 1790162461509,
-        "image": "/img/sports-7.jpg"
+        "postedAt": 1790162461509
       },
       {
         "headline": "Mets Retain Andy Green As Manager On New Three-Year Deal",
@@ -340,6 +405,12 @@
     ],
     "right": [
       {
+        "headline": "Sam Darnold Set To Return As Seahawks Rule Out Two Other Starters",
+        "url": "https://sports.mynorthwest.com/nfl/seattle-seahawks/darnold-to-return-seattle-seahawks-rule-out-2-starters-commanders",
+        "timestamp": 1790369846000,
+        "postedAt": 1790378883555
+      },
+      {
         "headline": "BLUE JAYS ELIMINATED FROM PLAYOFF CONTENTION AS AL EAST RACE SHAKES OUT",
         "url": "https://www.mlb.com/news/blue-jays-eliminated-from-2026-postseason-contention",
         "timestamp": 1790248882557,
@@ -351,7 +422,7 @@
         "timestamp": 1790334000000,
         "photo": true,
         "postedAt": 1790335419170,
-        "image": "/img/sports-0.jpg"
+        "image": "/img/sports-3.jpg"
       },
       {
         "headline": "UFC BJJ 11 Results: Musumeci Defeats Mitchell",
@@ -359,7 +430,7 @@
         "timestamp": 1790294359000,
         "photo": true,
         "postedAt": 1790335419170,
-        "image": "/img/sports-1.jpg"
+        "image": "/img/sports-4.jpg"
       },
       {
         "headline": "Sarkisian Says Trump's Departure Disrupted Miami's Headsets In CFP Title Game",
@@ -367,7 +438,7 @@
         "timestamp": 1790290500000,
         "photo": true,
         "postedAt": 1790335419170,
-        "image": "/img/sports-2.jpg"
+        "image": "/img/sports-5.jpg"
       },
       {
         "headline": "Hurricanes Preview Preseason Matchup Against Predators",
@@ -594,210 +665,192 @@
     },
     {
       "league": "MLB",
-      "home": "PIT",
-      "away": "STL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "1"
-    },
-    {
-      "league": "MLB",
-      "home": "KC",
-      "away": "CHW",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "1",
-      "awayScore": "9"
-    },
-    {
-      "league": "MLB",
-      "home": "CHC",
-      "away": "MIA",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "1"
-    },
-    {
-      "league": "MLB",
-      "home": "TEX",
-      "away": "NYM",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "3",
-      "awayScore": "1"
-    },
-    {
-      "league": "MLB",
-      "home": "COL",
-      "away": "ARI",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "8",
-      "awayScore": "12"
-    },
-    {
-      "league": "MLB",
-      "home": "PHI",
-      "away": "MIL",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "1",
-      "awayScore": "5"
-    },
-    {
-      "league": "MLB",
       "home": "BOS",
-      "away": "CLE",
-      "state": "post",
-      "note": "Final",
+      "away": "CHC",
+      "state": "in",
+      "note": "Top 7th",
+      "homeScore": "0",
+      "awayScore": "0"
+    },
+    {
+      "league": "MLB",
+      "home": "DET",
+      "away": "PIT",
+      "state": "in",
+      "note": "Top 2nd",
       "homeScore": "0",
       "awayScore": "1"
     },
     {
       "league": "MLB",
-      "home": "NYY",
+      "home": "PHI",
       "away": "TB",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "4"
+      "state": "in",
+      "note": "Top 4th",
+      "homeScore": "0",
+      "awayScore": "2"
     },
     {
       "league": "MLB",
-      "home": "ATL",
+      "home": "WSH",
+      "away": "NYM",
+      "state": "in",
+      "note": "End 2nd",
+      "homeScore": "2",
+      "awayScore": "1"
+    },
+    {
+      "league": "MLB",
+      "home": "TOR",
       "away": "CIN",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "7"
+      "state": "in",
+      "note": "Top 2nd",
+      "homeScore": "2",
+      "awayScore": "1"
     },
     {
       "league": "MLB",
-      "home": "SEA",
-      "away": "LAA",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "4",
-      "awayScore": "6"
+      "home": "MIA",
+      "away": "ATL",
+      "state": "in",
+      "note": "Top 2nd",
+      "homeScore": "0",
+      "awayScore": "0"
+    },
+    {
+      "league": "MLB",
+      "home": "KC",
+      "away": "CLE",
+      "state": "in",
+      "note": "Rain Delay, Top 1st",
+      "homeScore": "0",
+      "awayScore": "0"
+    },
+    {
+      "league": "MLB",
+      "home": "NYY",
+      "away": "BAL",
+      "state": "scheduled",
+      "note": "9/25 - 7:30 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "CHW",
+      "away": "COL",
+      "state": "scheduled",
+      "note": "9/25 - 7:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "MIL",
+      "away": "STL",
+      "state": "scheduled",
+      "note": "9/25 - 7:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "MIN",
+      "away": "TEX",
+      "state": "scheduled",
+      "note": "9/25 - 8:10 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "SD",
+      "away": "ARI",
+      "state": "scheduled",
+      "note": "9/25 - 9:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
       "home": "ATH",
       "away": "HOU",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "5",
-      "awayScore": "7"
+      "state": "scheduled",
+      "note": "9/25 - 9:40 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLB",
-      "home": "LAD",
-      "away": "SD",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "4"
-    },
-    {
-      "league": "NHL",
-      "home": "PHI",
-      "away": "BOS",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "2",
-      "awayScore": "0"
-    },
-    {
-      "league": "NHL",
-      "home": "DET",
-      "away": "BUF",
-      "state": "post",
-      "note": "Final/OT",
-      "homeScore": "3",
-      "awayScore": "2"
-    },
-    {
-      "league": "NHL",
-      "home": "CBJ",
-      "away": "PIT",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "4",
-      "awayScore": "0"
-    },
-    {
-      "league": "NHL",
-      "home": "NYR",
-      "away": "NJ",
-      "state": "post",
-      "note": "Final/SO",
-      "homeScore": "4",
-      "awayScore": "3"
-    },
-    {
-      "league": "NHL",
-      "home": "CAR",
-      "away": "NSH",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "5"
-    },
-    {
-      "league": "NHL",
-      "home": "TB",
-      "away": "FLA",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "3",
-      "awayScore": "5"
-    },
-    {
-      "league": "NHL",
-      "home": "STL",
-      "away": "CHI",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "1",
-      "awayScore": "0"
-    },
-    {
-      "league": "NHL",
-      "home": "VAN",
-      "away": "EDM",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "1",
-      "awayScore": "2"
-    },
-    {
-      "league": "NHL",
       "home": "SEA",
-      "away": "CGY",
+      "away": "LAA",
+      "state": "scheduled",
+      "note": "9/25 - 10:10 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "SF",
+      "away": "LAD",
+      "state": "scheduled",
+      "note": "9/25 - 10:15 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLB",
+      "home": "BOS",
+      "away": "CHC",
       "state": "post",
-      "note": "Final/SO",
+      "note": "Final",
       "homeScore": "4",
       "awayScore": "3"
     },
     {
-      "league": "NHL",
-      "home": "VGK",
-      "away": "UTA",
+      "league": "MLB",
+      "home": "NYY",
+      "away": "BAL",
       "state": "post",
-      "note": "Final/OT",
-      "homeScore": "5",
-      "awayScore": "4"
+      "note": "Final",
+      "homeScore": "2",
+      "awayScore": "10"
     },
     {
       "league": "NHL",
-      "home": "SJ",
-      "away": "ANA",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "10",
+      "home": "WSH",
+      "away": "BOS",
+      "state": "in",
+      "note": "8:23 - 1st",
+      "homeScore": "0",
       "awayScore": "0"
+    },
+    {
+      "league": "NHL",
+      "home": "NYI",
+      "away": "NYR",
+      "state": "scheduled",
+      "note": "9/25 - 7:30 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NHL",
+      "home": "MIN",
+      "away": "DAL",
+      "state": "scheduled",
+      "note": "9/25 - 8:00 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NHL",
+      "home": "COL",
+      "away": "WPG",
+      "state": "scheduled",
+      "note": "9/25 - 8:30 PM EDT",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLS",
@@ -812,6 +865,24 @@
       "league": "MLS",
       "home": "MTL",
       "away": "CIN",
+      "state": "scheduled",
+      "note": "Sat, Sep 26 7:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "CLT",
+      "away": "CHI",
+      "state": "scheduled",
+      "note": "Sat, Sep 26 7:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "PHI",
+      "away": "ORL",
       "state": "scheduled",
       "note": "Sat, Sep 26 7:30 PM ET",
       "homeScore": null,
