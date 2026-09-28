@@ -1,0 +1,643 @@
+{
+  "lastUpdated": 1790595803964,
+  "heroSetDate": "2026-09-28",
+  "hero": {
+    "headline": "UK: BRITISH POLICE PROBE WHETHER ARRESTS NEAR US AIR BASE FOILED IRAN-LINKED ATTACK",
+    "url": "https://www.npr.org/2026/09/28/g-s1-145245/britain-us-base-suspected-foiled-attack",
+    "sublinks": [
+      {
+        "text": "Five Suspects Held As Investigators Probe Iran Connection",
+        "url": "https://www.newsmax.com/newsfront/terrorism-fairford-explosives/2026/09/28/id/1270889/"
+      },
+      {
+        "text": "Suspected Bomb Plot Targeted Military Base Used By US Forces",
+        "url": "https://www.washingtontimes.com/news/2026/sep/27/uk-police-evacuate-homes-near-military-base-used-us-make-arrests/"
+      },
+      {
+        "text": "Questions Remain Over Scope And Motive Of Alleged Plotters",
+        "url": "https://www.cnn.com/2026/09/28/uk/raf-fairford-key-questions-terror-suspects-arrests-intl"
+      }
+    ],
+    "postedAt": 1790595803964,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "UKRAINE WAR: RUSSIAN STRIKES, UKRAINIAN GROUND CLAIMS",
+      "stories": [
+        {
+          "headline": "Ukraine Claims Battlefield Gains Amid New Russian Strikes",
+          "url": "https://www.newsmax.com/newsfront/ukraine-russia-donetsk/2026/09/28/id/1270892/",
+          "timestamp": 1790592699000,
+          "postedAt": 1790595803964
+        },
+        {
+          "headline": "Russian Drones Pound Civilian Areas As Kyiv Claims Breakthroughs",
+          "url": "https://abcnews.com/International/wireStory/russian-drones-pound-civilian-areas-ukraine-claims-battlefield-136816631",
+          "timestamp": 1790591498000,
+          "postedAt": 1790595803964
+        }
+      ]
+    },
+    {
+      "title": "TRUMP-XI SUMMIT: TARIFF DEAL AND TAIWAN FALLOUT",
+      "stories": [
+        {
+          "headline": "US, China Agree On List Of Goods For Tariff Cuts",
+          "url": "https://finance.yahoo.com/economy/policy/articles/list-goods-us-china-agreed-033047670.html",
+          "timestamp": 1790566200000,
+          "postedAt": 1790595803964
+        },
+        {
+          "headline": "Taiwan Policy Unchanged After Xi Visit, Perdue Says",
+          "url": "https://www.straitstimes.com/world/united-states/us-policy-on-taiwan-unchanged-after-xis-visit-says-top-envoy-perdue",
+          "timestamp": 1790535958000,
+          "postedAt": 1790595803964
+        },
+        {
+          "headline": "Justice Jackson's Dissent Blasts Ruling As Another Win For Trump",
+          "url": "https://www.theblaze.com/news/ketani-brown-supreme-court-trump",
+          "timestamp": 1790503318000,
+          "postedAt": 1790509111192
+        },
+        {
+          "headline": "Supreme Court Clears Way For Trump's Modified Voter Verification Database",
+          "url": "https://www.scotusblog.com/2026/09/supreme-court-clears-way-for-trump-administration-to-use-modified-voter-verification-database/",
+          "timestamp": 1790355609000,
+          "postedAt": 1790509111192
+        }
+      ]
+    },
+    {
+      "title": "IRAN CONFLICT: MARINES INJURED, CEASEFIRE PROPOSAL REJECTED",
+      "stories": [
+        {
+          "headline": "Trump Rejects Iran's Ceasefire Proposal, Straining Gulf Allies",
+          "url": "https://www.npr.org/2026/09/28/nx-s1-5981212/trump-rejected-irans-ceasefire-proposal-what-it-means-for-u-s-allies-in-the-gulf",
+          "timestamp": 1790592314000,
+          "postedAt": 1790595803964
+        },
+        {
+          "headline": "US Marines Injured In Recent Iranian Attack",
+          "url": "https://www.nbcnews.com/politics/national-security/us-marines-injured-recent-iranian-attack-rcna600097",
+          "timestamp": 1790557620000,
+          "feature": true,
+          "postedAt": 1790595803964
+        }
+      ]
+    },
+    {
+      "title": "NETANYAHU'S FIERY UN SPEECH",
+      "stories": [
+        {
+          "headline": "Netanyahu Slams Mamdani And Piker Before Nearly Empty UN Hall",
+          "url": "https://zeteo.com/p/netanyahu-slams-mamdani-and-piker",
+          "timestamp": 1790335497000,
+          "postedAt": 1790337044832
+        },
+        {
+          "headline": "Netanyahu Attacks Israel's Enemies And Allies In UN Speech",
+          "url": "https://www.aljazeera.com/news/2026/9/24/benjamin-netanyahu-attacks-israels-enemies-and-allies-in-un-speech",
+          "timestamp": 1790309984000,
+          "postedAt": 1790337044832
+        }
+      ]
+    },
+    {
+      "title": "GOP MIDTERM JITTERS DEEPEN",
+      "stories": [
+        {
+          "headline": "Rising Bond Yields, Mortgage Rates Deepen Gloom For Trump's GOP",
+          "url": "https://thehill.com/homenews/analysis/6110670-rising-bond-yields-midterm-trouble/",
+          "timestamp": 1790330400000,
+          "postedAt": 1790337044832
+        },
+        {
+          "headline": "Senate GOP Eyes Last-Ditch Affordability Push Amid Midterm Fears",
+          "url": "https://www.cnn.com/2026/09/25/politics/senate-republicans-affordability-data-centers",
+          "timestamp": 1790326830000,
+          "postedAt": 1790337044832
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Trump Slams Justices Over Repeated Missouri Map Rejection",
+        "url": "https://thehill.com/homenews/administration/6113998-trump-criticizes-supreme-court-missouri-map/",
+        "timestamp": 1790536860000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Poll: Le Pen, Melenchon Head Toward French Runoff",
+        "url": "https://www.newsmax.com/world/globaltalk/poll-france-president/2026/09/28/id/1270893/",
+        "timestamp": 1790592977000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Congressional Candidate Jay Feely's Comments On Female Athletes Draw Scrutiny",
+        "url": "https://popular.info/p/what-congressional-candidate-jay",
+        "timestamp": 1790591505000,
+        "photo": true,
+        "postedAt": 1790595803964,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "What To Know About The $810 Million In Spending Trump Canceled",
+        "url": "https://www.npr.org/2026/09/28/nx-s1-5982739/what-to-know-about-the-810-million-in-spending-canceled-by-president-trump",
+        "timestamp": 1790586000000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Rand Paul Emerges As Roadblock To Homeland Security Efforts",
+        "url": "https://www.politico.com/news/2026/09/28/rand-paul-senate-roadblock-homeland-security-01093700",
+        "timestamp": 1790585100000,
+        "photo": true,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Sen. Kennedy: No Living Politician Should Have Building Named After Them",
+        "url": "https://www.foxnews.com/politics/sen-kennedy-says-no-living-politicians-should-have-buildings-named-after-them-after-trumps-moves",
+        "timestamp": 1790578084000,
+        "photo": true,
+        "postedAt": 1790595803964,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "Anthropic's Amodei Faces Critics' Hit Piece Ahead Of White House Dinner",
+        "url": "https://www.axios.com/2026/09/27/amodei-trump-anthropic-white-house-briefing",
+        "timestamp": 1790573025000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Fetterman Defends Political Identity, Eyes Role As '51st Senator'",
+        "url": "https://thehill.com/homenews/senate/6113446-fetterman-gop-speculation-51st-democrat-midterms/",
+        "timestamp": 1790479980000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Iowa Senate Rivals Clash Over Fuel Costs On Campaign Trail",
+        "url": "https://iowacapitaldispatch.com/2026/09/25/iowas-u-s-senate-candidates-share-fuel-cost-policies-trade-criticisms-on-campaign-trail/",
+        "timestamp": 1790390171000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "TRUMP HOSTS XI FOR STATE DINNER AS CNN, MSNBC DENIED ACCESS TO ARRIVAL",
+        "url": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi",
+        "timestamp": 1790337044832,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "Press Pool Dispute Widens As Access Fight Escalates",
+        "url": "https://www.npr.org/2026/09/26/nx-s1-5981494/press-pool-dispute-escalates-as-white-house-cuts-cnn-from-air-force-one-travel",
+        "timestamp": 1790422683000,
+        "postedAt": 1790423684686
+      },
+      {
+        "headline": "ICE Eyes Mobile Detention As Texas Agent Shooting Sparks Outcry",
+        "url": "https://www.npr.org/2026/09/26/nx-s1-5978917/immigration-briefing-ice-eyes-mobile-detention-as-texas-agent-shooting-sparks-outcry",
+        "timestamp": 1790422679000,
+        "feature": true,
+        "postedAt": 1790423684686
+      },
+      {
+        "headline": "OpenAI's AI Meddled With US Government Websites, Report Finds",
+        "url": "https://www.facebook.com/nytimes/posts/breaking-news-openais-technology-went-rogue-and-meddled-with-three-us-government/1496450179004107/",
+        "timestamp": 1790378200000,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "White House Calls Pro-Trump Fox Ad A 'Public Service Announcement'",
+        "url": "https://www.theguardian.com/us-news/2026/sep/25/white-house-pro-trump-ad-fox",
+        "timestamp": 1790377440000,
+        "photo": true,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "Daily Wire: Data Center Critics' Favorite Study Has Authors Tied To China",
+        "url": "https://www.dailywire.com/news/data-center-critics-love-to-cite-this-study-its-authors-have-ties-to-china?elementPosition",
+        "timestamp": 1790330899000,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "New Jersey Gov. Sherrill Calls On Lieutenant Governor To Resign",
+        "url": "https://newjerseymonitor.com/2026/09/24/nj-lieutenant-governor-violated-ethics-policies-report/",
+        "timestamp": 1790313360000,
+        "photo": true,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "Justice Jackson Warns Supreme Court's Emergency Rulings Carry 'Institutional Costs'",
+        "url": "https://thehill.com/regulation/court-battles/6110805-justice-jackson-critiques-scotus-emergency-docket/",
+        "timestamp": 1790297520000,
+        "photo": true,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "Cracks Emerge In GOP's Florida Firewall",
+        "url": "https://www.politico.com/news/2026/09/25/florida-republicans-worries-midterms-2026-01093009",
+        "timestamp": 1790326800000,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "Some Republicans Distance From Trump As Election Enters Final Stretch",
+        "url": "https://www.npr.org/2026/09/25/nx-s1-5978096/republicans-trump-midterm-elections",
+        "timestamp": 1790326800000,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "Sexual Misconduct Allegations Preceded Her Resignation, Outlet Reports",
+        "url": "https://www.theblaze.com/news/jersey-lt-gov-sex-resign",
+        "timestamp": 1790508137000,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "New Jersey Lt. Gov. Resigns After Damaging Ethics Report",
+        "url": "https://www.nbcnews.com/politics/politics-news/new-jersey-lieutenant-governor-resigns-ethics-report-rcna599885",
+        "timestamp": 1790371082000,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Calls Grow For US To Pull Back On Asia Alliances, Rattling Region",
+        "url": "https://www.washingtontimes.com/news/2026/sep/27/call-us-pull-back-asia-alliances-defer-china-indo-pacific-edge/",
+        "timestamp": 1790592316000,
+        "postedAt": 1790595803964
+      }
+    ],
+    "center": [
+      {
+        "headline": "SENATE REJECTS RESOLUTION TO END U.S. WAR WITH IRAN",
+        "url": "https://www.reuters.com/world/us/us-democrats-tee-up-pre-election-war-powers-vote-some-republicans-break-with-2026-09-24/",
+        "timestamp": 1790509111192,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "AOC Test-Runs Senate Bid In Upstate New York",
+        "url": "https://www.axios.com/2026/09/27/aoc-tests-senate-bid-new-york",
+        "timestamp": 1790582616000,
+        "photo": true,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Fetterman Accidentally Calls Himself 'Lifelong Republican' At Texas Tribune Festival",
+        "url": "https://www.foxnews.com/politics/john-fetterman-accidentally-calls-himself-lifelong-republican-texas-tribune-festival",
+        "timestamp": 1790536269000,
+        "photo": true,
+        "postedAt": 1790595803964,
+        "image": "/img/politics-2.jpg"
+      },
+      {
+        "headline": "Blanche Says Trump Has Right To Restrict WH, Air Force One Press Access",
+        "url": "https://www.politico.com/news/2026/09/27/todd-blanche-white-house-press-cnn-01094113",
+        "timestamp": 1790519880000,
+        "photo": true,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Republicans Pour Money Into Dozens Of Once-'Safe' House Races",
+        "url": "https://www.reuters.com/legal/government/republicans-pour-money-into-dozens-us-house-races-previously-considered-safe-2026-09-27/",
+        "timestamp": 1790508286000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Charlie Cook: GOP Has Little It Can Do Before Election Day",
+        "url": "https://www.realclearpolitics.com/video/2026/09/27/charlie_cook_not_a_lot_republicans_can_do_before_election_day_its_as_if_trump_jumped_the_shark_finally.html",
+        "timestamp": 1790442000000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Sen. John Kennedy Becomes Sought-After Campaign Surrogate For GOP",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4743625/the-folksy-senate-republican-in-hot-demand-on-the-campaign-trail/",
+        "timestamp": 1790506800000,
+        "photo": true,
+        "postedAt": 1790509111192,
+        "image": "/img/politics-5.jpg"
+      },
+      {
+        "headline": "Trump Weighs Candidates To Lead New 'AI Force' Superintelligence Effort",
+        "url": "https://nypost.com/2026/09/26/us-news/trumps-next-ai-czar-whos-in-the-running-for-the-white-house-post/",
+        "timestamp": 1790470320000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Trump Tells Female MS NOW Reporter To 'Be Quiet' Over Press Ban Questions",
+        "url": "https://www.theguardian.com/us-news/2026/sep/26/trump-female-ms-now-reporter",
+        "timestamp": 1790466060000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Trump Administration Claws Back Nearly $1 Billion In Approved Spending",
+        "url": "https://www.pbs.org/newshour/politics/trump-administration-uses-rare-authority-to-claw-back-nearly-1b-in-spending-approved-by-congress",
+        "timestamp": 1790443224000,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Supreme Court Rejects Missouri GOP Map For Third Time",
+        "url": "https://www.scotusblog.com/2026/09/for-the-third-time-supreme-court-declines-to-allow-missouri-to-use-congressional-map-expected-to/",
+        "timestamp": 1790376395000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790509111192,
+        "image": "/img/politics-7.jpg"
+      },
+      {
+        "headline": "Republicans Fear Two Key Senate Races Are Slipping From Their Grasp",
+        "url": "https://www.wpsdlocal6.com/news/republicans-fear-two-key-senate-races-are-slipping-from-their-grasp/article_c76f8f3a-cf81-5015-ad9e-a05395624d76.html",
+        "timestamp": 1790416829000,
+        "postedAt": 1790423684686
+      },
+      {
+        "headline": "America Doesn't Need Dario Amodei's Permission To Build AI",
+        "url": "https://www.theblaze.com/columns/opinion/america-doesnt-need-dario-amodeis-permission-to-build",
+        "timestamp": 1790420519000,
+        "postedAt": 1790423684686
+      },
+      {
+        "headline": "Mexican Cartels Deploying 'Alarming' Drone Advances, US Officials Warn",
+        "url": "https://www.newsnationnow.com/us-news/immigration/border-coverage/cartels/mexican-cartels-drone-advances/",
+        "timestamp": 1790372858000,
+        "photo": true,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "Washington Examiner: FDA Pick Threatens Trump-RFK Jr. Food Safety Promise",
+        "url": "https://www.washingtonexaminer.com/op-eds/4741891/heidi-overton-fda-nomination-maha/",
+        "timestamp": 1790334000000,
+        "photo": true,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "Texas GOP Lawmaker Says State Should Have Caught Voter Registration Error",
+        "url": "https://www.texastribune.org/2026/09/24/dps-voter-registration-applications-error-paul-bettencourt-team/",
+        "timestamp": 1790292444000,
+        "photo": true,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "California Supreme Court Rules Riverside Sheriff's Ballot Seizure Unlawful",
+        "url": "https://calmatters.org/politics/2026/09/supreme-court-ruling-sheriff-ballot-seizure/",
+        "timestamp": 1790277600000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "Iran Says It's Up To US To End War As China Presses For De-Escalation",
+        "url": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
+        "timestamp": 1790314641000,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "Federal Court Weighs Immigration Detention Without Hearings",
+        "url": "https://www.americanimmigrationcouncil.org/press-release/fifth-circuit-hears-major-case-over-right-to-challenge-immigration-detention/",
+        "timestamp": 1790280712000,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "Reversal Follows Daily Wire Investigative Report",
+        "url": "https://www.dailywire.com/news/josh-shapiro-abandons-draconian-power-grab-following-daily-wire-report?author",
+        "timestamp": 1790378868000,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "Shapiro Reverses Law After Voter Backlash",
+        "url": "https://www.dailysignal.com/2026/09/25/shapiro-walks-back-law/",
+        "timestamp": 1790375402000,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "What The Database Ruling Means For Midterm Voter Rolls",
+        "url": "https://www.pbs.org/newshour/show/what-the-supreme-courts-voter-citizenship-database-decision-means-for-the-midterms",
+        "timestamp": 1790376946000,
+        "postedAt": 1790509111192
+      }
+    ],
+    "right": [
+      {
+        "headline": "Zeteo: Iran Preps For 'Doomsday' War As Trump Talks Tough",
+        "url": "https://zeteo.com/p/iran-prepares-for-a-doomsday-war",
+        "timestamp": 1790593903000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Trump Lashes Out As Florida GOP Candidates Seek Distance",
+        "url": "https://thehill.com/newsletters/morning-report/6114499-donald-trump-florida-republicans-midterms-rift/",
+        "timestamp": 1790593560000,
+        "feature": true,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Data Center Backlash Gives The Left A New Political Cause",
+        "url": "https://www.newsmax.com/platinum/data-centers-backlash-left/2026/08/31/id/1267913/",
+        "timestamp": 1790591326000,
+        "photo": true,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Newsom Signs Bills Cracking Down On Officials' Meme Coin Dealings",
+        "url": "https://www.gov.ca.gov/2026/09/27/the-opposite-of-trump-governor-newsom-signs-bills-to-crack-down-on-corruption-including-meme-coins-by-public-officials/",
+        "timestamp": 1790531054000,
+        "photo": true,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Trump Amplifies Calls To Oust MAGA Rep In Posting Spree",
+        "url": "https://www.aol.co.uk/articles/trump-goes-warpath-against-gop-130014000.html",
+        "timestamp": 1790526960000,
+        "photo": true,
+        "postedAt": 1790595803964,
+        "image": "/img/politics-3.jpg"
+      },
+      {
+        "headline": "Sharyl Attkisson: What Will Trump's New 'NATO 3.0' Look Like?",
+        "url": "https://www.realclearpolitics.com/video/2026/09/27/sharyl_attkisson_what_will_a_new_nato_30_look_like.html",
+        "timestamp": 1790442000000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Roundup: GOP Midterm Cash Surge, Trump's World Stage, Media Ban Lift",
+        "url": "https://www.dailywire.com/episode/district-club-ep-5",
+        "timestamp": 1790506846000,
+        "photo": true,
+        "postedAt": 1790509111192,
+        "image": "/img/politics-4.jpg"
+      },
+      {
+        "headline": "Daily Wire: Case Against Police 'Flock' Cameras Is Wrongheaded",
+        "url": "https://www.dailywire.com/news/why-the-case-against-flock-cameras-is-wrongheaded?elementPosition",
+        "timestamp": 1790505092000,
+        "photo": true,
+        "postedAt": 1790509111192,
+        "image": "/img/politics-6.jpg"
+      },
+      {
+        "headline": "College Football Player's Killing Renews Focus On Twice-Missed Deportation",
+        "url": "https://www.theblaze.com/news/college-stabbing-illegal-alien-deport",
+        "timestamp": 1790505090000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Rep. Van Duyne Pushes Bill To Crack Down On H-1B Visa Fraud",
+        "url": "https://www.theblaze.com/shows/sara-gonzales-unfiltered/hit-him-in-the-pocketbook-sara-gonzales-sits-down-with-rep-beth-van-duyne-as-congress-moves-to-crush-h-1b-fraud",
+        "timestamp": 1790505039000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Houston Gang Members Who Rapped About Crimes Face 'Massive' FBI Takedown",
+        "url": "https://www.theblaze.com/news/houston-fbi-gang-take-down",
+        "timestamp": 1790420536000,
+        "photo": true,
+        "postedAt": 1790423684686
+      },
+      {
+        "headline": "Behind The Scenes With Maine's Retiree Anti-ICE Activists",
+        "url": "https://www.theblaze.com/news/anti-ice-radicals-maine-retirees",
+        "timestamp": 1790418975000,
+        "photo": true,
+        "postedAt": 1790423684686
+      },
+      {
+        "headline": "Former Employee Reveals What Happened After Sara Gonzales's H-1B Fraud Exposé",
+        "url": "https://www.theblaze.com/shows/sara-gonzales-unfiltered/he-got-afraid-former-employee-of-alleged-h-1b-fraudster-reveals-what-happened-after-sara-gonzales-expose",
+        "timestamp": 1790418740000,
+        "postedAt": 1790423684686
+      },
+      {
+        "headline": "Hidden-Camera Video Shows Talarico's Pastor Rejecting Christ's Virgin Birth",
+        "url": "https://www.theblaze.com/news/exclusive-we-all-got-in-by-lying-hidden-camera-shows-talaricos-pastor-rejecting-christs-virgin-birth-other-foundational-christian-beliefs",
+        "timestamp": 1790417819000,
+        "photo": true,
+        "postedAt": 1790423684686
+      },
+      {
+        "headline": "The GOP's Vance-Rubio Problem — And A Push To Preemptively Target Newsom",
+        "url": "https://www.washingtonexaminer.com/op-eds/4739775/vance-rubio-gop-2028-strategy-gavin-newsom/",
+        "timestamp": 1790416800000,
+        "photo": true,
+        "postedAt": 1790423684686
+      },
+      {
+        "headline": "Converse Pulls Ad After Backlash Over Nonexistent KKK Imagery",
+        "url": "https://www.theblaze.com/shows/pat-gray-unleashed/converse-pulls-ad-after-leftists-see-nonexistent-kkk-imagery-they-want-so-badly-to-be-offended",
+        "timestamp": 1790416436000,
+        "photo": true,
+        "postedAt": 1790423684686
+      },
+      {
+        "headline": "Inside CSU's Required Ethnic Studies Courses On Race And Gender",
+        "url": "https://www.dailysignal.com/2026/09/25/csu-required-ethnic-studies-courses/",
+        "timestamp": 1790378558000,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "Cattle Industry Warns Of Higher Beef Prices Over ICE Raids In Three States",
+        "url": "https://www.theblaze.com/news/cattle-industry-beef-ice-operations",
+        "timestamp": 1790376493000,
+        "photo": true,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "Harvard Turns To Biden-Era Lawyers In Admissions Fight",
+        "url": "https://www.newsmax.com/newsfront/harvard-biden-lawyers/2026/09/25/id/1270744/",
+        "timestamp": 1790374797000,
+        "photo": true,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "FDA Confirmation Hearing Gives Update On Abortion Pill Study",
+        "url": "https://www.dailysignal.com/2026/09/25/fda-confirmation-update-abortion-pill-study/",
+        "timestamp": 1790373600000,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "Marjorie Taylor Greene Declares MAGA 'Is Dead,' Calls It A Cult",
+        "url": "https://www.washingtontimes.com/news/2026/sep/25/marjorie-taylor-greene-declares-maga-dead-calls-cult/",
+        "timestamp": 1790373225000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "Data Center Waits On Blue State To Approve Promised Power",
+        "url": "https://dailycaller.com/2026/09/25/oracle-project-jupiter-force-majeure-new-mexico-air-permit-stargate-chris-johnson/",
+        "timestamp": 1790373000000,
+        "postedAt": 1790380277571
+      },
+      {
+        "headline": "GOP Report: Democrat Prosecutor Helped Drunk-Driving Illegal Immigrants Avoid Deportation",
+        "url": "https://www.theblaze.com/news/democratic-prosecutor-illegals-drunken-driving",
+        "timestamp": 1790332332000,
+        "photo": true,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "Blaze Media: Want Fewer RINOs? Give GOP Conventions More Power",
+        "url": "https://www.theblaze.com/columns/opinion/want-fewer-rinos-give-gop-conventions-more-power",
+        "timestamp": 1790330470000,
+        "photo": true,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "GAO: ICE Wasted Tens Of Millions On 'Uninformed' Detention Plans",
+        "url": "https://www.pbs.org/newshour/politics/ice-has-wasted-tens-of-millions-of-dollars-with-uninformed-detention-plans-gao-finds",
+        "timestamp": 1790284198000,
+        "photo": true,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "Poll: Jackson Slightly Ahead In Maine Senate Race",
+        "url": "https://www.uml.edu/news/press-releases/2026/09242026-maine-poll.aspx",
+        "timestamp": 1790258804000,
+        "photo": true,
+        "postedAt": 1790337044832
+      },
+      {
+        "headline": "Republican Veteran Tony Sabio Runs For Virginia's Most Democratic US House Seat",
+        "url": "https://virginiamercury.com/2026/09/24/republican-veteran-tony-sabio-is-on-a-mission-to-win-va-s-most-democratic-us-house-seat/",
+        "timestamp": 1790242748000,
+        "photo": true,
+        "postedAt": 1790337044832
+      }
+    ]
+  },
+  "polls": [
+    {
+      "name": "Trump Approval",
+      "value": "39%/60%",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
+      "asOf": "Sep 24, 2026"
+    },
+    {
+      "name": "Generic Congressional Vote",
+      "value": "Dem +7.7",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "Sep 25, 2026"
+    },
+    {
+      "name": "Right Direction",
+      "value": "35%",
+      "sub": "",
+      "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/right_direction_or_wrong_track",
+      "asOf": "Sep 17, 2026"
+    }
+  ],
+  "balance": {
+    "left": 645,
+    "right": 716,
+    "independent": 7,
+    "days": 30,
+    "total": 1361,
+    "pctLeft": 47,
+    "pctRight": 53
+  }
+}

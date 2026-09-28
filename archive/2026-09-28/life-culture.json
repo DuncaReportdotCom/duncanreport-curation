@@ -1,0 +1,521 @@
+{
+  "lastUpdated": 1790596472055,
+  "heroSetDate": "2026-09-28",
+  "hero": {
+    "headline": "SPACE LASERS FACE FIRST REAL-WORLD TEST GENERATING ENERGY",
+    "url": "https://www.tomorrowsworldtoday.com/space/google-is-sending-chips-into-orbit-for-space-data-centers-testing/",
+    "sublinks": [],
+    "postedAt": 1790596472055,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "VMAS 2026: SWIFT SETS RECORD, MADONNA STIRS SABRINA CARPENTER ROW",
+      "stories": [
+        {
+          "headline": "Taylor Swift Breaks VMA Record As Madonna Also Wins Award",
+          "url": "https://www.bbc.com/news/articles/c8ly403p1rwpo",
+          "timestamp": 1790581205000,
+          "postedAt": 1790596472055
+        },
+        {
+          "headline": "Sabrina Carpenter Responds After Madonna Calls Her Out Onstage",
+          "url": "https://www.huffpost.com/entry/sabrina-carpenter-madonna-defends-vmas_n_6ab9b829e4b0d1543f54ace5",
+          "timestamp": 1790558616000,
+          "postedAt": 1790596472055
+        },
+        {
+          "headline": "Travis Kelce Skips Ceremony As Swift Claims Historic Win",
+          "url": "https://www.usatoday.com/story/entertainment/music/awards/2026/09/27/travis-kelce-vmas-absence-taylor-swift-chiefs-game/91974690007/",
+          "timestamp": 1790538360000,
+          "postedAt": 1790596472055
+        }
+      ]
+    },
+    {
+      "title": "SNL SEASON PREMIERE",
+      "stories": [
+        {
+          "headline": "Katseye Performs 'Animal' And 'Hootie Frutti' On SNL Premiere",
+          "url": "https://www.rollingstone.com/music/music-news/snl-watch-katseye-perform-animal-hootie-frutti-wild-1235632299/",
+          "timestamp": 1790492351000,
+          "postedAt": 1790509705970
+        },
+        {
+          "headline": "SNL Premiere Spoofs Trump-Mamdani Bromance, Skewers Natalie Harp",
+          "url": "https://www.usatoday.com/story/entertainment/tv-streaming/2026/09/27/snl-cold-open-this-week-trump-mamdani-natalie-harp/91919590007/",
+          "timestamp": 1790487120000,
+          "postedAt": 1790509705970
+        },
+        {
+          "headline": "Knicks' Jalen Brunson Hosts SNL Season Premiere",
+          "url": "https://www.espn.com/nba/story/_/id/50039929/host-jalen-brunson-gets-assist-knicks-snl-premiere",
+          "timestamp": 1790483160000,
+          "postedAt": 1790509705970
+        }
+      ]
+    },
+    {
+      "title": "NYT'S '100 BEST TV SHOWS' LIST SPARKS BACKLASH",
+      "stories": [
+        {
+          "headline": "The New York Times Publishes Its 100 Best TV Shows Of The 21st Century",
+          "url": "https://www.hollywoodreporter.com/business/business-news/inside-ny-times-100-best-tv-shows-of-the-21st-century-list-1236709926/",
+          "timestamp": 1790423094000,
+          "postedAt": 1790424221275
+        },
+        {
+          "headline": "Why 'The Sopranos' Was Left Off The New York Times' Top 100 List",
+          "url": "https://www.forbes.com/sites/erikkain/2026/09/25/the-sopranos-new-york-times-100-best-tv-shows-list/",
+          "timestamp": 1790363310000,
+          "postedAt": 1790424221275
+        }
+      ]
+    },
+    {
+      "title": "PRIMETIME'S TRUE-CRIME ORIGINS DRAW SCRUTINY",
+      "stories": [
+        {
+          "headline": "Primetime, Avengers Endgame Encore Post Strong Preview Numbers",
+          "url": "https://deadline.com/2026/09/box-office-avengers-endgame-primetime-heart-of-the-beast-1237111302/",
+          "timestamp": 1790311920000,
+          "postedAt": 1790337736472
+        },
+        {
+          "headline": "The Real-Life Bombshell Article That Inspired Primetime",
+          "url": "https://www.hollywoodreporter.com/movies/movie-features/primetime-inside-the-bombshell-article-1236709581/",
+          "timestamp": 1790280706000,
+          "postedAt": 1790337736472
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "OpenAI Pauses Training Most Powerful Models After Rogue Agents Target Government",
+        "url": "https://www.nbcnews.com/tech/tech-news/openai-pauses-training-latest-models-agents-searched-us-government-sit-rcna600098",
+        "timestamp": 1790595120000,
+        "feature": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "AEW Star Pac, Who Wrestled In WWE As Neville, Dies At 40",
+        "url": "https://www.usatoday.com/story/sports/2026/09/27/pac-dead-40-aew-wwe-neville/91980714007/",
+        "timestamp": 1790595120000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "America's Oldest Person Just Turned 116 — Here's The Science Of Longevity",
+        "url": "https://www.sciencealert.com/americas-oldest-person-just-turned-116-heres-what-science-says-about-how-to-live-that-long",
+        "timestamp": 1790593500000,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Microsoft Goes Quiet After Church Groups Demand Cut Of Data Center Costs",
+        "url": "https://arstechnica.com/tech-policy/2026/09/microsoft-goes-quiet-after-church-groups-ask-for-1-of-data-center-costs/",
+        "timestamp": 1790593209000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "A Journey To Antarctica In Photos: Remembering Shackleton's Grand Expedition",
+        "url": "https://lithub.com/a-journey-to-antarctica-in-photos-remembering-ernest-shackletons-grand-expedition/",
+        "timestamp": 1790586951000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Legendary Calypsonian Mighty Sparrow Dies",
+        "url": "https://www.caribbeannationalweekly.com/posts/legendary-calypsonian-mighty-sparrow-has-died",
+        "timestamp": 1790563294000,
+        "photo": true,
+        "postedAt": 1790596472055,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "Scientists Discover Hairy-Legged, Red-Eyed 'Nightmare Fuel' Sea Spiders",
+        "url": "https://www.axios.com/2026/09/26/spiders-salish-sea-discovery-study",
+        "timestamp": 1790441678000,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Book Review: Lee Kuan Yew's Memoirs Offer Blunt Lessons In Power",
+        "url": "https://www.astralcodexten.com/p/your-book-review-lee-kuan-yews-memoirs",
+        "timestamp": 1790375170000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "I Took An At-Home Pet DNA Test Kit And Found Out My Cat Is A Cat",
+        "url": "https://www.whattoexpect.com/getting-pregnant/prepping-for-pregnancy/toothpaste-pregnancy-test/",
+        "timestamp": 1790506920000,
+        "photo": true,
+        "postedAt": 1790509705970
+      },
+      {
+        "headline": "Radiation Exposure May Trigger Key Alzheimer's Feature In Brain",
+        "url": "https://www.sciencealert.com/radiation-exposure-may-trigger-a-key-feature-of-alzheimers-in-the-brain",
+        "timestamp": 1790503344000,
+        "postedAt": 1790509705970
+      },
+      {
+        "headline": "Where To Get Pizza In Naples, Italy, Home Of The Original Margherita",
+        "url": "https://www.cntraveler.com/story/where-to-get-pizza-in-naples-italy-home-of-the-original-margherita-pie",
+        "timestamp": 1790499600000,
+        "photo": true,
+        "postedAt": 1790509705970,
+        "image": "/img/life-culture-4.jpg"
+      },
+      {
+        "headline": "Chris Hansen's Legacy: How He Inspired A Generation Of Vigilantes",
+        "url": "https://unherd.com/2026/09/the-problem-with-paedo-hunters/",
+        "timestamp": 1790498183000,
+        "postedAt": 1790509705970
+      },
+      {
+        "headline": "Storm Cancels Global Citizen, All Things Go And Other NYC Events",
+        "url": "https://gothamist.com/news/dangerous-storm-forecast-cancels-global-citizen-all-things-go-major-nyc-events",
+        "timestamp": 1790462760000,
+        "photo": true,
+        "postedAt": 1790509705970,
+        "image": "/img/life-culture-5.jpg"
+      },
+      {
+        "headline": "Why Does Meta's Adults-Only AI Companion 'Muse' Look Like A Kids' Toy?",
+        "url": "https://mezha.net/eng/news/59bb0325_meta_introduces_muse_charm/",
+        "timestamp": 1790418600000,
+        "photo": true,
+        "postedAt": 1790424221275
+      },
+      {
+        "headline": "Dolly Parton Day Declared In Cities And States Across The US",
+        "url": "https://www.theguardian.com/music/2026/sep/25/dolly-parton-day-declared",
+        "timestamp": 1790372220000,
+        "photo": true,
+        "postedAt": 1790424221275
+      },
+      {
+        "headline": "American Airlines Retires International First Class For New Top Tier",
+        "url": "https://www.afar.com/magazine/a-first-look-at-american-airlines-new-flagship-suites",
+        "timestamp": 1790377604000,
+        "photo": true,
+        "postedAt": 1790380781440
+      },
+      {
+        "headline": "Samsung Firmware Update Bricks Smart Fridges, Spoiling Owners' Food",
+        "url": "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/?comments-page",
+        "timestamp": 1790374887000,
+        "photo": true,
+        "postedAt": 1790380781440
+      },
+      {
+        "headline": "The Cheap Trick That Could Cool Your Home Next Summer",
+        "url": "https://theconversation.com/theres-something-you-can-do-now-to-cool-your-home-next-summer-and-its-far-cheaper-than-air-conditioning-291828",
+        "timestamp": 1790334252000,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "Rocket Report: Is The Era Of Cheap Launch Over?",
+        "url": "https://arstechnica.com/space/2026/09/rocket-report-era-of-cheap-launch-is-over-astra-sets-early-2027-target-for-return/",
+        "timestamp": 1790334010000,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "The Testosterone Myth Millions Of Men Still Believe",
+        "url": "https://www.menshealth.com/uk/sex/a73882112/sexual-prime-testosterone/",
+        "timestamp": 1790330440000,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "Book Review: Emily St. John Mandel's 'Exit Party'",
+        "url": "https://www.independent.com/2026/09/24/book-review-exit-party-by-emily-st-john-mandel/",
+        "timestamp": 1790291747000,
+        "postedAt": 1790337736472
+      }
+    ],
+    "center": [
+      {
+        "headline": "Foods With Shorter Shelf Life Seen As More Natural And Healthier",
+        "url": "https://phys.org/news/2026-09-foods-shorter-shelf-life-natural.html",
+        "timestamp": 1790594404000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Before You Buy An Apple Watch, Read This",
+        "url": "https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html",
+        "timestamp": 1790591760000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Dogs Can Pick Out Word Patterns In Speech, Study Finds",
+        "url": "https://www.sciencealert.com/dogs-can-pick-out-word-patterns-in-speech-a-trick-once-thought-uniquely-human",
+        "timestamp": 1790589878000,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Why Ghosts Are Haunting Us In 2026 (For Real)",
+        "url": "https://lithub.com/why-ghosts-are-haunting-us-in-2026-for-real/",
+        "timestamp": 1790587027000,
+        "photo": true,
+        "postedAt": 1790596472055,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "Neil Patrick Harris To Lead 'Damn Yankees' Broadway Revival In 2027",
+        "url": "https://playbill.com/article/neil-patrick-harris-will-lead-damn-yankees-broadway-revival-this-spring",
+        "timestamp": 1790540040000,
+        "photo": true,
+        "postedAt": 1790596472055,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "'The Disappearers' Is A Fiercely Personal Novel That Hits Like A Tidal Wave",
+        "url": "https://www.npr.org/2026/09/25/nx-s1-5981056/the-disappearers-review-marlon-james",
+        "timestamp": 1790359488000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Common Bone Supplements Do Little To Prevent Fractures, Major Review Finds",
+        "url": "https://www.sciencealert.com/common-bone-health-supplements-do-little-to-prevent-fractures-major-review-finds",
+        "timestamp": 1790506948000,
+        "feature": true,
+        "postedAt": 1790509705970
+      },
+      {
+        "headline": "Sardines Are Packed With Nutrients. But Should You Eat Them Often?",
+        "url": "https://www.usatoday.com/story/life/health-wellness/2026/09/27/are-sardines-good-for-you/91316557007/",
+        "timestamp": 1790500348000,
+        "postedAt": 1790509705970
+      },
+      {
+        "headline": "Stallone Says He Became Bulimic, Used Steroids While Filming 'Rocky'",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/sylvester-stallone-bulimic-steroids-filming-rocky-movies-1236712570/",
+        "timestamp": 1790459336000,
+        "photo": true,
+        "postedAt": 1790509705970
+      },
+      {
+        "headline": "Inside The Ultra-Luxury Sober Living Home Where Presley Gerber Died",
+        "url": "https://www.thestandard.com.hk/property/article/343739/Hong-Kong-ranks-second-globally-for-ultra-luxury-home-sales-in-Q2-Knight-Frank",
+        "timestamp": 1790450520000,
+        "photo": true,
+        "postedAt": 1790509705970,
+        "image": "/img/life-culture-6.jpg"
+      },
+      {
+        "headline": "This Groundbreaking Ballet Has One Unforgettable Kiss — And One Big Problem",
+        "url": "https://www.sfchronicle.com/entertainment/dance/article/cal-performances-oscar-review-22397100.php",
+        "timestamp": 1790446339000,
+        "photo": true,
+        "postedAt": 1790509705970
+      },
+      {
+        "headline": "SCIENTISTS DISCOVER NEW DINOSAUR SPECIES DEEP IN SAHARA DESERT",
+        "url": "https://abcnews.com/International/scientists-discover-new-dinosaur-species-deep-sahara-desert/story?id",
+        "timestamp": 1790337736472,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "Even A Small Blood Pressure Drop May Protect Your Brain, Scans Show",
+        "url": "https://www.sciencealert.com/even-a-small-drop-in-blood-pressure-may-help-protect-your-brain-scans-reveal",
+        "timestamp": 1790416944000,
+        "postedAt": 1790424221275
+      },
+      {
+        "headline": "The Simple Trick That Keeps Scrambled Eggs Creamy Even If You Overcook Them",
+        "url": "https://www.seriouseats.com/hk-scrambled-eggs-tip-12133393",
+        "timestamp": 1790411267000,
+        "photo": true,
+        "postedAt": 1790424221275
+      },
+      {
+        "headline": "A Reader's Deep Dive Into Lee Kuan Yew's Memoirs",
+        "url": "https://www.astralcodexten.com/p/your-book-review-lee-kuan-yews-memoirs",
+        "timestamp": 1790375170000,
+        "postedAt": 1790424221275
+      },
+      {
+        "headline": "Porsche 944 Reborn As A Shooting Brake Custom Build",
+        "url": "https://uncrate.com/carpoint-gt-k44-porsche-944-shooting-brake/",
+        "timestamp": 1790375914000,
+        "photo": true,
+        "postedAt": 1790380781440
+      },
+      {
+        "headline": "Tesla Workers Resist Training Their Optimus Robot Replacements",
+        "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
+        "timestamp": 1790370651000,
+        "photo": true,
+        "postedAt": 1790380781440
+      },
+      {
+        "headline": "Boston Emerges As One Of America's Best Sushi Cities",
+        "url": "https://www.cntraveler.com/story/boston-is-one-of-americas-best-sushi-cities-heres-where-to-make-a-reservation",
+        "timestamp": 1790369747000,
+        "photo": true,
+        "postedAt": 1790380781440
+      },
+      {
+        "headline": "Have They Ruined The Beloved Scholastic Book Fair?",
+        "url": "https://lithub.com/have-they-ruined-our-beloved-scholastic-book-fair/",
+        "timestamp": 1790335797000,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "Nigella Lawson And The Enduring Fantasy Of Bake Off",
+        "url": "https://theconversation.com/nigella-lawson-and-the-fantasy-of-bake-off-what-to-watch-and-read-this-week-292815",
+        "timestamp": 1790334576000,
+        "photo": true,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "Why Indiana Jones Is The Best And Worst Thing To Happen To Archaeology",
+        "url": "https://theconversation.com/why-indiana-jones-is-the-best-and-worst-thing-to-happen-to-archaeology-287232",
+        "timestamp": 1790334219000,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "A Particle Accelerator Could Create Dark Matter From Empty Space",
+        "url": "https://www.sciencealert.com/a-particle-accelerator-could-create-dark-matter-from-empty-space",
+        "timestamp": 1790334142000,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "Misophonia Runs In Families, And Scientists Are Learning Why",
+        "url": "https://www.sciencealert.com/misophonia-runs-in-families-and-experts-are-starting-to-understand-why",
+        "timestamp": 1790330541000,
+        "postedAt": 1790337736472
+      }
+    ],
+    "right": [
+      {
+        "headline": "SCIENTISTS TORCHED SCROLLS TO TEST TECH THAT READS HIDDEN ANCIENT TEXT",
+        "url": "https://www.sciencealert.com/scientists-burned-their-own-scrolls-then-the-hidden-writing-lit-up",
+        "timestamp": 1790509705970,
+        "postedAt": 1790509705970
+      },
+      {
+        "headline": "VW Confirms Electric ID.4 Successor Will Be Called ID. Tiguan",
+        "url": "https://www.caranddriver.com/news/a73918814/volkswagen-id-tiguan-ev-confirmed/",
+        "timestamp": 1790589863000,
+        "photo": true,
+        "postedAt": 1790596472055,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Cleveland Orchestra Strike Ends As Musicians Agree To New Deal",
+        "url": "https://www.wkyc.com/article/news/local/cleveland/cleveland-orchestra-musicians-end-strike-agree-to-new-contact-cuyahoga-county-music/95-20d68f41-6e44-486e-b937-692ccd22bcb1",
+        "timestamp": 1790553360000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Jeff Ament Looks Back At Pearl Jam's Early Days",
+        "url": "https://www.rollingstone.com/music/music-news/jeff-ament-interview-pearl-jam-book-new-drummer-1235632544/",
+        "timestamp": 1790537965000,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "How Oprah Winfrey Became America's Cultural Oppenheimer",
+        "url": "https://www.salon.com/2026/09/27/how-oprah-winfrey-became-americas-cultural-oppenheimer/",
+        "timestamp": 1790524831000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "EARTH'S CORE TUG-OF-WAR IS QUIETLY CHANGING THE LENGTH OF OUR DAYS",
+        "url": "https://thedebrief.org/earths-inner-core-may-be-secretly-changing-the-length-of-our-days/",
+        "timestamp": 1790424221275,
+        "postedAt": 1790424221275
+      },
+      {
+        "headline": "Squeezing A Leg Bone Helped Animals Recover From Brain Injury",
+        "url": "https://www.sciencealert.com/squeezing-a-leg-bone-helped-animals-recover-from-brain-injury",
+        "timestamp": 1790496144000,
+        "postedAt": 1790509705970
+      },
+      {
+        "headline": "Scarlett Johansson, Colin Jost Make First Red Carpet Appearance In Over A Year",
+        "url": "https://www.yahoo.com/entertainment/videos/scarlett-johansson-colin-jost-step-162733513.html",
+        "timestamp": 1790440053000,
+        "photo": true,
+        "postedAt": 1790509705970,
+        "image": "/img/life-culture-7.jpg"
+      },
+      {
+        "headline": "Seven Takeaways On Convenience And The News",
+        "url": "https://niemanreports.org/gabe-bullard-against-convenience-book-technology-friction-news-online-social-media/",
+        "timestamp": 1790348411000,
+        "postedAt": 1790509705970
+      },
+      {
+        "headline": "Manga And More Honored As 'The People's Art' At The Lucas Museum",
+        "url": "https://www.forbes.com/sites/kalaichik/2026/09/25/manga-and-more-honored-as-the-peoples-art-at-the-lucas-museum/",
+        "timestamp": 1790347503000,
+        "photo": true,
+        "postedAt": 1790509705970
+      },
+      {
+        "headline": "Guatemala Moves To Save Rare 'Living Fossil' Fish From Extinction",
+        "url": "https://phys.org/news/2026-09-guatemala-survival-vulnerable-fossil-fish.html",
+        "timestamp": 1790413950000,
+        "photo": true,
+        "postedAt": 1790424221275
+      },
+      {
+        "headline": "Popular Supplement Boosts Strength Even Without Exercise, Study Finds",
+        "url": "https://www.sciencealert.com/popular-supplement-increases-strength-even-without-exercise-study-shows",
+        "timestamp": 1790409744000,
+        "postedAt": 1790424221275
+      },
+      {
+        "headline": "Kansas City Ribs Get A Great Plains Twist From An Unexpected Fruit",
+        "url": "https://www.seriouseats.com/smoked-pork-ribs-with-plum-barbecue-sauce-recipe-12139090",
+        "timestamp": 1790375400000,
+        "photo": true,
+        "postedAt": 1790380781440
+      },
+      {
+        "headline": "Review: iPhone 18 Pro Is Apple's Coolest, If Least Practical, Phone",
+        "url": "https://arstechnica.com/civis/threads/review-the-iphone-18-pro-is-apple%E2%80%99s-coolest-smartphone-but-only-literally.1514951/",
+        "timestamp": 1790369033000,
+        "photo": true,
+        "postedAt": 1790380781440
+      },
+      {
+        "headline": "The Horrifying Side Effects Behind A Viral Colloidal Silver Supplement",
+        "url": "https://www.menshealth.com/uk/health/a73882465/colloidal-silver-supplements/",
+        "timestamp": 1790334225000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "Feeling The Burn? It's Not Actually Lactic Acid",
+        "url": "https://theconversation.com/feeling-the-burn-its-not-lactic-acid-291432",
+        "timestamp": 1790334176000,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "How Fragrance Reviews Became A Form Of Cultural Criticism",
+        "url": "https://www.newwavemagazine.com/single-post/how-fragrance-reviews-became-a-form-of-modern-cultural-criticism",
+        "timestamp": 1790333143000,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "What Danish And British Humor Reveal About Why We Laugh",
+        "url": "https://theconversation.com/what-the-differences-between-danish-and-british-humour-can-teach-us-about-laughter-282074",
+        "timestamp": 1790332716000,
+        "postedAt": 1790337736472
+      },
+      {
+        "headline": "Adam Lambert's Surprise Turn Highlights George Michael Tribute",
+        "url": "https://www.hollywoodreporter.com/music/music-news/adam-lambert-george-michael-tribute-2026-mtv-vmas-1236713332/",
+        "timestamp": 1790566014000,
+        "postedAt": 1790596472055
+      }
+    ]
+  }
+}
