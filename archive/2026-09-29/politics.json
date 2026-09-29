@@ -1,0 +1,480 @@
+{
+  "lastUpdated": 1790683073414,
+  "heroSetDate": "2026-09-29",
+  "hero": {
+    "headline": "PROSECUTOR REOPENS CORNELL GANG RAPE PROBE AFTER ACCUSER FILES LAWSUIT",
+    "url": "https://apnews.com/article/cornell-rape-allegations-investigation-16f59e89ce97e3a40a8e672f7b3f374b",
+    "sublinks": [
+      {
+        "text": "Accused Fraternity Member's Attorney Denies He Touched Accuser",
+        "url": "https://www.newsnationnow.com/crime/scott-kretzschmar-cornell-university-chi-pi-jane-doe/"
+      },
+      {
+        "text": "Commentators Compare Case To 2006 Duke Lacrosse Scandal",
+        "url": "https://dailycaller.com/2026/09/29/duke-cornell-gang-rape-lawsuit-mattress-girl-uva-hoax-lacrosse/"
+      }
+    ],
+    "postedAt": 1790683073414,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "UKRAINE WAR: RUSSIAN STRIKES, UKRAINIAN GROUND CLAIMS",
+      "stories": [
+        {
+          "headline": "Ukraine Claims Battlefield Gains Amid New Russian Strikes",
+          "url": "https://www.newsmax.com/newsfront/ukraine-russia-donetsk/2026/09/28/id/1270892/",
+          "timestamp": 1790592699000,
+          "postedAt": 1790595803964
+        },
+        {
+          "headline": "Russian Drones Pound Civilian Areas As Kyiv Claims Breakthroughs",
+          "url": "https://abcnews.com/International/wireStory/russian-drones-pound-civilian-areas-ukraine-claims-battlefield-136816631",
+          "timestamp": 1790591498000,
+          "postedAt": 1790595803964
+        }
+      ]
+    },
+    {
+      "title": "IRAN CONFLICT: MARINES INJURED, CEASEFIRE PROPOSAL REJECTED",
+      "stories": [
+        {
+          "headline": "Trump Rejects Iran's Ceasefire Proposal, Straining Gulf Allies",
+          "url": "https://www.npr.org/2026/09/28/nx-s1-5981212/trump-rejected-irans-ceasefire-proposal-what-it-means-for-u-s-allies-in-the-gulf",
+          "timestamp": 1790592314000,
+          "postedAt": 1790595803964
+        },
+        {
+          "headline": "US Marines Injured In Recent Iranian Attack",
+          "url": "https://www.nbcnews.com/politics/national-security/us-marines-injured-recent-iranian-attack-rcna600097",
+          "timestamp": 1790557620000,
+          "feature": true,
+          "postedAt": 1790595803964
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Alito's Recusal Days Before Arguments Raises Questions",
+        "url": "https://www.rawstory.com/alito-2677955018/",
+        "timestamp": 1790656860000,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "Investigation Details How MAGA Inc. Raised Record Sums",
+        "url": "https://popular.info/p/how-maga-inc-raised-so-much-money",
+        "timestamp": 1790677861000,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "Sen. Cotton Demands Review After F-35 Parts Go Missing",
+        "url": "https://www.politico.com/live-updates/2026/09/29/congress/tom-cotton-review-f35-parts-01095835",
+        "timestamp": 1790676657000,
+        "photo": true,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "News Organizations Sue To Block White House Press Access Ban",
+        "url": "https://www.npr.org/2026/09/29/nx-s1-5984349/news-organizations-court-white-house-ban",
+        "timestamp": 1790669591000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "Hegseth Orders Military To Guard 2026 Midterms From Interference",
+        "url": "https://www.bozemandailychronicle.com/wire/politics/hegseth-says-national-security-military-cyber-forces-will-guard-us-election-systems-during-midterms/article_e4dda22a-fc98-5490-ab7c-768df444f051.html",
+        "timestamp": 1790651700000,
+        "photo": true,
+        "postedAt": 1790683073414,
+        "image": "/img/politics-3.jpg"
+      },
+      {
+        "headline": "Trump Slams Justices Over Repeated Missouri Map Rejection",
+        "url": "https://thehill.com/homenews/administration/6113998-trump-criticizes-supreme-court-missouri-map/",
+        "timestamp": 1790536860000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Poll: Le Pen, Melenchon Head Toward French Runoff",
+        "url": "https://www.newsmax.com/world/globaltalk/poll-france-president/2026/09/28/id/1270893/",
+        "timestamp": 1790592977000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Congressional Candidate Jay Feely's Comments On Female Athletes Draw Scrutiny",
+        "url": "https://popular.info/p/what-congressional-candidate-jay",
+        "timestamp": 1790591505000,
+        "photo": true,
+        "postedAt": 1790595803964,
+        "image": "/img/politics-4.jpg"
+      },
+      {
+        "headline": "What To Know About The $810 Million In Spending Trump Canceled",
+        "url": "https://www.npr.org/2026/09/28/nx-s1-5982739/what-to-know-about-the-810-million-in-spending-canceled-by-president-trump",
+        "timestamp": 1790586000000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Rand Paul Emerges As Roadblock To Homeland Security Efforts",
+        "url": "https://www.politico.com/news/2026/09/28/rand-paul-senate-roadblock-homeland-security-01093700",
+        "timestamp": 1790585100000,
+        "photo": true,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Sen. Kennedy: No Living Politician Should Have Building Named After Them",
+        "url": "https://www.foxnews.com/politics/sen-kennedy-says-no-living-politicians-should-have-buildings-named-after-them-after-trumps-moves",
+        "timestamp": 1790578084000,
+        "photo": true,
+        "postedAt": 1790595803964,
+        "image": "/img/politics-5.jpg"
+      },
+      {
+        "headline": "Anthropic's Amodei Faces Critics' Hit Piece Ahead Of White House Dinner",
+        "url": "https://www.axios.com/2026/09/27/amodei-trump-anthropic-white-house-briefing",
+        "timestamp": 1790573025000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Fetterman Defends Political Identity, Eyes Role As '51st Senator'",
+        "url": "https://thehill.com/homenews/senate/6113446-fetterman-gop-speculation-51st-democrat-midterms/",
+        "timestamp": 1790479980000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Iowa Senate Rivals Clash Over Fuel Costs On Campaign Trail",
+        "url": "https://iowacapitaldispatch.com/2026/09/25/iowas-u-s-senate-candidates-share-fuel-cost-policies-trade-criticisms-on-campaign-trail/",
+        "timestamp": 1790390171000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Sexual Misconduct Allegations Preceded Her Resignation, Outlet Reports",
+        "url": "https://www.theblaze.com/news/jersey-lt-gov-sex-resign",
+        "timestamp": 1790508137000,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "New Jersey Lt. Gov. Resigns After Damaging Ethics Report",
+        "url": "https://www.nbcnews.com/politics/politics-news/new-jersey-lieutenant-governor-resigns-ethics-report-rcna599885",
+        "timestamp": 1790371082000,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Calls Grow For US To Pull Back On Asia Alliances, Rattling Region",
+        "url": "https://www.washingtontimes.com/news/2026/sep/27/call-us-pull-back-asia-alliances-defer-china-indo-pacific-edge/",
+        "timestamp": 1790592316000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Farm Crisis Fears Grip GOP Candidates In Iowa",
+        "url": "https://www.axios.com/2026/09/29/iowa-midterms-farms-trump",
+        "timestamp": 1790673850000,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "Justice Jackson's Dissent Blasts Ruling As Another Win For Trump",
+        "url": "https://www.theblaze.com/news/ketani-brown-supreme-court-trump",
+        "timestamp": 1790503318000,
+        "postedAt": 1790509111192
+      }
+    ],
+    "center": [
+      {
+        "headline": "The Free Press: Trump's Broken Promises On Venezuela",
+        "url": "https://www.democracynow.org/2026/9/25/headlines/opposition_groups_protest_in_caracas_as_venezuelas_leader_promises_elections_at_the_right_moment",
+        "timestamp": 1790676238000,
+        "photo": true,
+        "postedAt": 1790683073414,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "U.S. Trade Ban On Nearly $1 Billion In Canadian Imports Takes Effect",
+        "url": "https://www.cbsnews.com/news/us-ban-canadian-imports-almost-1-billion-dollars-takes-effect/",
+        "timestamp": 1790663160000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790683073414,
+        "image": "/img/politics-2.jpg"
+      },
+      {
+        "headline": "Mediators Push To Broker US-Iran Deal Despite Major Hurdles",
+        "url": "https://apnews.com/article/iran-trump-negotiations-war-strait-nuclear-871504dbd98d9b08b226b9805d8f4606",
+        "timestamp": 1790653920000,
+        "photo": true,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "SENATE REJECTS RESOLUTION TO END U.S. WAR WITH IRAN",
+        "url": "https://www.reuters.com/world/us/us-democrats-tee-up-pre-election-war-powers-vote-some-republicans-break-with-2026-09-24/",
+        "timestamp": 1790509111192,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "AOC Test-Runs Senate Bid In Upstate New York",
+        "url": "https://www.axios.com/2026/09/27/aoc-tests-senate-bid-new-york",
+        "timestamp": 1790582616000,
+        "photo": true,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Fetterman Accidentally Calls Himself 'Lifelong Republican' At Texas Tribune Festival",
+        "url": "https://www.foxnews.com/politics/john-fetterman-accidentally-calls-himself-lifelong-republican-texas-tribune-festival",
+        "timestamp": 1790536269000,
+        "photo": true,
+        "postedAt": 1790595803964,
+        "image": "/img/politics-6.jpg"
+      },
+      {
+        "headline": "Blanche Says Trump Has Right To Restrict WH, Air Force One Press Access",
+        "url": "https://www.politico.com/news/2026/09/27/todd-blanche-white-house-press-cnn-01094113",
+        "timestamp": 1790519880000,
+        "photo": true,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Republicans Pour Money Into Dozens Of Once-'Safe' House Races",
+        "url": "https://www.reuters.com/legal/government/republicans-pour-money-into-dozens-us-house-races-previously-considered-safe-2026-09-27/",
+        "timestamp": 1790508286000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Charlie Cook: GOP Has Little It Can Do Before Election Day",
+        "url": "https://www.realclearpolitics.com/video/2026/09/27/charlie_cook_not_a_lot_republicans_can_do_before_election_day_its_as_if_trump_jumped_the_shark_finally.html",
+        "timestamp": 1790442000000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Sen. John Kennedy Becomes Sought-After Campaign Surrogate For GOP",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4743625/the-folksy-senate-republican-in-hot-demand-on-the-campaign-trail/",
+        "timestamp": 1790506800000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Trump Weighs Candidates To Lead New 'AI Force' Superintelligence Effort",
+        "url": "https://nypost.com/2026/09/26/us-news/trumps-next-ai-czar-whos-in-the-running-for-the-white-house-post/",
+        "timestamp": 1790470320000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Trump Tells Female MS NOW Reporter To 'Be Quiet' Over Press Ban Questions",
+        "url": "https://www.theguardian.com/us-news/2026/sep/26/trump-female-ms-now-reporter",
+        "timestamp": 1790466060000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Trump Administration Claws Back Nearly $1 Billion In Approved Spending",
+        "url": "https://www.pbs.org/newshour/politics/trump-administration-uses-rare-authority-to-claw-back-nearly-1b-in-spending-approved-by-congress",
+        "timestamp": 1790443224000,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Supreme Court Rejects Missouri GOP Map For Third Time",
+        "url": "https://www.scotusblog.com/2026/09/for-the-third-time-supreme-court-declines-to-allow-missouri-to-use-congressional-map-expected-to/",
+        "timestamp": 1790376395000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "What The Database Ruling Means For Midterm Voter Rolls",
+        "url": "https://www.pbs.org/newshour/show/what-the-supreme-courts-voter-citizenship-database-decision-means-for-the-midterms",
+        "timestamp": 1790376946000,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Diesel Price Spike Complicates GOP Midterm Messaging",
+        "url": "https://www.washingtontimes.com/news/2026/sep/29/diesels-shock-awe-prices-complicate-midterms/",
+        "timestamp": 1790681094000,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "Nate Silver's Model Forecasts Tight Battle For House Control",
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+        "timestamp": 1790678973000,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "US, China Agree On List Of Goods For Tariff Cuts",
+        "url": "https://finance.yahoo.com/economy/policy/articles/list-goods-us-china-agreed-033047670.html",
+        "timestamp": 1790566200000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "ICE Reverses Order To Halt Arrests Of Non-Criminal Migrants",
+        "url": "https://www.dailywire.com/news/trump-admin-backtracks-after-telling-ice-officers-to-stop-arresting-non-criminals",
+        "timestamp": 1790676892000,
+        "postedAt": 1790683073414
+      }
+    ],
+    "right": [
+      {
+        "headline": "UK: BRITISH POLICE PROBE WHETHER ARRESTS NEAR US AIR BASE FOILED IRAN-LINKED ATTACK",
+        "url": "https://www.npr.org/2026/09/28/g-s1-145245/britain-us-base-suspected-foiled-attack",
+        "timestamp": 1790595803964,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Senate Report Details Billions In Health Fraud Tied To Russian Schemes",
+        "url": "https://www.dailysignal.com/2026/09/29/exclusive-shocking-senate-report-details-billions-in-health-care-fraud-lost-to-russian-fraudsters-medicare-scammers-other-schemers/",
+        "timestamp": 1790679600000,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "Texas's 35th District Race Pits De La Cruz Against Garcia",
+        "url": "https://www.dailysignal.com/2026/09/29/texas-35th-congressional-district-de-la-cruz-garcia/",
+        "timestamp": 1790679600000,
+        "photo": true,
+        "postedAt": 1790683073414,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "1619 Project Founder Regrets Sending Daughter To Struggling Public School",
+        "url": "https://www.theblaze.com/shows/the-glenn-beck-program/1619-project-founder-sent-daughter-failing-brooklyn-schools",
+        "timestamp": 1790677944000,
+        "photo": true,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "Los Angeles Weighs Replacing Mayor Amid Leftward Shift",
+        "url": "https://www.theblaze.com/columns/opinion/bass-ackward-los-angeles-may-dump-its-mayor-and-move-farther-left",
+        "timestamp": 1790677923000,
+        "photo": true,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "Zeteo: Iran Preps For 'Doomsday' War As Trump Talks Tough",
+        "url": "https://zeteo.com/p/iran-prepares-for-a-doomsday-war",
+        "timestamp": 1790593903000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Trump Lashes Out As Florida GOP Candidates Seek Distance",
+        "url": "https://thehill.com/newsletters/morning-report/6114499-donald-trump-florida-republicans-midterms-rift/",
+        "timestamp": 1790593560000,
+        "feature": true,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Data Center Backlash Gives The Left A New Political Cause",
+        "url": "https://www.newsmax.com/platinum/data-centers-backlash-left/2026/08/31/id/1267913/",
+        "timestamp": 1790591326000,
+        "photo": true,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Newsom Signs Bills Cracking Down On Officials' Meme Coin Dealings",
+        "url": "https://www.gov.ca.gov/2026/09/27/the-opposite-of-trump-governor-newsom-signs-bills-to-crack-down-on-corruption-including-meme-coins-by-public-officials/",
+        "timestamp": 1790531054000,
+        "photo": true,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Trump Amplifies Calls To Oust MAGA Rep In Posting Spree",
+        "url": "https://www.aol.co.uk/articles/trump-goes-warpath-against-gop-130014000.html",
+        "timestamp": 1790526960000,
+        "photo": true,
+        "postedAt": 1790595803964,
+        "image": "/img/politics-7.jpg"
+      },
+      {
+        "headline": "Sharyl Attkisson: What Will Trump's New 'NATO 3.0' Look Like?",
+        "url": "https://www.realclearpolitics.com/video/2026/09/27/sharyl_attkisson_what_will_a_new_nato_30_look_like.html",
+        "timestamp": 1790442000000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Roundup: GOP Midterm Cash Surge, Trump's World Stage, Media Ban Lift",
+        "url": "https://www.dailywire.com/episode/district-club-ep-5",
+        "timestamp": 1790506846000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Daily Wire: Case Against Police 'Flock' Cameras Is Wrongheaded",
+        "url": "https://www.dailywire.com/news/why-the-case-against-flock-cameras-is-wrongheaded?elementPosition",
+        "timestamp": 1790505092000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "College Football Player's Killing Renews Focus On Twice-Missed Deportation",
+        "url": "https://www.theblaze.com/news/college-stabbing-illegal-alien-deport",
+        "timestamp": 1790505090000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Rep. Van Duyne Pushes Bill To Crack Down On H-1B Visa Fraud",
+        "url": "https://www.theblaze.com/shows/sara-gonzales-unfiltered/hit-him-in-the-pocketbook-sara-gonzales-sits-down-with-rep-beth-van-duyne-as-congress-moves-to-crush-h-1b-fraud",
+        "timestamp": 1790505039000,
+        "photo": true,
+        "postedAt": 1790509111192
+      },
+      {
+        "headline": "Vance Takes On Battleground Role As Trump Targets Red States",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4745314/vance-battleground-states-midterm-cycle/",
+        "timestamp": 1790679600000,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "Trump's Packed Midterm Travel Schedule Signals GOP Concern",
+        "url": "https://www.politico.com/news/2026/09/29/fires-are-everywhere-right-now-trump-hits-the-road-to-shore-up-red-states-01095543",
+        "timestamp": 1790675400000,
+        "postedAt": 1790683073414
+      },
+      {
+        "headline": "Taiwan Policy Unchanged After Xi Visit, Perdue Says",
+        "url": "https://www.straitstimes.com/world/united-states/us-policy-on-taiwan-unchanged-after-xis-visit-says-top-envoy-perdue",
+        "timestamp": 1790535958000,
+        "postedAt": 1790595803964
+      },
+      {
+        "headline": "Three ICE-Custody Deaths Reported In Three States Within A Day",
+        "url": "https://www.theguardian.com/us-news/2026/sep/29/deaths-one-day-ice-immigration",
+        "timestamp": 1790676060000,
+        "postedAt": 1790683073414
+      }
+    ]
+  },
+  "polls": [
+    {
+      "name": "Trump Approval",
+      "value": "39%/60%",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
+      "asOf": "Sep 28, 2026"
+    },
+    {
+      "name": "Generic Congressional Vote",
+      "value": "Dem +7.6",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "Sep 28, 2026"
+    },
+    {
+      "name": "Right Direction",
+      "value": "37%",
+      "sub": "",
+      "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/right_direction_or_wrong_track",
+      "asOf": "Sep 24, 2026"
+    }
+  ],
+  "balance": {
+    "left": 649,
+    "right": 712,
+    "independent": 8,
+    "days": 30,
+    "total": 1361,
+    "pctLeft": 48,
+    "pctRight": 52
+  }
+}

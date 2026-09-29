@@ -1,0 +1,505 @@
+{
+  "lastUpdated": 1790681115321,
+  "heroSetDate": "2026-09-29",
+  "hero": {
+    "headline": "TRUMP CONTROVERSIES PILE ON SENATE REPUBLICANS AS 2026 MIDTERM ANXIETY GROWS",
+    "url": "https://www.politico.com/news/2026/09/28/trump-taxpayer-ads-senate-gop-01096502",
+    "sublinks": [
+      {
+        "text": "Trump Barnstorms Red States To Rally Nervous GOP Base",
+        "url": "https://www.politico.com/news/2026/09/29/fires-are-everywhere-right-now-trump-hits-the-road-to-shore-up-red-states-01095543"
+      },
+      {
+        "text": "Farm Crisis Fears Deepen Iowa Republicans' Political Problem",
+        "url": "https://www.axios.com/2026/09/29/iowa-midterms-farms-trump"
+      },
+      {
+        "text": "Sarah Sanders' Latest Misstep Adds To GOP Headaches",
+        "url": "https://spectator.org/sarah-sanders-steps-in-it-just-before-the-midterms/"
+      },
+      {
+        "text": "Washington Examiner Asks Whether GOP 'Doomers' Are Overreacting",
+        "url": "https://www.washingtonexaminer.com/daily-memo/4744584/are-gop-doomers-overreacting/"
+      },
+      {
+        "text": "Trump Reportedly Erupts Over Leaked Midterm Polling Numbers",
+        "url": "https://newrepublic.com/article/215952/trump-erupts-wild-panic-gop-midterm-leaks-grow-urgent-wipeout"
+      }
+    ],
+    "postedAt": 1790681115321,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "CORNELL GANG RAPE CASE REOPENED",
+      "stories": [
+        {
+          "headline": "Prosecutor Reopens Cornell Gang Rape Probe After Accuser Sues",
+          "url": "https://apnews.com/article/cornell-rape-allegations-investigation-16f59e89ce97e3a40a8e672f7b3f374b",
+          "timestamp": 1790650680000,
+          "postedAt": 1790681115321
+        },
+        {
+          "headline": "Cornell Students Demand Accountability As Case Draws Scrutiny",
+          "url": "https://www.thenation.com/article/society/cornell-rape-case-chi-phi-fraternity-accountability/",
+          "timestamp": 1790647200000,
+          "postedAt": 1790681115321
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR STANDOFF CONTINUES",
+      "stories": [
+        {
+          "headline": "Trump Says He Rejected Latest Iranian Proposal",
+          "url": "https://www.axios.com/2026/09/26/trump-iran-un-proposal",
+          "timestamp": 1790463027000,
+          "postedAt": 1790507387252
+        },
+        {
+          "headline": "Iran's Pezeshkian Says Tehran No Longer Trusts Talks With Washington",
+          "url": "https://www.aljazeera.com/news/2026/9/26/pezeshkian-says-iran-no-longer-trusts-talks-with-washington",
+          "timestamp": 1790421172000,
+          "postedAt": 1790507387252
+        },
+        {
+          "headline": "UK: Suspected Terror Plot At U.S.-Used Base Traced To Iran, WSJ Reports",
+          "url": "https://www.npr.org/2026/09/28/nx-s1-5982722/5-men-suspected-of-plotting-a-terrorist-act-arrested-near-u-k-air-base",
+          "timestamp": 1790593592858,
+          "postedAt": 1790594054383
+        },
+        {
+          "headline": "UK: Men Arrested With Explosives Outside Airbase Used In Iran Strikes",
+          "url": "https://notthebee.com/article/foreign-looking-men-arrested-with-explosives-outside-british-airbase-used-by-us-military-to-strike-iran/",
+          "timestamp": 1790529326000,
+          "postedAt": 1790594054383
+        }
+      ]
+    },
+    {
+      "title": "US-CHINA TARIFF TRUCE: WHAT'S IN THE DEAL",
+      "stories": [
+        {
+          "headline": "What Qualifies Under New $60 Billion Tariff Reduction",
+          "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html",
+          "timestamp": 1790584293000,
+          "postedAt": 1790594054383
+        },
+        {
+          "headline": "List Of Goods Qualifying For US-China Tariff Cuts Released",
+          "url": "https://finance.yahoo.com/economy/policy/articles/list-goods-us-china-agreed-033047670.html",
+          "timestamp": 1790566200000,
+          "postedAt": 1790594054383
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Mediators Work To Broker US-Iran Deal As Hurdles Remain",
+        "url": "https://apnews.com/article/iran-trump-negotiations-war-strait-nuclear-871504dbd98d9b08b226b9805d8f4606",
+        "timestamp": 1790653920000,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Top FBI Official Departs Amid Shakeup",
+        "url": "https://www.nbcnews.com/politics/rcna600270",
+        "timestamp": 1790679883082,
+        "photo": true,
+        "postedAt": 1790681115321,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Trump's Municipal Bond Holdings Reach $1 Billion Amid Overlap Concerns",
+        "url": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio/.html",
+        "timestamp": 1790679883082,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Canada: US Import Ban Worth $1 Billion Takes Effect",
+        "url": "https://www.cbsnews.com/news/us-ban-canadian-imports-almost-1-billion-dollars-takes-effect/",
+        "timestamp": 1790677463000,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Tennessee Set To Execute Woman For First Time In 200 Years",
+        "url": "https://www.npr.org/2026/09/29/g-s1-145408/tennessee-woman-execution",
+        "timestamp": 1790661558000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Hegseth Directs Pentagon To Counter Foreign Election Meddling",
+        "url": "https://www.axios.com/2026/09/28/hegseth-elections-security-order",
+        "timestamp": 1790658358000,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Second DOJ Prosecutor Resigns From Probe Targeting Trump Foes",
+        "url": "https://apnews.com/article/justice-department-grand-conspiracy-kurt-olsen-ddc68873796154266b3f09d2b685b0a5",
+        "timestamp": 1790645520000,
+        "feature": true,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Republicans Pour Money Into Dozens Of Previously 'Safe' House Races",
+        "url": "https://www.reuters.com/legal/government/republicans-pour-money-into-dozens-us-house-races-previously-considered-safe-2026-09-27/",
+        "timestamp": 1790508286000,
+        "postedAt": 1790594054383
+      },
+      {
+        "headline": "Giant Pandas Arrive In Atlanta Amid China Diplomacy Push",
+        "url": "https://www.pbs.org/newshour/nation/2-giant-pandas-arrive-in-atlanta-under-a-u-s-china-government-agreement",
+        "timestamp": 1790583000000,
+        "photo": true,
+        "postedAt": 1790594054383,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Sen. Kennedy: No Living Politicians Should Get Buildings Named After Them",
+        "url": "https://www.foxnews.com/politics/sen-kennedy-says-no-living-politicians-should-have-buildings-named-after-them-after-trumps-moves",
+        "timestamp": 1790578084000,
+        "postedAt": 1790594054383
+      },
+      {
+        "headline": "Georgia Park Mass Shooting Wounds 11 Teens At Birthday Party",
+        "url": "https://www.cbsnews.com/news/carolyn-crayton-park-georgia-shooting-teens-wounded/",
+        "timestamp": 1790540729000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790594054383,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "Trump Tells Female Reporter To 'Be Quiet' Amid Press Ban Questions",
+        "url": "https://www.theguardian.com/us-news/2026/sep/26/trump-female-ms-now-reporter",
+        "timestamp": 1790466060000,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "UK: Bomb Squad Deployed, Arrests Made Near Air Base Used By US Forces",
+        "url": "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/",
+        "timestamp": 1790506948291,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Karl Rove Says He Received 'Credible Threats' After Saying He'd Vote For A Democrat",
+        "url": "https://www.mediaite.com/media/news/karl-rove-tells-texas-audience-he-got-credible-threats-after-saying-hed-vote-for-a-democrat-id-like-to-meet-that-sumabtch/",
+        "timestamp": 1790506948291,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "UK: Mother Says Police Believe Daughter's Tree Hanging Was Staged",
+        "url": "https://www.bbc.com/news/articles/cq4gmmdl52rgo",
+        "timestamp": 1790457193000,
+        "photo": true,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "New Clue Emerges In Search For Missing Bay Area Coffee Shop Owner",
+        "url": "https://www.sfgate.com/bayarea/article/amy-hillyard-update-missing-22449693.php",
+        "timestamp": 1790421022000,
+        "photo": true,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Republicans Jump Ship Ahead Of Midterms",
+        "url": "https://www.usatoday.com/story/news/politics/2026/09/26/republicans-break-trump-iran-gas-prices-midterm-election/91925861007/",
+        "timestamp": 1790506948291,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "GOP Election Outlook Goes From Bad To 'Craptastic'",
+        "url": "https://www.axios.com/2026/09/26/trump-republicans-midterm-election-house-senate",
+        "timestamp": 1790464914000,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Nor'easter Floods Northeast Again, From New Jersey To New England",
+        "url": "https://apnews.com/article/noreaster-storm-death-northeast-f4b86959733c021315e87ea1ed58459b",
+        "timestamp": 1790581800000,
+        "feature": true,
+        "postedAt": 1790594054383
+      },
+      {
+        "headline": "Storm Surge Uncovers Century-Old Shipwreck Off Nantucket",
+        "url": "https://www.npr.org/2026/09/27/nx-s1-5982785/nantucket-shipwreck-uncovered-by-noreaster",
+        "timestamp": 1790555426000,
+        "postedAt": 1790594054383
+      }
+    ],
+    "center": [
+      {
+        "headline": "IRAN TELLS TRUMP TO CHOOSE BETWEEN WAR OR DIPLOMACY AS TALKS SET TO RESUME",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/",
+        "timestamp": 1790594054383,
+        "postedAt": 1790594054383
+      },
+      {
+        "headline": "Taxpayers Have Funded Nearly $1.5 Million In Trump Ads",
+        "url": "https://apnews.com/article/trump-government-ads-taxpayer-funded-psa-propaganda-26ae03010d78221d1d93b06c0818d06d",
+        "timestamp": 1790679883082,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Report: Partisan 'Pseudo-Journalism' Sites Target Midterms",
+        "url": "http://yahoo.com/news/politics/articles/pseudo-journalism-partisan-news-sites-012705653.html",
+        "timestamp": 1790679883082,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "News Organizations Sue To Block White House Press Access Ban",
+        "url": "https://www.npr.org/2026/09/29/nx-s1-5984349/news-organizations-court-white-house-ban",
+        "timestamp": 1790669591000,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Lindsay Clancy Holdout Juror Speaks Out After Mistrial Drama",
+        "url": "https://www.foxnews.com/us/lindsay-clancy-holdout-juror-asks-one-thing-new-video-mistrial-drama",
+        "timestamp": 1790646603000,
+        "photo": true,
+        "postedAt": 1790681115321,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Walmart Denies Using Personal Data To Set Prices Amid Digital Label Expansion",
+        "url": "https://apnews.com/article/walmart-pricing-dynamic-pricing-1488b3614058c9452426c0e2e656f653",
+        "timestamp": 1790593592858,
+        "photo": true,
+        "postedAt": 1790594054383
+      },
+      {
+        "headline": "Airbus Probes A321neo Flaw As Repair Plan Eases Disruption",
+        "url": "https://www.reuters.com/business/aerospace-defense/airbus-probes-a321neo-flaw-repair-plan-eases-disruption-2026-09-28/",
+        "timestamp": 1790592559000,
+        "photo": true,
+        "postedAt": 1790594054383
+      },
+      {
+        "headline": "The Moves That Backfired And Drove Rates, Inflation Higher",
+        "url": "https://www.livemint.com/global/the-moves-that-backfired-on-trump-and-drove-interest-rates-and-inflation-higher-11790557523075.html",
+        "timestamp": 1790525758000,
+        "postedAt": 1790594054383
+      },
+      {
+        "headline": "Scientists Detect Radio Waves Coming From Another Planet",
+        "url": "https://notthebee.com/article/scientists-have-detected-radio-waves-coming-from-another-planet/",
+        "timestamp": 1790512306000,
+        "photo": true,
+        "postedAt": 1790594054383,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "China's Newest Panda Diplomats Head To Atlanta",
+        "url": "https://www.cnn.com/2026/09/26/asia/two-giant-pandas-leave-on-a-flight-bound-for-zoo-atlanta-in-a-rare-loan-from-china-latam-intl",
+        "timestamp": 1790465382000,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Study: Listening To Mozart Or Bach May Lower Blood Pressure",
+        "url": "https://www.news-medical.net/news/20260925/Virtual-reality-and-music-may-help-lower-blood-pressure-during-emergencies.aspx",
+        "timestamp": 1790506948291,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Mexico: Category 5 Hurricane Polo Nears Coastal Landfall",
+        "url": "https://www.yahoo.com/news/weather-news/articles/category-5-hurricane-polo-threatens-124633181.html",
+        "timestamp": 1790506948291,
+        "photo": true,
+        "postedAt": 1790507387252,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "DHS Secretary Mullin Blasts Democrat's 'Open Borders' Anti-ICE Bill",
+        "url": "https://www.theblaze.com/news/mullin-delia-ramirez-anti-ice",
+        "timestamp": 1790506123000,
+        "photo": true,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Fire Spreads To Apartment Building, Home And RV In Los Angeles",
+        "url": "https://ktla.com/news/local-news/fire-spreads-to-apartment-building-home-and-rv-in-los-angeles/",
+        "timestamp": 1790460723000,
+        "photo": true,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "What Is Kratom, The 'Gas Station Heroin' Alarming US Officials?",
+        "url": "https://health.yahoo.com/your-body/substance-use/articles/kratom-gas-station-heroin-alarming-200644190.html",
+        "timestamp": 1790425857000,
+        "photo": true,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Hurricane Nolo Slams Hawaii With Potentially Historic Multiday Deluge",
+        "url": "https://www.accuweather.com/en/hurricane/hurricane-nolo-to-become-a-category-3-slam-hawaii-with-potentially-historic-multiday-deluge/1937455",
+        "timestamp": 1790506948291,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Thiel Says Trump Is Surrounded By 'Dummies'",
+        "url": "https://www.mediaite.com/media/news/peter-thiel-dings-trumps-loyalty-tests-for-not-very-smart-administration-officials/",
+        "timestamp": 1790506948291,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Diesel Prices Hit Record, Uncharted Territory",
+        "url": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Costs-Add-Fresh-Pressure-on-UK-Economy.amp.html",
+        "timestamp": 1790679883082,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Texas Governor Declares Emergency To Fight Fuel Prices",
+        "url": "https://www.texastribune.org/2026/09/28/texas-gas-diesel-prices-emergency-declaration-war-abbott/",
+        "timestamp": 1790656644000,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Austin Man Shot By ICE Still In Pain Ahead Of Hearing",
+        "url": "https://www.tpr.org/border-immigration/2026-09-28/austin-man-shot-by-ice-still-in-pain-bullet-lodged-in-his-back-ahead-of-san-antonio-hearing",
+        "timestamp": 1790641980000,
+        "postedAt": 1790681115321
+      }
+    ],
+    "right": [
+      {
+        "headline": "Karl Rove: Republican Party Being Taken Over By 'Nazis'",
+        "url": "https://www.sacurrent.com/news/politics-and-elections/karl-rove-says-republican-party-is-being-taken-over-by-nazis/",
+        "timestamp": 1790679883082,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Abdul El-Sayed Courts RFK Jr.'s MAHA Supporters In Senate Bid",
+        "url": "https://www.cbsnews.com/news/democrat-abdul-el-sayed-rfk-jr-maha-voters-health-platform-michigan-senate/",
+        "timestamp": 1790679883082,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "NY Times Executive Fatally Shot By Elderly In-Laws, Police Say",
+        "url": "https://www.bbc.com/news/articles/cred737qdv2no",
+        "timestamp": 1790654803000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Four Hurt In Landing Mishap Aboard USS Dwight D. Eisenhower",
+        "url": "https://news.usni.org/2026/09/28/four-injured-after-landing-mishap-aboard-uss-dwight-d-eisenhower-crew-safely-recovered",
+        "timestamp": 1790651280000,
+        "photo": true,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Pope Leo Criticizes Nvidia's Jensen Huang Over AI Safety",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/09/29/pope-leo-says-ai-safety-fears-are-not-fake-news-and-criticizes-nvidias-billionaire-ceo/",
+        "timestamp": 1790639474000,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "NOR'EASTER KILLS AT LEAST ONE, KNOCKS OUT POWER ACROSS NORTHEAST",
+        "url": "https://www.aljazeera.com/news/2026/9/26/powerful-storm-brings-flooding-power-outages-to-northeastern-united-states",
+        "timestamp": 1790507387252,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Fetterman Accidentally Calls Himself 'Lifelong Republican' At Texas Tribune Festival",
+        "url": "https://www.foxnews.com/politics/john-fetterman-accidentally-calls-himself-lifelong-republican-texas-tribune-festival",
+        "timestamp": 1790536269000,
+        "photo": true,
+        "postedAt": 1790594054383,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "Social Media Platforms Reject Paid Ads For Critical Musk Documentary",
+        "url": "https://www.hollywoodreporter.com/business/digital/elon-musk-documentary-trailer-rejected-tiktok-youtube-1236710259/",
+        "timestamp": 1790506948291,
+        "photo": true,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Utah Valley University Releases Report On Charlie Kirk Assassination",
+        "url": "https://www.theblaze.com/news/uvu-releases-report-on-charlie-kirk-assassination",
+        "timestamp": 1790505225000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Trump's Search For A Superintelligence Czar To Lead New AI Force",
+        "url": "https://nypost.com/2026/09/26/us-news/trumps-next-ai-czar-whos-in-the-running-for-the-white-house-post/",
+        "timestamp": 1790470320000,
+        "photo": true,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Indiana Deputy Arrested For 6,000 Illegal Flock Searches To Track Wife, Ex-Girlfriends",
+        "url": "https://notthebee.com/article/indiana-sheriffs-deputy-arrested-for-making-6000-illegal-flock-searches-to-track-his-wife-ex-girlfriends/",
+        "timestamp": 1790432702000,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Chicago Regulators Crack Down On Restaurant Over Hot Dog In A Bun",
+        "url": "https://reason.com/2026/09/26/in-chicago-putting-a-hot-dog-in-a-bun-can-get-you-in-trouble/",
+        "timestamp": 1790420452000,
+        "photo": true,
+        "postedAt": 1790507387252,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Democrats Plan Vast Oversight Of Administration, Weigh Impeachment",
+        "url": "https://apnews.com/article/house-democrats-trump-impeachment-investigations-corruption-jeffries-84bfad2502c42c7e43629f989601f356",
+        "timestamp": 1790506948291,
+        "postedAt": 1790507387252
+      },
+      {
+        "headline": "Are TV Networks Still Covering Trump? It's Complicated",
+        "url": "https://www.reuters.com/legal/government/tv-networks-resume-coverage-trump-events-cnn-says-2026-09-25/",
+        "timestamp": 1790593592857,
+        "postedAt": 1790594054383
+      },
+      {
+        "headline": "Feds Air Another Taxpayer-Funded Political Ad On Fox",
+        "url": "https://www.mediaite.com/media/news/critics-savage-new-government-funded-trump-ad-which-aired-on-fox-news-sunday-theyre-just-stealing-your-money-to-pay-for-this/",
+        "timestamp": 1790593592857,
+        "postedAt": 1790594054383
+      },
+      {
+        "headline": "White House Defends Its 'Public Service Announcements'",
+        "url": "https://apnews.com/article/trump-election-campaign-advertisements-bfa8e3c1c9e50de03092b4ec27055da9",
+        "timestamp": 1790593592857,
+        "postedAt": 1790594054383
+      },
+      {
+        "headline": "Massachusetts Rainfall Totals Top Charts Town By Town",
+        "url": "https://www.boston25news.com/news/local/mass-noreaster-rain-reports-town-by-town-list-highest-totals-so-far/25X36EBMORAWLFY3RUQY5DLEPU/",
+        "timestamp": 1790560920000,
+        "postedAt": 1790594054383
+      },
+      {
+        "headline": "Strategic Oil Reserve Falls To Lowest Level In 45 Years",
+        "url": "https://global-energy-flow.com/storage/oil/",
+        "timestamp": 1790679883082,
+        "postedAt": 1790681115321
+      },
+      {
+        "headline": "Three ICE-Related Deaths In Three States In 24 Hours",
+        "url": "https://www.theguardian.com/us-news/2026/sep/29/deaths-one-day-ice-immigration",
+        "timestamp": 1790676060000,
+        "postedAt": 1790681115321
+      }
+    ]
+  },
+  "balance": {
+    "left": 717,
+    "right": 399,
+    "independent": 4,
+    "days": 30,
+    "total": 1116,
+    "pctLeft": 64,
+    "pctRight": 36
+  }
+}
