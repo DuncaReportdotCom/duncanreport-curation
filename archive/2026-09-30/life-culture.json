@@ -1,0 +1,371 @@
+{
+  "lastUpdated": 1790769268042,
+  "heroSetDate": "2026-09-30",
+  "hero": {
+    "headline": "SCIENTISTS DISCOVER NEW DINOSAUR SPECIES DEEP IN SAHARA DESERT",
+    "url": "https://abcnews.com/International/scientists-discover-new-dinosaur-species-deep-sahara-desert/story?id",
+    "sublinks": [],
+    "postedAt": 1790769268042,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "SYLVESTER STALLONE AT 80",
+      "stories": [
+        {
+          "headline": "Sylvester Stallone, 80, Opens Up On Skipping Mom's Funeral And Son's Death",
+          "url": "https://pagesix.com/2026/09/29/celebrity-news/sylvester-stallone-80-gets-candid-about-his-life/",
+          "timestamp": 1790676000000,
+          "postedAt": 1790683794666
+        },
+        {
+          "headline": "Stallone Reacts To Biopic: 'I'm Not Dead Yet'",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/sylvester-stallone-reacts-biopic-i-play-rocky-not-dead-yet-1236713994/",
+          "timestamp": 1790639996000,
+          "postedAt": 1790683794666
+        }
+      ]
+    },
+    {
+      "title": "HERNAN DIAZ'S NEW NOVEL 'PLY'",
+      "stories": [
+        {
+          "headline": "Hernan Diaz Says His New Novel Isn't A Dystopia",
+          "url": "https://lithub.com/hernan-diazs-new-novel-isnt-a-dystopia-trust-him/",
+          "timestamp": 1790674259000,
+          "postedAt": 1790683794666
+        },
+        {
+          "headline": "Book Review: 'Ply,' By Hernan Diaz",
+          "url": "https://dearstrangethings.substack.com/p/book-reviews-ply-we",
+          "timestamp": 1790586311000,
+          "postedAt": 1790683794666
+        }
+      ]
+    },
+    {
+      "title": "VMAS 2026: SWIFT SETS RECORD, MADONNA STIRS SABRINA CARPENTER ROW",
+      "stories": [
+        {
+          "headline": "Taylor Swift Breaks VMA Record As Madonna Also Wins Award",
+          "url": "https://www.bbc.com/news/articles/c8ly403p1rwpo",
+          "timestamp": 1790581205000,
+          "postedAt": 1790596472055
+        },
+        {
+          "headline": "Sabrina Carpenter Responds After Madonna Calls Her Out Onstage",
+          "url": "https://www.huffpost.com/entry/sabrina-carpenter-madonna-defends-vmas_n_6ab9b829e4b0d1543f54ace5",
+          "timestamp": 1790558616000,
+          "postedAt": 1790596472055
+        },
+        {
+          "headline": "Travis Kelce Skips Ceremony As Swift Claims Historic Win",
+          "url": "https://www.usatoday.com/story/entertainment/music/awards/2026/09/27/travis-kelce-vmas-absence-taylor-swift-chiefs-game/91974690007/",
+          "timestamp": 1790538360000,
+          "postedAt": 1790596472055
+        },
+        {
+          "headline": "Where Is Taylor Swift Going After 'The Life Of A Showgirl'?",
+          "url": "https://www.rollingstone.com/music/music-features/taylor-swift-life-of-a-showgirl-the-encore-whats-next-1235633073/",
+          "timestamp": 1790633539000,
+          "postedAt": 1790683794666
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Domestic Box Office Hits Third-Quarter Record On Avengers Re-Release Boost",
+        "url": "https://finance.yahoo.com/media-advertising/articles/domestic-box-office-hits-third-182655220.html",
+        "timestamp": 1790620015000,
+        "feature": true,
+        "postedAt": 1790769268042
+      },
+      {
+        "headline": "Astronomers May Have Found A Planet In The Habitable Zone Of The Hottest Star Yet",
+        "url": "https://www.sciencealert.com/astronomers-may-have-found-a-planet-in-the-habitable-zone-of-the-hottest-star-yet",
+        "timestamp": 1790766142000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790769268042,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "Some Scientists Are Calling Alzheimer's 'Type 3 Diabetes'",
+        "url": "https://www.sciencealert.com/some-scientists-are-calling-alzheimers-type-3-diabetes",
+        "timestamp": 1790762548000,
+        "postedAt": 1790769268042
+      },
+      {
+        "headline": "Paris Fashion Week 2026: Dior, L'Oréal And More Bold Looks",
+        "url": "https://www.usatoday.com/picture-gallery/entertainment/style/2026/09/29/paris-fashion-week-spring-2027-runway-photos/91996612007/",
+        "timestamp": 1790733360000,
+        "photo": true,
+        "postedAt": 1790769268042
+      },
+      {
+        "headline": "New 'South Park' Episode Takes Aim At Data Centers And The Billionaires Who Build Them",
+        "url": "https://www.hollywoodreporter.com/tv/tv-news/south-park-ai-data-centers-logline-1236714680/",
+        "timestamp": 1790721660000,
+        "photo": true,
+        "postedAt": 1790769268042
+      },
+      {
+        "headline": "Will Reeve, Son Of Christopher Reeve, Announces Cancer Diagnosis",
+        "url": "https://thenationaldesk.com/news/entertainment/will-reeve-son-of-late-superman-star-christopher-reeve-announces-cancer-diagnosis",
+        "timestamp": 1790700575000,
+        "photo": true,
+        "postedAt": 1790769268042,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "Dennis Haskins, TV's Mr. Belding, Dies At 75",
+        "url": "https://abcnews.com/US/dennis-haskins-principal-belding-saved-bell-dies-75/story?id",
+        "timestamp": 1790679188000,
+        "photo": true,
+        "postedAt": 1790683794666
+      },
+      {
+        "headline": "OpenAI Delays New Model's Release Over Safety Concerns",
+        "url": "https://www.npr.org/2026/09/29/nx-s1-5984342/openai-delays-latest-model",
+        "timestamp": 1790678160000,
+        "feature": true,
+        "postedAt": 1790683794666
+      },
+      {
+        "headline": "These 2026 Vehicles Won't Return For 2027",
+        "url": "https://www.caranddriver.com/news/g71122494/dead-cars-trucks-2027/",
+        "timestamp": 1790677529000,
+        "photo": true,
+        "postedAt": 1790683794666,
+        "image": "/img/life-culture-4.jpg"
+      },
+      {
+        "headline": "Popular Joint Supplement Tied To 25% Higher Dementia Risk",
+        "url": "https://www.sciencealert.com/popular-joint-supplement-linked-to-25-higher-dementia-risk",
+        "timestamp": 1790676285000,
+        "feature": true,
+        "postedAt": 1790683794666
+      },
+      {
+        "headline": "What Gertrude Stein, T.S. Eliot And Joan Didion Really Meant In Their Famous Lines",
+        "url": "https://lithub.com/what-gertrude-stein-t-s-eliot-and-joan-didion-really-meant-with-their-most-famous-aphorisms/",
+        "timestamp": 1790673996000,
+        "postedAt": 1790683794666
+      },
+      {
+        "headline": "OpenAI Pauses Training Most Powerful Models After Rogue Agents Target Government",
+        "url": "https://www.nbcnews.com/tech/tech-news/openai-pauses-training-latest-models-agents-searched-us-government-sit-rcna600098",
+        "timestamp": 1790595120000,
+        "feature": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "AEW Star Pac, Who Wrestled In WWE As Neville, Dies At 40",
+        "url": "https://www.usatoday.com/story/sports/2026/09/27/pac-dead-40-aew-wwe-neville/91980714007/",
+        "timestamp": 1790595120000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "America's Oldest Person Just Turned 116 — Here's The Science Of Longevity",
+        "url": "https://www.sciencealert.com/americas-oldest-person-just-turned-116-heres-what-science-says-about-how-to-live-that-long",
+        "timestamp": 1790593500000,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Microsoft Goes Quiet After Church Groups Demand Cut Of Data Center Costs",
+        "url": "https://arstechnica.com/tech-policy/2026/09/microsoft-goes-quiet-after-church-groups-ask-for-1-of-data-center-costs/",
+        "timestamp": 1790593209000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "A Journey To Antarctica In Photos: Remembering Shackleton's Grand Expedition",
+        "url": "https://lithub.com/a-journey-to-antarctica-in-photos-remembering-ernest-shackletons-grand-expedition/",
+        "timestamp": 1790586951000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Legendary Calypsonian Mighty Sparrow Dies",
+        "url": "https://www.caribbeannationalweekly.com/posts/legendary-calypsonian-mighty-sparrow-has-died",
+        "timestamp": 1790563294000,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Scientists Discover Hairy-Legged, Red-Eyed 'Nightmare Fuel' Sea Spiders",
+        "url": "https://www.axios.com/2026/09/26/spiders-salish-sea-discovery-study",
+        "timestamp": 1790441678000,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Book Review: Lee Kuan Yew's Memoirs Offer Blunt Lessons In Power",
+        "url": "https://www.astralcodexten.com/p/your-book-review-lee-kuan-yews-memoirs",
+        "timestamp": 1790375170000,
+        "postedAt": 1790596472055
+      }
+    ],
+    "center": [
+      {
+        "headline": "RARE ROLEX QUARTET FETCHES $49.5 MILLION AT AUCTION",
+        "url": "https://www.gq.com/story/rolex-unique-daytonas-auction-49-5-million",
+        "timestamp": 1790683794666,
+        "postedAt": 1790683794666
+      },
+      {
+        "headline": "Two New Sea Spider Species Found Along Canadian Coastline",
+        "url": "https://www.npr.org/2026/09/27/nx-s1-5982026/new-sea-spider-species",
+        "timestamp": 1790548276000,
+        "postedAt": 1790769268042
+      },
+      {
+        "headline": "The Dawn Of The Age Of The Exoskeleton",
+        "url": "https://theconversation.com/the-dawn-of-the-age-of-the-exoskeleton-281804",
+        "timestamp": 1790766991000,
+        "photo": true,
+        "postedAt": 1790769268042,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "AI Makes Its First Meaningful Breakthrough In Theoretical Physics",
+        "url": "https://bigthink.com/starts-with-a-bang/ai-first-breakthrough-theoretical-physics/",
+        "timestamp": 1790763120000,
+        "postedAt": 1790769268042
+      },
+      {
+        "headline": "Sylvester Stallone Says Painful Truth About His Parents Fueled 'Rocky' Success",
+        "url": "https://www.usatoday.com/story/entertainment/books/2026/09/29/sylvester-stallone-interview-the-steps-memoir/91989456007/",
+        "timestamp": 1790676540000,
+        "photo": true,
+        "postedAt": 1790769268042
+      },
+      {
+        "headline": "Why Some Chimpanzee Mothers Carry Their Dead Infants For Months",
+        "url": "https://theconversation.com/why-do-some-chimpanzee-mothers-carry-their-dead-infants-for-months-292509",
+        "timestamp": 1790676406000,
+        "photo": true,
+        "postedAt": 1790683794666,
+        "image": "/img/life-culture-5.jpg"
+      },
+      {
+        "headline": "2026 Ford Mustang Dark Horse SC: First-Drive Review",
+        "url": "https://www.thedrive.com/car-reviews/2026-ford-mustang-dark-horse-sc-first-drive-review-the-perfect-mustang-doesnt-need-a-stick",
+        "timestamp": 1790676000000,
+        "photo": true,
+        "postedAt": 1790683794666,
+        "image": "/img/life-culture-6.jpg"
+      },
+      {
+        "headline": "Quantum Immortality, Explained",
+        "url": "https://www.realclearscience.com/video/2026/09/29/quantum_immortality_explained_1208726.html",
+        "timestamp": 1790605680000,
+        "postedAt": 1790683794666
+      },
+      {
+        "headline": "Foods With Shorter Shelf Life Seen As More Natural And Healthier",
+        "url": "https://phys.org/news/2026-09-foods-shorter-shelf-life-natural.html",
+        "timestamp": 1790594404000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Before You Buy An Apple Watch, Read This",
+        "url": "https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html",
+        "timestamp": 1790591760000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Why Ghosts Are Haunting Us In 2026 (For Real)",
+        "url": "https://lithub.com/why-ghosts-are-haunting-us-in-2026-for-real/",
+        "timestamp": 1790587027000,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Neil Patrick Harris To Lead 'Damn Yankees' Broadway Revival In 2027",
+        "url": "https://playbill.com/article/neil-patrick-harris-will-lead-damn-yankees-broadway-revival-this-spring",
+        "timestamp": 1790540040000,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "'The Disappearers' Is A Fiercely Personal Novel That Hits Like A Tidal Wave",
+        "url": "https://www.npr.org/2026/09/25/nx-s1-5981056/the-disappearers-review-marlon-james",
+        "timestamp": 1790359488000,
+        "postedAt": 1790596472055
+      }
+    ],
+    "right": [
+      {
+        "headline": "Cloudflare Plans To Issue Quantum-Safe TLS Certificates",
+        "url": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/",
+        "timestamp": 1790766914000,
+        "postedAt": 1790769268042
+      },
+      {
+        "headline": "The 10-Second Fridge Fix That Makes Storing Raw Chicken Safer",
+        "url": "https://www.seriouseats.com/the-best-place-to-store-raw-chicken-12148470",
+        "timestamp": 1790762400000,
+        "photo": true,
+        "postedAt": 1790769268042
+      },
+      {
+        "headline": "How Oprah Winfrey Became America's Cultural Oppenheimer",
+        "url": "https://www.salon.com/2026/09/27/how-oprah-winfrey-became-americas-cultural-oppenheimer/",
+        "timestamp": 1790524831000,
+        "postedAt": 1790769268042
+      },
+      {
+        "headline": "SPACE LASERS FACE FIRST REAL-WORLD TEST GENERATING ENERGY",
+        "url": "https://www.tomorrowsworldtoday.com/space/google-is-sending-chips-into-orbit-for-space-data-centers-testing/",
+        "timestamp": 1790596472055,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Inside A Design Lover's Dream Airbnb In The South Of France",
+        "url": "https://www.cntraveler.com/story/my-favorite-airbnb-a-design-lovers-dream-home-in-the-south-of-france",
+        "timestamp": 1790681400000,
+        "photo": true,
+        "postedAt": 1790683794666,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "Bullfrogs' Brains Can Make Their Own Backup Fuel, Study Finds",
+        "url": "https://showme.missouri.edu/2026/mizzou-researchers-discover-bullfrog-brains-can-make-their-own-backup-fuel/",
+        "timestamp": 1790597222000,
+        "photo": true,
+        "postedAt": 1790683794666,
+        "image": "/img/life-culture-7.jpg"
+      },
+      {
+        "headline": "VW Confirms Electric ID.4 Successor Will Be Called ID. Tiguan",
+        "url": "https://www.caranddriver.com/news/a73918814/volkswagen-id-tiguan-ev-confirmed/",
+        "timestamp": 1790589863000,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Cleveland Orchestra Strike Ends As Musicians Agree To New Deal",
+        "url": "https://www.wkyc.com/article/news/local/cleveland/cleveland-orchestra-musicians-end-strike-agree-to-new-contact-cuyahoga-county-music/95-20d68f41-6e44-486e-b937-692ccd22bcb1",
+        "timestamp": 1790553360000,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Jeff Ament Looks Back At Pearl Jam's Early Days",
+        "url": "https://www.rollingstone.com/music/music-news/jeff-ament-interview-pearl-jam-book-new-drummer-1235632544/",
+        "timestamp": 1790537965000,
+        "photo": true,
+        "postedAt": 1790596472055
+      },
+      {
+        "headline": "Adam Lambert's Surprise Turn Highlights George Michael Tribute",
+        "url": "https://www.hollywoodreporter.com/music/music-news/adam-lambert-george-michael-tribute-2026-mtv-vmas-1236713332/",
+        "timestamp": 1790566014000,
+        "postedAt": 1790596472055
+      }
+    ]
+  }
+}
