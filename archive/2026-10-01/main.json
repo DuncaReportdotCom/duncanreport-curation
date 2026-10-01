@@ -28,12 +28,6 @@
           "postedAt": 1790853741767
         },
         {
-          "headline": "Trump Plays Defense In Midterm Tour Across GOP Strongholds",
-          "url": "https://www.politico.com/news/2026/09/29/fires-are-everywhere-right-now-trump-hits-the-road-to-shore-up-red-states-01095543",
-          "timestamp": 1790805274000,
-          "postedAt": 1790853741767
-        },
-        {
           "headline": "Trump's New Chatbot Ends Up Debunking His Own Claims",
           "url": "https://popular.info/p/watch-trumps-new-chatbot-debunk-his",
           "timestamp": 1790764316000,
@@ -504,11 +498,11 @@
     ]
   },
   "balance": {
-    "left": 729,
+    "left": 728,
     "right": 376,
     "independent": 6,
     "days": 30,
-    "total": 1105,
+    "total": 1104,
     "pctLeft": 66,
     "pctRight": 34
   }
