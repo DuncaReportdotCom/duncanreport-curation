@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790941878970,
+  "lastUpdated": 1790960531352,
   "heroSetDate": "2026-10-02",
   "hero": {
     "headline": "SUPREME COURT AGREES TO HEAR CHALLENGE TO TRUMP'S MANDATORY IMMIGRANT DETENTION POLICY",
@@ -107,6 +107,20 @@
   "columns": {
     "left": [
       {
+        "headline": "Analysis: The Right Builds Its Own Legal Defense Network Against 'Lawfare'",
+        "url": "https://www.theblaze.com/columns/opinion/the-right-is-building-its-own-lawfare-defense-machine-finally",
+        "timestamp": 1790959275000,
+        "postedAt": 1790960531352
+      },
+      {
+        "headline": "DOJ's Dhillon: UCLA Law Discriminated Against White, Asian Applicants",
+        "url": "https://thepostmillennial.com/harmeet-dhillon-finds-ucla-law-discriminated-against-white-asian-applicants-in-two-tiered-admissions-system",
+        "timestamp": 1790956607000,
+        "photo": true,
+        "postedAt": 1790960531352,
+        "image": "/img/politics-0.jpg"
+      },
+      {
         "headline": "Surprising Allies Line Up Behind Boulder's Climate Lawsuit",
         "url": "https://grist.org/accountability/boulder-supreme-court-climate-lawsuit-ranchers-exxon/",
         "timestamp": 1790844341000,
@@ -185,7 +199,7 @@
         "timestamp": 1790819700000,
         "photo": true,
         "postedAt": 1790855419264,
-        "image": "/img/politics-4.jpg"
+        "image": "/img/politics-5.jpg"
       },
       {
         "headline": "Hegseth Confirms Plan To Cut 20% Of Top Military Brass, Rails At 'Beardos, Weirdos And Wimps'",
@@ -219,48 +233,7 @@
         "timestamp": 1790748771000,
         "photo": true,
         "postedAt": 1790768717145,
-        "image": "/img/politics-5.jpg"
-      },
-      {
-        "headline": "Alito's Recusal Days Before Arguments Raises Questions",
-        "url": "https://www.rawstory.com/alito-2677955018/",
-        "timestamp": 1790656860000,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "Investigation Details How MAGA Inc. Raised Record Sums",
-        "url": "https://popular.info/p/how-maga-inc-raised-so-much-money",
-        "timestamp": 1790677861000,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "Sen. Cotton Demands Review After F-35 Parts Go Missing",
-        "url": "https://www.politico.com/live-updates/2026/09/29/congress/tom-cotton-review-f35-parts-01095835",
-        "timestamp": 1790676657000,
-        "photo": true,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "News Organizations Sue To Block White House Press Access Ban",
-        "url": "https://www.npr.org/2026/09/29/nx-s1-5984349/news-organizations-court-white-house-ban",
-        "timestamp": 1790669591000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "Hegseth Orders Military To Guard 2026 Midterms From Interference",
-        "url": "https://www.bozemandailychronicle.com/wire/politics/hegseth-says-national-security-military-cyber-forces-will-guard-us-election-systems-during-midterms/article_e4dda22a-fc98-5490-ab7c-768df444f051.html",
-        "timestamp": 1790651700000,
-        "photo": true,
-        "postedAt": 1790683073414,
         "image": "/img/politics-6.jpg"
-      },
-      {
-        "headline": "Farm Crisis Fears Grip GOP Candidates In Iowa",
-        "url": "https://www.axios.com/2026/09/29/iowa-midterms-farms-trump",
-        "timestamp": 1790673850000,
-        "postedAt": 1790683073414
       },
       {
         "headline": "White House Privately Agrees Its Midterm Ads Are Illegal, Runs Them Anyway",
@@ -270,6 +243,25 @@
       }
     ],
     "center": [
+      {
+        "headline": "ICE Announces Another Policy Change On Traffic Stops",
+        "url": "https://www.dailywire.com/news/ice-makes-another-major-policy-change-on-traffic-stops?author",
+        "timestamp": 1790957473000,
+        "postedAt": 1790960531352
+      },
+      {
+        "headline": "RFK Jr. Announces Millions In Funding To Treat Homeless",
+        "url": "https://www.dailysignal.com/2026/10/02/exclusive-rfk-millions-treat-homeless/",
+        "timestamp": 1790958600000,
+        "photo": true,
+        "postedAt": 1790960531352
+      },
+      {
+        "headline": "Trump's VOA Dismantling Effort Reversed As Government Funds Rebuild",
+        "url": "https://www.politico.com/news/2026/10/02/trump-tried-to-dismantle-voice-of-america-now-the-government-is-paying-to-rebuild-it-01104914",
+        "timestamp": 1790957760000,
+        "postedAt": 1790960531352
+      },
       {
         "headline": "TENNESSEE INMATE CHRISTA GAIL PIKE SURVIVES TWO LETHAL INJECTIONS; GOVERNOR HALTS EXECUTIONS",
         "url": "https://www.newsmax.com/newsfront/christa-pike-tennessee-execution/2026/10/01/id/1271319/",
@@ -290,7 +282,7 @@
         "timestamp": 1790902980000,
         "photo": true,
         "postedAt": 1790941878970,
-        "image": "/img/politics-1.jpg"
+        "image": "/img/politics-2.jpg"
       },
       {
         "headline": "Trump Again Shows Annoyance With Paxton After Leaked Audio",
@@ -298,7 +290,7 @@
         "timestamp": 1790895660000,
         "photo": true,
         "postedAt": 1790941878970,
-        "image": "/img/politics-2.jpg"
+        "image": "/img/politics-3.jpg"
       },
       {
         "headline": "Senators Give Cold Shoulder To Hegseth Plan To Cut Admirals, Generals",
@@ -324,7 +316,7 @@
         "timestamp": 1790827140000,
         "photo": true,
         "postedAt": 1790855419264,
-        "image": "/img/politics-3.jpg"
+        "image": "/img/politics-4.jpg"
       },
       {
         "headline": "Israeli Official Says 'Major Disaster' Averted In Suspected Hijacking Attempt",
@@ -361,40 +353,6 @@
         "feature": true,
         "photo": true,
         "postedAt": 1790768717145
-      },
-      {
-        "headline": "The Free Press: Trump's Broken Promises On Venezuela",
-        "url": "https://www.democracynow.org/2026/9/25/headlines/opposition_groups_protest_in_caracas_as_venezuelas_leader_promises_elections_at_the_right_moment",
-        "timestamp": 1790676238000,
-        "photo": true,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "U.S. Trade Ban On Nearly $1 Billion In Canadian Imports Takes Effect",
-        "url": "https://www.cbsnews.com/news/us-ban-canadian-imports-almost-1-billion-dollars-takes-effect/",
-        "timestamp": 1790663160000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "Mediators Push To Broker US-Iran Deal Despite Major Hurdles",
-        "url": "https://apnews.com/article/iran-trump-negotiations-war-strait-nuclear-871504dbd98d9b08b226b9805d8f4606",
-        "timestamp": 1790653920000,
-        "photo": true,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "Diesel Price Spike Complicates GOP Midterm Messaging",
-        "url": "https://www.washingtontimes.com/news/2026/sep/29/diesels-shock-awe-prices-complicate-midterms/",
-        "timestamp": 1790681094000,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "ICE Reverses Order To Halt Arrests Of Non-Criminal Migrants",
-        "url": "https://www.dailywire.com/news/trump-admin-backtracks-after-telling-ice-officers-to-stop-arresting-non-criminals",
-        "timestamp": 1790676892000,
-        "postedAt": 1790683073414
       },
       {
         "headline": "Republicans Privately Admit Their Attacks On Hasan Piker Are A Dud",
@@ -441,7 +399,7 @@
         "timestamp": 1790938800000,
         "photo": true,
         "postedAt": 1790941878970,
-        "image": "/img/politics-0.jpg"
+        "image": "/img/politics-1.jpg"
       },
       {
         "headline": "Trump Brings Big Projects To Red States As Republicans Fear They're Too Late",
@@ -521,51 +479,6 @@
         "postedAt": 1790768717145
       },
       {
-        "headline": "Senate Report Details Billions In Health Fraud Tied To Russian Schemes",
-        "url": "https://www.dailysignal.com/2026/09/29/exclusive-shocking-senate-report-details-billions-in-health-care-fraud-lost-to-russian-fraudsters-medicare-scammers-other-schemers/",
-        "timestamp": 1790679600000,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "Texas's 35th District Race Pits De La Cruz Against Garcia",
-        "url": "https://www.dailysignal.com/2026/09/29/texas-35th-congressional-district-de-la-cruz-garcia/",
-        "timestamp": 1790679600000,
-        "photo": true,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "1619 Project Founder Regrets Sending Daughter To Struggling Public School",
-        "url": "https://www.theblaze.com/shows/the-glenn-beck-program/1619-project-founder-sent-daughter-failing-brooklyn-schools",
-        "timestamp": 1790677944000,
-        "photo": true,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "Los Angeles Weighs Replacing Mayor Amid Leftward Shift",
-        "url": "https://www.theblaze.com/columns/opinion/bass-ackward-los-angeles-may-dump-its-mayor-and-move-farther-left",
-        "timestamp": 1790677923000,
-        "photo": true,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "Vance Takes On Battleground Role As Trump Targets Red States",
-        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4745314/vance-battleground-states-midterm-cycle/",
-        "timestamp": 1790679600000,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "Trump's Packed Midterm Travel Schedule Signals GOP Concern",
-        "url": "https://www.politico.com/news/2026/09/29/fires-are-everywhere-right-now-trump-hits-the-road-to-shore-up-red-states-01095543",
-        "timestamp": 1790675400000,
-        "postedAt": 1790683073414
-      },
-      {
-        "headline": "Three ICE-Custody Deaths Reported In Three States Within A Day",
-        "url": "https://www.theguardian.com/us-news/2026/sep/29/deaths-one-day-ice-immigration",
-        "timestamp": 1790676060000,
-        "postedAt": 1790683073414
-      },
-      {
         "headline": "Reporters Overlook What's Really Hurting GOP Candidates This Cycle",
         "url": "https://dailycaller.com/2026/10/01/duke-tim-scott-nrsc-donald-trump-media-iran-war-press-call/",
         "timestamp": 1790848800000,
@@ -576,17 +489,17 @@
   "polls": [
     {
       "name": "Trump Approval",
-      "value": "39%/60%",
+      "value": "38%/60%",
       "sub": "",
       "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
-      "asOf": "Sep 30, 2026"
+      "asOf": "Oct 1, 2026"
     },
     {
       "name": "Generic Congressional Vote",
       "value": "Dem +9",
       "sub": "",
       "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
-      "asOf": "Sep 30, 2026"
+      "asOf": "Oct 1, 2026"
     },
     {
       "name": "Right Direction",
@@ -597,11 +510,11 @@
     }
   ],
   "balance": {
-    "left": 664,
-    "right": 712,
+    "left": 658,
+    "right": 709,
     "independent": 13,
     "days": 30,
-    "total": 1376,
+    "total": 1367,
     "pctLeft": 48,
     "pctRight": 52
   }

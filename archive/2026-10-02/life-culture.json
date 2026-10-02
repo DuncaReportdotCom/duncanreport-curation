@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790942421701,
+  "lastUpdated": 1790960990906,
   "heroSetDate": "2026-10-02",
   "hero": {
     "headline": "SPACEX LAUNCHES FOUR ASTRONAUTS ON FAST TRACK TO SPACE STATION",
@@ -8,44 +8,24 @@
     "postedAt": 1790942421701,
     "img": true
   },
-  "groups": [
-    {
-      "title": "SYLVESTER STALLONE AT 80",
-      "stories": [
-        {
-          "headline": "Sylvester Stallone, 80, Opens Up On Skipping Mom's Funeral And Son's Death",
-          "url": "https://pagesix.com/2026/09/29/celebrity-news/sylvester-stallone-80-gets-candid-about-his-life/",
-          "timestamp": 1790676000000,
-          "postedAt": 1790683794666
-        },
-        {
-          "headline": "Stallone Reacts To Biopic: 'I'm Not Dead Yet'",
-          "url": "https://www.hollywoodreporter.com/movies/movie-news/sylvester-stallone-reacts-biopic-i-play-rocky-not-dead-yet-1236713994/",
-          "timestamp": 1790639996000,
-          "postedAt": 1790683794666
-        }
-      ]
-    },
-    {
-      "title": "HERNAN DIAZ'S NEW NOVEL 'PLY'",
-      "stories": [
-        {
-          "headline": "Hernan Diaz Says His New Novel Isn't A Dystopia",
-          "url": "https://lithub.com/hernan-diazs-new-novel-isnt-a-dystopia-trust-him/",
-          "timestamp": 1790674259000,
-          "postedAt": 1790683794666
-        },
-        {
-          "headline": "Book Review: 'Ply,' By Hernan Diaz",
-          "url": "https://dearstrangethings.substack.com/p/book-reviews-ply-we",
-          "timestamp": 1790586311000,
-          "postedAt": 1790683794666
-        }
-      ]
-    }
-  ],
+  "groups": [],
   "columns": {
     "left": [
+      {
+        "headline": "Cybertruck Sales Plunge As Tesla Posts Mediocre Q3 Numbers",
+        "url": "https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/",
+        "timestamp": 1790957126000,
+        "feature": true,
+        "postedAt": 1790960990906
+      },
+      {
+        "headline": "2026 Jeep Recon EV Tested: Short Range, High Price",
+        "url": "https://www.caranddriver.com/reviews/a73642665/2026-jeep-recon-ev-drive/",
+        "timestamp": 1790960032000,
+        "photo": true,
+        "postedAt": 1790960990906,
+        "image": "/img/life-culture-0.jpg"
+      },
       {
         "headline": "Studio Runs Ad Campaign Targeting 'Digger' Critics",
         "url": "https://www.forbes.com/sites/timlammers/2026/10/01/new-digger-ad-targets-critics-bashing-tom-cruises-movie/",
@@ -83,7 +63,7 @@
         "feature": true,
         "photo": true,
         "postedAt": 1790942421701,
-        "image": "/img/life-culture-2.jpg"
+        "image": "/img/life-culture-4.jpg"
       },
       {
         "headline": "Sean Combs Moved To Solitary Confinement After Prison Perks Revealed",
@@ -91,7 +71,7 @@
         "timestamp": 1790880489000,
         "photo": true,
         "postedAt": 1790942421701,
-        "image": "/img/life-culture-3.jpg"
+        "image": "/img/life-culture-5.jpg"
       },
       {
         "headline": "How Wearable Tech Is Making Horse Racing Safer",
@@ -104,8 +84,7 @@
         "url": "https://www.thedrive.com/news/ford-is-returning-to-wrc-as-full-factory-team-in-2028",
         "timestamp": 1790854200000,
         "photo": true,
-        "postedAt": 1790855941414,
-        "image": "/img/life-culture-4.jpg"
+        "postedAt": 1790855941414
       },
       {
         "headline": "Pilot Stabbing Forces Emergency Diversion On Flight To Israel",
@@ -156,36 +135,22 @@
         "timestamp": 1790700575000,
         "photo": true,
         "postedAt": 1790769268042
-      },
-      {
-        "headline": "Dennis Haskins, TV's Mr. Belding, Dies At 75",
-        "url": "https://abcnews.com/US/dennis-haskins-principal-belding-saved-bell-dies-75/story?id",
-        "timestamp": 1790679188000,
-        "photo": true,
-        "postedAt": 1790683794666
-      },
-      {
-        "headline": "OpenAI Delays New Model's Release Over Safety Concerns",
-        "url": "https://www.npr.org/2026/09/29/nx-s1-5984342/openai-delays-latest-model",
-        "timestamp": 1790678160000,
-        "feature": true,
-        "postedAt": 1790683794666
-      },
-      {
-        "headline": "Popular Joint Supplement Tied To 25% Higher Dementia Risk",
-        "url": "https://www.sciencealert.com/popular-joint-supplement-linked-to-25-higher-dementia-risk",
-        "timestamp": 1790676285000,
-        "feature": true,
-        "postedAt": 1790683794666
-      },
-      {
-        "headline": "What Gertrude Stein, T.S. Eliot And Joan Didion Really Meant In Their Famous Lines",
-        "url": "https://lithub.com/what-gertrude-stein-t-s-eliot-and-joan-didion-really-meant-with-their-most-famous-aphorisms/",
-        "timestamp": 1790673996000,
-        "postedAt": 1790683794666
       }
     ],
     "center": [
+      {
+        "headline": "10 Great Nonfiction Titles To Enjoy In October",
+        "url": "https://lithub.com/10-great-nonfiction-titles-to-enjoy-in-october/",
+        "timestamp": 1790958545000,
+        "postedAt": 1790960990906
+      },
+      {
+        "headline": "Why The Goodwood Revival Is A Love Letter To Car Culture",
+        "url": "https://www.thedrive.com/?taxonomy",
+        "timestamp": 1790957500000,
+        "photo": true,
+        "postedAt": 1790960990906
+      },
       {
         "headline": "PERSONALIZED KIDNEY CANCER VACCINE LEAVES ALL NINE PATIENTS CANCER-FREE",
         "url": "https://www.sciencealert.com/nine-patients-received-a-personalized-kidney-cancer-vaccine-none-had-a-recurrence",
@@ -204,7 +169,7 @@
         "timestamp": 1790937390000,
         "photo": true,
         "postedAt": 1790942421701,
-        "image": "/img/life-culture-1.jpg"
+        "image": "/img/life-culture-3.jpg"
       },
       {
         "headline": "Lab-Grown 'Mini-Bladder' Explains Why UTIs Keep Coming Back",
@@ -259,12 +224,6 @@
         "postedAt": 1790855941414
       },
       {
-        "headline": "RARE ROLEX QUARTET FETCHES $49.5 MILLION AT AUCTION",
-        "url": "https://www.gq.com/story/rolex-unique-daytonas-auction-49-5-million",
-        "timestamp": 1790683794666,
-        "postedAt": 1790683794666
-      },
-      {
         "headline": "Two New Sea Spider Species Found Along Canadian Coastline",
         "url": "https://www.npr.org/2026/09/27/nx-s1-5982026/new-sea-spider-species",
         "timestamp": 1790548276000,
@@ -276,7 +235,7 @@
         "timestamp": 1790766991000,
         "photo": true,
         "postedAt": 1790769268042,
-        "image": "/img/life-culture-6.jpg"
+        "image": "/img/life-culture-7.jpg"
       },
       {
         "headline": "AI Makes Its First Meaningful Breakthrough In Theoretical Physics",
@@ -290,29 +249,23 @@
         "timestamp": 1790676540000,
         "photo": true,
         "postedAt": 1790769268042
-      },
-      {
-        "headline": "Why Some Chimpanzee Mothers Carry Their Dead Infants For Months",
-        "url": "https://theconversation.com/why-do-some-chimpanzee-mothers-carry-their-dead-infants-for-months-292509",
-        "timestamp": 1790676406000,
-        "photo": true,
-        "postedAt": 1790683794666
-      },
-      {
-        "headline": "2026 Ford Mustang Dark Horse SC: First-Drive Review",
-        "url": "https://www.thedrive.com/car-reviews/2026-ford-mustang-dark-horse-sc-first-drive-review-the-perfect-mustang-doesnt-need-a-stick",
-        "timestamp": 1790676000000,
-        "photo": true,
-        "postedAt": 1790683794666
-      },
-      {
-        "headline": "Quantum Immortality, Explained",
-        "url": "https://www.realclearscience.com/video/2026/09/29/quantum_immortality_explained_1208726.html",
-        "timestamp": 1790605680000,
-        "postedAt": 1790683794666
       }
     ],
     "right": [
+      {
+        "headline": "EV Charging Doesn't Need To Be As Fast As Gas, Ionna CEO Says",
+        "url": "https://www.thedrive.com/news/ev-charging-doesnt-need-to-be-as-fast-as-gas-ionna-ceo-says",
+        "timestamp": 1790959870000,
+        "postedAt": 1790960990906
+      },
+      {
+        "headline": "Steve McQueen's Iconic Personal Watch Gets An Official Reproduction",
+        "url": "https://www.gearpatrol.com/watches/hanhart-417-es-heritage-flyback-steve-mcqueen-le-no1/",
+        "timestamp": 1790958195000,
+        "photo": true,
+        "postedAt": 1790960990906,
+        "image": "/img/life-culture-1.jpg"
+      },
       {
         "headline": "Amazon Says It Will Stop Using NDAs For Data Centers",
         "url": "https://www.geekwire.com/2026/amazon-pledges-1b-to-data-center-communities-warns-that-local-opposition-threatens-u-s-ai-lead/",
@@ -325,7 +278,7 @@
         "timestamp": 1790938332000,
         "photo": true,
         "postedAt": 1790942421701,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-2.jpg"
       },
       {
         "headline": "Flaw In ChatGPT's Mac App Could Have Exposed User Data",
@@ -350,8 +303,7 @@
         "url": "https://www.elle.com/fashion/shopping/a73928368/cobalt-blue-trend-fall-winter-2026/",
         "timestamp": 1790702166000,
         "photo": true,
-        "postedAt": 1790942421701,
-        "image": "/img/life-culture-7.jpg"
+        "postedAt": 1790942421701
       },
       {
         "headline": "SCIENTISTS DISCOVER NEW DINOSAUR SPECIES DEEP IN SAHARA DESERT",
@@ -365,7 +317,7 @@
         "timestamp": 1790853315000,
         "photo": true,
         "postedAt": 1790855941414,
-        "image": "/img/life-culture-5.jpg"
+        "image": "/img/life-culture-6.jpg"
       },
       {
         "headline": "New Book 'Yosemite Falls' Reexamines John Muir's California Legacy",
@@ -392,26 +344,6 @@
         "url": "https://www.salon.com/2026/09/27/how-oprah-winfrey-became-americas-cultural-oppenheimer/",
         "timestamp": 1790524831000,
         "postedAt": 1790769268042
-      },
-      {
-        "headline": "Inside A Design Lover's Dream Airbnb In The South Of France",
-        "url": "https://www.cntraveler.com/story/my-favorite-airbnb-a-design-lovers-dream-home-in-the-south-of-france",
-        "timestamp": 1790681400000,
-        "photo": true,
-        "postedAt": 1790683794666
-      },
-      {
-        "headline": "Bullfrogs' Brains Can Make Their Own Backup Fuel, Study Finds",
-        "url": "https://showme.missouri.edu/2026/mizzou-researchers-discover-bullfrog-brains-can-make-their-own-backup-fuel/",
-        "timestamp": 1790597222000,
-        "photo": true,
-        "postedAt": 1790683794666
-      },
-      {
-        "headline": "Where Is Taylor Swift Going After 'The Life Of A Showgirl'?",
-        "url": "https://www.rollingstone.com/music/music-features/taylor-swift-life-of-a-showgirl-the-encore-whats-next-1235633073/",
-        "timestamp": 1790633539000,
-        "postedAt": 1790683794666
       },
       {
         "headline": "Anne Hathaway's 'Verity' Eyes $35 Million Debut As 'Digger' Stumbles",

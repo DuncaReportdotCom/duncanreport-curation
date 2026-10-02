@@ -1,66 +1,92 @@
 {
-  "lastUpdated": 1790853741767,
-  "heroSetDate": "2026-10-01",
+  "lastUpdated": 1790958921498,
+  "heroSetDate": "2026-10-02",
   "hero": {
-    "headline": "HEGSETH TO CUT 20% OF TOP MILITARY BRASS, RAILS AT 'BEARDOS, WEIRDOS AND WIMPS'",
-    "url": "https://www.theguardian.com/us-news/2026/sep/30/hegseth-military-personnel-cuts",
+    "headline": "WEAK JOBS REPORT DEALS FRESH BLOW TO TRUMP, GOP AHEAD OF MIDTERMS",
+    "url": "https://finance.yahoo.com/economy/article/weak-jobs-report-is-yet-another-headwind-for-trump-and-republicans-ahead-of-midterms-151245705.html",
     "sublinks": [
       {
-        "text": "Pentagon Confirms Scope Of Generals And Admirals Purge",
-        "url": "https://www.cbsnews.com/news/hegseth-20-cut-generals-and-admirals-military-pentagon/"
+        "text": "AP-NORC Poll: Americans Blame Trump For High Costs As Approval Hits New Low",
+        "url": "https://apnews.com/article/trump-economy-approval-trump-midterms-8d5809758a31b29c73f4351a8008147c"
       },
       {
-        "text": "Musk, Gingrich Tapped To Help Lead Military Overhaul, Hegseth Says",
-        "url": "https://newrepublic.com/post/216045/pete-hegseth-elon-musk-newt-gingrich-help-lead-military"
+        "text": "Reuters/Ipsos Survey Finds Trump Approval Sinking To Record 32%",
+        "url": "https://www.reuters.com/world/us/trump-approval-falls-career-low-32-high-costs-bite-reutersipsos-poll-finds-2026-09-21/"
+      },
+      {
+        "text": "WSJ Survey Shows Trump Approval At Historic Low",
+        "url": "https://thehill.com/homenews/administration/6114659-trump-approval-record-low/"
+      },
+      {
+        "text": "Lara Trump Warns Iran War Could Cost GOP The Midterms",
+        "url": "https://thehill.com/homenews/campaign/6120920-lara-trump-iran-war-midterms/"
+      },
+      {
+        "text": "Trump Makes Rare Oklahoma Visit To Shore Up Midterm Support",
+        "url": "https://www.koco.com/article/donald-trump-oklahoma-midterm-rally-durant/73968830"
       }
     ],
-    "postedAt": 1790853741767,
+    "postedAt": 1790958921498,
     "img": true
   },
-  "groups": [
-    {
-      "title": "2026 MIDTERMS: TRUMP'S TOUR AND GOP ANXIETY",
-      "stories": [
-        {
-          "headline": "Some GOP Candidates Still Wary Of Leaning On Trump's Base",
-          "url": "https://www.politico.com/news/2026/10/01/republicans-trump-campaign-rallies-worries-01102662",
-          "timestamp": 1790845200000,
-          "postedAt": 1790853741767
-        },
-        {
-          "headline": "Trump's New Chatbot Ends Up Debunking His Own Claims",
-          "url": "https://popular.info/p/watch-trumps-new-chatbot-debunk-his",
-          "timestamp": 1790764316000,
-          "postedAt": 1790766748261
-        },
-        {
-          "headline": "Trump Signs Order Rebranding AI As 'Super Intelligence' In Deal With Tech Titans",
-          "url": "https://www.foxbusiness.com/politics/trump-signs-executive-order-rebranding-ai-super-intelligence-tech-titans-ink-separate-accord",
-          "timestamp": 1790733120000,
-          "postedAt": 1790766748261
-        }
-      ]
-    },
-    {
-      "title": "CORNELL GANG RAPE CASE REOPENED",
-      "stories": [
-        {
-          "headline": "Prosecutor Reopens Cornell Gang Rape Probe After Accuser Sues",
-          "url": "https://apnews.com/article/cornell-rape-allegations-investigation-16f59e89ce97e3a40a8e672f7b3f374b",
-          "timestamp": 1790650680000,
-          "postedAt": 1790681115321
-        },
-        {
-          "headline": "Cornell Students Demand Accountability As Case Draws Scrutiny",
-          "url": "https://www.thenation.com/article/society/cornell-rape-case-chi-phi-fraternity-accountability/",
-          "timestamp": 1790647200000,
-          "postedAt": 1790681115321
-        }
-      ]
-    }
-  ],
+  "groups": [],
   "columns": {
     "left": [
+      {
+        "headline": "Mexico: CEOs, Celebs Pay $20K For 'Mount Everest Of Psychedelics' Retreats",
+        "url": "https://nypost.com/2026/10/02/health/inside-the-20k-psychedelic-trips-drawing-americans-to-mexico/",
+        "timestamp": 1790958412152,
+        "photo": true,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Furious GOP Senator's Explicit Texts To Trump Exposed",
+        "url": "https://www.mediaite.com/media/news/gop-senator-privately-told-off-trump-in-fiery-texts-obtained-by-politico-i-dont-take-that-bullsht-from-anyone/",
+        "timestamp": 1790958412151,
+        "photo": true,
+        "postedAt": 1790958921498,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Hochul Taps Letitia James As Special Prosecutor In Cornell Rape Case",
+        "url": "https://thepostmillennial.com/kathy-hochul-appoints-letitia-james-as-special-prosecutor-to-investigate-alleged-gang-rape-at-cornell",
+        "timestamp": 1790957636000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790958921498,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Gypsy Rose Blanchard Says Partner Ken Urker Was Struggling Before His Death",
+        "url": "https://www.newsnationnow.com/entertainment-news/gypsy-rose-blanchard-ken-urker-struggles-death/",
+        "timestamp": 1790957250000,
+        "photo": true,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Family Identifies Student Who Fell To His Death At Highland Park High School",
+        "url": "https://abc7.com/post/family-identifies-student-fell-death-franklin-high-school-highland-park-xavier-amaya/19900808/",
+        "timestamp": 1790951413000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Inside The Trump Administration's UFO Hunt",
+        "url": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id",
+        "timestamp": 1790931611000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Bob Brooks Hid Unpaid Debts, Family Disputes On COVID Loan Application",
+        "url": "https://freebeacon.com/democrats/bob-brooks-was-in-trouble-over-unpaid-credit-cards-and-bilking-his-in-laws-he-didnt-disclose-it-when-he-applied-for-a-covid-loan-for-his-lawn-care-business/",
+        "timestamp": 1790884261000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Sen. Hagerty Files Bar Complaint Against Jack Smith Over 'Arctic Frost' Probe",
+        "url": "https://thefederalist.com/2026/10/01/sen-hagerty-files-bar-complaint-against-jack-smith-over-arctic-frost-lawfare/",
+        "timestamp": 1790855267000,
+        "postedAt": 1790958921498
+      },
       {
         "headline": "Zuckerberg And Huang Press White House For AI Pact",
         "url": "https://www.politico.com/news/2026/09/30/zuckerberg-huang-white-house-ai-pact-01101248",
@@ -143,16 +169,14 @@
         "url": "https://www.nbcnews.com/news/us-news/mom-left-infant-toddler-two-kids-home-alone-went-3-day-cruise-official-rcna600587",
         "timestamp": 1790733120000,
         "photo": true,
-        "postedAt": 1790766748261,
-        "image": "/img/main-6.jpg"
+        "postedAt": 1790766748261
       },
       {
         "headline": "Caleb Flynn Found Guilty On All Charges In Wife's Death",
         "url": "https://www.wlwt.com/article/verdict-watch-jury-deliberations-caleb-flynn-murder-trial/73939967",
         "timestamp": 1790729400000,
         "photo": true,
-        "postedAt": 1790766748261,
-        "image": "/img/main-7.jpg"
+        "postedAt": 1790766748261
       },
       {
         "headline": "Cornell Jane Doe Told Police 'I Can Say With 100% Confidence I Was Raped'",
@@ -179,62 +203,62 @@
         "url": "https://www.sfchronicle.com/crime/article/nyt-engineer-east-bay-shooting-court-documents-22454532.php",
         "timestamp": 1790723815000,
         "postedAt": 1790766748261
-      },
-      {
-        "headline": "Mediators Work To Broker US-Iran Deal As Hurdles Remain",
-        "url": "https://apnews.com/article/iran-trump-negotiations-war-strait-nuclear-871504dbd98d9b08b226b9805d8f4606",
-        "timestamp": 1790653920000,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Top FBI Official Departs Amid Shakeup",
-        "url": "https://www.nbcnews.com/politics/rcna600270",
-        "timestamp": 1790679883082,
-        "photo": true,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Trump's Municipal Bond Holdings Reach $1 Billion Amid Overlap Concerns",
-        "url": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio/.html",
-        "timestamp": 1790679883082,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Canada: US Import Ban Worth $1 Billion Takes Effect",
-        "url": "https://www.cbsnews.com/news/us-ban-canadian-imports-almost-1-billion-dollars-takes-effect/",
-        "timestamp": 1790677463000,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Tennessee Set To Execute Woman For First Time In 200 Years",
-        "url": "https://www.npr.org/2026/09/29/g-s1-145408/tennessee-woman-execution",
-        "timestamp": 1790661558000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Hegseth Directs Pentagon To Counter Foreign Election Meddling",
-        "url": "https://www.axios.com/2026/09/28/hegseth-elections-security-order",
-        "timestamp": 1790658358000,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Second DOJ Prosecutor Resigns From Probe Targeting Trump Foes",
-        "url": "https://apnews.com/article/justice-department-grand-conspiracy-kurt-olsen-ddc68873796154266b3f09d2b685b0a5",
-        "timestamp": 1790645520000,
-        "feature": true,
-        "postedAt": 1790681115321
       }
     ],
     "center": [
+      {
+        "headline": "Anthropic's IPO Draws Scrutiny Amid AI Boom",
+        "url": "https://finance.yahoo.com/technology/ai/articles/8-things-don-t-add-173232536.html",
+        "timestamp": 1790958412151,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "ICE Announces Another Major Policy Change On Traffic Stops",
+        "url": "https://www.dailywire.com/news/ice-makes-another-major-policy-change-on-traffic-stops?author",
+        "timestamp": 1790957473000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "NYT Executive, Who Was Transgender, Shot Dead By Estranged Wife's Parents, Report Says",
+        "url": "https://notthebee.com/article/report-transgender-nyt-exec-shot-dead-by-asian-parents-of-estranged-lesbian-wife/",
+        "timestamp": 1790952376000,
+        "photo": true,
+        "postedAt": 1790958921498,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Divers Find Body Of Third Victim In California Helicopter Crash",
+        "url": "https://apnews.com/article/california-helicopter-crash-catalina-island-05da5b90064a925e93f08769c45597a5",
+        "timestamp": 1790939880000,
+        "photo": true,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "DOJ Charges Boston Man With Threatening Conservative Podcaster Katie Miller",
+        "url": "https://www.nbcnews.com/politics/justice-department/fbi-arrests-massachusetts-man-charge-stalking-conservative-podcaster-k-rcna601029",
+        "timestamp": 1790918708000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Are Trump's TV Campaign Ads Legal? A Closer Look",
+        "url": "https://www.nbcnews.com/news/us-news/another-closer-look-alleged-2024-campus-gang-rape-rcna599920",
+        "timestamp": 1790911860000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Supreme Court Grants Review Of Trump Admin's Mandatory Immigrant Detention Policy",
+        "url": "https://www.pbs.org/newshour/politics/supreme-court-grants-review-of-trump-administrations-mandatory-detention-policy-for-immigrants",
+        "timestamp": 1790869507000,
+        "feature": true,
+        "postedAt": 1790958921498
+      },
       {
         "headline": "UK: PM Says Iran Likely Behind Terror Plot Targeting US Air Force Base",
         "url": "https://www.mirror.co.uk/news/politics/raf-fairford-iran-andy-burnham-37720200",
         "timestamp": 1790852721019,
         "photo": true,
         "postedAt": 1790853741767,
-        "image": "/img/main-0.jpg"
+        "image": "/img/main-4.jpg"
       },
       {
         "headline": "Tennessee Botches Execution After Two Failed Lethal Injections",
@@ -293,7 +317,7 @@
         "timestamp": 1790766254116,
         "photo": true,
         "postedAt": 1790766748261,
-        "image": "/img/main-4.jpg"
+        "image": "/img/main-7.jpg"
       },
       {
         "headline": "U.S. Military Completes Troop Withdrawal From Iraq",
@@ -307,8 +331,7 @@
         "url": "https://www.aljazeera.com/news/2026/9/30/gentle-giant-backpack-declared-the-winner-of-alaskas-fat-bear-week",
         "timestamp": 1790752198000,
         "photo": true,
-        "postedAt": 1790766748261,
-        "image": "/img/main-5.jpg"
+        "postedAt": 1790766748261
       },
       {
         "headline": "Indian Firm Building Trump-Announced $15B Steel Mill Has Deep Russia Ties",
@@ -318,50 +341,83 @@
         "postedAt": 1790766748261
       },
       {
-        "headline": "Taxpayers Have Funded Nearly $1.5 Million In Trump Ads",
-        "url": "https://apnews.com/article/trump-government-ads-taxpayer-funded-psa-propaganda-26ae03010d78221d1d93b06c0818d06d",
-        "timestamp": 1790679883082,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Report: Partisan 'Pseudo-Journalism' Sites Target Midterms",
-        "url": "http://yahoo.com/news/politics/articles/pseudo-journalism-partisan-news-sites-012705653.html",
-        "timestamp": 1790679883082,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Lindsay Clancy Holdout Juror Speaks Out After Mistrial Drama",
-        "url": "https://www.foxnews.com/us/lindsay-clancy-holdout-juror-asks-one-thing-new-video-mistrial-drama",
-        "timestamp": 1790646603000,
-        "photo": true,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Diesel Prices Hit Record, Uncharted Territory",
-        "url": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Costs-Add-Fresh-Pressure-on-UK-Economy.amp.html",
-        "timestamp": 1790679883082,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Texas Governor Declares Emergency To Fight Fuel Prices",
-        "url": "https://www.texastribune.org/2026/09/28/texas-gas-diesel-prices-emergency-declaration-war-abbott/",
-        "timestamp": 1790656644000,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Austin Man Shot By ICE Still In Pain Ahead Of Hearing",
-        "url": "https://www.tpr.org/border-immigration/2026-09-28/austin-man-shot-by-ice-still-in-pain-bullet-lodged-in-his-back-ahead-of-san-antonio-hearing",
-        "timestamp": 1790641980000,
-        "postedAt": 1790681115321
-      },
-      {
         "headline": "Record Prices, Rising Mortgage Rates Leave Buyers Sidelined",
         "url": "https://www.realtor.com/news/trends/sellers-slash-prices-historic-pace-september-2026-report/",
         "timestamp": 1790852721020,
         "postedAt": 1790853741767
+      },
+      {
+        "headline": "Poll: Michigan Senate Race Tight Between El-Sayed And Rogers",
+        "url": "https://www.foxnews.com/politics/fox-news-poll-michigan-voters-split-between-el-sayed-rogers",
+        "timestamp": 1790805608000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Trump's New Chatbot Ends Up Debunking His Own Claims",
+        "url": "https://popular.info/p/watch-trumps-new-chatbot-debunk-his",
+        "timestamp": 1790764316000,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "New Aircraft Carrier, 10,000 Troops Raise Fears Of Iran War Escalation",
+        "url": "https://www.aljazeera.com/news/2026/10/2/new-aircraft-carrier-10000-us-troops-is-the-iran-war-about-to-escalate",
+        "timestamp": 1790935698000,
+        "postedAt": 1790958921498
       }
     ],
     "right": [
+      {
+        "headline": "HEGSETH TO CUT 20% OF TOP MILITARY BRASS, RAILS AT 'BEARDOS, WEIRDOS AND WIMPS'",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/hegseth-military-personnel-cuts",
+        "timestamp": 1790853741767,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Hegseth Puts Future Of Warfare In Hands Of MAGA Donors",
+        "url": "https://www.theguardian.com/us-news/2026/oct/01/hegseth-musk-warfare-taskforce",
+        "timestamp": 1790958412151,
+        "photo": true,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "California Mayor Accused Of Drunken Behavior, Racial Slur, Harassment",
+        "url": "https://www.foxnews.com/politics/california-mayor-accused-drunken-behavior-racial-slur-harassment-chief-staffs-claim",
+        "timestamp": 1790943822000,
+        "photo": true,
+        "postedAt": 1790958921498,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "NYT Co. Saved $45 Million With Tax Break It Faults Meta For Using",
+        "url": "https://freebeacon.com/media/new-york-times-co-saved-45-million-with-tax-break-it-faults-meta-for-using/",
+        "timestamp": 1790931693000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Trump Admin Wants Tax Filers To Disclose Citizenship Status To IRS",
+        "url": "https://www.foxnews.com/politics/trump-admin-wants-require-tax-filers-disclose-citizenship-status-irs",
+        "timestamp": 1790917895000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Illinois Released Over 500 Criminal Immigrants Despite ICE Detainers, GOP Report Finds",
+        "url": "https://www.washingtonexaminer.com/policy/immigration/4750583/illinois-officials-released-more-than-500-criminal-immigrants-despite-ice-detainers-house-gop-report-finds/",
+        "timestamp": 1790888460000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Real Estate Mogul Warns California Business Climate: 'Enough Is Enough'",
+        "url": "https://www.foxbusiness.com/media/california-business-climate-faces-warning-from-real-estate-mogul-enough-enough",
+        "timestamp": 1790877060000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Historic Rainfall Swamps Lincoln, Nebraska, Setting All-Time Daily Record",
+        "url": "https://www.1011now.com/2026/10/01/historic-rainfall-swamps-lincoln-sets-all-time-daily-record/",
+        "timestamp": 1790845500000,
+        "photo": true,
+        "postedAt": 1790958921498
+      },
       {
         "headline": "IRAN AWAITS U.S. RESPONSE TO CEASEFIRE PROPOSAL TRUMP ALREADY REJECTED",
         "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/",
@@ -374,14 +430,7 @@
         "timestamp": 1790852721019,
         "photo": true,
         "postedAt": 1790853741767,
-        "image": "/img/main-1.jpg"
-      },
-      {
-        "headline": "Trump Administration Files Complaint Against Judges Over Media Comments",
-        "url": "https://www.aljazeera.com/news/2026/9/30/trump-administration-files-complaint-against-judges-over-media-comments",
-        "timestamp": 1790804938000,
-        "feature": true,
-        "postedAt": 1790853741767
+        "image": "/img/main-5.jpg"
       },
       {
         "headline": "Trump Orders Mosquitoes And Rats Removed From Washington, DC",
@@ -389,21 +438,14 @@
         "timestamp": 1790800220000,
         "photo": true,
         "postedAt": 1790853741767,
-        "image": "/img/main-2.jpg"
+        "image": "/img/main-6.jpg"
       },
       {
         "headline": "Pro-Palestinian Activist Revealed To Be Wealthy Israeli-Linked American",
         "url": "https://notthebee.com/article/famed-palestinian-activist-is-actualy-rich-white-girl-with-family-that-lives-in-israel/",
         "timestamp": 1790781494000,
         "photo": true,
-        "postedAt": 1790853741767,
-        "image": "/img/main-3.jpg"
-      },
-      {
-        "headline": "TRUMP CONTROVERSIES PILE ON SENATE REPUBLICANS AS 2026 MIDTERM ANXIETY GROWS",
-        "url": "https://www.politico.com/news/2026/09/28/trump-taxpayer-ads-senate-gop-01096502",
-        "timestamp": 1790681115321,
-        "postedAt": 1790681115321
+        "postedAt": 1790853741767
       },
       {
         "headline": "Co-Pilot Stabs Captain On Israel-Bound Flight, Jet Plunges 20,000 Feet",
@@ -425,51 +467,6 @@
         "url": "https://www.foxnews.com/politics/supreme-court-climate-showdown-jolted-alito-last-minute-decision",
         "timestamp": 1790714087000,
         "postedAt": 1790766748261
-      },
-      {
-        "headline": "Karl Rove: Republican Party Being Taken Over By 'Nazis'",
-        "url": "https://www.sacurrent.com/news/politics-and-elections/karl-rove-says-republican-party-is-being-taken-over-by-nazis/",
-        "timestamp": 1790679883082,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Abdul El-Sayed Courts RFK Jr.'s MAHA Supporters In Senate Bid",
-        "url": "https://www.cbsnews.com/news/democrat-abdul-el-sayed-rfk-jr-maha-voters-health-platform-michigan-senate/",
-        "timestamp": 1790679883082,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "NY Times Executive Fatally Shot By Elderly In-Laws, Police Say",
-        "url": "https://www.bbc.com/news/articles/cred737qdv2no",
-        "timestamp": 1790654803000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Four Hurt In Landing Mishap Aboard USS Dwight D. Eisenhower",
-        "url": "https://news.usni.org/2026/09/28/four-injured-after-landing-mishap-aboard-uss-dwight-d-eisenhower-crew-safely-recovered",
-        "timestamp": 1790651280000,
-        "photo": true,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Pope Leo Criticizes Nvidia's Jensen Huang Over AI Safety",
-        "url": "https://www.forbes.com/sites/siladityaray/2026/09/29/pope-leo-says-ai-safety-fears-are-not-fake-news-and-criticizes-nvidias-billionaire-ceo/",
-        "timestamp": 1790639474000,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Strategic Oil Reserve Falls To Lowest Level In 45 Years",
-        "url": "https://global-energy-flow.com/storage/oil/",
-        "timestamp": 1790679883082,
-        "postedAt": 1790681115321
-      },
-      {
-        "headline": "Three ICE-Related Deaths In Three States In 24 Hours",
-        "url": "https://www.theguardian.com/us-news/2026/sep/29/deaths-one-day-ice-immigration",
-        "timestamp": 1790676060000,
-        "postedAt": 1790681115321
       },
       {
         "headline": "California Bans Electric-Shock Gloves After ICE Reveals Plan To Equip Agents",
@@ -494,16 +491,46 @@
         "url": "https://nypost.com/2026/09/30/real-estate/florida-is-now-the-hardest-state-to-sell-a-home/",
         "timestamp": 1790852721020,
         "postedAt": 1790853741767
+      },
+      {
+        "headline": "Top Senate GOP Group Pauses Ad Spending In North Carolina",
+        "url": "https://www.cnn.com/2026/10/02/politics/senate-gop-spending-north-carolina",
+        "timestamp": 1790951672000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "California Governor Debate: Becerra Targets Trump More Than Hilton",
+        "url": "https://www.realclearpolitics.com/articles/2026/10/01/in_ca_gov_debate_becerra_runs_against_trump_more_than_hilton_154549.html",
+        "timestamp": 1790830800000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Some GOP Candidates Still Wary Of Leaning On Trump's Base",
+        "url": "https://www.politico.com/news/2026/10/01/republicans-trump-campaign-rallies-worries-01102662",
+        "timestamp": 1790845200000,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Trump Signs Order Rebranding AI As 'Super Intelligence' In Deal With Tech Titans",
+        "url": "https://www.foxbusiness.com/politics/trump-signs-executive-order-rebranding-ai-super-intelligence-tech-titans-ink-separate-accord",
+        "timestamp": 1790733120000,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Trump Says Iran 'Ready To Fold Up,' Threatens Post-Midterm Attacks",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/",
+        "timestamp": 1790921940000,
+        "postedAt": 1790958921498
       }
     ]
   },
   "balance": {
-    "left": 729,
-    "right": 362,
+    "left": 728,
+    "right": 374,
     "independent": 7,
     "days": 30,
-    "total": 1091,
-    "pctLeft": 67,
-    "pctRight": 33
+    "total": 1102,
+    "pctLeft": 66,
+    "pctRight": 34
   }
 }

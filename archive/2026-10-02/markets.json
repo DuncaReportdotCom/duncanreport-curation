@@ -1,46 +1,29 @@
 {
-  "lastUpdated": 1790941362448,
+  "lastUpdated": 1790960015781,
   "heroSetDate": "2026-10-02",
   "hero": {
-    "headline": "STOCK FUTURES RISE, OIL TUMBLES AS WALL STREET AWAITS JOBS REPORT",
-    "url": "https://www.cnbc.com/2026/10/01/stock-market-today-live-updates-.html",
+    "headline": "U.S. ADDED JUST 29,000 JOBS IN SEPTEMBER AS STOCKS RALLY, NASDAQ HITS RECORD",
+    "url": "https://www.fool.com/investing/2026/10/02/the-u-s-economy-added-29-000-jobs-in-september-far-fewer-than-expected-here-s-why-that-s-good-news-for-the-stock-market-right-now/",
     "sublinks": [
       {
-        "text": "Global Shares Rise As Treasury Selloff Eases Before Jobs Data",
-        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-10-02/"
+        "text": "10-Year Treasury Yield Dives On Weak Jobs Data",
+        "url": "https://www.cnbc.com/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html"
       },
       {
-        "text": "Asia Markets Mixed, Hong Kong Shares Tumble 3%",
-        "url": "https://www.investing.com/news/stock-market-news/asia-stocks-mixed-ahead-of-us-jobs-data-hong-kong-shares-drop-3-4928868"
+        "text": "Dow Jumps 400 Points Led By Caterpillar, Nvidia",
+        "url": "https://www.marketwatch.com/data-news/dow-s-400-point-rally-led-by-gains-in-caterpillar-nvidia-corp-shares-f5abfddb-df9ab7dc565f"
       }
     ],
-    "postedAt": 1790941362448,
+    "liveUpdates": [
+      {
+        "source": "cnbc.com",
+        "url": "https://www.cnbc.com/2026/10/01/stock-market-today-live-updates-.html"
+      }
+    ],
+    "postedAt": 1790960015781,
     "img": true
   },
   "groups": [
-    {
-      "title": "DIESEL SHORTAGE AND HORMUZ SHIPPING STRAINS HIT ENERGY MARKETS",
-      "stories": [
-        {
-          "headline": "US Tells France, Germany To Release Diesel Stocks Or Face Export Ban",
-          "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/",
-          "timestamp": 1790853031000,
-          "postedAt": 1790854837264
-        },
-        {
-          "headline": "India's Oil Refiners Hire Ships To Cross Hormuz Under New Tactics",
-          "url": "https://m.economictimes.com/industry/energy/oil-gas/india-oil-refiners-change-tactics-and-hire-ships-to-cross-hormuz/articleshow/134609020.cms",
-          "timestamp": 1790843147000,
-          "postedAt": 1790854837264
-        },
-        {
-          "headline": "16 US Trucking Companies File For Bankruptcy In A Month As Diesel Prices Soar",
-          "url": "https://www.zerohedge.com/markets/16-us-trucking-companies-file-bankruptcy-less-month-diesel-prices-soar",
-          "timestamp": 1790842500000,
-          "postedAt": 1790854837264
-        }
-      ]
-    },
     {
       "title": "OPENAI UNDER SCRUTINY OVER SECURITY LAPSES",
       "stories": [
@@ -62,6 +45,20 @@
   "columns": {
     "left": [
       {
+        "headline": "Report Warns 'Complete Disruption' Of Economy Is All But Certain From AI",
+        "url": "https://www.marketwatch.com/story/another-viral-ai-doomsday-report-claims-its-over-why-home-prices-could-take-a-hit-as-screen-based-jobs-disappear-4bed48bc",
+        "timestamp": 1790954280000,
+        "postedAt": 1790960015781
+      },
+      {
+        "headline": "Lilly And Novo Bet On Amylin To Power New Wave Of Obesity Drugs",
+        "url": "https://www.cnbc.com/2026/10/02/lilly-novo-amylin-obesity-drugs.html",
+        "timestamp": 1790954023000,
+        "photo": true,
+        "postedAt": 1790960015781,
+        "image": "/img/markets-0.jpg"
+      },
+      {
         "headline": "FED WATCHDOG CLEARS POWELL OF CRIMINAL WRONGDOING IN RENOVATION; TRUMP DEMANDS HIS RESIGNATION",
         "url": "https://www.reuters.com/world/us/watchdog-finds-deficiencies-no-fed-misconduct-powell-era-renovation-project-2026-09-30/",
         "timestamp": 1790854837264,
@@ -79,7 +76,7 @@
         "timestamp": 1790929947000,
         "photo": true,
         "postedAt": 1790941362448,
-        "image": "/img/markets-0.jpg"
+        "image": "/img/markets-1.jpg"
       },
       {
         "headline": "Medicare Advantage Plans Shift More Costs Onto Seniors In 2027",
@@ -120,12 +117,6 @@
         "postedAt": 1790854837264
       },
       {
-        "headline": "ANTHROPIC IPO FILING WARNS OF 'EXISTENTIAL AI RISKS' AS OPENAI SCRAPS GPT-6.1 ASTRA OVER SAFETY FEARS",
-        "url": "https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude",
-        "timestamp": 1790682246084,
-        "postedAt": 1790682246084
-      },
-      {
         "headline": "AI Industry Moves To Blunt Data-Center Backlash Ahead Of Midterms",
         "url": "https://www.cnbc.com/2026/09/26/blue-collar-jobs-ai-data-center-backlash.html",
         "timestamp": 1790764875000,
@@ -158,46 +149,6 @@
         "postedAt": 1790768074607
       },
       {
-        "headline": "'I'm Never Selling': The 47-Year-Old Who Buys Bitcoin With Every Dollar He Earns",
-        "url": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64",
-        "timestamp": 1790676900000,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "AMD Pays $8.2 Billion To Hire AI Pioneer Dubbed 'Godmother Of AI'",
-        "url": "https://finance.yahoo.com/technology/article/amd-just-spent-82-billion-to-enlist-the-godmother-of-ai-230634166.html",
-        "timestamp": 1790669783000,
-        "photo": true,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "UK: Government Fights Trump's Diesel Export Ban",
-        "url": "https://www.bbc.com/news/articles/cmx2z3vgy5xwo",
-        "timestamp": 1790666344000,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "Canada: US Imposes Ban On Some Dairy And Liquor Imports Amid Trade Rift",
-        "url": "https://sana.sy/en/economic/2346763/",
-        "timestamp": 1790654473000,
-        "photo": true,
-        "postedAt": 1790682246084,
-        "image": "/img/markets-7.jpg"
-      },
-      {
-        "headline": "Goldman Sachs Says No Timeline Yet For CEO Solomon's Exit",
-        "url": "https://nypost.com/2026/09/28/business/goldman-sachs-discusses-plan-to-name-john-waldron-next-ceo-succeeding-david-solomon-report/",
-        "timestamp": 1790648939000,
-        "photo": true,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "Trump's Student Loan Aid Rollback Hits Borrowers This Week",
-        "url": "https://truthout.org/articles/trumps-dismantling-of-student-loan-aid-is-crashing-down-on-debtors-this-week/",
-        "timestamp": 1790631543000,
-        "postedAt": 1790682246084
-      },
-      {
         "headline": "Tencent Leases 100,000 Chips From Oracle To Accelerate AI Push",
         "url": "https://www.reuters.com/world/china/chinas-tencent-leases-100000-chips-oracle-accelerate-ai-push-ft-reports-2026-10-01/",
         "timestamp": 1790823466000,
@@ -207,6 +158,18 @@
         "headline": "France's Bond Market Stumbles — Should Americans Care?",
         "url": "https://www.marketwatch.com/story/frances-bond-market-is-stumbling-should-americans-care-202ea2af",
         "timestamp": 1790847540000,
+        "postedAt": 1790854837264
+      },
+      {
+        "headline": "G7 Countries To Release Up To 100 Million Barrels Of Diesel And Crude",
+        "url": "https://www.nbcnews.com/business/energy/g-7-diesel-crude-release-trump-macron-rcna601132",
+        "timestamp": 1790954505000,
+        "postedAt": 1790960015781
+      },
+      {
+        "headline": "16 US Trucking Companies File For Bankruptcy In A Month As Diesel Prices Soar",
+        "url": "https://www.zerohedge.com/markets/16-us-trucking-companies-file-bankruptcy-less-month-diesel-prices-soar",
+        "timestamp": 1790842500000,
         "postedAt": 1790854837264
       }
     ],
@@ -236,7 +199,7 @@
         "timestamp": 1790882283000,
         "photo": true,
         "postedAt": 1790941362448,
-        "image": "/img/markets-2.jpg"
+        "image": "/img/markets-3.jpg"
       },
       {
         "headline": "What Nvidia's Giant Buyback Means For Investors",
@@ -250,7 +213,7 @@
         "timestamp": 1790845552000,
         "photo": true,
         "postedAt": 1790854837264,
-        "image": "/img/markets-4.jpg"
+        "image": "/img/markets-5.jpg"
       },
       {
         "headline": "Novo's Wegovy Pill Switch Shows Sustained Weight Loss In Real-World Study",
@@ -264,7 +227,7 @@
         "timestamp": 1790765700000,
         "photo": true,
         "postedAt": 1790768074607,
-        "image": "/img/markets-6.jpg"
+        "image": "/img/markets-7.jpg"
       },
       {
         "headline": "New Wall Street 'TACO Index' Signals It's Time For Trump To Strike A Deal",
@@ -283,46 +246,6 @@
         "url": "https://www.reuters.com/world/uk/burnham-says-britain-should-weigh-eu-options-including-rejoining-bloc-2026-09-30/",
         "timestamp": 1790749080000,
         "postedAt": 1790768074607
-      },
-      {
-        "headline": "Data Center Buildout Drives Blue-Collar Job Growth As Other Sectors Lag",
-        "url": "https://cardinalnews.org/2026/09/29/data-centers-are-creating-blue-collar-jobs-are-democrats-on-the-wrong-side-politically-of-these-workers/",
-        "timestamp": 1790674201000,
-        "photo": true,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "Shein Shares Sink 12% To Record Low After Profit Plunge",
-        "url": "https://www.businessoffashion.com/news/retail/shein-shares-sink-to-record-low-after-profit-plunge/",
-        "timestamp": 1790669093000,
-        "photo": true,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "Georgia Gov. Kemp Declares Emergency, Suspends State Gas Tax",
-        "url": "https://www.wsbradio.com/news/local/gov-kemp-suspending-states-gas-tax-declaring-state-emergency/FFCP26E6MFGYXBVQXTNQU4OQOQ/",
-        "timestamp": 1790638498000,
-        "photo": true,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "Nvidia's New Tool Can Contain Rogue AI Agents In Milliseconds",
-        "url": "https://www.axios.com/2026/09/28/nvidia-ai-agent-safety",
-        "timestamp": 1790632200000,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "China Quietly Gains Leverage Over Trump Through Soybean Trade",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/china-quietly-got-trump-soybeans-213921531.html",
-        "timestamp": 1790631540000,
-        "photo": true,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "MongoDB Stock Sinks 18% On Poorly Timed CEO Departure",
-        "url": "https://www.tipranks.com/news/mongodb-stock-mdb-sinks-on-ceo-exit-heres-what-analysts-see-next",
-        "timestamp": 1790622840000,
-        "postedAt": 1790682246084
       },
       {
         "headline": "Judge Clears $110B Paramount-Warner Bros Merger; Mark Ruffalo Blasts Deal",
@@ -360,9 +283,27 @@
         "url": "https://www.cnbc.com/2026/10/01/us-treasury-bond-yield.html",
         "timestamp": 1790839615000,
         "postedAt": 1790854837264
+      },
+      {
+        "headline": "Europe's Leaders Rush To Release Diesel Stockpiles Ahead Of Midterms",
+        "url": "https://www.marketwatch.com/story/europes-leaders-rush-to-release-diesel-from-stockpiles-as-fuel-shock-hangs-over-u-s-midterms-80bf0f38",
+        "timestamp": 1790955720000,
+        "postedAt": 1790960015781
+      },
+      {
+        "headline": "US Tells France, Germany To Release Diesel Stocks Or Face Export Ban",
+        "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/",
+        "timestamp": 1790853031000,
+        "postedAt": 1790854837264
       }
     ],
     "right": [
+      {
+        "headline": "STOCK FUTURES RISE, OIL TUMBLES AS WALL STREET AWAITS JOBS REPORT",
+        "url": "https://www.cnbc.com/2026/10/01/stock-market-today-live-updates-.html",
+        "timestamp": 1790941362448,
+        "postedAt": 1790941362448
+      },
       {
         "headline": "Volvo Cars Issues Profit Warning As China Sales Fall",
         "url": "https://www.theedgesingapore.com/news/news/volvo-car-scraps-outlook-china-us-weakness-curb-earnings",
@@ -389,7 +330,7 @@
         "timestamp": 1790888640000,
         "photo": true,
         "postedAt": 1790941362448,
-        "image": "/img/markets-1.jpg"
+        "image": "/img/markets-2.jpg"
       },
       {
         "headline": "United Airlines Gets Aggressive In Battle For Top Delta, American Flyers",
@@ -397,7 +338,7 @@
         "timestamp": 1790880728000,
         "photo": true,
         "postedAt": 1790941362448,
-        "image": "/img/markets-3.jpg"
+        "image": "/img/markets-4.jpg"
       },
       {
         "headline": "Indian FlyDubai Pilot Praised After Mid-Air Disaster Averted",
@@ -419,7 +360,7 @@
         "timestamp": 1790795980000,
         "photo": true,
         "postedAt": 1790854837264,
-        "image": "/img/markets-5.jpg"
+        "image": "/img/markets-6.jpg"
       },
       {
         "headline": "Bank Of England Warns AI Valuations Could See Sharper Correction",
@@ -461,46 +402,6 @@
         "postedAt": 1790768074607
       },
       {
-        "headline": "Smart Ring Maker Oura Postpones IPO Citing Market Uncertainty",
-        "url": "https://www.cnbc.com/2026/09/29/smart-ring-maker-oura-postpones-ipo-due-to-market-uncertainty.html",
-        "timestamp": 1790676179000,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "Mideast Oil Exports Rebound Even As Prices Stay Elevated",
-        "url": "https://www.fxstreet.com/news/wti-falls-to-near-9100-as-middle-east-crude-exports-rebound-202609290915",
-        "timestamp": 1790672517000,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "SpaceX's Starship Reaches Orbit, Deploys First Next-Gen Starlinks",
-        "url": "https://arstechnica.com/space/2026/09/starships-first-orbital-launch-gives-lift-to-spacexs-next-gen-starlinks/",
-        "timestamp": 1790630779000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "Boeing Slides 6% As FAA Halts Max 10 Certification",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-slides-6-faa-halts-191213845.html",
-        "timestamp": 1790622733000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "JPMorgan Team That Urged Caution A Month Ago Now Goes All-In On Tech",
-        "url": "https://www.marketwatch.com/story/a-month-ago-this-jpmorgan-team-urged-caution-on-stocks-now-its-going-all-in-on-tech-f2e4b007",
-        "timestamp": 1790672160000,
-        "postedAt": 1790682246084
-      },
-      {
-        "headline": "Treasuries Stabilize After Selloff As Stocks Keep Declining",
-        "url": "https://www.theedgesingapore.com/news/global-markets/treasuries-stabilise-after-sell-stocks-slip",
-        "timestamp": 1790633464000,
-        "postedAt": 1790682246084
-      },
-      {
         "headline": "Inflation Relief Gives Bonds Little Reprieve, Reuters Morning Bid Finds",
         "url": "https://www.reuters.com/markets/europe/global-markets-view-europe-2026-10-01/",
         "timestamp": 1790829180000,
@@ -511,63 +412,75 @@
         "url": "https://global.morningstar.com/en-eu/economy/eurozone-inflation-hits-38-adding-pressure-ecb-raise-rates-again",
         "timestamp": 1790931696000,
         "postedAt": 1790941362448
+      },
+      {
+        "headline": "Three Reasons Middle East Oil Is Nearly Back To Pre-Iran War Levels",
+        "url": "https://www.bbc.com/news/articles/cwp8gn13lmygo",
+        "timestamp": 1790954968000,
+        "postedAt": 1790960015781
+      },
+      {
+        "headline": "India's Oil Refiners Hire Ships To Cross Hormuz Under New Tactics",
+        "url": "https://m.economictimes.com/industry/energy/oil-gas/india-oil-refiners-change-tactics-and-hire-ships-to-cross-hormuz/articleshow/134609020.cms",
+        "timestamp": 1790843147000,
+        "postedAt": 1790854837264
       }
     ]
   },
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,666.45",
-      "change": "+14.91",
-      "changePct": "+0.19%",
+      "value": "7,721.94",
+      "change": "+55.49",
+      "changePct": "+0.72%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "50,926.56",
-      "change": "+20.46",
-      "changePct": "+0.04%",
+      "value": "51,147.96",
+      "change": "+221.40",
+      "changePct": "+0.43%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,871.60",
-      "change": "+10.53",
-      "changePct": "+0.04%",
+      "value": "27,191.78",
+      "change": "+320.18",
+      "changePct": "+1.19%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
-      "value": "5.24%",
-      "change": "-0.06",
-      "changePct": "-1.06%",
-      "up": false,
-      "url": "https://www.wsj.com/market-data"
-    },
-    {
-      "name": "Gold",
-      "value": "$4,211.00",
-      "change": "+8.70",
-      "changePct": "+0.21%",
+      "value": "5.27%",
+      "change": "+0.03",
+      "changePct": "+0.61%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
+      "name": "Gold",
+      "value": "$4,163.80",
+      "change": "-38.50",
+      "changePct": "-0.92%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
       "name": "Oil",
-      "value": "$89.24",
-      "change": "-3.63",
-      "changePct": "-3.91%",
+      "value": "$91.43",
+      "change": "-1.44",
+      "changePct": "-1.55%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$86,495.51",
-      "change": "+1,645.58",
-      "changePct": "+1.94%",
+      "value": "$85,133.46",
+      "change": "+283.53",
+      "changePct": "+0.33%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     }

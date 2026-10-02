@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790940899979,
+  "lastUpdated": 1790959552350,
   "heroSetDate": "2026-10-02",
   "hero": {
     "headline": "FLYDUBAI PILOT: 'I COULD NOT LET ALL THOSE PEOPLE DIE' AFTER MIDAIR ATTACK",
@@ -99,12 +99,6 @@
           "postedAt": 1790854405984
         },
         {
-          "headline": "Russia Pounds Kyiv After Deadly Strike On Academy Of Sciences",
-          "url": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2",
-          "timestamp": 1790653417000,
-          "postedAt": 1790681864179
-        },
-        {
           "headline": "Kyiv Bridges Shut After Fatal Russian Drone Assault",
           "url": "https://www.dw.com/en/ukraine-kyiv-bridges-shut-after-fatal-russian-drone-assault/a-79510950",
           "timestamp": 1790933376000,
@@ -122,6 +116,19 @@
   "columns": {
     "left": [
       {
+        "headline": "Ethiopia's New Rebel War Redraws Alliances Across Horn Of Africa",
+        "url": "https://www.rfi.fr/en/africa/20261002-ethiopia-s-new-rebel-war-redraws-alliances-across-the-horn-of-africa-tigray",
+        "timestamp": 1790958020000,
+        "postedAt": 1790959552350
+      },
+      {
+        "headline": "Nepal Plans To Drain Four Glacial Lakes After Deadly Floods",
+        "url": "https://www.reuters.com/business/environment/nepal-plans-drain-four-glacial-lakes-after-deadly-floods-2026-10-02/",
+        "timestamp": 1790956783000,
+        "photo": true,
+        "postedAt": 1790959552350
+      },
+      {
         "headline": "Videos Show Women Attacked As Student Riots Rock France",
         "url": "https://www.msn.com/en-us/news/other/student-anarchy-rocks-france-riots-leave-at-least-65-teachers-hurt-and-close-hundreds-of-schools/ar-AA2doNGk",
         "timestamp": 1790908342000,
@@ -138,12 +145,6 @@
         "url": "https://www.politico.eu/article/spains-sanchez-weighs-calling-snap-election-as-housing-defeat-looms/",
         "timestamp": 1790934219000,
         "photo": true,
-        "postedAt": 1790940899979
-      },
-      {
-        "headline": "Nepal Plans To Drain Four Glacial Lakes After Deadly Floods",
-        "url": "https://www.reuters.com/business/environment/nepal-plans-drain-four-glacial-lakes-after-deadly-floods-2026-10-02/",
-        "timestamp": 1790933520000,
         "postedAt": 1790940899979
       },
       {
@@ -235,48 +236,6 @@
         "image": "/img/world-5.jpg"
       },
       {
-        "headline": "Slovakia School Attack Leaves One Dead, Two Injured",
-        "url": "https://www.euronews.com/2026/09/29/slovakia-school-attack-leaves-one-dead-and-two-injured-emergency-workers-say",
-        "timestamp": 1790676673000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1790681864179,
-        "image": "/img/world-6.jpg"
-      },
-      {
-        "headline": "Spanish Inflation Unexpectedly Hits 5%, Backing Case For Higher Rates",
-        "url": "https://theedgemalaysia.com/node/819799",
-        "timestamp": 1790675540000,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "Extreme Weather Raises Temperature On Chennai Home Search",
-        "url": "https://www.dw.com/en/extreme-weather-raises-temperature-on-chennai-home-search/video-79417774",
-        "timestamp": 1790673467000,
-        "photo": true,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "Turkey Positions Itself To Fill US Middle East Vacuum",
-        "url": "https://www.npr.org/2026/09/29/nx-s1-5983685/turkey-influence",
-        "timestamp": 1790672400000,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "Bangkok Floodwaters Begin To Ease After Torrential Rains Hit 700,000",
-        "url": "https://apnews.com/article/thailand-rain-floods-bangkok-airport-7a58485fa6f04454e0292aa30a2834e1",
-        "timestamp": 1790650620000,
-        "photo": true,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "Pope Leo's Tender Blessing Of Girl With Disabilities Marks France Visit",
-        "url": "https://www.yahoo.com/news/world/articles/pope-leo-tender-blessing-girl-220639426.html",
-        "timestamp": 1790607960000,
-        "photo": true,
-        "postedAt": 1790681864179
-      },
-      {
         "headline": "A New Bolsonaro Could Pull Brazil Toward Trump, Away From Europe",
         "url": "https://www.politico.eu/article/a-new-bolsonaro-could-pull-brazil-away-from-europe-and-toward-trump/",
         "timestamp": 1790765940000,
@@ -290,6 +249,26 @@
       }
     ],
     "center": [
+      {
+        "headline": "El Niño Raises Costs, Cuts Output For Panama's Fishermen",
+        "url": "https://www.afp.com/en/el-nino-raises-costs-and-decreases-production-panamas-fishermen",
+        "timestamp": 1790958077000,
+        "photo": true,
+        "postedAt": 1790959552350
+      },
+      {
+        "headline": "Nasdaq Hits Record High As Soft Jobs Data Cools Rate-Hike Bets",
+        "url": "https://www.reuters.com/business/wall-st-futures-gain-yields-oil-prices-ease-ahead-jobs-report-2026-10-02/",
+        "timestamp": 1790957396000,
+        "postedAt": 1790959552350
+      },
+      {
+        "headline": "G7 Nations Agree To Release 100 Million Barrels Of Oil Amid US Pressure",
+        "url": "https://www.reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/",
+        "timestamp": 1790956071000,
+        "feature": true,
+        "postedAt": 1790959552350
+      },
       {
         "headline": "UAE OPENS HIJACKING PROBE AFTER FLYDUBAI PILOT STABBING; ISRAEL VOWS TO FIND 'ROOT' CAUSE",
         "url": "https://www.reuters.com/world/middle-east/israel-vows-get-root-flydubai-attack-uae-launches-investigation-2026-10-01/",
@@ -346,12 +325,6 @@
         "image": "/img/world-3.jpg"
       },
       {
-        "headline": "MEDIATORS WORK TO BROKER US-IRAN DEAL AS MAJOR HURDLES REMAIN",
-        "url": "https://apnews.com/article/iran-trump-negotiations-war-strait-nuclear-871504dbd98d9b08b226b9805d8f4606",
-        "timestamp": 1790681864179,
-        "postedAt": 1790681864179
-      },
-      {
         "headline": "Germany Orders Gas Giant SEFE To Boost Winter Reserves",
         "url": "https://www.reuters.com/business/energy/germanys-sefe-says-it-has-ministry-order-to-store-8-twh-gas-2026-09-30/",
         "timestamp": 1790762092000,
@@ -370,44 +343,6 @@
         "timestamp": 1790762143000,
         "photo": true,
         "postedAt": 1790767576496
-      },
-      {
-        "headline": "Anthropic Warns AI Poses 'Catastrophic Risks' Ahead Of $2 Trillion Float",
-        "url": "https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude",
-        "timestamp": 1790673349000,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "Netanyahu Makes Secret Weekend Trip To Meet Emirati Leader In Abu Dhabi",
-        "url": "https://apnews.com/article/israel-iran-uae-netayahu-yemen-september-28-2026-854377716258982535c7b2cd3a7d0fe0",
-        "timestamp": 1790647800000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "Presidential Hopeful Philippe Proposes Raising Retirement Age To 65",
-        "url": "https://www.politico.eu/article/french-presidential-hopeful-edouard-philippe-proposes-pushing-retirement-age-to-65/",
-        "timestamp": 1790680903000,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "French PM Warns Against Student Violence As Public Strike Begins",
-        "url": "https://www.rfi.fr/en/france/20260929-french-pm-warns-against-student-violence-as-public-sector-strike-kicks-off",
-        "timestamp": 1790675959000,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "RAF Fairford Investigation Widens Over Foreign-Actor Link",
-        "url": "https://www.bbc.com/news/live/c65y7nl29k0et",
-        "timestamp": 1790680808000,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "Putin Expands Army For Fourth Time This Year As Losses Mount",
-        "url": "https://www.euronews.com/2026/09/29/new-russian-mobilisation-putin-signs-decree-adding-15500-troops-to-army",
-        "timestamp": 1790666144000,
-        "postedAt": 1790681864179
       },
       {
         "headline": "UK-France 'One In, One Out' Migrant Deal Set To Expire Thursday",
@@ -454,6 +389,13 @@
     ],
     "right": [
       {
+        "headline": "Trump Says US-South Korea Deal Includes $8.4 Billion For Oil Recovery",
+        "url": "https://www.reuters.com/business/energy/trump-says-us-deal-with-south-korea-includes-84-billion-for-oil-recovery-2026-10-02/",
+        "timestamp": 1790957760000,
+        "photo": true,
+        "postedAt": 1790959552350
+      },
+      {
         "headline": "UK: Tories Warn Burnham's EU 'Pandering' Threatens Post-Brexit Trade Deals",
         "url": "https://www.politico.eu/article/tories-andy-burnham-eu-pandering-threatens-post-brexit-trade-deals/",
         "timestamp": 1790937262000,
@@ -478,7 +420,8 @@
         "headline": "No Lights, No Radio: Getting Oil Through Hormuz Is A Risky Job",
         "url": "https://www.energyconnects.com/news/oil/2026/october/no-lights-no-radio-getting-oil-through-hormuz-is-a-risky-job/",
         "timestamp": 1790895661000,
-        "postedAt": 1790940899979
+        "postedAt": 1790940899979,
+        "image": "/img/world-7.jpg"
       },
       {
         "headline": "Indonesia's Prabowo Appoints New Foreign Minister",
@@ -543,44 +486,6 @@
         "postedAt": 1790767576496
       },
       {
-        "headline": "SpaceX Starship Engine Failure Could Threaten NASA Moon Mission Timeline",
-        "url": "https://www.reuters.com/business/media-telecom/spacexs-starship-engine-failure-could-impact-nasas-moon-mission-objectives-2026-09-29/",
-        "timestamp": 1790677222000,
-        "photo": true,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "Three Egyptian Officials Convicted In Kidnapping Of Italian Student Giulio Regeni",
-        "url": "https://www.bbc.com/news/articles/cw7v4ppj9yd6o",
-        "timestamp": 1790638755000,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "Estonia Slams Russian 'Sabotage' Campaign After Arson Attack",
-        "url": "https://www.rfi.fr/en/international-news/20260929-estonia-slams-russian-sabotage-after-arson-attack-on-defence-company",
-        "timestamp": 1790676243000,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "French Far Right Calls Antisemitism Claims Part Of 'Total War' On Bid",
-        "url": "https://www.afp.com/en/french-far-right-says-antisemitism-claims-part-total-war-derail-presidency-bid",
-        "timestamp": 1790679870000,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "Student Protests Over High School Conditions Fuel Political Clashes",
-        "url": "https://www.msn.com/en-xl/news/other/france-student-protests-over-conditions-at-french-high-schools-fuel-political-clashes/ar-AA2d9T71",
-        "timestamp": 1790623560000,
-        "postedAt": 1790681864179
-      },
-      {
-        "headline": "Rubio Says UK Airbase Incident Involved A Foreign State",
-        "url": "https://www.reuters.com/world/uk/rubio-says-uk-airbase-incident-involved-foreign-state-2026-09-29/",
-        "timestamp": 1790674549000,
-        "feature": true,
-        "postedAt": 1790681864179
-      },
-      {
         "headline": "Spanish King Calls Ceuta Migrant Crossing 'Unacceptable'",
         "url": "https://www.breitbart.com/europe/2026/09/30/spanish-king-felipe-vi-what-happened-in-ceuta-is-unacceptable/amp/",
         "timestamp": 1790761587000,
@@ -603,7 +508,7 @@
         "url": "https://www.oskaloosa.com/news/national_news/eu-officials-meet-to-strengthen-border-agency-as-refugee-sues-over-alleged-abuses-in-libya/article_33afeb11-9d09-5a1a-a433-f41ac833267d.html",
         "timestamp": 1790902826000,
         "postedAt": 1790940899979,
-        "image": "/img/world-7.jpg"
+        "image": "/img/world-6.jpg"
       },
       {
         "headline": "Path Back To The EU Would Hit Hard Post-Brexit Realities",
