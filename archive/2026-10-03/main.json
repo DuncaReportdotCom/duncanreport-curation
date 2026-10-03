@@ -1,0 +1,634 @@
+{
+  "lastUpdated": 1791025917057,
+  "heroSetDate": "2026-10-03",
+  "hero": {
+    "headline": "DEMOCRATS EXPAND SENATE BATTLEGROUND AS GOP RETREATS IN KANSAS, NORTH CAROLINA",
+    "url": "https://www.politico.com/news/2026/10/02/kansas-becomes-a-surprise-senate-battleground-01105125",
+    "sublinks": [
+      {
+        "text": "GOP Shifts Resources As Georgia, N.C. Hopes Fade",
+        "url": "https://www.pbs.org/newshour/politics/gop-hopes-fade-in-georgia-and-north-carolina-as-party-shifts-focus-in-battle-for-senate"
+      },
+      {
+        "text": "Forecasters See Democratic Surge Hitting Red States Hardest",
+        "url": "https://www.reuters.com/world/us/democratic-wave-is-hitting-republican-states-hardest-scrambling-senate-strategy-2026-10-01/"
+      },
+      {
+        "text": "Top GOP Group Pulls N.C. Spending, Pours It Into Kansas",
+        "url": "https://www.semafor.com/article/10/02/2026/republicans-pull-ad-spending-from-north-carolina"
+      },
+      {
+        "text": "Ohio Senate Race Also Tightens As Brown Leads Husted",
+        "url": "https://www.forbes.com/sites/saradorn/2026/09/30/hottest-2026-midterm-races-democrat-sherrod-brown-up-3-points-in-ohio-senate-race-updated-daily/"
+      }
+    ],
+    "postedAt": 1791025917057,
+    "img": true
+  },
+  "groups": [],
+  "columns": {
+    "left": [
+      {
+        "headline": "The Don Bets It All On AI",
+        "url": "https://www.yahoo.com/news/politics/articles/trump-big-ai-together-095205949.html",
+        "timestamp": 1791025433357,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "11 Years Later, Trump's Immigration Promises Still Aren't Law",
+        "url": "https://www.theblaze.com/columns/opinion/11-years-later-trumps-immigration-promises-still-arent-law",
+        "timestamp": 1791023512000,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "Two Dead In Shooting At Northridge Strip Mall Near CSUN",
+        "url": "https://abc7.com/post/los-angeles-shooting-least-2-dead-northridge-strip-mall-csun/19903484/",
+        "timestamp": 1791016196000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "Suspect Arrested In Shooting Of Beloved Culver City Bus Driver",
+        "url": "https://ktla.com/news/local-news/suspect-arrested-in-shooting-of-beloved-culver-city-bus-driver/",
+        "timestamp": 1790998756000,
+        "photo": true,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "911 Call Reveals Concerns Before Two Children Found Dead From Starvation",
+        "url": "https://www.uppermichiganssource.com/2026/10/02/911-call-reveals-concerns-about-well-being-2-children-found-dead-starvation-home/",
+        "timestamp": 1790983260000,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "Judge Blocks Trump's Big Bend Border Wall Construction",
+        "url": "https://www.axios.com/2026/10/02/judge-blocks-big-bend-border-wall-texas",
+        "timestamp": 1790976921000,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "Mexico: CEOs, Celebs Pay $20K For 'Mount Everest Of Psychedelics' Retreats",
+        "url": "https://nypost.com/2026/10/02/health/inside-the-20k-psychedelic-trips-drawing-americans-to-mexico/",
+        "timestamp": 1790958412152,
+        "photo": true,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Furious GOP Senator's Explicit Texts To Trump Exposed",
+        "url": "https://www.mediaite.com/media/news/gop-senator-privately-told-off-trump-in-fiery-texts-obtained-by-politico-i-dont-take-that-bullsht-from-anyone/",
+        "timestamp": 1790958412151,
+        "photo": true,
+        "postedAt": 1790958921498,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Hochul Taps Letitia James As Special Prosecutor In Cornell Rape Case",
+        "url": "https://thepostmillennial.com/kathy-hochul-appoints-letitia-james-as-special-prosecutor-to-investigate-alleged-gang-rape-at-cornell",
+        "timestamp": 1790957636000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790958921498,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Gypsy Rose Blanchard Says Partner Ken Urker Was Struggling Before His Death",
+        "url": "https://www.newsnationnow.com/entertainment-news/gypsy-rose-blanchard-ken-urker-struggles-death/",
+        "timestamp": 1790957250000,
+        "photo": true,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Family Identifies Student Who Fell To His Death At Highland Park High School",
+        "url": "https://abc7.com/post/family-identifies-student-fell-death-franklin-high-school-highland-park-xavier-amaya/19900808/",
+        "timestamp": 1790951413000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Inside The Trump Administration's UFO Hunt",
+        "url": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id",
+        "timestamp": 1790931611000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Bob Brooks Hid Unpaid Debts, Family Disputes On COVID Loan Application",
+        "url": "https://freebeacon.com/democrats/bob-brooks-was-in-trouble-over-unpaid-credit-cards-and-bilking-his-in-laws-he-didnt-disclose-it-when-he-applied-for-a-covid-loan-for-his-lawn-care-business/",
+        "timestamp": 1790884261000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Sen. Hagerty Files Bar Complaint Against Jack Smith Over 'Arctic Frost' Probe",
+        "url": "https://thefederalist.com/2026/10/01/sen-hagerty-files-bar-complaint-against-jack-smith-over-arctic-frost-lawfare/",
+        "timestamp": 1790855267000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Zuckerberg And Huang Press White House For AI Pact",
+        "url": "https://www.politico.com/news/2026/09/30/zuckerberg-huang-white-house-ai-pact-01101248",
+        "timestamp": 1790806740000,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Cold War-Era Spy Satellite Explodes Without Warning In Orbit",
+        "url": "https://www.dailymail.com/sciencetech/article-16172545",
+        "timestamp": 1790852721019,
+        "photo": true,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Democrats Fail To Stop Trump From Canceling $810M In Approved Funds",
+        "url": "https://www.redlakenationnews.com/story/2026/10/01/politics/democrats-fail-to-stop-trump-from-canceling-810m-in-funds-approved-by-congress/143200.html",
+        "timestamp": 1790835945000,
+        "feature": true,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Medical Helicopter Crash Near Catalina Island Leaves 2 Dead, 1 Missing",
+        "url": "https://abc7.com/post/medical-helicopter-crashes-into-waters-near-avalon-catalina-island/19894675/",
+        "timestamp": 1790834697000,
+        "photo": true,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Massachusetts AG: 944 Children Abused By Catholic Clergy, No New Charges",
+        "url": "https://www.axios.com/2026/09/30/massachusetts-catholic-clergy-sex-abuse-report",
+        "timestamp": 1790825106000,
+        "photo": true,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Why So Many Social Science Claims Turn Out False",
+        "url": "https://www.realclearinvestigations.com/articles/2026/10/01/why_so_many_social_science_claims_are_false_1209179.html",
+        "timestamp": 1790813460000,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Senate Reaches Bipartisan Deal On Permitting Bill To Speed Energy Projects",
+        "url": "https://apnews.com/article/permitting-reform-energy-projects-environment-nepa-80d203a503d5843f32c8160dc004646b",
+        "timestamp": 1790804880000,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Schmitt Faces Fallout After Debunked Jack Smith Accusation",
+        "url": "https://fox2now.com/news/missouri/schmitt-faces-fallout-after-debunked-jack-smith-accusation/",
+        "timestamp": 1790804874000,
+        "photo": true,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Trump's Hand-Picked, Taxpayer-Funded Ad Campaign Set To Ramp Up",
+        "url": "https://www.axios.com/2026/09/29/trump-ads-taxpayer-funds",
+        "timestamp": 1790744163000,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Farmers Brace For 'Losing Everything' Amid Trade Fallout",
+        "url": "https://www.axios.com/2026/09/29/iowa-midterms-farms-trump",
+        "timestamp": 1790766254116,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Nate Silver's FLIPR Model Forecasts The 2026 Midterms",
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+        "timestamp": 1790765647000,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Magnitude 4.2 Quake Hits Puget Sound Area Near Gig Harbor",
+        "url": "https://komonews.com/news/local/magnitude-43-quake-hits-puget-sound-area-centered-west-northwest-of-wauna-gig-harbor-belfair-key-peninula-shake-purdy-washington-pierce-county",
+        "timestamp": 1790736824000,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Florida Mom Left Infant, Toddler Home Alone For 3-Day Cruise, Police Say",
+        "url": "https://www.nbcnews.com/news/us-news/mom-left-infant-toddler-two-kids-home-alone-went-3-day-cruise-official-rcna600587",
+        "timestamp": 1790733120000,
+        "photo": true,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Caleb Flynn Found Guilty On All Charges In Wife's Death",
+        "url": "https://www.wlwt.com/article/verdict-watch-jury-deliberations-caleb-flynn-murder-trial/73939967",
+        "timestamp": 1790729400000,
+        "photo": true,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Cornell Jane Doe Told Police 'I Can Say With 100% Confidence I Was Raped'",
+        "url": "https://www.cbsnews.com/newyork/news/cornell-university-rape-case-jane-doe-police-interview-transcript/",
+        "timestamp": 1790726820000,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Mamdani Must Redo Pied-A-Terre Tax Rollout, NY Judge Rules",
+        "url": "https://gothamist.com/news/mamdanis-pied-a-terre-tax-faces-2-new-legal-hurdles-from-staten-island-judge-and-florida-billionaires",
+        "timestamp": 1790725440000,
+        "photo": true,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Supreme Court Denies Christa Pike's Last-Ditch Execution Stay Bid",
+        "url": "https://www.bbc.com/news/articles/cwe879654mj7o",
+        "timestamp": 1790725198000,
+        "photo": true,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "NY Times Engineer's Killing Followed Years Of Alleged Anti-Trans Abuse By In-Laws",
+        "url": "https://www.sfchronicle.com/crime/article/nyt-engineer-east-bay-shooting-court-documents-22454532.php",
+        "timestamp": 1790723815000,
+        "postedAt": 1790766748261
+      }
+    ],
+    "center": [
+      {
+        "headline": "WEAK JOBS REPORT DEALS FRESH BLOW TO TRUMP, GOP AHEAD OF MIDTERMS",
+        "url": "https://finance.yahoo.com/economy/article/weak-jobs-report-is-yet-another-headwind-for-trump-and-republicans-ahead-of-midterms-151245705.html",
+        "timestamp": 1790958921498,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Guns, Voting, Immigration: The Biggest Cases On The Court's New Docket",
+        "url": "https://www.yahoo.com/news/politics/article/guns-voting-immigration-and-more-the-biggest-cases-the-supreme-court-will-take-up-in-its-new-term-225505089.html",
+        "timestamp": 1790978117000,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "Prison Chief In Christa Pike Case Oversaw Five 'Botched' Executions, Lawyers Say",
+        "url": "https://www.theguardian.com/us-news/2026/oct/03/christa-pike-frank-strada-botched-executions",
+        "timestamp": 1791021600000,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "Hawaii's Hōlei Sea Arch Collapses Into The Ocean",
+        "url": "https://www.nbcnews.com/news/us-news/hawaiis-picturesque-holei-sea-arch-collapses-ocean-rcna601241",
+        "timestamp": 1790995800000,
+        "photo": true,
+        "postedAt": 1791025917057,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Rubio Ally, Ex-Congressman, Gets 10 Years For Secret Venezuela Lobbying",
+        "url": "https://www.pbs.org/newshour/politics/former-gop-rep-david-rivera-sentenced-to-10-years-for-secret-venezuela-lobbying",
+        "timestamp": 1790995138000,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "Anthropic's IPO Draws Scrutiny Amid AI Boom",
+        "url": "https://finance.yahoo.com/technology/ai/articles/8-things-don-t-add-173232536.html",
+        "timestamp": 1790958412151,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "ICE Announces Another Major Policy Change On Traffic Stops",
+        "url": "https://www.dailywire.com/news/ice-makes-another-major-policy-change-on-traffic-stops?author",
+        "timestamp": 1790957473000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "NYT Executive, Who Was Transgender, Shot Dead By Estranged Wife's Parents, Report Says",
+        "url": "https://notthebee.com/article/report-transgender-nyt-exec-shot-dead-by-asian-parents-of-estranged-lesbian-wife/",
+        "timestamp": 1790952376000,
+        "photo": true,
+        "postedAt": 1790958921498,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "Divers Find Body Of Third Victim In California Helicopter Crash",
+        "url": "https://apnews.com/article/california-helicopter-crash-catalina-island-05da5b90064a925e93f08769c45597a5",
+        "timestamp": 1790939880000,
+        "photo": true,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "DOJ Charges Boston Man With Threatening Conservative Podcaster Katie Miller",
+        "url": "https://www.nbcnews.com/politics/justice-department/fbi-arrests-massachusetts-man-charge-stalking-conservative-podcaster-k-rcna601029",
+        "timestamp": 1790918708000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Are Trump's TV Campaign Ads Legal? A Closer Look",
+        "url": "https://www.nbcnews.com/news/us-news/another-closer-look-alleged-2024-campus-gang-rape-rcna599920",
+        "timestamp": 1790911860000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Supreme Court Grants Review Of Trump Admin's Mandatory Immigrant Detention Policy",
+        "url": "https://www.pbs.org/newshour/politics/supreme-court-grants-review-of-trump-administrations-mandatory-detention-policy-for-immigrants",
+        "timestamp": 1790869507000,
+        "feature": true,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "UK: PM Says Iran Likely Behind Terror Plot Targeting US Air Force Base",
+        "url": "https://www.mirror.co.uk/news/politics/raf-fairford-iran-andy-burnham-37720200",
+        "timestamp": 1790852721019,
+        "photo": true,
+        "postedAt": 1790853741767,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "Tennessee Botches Execution After Two Failed Lethal Injections",
+        "url": "https://www.nbcnews.com/news/us-news/-was-mess-tennessee-fails-execute-inmate-2-lethal-injections-rcna600863",
+        "timestamp": 1790841058000,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Lindsay Clancy's Lawyer Disputes She Killed Her Children",
+        "url": "https://www.npr.org/2026/09/29/g-s1-145539/lindsay-clancy-trial-hearing-lawyer",
+        "timestamp": 1790824320000,
+        "photo": true,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Three GOP States Ask Supreme Court To Challenge Democratic Abortion Shield Laws",
+        "url": "https://apnews.com/article/gop-democrats-abortion-providers-supreme-court-laws-62dda4e534b052a5560256e649d38290",
+        "timestamp": 1790815020000,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "10 Noncitizens Accused Of Illegally Voting In Minnesota Elections",
+        "url": "https://kstp.com/kstp-news/top-news/10-noncitizens-accused-of-illegally-voting-in-minnesota-elections/",
+        "timestamp": 1790814459000,
+        "photo": true,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "California Bans AI 'Robo Bosses' Under New Newsom-Signed Law",
+        "url": "https://www.cnbc.com/2026/09/30/california-gavin-newsom-ai-ban.html",
+        "timestamp": 1790810998000,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Lawsuit Gets AI Surveillance Program That Wrongly Detained Texas Driver Struck Down",
+        "url": "https://reason.com/2026/09/30/cops-used-ai-surveillance-to-detain-an-innocent-texas-driver-his-lawsuit-just-got-the-program-struck-down/",
+        "timestamp": 1790802774000,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Palantir CEO Quietly Buys 37,000 Acres Of Forest In Sweden",
+        "url": "https://www.msn.com/en-us/money/economy/palantir-ceo-alex-karp-quietly-purchased-37-000-acres-of-forests-in-sweden-and-locals-found-out-when-hunters-lost-leases-to-use-the-property/ar-AA2dfyuN",
+        "timestamp": 1790766254116,
+        "photo": true,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Hedge Funds Now Hold Record Share Of Treasury Market",
+        "url": "https://www.cnbc.com/2026/09/30/us-treasury-market-is-relying-more-on-hedge-funds.html",
+        "timestamp": 1790766254116,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Drivers Are Installing DIY Self-Driving 'Mods' On Their Cars",
+        "url": "https://futurism.com/advanced-transport/people-installing-self-driving-mods-cars",
+        "timestamp": 1790766254116,
+        "photo": true,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "U.S. Military Completes Troop Withdrawal From Iraq",
+        "url": "https://apnews.com/article/iraq-us-withdrawal-militias-disarmament-kurds-a097a39f3d1a3515adc2ba3298a6816f",
+        "timestamp": 1790758680000,
+        "feature": true,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Gentle Giant Backpack Wins Alaska's Fat Bear Week",
+        "url": "https://www.aljazeera.com/news/2026/9/30/gentle-giant-backpack-declared-the-winner-of-alaskas-fat-bear-week",
+        "timestamp": 1790752198000,
+        "photo": true,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Indian Firm Building Trump-Announced $15B Steel Mill Has Deep Russia Ties",
+        "url": "https://www.aljazeera.com/news/2026/9/29/indian-firm-building-15bn-trump-announced-steel-mill-has-deep-russia-ties",
+        "timestamp": 1790748771000,
+        "photo": true,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Record Prices, Rising Mortgage Rates Leave Buyers Sidelined",
+        "url": "https://www.realtor.com/news/trends/sellers-slash-prices-historic-pace-september-2026-report/",
+        "timestamp": 1790852721020,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Poll: Michigan Senate Race Tight Between El-Sayed And Rogers",
+        "url": "https://www.foxnews.com/politics/fox-news-poll-michigan-voters-split-between-el-sayed-rogers",
+        "timestamp": 1790805608000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Trump's New Chatbot Ends Up Debunking His Own Claims",
+        "url": "https://popular.info/p/watch-trumps-new-chatbot-debunk-his",
+        "timestamp": 1790764316000,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "New Aircraft Carrier, 10,000 Troops Raise Fears Of Iran War Escalation",
+        "url": "https://www.aljazeera.com/news/2026/10/2/new-aircraft-carrier-10000-us-troops-is-the-iran-war-about-to-escalate",
+        "timestamp": 1790935698000,
+        "postedAt": 1790958921498
+      }
+    ],
+    "right": [
+      {
+        "headline": "Radio Signal Detected For First Time From Planet Outside Our Solar System",
+        "url": "https://www.msn.com/en-us/science/astronomy/ar-AA2dqaiR",
+        "timestamp": 1791025433357,
+        "photo": true,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "Hegseth Orders Pentagon Voting Stand-Down",
+        "url": "https://www.yahoo.com/news/politics/articles/hegseth-orders-pentagon-voting-stand-151616621.html",
+        "timestamp": 1791025433357,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "Vance, Abbott Break Ground On New Texas Shipyard",
+        "url": "https://www.theblaze.com/news/american-jobs-american-dominance-vance-abbott-break-ground-on-new-shipyard-in-lone-star-state",
+        "timestamp": 1791024243000,
+        "photo": true,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "What's Really Behind Opposition To Data Centers",
+        "url": "https://www.theblaze.com/columns/opinion/whats-really-behind-the-opposition-to-data-centers",
+        "timestamp": 1791023418000,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "HEGSETH TO CUT 20% OF TOP MILITARY BRASS, RAILS AT 'BEARDOS, WEIRDOS AND WIMPS'",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/hegseth-military-personnel-cuts",
+        "timestamp": 1790853741767,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Hegseth Puts Future Of Warfare In Hands Of MAGA Donors",
+        "url": "https://www.theguardian.com/us-news/2026/oct/01/hegseth-musk-warfare-taskforce",
+        "timestamp": 1790958412151,
+        "photo": true,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "California Mayor Accused Of Drunken Behavior, Racial Slur, Harassment",
+        "url": "https://www.foxnews.com/politics/california-mayor-accused-drunken-behavior-racial-slur-harassment-chief-staffs-claim",
+        "timestamp": 1790943822000,
+        "photo": true,
+        "postedAt": 1790958921498,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "NYT Co. Saved $45 Million With Tax Break It Faults Meta For Using",
+        "url": "https://freebeacon.com/media/new-york-times-co-saved-45-million-with-tax-break-it-faults-meta-for-using/",
+        "timestamp": 1790931693000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Trump Admin Wants Tax Filers To Disclose Citizenship Status To IRS",
+        "url": "https://www.foxnews.com/politics/trump-admin-wants-require-tax-filers-disclose-citizenship-status-irs",
+        "timestamp": 1790917895000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Illinois Released Over 500 Criminal Immigrants Despite ICE Detainers, GOP Report Finds",
+        "url": "https://www.washingtonexaminer.com/policy/immigration/4750583/illinois-officials-released-more-than-500-criminal-immigrants-despite-ice-detainers-house-gop-report-finds/",
+        "timestamp": 1790888460000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Real Estate Mogul Warns California Business Climate: 'Enough Is Enough'",
+        "url": "https://www.foxbusiness.com/media/california-business-climate-faces-warning-from-real-estate-mogul-enough-enough",
+        "timestamp": 1790877060000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Historic Rainfall Swamps Lincoln, Nebraska, Setting All-Time Daily Record",
+        "url": "https://www.1011now.com/2026/10/01/historic-rainfall-swamps-lincoln-sets-all-time-daily-record/",
+        "timestamp": 1790845500000,
+        "photo": true,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "IRAN AWAITS U.S. RESPONSE TO CEASEFIRE PROPOSAL TRUMP ALREADY REJECTED",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/",
+        "timestamp": 1790766748261,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Florida County Finds Mysterious Surveillance Cameras With No Clear Owner",
+        "url": "https://www.clickorlando.com/news/local/2026/09/30/florida-dad-says-family-trip-ruined-after-3-year-old-daughter-finds-sex-toy-in-kissimmee-resort-room/",
+        "timestamp": 1790852721019,
+        "photo": true,
+        "postedAt": 1790853741767,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "Trump Orders Mosquitoes And Rats Removed From Washington, DC",
+        "url": "https://reason.com/2026/09/30/trump-orders-mosquitoes-and-rats-out-of-the-district-of-columbia/",
+        "timestamp": 1790800220000,
+        "photo": true,
+        "postedAt": 1790853741767,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Pro-Palestinian Activist Revealed To Be Wealthy Israeli-Linked American",
+        "url": "https://notthebee.com/article/famed-palestinian-activist-is-actualy-rich-white-girl-with-family-that-lives-in-israel/",
+        "timestamp": 1790781494000,
+        "photo": true,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Co-Pilot Stabs Captain On Israel-Bound Flight, Jet Plunges 20,000 Feet",
+        "url": "https://nypost.com/2026/09/30/world-news/israel-bound-plane-makes-emergency-landing-in-saudi-arabia-after-pilots-brawl-sparks-hijacking-fears-reports/",
+        "timestamp": 1790766254114,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Nithya Raman's 'Genocide' Remarks Rattle Jewish Crowd At LA Mayoral Forum",
+        "url": "https://nypost.com/2026/09/29/us-news/nithya-raman-defends-genocide-stance-rattleing-jewish-crowd/",
+        "timestamp": 1790738880000,
+        "photo": true,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Supreme Court's Climate Showdown Jolted By Alito's Last-Minute Move",
+        "url": "https://www.foxnews.com/politics/supreme-court-climate-showdown-jolted-alito-last-minute-decision",
+        "timestamp": 1790714087000,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "California Bans Electric-Shock Gloves After ICE Reveals Plan To Equip Agents",
+        "url": "https://www.theguardian.com/us-news/2026/sep/29/california-bans-electric-shock-gloves-ice",
+        "timestamp": 1790730720000,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Venezuelan Man Shot By ICE Agent In Texas Now Charged With Assault",
+        "url": "https://www.nbcnews.com/news/us-news/venezuelan-man-shot-wounded-ice-agent-texas-charged-assaulting-officer-rcna600533",
+        "timestamp": 1790724203000,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "10-Year Treasury Yield Hits Highest Level Since 2002 As Bond Rout Deepens",
+        "url": "https://www.cnbc.com/2026/10/01/us-treasury-bond-yield.html",
+        "timestamp": 1790852721020,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Florida Becomes Hardest State To Sell A Home",
+        "url": "https://nypost.com/2026/09/30/real-estate/florida-is-now-the-hardest-state-to-sell-a-home/",
+        "timestamp": 1790852721020,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "California Governor Debate: Becerra Targets Trump More Than Hilton",
+        "url": "https://www.realclearpolitics.com/articles/2026/10/01/in_ca_gov_debate_becerra_runs_against_trump_more_than_hilton_154549.html",
+        "timestamp": 1790830800000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Some GOP Candidates Still Wary Of Leaning On Trump's Base",
+        "url": "https://www.politico.com/news/2026/10/01/republicans-trump-campaign-rallies-worries-01102662",
+        "timestamp": 1790845200000,
+        "postedAt": 1790853741767
+      },
+      {
+        "headline": "Trump Signs Order Rebranding AI As 'Super Intelligence' In Deal With Tech Titans",
+        "url": "https://www.foxbusiness.com/politics/trump-signs-executive-order-rebranding-ai-super-intelligence-tech-titans-ink-separate-accord",
+        "timestamp": 1790733120000,
+        "postedAt": 1790766748261
+      },
+      {
+        "headline": "Trump Says Iran 'Ready To Fold Up,' Threatens Post-Midterm Attacks",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/",
+        "timestamp": 1790921940000,
+        "postedAt": 1790958921498
+      },
+      {
+        "headline": "Falling Wages, Soaring Energy Prices Echo The 1970s",
+        "url": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca",
+        "timestamp": 1791025433357,
+        "postedAt": 1791025917057
+      },
+      {
+        "headline": "Bond Market Flashes New Warning Signs",
+        "url": "https://www.cnbc.com/2026/09/24/history-shows-financial-calamities-occur-when-rates-rise-rapidly-like-this-something-always-breaks.html",
+        "timestamp": 1791025433357,
+        "postedAt": 1791025917057
+      }
+    ]
+  },
+  "balance": {
+    "left": 732,
+    "right": 382,
+    "independent": 8,
+    "days": 30,
+    "total": 1114,
+    "pctLeft": 66,
+    "pctRight": 34
+  }
+}
