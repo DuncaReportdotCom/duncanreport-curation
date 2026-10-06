@@ -1,0 +1,521 @@
+{
+  "lastUpdated": 1791286370694,
+  "heroSetDate": "2026-10-06",
+  "hero": {
+    "headline": "STUDENTS AND UNIONS STAGE FRANCE'S BIGGEST PROTEST DAY AMID FISCAL CRISIS",
+    "url": "https://www.reuters.com/world/europe/france-braces-day-school-blockades-street-protests-2026-10-06/",
+    "sublinks": [
+      {
+        "text": "'No Future': Thousands Of High Schoolers Join Nationwide Marches",
+        "url": "https://www.afp.com/en/no-future-thousands-mass-france-high-school-protests"
+      },
+      {
+        "text": "Nearly 2,000 Schools Blockaded Or Closed Across The Country",
+        "url": "https://www.bbc.com/news/live/cm93egpj7y0kt"
+      },
+      {
+        "text": "Le Pen Vows Deep Cost Cuts To Head Off A French 'Default'",
+        "url": "https://www.rfi.fr/en/international-news/20261006-le-pen-vows-drastic-cost-savings-to-prevent-french-default"
+      }
+    ],
+    "liveUpdates": [
+      {
+        "source": "France 24",
+        "url": "https://www.france24.com/en/europe/20261006-live-tens-of-thousands-expected-at-paris-protests-as-unions-join-students"
+      }
+    ],
+    "postedAt": 1791286370694,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "RUSSIAN LAB WORKER'S DEATH FUELS PLAGUE FEARS",
+      "stories": [
+        {
+          "headline": "Fact Check: Misleading Claims About Lab Worker's Death Fuel Outbreak Fears",
+          "url": "https://www.dw.com/en/russia-lab-worker-death-fact-check/a-79560752",
+          "timestamp": 1791285014000,
+          "postedAt": 1791286370694
+        },
+        {
+          "headline": "Pneumonic Plague: How It Spreads And What Risk It Poses To Europe",
+          "url": "https://www.euronews.com/2026/10/06/pneumonic-plague-suspected-in-russia-what-we-know-and-what-is-the-risk-to-europe",
+          "timestamp": 1791280768000,
+          "postedAt": 1791286370694
+        },
+        {
+          "headline": "German Spy Chief Warns Of Risk Of Violent Conflict With Russia",
+          "url": "https://www.politico.eu/article/germany-risks-being-drawn-violent-conflict-russia-says-german-intelligence-chief/?utm_source",
+          "timestamp": 1791197944000,
+          "postedAt": 1791200005960
+        }
+      ]
+    },
+    {
+      "title": "NOBEL PHYSICS PRIZE HONORS NEUTRINO HUNTER",
+      "stories": [
+        {
+          "headline": "Prize Honors Work On 'Ghostly Messengers' From Outer Space",
+          "url": "https://www.rfi.fr/en/international-news/20261006-nobel-physics-prize-honours-work-on-ghostly-messengers-from-outer-space",
+          "timestamp": 1791283972000,
+          "postedAt": 1791286370694
+        },
+        {
+          "headline": "What To Know About All The 2026 Nobel Prizes",
+          "url": "https://time.com/article/2026/10/05/nobel-prize-2026-winners/",
+          "timestamp": 1791282288000,
+          "postedAt": 1791286370694
+        },
+        {
+          "headline": "Francis Halzen Wins 2026 Nobel Prize In Physics",
+          "url": "https://www.reuters.com/science/francis-halzen-wins-2026-nobel-prize-physics-2026-10-06/",
+          "timestamp": 1791281769000,
+          "postedAt": 1791286370694
+        }
+      ]
+    },
+    {
+      "title": "EBOLA OUTBREAK SPREADS FROM CONGO TO KENYA",
+      "stories": [
+        {
+          "headline": "Kenya Confirms First Ebola Case Imported From Congo",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenya-confirms-first-ebola-case-imported-congo-patient-has-died-2026-10-06/",
+          "timestamp": 1791281305000,
+          "postedAt": 1791286370694
+        },
+        {
+          "headline": "France Pledges €7m More To Fight DRC's Worst-Ever Ebola Crisis",
+          "url": "https://www.rfi.fr/en/africa/20261006-france-earmarks-a-further-%E2%82%AC7m-to-help-fight-drc-s-worst-ever-ebola-crisis",
+          "timestamp": 1791280322000,
+          "postedAt": 1791286370694
+        }
+      ]
+    },
+    {
+      "title": "SPAIN: SNAP ELECTION CALLED AFTER HOUSING VOTE",
+      "stories": [
+        {
+          "headline": "Housing Bill Defeat Sparks Protests Over Early Vote",
+          "url": "https://www.aljazeera.com/news/2026/10/4/spain-protests-flare-after-housing-bill-rejected-will-it-cause-snap-poll",
+          "timestamp": 1791197244000,
+          "postedAt": 1791200005960
+        },
+        {
+          "headline": "Sánchez Calls Snap Election For November 29",
+          "url": "https://www.euronews.com/2026/10/05/pedro-sanchez-calls-early-elections-in-spain-after-defeat-of-housing-decrees",
+          "timestamp": 1791195699000,
+          "postedAt": 1791200005960
+        }
+      ]
+    },
+    {
+      "title": "LATVIA ELECTION: PRO-EU COALITION TAKES SHAPE",
+      "stories": [
+        {
+          "headline": "Latvia's Pro-European Ruling Party Wins Parliamentary Election",
+          "url": "https://www.euronews.com/2026/10/04/latvias-pro-european-ruling-party-wins-election-as-populists-gain-ground",
+          "timestamp": 1791112433000,
+          "postedAt": 1791113403776
+        },
+        {
+          "headline": "Latvian PM On Track To Lead Pro-Ukraine Coalition After Election Win",
+          "url": "https://www.reuters.com/world/europe/latvian-pm-track-lead-pro-ukraine-coalition-after-election-win-2026-10-04/",
+          "timestamp": 1791105592000,
+          "postedAt": 1791113403776
+        }
+      ]
+    },
+    {
+      "title": "ISRAEL-GAZA: AFTERMATH AND ACCOUNTABILITY",
+      "stories": [
+        {
+          "headline": "Haunted By Grief, Gaza's Displaced Still Wait Overseas For Return",
+          "url": "https://www.reuters.com/world/middle-east/haunted-by-grief-gazas-displaced-still-wait-overseas-return-2026-10-04/",
+          "timestamp": 1791109932000,
+          "postedAt": 1791113403776
+        },
+        {
+          "headline": "Israeli Air Attack On Gaza City Apartment Kills At Least Five",
+          "url": "https://www.aljazeera.com/news/2026/10/3/israeli-air-attack-on-gaza-city-apartment-kills-at-least-five",
+          "timestamp": 1791105075000,
+          "postedAt": 1791113403776
+        }
+      ]
+    },
+    {
+      "title": "IRAN: HORMUZ STANDOFF AND U.S. DIPLOMACY",
+      "stories": [
+        {
+          "headline": "Iran Tells US There Is No Military Solution To Middle East War",
+          "url": "https://www.rfi.fr/en/international-news/20261004-iran-tells-us-there-is-no-military-solution-to-middle-east-war",
+          "timestamp": 1791107331000,
+          "postedAt": 1791113403776
+        },
+        {
+          "headline": "Iran's Parliament Speaker: Hormuz Won't Reopen Until Tehran's 7 Conditions Met",
+          "url": "https://www.timesofisrael.com/liveblog_entry/irans-parliament-speaker-says-strait-of-hormuz-wont-reopen-until-tehrans-7-conditions-met/",
+          "timestamp": 1791105766000,
+          "feature": true,
+          "postedAt": 1791113403776
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Quebec Separatists Promise Independence Vote After Election Win",
+        "url": "https://www.euronews.com/2026/10/06/quebec-separatists-vow-independence-referendum-after-winning-local-elections-but-falling-s",
+        "timestamp": 1791283723000,
+        "postedAt": 1791286370694,
+        "image": "/img/world-7.jpg"
+      },
+      {
+        "headline": "Hungary To Open Communist-Era Informer Files",
+        "url": "https://www.reuters.com/business/media-telecom/hungary-open-communist-era-informer-files-reckoning-with-cold-war-past-2026-10-06/",
+        "timestamp": 1791284490000,
+        "photo": true,
+        "postedAt": 1791286370694
+      },
+      {
+        "headline": "Iranians Spied On London-Based Journalists For Tehran, Prosecutor Says",
+        "url": "https://www.rfi.fr/en/middle-east/20261006-iranians-spied-on-london-based-journalists-on-behalf-of-tehran-prosecutor",
+        "timestamp": 1791282893000,
+        "postedAt": 1791286370694
+      },
+      {
+        "headline": "Indian Shares Extend Gains Ahead Of RBI Rate Decision",
+        "url": "https://www.reuters.com/world/india/indian-shares-poised-extend-rebound-ahead-rbi-policy-verdict-2026-10-06/",
+        "timestamp": 1791281581000,
+        "postedAt": 1791286370694
+      },
+      {
+        "headline": "Protesters Turn To 'Pull The Plug' Tactics Against AI Firms",
+        "url": "https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms",
+        "timestamp": 1791281220000,
+        "photo": true,
+        "postedAt": 1791286370694
+      },
+      {
+        "headline": "China-Laos Military Base Shows Attack Aircraft, Vehicles, Satellite Images Show",
+        "url": "https://www.reuters.com/world/asia-pacific/attack-aircraft-military-vehicles-visible-new-china-laos-base-satellite-images-2026-10-06/",
+        "timestamp": 1791279882000,
+        "photo": true,
+        "postedAt": 1791286370694
+      },
+      {
+        "headline": "Seoul Probe Finds Border Mine Blast Caused By North Korea",
+        "url": "https://www.scmp.com/news/asia/east-asia/article/3369810/seoul-probe-reveals-border-mine-blast-caused-north-korea",
+        "timestamp": 1791195638000,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Zelensky Offers To Meet Putin At G20 Summit In Miami",
+        "url": "https://www.dw.com/en/dw-exclusive-zelenskyy-offers-to-meet-putin-at-g20-in-miami/a-79241703?maca",
+        "timestamp": 1791197300000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "UK: US Pulls All Bombers From Air Base After Terror Plot",
+        "url": "https://www.timesofisrael.com/us-removes-all-bombers-from-british-air-base-targeted-by-a-suspected-terror-attack/",
+        "timestamp": 1791194875000,
+        "photo": true,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Ethiopia's Forces Retake Mekelle As Tigray Fighting Resumes",
+        "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-forces-retake-mekelle-amid-renewed-tigray-fighting",
+        "timestamp": 1791191135000,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "UK: Prince Andrew Sues Police To Quash Epstein-Linked Search Warrants",
+        "url": "https://www.aljazeera.com/news/2026/10/5/former-prince-andrew-launches-challenge-to-quash-police-search-warrants",
+        "timestamp": 1791189888000,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Spanish Police Begin Clearing Ceuta's Largest Migrant Camp Ahead Of Royal Visit",
+        "url": "https://www.euronews.com/2026/10/04/spanish-police-begin-clearing-ceutas-largest-migrant-camp-ahead-of-king-and-queens-visit",
+        "timestamp": 1791108004000,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Houthis Claim Strike On Saudi Aramco Site As Yemen Fighting Intensifies",
+        "url": "https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies",
+        "timestamp": 1791107668000,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Argentina's Squad Sets Up Camp In Kansas, Buoyed By Messi's Return",
+        "url": "https://www.batimes.com.ar/news/sports/albiceleste-set-up-camp-in-kansas-buoyed-by-messis-return.phtml",
+        "timestamp": 1791107058000,
+        "photo": true,
+        "postedAt": 1791113403776,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "Future Of French Far-Right Hope Bardella In Balance After Antisemitism Claims",
+        "url": "https://www.rfi.fr/en/france/20261004-future-of-french-far-right-hope-bardella-in-balance-after-antisemitism-claims",
+        "timestamp": 1791105538000,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Officials Demand Security Chief's Ouster Over Failures",
+        "url": "https://www.timesofisrael.com/eisenkot-bennett-demand-regevs-ouster-over-security-failures-exposed-by-flydubai-attack/",
+        "timestamp": 1791196421000,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "UAE Shared Flight Details, Including Pilot Info, With Israel",
+        "url": "https://apnews.com/article/israel-flydubai-uae-oman-pilot-flight-attack-03aaa4849c590124a5fde57e92b65870",
+        "timestamp": 1791163620000,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Students Maintain Pressure As School Closures Continue",
+        "url": "https://www.rfi.fr/en/france/20261005-hundreds-of-french-schools-closed-as-students-maintain-protest-pressure",
+        "timestamp": 1791195232000,
+        "postedAt": 1791200005960
+      }
+    ],
+    "center": [
+      {
+        "headline": "Tigray Violence Drives Risk Of Ethiopia-Eritrea War, Analyst Says",
+        "url": "https://www.africanews.com/amp/2026/10/06/tigray-violence-drives-risk-of-ethipia-eritrea-war-analyst-says/",
+        "timestamp": 1791282075000,
+        "postedAt": 1791286370694
+      },
+      {
+        "headline": "Keith Haring Retrospective Opens In Rome With 140-Plus Works",
+        "url": "https://www.euronews.com/video/2026/10/06/keith-haring-retrospective-opens-at-romes-palazzo-braschi-with-more-than-140-works",
+        "timestamp": 1791282502000,
+        "photo": true,
+        "postedAt": 1791286370694,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "These Birds Are Louder Than Elephants And Jackhammers",
+        "url": "https://www.newser.com/story/397561/worlds-loudest-birds-rival-jackhammers.html",
+        "timestamp": 1791281863000,
+        "photo": true,
+        "postedAt": 1791286370694,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Kosovo Police Use Tear Gas On Protesters Demanding War Crimes Court Curbs",
+        "url": "https://www.euronews.com/2026/10/06/kosovo-police-use-tear-gas-on-protesters-demanding-curbs-on-war-crimes-court",
+        "timestamp": 1791280948000,
+        "photo": true,
+        "postedAt": 1791286370694,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "RUSSIAN DRONE HITS MAJOR KYIV BRIDGE AS GERMAN CHANCELLOR MERZ VISITS AMID SIRENS",
+        "url": "https://www.dw.com/en/ukraine-to-step-up-oil-attacks-as-russia-hits-kyiv-bridges/a-79527753",
+        "timestamp": 1791113403776,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Zelensky: Domestic Missiles To Counter Jet Drones By Late October",
+        "url": "https://www.kyivpost.com/post/86084",
+        "timestamp": 1791189598000,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "German And US Scientists Win Nobel Medicine Prize For Optogenetics",
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/deisseroth-hegemann-nagelwin-2026-nobel-medicine-prize-2026-10-05/",
+        "timestamp": 1791195767000,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Japan Summons US Envoy After Marine's Arrest In Okinawa Killing",
+        "url": "https://www.aljazeera.com/news/2026/10/4/japan-summons-us-envoy-as-marine-arrested-over-okinawa-murder",
+        "timestamp": 1791194840000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Gulf Crude Exports Return To Pre-War Levels, Excluding Iran",
+        "url": "https://www.euronews.com/2026/10/05/middle-east-oil-exports-return-to-pre-war-levels-excluding-iran",
+        "timestamp": 1791194012000,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Captain Reveals New Details Of Cockpit Attack In Call With Netanyahu",
+        "url": "https://www.euronews.com/2026/10/04/flydubai-captain-said-he-had-one-more-fight-left-in-me-and-opened-cockpit-door",
+        "timestamp": 1791106632000,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Malaysia Repatriates 1,500 Myanmar Nationals Despite UN Risk Warnings",
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3369705/malaysia-repatriates-1500-myanmar-nationals-despite-un-risk-warnings",
+        "timestamp": 1791112097000,
+        "photo": true,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Most G20 Trade Ministers Reject US Call For Capacity Curbs, China Says",
+        "url": "https://www.scmp.com/economy/china-economy/article/3369703/most-g20-trade-ministers-reject-us-call-curbing-excess-capacity-china-says",
+        "timestamp": 1791110330000,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Hong Kong To Begin Importing Hundreds Of Carers From 2027",
+        "url": "https://www.scmp.com/news/hong-kong/society/article/3369701/hong-kong-set-begin-importing-hundreds-carers-second-half-2027?pgtype",
+        "timestamp": 1791109346000,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "She Died Covering War For Fox News; Her Parents Blame The Network",
+        "url": "https://www.npr.org/player/embed/nx-s1-5737621/nx-s1-mx-5988345-1",
+        "timestamp": 1791108203000,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Tens Of Thousands Protest Spain's Housing Crisis After Eviction Of 87-Year-Old Woman",
+        "url": "https://news.sky.com/story/tens-of-thousands-protest-against-spains-housing-crisis-following-eviction-of-87-year-old-woman-13594689",
+        "timestamp": 1791106310000,
+        "photo": true,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Recording Released Of Kidnapped, Murdered IDF Lookout Noa Marciano",
+        "url": "https://www.timesofisrael.com/i-am-in-gaza-recording-released-of-kidnapped-murdered-idf-lookout-noa-marciano/",
+        "timestamp": 1791110266000,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "France Closes Up To 500 Schools Over Student Protests",
+        "url": "https://www.bbc.com/news/articles/cwkg5n7lm3y5o",
+        "timestamp": 1791175754000,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Bulgaria Searches For Missing Crew After Drones Hit Two More Black Sea Ships",
+        "url": "https://www.rfi.fr/en/international-news/20261006-bulgaria-searches-for-missing-crew-after-drones-hit-two-more-ships-in-black-sea",
+        "timestamp": 1791282414000,
+        "postedAt": 1791286370694
+      }
+    ],
+    "right": [
+      {
+        "headline": "FLAVIO BOLSONARO FORCES RUNOFF AGAINST LULA IN BRAZIL ELECTION",
+        "url": "https://www.theguardian.com/world/2026/oct/05/brazil-presidential-race-election-result-second-round-lula-flavio-bolsonaro",
+        "timestamp": 1791200005960,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Shin Bet Agents Join Interrogation Of FlyDubai Attacker In UAE",
+        "url": "https://www.timesofisrael.com/shin-bet-agents-participating-in-interrogation-of-flydubai-terrorist-in-uae-toi-learns/",
+        "timestamp": 1791280379000,
+        "postedAt": 1791286370694
+      },
+      {
+        "headline": "Turkey And Pakistan To Send Troops To Saudi Arabia Under Defense Pact",
+        "url": "https://www.euronews.com/2026/10/06/turkey-and-pakistan-to-send-troops-to-saudi-arabia-under-defence-pact",
+        "timestamp": 1791283437000,
+        "photo": true,
+        "postedAt": 1791286370694,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Kremlin Warns Lithuania Over Move To Lift Nuclear Arms Ban",
+        "url": "https://www.reuters.com/world/europe/kremlin-warns-lithuania-that-its-move-lift-nuclear-arms-ban-risks-further-2026-10-06/",
+        "timestamp": 1791281383000,
+        "postedAt": 1791286370694
+      },
+      {
+        "headline": "Taiwan Opens De Facto Consulate In US After Xi-Trump Summit",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3369770/days-after-xi-trump-summit-top-taiwan-diplomat-opens-de-facto-consulate-us",
+        "timestamp": 1791198052000,
+        "photo": true,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Musk To Rebrand SpaceXAI As SpaceXSI",
+        "url": "https://www.euronews.com/2026/10/05/musk-to-follow-trump-and-rebrand-spacexai-as-spacexsi",
+        "timestamp": 1791196941000,
+        "photo": true,
+        "postedAt": 1791200005960,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "UK: North Sea Oil Strike Threatens Fuel Supplies",
+        "url": "https://www.theguardian.com/business/2026/oct/05/strikes-by-north-sea-oil-workers-could-severely-disrupt-uk-fuel-supplies",
+        "timestamp": 1791194220000,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Israeli Mathematician Charged With Plotting To Kill Hundreds Of Arabs",
+        "url": "https://www.timesofisrael.com/liveblog_entry/bar-ilan-university-mathematician-charged-with-plotting-to-murder-hundreds-of-arabs/",
+        "timestamp": 1791193607000,
+        "photo": true,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Russia Hospitalizes Nearly 200 After Researcher's Plague Death",
+        "url": "https://www.cnbc.com/2026/10/05/suspected-plague-cases-reported-in-russias-irkutsk-region.html",
+        "timestamp": 1791173785000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1791200005960,
+        "image": "/img/world-5.jpg"
+      },
+      {
+        "headline": "Gaza's Christians Mourn Mother And Daughter Killed In Israeli Strike",
+        "url": "https://www.aljazeera.com/news/2026/10/4/gazas-christians-mourn-mother-and-daughter-killed-in-israeli-attack",
+        "timestamp": 1791155554000,
+        "photo": true,
+        "postedAt": 1791200005960
+      },
+      {
+        "headline": "Yemen's Army Says It Targeted Houthis In Hundreds Of Strikes, Killing 700",
+        "url": "https://www.aljazeera.com/news/2026/10/3/over-1500-houthi-casualties-in-past-24-hours-yemeni-army-says",
+        "timestamp": 1791104400000,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Digital Platforms Are Closing The Gender Gap In Pakistan",
+        "url": "https://www.dw.com/en/digital-platforms-are-closing-the-gender-gap-in-pakistan/video-79513294",
+        "timestamp": 1791112480000,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Asian Games Close In Japan After Records, Rancour And Rain",
+        "url": "https://www.afp.com/en/asian-games-close-japan-after-records-rancour-and-rain",
+        "timestamp": 1791108558000,
+        "photo": true,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Surging Ahead, China's Bigger, Better Batteries",
+        "url": "https://www.straitstimes.com/opinion/surging-ahead-chinas-bigger-better-batteries",
+        "timestamp": 1791108240000,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Off The Record: 'Teflon' Rutte On A Mission To Keep NATO Together",
+        "url": "https://www.euronews.com/2026/10/04/off-the-record-teflon-rutte-is-on-a-mission-to-keep-nato-together",
+        "timestamp": 1791108166000,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Rwandan Genocide Hunter Dafroza Gauthier Dies After Long Battle For Justice",
+        "url": "https://www.rfi.fr/en/africa/20261004-dafroza-gauthier-dead-rwanda-genocide-hunter-france",
+        "timestamp": 1791106810000,
+        "photo": true,
+        "postedAt": 1791113403776
+      },
+      {
+        "headline": "Saudi Coalition Dismisses Houthi Claim Of Riyadh Attack",
+        "url": "https://www.aljazeera.com/news/2026/10/4/houthi-claims-of-targeting-riyadh-are-misleading-saudi-led",
+        "timestamp": 1791187425000,
+        "postedAt": 1791200005960
+      }
+    ]
+  }
+}
