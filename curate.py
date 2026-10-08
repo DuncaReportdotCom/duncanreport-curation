@@ -5123,6 +5123,36 @@ def count_leans(data):
             c[t] += 1
     return c
 
+def enforce_balance(section, data, margin=1):
+    """Deterministic 50/50 guard for main/politics. The prompt-level balance tilt isn't enough on
+    left-heavy news days (most high-volume outlets lean left), so AFTER curation we mechanically trim
+    surplus clearly-LEFT column stories - lowest priority first (oldest / bottom of column) - until
+    the page's left count is within `margin` of its right count. The hero, panels, neutral wires
+    (AP/Reuters) and independents are never touched. This forces each day's page to ~50/50, which
+    pulls the 30-day footer tally back toward even as the old left-heavy days age out of the window."""
+    if section not in ("main", "politics"):
+        return data
+    c = count_leans(data)
+    surplus = c["L"] - c["R"] - margin
+    if surplus <= 0:
+        return data
+    cols = data.get("columns") or {}
+    left_items = []
+    for k in ("left", "center", "right"):
+        for s in (cols.get(k) or []):
+            if s.get("url") and _story_lean(s["url"]) == "L":
+                left_items.append((s.get("postedAt") or s.get("timestamp") or 0, s["url"]))
+    left_items.sort()                                 # oldest / lowest-priority first
+    drop = set(u for _, u in left_items[:surplus])
+    if not drop:
+        return data
+    for k in ("left", "center", "right"):
+        cols[k] = [s for s in (cols.get(k) or []) if s.get("url") not in drop]
+    data["columns"] = cols
+    print("  balance-trim[%s]: dropped %d surplus left column stories (was L=%d R=%d, target ~even)"
+          % (section, len(drop), c["L"], c["R"]))
+    return data
+
 BALANCE_PATH = os.path.join(ROOT, "balance_history.json")
 
 def rolling_balance(section, counts):
@@ -5301,6 +5331,7 @@ def build():
         # spending many minutes re-fetching hundreds of already-checked article pages every push.
         data = replace_paywalled(data, gift_store=gift_store, live_cap=(25 if sec in targets else 0))
         data = enforce_panel_purity(data)      # strip off-topic/padded stories from panels (deterministic)
+        data = enforce_balance(sec, data)      # deterministic 50/50 trim for main/politics (drops surplus left)
         if sec == "life-culture":
             data = cap_fashion(data)     # at most one fashion item, never a fashion panel
         if sec == "sports":
