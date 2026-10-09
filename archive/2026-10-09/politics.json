@@ -1,41 +1,70 @@
 {
-  "lastUpdated": 1791459833932,
-  "heroSetDate": "2026-10-08",
+  "lastUpdated": 1791546685787,
+  "heroSetDate": "2026-10-09",
   "hero": {
-    "headline": "CORNELL GANG-RAPE ACCUSER WAS 'MISLED' ABOUT CRIMINAL INVESTIGATION, LAWYER SAYS",
-    "url": "https://apnews.com/article/cornell-university-rape-investigation-sitin-protest-e5d3182af81fff6efc86d700516e171a",
+    "headline": "TRUMP: U.S. WON'T ATTACK IRAN BEFORE MIDTERMS",
+    "url": "https://www.axios.com/2026/10/08/trump-iran-strikes-midterm-elections",
     "sublinks": [
       {
-        "text": "RealClear: Why Weren't The Cornell Allegations Taken Seriously Sooner?",
-        "url": "https://www.realclearpolitics.com/articles/2026/10/08/why_werent_the_cornell_allegations_taken_seriously.html"
+        "text": "Trump Says His Remark That Iran Could 'Take Out' Los Angeles Was Misinterpreted",
+        "url": "https://www.reuters.com/world/us/trump-says-comment-that-iran-could-take-out-los-angeles-was-misinterpreted-2026-10-08/"
       },
       {
-        "text": "Daily Wire: College's Choice Of Obama-Era Investigator Draws Scrutiny",
-        "url": "https://www.dailywire.com/news/the-last-time-a-college-hired-an-obama-aide-to-investigate-a-sex-scandal-it-didnt-end-well?author"
+        "text": "Democratic Senator Accuses Hegseth Of Hiding True Cost Of Iran War From Public",
+        "url": "https://www.theguardian.com/us-news/2026/oct/08/chris-murphy-pete-hegseth-iran-war-costs"
       },
       {
-        "text": "Blaze Media: Case Raises Alarm Among Parents Of College-Age Sons",
-        "url": "https://www.theblaze.com/columns/opinion/the-cornell-7-case-should-terrify-every-father-of-boys"
+        "text": "Congress Still Hasn't Voted To Authorize Funding For The Iran War, Report Finds",
+        "url": "https://www.realclearpolicy.com/articles/2026/10/03/congress_hasnt_voted_to_pay_for_the_iran_war_1209676.html"
       }
     ],
-    "postedAt": 1791459833931,
+    "postedAt": 1791546685787,
     "img": true
   },
   "groups": [
     {
-      "title": "TRUMP LOOMS OVER STATE GOVERNOR AND SENATE DEBATES",
+      "title": "2026 MIDTERMS: SENATE RACE DEBATES AND POLLS",
       "stories": [
         {
-          "headline": "Susan Collins, Troy Jackson Clash In Maine Senate Debate",
-          "url": "https://www.mainepublic.org/politics/2026-10-07/sen-collins-and-troy-jackson-clash-over-abortion-ice-and-trump-in-first-debate",
-          "timestamp": 1791347100000,
-          "postedAt": 1791374086985
+          "headline": "Michigan Senate Debate: El-Sayed, Rogers Clash On Key Issues",
+          "url": "https://www.aljazeera.com/news/2026/10/9/key-takeaways-from-us-senate-debate-in-michigan-between-el-sayed-rogers",
+          "timestamp": 1791523066000,
+          "postedAt": 1791546685787
         },
         {
-          "headline": "Michigan's John James Seeks Distance From Trump In Governor Debate",
-          "url": "https://www.nbcnews.com/politics/2026-election/republican-john-james-distance-trump-michigan-governor-debate-rcna601820",
-          "timestamp": 1791336900000,
-          "postedAt": 1791374086985
+          "headline": "Fiery Georgia Senate Debate Turns Personal",
+          "url": "https://thehill.com/homenews/campaign/6138009-georgia-senate-debate-ossoff-collins-takeaways/",
+          "timestamp": 1791509820000,
+          "postedAt": 1791546685787
+        },
+        {
+          "headline": "Iowa Senate Candidates Spar Over Iran War Costs, Affordability, Voting Records",
+          "url": "https://www.iowapublicradio.org/political-news/2026-10-08/u-s-senate-debate-ashley-hinson-josh-turek",
+          "timestamp": 1791482160000,
+          "postedAt": 1791546685787
+        },
+        {
+          "headline": "Poll: Texas Senate Race Between Paxton And Talarico Tied",
+          "url": "https://www.uml.edu/news/press-releases/2026/10092026-texas-poll.aspx",
+          "timestamp": 1791465305000,
+          "postedAt": 1791546685787
+        }
+      ]
+    },
+    {
+      "title": "ICE AGENT SHOOTS MAN ON CROWDED NEW YORK STREET",
+      "stories": [
+        {
+          "headline": "ICE Officer Shoots, Wounds Man In Car Amid Crowded Scene",
+          "url": "https://abc7ny.com/post/ice-officer-shoots-man-vehicle-marble-hill-nyc/19924201/",
+          "timestamp": 1791541470000,
+          "postedAt": 1791546685787
+        },
+        {
+          "headline": "Man Shot By ICE Agent In NYC's Marble Hill, Authorities Say",
+          "url": "https://www.cbsnews.com/newyork/news/ice-agent-shoots-person-in-nycs-marble-hill-law-enforcement-sources-say/",
+          "timestamp": 1791540513000,
+          "postedAt": 1791546685787
         }
       ]
     },
@@ -96,32 +125,41 @@
           "postedAt": 1791287619954
         }
       ]
-    },
-    {
-      "title": "TENNESSEE EXECUTION FALLOUT",
-      "stories": [
-        {
-          "headline": "Advice From An Executioner After A Botched Execution",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/christa-pike-donated-last-meal-execution-b3060850.html",
-          "timestamp": 1791199280000,
-          "postedAt": 1791201210130
-        },
-        {
-          "headline": "Outgoing Tennessee Prison Chief Had History Of Execution Missteps Before Pike",
-          "url": "https://www.cnn.com/2026/10/05/us/christa-pike-execution-tennessee",
-          "timestamp": 1791187244000,
-          "postedAt": 1791201210130
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
       {
-        "headline": "Lethal Injection Drug From Botched Christa Pike Execution Used In Texas",
-        "url": "https://www.cnn.com/2026/10/08/us/texas-tennessee-lethal-injection-execution-hnk",
-        "timestamp": 1791451131000,
-        "postedAt": 1791459833931
+        "headline": "Trump's Diesel Price Problem",
+        "url": "https://www.npr.org/2026/10/07/nx-s1-5992963/dyed-diesel-fuel-price-farmers-trucks",
+        "timestamp": 1791541994000,
+        "postedAt": 1791546685787
+      },
+      {
+        "headline": "Waste Of The Day: Post Office Paid Odd Invoices",
+        "url": "https://www.realclearinvestigations.com/articles/2026/10/09/waste_of_the_day_post_office_paid_odd_invoices_1209696.html",
+        "timestamp": 1791545516000,
+        "postedAt": 1791546685787
+      },
+      {
+        "headline": "Christa Pike Is Walking, Eating After Failed Execution Attempt",
+        "url": "https://www.npr.org/2026/10/09/nx-s1-5996402/christa-pike-updates",
+        "timestamp": 1791525170000,
+        "photo": true,
+        "postedAt": 1791546685787
+      },
+      {
+        "headline": "DOJ Seeks Indictment Of Jan. 6 Witness Cassidy Hutchinson",
+        "url": "https://www.cbsnews.com/news/doj-seeking-indictment-cassidy-hutchinson-jan-6/",
+        "timestamp": 1791495600000,
+        "feature": true,
+        "postedAt": 1791546685787
+      },
+      {
+        "headline": "Trump Casts Long Shadow Over California Campaigns",
+        "url": "https://www.realclearpolitics.com/articles/2026/10/08/trump_casts_long_shadow_over_california_campaigns.html",
+        "timestamp": 1791435600000,
+        "postedAt": 1791546685787
       },
       {
         "headline": "UK: Tony Blair Says Fastest-Growing Party Has An Anti-Jewish Problem",
@@ -169,7 +207,7 @@
         "timestamp": 1791370200000,
         "photo": true,
         "postedAt": 1791374086985,
-        "image": "/img/politics-2.jpg"
+        "image": "/img/politics-3.jpg"
       },
       {
         "headline": "Trump Calls For NYT, Other Outlets To Be 'Arrested' Over Rally Crowd Reports",
@@ -191,7 +229,7 @@
         "timestamp": 1791331080000,
         "photo": true,
         "postedAt": 1791374086985,
-        "image": "/img/politics-3.jpg"
+        "image": "/img/politics-4.jpg"
       },
       {
         "headline": "Fired GOP Operative Speaks Out Over 'OK' Sign Controversy",
@@ -233,59 +271,34 @@
         "postedAt": 1791287619955
       },
       {
-        "headline": "Sen. Husted Answers Schumer's 'Toothless' Charge On Data Center Bill",
-        "url": "https://thehill.com/policy/technology/6128961-husted-defends-energy-price-plan/",
-        "timestamp": 1791198240000,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "Big Tech Leads AI Safety Guardrail Push: Protection Or Profit?",
-        "url": "https://www.washingtonexaminer.com/in_focus/4751768/big-tech-ai-safety-guardrails-push-protection-profit/",
-        "timestamp": 1791198000000,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "Trump Tells South Korea To Sign Alaska LNG Deal Or Face Higher Charges",
-        "url": "https://www.cnbc.com/2026/10/05/trump-alaska-lng-south-korea-pay.html",
-        "timestamp": 1791161220000,
-        "photo": true,
-        "postedAt": 1791201210130,
-        "image": "/img/politics-6.jpg"
-      },
-      {
-        "headline": "White House Defends New Press Aide Who Posed With Rifle In Anti-Biden Shirt",
-        "url": "https://www.theguardian.com/us-news/2026/oct/04/white-house-press-aide-beni-rae-harmony",
-        "timestamp": 1791157080000,
-        "photo": true,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "Automakers Save Billions On Costs, But Will Buyers See Savings?",
-        "url": "https://www.theblaze.com/lifestyle/car-makers-just-saved-billions-in-costs-but-will-buyers-see-the-savings",
-        "timestamp": 1791199933000,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "Meet The Blue-State Senate Candidate Giving Democrats Heartburn",
-        "url": "https://www.dailywire.com/news/meet-the-blue-state-senate-candidate-giving-dems-heartburn",
-        "timestamp": 1791196875000,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "Poll Shows Another Massive Swing In California Governor's Race",
-        "url": "https://nypost.com/2026/10/04/us-news/xavier-becerras-lead-over-steve-hilton-shrinks-to-5-6-points-in-new-california-governor-poll/",
-        "timestamp": 1791146580000,
-        "postedAt": 1791201210130
-      },
-      {
         "headline": "Cook Political Report Shifts Three Senate Races Toward Democrats",
         "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-majority-squarely-democrats-sights-kansas-moves-toss-two",
         "timestamp": 1791346637000,
         "feature": true,
         "postedAt": 1791374086985
+      },
+      {
+        "headline": "How Trump Has Alienated Republican Voters",
+        "url": "https://www.seattletimes.com/nation-world/nation-politics/hes-not-making-sense-how-trump-has-alienated-voters-for-the-gop/",
+        "timestamp": 1791501854000,
+        "postedAt": 1791546685787
       }
     ],
     "center": [
+      {
+        "headline": "Alaska's Pro-Ranked-Choice-Voting Campaign Bankrolled By Out-Of-State Money",
+        "url": "https://thefederalist.com/2026/10/09/alaska-campaign-decries-dark-money-while-using-it-to-preserve-ranked-choice-voting/",
+        "timestamp": 1791534411000,
+        "postedAt": 1791546685787,
+        "image": "/img/politics-6.jpg"
+      },
+      {
+        "headline": "Maduro And His Wife Hit With Fresh Torture Charges",
+        "url": "https://www.axios.com/2026/10/08/maduro-torture-charges-court-case",
+        "timestamp": 1791477067000,
+        "photo": true,
+        "postedAt": 1791546685787
+      },
       {
         "headline": "TRUMP SAYS IRAN COULD 'TAKE' SAN DIEGO AND LOS ANGELES, SPARKS BIPARTISAN BACKLASH",
         "url": "https://www.aljazeera.com/news/2026/10/7/politicians-slam-trumps-suggestion-that-iran-take-san-diego-los-angeles",
@@ -293,17 +306,10 @@
         "postedAt": 1791374086985
       },
       {
-        "headline": "Iowa Senate Debate Turns On Iran War, Trump And Taxes",
-        "url": "https://punchbowl.news/article/campaigns/dems-iowa-momentum/",
-        "timestamp": 1791431812000,
-        "postedAt": 1791459833931
-      },
-      {
         "headline": "ICE Enforcement Becomes A Flashpoint In Midterm Campaigns",
         "url": "https://popular.info/p/ice-ing-the-midterms",
         "timestamp": 1791455485000,
-        "postedAt": 1791459833931,
-        "image": "/img/politics-7.jpg"
+        "postedAt": 1791459833931
       },
       {
         "headline": "ICE Has Quietly Used Minnesota Warehouse As Detention Site All Summer, Neighbors Say",
@@ -384,7 +390,7 @@
         "timestamp": 1791271500000,
         "photo": true,
         "postedAt": 1791287619954,
-        "image": "/img/politics-4.jpg"
+        "image": "/img/politics-5.jpg"
       },
       {
         "headline": "Senate Committee Votes To Hold Fauci In Contempt Of Congress",
@@ -393,24 +399,6 @@
         "feature": true,
         "photo": true,
         "postedAt": 1791287619955
-      },
-      {
-        "headline": "The New Face Of An Old Hatred",
-        "url": "https://www.realclearpolitics.com/articles/2026/10/05/the_new_face_of_an_old_hatred_154550.html",
-        "timestamp": 1791198900000,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "Independent Democrats Or Democratic Independents?",
-        "url": "https://www.realclearpolitics.com/articles/2026/10/05/independent_democrats_or_democratic_independents_154556.html",
-        "timestamp": 1791133200000,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "House Democrats Target Six Seats Trump Carried By 16 Points",
-        "url": "https://www.politico.com/news/2026/10/05/house-dems-target-six-red-seats-trump-01106348",
-        "timestamp": 1791189900000,
-        "postedAt": 1791201210130
       },
       {
         "headline": "Silver Bulletin's FLIPR Forecast Shows Widening Democratic Edge",
@@ -441,16 +429,51 @@
         "url": "https://www.axios.com/2026/10/08/republicans-triage-campaign-midterms",
         "timestamp": 1791450287000,
         "postedAt": 1791459833931
+      },
+      {
+        "headline": "Immigration Attorneys Advise Microsoft Workers Worried About Green Cards",
+        "url": "https://www.yahoo.com/news/us/articles/advice-immigration-attorneys-microsoft-workers-023446625.html",
+        "timestamp": 1791513240000,
+        "postedAt": 1791546685787,
+        "image": "/img/politics-7.jpg"
       }
     ],
     "right": [
+      {
+        "headline": "CORNELL GANG-RAPE ACCUSER WAS 'MISLED' ABOUT CRIMINAL INVESTIGATION, LAWYER SAYS",
+        "url": "https://apnews.com/article/cornell-university-rape-investigation-sitin-protest-e5d3182af81fff6efc86d700516e171a",
+        "timestamp": 1791459833931,
+        "postedAt": 1791459833931
+      },
+      {
+        "headline": "Kimberly Guilfoyle Pushed Donor To Wire $100,000 To Her Amex Account",
+        "url": "https://thehill.com/homenews/administration/6136101-ambassador-guilfoyle-wire-request/",
+        "timestamp": 1791545306000,
+        "photo": true,
+        "postedAt": 1791546685787
+      },
+      {
+        "headline": "Vance Takes On Microsoft Over H-1B Visas Amid Battle For Alaska",
+        "url": "https://www.dailywire.com/episode/mrn-261009",
+        "timestamp": 1791534899000,
+        "photo": true,
+        "postedAt": 1791546685787,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "Vance Heralds New Fraud Crackdowns",
+        "url": "https://www.realclearpolitics.com/articles/2026/10/09/vance_heralds_new_fraud_crackdowns_154576.html",
+        "timestamp": 1791512221000,
+        "photo": true,
+        "postedAt": 1791546685787
+      },
       {
         "headline": "City Council Meeting Opens With Prayer To Satan, Sparking Backlash",
         "url": "https://dailycaller.com/2026/10/08/ottumwa-iowa-city-council-satanic-prayer",
         "timestamp": 1791457740000,
         "photo": true,
         "postedAt": 1791459833931,
-        "image": "/img/politics-0.jpg"
+        "image": "/img/politics-1.jpg"
       },
       {
         "headline": "Surveillance Contract Gives County 20 Cameras Tracking Billions Of License Plates",
@@ -458,7 +481,7 @@
         "timestamp": 1791456300000,
         "photo": true,
         "postedAt": 1791459833931,
-        "image": "/img/politics-1.jpg"
+        "image": "/img/politics-2.jpg"
       },
       {
         "headline": "CNN Poll Finds Tightening Senate Races In Iowa And Ohio",
@@ -532,65 +555,13 @@
         "timestamp": 1791248820000,
         "feature": true,
         "photo": true,
-        "postedAt": 1791287619955,
-        "image": "/img/politics-5.jpg"
-      },
-      {
-        "headline": "Seattle Votes To Ban Grocery 'Surveillance Pricing'",
-        "url": "https://www.theblaze.com/tech/seattle-votes-to-ban-grocery-surveillance-pricing-your-data-shouldn-t-set-your-food-bill",
-        "timestamp": 1791198353000,
-        "photo": true,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "Attempted Mass Murder Of Jews Dismissed As 'Cockpit Dispute'",
-        "url": "https://www.washingtonexaminer.com/op-eds/4752353/flydubai-flight-1073-normalized-antisemitism-lone-actor-terror/",
-        "timestamp": 1791198000000,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "Hilton Campaign's Sexually Suggestive Ad Condemned By Political Allies",
-        "url": "https://politicalwire.com/2026/10/01/president-trump-to-campaign-with-bruce-blakeman/",
-        "timestamp": 1791176760000,
-        "photo": true,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "Iran Says Strait Of Hormuz Won't Reopen Until Conditions Met",
-        "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/",
-        "timestamp": 1791118781000,
-        "photo": true,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "Army Tests Counter-Drone Technology At Mexican Border",
-        "url": "https://www.newsmax.com/newsfront/drones-army-border/2026/10/05/id/1271687/",
-        "timestamp": 1791198148000,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "Trump Rallies For Ohio Republicans, Defiant On Midterm Chances",
-        "url": "https://www.aljazeera.com/news/2026/10/4/trump-defiant-about-midterm-chances-as-he-rallies-for-republicans-in-ohio",
-        "timestamp": 1791174554000,
-        "postedAt": 1791201210130
-      },
-      {
-        "headline": "Cornell Student Who Gave Police Leads In Alleged Rape Says She Feels 'Betrayed'",
-        "url": "https://www.nbcnews.com/news/us-news/cornell-student-gave-police-leads-alleged-rape-feels-betrayed-handling-rcna601520",
-        "timestamp": 1791173040000,
-        "postedAt": 1791201210130
+        "postedAt": 1791287619955
       },
       {
         "headline": "White House: Diesel Action Aims To Help Truckers And Farmers",
         "url": "https://www.whitehouse.gov/releases/2026/10/president-trump-takes-decisive-action-to-lower-diesel-costs-for-american-truckers-farmers/",
         "timestamp": 1791246007000,
         "postedAt": 1791287619955
-      },
-      {
-        "headline": "Trump Casts Long Shadow Over California Congressional Campaigns",
-        "url": "https://www.realclearpolitics.com/articles/2026/10/08/trump_casts_long_shadow_over_california_campaigns.html",
-        "timestamp": 1791456996000,
-        "postedAt": 1791459833931
       },
       {
         "headline": "Hochul Holds Double-Digit Lead In New York Governor Poll",
@@ -603,6 +574,24 @@
         "url": "https://www.politico.com/news/2026/10/08/senate-democrat-money-kansas-mississippi-florida-01111430",
         "timestamp": 1791450000000,
         "postedAt": 1791459833931
+      },
+      {
+        "headline": "Poll: Democrat Troy Jackson Narrowly Leads Susan Collins In Maine",
+        "url": "https://mainebeacon.com/new-polling-jackson-narrowly-leads-collins-mainers-want-affordable-childcare/",
+        "timestamp": 1791541916000,
+        "postedAt": 1791546685787
+      },
+      {
+        "headline": "Poll: 1 In 4 Trump Voters Say GOP Candidates Should Break From The President",
+        "url": "https://www.politico.com/news/2026/10/09/poll-trump-voters-candidate-breaks-battlegrounds-01112449",
+        "timestamp": 1791536400000,
+        "postedAt": 1791546685787
+      },
+      {
+        "headline": "Ithaca City Council Calls On Cornell To Report Sex Assault Probes To Local Police",
+        "url": "https://www.nbcnews.com/news/us-news/ithaca-city-council-calls-cornell-report-sexual-assault-investigations-rcna602328",
+        "timestamp": 1791486395000,
+        "postedAt": 1791546685787
       }
     ]
   },
@@ -630,11 +619,11 @@
     }
   ],
   "balance": {
-    "left": 645,
-    "right": 731,
+    "left": 647,
+    "right": 726,
     "independent": 21,
     "days": 30,
-    "total": 1376,
+    "total": 1373,
     "pctLeft": 47,
     "pctRight": 53
   }

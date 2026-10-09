@@ -1,16 +1,11 @@
 {
-  "lastUpdated": 1791460243102,
-  "heroSetDate": "2026-10-08",
+  "lastUpdated": 1791547354829,
+  "heroSetDate": "2026-10-09",
   "hero": {
-    "headline": "ANNE CARSON WINS 2026 NOBEL PRIZE IN LITERATURE",
-    "url": "https://lithub.com/anne-carson-has-won-the-2026-nobel-prize-in-literature/",
-    "sublinks": [
-      {
-        "text": "Analysis: How Carson Discovered New Possibilities Within Language",
-        "url": "https://theconversation.com/anne-carson-wins-nobel-prize-in-literature-how-she-discovered-new-possibilities-within-language-293969"
-      }
-    ],
-    "postedAt": 1791460243102,
+    "headline": "SCIENTISTS DISCOVER 180,000 GIANT TORTOISES ON ONE SEYCHELLES ISLAND",
+    "url": "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles",
+    "sublinks": [],
+    "postedAt": 1791547354829,
     "img": true
   },
   "groups": [
@@ -30,68 +25,50 @@
           "postedAt": 1791374721929
         }
       ]
-    },
-    {
-      "title": "NEW EVIDENCE OF HUMAN SACRIFICE AT EGYPT'S FIRST ROYAL TOMBS",
-      "stories": [
-        {
-          "headline": "Skulls Of Civilians Buried Near Egypt's First Kings Show Signs Of Human Sacrifice",
-          "url": "https://www.sciencealert.com/skulls-buried-around-egypts-first-kings-reveal-evidence-of-human-sacrifice-5000-years-ago",
-          "timestamp": 1791198009000,
-          "feature": true,
-          "postedAt": 1791201866079
-        },
-        {
-          "headline": "New Forensic Analysis Backs Theory Of Ancient Egyptian 'Retainer Sacrifice'",
-          "url": "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/",
-          "timestamp": 1791195545000,
-          "postedAt": 1791201866080
-        }
-      ]
-    },
-    {
-      "title": "OMEGA'S NEW JAMES BOND WATCHES, EXPLAINED",
-      "stories": [
-        {
-          "headline": "GQ Takes A Closer Look At Omega's New Villain-Themed Watch",
-          "url": "https://www.gq.com/story/omega-james-bond-new-watches-spectre-editions-10-5-26",
-          "timestamp": 1791197511000,
-          "postedAt": 1791201866079
-        },
-        {
-          "headline": "Esquire Details Omega's Two New 007 Watches And Their Price Tags",
-          "url": "https://www.esquire.com/uk/watches/a74006266/omega-james-bond-spectre-watches/",
-          "timestamp": 1791194520000,
-          "postedAt": 1791201866080
-        },
-        {
-          "headline": "Omega Unveils Next-Generation Bond Watches, Including Its First For Villains",
-          "url": "https://www.gearpatrol.com/watches/omega-seamaster-james-bond-spectre-editions/",
-          "timestamp": 1791194400000,
-          "postedAt": 1791201866080
-        }
-      ]
-    },
-    {
-      "title": "AVENGERS: ENDGAME RECLAIMS THE ALL-TIME BOX-OFFICE CROWN",
-      "stories": [
-        {
-          "headline": "Avengers: Endgame Returns To No. 1 On All-Time Global Box-Office Chart, Passing Avatar",
-          "url": "https://www.hollywoodreporter.com/movies/movie-news/avengers-endgame-beats-avatar-highest-grossing-box-office-1236721833/",
-          "timestamp": 1791187370000,
-          "postedAt": 1791201866080
-        },
-        {
-          "headline": "How An 'Encore' Reissue Pushed Endgame Past Avatar's Long-Standing Record",
-          "url": "https://www.thewrap.com/creative-content/movies/avengers-endgame-avatar-box-office/",
-          "timestamp": 1791126525000,
-          "postedAt": 1791201866080
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "13 Old-School Steakhouse Dishes That Deserve A Comeback",
+        "url": "https://www.seriouseats.com/steakhouse-dinner-recipes-12165445",
+        "timestamp": 1791540000000,
+        "photo": true,
+        "postedAt": 1791547354829
+      },
+      {
+        "headline": "Most Of ChatGPT's Teen Safeguards Don't Actually Work, Watchdog Finds",
+        "url": "https://www.npr.org/2026/10/09/nx-s1-5995514/chatgpt-openai-teens-mental-health",
+        "timestamp": 1791536400000,
+        "feature": true,
+        "postedAt": 1791547354829
+      },
+      {
+        "headline": "One Student's Journey Into The Science Of Memory",
+        "url": "https://www.npr.org/2026/10/09/nx-s1-5986352/memory-family-burger-king-grandfather",
+        "timestamp": 1791536400000,
+        "postedAt": 1791547354829
+      },
+      {
+        "headline": "Fashion Industry Wants Women Back In Bras — Is Underwire The Answer?",
+        "url": "https://www.theguardian.com/fashion/2026/oct/08/underwire-bra-fashion",
+        "timestamp": 1791464400000,
+        "postedAt": 1791547354829
+      },
+      {
+        "headline": "Surprising Mammal Fossil Has Scientists Rethinking Ancient Diets",
+        "url": "https://www.npr.org/2026/10/07/nx-s1-5991361/fossil-mammal-platypus-chew-swallow-suckle-earliest",
+        "timestamp": 1791403156000,
+        "photo": true,
+        "postedAt": 1791547354829
+      },
+      {
+        "headline": "Eva Marie Saint Held The 'Oldest' Oscar Record — Who Holds It Now?",
+        "url": "https://www.cbs8.com/article/news/nation-world/eva-marie-saint-oscar-oldest-record-academy-award-holder/507-cd276578-c4de-4d63-a574-6d211c714615",
+        "timestamp": 1791380220000,
+        "photo": true,
+        "postedAt": 1791547354829
+      },
       {
         "headline": "Large Study Finds Nordic Diet Could Help You Live Longer",
         "url": "https://www.sciencealert.com/ever-heard-of-the-nordic-diet-large-study-finds-it-could-help-you-live-longer",
@@ -110,7 +87,7 @@
         "timestamp": 1791453689000,
         "photo": true,
         "postedAt": 1791460243102,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-2.jpg"
       },
       {
         "headline": "Paramount Games And WB Games Merge Under Skydance After $111 Billion Deal",
@@ -124,7 +101,7 @@
         "timestamp": 1791379200000,
         "photo": true,
         "postedAt": 1791460243102,
-        "image": "/img/life-culture-2.jpg"
+        "image": "/img/life-culture-4.jpg"
       },
       {
         "headline": "Scientists Discover Gigantic New Dinosaur Species In Thailand",
@@ -145,7 +122,7 @@
         "timestamp": 1791370993000,
         "photo": true,
         "postedAt": 1791374721929,
-        "image": "/img/life-culture-3.jpg"
+        "image": "/img/life-culture-5.jpg"
       },
       {
         "headline": "This Cheesy White Bean Skillet Delivers French Onion Soup Flavor In Every Bite",
@@ -193,41 +170,50 @@
         "timestamp": 1791155527000,
         "photo": true,
         "postedAt": 1791288174935
-      },
-      {
-        "headline": "Freediving Appears To Reorganize The Human Brain On A Large Scale",
-        "url": "https://www.sciencealert.com/freediving-seems-to-reorganize-the-human-brain-on-a-large-scale",
-        "timestamp": 1791200105000,
-        "photo": true,
-        "postedAt": 1791201866079
-      },
-      {
-        "headline": "Decaf Coffee May Have A Surprising Edge Over Regular, Study Finds",
-        "url": "https://www.sciencealert.com/decaf-coffee-might-have-a-surprising-advantage-over-caffeinated-study-finds",
-        "timestamp": 1791196289000,
-        "photo": true,
-        "postedAt": 1791201866080
-      },
-      {
-        "headline": "One Diet Change May Ease Depression Symptoms In Just Four Weeks",
-        "url": "https://www.sciencealert.com/one-diet-change-may-ease-depression-symptoms-in-just-4-weeks-small-trial-finds",
-        "timestamp": 1791196288000,
-        "postedAt": 1791201866080
-      },
-      {
-        "headline": "Common Blood Pressure Drug Could Help Treat ADHD, Animal Studies Suggest",
-        "url": "https://www.sciencealert.com/a-common-blood-pressure-drug-could-help-treat-adhd-animal-studies-suggest",
-        "timestamp": 1791194405000,
-        "postedAt": 1791201866080
-      },
-      {
-        "headline": "Eva Marie Saint, Oscar-Winning Actress, Dies At 101",
-        "url": "https://www.rogerebert.com/tributes/lit-from-within-eva-marie-saint-1924-2026",
-        "timestamp": 1791384498000,
-        "postedAt": 1791460243102
       }
     ],
     "center": [
+      {
+        "headline": "ANNE CARSON WINS 2026 NOBEL PRIZE IN LITERATURE",
+        "url": "https://lithub.com/anne-carson-has-won-the-2026-nobel-prize-in-literature/",
+        "timestamp": 1791460243102,
+        "postedAt": 1791460243102
+      },
+      {
+        "headline": "A Student Who Hated Reading Made A Podcast About Finding The Right Diagnosis",
+        "url": "https://www.npr.org/2026/10/09/nx-s1-5977043/dyslexia-teenager-diagnosis-reading",
+        "timestamp": 1791536400000,
+        "postedAt": 1791547354829
+      },
+      {
+        "headline": "UK: Prince Harry Says He 'Slipped Into Depression' After Move To Canada",
+        "url": "https://www.bbc.com/news/articles/c623dv9n93evo",
+        "timestamp": 1791485741000,
+        "photo": true,
+        "postedAt": 1791547354829
+      },
+      {
+        "headline": "Bad Bunny And Lana Del Rey To Voice Radio Hosts In 'GTA VI'",
+        "url": "https://www.justjared.com/2026/10/08/lana-del-rey-jeremy-dufrene-bad-bunny-gta-6-radio-stations-hosts/",
+        "timestamp": 1791469746000,
+        "photo": true,
+        "postedAt": 1791547354829,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "Largest 2D Map Of The Universe Reveals New Gravitational Lenses",
+        "url": "https://phys.org/news/2026-10-largest-2d-universe-scientists-gravitational.html",
+        "timestamp": 1791466812000,
+        "photo": true,
+        "postedAt": 1791547354829
+      },
+      {
+        "headline": "What We Know About The Russian Plague Scare",
+        "url": "https://www.realclearscience.com/articles/2026/10/08/what_we_know_about_the_russian_plague_scare_1210535.html",
+        "timestamp": 1791425591000,
+        "feature": true,
+        "postedAt": 1791547354829
+      },
       {
         "headline": "JAGUAR UNVEILS TYPE 01, A SIX-YEAR GAMBLE TO REINVENT THE BRITISH ICON",
         "url": "https://www.esquire.com/uk/design/a74064043/the-jaguar-type-01/",
@@ -260,13 +246,6 @@
         "postedAt": 1791460243102
       },
       {
-        "headline": "Surprising Mammal Fossil Gives Scientists Something To Chew On",
-        "url": "https://www.npr.org/2026/10/07/nx-s1-5991361/fossil-mammal-platypus-chew-swallow-suckle-earliest",
-        "timestamp": 1791403156000,
-        "photo": true,
-        "postedAt": 1791460243102
-      },
-      {
         "headline": "The Best First-Class Airline Cabins In The World",
         "url": "https://www.afar.com/magazine/the-best-first-class-airline-cabins-in-the-world",
         "timestamp": 1791367850000,
@@ -279,7 +258,7 @@
         "timestamp": 1791367227000,
         "photo": true,
         "postedAt": 1791374721929,
-        "image": "/img/life-culture-5.jpg"
+        "image": "/img/life-culture-7.jpg"
       },
       {
         "headline": "Startup Plans To Turn Data Centers' Waste Heat Into Drinking Water",
@@ -292,12 +271,6 @@
         "url": "https://www.bbc.com/news/articles/cqd09g77mygko",
         "timestamp": 1791313701000,
         "postedAt": 1791374721929
-      },
-      {
-        "headline": "NOBEL PRIZE IN MEDICINE AWARDED TO US-GERMAN TRIO FOR OPTOGENETICS BREAKTHROUGH",
-        "url": "https://phys.org/news/2026-10-german-trio-medicine-nobel-optogenetics.html",
-        "timestamp": 1791201866080,
-        "postedAt": 1791201866080
       },
       {
         "headline": "We Tried 14 Beef Jerky Brands And A Grocery-Store Classic Won",
@@ -325,43 +298,43 @@
         "timestamp": 1791209940000,
         "photo": true,
         "postedAt": 1791288174935
-      },
-      {
-        "headline": "How Feminist Activist Robin Morgan Helped Preserve Sylvia Plath's Legacy",
-        "url": "https://lithub.com/how-feminist-activist-robin-morgan-helped-preserve-the-legacy-of-sylvia-plath/",
-        "timestamp": 1791200250000,
-        "postedAt": 1791201866079
-      },
-      {
-        "headline": "The Hows And Whys Of Non-Mechanical Mechanical Keyboard Switches",
-        "url": "https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/",
-        "timestamp": 1791198041000,
-        "photo": true,
-        "postedAt": 1791201866079,
-        "image": "/img/life-culture-7.jpg"
-      },
-      {
-        "headline": "Nature-Strip Gardens Are A Pollinator Paradise Hiding In Plain Sight",
-        "url": "https://phys.org/visualstories/2026-09-nature-gardens-paradise-pollinators-street.amp",
-        "timestamp": 1791196504000,
-        "photo": true,
-        "postedAt": 1791201866080
-      },
-      {
-        "headline": "Mazda's New CX-6e EV Lets You Yell Profanities At Traffic",
-        "url": "https://www.caranddriver.com/news/a74009089/mazda-cx-6e-external-speaker-profanity-japan/",
-        "timestamp": 1791195144000,
-        "photo": true,
-        "postedAt": 1791201866080
-      },
-      {
-        "headline": "Who Now Holds The Record For Oldest Oscar Winner",
-        "url": "https://www.wusa9.com/article/news/nation-world/eva-marie-saint-oscar-oldest-record-academy-award-holder/507-cd276578-c4de-4d63-a574-6d211c714615",
-        "timestamp": 1791380220000,
-        "postedAt": 1791460243102
       }
     ],
     "right": [
+      {
+        "headline": "New 128-Foot Superyacht Features A Fully Openable Skylounge",
+        "url": "https://robbreport.com/motors/marine/custom-line-launches-saetta-128-superyacht-1238744660/",
+        "timestamp": 1791543600000,
+        "photo": true,
+        "postedAt": 1791547354829
+      },
+      {
+        "headline": "Livestreamed Executions Are The Dark Result Of Internet Gore Culture",
+        "url": "https://unherd.com/newsroom/livestreamed-executions-are-a-consequence-of-internet-gore/?edition",
+        "timestamp": 1791542187000,
+        "postedAt": 1791547354829
+      },
+      {
+        "headline": "This Workout Method Cuts Gym Time By 36% Without Losing Muscle",
+        "url": "https://www.menshealth.com/uk/building-muscle/train-smarter/a74080619/supersets-save-time-study/",
+        "timestamp": 1791541635000,
+        "photo": true,
+        "postedAt": 1791547354829,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Joe Rogan Renews Nine-Figure Spotify Deal",
+        "url": "https://variety.com/2026/digital/news/joe-rogan-renews-spotify-deal-1236905502/",
+        "timestamp": 1791464520000,
+        "photo": true,
+        "postedAt": 1791547354829
+      },
+      {
+        "headline": "Stephen King And Peter Straub's New Short-Story Collection Reviewed",
+        "url": "https://www.esquire.com/entertainment/books/a74017244/stephen-king-other-worlds-than-these-review/",
+        "timestamp": 1791363623000,
+        "postedAt": 1791547354829
+      },
       {
         "headline": "Romania Gave Me A New, Fermented Obsession",
         "url": "https://www.afar.com/magazine/why-travel-to-bucharest-romania-for-the-pickles",
@@ -375,19 +348,13 @@
         "timestamp": 1791446440000,
         "photo": true,
         "postedAt": 1791460243102,
-        "image": "/img/life-culture-1.jpg"
+        "image": "/img/life-culture-3.jpg"
       },
       {
         "headline": "Olivia Rodrigo, The Queen Of Sad, Finds Her Happy Place",
         "url": "https://www.hollywoodreporter.com/music/music-features/olivia-rodrigo-interview-daisy-chain-festival-album-stardom-1236723322/",
         "timestamp": 1791378028000,
         "photo": true,
-        "postedAt": 1791460243102
-      },
-      {
-        "headline": "Book Review: Stephen King And Peter Straub's 'Other Worlds Than These'",
-        "url": "https://www.theguardian.com/books/2026/oct/07/other-worlds-than-these-by-stephen-king-and-peter-straub-review-a-self-indulgent-finale-to-the-talisman-trilogy",
-        "timestamp": 1791363623000,
         "postedAt": 1791460243102
       },
       {
@@ -402,7 +369,7 @@
         "timestamp": 1791368524000,
         "photo": true,
         "postedAt": 1791374721929,
-        "image": "/img/life-culture-4.jpg"
+        "image": "/img/life-culture-6.jpg"
       },
       {
         "headline": "Leigh Bardugo On 50 Years Of 'Interview With The Vampire' And Lestat's Immortality",
@@ -441,8 +408,7 @@
         "url": "https://www.caranddriver.com/news/a74033390/2026-ford-mustang-dark-horse-sc-gtd-gt500-test-results-compared/",
         "timestamp": 1791281004000,
         "photo": true,
-        "postedAt": 1791288174935,
-        "image": "/img/life-culture-6.jpg"
+        "postedAt": 1791288174935
       },
       {
         "headline": "'Flying Rivers' Above South America Form Drainage Networks Like Those On Land",
@@ -469,33 +435,6 @@
         "url": "https://www.vulture.com/article/barbara-kingsolver-partita-review.html",
         "timestamp": 1791198049000,
         "postedAt": 1791288174935
-      },
-      {
-        "headline": "An Executioner's Advice After A Botched Execution",
-        "url": "https://www.cbsnews.com/news/christa-pike-status-ventilator-unconscious-lawyers-latest/",
-        "timestamp": 1791199280000,
-        "postedAt": 1791201866079
-      },
-      {
-        "headline": "Storyboard Artist J. Todd Anderson, Behind 'The Big Lebowski,' Dies At 67",
-        "url": "https://www.hollywoodreporter.com/movies/movie-news/j-todd-anderson-dead-storyboard-artist-1236721947/",
-        "timestamp": 1791144828000,
-        "photo": true,
-        "postedAt": 1791201866080
-      },
-      {
-        "headline": "Alan Alda On Fighting Parkinson's Disease With Laughter",
-        "url": "https://www.cbsnews.com/news/alan-alda-on-fighting-parkinsons-with-laughter/",
-        "timestamp": 1791123405000,
-        "photo": true,
-        "postedAt": 1791201866080
-      },
-      {
-        "headline": "Florence Pugh On How Zoe Kazan's 'East Of Eden' Boosted Her Confidence",
-        "url": "https://www.hollywoodreporter.com/tv/tv-features/florence-pugh-east-of-eden-zoe-kazan-boosted-confidence-1236721680/",
-        "timestamp": 1791065273000,
-        "photo": true,
-        "postedAt": 1791201866080
       }
     ]
   }

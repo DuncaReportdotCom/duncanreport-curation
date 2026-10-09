@@ -1,38 +1,52 @@
 {
-  "lastUpdated": 1791458581621,
-  "heroSetDate": "2026-10-08",
+  "lastUpdated": 1791545283242,
+  "heroSetDate": "2026-10-09",
   "hero": {
-    "headline": "RUSSIAN STRIKE ON KRAMATORSK BUSES KILLS 30 UKRAINIANS",
-    "url": "https://www.dw.com/en/ukraine-says-30-killed-18-wounded-in-russian-attack-on-passenger-buses-in-kramatorsk/a-79592331",
+    "headline": "FORMER ICC JUDGE NAVI PILLAY WINS 2026 NOBEL PEACE PRIZE",
+    "url": "https://www.reuters.com/world/navanethem-navi-pillay-wins-2026-nobel-peace-prize-2026-10-09/",
     "sublinks": [
       {
-        "text": "AP: Wave Of Coordinated Strikes Hits Several Cities Kyiv Had Anticipated",
-        "url": "https://apnews.com/article/russia-ukraine-war-kyiv-strike-650e298d7bc3881351533683ff4040ed"
+        "text": "Guardian: Pillay Honored For Decades Of International Law Work",
+        "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
       },
       {
-        "text": "Ukraine Strikes Back, Drone Hits Russian Tech Giant Yandex's Data Centre",
-        "url": "https://www.afp.com/en/drone-hits-yandex-data-centre-first-such-attack-russia"
+        "text": "AFP: South African Rights Champion Hailed As Global Icon",
+        "url": "https://www.afp.com/en/navi-pillay-south-african-rights-champion-wins-nobel-peace-prize"
       },
       {
-        "text": "Germany's Merz Pledges Fresh Kyiv Aid As Russian Attacks Mount",
-        "url": "https://apnews.com/article/kyiv-russia-ukraine-war-merz-drones-89bb8d2a97cc09d01a316723d08d2fb3"
+        "text": "Times Of Israel: Pillay Led UN Commission That Accused Israel Of Genocide",
+        "url": "https://www.timesofisrael.com/liveblog_entry/navi-pillay-head-of-un-commission-that-accused-israel-of-genocide-wins-nobel-peace-prize/"
       },
       {
-        "text": "US Pushes New Peace Talks Even As Russia Escalates Infrastructure Strikes",
-        "url": "https://www.cnbc.com/2026/10/05/ukraine-war-russia-kyiv-putin-zelenskyy-trump.html"
-      },
-      {
-        "text": "Ukraine's Drone Barrage On Moscow Region Kills Two, Officials Say",
-        "url": "https://www.aljazeera.com/news/2026/10/6/ukraine-launches-major-drone-attack-on-russias-moscow-region-killing-two"
+        "text": "USA Today: Trump Passed Over Again For Prize He Long Coveted",
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/09/donald-trump-nobel-peace-prize-loss/92145019007/"
       }
     ],
-    "postedAt": 1791458581621,
+    "postedAt": 1791545283242,
     "img": true
   },
   "groups": [
     {
-      "title": "FRANCE'S PROTEST WAVE AND FISCAL CRISIS DEEPEN",
+      "title": "FRANCE STUDENT PROTESTS",
       "stories": [
+        {
+          "headline": "French Student Protesters Vow To Keep Fighting After Scoring First Win",
+          "url": "https://www.reuters.com/world/french-student-protesters-vow-keep-up-their-fight-after-scoring-first-win-2026-10-09/",
+          "timestamp": 1791543563000,
+          "postedAt": 1791545283242
+        },
+        {
+          "headline": "Mélenchon Declares 'Bastille Retaken' After Paris Student Rally",
+          "url": "https://www.euronews.com/2026/10/08/melenchon-declares-bastille-retaken-after-major-student-rally-in-paris",
+          "timestamp": 1791535708000,
+          "postedAt": 1791545283242
+        },
+        {
+          "headline": "France Faces 'Perfect Storm' Of Student Unrest And Economic Turmoil",
+          "url": "https://www.msn.com/en-au/news/other/france-faces-perfect-storm-of-student-unrest-and-economic-turmoil/ar-AA2dSwt0",
+          "timestamp": 1791502179000,
+          "postedAt": 1791545283242
+        },
         {
           "headline": "France's Debt Now Riskier Than 38% Of Nation's Corporate Bonds",
           "url": "https://www.straitstimes.com/world/worse-than-greece-why-financial-markets-are-singling-out-france-for-a-2010-style-sovereign-debt",
@@ -48,19 +62,19 @@
       ]
     },
     {
-      "title": "SAUDI ARABIA ROCKED BY DEADLIEST HOUTHI ATTACKS YET",
+      "title": "UKRAINE WAR DEVELOPMENTS",
       "stories": [
         {
-          "headline": "Houthi Attacks Kill Three At Saudi Airports, Including Riyadh",
-          "url": "https://time.com/article/2026/10/08/saudi-arabia-yemen-houthi-rebels-airport-attacks-war/",
-          "timestamp": 1791451850000,
-          "postedAt": 1791458581621
+          "headline": "Ukraine Says It Struck Three Missile Facilities Inside Russia",
+          "url": "https://www.straitstimes.com/world/europe/ukraines-military-says-it-hit-three-missile-facilities-in-russia",
+          "timestamp": 1791543240000,
+          "postedAt": 1791545283242
         },
         {
-          "headline": "Syria Weighs Entering Yemen War After Saudi Airports Hit",
-          "url": "https://www.reuters.com/world/asia-pacific/syria-considers-help-yemen-war-after-saudi-airports-come-under-houthi-fire-2026-10-08/",
-          "timestamp": 1791451497000,
-          "postedAt": 1791458581621
+          "headline": "Ukraine Expands Drone Strikes On Russia's Yandex Data Centers",
+          "url": "https://www.reuters.com/world/europe/russias-yandex-says-second-data-centre-hit-by-drone-attack-2026-10-09/",
+          "timestamp": 1791541890000,
+          "postedAt": 1791545283242
         }
       ]
     },
@@ -84,6 +98,47 @@
           "url": "https://www.nbcnews.com/politics/national-security/us-military-prepares-new-iran-war-options-ahead-midterm-elections-rcna601725",
           "timestamp": 1791417660000,
           "postedAt": 1791458581621
+        },
+        {
+          "headline": "Putin Offers To Help End Iran War As Trump Touts 'Productive' Talks With Tehran",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-trump-talks-strait-hormuz-oil-10-08-26",
+          "timestamp": 1791543017000,
+          "feature": true,
+          "postedAt": 1791545283242
+        }
+      ]
+    },
+    {
+      "title": "ETHIOPIA-ERITREA CLASH",
+      "stories": [
+        {
+          "headline": "Ethiopia Says It Must Defend Itself Against Eritrea's 'All-Out Invasion'",
+          "url": "https://www.reuters.com/world/africa/ethiopia-says-it-must-defend-itself-against-eritreas-all-out-invasion-2026-10-09/",
+          "timestamp": 1791537792000,
+          "postedAt": 1791545283242
+        },
+        {
+          "headline": "Ethiopia Launches Drone Attack On Eritrean Troops In Tigray",
+          "url": "https://www.theguardian.com/world/2026/oct/08/ethiopia-drone-attack-against-eritrean-troops-in-tigray",
+          "timestamp": 1791515880000,
+          "postedAt": 1791545283242
+        }
+      ]
+    },
+    {
+      "title": "SAUDI ARABIA ROCKED BY DEADLIEST HOUTHI ATTACKS YET",
+      "stories": [
+        {
+          "headline": "Houthi Attacks Kill Three At Saudi Airports, Including Riyadh",
+          "url": "https://time.com/article/2026/10/08/saudi-arabia-yemen-houthi-rebels-airport-attacks-war/",
+          "timestamp": 1791451850000,
+          "postedAt": 1791458581621
+        },
+        {
+          "headline": "Syria Weighs Entering Yemen War After Saudi Airports Hit",
+          "url": "https://www.reuters.com/world/asia-pacific/syria-considers-help-yemen-war-after-saudi-airports-come-under-houthi-fire-2026-10-08/",
+          "timestamp": 1791451497000,
+          "postedAt": 1791458581621
         }
       ]
     },
@@ -100,12 +155,6 @@
           "headline": "What To Know About All The 2026 Nobel Prizes",
           "url": "https://time.com/article/2026/10/05/nobel-prize-2026-winners/",
           "timestamp": 1791282288000,
-          "postedAt": 1791286370694
-        },
-        {
-          "headline": "Francis Halzen Wins 2026 Nobel Prize In Physics",
-          "url": "https://www.reuters.com/science/francis-halzen-wins-2026-nobel-prize-physics-2026-10-06/",
-          "timestamp": 1791281769000,
           "postedAt": 1791286370694
         },
         {
@@ -130,12 +179,6 @@
           "url": "https://www.euronews.com/2026/10/06/pneumonic-plague-suspected-in-russia-what-we-know-and-what-is-the-risk-to-europe",
           "timestamp": 1791280768000,
           "postedAt": 1791286370694
-        },
-        {
-          "headline": "German Spy Chief Warns Of Risk Of Violent Conflict With Russia",
-          "url": "https://www.politico.eu/article/germany-risks-being-drawn-violent-conflict-russia-says-german-intelligence-chief/?utm_source",
-          "timestamp": 1791197944000,
-          "postedAt": 1791200005960
         },
         {
           "headline": "WHO Seeks Details From Russia On Plague Institute Worker's Death",
@@ -190,27 +233,38 @@
           "postedAt": 1791286370694
         }
       ]
-    },
-    {
-      "title": "SPAIN: SNAP ELECTION CALLED AFTER HOUSING VOTE",
-      "stories": [
-        {
-          "headline": "Housing Bill Defeat Sparks Protests Over Early Vote",
-          "url": "https://www.aljazeera.com/news/2026/10/4/spain-protests-flare-after-housing-bill-rejected-will-it-cause-snap-poll",
-          "timestamp": 1791197244000,
-          "postedAt": 1791200005960
-        },
-        {
-          "headline": "Sánchez Calls Snap Election For November 29",
-          "url": "https://www.euronews.com/2026/10/05/pedro-sanchez-calls-early-elections-in-spain-after-defeat-of-housing-decrees",
-          "timestamp": 1791195699000,
-          "postedAt": 1791200005960
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "RUSSIAN STRIKE ON KRAMATORSK BUSES KILLS 30 UKRAINIANS",
+        "url": "https://www.dw.com/en/ukraine-says-30-killed-18-wounded-in-russian-attack-on-passenger-buses-in-kramatorsk/a-79592331",
+        "timestamp": 1791458581621,
+        "postedAt": 1791458581621
+      },
+      {
+        "headline": "UK: Scottish School Renames Christmas Cards 'Winter Cards'",
+        "url": "https://www.breitbart.com/europe/2026/10/09/christmas-cards-now-winter-cards-at-scottish-school-because-diversity/amp/",
+        "timestamp": 1791539908000,
+        "postedAt": 1791545283242
+      },
+      {
+        "headline": "Peru Local Election Won By Candidate Named Hitler Mussolini",
+        "url": "https://www.euronews.com/2026/10/09/left-wing-candidate-hitler-mussolini-wins-local-vote-in-peru",
+        "timestamp": 1791539268000,
+        "photo": true,
+        "postedAt": 1791545283242,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "South Africa Protests Turn Violent Over Asylum Ruling",
+        "url": "https://www.aljazeera.com/news/2026/10/8/south-africa-protests-turn-violent-amid-rage-over-asylum-ruling",
+        "timestamp": 1791492702000,
+        "photo": true,
+        "postedAt": 1791545283242,
+        "image": "/img/world-1.jpg"
+      },
       {
         "headline": "Israel Shutters UK's East Jerusalem Consulate; London Rebrands It A 'Mission'",
         "url": "https://www.timesofisrael.com/israel-shutters-uks-east-jerusalem-consulate-london-rebrands-it-as-a-mission/",
@@ -280,8 +334,7 @@
         "headline": "Quebec Separatists Promise Independence Vote After Election Win",
         "url": "https://www.euronews.com/2026/10/06/quebec-separatists-vow-independence-referendum-after-winning-local-elections-but-falling-s",
         "timestamp": 1791283723000,
-        "postedAt": 1791286370694,
-        "image": "/img/world-6.jpg"
+        "postedAt": 1791286370694
       },
       {
         "headline": "Hungary To Open Communist-Era Informer Files",
@@ -317,59 +370,45 @@
         "postedAt": 1791286370694
       },
       {
-        "headline": "Seoul Probe Finds Border Mine Blast Caused By North Korea",
-        "url": "https://www.scmp.com/news/asia/east-asia/article/3369810/seoul-probe-reveals-border-mine-blast-caused-north-korea",
-        "timestamp": 1791195638000,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "Zelensky Offers To Meet Putin At G20 Summit In Miami",
-        "url": "https://www.dw.com/en/dw-exclusive-zelenskyy-offers-to-meet-putin-at-g20-in-miami/a-79241703?maca",
-        "timestamp": 1791197300000,
-        "photo": true,
-        "feature": true,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "UK: US Pulls All Bombers From Air Base After Terror Plot",
-        "url": "https://www.timesofisrael.com/us-removes-all-bombers-from-british-air-base-targeted-by-a-suspected-terror-attack/",
-        "timestamp": 1791194875000,
-        "photo": true,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "Ethiopia's Forces Retake Mekelle As Tigray Fighting Resumes",
-        "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-forces-retake-mekelle-amid-renewed-tigray-fighting",
-        "timestamp": 1791191135000,
-        "postedAt": 1791200005960,
-        "image": "/img/world-7.jpg"
-      },
-      {
-        "headline": "UK: Prince Andrew Sues Police To Quash Epstein-Linked Search Warrants",
-        "url": "https://www.aljazeera.com/news/2026/10/5/former-prince-andrew-launches-challenge-to-quash-police-search-warrants",
-        "timestamp": 1791189888000,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "Officials Demand Security Chief's Ouster Over Failures",
-        "url": "https://www.timesofisrael.com/eisenkot-bennett-demand-regevs-ouster-over-security-failures-exposed-by-flydubai-attack/",
-        "timestamp": 1791196421000,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "UAE Shared Flight Details, Including Pilot Info, With Israel",
-        "url": "https://apnews.com/article/israel-flydubai-uae-oman-pilot-flight-attack-03aaa4849c590124a5fde57e92b65870",
-        "timestamp": 1791163620000,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "Students Maintain Pressure As School Closures Continue",
-        "url": "https://www.rfi.fr/en/france/20261005-hundreds-of-french-schools-closed-as-students-maintain-protest-pressure",
-        "timestamp": 1791195232000,
-        "postedAt": 1791200005960
+        "headline": "Kushner, Witkoff To Pitch 'New Ideas' To End War",
+        "url": "https://www.axios.com/2026/10/08/ukraine-russia-war-kushner-witkoff-negotiations-winter",
+        "timestamp": 1791495188000,
+        "postedAt": 1791545283242
       }
     ],
     "center": [
+      {
+        "headline": "Iranian Campaign Planted Fake Articles In US Publications Using ChatGPT",
+        "url": "https://www.cnn.com/2026/10/08/politics/iranian-operatives-used-ai-to-plant-fake-stories-in-us-media",
+        "timestamp": 1791541920000,
+        "postedAt": 1791545283242
+      },
+      {
+        "headline": "Flydubai Co-Pilot Was Banned From Flying By Oman",
+        "url": "https://www.dw.com/en/co-pilot-on-flydubai-flight-was-banned-from-flying-by-oman/a-79526641?maca",
+        "timestamp": 1791540881000,
+        "photo": true,
+        "postedAt": 1791545283242
+      },
+      {
+        "headline": "Latvia Votes In Parliamentary Election Amid Rising Costs",
+        "url": "https://www.dw.com/en/latvia-votes-in-parliamentary-election-amid-rising-costs/a-79527253?maca",
+        "timestamp": 1791537756000,
+        "postedAt": 1791545283242
+      },
+      {
+        "headline": "Central African Republic: Deported Immigrants Find Themselves In Limbo",
+        "url": "https://www.npr.org/2026/10/09/nx-s1-5993805/third-country-deportations-cuba",
+        "timestamp": 1791536400000,
+        "postedAt": 1791545283242
+      },
+      {
+        "headline": "Ex-German Chancellor Schröder Attends Putin's Birthday Bash",
+        "url": "https://www.dw.com/en/ex-german-chancellor-schr%C3%B6der-attends-putins-birthday-bash/a-79606017",
+        "timestamp": 1791530905000,
+        "photo": true,
+        "postedAt": 1791545283242
+      },
       {
         "headline": "RUSSIA UNLEASHES 'MASSIVE STRIKE' ON KYIV, KILLING TWO OVERNIGHT",
         "url": "https://www.kyivpost.com/post/86289",
@@ -388,12 +427,6 @@
         "timestamp": 1791452185000,
         "feature": true,
         "photo": true,
-        "postedAt": 1791458581621
-      },
-      {
-        "headline": "Latvia Votes In Parliamentary Election Amid Rising Costs",
-        "url": "https://www.dw.com/en/latvia-votes-in-parliamentary-election-amid-rising-costs/a-79527253?maca",
-        "timestamp": 1791451788000,
         "postedAt": 1791458581621
       },
       {
@@ -454,7 +487,7 @@
         "timestamp": 1791282502000,
         "photo": true,
         "postedAt": 1791286370694,
-        "image": "/img/world-2.jpg"
+        "image": "/img/world-5.jpg"
       },
       {
         "headline": "These Birds Are Louder Than Elephants And Jackhammers",
@@ -462,7 +495,7 @@
         "timestamp": 1791281863000,
         "photo": true,
         "postedAt": 1791286370694,
-        "image": "/img/world-3.jpg"
+        "image": "/img/world-6.jpg"
       },
       {
         "headline": "Kosovo Police Use Tear Gas On Protesters Demanding War Crimes Court Curbs",
@@ -470,39 +503,7 @@
         "timestamp": 1791280948000,
         "photo": true,
         "postedAt": 1791286370694,
-        "image": "/img/world-4.jpg"
-      },
-      {
-        "headline": "Zelensky: Domestic Missiles To Counter Jet Drones By Late October",
-        "url": "https://www.kyivpost.com/post/86084",
-        "timestamp": 1791189598000,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "German And US Scientists Win Nobel Medicine Prize For Optogenetics",
-        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/deisseroth-hegemann-nagelwin-2026-nobel-medicine-prize-2026-10-05/",
-        "timestamp": 1791195767000,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "Japan Summons US Envoy After Marine's Arrest In Okinawa Killing",
-        "url": "https://www.aljazeera.com/news/2026/10/4/japan-summons-us-envoy-as-marine-arrested-over-okinawa-murder",
-        "timestamp": 1791194840000,
-        "photo": true,
-        "feature": true,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "Gulf Crude Exports Return To Pre-War Levels, Excluding Iran",
-        "url": "https://www.euronews.com/2026/10/05/middle-east-oil-exports-return-to-pre-war-levels-excluding-iran",
-        "timestamp": 1791194012000,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "France Closes Up To 500 Schools Over Student Protests",
-        "url": "https://www.bbc.com/news/articles/cwkg5n7lm3y5o",
-        "timestamp": 1791175754000,
-        "postedAt": 1791200005960
+        "image": "/img/world-7.jpg"
       },
       {
         "headline": "Bulgaria Searches For Missing Crew After Drones Hit Two More Black Sea Ships",
@@ -519,6 +520,46 @@
       }
     ],
     "right": [
+      {
+        "headline": "Will Europe's Glaciers Soon Disappear Completely?",
+        "url": "https://www.dw.com/en/tomorrow-today-will-glaciers-in-europe-soon-disappear-completely/video-79552494",
+        "timestamp": 1791540636000,
+        "photo": true,
+        "postedAt": 1791545283242
+      },
+      {
+        "headline": "SpaceX Spectrum Deal Sends Deutsche Telekom Shares Falling 7%",
+        "url": "https://www.reuters.com/business/media-telecom/spacex-spectrum-deal-sends-deutsche-telekom-shares-falling-7-2026-10-09/",
+        "timestamp": 1791538708000,
+        "postedAt": 1791545283242
+      },
+      {
+        "headline": "Calls Grow To Let Japan's Princess Aiko Take The Throne",
+        "url": "https://www.theguardian.com/world/2026/oct/09/japan-royal-throne-lineage-princess-aiko-forbidden-ascending",
+        "timestamp": 1791538680000,
+        "photo": true,
+        "postedAt": 1791545283242
+      },
+      {
+        "headline": "World Economic Growth To Slow To 2.6% In 2026, UN Says",
+        "url": "https://www.reuters.com/world/asia-pacific/world-economic-growth-slow-26-2026-un-trade-body-says-2026-10-09/",
+        "timestamp": 1791536559000,
+        "postedAt": 1791545283242
+      },
+      {
+        "headline": "Netanyahu Seen Blocking Gaza Rebuilding A Year Into Trump Peace Plan",
+        "url": "https://kelo.com/2026/10/07/israelis-mark-three-years-since-hamas-attack-that-set-off-gaza-assault/",
+        "timestamp": 1791475200000,
+        "postedAt": 1791545283242
+      },
+      {
+        "headline": "UK: Prince Andrew Wins Legal Dispute Over Search Warrants Amid Epstein Probe",
+        "url": "https://www.nbcnews.com/world/united-kingdom/former-prince-andrew-wins-legal-dispute-uk-search-warrants-epstein-rcna602280",
+        "timestamp": 1791471172000,
+        "photo": true,
+        "postedAt": 1791545283242,
+        "image": "/img/world-2.jpg"
+      },
       {
         "headline": "Thailand Begins Extradition Process Against Chinese Journalist",
         "url": "https://www.rfi.fr/en/international-news/20261008-thailand-begins-extradition-process-against-chinese-journalist",
@@ -538,7 +579,7 @@
         "timestamp": 1791451697000,
         "photo": true,
         "postedAt": 1791458581621,
-        "image": "/img/world-0.jpg"
+        "image": "/img/world-3.jpg"
       },
       {
         "headline": "South Korea Threatens Legal Action Over Russia Fuel Shipments",
@@ -592,12 +633,6 @@
         "postedAt": 1791372587049
       },
       {
-        "headline": "FLAVIO BOLSONARO FORCES RUNOFF AGAINST LULA IN BRAZIL ELECTION",
-        "url": "https://www.theguardian.com/world/2026/oct/05/brazil-presidential-race-election-result-second-round-lula-flavio-bolsonaro",
-        "timestamp": 1791200005960,
-        "postedAt": 1791200005960
-      },
-      {
         "headline": "Shin Bet Agents Join Interrogation Of FlyDubai Attacker In UAE",
         "url": "https://www.timesofisrael.com/shin-bet-agents-participating-in-interrogation-of-flydubai-terrorist-in-uae-toi-learns/",
         "timestamp": 1791280379000,
@@ -609,48 +644,13 @@
         "timestamp": 1791283437000,
         "photo": true,
         "postedAt": 1791286370694,
-        "image": "/img/world-1.jpg"
+        "image": "/img/world-4.jpg"
       },
       {
         "headline": "Kremlin Warns Lithuania Over Move To Lift Nuclear Arms Ban",
         "url": "https://www.reuters.com/world/europe/kremlin-warns-lithuania-that-its-move-lift-nuclear-arms-ban-risks-further-2026-10-06/",
         "timestamp": 1791281383000,
         "postedAt": 1791286370694
-      },
-      {
-        "headline": "Taiwan Opens De Facto Consulate In US After Xi-Trump Summit",
-        "url": "https://www.scmp.com/news/china/diplomacy/article/3369770/days-after-xi-trump-summit-top-taiwan-diplomat-opens-de-facto-consulate-us",
-        "timestamp": 1791198052000,
-        "photo": true,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "Musk To Rebrand SpaceXAI As SpaceXSI",
-        "url": "https://www.euronews.com/2026/10/05/musk-to-follow-trump-and-rebrand-spacexai-as-spacexsi",
-        "timestamp": 1791196941000,
-        "photo": true,
-        "postedAt": 1791200005960,
-        "image": "/img/world-5.jpg"
-      },
-      {
-        "headline": "UK: North Sea Oil Strike Threatens Fuel Supplies",
-        "url": "https://www.theguardian.com/business/2026/oct/05/strikes-by-north-sea-oil-workers-could-severely-disrupt-uk-fuel-supplies",
-        "timestamp": 1791194220000,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "Israeli Mathematician Charged With Plotting To Kill Hundreds Of Arabs",
-        "url": "https://www.timesofisrael.com/liveblog_entry/bar-ilan-university-mathematician-charged-with-plotting-to-murder-hundreds-of-arabs/",
-        "timestamp": 1791193607000,
-        "photo": true,
-        "postedAt": 1791200005960
-      },
-      {
-        "headline": "Gaza's Christians Mourn Mother And Daughter Killed In Israeli Strike",
-        "url": "https://www.aljazeera.com/news/2026/10/4/gazas-christians-mourn-mother-and-daughter-killed-in-israeli-attack",
-        "timestamp": 1791155554000,
-        "photo": true,
-        "postedAt": 1791200005960
       },
       {
         "headline": "French Teens Keep Up School Blockades Despite PM's Pledge To Act",
