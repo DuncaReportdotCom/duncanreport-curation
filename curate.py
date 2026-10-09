@@ -743,6 +743,7 @@ DOMAINS = json.loads(r"""{
  ],
  "markets": [
   "wsj.com",
+  "foxbusiness.com",
   "bloomberg.com",
   "cnbc.com",
   "ft.com",
@@ -2018,7 +2019,8 @@ def topic_headlines(section, cap=26):
     return out
 
 OPINION_DOMAINS = ["nationalreview.com", "thefederalist.com", "spectator.org", "reason.com",
-    "thedispatch.com", "freebeacon.com", "city-journal.org", "washingtonexaminer.com",
+    "thedispatch.com", "freebeacon.com", "city-journal.org", "commentarymagazine.com",
+    "theamericanconservative.com", "washingtonexaminer.com",
     "thenation.com", "newrepublic.com", "motherjones.com", "vox.com", "slate.com", "jacobin.com",
     "theatlantic.com", "prospect.org", "currentaffairs.org",
     "quillette.com", "unherd.com", "spiked-online.com"]
@@ -2647,6 +2649,18 @@ def curate_live(section):
             "still honor BREADTH and reserve the ODDITY slots regardless of volume.\n"
             % "\n".join(lines))
     editorial += (sports_emphasis() if section == "sports" else EMPHASIS.get(section, ""))
+    if section in ("main", "politics", "world"):
+        editorial += (
+            "\n\n===== NEWS FIRST (analysis is a MINOR thread) =====\n"
+            "This is a NEWS page: the large majority of items must be straight news reporting of what "
+            "ACTUALLY HAPPENED. Opinion, analysis, columns, and think-pieces are a MINOR accent - on an "
+            "ordinary day keep them well under a quarter of the page, and NEVER let the hero or the bulk of "
+            "the page be commentary. EXPAND analysis only when a MAJOR, long-running narrative is driving "
+            "the cycle - a war, a national election, a major terrorist attack, an impeachment, a sustained "
+            "crisis with days of developments: on that dominant story it is right to add more analysis and a "
+            "few op-eds spanning LEFT and RIGHT (via that narrative panel's editorials) so readers get "
+            "perspective on the big story. Absent such a dominant narrative, lead with news and keep "
+            "analysis sparse.\n")
     editorial += (
         "\n\n===== HEADLINE DISCLOSURE (NO TEASER / CLICKBAIT) =====\n"
         "ALWAYS err on the side of DISCLOSURE. A headline must NAME the specific who/what it is about "
@@ -2876,6 +2890,9 @@ def curate_live(section):
     for g in (data.get("groups") or []):
         if isinstance(g.get("editorials"), list):
             g["editorials"] = map_links(g["editorials"])
+    # Balance by ADDITION: if the page skews left, pull unused right-leaning candidates from the
+    # same pool into the columns until ~50/50 - never dropping any left coverage.
+    data = balance_backfill(section, data, cands)
     data["lastUpdated"] = now_ms()
     return data
 
@@ -5081,7 +5098,8 @@ LEAN_MAP = {
           "westernjournal.com", "wnd.com", "zerohedge.com", "pjmedia.com", "hotair.com",
           "redstate.com", "thepostmillennial.com", "americanthinker.com", "dailymail.co.uk",
           "dailysignal.com", "thecentersquare.com", "theblaze.com", "justthenews.com", "townhall.com",
-          "nypost.com", "wsj.com"},
+          "nypost.com", "wsj.com", "reason.com", "city-journal.org", "commentarymagazine.com",
+          "theamericanconservative.com"},
     "ind": {"greenwald.substack.com", "racket.news", "taibbi.substack.com", "natesilver.net",
             "silverbulletin.com", "thefp.com", "bariweiss.substack.com", "andrewsullivan.substack.com",
             "persuasion.community", "commonsense.news", "jonathanturley.org"},
@@ -5123,34 +5141,47 @@ def count_leans(data):
             c[t] += 1
     return c
 
-def enforce_balance(section, data, margin=1):
-    """Deterministic 50/50 guard for main/politics. The prompt-level balance tilt isn't enough on
-    left-heavy news days (most high-volume outlets lean left), so AFTER curation we mechanically trim
-    surplus clearly-LEFT column stories - lowest priority first (oldest / bottom of column) - until
-    the page's left count is within `margin` of its right count. The hero, panels, neutral wires
-    (AP/Reuters) and independents are never touched. This forces each day's page to ~50/50, which
-    pulls the 30-day footer tally back toward even as the old left-heavy days age out of the window."""
+def balance_backfill(section, data, pool, margin=1):
+    """Balance by ADDITION, never removal. On main/politics, if the curated page skews left, pull
+    UNUSED right-leaning candidates from the SAME pool the curator saw and add them to the columns
+    until left count ~ right count. No left story is ever dropped - we only add real right-outlet
+    coverage that was already gathered. If the pool simply doesn't have enough right-leaning stories
+    that day (right outlets covered less), it adds what exists and stops - honest partial balance,
+    never padded or faked. `pool` is the candidate list (dicts with url/title/ts)."""
     if section not in ("main", "politics"):
         return data
     c = count_leans(data)
-    surplus = c["L"] - c["R"] - margin
-    if surplus <= 0:
+    need = c["L"] - c["R"] - margin
+    if need <= 0:
         return data
-    cols = data.get("columns") or {}
-    left_items = []
+    used = set()
+    hero = data.get("hero") or {}
+    if hero.get("url"):
+        used.add(hero["url"])
+    cols = data.setdefault("columns", {"left": [], "center": [], "right": []})
     for k in ("left", "center", "right"):
         for s in (cols.get(k) or []):
-            if s.get("url") and _story_lean(s["url"]) == "L":
-                left_items.append((s.get("postedAt") or s.get("timestamp") or 0, s["url"]))
-    left_items.sort()                                 # oldest / lowest-priority first
-    drop = set(u for _, u in left_items[:surplus])
-    if not drop:
-        return data
-    for k in ("left", "center", "right"):
-        cols[k] = [s for s in (cols.get(k) or []) if s.get("url") not in drop]
-    data["columns"] = cols
-    print("  balance-trim[%s]: dropped %d surplus left column stories (was L=%d R=%d, target ~even)"
-          % (section, len(drop), c["L"], c["R"]))
+            if s.get("url"):
+                used.add(s["url"])
+    for g in (data.get("groups") or []):
+        for s in (g.get("stories") or []):
+            if s.get("url"):
+                used.add(s["url"])
+    extra = [p for p in (pool or [])
+             if p.get("url") and p["url"] not in used and _story_lean(p["url"]) == "R"]
+    extra.sort(key=lambda p: p.get("ts") or 0, reverse=True)      # freshest right coverage first
+    added = 0
+    for p in extra:
+        if added >= need:
+            break
+        k = min(("left", "center", "right"), key=lambda kk: len(cols.get(kk) or []))
+        cols.setdefault(k, []).insert(0, {"headline": p.get("title") or "", "url": p["url"],
+                                          "timestamp": p.get("ts") or now_ms(), "postedAt": now_ms()})
+        used.add(p["url"])
+        added += 1
+    if added or need > 0:
+        print("  balance-backfill[%s]: added %d right-leaning stories (was L=%d R=%d; pool right avail=%d)"
+              % (section, added, c["L"], c["R"], len(extra)))
     return data
 
 BALANCE_PATH = os.path.join(ROOT, "balance_history.json")
@@ -5331,7 +5362,6 @@ def build():
         # spending many minutes re-fetching hundreds of already-checked article pages every push.
         data = replace_paywalled(data, gift_store=gift_store, live_cap=(25 if sec in targets else 0))
         data = enforce_panel_purity(data)      # strip off-topic/padded stories from panels (deterministic)
-        data = enforce_balance(sec, data)      # deterministic 50/50 trim for main/politics (drops surplus left)
         if sec == "life-culture":
             data = cap_fashion(data)     # at most one fashion item, never a fashion panel
         if sec == "sports":
