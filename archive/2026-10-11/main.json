@@ -1,0 +1,373 @@
+{
+  "lastUpdated": 1791717288770,
+  "heroSetDate": "2026-10-11",
+  "hero": {
+    "headline": "HURRICANE ISAIAS LEAVES FOUR DEAD, THOUSANDS WITHOUT POWER",
+    "url": "https://www.bbc.com/news/articles/cmje5x80yg70o",
+    "sublinks": [
+      {
+        "text": "AP: Isaias Slams Gulf Coast With Storm Surge, High Winds",
+        "url": "https://apnews.com/article/hurricane-isaias-flooding-power-outages-65ac97bf16477d89ec6f847b09ccb6fc"
+      },
+      {
+        "text": "AccuWeather: Outages Top 800,000 Customers In Storm's Wake",
+        "url": "https://www.accuweather.com/en/hurricane/live-news/live-isaias-drenches-southeast-after-landfall-as-flash-flooding-power-outages-mount/1943589"
+      },
+      {
+        "text": "Eastern Shore Braces For Isaias Remnants' Rain And Rough Surf",
+        "url": "https://shoredailynews.com/headlines/isaias-remnants-expected-to-bring-rain-gusty-winds-and-rough-waters-to-eastern-shore/"
+      }
+    ],
+    "postedAt": 1791717288770,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "RARE STORM BRINGS HIGH SURF, WIND TO WEST COAST AND NEVADA",
+      "stories": [
+        {
+          "headline": "Rare Subtropical System Sends Rain Threat As Far As Las Vegas",
+          "url": "https://www.nhc.noaa.gov/refresh/graphics_ep3+shtml/092043.shtml?cone",
+          "timestamp": 1791716620613,
+          "postedAt": 1791717288770
+        },
+        {
+          "headline": "Tropical Storm Rachel's Surf Drives Out Long Beach Residents",
+          "url": "https://www.spokesman.com/stories/2026/oct/10/tropical-storm-rachels-surf-drives-out-long-beach-/",
+          "timestamp": 1791672480000,
+          "postedAt": 1791717288770
+        }
+      ]
+    },
+    {
+      "title": "TRUMP-RUSSIA DIESEL DEAL FALLOUT",
+      "stories": [
+        {
+          "headline": "Trump Says Ukraine Should Elect New President, Blasts Zelenskyy",
+          "url": "https://www.dw.com/en/trump-slams-zelenskyy-says-ukraine-should-elect-new-president/a-79629740",
+          "timestamp": 1791688568000,
+          "postedAt": 1791717288770
+        },
+        {
+          "headline": "House Republicans Move To Block Trump's Russia Diesel Deal",
+          "url": "https://www.rferl.org/a/congress-legislation-trump-russia-diesel-exports/33874424.html",
+          "timestamp": 1791687949000,
+          "postedAt": 1791717288770
+        }
+      ]
+    },
+    {
+      "title": "7.7 MAGNITUDE QUAKE ROCKS PANAMA",
+      "stories": [
+        {
+          "headline": "Buildings Collapse As 7.7 Magnitude Earthquake Strikes Panama",
+          "url": "https://apnews.com/article/panama-earthquake-e4e5dc85829714db88a74de3b7019d55",
+          "timestamp": 1791630230872,
+          "feature": true,
+          "postedAt": 1791630852101
+        },
+        {
+          "headline": "Panama Quake Aftershocks Continue To Rattle Region",
+          "url": "https://www.dailymail.com/sciencetech/article-16197365",
+          "timestamp": 1791630230872,
+          "postedAt": 1791630852101
+        }
+      ]
+    },
+    {
+      "title": "CORNELL SEXUAL ASSAULT CASE FALLOUT",
+      "stories": [
+        {
+          "headline": "The Cornell Seven And The Revolution",
+          "url": "https://www.nationalreview.com/2026/10/the-cornell-seven-and-the-revolution/",
+          "timestamp": 1791628238000,
+          "postedAt": 1791630852101
+        },
+        {
+          "headline": "Second Man Accused In Cornell Case Seeks To Remove Letitia James As Prosecutor",
+          "url": "https://www.upi.com/Top_News/US/2026/10/09/cornell-gang-rape-letitia-james/9711791586168/",
+          "timestamp": 1791608511000,
+          "postedAt": 1791630852101
+        },
+        {
+          "headline": "Media Coverage Of Cornell Texts Omitted 'Our Body, Our Choice' Comment, Critics Say",
+          "url": "https://thefederalist.com/2026/10/09/legacy-media-reports-on-cornell-jane-does-texts-left-out-our-body-our-choice-comment/",
+          "timestamp": 1791574011000,
+          "postedAt": 1791630852101
+        }
+      ]
+    },
+    {
+      "title": "PENTAGON TO LIVESTREAM FORT HOOD ATTACKER'S EXECUTION",
+      "stories": [
+        {
+          "headline": "Hegseth Defends Decision To Publicly Stream Execution",
+          "url": "https://apnews.com/article/fort-hood-shooter-execution-pentagon-818853afc1be5c70fe41c5b781a8d559",
+          "timestamp": 1791543956942,
+          "postedAt": 1791544704392
+        },
+        {
+          "headline": "Pentagon Confirms Firing-Squad Execution Will Be Broadcast Live",
+          "url": "https://www.bbc.com/news/articles/cmy0r96xygx6o",
+          "timestamp": 1791538192000,
+          "postedAt": 1791544704392
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "GOP-Aligned Poll Stuns With Talarico Edge Over Paxton",
+        "url": "https://dnyuz.com/2026/10/10/there-aint-no-way-shock-as-gop-aligned-poll-shows-dem-winning-ruby-red-state/",
+        "timestamp": 1791716620613,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Trump Fumes At 'Stain' On Norway After Missing Out On Nobel",
+        "url": "https://www.jpost.com/international/article-911201",
+        "timestamp": 1791716620613,
+        "photo": true,
+        "postedAt": 1791717288770,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "NYT: Trump Rally Crowd Calls Public Execution 'Necessary'",
+        "url": "https://www.newsweek.com/entertainment/snl-mocks-trumps-nobel-peace-prize-snub-public-execution-plan-12552468",
+        "timestamp": 1791677439000,
+        "photo": true,
+        "postedAt": 1791717288770,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Christa Pike Discharged From Hospital, Back In Prison",
+        "url": "https://www.npr.org/2026/10/10/nx-s1-5997504/christa-pike-hospital-prison-after-botched-execution",
+        "timestamp": 1791670504000,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "For Trump, A Livestreamed Firing Squad Becomes The Latest Spectacle",
+        "url": "https://www.amnesty.org/en/latest/news/2026/10/usa-livestreaming-firing-squad-execution-would-compound-cruelty-of-the-death-penalty/",
+        "timestamp": 1791605160000,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "Iranian Campaign Used ChatGPT To Plant Fake Articles In US Publications",
+        "url": "https://www.cnn.com/2026/10/08/politics/iranian-operatives-used-ai-to-plant-fake-stories-in-us-media",
+        "timestamp": 1791630230874,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "Trump Taps Fox News's Zacharia As Next White House Press Secretary",
+        "url": "https://www.nytimes.com/2026/10/09/us/politics/katie-zacharia-trump-white-house-press-secretary.html?unlocked_article_code=1.HVE.HpGK.xgp_epfppA4o&smid=url-share",
+        "timestamp": 1791630230872,
+        "photo": true,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "State Department Watchdog Probes Guilfoyle Over Alleged $100,000 Demand",
+        "url": "https://www.nbcnews.com/politics/trump-administration/state-department-watchdog-probing-kimberly-guilfoyle-alleged-100000-de-rcna602544",
+        "timestamp": 1791579352000,
+        "photo": true,
+        "postedAt": 1791630852101,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "Isaias Weakens But Flooding Threat Lingers Over Southeast",
+        "url": "https://www.cbsnews.com/live-updates/isaias-southeastern-u-s-gulf-coast/",
+        "timestamp": 1791628255000,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "ICE Shoots Man In The Bronx, Mamdani Demands Trump End NYC Operations",
+        "url": "https://www.theblaze.com/news/shooting-ice-mamdani-trump-abolish",
+        "timestamp": 1791628606000,
+        "feature": true,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "Texas Senate Nominee James Talarico Resurfaces After Days-Long Absence",
+        "url": "https://nypost.com/2026/10/10/us-news/texas-dem-senate-hopeful-james-talarico-resurfaces-after-extended-absence-as-his-campaign-pushes-back/",
+        "timestamp": 1791610526000,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "Migrant Shot By ICE Had Terrorized NYC Building With Machete, Police Say",
+        "url": "https://nypost.com/2026/10/10/us-news/criminal-illegal-migrant-shot-by-ice-tormented-nyc-apartment-building-with-machete-neighbor-claims-menace-to-society/",
+        "timestamp": 1791675338000,
+        "postedAt": 1791717288770
+      }
+    ],
+    "center": [
+      {
+        "headline": "Greek Officials Voice Exasperation Over Guilfoyle Allegations",
+        "url": "https://www.nytimes.com/2026/10/10/world/europe/kimberly-guilfoyle-greece.html?unlocked_article_code=1.HlE.bakL.zjRPEPRlheiB&smid=url-share",
+        "timestamp": 1791716620613,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Pope Criticizes Death Penalty After Hegseth's Execution Announcement",
+        "url": "https://www.usnews.com/news/world/articles/2026-10-10/pope-leo-condemns-death-penalty-as-trump-mulls-livestreamed-execution",
+        "timestamp": 1791716620613,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Bill Maher Defends Trump's Comments About Bombing LA",
+        "url": "https://www.yahoo.com/news/videos/bill-maher-70-defends-trump-180010041.html",
+        "timestamp": 1791706319000,
+        "photo": true,
+        "postedAt": 1791717288770,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "9 Dead, Including Suspect, In Erie, Pennsylvania Shooting",
+        "url": "https://apnews.com/article/nine-killed-shooting-erie-pennsylvania-563c7c4262d47858dabecc43485c6483",
+        "timestamp": 1791673020000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "House Candidate Who Reported Campaign-Trail Rape Explains Coming Forward",
+        "url": "https://www.cbsnews.com/news/bernadette-greene-placentia-house-candidate-campaign-trail-rape-allegation/",
+        "timestamp": 1791667801000,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Park Service To Remove 500 Trees From Historic Golf Course Trump Is Redesigning",
+        "url": "https://abcnews.com/US/wireStory/park-service-remove-500-trees-historic-golf-trump-137163526",
+        "timestamp": 1791662100000,
+        "photo": true,
+        "postedAt": 1791717288770,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "TRUMP RULES OUT IRAN STRIKES BEFORE MIDTERMS AS MILITARY DRAFTS NEW OPTIONS",
+        "url": "https://apnews.com/article/trump-iran-war-midterms-attack-422b1799a1a06466279ac265f560e014",
+        "timestamp": 1791544704392,
+        "postedAt": 1791544704392
+      },
+      {
+        "headline": "Trump Announces Committee Investigation Of Fed Governor Lisa Cook",
+        "url": "https://www.scotusblog.com/2026/10/trump-announces-committee-investigation-of-fed-governor-lisa-cook/",
+        "timestamp": 1791573177000,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "Man Shot, Killed By Police After Confrontation On Philadelphia's Parkway",
+        "url": "https://6abc.com/post/heavy-police-presence-ben-franklin-parkway-center-city-philadelphia-report-shots-fired/19925019/",
+        "timestamp": 1791604292000,
+        "photo": true,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "New Category 2 Storm Develops In The Gulf",
+        "url": "https://apnews.com/919a46d4bd705726b4e57f18ce677ac5",
+        "timestamp": 1791630230872,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "Large Waves Flood Southern California Homes As Storm Nears",
+        "url": "https://www.abc10.com/video/weather/severe-weather/tropical-storm-rachel-brings-high-surf-and-flooding-to-southern-california/103-f2bcc2d3-e072-451e-b9c5-69de71b5a05f",
+        "timestamp": 1791603624000,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "Sacramento ICE Operation Sparks Detention Concerns",
+        "url": "https://www.kcra.com/article/sacramento-detention-concerns-reported-ice-operation/74096548",
+        "timestamp": 1791603900000,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "Fact-Checking Maine's Collins-Jackson Senate Debate",
+        "url": "https://www.wmtw.com/article/maine-senate-debate-fact-check-collins-jackson/74086597",
+        "timestamp": 1791585960000,
+        "postedAt": 1791630852101
+      }
+    ],
+    "right": [
+      {
+        "headline": "US Forces Disable Ship Attempting To Run Iran Blockade In Gulf Of Oman",
+        "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman",
+        "timestamp": 1791699275000,
+        "feature": true,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Liberal Blogger Found Guilty Of Harassment Over Shrek Meme",
+        "url": "https://www.theblaze.com/news/shrek-blogger-explicit-guilty-ohio",
+        "timestamp": 1791715897000,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Bodycam Shows Welfare Check Weeks Before SC Toddlers' Deaths",
+        "url": "https://nypost.com/2026/10/10/us-news/bodycam-footage-reveals-welfare-check-weeks-south-carolina-toddlers-deaths/",
+        "timestamp": 1791683280000,
+        "photo": true,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Philadelphia Officer Fatally Shot On Call; DA Announces Charges",
+        "url": "https://whyy.org/articles/two-police-officers-shot-west-philadelphia/",
+        "timestamp": 1791675059000,
+        "photo": true,
+        "postedAt": 1791717288770,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "Supreme Court Climate Case Could Bankrupt Oil Firms, Spike Gas Prices",
+        "url": "https://www.foxnews.com/politics/supreme-court-climate-case-could-bankrupt-oil-companies-send-gas-prices-soaring-experts-warn",
+        "timestamp": 1791662753000,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Anthropic AI Model Submitted False Murder Tip To Philadelphia Police",
+        "url": "https://6abc.com/post/anthropic-ai-model-submitted-false-tip-unsolved-murder-philadelphia-police-say/19925243/",
+        "timestamp": 1791630230874,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "Bodycam Footage Released In Police Shooting Of HeeHaw The Baby Donkey",
+        "url": "https://notthebee.com/article/bodycam-footage-released-in-brutal-police-shooting-of-heehaw-the-donkey-/",
+        "timestamp": 1791571764000,
+        "photo": true,
+        "postedAt": 1791630852101,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "Destin, Florida Braces As Gulf Storm's Bullseye Shifts Closer",
+        "url": "https://www.windy.com/-Hurricane-tracker/hurricanes?satellite,30.128,-86.853,9",
+        "timestamp": 1791630230872,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "Inside Trump And Mamdani's Tense 2-Hour Call After NYC ICE Shooting",
+        "url": "https://www.cnn.com/2026/10/09/politics/trump-mamdani-phone-call-ice-shooting",
+        "timestamp": 1791585492000,
+        "postedAt": 1791630852101
+      },
+      {
+        "headline": "Powerful Waves Continue To Pound California Coastline",
+        "url": "https://www.yahoo.com/news/weather-news/articles/powerful-waves-lash-california-coast-224935691.html",
+        "timestamp": 1791716620613,
+        "postedAt": 1791717288770,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Video Shows ICE SUV Striking Man In West Houston",
+        "url": "https://www.houstonchronicle.com/news/houston-texas/article/ice-vehicle-houston-pedestrian-22471407.php",
+        "timestamp": 1791681295000,
+        "postedAt": 1791717288770
+      }
+    ]
+  },
+  "balance": {
+    "left": 726,
+    "right": 393,
+    "independent": 4,
+    "days": 30,
+    "total": 1119,
+    "pctLeft": 65,
+    "pctRight": 35
+  }
+}
