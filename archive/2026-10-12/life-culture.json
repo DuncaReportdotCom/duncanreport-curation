@@ -1,0 +1,382 @@
+{
+  "lastUpdated": 1791807230024,
+  "heroSetDate": "2026-10-12",
+  "hero": {
+    "headline": "LOST WWI LOVE STORY UNCOVERED IN DIARY FOUND AT A DUMP",
+    "url": "https://www.realclearhistory.com/2026/10/12/wwi_love_story_uncovered_after_diary_found_at_dump_1210688.html",
+    "sublinks": [],
+    "postedAt": 1791807230024,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "WEEKEND BOX OFFICE ROUNDUP",
+      "stories": [
+        {
+          "headline": "Tom Cruise's 'Digger' Could Lose $245 Million After Weak Second Weekend",
+          "url": "https://variety.com/2026/film/box-office/digger-losing-millions-warner-bros-box-office-1236908217/",
+          "timestamp": 1791743820000,
+          "postedAt": 1791807230024
+        },
+        {
+          "headline": "'Other Mommy' Tops Box Office With $27.5M Opening",
+          "url": "https://abcnews.com/Entertainment/wireStory/mommy-tops-box-office-275m-social-reckoning-opens-137178115",
+          "timestamp": 1791741598000,
+          "feature": true,
+          "postedAt": 1791807230024
+        }
+      ]
+    },
+    {
+      "title": "ANNE CARSON'S NOBEL WIN: A READING GUIDE",
+      "stories": [
+        {
+          "headline": "Anne Carson Reflects On Her Nobel Win In New Interview",
+          "url": "https://www.nobelprize.org/prizes/literature/2026/carson/interview/",
+          "timestamp": 1791701699000,
+          "postedAt": 1791720162738
+        },
+        {
+          "headline": "Novelist Édouard Louis Shares 10 Reasons To Love Anne Carson",
+          "url": "https://www.theguardian.com/books/2026/oct/09/sometimes-she-publishes-notes-shes-scribbled-on-her-hand-edouard-louis-on-10-reasons-to-love-anne-carson",
+          "timestamp": 1791584640000,
+          "postedAt": 1791720162738
+        },
+        {
+          "headline": "Princeton Lauds The Nobel Laureate It Once Denied Tenure",
+          "url": "https://www.newser.com/story/397852/princeton-lauds-a-nobel-winner-but-didnt-give-her-tenure.html",
+          "timestamp": 1791567360000,
+          "postedAt": 1791633738526
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Could The Principle Of Sufficient Reason Prove Panpsychism?",
+        "url": "https://aeon.co/essays/does-the-principle-of-sufficient-reason-make-panpsychism-true",
+        "timestamp": 1791799398000,
+        "postedAt": 1791807230024
+      },
+      {
+        "headline": "The Fragile Majesty Of Uganda's Buganda Royal Tombs",
+        "url": "https://aeon.co/videos/the-fragile-majesty-of-the-buganda-royal-tombs-in-uganda",
+        "timestamp": 1791799260000,
+        "photo": true,
+        "postedAt": 1791807230024,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "Amex's Newest Transfer Partner Is A Sleeper Hit For Hotels",
+        "url": "https://thepointsguy.com/loyalty-programs/leaders-club-transfer-partner-amex/",
+        "timestamp": 1791718448000,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "74 People, Places And Things That Defined Luxury Over 50 Years",
+        "url": "https://robbreport.com/p/legends-of-luxury/",
+        "timestamp": 1791715116000,
+        "photo": true,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "Barbara O'Neill's Gospel Preaches A Dangerous Health Message",
+        "url": "https://unherd.com/2026/10/barbara-oneills-sickening-gospel/",
+        "timestamp": 1791712933000,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "Head Trip Festival: Calvin Harris Set Canceled, Venue Evacuated",
+        "url": "https://www.desertsun.com/story/entertainment/coachella/2026/10/09/head-trip-festival-live-updates-head-trip-bag-policy-tickets-merch-lineup-calvin-harris--live/92154702007/",
+        "timestamp": 1791707220000,
+        "photo": true,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "The 1,000m Rowing Times To Beat In Your 40s",
+        "url": "https://www.menshealth.com/uk/fitness/cardio-exercise/a74065174/1000m-rowing-times-men-40s/",
+        "timestamp": 1791706362000,
+        "photo": true,
+        "postedAt": 1791720162738,
+        "image": "/img/life-culture-5.jpg"
+      },
+      {
+        "headline": "Stephen King And Mike Flanagan Discuss Resurrecting 'Carrie'",
+        "url": "https://www.facebook.com/nytimes/posts/the-writer-director-mike-flanagan-has-become-the-most-trusted-steward-of-the-aut/1511439484171843/",
+        "timestamp": 1791658067000,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "Largest 2D Map Of Universe Reveals New Gravitational Lenses",
+        "url": "https://phys.org/news/2026-10-largest-2d-universe-scientists-gravitational.html",
+        "timestamp": 1791466812000,
+        "photo": true,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "16 Cozy Activities To Add To Your Fall Bucket List",
+        "url": "https://www.npr.org/2026/10/10/nx-s1-5993688/16-cozy-activities-to-add-to-your-fall-bucket-list",
+        "timestamp": 1791622800000,
+        "postedAt": 1791633738526
+      },
+      {
+        "headline": "BTS Returns To The Top Of The Charts After Military Service",
+        "url": "https://www.rollingstone.com/p/bts-covers/",
+        "timestamp": 1791619652000,
+        "photo": true,
+        "postedAt": 1791633738526
+      },
+      {
+        "headline": "My Brief Romance With An AI Bird Feeder",
+        "url": "https://www.theverge.com/gadgets/1007674/smart-bird-feeders-attact-pests-too",
+        "timestamp": 1791615600000,
+        "photo": true,
+        "postedAt": 1791633738526,
+        "image": "/img/life-culture-7.jpg"
+      },
+      {
+        "headline": "New Film 'Artificial' Puts AI Fears Center Stage",
+        "url": "https://www.bbc.com/culture/article/20261008-ai-fears-are-growing-and-unsettling-new-film-artificial-puts-them-and-the-future-of-humanity-centre-stage",
+        "timestamp": 1791540774000,
+        "postedAt": 1791633738526
+      },
+      {
+        "headline": "What We Actually Know About The Russian Plague Scare",
+        "url": "https://www.realclearscience.com/articles/2026/10/08/what_we_know_about_the_russian_plague_scare_1210535.html",
+        "timestamp": 1791425591000,
+        "postedAt": 1791633738526
+      },
+      {
+        "headline": "'Wildwood' Scores Perfect Rotten Tomatoes Critics' Rating",
+        "url": "https://www.forbes.com/sites/timlammers/2026/10/11/wildwood-nabs-perfect-rotten-tomatoes-critics-score-in-early-reviews/",
+        "timestamp": 1791760834000,
+        "postedAt": 1791807230024
+      }
+    ],
+    "center": [
+      {
+        "headline": "How Apple Could Finally Win The Smart Home",
+        "url": "https://www.theverge.com/tech/1009324/how-apple-can-win-the-smart-home",
+        "timestamp": 1791806400000,
+        "postedAt": 1791807230024
+      },
+      {
+        "headline": "The '3x3x3' Method Helps Busy Men Build Muscle In 3 Weekly Workouts",
+        "url": "https://www.menshealth.com/uk/building-muscle/train-smarter/a74105198/3-x-3-x-3-method-busy-men/",
+        "timestamp": 1791805076000,
+        "postedAt": 1791807230024
+      },
+      {
+        "headline": "James McAvoy Shows How To Nail Middle-Aged Smart Casual",
+        "url": "https://www.esquire.com/uk/style/a74106415/james-mcavoy-just-nailed-middle-aged-smart-casual/",
+        "timestamp": 1791803526000,
+        "photo": true,
+        "postedAt": 1791807230024,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "7 Unforgettable 'Normcore' Cars From Movies And TV",
+        "url": "https://www.motortrend.com/features/normcore-movie-tv-cars",
+        "timestamp": 1791803181000,
+        "photo": true,
+        "postedAt": 1791807230024
+      },
+      {
+        "headline": "After My Father's Death, His Much Younger Husband Became Family",
+        "url": "https://www.esquire.com/lifestyle/a73996968/dad-death-widower-husband-modern-family/",
+        "timestamp": 1791802869000,
+        "postedAt": 1791807230024
+      },
+      {
+        "headline": "Inside The Mini Factory Where GM Builds Its EV Future",
+        "url": "https://www.theverge.com/transportation/1008023/gm-bcdc-ev-battery-factory-china-tesla",
+        "timestamp": 1791802800000,
+        "photo": true,
+        "postedAt": 1791807230024,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "A Bulgari Ring With A 24-Carat Pink Diamond Could Fetch $18 Million",
+        "url": "https://robbreport.com/style/jewelry/bulgari-pink-diamond-ring-auction-1238753838/",
+        "timestamp": 1791802800000,
+        "photo": true,
+        "postedAt": 1791807230024
+      },
+      {
+        "headline": "Google Teases New Fitbit Edge Launch Next Week",
+        "url": "https://www.theverge.com/tech/1008918/google-fitbit-edge-launch-next-week",
+        "timestamp": 1791801364000,
+        "postedAt": 1791807230024
+      },
+      {
+        "headline": "SCIENTISTS TRACE THE DEEP ORIGINS OF HUMAN CHEWING",
+        "url": "https://www.npr.org/2026/10/10/nx-s1-5991361-e1/the-origin-of-the-chew-when-did-we-learn-to-eat-like-this",
+        "timestamp": 1791633738526,
+        "postedAt": 1791633738526
+      },
+      {
+        "headline": "Six Of The Best First Lines In Modern Literature",
+        "url": "https://unn.ua/en/news/she-reimagined-antiquity-and-changed-the-modern-world-what-is-known-about-the-2026-nobel-prize-laureate-in-literature",
+        "timestamp": 1791716400000,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "Sauna's Potential Health Benefits Are Drawing Scientists' Interest",
+        "url": "https://www.npr.org/2026/10/11/nx-s1-5996655/heat-therapy-sauna-thermoregulation-health-benefits",
+        "timestamp": 1791712800000,
+        "photo": true,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "Joseph Gordon-Levitt: Worry About The People Building AI",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/joseph-gordon-levitt-concern-people-building-ai-1236727031/",
+        "timestamp": 1791672516000,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "Barry Manilow Exits Vegas Residency Early, Cancels Second Show",
+        "url": "https://variety.com/2026/music/news/barry-manilow-cancels-las-vegas-shows-1236907619/",
+        "timestamp": 1791654600000,
+        "photo": true,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "The Met Puts A Modern Artist Front And Center, Plus Some Pollock",
+        "url": "https://www.npr.org/2026/10/10/nx-s1-5920376/lee-krasner-jackson-pollock-met",
+        "timestamp": 1791622800000,
+        "photo": true,
+        "postedAt": 1791633738526
+      },
+      {
+        "headline": "'Pretty Little Liars' Actor Keegan Allen Robbed At Gunpoint",
+        "url": "https://www.vulture.com/article/pretty-little-liars-actor-keegan-allen-robbed-at-gunpoint.html",
+        "timestamp": 1791582596000,
+        "photo": true,
+        "postedAt": 1791633738526
+      },
+      {
+        "headline": "How Long Until Physicists Find A Theory Of Everything?",
+        "url": "https://www.realclearscience.com/video/2026/10/10/how_long_until_we_find_a_theory_of_everything_1210918.html",
+        "timestamp": 1791578418000,
+        "postedAt": 1791633738526
+      },
+      {
+        "headline": "Facebook Whistleblower Frances Haugen On Her New Book, 'The Social Reckoning'",
+        "url": "https://people.com/where-is-frances-haugen-now-12165958",
+        "timestamp": 1791564640000,
+        "postedAt": 1791633738526
+      },
+      {
+        "headline": "Wheeldon's 'Oscar' Ballet Hailed As Dance's Next Chapter",
+        "url": "https://www.broadwayworld.com/article/Review-OSCAR-Is-Ballets-Next-Chapter-20261010",
+        "timestamp": 1791650784000,
+        "postedAt": 1791720162738
+      }
+    ],
+    "right": [
+      {
+        "headline": "SCIENTISTS UNEARTH NEW DINOSAUR SPECIES BURIED IN THE SAHARA DESERT",
+        "url": "https://abcnews.com/International/scientists-discover-new-dinosaur-species-deep-sahara-desert/story?id",
+        "timestamp": 1791720162738,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "David Beckham Steps Out In A Once-Overlooked Tudor Watch",
+        "url": "https://www.esquire.com/uk/watches/a74106415/david-beckham-tudor-northflag/",
+        "timestamp": 1791803245000,
+        "photo": true,
+        "postedAt": 1791807230024,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "Andrew Garfield Says OpenAI Film 'Artificial' Turns Lens On Tech's Creators",
+        "url": "https://www.reuters.com/lifestyle/andrew-garfield-says-openai-film-artificial-turns-lens-creators-new-world-2026-10-12/",
+        "timestamp": 1791769380000,
+        "postedAt": 1791807230024
+      },
+      {
+        "headline": "Beach Boys' Mike Love Returns To Stage Amid Health Challenges",
+        "url": "https://www.theguardian.com/music/2026/oct/12/beach-boys-live-cincinnati-mike-love-helped-john-stamos-health-issues",
+        "timestamp": 1791765360000,
+        "photo": true,
+        "postedAt": 1791807230024
+      },
+      {
+        "headline": "Billy Crystal On Finding Humor In The Darkest Of Times",
+        "url": "https://www.cbsnews.com/news/billy-crystal-on-finding-humor-in-the-darkest-of-times/",
+        "timestamp": 1791728280000,
+        "photo": true,
+        "postedAt": 1791807230024,
+        "image": "/img/life-culture-4.jpg"
+      },
+      {
+        "headline": "New 'Naruto' Anime Series And 'Shadow Rising' Manga Revealed",
+        "url": "https://variety.com/2026/tv/news/naruto-new-anime-series-shadow-rising-manga-1236907767/",
+        "timestamp": 1791670080000,
+        "photo": true,
+        "postedAt": 1791807230024
+      },
+      {
+        "headline": "Chuck Lorre Describes Charlie Sheen's Final 'Two And A Half Men' Scene",
+        "url": "https://www.tvinsider.com/1296303/two-and-a-half-men-charlie-sheen-chuck-lorre-memoir/",
+        "timestamp": 1791655536000,
+        "postedAt": 1791807230024
+      },
+      {
+        "headline": "Learning To Use Local AI Is Exciting, And Frustrating",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+        "timestamp": 1791716400000,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "America's 10 Best Colleges, According To LinkedIn",
+        "url": "https://www.usatoday.com/story/money/personal-finance/2026/10/11/the-10-best-colleges-in-the-us-according-to-linkedin-ranking/91902366007/",
+        "timestamp": 1791709260000,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "'Blade Runner 2099' Trailer Teases Detective Story In Replicant Era",
+        "url": "https://www.hollywoodreporter.com/tv/tv-news/blade-runner-2099-trailer-michelle-yeoh-detective-mystery-1236727086/",
+        "timestamp": 1791684755000,
+        "photo": true,
+        "postedAt": 1791720162738
+      },
+      {
+        "headline": "Tame Impala Opens World Tour With Strong Brisbane Show",
+        "url": "https://au.rollingstone.com/music/music-live-reviews/tame-impala-brisbane-entertainment-centre-live-review-102030/",
+        "timestamp": 1791628200000,
+        "photo": true,
+        "postedAt": 1791633738526,
+        "image": "/img/life-culture-6.jpg"
+      },
+      {
+        "headline": "Saint Laurent Confirms Creative Director Anthony Vaccarello's Exit",
+        "url": "https://wwd.com/fashion-news/designer-luxury/anthony-vaccarello-leaves-saint-laurent-exit-1239319050/",
+        "timestamp": 1791539717000,
+        "photo": true,
+        "postedAt": 1791633738526
+      },
+      {
+        "headline": "Leadership Lessons From The Battle Of Freeman's Farm At Saratoga",
+        "url": "https://www.realclearhistory.com/articles/2026/10/09/saratogas_first_act_lessons_in_leadership_from_the_battle_of_freemans_farm_1210671.html",
+        "timestamp": 1791533148000,
+        "postedAt": 1791633738526
+      },
+      {
+        "headline": "Rockstar Shows Off Stunning New GTA 6 Screenshots",
+        "url": "https://www.ign.com/articles/gta-6-rockstar-releases-brand-new-official-screenshots-showing-off-stunning-reflections",
+        "timestamp": 1791470951000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1791633738526
+      },
+      {
+        "headline": "Sorkin's 'Social Reckoning' Struggles To Find An Audience",
+        "url": "https://techcrunch.com/2026/10/11/aaron-sorkins-social-reckoning-is-off-to-a-weak-start/",
+        "timestamp": 1791751907000,
+        "postedAt": 1791807230024
+      }
+    ]
+  }
+}
