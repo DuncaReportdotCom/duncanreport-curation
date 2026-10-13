@@ -1,0 +1,500 @@
+{
+  "lastUpdated": 1791890204268,
+  "heroSetDate": "2026-10-13",
+  "hero": {
+    "headline": "DHS AGENTS SEARCH REP. ILHAN OMAR'S HOME IN IMMIGRATION FRAUD PROBE",
+    "url": "https://www.axios.com/2026/10/12/ilhan-omar-search-immigration",
+    "sublinks": [
+      {
+        "text": "BBC: Agents Searched Minneapolis Home Before Dawn",
+        "url": "https://www.bbc.com/news/articles/cvp8glg97393o"
+      },
+      {
+        "text": "Reason Details Immigration-Fraud Allegations Behind DHS Search",
+        "url": "https://reason.com/2026/10/12/dhs-searched-ilhan-omars-home-as-part-of-immigration-fraud-investigation/"
+      },
+      {
+        "text": "Pre-Dawn Federal Raid Confirmed On Omar's Residence",
+        "url": "https://www.yahoo.com/news/us/articles/federal-agents-search-home-trump-131944970.html"
+      }
+    ],
+    "postedAt": 1791890204268,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "TRUMP APPROVAL SINKS TO 30 PERCENT",
+      "stories": [
+        {
+          "headline": "Pew: Trump Approval Drops To 30%",
+          "url": "https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms/",
+          "timestamp": 1791889638905,
+          "postedAt": 1791890204268
+        },
+        {
+          "headline": "Nate Silver Breaks Down Trump's Slide In The Polls",
+          "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+          "timestamp": 1791875472000,
+          "postedAt": 1791890204268
+        },
+        {
+          "headline": "Government Spent $10 Million On Pro-Trump Ads After Trump Said Super PAC Would Fund Them",
+          "url": "https://www.npr.org/2026/10/12/nx-s1-5998976/pro-trump-ads-taxpayer-funds-federal-judge",
+          "timestamp": 1791843407000,
+          "postedAt": 1791890204268
+        },
+        {
+          "headline": "Republicans Balk At Trump's Diesel Deal With Putin",
+          "url": "https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trump-diesel-agreement-with-russia-may-be-illegal",
+          "timestamp": 1791753478000,
+          "postedAt": 1791804044128
+        },
+        {
+          "headline": "Trump Says Ukraine Should Elect New President, Blasts Zelenskyy",
+          "url": "https://www.dw.com/en/trump-slams-zelenskyy-says-ukraine-should-elect-new-president/a-79629740",
+          "timestamp": 1791688568000,
+          "postedAt": 1791717288770
+        }
+      ]
+    },
+    {
+      "title": "WHITE HOUSE PRESS ACCESS FIGHT ESCALATES",
+      "stories": [
+        {
+          "headline": "New Press Secretary's Deleted Tweets Show 'Childish Conspiracies'",
+          "url": "https://www.thebulwark.com/p/katie-zacharia-twitter-x-deleted-tweets",
+          "timestamp": 1791803277790,
+          "postedAt": 1791804044128
+        },
+        {
+          "headline": "Justice Department Investigates TV Networks Amid Press-Access Fight",
+          "url": "https://www.cnbc.com/2026/10/11/trump-doj-white-house-tv-press-pool-antitrust.html",
+          "timestamp": 1791745647000,
+          "postedAt": 1791804044128
+        }
+      ]
+    },
+    {
+      "title": "RARE STORM BRINGS HIGH SURF, WIND TO WEST COAST AND NEVADA",
+      "stories": [
+        {
+          "headline": "Rare Subtropical System Sends Rain Threat As Far As Las Vegas",
+          "url": "https://www.nhc.noaa.gov/refresh/graphics_ep3+shtml/092043.shtml?cone",
+          "timestamp": 1791716620613,
+          "postedAt": 1791717288770
+        },
+        {
+          "headline": "Tropical Storm Rachel's Surf Drives Out Long Beach Residents",
+          "url": "https://www.spokesman.com/stories/2026/oct/10/tropical-storm-rachels-surf-drives-out-long-beach-/",
+          "timestamp": 1791672480000,
+          "postedAt": 1791717288770
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Devastating Waves Leave California Beach Homes On Brink Of Collapse",
+        "url": "https://www.yahoo.com/news/weather-news/articles/devastating-waves-leave-california-beach-203552044.html",
+        "timestamp": 1791889638906,
+        "postedAt": 1791890204268
+      },
+      {
+        "headline": "Super El Nino Could Make 2026 The Hottest Year On Record",
+        "url": "https://www.yahoo.com/news/science/articles/el-nino-sets-temperature-record-022016291.html",
+        "timestamp": 1791889638906,
+        "photo": true,
+        "postedAt": 1791890204268,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Trump Says He's 'Looking At' Firing Guilfoyle From Athens Post",
+        "url": "https://www.wwnytv.com/2026/10/12/ap-source-trump-rubio-weigh-firing-us-kimberly-guilfoyle-after-mounting-reports-improper-conduct/",
+        "timestamp": 1791867722000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1791890204268,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Judge Orders Trump Administration To Stop Taxpayer-Funded Ads",
+        "url": "https://www.axios.com/2026/10/12/trump-taxpayer-funded-ads-judge-order",
+        "timestamp": 1791782266000,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Elected Officials Say Violent Threats Have Become The New Normal",
+        "url": "https://www.nytimes.com/2026/10/11/us/politics/elections-political-violence-harassment.html?unlocked_article_code=1.H1E.QfHA.Q_Vvk6n7Fsak&smid=url-share",
+        "timestamp": 1791803277790,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Bill Gates Warns Cyberattacks Are The Most Imminent AI Threat",
+        "url": "https://www.yahoo.com/news/science/articles/bill-gates-warns-cyberattacks-most-155129189.html",
+        "timestamp": 1791803277790,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Two Ex-SF Police Officers Among Three Killed In Marin County Shooting",
+        "url": "https://abc7news.com/post/authorities-investigating-shooting-strawberry-circle-unincorporated-marin-county/19931046/",
+        "timestamp": 1791795614000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Tennessee Weighs Whether To Try Executing Christa Pike Again",
+        "url": "https://www.cnn.com/2026/10/12/us/christa-pike-execution-tennessee",
+        "timestamp": 1791792044000,
+        "photo": true,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Severe Storms, Possible Tornadoes Damage Central North Carolina",
+        "url": "https://abc11.com/post/severe-storms-tornadoes-leave-damage-central-north-carolina/19930066/",
+        "timestamp": 1791788609000,
+        "photo": true,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Pennsylvania Shooter Who Killed Eight Was A Grandfather, Victim's Dad Says",
+        "url": "https://www.theguardian.com/us-news/2026/oct/11/erie-pennsylvania-mass-shooting-grandfather",
+        "timestamp": 1791775200000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Anxious Maine Democrats Turn To Bernie Sanders For A Senate Race Jolt",
+        "url": "https://www.washingtontimes.com/news/2026/oct/11/maine-voters-get-heaping-helping-bernie-sanders-socialist-plans-like/",
+        "timestamp": 1791757336000,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "GOP-Aligned Poll Stuns With Talarico Edge Over Paxton",
+        "url": "https://dnyuz.com/2026/10/10/there-aint-no-way-shock-as-gop-aligned-poll-shows-dem-winning-ruby-red-state/",
+        "timestamp": 1791716620613,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Trump Fumes At 'Stain' On Norway After Missing Out On Nobel",
+        "url": "https://www.jpost.com/international/article-911201",
+        "timestamp": 1791716620613,
+        "photo": true,
+        "postedAt": 1791717288770,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "NYT: Trump Rally Crowd Calls Public Execution 'Necessary'",
+        "url": "https://www.npr.org/2026/10/09/nx-s1-5996529/firing-squad-livestream-execution-fort-hood-shooter",
+        "timestamp": 1791677439000,
+        "photo": true,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Christa Pike Discharged From Hospital, Back In Prison",
+        "url": "https://www.npr.org/2026/10/10/nx-s1-5997504/christa-pike-hospital-prison-after-botched-execution",
+        "timestamp": 1791670504000,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Migrant Shot By ICE Had Terrorized NYC Building With Machete, Police Say",
+        "url": "https://nypost.com/2026/10/10/us-news/criminal-illegal-migrant-shot-by-ice-tormented-nyc-apartment-building-with-machete-neighbor-claims-menace-to-society/",
+        "timestamp": 1791675338000,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Witnesses Describe Man's Fatal Fall From Six Flags Coaster",
+        "url": "https://www.khou.com/article/news/nation-world/riders-stuck-on-the-six-flags-goliath-roller-coaster/85-5a07f6d0-6ab6-458e-8b7b-4d3619436b4b",
+        "timestamp": 1791889638906,
+        "postedAt": 1791890204268
+      },
+      {
+        "headline": "Paxton Busted Partying In Dubai With Fugitives Ahead Of Texas Senate Race",
+        "url": "https://www.yahoo.com/news/politics/articles/ken-paxton-reportedly-partied-dubai-025552820.html",
+        "timestamp": 1791888268000,
+        "postedAt": 1791890204268
+      },
+      {
+        "headline": "War Day 227: Houthi Missile Strikes Hit Saudi Economic Vision",
+        "url": "https://archive.is/UKHrs",
+        "timestamp": 1791889638905,
+        "postedAt": 1791890204268
+      },
+      {
+        "headline": "Taxpayer-Funded Ads Kept Airing After Court Ordered Halt",
+        "url": "https://www.msn.com/en-us/news/other/ar-AA2e1dLP",
+        "timestamp": 1791889638905,
+        "postedAt": 1791890204268
+      }
+    ],
+    "center": [
+      {
+        "headline": "HOUTHIS FIRE MISSILES AT RIYADH, SHAKING SAUDI ARABIA",
+        "url": "https://www.streetinsider.com/Reuters/Saudi+Arabia+reports+injuries+in+new+attack+at+Riyadh+airport%2C+day+after+strike+kills+13/27172796.html",
+        "timestamp": 1791804044128,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Mamdani Orders Review Of NYPD Use Of Force, Dividing Critics",
+        "url": "https://www.police1.com/body-camera/n-y-mayor-orders-nypd-to-review-use-of-force-policy-adds-2-6m-for-police-oversight-office",
+        "timestamp": 1791854128000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1791890204268
+      },
+      {
+        "headline": "Stanford's Robert Hall Wins Nobel Memorial Prize In Economics",
+        "url": "https://news.stanford.edu/stories/2026/10/robert-e-hall-nobel-prize-economic-sciences",
+        "timestamp": 1791843705000,
+        "postedAt": 1791890204268
+      },
+      {
+        "headline": "Fed's Hammack: Hope To Cool Inflation Without Job-Market Pain",
+        "url": "https://www.reuters.com/business/feds-hammack-hope-cool-demand-inflation-without-job-market-pain-2026-10-12/",
+        "timestamp": 1791841020000,
+        "postedAt": 1791890204268
+      },
+      {
+        "headline": "Mamdani: ICE Agents Looked Like 'Mass Shooters' In NYC Shooting",
+        "url": "https://www.theguardian.com/us-news/2026/oct/12/mamdani-ice-new-york-shooting",
+        "timestamp": 1791757034000,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Human-Robot Cage Fights Declared Illegal",
+        "url": "https://www.yahoo.com/news/us/articles/international-robot-human-fight-promoter-223459461.html",
+        "timestamp": 1791803277791,
+        "photo": true,
+        "postedAt": 1791804044128,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "Musk Now Richer Than Any American Ever",
+        "url": "https://www.marketwatch.com/story/elon-musk-is-now-richer-than-any-american-ever-and-its-not-even-close-58f31401",
+        "timestamp": 1791803277791,
+        "photo": true,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Trump's BBC Lawsuit Backfires As Judge Drags Family Into The Case",
+        "url": "https://archive.is/zgBPC",
+        "timestamp": 1791803277790,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Spanish-Language Radio Show Overflows With PA Voters' Frustration",
+        "url": "https://apnews.com/article/hispanic-voters-house-election-2026-pennsylvania-531302badd26bc7e9676edf892889dbe",
+        "timestamp": 1791778980000,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Santa Clarita Brush Fire Burns 475 Acres As Evacuations Are Downgraded",
+        "url": "https://abc7.com/post/santa-clarita-brush-fire-quickly-spreads-least-230-acres-prompting-evacuations/19930420/",
+        "timestamp": 1791771499000,
+        "photo": true,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Suspect In Deadly Philadelphia Police Ambush Had Criminal History",
+        "url": "https://www.nbcphiladelphia.com/news/local/suspect-in-deadly-ambush-of-philly-police-officers-has-criminal-history-docs/4477920/",
+        "timestamp": 1791754668000,
+        "photo": true,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Greek Officials Voice Exasperation Over Guilfoyle Allegations",
+        "url": "https://www.nytimes.com/2026/10/10/world/europe/kimberly-guilfoyle-greece.html?unlocked_article_code=1.HlE.bakL.zjRPEPRlheiB&smid=url-share",
+        "timestamp": 1791716620613,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Pope Criticizes Death Penalty After Hegseth's Execution Announcement",
+        "url": "https://www.usnews.com/news/world/articles/2026-10-10/pope-leo-condemns-death-penalty-as-trump-mulls-livestreamed-execution",
+        "timestamp": 1791716620613,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Bill Maher Defends Trump's Comments About Bombing LA",
+        "url": "https://www.yahoo.com/news/videos/bill-maher-70-defends-trump-180010041.html",
+        "timestamp": 1791706319000,
+        "photo": true,
+        "postedAt": 1791717288770,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "9 Dead, Including Suspect, In Erie, Pennsylvania Shooting",
+        "url": "https://apnews.com/article/nine-killed-shooting-erie-pennsylvania-563c7c4262d47858dabecc43485c6483",
+        "timestamp": 1791673020000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "House Candidate Who Reported Campaign-Trail Rape Explains Coming Forward",
+        "url": "https://www.cbsnews.com/news/bernadette-greene-placentia-house-candidate-campaign-trail-rape-allegation/",
+        "timestamp": 1791667801000,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Park Service To Remove 500 Trees From Historic Golf Course Trump Is Redesigning",
+        "url": "https://abcnews.com/US/wireStory/park-service-remove-500-trees-historic-golf-trump-137163526",
+        "timestamp": 1791662100000,
+        "photo": true,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Photos Suggest Talarico Was Home In Texas During Campaign Absence",
+        "url": "https://www.cbsnews.com/news/james-talarico-texas-senate-campaign-trail-security-camera-photos/",
+        "timestamp": 1791859020000,
+        "postedAt": 1791890204268
+      },
+      {
+        "headline": "Anthropic Admits Houthis Used Claude AI To Improve Rocket Accuracy",
+        "url": "https://www.dailymail.com/news/article-16202851",
+        "timestamp": 1791889638905,
+        "postedAt": 1791890204268
+      }
+    ],
+    "right": [
+      {
+        "headline": "Marin Murder-Suicide Victim Remembered As SFPD Pioneer",
+        "url": "https://www.sfchronicle.com/sf/article/ann-mannix-marin-murder-suicide-22473706.php",
+        "timestamp": 1791858316000,
+        "photo": true,
+        "postedAt": 1791890204268
+      },
+      {
+        "headline": "Houston Man Run Over By ICE Vehicle Needs Additional Surgery",
+        "url": "https://www.nbcnews.com/news/us-news/houston-man-run-ice-vehicle-will-need-additional-surgery-advocates-say-rcna602971",
+        "timestamp": 1791852120000,
+        "photo": true,
+        "postedAt": 1791890204268,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "He Poisoned His Berkeley Coworker; Now He Wants His Conviction Cleared",
+        "url": "https://www.sfgate.com/bayarea/article/poisoned-berkeley-co-worker-conviction-22474230.php",
+        "timestamp": 1791850248000,
+        "photo": true,
+        "postedAt": 1791890204268
+      },
+      {
+        "headline": "Musk Gives $276 Million To Republican Groups, Becomes Top 2026 Donor",
+        "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html",
+        "timestamp": 1791839878000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1791890204268,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "HURRICANE ISAIAS LEAVES FOUR DEAD, THOUSANDS WITHOUT POWER",
+        "url": "https://www.bbc.com/news/articles/cmje5x80yg70o",
+        "timestamp": 1791717288770,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "What Is Fetterman Doing? How He Spends His Time Draws Scrutiny",
+        "url": "https://www.msn.com/en-us/news/other/how-john-fetterman-spends-his-time-comes-under-more-scrutiny-as-he-weighs-future-in-the-senate/ar-AA2e39gP",
+        "timestamp": 1791803277791,
+        "photo": true,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Trump Vows To Rename Oceans",
+        "url": "https://nypost.com/2026/10/11/us-news/president-trump-toys-with-renaming-atlantic-and-pacific-trump-ocean/",
+        "timestamp": 1791803277790,
+        "photo": true,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Trump, Rubio Weigh Firing US Envoy To Greece Over Misconduct Reports",
+        "url": "https://apnews.com/article/trump-rubio-guilfoyle-364465fc46b023cacf2b70c94cc76ae2",
+        "timestamp": 1791780180000,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "US Forces Disable Ship Attempting To Run Iran Blockade In Gulf Of Oman",
+        "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman",
+        "timestamp": 1791699275000,
+        "feature": true,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Liberal Blogger Found Guilty Of Harassment Over Shrek Meme",
+        "url": "https://www.theblaze.com/news/shrek-blogger-explicit-guilty-ohio",
+        "timestamp": 1791715897000,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Bodycam Shows Welfare Check Weeks Before SC Toddlers' Deaths",
+        "url": "https://nypost.com/2026/10/10/us-news/bodycam-footage-reveals-welfare-check-weeks-south-carolina-toddlers-deaths/",
+        "timestamp": 1791683280000,
+        "photo": true,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Philadelphia Officer Fatally Shot On Call; DA Announces Charges",
+        "url": "https://whyy.org/articles/two-police-officers-shot-west-philadelphia/",
+        "timestamp": 1791675059000,
+        "photo": true,
+        "postedAt": 1791717288770,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Supreme Court Climate Case Could Bankrupt Oil Firms, Spike Gas Prices",
+        "url": "https://www.foxnews.com/politics/supreme-court-climate-case-could-bankrupt-oil-companies-send-gas-prices-soaring-experts-warn",
+        "timestamp": 1791662753000,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Powerful Waves Continue To Pound California Coastline",
+        "url": "https://www.yahoo.com/news/weather-news/articles/powerful-waves-lash-california-coast-224935691.html",
+        "timestamp": 1791716620613,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "Video Shows ICE SUV Striking Man In West Houston",
+        "url": "https://www.houstonchronicle.com/news/houston-texas/article/ice-vehicle-houston-pedestrian-22471407.php",
+        "timestamp": 1791681295000,
+        "postedAt": 1791717288770
+      },
+      {
+        "headline": "US Threatens To Cut Intel Sharing If Ukraine Keeps Hitting Russian Energy Sites",
+        "url": "https://www.cnn.com/2026/10/11/politics/ukraine-us-weapons-intelligence",
+        "timestamp": 1791767940000,
+        "feature": true,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Talarico Conspiracy Theories Embarrass MAGA Influencers",
+        "url": "https://unherd.com/newsroom/james-talarico-conspiracies-have-embarrassed-maga-influencers",
+        "timestamp": 1791889638906,
+        "postedAt": 1791890204268
+      },
+      {
+        "headline": "Fading MAGA Claims He's Locked In A Mental Hospital",
+        "url": "https://www.mediaite.com/media/news/talarico-spox-rages-after-maga-influencers-promote-utterly-bizarre-conspiracy-theory-that-he-was-locked-in-a-mental-hospital/",
+        "timestamp": 1791803277791,
+        "postedAt": 1791804044128
+      },
+      {
+        "headline": "Iran Denies Role In Attack At British Base Housing US Bombers",
+        "url": "https://dailycaller.com/2026/10/13/iran-terror-incident-british-base-us-bombers-uk",
+        "timestamp": 1791888060000,
+        "postedAt": 1791890204268
+      }
+    ]
+  },
+  "balance": {
+    "left": 716,
+    "right": 389,
+    "independent": 5,
+    "days": 30,
+    "total": 1105,
+    "pctLeft": 65,
+    "pctRight": 35
+  }
+}
