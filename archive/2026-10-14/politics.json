@@ -1,0 +1,469 @@
+{
+  "lastUpdated": 1791979270279,
+  "heroSetDate": "2026-10-14",
+  "hero": {
+    "headline": "TRUMP'S GREECE AMBASSADOR KIMBERLY GUILFOYLE RESIGNS AMID MISCONDUCT ALLEGATIONS",
+    "url": "https://www.npr.org/2026/10/14/g-s1-148027/trump-ambassador-greece-resignation",
+    "sublinks": [
+      {
+        "text": "National Review: What Guilfoyle's Abrupt Exit Means For Trump's Team",
+        "url": "https://www.nationalreview.com/2026/10/guilfoyles-exit/"
+      }
+    ],
+    "postedAt": 1791979270278,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "DOJ INVESTIGATION OF REP. ILHAN OMAR",
+      "stories": [
+        {
+          "headline": "How The Pre-Election Search Of Omar's Home Breaks Justice Department Norms",
+          "url": "https://apnews.com/article/ilhan-omar-home-searched-8e18c2aea948bd90f4d7a4eb32b9ec3a",
+          "timestamp": 1791977537000,
+          "postedAt": 1791979270278
+        },
+        {
+          "headline": "Rep. Ilhan Omar Under Investigation By Jeanine Pirro's Office",
+          "url": "https://www.axios.com/2026/10/13/ilhan-omar-investigation-finances-pirro",
+          "timestamp": 1791966700000,
+          "feature": true,
+          "postedAt": 1791979270278
+        }
+      ]
+    },
+    {
+      "title": "REPUBLICANS BRACE FOR 2026 MIDTERMS",
+      "stories": [
+        {
+          "headline": "Trump Plays Russian Roulette On Eve Of Midterms",
+          "url": "https://www.axios.com/2026/10/14/trump-putin-diesel-deal-midterms-russia",
+          "timestamp": 1791968632000,
+          "postedAt": 1791979270278
+        },
+        {
+          "headline": "With No October Surprise In Sight, Republicans Try To Save Themselves",
+          "url": "https://www.politico.com/news/2026/10/14/with-no-october-surprise-in-sight-republicans-try-to-save-themselves-01117246",
+          "timestamp": 1791968400000,
+          "postedAt": 1791979270278
+        }
+      ]
+    },
+    {
+      "title": "TRUMP-GOP RIFT OVER RUSSIA DIESEL DEAL",
+      "stories": [
+        {
+          "headline": "National Review: Trump's Diesel Deal Is A Desperate Gambit",
+          "url": "https://www.nationalreview.com/2026/10/trumps-desperate-diesel-deal/",
+          "timestamp": 1791887450000,
+          "postedAt": 1791892337973
+        },
+        {
+          "headline": "Trump Says Russia, Ukraine Agree To 'Energy Ceasefire'",
+          "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+          "timestamp": 1791787317000,
+          "postedAt": 1791806500884
+        },
+        {
+          "headline": "US Had Threatened To Cut Ukraine Intel Sharing Over Russian Energy Strikes",
+          "url": "https://www.cnn.com/2026/10/11/politics/ukraine-us-weapons-intelligence",
+          "timestamp": 1791767940000,
+          "postedAt": 1791806500884
+        },
+        {
+          "headline": "Judge Deals Another Blow To Trump's White House Media Bans",
+          "url": "https://www.huffpost.com/entry/judge-rules-trump-press-ban_n_6ac7a973e4b0e825de12a83e",
+          "timestamp": 1791966760000,
+          "postedAt": 1791979270278
+        }
+      ]
+    },
+    {
+      "title": "EL-SAYED SCRUTINY AMID AI POLICY ROLLOUT",
+      "stories": [
+        {
+          "headline": "Scrutiny Grows Over El-Sayed's Alleged Muslim Brotherhood Ties After Interview",
+          "url": "https://justthenews.com/politics-policy/elections/scrutiny-el-sayeds-alleged-ties-muslim-brotherhood-grow-following",
+          "timestamp": 1791889148000,
+          "postedAt": 1791892337973
+        },
+        {
+          "headline": "El-Sayed Backs AI Kill Switch, New Safety Agency",
+          "url": "https://www.politico.com/news/2026/10/13/el-sayed-ai-kill-switch-safety-agency-01116280",
+          "timestamp": 1791885600000,
+          "postedAt": 1791892337973
+        }
+      ]
+    },
+    {
+      "title": "CORNELL SEXUAL ASSAULT SCANDAL FALLOUT",
+      "stories": [
+        {
+          "headline": "Critics Say Media Omitted Key Context From Latest Cornell Text Messages",
+          "url": "https://townhall.com/news/mattvespa/2026/10/12/we-know-why-the-liberal-media-left-out-some-crucial-context-regarding-the-latest-cornell-texts-n2684488",
+          "timestamp": 1791802800000,
+          "postedAt": 1791806500884
+        },
+        {
+          "headline": "Investigation Probes Cornell's Culture Of 'Sex, Drugs' And AI Bias Claims",
+          "url": "https://www.realclearinvestigations.com/video/2026/10/10/sex_and_drugs_at_cornell_ai_bias_and_hate_speech_1210964.html",
+          "timestamp": 1791610320000,
+          "postedAt": 1791806500884
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Mamdani, City Council Move To End NYC Horse-Drawn Carriage Industry",
+        "url": "https://www.foxnews.com/travel/mamdani-city-council-move-end-iconic-nyc-horse-drawn-carriage-industry-workers-face-uncertain-future",
+        "timestamp": 1791972054000,
+        "postedAt": 1791979270278
+      },
+      {
+        "headline": "White House Shuts Down Fraudsters Double-Dipping From Government Healthcare",
+        "url": "https://www.dailywire.com/news/exclusive-white-house-shuts-down-fraudsters-double-dipping-from-government-healthcare?topStoryPosition",
+        "timestamp": 1791976016000,
+        "photo": true,
+        "postedAt": 1791979270278,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "Iran War's Impact On US Defenses Against China Downplayed By Army Leader",
+        "url": "https://www.foxnews.com/politics/iran-wars-unexpected-impact-us-defenses-against-china-threat-downplayed-top-army-leader",
+        "timestamp": 1791972028000,
+        "postedAt": 1791979270278
+      },
+      {
+        "headline": "Hochul And Blakeman Spar On Trump, Mamdani And Prices In Debate",
+        "url": "https://gothamist.com/news/ny-gov-kathy-hochul-bruce-blakeman-spar-over-immigration-cost-of-living-in-debate",
+        "timestamp": 1791940030000,
+        "photo": true,
+        "postedAt": 1791979270278,
+        "image": "/img/politics-5.jpg"
+      },
+      {
+        "headline": "Houthis Threaten US With 'Swift And Painful' Response Over Saudi Strikes",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/",
+        "timestamp": 1791889140000,
+        "photo": true,
+        "postedAt": 1791892337973,
+        "image": "/img/politics-6.jpg"
+      },
+      {
+        "headline": "UK: Iran Denies Role In Base Incident That Housed US Bombers",
+        "url": "https://timesofindia.indiatimes.com/world/uk/almost-certainly-directed-by-iran-uk-blames-irgc-for-us-air-base-incident-tehran-denies/articleshow/134898297.cms",
+        "timestamp": 1791888060000,
+        "photo": true,
+        "postedAt": 1791892337973
+      },
+      {
+        "headline": "Trump Says He's 'Looking At' Firing Guilfoyle From Athens Post",
+        "url": "https://newscord.org/article/trump-weighs-firing-kimberly-guilfoyle-as-us-ambassador-to-greece-after-miscondu--Story_20261012_Trumpsayshesconsider6535e964",
+        "timestamp": 1791867722000,
+        "photo": true,
+        "postedAt": 1791892337973
+      },
+      {
+        "headline": "Three Charged In $20 Million 'Free College' Benefit Fraud",
+        "url": "https://justthenews.com/nation/states/center-square/three-charged-stealing-20m-free-college-benefit-program",
+        "timestamp": 1791805495000,
+        "photo": true,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "Analysis: A New Middle East Takes Shape",
+        "url": "https://www.al-monitor.com/originals/2026/10/why-saudi-pakistan-defense-pact-remains-key-mecca-alliance-takes-shape",
+        "timestamp": 1791802036000,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "Mamdani: ICE Agents Looked More Like 'Mass Shooters' Than Police",
+        "url": "https://www.theguardian.com/us-news/2026/oct/12/mamdani-ice-new-york-shooting",
+        "timestamp": 1791757034000,
+        "photo": true,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "Senate Committee Votes To Hold Dr. Fauci In Contempt Of Congress",
+        "url": "https://abc7ny.com/post/senate-panel-will-vote-holding-fauci-contempt-refusing-answer-questions/19635382/?userab",
+        "timestamp": 1791728395000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "911 Calls Reveal Delayed Emergency Help After Botched Christa Pike Execution",
+        "url": "https://www.nbcnews.com/news/us-news/911-calls-highlight-confusion-failed-execution-christa-pike-rcna603101",
+        "timestamp": 1791888120000,
+        "postedAt": 1791892337973
+      },
+      {
+        "headline": "Texas Senate Candidate Talarico Dismisses Musk-Amplified Mental Health Claims",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/10/12/talarico-dismisses-mental-health-treatment-conspiracy-theories-after-campaign-absence/",
+        "timestamp": 1791790285000,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "Ken Paxton Partied In Dubai With Fugitives Ahead Of Texas Senate Race",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4763759/ken-paxton-dubai-new-years-party-fugitives/",
+        "timestamp": 1791853200000,
+        "postedAt": 1791892337973
+      },
+      {
+        "headline": "Trump Backlash Threatens Susan Collins, Only Blue-State GOP Senator",
+        "url": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/trump-faces-backlash-over-plans-to-import-russian-diesel-ahead-of-us-midterms/amp_articleshow/134889056.cms",
+        "timestamp": 1791968521000,
+        "postedAt": 1791979270278
+      },
+      {
+        "headline": "Ossoff, Collins Clash In Second Georgia Senate Debate",
+        "url": "https://thehill.com/homenews/campaign/6146910-ossoff-collins-second-georgia-senate-debate-takeaways/",
+        "timestamp": 1791944700000,
+        "postedAt": 1791979270278
+      }
+    ],
+    "center": [
+      {
+        "headline": "Tech Platforms Face A 'No-Win' Choice With Livestreamed Execution",
+        "url": "https://www.politico.com/news/2026/10/14/tech-platforms-livestreamed-execution-01117372",
+        "timestamp": 1791970200000,
+        "postedAt": 1791979270278
+      },
+      {
+        "headline": "Justice Department Demands California Review Noncitizen Voter Rolls",
+        "url": "https://justthenews.com/politics-policy/elections/justice-department-demands-california-review-list-suspected-noncitizens",
+        "timestamp": 1791975863000,
+        "postedAt": 1791979270278
+      },
+      {
+        "headline": "Why HUD's Pushback Against DEI Mortgages Is Good For Black Wealth",
+        "url": "https://www.nationalreview.com/2026/10/why-huds-pushing-against-dei-mortgages-is-good-for-black-wealth/?utm_source",
+        "timestamp": 1791973805000,
+        "postedAt": 1791979270278
+      },
+      {
+        "headline": "Familiar Face Reportedly Trying To Help Arizona Republicans",
+        "url": "https://townhall.com/news/mattvespa/2026/10/14/a-familiar-face-is-reportedly-trying-to-help-az-republicans-n2684633",
+        "timestamp": 1791972022000,
+        "photo": true,
+        "postedAt": 1791979270278,
+        "image": "/img/politics-2.jpg"
+      },
+      {
+        "headline": "Top Republicans Privately See House As A Lost Cause",
+        "url": "https://www.politico.com/news/2026/10/14/house-republicans-private-lost-cause-01117673",
+        "timestamp": 1791967500000,
+        "photo": true,
+        "postedAt": 1791979270278
+      },
+      {
+        "headline": "JUDGE ORDERS TRUMP ADMINISTRATION TO HALT TAXPAYER-FUNDED TV ADS",
+        "url": "https://www.cbsnews.com/news/trump-taxpayer-funded-ads-judge-cancels/",
+        "timestamp": 1791806500884,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "Houston Man Run Over By ICE Vehicle Will Need More Surgery",
+        "url": "https://www.nbcnews.com/news/us-news/houston-man-run-ice-vehicle-will-need-additional-surgery-advocates-say-rcna602971",
+        "timestamp": 1791852120000,
+        "postedAt": 1791892337973
+      },
+      {
+        "headline": "Harris Spent A Year Failing To Make Her Case, Allies Say",
+        "url": "https://www.politico.com/news/2026/10/13/kamala-harris-wasted-year-01115183",
+        "timestamp": 1791882000000,
+        "photo": true,
+        "postedAt": 1791892337973
+      },
+      {
+        "headline": "Judge Forbids Deportation Of Immigrant Shot By ICE In The Bronx",
+        "url": "https://www.theblaze.com/news/illegal-alien-obama-ice-judge",
+        "timestamp": 1791804997000,
+        "photo": true,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "MAGA Inc. Trims Its Target Map For Final Midterm Push",
+        "url": "https://www.politico.com/newsletters/playbook/2026/10/12/maga-inc-trims-the-map-01116150",
+        "timestamp": 1791803105000,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "Analysis: Congress Faces A $2 Trillion Fiscal Problem",
+        "url": "https://www.nationalreview.com/2026/10/congresss-2-trillion-problem/",
+        "timestamp": 1791801032000,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "Video Shows ICE Agent Striking Man With Car During Texas Pursuit",
+        "url": "https://abc7.com/story/ice-runs-man-agent-caught-surveillance-video-hitting-miguel-parra-hernandez-car-during-chase-shopping-center-harris-county-texas-officials-say/19930189/",
+        "timestamp": 1791748665000,
+        "photo": true,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "Free Press: Don't Livestream The Death Penalty",
+        "url": "https://www.timesfreepress.com/news/2026/oct/12/local-evolution-toward-banning-the-death-penalty/",
+        "timestamp": 1791885810000,
+        "postedAt": 1791892337973,
+        "image": "/img/politics-7.jpg"
+      },
+      {
+        "headline": "Takeaways From First South Carolina Senate Debate Between Graham, Andrews",
+        "url": "https://thehill.com/homenews/campaign/6141971-sc-senate-debate-graham-andrews/",
+        "timestamp": 1791782880000,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "NY DSA Leader Blasted Landlords While Parents Rented Florida Mansion For $18,000 A Month",
+        "url": "https://freebeacon.com/democrats/ny-democratic-socialists-boss-railed-against-landlords-his-rich-parents-rented-out-their-florida-mansion-for-18000-a-month-bought-him-a-1-million-nyc-home/",
+        "timestamp": 1791882385000,
+        "postedAt": 1791892337973
+      },
+      {
+        "headline": "Judge Halts USDA's Reorganization Plan",
+        "url": "https://www.politico.com/news/2026/10/13/judge-blocks-usdas-reorganization-01117476",
+        "timestamp": 1791937800000,
+        "postedAt": 1791979270278
+      }
+    ],
+    "right": [
+      {
+        "headline": "Border Patrol Apprehended 2 Million Fewer Migrants Under Trump Than Biden: Report",
+        "url": "https://justthenews.com/government/federal-agencies/border-patrol-apprehended-2-million-fewer-illegal-immigrants-under",
+        "timestamp": 1791977347000,
+        "postedAt": 1791979270278
+      },
+      {
+        "headline": "New White House Press Secretary Has Rough First Day",
+        "url": "https://townhall.com/news/mattvespa/2026/10/14/new-white-house-press-secretary-has-a-rough-first-day-but-theres-a-reason-for-that-n2684632",
+        "timestamp": 1791973838000,
+        "photo": true,
+        "postedAt": 1791979270278,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "American-Made Goods Also Got Pricier Under Trump Tariffs: Study",
+        "url": "https://www.foxnews.com/politics/american-made-goods-expensive-under-trump-tariffs-new-research-finds",
+        "timestamp": 1791972009000,
+        "postedAt": 1791979270278
+      },
+      {
+        "headline": "Commercial Surrogacy Weaponizes Law Against Life",
+        "url": "https://www.dailywire.com/news/how-commercial-surrogacy-weaponizes-the-law-against-life?author",
+        "timestamp": 1791970308000,
+        "postedAt": 1791979270278
+      },
+      {
+        "headline": "South Texas Latino Voters Who Flipped For Trump In 2024 Up For Grabs",
+        "url": "https://www.cnbc.com/2026/10/14/texas-latino-voters-midterm-election-trump.html",
+        "timestamp": 1791946800000,
+        "photo": true,
+        "postedAt": 1791979270278,
+        "image": "/img/politics-3.jpg"
+      },
+      {
+        "headline": "Florida Executes Inmate Who Killed Cellmate To Get Death Penalty",
+        "url": "https://www.foxnews.com/us/florida-executes-inmate-killed-cellmate-wanted-death-penalty",
+        "timestamp": 1791942480000,
+        "photo": true,
+        "postedAt": 1791979270278,
+        "image": "/img/politics-4.jpg"
+      },
+      {
+        "headline": "National Review: Navi Pillay's Nobel Peace Prize Is Undeserved",
+        "url": "https://www.nationalreview.com/2026/10/navi-pillays-undeserved-nobel-peace-prize/?utm_source",
+        "timestamp": 1791887458000,
+        "photo": true,
+        "postedAt": 1791892337973
+      },
+      {
+        "headline": "Pennsylvania's Shapiro Sides Against Netanyahu In Israeli Election",
+        "url": "https://freebeacon.com/democrats/pa-governor-shapiro-sides-against-netanyahu-in-israeli-election/",
+        "timestamp": 1791882385000,
+        "photo": true,
+        "postedAt": 1791892337973
+      },
+      {
+        "headline": "USDA Urges States To Review Wolf Management After Trump Order",
+        "url": "https://www.usda.gov/about-usda/news/press-releases/2026/10/12/following-president-trumps-executive-order-usda-urges-states-review-wolf-management-policies-and",
+        "timestamp": 1791846900000,
+        "photo": true,
+        "postedAt": 1791892337973
+      },
+      {
+        "headline": "Woman Sues Dearborn, Michigan Over City's Muslim-Led Government",
+        "url": "https://www.theblaze.com/shows/the-glenn-beck-program/why-one-woman-is-taking-the-muslim-run-city-to-federal-court",
+        "timestamp": 1791801154000,
+        "photo": true,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "Trump Marks Columbus Day With Special Tribute From Italy",
+        "url": "https://www.theblaze.com/news/trump-pays-homage-to-columbus-unveils-special-tribute-from-italy",
+        "timestamp": 1791801063000,
+        "photo": true,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "In Maine Senate Race, Anxious Democrats Turn To Bernie Sanders",
+        "url": "https://19thnews.org/2026/10/troy-jackson-susan-collins-maine-democrats/",
+        "timestamp": 1791757336000,
+        "photo": true,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "The Races That Will Decide Control Of The US Senate",
+        "url": "https://www.reuters.com/legal/government/races-that-will-decide-control-us-senate-2026-10-12/",
+        "timestamp": 1791799664000,
+        "postedAt": 1791806500884
+      },
+      {
+        "headline": "Paxton Took Campaign Funds From Donors With Business Before His Office",
+        "url": "https://www.newsgram.com/america/2026/10/11/ken-paxtons-security-travel-cost-taxpayers-millions",
+        "timestamp": 1791887549000,
+        "postedAt": 1791892337973
+      },
+      {
+        "headline": "Mamdani Orders Review Of NYPD Use Of Force, Riling Both Sides",
+        "url": "https://www.oskaloosa.com/news/national_news/mamdani-orders-review-of-nypds-use-of-force-policies-as-progressives-call-for-greater-change/article_9b4f40fa-5a56-5e64-9f11-4d4fedff343d.html",
+        "timestamp": 1791854128000,
+        "postedAt": 1791892337973
+      }
+    ]
+  },
+  "polls": [
+    {
+      "name": "Trump Approval",
+      "value": "38%/60%",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
+      "asOf": "Oct 13, 2026"
+    },
+    {
+      "name": "Generic Congressional Vote",
+      "value": "Dem +9",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "Oct 13, 2026"
+    },
+    {
+      "name": "Right Direction",
+      "value": "33%",
+      "sub": "",
+      "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/right_direction_or_wrong_track",
+      "asOf": "Oct 8, 2026"
+    }
+  ],
+  "balance": {
+    "left": 618,
+    "right": 708,
+    "independent": 22,
+    "days": 30,
+    "total": 1326,
+    "pctLeft": 47,
+    "pctRight": 53
+  }
+}
