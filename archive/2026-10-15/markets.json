@@ -42,21 +42,9 @@
           "postedAt": 1792064140665
         },
         {
-          "headline": "TSMC Weighs Texas Expansion, Talks With Musk's Terafab",
-          "url": "https://finance.yahoo.com/technology/articles/taiwan-chipmaker-tsmc-explores-texas-101633040.html",
-          "timestamp": 1792055880000,
-          "postedAt": 1792064140665
-        },
-        {
           "headline": "TSMC Stock Falls Despite Blowout Earnings As AI Fears Persist",
           "url": "https://stocktwits.com/news-articles/markets/equity/strategist-tsmc-blowout-q2-validates-ai-demand-dismisses-valuation-mu-sndk/cZZEIqAR7s5",
           "timestamp": 1792054020000,
-          "postedAt": 1792064140665
-        },
-        {
-          "headline": "ASML Posts Mixed Q3 Results But Raises Guidance",
-          "url": "https://finance.yahoo.com/technology/ai/articles/asml-raises-capacity-concerns-ai-122600815.html",
-          "timestamp": 1792011180000,
           "postedAt": 1792064140665
         }
       ]
@@ -97,23 +85,6 @@
           "headline": "China Signals Rare Earths Will Keep Flowing To EU Despite US Deal Lapse",
           "url": "https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html",
           "timestamp": 1792054951000,
-          "postedAt": 1792064140665
-        }
-      ]
-    },
-    {
-      "title": "APPLE HITS $5 TRILLION AS TECH RALLY WOBBLES",
-      "stories": [
-        {
-          "headline": "Apple's $5 Trillion Milestone Faces Test As Tech Trade Falters",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-joins-nvidia-5-trillion-001454175.html",
-          "timestamp": 1792056060000,
-          "postedAt": 1792064140665
-        },
-        {
-          "headline": "Apple Joins Nvidia In The $5 Trillion Valuation Club",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-joins-nvidia-5-trillion-001454175.html",
-          "timestamp": 1792011300000,
           "postedAt": 1792064140665
         }
       ]
@@ -242,7 +213,7 @@
         "timestamp": 1791876600000,
         "photo": true,
         "postedAt": 1791891608735,
-        "image": "/img/markets-7.jpg"
+        "image": "/img/markets-6.jpg"
       },
       {
         "headline": "IMF Warns Top Economies Face Biggest Deficits Since Covid",
@@ -268,7 +239,8 @@
         "url": "https://www.cbsnews.com/news/hurricane-simon-takes-aim-mexico-pacific-coast/",
         "timestamp": 1791803100000,
         "photo": true,
-        "postedAt": 1791805587960
+        "postedAt": 1791805587960,
+        "image": "/img/markets-7.jpg"
       },
       {
         "headline": "US Wealth Boom And Price Shock Are Colliding, Data Shows",
@@ -385,8 +357,7 @@
         "url": "https://www.foxbusiness.com/video/6406739633112",
         "timestamp": 1791886709000,
         "photo": true,
-        "postedAt": 1791891608735,
-        "image": "/img/markets-5.jpg"
+        "postedAt": 1791891608735
       },
       {
         "headline": "Scientists Call For International Body To Oversee Advanced AI",
@@ -400,7 +371,7 @@
         "timestamp": 1791883200000,
         "photo": true,
         "postedAt": 1791891608735,
-        "image": "/img/markets-6.jpg"
+        "image": "/img/markets-5.jpg"
       },
       {
         "headline": "China Clears Visa To Launch Local Clearing Entity After 9-Year Wait",
@@ -471,6 +442,12 @@
         "url": "https://www.reuters.com/business/retail-consumer/amazon-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-2026-10-11/",
         "timestamp": 1791751612000,
         "postedAt": 1791805587960
+      },
+      {
+        "headline": "Apple's $5 Trillion Milestone Faces Test As Tech Trade Falters",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-joins-nvidia-5-trillion-001454175.html",
+        "timestamp": 1792056060000,
+        "postedAt": 1792064140665
       }
     ],
     "right": [
@@ -645,58 +622,58 @@
   "markets": [
     {
       "name": "S&P 500",
-      "value": "7,718.94",
-      "change": "-86.51",
-      "changePct": "-1.11%",
-      "up": false,
+      "value": "7,726.46",
+      "change": "+7.52",
+      "changePct": "+0.10%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Dow",
-      "value": "51,621.48",
-      "change": "-48.62",
-      "changePct": "-0.09%",
-      "up": false,
+      "value": "52,085.29",
+      "change": "+463.81",
+      "changePct": "+0.90%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Nasdaq",
-      "value": "26,692.87",
-      "change": "-511.51",
-      "changePct": "-1.88%",
+      "value": "26,594.72",
+      "change": "-98.15",
+      "changePct": "-0.37%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "10-Yr",
-      "value": "5.19%",
-      "change": "-0.03",
-      "changePct": "-0.52%",
+      "value": "5.09%",
+      "change": "-0.10",
+      "changePct": "-1.87%",
       "up": false,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Gold",
-      "value": "$4,178.10",
-      "change": "+70.20",
-      "changePct": "+1.71%",
+      "value": "$4,171.60",
+      "change": "+63.70",
+      "changePct": "+1.55%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Oil",
-      "value": "$93.90",
-      "change": "+0.00",
-      "changePct": "+0.00%",
+      "value": "$96.48",
+      "change": "+2.58",
+      "changePct": "+2.75%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     },
     {
       "name": "Bitcoin",
-      "value": "$81,030.43",
-      "change": "-542.67",
-      "changePct": "-0.67%",
-      "up": false,
+      "value": "$82,157.45",
+      "change": "+584.35",
+      "changePct": "+0.72%",
+      "up": true,
       "url": "https://www.wsj.com/market-data"
     }
   ]
