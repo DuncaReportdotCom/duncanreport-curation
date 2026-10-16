@@ -1,0 +1,613 @@
+{
+  "lastUpdated": 1792149958809,
+  "heroSetDate": "2026-10-16",
+  "hero": {
+    "headline": "EU LEADERS RALLY AROUND ZELENSKYY AS TRUMP CALLS UKRAINE'S RENEWED RUSSIA STRIKES A 'DISGRACE'",
+    "url": "https://www.reuters.com/world/europe/eu-leaders-rally-around-zelenskiy-trump-calls-ukrainian-strikes-russia-disgrace-2026-10-16/",
+    "sublinks": [
+      {
+        "text": "Trump Blasts Ukraine's Renewed Attacks As A 'Disgrace'",
+        "url": "https://www.politico.eu/article/trump-slams-ukraine-decision-resume-energy-strikes-russia-disgrace/"
+      },
+      {
+        "text": "Zelenskiy Declares He's 'Done' With Trump's Energy Truce",
+        "url": "https://uk.news.yahoo.com/zelenskiy-says-ukraine-resume-strikes-060307306.html"
+      },
+      {
+        "text": "Diplomat Richard Haass Weighs Trump's Shifting Role In The War",
+        "url": "https://www.npr.org/2026/10/14/nx-s1-6000164/diplomat-richard-haass-discusses-the-russia-ukraine-war-and-trumps-role"
+      },
+      {
+        "text": "EU Likely To Extend Ukraine A New Loan, Estonian PM Says",
+        "url": "https://www.reuters.com/business/finance/eu-will-probably-have-give-new-loan-ukraine-estonian-pm-michal-says-2026-10-16/"
+      }
+    ],
+    "postedAt": 1792149958809,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "ISRAEL-PALESTINE: WEST BANK SETTLER VIOLENCE",
+      "stories": [
+        {
+          "headline": "Israeli Settlers Burn Olive Trees, Injure Journalist In West Bank Attack",
+          "url": "https://www.reuters.com/world/middle-east/israeli-settlers-burn-olive-trees-injure-journalist-west-bank-attack-2026-10-16/",
+          "timestamp": 1792146960000,
+          "postedAt": 1792149958809
+        },
+        {
+          "headline": "China Tells Israel To Stop 'Forced Establishment' Of Settlements",
+          "url": "https://www.aljazeera.com/news/2026/10/16/china-tells-israel-to-stop-forced-establishment-of-west-bank-settlements",
+          "timestamp": 1792120196000,
+          "postedAt": 1792149958809
+        }
+      ]
+    },
+    {
+      "title": "FRANCE'S POLITICAL AND SOCIAL CRISIS DEEPENS",
+      "stories": [
+        {
+          "headline": "Survey: 46% Of Muslims Would Leave France If Le Pen Wins Presidency",
+          "url": "https://www.breitbart.com/europe/2026/10/16/46-of-muslims-would-want-to-leave-france-if-le-pen-elected-report/",
+          "timestamp": 1792145100000,
+          "postedAt": 1792149958809
+        },
+        {
+          "headline": "Cost-Of-Living Protests Set To Grip Pre-Election France",
+          "url": "https://www.msn.com/en-us/news/other/cost-of-living-demonstrations-to-grip-pre-election-france/ar-AA2emMfC",
+          "timestamp": 1792117658000,
+          "postedAt": 1792149958809
+        }
+      ]
+    },
+    {
+      "title": "HOUTHI-IRAN ESCALATION ROCKS THE GULF",
+      "stories": [
+        {
+          "headline": "Iran's Precision Strikes Blunt US War Plans In Gulf",
+          "url": "https://www.reuters.com/investigates/special-report/iran-crisis-infrastructure-attacks/",
+          "timestamp": 1792058400000,
+          "postedAt": 1792063632203
+        },
+        {
+          "headline": "Iranian Attacks Sink Two Ships In Strait Of Hormuz",
+          "url": "https://www.cnn.com/2026/10/15/middleeast/strait-of-hormuz-ships-sunk-iran-intl-hnk",
+          "timestamp": 1792035389000,
+          "postedAt": 1792063632203
+        },
+        {
+          "headline": "Iran-Backed Houthis Strike Saudi Aramco Headquarters, Officials Say",
+          "url": "https://apnews.com/article/saudi-arabia-yemen-strikes-mideast-conflict-riyadh-c81a91347c00b17097c8fafde7e4eeec",
+          "timestamp": 1792033140000,
+          "feature": true,
+          "postedAt": 1792063632203
+        },
+        {
+          "headline": "Oil Prices Climb As Saudi-Houthi Strikes Continue Despite Trump's Pause",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-donald-trump-oil-nuclear-sites-hormuz-strait-october-14",
+          "timestamp": 1792028406000,
+          "postedAt": 1792063632203
+        },
+        {
+          "headline": "Netanyahu Says Attack On Iran 'Not Convenient' Right Now",
+          "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-attack-on-iran-not-convenient-right-now-ben-gvir-wont-be-defense-minister-in-next-government/",
+          "timestamp": 1791973465000,
+          "postedAt": 1791978023650
+        },
+        {
+          "headline": "Iran Executes Man Accused Of Armed Attacks During US-Israeli Strikes",
+          "url": "https://www.euronews.com/2026/10/14/iran-executes-man-accused-of-armed-attacks-during-us-israeli-strikes",
+          "timestamp": 1791970838000,
+          "postedAt": 1791978023650
+        },
+        {
+          "headline": "Houthi Missile Attack On Yemeni Presidential Palace Kills Five",
+          "url": "https://www.bbc.com/news/articles/cm62y6lp73zdo",
+          "timestamp": 1792107526000,
+          "postedAt": 1792149958809
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Putin Seizes Five European Firms In Hostile Asset Crackdown",
+        "url": "https://www.euronews.com/2026/10/16/putin-seizes-five-more-european-firms-continuing-russias-hostile-asset-crackdown",
+        "timestamp": 1792145920000,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "Norwegian Teen Sentenced To 20 Years For UK Murder Plot Tied To Iran-Linked Group",
+        "url": "https://www.straitstimes.com/world/europe/norwegian-teen-sentenced-to-20-years-for-uk-murder-plot-tied-to-iran-linked-group",
+        "timestamp": 1792148100000,
+        "photo": true,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "Italy, Spain Edge Toward Ending Border Checks After Leaders Meet",
+        "url": "https://www.euronews.com/2026/10/16/italy-and-spain-move-to-end-border-dispute-after-meloni-sanchez-talks",
+        "timestamp": 1792144090000,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "IMF Chief Warns AI Risks May Exceed Benefits Without Safeguards",
+        "url": "https://www.reuters.com/technology/imf-chief-says-ai-risks-may-exceed-opportunities-without-safeguards-ethical-2026-10-16/",
+        "timestamp": 1792143022000,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "Japan Mistakenly Issues Warning For Magnitude 9.9 Earthquake",
+        "url": "https://bnonews.com/index.php/2026/10/japan-mistakenly-issues-warning-for-magnitude-9-9-earthquake/",
+        "timestamp": 1792124080000,
+        "photo": true,
+        "postedAt": 1792149958809,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "EU Summit Ends In Budget Impasse Over Energy Costs",
+        "url": "https://www.euronews.com/2026/10/15/inconclusive-sparring-at-eu-summit-puts-budget-timeline-into-question",
+        "timestamp": 1792095276000,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "What To Know About Pope Leo XIV's Lung Cancer Diagnosis",
+        "url": "https://www.dw.com/en/pope-leo-xivs-lung-cancer-diagnosis-prognosis-and-what-it-means-for-the-vatican/video-79664232",
+        "timestamp": 1792056412000,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "Israeli Firm Used Online Ads To Run Vast Spy Operation, Researchers Say",
+        "url": "https://www.reuters.com/legal/litigation/israeli-firm-used-online-ads-run-vast-spy-operation-researchers-say-2026-10-15/",
+        "timestamp": 1792059367000,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "3,000-Year-Old Statues Of Pharaoh Ramses II Unearthed By Egyptian Farmer",
+        "url": "https://www.breitbart.com/europe/2026/10/15/giant-3000-year-old-statues-of-biblical-pharaoh-ramses-ii-unearthed-by-egyptian-farmer/",
+        "timestamp": 1792058881000,
+        "photo": true,
+        "postedAt": 1792063632203,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "School Roof Collapse In Northwestern Pakistan Kills At Least 29",
+        "url": "https://www.aljazeera.com/news/2026/10/15/school-roof-collapses-in-northwestern-pakistan-killing-at-least-29-people",
+        "timestamp": 1792054198000,
+        "feature": true,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "World's Oldest Shipwreck Discovered Off Coast Of Turkey",
+        "url": "https://theconversation.com/worlds-oldest-shipwreck-discovered-off-coast-of-turkey-294248",
+        "timestamp": 1792009659000,
+        "photo": true,
+        "postedAt": 1792063632203,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "Ukrainian Ex-Military Officer Stands Trial Over Nord Stream Sabotage",
+        "url": "https://www.euronews.com/2026/10/14/former-ukrainian-military-officer-to-stand-trial-in-germany-over-nord-stream-sabotage",
+        "timestamp": 1791970628000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Former German Minister Habeck: Russia Remains The Biggest Threat",
+        "url": "https://www.dw.com/en/dwcom-berlinbriefing/video-79657667",
+        "timestamp": 1791977368000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Centre Showcasing Black And African Culture Opens In London",
+        "url": "https://www.africanews.com/2026/10/14/centre-showcasing-black-and-african-culture-opens-in-london/",
+        "timestamp": 1791976394000,
+        "photo": true,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Germany's Dark Mood Is Real, But Weimar Comparisons Are A Far-Right Trap",
+        "url": "https://www.theguardian.com/commentisfree/2026/oct/14/in-germany-the-mood-is-dark-but-the-weimar-narrative-is-a-far-right-trap",
+        "timestamp": 1791974880000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Latvia Votes In Parliamentary Election Amid Rising Costs",
+        "url": "https://www.dw.com/en/latvia-votes-in-parliamentary-election-amid-rising-costs/a-79527253?maca",
+        "timestamp": 1791972596000,
+        "photo": true,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "US Holds 'Unusual' Civil-Military Meeting In Tokyo Ahead Of Trump's China Trip",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3370884/us-holds-unusual-civil-military-meeting-tokyo-ahead-trumps-china-trip",
+        "timestamp": 1791972007000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Pope Leo Spent 'Tranquil Night' In Hospital After Cancer Surgery",
+        "url": "https://apnews.com/article/vatican-pope-leo-surgery-lung-cancer-08a4aca4e5a6002a1cb9a4ca1ba372cc",
+        "timestamp": 1791966960000,
+        "photo": true,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Trump Says He Doesn't Believe China, Russia Are Helping Iran",
+        "url": "https://www.rfi.fr/en/middle-east/20261013-trump-says-does-not-believe-china-russia-helping-iran",
+        "timestamp": 1791886069000,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "DR Congo: Ex-President Kabila To Lead Alliance With M23 Rebels",
+        "url": "https://www.rfi.fr/en/africa/20261013-ex-drc-president-kabila-to-lead-new-politico-military-alliance-with-m23-rebels",
+        "timestamp": 1791889660000,
+        "feature": true,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Von Der Leyen Calls For Tougher Migration Measures In Letter To EU Leaders",
+        "url": "https://www.politico.eu/article/ursula-von-der-leyen-calls-for-tough-migration-measures-in-letter-to-leaders/",
+        "timestamp": 1791887180000,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "China's CXMT Claims Memory-Chip Breakthrough Ahead Of Samsung, Hynix",
+        "url": "https://startupfortune.com/chinas-cxmt-claims-dram-breakthrough-sends-samsung-and-sk-hynix-tumbling/",
+        "timestamp": 1791884078000,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Exasperation In Greece Over Allegations Against Kimberly Guilfoyle",
+        "url": "https://www.nytimes.com/2026/10/10/world/europe/kimberly-guilfoyle-greece.html?unlocked_article_code=1.HlE.bakL.zjRPEPRlheiB&smid=url-share",
+        "timestamp": 1791883453000,
+        "photo": true,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "IMF Warns AI Share Crash Could Threaten World Financial Stability",
+        "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+        "timestamp": 1791884880000,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Zelenskyy Travels To UK Seeking Fresh Military Support",
+        "url": "https://www.cnbc.com/2026/10/14/daily-open-zelenskyy-uk-visit-asml-results.html",
+        "timestamp": 1791961036000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Banks, Buildings Burn As Tirana Erupts Into Student Violence",
+        "url": "https://www.reuters.com/world/fire-breaks-out-albanias-education-ministry-during-student-protest-2026-10-14/",
+        "timestamp": 1792009783000,
+        "postedAt": 1792063632203
+      }
+    ],
+    "center": [
+      {
+        "headline": "UK: Man Arrested In Database Dispute Tied To Corbyn's Your Party",
+        "url": "https://www.politico.eu/article/investigation-regarding-founding-of-your-party-related-to-database-dispute/",
+        "timestamp": 1792148854000,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "Catholics In Africa Now Outnumber Those In Europe, Vatican Says",
+        "url": "https://www.straitstimes.com/asia/catholics-in-africa-outnumber-those-in-europe-vatican-says",
+        "timestamp": 1792147800000,
+        "postedAt": 1792149958809,
+        "image": "/img/world-7.jpg"
+      },
+      {
+        "headline": "Falklands Dispute Threatens Argentina's Bid To Join Trans-Pacific Trade Pact",
+        "url": "https://en.mercopress.com/2026/10/16/the-falklands-dispute-threatens-argentina-s-bid-to-join-the-trans-pacific-trade-pact",
+        "timestamp": 1792145220000,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "AI Bubble Fears Stoke Warnings Of A Global Financial Crisis",
+        "url": "https://www.dw.com/en/ai-bubble-fears-could-a-crash-trigger-a-global-financial-crisis/video-79676866",
+        "timestamp": 1792142025000,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "The Far Right Breaks Through In Germany",
+        "url": "https://dissentmagazine.org/online_articles/far-right-elections-saxony-anhalt-germany/",
+        "timestamp": 1792053495000,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "Nepal Flood Survivors Fear For Their Future",
+        "url": "https://www.afp.com/en/after-latest-nepal-flood-survivors-fear-future",
+        "timestamp": 1792063119000,
+        "photo": true,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "Bulgarian PM Breaks Ranks With EU Leaders To Back Trump-Putin Diesel Deal",
+        "url": "https://www.euronews.com/2026/10/15/bulgarian-pm-breaks-ranks-with-eu-leaders-to-back-trump-putin-diesel-deal",
+        "timestamp": 1792059934000,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "Brazil To Shorten Workweek In Win For Lula Ahead Of Runoff",
+        "url": "https://www.dw.com/en/brazil-to-shorten-workweek-in-win-for-lula-ahead-of-runoff/a-79664991",
+        "timestamp": 1792035208000,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "Macron And Merz Hold Keys To EU Budget Deal But May Be Too Weak To Use Them",
+        "url": "https://www.politico.eu/article/france-emmanuel-macron-germany-friedrich-merz-hold-keys-eu-budget-deal/",
+        "timestamp": 1792011120000,
+        "photo": true,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "Poland's Sikorski And Spain's Albares Debate Border Wall, Migration Policy",
+        "url": "https://visegradinsight.eu/sikorski-and-albares-poland-spain-illegal-migration/",
+        "timestamp": 1791954199000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "France And Chad Sign Renewed Defence Partnership After Two-Year Hiatus",
+        "url": "https://www.rfi.fr/en/africa/20261014-france-and-chad-sign-renewed-defence-partnership-following-two-year-hiatus",
+        "timestamp": 1791977189000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Last Of The French Musketeers Monfils Officially Retires From Tennis",
+        "url": "https://www.afp.com/en/last-french-musketeers-monfils-officially-retired-tennis",
+        "timestamp": 1791975761000,
+        "photo": true,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Meloni Calls US-Russia Diesel Deal A 'Very Risky Choice'",
+        "url": "https://www.reuters.com/business/us-russia-deal-diesel-is-very-risky-choice-italy-pm-meloni-says-2026-10-14/",
+        "timestamp": 1791974582000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Comedian Russell Brand Was A Sexual Predator, UK Prosecutors Say",
+        "url": "https://www.reuters.com/world/uk/comedian-russell-brand-was-sexual-predator-uk-prosecutors-say-2026-10-14/",
+        "timestamp": 1791972324000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "EU Capitals Weaken End-Of-Year Deadline For Budget Deal",
+        "url": "https://www.politico.eu/article/eu-capitals-weaken-end-of-year-deadline-for-budget-deal/",
+        "timestamp": 1791971112000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Higher Borrowing Costs An 'Alarm Signal' For France, Finance Minister Says",
+        "url": "https://finance.yahoo.com/economy/policy/articles/higher-borrowing-costs-alarm-signal-083317870.html",
+        "timestamp": 1791950400000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Greta Thunberg Joins France's Student Protests, Says 'Our Future Is Being Robbed'",
+        "url": "https://www.afp.com/fr/node/3846935",
+        "timestamp": 1791885877000,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Spain: Sanchez Booed, Called 'Son Of A B****' At National Day Parade",
+        "url": "https://www.breitbart.com/europe/2026/10/13/pedro-sanchez-booed-called-son-of-a-during-spain-national-day-parade/",
+        "timestamp": 1791885005000,
+        "photo": true,
+        "postedAt": 1791890982288,
+        "image": "/img/world-5.jpg"
+      },
+      {
+        "headline": "UK: Farage Defends 'Lethal Force' Plan Against Channel Migrants",
+        "url": "https://www.politico.eu/article/nigel-farage-defends-plan-for-lethal-force-against-channel-migrants/",
+        "timestamp": 1791884682000,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Franco-German 'Made In Europe' Car Deal Days Away, EU Official Says",
+        "url": "https://www.politico.eu/article/franco-german-deal-on-cars-and-made-in-europe-is-hours-or-days-away-says-eu-industry-boss-stephane-sejourne/",
+        "timestamp": 1791884015000,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Germany, Italy, Belgium Call For 'Emergency Brake' On EU Laws",
+        "url": "https://www.euronews.com/2026/10/13/germany-italy-and-belgium-call-for-emergency-brake-on-eu-legislation",
+        "timestamp": 1791883394000,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Memory-Chip Stocks Tumble As Cracks Grow In AI Trade",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cracks-grow-across-ai-trade-093845076.html",
+        "timestamp": 1791884325000,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Crowds Build As Albanian PM Tours Protest Aftermath",
+        "url": "https://www.rfi.fr/en/international-news/20261015-crowds-build-as-albanian-pm-tours-protest-aftermath",
+        "timestamp": 1792058014000,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "French Police Accused Of Inflicting War-Like Injuries On Teen Protesters",
+        "url": "https://www.theguardian.com/world/2026/oct/16/french-police-injuries-teenagers-school-protests-arrests-custody",
+        "timestamp": 1792143420000,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "Russia Pounds Kyiv Energy Sites As Ukraine Reports Starlink Throttling",
+        "url": "https://www.politico.com/news/2026/10/14/russia-pounds-kyiv-energy-sites-as-ukraine-reports-starlink-throttling",
+        "timestamp": 1791966960000,
+        "postedAt": 1791978023650
+      }
+    ],
+    "right": [
+      {
+        "headline": "Report: 70% Of Moroccan Migrants At Ceuta Claim To Be Gay In Asylum Bids",
+        "url": "https://www.breitbart.com/europe/2026/10/16/report-70-of-moroccans-that-invaded-ceuta-claim-to-be-gay-in-asylum-requests/",
+        "timestamp": 1792148452000,
+        "photo": true,
+        "postedAt": 1792149958809,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "China Tells Trump Press Secretary To Visit 'More Often' After Toilet Jab",
+        "url": "https://www.afp.com/en/china-tells-trumps-press-secretary-visit-more-often-after-toilet-comments",
+        "timestamp": 1792147308000,
+        "photo": true,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "Turtles Offer Early Warning From Warming Mediterranean Ahead Of COP31",
+        "url": "https://www.reuters.com/sustainability/cop/turtles-offer-early-warning-warming-mediterranean-ahead-cop31-2026-10-16/",
+        "timestamp": 1792144991000,
+        "photo": true,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "US, Australia Suspend Consular Services In Brazil",
+        "url": "https://www.dw.com/en/us-australia-suspend-consular-services-in-brazil/a-79526311?maca",
+        "timestamp": 1792142856000,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "Singapore Battles Relentless Haze As PM Wong Warns Of Action",
+        "url": "https://www.cnbc.com/2026/10/16/singapore-haze-wong-warning-indonesia.html",
+        "timestamp": 1792108578000,
+        "postedAt": 1792149958809
+      },
+      {
+        "headline": "Russia Detains Japanese Journalist, Alleging Espionage",
+        "url": "https://www.theguardian.com/world/2026/oct/14/russia-detains-japanese-journalist-suspicion-spying",
+        "timestamp": 1792018094000,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "Over 1,000 Hongkongers To Ride Baidu's Robotaxis In City-First Trial",
+        "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3370979/over-1000-hongkongers-ride-baidus-robotaxis-city-first-public-trial",
+        "timestamp": 1792062685000,
+        "photo": true,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "Istanbul Endures Heaviest Rainfall In 80 Years, Two Dead",
+        "url": "https://www.afp.com/en/two-dead-istanbul-endures-heaviest-rainfall-80-years",
+        "timestamp": 1792062152000,
+        "photo": true,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "Bandits Kill Five, Abduct 18 In Niger State Communities, Nigeria",
+        "url": "https://allafrica.com/stories/202610150307.html",
+        "timestamp": 1792062079000,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "Bollywood Actor Imran Khan Asked To Leave India After Joining Protest",
+        "url": "https://www.reuters.com/business/media-telecom/bollywood-actor-imran-khan-asked-leave-india-after-participating-protest-media-2026-10-15/",
+        "timestamp": 1792056807000,
+        "photo": true,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "Colombia Quits Hague Group As Israel Opens Jerusalem Embassy",
+        "url": "https://www.ynetnews.com/article/hkts9kpsge",
+        "timestamp": 1792019241000,
+        "postedAt": 1792063632203
+      },
+      {
+        "headline": "DRONE STRIKES SINK SHIP IN BLACK SEA AS NATO VOWS TO ADJUST DEFENSES",
+        "url": "https://www.nbcnews.com/world/europe/drones-hit-ships-black-sea-sinking-1-prompting-rescue-operations-rcna603152",
+        "timestamp": 1791890982288,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Workers To Strike At World's Largest Copper Mine In Chile",
+        "url": "https://www.rfi.fr/en/international-news/20261014-workers-to-strike-at-world-s-largest-copper-mine-in-chile",
+        "timestamp": 1791976551000,
+        "photo": true,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Singapore Pollution Spikes As Indonesia Wildfire Haze Intensifies",
+        "url": "https://www.reuters.com/business/environment/singapore-pollution-spikes-east-timor-shuts-schools-indonesia-wildfire-haze-2026-10-14/",
+        "timestamp": 1791975132000,
+        "photo": true,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "German Migration System Has Cost Taxpayers At Least €400 Billion: Report",
+        "url": "https://www.breitbart.com/europe/2026/10/14/german-migration-system-has-cost-taxpayer-at-least-e400-billion-report/",
+        "timestamp": 1791973499000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "OpenAI Says Employee Caught Planting Listening Device",
+        "url": "https://www.dw.com/en/open-ai-employee-arrested-listening-saudi/a-79655491",
+        "timestamp": 1791972267000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Family Pays Tribute To 'Warm And Engaging' Man Killed In Tiger Attack",
+        "url": "https://www.bbc.com/news/articles/ck054nvzr676o",
+        "timestamp": 1791967444000,
+        "photo": true,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "Why 'Rejoiners' Need The Russian Bogeyman",
+        "url": "https://unherd.com/2026/10/why-rejoiners-need-the-russian-bogeyman/",
+        "timestamp": 1791952152000,
+        "postedAt": 1791978023650
+      },
+      {
+        "headline": "France: Police Detain Pupil After School Shooting Injures Two",
+        "url": "https://www.aljazeera.com/news/2026/10/12/france-school-shooting-police-detain-pupil-after-two-injured",
+        "timestamp": 1791886884000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1791890982288,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "Rare Van Gogh Work Unseen For 60 Years Goes On Show In Hong Kong",
+        "url": "https://www.afp.com/en/van-gogh-work-unseen-public-60-years-show-hong-kong",
+        "timestamp": 1791886196000,
+        "photo": true,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Hungary Lawmakers Vote To Cut Anti-LGBTQ+ Law From Orban Era",
+        "url": "https://www.euronews.com/2026/10/13/hungarian-lawmakers-vote-to-cut-anti-lgbtq-legislation-from-orban-era-law",
+        "timestamp": 1791885248000,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Rwanda To Host F1 Race From Early 2030s In 10-Year Deal",
+        "url": "https://www.straitstimes.com/sport/formula-one/rwanda-to-host-f1-race-from-early-2030s-in-10-year-deal",
+        "timestamp": 1791884400000,
+        "photo": true,
+        "postedAt": 1791890982288,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "Germany: Nearly Four In Ten Long-Term Welfare Recipients Are Foreign Nationals",
+        "url": "https://www.breitbart.com/europe/2026/10/13/germany-nearly-four-in-ten-long-term-welfare-recipients-are-foreign-nationals/",
+        "timestamp": 1791883520000,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Scientists Call For International Body To Oversee Advanced AI",
+        "url": "https://www.reuters.com/legal/litigation/scientists-call-international-body-oversee-advanced-ai-2026-10-13/",
+        "timestamp": 1791885841000,
+        "postedAt": 1791890982288
+      },
+      {
+        "headline": "Ukrainian Drones Strike Russia's Largest Data Centre",
+        "url": "https://www.reuters.com/business/finance/ukrainian-drones-hit-russias-biggest-data-centre-2026-10-14/",
+        "timestamp": 1791964086000,
+        "postedAt": 1791978023650
+      }
+    ]
+  }
+}

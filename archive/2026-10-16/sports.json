@@ -1,0 +1,934 @@
+{
+  "lastUpdated": 1792149554384,
+  "heroSetDate": "2026-10-16",
+  "hero": {
+    "headline": "BREWERS SWEEP DODGERS, END THREE-PEAT BID, REACH WORLD SERIES",
+    "url": "https://www.mlb.com/news/brewers-win-nlcs-2026",
+    "sublinks": [
+      {
+        "text": "Even A Late Ohtani Surge Couldn't Save Dodgers' Season",
+        "url": "https://sports.yahoo.com/mlb/article/not-even-a-shohei-ohtani-resurgence-is-enough-as-dodgers-fall-to-brewers-in-unthinkable-nlcs-sweep-070410512.html"
+      },
+      {
+        "text": "Miguel Rojas Pulled Before Final At-Bat Of 13-Year Career",
+        "url": "https://sports.yahoo.com/mlb/article/dodgers-veteran-miguel-rojas-pulled-before-first-at-bat-in-final-game-of-13-year-career-044625577.html"
+      },
+      {
+        "text": "Analysis: How Dodgers' Pursuit Of History Ended In Stunning Failure",
+        "url": "https://www.si.com/mlb/dodgers/2026-nlcs-dodgers-pursuit-of-history-ended-in-stunning-failure"
+      },
+      {
+        "text": "Brewers End Decades-Long World Series Drought In Sweep",
+        "url": "https://www.usatoday.com/story/sports/mlb/columnist/bob-nightengale/2026/10/15/milwaukee-brewers-dodgers-world-series-mlb-playoffs/92275094007/"
+      }
+    ],
+    "postedAt": 1792149554384,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "BRONCOS OUTLAST SEAHAWKS IN OT THRILLER",
+      "stories": [
+        {
+          "headline": "Sam Darnold Takes Blame For Seahawks' Turnovers In Denver Loss",
+          "url": "https://sports.yahoo.com/nfl/article/sam-darnold-takes-responsibility-for-seahawks-loss-at-denver-its-bs-for-me-to-keep-turning-the-ball-over-053242821.html",
+          "timestamp": 1792128720000,
+          "postedAt": 1792149554384
+        },
+        {
+          "headline": "Seahawks' Struggles Traced To A March Decision, Analysis Finds",
+          "url": "https://www.si.com/nfl/seahawks-in-trouble-traced-decision-march",
+          "timestamp": 1792123539000,
+          "postedAt": 1792149554384
+        },
+        {
+          "headline": "Broncos Beat Seahawks 17-14 In Overtime Thursday Night",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-broncos-beat-seahawks-17-14-in-overtime",
+          "timestamp": 1792123228000,
+          "postedAt": 1792149554384
+        }
+      ]
+    },
+    {
+      "title": "NFL TRADE DEADLINE WATCH",
+      "stories": [
+        {
+          "headline": "Agent: Tyreek Hill Trade 'Could Happen At Any Time'",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/drew-rosenhaus-still-claims-a-tyreek-hill-deal-could-happen-at-any-time",
+          "timestamp": 1791987911000,
+          "postedAt": 1792063228826
+        },
+        {
+          "headline": "NFL Trade Block Big Board Entering Week 6",
+          "url": "https://bleacherreport.com/articles/25509661-2026-nfl-trade-block-big-board-entering-week-6",
+          "timestamp": 1791977104000,
+          "postedAt": 1792063228826
+        }
+      ]
+    },
+    {
+      "title": "BILLS' OT WIN OVER RAMS: THE FALLOUT",
+      "stories": [
+        {
+          "headline": "Rams Waive Kicker Harrison Mevis After Missed Chances",
+          "url": "https://www.therams.com/news/sean-mcvay-on-rams-waiving-harrison-mevis-signing-blake-grupe-week-6-cardinals-2026",
+          "timestamp": 1791940332000,
+          "postedAt": 1791977566298
+        },
+        {
+          "headline": "Bills' Joe Brady Warns James Cook Over Costly Fumbles",
+          "url": "https://www.espn.com/nfl/story/_/id/50177135/bills-brady-warns-rb-cook-consequences-costly-fumbles",
+          "timestamp": 1791928140000,
+          "postedAt": 1791977566298
+        },
+        {
+          "headline": "McVay 'Pissed' Over Rams' Devastating OT Loss To Bills",
+          "url": "https://bleacherreport.com/articles/25509797-pissed-sean-mcvay-sounds-rams-devastating-ot-loss-josh-allen-bills",
+          "timestamp": 1791891356000,
+          "postedAt": 1791977566298
+        }
+      ]
+    },
+    {
+      "title": "NFL WEEK 6 POWER RANKINGS: 49ERS ATOP THE LEAGUE",
+      "stories": [
+        {
+          "headline": "Prisco: 49ers Now League's Best Team, Packers Jump 10 Spots",
+          "url": "https://www.cbssports.com/nfl/news/priscos-nfl-week-6-power-rankings-49ers-packers/",
+          "timestamp": 1791921540000,
+          "postedAt": 1791977566298
+        },
+        {
+          "headline": "49ers' Defensive Line Delivers Best Game In Years Vs. Seahawks",
+          "url": "https://www.ninersnation.com/san-francisco-49ers-injuries/164163/49ers-report-card-grades-the-defensive-line-saved-their-best-game-in-years-for-the-seahawks",
+          "timestamp": 1791918060000,
+          "postedAt": 1791977566298
+        }
+      ]
+    },
+    {
+      "title": "NLCS: BREWERS SEIZE 2-0 LEAD OVER DEFENDING CHAMP DODGERS",
+      "stories": [
+        {
+          "headline": "Dodgers May Bench Ohtani For Game 3",
+          "url": "https://www.mlbtraderumors.com/2026/10/dodgers-to-consider-benching-ohtani-in-game-3.html",
+          "timestamp": 1791882193000,
+          "postedAt": 1791890467253
+        },
+        {
+          "headline": "Dodgers' Offense Must Solve Its Problems Fast To Turn Series Around",
+          "url": "https://www.mlb.com/news/dodgers-lose-nlcs-game-2-2026",
+          "timestamp": 1791876646000,
+          "postedAt": 1791890467253
+        },
+        {
+          "headline": "Dodgers Insist They're Not Panicking Despite Ohtani Concerns",
+          "url": "https://www.usatoday.com/story/sports/mlb/columnist/bob-nightengale/2026/10/12/shohei-ohtani-struggling-nlcs-brewers/92227149007/",
+          "timestamp": 1791871380000,
+          "postedAt": 1791890467253
+        },
+        {
+          "headline": "Brewers Show No Fear Vs. Yamamoto In Game 2 Rout",
+          "url": "https://sports.yahoo.com/mlb/article/brewers-show-they-arent-afraid-of-anybody-not-even-yoshinobu-yamamoto-in-nlcs-game-2-1-through-9-they-come-to-play-043011384.html",
+          "timestamp": 1791865800000,
+          "postedAt": 1791890467253
+        }
+      ]
+    },
+    {
+      "title": "OREGON PLAYER'S PUNCH ON UCLA QUARTERBACK",
+      "stories": [
+        {
+          "headline": "Oregon's Bear Alexander Won't Face Discipline For Punch On Iamaleava",
+          "url": "https://www.usatoday.com/story/sports/ncaaf/bigten/2026/10/13/oregon-bear-alexander-punching-nico-iamaleava/92227735007/",
+          "timestamp": 1791866340000,
+          "postedAt": 1791890467253
+        },
+        {
+          "headline": "Dan Lanning Responds To Video Of Oregon Player Punching UCLA QB",
+          "url": "https://www.oregonlive.com/ducks/2026/10/dan-lanning-responds-to-video-of-oregon-player-punching-ucla-quarterback.html",
+          "timestamp": 1791858540000,
+          "postedAt": 1791890467253
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Jodar Upsets Ruud To Make Shanghai Masters History",
+        "url": "https://apnews.com/article/ruud-jodar-shanghai-masters-02d27239025a02f570760659e8074b71",
+        "timestamp": 1792123500000,
+        "photo": true,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "Rangers Believe They Can Sustain Winning After Losing Shesterkin To Season-Ending Injury",
+        "url": "https://www.foxsports.com/articles/nhl/rangers-believe-they-can-sustain-winning-after-losing-igor-shesterkin-to-a-seasonending-injury",
+        "timestamp": 1792123260000,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "Caleb Williams Confirms Torn Hamstring, Status Uncertain For Sunday",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-confirms-he-tore-his-hamstring-doesnt-know-his-status-for-sunday",
+        "timestamp": 1792107317000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "Jon Rahm Reaches Deal To End LIV Tenure, Walks Away From $100 Million",
+        "url": "https://sports.yahoo.com/golf/article/jon-rahm-reaches-agreement-to-end-liv-tenure-walking-away-from-as-much-as-100-million-184626381.html",
+        "timestamp": 1792089986000,
+        "photo": true,
+        "postedAt": 1792149554384,
+        "image": "/img/sports-1.jpg"
+      },
+      {
+        "headline": "WNBA Finals Guide: Dream-Valkyries Predictions And Keys",
+        "url": "https://www.espn.com/wnba/story/_/id/50182030/wnba-finals-2026-dream-valkyries-preview-predictions",
+        "timestamp": 1792063800000,
+        "photo": true,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "College Flag Football Outgrows Its Grassroots, DIY Roots",
+        "url": "https://frontofficesports.com/article/college-flag-football-outgrowing-diy-era-nfl-nirsa-league-ncaa/",
+        "timestamp": 1792058428000,
+        "postedAt": 1792063228826
+      },
+      {
+        "headline": "Oregon Rules QB Dante Moore Out Vs. Nebraska, Stirs QB Battle",
+        "url": "https://www.cbssports.com/college-football/news/oregon-qb-dante-moore-out-nebraska-competition/",
+        "timestamp": 1792023420000,
+        "photo": true,
+        "postedAt": 1792063228826,
+        "image": "/img/sports-3.jpg"
+      },
+      {
+        "headline": "Kristaps Porzingis Breaks Silence After Warriors Rule Him Out Indefinitely",
+        "url": "https://www.sfchronicle.com/sports/warriors/article/kristaps-porzingis-breaks-silence-warriors-22477452.php",
+        "timestamp": 1792015617000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1792063228826
+      },
+      {
+        "headline": "UFC Cuts Farid Basharat Despite Perfect 7-0 Octagon Record",
+        "url": "https://www.mmafighting.com/ufc/515775/farid-basharat-removed-from-ufc-roster-despite-7-0-octagon-run",
+        "timestamp": 1792011859000,
+        "photo": true,
+        "postedAt": 1792063228826,
+        "image": "/img/sports-7.jpg"
+      },
+      {
+        "headline": "USWNT Battles Spain: Match Highlights And Takeaways",
+        "url": "https://bleacherreport.com/articles/25510039-uswnt-vs-spain-score-highlights-stats-and-reaction",
+        "timestamp": 1791940954000,
+        "photo": true,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Tyreek Hill Found Liable In Battery Trial, Wife Awarded $500K",
+        "url": "https://www.espn.com/nfl/story/_/id/50178212/tyreek-hill-found-liable-2-counts-battery-civil-trial-not-liable-remaining-claims",
+        "timestamp": 1791940380000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Pat Forde: Truth Behind Will Wade's 'Gotcha Questions' Rant",
+        "url": "https://www.si.com/college-basketball/pat-forde-truth-behind-lsu-will-wade-gotcha-questions-rant",
+        "timestamp": 1791930837000,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Micah Parsons: Jayden Daniels 'Probably Cost' Dan Quinn His Job",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-jayden-daniels-probably-cost-dan-quinn-his-job",
+        "timestamp": 1791922008000,
+        "photo": true,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Commanders Not Expected To Fire Coach Dan Quinn",
+        "url": "https://www.profootballrumors.com/2026/10/commanders-not-expected-to-fire-hc-dan-quinn",
+        "timestamp": 1791868140000,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "Marvin Harrison Jr. Passes Texans' Physical Ahead Of Debut",
+        "url": "https://www.profootballrumors.com/2026/10/marvin-harrison-jr-passes-texans-physical-houstons-week-5-result-affected-trade",
+        "timestamp": 1791868020000,
+        "photo": true,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "Harbaugh, Chargers Ownership Vow Unity Amid 0-5 Start",
+        "url": "https://www.espn.com/nfl/story/_/id/50170100/amid-0-5-start-jim-harbaugh-chargers-ownership-fight-together",
+        "timestamp": 1791852300000,
+        "photo": true,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "Texas A&M's Elko Says He Regrets 'Cesspool' Remark",
+        "url": "https://www.espn.com/college-football/story/_/id/50168753/texas-coach-mike-elko-regrets-cesspool-comments",
+        "timestamp": 1791839700000,
+        "photo": true,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "Kyler Murray Sets Vikings Record As Minnesota Stays Unbeaten",
+        "url": "https://bringmethesports.com/kyler-murray-makes-vikings-history-and-offers-a-glimpse-of-super-bowl-potential",
+        "timestamp": 1791828837000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "Commanders Tie, Eagles' Late Gaffe Highlight Week 5 Sunday",
+        "url": "https://www.nfl.com/news/nfl-week-5-sunday-aftermath-commanders-melt-down-in-tie-eagles-rue-costly-last-second-gaffe",
+        "timestamp": 1791824091000,
+        "postedAt": 1791890467253
+      }
+    ],
+    "center": [
+      {
+        "headline": "Dak Prescott Sends Message To NFL Players After Jalen Hurts' Blood-Clot Diagnosis",
+        "url": "https://www.cbssports.com/nfl/news/cowboys-dak-prescott-jalen-hurts-blood-clot/",
+        "timestamp": 1792105986000,
+        "feature": true,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "College Football Playoff Reportedly Near Deal To Expand To 24 Teams In 2027",
+        "url": "https://sports.yahoo.com/college-football/breaking-news/article/college-football-playoff-reportedly-near-deal-to-expand-to-24-teams-in-2027-174805098.html",
+        "timestamp": 1792105561000,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "Jayden Daniels Vows Gaffe 'Will Never Happen Again' After Addressing Teammates",
+        "url": "https://www.espn.com/nfl/story/_/id/50191830/jayden-daniels-addresses-commanders-teammates-ot-gaffe",
+        "timestamp": 1792098420000,
+        "photo": true,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "Chandler Smith Enters Favorable Stretch In NASCAR Truck Series Chase",
+        "url": "https://www.jayski.com/2026/10/15/chandler-smith-enters-favorable-stretch-in-nascar-craftsman-truck-series-chase/",
+        "timestamp": 1792080167000,
+        "photo": true,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "Hintz Wins It In Shootout As Stars Defeat Avalanche",
+        "url": "https://www.nhl.com/news/dallas-stars-colorado-avalanche-game-recap-october-14-2026",
+        "timestamp": 1792046972000,
+        "photo": true,
+        "postedAt": 1792149554384,
+        "image": "/img/sports-2.jpg"
+      },
+      {
+        "headline": "Hall Of Famer Amar'e Stoudemire Finds Second Act As Police Officer",
+        "url": "https://www.si.com/nba/how-basketball-hall-of-famer-amare-stoudemire-found-second-act-miami-police-officer",
+        "timestamp": 1791993602000,
+        "photo": true,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "RAYS EVEN ALCS AT 1-1 WITH GAME 2 ROUT OF GUARDIANS",
+        "url": "https://sports.yahoo.com/mlb/article/freddy-peralta-goes-back-to-his-roots-leans-on-4-seam-fastball-to-shut-down-the-guardians-in-rays-alcs-tying-victory-054715383.html",
+        "timestamp": 1791977566298,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Jaguars Defense Hasn't Allowed A 40-Yard Run All Season, First Since Merger",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-are-first-team-since-the-merger-not-to-allow-a-40-yard-rusher-in-first-five-games",
+        "timestamp": 1792052101000,
+        "photo": true,
+        "postedAt": 1792063228826
+      },
+      {
+        "headline": "Drake Maye Dominates Again Vs. League's Worst Pass Defense",
+        "url": "https://www.bostonsportsjournal.com/2026/10/14/bedards-breakdown-drake-maye-was-great-again-vs-a-low-rated-pass-defense-how-does-that-compare-to-others",
+        "timestamp": 1792019350000,
+        "photo": true,
+        "postedAt": 1792063228826,
+        "image": "/img/sports-4.jpg"
+      },
+      {
+        "headline": "Real Madrid's Youngsters Rescue Mourinho In Comeback Win Over Roma",
+        "url": "https://www.si.com/soccer/real-madrid-player-ratings-vs-roma-vintage-comeback-10-14-26",
+        "timestamp": 1792014081000,
+        "photo": true,
+        "postedAt": 1792063228826,
+        "image": "/img/sports-5.jpg"
+      },
+      {
+        "headline": "ALCS Game 3, NLCS Game 4 Start Times Moved Up",
+        "url": "https://www.cbssports.com/mlb/news/rays-guardians-alcs-game-3-start-time-cleveland-weather/",
+        "timestamp": 1792007700000,
+        "postedAt": 1792063228826
+      },
+      {
+        "headline": "Saints Owner Gayle Benson Blasts 'Unacceptable' 1-4 Start",
+        "url": "https://www.nola.com/sports/saints/saints-owner-gayle-benson-expresses-frustration-over-unacceptable-1-4-start-to-season/article_84061ca3-a0b0-4936-9070-51eaa92d1998.html",
+        "timestamp": 1791924780000,
+        "photo": true,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Brewers Overcome Three Deficits To Seize Control Of NLCS",
+        "url": "https://www.mlb.com/news/brewers-win-nlcs-game-2-2026",
+        "timestamp": 1791851455000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Bears Humbled By Packers In Rivalry Rematch",
+        "url": "https://sports.yahoo.com/articles/men-despise-other-nfl-fans-093644164.html",
+        "timestamp": 1791808880000,
+        "photo": true,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "Drake Maye Rebounds For Patriots Despite Injury Wave",
+        "url": "https://www.espn.com/nfl/story/_/id/50163881/new-england-patriots-drake-maye-injuries-week-5",
+        "timestamp": 1791799200000,
+        "photo": true,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "Warriors' Jimmy Butler Trade Stance Fuels NBA Rumors",
+        "url": "https://heavy.com/sports/nba/golden-state-warriors/nba-trade-rumors-warriors-jimmy-butler-stance-deaaron-fox/",
+        "timestamp": 1791761136000,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "McVay Says Alaric Jackson Must Be More Consistent",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-on-alaric-jackson-he-has-to-consistently-do-a-better-job",
+        "timestamp": 1791970508000,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Analysis: Fatal Flaws On Both Sides Exposed In Shootout",
+        "url": "https://www.si.com/nfl/bills-rams-fatal-flaws-exposed-classic-shootout",
+        "timestamp": 1791956537000,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Brady Tkachuk's Hat Trick, Assisted By Brother Matthew, Lifts Panthers",
+        "url": "https://bleacherreport.com/articles/25510053-brady-tkachuk-makes-nhl-history-hat-trick-3-assists-brother-matthew-panthers-win",
+        "timestamp": 1791948643000,
+        "postedAt": 1791977566298
+      }
+    ],
+    "right": [
+      {
+        "headline": "NCAA Betting Scandal Organizer Sentenced To Six Years In Prison",
+        "url": "https://deadspin.com/legal-betting/ncaa-betting-scandal-organizer-gets-six-years-in-federal-prison/",
+        "timestamp": 1792144152000,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "Mammoth Hand Oilers Their First Regulation Loss Of Season",
+        "url": "https://www.thescore.com/nhl/news/3625672/mammoth-hand-oilers-1-st-regulation-loss-of-season",
+        "timestamp": 1792124046000,
+        "photo": true,
+        "postedAt": 1792149554384,
+        "image": "/img/sports-0.jpg"
+      },
+      {
+        "headline": "College Football Player Tyler Ulrich Dies Five Days After In-Game Injury",
+        "url": "https://www.theguardian.com/sport/2026/oct/16/southern-nazarene-university-tyler-ulrich-death-college-football",
+        "timestamp": 1792123920000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "Harry Kane Close To New Bayern Munich Contract",
+        "url": "https://www.espn.com/soccer/story/_/id/50194992/harry-kane-close-new-bayern-munich-contract-sources",
+        "timestamp": 1792123380000,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "Savannah Bananas Unveil Bigger 2027 Schedule",
+        "url": "https://www.baseballamerica.com/stories/savannah-bananas-2027-schedule-gets-even-bigger/",
+        "timestamp": 1792102427000,
+        "photo": true,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "Weather Threatens ALCS In Cleveland, MLB Moves Up Game 3",
+        "url": "https://weather.com/2026/10/15/forecast/regional/alcs-weather-forecast-cleveland-rays-guardians",
+        "timestamp": 1792055880000,
+        "postedAt": 1792149554384
+      },
+      {
+        "headline": "Four Men Arrested In February Shooting Of 49ers' Keion White",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/four-men-arrested-in-shooting-of-49ers-dl-keion-white-in-february",
+        "timestamp": 1792026648000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1792063228826
+      },
+      {
+        "headline": "Commanders' Tie With Giants Puts Pressure On Dan Quinn",
+        "url": "https://www.hogshaven.com/washington-commanders-analysis/449076/commanders-dan-quinn-giants-tie-49ers-hot-seat-head-coach",
+        "timestamp": 1792013362000,
+        "photo": true,
+        "postedAt": 1792063228826,
+        "image": "/img/sports-6.jpg"
+      },
+      {
+        "headline": "Phillies Name Don Mattingly Full-Time Manager On Two-Year Deal",
+        "url": "https://www.mcall.com/2026/10/14/phillies-don-mattingly-manager-yankees-mlb/",
+        "timestamp": 1791991462000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1792063228826
+      },
+      {
+        "headline": "BILLS EDGE RAMS 37-34 IN OT THRILLER, NFL'S GAME OF THE YEAR",
+        "url": "https://www.nbcnews.com/sports/nfl/buffalo-bills-los-angeles-rams-nfl-result-josh-allen-matthew-stafford-rcna603144",
+        "timestamp": 1791890467253,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "Dana White Fires Back At Sean Strickland's Complaints",
+        "url": "https://www.mmafighting.com/ufc/515615/dana-white-responds-to-sean-stricklands-complaints-when-isnt-sean-strickland-upset-about-something",
+        "timestamp": 1791946380000,
+        "photo": true,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Mike Tyson Recalls Being 'In Bed' With Mother During Her Sex Work",
+        "url": "https://www.yahoo.com/entertainment/tv/articles/mike-tyson-recalls-being-bed-214307895.html",
+        "timestamp": 1791927787000,
+        "photo": true,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Mavericks Rout Rockets 132-115",
+        "url": "https://www.nba.com/watch/video/game-recap-mavericks-132-rockets-115",
+        "timestamp": 1791732228000,
+        "photo": true,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "F1 Returns To Africa With New Rwanda Track",
+        "url": "https://sports.yahoo.com/articles/f1-returns-africa-rwanda-track-092027643.html",
+        "timestamp": 1791883227000,
+        "photo": true,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "Hurricanes Keep Flyers Winless With Aho, Svechnikov Performances",
+        "url": "https://www.nhl.com/news/carolina-hurricanes-philadelphia-flyers-game-recap-october-11-2026",
+        "timestamp": 1791782311000,
+        "photo": true,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "USWNT 'Frustrated' But 'Not Deterred' After Loss To Spain",
+        "url": "https://www.espn.com/soccer/story/_/id/50151351/uswnt-vs-spain-women-soccer-emma-hayes-trinity-rodman",
+        "timestamp": 1791671520000,
+        "photo": true,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "Yamamoto Chased Early In 'Very Rare' Postseason Dud",
+        "url": "https://www.thescore.com/mlb/news/3622896/yamamoto-chased-early-in-very-rare-postseason-dud",
+        "timestamp": 1791878947000,
+        "postedAt": 1791890467253
+      },
+      {
+        "headline": "Karlsson's Go-Ahead Goal Lifts Golden Knights Past Predators 5-2",
+        "url": "https://www.thescore.com/news/3623748/related",
+        "timestamp": 1791952857000,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Pack Of Contenders Closes In On The Front-Runners",
+        "url": "https://nypost.com/2026/10/13/sports/nfl-power-rankings-for-week-6-growing-pack-chasing-favorites/",
+        "timestamp": 1791898200000,
+        "postedAt": 1791977566298
+      },
+      {
+        "headline": "Eight Players Who Could Still Be Traded Before Deadline",
+        "url": "https://www.thescore.com/nfl/news/3623971/nfl-trade-watch-8-players-who-could-be-moved-before-the-deadline",
+        "timestamp": 1791985684000,
+        "postedAt": 1792063228826
+      },
+      {
+        "headline": "Cowboys Look To Buy, Chargers Could Sell As Deadline Nears",
+        "url": "https://www.cbssports.com/nfl/news/nfl-trade-deadline-buyers-sellers-cowboys-bucs-chargers/",
+        "timestamp": 1791921360000,
+        "postedAt": 1792063228826
+      }
+    ]
+  },
+  "scoreboard": [
+    {
+      "league": "NFL",
+      "home": "JAX",
+      "away": "HOU",
+      "state": "scheduled",
+      "note": "10/18 - 9:30 AM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NFL",
+      "home": "ATL",
+      "away": "CHI",
+      "state": "scheduled",
+      "note": "10/18 - 1:00 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NFL",
+      "home": "CLE",
+      "away": "BAL",
+      "state": "scheduled",
+      "note": "10/18 - 1:00 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NFL",
+      "home": "IND",
+      "away": "TEN",
+      "state": "scheduled",
+      "note": "10/18 - 1:00 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NFL",
+      "home": "NE",
+      "away": "NYJ",
+      "state": "scheduled",
+      "note": "10/18 - 1:00 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NFL",
+      "home": "NYG",
+      "away": "NO",
+      "state": "scheduled",
+      "note": "10/18 - 1:00 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NFL",
+      "home": "PHI",
+      "away": "CAR",
+      "state": "scheduled",
+      "note": "10/18 - 1:00 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NFL",
+      "home": "TB",
+      "away": "PIT",
+      "state": "scheduled",
+      "note": "10/18 - 1:00 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NFL",
+      "home": "LAR",
+      "away": "ARI",
+      "state": "scheduled",
+      "note": "10/18 - 4:05 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NFL",
+      "home": "KC",
+      "away": "LAC",
+      "state": "scheduled",
+      "note": "10/18 - 4:25 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NFL",
+      "home": "LV",
+      "away": "BUF",
+      "state": "scheduled",
+      "note": "10/18 - 4:25 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NFL",
+      "home": "GB",
+      "away": "DAL",
+      "state": "scheduled",
+      "note": "10/18 - 8:20 PM EDT",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NFL",
+      "home": "DEN",
+      "away": "SEA",
+      "state": "post",
+      "note": "Final/OT",
+      "homeScore": "17",
+      "awayScore": "14"
+    },
+    {
+      "league": "NBA",
+      "home": "NY",
+      "away": "TOR",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "122",
+      "awayScore": "120"
+    },
+    {
+      "league": "NBA",
+      "home": "HOU",
+      "away": "OKC",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "116",
+      "awayScore": "89"
+    },
+    {
+      "league": "MLB",
+      "home": "CLE",
+      "away": "TB",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "3",
+      "awayScore": "2"
+    },
+    {
+      "league": "MLB",
+      "home": "LAD",
+      "away": "MIL",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "4",
+      "awayScore": "6"
+    },
+    {
+      "league": "NHL",
+      "home": "TOR",
+      "away": "BUF",
+      "state": "post",
+      "note": "Final/OT",
+      "homeScore": "4",
+      "awayScore": "5"
+    },
+    {
+      "league": "NHL",
+      "home": "OTT",
+      "away": "NYI",
+      "state": "post",
+      "note": "Final/SO",
+      "homeScore": "2",
+      "awayScore": "1"
+    },
+    {
+      "league": "NHL",
+      "home": "TB",
+      "away": "SEA",
+      "state": "post",
+      "note": "Final/OT",
+      "homeScore": "4",
+      "awayScore": "3"
+    },
+    {
+      "league": "NHL",
+      "home": "FLA",
+      "away": "VAN",
+      "state": "post",
+      "note": "Final/OT",
+      "homeScore": "3",
+      "awayScore": "2"
+    },
+    {
+      "league": "NHL",
+      "home": "NJ",
+      "away": "NYR",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "7",
+      "awayScore": "1"
+    },
+    {
+      "league": "NHL",
+      "home": "DET",
+      "away": "PHI",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "2",
+      "awayScore": "1"
+    },
+    {
+      "league": "NHL",
+      "home": "CHI",
+      "away": "WPG",
+      "state": "post",
+      "note": "Final/OT",
+      "homeScore": "4",
+      "awayScore": "3"
+    },
+    {
+      "league": "NHL",
+      "home": "NSH",
+      "away": "SJ",
+      "state": "post",
+      "note": "Final/SO",
+      "homeScore": "2",
+      "awayScore": "3"
+    },
+    {
+      "league": "NHL",
+      "home": "MIN",
+      "away": "STL",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "5",
+      "awayScore": "4"
+    },
+    {
+      "league": "NHL",
+      "home": "EDM",
+      "away": "UTA",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "2",
+      "awayScore": "4"
+    },
+    {
+      "league": "NHL",
+      "home": "VGK",
+      "away": "CGY",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "6",
+      "awayScore": "2"
+    },
+    {
+      "league": "MLS",
+      "home": "PHI",
+      "away": "CLT",
+      "state": "scheduled",
+      "note": "Sat, Oct 17 2:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "MIN",
+      "away": "STL",
+      "state": "scheduled",
+      "note": "Sat, Oct 17 4:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "ATL",
+      "away": "MIA",
+      "state": "scheduled",
+      "note": "Sat, Oct 17 7:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "NE",
+      "away": "CHI",
+      "state": "scheduled",
+      "note": "Sat, Oct 17 7:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "NYC",
+      "away": "LAFC",
+      "state": "scheduled",
+      "note": "Sat, Oct 17 7:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "ORL",
+      "away": "DC",
+      "state": "scheduled",
+      "note": "Sat, Oct 17 7:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "RBNY",
+      "away": "TOR",
+      "state": "scheduled",
+      "note": "Sat, Oct 17 7:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "ATX",
+      "away": "VAN",
+      "state": "scheduled",
+      "note": "Sat, Oct 17 8:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "HOU",
+      "away": "DAL",
+      "state": "scheduled",
+      "note": "Sat, Oct 17 8:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "SKC",
+      "away": "RSL",
+      "state": "scheduled",
+      "note": "Sat, Oct 17 8:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "LA",
+      "away": "SD",
+      "state": "scheduled",
+      "note": "Sat, Oct 17 10:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "MLS",
+      "home": "POR",
+      "away": "COL",
+      "state": "scheduled",
+      "note": "Sat, Oct 17 10:30 PM ET",
+      "homeScore": null,
+      "awayScore": null
+    }
+  ]
+}
