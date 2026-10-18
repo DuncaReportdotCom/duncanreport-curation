@@ -1,0 +1,625 @@
+{
+  "lastUpdated": 1792321889791,
+  "heroSetDate": "2026-10-18",
+  "hero": {
+    "headline": "TRUMP WAIVES NEW RUSSIA SANCTIONS, TRIGGERING BIPARTISAN BACKLASH",
+    "url": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
+    "sublinks": [
+      {
+        "text": "GOP Senators Break Ranks Over Sanctions Waiver",
+        "url": "https://www.foxbusiness.com/politics/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver-causing-top-republicans-break-ranks"
+      },
+      {
+        "text": "Zelenskyy Urges Congress To Reinstate Sanctions Trump Put On Hold",
+        "url": "https://apnews.com/article/russia-ukraine-war-trump-sanctions-energy-07e1dfc41bdad7b3292c6c263005fabc"
+      },
+      {
+        "text": "Zelensky Says Starlink Access To Ukraine Still Restricted",
+        "url": "https://www.axios.com/2026/10/17/zelensky-starlink-elon-musk-trump"
+      },
+      {
+        "text": "Left Commentary: Waiver Called Another Blow To Ukraine's War Effort",
+        "url": "https://www.dailykos.com/stories/2026/10/17/800113944/community/what-i-think-trumps-backstabbing-of-ukraine-means-for-ukraines-war-effort/"
+      }
+    ],
+    "postedAt": 1792321889791,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "ILHAN OMAR HOME SEARCH FALLOUT",
+      "stories": [
+        {
+          "headline": "Omar's Lawyers Say Agents Ignored Judge's Search Restrictions",
+          "url": "https://apnews.com/article/ilhan-omar-justice-department-investigation-search-42c86bdbd54679e974e32ac4a924b402",
+          "timestamp": 1792235026891,
+          "postedAt": 1792235432237
+        },
+        {
+          "headline": "Sister's Phone Seized Before Search Of Omar's Home, Report Says",
+          "url": "https://www.nbcnews.com/politics/trump-administration/doj-issues-subpoenas-probe-rep-ilhan-omars-immigration-status-family-m-rcna603444",
+          "timestamp": 1792199884000,
+          "postedAt": 1792235432237
+        }
+      ]
+    },
+    {
+      "title": "2026 MIDTERMS: KEY SENATE RACES HEAT UP",
+      "stories": [
+        {
+          "headline": "AOC Pours $1 Million Into El-Sayed's Michigan Senate Bid",
+          "url": "https://nypost.com/2026/10/16/us-news/aoc-sends-1m-to-abdul-el-sayed-in-michigan-senate-race/",
+          "timestamp": 1792182840000,
+          "postedAt": 1792235432237
+        },
+        {
+          "headline": "Five Takeaways From The Heated Maine Senate Debate",
+          "url": "https://www.cnn.com/2026/10/16/politics/senate-debates-takeaways-maine-alaska",
+          "timestamp": 1792119919000,
+          "postedAt": 1792149318502
+        }
+      ]
+    },
+    {
+      "title": "TRUMP EASES RUSSIA SANCTIONS AMID UKRAINE WAR STRAINS",
+      "stories": [
+        {
+          "headline": "Trump's Russia Diesel Deal Could Hand Putin Leverage, Hurt Ukraine",
+          "url": "https://www.cnbc.com/2026/10/17/trump-diesel-russia-ukraine-war.html",
+          "timestamp": 1792213201000,
+          "postedAt": 1792235432237
+        },
+        {
+          "headline": "Ukraine Seeks To Lift Military Speed Limit On Starlink Network",
+          "url": "https://apnews.com/article/starlink-starshield-ukraine-russia-war-shahed-spacex-pentagon-385eb944f6c34990bdf21f624416b820",
+          "timestamp": 1792185060000,
+          "postedAt": 1792235432237
+        },
+        {
+          "headline": "Ukraine's Starlink Restrictions Stoke Musk, Trump Retaliation Suspicions",
+          "url": "https://www.axios.com/2026/10/14/ukraine-starlink-zelensky-spacex-musk-trump",
+          "timestamp": 1792041147000,
+          "postedAt": 1792062948146
+        }
+      ]
+    },
+    {
+      "title": "SANTA ANA WINDS FUEL EXPLOSIVE MALIBU WILDFIRE",
+      "stories": [
+        {
+          "headline": "Santa Ana Winds, Warm Temps Raise Fire Threat Across Southern California",
+          "url": "https://abc7.com/live-updates/southern-california-fire-watch-red-flag-high-wind-warnings-effect/19941220/",
+          "timestamp": 1792134480000,
+          "postedAt": 1792149318502
+        },
+        {
+          "headline": "Malibu Wildfire Explodes To 200 Acres, Evacuations Ordered",
+          "url": "https://ktla.com/news/local-news/wildfire-erupts-in-malibu-amid-red-flag-warnings/",
+          "timestamp": 1792110232000,
+          "postedAt": 1792149318502
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Zacharia Tried To Scrub Bikini Photos Before Taking White House Job",
+        "url": "https://www.themirror.com/entertainment/katie-zacharia-bikini-photos-instagram-2073087",
+        "timestamp": 1792321381550,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "New Jersey Deputy AG Charged With Child Sex Crimes",
+        "url": "https://www.theblaze.com/news/new-jersey-deputy-ag-charged-with-heinous-child-sex-crimes-allegedly-involving-prepubescent-female",
+        "timestamp": 1792320938000,
+        "feature": true,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "San Jose Plane Crash Injures Child, Two Adults",
+        "url": "https://www.sfchronicle.com/bayarea/article/san-jose-small-plane-crash-22482039.php",
+        "timestamp": 1792299109000,
+        "photo": true,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "DNA From Chewed Gum Links Suspect To Washington State Cold Case Killings",
+        "url": "https://www.cbsnews.com/news/judy-weaver-susan-vesey-washington-cold-case-murders-mitchell-gaff-chewing-gum-dna-48-hours/",
+        "timestamp": 1792292220000,
+        "photo": true,
+        "postedAt": 1792321889791,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Boy Killed After Truck Drives Onto Wichita Soccer Field, 11 Hurt",
+        "url": "https://www.cbsnews.com/news/driver-soccer-field-wichita-kansas/",
+        "timestamp": 1792276020000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1792321889791,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "State Department Grapples With Fallout From Guilfoyle Scandal",
+        "url": "https://www.npr.org/2026/10/17/nx-s1-6001729/the-state-of-the-state-department-in-the-wake-of-the-kimberly-guilfoyle-scandal",
+        "timestamp": 1792271930000,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "Resignation Follows String Of Security Blunders, Report Says",
+        "url": "https://www.dailymail.com/news/us-politics/article-16215759",
+        "timestamp": 1792235026891,
+        "postedAt": 1792235432237
+      },
+      {
+        "headline": "Hot Winds Fuel Deadly Coastal Home Fires In California",
+        "url": "https://www.npr.org/2026/10/17/g-s1-148569/coastal-homes-burn-in-california-fires",
+        "timestamp": 1792225200000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1792235432237
+      },
+      {
+        "headline": "Ex-Dallas Officer Amber Guyger Released On Parole",
+        "url": "https://www.nbcnews.com/news/us-news/ex-dallas-police-amber-guyger-released-prison-botham-jean-murder-rcna602397",
+        "timestamp": 1792190194000,
+        "photo": true,
+        "postedAt": 1792235432237,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "White House Scrambled To Contain 'Pentagon Pete' Hegseth Fallout",
+        "url": "https://www.nbcnews.com/politics/national-security/white-house-overrules-pete-hegseth-time-livestreaming-execution-rcna603735",
+        "timestamp": 1792170698000,
+        "postedAt": 1792235432237
+      },
+      {
+        "headline": "What Is The 'Mother Of All Bombs' The US Could Use Against Iran?",
+        "url": "https://www.aljazeera.com/news/2026/10/15/what-is-the-mother-of-all-bombs-us-could-use-in-iran",
+        "timestamp": 1792136881000,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Fox Poll: 70% Disapprove Of Trump's Handling Of The Economy",
+        "url": "https://www.foxnews.com/politics/fox-news-poll-cost-living-concerns-weigh-gop-midterms",
+        "timestamp": 1792148710459,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Trump Officials Scrutinized Omar's Citizenship In 2019, Found No Issues",
+        "url": "https://www.redlakenationnews.com/story/2026/10/16/news/trump-officials-scrutinized-omar-in-2019-they-didnt-find-citizenship-issues/143448.html",
+        "timestamp": 1792120800000,
+        "feature": true,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Trump Cancels Hegseth's Plan To Live-Stream Fort Hood Shooter's Execution",
+        "url": "https://www.axios.com/2026/10/15/trump-hegseth-fort-hood-execution-livestream",
+        "timestamp": 1792115265000,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Man Found In Barrel At Lake Mead In 2022 Identified By Las Vegas Police",
+        "url": "https://www.8newsnow.com/news/local-news/body-found-in-barrel-at-lake-mead-identified-as-arkansas-man/",
+        "timestamp": 1792109509000,
+        "photo": true,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Krugman Warns Of Trump Plan To 'Punish' Economy If He Loses",
+        "url": "https://paulkrugman.substack.com/p/nerobefehl-nation",
+        "timestamp": 1792062351502,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Panic Spreads Over Guilfoyle's Secret 'Burn Book'",
+        "url": "https://www.yahoo.com/news/politics/articles/kimberly-guilfoyle-allegedly-threatening-white-103253981.html",
+        "timestamp": 1792062351501,
+        "photo": true,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Columbus Statue Vandalism Reignites Debate Over Selective Outrage",
+        "url": "https://www.theblaze.com/columns/opinion/columbus-gets-the-finger-other-conquerors-get-a-pass",
+        "timestamp": 1792062097000,
+        "photo": true,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Woman Kills Husband And Son At Great Wolf Lodge, Police Say",
+        "url": "https://www.wgal.com/article/pa-great-wolf-lodge-homicide-metallica-harrison-stabs-husband-son/74128946",
+        "timestamp": 1792061340000,
+        "photo": true,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Advocates Fear Witnesses In ICE Vehicle That Struck Houston Man Could Be Deported",
+        "url": "https://www.nbcnews.com/news/us-news/advocates-fear-potential-witnesses-handcuffed-back-ice-vehicle-struck-rcna603445",
+        "timestamp": 1792023720000,
+        "photo": true,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "More Than 100 Suspicious Letters Sent To Election Officials Nationwide",
+        "url": "https://www.votebeat.org/national/2026/10/15/suspicious-letters-white-powder-election-officials-threats/",
+        "timestamp": 1792148710459,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Investors Dump AI Stocks As 'Tech Wreck' Worsens",
+        "url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374",
+        "timestamp": 1792148710459,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Trump Campaign Taps Athletes To Turn Out Low-Propensity Male Voters",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768004/trump-athletes-low-propensity-male-voters-gop/",
+        "timestamp": 1792148400000,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Thousands In Bay Area Face PG&E Shutoffs Over Fire Danger",
+        "url": "https://www.sfgate.com/bayarea/article/pge-shutoffs-bay-area-22476633.php",
+        "timestamp": 1792016735000,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "8 Million Ballots Already Cast In Midterm Early Voting",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "timestamp": 1792235026891,
+        "postedAt": 1792235432237
+      },
+      {
+        "headline": "Two Wounded Survivors Remain Hospitalized As Community Mourns",
+        "url": "https://apnews.com/article/bend-oregon-school-shooting-5cee41bcfd4264abab905b2b29991e99",
+        "timestamp": 1792287300000,
+        "postedAt": 1792321889791
+      }
+    ],
+    "center": [
+      {
+        "headline": "ABC/Post/Ipsos Poll: Trump Approval At Record Low, Democrats Lead House Race",
+        "url": "https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id",
+        "timestamp": 1792296439000,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "Volkswagen Makes Room For Gas-Powered SUVs After EV Bet",
+        "url": "https://www.theblaze.com/lifestyle/volkswagen-bet-big-on-evs-now-it-s-making-room-for-gas-powered-suvs",
+        "timestamp": 1792320576000,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "Rare 'Hole Punch Cloud' Spotted Over Austin",
+        "url": "https://www.kxan.com/news/local/austin/hole-punch-cloud-spotted-in-austin-area-saturday/",
+        "timestamp": 1792282647000,
+        "photo": true,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "NYC Police Search For Suspect In Fatal Subway Station Shooting",
+        "url": "https://www.theguardian.com/us-news/2026/oct/17/new-york-city-subway-station-shooting",
+        "timestamp": 1792277100000,
+        "photo": true,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "Trump Boasts DOD Will Revive Kentucky Drug Plant If GOP Wins",
+        "url": "https://fortune.com/2026/10/17/trump-midterm-rally-pentagon-investment-kentucky-drug-gop-victory/",
+        "timestamp": 1792272360000,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "Alligator Kills 71-Year-Old Fisherman Beside Florida Lake",
+        "url": "https://www.al.com/news/2026/10/fisherman-71-killed-by-12-foot-alligator-alongside-florida-lake.html",
+        "timestamp": 1792271820000,
+        "photo": true,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "Ilhan Omar: The Democrat Targeted By Trump",
+        "url": "https://www.dw.com/en/ilhan-omar-the-us-democrat-targeted-by-donald-trump/a-79688445",
+        "timestamp": 1792264447000,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "Israeli Settlers Attack Palestinians, Beat US Photojournalist In West Bank",
+        "url": "https://www.pbs.org/newshour/world/israeli-settlers-attack-palestinians-during-west-bank-olive-harvest-and-beat-u-s-photojournalist",
+        "timestamp": 1792194375000,
+        "postedAt": 1792235432237
+      },
+      {
+        "headline": "Trump Falsely Calls Ossoff's Senate Win Illegitimate",
+        "url": "https://www.theguardian.com/us-news/2026/oct/16/trump-georgia-rally-jon-ossoff",
+        "timestamp": 1792199160000,
+        "postedAt": 1792235432237
+      },
+      {
+        "headline": "ICE Sought Man In Fatal SUV Crash Who Had Been Dead Since 2017",
+        "url": "https://www.nbcnews.com/news/us-news/immigrant-ice-was-seeking-agent-hit-man-suv-dead-2017-family-says-rcna603899",
+        "timestamp": 1792189275000,
+        "photo": true,
+        "postedAt": 1792235432237,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "Georgia Cop Who Shot Miniature Donkey Cites Body-Cam 'Threat'",
+        "url": "https://reason.com/2026/10/16/georgia-cop-who-shot-a-miniature-donkey-says-body-camera-footage-shows-an-imminent-threat/",
+        "timestamp": 1792180593000,
+        "photo": true,
+        "postedAt": 1792235432237,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "Hersheypark Opens Candymonium Coaster After Six Flags Death",
+        "url": "https://www.abc27.com/local-news/hersheypark-opens-candymonium-coaster-following-six-flags-coaster-death/",
+        "timestamp": 1792179944000,
+        "photo": true,
+        "postedAt": 1792235432237
+      },
+      {
+        "headline": "TOP REPUBLICANS PRIVATELY CONCEDE HOUSE CONTROL IS 'ALL BUT GONE'",
+        "url": "https://www.msn.com/en-us/news/other/ar-AA2ecSIB",
+        "timestamp": 1792062948146,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Donor Suing Guilfoyle Vows To Reveal Evidence That Could 'Bring Down' Administration",
+        "url": "https://nypost.com/2026/10/15/us-news/donor-slaps-suit-against-kimberley-guilfoyle-threatens-to-release-dirt-on-trump-if-fraudster-isnt-extradited-this-is-not-extortion/",
+        "timestamp": 1792148710459,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Car Registered To Hindu Temple Mass-Shooting Suspect Found At Targeted Site",
+        "url": "https://apnews.com/article/aurora-illinois-planned-mass-shooting-hindu-temple-5d81d5f677cd2b7366fb1f23267ce554",
+        "timestamp": 1792107180000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Trump Laments That Iran Peace Was Made Harder By Killing Its Leaders",
+        "url": "https://www.foxnews.com/live-news/us-iran-war-peace-donald-trump-strait-hormuz-oil-prices-midterms-october-15",
+        "timestamp": 1792059757000,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "White House Probes Claims Of Missing Kennedy Center Money Amid 'MAGA Blood Feud'",
+        "url": "https://www.axios.com/2026/10/14/trump-kennedy-center-donation-maga-feud",
+        "timestamp": 1792062351501,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Ed Markey Mocked Over Push To Hire BIPOC And LGBTQ+ Interns",
+        "url": "https://www.theblaze.com/news/ed-markey-bipoc-lgbtq-interns",
+        "timestamp": 1792061835000,
+        "photo": true,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Three Men Accused By Nancy Mace In House Speech Charged With Sex Crimes",
+        "url": "https://www.postandcourier.com/news/crime/mace-bowman-osborne-bryant-sex-crimes-arrested-sled/article_afaa84b5-015b-41d6-89eb-a896b1bb296a.html",
+        "timestamp": 1792049820000,
+        "feature": true,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Man Who Died Falling From Six Flags Coaster Was Celebrating Niece's Birthday",
+        "url": "https://www.wsbtv.com/news/local/cobb-county/man-who-died-falling-off-six-flags-roller-coaster-was-celebrating-nieces-birthday-relative-says/DL3WYPMDLNC65MGAZ37YWJBIHY/",
+        "timestamp": 1792033020000,
+        "photo": true,
+        "postedAt": 1792062948146,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "Ukraine Resumes Attacks On Russian Oil Refineries As US Relations Teeter",
+        "url": "https://apnews.com/article/russia-ukraine-war-oil-refinery-attacks-resume-0071b4f3792c9912b977b0ee73505b18",
+        "timestamp": 1792062351502,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Talarico Announces Record-Breaking $64 Million Fundraising Haul",
+        "url": "https://www.politico.com/live-updates/2026/10/15/congress/james-talarico-64-million-fundraising-record-01119808",
+        "timestamp": 1792062351501,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "White House Reportedly Ordered Limits On Ukraine's Starshield Use As Trump Blasts Zelenskyy",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/10/16/order-to-limit-ukraines-starshield-use-reportedly-came-from-white-house-as-trump-blasts-zelenskyy/",
+        "timestamp": 1792137896000,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Data Center Deal-Making Slows Amid Bubble Fears",
+        "url": "https://www.semafor.com/article/10/13/2026/voltas-5-billion-debt-deal-is-a-pulse-check-on-the-ai-financing-boom",
+        "timestamp": 1792148710459,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Sullivan And Peltola Trade Blows, Each Accuses Other Of Lying In Alaska Debate",
+        "url": "https://alaskapublic.org/news/politics/elections/2026-10-15/sullivan-and-peltola-trade-verbal-blows-accuse-the-other-of-lying-during-debate-for-the-state",
+        "timestamp": 1792129140000,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Moderators Reject GOP Senator's Debate Cheating Claim",
+        "url": "https://www.al.com/politics/2026/10/gop-senators-claim-that-democrat-cheated-at-debate-gets-shut-down-by-moderators.html",
+        "timestamp": 1792181340000,
+        "postedAt": 1792235432237
+      }
+    ],
+    "right": [
+      {
+        "headline": "TRUMP THREATENS TO JAIL CALIFORNIA OFFICIALS OVER MAIL BALLOT RULES",
+        "url": "https://www.reuters.com/world/us/trump-threatens-california-officials-with-imprisonment-over-stance-mail-ballots-2026-10-17/",
+        "timestamp": 1792235432237,
+        "postedAt": 1792235432237
+      },
+      {
+        "headline": "Paxton Hits Texas Trail To Rally Republicans",
+        "url": "https://www.theguardian.com/us-news/2026/oct/18/ken-paxton-texas-senate-scandal-midterms",
+        "timestamp": 1792264948000,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "Kamala Harris Defends Her Cackle, Accuses Critics Of Stealing Her 'Joy'",
+        "url": "https://www.theblaze.com/shows/pat-gray-unleashed/kamala-defends-her-cackle-accuses-critics-of-trying-to-steal-her-joy",
+        "timestamp": 1792320410000,
+        "photo": true,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "JD Vance Town Hall: Gas Prices, DC Corruption And Immigration",
+        "url": "https://www.foxnews.com/politics/top-takeaways-from-jd-vance-town-hall-costly-gas-dc-corruption-immigration-hot-takes-war",
+        "timestamp": 1792290735000,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "Fast-Moving Wildfire Forces Evacuations, Burns Homes In California",
+        "url": "https://www.bbc.com/news/articles/c6vgjnk8nw2wo",
+        "timestamp": 1792264401000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "Delta Flight Disrupted By Mid-Air Fight Between Cabin Crew",
+        "url": "https://www.mirror.co.uk/news/us-news/delta-connection-dl5090-cabin-crew-37780263",
+        "timestamp": 1792235026892,
+        "photo": true,
+        "postedAt": 1792235432237,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Europe's Right Wing Breaks With Trump's MAGA Movement",
+        "url": "https://dissentmagazine.org/online_articles/far-right-elections-saxony-anhalt-germany/",
+        "timestamp": 1792235026892,
+        "postedAt": 1792235432237
+      },
+      {
+        "headline": "Bystander Dad Hailed For Stopping Further Oregon Massacre",
+        "url": "https://nypost.com/2026/10/16/us-news/hero-dad-kaylub-giamanco-stopped-oregon-shooter-john-j-griffin-during-lunch-break/",
+        "timestamp": 1792235026891,
+        "photo": true,
+        "postedAt": 1792235432237
+      },
+      {
+        "headline": "Secret Documents Reveal Donors Behind $330 Million For Trump's Ballroom",
+        "url": "https://wapo.st/4yiUDPx",
+        "timestamp": 1792148710459,
+        "feature": true,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Alabama Man Allegedly Decapitated His Grandmother And Aunt With Chainsaw",
+        "url": "https://www.theblaze.com/news/alabama-chainsaw-decapitation-aunt-grandmother",
+        "timestamp": 1792148495000,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Trump Wants More Afrikaner Refugees While Others Remain Stuck Under His Policies",
+        "url": "https://www.theguardian.com/us-news/2026/oct/16/trump-refugee-restrictions-south-africa",
+        "timestamp": 1792144800000,
+        "photo": true,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Labash: Hating Trump More Healthily",
+        "url": "https://mattlabash.substack.com/p/hating-trump-more-healthily",
+        "timestamp": 1792062351501,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "US Deploying Hundreds Of Troops To Latin America",
+        "url": "https://www.nytimes.com/2026/10/14/us/politics/us-troops-latin-america.html?unlocked_article_code=1.IlE.Wmi3.55tvebpJaDEn&smid=url-share",
+        "timestamp": 1792062351501,
+        "photo": true,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Microsoft's President Warns White House On AI Policy",
+        "url": "https://www.politico.com/newsletters/decoded-by-politico/2026/10/15/microsofts-president-warns-the-white-house-01119668",
+        "timestamp": 1792061700000,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Mom Who Vanished After 'People's Court' Appearance; Ex-Fiance Accused Of Murder",
+        "url": "https://www.nbcnews.com/news/us-news/man-whose-ex-fiancee-vanished-2011-peoples-court-appearance-arrested-m-rcna603584",
+        "timestamp": 1792020720000,
+        "photo": true,
+        "postedAt": 1792062948146,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Zelensky Says He Feels Betrayed By Washington",
+        "url": "https://www.plataformamedia.com/en/2026/10/15/zelensky-says-he-feels-betrayed-by-trump-over-the-starlink-cutoff-people-will-die-he-says-washington-hasnt-confirmed-any-order/",
+        "timestamp": 1792062351502,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Talarico Debates Texas Voters In Tight Senate Race Town Hall",
+        "url": "https://thehill.com/homenews/campaign/6149733-texas-talarico-town-hall/",
+        "timestamp": 1792032600000,
+        "postedAt": 1792062948146
+      },
+      {
+        "headline": "Sean Hannity's Behind-The-Scenes Role In Ouster Scrutinized",
+        "url": "https://www.mediaite.com/media/tv/katie-zacharia-lashes-out-at-legacy-media-when-pressed-on-fox-about-hannity-clobbering/",
+        "timestamp": 1792235026891,
+        "postedAt": 1792235432237
+      },
+      {
+        "headline": "Trump Rallies Georgia Republicans Despite Party Divisions In Battleground State",
+        "url": "https://apnews.com/article/trump-midterms-georgia-mike-collins-rick-jackson-ff7106bde832ad59f318daff14018dbf",
+        "timestamp": 1792123380000,
+        "postedAt": 1792149318502
+      },
+      {
+        "headline": "Confusion Swirls Over Press Secretary's Sudden Departure",
+        "url": "https://notthebee.com/article/it-looks-the-new-white-house-press-secretary-is-quitting-after-a-week-on-the-job-/",
+        "timestamp": 1792174774000,
+        "postedAt": 1792235432237
+      },
+      {
+        "headline": "Mass Protests Spiral Into Worst Riots In Years",
+        "url": "https://apnews.com/44b9d3ba91ffad4029f975dced7e31cb",
+        "timestamp": 1792321381549,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "France: Streets In Ruins As Uprising Shocks Nation",
+        "url": "https://www.ynetnews.com/article/sjjy5zmhzx",
+        "timestamp": 1792321381549,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "France: Historic Clock Tower Collapses Amid Unrest",
+        "url": "https://www.bbc.com/news/videos/c6e3xjw37wn7o",
+        "timestamp": 1792321381549,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "Portugal: Tens Of Thousands March In Lisbon Over Housing Costs",
+        "url": "https://www.yahoo.com/news/world/articles/tens-thousands-march-lisbon-over-171113658.html",
+        "timestamp": 1792321381549,
+        "postedAt": 1792321889791
+      },
+      {
+        "headline": "Gunman Killed 3 Children And Teacher Before Parent Shot Him Dead",
+        "url": "https://www.theblaze.com/news/teenager-fatally-shoots-3-children-teacher-at-oregon-elementary-school-before-parent-shoots-gunman-dead-police-say",
+        "timestamp": 1792320434000,
+        "postedAt": 1792321889791
+      }
+    ]
+  },
+  "balance": {
+    "left": 716,
+    "right": 345,
+    "independent": 8,
+    "days": 30,
+    "total": 1061,
+    "pctLeft": 67,
+    "pctRight": 33
+  }
+}
