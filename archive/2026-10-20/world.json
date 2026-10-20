@@ -1,0 +1,464 @@
+{
+  "lastUpdated": 1792495666024,
+  "heroSetDate": "2026-10-20",
+  "hero": {
+    "headline": "SOCIAL UNREST SWEEPS EUROPE FROM FRANCE TO ALBANIA TO ITALY",
+    "url": "https://apnews.com/article/europe-riots-protest-france-italy-spain-albania-portugal-housing-costs-210ff22c6746b9ec66438ac80740bc0e",
+    "sublinks": [
+      {
+        "text": "Italy Deploys Troops To Milan As Protests Persist",
+        "url": "https://www.theguardian.com/world/2026/oct/20/milan-luxury-shops-close-italy-to-deploy-troops-youth-protests-europe"
+      },
+      {
+        "text": "Poland And Hungary Cite France Unrest To Defend Border Controls",
+        "url": "https://www.breitbart.com/europe/2026/10/20/poland-hungary-france-riots-are-why-we-have-border-control/"
+      },
+      {
+        "text": "France Braces For More Planned Protests Despite Lull",
+        "url": "https://www.rfi.fr/en/france/20261020-despite-return-to-calm-france-remains-on-edge-ahead-of-planned-further-protests"
+      },
+      {
+        "text": "Analysts See France's Unrest Reshaping 2027 Election Field",
+        "url": "https://www.politico.eu/article/french-riots-lay-bare-risks-and-opportunities-for-2027-election-candidates/"
+      }
+    ],
+    "postedAt": 1792495666024,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "UKRAINE WAR: SANCTIONS PAUSE AND RENEWED RUSSIAN STRIKES",
+      "stories": [
+        {
+          "headline": "Rubio Denies Any Pause In US Intelligence Sharing With Ukraine",
+          "url": "https://www.euronews.com/2026/10/19/marco-rubio-denies-there-was-any-pause-in-us-intelligence-sharing-with-ukraine",
+          "timestamp": 1792406401000,
+          "postedAt": 1792409329266
+        },
+        {
+          "headline": "Putin Floats Trilateral Summit With Trump And Xi On Ukraine Deal",
+          "url": "https://timesofindia.indiatimes.com/world/europe/putin-proposes-trilateral-summit-with-trump-xi-to-discuss-ukraine-war-report/articleshow/135037333.cms",
+          "timestamp": 1792405260000,
+          "postedAt": 1792409329266
+        },
+        {
+          "headline": "Zelenskyy Says Partners Gave 'No Warning' Before Russian Ballistic Strikes",
+          "url": "https://www.dw.com/en/ukraine-got-no-warning-of-russian-ballistic-strikes-zelenskyy-says/a-79697476",
+          "timestamp": 1792404196000,
+          "postedAt": 1792409329266
+        }
+      ]
+    },
+    {
+      "title": "ATTACK ON AUSTRALIAN MP HELEN HAINES",
+      "stories": [
+        {
+          "headline": "Independent MP Helen Haines In Critical Condition After Vehicle Attack",
+          "url": "https://www.reuters.com/world/asia-pacific/australia-pm-says-independent-mp-helen-haines-has-been-attacked-2026-10-19/",
+          "timestamp": 1792403742000,
+          "postedAt": 1792409329266
+        },
+        {
+          "headline": "Haines Critically Injured Near Her Electorate Office",
+          "url": "https://www.politico.com/news/2026/10/19/independent-mp-helen-haines-critically-injured-in-attack-near-electorate-office-01126005",
+          "timestamp": 1792398900000,
+          "postedAt": 1792409329266
+        }
+      ]
+    },
+    {
+      "title": "POPE LEO RECOVERS AFTER CANCER SURGERY",
+      "stories": [
+        {
+          "headline": "Pope Leo Addresses Crowd In Vatican After Cancer Surgery",
+          "url": "https://www.afp.com/en/pope-addresses-crowd-vatican-after-cancer-surgery",
+          "timestamp": 1792321367000,
+          "postedAt": 1792322642507
+        },
+        {
+          "headline": "Pope's Surgeon Describes Operating On 'Ideal Patient' After Chance Diagnosis",
+          "url": "https://www.cbsnews.com/news/pope-leo-surgeon-details-operation-lung-cancer/",
+          "timestamp": 1792266780000,
+          "postedAt": 1792322642507
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Ceuta Left Awash In Waste As Migrant Numbers Surge, Report Says",
+        "url": "https://www.breitbart.com/europe/2026/10/20/reports-downpour-in-ceuta-washes-feces-and-trash-left-by-invading-migrants-out-to-sea/",
+        "timestamp": 1792494415000,
+        "postedAt": 1792495666024,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "Former US Ambassador On Trump's Moves To Embrace Russia",
+        "url": "https://www.npr.org/2026/10/20/nx-s1-6007865/former-u-s-ambassador-on-trumps-recent-moves-to-embrace-russia",
+        "timestamp": 1792494228000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "Mukesh Ambani Launches India's Biggest-Ever IPO",
+        "url": "https://www.theguardian.com/business/2026/oct/20/mukesh-ambani-jio-platforms-ipo-india-stock-market",
+        "timestamp": 1792490940000,
+        "photo": true,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "Indian Woman Harassed Over 'Cockroach' Remark Can't Leave Home",
+        "url": "https://www.theguardian.com/world/2026/oct/19/this-is-india-student-protests-abuse-modi-cockroach-protests",
+        "timestamp": 1792489800000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "Sudan Drone Attacks Escalate, 160 Reported Killed",
+        "url": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan",
+        "timestamp": 1792488947000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1792495666024,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Alberta Voters Reject Independence, Back Canada",
+        "url": "https://www.dw.com/en/canada-alberta-rejects-separation-bid-cbc-projects/a-79708520",
+        "timestamp": 1792488825000,
+        "photo": true,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "World Food Programme Cuts Aid To 500,000 Gazans Over Funding Shortfall",
+        "url": "https://www.reuters.com/world/middle-east/world-food-programme-cuts-aid-500000-palestinians-gaza-citing-funding-shortages-2026-10-19/",
+        "timestamp": 1792405012000,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "Serbian Prosecutor Probing Trump Tower Belgrade Targeted With Spyware",
+        "url": "https://www.politico.eu/article/serbian-prosecutor-targeted-with-spyware-after-trump-tower-project-probe/",
+        "timestamp": 1792406666000,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "Russians Locked Out Of Bank Accounts As Ukraine Hits Data Centers",
+        "url": "https://www.nbcnews.com/world/russia/russia-ukraine-yandex-data-centers-attacks-trump-rcna602753",
+        "timestamp": 1792404605000,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "Musk Says He'll Gift SpaceX Shares To 'Every Kid In America'",
+        "url": "https://finance.yahoo.com/markets/stocks/article/elon-musk-says-he-is-going-to-give-spacex-stock-away-to-kids-090305874.html",
+        "timestamp": 1792404068000,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "Zombie Walk Draws Crowds In Mexico City For 19th Year",
+        "url": "https://www.africanews.com/amp/2026/10/19/undead-stalk-the-streets-of-mexico-city-at-19th-annual-zombie-walk/",
+        "timestamp": 1792403261000,
+        "photo": true,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "Israeli Police Arrest 10 Over Settler Attacks On Journalist, Diplomats",
+        "url": "https://apnews.com/article/israel-settlers-violence-levine-west-bank-palestinians-7812cdfd71fc7486322dd95e3547a176",
+        "timestamp": 1792397700000,
+        "photo": true,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "Ukraine Hits Oil Facility In St. Petersburg In 'Massive' Drone Attack",
+        "url": "https://www.politico.eu/article/ukraine-strikes-oil-facility-st-petersburg-part-massive-drone-attack/",
+        "timestamp": 1792321639000,
+        "feature": true,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Hong Kong Prosecutes 20 Restaurants For Allowing Dogs Without Permits",
+        "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3371303/20-restaurants-prosecuted-allowing-dogs-without-permits-scheme-launched",
+        "timestamp": 1792318999000,
+        "photo": true,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Rubio's Mumbai Visit Ruffles Feathers In India",
+        "url": "https://www.aljazeera.com/news/2026/10/18/why-marco-rubios-visit-to-mumbai-has-ruffled-feathers-in-india",
+        "timestamp": 1792301111000,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "UK Police Rule Out Probe Into PM Adviser's Wife Over Palestine Action Post",
+        "url": "https://www.aljazeera.com/news/2026/10/18/uk-police-rule-out-probe-into-palestine-action-post-by-pm-advisers-wife",
+        "timestamp": 1792299502000,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Hurricane Trudy Strengthens To Category 2 Heading Toward Mexico",
+        "url": "https://www.theguardian.com/world/2026/oct/17/hurricane-trudy-mexico",
+        "timestamp": 1792279440000,
+        "photo": true,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Mexican Judge Sentences Three Men To 159 Years Each For Surfer Killings",
+        "url": "https://www.aljazeera.com/news/2026/10/17/three-mexicans-jailed-for-158-years-each-for-killing-australian-us-surfers",
+        "timestamp": 1792267103000,
+        "photo": true,
+        "postedAt": 1792322642507,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Spain's Rush To Clear Ceuta Migrant Backlog Raises Rights Concerns",
+        "url": "https://www.reuters.com/world/africa/spains-rush-clear-ceuta-migrant-backlog-raises-rights-concerns-2026-10-19/",
+        "timestamp": 1792403844000,
+        "postedAt": 1792409329266
+      }
+    ],
+    "center": [
+      {
+        "headline": "FRANCE'S BOND MARKET RATTLED AS RIOT FALLOUT DEEPENS",
+        "url": "https://www.theguardian.com/world/2026/oct/19/france-hit-by-debt-sell-off-as-protests-unnerve-investors",
+        "timestamp": 1792409329266,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "UK To Fly RAF Missions Defending Saudi Arabia From Houthi Attacks",
+        "url": "https://www.reuters.com/business/aerospace-defense/uk-fly-raf-missions-defending-saudi-arabia-against-houthi-attacks-bloomberg-2026-10-20/",
+        "timestamp": 1792492770000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "Google Cloud Outage Hits London, Knocks Revolut Offline",
+        "url": "https://www.reuters.com/world/europe/google-cloud-services-experience-outage-europe-2026-10-20/",
+        "timestamp": 1792492326000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "Latvia Votes In Parliamentary Election Amid Rising Costs",
+        "url": "https://www.dw.com/en/latvia-votes-in-parliamentary-election-amid-rising-costs/a-79527253?maca",
+        "timestamp": 1792490106000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "Hegseth Meets Netanyahu In Israel Ahead Of Elections",
+        "url": "https://www.axios.com/2026/10/19/pete-hegseth-israel-visit-netanyahu-meeting",
+        "timestamp": 1792478272000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "China Sends Naval Forces To Monitor US Warship Near Disputed Shoal",
+        "url": "https://www.reuters.com/world/china/chinese-navy-says-us-ship-near-sabina-shoal-jeopardised-maritime-security-2026-10-20/",
+        "timestamp": 1792473180000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "Albania's Rama Resists Resignation Calls Amid Violent Clashes",
+        "url": "https://www.dw.com/en/albanias-prime-minister-edi-rama-ignores-calls-to-resign-amid-violent-clashes/a-79693789",
+        "timestamp": 1792392108000,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "Zimbabwe's ZANU-PF Names Mnangagwa To Lead Party Past 2028",
+        "url": "https://www.africanews.com/amp/2026/10/19/zimbabwes-zanu-pf-picks-mnangagwa-as-leader-after-2028/",
+        "timestamp": 1792406780000,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "Homeless Man Has Lived Outside One Of London's Priciest Houses For Years",
+        "url": "https://www.dw.com/en/how-a-homeless-man-lives-in-front-of-a-london-mega-mansion/a-79400925",
+        "timestamp": 1792406513000,
+        "photo": true,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "EU Eyes Rome For 2027 Summit Ahead Of Italian Election",
+        "url": "https://www.politico.eu/article/eu-rome-2027-summit-italy-election/",
+        "timestamp": 1792405976000,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "Mother Leaves Children On Poland Mountain Trail For 'Whining'",
+        "url": "https://www.euronews.com/2026/10/19/mother-leaves-children-on-poland-mountain-trail-for-whining-hikes-to-summit-alone",
+        "timestamp": 1792404890000,
+        "photo": true,
+        "postedAt": 1792409329266,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Car Crashes Into Rugby Fans In Australia, Injuring 10",
+        "url": "https://www.dw.com/en/australia-car-crashes-into-rugby-fans-10-injured/a-79526643?maca",
+        "timestamp": 1792404213000,
+        "photo": true,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "Fire At Canada Military Base Spread A Kilometer In Under A Minute",
+        "url": "https://www.bbc.com/news/articles/ckj0ly6qnp1lo",
+        "timestamp": 1792402844000,
+        "photo": true,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "European Diplomats Attacked In West Bank, A Day After Post Photographer Beaten",
+        "url": "https://www.nbcnews.com/world/israel/masked-settlers-attack-european-diplomats-occupied-west-bank-rcna604110",
+        "timestamp": 1792296033000,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Falklands Islanders Again Face Hostile Argentina, Four Decades On",
+        "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
+        "timestamp": 1792317780000,
+        "photo": true,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Foreign Tourists Go On China Shopping Sprees As 'China Haul' Trend Grows",
+        "url": "https://www.scmp.com/economy/china-economy/article/3371258/china-haul-why-foreign-tourists-are-shopping-storm-after-beijing-policy-changes",
+        "timestamp": 1792316509000,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Afrobeats Hypemen Redefine The Genre's Live Energy",
+        "url": "https://www.theguardian.com/world/2026/oct/18/lagos-hypemen-redefining-afrobeats-music-afrohype",
+        "timestamp": 1792314060000,
+        "photo": true,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Albanian Police Fire Rubber Bullets As Student Protests Rage",
+        "url": "https://www.reuters.com/world/europe/albanian-anti-government-protesters-clash-with-police-tirana-2026-10-17/",
+        "timestamp": 1792271065000,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "AfD Party Hit By Mass Email Theft",
+        "url": "https://www.euronews.com/2026/10/20/hackers-steal-421000-emails-belonging-to-members-of-germanys-far-right-afd-party",
+        "timestamp": 1792489272000,
+        "postedAt": 1792495666024,
+        "image": "/img/world-5.jpg"
+      }
+    ],
+    "right": [
+      {
+        "headline": "Paris Outpaces London As Europe's Top AI City, Index Finds",
+        "url": "https://www.afp.com/en/agency/inside-afp/external-press-releases/paris-outpaces-london-europes-top-ai-city-according",
+        "timestamp": 1792494660000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "Spain's Conservatives In Talks With Far-Right Vox Over Election Deal",
+        "url": "https://www.politico.eu/article/spains-conservatives-in-talks-with-far-right-vox/",
+        "timestamp": 1792494141000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "Ryanair CEO Warns Of Europe's Biggest-Ever Airfare Hike",
+        "url": "https://www.reuters.com/business/ryanair-optimistic-boeing-max-10-certification-will-be-done-october-2026-10-20/",
+        "timestamp": 1792493825000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "Kallas: Russian Black Sea Strikes Deepen 'Perfect Storm' For Food Supplies",
+        "url": "https://www.euronews.com/2026/10/20/kallas-russian-black-sea-strikes-deepen-perfect-storm-for-world-food-supplies",
+        "timestamp": 1792489444000,
+        "postedAt": 1792495666024,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "Amazon To Invest Over €16 Billion In Germany Next Year",
+        "url": "https://www.reuters.com/business/retail-consumer/amazon-invest-over-16-billion-germany-next-year-2026-10-20/",
+        "timestamp": 1792489303000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "FRANCE REPORTS OVER 1,800 ARRESTS AFTER NIGHT OF RIOTS, LOOTING, ARSON",
+        "url": "https://www.dw.com/en/france-reports-more-than-1800-arrests-after-riots-looting-and-arson-during-cost-of-living-protests/a-79692322",
+        "timestamp": 1792322642507,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Alberta Votes On Leaving Canada As Separatist Movement Vows To Continue",
+        "url": "https://www.reuters.com/world/americas/alberta-votes-leaving-canada-separatist-movement-likely-outlast-expected-defeat-2026-10-19/",
+        "timestamp": 1792404343000,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "Kenya Confirms Eighth Ebola Case Amid Widening Outbreak",
+        "url": "https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak",
+        "timestamp": 1792372239000,
+        "postedAt": 1792409329266,
+        "image": "/img/world-7.jpg"
+      },
+      {
+        "headline": "Hong Kong Police To Link Mall CCTVs To Surveillance Network",
+        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3371292/hong-kong-link-private-mall-cameras-police-surveillance-network-chris-tang",
+        "timestamp": 1792320548000,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Russia Says US Diesel Deal Delivery Will Take 15-20 Days",
+        "url": "https://www.afp.com/en/russia-us-diesel-deal-delivery-take-15-20-days-russia",
+        "timestamp": 1792317874000,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "World Bank Says 'Small AI' Could Transform Developing Countries",
+        "url": "https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies",
+        "timestamp": 1792317660000,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Polish Airports In Lublin, Rzeszow Resume Operations After Closure",
+        "url": "https://www.reuters.com/business/aerospace-defense/poland-scrambles-aircraft-russia-launches-strikes-ukraine-polish-military-says-2026-10-18/",
+        "timestamp": 1792315738000,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Shakespeare's Under-Recognized Connection To Black Culture Explored",
+        "url": "https://www.theguardian.com/artanddesign/2026/oct/18/black-women-shakespeare-exhibit-washington-dc",
+        "timestamp": 1792314060000,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "Deadly Incident At Canadian Army Base In Alberta Sets Off Major Fire",
+        "url": "https://apnews.com/article/canada-alberta-military-base-fire-wainwright-1a41899da5b6e797b000061fa4da9c6a",
+        "timestamp": 1792309860000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1792322642507
+      },
+      {
+        "headline": "12 Migrants Die In Two Incidents In The Aegean Sea",
+        "url": "https://www.euronews.com/2026/10/19/greek-authorities-say-12-migrants-die-in-two-incidents-in-aegean-sea",
+        "timestamp": 1792406774000,
+        "postedAt": 1792409329266,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "Rubio Lands In India For 'Trade Diplomacy'",
+        "url": "https://www.afp.com/en/rubio-lands-india-trade-diplomacy",
+        "timestamp": 1792490625000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "At Least 18 Killed In Houthi Attack On Yemeni Military Camp",
+        "url": "https://www.reuters.com/world/least-18-killed-houthi-attack-yemeni-government-military-camp-shabwa-sources-say-2026-10-19/",
+        "timestamp": 1792407743000,
+        "feature": true,
+        "postedAt": 1792409329266
+      },
+      {
+        "headline": "AfD's Alice Weidel To Unveil Plan To Downsize The EU",
+        "url": "https://www.politico.eu/article/afd-alternative-for-germany-alice-weidel-plan-downsize-eu/",
+        "timestamp": 1792493425000,
+        "postedAt": 1792495666024
+      },
+      {
+        "headline": "Analysis: The Far Right Breaks Through In Germany",
+        "url": "https://dissentmagazine.org/online_articles/far-right-elections-saxony-anhalt-germany/",
+        "timestamp": 1792482937000,
+        "postedAt": 1792495666024
+      }
+    ]
+  }
+}
