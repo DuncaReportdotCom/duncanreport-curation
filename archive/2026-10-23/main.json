@@ -1,0 +1,472 @@
+{
+  "lastUpdated": 1792754332898,
+  "heroSetDate": "2026-10-23",
+  "hero": {
+    "headline": "JUDGE ORDERS TRUMP TO SIT FOR DEPOSITION IN $10 BILLION BBC LAWSUIT",
+    "url": "https://apnews.com/0a26fa60b265f55a9bcf7ed88cfacab8",
+    "sublinks": [
+      {
+        "text": "Axios: Deposition Adds To President's Expanding Legal Fights",
+        "url": "https://www.axios.com/2026/10/22/trump-bbc-lawsuit-december-deposition-deadline"
+      },
+      {
+        "text": "NBC: Case Could Put Trump Under Oath Over Jan. 6",
+        "url": "https://www.nbcnews.com/politics/rcna605034"
+      }
+    ],
+    "postedAt": 1792754332898,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "IRAN ESCALATION THREATENS GULF OIL AND MARKETS",
+      "stories": [
+        {
+          "headline": "WSJ: Tehran Vows To Target Civilians If Strikes Resume",
+          "url": "https://www.newser.com/story/398669/iran-threatens-strikes-on-gulf-civilian-economic-targets.html",
+          "timestamp": 1792753570107,
+          "postedAt": 1792754332898
+        },
+        {
+          "headline": "Markets Slide As Iran War Fears Collide With AI Spending Jitters",
+          "url": "https://www.nbcnews.com/business/markets/iran-war-ai-spending-oil-prices-selloff-rcna604994",
+          "timestamp": 1792699949000,
+          "postedAt": 1792754332898
+        },
+        {
+          "headline": "Iran Threatens To Strike Oil And AI Facilities Across Gulf If US, Israel Renew Attacks",
+          "url": "https://www.theguardian.com/world/2026/oct/22/iran-threatens-seven-gulf-countries-us-israel-renew-attacks",
+          "timestamp": 1792692720000,
+          "postedAt": 1792754332898
+        }
+      ]
+    },
+    {
+      "title": "TRUMP'S APPROVAL CRATERS AS MIDTERMS LOOM",
+      "stories": [
+        {
+          "headline": "Shock Poll Puts Trump Approval At Just 29%",
+          "url": "https://americanresearchgroup.com/economy/",
+          "timestamp": 1792667208037,
+          "postedAt": 1792667840571
+        },
+        {
+          "headline": "Nate Silver: Lowest Midterm Approval In 80 Years",
+          "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+          "timestamp": 1792667208037,
+          "postedAt": 1792667840571
+        },
+        {
+          "headline": "Trump Campaigns In Iowa Despite Slumping Numbers",
+          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-iowa-election-lawsuit-october-22",
+          "timestamp": 1792662908000,
+          "postedAt": 1792667840571
+        }
+      ]
+    },
+    {
+      "title": "MUSK FACES CONGRESSIONAL HEAT",
+      "stories": [
+        {
+          "headline": "Musk Threatens Democrats Over Planned Investigations",
+          "url": "https://www.yahoo.com/news/politics/articles/musk-threatens-democrats-teeing-congressional-194936231.html",
+          "timestamp": 1792667208037,
+          "postedAt": 1792667840571
+        },
+        {
+          "headline": "WSJ: Musk Increasingly In Congress's Crosshairs",
+          "url": "https://www.newsbreak.com/raw-story-2096750/4957710184272-elon-musk-in-gop-crosshairs-over-very-serious-allegation-we-got-to-investigate",
+          "timestamp": 1792667208037,
+          "postedAt": 1792667840571
+        }
+      ]
+    },
+    {
+      "title": "UKRAINE WAR: STARLINK FIGHT AND WASHINGTON PRESSURE",
+      "stories": [
+        {
+          "headline": "Musk Personally Ordered Starlink Slowdown For Ukraine",
+          "url": "https://www.reuters.com/business/media-telecom/musk-ordered-starlink-slowdown-that-blindsided-ukraine-wsj-reports-2026-10-20/",
+          "timestamp": 1792666790000,
+          "postedAt": 1792667840571
+        },
+        {
+          "headline": "Trump Hopes To Flatter Putin Into Ukraine Deal, Experts Say",
+          "url": "https://www.nbcnews.com/politics/donald-trump/trump-hopes-flatter-putin-negotiating-ukraine-experts-say-rcna604770",
+          "timestamp": 1792629240000,
+          "postedAt": 1792667840571
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "U.S. AND ISRAEL QUIETLY PLAN NEW IRAN STRIKES FOR AFTER MIDTERMS",
+        "url": "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war",
+        "timestamp": 1792667840571,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "Central Park Carriage Drivers Fear For Future After NYC Ban",
+        "url": "https://www.nbcnews.com/news/us-news/nyc-passes-bill-ban-horse-drawn-carriages-central-parks-drivers-fear-f-rcna605105",
+        "timestamp": 1792751040000,
+        "photo": true,
+        "postedAt": 1792754332898,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Hegseth Staff Damaged Historic Eisenhower Globe Moving It To His Office",
+        "url": "https://www.nbcnews.com/politics/politics-news/hegseth-staff-damaged-historic-wwii-era-eisenhower-globe-trying-move-o-rcna605123",
+        "timestamp": 1792718880000,
+        "photo": true,
+        "postedAt": 1792754332898,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "RFK Jr. Adviser Calley Means Resigns Amid MAHA Discontent",
+        "url": "https://www.pbs.org/newshour/politics/rfk-jr-adviser-calley-means-resigns-amid-growing-maha-discontent-over-lack-of-progress",
+        "timestamp": 1792717022000,
+        "postedAt": 1792754332898
+      },
+      {
+        "headline": "Witkoff Faces Backlash For Calling Putin A 'Humanitarian'",
+        "url": "https://www.cbsnews.com/news/steve-witkoff-putin-humanitarian-backlash/",
+        "timestamp": 1792707300000,
+        "photo": true,
+        "postedAt": 1792754332898,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "An Illegal Immigrant Killed My Daughter — Steve Descano Could Have Stopped It",
+        "url": "https://www.dailywire.com/news/an-illegal-immigrant-killed-my-daughter-steve-descano-could-have-stopped-it?author",
+        "timestamp": 1792666112000,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "Inside Amy Acton's Response To Attack Ad Featuring Her Estranged Mother",
+        "url": "https://www.wosu.org/politics-government/2026-10-20/amy-acton-responds-to-viral-video-where-her-estranged-mother-accuses-her-of-lying",
+        "timestamp": 1792659615000,
+        "photo": true,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "Trump Cheers South Carolina Rally-Goer Who Hit A Protester",
+        "url": "https://www.theguardian.com/us-news/2026/oct/21/trump-south-carolina-rally-darline-graham",
+        "timestamp": 1792632180000,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "FBI Probes Bend Teen Shooter's Nazi Obsession, Online Radicalization",
+        "url": "https://www.oregonlive.com/crime/2026/10/fbi-probes-16-year-old-bend-shooters-online-radicalization-apparent-nazi-obsession.html",
+        "timestamp": 1792626540000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "'The Simpsons' Finally Brings Back Apu After 9-Year Hiatus Over PC Fears",
+        "url": "https://www.theblaze.com/lifestyle/the-simpsons-finally-brings-back-apu-after-9-years-of-agonizing-over-political-correctness",
+        "timestamp": 1792578745000,
+        "photo": true,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Florida Executes 77-Year-Old Man In State's 18th Execution This Year",
+        "url": "https://apnews.com/article/florida-execution-william-reaves-902a20ec504bc82b17008a6b3771beb2",
+        "timestamp": 1792561380000,
+        "photo": true,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Trump's DC Golf Course Lands Him In 'Trash Island' Legal Fight",
+        "url": "https://www.bbc.com/news/articles/c6ly3dlm0dr2o",
+        "timestamp": 1792554352000,
+        "photo": true,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Video Shows Chaotic Moments Before Police Shot 1-Year-Old Kohen Wiley",
+        "url": "https://www.bdtonline.com/sports/college_sports/videos-show-ice-shooting-in-nyc-unfolded-in-a-few-chaotic-seconds/article_022135f4-c4ab-5062-bb82-0272d6f3745b.html",
+        "timestamp": 1792553016000,
+        "feature": true,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Storms Bring Flooding, Dangerous Surf Risk To Southern California",
+        "url": "https://www.sun-sentinel.com/2026/10/19/noreaster-carolina-virginia-jersey-florida/",
+        "timestamp": 1792538299000,
+        "photo": true,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Trump Administration Withholds $1.2 Billion In Medicaid Funds From California",
+        "url": "https://www.washingtonexaminer.com/news/white-house/4772856/trump-administration-withholds-1-2-billion-in-federal-medicaid-funding-from-california/",
+        "timestamp": 1792524226000,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Dolly Parton's Sister Says Voting Machine Flipped Her Tennessee Ballot",
+        "url": "https://www.mediaite.com/media/news/dolly-partons-sister-claims-nashville-area-voting-machine-flipped-her-ballot-to-gop-candidate-marsha-blackburn-i-kept-punching-for-the-democrat/",
+        "timestamp": 1792667208037,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "What Texas' First 813,000 Early Voters Reveal About The Race",
+        "url": "https://www.kxan.com/news/texas-politics/what-texas-first-812998-early-voters-tell-us-about-the-election/",
+        "timestamp": 1792626760000,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "Musk's Midterm Giving Tops $445 Million For GOP Push",
+        "url": "https://www.pbs.org/newshour/politics/trumps-political-groups-spend-nearly-277-million-in-late-midterm-blitz-on-behalf-of-gop-candidates",
+        "timestamp": 1792716660000,
+        "postedAt": 1792754332898
+      }
+    ],
+    "center": [
+      {
+        "headline": "Trump Makes Odd Noise Live On Stage, Sparking Chatter",
+        "url": "https://www.themirror.com/news/politics/donald-trump-gets-frog-throat-2079640",
+        "timestamp": 1792753570108,
+        "postedAt": 1792754332898
+      },
+      {
+        "headline": "Family Found Murdered In Happy Valley Home Identified",
+        "url": "https://katu.com/news/local/family-found-murdered-in-happy-valley-home-identified-clackamas-county-sheriffs-office-oregon-katie-evan-kinder-patricia-campbell-investigation-us-marshalls-task-force-homicide",
+        "timestamp": 1792725880000,
+        "photo": true,
+        "postedAt": 1792754332898,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Two Air Force Pilots Eject Safely Near Seguin, Texas",
+        "url": "https://www.ksat.com/news/local/2026/10/23/2-air-force-pilots-eject-safely-from-aircraft-near-seguin-jbsa-says/",
+        "timestamp": 1792724549000,
+        "photo": true,
+        "postedAt": 1792754332898,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Ilhan Omar Plans To Move Out Of DC Home After Federal Raid",
+        "url": "https://www.aljazeera.com/news/2026/10/23/ilhan-omar-plans-to-move-out-of-her-washington-dc-home-after-federal-raid",
+        "timestamp": 1792722151000,
+        "photo": true,
+        "postedAt": 1792754332898,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "DOJ's Blanche: Agency Could Block Election Certification In 'Doomsday Scenario'",
+        "url": "https://thehill.com/homenews/administration/6167033-todd-blanche-doj-election-certification-block/",
+        "timestamp": 1792715340000,
+        "feature": true,
+        "postedAt": 1792754332898
+      },
+      {
+        "headline": "Supreme Court Rules New Hampshire Can Block Student ID Voting",
+        "url": "https://thehill.com/homenews/campaign/6166987-supreme-court-new-hampshire-student-ids/",
+        "timestamp": 1792709400000,
+        "postedAt": 1792754332898
+      },
+      {
+        "headline": "RUSSIA FREES AMERICAN TEACHER AS TRUMP ENVOY MEETS PUTIN",
+        "url": "https://www.nbcnews.com/world/russia/russia-released-american-stephen-hubbard-trump-putin-ukraine-war-talks-rcna604730",
+        "timestamp": 1792581165038,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Troy Aikman, Joe Buck Face Awkward Tension On Monday Night Football",
+        "url": "https://nypost.com/2026/10/19/sports/no-lingering-mnf-drama-for-joe-buck-troy-aikman-after-heated-contract-argument/",
+        "timestamp": 1792666910000,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "ADL Condemns Slur But Won't Name Trump Directly",
+        "url": "https://www.theguardian.com/us-news/2026/oct/20/trump-kansas-rally-antisemitic-slur-anti-defamation-league",
+        "timestamp": 1792537680000,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Prince Harry At 42 Says He Wants To Reconcile With Royal Family",
+        "url": "https://www.express.co.uk/news/2258858",
+        "timestamp": 1792580665977,
+        "photo": true,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Mystery LGBTQ+ Student Guide Mailers Baffle Southeast Texas Families",
+        "url": "https://kfdm.com/news/local/mystery-texas-mailers-southeast-texas-family-receives-unsolicited-lgbtq-student-guide",
+        "timestamp": 1792565045000,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Texas Couple Charged In Shooting Death Of Missouri Teen Headed To Zoo",
+        "url": "https://www.nbcnews.com/news/us-news/texas-couple-charged-shooting-death-missouri-high-schooler-way-zoo-rcna604703",
+        "timestamp": 1792554180000,
+        "photo": true,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Trump Presents $10,000 Check To YouTuber Nick Shirley Over Day Care Fraud Expose",
+        "url": "https://www.cbsnews.com/minnesota/news/nick-shirley-10000-check-minnesota-day-care-fraud-videos/",
+        "timestamp": 1792533660000,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "RealClearInvestigations: FDA Accused Of Suppressing Evidence On COVID Vaccine Risks To Children",
+        "url": "https://www.realclearinvestigations.com/articles/2026/10/20/covid_coverup_fda_suppressing_evidence_of_vaccines_risks_for_children_1212710.html",
+        "timestamp": 1792509240000,
+        "feature": true,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "El-Sayed, Rogers Clash In Second Debate Before Final Stretch",
+        "url": "https://www.nbcnews.com/politics/2026-election/abdul-el-sayed-mike-rogers-final-debate-clash-sets-final-sprint-michig-rcna604591",
+        "timestamp": 1792635780000,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "Two Texas Republicans Say They're Voting For Democrat Talarico",
+        "url": "https://www.aljazeera.com/news/2026/10/22/brother-of-george-bush-endorses-democratic-senate-candidate-in-texas",
+        "timestamp": 1792646039000,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "Oil Prices Approach Highs Last Seen At War's Outset",
+        "url": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982",
+        "timestamp": 1792753570107,
+        "postedAt": 1792754332898
+      },
+      {
+        "headline": "RealClear: The Role Of Money In Politics Is Overstated",
+        "url": "https://www.realclearinvestigations.com/articles/2026/10/22/the_overstated_role_of_money_in_politics_1213076.html",
+        "timestamp": 1792688400000,
+        "postedAt": 1792754332898
+      }
+    ],
+    "right": [
+      {
+        "headline": "9 Children Rescued From 'Horrific' Living Conditions At Couple's Home",
+        "url": "https://www.theblaze.com/news/disgusting-home-9-children-rescued",
+        "timestamp": 1792753280000,
+        "photo": true,
+        "postedAt": 1792754332898
+      },
+      {
+        "headline": "National Review: Economic Data Undercuts Doom-And-Gloom Headlines",
+        "url": "https://www.nationalreview.com/2026/10/read-the-balance-sheet-not-the-headlines/",
+        "timestamp": 1792751456000,
+        "postedAt": 1792754332898
+      },
+      {
+        "headline": "Kamala Harris Gets Crickets After Butchering Quote At Mississippi Rally",
+        "url": "https://nypost.com/2026/10/22/us-news/kamala-harris-gets-crickets-from-mississippi-rally-crowd-after-butchering-motivational-quote/",
+        "timestamp": 1792723412000,
+        "photo": true,
+        "postedAt": 1792754332898
+      },
+      {
+        "headline": "New Jersey Mayor Charges At Resident During Chaotic Council Meeting",
+        "url": "https://www.foxnews.com/politics/i-basically-snapped-new-jersey-mayor-charges-resident-chaotic-council-meeting",
+        "timestamp": 1792719759000,
+        "photo": true,
+        "postedAt": 1792754332898,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "Democratic Leader Of Virginia Senate Arrested On Corruption Charges",
+        "url": "https://thefederalist.com/2026/10/22/dem-leader-of-virginia-senate-arrested-on-public-corruption-charges/",
+        "timestamp": 1792692986000,
+        "photo": true,
+        "postedAt": 1792754332898,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "At 96, Thomas Sowell Still Has Homework For You",
+        "url": "https://www.theblaze.com/lifestyle/at-96-thomas-sowell-still-has-homework-for-you",
+        "timestamp": 1792666917000,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "EPA: 'Error' Caused Toledo Chemical Leak, Triggering Evacuations",
+        "url": "https://www.cnn.com/2026/10/21/us/live-news/toledo-chemical-tank-explosion-ohio",
+        "timestamp": 1792663740000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "California State Workers Stage One-Day Strike Over Contract Dispute",
+        "url": "https://www.kcra.com/article/california-seiu-strike-may-lee-state-office-complex/74204617",
+        "timestamp": 1792648440000,
+        "photo": true,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "Canada: US Embassy Accuses Ottawa Of Brushing Off Election Interference Claims",
+        "url": "https://www.bbc.com/news/articles/cmn06g29522lo",
+        "timestamp": 1792638328000,
+        "postedAt": 1792667840571
+      },
+      {
+        "headline": "Chick-fil-A CEO Andrew Cathy's NBC Apology Tour Draws Backlash",
+        "url": "https://www.theblaze.com/columns/opinion/andrew-cathy-gave-nbc-the-chick-fil-a-apology-tour-nobody-asked-for",
+        "timestamp": 1792578774000,
+        "photo": true,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Rubio Visits Indian City Home To World's Largest Oil Refinery",
+        "url": "https://apnews.com/article/india-marco-rubio-reliance-jamnagar-ambani-venezuela-599f6b05450c17b28bf833923138e6fc",
+        "timestamp": 1792553856000,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Seattle Gas Station Murder Suspect Also Eyed In Wisconsin Deaths",
+        "url": "https://komonews.com/news/local/police-release-name-photo-of-man-suspected-of-killing-gas-station-clerk-near-space-needle-seattle-center-belltown-76-mini-mart-gun-violence-shooting-witness-suspect-armed-dangerous-911-tips",
+        "timestamp": 1792553243000,
+        "photo": true,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "WNBA Says Trans-Identified Players Are 'Men' But Can't Define 'Woman'",
+        "url": "https://notthebee.com/article/wnba-says-trans-identified-players-are-men-despite-being-unable-to-define-what-a-woman-is/",
+        "timestamp": 1792519805000,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Pending Home Sales Fall To All-Time Low",
+        "url": "https://finance.yahoo.com/news/us-pending-home-sales-tumble-140050518.html",
+        "timestamp": 1792580665977,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Delinquent Auto Loans On The Rise",
+        "url": "https://carbuzz.com/delinquent-auto-loans-rising-report/",
+        "timestamp": 1792580665977,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Republicans' Once-Massive Cash Advantage Is Evaporating On Airwaves",
+        "url": "https://www.politico.com/news/2026/10/21/senate-republicans-cash-advantage-television-01128724",
+        "timestamp": 1792573200000,
+        "postedAt": 1792581165038
+      },
+      {
+        "headline": "Final NC Poll Shows Cooper With Double-Digit Lead Over Whatley",
+        "url": "https://www.elon.edu/u/news/2026/10/20/final-elon-university-poll-before-election-day-cooper-has-double-digit-lead-over-whatley-in-nc-us-senate-race/",
+        "timestamp": 1792524952000,
+        "postedAt": 1792581165038
+      }
+    ]
+  },
+  "balance": {
+    "left": 693,
+    "right": 359,
+    "independent": 10,
+    "days": 30,
+    "total": 1052,
+    "pctLeft": 66,
+    "pctRight": 34
+  }
+}
