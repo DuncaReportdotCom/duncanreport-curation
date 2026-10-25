@@ -1,0 +1,643 @@
+{
+  "lastUpdated": 1792927782374,
+  "heroSetDate": "2026-10-25",
+  "hero": {
+    "headline": "PROTESTS SPREAD FROM FRANCE TO ITALY AND SPAIN AS ARRESTS TOP 1,300",
+    "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
+    "sublinks": [
+      {
+        "text": "France reports 1,314 arrests as police defend security operation",
+        "url": "https://www.rfi.fr/en/france/20261025-france-reports-1-314-arrests-after-protests-as-police-defend-security-operation"
+      },
+      {
+        "text": "More than 400,000 march across France as clashes flare in Paris",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm"
+      },
+      {
+        "text": "Italy sees isolated clashes with police as thousands march in Milan",
+        "url": "https://www.euronews.com/2026/10/25/thousands-march-across-italy-as-protests-bring-isolated-clashes-with-police"
+      },
+      {
+        "text": "128 arrested after night of unrest and looting in Barcelona",
+        "url": "https://www.euronews.com/2026/10/25/100-arrested-after-night-of-unrest-and-looting-in-barcelona"
+      },
+      {
+        "text": "Le Pen launches French presidential bid amid nationwide unrest",
+        "url": "https://www.afp.com/en/far-right-leader-le-pen-kicks-tilt-french-presidency-amid-nationwide-protests"
+      }
+    ],
+    "postedAt": 1792927782374,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "ANDY BURNHAM'S PITCH FOR EU FREE MOVEMENT",
+      "stories": [
+        {
+          "headline": "Burnham Open To Return Of Free Movement Between UK And EU",
+          "url": "https://www.politico.eu/article/andy-burnham-free-movement-uk-eu/",
+          "timestamp": 1792924380000,
+          "postedAt": 1792927782374
+        },
+        {
+          "headline": "Burnham Says He Wants 'Honest Discussion' On Freedom Of Movement With EU",
+          "url": "https://www.theguardian.com/politics/2026/oct/25/andy-burnham-says-he-wants-honest-discussion-about-freedom-of-movement-with-eu",
+          "timestamp": 1792923060000,
+          "postedAt": 1792927782374
+        }
+      ]
+    },
+    {
+      "title": "BRAZIL'S ELECTION RUNOFF: LULA VS. BOLSONARO JR.",
+      "stories": [
+        {
+          "headline": "A Small Town Offers Clues To Bolsonaro Jr.'s Rise Ahead Of Runoff",
+          "url": "https://www.facebook.com/nytimes/videos/fl%C3%A1vio-bolsonaro-the-right-wing-presidential-candidate-in-brazil-recently-outper/1780317333253752/",
+          "timestamp": 1792922190000,
+          "postedAt": 1792927782374
+        },
+        {
+          "headline": "Brazil Heads To Polls In Runoff Between Lula And Bolsonaro Jr.",
+          "url": "https://www.reuters.com/world/americas/brazil-heads-polls-runoff-between-leftist-lula-bolsonaro-jr-2026-10-25/",
+          "timestamp": 1792917720000,
+          "postedAt": 1792927782374
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR AND U.S.-IRAN TENSIONS",
+      "stories": [
+        {
+          "headline": "Iran Trying Harder To Target US Personnel, Intelligence Chief Warns",
+          "url": "https://www.bbc.com/news/articles/cmn8w1ddg2x9o",
+          "timestamp": 1792827362000,
+          "postedAt": 1792841090962
+        },
+        {
+          "headline": "Iranian President Pezeshkian To Meet Putin In Moscow Next Week",
+          "url": "https://www.timesofisrael.com/liveblog_entry/iranian-media-says-president-pezeshkian-to-meet-putin-in-moscow-next-week/",
+          "timestamp": 1792825492000,
+          "postedAt": 1792841090962
+        },
+        {
+          "headline": "Trump Revives Idea Of Military Intervention In Cuba After Iran War",
+          "url": "https://apnews.com/article/donald-trump-cuba-venezuela-florida-3b33aab6719558e289632e974c7a82ad",
+          "timestamp": 1792803840000,
+          "postedAt": 1792841090962
+        },
+        {
+          "headline": "Trump Weighs Quick End To Iran War Against Letting Conflict 'Wither'",
+          "url": "https://www.reuters.com/world/trump-weighs-quick-end-iran-war-against-letting-conflict-wither-2026-10-23/",
+          "timestamp": 1792770814000,
+          "postedAt": 1792841090962
+        },
+        {
+          "headline": "Iran In 'Advanced Stages' Of Plots To Kill US Officials Abroad, Memo Warns",
+          "url": "https://www.axios.com/2026/10/24/iran-war-us-embassies-evacuations-threat",
+          "timestamp": 1792887056000,
+          "feature": true,
+          "postedAt": 1792927782374
+        }
+      ]
+    },
+    {
+      "title": "SAUDI-HOUTHI CONFLICT ESCALATES",
+      "stories": [
+        {
+          "headline": "Saudis Intercept Houthi Cruise Missile Fired At Southern City",
+          "url": "https://www.timesofisrael.com/liveblog_entry/saudis-intercept-houthi-cruise-missile-fired-at-southern-city/",
+          "timestamp": 1792917013000,
+          "postedAt": 1792927782374
+        },
+        {
+          "headline": "Houthis Say They Targeted Saudi Oil Sites; Attacks Reported In Aden",
+          "url": "https://www.reuters.com/world/middle-east/saudi-civil-defense-says-danger-passed-after-brief-alerts-mecca-jeddah-taif-2026-10-24/",
+          "timestamp": 1792869879000,
+          "postedAt": 1792927782374
+        }
+      ]
+    },
+    {
+      "title": "FRANCE UNREST: MACRON MOVES TO BAN 'ILLEGITIMATE' PROTESTS",
+      "stories": [
+        {
+          "headline": "Macron Says France Will Ban 'Illegitimate' Protests In Coming Days",
+          "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
+          "timestamp": 1792636128000,
+          "postedAt": 1792668659369
+        },
+        {
+          "headline": "Macron Accuses Trump, Other Leaders Of 'Stupid Comments' On Unrest",
+          "url": "https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest",
+          "timestamp": 1792598760000,
+          "postedAt": 1792668659369
+        },
+        {
+          "headline": "France Slips Into Contraction As Europe's Growth Cools",
+          "url": "https://www.euronews.com/2026/10/23/france-slips-into-contraction-as-europes-growth-slows-how-bad-could-it-get",
+          "timestamp": 1792749391000,
+          "postedAt": 1792755090019
+        },
+        {
+          "headline": "What To Expect As Moody's Reviews France's Credit Rating",
+          "url": "https://www.msn.com/en-us/money/economy/france-is-getting-its-credit-rating-reviewed-by-moody-s-what-to-expect-as-french-debt-turmoil-spills-overseas/ar-AA2fUwLq",
+          "timestamp": 1792722480000,
+          "postedAt": 1792755090019
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Musk Says Ukraine Violated Starlink's Rules",
+        "url": "https://www.newsweek.com/elon-musk-says-ukraine-violated-starlink-terms-12614989",
+        "timestamp": 1792924080000,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "Serbia Votes In Election Pitting Longtime Leader Against Student Movement",
+        "url": "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement",
+        "timestamp": 1792922591000,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "Kim Jong Un Makes Surprise Trip To China, Crosses New Bridge",
+        "url": "https://www.koreaherald.com/article/10913880",
+        "timestamp": 1792912440000,
+        "photo": true,
+        "postedAt": 1792927782374,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Death Toll Rises To 9 In Jordan Church Attack, Survivor Describes Scene",
+        "url": "https://www.timesofisrael.com/death-toll-up-to-9-as-survivor-of-jordan-church-attack-describes-people-crawling-for-their-lives/",
+        "timestamp": 1792900217000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "Trump And Rubio Escalate Rhetoric On Possible Cuba Action",
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/24/trump-rubio-escalate-rhetoric-cuba-us/92418931007/",
+        "timestamp": 1792873500000,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "British Police Received 2019 Allegations About Meghan's Father, Didn't Share Them",
+        "url": "https://www.nbcnews.com/world/united-kingdom/british-police-received-allegations-meghans-father-2019-didnt-tell-for-rcna605369",
+        "timestamp": 1792848859000,
+        "photo": true,
+        "postedAt": 1792927782374,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "India-China Border Tensions Back In Focus Despite Talks",
+        "url": "https://www.dw.com/en/india-news-india-china-border-tensions-back-in-focus-despite-ongoing-talks/live-79748098",
+        "timestamp": 1792834475000,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "Yemen's Taiz Hospital Warns Of Collapse Amid Houthi Siege",
+        "url": "https://www.aljazeera.com/features/2026/10/24/hospital-yemen-taiz-warns-collapse-houthi-siege",
+        "timestamp": 1792819897000,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "El Salvador Sends Special Forces To Search For Troops Missing In Haiti",
+        "url": "https://haitiantimes.com/2026/10/23/salvadoran-contingent-arrives-haiti-search-four-missing-soldiers/",
+        "timestamp": 1792812585000,
+        "photo": true,
+        "postedAt": 1792841090962,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "West Bank Attack Kills Two Israeli Soldiers",
+        "url": "https://apnews.com/article/mideast-news-october-23-2026-6424dff433a4f99f00cac2328de0f7a4",
+        "timestamp": 1792808940000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "Rescuers Search For Survivors After Deadly Tibet Earthquake",
+        "url": "https://apnews.com/article/tibet-earthquake-china-nagqu-0358c57cfcbc0de48d2486df15ded4ef",
+        "timestamp": 1792792260000,
+        "photo": true,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "Many Feared Trapped As Building Collapses In Kenya",
+        "url": "https://apnews.com/article/kenya-building-collapse-a7dcc0932437d79d52ea29aa860ec11e",
+        "timestamp": 1792770060000,
+        "photo": true,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "Nigeria Steps Up Airport Health Screening Over Ebola Fears",
+        "url": "https://www.africanews.com/amp/2026/10/23/nigeria-steps-up-airport-health-screenings-over-ebola-fears/",
+        "timestamp": 1792746548000,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Feijóo Vows Conservative Overhaul If He Wins Spain's Nov. 29 Election",
+        "url": "https://www.politico.eu/article/alberto-nunez-feijoo-vows-sweeping-conservative-overhaul-if-he-wins-spains-nov-29-election/",
+        "timestamp": 1792750200000,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Europe's Autumn Of Discontent Reaches Albania",
+        "url": "https://unherd.com/2026/10/the-revolution-arrives-in-albania/",
+        "timestamp": 1792740076000,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Why Serbia's Election Could End Vučić's 12-Year Rule",
+        "url": "https://www.bbc.com/news/articles/cmq8n3v94ql3o",
+        "timestamp": 1792736785000,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Powerful Earthquake In Tibet's Nagqu Region Leaves 16 Dead",
+        "url": "https://www.bbc.com/news/articles/ck5ynd1z6e83o",
+        "timestamp": 1792732597000,
+        "photo": true,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Can Spain's Migrant Crackdown Undermine Europe's Asylum Rights?",
+        "url": "https://moderndiplomacy.eu/2026/10/21/can-spains-migrant-crackdown-in-ceuta-undermine-europes-asylum-rights/",
+        "timestamp": 1792574755000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Serbia: Beatings, Cyberattacks Darken Vucic's Path To Election",
+        "url": "https://www.reuters.com/world/europe/beatings-cyberattacks-threats-darken-vucics-serbia-ahead-elections-2026-10-22/",
+        "timestamp": 1792653957000,
+        "photo": true,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Super Typhoon Champi's Giant Eye Swirls Across Pacific",
+        "url": "https://www.reuters.com/business/environment/taiwan-issues-land-warning-ahead-arrival-powerful-typhoon-champi-2026-10-22/",
+        "timestamp": 1792625700000,
+        "photo": true,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "El Salvador's President Warns Gangs After Soldiers Abducted",
+        "url": "https://www.aljazeera.com/news/2026/10/22/el-salvadors-bukele-threatens-haitian-gangs-over-abducted-soldiers",
+        "timestamp": 1792622666000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "North Korea To Resume Propaganda Broadcasts Across Border",
+        "url": "https://apnews.com/article/north-korea-border-kim-yo-jong-mine-blasts-8c8d7f87b20c4be0859e5206044b1813",
+        "timestamp": 1792608708000,
+        "photo": true,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Italy: Buffalo Mozzarella Production Halts Amid Truckers' Strike",
+        "url": "https://apnews.com/article/italy-mozzarella-bufala-block-truckers-protest-66595b818513d79995d52f14dfa09645",
+        "timestamp": 1792604234000,
+        "photo": true,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "UK: Trump Urges 'Full Blast' North Sea Gas Drilling",
+        "url": "https://www.forbes.com/sites/maryroeloffs/2026/10/21/trump-demands-wind-turbine-removal-near-golf-course-while-praising-controversial-scottish-drilling-plan/",
+        "timestamp": 1792599212000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "ISW: Russian Offensive Grinds On Despite Diplomatic Push",
+        "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-october-22-2026/",
+        "timestamp": 1792727927000,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "UK Growth Hits Eight-Month High As Jobs Slump Ends",
+        "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply",
+        "timestamp": 1792749296000,
+        "postedAt": 1792755090019
+      }
+    ],
+    "center": [
+      {
+        "headline": "Leaked Emails Show AfD Co-Leader's U-Turn On 'Explosive' Nationalist Colleague",
+        "url": "https://www.politico.eu/article/leaked-emails-alternative-for-germany-afd-alice-weidel-bjorn-hocke/",
+        "timestamp": 1792922160000,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "Niger Imposes Curfew On Petrol Sales Amid National Fuel Shortage",
+        "url": "https://www.africanews.com/amp/2026/10/25/niger-imposes-curfew-on-petrol-sales-amid-national-fuel-shortage/",
+        "timestamp": 1792920962000,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "Israeli Elections: What Are The Possible Outcomes?",
+        "url": "https://www.aljazeera.com/news/2026/10/25/israeli-elections-what-are-the-possible-outcomes",
+        "timestamp": 1792912931000,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "Rosebank: Life On The Oil Field At Centre Of A Political Storm",
+        "url": "https://www.bbc.com/news/articles/cqy8ljkle97ro",
+        "timestamp": 1792912538000,
+        "photo": true,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "Man Arrested After Fire Engulfs Hitler's Eagle's Nest Retreat",
+        "url": "https://www.foxnews.com/travel/man-arrested-fire-engulfs-hitlers-eagles-nest-mountain-retreat-bavarian-alps",
+        "timestamp": 1792889690000,
+        "photo": true,
+        "postedAt": 1792927782374,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Around 1,200 Palestinians Displaced In Hebron As Israel Launches Operation",
+        "url": "https://www.reuters.com/world/middle-east/around-1200-palestinians-are-displaced-hebron-israel-begins-military-operation-2026-10-24/",
+        "timestamp": 1792879650000,
+        "photo": true,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "China's Next Generation Of Leaders Waits In The Wings",
+        "url": "https://www.scmp.com/news/china/politics/article/3372013/chinas-next-generation-leaders-waiting-wings-more-senior-roles",
+        "timestamp": 1792879228000,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "PARIS MUSEUMS INCLUDING THE LOUVRE TO CLOSE AMID FEARS OF PROTEST VIOLENCE",
+        "url": "https://www.timesofisrael.com/liveblog_entry/louvre-other-major-paris-museums-to-close-tomorrow-over-concerns-of-potential-violence-during-protests/",
+        "timestamp": 1792755090019,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Thousands Evacuated, Flights Grounded As Typhoon Champi Hits Eastern China",
+        "url": "https://www.scmp.com/news/china/politics/article/3372015/thousands-evacuated-and-flights-grounded-typhoon-champi-hits-eastern-china",
+        "timestamp": 1792832414000,
+        "photo": true,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "Kim Jong Un Visits China, South Korean Agency Reports",
+        "url": "https://apnews.com/article/south-korea-north-kim-jong-un-china-2459fe49f876ceb0c1c17296c70627f7",
+        "timestamp": 1792832400000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "How Benjamin Netanyahu Reshaped Israel's Institutions",
+        "url": "https://www.aljazeera.com/news/2026/10/24/how-benjamin-netanyahu-reshaped-israels-institutions",
+        "timestamp": 1792820919000,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "Xi Jinping Gathers China's Top Communist Cadres, Focus On Discipline",
+        "url": "https://www.reuters.com/world/china/tougher-discipline-xis-authority-key-chinas-communist-partys-fifth-plenum-2026-10-23/",
+        "timestamp": 1792789209000,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "IRAN SAYS SEVEN OIL TANKERS ON FIRE OR DAMAGED IN STRAIT OF HORMUZ AMID WAR FEARS",
+        "url": "https://apnews.com/article/iran-united-states-war-hormuz-trump-israel-2abebce2fca2c085e0e0ee717e42cf28",
+        "timestamp": 1792668659370,
+        "postedAt": 1792668659370
+      },
+      {
+        "headline": "Oil Holds Biggest Weekly Gain As Saudi Attacks Fan Supply Risks",
+        "url": "https://www.modbee.com/news/business/article317742071.html",
+        "timestamp": 1792749696000,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Discipline And Xi's Authority Take Center Stage At China's Party Plenum",
+        "url": "https://www.reuters.com/world/china/tougher-discipline-xis-authority-key-chinas-communist-partys-fifth-plenum-2026-10-23/",
+        "timestamp": 1792736820000,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Hundreds Of Ethiopians Flee Into Kenya To Escape Regional Fighting",
+        "url": "https://www.aljazeera.com/news/2026/10/22/hundreds-of-ethiopians-cross-into-kenya-to-flee-regional-fighting",
+        "timestamp": 1792709789000,
+        "photo": true,
+        "postedAt": 1792755090019,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "Cyprus Asks EU To Put Mutual Defense Back On Agenda",
+        "url": "https://www.politico.eu/article/cyprus-asks-eu-to-put-mutual-defense-back-on-the-agenda/",
+        "timestamp": 1792665147000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Shark Returns To Sea After Month Stuck In South Korean Port",
+        "url": "https://www.theguardian.com/world/2026/oct/22/bukangi-shark-returns-to-south-korea-canal-busan",
+        "timestamp": 1792615480000,
+        "photo": true,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Pope Leo Needs No Further Cancer Treatment, Doctors Say",
+        "url": "https://www.pbs.org/newshour/politics/pope-leos-tests-show-he-needs-no-further-treatment-for-lung-cancer-his-doctors-say",
+        "timestamp": 1792615450000,
+        "photo": true,
+        "postedAt": 1792668659369,
+        "image": "/img/world-7.jpg"
+      },
+      {
+        "headline": "Israel's Election May Change Leader, Not Iran War Policy",
+        "url": "https://www.reuters.com/world/middle-east/israels-election-may-change-its-leader-not-iran-war-policy-2026-10-21/",
+        "timestamp": 1792586820000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Russian Drones Are Already Killing People Inside EU Territory",
+        "url": "https://euromaidanpress.com/2026/10/22/russian-missiles-and-drones-kill-one-and-injure-24-in-kyiv-splitting-its-metro-line-in-two/",
+        "timestamp": 1792666049000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Far-Left Leader Melenchon In Firing Line As Blame Game Heats Up",
+        "url": "https://www.sacbee.com/news/nation-world/world/article317728236.html",
+        "timestamp": 1792614000000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Euro Zone Growth Slows To 4-Month Low Amid French Strife",
+        "url": "https://www.reuters.com/world/europe/euro-zone-growth-slows-4-month-low-amid-rising-costs-french-turmoil-pmi-shows-2026-10-23/",
+        "timestamp": 1792749464000,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Starlink Restrictions Not Lifted In Ukraine Despite Trump's Claims",
+        "url": "https://www.euronews.com/2026/10/23/starlink-restrictions-not-lifted-in-ukraine-despite-trumps-claims-defence-officials-say",
+        "timestamp": 1792750059000,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Ukraine: Two Soldiers Die After Arrested Girl Allegedly Poisoned Them For Russia",
+        "url": "https://www.yahoo.com/news/world/articles/ukraine-says-two-soldiers-died-085044738.html",
+        "timestamp": 1792745444000,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Finnish Tech Giants To Help Ukraine Build Sovereign Satellite System",
+        "url": "https://kyivindependent.com/amid-starlink-crisis-finnish-tech-giants-announce-plan-to-help-ukraine-build-its-own-sovereign-satellite-system/",
+        "timestamp": 1792711772000,
+        "postedAt": 1792755090019
+      }
+    ],
+    "right": [
+      {
+        "headline": "FRANCE BRACES FOR NEW ROUND OF PROTESTS AMID FEARS OF RENEWED VIOLENCE",
+        "url": "https://www.dw.com/en/france-protests-police-paris/live-79748223",
+        "timestamp": 1792841090962,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "Bulgaria Heads To Polls For First Round Of Presidential Election",
+        "url": "https://www.euronews.com/2026/10/25/bulgaria-votes-for-president-in-election-dominated-by-ukraine-war-and-the-economy",
+        "timestamp": 1792925955000,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "Israeli Court Rejects Petition Against Netanyahu-Police Chief Meeting",
+        "url": "https://www.timesofisrael.com/liveblog_entry/sohlberg-rejects-petition-against-netanyahu-police-chief-meeting-but-warns-against-election-interference/",
+        "timestamp": 1792920664000,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "The Saudi Airline That Launched Right In The Middle Of A War",
+        "url": "https://www.cntravellerme.com/story/dubai-and-middle-east-flight-disruption-airlines-extend-route-suspensions-to-saudi-arabia-amid-ongoing-missile-threats",
+        "timestamp": 1792897200000,
+        "photo": true,
+        "postedAt": 1792927782374,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Remains Found In Haiti During Hunt For Missing Salvadoran Soldiers",
+        "url": "https://www.myplainview.com/news/world/article/el-salvador-s-bukele-says-bodies-found-in-haiti-22493052.php",
+        "timestamp": 1792880513000,
+        "photo": true,
+        "postedAt": 1792927782374
+      },
+      {
+        "headline": "16,000 Sign Up For Exam To Drive Taxis In Hong Kong",
+        "url": "https://www.scmp.com/news/hong-kong/transport/article/3372008/16000-sign-exam-drive-taxis-or-ride-hailing-cars-hong-kong",
+        "timestamp": 1792836501000,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "Four Pilots Killed In Mid-Air Collision Of Philippine Military Planes",
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3372014/4-pilots-killed-mid-air-collision-philippine-military-planes",
+        "timestamp": 1792827770000,
+        "photo": true,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "Rubio Calls On Cubans Seeking Change To Partner With CIA",
+        "url": "https://www.euronews.com/2026/10/24/rubio-calls-on-cubans-seeking-change-to-form-discrete-partnership-with-cia",
+        "timestamp": 1792826926000,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "UK: Trump And Burnham Discuss North Sea Oil, Ukraine And Falklands",
+        "url": "https://www.reuters.com/business/energy/trump-says-he-spoke-with-uks-prime-minister-discussed-oil-2026-10-23/",
+        "timestamp": 1792785995000,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "Macron Calls Paris Suburb Shooting A Terrorist And Racist Act",
+        "url": "https://www.reuters.com/world/least-two-injured-shooting-street-near-paris-bfm-reports-2026-10-23/",
+        "timestamp": 1792782947000,
+        "postedAt": 1792841090962
+      },
+      {
+        "headline": "Severe Flooding Hits Eastern Spain As UK Braces For First Winter Storm",
+        "url": "https://www.theguardian.com/world/2026/oct/23/spain-floods-storm-adam-uk-storm-austen",
+        "timestamp": 1792751340000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Israel Orders West Bank Closure After Troops Kill Two Men",
+        "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
+        "timestamp": 1792748432000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Canada: Grenade Drill Sparked Deadly Military Base Fire, Army Says",
+        "url": "https://www.aljazeera.com/news/2026/10/23/grenade-exercise-sparked-deadly-fire-at-canada-military-base-army-says",
+        "timestamp": 1792731357000,
+        "photo": true,
+        "postedAt": 1792755090019,
+        "image": "/img/world-5.jpg"
+      },
+      {
+        "headline": "Heat Waves Killed An Estimated 50,000 In European Cities, Likely A Record",
+        "url": "https://www.cnn.com/2026/10/22/climate/europe-heat-wave-deaths-50000",
+        "timestamp": 1792710066000,
+        "feature": true,
+        "postedAt": 1792755090019
+      },
+      {
+        "headline": "Von Der Leyen's Coalition Fractures Over AI Liability Rules",
+        "url": "https://www.politico.eu/article/ursula-von-der-leyen-coalition-fractures-over-need-for-ai-liability-rules/",
+        "timestamp": 1792667946000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Indonesia: Residents Pray For Rain As Fires Burn",
+        "url": "https://www.afp.com/en/solution-heavens-indonesians-pray-rain-fires-burn",
+        "timestamp": 1792666978000,
+        "photo": true,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Bitcoin Falls Below $83,000 Amid AI Jitters",
+        "url": "https://www.theedgesingapore.com/news/cryptocurrency/bitcoin-falls-below-us83000-ai-jitters-weigh-sentiment",
+        "timestamp": 1792664789000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "UK: Burnham Needs Public Consent For EU Reset, Says Barnier",
+        "url": "https://www.politico.eu/article/michel-barnier-andy-burnham-public-consent-uk-eu-rejoin-brexit-talks/",
+        "timestamp": 1792664540000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Xi Jinping Warns China Faces 'New Long March' Ahead Of Plenum",
+        "url": "https://www.scmp.com/news/china/politics/article/3371796/ahead-communist-party-plenum-xi-jinping-warns-china-faces-new-long-march",
+        "timestamp": 1792664291000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "EU Parliament Awards Sakharov Prize To ICC In Rebuke Of US Sanctions",
+        "url": "https://www.euronews.com/2026/10/22/eu-parliament-awards-sakharov-prize-to-icc-in-rebuke-of-us-sanctions",
+        "timestamp": 1792663867000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Barclays To Cut 5,000 Jobs In AI-Fueled Cost Push",
+        "url": "https://ca.finance.yahoo.com/news/barclays-cut-5-000-jobs-074030266.html",
+        "timestamp": 1792663666000,
+        "postedAt": 1792668659369
+      },
+      {
+        "headline": "Russia Pounds Kyiv In Overnight Barrage, Killing One, Injuring 24",
+        "url": "https://www.kyivpost.com/post/87796",
+        "timestamp": 1792659742000,
+        "postedAt": 1792668659369
+      }
+    ]
+  }
+}
