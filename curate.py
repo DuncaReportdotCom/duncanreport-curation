@@ -881,6 +881,10 @@ NARRATIVES = json.loads(r"""{
    "q": "\"Jake Lang\" (Quran OR Koran OR burning OR Dearborn OR Islam OR mosque OR arrest OR rioting OR march OR protest OR Senate OR Florida OR Capitol OR pardon)"
   },
   {
+   "arc": "Brazil Supreme Court overreach",
+   "q": "Brazil (\"Supreme Court\" OR STF OR \"de Moraes\" OR Moraes) (censorship OR Bolsonaro OR crackdown OR ban OR \"free speech\" OR jailed OR ruling OR Musk OR interference OR election)"
+  },
+  {
    "arc": "2026 elections",
    "q": "2026 (midterm OR Senate race OR House race OR governor race OR primary)"
   },
@@ -1015,6 +1019,10 @@ NARRATIVES = json.loads(r"""{
   {
    "arc": "Ukraine war",
    "q": "(Ukraine OR Russia) (war OR offensive OR strike OR front OR \"peace talks\" OR sanctions OR drone)"
+  },
+  {
+   "arc": "Brazil Supreme Court overreach",
+   "q": "Brazil (\"Supreme Court\" OR STF OR \"de Moraes\" OR Moraes) (censorship OR Bolsonaro OR crackdown OR ban OR \"free speech\" OR jailed OR ruling OR Musk OR interference OR election)"
   },
   {
    "arc": "Middle East and Iran",
@@ -2471,6 +2479,7 @@ def curate_live(section):
     cands = cands[:150]   # bigger pool so heavily-covered topics have the depth for a full panel
     if not cands:
         raise ValueError("no Google News candidates for %s" % section)
+    _LAST_POOL[section] = cands   # stash the pool so the post-merge balance step can draw right from it
     # Per-section source tally for the health log: how much each feeder contributed this run, and
     # whether the Trending signal (memeorandum + NYT Most Popular) actually fired. Non-fatal ("_").
     _tr_nyt = sum(1 for c in trending if c.get("source") == "NY Times")
@@ -2784,7 +2793,16 @@ def curate_live(section):
               "give the reader MULTIPLE PERSPECTIVES on it, deliberately spanning LEFT and RIGHT outlets. "
               "Each is a distinct angle (a development, reaction, analysis, or key detail); write each "
               "sublink text to describe its OWN unique angle - never restate the headline or repeat "
-              "another sublink. CRITICAL: each distinct news event may appear ONLY ONCE across the entire page (hero, groups, and columns combined). If several candidates cover the same event, use only the single best one; never list the same event as multiple items and never repeat the hero story in the groups or columns. For MAJOR narrative groups (main page) you MAY add an \"editorials\" array to a group: 2-4 candidate ids of opinion pieces (arc='editorial') about that narrative, from DIFFERENT outlets spanning left and right (the outlet name is the label; there is no 'center'). If the hero is a major, still-developing breaking event and some candidates have \"live\": true, add a \"liveUpdates\" array to the hero: up to 3 candidate ids of live-update pages from different major outlets. Use candidate ids for editorials and liveUpdates too - never invent URLs; omit these fields when they do not apply. Output ONLY the JSON object in a ```json block."
+              "another sublink. CONTESTED LEADS - CARRY BOTH SIDES' ACTUAL ARGUMENT: when the hero is a "
+              "politically DISPUTED story (an election-integrity fight, an investigation, an impeachment, a "
+              "partisan legal battle), varying the outlet is NOT enough - the sublinks MUST present the "
+              "SUBSTANTIVE CLAIM of EACH side, including the RIGHT's actual argument and grievance, not just "
+              "a neutral or one-sided description of the procedural move. For a lawsuit over an election "
+              "result, do NOT frame every sublink as one side 'trying to block results' or 'halt "
+              "certification': include the sublink that states WHY the suit was brought - the specific fraud, "
+              "irregularity, or legal violation ALLEGED - alongside the one giving the other side's rebuttal, "
+              "each sourced to an outlet that actually makes that case. The reader must see what BOTH sides "
+              "genuinely claim, not one side's framing of the other's actions. CRITICAL: each distinct news event may appear ONLY ONCE across the entire page (hero, groups, and columns combined). If several candidates cover the same event, use only the single best one; never list the same event as multiple items and never repeat the hero story in the groups or columns. For MAJOR narrative groups (main page) you MAY add an \"editorials\" array to a group: 2-4 candidate ids of opinion pieces (arc='editorial') about that narrative, from DIFFERENT outlets spanning left and right (the outlet name is the label; there is no 'center'). If the hero is a major, still-developing breaking event and some candidates have \"live\": true, add a \"liveUpdates\" array to the hero: up to 3 candidate ids of live-update pages from different major outlets. Use candidate ids for editorials and liveUpdates too - never invent URLs; omit these fields when they do not apply. Output ONLY the JSON object in a ```json block."
               "%s\n\n===== CORE CONTRACT =====\n%s\n\n%s\n\n===== CANDIDATE STORIES (JSON) =====\n"
               % (section, today, editorial, CORE, PROMPTS.get(section, "")))
     model = working_model(client)
@@ -2890,13 +2908,11 @@ def curate_live(section):
     for g in (data.get("groups") or []):
         if isinstance(g.get("editorials"), list):
             g["editorials"] = map_links(g["editorials"])
-    # Balance by ADDITION: if the page skews left, pull unused right-leaning candidates from the
-    # same pool into the columns until ~50/50 - never dropping any left coverage.
-    data = balance_backfill(section, data, cands)
     data["lastUpdated"] = now_ms()
     return data
 
 STATUS = {}
+_LAST_POOL = {}   # section -> last candidate pool from curate_live, for the post-merge balance backfill
 
 _STOP = set(("the a an of to in on for and or with as at by from is are was were be been "
              "his her its their this that these those over amid after before into new news says say "
@@ -5400,7 +5416,12 @@ def build():
         data = apply_column_images(sec, data)   # self-host Drudge-style column photos (5 minus ads)
         _scrub_drudge(data)                     # strip false "Drudge" attribution (non-drudgereport links)
         if sec in ("main", "politics"):
-            attach_balance(sec, data)           # rolling 7-day L/R tally -> data['balance'] (footer)
+            if STATUS.get(sec) == "curated-live":
+                # Balance the FINAL merged page by ADDITION: pull unused right-leaning candidates from
+                # this run's pool into the columns until ~50/50. Runs on the whole displayed page (fresh
+                # + carryover), not just the small fresh slice - never drops any left coverage.
+                data = balance_backfill(sec, data, _LAST_POOL.get(sec))
+            attach_balance(sec, data)           # rolling 30-day L/R tally -> data['balance'] (footer)
         # Write the section + refresh its dated archive snapshot (skipped for empty pages so a
         # bad run never overwrites a good same-day snapshot).
         _write_section(sec, data)
