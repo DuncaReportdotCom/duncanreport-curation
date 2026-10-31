@@ -1,0 +1,503 @@
+{
+  "lastUpdated": 1793446701707,
+  "heroSetDate": "2026-10-31",
+  "hero": {
+    "headline": "WALL STREET SUFFERS WORST DAY SINCE JUNE AS TECH EARNINGS ROUT DEEPENS",
+    "url": "https://apnews.com/article/stock-markets-ai-alphabet-oil-16c266731fdf64178f38070af2b42497",
+    "sublinks": [
+      {
+        "text": "AI Cash-Burn Fears Drive Investors Out Of Tech Stocks",
+        "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
+      },
+      {
+        "text": "Alphabet's Historic Rout Erased $500 Billion In Market Value",
+        "url": "https://www.nbcnews.com/business/markets/alphabet-google-stock-ai-advertising-rcna606322"
+      },
+      {
+        "text": "Nasdaq Closes Out Its Worst Month In More Than A Year",
+        "url": "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment"
+      },
+      {
+        "text": "Cracks Emerge In The AI Spending Boom That Fueled The Rally",
+        "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/"
+      }
+    ],
+    "postedAt": 1793446701707,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "FEDERAL DEBT AND TAX POLICY",
+      "stories": [
+        {
+          "headline": "Which States Have The Most Tax Filers Who Owe No Federal Income Tax",
+          "url": "https://www.investopedia.com/what-share-of-tax-filers-owe-no-federal-income-tax-in-each-state-12182604",
+          "timestamp": 1793443186000,
+          "postedAt": 1793446701707
+        },
+        {
+          "headline": "Federal Debt Surpassed GDP In Fiscal Year 2026",
+          "url": "https://thehill.com/business/6185236-federal-debt-gdp-bea-cbo-treasury/",
+          "timestamp": 1793394780000,
+          "feature": true,
+          "postedAt": 1793446701707
+        },
+        {
+          "headline": "114 Companies Paid No Federal Income Tax, Yet Aren't Deficit's Biggest Driver",
+          "url": "https://fortune.com/2026/10/30/which-us-corporations-getting-tax-breaks-are-biggest-threat-us-federal-deficit/",
+          "timestamp": 1793389080000,
+          "postedAt": 1793446701707
+        }
+      ]
+    },
+    {
+      "title": "BIG TECH EARNINGS ROUT DEEPENS AI SPENDING FEARS",
+      "stories": [
+        {
+          "headline": "Nasdaq Futures Tumble As Amazon, Intel Earnings Deepen AI Spending Fears",
+          "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/",
+          "timestamp": 1793352796000,
+          "postedAt": 1793360240819
+        },
+        {
+          "headline": "ServiceNow Stock Plunges More Than 20% In Earnings Rout",
+          "url": "https://www.fool.com/investing/2026/10/29/servicenow-stock-just-plunged-more-than-20-in-a-single-day-here-s-what-it-did-after-its-other-biggest-drops/",
+          "timestamp": 1793325120000,
+          "postedAt": 1793360240819
+        },
+        {
+          "headline": "Here's How Much Intel Stock Is Expected To Move After Earnings",
+          "url": "https://www.investopedia.com/here-is-how-much-intel-stock-is-expected-to-move-after-earnings-intc-q3-fy2026-12198697",
+          "timestamp": 1793268000000,
+          "postedAt": 1793273714884
+        },
+        {
+          "headline": "AMD Shares Slide After Intel Earnings Expose Two Key Problems",
+          "url": "https://www.marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91",
+          "timestamp": 1793392080000,
+          "postedAt": 1793446701707
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA CEO TARGETED IN ALLEGED CHINA SPY PLOT",
+      "stories": [
+        {
+          "headline": "Report Says Jensen Huang Was Target Of Spy Plot Amid China Tensions",
+          "url": "https://finance.yahoo.com/technology/article/nvidias-relationship-with-china-just-got-even-more-complicated-as-report-says-jensen-huang-was-target-of-spy-plot-182138051.html",
+          "timestamp": 1793358968000,
+          "postedAt": 1793360240819
+        },
+        {
+          "headline": "Chinese Executive Close To Nvidia CEO Suspected Of Passing China Information",
+          "url": "https://www.theguardian.com/technology/2026/oct/29/nvidia-ceo-targeted-chinese-spy",
+          "timestamp": 1793349733000,
+          "postedAt": 1793360240819
+        }
+      ]
+    },
+    {
+      "title": "EUROZONE ECONOMY STALLS AS FRANCE CONTRACTS",
+      "stories": [
+        {
+          "headline": "French Economy Unexpectedly Shrinks As Headwinds Gain Strength",
+          "url": "https://www.straitstimes.com/business/french-economy-unexpectedly-shrinks-in-third-quarter-as-headwinds-strengthen",
+          "timestamp": 1793356417000,
+          "postedAt": 1793360240819
+        },
+        {
+          "headline": "Euro Zone Growth Slows To 0.4% In Q3 As France Contracts",
+          "url": "https://www.cnbc.com/2026/10/30/euro-zone-gdp-france.html",
+          "timestamp": 1793354580000,
+          "postedAt": 1793360240819
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "BINANCE HACKERS STEAL RECORD $6.3 BILLION IN BIGGEST CRYPTO HEIST EVER",
+        "url": "https://www.foxbusiness.com/video/6407653253112",
+        "timestamp": 1793360240819,
+        "postedAt": 1793360240819
+      },
+      {
+        "headline": "How Suspected North Korean Hackers Pulled Off The Heist In Minutes",
+        "url": "https://nypost.com/2026/10/30/business/how-north-korean-hackers-pulled-off-6-3b-binance-heist-inside-job-ai-powered-techniques-could-have-been-at-work/",
+        "timestamp": 1793442822000,
+        "postedAt": 1793446701707
+      },
+      {
+        "headline": "$13 Billion Startup Races To Close America's Hypersonic Gap",
+        "url": "https://fortune.com/2026/10/31/hypersonic-castelion-defense-tech-startup/",
+        "timestamp": 1793445655000,
+        "photo": true,
+        "postedAt": 1793446701707,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "Which College Majors Have The Lowest Unemployment Rates",
+        "url": "https://www.forbes.com/sites/colleenbatchelder/article/college-majors-with-low-unemployement-rates/",
+        "timestamp": 1793419200000,
+        "postedAt": 1793446701707
+      },
+      {
+        "headline": "Meta's Rating Outlook Cut To Negative By S&P On AI Spending",
+        "url": "https://www.reuters.com/business/sp-global-revises-outlook-meta-negative-cashflow-concerns-2026-10-30/",
+        "timestamp": 1793402611000,
+        "postedAt": 1793446701707
+      },
+      {
+        "headline": "Strategy Posts $21 Billion Bitcoin Gain, But Investors See Bigger Risks",
+        "url": "https://www.investing.com/news/earnings/strategy-posts-record-profit-on-bitcoin-gains-shares-fall-on-revenue-miss-93CH-4985143",
+        "timestamp": 1793351460000,
+        "postedAt": 1793360240819
+      },
+      {
+        "headline": "Foxconn Working On New OpenAI Tie-Up, Says There's No AI Bubble",
+        "url": "https://www.reuters.com/world/china/foxconn-working-new-tie-up-with-openai-says-there-is-no-ai-bubble-2026-10-30/",
+        "timestamp": 1793353696000,
+        "photo": true,
+        "postedAt": 1793360240819
+      },
+      {
+        "headline": "Target, Delta Among 9 Companies In Federal Personalized-Pricing Probe",
+        "url": "https://bringmethenews.com/minnesota-lifestyle/9-companies-including-target-and-delta-subject-of-federal-investigation-into-personalized-pricing",
+        "timestamp": 1793307256000,
+        "photo": true,
+        "postedAt": 1793360240819
+      },
+      {
+        "headline": "Eli Lilly Hikes Sales Outlook On Resilient Zepbound And Mounjaro Demand",
+        "url": "https://www.cnbc.com/2026/10/29/eli-lilly-lly-earnings-q3-2026.html",
+        "timestamp": 1793268813000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "Oil Falls As Diplomacy Hopes Outweigh Middle East Escalation Fears",
+        "url": "https://finance.yahoo.com/energy/articles/us-oil-prices-fall-investors-002744802.html",
+        "timestamp": 1793270649000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "Merck Hikes Profit Outlook As New Keytruda Form Shows Strength",
+        "url": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html",
+        "timestamp": 1793269873000,
+        "photo": true,
+        "postedAt": 1793273714884,
+        "image": "/img/markets-4.jpg"
+      },
+      {
+        "headline": "Marvell Stock Slides On Worries Over Possible Lumentum Buyout",
+        "url": "https://stocktwits.com/news-articles/markets/equity/marvell-s-potential-lumentum-deal-sends-lite-surging-mrvl-sliding-after-hours/cZU9vfvR9Gp",
+        "timestamp": 1793267880000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "'Endless' Round-The-World Cruise Suspended, Leaving Passengers Stranded",
+        "url": "https://www.ladbible.com/news/world-news/couple-odyssey-cruise-have-no-regrets-after-shut-down-604898-20261029",
+        "timestamp": 1793265720000,
+        "photo": true,
+        "postedAt": 1793273714884,
+        "image": "/img/markets-5.jpg"
+      },
+      {
+        "headline": "SpaceX Stock Slides Back Toward $140 As Smaller Space Names Gain",
+        "url": "https://finance.yahoo.com/markets/article/spacex-stock-slides-back-toward-140-as-smaller-space-names-leave-it-behind-171331237.html",
+        "timestamp": 1793265311000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "Billionaire Ambani Cries Tears Of Joy As Jio Platforms Hits Record Valuation",
+        "url": "https://www.cnbc.com/2026/10/29/ambani-billionaire-jio-ipo-india.html",
+        "timestamp": 1793249717000,
+        "photo": true,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "Alphabet's Worst Day Ever Leaves Stock At Its Cheapest In Years",
+        "url": "https://fortune.com/2026/10/29/alphabet-worst-day-google-search-valuation-energy-sector-bofa/",
+        "timestamp": 1793434768000,
+        "postedAt": 1793446701707
+      },
+      {
+        "headline": "Oil Prices Rise As Middle East, Ukraine-Russia Tensions Fuel Supply Worries",
+        "url": "https://www.reuters.com/business/world-bank-sees-commodity-prices-up-23-2026-due-middle-east-war-other-shocks-2026-10-28/",
+        "timestamp": 1793391540000,
+        "postedAt": 1793446701707
+      }
+    ],
+    "center": [
+      {
+        "headline": "Hong Kong Telecom Agrees To Halt US Operations Under Pressure",
+        "url": "https://www.cnbc.com/2026/10/31/hong-kong-telecom-firm-agrees-to-halt-us-operations-under-pressure.html",
+        "timestamp": 1793433943000,
+        "postedAt": 1793446701707
+      },
+      {
+        "headline": "AI Comes To Construction Sites, But Does It Make Workers Safer?",
+        "url": "https://www.cnbc.com/2026/10/31/ai-construction-worker-safety.html",
+        "timestamp": 1793426402000,
+        "photo": true,
+        "postedAt": 1793446701707,
+        "image": "/img/markets-1.jpg"
+      },
+      {
+        "headline": "California Sisters Among Hundreds Stranded In Asia After Cruise Halts Over Fuel Costs",
+        "url": "https://nypost.com/2026/10/28/world-news/hundreds-of-cruise-passengers-left-stranded-in-cambodia/",
+        "timestamp": 1793414340000,
+        "photo": true,
+        "postedAt": 1793446701707
+      },
+      {
+        "headline": "Cate Blanchett-Backed Stars File Brief In NYT-OpenAI Lawsuit",
+        "url": "https://variety.com/2026/biz/news/cate-blanchett-hollywood-stars-brief-nyt-openai-lawsuit-1236935578/",
+        "timestamp": 1793404320000,
+        "photo": true,
+        "postedAt": 1793446701707
+      },
+      {
+        "headline": "European Central Bank Head Resigns Ahead Of French Election",
+        "url": "https://apnews.com/article/ecb-lagarde-resignation-bank-c657d818e8f487f2ce990fe57ba55d4a",
+        "timestamp": 1793331720000,
+        "photo": true,
+        "postedAt": 1793360240819
+      },
+      {
+        "headline": "BOJ Holds Rates As Inflation Hits 2% Target For First Time Since 2013",
+        "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
+        "timestamp": 1793330160000,
+        "photo": true,
+        "postedAt": 1793360240819,
+        "image": "/img/markets-2.jpg"
+      },
+      {
+        "headline": "Polymarket Investigates Suspicious Bets On Israeli Election",
+        "url": "https://qz.com/polymarket-israel-election-insider-trading-probe-102926",
+        "timestamp": 1793317055000,
+        "photo": true,
+        "postedAt": 1793360240819,
+        "image": "/img/markets-3.jpg"
+      },
+      {
+        "headline": "Analysis: Warsh Learns To Wield Fed Power Without Showing His Hand",
+        "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
+        "timestamp": 1793264401000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "Shell And Total Post Highest Quarterly Profit Since 2022",
+        "url": "https://www.reuters.com/business/energy/shell-beats-expectations-with-108-billion-third-quarter-profit-2026-10-29/",
+        "timestamp": 1793269784000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "North Dakota's 'Socialist' State Bank Wins Over Local Republicans",
+        "url": "https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html",
+        "timestamp": 1793268001000,
+        "photo": true,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "Anthropic's IPO Filing Leaves Key Questions Unanswered",
+        "url": "https://finance.yahoo.com/markets/article/anthropics-ipo-filing-left-these-key-questions-unanswered-090000298.html",
+        "timestamp": 1793264400000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "FTC Probes Whether Major Companies Use Personal Data For Price Discrimination",
+        "url": "https://www.foxbusiness.com/personal-finance/ftc-probes-whether-major-us-companies-charge-customers-different-prices-using-personal-data",
+        "timestamp": 1793254740000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "ECB President Christine Lagarde To Step Down In February",
+        "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
+        "timestamp": 1793268219000,
+        "feature": true,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "Amazon's AI Buildout Pushes Cash Burn To Record High",
+        "url": "https://finance.yahoo.com/markets/article/amazons-ai-build-out-just-pushed-its-cash-burn-to-a-record-chart-of-the-day-100000920.html",
+        "timestamp": 1793354400000,
+        "postedAt": 1793360240819
+      },
+      {
+        "headline": "Anthropic Expected To Receive 'Junk' Credit Rating After IPO, FT Reports",
+        "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+        "timestamp": 1793397123000,
+        "postedAt": 1793446701707
+      },
+      {
+        "headline": "Chevron Speeds Ahead In Venezuela While Exxon Urges Caution",
+        "url": "https://fortune.com/2026/10/31/chevron-speeds-venezuela-exxon-urges-caution-little-pinch-of-salt/",
+        "timestamp": 1793433720000,
+        "postedAt": 1793446701707
+      }
+    ],
+    "right": [
+      {
+        "headline": "Bond Vigilantes Rattled By October's Turmoil Heading Into Midterms",
+        "url": "https://www.zerohedge.com/markets/lula-shock-ai-block-new-smoking-barrels-october-spooks-bond-vigilantes-midterms",
+        "timestamp": 1793431641000,
+        "postedAt": 1793446701707
+      },
+      {
+        "headline": "Lula's Election Victory Sends Agri-Commodities Tumbling",
+        "url": "https://finance.biggo.com/news/92139bae-ad8f-4c42-9a33-75b5084bbb63",
+        "timestamp": 1793422831000,
+        "postedAt": 1793446701707
+      },
+      {
+        "headline": "Elizabeth Holmes Still Can't Escape The Black Turtleneck",
+        "url": "https://www.designscene.net/2026/10/watching-elizabeth-holmes.html",
+        "timestamp": 1793419200000,
+        "photo": true,
+        "postedAt": 1793446701707
+      },
+      {
+        "headline": "Apple Is Near A Record, Netflix Is Down More Than Half: I'd Buy Only One",
+        "url": "https://www.fool.com/investing/2026/10/30/apple-is-near-a-record-netflix-is-down-more-than-half-i-d-buy-only-1-of-them/",
+        "timestamp": 1793388720000,
+        "postedAt": 1793446701707
+      },
+      {
+        "headline": "ALPHABET SHARES SINK 10% AS SEARCH GROWTH SLOWS, AI SPENDING FEARS INTENSIFY",
+        "url": "https://www.reuters.com/business/alphabets-google-cloud-unit-beats-quarterly-revenue-estimates-steady-ai-demand-2026-10-28/",
+        "timestamp": 1793273714884,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "'We're Technically Homeless': Residential Cruise Line Ceases Operations",
+        "url": "https://www.usatoday.com/story/travel/cruises/2026/10/29/residential-cruise-stops-sailing-passengers-stranded/92499541007/",
+        "timestamp": 1793311980000,
+        "photo": true,
+        "postedAt": 1793360240819
+      },
+      {
+        "headline": "Robinhood Sees Retail Trading Habits Shift As Stock Trading Cools",
+        "url": "https://finance.yahoo.com/markets/article/robinhood-is-seeing-retail-investor-habits-change-dramatically-as-stock-trading-cools-100000394.html",
+        "timestamp": 1793268000000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "Putin Praises Musk As 'Real Genius' Amid Russian Starlink Rival Push",
+        "url": "https://www.cnbc.com/2026/10/29/putin-elon-musk-starlink-ukraine.html",
+        "timestamp": 1793264760000,
+        "photo": true,
+        "postedAt": 1793273714884,
+        "image": "/img/markets-6.jpg"
+      },
+      {
+        "headline": "Three Bodies Recovered After Oil Rig Sinks Off Gabon",
+        "url": "https://www.reuters.com/world/africa/three-bodies-recovered-gabon-following-sinking-borr-drilling-rig-2026-10-29/",
+        "timestamp": 1793264336000,
+        "photo": true,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "Hackers Exploit Flaws In Palo Alto Networks Management Interfaces",
+        "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+        "timestamp": 1793253000000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "RFK Jr. Plans To Allow Temporary Sale Of Six Unapproved Peptides",
+        "url": "https://www.reuters.com/legal/litigation/us-health-department-allow-temporary-sale-some-unapproved-peptides-2026-10-28/",
+        "timestamp": 1793243344000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "Cash Is King As Investors Draw New Battle Lines In AI Spending Boom",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cash-king-investors-draw-battle-023355229.html",
+        "timestamp": 1793272617000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "Oracle Stock Pops On Pledge To Be Cash Flow Positive By 2028",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-forecasts-30b-cash-flow-211940618.html",
+        "timestamp": 1793261177000,
+        "postedAt": 1793273714884
+      },
+      {
+        "headline": "What Every CEO Can Learn From Weil Gotshal's Collapse",
+        "url": "https://fortune.com/2026/10/30/weil-gotshal-collapse-lessons-ceos/",
+        "timestamp": 1793357137000,
+        "postedAt": 1793360240819
+      },
+      {
+        "headline": "Amazon Stock Drops On Wall Street Miss Despite Fastest Cloud Growth In Years",
+        "url": "https://www.reuters.com/business/nasdaq-futures-slide-mixed-big-tech-results-test-ai-trade-2026-10-29/",
+        "timestamp": 1793314145000,
+        "postedAt": 1793360240819
+      },
+      {
+        "headline": "Trump's Big Oil Criticism Comes As Refining Profits Surge",
+        "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+        "timestamp": 1793426402000,
+        "postedAt": 1793446701707,
+        "image": "/img/markets-7.jpg"
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,580.07",
+      "change": "-140.32",
+      "changePct": "-1.82%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "51,770.31",
+      "change": "-572.29",
+      "changePct": "-1.09%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "25,437.00",
+      "change": "-747.73",
+      "changePct": "-2.86%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr",
+      "value": "4.93%",
+      "change": "-0.06",
+      "changePct": "-1.20%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$3,898.90",
+      "change": "-132.50",
+      "changePct": "-3.29%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil",
+      "value": "$104.12",
+      "change": "+2.12",
+      "changePct": "+2.08%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$77,351.66",
+      "change": "+149.26",
+      "changePct": "+0.19%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}

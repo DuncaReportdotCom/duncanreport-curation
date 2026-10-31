@@ -1,0 +1,548 @@
+{
+  "lastUpdated": 1793445348147,
+  "heroSetDate": "2026-10-31",
+  "hero": {
+    "headline": "FEDERAL JUDGE BLOCKS TRUMP DOJ THREATS AGAINST ELECTION WORKERS AHEAD OF MIDTERMS",
+    "url": "https://www.foxnews.com/politics/federal-judge-blocks-trump-doj-threats-against-election-workers-ahead-2026-midterms",
+    "sublinks": [
+      {
+        "text": "Judge's Order Covers Officials Nationwide, Calls DOJ Pattern Intimidation",
+        "url": "https://www.nbcnews.com/politics/2026-election/judge-orders-trump-administration-stop-threatening-election-officials-rcna606659"
+      },
+      {
+        "text": "Guardian: Criminal Investigation Opened Over Alleged Noncitizen Voting",
+        "url": "https://www.theguardian.com/us-news/2026/oct/29/trump-administration-california-noncitizen-voting-investigation"
+      },
+      {
+        "text": "Minnesota Raids Fuel Parallel DOJ 'War On Fraud' Campaign",
+        "url": "https://kstp.com/kstp-news/top-news/treasury-secretary-to-lead-war-on-fraud-announcement-in-st-cloud-after-minnesota-raids/"
+      },
+      {
+        "text": "Democracy Docket: DOJ Discloses Midterm Election-Monitor Deployment Plan",
+        "url": "https://www.democracydocket.com/news-alerts/heres-where-the-doj-will-deploy-election-monitors-during-the-midterms/"
+      }
+    ],
+    "postedAt": 1793445348147,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "IRAN WAR: STRIKES, DIPLOMACY AND COST",
+      "stories": [
+        {
+          "headline": "Trump Says Iran War 'Going To End Soon' As Qatar Pushes For A Deal",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/",
+          "timestamp": 1793435460000,
+          "postedAt": 1793445348147
+        },
+        {
+          "headline": "US Warns Allies To Prepare For Possible Iran Strikes After Midterms",
+          "url": "https://www.opb.org/article/2026/10/28/us-warns-allies-to-prepare-for-possible-iran-strikes-retaliation-after-elections-ap-sources-say/",
+          "timestamp": 1793234604000,
+          "postedAt": 1793272532029
+        }
+      ]
+    },
+    {
+      "title": "HALLOWEEN COSTUME STORE SHOOTING",
+      "stories": [
+        {
+          "headline": "Inside The 'Halloween Horror' Costume Store Shooting Scene",
+          "url": "https://nypost.com/2026/10/31/us-news/california-spirit-halloween-shooting-leaves-1-dead-6-injured/",
+          "timestamp": 1793444685491,
+          "postedAt": 1793445348147
+        },
+        {
+          "headline": "Manhunt Underway After California Spirit Halloween Shooting Kills One, Hurts Six",
+          "url": "https://www.nbcnews.com/news/us-news/manhunt-california-spirit-halloween-shooting-dead-injured-police-rcna606673",
+          "timestamp": 1793436801000,
+          "feature": true,
+          "postedAt": 1793445348147
+        }
+      ]
+    },
+    {
+      "title": "US NATIONAL DEBT TOPS 100% OF GDP",
+      "stories": [
+        {
+          "headline": "Debt Hits 100% Of GDP, Highest Level Since 1946",
+          "url": "https://247wallst.com/investing/2026/10/29/trump-first-president-to-see-national-debt-hit-100-of-gdp-since-harry-truman/",
+          "timestamp": 1793358345053,
+          "postedAt": 1793359008803
+        },
+        {
+          "headline": "Interest On Debt Projected To Cost $20 Trillion Over Next Decade",
+          "url": "https://finance.yahoo.com/economy/policy/articles/over-next-decade-u-treasury-113942083.html",
+          "timestamp": 1793358345053,
+          "postedAt": 1793359008803
+        }
+      ]
+    },
+    {
+      "title": "DOJ WIDENS CRACKDOWN ON NONCITIZEN VOTING",
+      "stories": [
+        {
+          "headline": "Feds File 18 More Charges Of Illegal Voting By Immigrants In North Carolina",
+          "url": "https://www.wral.com/news/nccapitol/immigrant-voter-fraud-illegal-ballot-election-charge-north-carolina-trump-october-2026/",
+          "timestamp": 1793333855000,
+          "postedAt": 1793359008803
+        },
+        {
+          "headline": "DOJ Opens Criminal Probe Into Alleged Noncitizen Voting In California",
+          "url": "https://www.theguardian.com/us-news/2026/oct/29/trump-administration-california-noncitizen-voting-investigation",
+          "timestamp": 1793318400000,
+          "feature": true,
+          "postedAt": 1793359008803
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "How Iran Battered U.S. Bases and Caused Billions in Damage",
+        "url": "https://www.wsj.com/world/middle-east/iran-war-us-bases-damage-88db3224",
+        "timestamp": 1793444685491,
+        "postedAt": 1793445421943
+      },
+      {
+        "headline": "WALL STREET JOURNAL",
+        "url": "http://online.wsj.com/home-page",
+        "timestamp": 1793444685492,
+        "postedAt": 1793445421943
+      },
+      {
+        "headline": "Nicki Minaj Buries New York Governor In Online Feud",
+        "url": "https://www.theblaze.com/news/nicki-minaj-hochul-feud-ny",
+        "timestamp": 1793443113000,
+        "photo": true,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Trump's Halloween Plane Flyover Startles DC Residents",
+        "url": "https://timesofindia.indiatimes.com/world/us/trumps-halloween-surprise-sparks-panic-in-washington-residents-call-911-fearing-plane-crash-as-air-force-one-showed-low-altitude-flyover/articleshow/135377172.cms",
+        "timestamp": 1793402723000,
+        "photo": true,
+        "postedAt": 1793445348147,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "ICE Agent Charged With Striking Mexican National With His Car",
+        "url": "https://www.bbc.com/news/articles/ckjwep125v3eo",
+        "timestamp": 1793402203000,
+        "photo": true,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Maine Voters Weigh Susan Collins' Power And Influence",
+        "url": "https://www.mainepublic.org/politics/2026-10-29/in-maines-senate-race-voters-weigh-opposing-views-of-susan-collins-power-and-influence",
+        "timestamp": 1793297040000,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "Millions Swiped From Polymarket Users In Hack",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/polymarket-halts-trading-users-report-183518883.html",
+        "timestamp": 1793358345053,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "Kenyans Arrested In $130 Million US Ghost Student Visa Scam",
+        "url": "https://www.bbc.com/news/articles/cxvgdzpy7241o",
+        "timestamp": 1793349155000,
+        "photo": true,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "No Survivors In Midair Collision Of Two Helicopters Near McMinnville Airport",
+        "url": "https://katu.com/news/local/highway-233-closed-west-of-dayton-because-of-aircraft-crash-odot-says",
+        "timestamp": 1793341439000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793359008803,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "San Diego Woman Pleads Guilty To Killing Best Friend's Baby",
+        "url": "https://hanfordsentinel.com/news/national/a-compulsion-to-hurt-kids-san-diego-woman-pleads-guilty-to-killing-best-friends-baby/article_f51d8faf-c515-5350-92b5-b71415be890d.html",
+        "timestamp": 1793322240000,
+        "photo": true,
+        "postedAt": 1793359008803,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "Woman in full burqa plays Islamic call to prayer at Florida county commission meeting",
+        "url": "https://notthebee.com/article/woman-in-full-burqa-goes-to-florida-county-commission-meeting-plays-islamic-call-to-prayer/",
+        "timestamp": 1793220181000,
+        "postedAt": 1793272562423
+      },
+      {
+        "headline": "Obama Says Cheesecake Factory Was His 'Jam' For About A Decade",
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/28/obama-cheesecake-factory-joke-trump-gop/92488764007/",
+        "timestamp": 1793250240000,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Forecasters Predict A Warmer, Wetter Winter As El Niño Takes Hold",
+        "url": "https://www.npr.org/2026/10/28/nx-s1-6009547/el-nino-forecast-us-winter",
+        "timestamp": 1793240445000,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Manhunt Grows For Escaped Murderer Who May Have Fled Area Where Truck Was Found",
+        "url": "https://www.nbcnews.com/news/us-news/manhunt-grows-escaped-murderer-may-left-area-truck-was-ditched-rcna606248",
+        "timestamp": 1793237520000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Conservative Activists Charged With Unlawful Voting In Election Stunt",
+        "url": "https://www.bbc.com/news/articles/c52e9vnege7eo",
+        "timestamp": 1793236652000,
+        "photo": true,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Woman Arrested After Leaving Kids Alone For Days Sparks National Debate",
+        "url": "https://www.nbcnews.com/video/florida-mom-arrested-for-leaving-her-kids-home-alone-for-five-days-272376389812",
+        "timestamp": 1793235822000,
+        "photo": true,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "These Are The House Races To Watch Ahead Of Nov. 3",
+        "url": "https://www.npr.org/2026/10/29/nx-s1-6020921/2026-house-map-democrats-flip-republicans-tossup-triage",
+        "timestamp": 1793264400000,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Six States Are Shifting In Final Senate Races To Watch",
+        "url": "https://www.newsnationnow.com/politics/2026-midterm-elections/senate-races-midterms-election-kansas-michigan-iowa-nebraska-south-carolina-minnesota/",
+        "timestamp": 1793247157000,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Murkowski Endorses A Democrat As She Weighs Her Own 2028 Future",
+        "url": "https://www.politico.com/news/2026/10/28/lisa-murkowski-2028-democrat-endorsement-01140048",
+        "timestamp": 1793231280000,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Trump Administration Pressures California With Expanded Fraud Probe",
+        "url": "https://www.usnews.com/news/world/articles/2026-10-29/trump-doj-issues-subpoenas-in-california-noncitizen-voting-probe-escalating-pressure-campaign",
+        "timestamp": 1793317796000,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "Republicans Seize On Ballot-Stacking Controversy In Alaska",
+        "url": "https://www.pbs.org/newshour/show/republicans-seize-on-controversy-in-alaskas-closely-watched-senate-race",
+        "timestamp": 1793314501000,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "$1 Trillion Wiped From Tech Stocks In Halloween Selloff",
+        "url": "https://www.nbcnews.com/business/rcna606512",
+        "timestamp": 1793444685491,
+        "feature": true,
+        "postedAt": 1793445348147
+      }
+    ],
+    "center": [
+      {
+        "headline": "Report: Son of \"Decoy Dan\" works for Democrat who co-chairs House caucus with Alaskan challenger accused of fraud",
+        "url": "https://notthebee.com/article/report-son-of-decoy-dan-works-for-democrat-who-co-chairs-house-caucus-with-alaskan-challenger-accused-of-fraud/",
+        "timestamp": 1793391751000,
+        "postedAt": 1793445421943
+      },
+      {
+        "headline": "Anxiety Mounts in Final Days Before Elections",
+        "url": "https://www.wsj.com/politics/elections/republican-anxiety-mounts-in-final-days-before-midterm-elections-221bb03a",
+        "timestamp": 1793444685492,
+        "postedAt": 1793445421943
+      },
+      {
+        "headline": "National Review: Trump DOJ's 'Futile' Attempt To Indict Cassidy Hutchinson",
+        "url": "https://www.nationalreview.com/2026/10/the-trump-dojs-futile-attempt-to-indict-cassidy-hutchinson/",
+        "timestamp": 1793442628000,
+        "photo": true,
+        "postedAt": 1793445348147,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "US Execution Survivor Christa Pike Says She Is Now In 'Constant Pain'",
+        "url": "https://www.aljazeera.com/news/2026/10/31/us-execution-survivor-christa-pike-says-she-is-now-in-constant",
+        "timestamp": 1793418289000,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "SNL Writer's Missing Sister: Boyfriend Among Two Arrested On Murder Suspicion",
+        "url": "https://www.nbclosangeles.com/investigations/arrest-snl-writer-sister-christina-downer-jimmy-fowlie/3963695/",
+        "timestamp": 1793412360000,
+        "photo": true,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "US Approves $2.1 Billion Patriot Interceptor Sale To Ukraine",
+        "url": "https://www.nbcnews.com/world/ukraine/us-approves-21-billion-sale-patriot-interceptors-ukraine-rcna606641",
+        "timestamp": 1793400278000,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Guardian: Affordability Looms Over Maine's Tight Senate Race",
+        "url": "https://www.theguardian.com/us-news/2026/oct/30/maine-senate-race-affordability-trump",
+        "timestamp": 1793399340000,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Amazon And Intel Post Worse-Than-Expected Earnings",
+        "url": "https://www.semafor.com/article/10/30/2026/amazon-and-intel-post-worse-than-expected-results",
+        "timestamp": 1793356740000,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "Anthropic Becomes SpaceX's Biggest Customer",
+        "url": "https://www.semafor.com/article/10/30/2026/anthropic-is-now-spacexs-biggest-customer",
+        "timestamp": 1793356620000,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "Hundreds Of Fake Luxury Watches Seized En Route To Texas",
+        "url": "https://www.theblaze.com/news/counterfeit-watches-seized-cbp-luxury",
+        "timestamp": 1793356271000,
+        "photo": true,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "Vivek Ramaswamy Pulls Ad Featuring Amy Acton's Mother",
+        "url": "https://www.dispatch.com/story/news/politics/2026/10/29/vivek-ramaswamy-amy-acton-mother-ad/92496495007/",
+        "timestamp": 1793330580000,
+        "photo": true,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "Trump Cancels Weekend Rallies, Will Phone Into Midterm Events",
+        "url": "https://www.reuters.com/world/us/trump-cancels-weekend-rallies-plans-phone-other-midterm-campaign-events-2026-10-29/",
+        "timestamp": 1793316420000,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "The Don Calls for Alaska Senate Candidate to Be 'Prosecuted'",
+        "url": "https://alaskabeacon.com/2026/10/28/trump-calls-for-peltola-to-be-criminally-charged-removed-from-alaskas-u-s-senate-race/",
+        "timestamp": 1793271920319,
+        "postedAt": 1793272562423
+      },
+      {
+        "headline": "Flávio Bolsonaro Claims Fraud In Brazil's Presidential Election",
+        "url": "https://www.courthousenews.com/flavio-bolsonaro-lands-in-miami-after-fleeing-brazil-despite-travel-ban",
+        "timestamp": 1793233267000,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Fans Rip Madden Biopic Trailer As 'Worst Movie Ever Made'",
+        "url": "https://nypost.com/2026/10/28/sports/fans-very-worried-about-john-madden-movie-after-new-nicolas-cage-clip-drops/",
+        "timestamp": 1793271920319,
+        "photo": true,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "DHS Attorney Confronts '60 Minutes' Reporter Over Illegal Immigrant Narrative",
+        "url": "https://www.theblaze.com/news/dhs-attorney-60-minutes-immigration",
+        "timestamp": 1793271076000,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Colorado Mountain College Students Found Dead After Hike",
+        "url": "https://www.cpr.org/2026/10/28/colorado-students-missing-hikers/",
+        "timestamp": 1793250095000,
+        "photo": true,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Emergency Declared At South Carolina Nuclear Site After Lab Fire",
+        "url": "https://www.foxnews.com/us/emergency-declared-south-carolina-nuclear-site-after-fire-erupts-lab",
+        "timestamp": 1793236204000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793272532029,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Ramaswamy Attack Ad Appears To Be Backfiring, GOP Poll Finds",
+        "url": "https://www.axios.com/2026/10/28/gop-poll-ramaswamy-ad-damage",
+        "timestamp": 1793246236000,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Crowley Holds 7-Point Lead Over Tiffany In Wisconsin Governor Poll",
+        "url": "https://thehill.com/homenews/campaign/6179188-crowley-widens-wisconsin-lead/",
+        "timestamp": 1793230080000,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Grim Mood Grips White House As Trump Faces 'Nightmare' Midterms",
+        "url": "https://www.nytimes.com/2026/10/28/us/politics/trump-midterms-white-house-mood.html?unlocked_article_code=1.MVE.5X1U.VGJi_EhllrGa&smid=url-share",
+        "timestamp": 1793271920319,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Broader Market Shudders As AI-Linked Shares Lead The Rout",
+        "url": "https://www.marketwatch.com/story/the-selloff-in-tech-stocks-is-shifting-into-overdrive-afb50975",
+        "timestamp": 1793444685491,
+        "postedAt": 1793445348147
+      }
+    ],
+    "right": [
+      {
+        "headline": "Megan Rapinoe says men can play women's sports because sports aren't fair in the first place",
+        "url": "https://notthebee.com/article/megan-rapinoe-says-men-can-play-womens-sports-because-sports-arent-fair-in-the-first-place/",
+        "timestamp": 1793383370000,
+        "postedAt": 1793445421943
+      },
+      {
+        "headline": "Behind the Scenes of Crypto's Biggest Nightmare: Record-Breaking Cyber Heist",
+        "url": "https://www.wsj.com/finance/currencies/behind-the-scenes-of-cryptos-biggest-nightmare-a-record-breaking-cyber-heist-ffe1d9a3",
+        "timestamp": 1793444685491,
+        "postedAt": 1793445421943
+      },
+      {
+        "headline": "HEGSETH FIRES TOP PENTAGON MILITARY PLANNER AS TRUMP WEIGHS NEW IRAN STRIKES",
+        "url": "https://www.pbs.org/newshour/politics/hegseth-fires-the-pentagons-top-military-planner-even-as-trump-considers-new-iran-strikes",
+        "timestamp": 1793359008803,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "AP: Meet The 'Socialist' Democrats Likely Headed To Congress",
+        "url": "https://apnews.com/article/socialist-democrats-congress-election-d3f36bd7e9c2a54ed893cec4388faea5",
+        "timestamp": 1793444685492,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Behind The Scenes Of Crypto's Record-Breaking Cyber Heist",
+        "url": "https://nypost.com/2026/10/30/business/how-north-korean-hackers-pulled-off-6-3b-binance-heist-inside-job-ai-powered-techniques-could-have-been-at-work/",
+        "timestamp": 1793444685491,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "UK: Why Did Boy Who Stabbed Girl Who Rejected Him Get Such A Light Sentence?",
+        "url": "https://www.spiked-online.com/2026/10/31/why-did-a-boy-who-stabbed-a-girl-who-rejected-him-get-off-so-lightly/",
+        "timestamp": 1793444272000,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Canada: Carney Says Nation 'Learned We Are Overdependent' On The US",
+        "url": "https://www.dw.com/en/mark-carney-canada-has-learned-we-are-overdependent-on-the-us/a-79811469",
+        "timestamp": 1793417955000,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "'The Great Pumpkin' Turns 60",
+        "url": "https://www.city-journal.org/article/charlie-brown-great-pumpkin-stream-apple-tv",
+        "timestamp": 1793398477000,
+        "photo": true,
+        "postedAt": 1793445348147,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Xi Jinping Doubles Down On Purge Of Party Elite",
+        "url": "https://www.semafor.com/article/10/30/2026/xi-jinping-doubles-down-on-purge-of-party-elite",
+        "timestamp": 1793357700000,
+        "photo": true,
+        "postedAt": 1793359008803,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "Trump Teases His Next Supreme Court Pick",
+        "url": "https://www.theblaze.com/news/supreme-court-trump-ted-cruz",
+        "timestamp": 1793356335000,
+        "photo": true,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "California's Act Of Fiscal Self-Sabotage",
+        "url": "https://www.nationalreview.com/2026/10/californias-act-of-fiscal-self-sabotage/",
+        "timestamp": 1793356253000,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "Bodies Of 2 Colorado Students Recovered After Deadly Hiking Trip",
+        "url": "https://apnews.com/article/missing-college-students-hikers-dead-colorado-mountain-4977a595605815106e6a6b220b8dcc31",
+        "timestamp": 1793324580000,
+        "photo": true,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "DOJ Push Against Trump Foes Intensifies",
+        "url": "https://suaragarut.id/en/justice-department-cases-trump-foes-midterms",
+        "timestamp": 1793271920319,
+        "postedAt": 1793272562423
+      },
+      {
+        "headline": "Oregon Police Search For Suspect After 10-Year-Old Girl Kidnapped In Canby",
+        "url": "https://katu.com/news/local/10-year-old-girl-kidnapped-from-canby-apartment-police-search-for-suspect-abducted-abduction-oregon-state-police-detectives-vehicle-description-call-investigators",
+        "timestamp": 1793265075000,
+        "photo": true,
+        "postedAt": 1793272532029,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "Federal Judge Denies Bid To Segregate 20,000 Ballots In California",
+        "url": "https://abc7.com/post/federal-judge-denies-trump-administration-request-to-segregate-20000-ballots-california/19992270/",
+        "timestamp": 1793237199000,
+        "feature": true,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Labor Icon Dolores Huerta Dies At 96",
+        "url": "https://www.kcra.com/article/dolores-huerta-dies-at-96/74273186",
+        "timestamp": 1793230980000,
+        "photo": true,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "'Netanyahu Fatigue' Sets In Across Washington After Israel's Vote",
+        "url": "https://www.politico.com/news/2026/10/28/netanyahu-fatigue-after-israel-vote-01140053",
+        "timestamp": 1793236980000,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "El-Sayed Quietly Attends Banquet For PAC Tied To Hamas-Sympathizing Editor",
+        "url": "https://freebeacon.com/democrats/abdul-el-sayed-quietly-attends-banquet-for-pac-of-hamas-loving-editor-who-said-arabs-should-send-jews-back-to-poland/",
+        "timestamp": 1793301998000,
+        "postedAt": 1793359008803
+      },
+      {
+        "headline": "Republicans Brace For Potentially Historic Midterm Losses",
+        "url": "https://www.politico.com/news/2026/10/30/republicans-brace-for-losses-2026-midterms-01141576",
+        "timestamp": 1793444685492,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "New Battleground Polling Shows Tightening Races In Final Stretch",
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "timestamp": 1793439315000,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Trump Returns To Ohio For Last Push Before Midterms",
+        "url": "https://www.dispatch.com/story/news/politics/elections/2026/10/28/president-donald-trump-returns-to-ohio-to-campaign-for-republicans--live/92462414007/",
+        "timestamp": 1793244900000,
+        "postedAt": 1793272532029
+      },
+      {
+        "headline": "Critic Ed Zitron Calls Anthropic's Latest Numbers 'Junk'",
+        "url": "https://www.youtube.com/watch?v=884dTvxSk4c",
+        "timestamp": 1793444685491,
+        "postedAt": 1793445348147
+      }
+    ]
+  },
+  "balance": {
+    "left": 641,
+    "right": 433,
+    "independent": 13,
+    "days": 30,
+    "total": 1074,
+    "pctLeft": 60,
+    "pctRight": 40
+  }
+}
