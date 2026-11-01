@@ -245,7 +245,8 @@
         "headline": "China To Convene Meeting On Supporting Stock Market",
         "url": "https://finance.biggo.com/news/98ac9464-fe5a-43f8-bc41-cafb7bb38e47",
         "timestamp": 1793527729000,
-        "postedAt": 1793536213908
+        "postedAt": 1793536213908,
+        "image": "/img/world-5.jpg"
       },
       {
         "headline": "Mexico Comes Alive For Annual Day Of The Dead Celebrations",
@@ -265,8 +266,7 @@
         "headline": "FOUR TANKERS STRUCK BY MINES IN STRAIT OF HORMUZ AS IRAN WAR FEARS GROW",
         "url": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
         "timestamp": 1793359859584,
-        "postedAt": 1793359859584,
-        "image": "/img/world-6.jpg"
+        "postedAt": 1793359859584
       },
       {
         "headline": "Analysis: As Trump Fans Flames Of A World On Fire, Can Diplomacy Hold?",
@@ -342,7 +342,7 @@
         "timestamp": 1793517180000,
         "feature": true,
         "postedAt": 1793536213908,
-        "image": "/img/world-5.jpg"
+        "image": "/img/world-6.jpg"
       },
       {
         "headline": "UAE 'Braced For The Worst' As US-Iran Talks Continue",
@@ -489,7 +489,8 @@
         "headline": "Netanyahu Bloc Falls Short Of Majority As Arab Parties Win Record Seats",
         "url": "https://www.euronews.com/2026/10/30/netanyahu-bloc-emerges-ahead-in-israeli-election-but-fails-to-secure-majority",
         "timestamp": 1793345504000,
-        "postedAt": 1793359859584
+        "postedAt": 1793359859584,
+        "image": "/img/world-7.jpg"
       }
     ]
   }

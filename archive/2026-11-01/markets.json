@@ -131,7 +131,7 @@
         "timestamp": 1793472981000,
         "photo": true,
         "postedAt": 1793536700779,
-        "image": "/img/markets-2.jpg"
+        "image": "/img/markets-3.jpg"
       },
       {
         "headline": "Fitch Revises France's Outlook To Negative On Worsening Debt Dynamics",
@@ -159,7 +159,7 @@
         "timestamp": 1793445655000,
         "photo": true,
         "postedAt": 1793446701707,
-        "image": "/img/markets-4.jpg"
+        "image": "/img/markets-5.jpg"
       },
       {
         "headline": "Which College Majors Have The Lowest Unemployment Rates",
@@ -258,7 +258,8 @@
         "url": "https://finance.biggo.com/news/6592612f-0ed9-4005-acc4-a6293ea08721",
         "timestamp": 1793497320000,
         "photo": true,
-        "postedAt": 1793536700779
+        "postedAt": 1793536700779,
+        "image": "/img/markets-2.jpg"
       },
       {
         "headline": "Hong Kong Telecom Agrees To Halt US Operations Under Pressure",
@@ -272,7 +273,7 @@
         "timestamp": 1793426402000,
         "photo": true,
         "postedAt": 1793446701707,
-        "image": "/img/markets-5.jpg"
+        "image": "/img/markets-6.jpg"
       },
       {
         "headline": "California Sisters Among Hundreds Stranded In Asia After Cruise Halts Over Fuel Costs",
@@ -300,8 +301,7 @@
         "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
         "timestamp": 1793330160000,
         "photo": true,
-        "postedAt": 1793360240819,
-        "image": "/img/markets-6.jpg"
+        "postedAt": 1793360240819
       },
       {
         "headline": "Polymarket Investigates Suspicious Bets On Israeli Election",
@@ -355,7 +355,7 @@
         "timestamp": 1793467020000,
         "photo": true,
         "postedAt": 1793536700779,
-        "image": "/img/markets-3.jpg"
+        "image": "/img/markets-4.jpg"
       },
       {
         "headline": "California Housing Market Remains Brutal Nightmare For Buyers",
@@ -486,9 +486,9 @@
     },
     {
       "name": "Bitcoin",
-      "value": "$77,735.19",
-      "change": "+294.26",
-      "changePct": "+0.38%",
+      "value": "$77,930.01",
+      "change": "+489.08",
+      "changePct": "+0.63%",
       "up": true,
       "url": "https://www.wsj.com/market-data"
     }

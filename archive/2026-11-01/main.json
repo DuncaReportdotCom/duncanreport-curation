@@ -139,7 +139,7 @@
     "left": [
       {
         "headline": "How Iran Battered U.S. Bases and Caused Billions in Damage",
-        "url": "https://www.wsj.com/world/middle-east/iran-war-us-bases-damage-88db3224",
+        "url": "https://www.arkansasonline.com/news/2026/nov/01/report-irans-strikes-on-us-bases-hit-warning/",
         "timestamp": 1793534763675,
         "postedAt": 1793535568632
       },
@@ -181,12 +181,6 @@
         "url": "https://apnews.com/article/g20-foreign-ministers-us-brazil-0ba5ba29246e4475cca2719bb962e57f",
         "timestamp": 1793483161000,
         "postedAt": 1793535533593
-      },
-      {
-        "headline": "How Iran Battered U.S. Bases and Caused Billions in Damage",
-        "url": "https://www.arkansasonline.com/news/2026/nov/01/report-irans-strikes-on-us-bases-hit-warning/",
-        "timestamp": 1793444685491,
-        "postedAt": 1793445421943
       },
       {
         "headline": "WALL STREET JOURNAL",
@@ -406,12 +400,6 @@
     ],
     "right": [
       {
-        "headline": "WALL STREET JOURNAL",
-        "url": "http://online.wsj.com/home-page",
-        "timestamp": 1793534763675,
-        "postedAt": 1793535568632
-      },
-      {
         "headline": "Economists Warn AI Boom Could Trigger Economic Collapse",
         "url": "https://futurism.com/future-society/investor-economy-collapse-ai-raoul-pal",
         "timestamp": 1793534763674,
@@ -538,10 +526,10 @@
   },
   "balance": {
     "left": 638,
-    "right": 432,
+    "right": 430,
     "independent": 12,
     "days": 30,
-    "total": 1070,
+    "total": 1068,
     "pctLeft": 60,
     "pctRight": 40
   }
