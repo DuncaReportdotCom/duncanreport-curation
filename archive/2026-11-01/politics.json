@@ -1,0 +1,553 @@
+{
+  "lastUpdated": 1793537431857,
+  "heroSetDate": "2026-11-01",
+  "hero": {
+    "headline": "ALASKA OFFICIALS CALL TRUMP BID TO TOSS SENATE BALLOTS 'MERITLESS' AS LEGAL FIGHT ESCALATES",
+    "url": "https://www.pbs.org/newshour/politics/attorneys-for-alaska-say-meritless-trump-demand-to-set-aside-senate-ballots-not-even-possible",
+    "sublinks": [
+      {
+        "text": "Why DOJ sued: administration seeks to block certification of a possible Democratic win",
+        "url": "https://alaskapublic.org/news/politics/elections/2026-10-23/trumps-administration-sues-to-block-a-possible-democratic-win-in-the-alaska-u-s-senate-race"
+      },
+      {
+        "text": "The right's grievance: could a look-alike 'Dan Sullivan' candidate tip the race?",
+        "url": "https://www.dailywire.com/episode/district-club-ep-10"
+      },
+      {
+        "text": "Separately, a federal judge orders DOJ to stop threatening election workers",
+        "url": "https://www.bbc.com/news/articles/c8qln1539y37o"
+      },
+      {
+        "text": "Outside money pours into the race as stakes rise",
+        "url": "https://alaskabeacon.com/2026/10/28/outside-interests-think-alaskas-u-s-senate-race-is-a-cheap-date/"
+      }
+    ],
+    "postedAt": 1793537431857,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "MICHIGAN'S EL-SAYED-STEVENS SENATE RACE TURNS BITTER",
+      "stories": [
+        {
+          "headline": "Is The Campaign Against El-Sayed Islamophobic — Or Working?",
+          "url": "https://www.thebulwark.com/p/is-the-islamophobic-campaign-against-el-sayed-working-michigan-senate-rogers-midterms",
+          "timestamp": 1793534647000,
+          "postedAt": 1793537431857
+        },
+        {
+          "headline": "Race Devolves Into 'Total Blood Sports,' Critics Say",
+          "url": "https://townhall.com/news/mattvespa/2026/11/01/the-el-sayed-haley-stevens-campaign-event-has-devolved-into-total-blood-sports-n2685670",
+          "timestamp": 1793533800000,
+          "postedAt": 1793537431857
+        },
+        {
+          "headline": "Stevens Advised To Skip El-Sayed Campaign Events To Limit 'Distractions'",
+          "url": "https://www.theguardian.com/us-news/2026/oct/31/abdul-el-sayed-haley-stevens-disinvited-from-events",
+          "timestamp": 1793491080000,
+          "postedAt": 1793537431857
+        }
+      ]
+    },
+    {
+      "title": "SUPREME COURT WEIGHS RELIGIOUS-LIBERTY CHALLENGE TO UNIVERSAL PRE-K",
+      "stories": [
+        {
+          "headline": "Colorado's Universal Preschool Law Revives Anti-Catholic Rules, Critics Say",
+          "url": "https://www.foxnews.com/opinion/andrea-picciotti-bayer-colorados-universal-preschool-revives-vile-anti-catholic-laws",
+          "timestamp": 1793534451000,
+          "postedAt": 1793537431857
+        },
+        {
+          "headline": "Supreme Court Hears Case On Religious Freedom And Universal Pre-K Funding",
+          "url": "https://www.npr.org/2026/11/01/nx-s1-6000367/supreme-court-colorado-catholic-preschool-religious-freedom-lgbtq",
+          "timestamp": 1793527200000,
+          "postedAt": 1793537431857
+        }
+      ]
+    },
+    {
+      "title": "2026 MIDTERMS: FINAL-STRETCH POLLING AND KEY RACES TO WATCH",
+      "stories": [
+        {
+          "headline": "The 10 House Races That Will Decide Chamber Control",
+          "url": "https://thehill.com/homenews/house/6185022-key-house-battleground-districts/",
+          "timestamp": 1793530800000,
+          "postedAt": 1793537431857
+        },
+        {
+          "headline": "Battleground Polls Show Senate Races Still In Flux",
+          "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+          "timestamp": 1793343600000,
+          "postedAt": 1793537431857
+        }
+      ]
+    },
+    {
+      "title": "TRUMP CANCELS KANSAS, IOWA RALLIES DAYS BEFORE ELECTION",
+      "stories": [
+        {
+          "headline": "Trump Cancels Planned Rallies In Kansas And Iowa",
+          "url": "https://www.nbcnews.com/politics/2026-election/trump-cancels-weekend-rallies-iowa-kansas-favor-holding-numerous-teler-rcna606487",
+          "timestamp": 1793359523000,
+          "postedAt": 1793360993517
+        },
+        {
+          "headline": "Trump Scraps Saturday Rally In Salina, Kansas",
+          "url": "https://www.kmbc.com/article/president-donald-trump-kansas-salina-rally-october-31-2026-canceled/74285620",
+          "timestamp": 1793357788000,
+          "postedAt": 1793360993517
+        },
+        {
+          "headline": "Top US Middle East Commander Briefs Trump On Iran Blockade",
+          "url": "https://www.axios.com/2026/10/29/brad-cooper-briefs-trump-iran-naval-blockade",
+          "timestamp": 1793350761000,
+          "postedAt": 1793360993517
+        },
+        {
+          "headline": "Hegseth Fires Pentagon's Top Military Planner As Trump Weighs New Iran Strikes",
+          "url": "https://www.pbs.org/newshour/politics/hegseth-fires-the-pentagons-top-military-planner-even-as-trump-considers-new-iran-strikes",
+          "timestamp": 1793307080000,
+          "feature": true,
+          "postedAt": 1793360993517
+        }
+      ]
+    },
+    {
+      "title": "DOJ WIDENS ELECTION-FRAUD PROBES IN CALIFORNIA, NORTH CAROLINA",
+      "stories": [
+        {
+          "headline": "DOJ Subpoenas Los Angeles Election Workers In Noncitizen Voter Fraud Probe",
+          "url": "https://justthenews.com/politics-policy/elections/justice-department-issues-subpoenas-elections-workers-los-angeles-part",
+          "timestamp": 1793358442000,
+          "feature": true,
+          "postedAt": 1793360993517
+        },
+        {
+          "headline": "Feds File 18 More Illegal-Voting Charges Against Immigrants In North Carolina",
+          "url": "https://www.wral.com/news/nccapitol/immigrant-voter-fraud-illegal-ballot-election-charge-north-carolina-trump-october-2026/",
+          "timestamp": 1793333855000,
+          "postedAt": 1793360993517
+        }
+      ]
+    },
+    {
+      "title": "OBAMA'S CHEESECAKE FACTORY QUIP SPARKS WHITE HOUSE SPAT",
+      "stories": [
+        {
+          "headline": "Obama Says He's 'Tired Of Being Divided' After Cheesecake Spat",
+          "url": "https://www.washingtonexaminer.com/premium/4784318/barack-obama-divider-in-chief-legacy/",
+          "timestamp": 1793358300000,
+          "postedAt": 1793360993517
+        },
+        {
+          "headline": "Obama Reacts To White House's Cheesecake Factory Response",
+          "url": "https://www.nbcnews.com/video/shorts/obama-reacts-to-white-house-cheesecake-factory-response-272448069860",
+          "timestamp": 1793356292000,
+          "postedAt": 1793360993517
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "DOJ Sends Election Watchdogs To New Jersey County",
+        "url": "https://www.nj.com/politics/2026/10/trumps-doj-is-sending-election-watchdogs-to-nj-biden-actually-ordered-them-to-this-county.html",
+        "timestamp": 1793453400000,
+        "postedAt": 1793537431857
+      },
+      {
+        "headline": "Warnock 'Nauseously Optimistic' About Democrats' Midterm Chances",
+        "url": "https://www.politico.com/video/2026/11/01/raphael-warnock-is-nauseously-optimistic-about-dems-midterm-chances-2216473",
+        "timestamp": 1793527200000,
+        "photo": true,
+        "postedAt": 1793537431857
+      },
+      {
+        "headline": "Hegseth Fired Nancy Lacore From Navy — Now He Could Help Her Reach Congress",
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/31/hegseth-midterms-nancy-lacore-south-carolina/92519568007/",
+        "timestamp": 1793497200000,
+        "photo": true,
+        "postedAt": 1793537431857
+      },
+      {
+        "headline": "Brazil Summons Argentine Diplomat Over Bolsonaro's Flight To US",
+        "url": "https://www.aljazeera.com/news/2026/10/31/brazil-summons-argentinian-diplomat-over-bolsonaros-flight-to-us",
+        "timestamp": 1793427604000,
+        "photo": true,
+        "postedAt": 1793537431857
+      },
+      {
+        "headline": "RealClearInvestigations: Battling The Unelected Elite With DataRepublican",
+        "url": "https://www.realclearinvestigations.com/video/2026/10/31/battling_the_unelected_elite_with_datarepublican_small_r_1214516.html",
+        "timestamp": 1793425200000,
+        "postedAt": 1793537431857
+      },
+      {
+        "headline": "Trump's ICE Crackdown Threatens Cuban Republican's Miami Campaign",
+        "url": "https://www.politico.com/news/magazine/2026/10/31/trumps-ice-crackdown-broke-miami-will-it-tank-this-cuban-republicans-campaign-01140214",
+        "timestamp": 1793444400000,
+        "photo": true,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "The Trump DOJ's Futile Attempt To Indict Cassidy Hutchinson",
+        "url": "https://www.nationalreview.com/2026/10/the-trump-dojs-futile-attempt-to-indict-cassidy-hutchinson/",
+        "timestamp": 1793442628000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793447236090,
+        "image": "/img/politics-3.jpg"
+      },
+      {
+        "headline": "Talarico Makes Final Election Pitch To Texans Ahead Of Senate Primary",
+        "url": "https://spectrumlocalnews.com/hi/hawaii/politics/2026/10/30/candidates-final-pitches-last-weekend-before-midterm",
+        "timestamp": 1793437534000,
+        "photo": true,
+        "postedAt": 1793447236090,
+        "image": "/img/politics-4.jpg"
+      },
+      {
+        "headline": "China Plots Indian Land Grab Beyond Taiwan Tensions",
+        "url": "https://freebeacon.com/columns/its-not-just-taiwan-china-plots-indian-land-grab/",
+        "timestamp": 1793437379000,
+        "photo": true,
+        "postedAt": 1793447236090,
+        "image": "/img/politics-5.jpg"
+      },
+      {
+        "headline": "U.S. Approves $2.1 Billion Patriot Interceptor Sale To Ukraine",
+        "url": "https://www.nbcnews.com/world/ukraine/us-approves-21-billion-sale-patriot-interceptors-ukraine-rcna606641",
+        "timestamp": 1793400278000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "COVID Coverup: FDA Suppressing Evidence of Vaccine’s Risks for Children",
+        "url": "https://www.realclearinvestigations.com/articles/2026/10/20/covid_coverup_fda_suppressing_evidence_of_vaccines_risks_for_children_1212710.html",
+        "timestamp": 1792559400000,
+        "postedAt": 1793361042367
+      },
+      {
+        "headline": "Far From Killing Us, AI Is Saving Lives",
+        "url": "https://www.realclearpolicy.com/articles/2026/10/21/far_from_killing_us_ai_is_saving_lives_1212861.html",
+        "timestamp": 1792573860000,
+        "postedAt": 1793361042367
+      },
+      {
+        "headline": "Daniel Johnson",
+        "url": "https://www.realclearinvestigations.com/authors/daniel_johnson/",
+        "timestamp": 1793034000000,
+        "postedAt": 1793361042367
+      },
+      {
+        "headline": "Property Tax Relief Requires Government Spending Cuts",
+        "url": "https://www.realclearpolicy.com/articles/2026/10/27/property_tax_relief_requires_government_spending_cuts_1213744.html",
+        "timestamp": 1793082540000,
+        "postedAt": 1793361042367
+      },
+      {
+        "headline": "Maine Voters Weigh Susan Collins' Influence In Senate Race",
+        "url": "https://www.mainepublic.org/politics/2026-10-29/in-maines-senate-race-voters-weigh-opposing-views-of-susan-collins-power-and-influence",
+        "timestamp": 1793297040000,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "Trump's Midterm Economy Gets Mixed Grades In New Analysis",
+        "url": "https://www.france24.com/en/live-news/20261029-us-economy-posts-strong-growth-inflation-stubbornly-high-in-challenge-to-trump",
+        "timestamp": 1793357543000,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "Kenyans Arrested In $130 Million US 'Ghost Student' Visa Fraud Scheme",
+        "url": "https://www.bbc.com/news/articles/cxvgdzpy7241o",
+        "timestamp": 1793349155000,
+        "photo": true,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "Judge Weighs Removing Letitia James From Cornell Rape Case",
+        "url": "https://abc7ny.com/story/man-accused-cornell-rape-lawsuit-wants-letitia-james-removed-investigation-posts/19997661/",
+        "timestamp": 1793336574000,
+        "photo": true,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "RealClearPolitics: Democrats Poised For Largest Generic Ballot Win Since 2008",
+        "url": "https://www.realclearpolitics.com/articles/2026/10/29/democrats_poised_for_largest_generic_ballot_win_since_obamas_2008_blowout_154628.html",
+        "timestamp": 1793250000000,
+        "postedAt": 1793447236090
+      }
+    ],
+    "center": [
+      {
+        "headline": "Karen Bass Fights To Keep LA Mayorship Amid Mounting Pressure",
+        "url": "https://www.theguardian.com/us-news/2026/nov/01/karen-bass-los-angeles-mayoral-race",
+        "timestamp": 1793527200000,
+        "photo": true,
+        "postedAt": 1793537431857
+      },
+      {
+        "headline": "Mamdani Says Trump Will Grant Visa To Mother Of Boy Killed In Bronx Shooting",
+        "url": "https://www.aljazeera.com/news/2026/11/1/mamdani-says-trump-to-grant-visa-to-mother-of-boy-killed-in-bronx-shooting",
+        "timestamp": 1793521522000,
+        "photo": true,
+        "postedAt": 1793537431857,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "Trump Calls $50 Million Contract For Ex-Lawyer Habba Mildon 'Not Acceptable'",
+        "url": "https://www.reuters.com/legal/litigation/trump-calls-50-million-contract-ex-lawyer-habba-mildon-not-acceptable-2026-11-01/",
+        "timestamp": 1793499720000,
+        "photo": true,
+        "postedAt": 1793537431857
+      },
+      {
+        "headline": "ICE Agent Charged With Assault For Hitting Fleeing Man With Car",
+        "url": "https://apnews.com/article/houston-texas-ice-agent-charged-aggravated-assault-67bcdb11f7ed19aef2100e5c2a83f773",
+        "timestamp": 1793484780000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793537431857
+      },
+      {
+        "headline": "Trump Says Iran War 'Going To End Soon' As Qatar Pushes Deal",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/",
+        "timestamp": 1793444520000,
+        "photo": true,
+        "postedAt": 1793447236090,
+        "image": "/img/politics-2.jpg"
+      },
+      {
+        "headline": "What's The Real Story With Social Security?",
+        "url": "https://www.dailysignal.com/2026/10/31/social-insecurity/",
+        "timestamp": 1793440800000,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "ICE Agent Charged For Allegedly Striking Mexican National With Car",
+        "url": "https://www.bbc.com/news/articles/ckjwep125v3eo",
+        "timestamp": 1793402203000,
+        "photo": true,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "Becerra Widens Lead In California Governor's Race As Focus Shifts To Trump",
+        "url": "https://www.desertsun.com/videos/news/politics/elections/2026/10/27/becerra-holds-wide-lead-over-hilton-in-california-gubenturioal-race/92461714007/",
+        "timestamp": 1793354400000,
+        "photo": true,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "Missouri's Redistricting Fight Should Worry Illinois Lawmakers Too",
+        "url": "https://www.realclearpolitics.com/articles/2026/10/30/missouris_map_fight_should_make_illinois_lawmakers_uncomfortable_154629.html",
+        "timestamp": 1793359634000,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "Josh Shapiro Pushes For Strong Finish With 2028 Implications",
+        "url": "https://www.politico.com/news/2026/10/30/josh-shapiro-campaign-2028-implications-01141906",
+        "timestamp": 1793354400000,
+        "photo": true,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "Both Parties Face A Midterm Crossroads As Trump Era's End Looms",
+        "url": "https://apnews.com/article/trump-era-democrats-republicans-midterms-65c1ca0e134ea5ed44566a1dccc684fc",
+        "timestamp": 1793333640000,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "Former Primary Rival To Campaign With Abdul El-Sayed In Reversal",
+        "url": "https://gvwire.com/2026/10/29/in-michigan-el-sayed-faces-heat-from-former-primary-rival-as-election-nears/",
+        "timestamp": 1793324319000,
+        "photo": true,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "Judge Orders Trump Officials To Detail Election Data Demands Sent To States",
+        "url": "https://calmatters.org/politics/2026/10/ca-election-officials-subpoenas/",
+        "timestamp": 1793310383000,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "Judge Blocks Trump Medicaid Work-Requirement Rule Over Medical Frailty Proof",
+        "url": "https://www.pbs.org/newshour/health/judge-blocks-trump-administrations-medicaid-work-requirement-rule-forcing-proof-of-medical-frailty",
+        "timestamp": 1793303632000,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "El-Sayed Asks Stevens To Stay Away As Democratic Unity Effort Collapses",
+        "url": "https://www.politico.com/news/2026/10/30/el-sayed-stevens-senate-race-fight-01144423",
+        "timestamp": 1793439872000,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "Three Days Out, Early Voting Surges Across Senate Battlegrounds",
+        "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+        "timestamp": 1793430101000,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "Early Voting Jumps As Millions More Cast Ballots Ahead Of Election Day",
+        "url": "https://www.pbs.org/newshour/politics/millions-more-americans-vote-ahead-of-election-day-as-early-voting-jumps-across-senate-battlegrounds",
+        "timestamp": 1793371442000,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "Ilhan Omar's Fraud-Linked Donor Network Draws Fresh GOP Scrutiny",
+        "url": "https://www.dailywire.com/news/ilhan-omars-fraudster-connections-six-unanswered-messages-and-one-fed-up-republican",
+        "timestamp": 1793440974000,
+        "postedAt": 1793447236090
+      }
+    ],
+    "right": [
+      {
+        "headline": "Voters To Weigh In On Protecting Girls' Sports In Blue States",
+        "url": "https://www.realclearpolitics.com/articles/2026/11/01/voters_to_weigh_in_on_protecting_girls_sports_in_blue_states__154643.html",
+        "timestamp": 1793536294000,
+        "photo": true,
+        "postedAt": 1793537431857
+      },
+      {
+        "headline": "National Review: Election Trutherism Is Not A One-Sided Problem",
+        "url": "https://www.nationalreview.com/2026/11/election-trutherism-is-not-a-one-sided-problem/amp/",
+        "timestamp": 1793532649000,
+        "postedAt": 1793537431857
+      },
+      {
+        "headline": "GOP's Lame-Duck Sprint Runs Into Votes, Rules And The Calendar",
+        "url": "https://thehill.com/homenews/house/6185340-gop-lame-duck-congress-2026-midterms-trump-agenda/",
+        "timestamp": 1793530800000,
+        "postedAt": 1793537431857
+      },
+      {
+        "headline": "Midterm Voters Reveal What's Really Driving Them To The Polls",
+        "url": "https://www.foxnews.com/politics/midterm-voters-reveal-whats-driving-them-polls-what-theyre-voting-against-may-matter-more",
+        "timestamp": 1793527251000,
+        "photo": true,
+        "postedAt": 1793537431857,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "Republicans On Defense In Texas While Michigan Democrats Clash",
+        "url": "https://apnews.com/article/midtermelections-trump-texas-michigan-talarico-23bc8f51f73358260297b044241d7d0f",
+        "timestamp": 1793497680000,
+        "photo": true,
+        "postedAt": 1793537431857
+      },
+      {
+        "headline": "Trump And Netanyahu Need To Choose Victory On Iran",
+        "url": "https://www.nationalreview.com/2026/10/trump-and-netanyahu-need-to-choose-victory-on-iran/",
+        "timestamp": 1793442646000,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "How An Idaho Court Contrived A New Right To Abortion",
+        "url": "https://www.nationalreview.com/2026/10/how-an-idaho-court-contrived-a-new-right-to-abortion/",
+        "timestamp": 1793442611000,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "Troubling Voter Roll Discrepancy Found Days Before Midterms",
+        "url": "https://www.foxnews.com/politics/troubling-discovery-state-voter-rolls-sparks-action-days-before-midterms-should-have-been-fixed",
+        "timestamp": 1793437222000,
+        "photo": true,
+        "postedAt": 1793447236090,
+        "image": "/img/politics-6.jpg"
+      },
+      {
+        "headline": "Trump Officials Announce Arrests Of Fraudulent Medicaid Providers In St. Cloud",
+        "url": "https://minnesotareformer.com/2026/10/30/trump-officials-travel-to-st-cloud-to-announce-arrests-of-allegedly-fraudulent-medicaid-providers/",
+        "timestamp": 1793401853000,
+        "photo": true,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "Vance Leans On Ohio Ties To Rally Support For GOP Candidates",
+        "url": "https://www.washingtonexaminer.com/premium/4779640/jd-vance-ohio-ties-sell-gop-candidates/",
+        "timestamp": 1793358900000,
+        "photo": true,
+        "postedAt": 1793360993517,
+        "image": "/img/politics-7.jpg"
+      },
+      {
+        "headline": "JD Vance Cancels Friday Trip To St. Cloud, Minnesota",
+        "url": "https://www.startribune.com/vice-president-jd-vance-cancels-trip-to-st-cloud-fraud-announcement-trump/601907003",
+        "timestamp": 1793333986000,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "Newsmax Host Presses Ken Paxton With Pointed Question On Air",
+        "url": "https://www.huffpost.com/entry/ken-paxton-newsmax-interview_n_6ae3d15be4b0a2cccd4804fa",
+        "timestamp": 1793324312000,
+        "photo": true,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "How The Associated Press Calls Winners In Midterm Elections, Explained",
+        "url": "https://www.pbs.org/newshour/politics/watch-how-does-the-associated-press-call-2026-midterm-election-winners-4-things-to-know",
+        "timestamp": 1793314529000,
+        "postedAt": 1793360993517
+      },
+      {
+        "headline": "Analysis: Michigan Primary Won't Settle Democrats' Civil War",
+        "url": "https://www.politico.com/news/2026/10/31/michigan-isnt-going-to-settle-democrats-civil-war-01144474",
+        "timestamp": 1793444400000,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "Poll: Pete Ricketts Leads Dan Osborn In Nebraska Senate Race",
+        "url": "https://cryptobriefing.com/independent-dan-osborn-gains-ground-in-nebraskas-2026-senate-race/",
+        "timestamp": 1793437531000,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "Nate Silver Makes Bold Call In Must-Win Kansas Senate Race",
+        "url": "https://www.yahoo.com/news/videos/nate-silver-makes-bold-senate-114855530.html",
+        "timestamp": 1793429932000,
+        "postedAt": 1793447236090
+      },
+      {
+        "headline": "Cook Political Report: Seven States That Will Decide The Senate Majority",
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/closing-analysis-2026-senate-ratings",
+        "timestamp": 1793356800000,
+        "postedAt": 1793447236090
+      }
+    ]
+  },
+  "polls": [
+    {
+      "name": "Trump Approval",
+      "value": "38%/60%",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
+      "asOf": "Oct 30, 2026"
+    },
+    {
+      "name": "Generic Congressional Vote",
+      "value": "Dem +8",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "Oct 30, 2026"
+    },
+    {
+      "name": "Right Direction",
+      "value": "34%",
+      "sub": "",
+      "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/right_direction_or_wrong_track",
+      "asOf": "Oct 22, 2026"
+    }
+  ],
+  "balance": {
+    "left": 644,
+    "right": 734,
+    "independent": 9,
+    "days": 30,
+    "total": 1378,
+    "pctLeft": 47,
+    "pctRight": 53
+  }
+}
