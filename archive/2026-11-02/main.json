@@ -1,0 +1,505 @@
+{
+  "lastUpdated": 1793621764696,
+  "heroSetDate": "2026-11-02",
+  "hero": {
+    "headline": "NINE KILLED AS PRIVATE JET CRASHES NEAR PALM BEACH, FLORIDA",
+    "url": "https://apnews.com/article/palm-beach-plane-crash-ffdee609e7916ff7fcd178d2b8e69b39",
+    "sublinks": [
+      {
+        "text": "BBC: Fiery Crash Erupts In West Palm Beach County Neighborhood",
+        "url": "https://www.bbc.com/news/articles/cm369yy7lw73o"
+      },
+      {
+        "text": "Air Traffic Audio Captures Pilot's Final Words: 'We're Out Of Time'",
+        "url": "https://x.com/TPostMillennial/status/2117003285953450207"
+      },
+      {
+        "text": "Learjet Reportedly Plunged 32,000 Feet In Final Descent",
+        "url": "https://www.dailymail.com/news/article-16257059/flames-Palm-beach-Mar-Lago-florida.html"
+      },
+      {
+        "text": "Unverified Rumors Of Missile Strike Spread As Flight-Tracking Data Vanishes",
+        "url": "https://bocanewsnow.com/2026/11/01/plane-crash-in-palm-beach-county/"
+      }
+    ],
+    "postedAt": 1793621764696,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "IRAN WAR TENSIONS ESCALATE AS BOTH SIDES PREPARE FOR MORE STRIKES",
+      "stories": [
+        {
+          "headline": "Iran's Supreme Leader Orders 'Maximum' Response To Attack",
+          "url": "https://www.axios.com/2026/10/31/irans-supreme-leader-maximum-response-us-attack",
+          "timestamp": 1793534763675,
+          "feature": true,
+          "postedAt": 1793535533593
+        },
+        {
+          "headline": "Trump Holds Call With Netanyahu To Prepare Renewed Iran Strikes",
+          "url": "https://www.timesofisrael.com/trump-holds-call-with-netanyahu-amid-preparations-to-renew-strikes-on-iran-report/",
+          "timestamp": 1793500592000,
+          "postedAt": 1793535533593
+        },
+        {
+          "headline": "Iran Braces For More War Regardless Of US, Israeli Election Outcomes",
+          "url": "https://en.sedaily.com/international/2026/11/01/iran-braces-for-more-strikes-regardless-of-election-outcomes",
+          "timestamp": 1793437542000,
+          "postedAt": 1793535533593
+        },
+        {
+          "headline": "Trump Says Iran War 'Going To End Soon' As Qatar Pushes For A Deal",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/",
+          "timestamp": 1793435460000,
+          "postedAt": 1793445348147
+        }
+      ]
+    },
+    {
+      "title": "HALLOWEEN COSTUME STORE SHOOTING",
+      "stories": [
+        {
+          "headline": "Inside The 'Halloween Horror' Costume Store Shooting Scene",
+          "url": "https://nypost.com/2026/10/31/us-news/california-spirit-halloween-shooting-leaves-1-dead-6-injured/",
+          "timestamp": 1793444685491,
+          "postedAt": 1793445348147
+        },
+        {
+          "headline": "Manhunt Underway After California Spirit Halloween Shooting Kills One, Hurts Six",
+          "url": "https://www.nbcnews.com/news/us-news/manhunt-california-spirit-halloween-shooting-dead-injured-police-rcna606673",
+          "timestamp": 1793436801000,
+          "feature": true,
+          "postedAt": 1793445348147
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "WALL STREET JOURNAL",
+        "url": "http://online.wsj.com/home-page",
+        "timestamp": 1793621216710,
+        "postedAt": 1793621801077
+      },
+      {
+        "headline": "DEM RIVAL OF EL SAYED FLIPS OUT, ENDORSES REPUBLICAN",
+        "url": "https://www.wsj.com/politics/elections/how-rep-haley-stevens-turned-on-a-fellow-democratand-became-a-party-pariah-25474541",
+        "timestamp": 1793621216711,
+        "postedAt": 1793621801077
+      },
+      {
+        "headline": "FBI VISITS ALASKA DONOR AS TRUMP DOJ ELECTION PROBES WIDEN DAYS BEFORE MIDTERMS",
+        "url": "https://www.adn.com/politics/2026/10/31/fbi-visits-dan-j-sullivan-donor-in-petersburg-as-alaska-senate-race-inquiry-widens/",
+        "timestamp": 1793535533593,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Big Tech Faces Political Reckoning In Ohio",
+        "url": "https://www.politico.com/news/2026/11/02/big-tech-ohio-sherrod-brown-husted-01144504",
+        "timestamp": 1793612760000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Sen. Chris Murphy Hospitalized After Stroke",
+        "url": "https://www.nbcnews.com/politics/congress/chris-murphy-hospitalized-stroke-recovery-rcna606834",
+        "timestamp": 1793609940000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793621764696,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "RealClear: Texas Early Vote Results Point To Record Turnout",
+        "url": "https://www.realclearpolitics.com/articles/2026/11/01/texas_early_vote_results_154644.html",
+        "timestamp": 1793509200000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "How Iran Battered U.S. Bases and Caused Billions in Damage",
+        "url": "https://apnews.com/article/iran-war-us-base-damage-trump-26e0f05e01d6f56ff46f7c1a14384f7c",
+        "timestamp": 1793534763675,
+        "postedAt": 1793535568632
+      },
+      {
+        "headline": "Blaze Plans Election-Night Special As Congress Control Hangs In Balance",
+        "url": "https://www.theblaze.com/shows/blazetv-specials/blazetv-announces-election-night-special-control-of-congress",
+        "timestamp": 1793534496000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Red Baron Dad Confronts Prank Influencer In Viral Video",
+        "url": "https://www.theblaze.com/news/red-baron-dad-viral-prank",
+        "timestamp": 1793533634000,
+        "photo": true,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Mamdani Says Trump Will Grant Visa To Mother Of Bronx Shooting Victim",
+        "url": "https://www.aljazeera.com/news/2026/11/1/mamdani-says-trump-to-grant-visa-to-mother-of-boy-killed-in-bronx-shooting",
+        "timestamp": 1793521522000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Nashville Chef's Final Call Raises Suspicion About Ex-Football Scout",
+        "url": "https://www.cbsnews.com/news/jade-benning-blaise-taylor-nashville-death-48-hours/",
+        "timestamp": 1793501880000,
+        "photo": true,
+        "postedAt": 1793535533593,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "ICE Agent Charged With Assault For Hitting Fleeing Man With Car",
+        "url": "https://apnews.com/article/houston-texas-ice-agent-charged-aggravated-assault-67bcdb11f7ed19aef2100e5c2a83f773",
+        "timestamp": 1793484780000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Rubio Says US Did Not Facilitate Bolsonaro's Flight To America",
+        "url": "https://apnews.com/article/g20-foreign-ministers-us-brazil-0ba5ba29246e4475cca2719bb962e57f",
+        "timestamp": 1793483161000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "WALL STREET JOURNAL",
+        "url": "https://www.npr.org/2026/11/01/nx-s1-6025342/judge-dismisses-trump-suit-against-wall-street-journal-epstein-letter",
+        "timestamp": 1793444685492,
+        "postedAt": 1793445421943
+      },
+      {
+        "headline": "Nicki Minaj Buries New York Governor In Online Feud",
+        "url": "https://www.theblaze.com/news/nicki-minaj-hochul-feud-ny",
+        "timestamp": 1793443113000,
+        "photo": true,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Trump's Halloween Plane Flyover Startles DC Residents",
+        "url": "https://timesofindia.indiatimes.com/world/us/trumps-halloween-surprise-sparks-panic-in-washington-residents-call-911-fearing-plane-crash-as-air-force-one-showed-low-altitude-flyover/articleshow/135377172.cms",
+        "timestamp": 1793402723000,
+        "photo": true,
+        "postedAt": 1793445348147,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "ICE Agent Charged With Striking Mexican National With His Car",
+        "url": "https://www.bbc.com/news/articles/ckjwep125v3eo",
+        "timestamp": 1793402203000,
+        "photo": true,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "$1 Trillion Wiped From Tech Stocks In Halloween Selloff",
+        "url": "https://www.nbcnews.com/business/rcna606512",
+        "timestamp": 1793444685491,
+        "feature": true,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "El-Sayed Disinvites Stevens From Unity Event Over Antisemitic Ad Dispute",
+        "url": "https://freebeacon.com/democrats/closing-catfight-el-sayed-disinvites-haley-stevens-from-unity-event-after-refusing-to-condemn-antisemitic-ad/",
+        "timestamp": 1793465569000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Paxton, Talarico Clash For Texas Senate Seat As Trump Campaigns Virtually",
+        "url": "https://www.pbs.org/newshour/politics/paxton-and-talarico-tussle-for-texas-senate-seat-as-trump-campaigns-virtually",
+        "timestamp": 1793488440000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "The Top 11 Senate Seats Most Likely To Flip",
+        "url": "https://www.cnn.com/2026/11/02/politics/cnn-senate-seats-most-likely-to-flip",
+        "timestamp": 1793610015000,
+        "postedAt": 1793621764696
+      }
+    ],
+    "center": [
+      {
+        "headline": "How Two Pennsylvania GOP Incumbents Are Navigating Trump And The Midterms",
+        "url": "https://www.npr.org/2026/11/02/nx-s1-6017845/how-2-gop-incumbents-in-pennsylvania-are-approaching-the-midterms-and-trump",
+        "timestamp": 1793620604000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Flash Flooding Triggers Evacuations Across Southwest, Dire Warning For Colorado Spa Town",
+        "url": "https://apnews.com/article/sedona-arizona-pagosa-springs-colorado-southwest-flooding-bb4bb89daf78484fb97496dfd88c4a10",
+        "timestamp": 1793599320000,
+        "photo": true,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Could Democrats Win A Majority Of Governorships This Year?",
+        "url": "https://www.newsfromthestates.com/article/democrats-could-win-majority-governors-offices-first-time-16-years",
+        "timestamp": 1793590440000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Police Probe Deep Ellum Shootings That Killed 4, Injured 15",
+        "url": "https://www.dallasnews.com/news/crime/article/4-dead-several-wounded-deep-ellum-shootings-22504917.php",
+        "timestamp": 1793582597000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Trump Rips Ex-Lawyer Alina Habba's 'Obnoxious' $50M Deal With Pardoned Banker's Family",
+        "url": "https://nypost.com/2026/11/01/us-news/trump-rips-alina-habbas-50m-deal-with-pardoned-venezuelan-bankers-family/",
+        "timestamp": 1793578500000,
+        "photo": true,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Teen Girl Killed, 8 Hurt In Shooting At Delaware Outdoor Party",
+        "url": "https://www.nbcphiladelphia.com/news/local/teen-girl-killed-8-injured-ellendale-delaware-party-shooting/4489404/",
+        "timestamp": 1793559489000,
+        "photo": true,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "NYC Man Arrested Twice For Attacking Four Women, Freed Both Times",
+        "url": "https://nypost.com/2026/10/31/us-news/nyc-madman-arrested-twice-for-attacking-4-women-over-2-day-period-walks-free-both-times-most-insane-story/",
+        "timestamp": 1793534763675,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Vance Road-Tests 2028 Campaign Themes",
+        "url": "https://thehill.com/homenews/6185794",
+        "timestamp": 1793534763674,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Long Beach Shuts Coastal Waters After Sewage Spill",
+        "url": "https://www.cbsnews.com/losangeles/news/sewage-spill-closes-coastal-waters-off-of-long-beach/",
+        "timestamp": 1793499262000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Virginia, DC Sue To Block Trump's National Arch Project",
+        "url": "https://apnews.com/article/trump-memorial-arch-lawsuits-virginia-district-columbia-f71a43143f8c8734fbd9aa3ceebfd1d6",
+        "timestamp": 1793495400000,
+        "photo": true,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Ukrainian Evacuees Describe 'Coming From Hell' After City's Fall",
+        "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o",
+        "timestamp": 1793483014000,
+        "photo": true,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Wrong Turn Leads Stranger To Rescue Family Of 14 From House Fire",
+        "url": "https://notthebee.com/article/wrong-turn-leads-to-stranger-rescuing-family-of-14-from-house-fire/",
+        "timestamp": 1793457730000,
+        "photo": true,
+        "postedAt": 1793535533593,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "Florida Woman Arrested After Threatening To Assassinate Trump Online",
+        "url": "https://notthebee.com/article/florida-woman-finds-out-after-threatening-to-assassinate-trump-on-social-media/",
+        "timestamp": 1793452036000,
+        "photo": true,
+        "postedAt": 1793535533593,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "Report: Son of \"Decoy Dan\" works for Democrat who co-chairs House caucus with Alaskan challenger accused of fraud",
+        "url": "https://notthebee.com/article/report-son-of-decoy-dan-works-for-democrat-who-co-chairs-house-caucus-with-alaskan-challenger-accused-of-fraud/",
+        "timestamp": 1793391751000,
+        "postedAt": 1793445421943
+      },
+      {
+        "headline": "Anxiety Mounts in Final Days Before Elections",
+        "url": "https://english.nv.ua/nation/trump-lashes-out-at-critics-as-white-house-anxiety-mounts-ahead-of-midterms-nyt-50654426.html",
+        "timestamp": 1793444685492,
+        "postedAt": 1793445421943
+      },
+      {
+        "headline": "National Review: Trump DOJ's 'Futile' Attempt To Indict Cassidy Hutchinson",
+        "url": "https://www.nationalreview.com/2026/10/the-trump-dojs-futile-attempt-to-indict-cassidy-hutchinson/",
+        "timestamp": 1793442628000,
+        "photo": true,
+        "postedAt": 1793445348147,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "US Execution Survivor Christa Pike Says She Is Now In 'Constant Pain'",
+        "url": "https://www.aljazeera.com/news/2026/10/31/us-execution-survivor-christa-pike-says-she-is-now-in-constant",
+        "timestamp": 1793418289000,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "SNL Writer's Missing Sister: Boyfriend Among Two Arrested On Murder Suspicion",
+        "url": "https://www.nbclosangeles.com/investigations/arrest-snl-writer-sister-christina-downer-jimmy-fowlie/3963695/",
+        "timestamp": 1793412360000,
+        "photo": true,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "US Approves $2.1 Billion Patriot Interceptor Sale To Ukraine",
+        "url": "https://www.nbcnews.com/world/ukraine/us-approves-21-billion-sale-patriot-interceptors-ukraine-rcna606641",
+        "timestamp": 1793400278000,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Guardian: Affordability Looms Over Maine's Tight Senate Race",
+        "url": "https://www.theguardian.com/us-news/2026/oct/30/maine-senate-race-affordability-trump",
+        "timestamp": 1793399340000,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Broader Market Shudders As AI-Linked Shares Lead The Rout",
+        "url": "https://www.marketwatch.com/story/the-selloff-in-tech-stocks-is-shifting-into-overdrive-afb50975",
+        "timestamp": 1793444685491,
+        "postedAt": 1793445348147
+      }
+    ],
+    "right": [
+      {
+        "headline": "Did Army General Brett Sylvia Betray His Country’s Secrets?",
+        "url": "https://spectator.org/did-army-general-brett-sylvia-betray-his-countrys-secrets/",
+        "timestamp": 1793560800000,
+        "postedAt": 1793621801077
+      },
+      {
+        "headline": "USA Once Dominated World's Oceans. China's Xi is Changing That",
+        "url": "https://www.wsj.com/world/china/china-xi-maritime-dominance-ef5f5c5a",
+        "timestamp": 1793621216710,
+        "postedAt": 1793621801077
+      },
+      {
+        "headline": "NYPD Releases Photo Of Marathon Trainee Critically Hurt In Brooklyn Stabbing",
+        "url": "https://abc7ny.com/post/nypd-releases-photo-nyc-marathon-trainee-critically-hurt-brooklyn-stabbing/20006204/",
+        "timestamp": 1793580745000,
+        "photo": true,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Police: Father-Son 'Gangstas' Botched Hit, Killed Star Football Player Instead",
+        "url": "https://notthebee.com/article/police-say-father-and-son-gangstas-tried-to-assassinate-someone-killed-a-star-football-player-instead/",
+        "timestamp": 1793552251000,
+        "photo": true,
+        "postedAt": 1793621764696,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "RealClear: Voters To Weigh In On Protecting Girls' Sports In Blue States",
+        "url": "https://www.realclearpolitics.com/articles/2026/11/01/voters_to_weigh_in_on_protecting_girls_sports_in_blue_states__154643.html",
+        "timestamp": 1793509200000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Economists Warn AI Boom Could Trigger Economic Collapse",
+        "url": "https://futurism.com/future-society/investor-economy-collapse-ai-raoul-pal",
+        "timestamp": 1793534763674,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "China's Latest Grave Threat To Europe's Economy",
+        "url": "https://www.nationalreview.com/corner/chinas-latest-grave-threat-to-europes-economy/",
+        "timestamp": 1793533642000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Judge Dismisses Trump Lawsuit Against WSJ Over Epstein Letter",
+        "url": "https://www.theguardian.com/us-news/2026/oct/31/judge-dismisses-trump-lawsuit-wall-street-journal-epstein",
+        "timestamp": 1793478660000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Megan Rapinoe says men can play women's sports because sports aren't fair in the first place",
+        "url": "https://notthebee.com/article/megan-rapinoe-says-men-can-play-womens-sports-because-sports-arent-fair-in-the-first-place/",
+        "timestamp": 1793383370000,
+        "postedAt": 1793445421943
+      },
+      {
+        "headline": "Behind the Scenes of Crypto's Biggest Nightmare: Record-Breaking Cyber Heist",
+        "url": "https://cryptorank.io/news/feed/cf65f-binance-hit-by-a-6-3b-security-nightmare-nikita-bier-mocks-cz-while-zachxbt-spots-a-bigger-threat",
+        "timestamp": 1793444685491,
+        "postedAt": 1793445421943
+      },
+      {
+        "headline": "AP: Meet The 'Socialist' Democrats Likely Headed To Congress",
+        "url": "https://apnews.com/article/socialist-democrats-congress-election-d3f36bd7e9c2a54ed893cec4388faea5",
+        "timestamp": 1793444685492,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "UK: Why Did Boy Who Stabbed Girl Who Rejected Him Get Such A Light Sentence?",
+        "url": "https://www.spiked-online.com/2026/10/31/why-did-a-boy-who-stabbed-a-girl-who-rejected-him-get-off-so-lightly/",
+        "timestamp": 1793444272000,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Canada: Carney Says Nation 'Learned We Are Overdependent' On The US",
+        "url": "https://www.dw.com/en/mark-carney-canada-has-learned-we-are-overdependent-on-the-us/a-79811469",
+        "timestamp": 1793417955000,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "'The Great Pumpkin' Turns 60",
+        "url": "https://www.city-journal.org/article/charlie-brown-great-pumpkin-stream-apple-tv",
+        "timestamp": 1793398477000,
+        "photo": true,
+        "postedAt": 1793445348147,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Republicans Brace For Potentially Historic Midterm Losses",
+        "url": "https://www.politico.com/news/2026/10/30/republicans-brace-for-losses-2026-midterms-01141576",
+        "timestamp": 1793444685492,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "New Battleground Polling Shows Tightening Races In Final Stretch",
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "timestamp": 1793439315000,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Critic Ed Zitron Calls Anthropic's Latest Numbers 'Junk'",
+        "url": "https://www.youtube.com/watch?v=884dTvxSk4c",
+        "timestamp": 1793444685491,
+        "postedAt": 1793445348147
+      },
+      {
+        "headline": "Stevens Advised To Skip El-Sayed Events To Avoid 'Distractions'",
+        "url": "https://www.theguardian.com/us-news/2026/oct/31/abdul-el-sayed-haley-stevens-disinvited-from-events",
+        "timestamp": 1793491080000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Haley Stevens' Fiancé Draws Fire Over Career-Threatening Controversy",
+        "url": "https://www.motherjones.com/politics/2026/10/haley-stevens-jason-turkish-abdul-el-sayed-michigan-senate/",
+        "timestamp": 1793445480000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Six Things To Watch For On Election Night",
+        "url": "https://www.npr.org/2026/11/02/nx-s1-6025451/midterms-what-to-watch-election-night",
+        "timestamp": 1793613600000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Final Poll Shows Troy Jackson Leading Susan Collins By 6 Points In Maine",
+        "url": "https://www.pressherald.com/2026/11/01/troy-jackson-leads-susan-collins-by-6-points-in-final-nyt-press-herald-siena-poll/",
+        "timestamp": 1793585242000,
+        "postedAt": 1793621764696
+      }
+    ]
+  },
+  "balance": {
+    "left": 633,
+    "right": 428,
+    "independent": 11,
+    "days": 30,
+    "total": 1061,
+    "pctLeft": 60,
+    "pctRight": 40
+  }
+}
