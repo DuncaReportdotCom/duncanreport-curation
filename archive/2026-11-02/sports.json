@@ -589,84 +589,174 @@
     },
     {
       "league": "NBA",
-      "home": "ORL",
-      "away": "BOS",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "97",
-      "awayScore": "108"
+      "home": "CLE",
+      "away": "OKC",
+      "state": "scheduled",
+      "note": "11/2 - 7:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NBA",
+      "home": "CHA",
+      "away": "DET",
+      "state": "scheduled",
+      "note": "11/2 - 7:30 PM EST",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "NBA",
       "home": "IND",
+      "away": "ATL",
+      "state": "scheduled",
+      "note": "11/2 - 7:30 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NBA",
+      "home": "NY",
       "away": "BKN",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "90",
-      "awayScore": "98"
+      "state": "scheduled",
+      "note": "11/2 - 7:30 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NBA",
+      "home": "ORL",
+      "away": "WSH",
+      "state": "scheduled",
+      "note": "11/2 - 7:30 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NBA",
+      "home": "PHI",
+      "away": "CHI",
+      "state": "scheduled",
+      "note": "11/2 - 7:30 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NBA",
+      "home": "DAL",
+      "away": "SAC",
+      "state": "scheduled",
+      "note": "11/2 - 8:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NBA",
+      "home": "MEM",
+      "away": "NO",
+      "state": "scheduled",
+      "note": "11/2 - 8:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NBA",
+      "home": "MIN",
+      "away": "MIL",
+      "state": "scheduled",
+      "note": "11/2 - 8:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NBA",
+      "home": "HOU",
+      "away": "BOS",
+      "state": "scheduled",
+      "note": "11/2 - 8:30 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NBA",
+      "home": "SA",
+      "away": "UTAH",
+      "state": "scheduled",
+      "note": "11/2 - 8:30 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NBA",
+      "home": "DEN",
+      "away": "POR",
+      "state": "scheduled",
+      "note": "11/2 - 9:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "NBA",
       "home": "GS",
-      "away": "LAC",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "124",
-      "awayScore": "112"
+      "away": "PHX",
+      "state": "scheduled",
+      "note": "11/2 - 10:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NBA",
+      "home": "LAC",
+      "away": "TOR",
+      "state": "scheduled",
+      "note": "11/2 - 10:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "NBA",
       "home": "LAL",
-      "away": "TOR",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "131",
-      "awayScore": "125"
+      "away": "MIA",
+      "state": "scheduled",
+      "note": "11/2 - 10:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "NHL",
-      "home": "CAR",
-      "away": "WPG",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "7",
-      "awayScore": "0"
+      "home": "BOS",
+      "away": "VGK",
+      "state": "scheduled",
+      "note": "11/2 - 7:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "NHL",
-      "home": "WSH",
-      "away": "MIN",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "1",
-      "awayScore": "5"
+      "home": "FLA",
+      "away": "DET",
+      "state": "scheduled",
+      "note": "11/2 - 7:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "NHL",
-      "home": "PHI",
-      "away": "UTA",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "3"
+      "home": "CHI",
+      "away": "COL",
+      "state": "scheduled",
+      "note": "11/2 - 8:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "NHL",
-      "home": "NYR",
-      "away": "EDM",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "1",
-      "awayScore": "4"
-    },
-    {
-      "league": "NHL",
-      "home": "ANA",
-      "away": "OTT",
-      "state": "post",
-      "note": "Final",
-      "homeScore": "6",
-      "awayScore": "3"
+      "home": "SJ",
+      "away": "CGY",
+      "state": "scheduled",
+      "note": "11/2 - 9:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "league": "MLS",

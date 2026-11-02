@@ -78,14 +78,8 @@
   "columns": {
     "left": [
       {
-        "headline": "WALL STREET JOURNAL",
-        "url": "http://online.wsj.com/home-page",
-        "timestamp": 1793621216710,
-        "postedAt": 1793621801077
-      },
-      {
         "headline": "DEM RIVAL OF EL SAYED FLIPS OUT, ENDORSES REPUBLICAN",
-        "url": "https://www.wsj.com/politics/elections/how-rep-haley-stevens-turned-on-a-fellow-democratand-became-a-party-pariah-25474541",
+        "url": "https://apnews.com/article/elsayed-michigan-stevens-democrats-unity-midterms-d7053bbd0ed2fd70756896c6e4b66a27",
         "timestamp": 1793621216711,
         "postedAt": 1793621801077
       },
@@ -160,12 +154,6 @@
         "url": "https://apnews.com/article/g20-foreign-ministers-us-brazil-0ba5ba29246e4475cca2719bb962e57f",
         "timestamp": 1793483161000,
         "postedAt": 1793535533593
-      },
-      {
-        "headline": "WALL STREET JOURNAL",
-        "url": "https://www.npr.org/2026/11/01/nx-s1-6025342/judge-dismisses-trump-suit-against-wall-street-journal-epstein-letter",
-        "timestamp": 1793444685492,
-        "postedAt": 1793445421943
       },
       {
         "headline": "Nicki Minaj Buries New York Governor In Online Feud",
@@ -366,7 +354,7 @@
       },
       {
         "headline": "USA Once Dominated World's Oceans. China's Xi is Changing That",
-        "url": "https://www.wsj.com/world/china/china-xi-maritime-dominance-ef5f5c5a",
+        "url": "https://www.hindustantimes.com/world-news/hit-podcasts-reveal-the-angst-of-china-s-youth-101793588198420.html",
         "timestamp": 1793621216710,
         "postedAt": 1793621801077
       },
@@ -494,11 +482,11 @@
     ]
   },
   "balance": {
-    "left": 633,
-    "right": 428,
+    "left": 632,
+    "right": 425,
     "independent": 11,
     "days": 30,
-    "total": 1061,
+    "total": 1057,
     "pctLeft": 60,
     "pctRight": 40
   }
