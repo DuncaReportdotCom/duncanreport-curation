@@ -1452,6 +1452,7 @@ def _new_cap(existing):
 # one-shot escape hatch for a lead that was set in error - clear entries once they've rolled off.
 _RETIRE_HERO = {
     "https://www.nbcnews.com/world/asia/flash-flood-nepal-tibet-villages-destroyed-american-tourists-missing-rcna594473",
+    "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",  # unverified IRGC mine claim stated as fact
 }
 
 def merge(existing, fresh):
@@ -2348,10 +2349,11 @@ def _curate_create(client, model, system, msgs):
 
 # ============================ TRENDING / ATTENTION SIGNAL ============================
 # A second axis on top of our frequency ranking: "what is getting outsized attention right now."
-# Used to CATCH MISSES - a big breaking story or a subject our fixed-outlet crawl didn't surface -
-# never to drive selection on its own. Every item is tagged arc="Trending" and folded into the
-# candidate pool as a modest slice; the model is told to include one only if it is genuinely
-# newsworthy and section-appropriate (avoid slop). Reputable sources only, and everything still
+# Now a PRIMARY DRIVER of lead/top-story selection (not just a miss-catcher): the page should lead
+# with the biggest, most-talked-about breaking stories, so these attention candidates go in FIRST and
+# at a larger slice. Every item is tagged arc="Trending" and folded into the candidate pool; the
+# model is told to WEIGHT them heavily for the hero and top stories but still only include ones that
+# are genuinely newsworthy and section-appropriate (avoid slop). Reputable sources only, and everything still
 # runs through the normal suppression filter. All fetchers fail safe (return [] on any error), so
 # a source being down or changing shape can never break or empty a page.
 
@@ -2436,7 +2438,7 @@ def _nyt_most_popular():
 def trending_candidates(section):
     """Assemble the section's trending/attention candidates (memeorandum + NYT Most Popular),
     tagged arc='Trending'. main gets everything; the other sections get only items that map to
-    them. A SUPPLEMENT to catch missed/breaking subjects - fed into the pool, not selected here."""
+    them. A PRIMARY attention signal - fed into the pool FIRST and weighted heavily for the lead."""
     out, seen = [], set()
     for u in MEMEO_FEEDS.get(section, []):
         for r in _memeorandum(u):
@@ -2468,12 +2470,12 @@ def curate_live(section):
     editorials = editorial_candidates() if section == "main" else []
     ntb = notthebee_pick(section) if section == "main" else []
     cands, seen = [], set()
-    for c in (tops[:26] + ntb + trending[:20] + realclear[:18] + editorials[:24] + drudge[:28] + arcs[:45] + breaking[:45]):
+    for c in (trending[:40] + tops[:26] + ntb + realclear[:18] + editorials[:24] + drudge[:28] + arcs[:45] + breaking[:45]):
         if c["url"] in seen:
             continue
         seen.add(c["url"])
         cands.append(c)
-    cands = [c for c in cands if not _suppressed(c.get("url"), c.get("title"))]
+    cands = [c for c in cands if not _suppressed(c.get("url"), c.get("title")) and _is_story_url(c.get("url"))]
     for c in cands:
         c["live"] = _islive(c.get("title"))
     cands = cands[:150]   # bigger pool so heavily-covered topics have the depth for a full panel
@@ -2658,8 +2660,39 @@ def curate_live(section):
             "still honor BREADTH and reserve the ODDITY slots regardless of volume.\n"
             % "\n".join(lines))
     editorial += (sports_emphasis() if section == "sports" else EMPHASIS.get(section, ""))
+    if section != "life-culture":
+        editorial += (
+            "\n\n===== LEAD WITH WHAT'S BIG AND TALKED-ABOUT (be spicy, not bland) =====\n"
+            "The hero and the top of the page must be the stories of real national weight AND high public "
+            "attention - the dramatic, consequential, most-talked-about breaking news people are actively "
+            "searching, sharing, and arguing about RIGHT NOW. WEIGHT TOTAL WEB ACTIVITY HEAVILY: the "
+            "Trending/attention candidates (arc='Trending' - memeorandum's 'what everyone is discussing' "
+            "plus NYT Most Viewed/Shared/Emailed) are now a PRIMARY DRIVER of the hero and the top stories, "
+            "NOT a mere supplement. If a story is blowing up across the web and matters nationally, it "
+            "belongs at or near the top; a major viral controversy that the rest of the page is under-"
+            "covering (e.g. a firestorm around a national political figure) should be PROMOTED, not buried. "
+            "Do NOT lead with a sleepy, routine, or low-interest story when a bigger, hotter one is "
+            "available - a boring lead is a failure. DEPTH OVER BREADTH: we deliberately prioritize covering "
+            "the few dominant, high-engagement stories thoroughly over spreading thin across many minor "
+            "ones; when in doubt, go deeper on what's hot rather than wider. This does NOT lower the "
+            "accuracy, attribution, or both-sides bar - 'spicy' means consequential and genuinely "
+            "talked-about, never fabricated, misleading, clickbait, or one-sided.\n")
     if section in ("main", "politics", "world"):
         editorial += (
+            "\n\n===== BOTH SIDES - LET THE READER DECIDE (the core mission) =====\n"
+            "This site's purpose is NOT bland neutrality - it is to put BOTH SIDES of every contested story "
+            "in front of the reader and let THEM decide. For ANY disputed or politically charged item - a "
+            "claim, an accusation, an investigation, a lawsuit, a policy fight, a contested event - you MUST "
+            "actively represent the OPPOSING side's real argument, not just report one side's version and move "
+            "on. If Iran or any hostile government makes a claim, include the U.S. or independent counter-claim "
+            "or denial. If Democrats make a claim or accusation, include what Republicans say in response - and "
+            "an independent or fact-check take where one exists - and the exact reverse when the claim comes "
+            "from the right. Never leave a single-source or one-sided account standing alone: pull in the "
+            "rebuttal, the counter-evidence, or the other camp's framing FROM AN OUTLET THAT ACTUALLY MAKES "
+            "THAT CASE, and place it alongside - a sublink on the hero, a second story in the panel, or an "
+            "adjacent column item. The test for every contested item: would a reader on the OTHER side feel "
+            "their argument is fairly present on this page? If not, add it. This governs the hero, the panels, "
+            "AND the columns - it is the whole point of the site, not a box to check in one place.\n"
             "\n\n===== NEWS FIRST (analysis is a MINOR thread) =====\n"
             "This is a NEWS page: the large majority of items must be straight news reporting of what "
             "ACTUALLY HAPPENED. Opinion, analysis, columns, and think-pieces are a MINOR accent - on an "
@@ -2679,6 +2712,17 @@ def curate_live(section):
         "Concrete example: NOT 'Popular Rock Band's Tour Bus In Deadly Upstate Crash' -> YES "
         "'Buckcherry's Tour Bus In Deadly Upstate New York Crash'. A headline that tells the reader "
         "WHAT HAPPENED always beats one written to make them click to find out who or what it means.\n"
+        "ATTRIBUTE CONTESTED CLAIMS - NEVER STATE PROPAGANDA AS FACT: a claim that is unverified, "
+        "disputed, or single-sourced to an INTERESTED party - above all a hostile government or its "
+        "state media (Iran/IRGC, Russia/Kremlin, Hamas, the Houthis, China's MOFA, etc.) - must KEEP "
+        "its attribution in the headline: 'Iran Claims...', 'Russia Says...', 'Hamas Alleges...', "
+        "'Reportedly', 'Unconfirmed'. Do NOT strip the source and assert the claim as established fact. "
+        "If the SOURCE ARTICLE itself attributes a claim ('Iran claims four tankers struck mines'), your "
+        "headline MUST preserve that attribution - dropping it to 'Four Tankers Struck By Mines' turns a "
+        "disputed enemy claim into a false factual statement and destroys the site's credibility. When US "
+        "or independent monitors dispute a claim, that dispute belongs in the coverage (a sublink), not "
+        "omitted. Verified, multi-source events are stated plainly; contested or enemy-sourced claims are "
+        "always attributed.\n"
         "DISTINCT HEADLINES (no near-duplicates side by side): when TWO items cover the SAME story - a "
         "left and a right outlet paired on one event, two stories inside a panel, opinion pieces in an "
         "\"editorials\" array, or the hero and its sublinks - each headline MUST be worded DIFFERENTLY: a "
@@ -4409,7 +4453,8 @@ def cloudflare_traffic(days=7):
 
 SUPPRESS = json.loads(r"""
 {
- "urls": ["https://www.nbcnews.com/politics/2026-primary-elections/national"],
+ "urls": ["https://www.nbcnews.com/politics/2026-primary-elections/national",
+          "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html"],
  "domains": [],
  "keywords": []
 }
@@ -4424,6 +4469,30 @@ def _suppressed(url, text=""):
     if t and any(kw.lower() in t for kw in SUPPRESS.get("keywords", [])):
         return True
     return False
+
+_NONSTORY_PATHS = {"", "/home", "/home-page", "/homepage", "/home.page", "/index.html", "/index.htm",
+    "/latest", "/news", "/world", "/politics", "/business", "/markets", "/opinion", "/sports", "/us",
+    "/world-news", "/elections"}
+
+def _is_story_url(url):
+    """True only if the URL looks like an actual ARTICLE, not an outlet homepage or a bare section
+    front (e.g. online.wsj.com/home-page, foxnews.com/politics). Conservative - fails OPEN (keeps the
+    link) when unsure, so real stories are never dropped; it only rejects clear non-stories."""
+    try:
+        p = urllib.parse.urlparse(url or "")
+    except Exception:
+        return True
+    if not p.netloc:
+        return True
+    path = (p.path or "").rstrip("/").lower()
+    if path in _NONSTORY_PATHS and not p.query:
+        return False
+    segs = [s for s in path.split("/") if s]
+    # a real item has a slug (hyphen/underscore), a digit (date/id), 2+ path segments, OR a query that
+    # identifies specific content (youtube.com/watch?v=..., ...?id=..., ?story=...).
+    if p.query or "-" in path or "_" in path or any(ch.isdigit() for ch in path) or len(segs) >= 2:
+        return True
+    return False   # bare single-word path, no slug/digit/query -> a section front, not a story
 
 _FASHION_KW = ("fashion", "runway", "couture", "designer", "menswear", "red carpet", "met gala",
     "catwalk", "streetwear", "capsule collection", "wardrobe", "stylist", "sartorial", "haute",
@@ -4790,7 +4859,8 @@ def apply_suppress(data):
     columns). If the hero itself is suppressed, promote the top remaining story so the page
     is never left blank, and unset heroSetDate so the next run picks a fresh hero cleanly."""
     def bad(s):
-        return _suppressed(s.get("url"), s.get("headline") or s.get("text"))
+        return (_suppressed(s.get("url"), s.get("headline") or s.get("text"))
+                or not _is_story_url(s.get("url")))   # also drop homepage/section-front links (not a story)
     cols = data.get("columns") or {}
     for k in ("left", "center", "right"):
         cols[k] = [s for s in (cols.get(k) or []) if not bad(s)]
@@ -5184,7 +5254,7 @@ def balance_backfill(section, data, pool, margin=1):
             if s.get("url"):
                 used.add(s["url"])
     extra = [p for p in (pool or [])
-             if p.get("url") and p["url"] not in used and _story_lean(p["url"]) == "R"]
+             if p.get("url") and p["url"] not in used and _is_story_url(p["url"]) and _story_lean(p["url"]) == "R"]
     extra.sort(key=lambda p: p.get("ts") or 0, reverse=True)      # freshest right coverage first
     added = 0
     for p in extra:
