@@ -1,0 +1,708 @@
+{
+  "lastUpdated": 1793708470053,
+  "heroSetDate": "2026-11-03",
+  "hero": {
+    "headline": "BENGALS EMERGE AS SUITOR FOR JONATHAN TAYLOR AS NFL TRADE DEADLINE NEARS",
+    "url": "https://sports.yahoo.com/articles/making-sense-latest-bengals-jonathan-103206495.html",
+    "sublinks": [
+      {
+        "text": "Full trade-candidate rundown beyond Taylor, including Brian Thomas Jr.",
+        "url": "https://www.nbcsports.com/fantasy/football/news/2026-nfl-trade-deadline-preview-jonathan-taylor-brian-thomas-jr-headline-top-trade-candidates"
+      },
+      {
+        "text": "Quarterback market: Mac Jones, Kirk Cousins lead available arms",
+        "url": "https://www.cbssports.com/nfl/news/2026-nfl-trade-deadline-qb-rankings-mac-jones-kirk-cousins/"
+      },
+      {
+        "text": "Chargers' puzzling deadline behavior leaves rival execs guessing",
+        "url": "https://www.si.com/nfl/chargers/onsi/nfl-trade-rumors-chargers-weird-behavior-confuses-other-teams"
+      },
+      {
+        "text": "Ravens' murky Lamar Jackson situation adds to deadline uncertainty",
+        "url": "https://www.espn.com/nfl/story/_/id/50359850/look-lamar-jackson-cloudy-future-baltimore-ravens"
+      }
+    ],
+    "postedAt": 1793708470053,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "LAMAR JACKSON'S SEASON IN JEOPARDY",
+      "stories": [
+        {
+          "headline": "Opinion: Ravens' Lamar Jackson Dilemma Is Only Beginning",
+          "url": "https://www.usatoday.com/story/sports/nfl/columnist/nate-davis/2026/11/02/lamar-jackson-thumb-injury-contract-salary-cap-dilemma/92558911007/",
+          "timestamp": 1793615100000,
+          "postedAt": 1793622064863
+        },
+        {
+          "headline": "Lamar Jackson Needs Thumb Surgery, Could Miss Rest Of Season",
+          "url": "https://apnews.com/article/baltimore-ravens-qb-lamar-jackson-0baebd49f4865d674f0a877d39cd39d3",
+          "timestamp": 1793577429000,
+          "feature": true,
+          "postedAt": 1793622064863
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Wil Lutz Extends NFL-Record Extra-Point Streak To 113",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/wil-lutz-has-made-113-straight-extra-points-most-in-the-nfl-since-the-2015-rule-change",
+        "timestamp": 1793704581000,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Tenerife Soccer Player Jesus De Miguel Dies After On-Pitch Collision",
+        "url": "https://www.reuters.com/sports/soccer/tenerife-striker-jesus-de-miguel-dies-after-collision-match-2026-11-03/",
+        "timestamp": 1793702335000,
+        "feature": true,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Luka Dončić Drops 42, Earns Praise From Giannis",
+        "url": "https://www.espn.com/nba/story/_/id/50366831/luka-doncic-earns-praise-giannis-antetokounmpo-hot-streak-continues-lakers-win-vs-heat",
+        "timestamp": 1793692440000,
+        "photo": true,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Oklahoma Fires Offensive Coordinator Ben Arbuckle",
+        "url": "https://www.footballscoop.com/2026/11/02/oklahoma-fires-offensive-coordinator-ben-arbuckle",
+        "timestamp": 1793661947000,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Jake Paul To Fight Cedric Doumbe In Boxing-Kickboxing Crossover Dec. 24",
+        "url": "https://www.bbc.com/sport/boxing/articles/cx98z22mz8r8o",
+        "timestamp": 1793621789000,
+        "photo": true,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Nashville SC Ties MLS Record For Points In A Season",
+        "url": "https://www.nashvillesc.com/news/renasant-recap-nashville-soccer-club-ties-mls-record-for-most-points-in-a-single-season",
+        "timestamp": 1793584595000,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "FSU Fires Mike Norvell, Names Interim Leadership",
+        "url": "https://247sports.com/college/florida-state/longformarticle/fsu-football-richard-mccullough-bruce-warwick-292077952/",
+        "timestamp": 1793619200000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "MLB Announces 2026 Gold Glove Award Winners",
+        "url": "https://bleacherreport.com/articles/25528302-mlb-gold-glove-awards-2026-full-list-winners-and-reaction",
+        "timestamp": 1793589087000,
+        "photo": true,
+        "postedAt": 1793622064863,
+        "image": "/img/sports-5.jpg"
+      },
+      {
+        "headline": "F1: Winners And Losers From Record-Breaking Mexico Grand Prix",
+        "url": "https://www.motorsport.com/f1/news/winners-and-losers-from-f1s-historic-mexico-grand-prix/10870803/",
+        "timestamp": 1793579112000,
+        "photo": true,
+        "postedAt": 1793622064863,
+        "image": "/img/sports-6.jpg"
+      },
+      {
+        "headline": "NFL Owners Haven't Fired A Coach Yet, But 'It's Coming,' Agent Says",
+        "url": "https://frontofficesports.com/article/nfl-owners-havent-fired-a-coach-yet-its-coming-agent-says/",
+        "timestamp": 1793531051000,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "One Killed, Eight Injured In Shooting Outside Legion Field After Magic City Classic",
+        "url": "https://www.wvtm13.com/article/4-people-injured-shooting-near-legion-field-birmingham/74303926",
+        "timestamp": 1793524500000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Tom Nolan Stops Renato Moicano To Win UFC Vegas 123 Main Event",
+        "url": "https://www.mmafighting.com/ufc/518886/tom-nolan-brutalizes-renato-moicano-with-ground-and-pound-to-win-ufc-vegas-123-main-event",
+        "timestamp": 1793501940000,
+        "photo": true,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "No. 1 Nebraska Volleyball Rallies Past Michigan State In Four Sets",
+        "url": "https://www.on3.com/teams/nebraska-cornhuskers/news/murray-jackson-led-no-1-nebraska-volleyball-to-four-set-win-at-michigan-state/",
+        "timestamp": 1793498422000,
+        "photo": true,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Miami Rallies Past North Carolina 38-35 On Fletcher's Late Score",
+        "url": "https://apnews.com/article/miami-north-carolina-score-8e7b2464d2c5e6586fc1c2f6ef600468",
+        "timestamp": 1793509500000,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "BYU Holds Off Arizona State To Stay Unbeaten",
+        "url": "https://www.deseret.com/sports/2026/10/31/byu-football-defeats-arizona-state-3-takeaways/",
+        "timestamp": 1793494560000,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Packers' Pursuit Of Jonathan Taylor Gains Steam After Josh Jacobs Update",
+        "url": "https://www.si.com/nfl/packers/onsi/packers-trade-for-jonathan-taylor-more-likely-after-latest-josh-jacobs",
+        "timestamp": 1793468319000,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Eagles Lose Sixth Straight Game, Fall To Commanders",
+        "url": "https://www.bleedinggreennation.com/philadelphia-eagles-scores-results/189007/eagles-commanders-live-score-updates-highlights-injury-news",
+        "timestamp": 1793593260000,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "Broncos Upset Chiefs In Statement Week 8 Win",
+        "url": "https://www.chiefs.com/video/full-game-highlights-from-week-8-chiefs-vs-broncos-x3240",
+        "timestamp": 1793585295000,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "Bills Dominate Ravens In Statement Win, Asterisk And All",
+        "url": "https://www.democratandchronicle.com/story/sports/football/nfl/bills/2026/11/01/buffalo-bills-defense-dominates-ravens-after-qb-injuries/92555642007/",
+        "timestamp": 1793580420000,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "Steelers Physically Dominate Browns In The Trenches",
+        "url": "https://www.post-gazette.com/sports/steelers/2026/11/02/steelers-browns-offensive-line-mike-mccarthy/stories/202611010114",
+        "timestamp": 1793573997000,
+        "postedAt": 1793622064863
+      }
+    ],
+    "center": [
+      {
+        "headline": "Pelicans End Grizzlies' Unbeaten Run In OT Thriller",
+        "url": "https://deadspin.com/nba-roundup-pelicans-prevail-in-ot-hand-grizzlies-first-loss/",
+        "timestamp": 1793699460000,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Warriors Erase 17-Point Deficit To Stun Suns",
+        "url": "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/steph-curry-charles-bassey-phoenix-suns/1976556/",
+        "timestamp": 1793686001000,
+        "photo": true,
+        "postedAt": 1793708470053,
+        "image": "/img/sports-0.jpg"
+      },
+      {
+        "headline": "Lions' Dan Campbell Visits Injured Jack Campbell In Hospital",
+        "url": "https://www.usatoday.com/story/sports/nfl/lions/2026/11/02/jack-campbell-injury-dan-campbell-update-detroit-lions-player/92556541007/",
+        "timestamp": 1793659800000,
+        "photo": true,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Ex-Florida State Coach Mike Norvell Weighs Next Career Move",
+        "url": "https://www.cbssports.com/college-football/news/mike-norvell-whats-next-florida-state-firing/",
+        "timestamp": 1793646814000,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Matt Rhule Says Daughter, 10, Verbally Accosted By Fan After Loss",
+        "url": "https://www.on3.com/teams/nebraska-cornhuskers/news/matt-rhule-claims-10-year-old-daughter-was-verbally-accosted-by-fan-following-loss-to-washington/",
+        "timestamp": 1793644071000,
+        "photo": true,
+        "postedAt": 1793708470053,
+        "image": "/img/sports-2.jpg"
+      },
+      {
+        "headline": "Duke Basketball Built Roster To Fix March Failures, Analysis Finds",
+        "url": "https://www.usatoday.com/story/sports/ncaab/acc/2026/11/02/duke-basketball-roster-jon-scheyer-title-drought-season-preview/92504762007/",
+        "timestamp": 1793615460000,
+        "photo": true,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "Luka Doncic's Improved Defense Draws Praise From Lakers, Raptors",
+        "url": "https://www.espn.com/nba/story/_/id/50356293/lakers-luka-doncic-touts-improved-defense-win-vs-raptors",
+        "timestamp": 1793602860000,
+        "photo": true,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "ESPN's CFP Tiers: How 29 Contenders Stack Up After Week 9",
+        "url": "https://www.espn.com/college-football/story/_/id/50348637/connelly-cfp-tiers-contenders-week-9",
+        "timestamp": 1793572500000,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "Liverpool Confirms Starting XI For Arsenal Showdown",
+        "url": "https://sports.yahoo.com/articles/liverpool-starting-xi-vs-arsenal-110000169.html",
+        "timestamp": 1793530800000,
+        "photo": true,
+        "postedAt": 1793535764398,
+        "image": "/img/sports-7.jpg"
+      },
+      {
+        "headline": "Olympic Runner Ciara Mageean Dies At 34",
+        "url": "https://sports.yahoo.com/articles/olympic-runner-mageean-dies-aged-100729258.html",
+        "timestamp": 1793528226000,
+        "photo": true,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "NYC Marathon 2026: Start Times, Route And How To Watch",
+        "url": "https://www.usatoday.com/story/sports/olympics/2026/11/01/nyc-marathon-2026-start-time-tv-route-results/92519937007/",
+        "timestamp": 1793527560000,
+        "photo": true,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Tyrese Maxey Carries Sixers To Win Without LeBron, Embiid",
+        "url": "https://www.phillyvoice.com/sixers-vs-hornets-76ers-news-analysis-box-score-highlights-tyrese-maxey-vj-edgecombe-jaylen-brown-tacko-fall/",
+        "timestamp": 1793494023000,
+        "photo": true,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Lincoln Riley's Biggest Win At USC Takes A Strange Turn",
+        "url": "https://www.si.com/college-football/pat-forde-lincoln-riley-notched-his-biggest-win-at-usc-then-things-turned-strange",
+        "timestamp": 1793530801000,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Washington Grinds Out 17-10 Win Over Nebraska",
+        "url": "https://www.on3.com/teams/nebraska-cornhuskers/news/instant-takes-washington-17-nebraska-10/",
+        "timestamp": 1793503942000,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Michigan Tops Rutgers For Fourth Straight Win",
+        "url": "https://www.maizenbrew.com/football/126910/michigan-football-rutgers-kyle-whittingham-tommy-carr-jason-beck",
+        "timestamp": 1793482720000,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Rams Grind Out Win Over Chargers",
+        "url": "https://theramswire.usatoday.com/story/sports/nfl/rams/2026/11/01/rams-chargers-week-8-best-worst-players/92554715007/",
+        "timestamp": 1793581080000,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "Bengals' Wild Overtime Win Produces Score Never Seen In NFL History",
+        "url": "https://www.cbssports.com/nfl/news/bengals-wild-overtime-win-ends-scorigami/",
+        "timestamp": 1793578816000,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "Bears Land Jeffery Simmons As Colts Trade Quenton Nelson In Deadline Moves",
+        "url": "https://abc7chicago.com/post/2026-nfl-trade-deadline-updates-latest-season-deals-news/19884108/",
+        "timestamp": 1793285743000,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "BYU Stuns Ohio State In Season Opener",
+        "url": "https://www.deseret.com/sports/2026/11/02/byu-basketball-defeats-ohio-state-season-opener-3-takeaways/",
+        "timestamp": 1793683380000,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Nebraska Routs Le Moyne 106-64 To Open Season",
+        "url": "https://www.on3.com/teams/nebraska-cornhuskers/news/nebraska-mens-basketball-devours-le-moyne-106-64-in-its-season-opener/",
+        "timestamp": 1793672797000,
+        "postedAt": 1793708470053
+      }
+    ],
+    "right": [
+      {
+        "headline": "VIKINGS' UNBEATEN SEASON ENDS IN UPSET LOSS TO LIONS",
+        "url": "https://www.bbc.com/sport/american-football/articles/c3x2wd8llqpko",
+        "timestamp": 1793622064863,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "Dodge Announces NASCAR Cup Series Return For 2027",
+        "url": "https://www.motorsport.com/nascar-cup/news/dodge-announces-nascar-cup-return-for-2027/10871121/",
+        "timestamp": 1793680592000,
+        "photo": true,
+        "postedAt": 1793708470053,
+        "image": "/img/sports-1.jpg"
+      },
+      {
+        "headline": "Pacers Dress Just Six Available Players In Loss To Hawks",
+        "url": "https://www.espn.com/nba/story/_/id/50364213/missing-11-players-pacers-play-just-six-loss-hawks",
+        "timestamp": 1793675580000,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "LeBron, Sixers Rally Past Bulls Behind Edgecombe's Sacrifice",
+        "url": "https://www.phillyvoice.com/sixers-bulls-76ers-news-analysis-lebron-james-joel-embiid-update-jaylen-brown-vj-edgecombe-nba/",
+        "timestamp": 1793675037000,
+        "photo": true,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Valkyries' Championship Parade Route Sparks Bay Area Debate",
+        "url": "https://www.sfchronicle.com/sports/article/valkyries-parade-route-embarcadero-22506699.php",
+        "timestamp": 1793660898000,
+        "photo": true,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Forde-Yard Dash: Ranking College Football Playoff's Biggest Power Brokers",
+        "url": "https://www.si.com/college-football/forde-yard-dash-10-biggest-power-brokers-in-cfp-race",
+        "timestamp": 1793646220000,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "GOLDEN STATE VALKYRIES WIN FIRST WNBA TITLE AS GABBY WILLIAMS NAMED FINALS MVP",
+        "url": "https://apnews.com/article/wnba-finals-game-7-valkyries-dream-189aa4b8ecb1d1fd8ddfacde3a9d6ac4",
+        "timestamp": 1793535764398,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Arsenal Beat Liverpool As Declan Rice Credits Team's Togetherness",
+        "url": "https://sports.yahoo.com/articles/declan-rice-says-togetherness-resilience-103000969.html",
+        "timestamp": 1793615400000,
+        "photo": true,
+        "postedAt": 1793622064863,
+        "image": "/img/sports-3.jpg"
+      },
+      {
+        "headline": "Former Cowboys QB Rips Dallas For 'Embarrassing' Loss To Cardinals",
+        "url": "https://www.cbssports.com/nfl/news/cowboys-loss-to-cardinals-qb-ben-dinucci/",
+        "timestamp": 1793590037000,
+        "photo": true,
+        "postedAt": 1793622064863,
+        "image": "/img/sports-4.jpg"
+      },
+      {
+        "headline": "Complete NASCAR Cup Points Standings After Martinsville II",
+        "url": "https://www.motorsport.com/nascar-cup/news/complete-nascar-cup-points-standings-after-2026-martinsville-ii/10870757/",
+        "timestamp": 1793576107000,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "Josh Allen Chases 102nd Career Win, Topping Brady's First Nine Seasons",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-going-for-his-102nd-win-counting-playoffs-more-than-tom-bradys-first-9-seasons",
+        "timestamp": 1793524597000,
+        "photo": true,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Florida-Georgia Fans Fume Over Neutral-Site Venue Issues",
+        "url": "https://www.foxnews.com/outkick-sports/florida-georgia-fans-fuming-todays-venue-multiple-reasons-one-sticks-out",
+        "timestamp": 1793460983000,
+        "photo": true,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Who Takes Over No. 2 Spot After Ohio State's Upset Loss?",
+        "url": "https://www.usatoday.com/story/sports/ncaaf/2026/11/01/college-football-poll-rankings-predictions-week-9/92545678007/",
+        "timestamp": 1793527140000,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "USC Knocks Off Ohio State As Indiana Escapes Minnesota In OT",
+        "url": "https://sports.yahoo.com/college-football/live/college-football-live-updates-scores-ohio-state-vs-usc-miami-vs-north-carolina-and-more-232523936.html",
+        "timestamp": 1793503200000,
+        "feature": true,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Five Trades A Fox Sports Columnist Wants To See Before Deadline",
+        "url": "https://www.foxsports.com/stories/nfl/nfl-trade-deadline-deals-i-want-to-see-jonathan-taylor-xavier-worthy-cowboys",
+        "timestamp": 1793492880000,
+        "postedAt": 1793535764398
+      },
+      {
+        "headline": "Jets' Latest Tough Loss Has Minkah Fitzpatrick Fuming",
+        "url": "https://www.espn.com/nfl/story/_/id/50353796/jets-being-jets-fitzpatrick-sums-team-latest-loss",
+        "timestamp": 1793580960000,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "Buccaneers Win Without Completing A Pass, First Time In 50 Years",
+        "url": "https://www.foxnews.com/outkick-sports/tampa-bay-buccaneers-win-nfl-game-without-completing-pass-first-time-happened-half-century",
+        "timestamp": 1793575957000,
+        "feature": true,
+        "postedAt": 1793622064863
+      },
+      {
+        "headline": "Snap Judgments From Men's College Basketball's Opening Night",
+        "url": "https://sports.yahoo.com/mens-college-basketball/article/snap-judgments-from-opening-night-of-mens-college-basketball-095458734.html",
+        "timestamp": 1793699698000,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Oklahoma Suffers Historic Upset To East Texas A&M On Opening Night",
+        "url": "https://bleacherreport.com/articles/25528823-oklahoma-suffers-historic-upset-loss-east-texas-am-1st-day-cbb-season",
+        "timestamp": 1793681239000,
+        "feature": true,
+        "postedAt": 1793708470053
+      },
+      {
+        "headline": "Predictions For Arizona-UCLA Among Day's Marquee Top 25 Matchups",
+        "url": "https://www.cbssports.com/college-basketball/news/college-hoops-arizona-ucla-opening-night-picks-predictions-spread-odds-betting-lines-top-25-games/",
+        "timestamp": 1793672580000,
+        "postedAt": 1793708470053
+      }
+    ]
+  },
+  "scoreboard": [
+    {
+      "league": "NFL",
+      "home": "SEA",
+      "away": "CHI",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "17",
+      "awayScore": "34"
+    },
+    {
+      "league": "NBA",
+      "home": "CLE",
+      "away": "OKC",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "112",
+      "awayScore": "117"
+    },
+    {
+      "league": "NBA",
+      "home": "CHA",
+      "away": "DET",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "91",
+      "awayScore": "124"
+    },
+    {
+      "league": "NBA",
+      "home": "IND",
+      "away": "ATL",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "104",
+      "awayScore": "108"
+    },
+    {
+      "league": "NBA",
+      "home": "NY",
+      "away": "BKN",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "103",
+      "awayScore": "90"
+    },
+    {
+      "league": "NBA",
+      "home": "ORL",
+      "away": "WSH",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "94",
+      "awayScore": "103"
+    },
+    {
+      "league": "NBA",
+      "home": "PHI",
+      "away": "CHI",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "126",
+      "awayScore": "107"
+    },
+    {
+      "league": "NBA",
+      "home": "DAL",
+      "away": "SAC",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "100",
+      "awayScore": "115"
+    },
+    {
+      "league": "NBA",
+      "home": "MEM",
+      "away": "NO",
+      "state": "post",
+      "note": "Final/OT",
+      "homeScore": "134",
+      "awayScore": "135"
+    },
+    {
+      "league": "NBA",
+      "home": "MIN",
+      "away": "MIL",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "112",
+      "awayScore": "100"
+    },
+    {
+      "league": "NBA",
+      "home": "HOU",
+      "away": "BOS",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "109",
+      "awayScore": "93"
+    },
+    {
+      "league": "NBA",
+      "home": "SA",
+      "away": "UTAH",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "119",
+      "awayScore": "97"
+    },
+    {
+      "league": "NBA",
+      "home": "DEN",
+      "away": "POR",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "110",
+      "awayScore": "118"
+    },
+    {
+      "league": "NBA",
+      "home": "GS",
+      "away": "PHX",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "116",
+      "awayScore": "113"
+    },
+    {
+      "league": "NBA",
+      "home": "LAC",
+      "away": "TOR",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "118",
+      "awayScore": "125"
+    },
+    {
+      "league": "NBA",
+      "home": "LAL",
+      "away": "MIA",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "138",
+      "awayScore": "117"
+    },
+    {
+      "league": "NHL",
+      "home": "BOS",
+      "away": "VGK",
+      "state": "post",
+      "note": "Final/SO",
+      "homeScore": "3",
+      "awayScore": "2"
+    },
+    {
+      "league": "NHL",
+      "home": "FLA",
+      "away": "DET",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "3",
+      "awayScore": "5"
+    },
+    {
+      "league": "NHL",
+      "home": "CHI",
+      "away": "COL",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "2",
+      "awayScore": "5"
+    },
+    {
+      "league": "NHL",
+      "home": "SJ",
+      "away": "CGY",
+      "state": "post",
+      "note": "Final",
+      "homeScore": "1",
+      "awayScore": "2"
+    },
+    {
+      "league": "MLS",
+      "home": "VAN",
+      "away": "SEA",
+      "state": "post",
+      "note": "FT",
+      "homeScore": "5",
+      "awayScore": "1"
+    },
+    {
+      "league": "MLS",
+      "home": "ATL",
+      "away": "TOR",
+      "state": "post",
+      "note": "FT",
+      "homeScore": "3",
+      "awayScore": "1"
+    },
+    {
+      "league": "MLS",
+      "home": "NSH",
+      "away": "RBNY",
+      "state": "post",
+      "note": "FT",
+      "homeScore": "3",
+      "awayScore": "2"
+    },
+    {
+      "league": "MLS",
+      "home": "NE",
+      "away": "MIA",
+      "state": "post",
+      "note": "FT",
+      "homeScore": "1",
+      "awayScore": "2"
+    },
+    {
+      "league": "MLS",
+      "home": "LAFC",
+      "away": "MIN",
+      "state": "post",
+      "note": "FT",
+      "homeScore": "1",
+      "awayScore": "3"
+    },
+    {
+      "league": "MLS",
+      "home": "POR",
+      "away": "HOU",
+      "state": "post",
+      "note": "FT",
+      "homeScore": "3",
+      "awayScore": "1"
+    },
+    {
+      "league": "NCAAF",
+      "home": "NEV",
+      "away": "UNM",
+      "state": "scheduled",
+      "note": "11/6 - 9:00 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "league": "NCAAF",
+      "home": "ARIZ",
+      "away": "TCU",
+      "state": "scheduled",
+      "note": "11/6 - 10:15 PM EST",
+      "homeScore": null,
+      "awayScore": null
+    }
+  ]
+}
