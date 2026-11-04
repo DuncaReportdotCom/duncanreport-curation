@@ -159,7 +159,7 @@
         "timestamp": 1793724840000,
         "photo": true,
         "postedAt": 1793795260155,
-        "image": "/img/world-0.jpg"
+        "image": "/img/world-1.jpg"
       },
       {
         "headline": "5 Rescued In South Pacific After Months Adrift At Sea, 4 Still Missing",
@@ -167,7 +167,7 @@
         "timestamp": 1793719117000,
         "photo": true,
         "postedAt": 1793795260155,
-        "image": "/img/world-1.jpg"
+        "image": "/img/world-2.jpg"
       },
       {
         "headline": "Italy Holds Security Talks After European Freezer Cyberattacks",
@@ -193,7 +193,7 @@
         "timestamp": 1793690184000,
         "photo": true,
         "postedAt": 1793708855450,
-        "image": "/img/world-2.jpg"
+        "image": "/img/world-3.jpg"
       },
       {
         "headline": "US Shuts South Africa, Rwanda Out Of AGOA Trade Benefits",
@@ -310,7 +310,7 @@
         "url": "https://www.euronews.com/2026/11/04/hockey-nations-refuse-to-play-russia-as-germany-weighs-pulling-out-as-host",
         "timestamp": 1793789852000,
         "postedAt": 1793795260155,
-        "image": "/img/world-4.jpg"
+        "image": "/img/world-5.jpg"
       },
       {
         "headline": "UK's King Charles Calls Transatlantic Slave Trade A 'Monstrous Injustice'",
@@ -344,7 +344,7 @@
         "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
         "timestamp": 1793676720000,
         "postedAt": 1793708855450,
-        "image": "/img/world-5.jpg"
+        "image": "/img/world-6.jpg"
       },
       {
         "headline": "Karl Bushby Completes 28-Year Walk Around The World",
@@ -352,7 +352,7 @@
         "timestamp": 1793653932000,
         "photo": true,
         "postedAt": 1793708855450,
-        "image": "/img/world-3.jpg"
+        "image": "/img/world-4.jpg"
       },
       {
         "headline": "Melania Trump's Credit For Oleshky Deal Disputed By Le Monde Report",
@@ -469,7 +469,8 @@
         "url": "https://www.straitstimes.com/asia/prominent-indian-free-speech-groups-say-police-ordered-x-accounts-removed",
         "timestamp": 1793792220000,
         "photo": true,
-        "postedAt": 1793795260155
+        "postedAt": 1793795260155,
+        "image": "/img/world-0.jpg"
       },
       {
         "headline": "Hoax Bomb Threats Trigger Flight Searches, Diversions Across Europe",
@@ -515,8 +516,7 @@
         "headline": "RIOTS SWEEP EUROPE AS COST-OF-LIVING PROTESTS TURN VIOLENT",
         "url": "https://www.nbcnews.com/world/europe/europe-braces-massive-halloween-protests-cost-living-public-services-rcna606671",
         "timestamp": 1793536213908,
-        "postedAt": 1793536213908,
-        "image": "/img/world-7.jpg"
+        "postedAt": 1793536213908
       },
       {
         "headline": "Hong Kong Releases First National Security Law Convict Early",
@@ -544,7 +544,7 @@
         "url": "https://www.iranintl.com/en/202611015457",
         "timestamp": 1793580000000,
         "postedAt": 1793622764550,
-        "image": "/img/world-6.jpg"
+        "image": "/img/world-7.jpg"
       },
       {
         "headline": "Rare Beetle That Oozes Defense Fluid Rediscovered In Wales",

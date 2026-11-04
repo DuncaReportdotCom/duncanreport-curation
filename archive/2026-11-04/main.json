@@ -494,12 +494,6 @@
     ],
     "right": [
       {
-        "headline": "Americans Cut Back on Boats and RVs but Can't Stop Buying HARLEYS",
-        "url": "https://www.wsj.com/business/retail/americans-cut-back-on-boats-and-rvsbut-cant-stop-buying-harley-davidsons-3db7bb4b",
-        "timestamp": 1793793919400,
-        "postedAt": 1793794565968
-      },
-      {
         "headline": "ELECTION DAY ARRIVES AFTER EARLY-VOTING SURGE, HEAVY MONITORING AT THE POLLS",
         "url": "https://apnews.com/article/midterms-election-day-voting-polls-trump-ba3037eed7bd816cc084bb1c4a2e6ccf",
         "timestamp": 1793708068241,
@@ -665,10 +659,10 @@
   },
   "balance": {
     "left": 628,
-    "right": 415,
+    "right": 414,
     "independent": 11,
     "days": 30,
-    "total": 1043,
+    "total": 1042,
     "pctLeft": 60,
     "pctRight": 40
   }
