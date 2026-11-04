@@ -3702,7 +3702,7 @@ ESPN_LEAGUES = {
 # current month, so the page leads with what is actually being PLAYED (or in camp) and
 # gives offseason leagues only major news. Self-adjusts year-round.
 _SPORT_POP = {"NFL": 100, "College football": 90, "NBA": 88, "MLB": 86,
-              "College basketball": 70, "NHL": 60, "MLS": 45}
+              "College basketball": 70, "NHL": 60, "MLS": 45, "WNBA": 18}
 _SPORT_SEASON = {   # sport: (in-season months, camp/preseason months)
     "MLB": (set(range(4, 11)), {3}),                 # Apr-Oct, spring training Mar
     "NFL": ({9, 10, 11, 12, 1, 2}, {8}),             # Sep-Feb, camp/preseason Aug
@@ -3711,6 +3711,7 @@ _SPORT_SEASON = {   # sport: (in-season months, camp/preseason months)
     "NHL": ({10, 11, 12, 1, 2, 3, 4, 5, 6}, {9}),    # Oct-Jun, camp Sep
     "College basketball": ({11, 12, 1, 2, 3, 4}, {11}),
     "MLS": (set(range(3, 13)), {2}),                 # Mar-Dec
+    "WNBA": (set(range(5, 11)), {4}),                # May-Oct - low national TV audience, never a hero
 }
 
 def sports_emphasis():
@@ -3731,6 +3732,14 @@ def sports_emphasis():
     off = ", ".join(s for _sc, s, tag in scored if tag == "offseason") or "none"
     month = datetime.date.today().strftime("%B")
     return ("\n\n===== SPORTS EMPHASIS (season-aware) =====\n"
+            "AUDIENCE AND BUZZ FIRST: choose the hero and top stories by what actually draws the biggest "
+            "AUDIENCE and online attention - NOT by 'it was a championship.' In the US the NFL and COLLEGE "
+            "FOOTBALL dominate the fall (a single marquee Saturday college game pulls ~5 million viewers and "
+            "there are dozens of them each week), with the NBA, MLB postseason, and genuinely huge events "
+            "next. LOW-AUDIENCE leagues - the WNBA above all (a WNBA final draws ~1.5 million), plus minor or "
+            "niche competitions - are NOT hero material even for their title games; a WNBA championship must "
+            "NEVER lead over a big college-football or NFL weekend. Lead with the sport and the specific "
+            "game or story the most fans are actually watching and talking about.\n"
             "Lead the page with sports that are IN SEASON or in training camp; give OFFSEASON "
             "leagues only MAJOR news (big trades, signings, firings, injuries, retirements) and never "
             "fill the page with offseason speculation or mock drafts. Priority order for %s, highest "
