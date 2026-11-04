@@ -1,8 +1,4 @@
 {
-  "nytimes.com/2026/10/19/france-far-right-protests-riots.html": {
-    "url": "https://www.nytimes.com/2026/10/19/france-far-right-protests-riots.html?unlocked_article_code=1.J1E.pJyy.OAhAo6r9AxHO&smid=url-share",
-    "ts": 1792581172688
-  },
   "nytimes.com/2026/10/24/us/politics/obama-trump-midterms-campaign.html": {
     "url": "https://www.nytimes.com/2026/10/24/us/politics/obama-trump-midterms-campaign.html?unlocked_article_code=1.LFE.FJln.zMlOcHwLllEH&smid=url-share",
     "ts": 1792926853140
@@ -13,6 +9,10 @@
   },
   "nytimes.com/2026/11/02/us/politics/grand-jury-justice-dept-voter-fraud.html": {
     "url": "https://www.nytimes.com/2026/11/02/us/politics/grand-jury-justice-dept-voter-fraud.html?unlocked_article_code=1.NVE.WIRY.0Ye7j5cTXa0-&smid=url-share",
-    "ts": 1793708073536
+    "ts": 1793794537610
+  },
+  "nytimes.com/2026/11/02/nyregion/new-jersey-russian-fuel-sherrill-ports.html": {
+    "url": "https://www.nytimes.com/2026/11/02/nyregion/new-jersey-russian-fuel-sherrill-ports.html?unlocked_article_code=1.NlE.wlX_.F23W51nsSZi_&smid=url-share",
+    "ts": 1793794537610
   }
 }

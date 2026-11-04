@@ -1,0 +1,675 @@
+{
+  "lastUpdated": 1793794529958,
+  "heroSetDate": "2026-11-04",
+  "hero": {
+    "headline": "DEMOCRATS SWEEP 2026 MIDTERMS, FLIP CONGRESS AND TEXAS GOVERNORSHIP IN HISTORIC BLUE WAVE",
+    "url": "https://apnews.com/live/midterm-election-2026",
+    "sublinks": [
+      {
+        "text": "Guardian: Gina Hinojosa's Texas Governor Win Snaps GOP's Decades-Long Hold",
+        "url": "https://www.theguardian.com/us-news/2026/nov/03/democrat-gina-hinojosa-greg-abbott-texas"
+      },
+      {
+        "text": "Fox News: Trump-Backed Byron Donalds Becomes Florida's First Black Governor",
+        "url": "https://www.foxnews.com/politics/trump-backed-byron-donalds-make-history-floridas-first-black-governor"
+      },
+      {
+        "text": "Washington Times: Alaska Senate Race Still Too Close To Call As Sullivan, Peltola Await Results",
+        "url": "https://www.washingtontimes.com/news/2026/nov/4/sullivan-peltola-awaiting-results-alaska-us-senate-race/"
+      },
+      {
+        "text": "Reuters: Trump Acknowledges Iran War Fueled GOP's Election Losses",
+        "url": "https://www.reuters.com/world/us/trump-acknowledges-iran-played-role-republican-midterm-losses-2026-11-04/"
+      },
+      {
+        "text": "NPR: Former GOP Governor Calls Democratic Gains 'More Significant Than Ever Anticipated'",
+        "url": "https://www.npr.org/2026/11/04/nx-s1-6028116/former-arkansas-governor-says-democrats-gains-are-more-significant-than-ever-anticipated"
+      }
+    ],
+    "liveUpdates": [
+      {
+        "source": "2026 elections",
+        "url": "https://www.nbcnews.com/politics/2026-election/live-blog/election-results-house-senate-trump-live-updates-rcna607376"
+      },
+      {
+        "source": "2026 elections",
+        "url": "https://www.msn.com/en-us/news/other/election-2026-live-updates-democrats-take-congress-as-trump-distances-himself-from-historic-losses/ar-AA2gJIWV"
+      },
+      {
+        "source": "2026 elections",
+        "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+      }
+    ],
+    "postedAt": 1793794529958,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "2026 MIDTERMS: DEMOCRATS FLIP GOVERNORSHIPS AND SENATE SEATS NATIONWIDE",
+      "stories": [
+        {
+          "headline": "Abdul El-Sayed Becomes First Muslim Elected To US Senate, Winning In Michigan",
+          "url": "https://www.rollingstone.com/politics/politics-news/abdul-el-sayed-defeats-mike-rogers-michigan-senate-race-1235652355/",
+          "timestamp": 1793791272000,
+          "postedAt": 1793794529958
+        },
+        {
+          "headline": "Pete Ricketts Wins Tight Nebraska Senate Race For Republicans",
+          "url": "https://nebraskapublicmedia.org/en/news/news-articles/here-are-the-results-from-nebraskas-us-senate-race/",
+          "timestamp": 1793776581000,
+          "postedAt": 1793794529958
+        },
+        {
+          "headline": "Democrats Win Wisconsin Legislature, Cementing First Trifecta In 16 Years",
+          "url": "https://wisconsinexaminer.com/2026/11/04/democrats-win-control-of-wisconsin-legislature-cementing-first-democratic-trifecta-in-16-years/",
+          "timestamp": 1793774692000,
+          "postedAt": 1793794529958
+        }
+      ]
+    },
+    {
+      "title": "MILITARY MORALE UNDER HEGSETH",
+      "stories": [
+        {
+          "headline": "Survey: Half Of Military Wants To Quit Over 'Too Politicized' Pentagon",
+          "url": "https://www.alternet.org/trump-hegseth-military-2678187728/",
+          "timestamp": 1793707497143,
+          "postedAt": 1793708068241
+        },
+        {
+          "headline": "50% Disapprove Of Hegseth's Job Performance, Poll Finds",
+          "url": "https://www.military.com/79-of-veterans-and-service-members-say-politicians-and-society-leaving-them-behind-poll?taid=6ae8896bec3fc2000115e097",
+          "timestamp": 1793707497143,
+          "postedAt": 1793708068241
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR TENSIONS ESCALATE AS BOTH SIDES PREPARE FOR MORE STRIKES",
+      "stories": [
+        {
+          "headline": "Iran's Supreme Leader Orders 'Maximum' Response To Attack",
+          "url": "https://www.axios.com/2026/10/31/irans-supreme-leader-maximum-response-us-attack",
+          "timestamp": 1793534763675,
+          "feature": true,
+          "postedAt": 1793535533593
+        },
+        {
+          "headline": "Trump Holds Call With Netanyahu To Prepare Renewed Iran Strikes",
+          "url": "https://www.timesofisrael.com/trump-holds-call-with-netanyahu-amid-preparations-to-renew-strikes-on-iran-report/",
+          "timestamp": 1793500592000,
+          "postedAt": 1793535533593
+        },
+        {
+          "headline": "Iran Braces For More War Regardless Of US, Israeli Election Outcomes",
+          "url": "https://en.sedaily.com/international/2026/11/01/iran-braces-for-more-strikes-regardless-of-election-outcomes",
+          "timestamp": 1793437542000,
+          "postedAt": 1793535533593
+        },
+        {
+          "headline": "Explosions Hit Iran's Qeshm Island As US Media Report Strikes",
+          "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz",
+          "timestamp": 1793699944000,
+          "postedAt": 1793708068241
+        }
+      ]
+    },
+    {
+      "title": "US SOUTHWEST FLOODING",
+      "stories": [
+        {
+          "headline": "Flood Risk Stays High After Storms Swamp Normally Arid Southwest",
+          "url": "https://apnews.com/article/arizona-pagosa-springs-colorado-sedona-southwest-flooding-ee6777f8b21234d2243998b66294b92b",
+          "timestamp": 1793692980000,
+          "postedAt": 1793708068241
+        },
+        {
+          "headline": "Southwest Colorado Picks Up Pieces After Another Round Of Floods",
+          "url": "https://www.cpr.org/2026/11/02/southwest-colorado-aftermath-floods/",
+          "timestamp": 1793670282000,
+          "postedAt": 1793708068241
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Judge Boasberg Rules Against Trump Administration Over 20,000 'Likely Noncitizen' Voters In California",
+        "url": "https://www.theblaze.com/news/judge-boasberg-sides-against-trump-administration-over-20000-likely-noncitizen-voters-in-california",
+        "timestamp": 1793792462000,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "CNN Projects Democrats Retake House Majority",
+        "url": "https://www.nbcnews.com/politics/2026-election/democrats-house-control-midterm-election-wins-trump-check-rcna603397",
+        "timestamp": 1793793919400,
+        "feature": true,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "Trump Says He Will Accept Election Results",
+        "url": "https://www.facebook.com/nytimes/posts/breaking-news-president-trump-told-the-new-york-times-that-he-would-accept-the-r/1536969571618834/",
+        "timestamp": 1793764162000,
+        "photo": true,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "AP VoteCast Poll Shows Why Trump And Republicans Lost The Midterms",
+        "url": "https://apnews.com/article/trump-2026-midterms-voters-young-voters-hispanic-voters-democrats-congress-ba1689d8402415d26ad32f4fa80ab2f9",
+        "timestamp": 1793762100000,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "Key Part Of Jet In Deadly Palm Beach Crash Found Far From Impact Site",
+        "url": "https://www.wpbf.com/article/florida-deadly-learjet-crash-palm-beach-county-ntsb-nathalia-filgueiras/74311608",
+        "timestamp": 1793749613000,
+        "photo": true,
+        "postedAt": 1793794529958,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Judge Temporarily Blocks Trump Plan To Deport Detained Afghans To Afghanistan",
+        "url": "https://apnews.com/article/afghans-deportation-pakistan-trump-immigration-a419fbb329b96480d806d9ffbd52ccb4",
+        "timestamp": 1793743903000,
+        "photo": true,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "Trump floats preemptive pardons for Musk, Big Balls should Democrats win the midterms",
+        "url": "https://notthebee.com/article/trump-floats-preemptive-pardons-for-musk-big-balls-should-democrats-win-the-midterms/",
+        "timestamp": 1793643184000,
+        "postedAt": 1793708095121
+      },
+      {
+        "headline": "National Review: Keep American Voting Simple",
+        "url": "https://www.nationalreview.com/2026/11/keep-american-voting-simple/",
+        "timestamp": 1793705456000,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "Bomb Threats Hit Two Planes Bound For Warsaw, Briefly Close Poland Airport",
+        "url": "https://www.bbc.com/news/articles/c6x2wd4v04eeo",
+        "timestamp": 1793704962000,
+        "photo": true,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "Investors Brace For Possible Shake-Up In Congress As Votes Are Cast",
+        "url": "https://www.reuters.com/business/investors-ready-possible-shake-up-congress-election-day-arrives-2026-11-03/",
+        "timestamp": 1793704814000,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "17-Year-Old Arrested In Spirit Halloween Shooting That Killed Pregnant Woman",
+        "url": "https://www.nbcnews.com/news/us-news/teen-arrested-spirit-halloween-shooting-fairfield-california-rcna607147",
+        "timestamp": 1793669640000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793708068241,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "DEM RIVAL OF EL SAYED FLIPS OUT, ENDORSES REPUBLICAN",
+        "url": "https://apnews.com/article/elsayed-michigan-stevens-democrats-unity-midterms-d7053bbd0ed2fd70756896c6e4b66a27",
+        "timestamp": 1793621216711,
+        "postedAt": 1793621801077
+      },
+      {
+        "headline": "FBI VISITS ALASKA DONOR AS TRUMP DOJ ELECTION PROBES WIDEN DAYS BEFORE MIDTERMS",
+        "url": "https://www.adn.com/politics/2026/10/31/fbi-visits-dan-j-sullivan-donor-in-petersburg-as-alaska-senate-race-inquiry-widens/",
+        "timestamp": 1793535533593,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Big Tech Faces Political Reckoning In Ohio",
+        "url": "https://www.politico.com/news/2026/11/02/big-tech-ohio-sherrod-brown-husted-01144504",
+        "timestamp": 1793612760000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Sen. Chris Murphy Hospitalized After Stroke",
+        "url": "https://www.nbcnews.com/politics/congress/chris-murphy-hospitalized-stroke-recovery-rcna606834",
+        "timestamp": 1793609940000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793621764696,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "RealClear: Texas Early Vote Results Point To Record Turnout",
+        "url": "https://www.realclearpolitics.com/articles/2026/11/01/texas_early_vote_results_154644.html",
+        "timestamp": 1793509200000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "How Iran Battered U.S. Bases and Caused Billions in Damage",
+        "url": "https://apnews.com/article/iran-war-us-base-damage-trump-26e0f05e01d6f56ff46f7c1a14384f7c",
+        "timestamp": 1793534763675,
+        "postedAt": 1793535568632
+      },
+      {
+        "headline": "Blaze Plans Election-Night Special As Congress Control Hangs In Balance",
+        "url": "https://www.theblaze.com/shows/blazetv-specials/blazetv-announces-election-night-special-control-of-congress",
+        "timestamp": 1793534496000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Red Baron Dad Confronts Prank Influencer In Viral Video",
+        "url": "https://www.theblaze.com/news/red-baron-dad-viral-prank",
+        "timestamp": 1793533634000,
+        "photo": true,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Mamdani Says Trump Will Grant Visa To Mother Of Bronx Shooting Victim",
+        "url": "https://www.aljazeera.com/news/2026/11/1/mamdani-says-trump-to-grant-visa-to-mother-of-boy-killed-in-bronx-shooting",
+        "timestamp": 1793521522000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Nashville Chef's Final Call Raises Suspicion About Ex-Football Scout",
+        "url": "https://www.cbsnews.com/news/jade-benning-blaise-taylor-nashville-death-48-hours/",
+        "timestamp": 1793501880000,
+        "photo": true,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "ICE Agent Charged With Assault For Hitting Fleeing Man With Car",
+        "url": "https://apnews.com/article/houston-texas-ice-agent-charged-aggravated-assault-67bcdb11f7ed19aef2100e5c2a83f773",
+        "timestamp": 1793484780000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Rubio Says US Did Not Facilitate Bolsonaro's Flight To America",
+        "url": "https://apnews.com/article/g20-foreign-ministers-us-brazil-0ba5ba29246e4475cca2719bb962e57f",
+        "timestamp": 1793483161000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "El-Sayed Disinvites Stevens From Unity Event Over Antisemitic Ad Dispute",
+        "url": "https://freebeacon.com/democrats/closing-catfight-el-sayed-disinvites-haley-stevens-from-unity-event-after-refusing-to-condemn-antisemitic-ad/",
+        "timestamp": 1793465569000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Paxton, Talarico Clash For Texas Senate Seat As Trump Campaigns Virtually",
+        "url": "https://www.pbs.org/newshour/politics/paxton-and-talarico-tussle-for-texas-senate-seat-as-trump-campaigns-virtually",
+        "timestamp": 1793488440000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "The Top 11 Senate Seats Most Likely To Flip",
+        "url": "https://www.nbcnews.com/politics/2026-election/republicans-fight-hold-senate-democrats-rcna605762",
+        "timestamp": 1793610015000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Supreme Court Rejects Trump Bid To Toss Disputed California Ballots",
+        "url": "https://www.axios.com/2026/11/02/supreme-court-california-voter-rolls-doj",
+        "timestamp": 1793701991000,
+        "postedAt": 1793708068241
+      }
+    ],
+    "center": [
+      {
+        "headline": "A Plea to the Next Congress",
+        "url": "https://www.theamericanconservative.com/a-plea-to-the-next-congress/",
+        "timestamp": 1793721780000,
+        "postedAt": 1793794565968
+      },
+      {
+        "headline": "MAGA VAPORIZED",
+        "url": "https://nypost.com/2026/11/04/us-news/blue-tsunami-delivers-dems-both-chambers-of-congress-in-stunning-defeat-for-gop-and-trumps-handpicked-candidates/",
+        "timestamp": 1793793919400,
+        "postedAt": 1793794565968
+      },
+      {
+        "headline": "NJ Governor Warns State Ports To Turn Away Russian Fuel Shipments",
+        "url": "https://www.nytimes.com/2026/11/02/nyregion/new-jersey-russian-fuel-sherrill-ports.html?unlocked_article_code=1.NlE.wlX_.F23W51nsSZi_&smid=url-share",
+        "timestamp": 1793793919400,
+        "photo": true,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "Tesla, SpaceX Shares Slide As Musk's Political Spending Backfires",
+        "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+        "timestamp": 1793793919400,
+        "photo": true,
+        "postedAt": 1793794529958,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Dow Futures Soar After Election Outcome",
+        "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+        "timestamp": 1793793919400,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "UK: Bristol Schools Hack Exposes 320,000 Stolen Files On Dark Web",
+        "url": "https://www.bbc.com/news/articles/c6073rl8839vo",
+        "timestamp": 1793792478000,
+        "photo": true,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "AI Chatbot Falsely Reported A Murder To Police That Never Happened",
+        "url": "https://www.theblaze.com/shows/pat-gray-unleashed/ai-just-reported-a-murder-to-police-but-it-made-the-whole-thing-up",
+        "timestamp": 1793791983000,
+        "photo": true,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "Hedge Fund Warns of FOGO: Fear of Getting Obliterated in the Market",
+        "url": "https://www.thisismoney.co.uk/money/markets/article-16262243/Forget-FOMO-Hedge-fund-tycoon-warns-FOGO-fear-getting-obliterated-worries-stock-market-crash-mount.html",
+        "timestamp": 1793707497143,
+        "postedAt": 1793708095121
+      },
+      {
+        "headline": "Disney Eyes Thousands Of Layoffs, Tells Managers To Cut 20% In Costs",
+        "url": "https://finance.yahoo.com/media-advertising/articles/disney-eyes-thousands-layoffs-managers-002025007.html",
+        "timestamp": 1793707497143,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "New Restrictions At Texas Tech Are Changing What Professors Can Teach",
+        "url": "https://www.npr.org/2026/11/03/nx-s1-5963883/texas-tech-academic-sb17-odyssey",
+        "timestamp": 1793700060000,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "Texas Couple, Young Children Among 9 Killed In Florida Plane Crash",
+        "url": "https://www.kxan.com/news/local/austin/austin-family-nanny-among-9-killed-in-jet-crash-aviation-experts-point-to-weather-questions/",
+        "timestamp": 1793692183000,
+        "photo": true,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "Video Shows Tennessee National Guard Trained Guns On Dying Man They Shot",
+        "url": "https://www.theguardian.com/us-news/2026/nov/02/tennessee-shooting-tyrin-johnson-video",
+        "timestamp": 1793675580000,
+        "photo": true,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "ICC President Hits Back At Trump Administration Penalties In UN Address",
+        "url": "https://apnews.com/article/un-us-icc-trump-sanctions-international-justice-6ebdd7a7e5c66f0fbd29ef30d9b34785",
+        "timestamp": 1793662380000,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "How Two Pennsylvania GOP Incumbents Are Navigating Trump And The Midterms",
+        "url": "https://www.npr.org/2026/11/02/nx-s1-6017845/how-2-gop-incumbents-in-pennsylvania-are-approaching-the-midterms-and-trump",
+        "timestamp": 1793620604000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Flash Flooding Triggers Evacuations Across Southwest, Dire Warning For Colorado Spa Town",
+        "url": "https://apnews.com/article/sedona-arizona-pagosa-springs-colorado-southwest-flooding-bb4bb89daf78484fb97496dfd88c4a10",
+        "timestamp": 1793599320000,
+        "photo": true,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Could Democrats Win A Majority Of Governorships This Year?",
+        "url": "https://www.newsfromthestates.com/article/democrats-could-win-majority-governors-offices-first-time-16-years",
+        "timestamp": 1793590440000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Police Probe Deep Ellum Shootings That Killed 4, Injured 15",
+        "url": "https://www.dallasnews.com/news/crime/article/4-dead-several-wounded-deep-ellum-shootings-22504917.php",
+        "timestamp": 1793582597000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Trump Rips Ex-Lawyer Alina Habba's 'Obnoxious' $50M Deal With Pardoned Banker's Family",
+        "url": "https://nypost.com/2026/11/01/us-news/trump-rips-alina-habbas-50m-deal-with-pardoned-venezuelan-bankers-family/",
+        "timestamp": 1793578500000,
+        "photo": true,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Teen Girl Killed, 8 Hurt In Shooting At Delaware Outdoor Party",
+        "url": "https://www.nbcphiladelphia.com/news/local/teen-girl-killed-8-injured-ellendale-delaware-party-shooting/4489404/",
+        "timestamp": 1793559489000,
+        "photo": true,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "NYC Man Arrested Twice For Attacking Four Women, Freed Both Times",
+        "url": "https://nypost.com/2026/10/31/us-news/nyc-madman-arrested-twice-for-attacking-4-women-over-2-day-period-walks-free-both-times-most-insane-story/",
+        "timestamp": 1793534763675,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Vance Road-Tests 2028 Campaign Themes",
+        "url": "https://thehill.com/homenews/6185794",
+        "timestamp": 1793534763674,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Long Beach Shuts Coastal Waters After Sewage Spill",
+        "url": "https://www.cbsnews.com/losangeles/news/sewage-spill-closes-coastal-waters-off-of-long-beach/",
+        "timestamp": 1793499262000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Virginia, DC Sue To Block Trump's National Arch Project",
+        "url": "https://apnews.com/article/trump-memorial-arch-lawsuits-virginia-district-columbia-f71a43143f8c8734fbd9aa3ceebfd1d6",
+        "timestamp": 1793495400000,
+        "photo": true,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Ukrainian Evacuees Describe 'Coming From Hell' After City's Fall",
+        "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o",
+        "timestamp": 1793483014000,
+        "photo": true,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Wrong Turn Leads Stranger To Rescue Family Of 14 From House Fire",
+        "url": "https://notthebee.com/article/wrong-turn-leads-to-stranger-rescuing-family-of-14-from-house-fire/",
+        "timestamp": 1793457730000,
+        "photo": true,
+        "postedAt": 1793535533593,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Florida Woman Arrested After Threatening To Assassinate Trump Online",
+        "url": "https://notthebee.com/article/florida-woman-finds-out-after-threatening-to-assassinate-trump-on-social-media/",
+        "timestamp": 1793452036000,
+        "photo": true,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "El-Sayed, Michigan Democrats Scramble To Rally Voters After Stevens' Defection",
+        "url": "https://apnews.com/article/elsayed-michigan-democrats-rogers-stevens-280a81f3edc4608fd7c25388171ba2d4",
+        "timestamp": 1793669400000,
+        "postedAt": 1793708068241
+      }
+    ],
+    "right": [
+      {
+        "headline": "Americans Cut Back on Boats and RVs but Can't Stop Buying HARLEYS",
+        "url": "https://www.wsj.com/business/retail/americans-cut-back-on-boats-and-rvsbut-cant-stop-buying-harley-davidsons-3db7bb4b",
+        "timestamp": 1793793919400,
+        "postedAt": 1793794565968
+      },
+      {
+        "headline": "ELECTION DAY ARRIVES AFTER EARLY-VOTING SURGE, HEAVY MONITORING AT THE POLLS",
+        "url": "https://apnews.com/article/midterms-election-day-voting-polls-trump-ba3037eed7bd816cc084bb1c4a2e6ccf",
+        "timestamp": 1793708068241,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "Trump's Midterm Drubbing Shows The Power Of Data-Center Opponents",
+        "url": "https://www.reuters.com/world/us/trumps-midterm-drubbing-demonstrates-power-data-centre-opponents-2026-11-04/",
+        "timestamp": 1793791265000,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "Liberal Man Slaps Turning Point USA Volunteer In Viral Confrontation",
+        "url": "https://notthebee.com/article/angry-old-liberal-slaps-tpusa-volunteer-for-disagreeing-with-his-tolerant-worldview",
+        "timestamp": 1793790958000,
+        "photo": true,
+        "postedAt": 1793794529958,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Suspect Opens Fire On Police During Attempted Sailboat Theft",
+        "url": "https://notthebee.com/article/suspect-opens-fire-on-police-during-sailboat-theft/",
+        "timestamp": 1793741514000,
+        "photo": true,
+        "postedAt": 1793794529958,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "NINE KILLED AS PRIVATE JET CRASHES NEAR PALM BEACH, FLORIDA",
+        "url": "https://apnews.com/article/palm-beach-plane-crash-ffdee609e7916ff7fcd178d2b8e69b39",
+        "timestamp": 1793621764696,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Christian Warning On Aliens, Mermaids And Shape-Shifters Goes Viral",
+        "url": "https://www.theblaze.com/shows/relatable/aliens-mermaids-and-shape-shifters-a-christian-warning-on-the-paranormal",
+        "timestamp": 1793705505000,
+        "photo": true,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "Why Gen Z Men Relate To Anakin Skywalker, Per One Commentator",
+        "url": "https://www.theblaze.com/shows/the-john-doyle-show/why-gen-z-men-relate-to-anakin-skywalker-john-doyle-says-its-called-being-a-young-white-guy",
+        "timestamp": 1793705488000,
+        "photo": true,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "National Review: What 2026 And 2028 Mean For Pro-Lifers",
+        "url": "https://www.nationalreview.com/2026/11/what-2026-and-2028-mean-for-pro-lifers/",
+        "timestamp": 1793705459000,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "Indicted ICE Officer Had Been On The Job Just Over A Year",
+        "url": "https://www.nbcnews.com/news/us-news/indicted-ice-officer-job-little-year-trumps-hiring-surge-comes-scrutin-rcna607033",
+        "timestamp": 1793666580000,
+        "photo": true,
+        "postedAt": 1793708068241,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "Did Army General Brett Sylvia Betray His Country’s Secrets?",
+        "url": "https://spectator.org/did-army-general-brett-sylvia-betray-his-countrys-secrets/",
+        "timestamp": 1793560800000,
+        "postedAt": 1793621801077
+      },
+      {
+        "headline": "USA Once Dominated World's Oceans. China's Xi is Changing That",
+        "url": "https://www.hindustantimes.com/world-news/hit-podcasts-reveal-the-angst-of-china-s-youth-101793588198420.html",
+        "timestamp": 1793621216710,
+        "postedAt": 1793621801077
+      },
+      {
+        "headline": "NYPD Releases Photo Of Marathon Trainee Critically Hurt In Brooklyn Stabbing",
+        "url": "https://abc7ny.com/post/nypd-releases-photo-nyc-marathon-trainee-critically-hurt-brooklyn-stabbing/20006204/",
+        "timestamp": 1793580745000,
+        "photo": true,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Police: Father-Son 'Gangstas' Botched Hit, Killed Star Football Player Instead",
+        "url": "https://notthebee.com/article/police-say-father-and-son-gangstas-tried-to-assassinate-someone-killed-a-star-football-player-instead/",
+        "timestamp": 1793552251000,
+        "photo": true,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "RealClear: Voters To Weigh In On Protecting Girls' Sports In Blue States",
+        "url": "https://www.realclearpolitics.com/articles/2026/11/01/voters_to_weigh_in_on_protecting_girls_sports_in_blue_states__154643.html",
+        "timestamp": 1793509200000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Economists Warn AI Boom Could Trigger Economic Collapse",
+        "url": "https://futurism.com/future-society/investor-economy-collapse-ai-raoul-pal",
+        "timestamp": 1793534763674,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "China's Latest Grave Threat To Europe's Economy",
+        "url": "https://www.nationalreview.com/corner/chinas-latest-grave-threat-to-europes-economy/",
+        "timestamp": 1793533642000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Stevens Advised To Skip El-Sayed Events To Avoid 'Distractions'",
+        "url": "https://www.theguardian.com/us-news/2026/oct/31/abdul-el-sayed-haley-stevens-disinvited-from-events",
+        "timestamp": 1793491080000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Haley Stevens' Fiancé Draws Fire Over Career-Threatening Controversy",
+        "url": "https://www.motherjones.com/politics/2026/10/haley-stevens-jason-turkish-abdul-el-sayed-michigan-senate/",
+        "timestamp": 1793445480000,
+        "postedAt": 1793535533593
+      },
+      {
+        "headline": "Six Things To Watch For On Election Night",
+        "url": "https://www.npr.org/2026/11/02/nx-s1-6025451/midterms-what-to-watch-election-night",
+        "timestamp": 1793613600000,
+        "postedAt": 1793621764696
+      },
+      {
+        "headline": "Grand Jury Rejects DOJ Bid To Bring 'Voter Fraud' Charges",
+        "url": "https://www.nytimes.com/2026/11/02/us/politics/grand-jury-justice-dept-voter-fraud.html?unlocked_article_code=1.NVE.WIRY.0Ye7j5cTXa0-&smid=url-share",
+        "timestamp": 1793707497141,
+        "feature": true,
+        "postedAt": 1793708068241
+      },
+      {
+        "headline": "Democrat Troy Jackson Unseats Sen. Susan Collins In Maine",
+        "url": "https://www.axios.com/2026/11/04/maine-senate-results-collins-jackson",
+        "timestamp": 1793789134000,
+        "feature": true,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "Keisha Lance Bottoms Elected Georgia's Next Governor In Historic Win",
+        "url": "https://georgiarecorder.com/2026/11/03/keisha-lance-bottoms-will-be-georgias-next-governor-in-historic-win/",
+        "timestamp": 1793778816000,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "Jocelyn Benson Defeats John James In Michigan Governor's Race",
+        "url": "https://bridgemi.com/michigan-politics/michigan-governors-race-election-results-jocelyn-benson-vs-john-james/",
+        "timestamp": 1793778780000,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "Gov. Josh Shapiro Cruises To Second Term In Pennsylvania",
+        "url": "https://penncapital-star.com/election-2026/gov-josh-shapiro-cruises-to-a-second-term-in-pennsylvania/",
+        "timestamp": 1793770806000,
+        "postedAt": 1793794529958
+      },
+      {
+        "headline": "Democrat Adam Hamilton Becomes Kansas's First Senator Of His Party In Nearly A Century",
+        "url": "https://www.npr.org/2026/11/03/g-s1-151587/kansas-senate-race-hamilton-marshall",
+        "timestamp": 1793766328000,
+        "postedAt": 1793794529958
+      }
+    ]
+  },
+  "balance": {
+    "left": 628,
+    "right": 415,
+    "independent": 11,
+    "days": 30,
+    "total": 1043,
+    "pctLeft": 60,
+    "pctRight": 40
+  }
+}

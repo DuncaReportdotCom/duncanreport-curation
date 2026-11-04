@@ -1,0 +1,616 @@
+{
+  "lastUpdated": 1793795260155,
+  "heroSetDate": "2026-11-04",
+  "hero": {
+    "headline": "DEMOCRATS' CONGRESSIONAL LANDSLIDE SENDS SHOCKWAVES FROM TEHRAN TO JERUSALEM",
+    "url": "https://www.theguardian.com/us-news/2026/nov/04/midterm-election-takeaways-trump",
+    "sublinks": [
+      {
+        "text": "Netanyahu's Rivals Seize On Dem Sweep To Push For His Ouster",
+        "url": "https://www.reuters.com/world/middle-east/netanyahu-rivals-seize-democrats-sweep-us-congress-seeking-his-ouster-2026-11-04/"
+      },
+      {
+        "text": "Iran's Parliament Speaker Claims Vote Proves Americans 'Said No To War'",
+        "url": "https://www.cnbc.com/2026/11/04/us-midterm-elections-iran-war-speaker.html"
+      },
+      {
+        "text": "Beijing Sees Opening For AI And Trade Clarity After Power Shift",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3373232/democratic-led-us-congress-turn-heat-beijing-over-ai-taiwan-analyst"
+      },
+      {
+        "text": "Europe's Leaders React With Mix Of Hope And Mockery To Blue Wave",
+        "url": "https://www.politico.eu/article/us-midterm-election-democrats-blue-tsunami-hope-mockery-europe/"
+      }
+    ],
+    "postedAt": 1793795260155,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "SPAIN TRAIN CRASH: POLITICAL FALLOUT GROWS",
+      "stories": [
+        {
+          "headline": "Spain's Sanchez Reshuffles Cabinet After Transport Minister Quits",
+          "url": "https://www.reuters.com/world/spains-sanchez-loses-key-ally-transport-minister-quits-over-train-crashes-2026-11-04/",
+          "timestamp": 1793790976000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Second California Student Hurt In Deadly Spain Train Crash Identified",
+          "url": "https://nypost.com/2026/11/03/us-news/second-california-student-hurt-in-deadly-spain-train-crash-idd/",
+          "timestamp": 1793736480000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Poll: Train Tragedy Dents Spanish Socialists' Election Hopes",
+          "url": "https://www.breitbart.com/europe/2026/11/02/poll-urda-train-tragedy-dents-spanish-socialists-chances-in-upcoming-snap-election/amp/",
+          "timestamp": 1793618062000,
+          "postedAt": 1793622764550
+        }
+      ]
+    },
+    {
+      "title": "EUROPE YOUTH PROTESTS: FRANCE EASES, GERMANY FLARES",
+      "stories": [
+        {
+          "headline": "French School Protests Resume On Smaller Scale As Holidays End",
+          "url": "https://www.euronews.com/2026/11/02/limited-school-protests-resume-in-some-cities-in-france-as-holiday-ends",
+          "timestamp": 1793619227000,
+          "postedAt": 1793622764550
+        },
+        {
+          "headline": "Gen Z Protesters Clash With Police As Tens Of Thousands March In Germany",
+          "url": "https://www.cnn.com/2026/10/31/europe/protests-europe-germany-halloween-intl",
+          "timestamp": 1793579320000,
+          "postedAt": 1793622764550
+        },
+        {
+          "headline": "French Protest Violence Eases As Germany Sees Scattered Riots",
+          "url": "https://apnews.com/article/france-protests-violence-germany-portugal-547697d5a2604aee0278db33c7306894",
+          "timestamp": 1793566380000,
+          "postedAt": 1793622764550
+        },
+        {
+          "headline": "Germany, Partners Aim To Finalize Migrant 'Return Hubs' By Year End",
+          "url": "https://www.dw.com/en/migrant-return-hubs-germany-denmark-greece-austria-netherlands/a-79004242",
+          "timestamp": 1793747807000,
+          "postedAt": 1793795260155
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR CRISIS DEEPENS AFTER HORMUZ STRIKES",
+      "stories": [
+        {
+          "headline": "Iran Claims Four Oil Tankers Destroyed By Mines Near Hormuz",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Four-Oil-Tankers-Destroyed-by-Mines-Near-Strait-of-Hormuz.html",
+          "timestamp": 1793787300000,
+          "feature": true,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Iran Calls US Hormuz Reply 'Unconvincing' As Trump Confirms New Strikes",
+          "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes",
+          "timestamp": 1793777738000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "US Strikes On Hormuz Hours Before Midterms Raise Questions On What's Next",
+          "url": "https://www.pbs.org/newshour/world/u-s-strikes-strait-of-hormuz-hours-before-tuesday-midterms",
+          "timestamp": 1793754933000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Iran Downplays Chances Of Deal After Latest US Strikes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
+          "timestamp": 1793747580000,
+          "postedAt": 1793795260155
+        }
+      ]
+    },
+    {
+      "title": "RUSSIA-UKRAINE WAR: STRIKES CONTINUE AS PEACE TALKS LOOM",
+      "stories": [
+        {
+          "headline": "Merz Doubts Russia Wants Ceasefire, Urges Europeans To Help Shape Peace",
+          "url": "https://www.dw.com/en/ukraine-war-merz-doubts-russia-is-serious-about-a-truce/a-79836026",
+          "timestamp": 1793757647000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Russia Bombards Ukraine Power Grid Ahead Of Abu Dhabi Peace Talks",
+          "url": "https://www.reuters.com/world/europe/russia-bombards-ukraine-power-grid-before-abu-dhabi-talks-merz-urges-moscow-2026-11-03/",
+          "timestamp": 1793726460000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "At Least 73 Injured As Russian Strikes Hit Ukrainian Hospital, Power Plants",
+          "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants",
+          "timestamp": 1793725009000,
+          "feature": true,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Poland Beefs Up Security At Border With Russia",
+          "url": "https://www.seattletimes.com/nation-world/world/tusk-says-poland-thwarted-possible-provocation-on-kaliningrad-border-overnight/",
+          "timestamp": 1793727345000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Fake Nuclear-Alarm Hack Hits Ukraine And Russia Emergency Apps",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-russia-emergency-app-cyberattacks-alerts-radiation-kyiv-war-rcna606964",
+          "timestamp": 1793614492000,
+          "postedAt": 1793622764550
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Niger Signs Military Cooperation Deal With Eastern Libyan Commander",
+        "url": "https://www.africanews.com/amp/2026/11/04/niger-signs-cooperation-deal-with-military-leader-in-eastern-libya/",
+        "timestamp": 1793791183000,
+        "postedAt": 1793795260155
+      },
+      {
+        "headline": "Israel's Political Deadlock Leaves Netanyahu's Future Hanging In Balance",
+        "url": "https://www.aljazeera.com/news/2026/11/3/israel-political-deadlock-leaves-netanyahus-future-hanging-in-the-balance",
+        "timestamp": 1793724840000,
+        "photo": true,
+        "postedAt": 1793795260155,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "5 Rescued In South Pacific After Months Adrift At Sea, 4 Still Missing",
+        "url": "https://www.cbsnews.com/news/rescue-south-pacific-months-adrift-kiribati/",
+        "timestamp": 1793719117000,
+        "photo": true,
+        "postedAt": 1793795260155,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Italy Holds Security Talks After European Freezer Cyberattacks",
+        "url": "https://www.rfi.fr/en/international-news/20261103-italy-holds-security-talks-after-european-freezer-cyberattacks",
+        "timestamp": 1793707320000,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "The Economic Cost Of A Taiwanese Invasion",
+        "url": "https://www.dw.com/en/the-economic-cost-of-a-taiwanese-invasion/video-79840584",
+        "timestamp": 1793706241000,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "Israeli Opposition Bloc Gathers To Plot Ouster Of Netanyahu",
+        "url": "https://www.afp.com/en/israeli-opposition-bloc-gathers-see-how-oust-netanyahu",
+        "timestamp": 1793704991000,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "Helicopter Collision Near Everest Kills One In Nepal",
+        "url": "https://www.aljazeera.com/news/2026/11/3/one-dead-after-two-helicopters-collide-near-mount-everest-in-nepal",
+        "timestamp": 1793690184000,
+        "photo": true,
+        "postedAt": 1793708855450,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "US Shuts South Africa, Rwanda Out Of AGOA Trade Benefits",
+        "url": "https://www.dw.com/en/us-to-drop-south-africa-rwanda-from-duty-free-trade-initiative/a-79834508",
+        "timestamp": 1793645473000,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "Iliana Yotova Wins Bulgaria's Presidential Election As 'President Of Peace'",
+        "url": "https://www.dw.com/en/how-iliana-yotova-won-the-presidential-election-in-bulgaria/a-79829019",
+        "timestamp": 1793643798000,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "Russian Emigrants Scramble As Serbia Freezes Alta Bank Accounts",
+        "url": "https://meduza.io/en/feature/2026/11/02/i-have-two-days-until-the-food-in-my-fridge-runs-out-thousands-of-russian-emigrants-left-scrambling-after-serbia-shuts-down-alta-bank-freezing-their-savings",
+        "timestamp": 1793619840000,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "Liberman Rules Out Serving In Any Government With Netanyahu",
+        "url": "https://www.timesofisrael.com/liveblog_entry/liberman-says-will-not-serve-in-government-with-netanyahu-under-any-circumstances/",
+        "timestamp": 1793620679000,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "Ray-Ban Heir Proposes Family Buyout After €31 Billion Czech Bid",
+        "url": "http://www.theedgemarkets.com/node/824227",
+        "timestamp": 1793619368000,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "UN 'Stands Ready' To Support Peace As Western Sahara Mission Ends",
+        "url": "https://news.un.org/en/story/2026/11/1168717",
+        "timestamp": 1793616044000,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "King Charles Meets Both Joy And Criticism On Caribbean Tour",
+        "url": "https://www.reuters.com/world/uk/king-charles-sorrow-over-slavery-faces-test-reparations-movement-gains-ground-2026-10-30/",
+        "timestamp": 1793613900000,
+        "photo": true,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "Trump Holds Frank Call With Netanyahu On Next Iran War Move",
+        "url": "https://www.axios.com/2026/11/01/trump-netanyahu-iran-negotiations-war",
+        "timestamp": 1793557022000,
+        "feature": true,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "Israeli Strikes Kill Eight In Gaza, Including A Child",
+        "url": "https://www.bbc.com/news/articles/cmqln14rrzxvo",
+        "timestamp": 1793552792000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "EU Commission Backs Tusk In Constitutional Court Fight",
+        "url": "https://www.politico.eu/article/european-commission-backs-donald-tusk-over-poland-constitutional-court-judges/",
+        "timestamp": 1793533920000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Christiane Amanpour To Leave CNN After 43 Years",
+        "url": "https://www.dw.com/en/christiane-amanpour-to-leave-cnn-after-43-years/a-79708034?maca",
+        "timestamp": 1793529674000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Indian Opposition Demands Election Chief's Resignation",
+        "url": "https://abcnews.com/International/wireStory/indian-opposition-parties-stage-new-protest-elections-chief-137745016",
+        "timestamp": 1793527987000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Youth Olympics Open In Senegal, A First For Africa",
+        "url": "https://www.africanews.com/amp/2026/11/01/youth-olympics-open-in-senegal-marking-the-first-olympic-event-in-africa/",
+        "timestamp": 1793527004000,
+        "photo": true,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "OPEC+ Set To Keep Oil Output Targets Steady",
+        "url": "https://www.reuters.com/business/energy/opec-set-keep-oil-output-targets-steady-sources-say-2026-11-01/",
+        "timestamp": 1793526131000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "King Charles To Address Slavery In Commonwealth Speech",
+        "url": "https://www.bbc.com/news/articles/cq398y0zj9rpo",
+        "timestamp": 1793487375000,
+        "photo": true,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Khamenei Says US Hostility Will Persist 'Regardless Of Party In Power'",
+        "url": "https://www.reuters.com/world/middle-east/irans-khamenei-says-us-hostility-will-persist-regardless-party-power-2026-11-04/",
+        "timestamp": 1793790009000,
+        "postedAt": 1793795260155
+      }
+    ],
+    "center": [
+      {
+        "headline": "Hungary Opens Communist-Era Informer Files In Reckoning With Cold War Past",
+        "url": "https://www.reuters.com/world/hungary-opens-communist-era-informer-files-belated-reckoning-with-cold-war-past-2026-11-04/",
+        "timestamp": 1793793223000,
+        "postedAt": 1793795260155
+      },
+      {
+        "headline": "Hockey Nations Refuse To Play Russia As Germany Weighs Pulling Out As Host",
+        "url": "https://www.euronews.com/2026/11/04/hockey-nations-refuse-to-play-russia-as-germany-weighs-pulling-out-as-host",
+        "timestamp": 1793789852000,
+        "postedAt": 1793795260155,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "UK's King Charles Calls Transatlantic Slave Trade A 'Monstrous Injustice'",
+        "url": "https://www.dw.com/en/uks-king-charles-iii-decries-monstrous-injustice-of-slave-trade/a-79845889",
+        "timestamp": 1793766301000,
+        "photo": true,
+        "postedAt": 1793795260155
+      },
+      {
+        "headline": "IRAN SIGNALS HORMUZ REOPENING AS DRAFT US DEAL EMERGES FROM DOHA TALKS",
+        "url": "https://www.reuters.com/world/middle-east/iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-2026-11-02/",
+        "timestamp": 1793622764550,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "Tenerife Striker De Miguel Dies After On-Pitch Collision",
+        "url": "https://www.reuters.com/sports/soccer/tenerife-striker-jesus-de-miguel-dies-after-collision-match-2026-11-03/",
+        "timestamp": 1793706237000,
+        "photo": true,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "Senegal's Faye Opens First Youth Olympic Games On African Soil",
+        "url": "http://www.afp.com/en/infos/senegal-makes-history-president-faye-opens-first-youth-olympic-games-african-soil",
+        "timestamp": 1793704560000,
+        "photo": true,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "Australia Hikes Rates To 18-Year High To Fight Inflation",
+        "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
+        "timestamp": 1793676720000,
+        "postedAt": 1793708855450,
+        "image": "/img/world-5.jpg"
+      },
+      {
+        "headline": "Karl Bushby Completes 28-Year Walk Around The World",
+        "url": "https://www.pbs.org/newshour/world/karl-bushby-embraces-his-mother-as-he-completes-his-28-year-walk-around-world",
+        "timestamp": 1793653932000,
+        "photo": true,
+        "postedAt": 1793708855450,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "Melania Trump's Credit For Oleshky Deal Disputed By Le Monde Report",
+        "url": "https://meduza.io/en/news/2026/11/02/oleshky-humanitarian-operation-credited-to-melania-trump-was-actually-negotiated-by-russian-and-ukrainian-intelligence-agencies-le-monde-reports",
+        "timestamp": 1793615460000,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "Belgian PM Offers To Quit Over Budget Impasse",
+        "url": "https://www.lemonde.fr/en/international/article/2026/11/02/belgian-pm-offers-to-quit-over-budget-impasse-but-king-defers-decision_6769440_4.html",
+        "timestamp": 1793620444000,
+        "photo": true,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "Liberman Backs Eisenkot For PM, Lapid For Knesset Speaker",
+        "url": "https://www.timesofisrael.com/liveblog_entry/liberman-says-he-will-recommend-eisenkot-to-be-prime-minister-lapid-to-be-knesset-speaker/",
+        "timestamp": 1793620079000,
+        "photo": true,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "China's Foreign Minister Pushes Dialogue On Middle East Conflict",
+        "url": "https://www.reuters.com/world/china/chinas-foreign-minister-pushes-dialogue-resolve-middle-east-conflict-2026-11-02/",
+        "timestamp": 1793618737000,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "UK: One Million Customers At Risk As Analogue Phone Line Era Ends",
+        "url": "https://www.euronews.com/2026/11/02/alarms-and-card-machines-at-risk-as-a-million-uk-lines-yet-to-make-digital-switch",
+        "timestamp": 1793617876000,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "China's Communist Party Pledges Deeper Reach Into Tech Sector",
+        "url": "https://www.scmp.com/news/china/politics/article/3372899/communist-party-pledges-reach-deeper-chinas-tech-digital-platform-sectors",
+        "timestamp": 1793545210000,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "Taiwan Says China Harassing Shipping With East Coast Patrol",
+        "url": "https://www.reuters.com/world/china/taiwan-says-china-harassing-shipping-with-east-coast-patrol-2026-11-01/",
+        "timestamp": 1793496000000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Binance To Resume Customer Withdrawals In Phases After Hack",
+        "url": "https://www.reuters.com/legal/government/binance-resume-withdrawals-after-recovering-bulk-6-billion-stolen-funds-2026-11-01/",
+        "timestamp": 1793528880000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "China To Convene Meeting On Supporting Stock Market",
+        "url": "https://finance.biggo.com/news/98ac9464-fe5a-43f8-bc41-cafb7bb38e47",
+        "timestamp": 1793527729000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Mexico Comes Alive For Annual Day Of The Dead Celebrations",
+        "url": "https://apnews.com/article/mexico-day-of-dead-3a7842be9ad9d7e63d63b33334cad7de",
+        "timestamp": 1793513940000,
+        "photo": true,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "US Plans To Deport Afghans Through Pakistan, Documents Show",
+        "url": "https://apnews.com/article/afghans-deportation-pakistan-trump-immigration-bfbc0e3dc2ee1c19fa5ec64d08468d98",
+        "timestamp": 1793492940000,
+        "photo": true,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Kherson Truce Lets Ukrainian Family 'Close Chapter' On Occupation",
+        "url": "https://www.japantimes.co.jp/news/2026/11/01/world/kherson-truce-ukrainian-families/",
+        "timestamp": 1793533260000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Lavrov Sets Conditions For Zelenskyy Talks At G20",
+        "url": "https://amp.dw.com/en/lavrov-sets-conditions-for-talks-with-zelenskyy-at-g20-meeting/video-79821499",
+        "timestamp": 1793531655000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Russia Reports 'Massive' Drone Attack On Industrial Enterprise",
+        "url": "https://www.euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-",
+        "timestamp": 1793517180000,
+        "feature": true,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "UAE 'Braced For The Worst' As US-Iran Talks Continue",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3372891/us-iran-talks-uae-braced-worst-hoping-diplomacy",
+        "timestamp": 1793532947000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Khamenei Orders 'Maximum' Response To Any US Attack",
+        "url": "https://www.axios.com/2026/10/31/irans-supreme-leader-maximum-response-us-attack",
+        "timestamp": 1793498889000,
+        "feature": true,
+        "postedAt": 1793536213908
+      }
+    ],
+    "right": [
+      {
+        "headline": "UN Says Climate Adaptation Aid Must Rise Tenfold",
+        "url": "https://www.rfi.fr/en/international-news/20261104-climate-adaptation-aid-must-rise-tenfold-un",
+        "timestamp": 1793792641000,
+        "postedAt": 1793795260155
+      },
+      {
+        "headline": "Indian Free Speech Groups Say Police Ordered X Account Removals",
+        "url": "https://www.straitstimes.com/asia/prominent-indian-free-speech-groups-say-police-ordered-x-accounts-removed",
+        "timestamp": 1793792220000,
+        "photo": true,
+        "postedAt": 1793795260155
+      },
+      {
+        "headline": "Hoax Bomb Threats Trigger Flight Searches, Diversions Across Europe",
+        "url": "https://apnews.com/article/europe-flights-bomb-threats-hoaxes-54591e18981c93e6c5aabe140404dab4",
+        "timestamp": 1793758320000,
+        "photo": true,
+        "postedAt": 1793795260155
+      },
+      {
+        "headline": "Austrian Slackliner Sets World Record Walking 144m Above Alps",
+        "url": "https://www.straitstimes.com/videos/6407834810112",
+        "timestamp": 1793705575000,
+        "photo": true,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "Labour MPs Pull Punches On Immigration Changes",
+        "url": "https://www.bbc.com/news/articles/ck0e0jpww9wro",
+        "timestamp": 1793697396000,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "Houthis Advance To Within 80 Km Of Aden, Sources Say",
+        "url": "https://www.reuters.com/world/middle-east/yemens-houthis-advance-within-80-km-aden-sources-say-2026-11-02/",
+        "timestamp": 1793651023000,
+        "photo": true,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "Labour Ends Power-Sharing With Greens In 11 Councils Over Zionism Row",
+        "url": "https://www.bbc.com/news/articles/c63dj21yvjd3o",
+        "timestamp": 1793642355000,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "Commonwealth Leaders Descend On Antigua Amid Global Turbulence",
+        "url": "https://nypost.com/2026/11/02/world-news/dozens-of-commonwealth-leaders-descend-on-antigua-during-global-political-turbulence/",
+        "timestamp": 1793619720000,
+        "photo": true,
+        "postedAt": 1793708855450
+      },
+      {
+        "headline": "RIOTS SWEEP EUROPE AS COST-OF-LIVING PROTESTS TURN VIOLENT",
+        "url": "https://www.nbcnews.com/world/europe/europe-braces-massive-halloween-protests-cost-living-public-services-rcna606671",
+        "timestamp": 1793536213908,
+        "postedAt": 1793536213908,
+        "image": "/img/world-7.jpg"
+      },
+      {
+        "headline": "Hong Kong Releases First National Security Law Convict Early",
+        "url": "https://www.scmp.com/news/hong-kong/politics/article/3373012/hong-kongs-first-national-security-law-convict-among-4-released-early-sources-say",
+        "timestamp": 1793620371000,
+        "photo": true,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "Hackers Attack Supermarket Fridges In Belgium, Sweden And Luxembourg",
+        "url": "https://www.politico.eu/article/new-supermarket-hack-in-belgium-sweden-luxembourg/",
+        "timestamp": 1793618340000,
+        "photo": true,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "South Africa's Splintering Vote Sets Up Multi-Party Battle For Cities",
+        "url": "https://www.reuters.com/world/africa/south-africas-splintering-vote-sets-up-multi-party-battle-cities-2026-11-02/",
+        "timestamp": 1793602920000,
+        "photo": true,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "Iran's Nuclear Bomb Debate Gains Ground On State Platforms",
+        "url": "https://www.iranintl.com/en/202611015457",
+        "timestamp": 1793580000000,
+        "postedAt": 1793622764550,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "Rare Beetle That Oozes Defense Fluid Rediscovered In Wales",
+        "url": "https://www.theguardian.com/environment/2026/nov/01/rare-short-necked-oil-beetle-rediscovered-wales",
+        "timestamp": 1793530860000,
+        "photo": true,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Russia Surpasses France In African Youth Appeal, Survey Finds",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3372843/russia-surpasses-france-african-youth-appeal-still-trails-china-survey",
+        "timestamp": 1793530002000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "UK's Future Lies In EU, Says Chancellor Rachel Reeves",
+        "url": "https://www.politico.eu/article/uk-future-eu-says-rachel-reeves/",
+        "timestamp": 1793529900000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Marquez Wins Malaysia, Closes In On MotoGP Title",
+        "url": "https://www.afp.com/en/marquez-wins-malaysia-close-motogp-world-title",
+        "timestamp": 1793527840000,
+        "photo": true,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "DeepSeek Unveils AI 'Super Agent' In Coding Race",
+        "url": "https://www.scmp.com/tech/article/3372884/deepseek-unveils-ai-super-agent-coding-race-openai-anthropic",
+        "timestamp": 1793527226000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "China Upgrades African Arms Trade As Russia, West Retreat",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3372870/rifles-radar-china-upgrades-its-african-arms-trade-russia-and-west-retreat",
+        "timestamp": 1793527211000,
+        "photo": true,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Five Killed In Fresh Ethnic Violence In India's Manipur State",
+        "url": "https://www.reuters.com/world/asia-pacific/five-killed-fresh-ethnic-violence-indias-manipur-state-2026-11-01/",
+        "timestamp": 1793526091000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "Serbia After Vucic: Winners Losing Patience",
+        "url": "https://www.dw.com/en/serbia-after-vucic-the-winners-are-losing-patience/a-79817586",
+        "timestamp": 1793516509000,
+        "postedAt": 1793536213908
+      },
+      {
+        "headline": "ISW: Russian Gains Slow Despite Renewed Offensive Pressure",
+        "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-1-2026/",
+        "timestamp": 1793589846000,
+        "postedAt": 1793622764550
+      },
+      {
+        "headline": "Kherson Civilians Brace For War's Return As Local Ceasefire Expires",
+        "url": "https://apnews.com/article/russia-ukraine-war-kherson-ceasefire-oleshky-22a9bcde97cf12c96328aacf88486e40",
+        "timestamp": 1793588700000,
+        "postedAt": 1793622764550
+      }
+    ]
+  }
+}
