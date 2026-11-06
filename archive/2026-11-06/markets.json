@@ -1,0 +1,478 @@
+{
+  "lastUpdated": 1793968916329,
+  "heroSetDate": "2026-11-06",
+  "hero": {
+    "headline": "WALL STREET STEADIES AS CHIP STOCKS REBOUND, EYES TURN TO JOBS REPORT AFTER BRUTAL AI SELLOFF",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html",
+    "sublinks": [
+      {
+        "text": "Nasdaq Futures Turn Higher As Chip Stocks Stabilize After Steep Selloff",
+        "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/"
+      },
+      {
+        "text": "Cramer Says AI Slump Isn't A Dot-Com-Style Crash, But 'It Isn't Over'",
+        "url": "https://www.cnbc.com/2026/11/05/jim-cramer-ai-stocks-sell-off.html"
+      },
+      {
+        "text": "Trump Blames Democrats' Midterm Sweep For The Plunge: 'Sad Thing To Watch!'",
+        "url": "https://radaronline.com/p/donald-trump-blames-stock-market-plunge-on-democrats/"
+      },
+      {
+        "text": "Semiconductor Stocks Absorb The Worst Of The AI Unwind",
+        "url": "https://www.zerohedge.com/the-market-ear/semiconductor-massacre"
+      }
+    ],
+    "postedAt": 1793968916329,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "AI STOCK SELLOFF DEEPENS AS DATA-CENTER BACKLASH SPREADS",
+      "stories": [
+        {
+          "headline": "Why Amazon And Other AI Data-Center Stocks Could Be Post-Midterm Winners",
+          "url": "https://247wallst.com/investing/2026/11/05/musk-says-data-centers-in-space-looking-pretty-appealing-right-now-after-voters-sided-against-data-centers-in-40-of-41-local-ballot-measures-as-spacex-coreweave-and-nebius-are-plunging-today/",
+          "timestamp": 1793963700000,
+          "postedAt": 1793968916329
+        },
+        {
+          "headline": "Democrats Championed Data-Center Moratoriums — Now They May Own The Fallout",
+          "url": "https://www.zerohedge.com/markets/democrats-spent-year-demanding-data-center-moratoriums-they-own-narrative-will-they-own",
+          "timestamp": 1793960400000,
+          "postedAt": 1793968916329
+        },
+        {
+          "headline": "Mystery Seller Looks To Offload $500 Million In Data-Center Loans",
+          "url": "https://www.marketscreener.com/news/mystery-seller-seeks-to-offload-500-million-of-data-center-loans-ce785fdddd8cf026",
+          "timestamp": 1793955558000,
+          "postedAt": 1793968916329
+        },
+        {
+          "headline": "Texas Is 'Done With Data Centers Until Further Notice,' New Governor Says",
+          "url": "https://www.usatoday.com/story/news/nation/2026/11/05/texas-is-done-with-data-centers-until-further-notice-new-governor-says/92634485007/",
+          "timestamp": 1793938500000,
+          "postedAt": 1793968916329
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "First-Time Buyers Face 7% Rates With 'No Low-Rate Mortgage To Surrender'",
+        "url": "https://fortune.com/2026/11/06/first-time-homebuyers-mortgage-rates-7-percent-down-payment-family-help/",
+        "timestamp": 1793951880000,
+        "postedAt": 1793968916329
+      },
+      {
+        "headline": "EU Charges TikTok Over Harmful Algorithmic 'Rabbit Hole' Effects",
+        "url": "https://www.reuters.com/world/china/meta-pauses-planned-terms-updates-keeps-existing-rules-place-2026-11-06/",
+        "timestamp": 1793963673000,
+        "postedAt": 1793968916329
+      },
+      {
+        "headline": "Nvidia Shares Rise On Dip-Buying Despite AI Selloff",
+        "url": "https://www.theglobeandmail.com/investing/markets/stocks/NFLX/pressreleases/8686481/stock-market-today-nov-5-nvidia-slides-on-ai-chip-selloff-as-election-uncertainty-weighs/",
+        "timestamp": 1793962500000,
+        "postedAt": 1793968916329
+      },
+      {
+        "headline": "France's Debt Crisis Could Trigger Wider European Meltdown",
+        "url": "https://www.zerohedge.com/geopolitical/frances-debt-crisis-could-trigger-much-bigger-european-meltdown",
+        "timestamp": 1793958000000,
+        "postedAt": 1793968916329
+      },
+      {
+        "headline": "Musk's Net Worth Falls $113 Billion As Tesla, SpaceX Shares Drop",
+        "url": "https://fortune.com/2026/11/06/elon-musk-midterms-spacex-tesla-stock-drop/",
+        "timestamp": 1793952000000,
+        "photo": true,
+        "postedAt": 1793968916329,
+        "image": "/img/markets-1.jpg"
+      },
+      {
+        "headline": "DOJ Launches 'Super Intelligence' Task Force",
+        "url": "https://gizmodo.com/doj-launches-super-intelligence-task-force-because-apparently-were-still-doing-this-2000835957",
+        "timestamp": 1793923563000,
+        "photo": true,
+        "postedAt": 1793968916329
+      },
+      {
+        "headline": "UK: Bank Of England Raises Rates For First Time Since Iran War",
+        "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+        "timestamp": 1793880101000,
+        "postedAt": 1793882026998
+      },
+      {
+        "headline": "US Suspends South Africa, Rwanda From Key African Trade Program",
+        "url": "https://www.zerohedge.com/geopolitical/us-suspends-south-africa-rwanda-key-african-trade-program",
+        "timestamp": 1793876400000,
+        "photo": true,
+        "postedAt": 1793882026998
+      },
+      {
+        "headline": "Trump's Fed Pressure Campaign Hits New Wall In Democratic Senate",
+        "url": "https://finance.yahoo.com/economy/policy/article/trumps-fed-pressure-campaign-hits-a-new-democratic-wall-in-the-senate-100000283.html",
+        "timestamp": 1793872800000,
+        "postedAt": 1793882026998
+      },
+      {
+        "headline": "China Blocks SoftBank's $5.4 Billion Robot Deal, Flexing AI Tech Control",
+        "url": "https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/",
+        "timestamp": 1793868960000,
+        "feature": true,
+        "postedAt": 1793882026998
+      },
+      {
+        "headline": "Powerball's $847 Million Jackpot Won By Ticket Holder In New Jersey",
+        "url": "https://www.foxbusiness.com/lifestyle/powerballs-massive-847m-jackpot-won-lucky-ticket-holder-new-jersey",
+        "timestamp": 1793864340000,
+        "photo": true,
+        "postedAt": 1793882026998
+      },
+      {
+        "headline": "JetBlue Raises Baggage Fees Again As Jet Fuel Costs Stay Elevated",
+        "url": "https://apnews.com/article/jetblue-baggage-fees-75bafdfceadcbdc8525dd4db1c099efa",
+        "timestamp": 1793838060000,
+        "photo": true,
+        "postedAt": 1793882026998
+      },
+      {
+        "headline": "Anthropic's IPO Filing Reveals Risky Financial Mechanics Behind Amodei's AI Vision",
+        "url": "https://fortune.com/2026/11/04/dario-amodei-wants-a-country-of-geniuses-in-a-data-center-realizing-that-vision-requires-tricky-financial-mechanics-anthropics-ipo-filing-shows/",
+        "timestamp": 1793791320000,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "CVS Plans Major Breakup, Splitting Off Drugstore Business",
+        "url": "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html",
+        "timestamp": 1793792153000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793795755172,
+        "image": "/img/markets-6.jpg"
+      },
+      {
+        "headline": "Alphabet Sell-Off Seen As Opening For Long-Term Investors",
+        "url": "https://www.fool.com/investing/2026/11/02/buy-sell-or-hold-alphabet-stock-after-its-505-bill/",
+        "timestamp": 1793786400000,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "China's Services Growth Slows To Three-Month Low As Confidence Weakens",
+        "url": "https://www.reuters.com/business/finance/chinas-services-growth-slows-three-month-low-confidence-weakens-2026-11-04/",
+        "timestamp": 1793757060000,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "3M Reaches $7.4 Billion Settlement Over 'Forever Chemicals' Injuries",
+        "url": "https://www.startribune.com/3m-strikes-7b-settlement-in-forever-chemical-firefighting-foam-cases/601909434",
+        "timestamp": 1793752740000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "McDonald's Q3 Sales Seen Slowing As Spending Cools, Value Deals In Focus",
+        "url": "https://finance.yahoo.com/markets/stocks/article/mcdonalds-q3-sales-expected-to-slow-amid-tough-consumer-backdrop-new-drinks-push-203324649.html",
+        "timestamp": 1793738004000,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "Disney Plans Several Thousand Layoffs, Pushes Managers To Cut Costs 20%",
+        "url": "https://www.cnbc.com/2026/11/03/disney-layoffs-cost-cuts.html",
+        "timestamp": 1793720338000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793795755172
+      }
+    ],
+    "center": [
+      {
+        "headline": "Defense Earnings Reveal A More Complicated Rearmament Boom",
+        "url": "https://www.cnbc.com/2026/11/06/defense-military-tech-earnings.html",
+        "timestamp": 1793955134000,
+        "photo": true,
+        "postedAt": 1793968916329,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "India's Coforge Joins SpaceX Network To Deploy Grok AI Tools",
+        "url": "https://www.reuters.com/business/media-telecom/indias-coforge-joins-spacex-partner-network-deploy-grok-ai-tools-enterprises-2026-11-06/",
+        "timestamp": 1793951160000,
+        "postedAt": 1793968916329
+      },
+      {
+        "headline": "Investors Skeptical Anthropic IPO Can Hit $1.5 Trillion Valuation",
+        "url": "https://www.cnbc.com/video/2026/11/06/some-anthropic-investors-now-skeptical-of-1-point-5-trillion-valuation-for-company-in-ipo.html",
+        "timestamp": 1793939760000,
+        "postedAt": 1793968916329
+      },
+      {
+        "headline": "Qualcomm Stock Falls After Warning Chip Margins Are Squeezed",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-shares-drop-10-rising-113057199.html",
+        "timestamp": 1793875140000,
+        "postedAt": 1793882026998
+      },
+      {
+        "headline": "World's Largest Olive Oil Company Plunges 18% After Rivals' Takeover Deal",
+        "url": "https://www.cnbc.com/2026/11/05/deoleo-olive-oil-takeover-dcoop-acesur.html",
+        "timestamp": 1793877305000,
+        "photo": true,
+        "postedAt": 1793882026998,
+        "image": "/img/markets-2.jpg"
+      },
+      {
+        "headline": "CVS Announces Major Breakup; Pharmacy Expert Weighs Consumer Impact",
+        "url": "https://www.foxbusiness.com/retail/cvs-announces-major-breakup-pharmacy-expert-weighs-impact-consumers",
+        "timestamp": 1793876400000,
+        "photo": true,
+        "postedAt": 1793882026998,
+        "image": "/img/markets-4.jpg"
+      },
+      {
+        "headline": "Sequoia Capital Shutters London Office As Silicon Valley VC Giants Pull Back",
+        "url": "https://www.zerohedge.com/markets/sequoia-capital-shutters-london-office-silicon-valleys-vc-giants-pull-back",
+        "timestamp": 1793874000000,
+        "postedAt": 1793882026998
+      },
+      {
+        "headline": "Rheinmetall Shares Plunge 17% After Outlook Cut As Military Contracts Stall",
+        "url": "https://www.cnbc.com/2026/11/05/rheinmetall-stock-outlook-sales-germany.html",
+        "timestamp": 1793864583000,
+        "photo": true,
+        "postedAt": 1793882026998
+      },
+      {
+        "headline": "Apple's 'Unprecedented' Memory Warning Shakes Micron, SK Hynix",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-unprecedented-memory-warning-adds-153146150.html",
+        "timestamp": 1793719906000,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "Euro Zone Inflation Hits 4%, First Time In Three Years, As Rate Hike Looms",
+        "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
+        "timestamp": 1793789250000,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "Will Crypto Rally After Midterms? History Offers A Clue",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-rally-midterm-elections-history-103500958.html",
+        "timestamp": 1793788500000,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "AMD Stock Jumps On Big Earnings Beat",
+        "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+        "timestamp": 1793745360000,
+        "photo": true,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "Nvidia, Big Tech Lift Market Despite Apple And Broader Wall Street Drops",
+        "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-0d235af127a92c68da0cc2c45c028cef",
+        "timestamp": 1793743260000,
+        "photo": true,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "Palantir's Skyrocketing Quarter Hides A Foreboding Signal",
+        "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+        "timestamp": 1793739955000,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "Google Will Block Search Access For Schools That Ban AI Use",
+        "url": "https://www.cbsnews.com/news/google-search-access-schools-ai-tools/",
+        "timestamp": 1793739600000,
+        "photo": true,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "Iran's Khamenei Claims US Hostility Will Persist Regardless Of Party In Power",
+        "url": "https://www.reuters.com/world/middle-east/irans-khamenei-says-us-hostility-will-persist-regardless-party-power-2026-11-04/",
+        "timestamp": 1793790009000,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "Neocloud Firm IREN Delays $4 Billion In Revenue After Customer Pulls Back",
+        "url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
+        "timestamp": 1793916759000,
+        "postedAt": 1793968916329
+      }
+    ],
+    "right": [
+      {
+        "headline": "Elizabeth Warren Could Hit Peak Power As Wall Street Critic In New Congress",
+        "url": "https://www.reuters.com/legal/legalindustry/wall-street-critic-elizabeth-warren-could-be-height-her-power-new-congress-2026-11-06/",
+        "timestamp": 1793963353000,
+        "photo": true,
+        "postedAt": 1793968916329
+      },
+      {
+        "headline": "Tesla To Axe Cybertruck As Musk Shifts Focus To Robotics And AI",
+        "url": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd",
+        "timestamp": 1793958258000,
+        "feature": true,
+        "postedAt": 1793968916329
+      },
+      {
+        "headline": "Zillennials Spend Nearly 5 Hours A Week 'Loud Working' To Get Noticed",
+        "url": "https://fortune.com/2026/11/06/workers-are-loud-working-3-hours-a-week-boasting-peers-are-getting-so-annoyed-quitting/",
+        "timestamp": 1793952120000,
+        "postedAt": 1793968916329
+      },
+      {
+        "headline": "South Korean Corporate Reforms Hit Rough Patch As Samsung Digs In",
+        "url": "https://www.reuters.com/world/asia-pacific/south-korean-corporate-reforms-hit-rough-patch-samsung-digs-2026-11-06/",
+        "timestamp": 1793950800000,
+        "postedAt": 1793968916329
+      },
+      {
+        "headline": "Scammed Out Of $3 Million, Seattle-Area Woman Warns Of Gold Bar Schemes",
+        "url": "https://www.seattletimes.com/seattle-news/king-county-residents-scammed-out-of-12-million-in-gold-bar-schemes/",
+        "timestamp": 1793929857000,
+        "photo": true,
+        "postedAt": 1793968916329
+      },
+      {
+        "headline": "DOW FUTURES SURGE 800 POINTS AS DEMOCRATS SWEEP MIDTERM ELECTIONS",
+        "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+        "timestamp": 1793795755172,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "Binance Hack Prompted US Regulators To Check Bank Systems, Sources Say",
+        "url": "https://www.reuters.com/legal/government/binance-hack-prompted-us-regulators-check-bank-systems-sources-say-2026-11-05/",
+        "timestamp": 1793874020000,
+        "postedAt": 1793882026998
+      },
+      {
+        "headline": "Consumers Still Spending On Physical Gifts Even As Travel Tops Wish Lists, Visa Finds",
+        "url": "https://www.cnbc.com/2026/11/05/visa-holiday-shopping-physical-gifts-travel.html",
+        "timestamp": 1793876401000,
+        "photo": true,
+        "postedAt": 1793882026998,
+        "image": "/img/markets-3.jpg"
+      },
+      {
+        "headline": "Turkey Unveils 2040 Energy Plan Requiring Over $200 Billion In Investment",
+        "url": "https://www.reuters.com/business/energy/turkey-unveils-2040-energy-plan-requiring-more-than-200-billion-electricity-2026-11-05/",
+        "timestamp": 1793875689000,
+        "photo": true,
+        "postedAt": 1793882026998
+      },
+      {
+        "headline": "Layoffs Stay Muted As Companies Expand Seasonal Hiring Plans: Challenger",
+        "url": "https://finance.yahoo.com/economy/article/layoffs-are-muted-and-companies-are-expanding-seasonal-hiring-plans-challenger-103000956.html",
+        "timestamp": 1793874600000,
+        "postedAt": 1793882026998
+      },
+      {
+        "headline": "Bahrain Leads Drive To Restore Gulf Tourism After Eight Months Of Conflict",
+        "url": "https://fortune.com/2026/11/04/bahrain-leads-drive-restore-tourism-gulf-conflict-collapsing-visitor-numbers/",
+        "timestamp": 1793794380000,
+        "photo": true,
+        "postedAt": 1793795755172,
+        "image": "/img/markets-5.jpg"
+      },
+      {
+        "headline": "ADNOC To Become First Energy Firm To Deploy OpenAI's Frontier Technology",
+        "url": "https://fortune.com/2026/11/04/adnoc-to-expand-ai-use-across-its-operations-to-strengthen-resilience/",
+        "timestamp": 1793790000000,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "Bangladesh Agrees New Garment Pay Scale From December Amid Protests",
+        "url": "https://www.reuters.com/world/asia-pacific/bangladesh-wage-board-meets-garment-worker-protests-continue-2026-11-04/",
+        "timestamp": 1793788989000,
+        "photo": true,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "How Malware And A Bogus Job Interview Let Hackers Nab $6.3 Billion From Binance",
+        "url": "https://www.helpnetsecurity.com/2026/11/04/binance-hack-north-korea-fake-job-interview/",
+        "timestamp": 1793756560000,
+        "photo": true,
+        "postedAt": 1793795755172,
+        "image": "/img/markets-7.jpg"
+      },
+      {
+        "headline": "Where In The US Are Homeowners Freest To Build?",
+        "url": "https://www.realclearmarkets.com/articles/2026/11/04/where_in_the_us_are_homeowners_freest_to_build_1215042.html",
+        "timestamp": 1793719260000,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "Novo Nordisk Hikes 2026 Outlook Again As Wegovy Pill Beats Forecasts",
+        "url": "https://www.reuters.com/business/novo-nordisk-q3-profit-beats-forecast-raises-2026-guidance-2026-11-04/",
+        "timestamp": 1793788139000,
+        "postedAt": 1793795755172
+      },
+      {
+        "headline": "Midterm Results Seen Forcing Big Tech To The Negotiating Table",
+        "url": "https://fortune.com/2026/11/05/midterm-elections-data-center-construction-big-tech-hinojosa-acton-lance-bottoms/",
+        "timestamp": 1793879760000,
+        "postedAt": 1793882026998
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,353.73",
+      "change": "-334.89",
+      "changePct": "-4.36%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "51,523.06",
+      "change": "-1,833.04",
+      "changePct": "-3.44%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "24,315.00",
+      "change": "-1,421.52",
+      "changePct": "-5.52%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr",
+      "value": "4.84%",
+      "change": "-0.06",
+      "changePct": "-1.16%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$4,078.30",
+      "change": "-35.20",
+      "changePct": "-0.86%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil",
+      "value": "$90.65",
+      "change": "+0.13",
+      "changePct": "+0.14%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$76,075.53",
+      "change": "+92.72",
+      "changePct": "+0.12%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}

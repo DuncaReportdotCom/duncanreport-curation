@@ -1,0 +1,373 @@
+{
+  "lastUpdated": 1793969809115,
+  "heroSetDate": "2026-11-06",
+  "hero": {
+    "headline": "DEMOCRATS' NEW SENATE MAJORITY SET TO BLOCK TRUMP'S JUDICIAL NOMINEES",
+    "url": "https://apnews.com/article/donald-trump-supreme-court-senate-chuck-schumer-08d26548196286e99f43b5e085f2d8ed",
+    "sublinks": [
+      {
+        "text": "Wyden Outlines Finance Committee's Democratic Majority Agenda",
+        "url": "https://www.finance.senate.gov/ranking-members-news/wyden-statement-on-finance-committee-democratic-majority-agenda/"
+      },
+      {
+        "text": "Dem Rep. Underwood Says Focus Is Accountability, Not Legislation",
+        "url": "https://www.breitbart.com/clips/2026/11/05/dem-rep-underwood-on-if-legislating-is-priority-1-we-are-focused-on-accountability-whole-cabinet-should-get-ready/"
+      },
+      {
+        "text": "North Carolina Democrats Flip Several Once-Safe GOP House Seats",
+        "url": "https://www.wunc.org/politics/2026-11-04/in-nc-democrats-flip-several-u-s-house-seats-once-considered-safely-republican"
+      },
+      {
+        "text": "Report: Young White Ohio Voters Swung 55 Points Toward Democrats",
+        "url": "https://www.breitbart.com/politics/2026/11/05/report-young-white-ohio-voters-swung-55-points-to-democrats-in-2-years/"
+      },
+      {
+        "text": "Government Shutdown Fight Looms Sooner Than Expected",
+        "url": "https://www.politico.com/live-updates/2026/11/06/congress/shutdown-fight-coming-sooner-than-you-think-01153492"
+      }
+    ],
+    "liveUpdates": [
+      {
+        "source": "NYT",
+        "url": "https://www.nytimes.com/live/2026/11/05/us/midterm-elections-democrats-trump"
+      },
+      {
+        "source": "2026 midterms",
+        "url": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/"
+      }
+    ],
+    "postedAt": 1793969809115,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "TRUMP ADMINISTRATION SHAKEUP AFTER MIDTERM LOSSES",
+      "stories": [
+        {
+          "headline": "Hegseth In 'Trouble' As Trump Faces Reckoning Over Iran War And Midterms",
+          "url": "https://thehill.com/policy/defense/6202854-hegseth-pentagon-future-uncertain/",
+          "timestamp": 1793922060000,
+          "postedAt": 1793969809115
+        },
+        {
+          "headline": "Rubio Weighs Leaving Administration After GOP's Midterm Loss",
+          "url": "https://news.bgov.com/bloomberg-government-news/rubio-considers-leaving-administration-after-gops-midterm-loss",
+          "timestamp": 1793919689000,
+          "postedAt": 1793969809115
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "How JD Vance Turned A War Into Republican Party Collapse",
+        "url": "https://www.dailywire.com/news/how-jd-vance-turned-a-war-into-republican-party-collapse",
+        "timestamp": 1793965652000,
+        "postedAt": 1793969809115,
+        "image": "/img/politics-7.jpg"
+      },
+      {
+        "headline": "Alabama Race Shows How Big The Blue Tsunami Was In 2026",
+        "url": "https://townhall.com/news/mattvespa/2026/11/06/this-alabama-race-shows-how-big-the-blue-tsunami-was-in-2026-n2686002",
+        "timestamp": 1793964600000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Melania Trump Calls For Lasting Ukraine Truce While Hosting Russian And Ukrainian Officials",
+        "url": "https://www.bbc.com/news/articles/c9p8g085mz07o",
+        "timestamp": 1793951779000,
+        "photo": true,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Trump Signs Order To Prevent Future Presidents From Changing Oval Office",
+        "url": "https://www.bbc.com/news/articles/cmy0eeg101djo",
+        "timestamp": 1793939365000,
+        "photo": true,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Nithya Raman Wins Los Angeles Mayor Race Over Incumbent Karen Bass",
+        "url": "https://www.bbc.com/news/articles/c6e3xxwk3k11o",
+        "timestamp": 1793928483000,
+        "photo": true,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Amy Westervelt",
+        "url": "https://www.realclearinvestigations.com/authors/amy_westervelt/",
+        "timestamp": 1793466000000,
+        "postedAt": 1793796339982
+      },
+      {
+        "headline": "Father Who Killed Bend School Shooter Told 911: 'I Will Shoot Him Right Now'",
+        "url": "https://www.opb.org/article/2026/11/03/bend-oregon-silver-rail-elementary-school-shooting-crime-911-call/",
+        "timestamp": 1793795522000,
+        "photo": true,
+        "postedAt": 1793796272992,
+        "image": "/img/politics-2.jpg"
+      },
+      {
+        "headline": "America Underestimated Extent Of Democratic Wave, Fox Analysis Finds",
+        "url": "https://www.foxnews.com/politics/america-saw-blue-wave-coming-drastically-underestimated-extent-dem-tsunami",
+        "timestamp": 1793793645000,
+        "postedAt": 1793796272992
+      },
+      {
+        "headline": "Trump's Two New Tormentors: A Democratic Congress And The Courts",
+        "url": "https://www.politico.com/news/2026/11/04/donald-trump-democrats-congress-01147923",
+        "timestamp": 1793789700000,
+        "feature": true,
+        "postedAt": 1793796272992
+      },
+      {
+        "headline": "Gun Rights Advocate Kimberly Corban On Why Second Amendment Fights Continue",
+        "url": "https://www.nationalreview.com/corner/watch-nr-live-interview-gun-rights-advocate-kimberly-corban/?utm_source",
+        "timestamp": 1793783512000,
+        "photo": true,
+        "postedAt": 1793796272993
+      },
+      {
+        "headline": "'Total Bloodbath': Democrats' Sweeping Wins Rock Wall Street Over AI Fears",
+        "url": "https://www.politico.com/news/2026/11/06/midterms-democrats-ai-wall-street-01153458",
+        "timestamp": 1793959200000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Hegseth Not Under Consideration For Senate Appointment",
+        "url": "https://apnews.com/article/hegseth-senate-seat-tennessee-bfe5baf0dd3f26ddf0ca9b844400515d",
+        "timestamp": 1793951154000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "'JD, Habibi': El-Sayed Embraces Arab Solidarity In Michigan Victory Speech",
+        "url": "https://www.pbs.org/newshour/politics/jd-habibi-arabs-celebrate-el-sayeds-use-of-a-term-of-affection-in-his-victory-speech",
+        "timestamp": 1793925729000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Newsom Says He Will Commute All California Death Sentences To Life Without Parole",
+        "url": "https://www.kcra.com/article/newsom-commutes-548-california-death-sentences/74348779",
+        "timestamp": 1793923980000,
+        "postedAt": 1793969809115
+      }
+    ],
+    "center": [
+      {
+        "headline": "Judge Halts Trump's 250-Foot Arch After Federal Panel Approves It",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/11/06/judge-temporarily-halts-trumps-250-foot-arch-shortly-after-key-approval/",
+        "timestamp": 1793965347000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Trump Built A Coalition; Republicans Mistook It For A Loyal Base",
+        "url": "https://dailycaller.com/2026/11/06/duke-2026-midterms-trump-2024-coalition-republican-party-defectors",
+        "timestamp": 1793962800000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Salon, Left-Leaning News Site, Is Shutting Down",
+        "url": "https://townhall.com/news/mattvespa/2026/11/06/rip-salon-left-wing-rag-is-shutting-down-n2686023",
+        "timestamp": 1793962800000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Photos: USS Theodore Roosevelt Flight Operations",
+        "url": "https://www.nationalreview.com/photos/uss-theodore-roosevelt-flight-ops/",
+        "timestamp": 1793951838000,
+        "photo": true,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Washington Voters Pass Initiative Banning Transgender Girls From Girls' Sports",
+        "url": "https://www.opb.org/article/2026/11/05/washington-voters-pass-trangender-ban-girls-sports/",
+        "timestamp": 1793902718000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1793969809115,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "Trump Battles The Bureaucracy In Upending Democratic Norms",
+        "url": "https://www.realclearinvestigations.com/articles/2026/11/05/upending_democratic_norms_trump_battles_the_bureaucracy_1215217.html",
+        "timestamp": 1793814480000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Republicans Start Pointing Fingers At Trump After Severe Midterm Losses",
+        "url": "https://www.politico.com/news/2026/11/04/republicans-start-to-point-fingers-at-trump-after-severe-midterms-loss-01148373",
+        "timestamp": 1793789700000,
+        "photo": true,
+        "postedAt": 1793796272992
+      },
+      {
+        "headline": "Democrats Sweep Republicans In Midterms — What Happened?",
+        "url": "https://www.dailywire.com/episode/mrn-261104",
+        "timestamp": 1793784688000,
+        "photo": true,
+        "postedAt": 1793796272993,
+        "image": "/img/politics-4.jpg"
+      },
+      {
+        "headline": "Supreme Court Hears Case On Catholic Preschools And LGBTQ Families",
+        "url": "https://www.pbs.org/newshour/politics/listen-live-supreme-court-hears-case-on-catholic-preschools-and-lgbtq-families",
+        "timestamp": 1793718014000,
+        "photo": true,
+        "postedAt": 1793796272993,
+        "image": "/img/politics-5.jpg"
+      },
+      {
+        "headline": "Ricketts Holds Nebraska Senate Seat For Republicans",
+        "url": "https://www.cbsnews.com/news/nebraska-2026-senate-ricketts-osborn/",
+        "timestamp": 1793782800000,
+        "postedAt": 1793796272993
+      },
+      {
+        "headline": "Hinojosa Ousts Abbott To Become Texas' First Democratic Governor In 35 Years",
+        "url": "https://apnews.com/article/texas-governor-election-hinojosa-abbott-c9a0ffa1ec3cd599f9bc304ae26268a2",
+        "timestamp": 1793772780000,
+        "postedAt": 1793796272993
+      },
+      {
+        "headline": "Harmeet Dhillon Resigns From DOJ",
+        "url": "https://www.forbes.com/sites/saradorn/2026/11/05/controversial-doj-civil-rights-head-harmeet-dhillon-resigns/",
+        "timestamp": 1793902547000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "New Records Set For Women In US Congress",
+        "url": "https://cawp.rutgers.edu/news-media/press-releases/new-records-women-us-congress-and-us-house",
+        "timestamp": 1793904220000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Newsom's Prop 50 Pays Off As GOP Gerrymanders Flop",
+        "url": "https://www.realclearpolitics.com/articles/2026/11/05/newsoms_prop_50_pays_off_as_gop_gerrymanders_flop_154658.html",
+        "timestamp": 1793858400000,
+        "postedAt": 1793969809115
+      }
+    ],
+    "right": [
+      {
+        "headline": "A Father's Post-Midterm Message To The Conservative Movement",
+        "url": "https://www.dailywire.com/news/a-fathers-post-midterm-message-to-the-conservative-movement",
+        "timestamp": 1793966854000,
+        "postedAt": 1793969809115,
+        "image": "/img/politics-6.jpg"
+      },
+      {
+        "headline": "Ballot Initiatives Produced Many Silver Linings",
+        "url": "https://www.nationalreview.com/2026/11/ballot-initiatives-produced-many-silver-linings/",
+        "timestamp": 1793964611000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Indiana, Florida And Alabama Carry Out Three US Executions On Same Day",
+        "url": "https://www.cbsnews.com/news/3-us-executions-same-day-second-time/",
+        "timestamp": 1793871900000,
+        "photo": true,
+        "postedAt": 1793969809115,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "The 2026 Midterms Exposed A Broken Republican Party—And A Broken America",
+        "url": "https://www.realclearpolicy.com/articles/2026/11/04/the_2026_midterms_exposed_a_broken_republican_partyand_a_broken_america_1215196.html",
+        "timestamp": 1793797800000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Critics Blast El-Sayed As 'Muslim Brotherhood-Friendly Radical' Ahead Of Senate Term",
+        "url": "https://freebeacon.com/elections/madness-in-michigan-muslim-brotherhood-friendly-radical-heads-to-us-senate/",
+        "timestamp": 1793789694000,
+        "photo": true,
+        "postedAt": 1793796272992,
+        "image": "/img/politics-3.jpg"
+      },
+      {
+        "headline": "Judge Dismisses Case Demanding Harvard Release Admissions Data",
+        "url": "https://www.harvardmagazine.com/harvard-in-the-crosshairs/admissions-suit-dismissed-on-procedural-grounds",
+        "timestamp": 1793730695000,
+        "photo": true,
+        "postedAt": 1793796272993
+      },
+      {
+        "headline": "Trump's Bid To Thwart Midterm History Flops",
+        "url": "https://www.realclearpolitics.com/articles/2026/11/03/trumps_ballot_flop_154650.html",
+        "timestamp": 1793685600000,
+        "postedAt": 1793796272993
+      },
+      {
+        "headline": "El-Sayed Defeats Rogers To Become First Muslim US Senator",
+        "url": "https://www.npr.org/2026/11/04/g-s1-150029/michigan-senate-race-abdul-el-sayed-mike-rogers",
+        "timestamp": 1793793102000,
+        "feature": true,
+        "postedAt": 1793796272992
+      },
+      {
+        "headline": "Fired Navy Admiral Flips Mace's South Carolina House Seat",
+        "url": "https://thehill.com/homenews/campaign/6192130-lacore-wins-south-carolina-house/",
+        "timestamp": 1793774460000,
+        "postedAt": 1793796272993
+      },
+      {
+        "headline": "Becerra Makes History As California's First Elected Latino Governor",
+        "url": "https://www.sfchronicle.com/election/article/california-governor-results-22494957.php",
+        "timestamp": 1793765280000,
+        "postedAt": 1793796272993
+      },
+      {
+        "headline": "Trump Points Finger At Democrats Over Massive Market Losses",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trump-points-finger-democrats-over-003601051.html",
+        "timestamp": 1793927413000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Haley Stevens Stands Alone After Eleventh-Hour Endorsement Flip",
+        "url": "https://komonews.com/news/nation-world/michigan-democrat-haley-stevens-stands-alone-after-eleventh-hour-abdul-el-sayed-republican-mike-rogers-senate-endorsement-flip-rrt",
+        "timestamp": 1793944884000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Former MLB Star Mark Teixeira Wins US House Seat In Texas",
+        "url": "https://www.espn.com/mlb/story/_/id/50376245/former-mlb-star-mark-teixeira-wins-us-house-seat-texas",
+        "timestamp": 1793772180000,
+        "postedAt": 1793969809115
+      }
+    ]
+  },
+  "polls": [
+    {
+      "name": "Trump Approval",
+      "value": "39%/59%",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
+      "asOf": "Nov 1, 2026"
+    },
+    {
+      "name": "Generic Congressional Vote",
+      "value": "Dem +8",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "Nov 3, 2026"
+    },
+    {
+      "name": "Right Direction",
+      "value": "35%",
+      "sub": "",
+      "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/right_direction_or_wrong_track",
+      "asOf": "Oct 29, 2026"
+    }
+  ],
+  "balance": {
+    "left": 645,
+    "right": 691,
+    "independent": 3,
+    "days": 30,
+    "total": 1336,
+    "pctLeft": 48,
+    "pctRight": 52
+  }
+}

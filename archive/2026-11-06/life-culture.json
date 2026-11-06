@@ -1,0 +1,436 @@
+{
+  "lastUpdated": 1793970341585,
+  "heroSetDate": "2026-11-06",
+  "hero": {
+    "headline": "TESLA TO WIND DOWN CYBERTRUCK PRODUCTION IN 2027",
+    "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+    "sublinks": [
+      {
+        "text": "The Verge: Slow Sales And Design Backlash Doomed Elon Musk's Polarizing Pickup",
+        "url": "https://www.theverge.com/transportation/1028542/tesla-cybertruck-winding-down-production-2027"
+      }
+    ],
+    "postedAt": 1793970341585,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "SALON, PIONEERING DIGITAL NEWS SITE, SHUTS DOWN AFTER 31 YEARS",
+      "stories": [
+        {
+          "headline": "NY Post: Progressive-Leaning Salon Closes Its Doors After 31-Year Run",
+          "url": "https://nypost.com/2026/11/05/media/lefty-digital-news-site-salon-closes-after-31-years/",
+          "timestamp": 1793917620000,
+          "postedAt": 1793970341585
+        },
+        {
+          "headline": "Salon To Shut Down After Three Decades As Early Internet Discourse Hub",
+          "url": "https://abcnews.com/Entertainment/wireStory/online-magazine-salon-early-staple-internet-discourse-announces-137894108",
+          "timestamp": 1793916821000,
+          "postedAt": 1793970341585
+        },
+        {
+          "headline": "TheWrap: Industry Reflects On Salon's Legacy As Site Shutters",
+          "url": "https://www.thewrap.com/media-platforms/journalism/salon-shuts-down/",
+          "timestamp": 1793909019000,
+          "postedAt": 1793970341585
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "BOB DYLAN MEETS POPE LEO AT VATICAN AUDIENCE",
+        "url": "https://www.npr.org/2026/11/05/g-s1-152035/vatican-pope-bob-dylan",
+        "timestamp": 1793883440951,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "'Black Doves' Finale Explained: Is Helen Webb's Secret Life Exposed?",
+        "url": "https://www.esquire.com/uk/culture/tv/a74342808/netflix-black-doves-season-2-recap-ending-explained/",
+        "timestamp": 1793958722000,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "UK: Rare Rolexes Seized In £1.7 Billion Money-Laundering Bust Head To Auction",
+        "url": "https://www.esquire.com/uk/watches/a74356054/rolexe-auction/",
+        "timestamp": 1793968290000,
+        "photo": true,
+        "postedAt": 1793970341585,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Cristiano Ronaldo's Undignified Last Act, A Cultural Post-Mortem",
+        "url": "https://unherd.com/2026/11/cristiano-ronaldos-undignified-last-act/",
+        "timestamp": 1793959979000,
+        "photo": true,
+        "postedAt": 1793970341585,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "Russell Brand Found Guilty Of Rape And Sexual Assault Charges",
+        "url": "https://www.yahoo.com/news/world/article/russell-brand-found-guilty-of-rape-and-sexual-assaults-actor-being-investigated-over-more-rape-allegations-170208970.html",
+        "timestamp": 1793917985000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793970341585,
+        "image": "/img/life-culture-5.jpg"
+      },
+      {
+        "headline": "Donna Haraway's Cyborg Manifesto Gets A Second Look In The Age Of AI",
+        "url": "https://yalereview.org/article/meghan-o-gieblyn-donna-haraway-utopian-promise",
+        "timestamp": 1793893535000,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "Appeals Court Lets 'ER' Creator's Estate Sue Over 'The Pitt' Similarities",
+        "url": "https://www.nbcnews.com/pop-culture/tv/er-creators-estate-can-sue-pitt-similarities-appeals-court-rules-rcna607612",
+        "timestamp": 1793891465000,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "FOUR-COLOR THEOREM GETS RARE NEW PROOF AFTER DECADES OF MATHEMATICAL MYSTERY",
+        "url": "https://www.smithsonianmag.com/science-nature/the-four-color-theorem-has-haunted-mathematicians-for-decades-it-just-got-a-rare-new-proof-but-some-still-long-for-a-simpler-solution-180989799/",
+        "timestamp": 1793796737528,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "Somersault Squat Helps Men Over 50 Build Strong Legs",
+        "url": "https://www.menshealth.com/uk/building-muscle/a74202647/somersault-squat-benefits-how-to/",
+        "timestamp": 1793882257000,
+        "photo": true,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Ryan Reynolds Spotted With Ultra-Rare Aubert & Ramel Watch",
+        "url": "https://robbreport.com/style/watch-collector/ryan-reynolds-rare-aubert-ramel-ourea-watch-1238817483/",
+        "timestamp": 1793880000000,
+        "photo": true,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Welcome To The Mixed-Up, Joyful World Of AuDHD",
+        "url": "https://aeon.co/essays/welcome-to-the-mixed-up-joyful-world-of-audhd",
+        "timestamp": 1793876483000,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Your Fall Baking Is Missing One Ingredient — And It's Not Pumpkin Spice",
+        "url": "https://www.seriouseats.com/maple-sugar-ingredient-explainer-12237358",
+        "timestamp": 1793876400000,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Penn Researchers Discover New Use For CRISPR Gene Editing",
+        "url": "https://www.thedp.com/article/2026/11/penn-med-perelman-crispr-gene-editing-muscular-dystrophy",
+        "timestamp": 1793797707000,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "UK: Russell Brand Trial Jury Begins Verdict Deliberations",
+        "url": "https://deadline.com/2026/11/russell-brand-trial-jury-begin-verdict-deliberations-1237212057/",
+        "timestamp": 1793722200000,
+        "photo": true,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "At The CFDA Awards, Ralph Lauren Makes History",
+        "url": "https://t2online.in/goodlife/fashion-beauty/ralph-lauren-makes-history-with-record-breaking-win-at-2026-cfda-fashion-award/2009011",
+        "timestamp": 1793718628000,
+        "photo": true,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Ronnie Coleman, 62, Shares His 6-Day Workout Plan For Max Muscle",
+        "url": "https://www.menshealth.com/uk/building-muscle/a74331128/ronnie-coleman-6-day-split/",
+        "timestamp": 1793791029000,
+        "photo": true,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "The Gross Reason Some Fish Follow Dugongs Around",
+        "url": "https://www.realclearscience.com/video/2026/11/04/the_gross_reason_some_fish_follow_dugongs_1215026.html",
+        "timestamp": 1793746270000,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "Scientists Build Whole-Earth Simulation To Search For Alien Life",
+        "url": "https://phys.org/news/2026-11-scientists-earth-simulation-life-planets.html",
+        "timestamp": 1793645401000,
+        "postedAt": 1793796737528
+      }
+    ],
+    "center": [
+      {
+        "headline": "'The Odyssey' Propels IMAX To Historic Box-Office Record",
+        "url": "https://www.forbes.com/sites/maryroeloffs/2026/11/05/imax-posts-best-quarter-in-its-history-thanks-to-the-odyssey/",
+        "timestamp": 1793898265000,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "Fossil Footprints In Brazil Point To A Cougar-Size Mammal That Walked Among Dinosaurs",
+        "url": "https://www.smithsonianmag.com/science-nature/fossil-footprints-in-brazil-hint-at-a-cougar-size-mammal-that-walked-among-dinosaurs-its-another-sign-that-some-early-beasts-grew-to-impressive-sizes-after-all-180989815/",
+        "timestamp": 1793968200000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "Verdict: The Acura ADX Is A Luxurious Honda HR-V, And That's A Good Thing",
+        "url": "https://www.motortrend.com/reviews/2025-acura-adx-yearlong-review-verdict",
+        "timestamp": 1793966730000,
+        "photo": true,
+        "postedAt": 1793970341585,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "Why Astrophysics Needs To Abandon Its Obsession With 'Big Questions'",
+        "url": "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions",
+        "timestamp": 1793962897000,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "Olivia Rodrigo Releases New Holiday Song 'Take Me Home (4 Christmas)'",
+        "url": "https://pitchfork.com/story/listen-to-olivia-rodrigos-new-song-take-me-home-4-christmas/",
+        "timestamp": 1793927737000,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "Mötley Crüe's Vince Neil: Girlfriend Arrested For Domestic Assault On Rocker",
+        "url": "https://pagesix.com/2026/11/05/celebrity-news/motley-crue-frontman-vince-neils-girlfriend-arrested-for-domestic-assault-against-rocker/",
+        "timestamp": 1793927100000,
+        "photo": true,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "The Training And Fuel Behind Will Goodge's 50 Marathons In 22 Days",
+        "url": "https://www.menshealth.com/uk/fitness/cardio-exercise/a74331436/will-goodge-mission-america/",
+        "timestamp": 1793879557000,
+        "photo": true,
+        "postedAt": 1793883440951,
+        "image": "/img/life-culture-7.jpg"
+      },
+      {
+        "headline": "Discord Ditches Electron For A Lighter New App",
+        "url": "https://tech-insider.org/discord-electron-rust-gpui-rebuild-290mb-ram-2026/",
+        "timestamp": 1793878782000,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Mexico: I Tried To Unplug On Vacation — My Phone Addiction Followed",
+        "url": "https://www.usatoday.com/story/travel/columnist/2026/11/05/travel-digital-detox-tips/92333175007/",
+        "timestamp": 1793872980000,
+        "photo": true,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "'Logan' Star Dafne Keen Says She Was Offered Cocaine At 11 On Set",
+        "url": "https://ew.com/logan-star-dafne-keen-says-she-was-offered-cocaine-when-she-was-11-12236778",
+        "timestamp": 1793836832000,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Physicist Maps Thousands Of Overlooked Chemicals Hiding In Food",
+        "url": "https://www.sciencenews.org/article/scientist-maps-food-chemicals-sn10",
+        "timestamp": 1793793600000,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "Google Still Hasn't Figured Out How To Make AI Pay Like Search",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+        "timestamp": 1793793600000,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "Seiko's New Hideo Kojima Watches Come With One Catch",
+        "url": "https://www.esquire.com/uk/watches/a74330973/seikos-new-affordable-hideo-kojima-watches/",
+        "timestamp": 1793790414000,
+        "photo": true,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "Zelda: Ocarina Of Time Remake Review Calls It Superb But Safe",
+        "url": "https://www.npr.org/2026/11/04/nx-s1-6026597/review-legend-of-zelda-ocarina-of-time-remake-switch-2",
+        "timestamp": 1793790000000,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "Paris Jackson Seeks $600 Million From Michael Jackson's Estate For His Kids",
+        "url": "https://people.com/paris-jackson-seeks-600-million-transfer-from-michael-jackson-estate-to-family-trust-12208764",
+        "timestamp": 1793746578000,
+        "photo": true,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "Scientists Spot Massive Dwarf Planet Lurking In Outer Solar System",
+        "url": "https://www.foxweather.com/earth-space/scientists-discover-massive-dwarf-planet-solar-system",
+        "timestamp": 1793643780000,
+        "photo": true,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "CEO Says Chain Has 'Finally Recovered' After Years Of Struggle",
+        "url": "https://www.hollywoodreporter.com/business/business-news/amc-theatres-third-quarer-1236747699/",
+        "timestamp": 1793832390000,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "AMC Theatres Posts Record Revenue As Box Office Rebounds",
+        "url": "https://deadline.com/2026/11/amc-entertainment-record-q3-resurgent-box-office-1237213464/",
+        "timestamp": 1793831640000,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Purdue Team Finds Potential Mechanism Behind Alzheimer's Resilience",
+        "url": "https://www.purdue.edu/hhs/news/2026/11/purdue-health-sciences-researchers-discover-a-new-potential-mechanism-towards-alzheimers-resilience/",
+        "timestamp": 1793627809000,
+        "postedAt": 1793883440951
+      }
+    ],
+    "right": [
+      {
+        "headline": "Martine Rose Named Creative Director Of Balenciaga: What To Expect",
+        "url": "https://www.esquire.com/uk/style/fashion/a74356336/martine-rose-balenciaga/",
+        "timestamp": 1793968242000,
+        "photo": true,
+        "postedAt": 1793970341585,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "The Samurai Squat: A Warrior-Inspired Move For Stronger Legs",
+        "url": "https://www.menshealth.com/uk/building-muscle/a74355538/bodyweight-legs-samurai-squats/",
+        "timestamp": 1793967771000,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "15 Adorable Rabbit And Hare Photos To Make You Leap For Leporidae",
+        "url": "https://www.smithsonianmag.com/science-nature/hear-hear-to-long-ears-these-15-furry-photos-of-adorable-rabbits-and-hares-will-have-you-leaping-for-leporidae-180989824/",
+        "timestamp": 1793966400000,
+        "photo": true,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "This New 102-Foot Custom Superyacht Bucks Design Conventions",
+        "url": "https://robbreport.com/motors/marine/antonini-navi-launches-custom-steel-superaycht-evo-31-hanaa-1238820795/",
+        "timestamp": 1793966400000,
+        "photo": true,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "Singapore Airlines Unveils Its New First And Business Class Cabins",
+        "url": "https://thepointsguy.com/airline/singapore-airlines-new-first-class-business-class/",
+        "timestamp": 1793958885000,
+        "photo": true,
+        "postedAt": 1793970341585,
+        "image": "/img/life-culture-4.jpg"
+      },
+      {
+        "headline": "A Former Army Medic Reflects On His Toughest Moments Treating The Wounded",
+        "url": "https://www.npr.org/2026/11/06/nx-s1-6027720/former-army-medic-reflects-on-his-toughest-moments-helping-the-wounded",
+        "timestamp": 1793958366000,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "'Beverly Hills, 90210' Actress Kimmarie Johnson Dies At 50",
+        "url": "https://variety.com/2026/tv/obituaries-people-news/kimmarie-johnson-dead-beverly-hills-90210-model-1236940671/",
+        "timestamp": 1793911260000,
+        "photo": true,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "The 2027 Met Gala's New Theme Is... Deliberately Boring",
+        "url": "https://www.thecut.com/article/the-new-2027-met-gala-theme-boring.html",
+        "timestamp": 1793897590000,
+        "postedAt": 1793970341585
+      },
+      {
+        "headline": "First Test: 2027 Nissan Rogue Hybrid Is Best-Driving Rogue Yet",
+        "url": "https://www.motortrend.com/reviews/first-test-2027-nissan-rogue-hybrid",
+        "timestamp": 1793880455000,
+        "photo": true,
+        "postedAt": 1793883440951,
+        "image": "/img/life-culture-6.jpg"
+      },
+      {
+        "headline": "Agility Robotics Becomes First Humanoid Robot Firm To Go Public",
+        "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+        "timestamp": 1793880000000,
+        "photo": true,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Tiny Sound-Emitting Tags Are Helping Save Six Fish Species",
+        "url": "https://www.smithsonianmag.com/blogs/smithsonian-environmental-research-center/2026/11/05/six-fish-these-tags-are-helping-save/",
+        "timestamp": 1793876400000,
+        "photo": true,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "And The Award For World's Best Restaurant Goes To...",
+        "url": "https://www.cnn.com/2026/11/05/travel/worlds-50-best-restaurants-2026",
+        "timestamp": 1793857492000,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Herbert Blomstedt, Low-Key, Long-Performing Maestro, Dies At 99",
+        "url": "https://www.npr.org/2026/11/04/nx-s1-5740271/herbert-blomstedt-conductor-dead",
+        "timestamp": 1793812585000,
+        "photo": true,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Scientists Find A Potential Driver Of Aging In The Testicles",
+        "url": "https://www.sciencealert.com/scientists-discover-a-potential-driver-of-aging-in-the-testicles",
+        "timestamp": 1793721892000,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Scientists Find Powerful New Way To Destroy 'Forever Chemicals'",
+        "url": "https://scitechdaily.com/scientists-discover-a-powerful-new-way-to-destroy-toxic-forever-chemicals/",
+        "timestamp": 1793648935000,
+        "feature": true,
+        "postedAt": 1793883440951
+      },
+      {
+        "headline": "Richard Branson, 76, Credits Dumbbell Training For Feeling 'In His 20s'",
+        "url": "https://www.menshealth.com/uk/fitness/a74320435/richard-branson-training-routine/",
+        "timestamp": 1793794047000,
+        "photo": true,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "MotorTrend Ranks 7 V8 Engines That Let Drivers Down",
+        "url": "https://www.motortrend.com/features/worst-v-8-engines-ever-produced",
+        "timestamp": 1793793910000,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "Artist's Tiny Biospheres Mirror The Fragility Of Our Own World",
+        "url": "https://aeon.co/videos/in-tiny-biospheres-an-artist-reflects-the-fragility-of-our-own",
+        "timestamp": 1793790060000,
+        "photo": true,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "Biggest Revelations From Netflix's Natalee Holloway Documentary",
+        "url": "https://pagesix.com/2026/11/04/entertainment/the-biggest-revelations-from-netflixs-natalee-holloway-doc/",
+        "timestamp": 1793779260000,
+        "photo": true,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "New Method Destroys Toxic 'Forever Chemicals' For Good",
+        "url": "https://scitechdaily.com/scientists-discover-a-powerful-new-way-to-destroy-toxic-forever-chemicals/",
+        "timestamp": 1793648935000,
+        "postedAt": 1793796737528
+      },
+      {
+        "headline": "New Drug Repairs DNA Damage And Cuts Brain Inflammation",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm",
+        "timestamp": 1793679149000,
+        "postedAt": 1793883440951
+      }
+    ]
+  }
+}

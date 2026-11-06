@@ -1,0 +1,462 @@
+{
+  "lastUpdated": 1793968472270,
+  "heroSetDate": "2026-11-06",
+  "hero": {
+    "headline": "UKRAINE AID HUB DEATH TOLL CLIMBS TO 53 AS U.S. PUSHES NEW PEACE PLAN",
+    "url": "https://www.reuters.com/world/europe/death-toll-russian-bombing-ukrainian-aid-point-rises-53-governor-says-2026-11-06/",
+    "sublinks": [
+      {
+        "text": "US Envoy Calls Renewed Security Talks 'Productive' Despite Fresh Strikes",
+        "url": "https://apnews.com/article/russia-ukraine-war-airstrikes-negotiations-kushner-0b975a30f862731346e7e1d098a8d538"
+      },
+      {
+        "text": "Russia And Ukraine Trade Strikes In Black Sea Ahead Of Abu Dhabi Talks",
+        "url": "https://www.africanews.com/amp/2026/11/06/russia-ukraine-escalate-mutual-strikes-in-black-sea-ahead-of-abu-dhabi-talks/"
+      },
+      {
+        "text": "Trump Touts 'Big, Beautiful' Deal After Meeting Putin's Envoy",
+        "url": "https://www.dw.com/en/trump-raises-prospect-of-big-beautiful-russia-ukraine-deal/a-79871394"
+      },
+      {
+        "text": "Zelenskyy Says Russia Has Hit Every Power Plant, Seeks Latin American Help",
+        "url": "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help"
+      },
+      {
+        "text": "US Floats New European Security Framework As Part Of Deal",
+        "url": "https://www.kyivpost.com/post/89289"
+      }
+    ],
+    "postedAt": 1793968472270,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "BOMB THREAT WAVE HITS EUROPEAN FLIGHTS AND NEWSROOMS",
+      "stories": [
+        {
+          "headline": "Wave Of Bomb Threats Hits European Flights For Third Straight Day",
+          "url": "https://www.reuters.com/business/aerospace-defense/danish-police-investigate-renewed-threats-copenhagen-airport-2026-11-06/",
+          "timestamp": 1793964944000,
+          "postedAt": 1793968472270
+        },
+        {
+          "headline": "Bomb Threats Force Evacuations At Irish Media Outlets",
+          "url": "https://www.straitstimes.com/world/europe/bomb-threats-force-evacuations-at-irish-media-outlets",
+          "timestamp": 1793961900000,
+          "postedAt": 1793968472270
+        },
+        {
+          "headline": "Bomb Threats Continue To Target Aircraft Across Europe",
+          "url": "https://www.euronews.com/2026/11/06/bomb-threat-targets-ryanair-flight-to-lisbon-as-scares-continue-across-europe",
+          "timestamp": 1793961366000,
+          "postedAt": 1793968472270
+        }
+      ]
+    },
+    {
+      "title": "TRUMP'S MIDTERM DEFEAT RESHAPES IRAN WAR CALCULUS",
+      "stories": [
+        {
+          "headline": "Iran Trolls Vance Over His Midterm Defeat Analysis",
+          "url": "https://www.politico.eu/article/skip-the-ted-talk-iran-mohammad-bagher-ghalibaf-trolls-us-jd-vance-over-midterm-defeat-analysis/",
+          "timestamp": 1793877240000,
+          "postedAt": 1793881578891
+        },
+        {
+          "headline": "Trump Faces Stark Choice On Iran: Deal Or Escalation",
+          "url": "https://www.reuters.com/world/middle-east/beaten-home-trump-faces-stark-choice-iran-deal-or-escalation-2026-11-04/",
+          "timestamp": 1793815320000,
+          "postedAt": 1793881578891
+        },
+        {
+          "headline": "Iran Claims Four Oil Tankers Destroyed By Mines Near Hormuz",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Four-Oil-Tankers-Destroyed-by-Mines-Near-Strait-of-Hormuz.html",
+          "timestamp": 1793787300000,
+          "feature": true,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Iran Calls US Hormuz Reply 'Unconvincing' As Trump Confirms New Strikes",
+          "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes",
+          "timestamp": 1793777738000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Iran Downplays Chances Of Deal After Latest US Strikes",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
+          "timestamp": 1793747580000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Trump Threatens To 'Destroy' Iran As Tehran Sends Nuclear Proposal With 7 Terms",
+          "url": "https://www.ndtv.com/world-news/iran-sends-nuke-proposal-to-us-with-7-conditions-what-they-are-12290587",
+          "timestamp": 1793932595000,
+          "postedAt": 1793968472270
+        },
+        {
+          "headline": "Trump Says Iran War Decision Coming 'Soon' After Security Team Meeting",
+          "url": "https://www.axios.com/2026/11/05/trump-iran-war-national-security-team-decision",
+          "timestamp": 1793920964000,
+          "postedAt": 1793968472270
+        }
+      ]
+    },
+    {
+      "title": "EUROPE YOUTH PROTESTS: FRANCE EASES, GERMANY FLARES",
+      "stories": [
+        {
+          "headline": "Germany, Partners Aim To Finalize Migrant 'Return Hubs' By Year End",
+          "url": "https://www.dw.com/en/migrant-return-hubs-germany-denmark-greece-austria-netherlands/a-79004242",
+          "timestamp": 1793747807000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "France's Riots Gave Way To Protests, Now A General Strike Looms",
+          "url": "https://www.reuters.com/world/europe/france-braces-fresh-protests-macron-seeks-prevent-repeat-october-unrest-2026-11-05/",
+          "timestamp": 1793873204000,
+          "postedAt": 1793881578891
+        }
+      ]
+    },
+    {
+      "title": "RUSSIA-UKRAINE WAR: STRIKES CONTINUE AS PEACE TALKS LOOM",
+      "stories": [
+        {
+          "headline": "Merz Doubts Russia Wants Ceasefire, Urges Europeans To Help Shape Peace",
+          "url": "https://www.dw.com/en/ukraine-war-merz-doubts-russia-is-serious-about-a-truce/a-79836026",
+          "timestamp": 1793757647000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Russia Bombards Ukraine Power Grid Ahead Of Abu Dhabi Peace Talks",
+          "url": "https://www.reuters.com/world/europe/russia-bombards-ukraine-power-grid-before-abu-dhabi-talks-merz-urges-moscow-2026-11-03/",
+          "timestamp": 1793726460000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "At Least 73 Injured As Russian Strikes Hit Ukrainian Hospital, Power Plants",
+          "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants",
+          "timestamp": 1793725009000,
+          "feature": true,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Poland Beefs Up Security At Border With Russia",
+          "url": "https://www.seattletimes.com/nation-world/world/tusk-says-poland-thwarted-possible-provocation-on-kaliningrad-border-overnight/",
+          "timestamp": 1793727345000,
+          "postedAt": 1793795260155
+        }
+      ]
+    },
+    {
+      "title": "SPAIN TRAIN CRASH: POLITICAL FALLOUT GROWS",
+      "stories": [
+        {
+          "headline": "Spain's Sanchez Reshuffles Cabinet After Transport Minister Quits",
+          "url": "https://www.reuters.com/world/spains-sanchez-loses-key-ally-transport-minister-quits-over-train-crashes-2026-11-04/",
+          "timestamp": 1793790976000,
+          "postedAt": 1793795260155
+        },
+        {
+          "headline": "Second California Student Hurt In Deadly Spain Train Crash Identified",
+          "url": "https://nypost.com/2026/11/03/us-news/second-california-student-hurt-in-deadly-spain-train-crash-idd/",
+          "timestamp": 1793736480000,
+          "postedAt": 1793795260155
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "London Police Chief Expects 'Many More' Complaints Against Brand",
+        "url": "https://www.afp.com/en/london-police-chief-expects-many-more-complaints-against-russell-brand",
+        "timestamp": 1793964226000,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "At Least Two Children Killed In Bus Crash In Eastern France",
+        "url": "https://www.reuters.com/world/europe/school-bus-crashes-eastern-france-with-several-victims-education-minister-says-2026-11-06/",
+        "timestamp": 1793965385000,
+        "photo": true,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "EU Charges TikTok Over Harmful Algorithmic 'Rabbit Hole' Effects",
+        "url": "https://www.reuters.com/world/china/meta-pauses-planned-terms-updates-keeps-existing-rules-place-2026-11-06/",
+        "timestamp": 1793963673000,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "Kenyan Court Sentences Doomsday Cult Leader Paul Mackenzie",
+        "url": "https://www.bbc.com/news/articles/cm5yne5984l0o",
+        "timestamp": 1793955578000,
+        "photo": true,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "Hong Kong Activist Joshua Wong Sentenced To 10 More Years In Prison",
+        "url": "https://apnews.com/article/hong-kong-joshua-wong-sentencing-national-security-f4b08dd23bab9912569e5cabd990c1ef",
+        "timestamp": 1793932800000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "Serbia Vote Result Clears Path For Student Movement To Form Government",
+        "url": "https://apnews.com/article/serbia-election-results-parliament-6313af42f5226c09827d1eac8bb21b6c",
+        "timestamp": 1793911800000,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "South Korea To Deploy Military Mission To Keep Hormuz Open",
+        "url": "https://www.france24.com/en/asia-pacific/20261105-south-korea-military-mission-strait-of-hormuz",
+        "timestamp": 1793845064000,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "Fifa Moves To Restrict Women's Olympic Football To Under-23s",
+        "url": "https://www.theguardian.com/football/2026/nov/05/fifa-wants-womens-olympic-football-under-23s",
+        "timestamp": 1793877360000,
+        "photo": true,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "EU Lawmaker Says Starlink Cutoff Led To Deaths",
+        "url": "https://www.politico.eu/article/stop-using-u-s-tech-eu-lawmaker-warns-over-starlink-risks/",
+        "timestamp": 1793875740000,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "South Africa's Local Elections Could Deepen ANC's Decline",
+        "url": "https://apnews.com/article/south-africa-elections-ramaphosa-anc-zille-10402aa5d707d4bd0bb53f959e0ddf88",
+        "timestamp": 1793841300000,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "Niger Signs Military Cooperation Deal With Eastern Libyan Commander",
+        "url": "https://www.africanews.com/amp/2026/11/04/niger-signs-cooperation-deal-with-military-leader-in-eastern-libya/",
+        "timestamp": 1793791183000,
+        "postedAt": 1793795260155
+      },
+      {
+        "headline": "Israel's Political Deadlock Leaves Netanyahu's Future Hanging In Balance",
+        "url": "https://www.aljazeera.com/news/2026/11/3/israel-political-deadlock-leaves-netanyahus-future-hanging-in-the-balance",
+        "timestamp": 1793724840000,
+        "photo": true,
+        "postedAt": 1793795260155,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "5 Rescued In South Pacific After Months Adrift At Sea, 4 Still Missing",
+        "url": "https://www.cbsnews.com/news/rescue-south-pacific-months-adrift-kiribati/",
+        "timestamp": 1793719117000,
+        "photo": true,
+        "postedAt": 1793795260155,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Khamenei Says US Hostility Will Persist 'Regardless Of Party In Power'",
+        "url": "https://www.reuters.com/world/middle-east/irans-khamenei-says-us-hostility-will-persist-regardless-party-power-2026-11-04/",
+        "timestamp": 1793790009000,
+        "postedAt": 1793795260155
+      }
+    ],
+    "center": [
+      {
+        "headline": "French Far-Left Party Enshrines Leaving NATO In Official Platform",
+        "url": "https://www.politico.eu/article/france-far-left-jean-luc-melenchon-leaving-nato-official-platform/",
+        "timestamp": 1793966520000,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "South Africa's ANC Wins Just 30% In Worst Election Score On Record",
+        "url": "https://www.rfi.fr/en/international-news/20261106-s-africa-s-anc-wins-around-30-in-worst-election-score-partial-results",
+        "timestamp": 1793963888000,
+        "photo": true,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "China's AI Chipmakers Report First Profits As Trend Questioned",
+        "url": "https://www.scmp.com/tech/big-tech/article/3373532/chinas-ai-chipmakers-report-first-profits-will-trend-continue",
+        "timestamp": 1793961006000,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "Officials Search For Bear That Killed Mother And Daughter In British Columbia",
+        "url": "https://apnews.com/article/canada-grizzly-attack-bear-deaths-0be8c6f13d45948b6f90bea0e07caff7",
+        "timestamp": 1793944477000,
+        "photo": true,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "Hundreds Of Thousands March In France As Government Backs Austerity Budget",
+        "url": "https://www.msn.com/en-nz/news/other/hundreds-of-thousands-march-in-nationwide-strike-in-france-as-government-backs-austerity-budget/ar-AA2gOaaD",
+        "timestamp": 1793930838000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "Cristiano Ronaldo Announces Retirement From International Football",
+        "url": "https://www.reuters.com/sports/soccer/cristiano-ronaldo-announces-retirement-portuguese-national-team-2026-11-05/",
+        "timestamp": 1793880360000,
+        "photo": true,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "Brexit Campaign Wars Flare Up Again In Britain",
+        "url": "https://www.politico.eu/newsletter/politico-london-influence/brexit-campaign-wars-2-0/",
+        "timestamp": 1793877840000,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "Several Feared Trapped As Building Collapses In Old Delhi",
+        "url": "https://www.dw.com/en/india-news-several-feared-trapped-as-building-collapses-in-old-delhis-chawri-bazar/live-79860330",
+        "timestamp": 1793875147000,
+        "photo": true,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "Bavarian Politician Hubert Aiwanger Found Dead In Berlin Hotel",
+        "url": "https://www.dw.com/en/bavarian-politician-hubert-aiwanger-found-dead-in-berlin-hotel/a-79859115",
+        "timestamp": 1793860486000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "Hungary Opens Communist-Era Informer Files In Reckoning With Cold War Past",
+        "url": "https://www.reuters.com/world/hungary-opens-communist-era-informer-files-belated-reckoning-with-cold-war-past-2026-11-04/",
+        "timestamp": 1793793223000,
+        "postedAt": 1793795260155
+      },
+      {
+        "headline": "Hockey Nations Refuse To Play Russia As Germany Weighs Pulling Out As Host",
+        "url": "https://www.euronews.com/2026/11/04/hockey-nations-refuse-to-play-russia-as-germany-weighs-pulling-out-as-host",
+        "timestamp": 1793789852000,
+        "postedAt": 1793795260155,
+        "image": "/img/world-5.jpg"
+      },
+      {
+        "headline": "UK's King Charles Calls Transatlantic Slave Trade A 'Monstrous Injustice'",
+        "url": "https://www.dw.com/en/uks-king-charles-iii-decries-monstrous-injustice-of-slave-trade/a-79845889",
+        "timestamp": 1793766301000,
+        "photo": true,
+        "postedAt": 1793795260155
+      },
+      {
+        "headline": "Democrats Take House And Senate From Republicans",
+        "url": "https://www.dw.com/en/democrats-take-house-and-senate-from-republicans-in-us-midterm-rout/a-79859416",
+        "timestamp": 1793877094000,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "Eisenkot Tipped To Seek Government As Religious Party Drops Netanyahu",
+        "url": "https://www.rfi.fr/en/international-news/20261105-eisenkot-tipped-to-seek-israel-government-as-religious-party-drops-netanyahu",
+        "timestamp": 1793876639000,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "Zelensky Awards Melania Trump Honour For Role In Oleshky Truce",
+        "url": "https://www.theguardian.com/world/2026/nov/05/ukraine-war-briefing-zelenskyy-awards-melania-trump-national-honour-for-role-in-brokering-oleshky-truce",
+        "timestamp": 1793858220000,
+        "postedAt": 1793881578891
+      }
+    ],
+    "right": [
+      {
+        "headline": "Tanzania Opposition Leader Lissu Cleared Of Treason But Jailed For Incitement",
+        "url": "https://www.rfi.fr/en/africa/20261106-tanzania-opposition-leader-lissu-cleared-of-treason-but-jailed-for-incitement",
+        "timestamp": 1793967324000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "Turkey's Ex-Finance Minister Arrested In Fund Scandal Probe",
+        "url": "https://www.rfi.fr/en/international-news/20261106-turkey-ex-minister-arrested-in-fund-scandal-probe",
+        "timestamp": 1793965570000,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "Belgian King Refuses Bart De Wever's Resignation",
+        "url": "https://www.politico.eu/article/king-philippe-refuses-prime-minister-bart-de-wever-resignation/",
+        "timestamp": 1793965380000,
+        "photo": true,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "EU's Von Der Leyen To Visit Black Sea Amid Wave Of Deadly Drone Attacks",
+        "url": "https://www.politico.eu/article/ursula-von-der-leyen-to-visit-black-sea-amid-wave-of-deadly-drone-attacks/",
+        "timestamp": 1793963100000,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "Guinea-Bissau Cancels Controversial US-Funded Hepatitis B Vaccine Trial",
+        "url": "https://www.africanews.com/2026/11/06/guinea-bissau-cancels-controversial-us-funded-hepatitis-b-vaccine-trial/",
+        "timestamp": 1793962646000,
+        "postedAt": 1793968472270,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "Noahide Confab Seeks To Build New Global Identity Around Judaism's Fringe",
+        "url": "https://www.timesofisrael.com/drawn-to-judaism-but-not-converting-noahide-confab-seeks-to-create-a-new-global-identity/",
+        "timestamp": 1793959798000,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "DEMOCRATS' CONGRESSIONAL LANDSLIDE SENDS SHOCKWAVES FROM TEHRAN TO JERUSALEM",
+        "url": "https://www.theguardian.com/us-news/2026/nov/04/midterm-election-takeaways-trump",
+        "timestamp": 1793795260155,
+        "postedAt": 1793795260155
+      },
+      {
+        "headline": "Indonesia Deploys Thousands Of Troops After Generals Arrested",
+        "url": "https://apnews.com/article/indonesia-security-forces-deployment-wiretapping-8e598661a904d8af89b35ea04d420506",
+        "timestamp": 1793797800000,
+        "photo": true,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "UN Says Climate Adaptation Aid Must Rise Tenfold",
+        "url": "https://www.rfi.fr/en/international-news/20261104-climate-adaptation-aid-must-rise-tenfold-un",
+        "timestamp": 1793792641000,
+        "postedAt": 1793795260155
+      },
+      {
+        "headline": "Indian Free Speech Groups Say Police Ordered X Account Removals",
+        "url": "https://www.straitstimes.com/asia/prominent-indian-free-speech-groups-say-police-ordered-x-accounts-removed",
+        "timestamp": 1793792220000,
+        "photo": true,
+        "postedAt": 1793795260155,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Lapid Urges US Tour To Restore Bipartisan Support After Vote",
+        "url": "https://www.timesofisrael.com/lapid-says-us-not-lost-urges-tour-to-restore-bipartisan-support-nycs-lander-rebuffs-him/",
+        "timestamp": 1793876973000,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "Herzog Accepts Vote Results, Opens Talks On New Government",
+        "url": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government",
+        "timestamp": 1793866445000,
+        "postedAt": 1793881578891
+      },
+      {
+        "headline": "New Zealand Heads Into Election Day With Polls On Knife Edge",
+        "url": "https://www.rfi.fr/en/international-news/20261106-new-zealand-heads-into-election-day-with-polls-on-knife-edge",
+        "timestamp": 1793960649000,
+        "postedAt": 1793968472270
+      },
+      {
+        "headline": "Oil Prices Decline On Signs Of Gulf De-Escalation",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/",
+        "timestamp": 1793964655000,
+        "postedAt": 1793968472270,
+        "image": "/img/world-3.jpg"
+      }
+    ]
+  }
+}
