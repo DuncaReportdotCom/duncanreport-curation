@@ -1,0 +1,644 @@
+{
+  "lastUpdated": 1794228602183,
+  "heroSetDate": "2026-11-09",
+  "hero": {
+    "headline": "TRUMP PUBLICLY MOCKS VANCE AGAIN AS GOP RIFT WIDENS",
+    "url": "https://www.politico.com/news/2026/11/09/jd-vance-allies-launch-new-group-01155638",
+    "sublinks": [
+      {
+        "text": "Vance Allies Launch New Group To Push GOP Toward Younger Hardliners",
+        "url": "https://www.politico.com/news/2026/11/09/jd-vance-allies-launch-new-group-01155638"
+      },
+      {
+        "text": "Thune's Bid To Keep Senate GOP Leadership Hits Turbulence",
+        "url": "https://townhall.com/news/mattvespa/2026/11/09/john-thunes-push-to-lead-senate-republicans-again-is-getting-bogged-down-n2686116"
+      },
+      {
+        "text": "Congress Returns To Brutal Lame-Duck Fight Over Funding And Leadership Races",
+        "url": "https://www.foxnews.com/politics/congress-returns-brutal-lame-duck-stretch-shutdown-deadline-leadership-races-closet-full-s"
+      },
+      {
+        "text": "Trump Says He Was 'Kidding' About Floating Dana White For Press Secretary",
+        "url": "https://thehill.com/homenews/6207197-trump-dana-white-press-secretary-joke/"
+      }
+    ],
+    "postedAt": 1794228602183,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "DEMOCRATS CHART ECONOMIC AGENDA AFTER MIDTERM SWEEP",
+      "stories": [
+        {
+          "headline": "Democrats Won Big — Can They Actually Lower Your Grocery Bill?",
+          "url": "https://www.npr.org/2026/11/09/nx-s1-6030830/democrats-grocery-bill-affordability",
+          "timestamp": 1794218400000,
+          "postedAt": 1794228602183
+        },
+        {
+          "headline": "Democrats Plan Clean Energy Push To Challenge Trump's Fossil Fuel Agenda",
+          "url": "https://apnews.com/article/elections-midterms-climate-policy-clean-energy-trump-b193e352f5905acc0e921a13ee237a4a",
+          "timestamp": 1794184140000,
+          "postedAt": 1794228602183
+        }
+      ]
+    },
+    {
+      "title": "CORRUPTION ACCUSATIONS ROIL TRUMP WHITE HOUSE",
+      "stories": [
+        {
+          "headline": "Former RFK Jr. Adviser Accuses Susie Wiles, Other Officials Of Corruption",
+          "url": "https://www.cbsnews.com/news/calley-means-white-house-health-and-human-services-rfk-jr/",
+          "timestamp": 1794174360000,
+          "postedAt": 1794228602183
+        },
+        {
+          "headline": "GOP Sen. Ron Johnson Accuses Trump Administration Of Corruption",
+          "url": "https://wausaupilotandreview.com/2026/11/08/us-sen-ron-johnson-accuses-the-trump-administration-of-corruption/",
+          "timestamp": 1794158546000,
+          "postedAt": 1794228602183
+        }
+      ]
+    },
+    {
+      "title": "MISSISSIPPI SENATE RACE TOO CLOSE TO CALL",
+      "stories": [
+        {
+          "headline": "Scott Colom Stands On Cusp Of Senate History As Count Drags On",
+          "url": "https://www.pbs.org/newshour/politics/scott-colom-and-black-mississippians-stand-on-the-cusp-of-senate-history-as-vote-count-stretches-on",
+          "timestamp": 1794074041000,
+          "postedAt": 1794228602183
+        },
+        {
+          "headline": "Mississippi Senate Candidates Battle Over Ballots As Winner Remains Unclear",
+          "url": "https://www.reuters.com/legal/government/mississippi-us-senate-candidates-battle-over-ballots-winner-remains-unclear-2026-11-06/",
+          "timestamp": 1793988589000,
+          "feature": true,
+          "postedAt": 1794228602183
+        }
+      ]
+    },
+    {
+      "title": "IRAN NUCLEAR STANDOFF",
+      "stories": [
+        {
+          "headline": "US Carries Out New Strikes On Iran As Tehran Negotiates Nuclear Proposals",
+          "url": "https://justthenews.com/government/federal-agencies/us-carries-out-new-strikes-iran-tehran-negotiates-nuclear-proposals",
+          "timestamp": 1794054954000,
+          "postedAt": 1794056472249
+        },
+        {
+          "headline": "Top Gulf Official Sees Glimmer Of Hope In Trump-Iran Nuclear Talks",
+          "url": "https://www.foxnews.com/world/gulf-official-glimmer-hope-trump-iran-nuclear-talks-threat-war-hangs-region",
+          "timestamp": 1794042039000,
+          "postedAt": 1794056472249
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "What Israel Looks Like After Netanyahu",
+        "url": "https://apnews.com/article/israel-election-palestinians-arab-netanyahu-090e48de53e8c12dc0bccb63353a9aa1",
+        "timestamp": 1794224539000,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Top House Democrat Says He's A 'Hard Yes' On Hegseth Impeachment",
+        "url": "https://www.bbc.com/news/articles/cj4g1nwx39wno",
+        "timestamp": 1794190117000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "8-Year-Old Haitian Boy Placed In Federal Custody Alone After ICE Check-In",
+        "url": "https://abcnews.com/US/8-year-haitian-boy-federal-custody-after-ice/story?id",
+        "timestamp": 1794188366000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Miami's Salazar-Rodriguez Race Enters Recount As Elections Chief Faces Lawsuit",
+        "url": "https://www.miamiherald.com/news/politics-government/state-politics/article317986963.html",
+        "timestamp": 1794178320000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Judge Taps Former US Attorney To Probe Whether Government Misled Her In Trump Golf Case",
+        "url": "https://www.pbs.org/newshour/politics/judge-wants-former-u-s-attorney-to-investigate-whether-the-government-misled-her-in-trump-golf-case",
+        "timestamp": 1794076470000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Inside The One Town That Said Yes To Data Centers",
+        "url": "https://www.dw.com/en/the-hidden-environmental-cost-of-ai-data-centers/a-78789889",
+        "timestamp": 1794137545000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Trump Makes Unverified Election Claim As Miller Takes Over Operations",
+        "url": "https://www.timesnownews.com/world/us/us-news/susie-wiles-out-ex-trump-admin-official-makes-shocking-allegations-against-outgoing-wh-chief-of-staff-article-156476799",
+        "timestamp": 1794123718000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Dana White To Meet Trump Monday Over White House Press Secretary Offer",
+        "url": "https://www.npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary",
+        "timestamp": 1794123329000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Netanyahu Dealt Setback As Herzog Taps Eisenkot To Form Israeli Government",
+        "url": "https://www.breitbart.com/politics/2026/11/07/israeli-president-herzog-tasks-eisenkot-with-forming-government-in-setback-for-netanyahu/",
+        "timestamp": 1794123270000,
+        "photo": true,
+        "postedAt": 1794142010243,
+        "image": "/img/politics-3.jpg"
+      },
+      {
+        "headline": "Hundreds Of Migrants Reported Crossing Into Mexico Toward US Border",
+        "url": "https://www.breitbart.com/border/2026/11/07/up-to-500-migrants-cross-into-mexico-headed-to-u-s-border-after-democrat-victories/",
+        "timestamp": 1794117504000,
+        "photo": true,
+        "postedAt": 1794142010243,
+        "image": "/img/politics-6.jpg"
+      },
+      {
+        "headline": "Russia Hits Kyiv Overnight Days Before Abu Dhabi Talks",
+        "url": "https://www.politico.com/news/2026/11/07/russia-hits-kyiv-in-overnight-attack-days-before-abu-dhabi-talks",
+        "timestamp": 1794050880000,
+        "photo": true,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "Hegseth Draws Fire For Using Government Resources On Partisan Video",
+        "url": "https://www.facebook.com/washingtonpost/posts/defense-secretary-pete-hegseths-use-of-government-employees-and-taxpayer-funded-/1502628345062369/",
+        "timestamp": 1794037813000,
+        "photo": true,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "DeSantis Planning Another White House Run",
+        "url": "https://aa.com.tr/en/americas/us-florida-gov-ron-desantis-planning-another-white-house-run/4114848",
+        "timestamp": 1794036946000,
+        "photo": true,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "How JD Vance Turned A War Into Republican Party Collapse",
+        "url": "https://www.dailywire.com/news/how-jd-vance-turned-a-war-into-republican-party-collapse",
+        "timestamp": 1793965652000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Alabama Race Shows How Big The Blue Tsunami Was In 2026",
+        "url": "https://townhall.com/news/mattvespa/2026/11/06/this-alabama-race-shows-how-big-the-blue-tsunami-was-in-2026-n2686002",
+        "timestamp": 1793964600000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Melania Trump Calls For Lasting Ukraine Truce While Hosting Russian And Ukrainian Officials",
+        "url": "https://www.bbc.com/news/articles/c9p8g085mz07o",
+        "timestamp": 1793951779000,
+        "photo": true,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Trump Signs Order To Prevent Future Presidents From Changing Oval Office",
+        "url": "https://www.bbc.com/news/articles/cmy0eeg101djo",
+        "timestamp": 1793939365000,
+        "photo": true,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "'Total Bloodbath': Democrats' Sweeping Wins Rock Wall Street Over AI Fears",
+        "url": "https://www.politico.com/news/2026/11/06/midterms-democrats-ai-wall-street-01153458",
+        "timestamp": 1793959200000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Hegseth Not Under Consideration For Senate Appointment",
+        "url": "https://apnews.com/article/hegseth-senate-seat-tennessee-bfe5baf0dd3f26ddf0ca9b844400515d",
+        "timestamp": 1793951154000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "'JD, Habibi': El-Sayed Embraces Arab Solidarity In Michigan Victory Speech",
+        "url": "https://www.pbs.org/newshour/politics/jd-habibi-arabs-celebrate-el-sayeds-use-of-a-term-of-affection-in-his-victory-speech",
+        "timestamp": 1793925729000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Newsom Says He Will Commute All California Death Sentences To Life Without Parole",
+        "url": "https://www.kcra.com/article/newsom-commutes-548-california-death-sentences/74348779",
+        "timestamp": 1793923980000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "South Florida's US Attorney Abruptly Resigns",
+        "url": "https://www.miamiherald.com/news/local/article317960596.html",
+        "timestamp": 1794040039000,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "Feds Move To Dismiss Case Over 20,000 California Ballots After SCOTUS Rejection",
+        "url": "https://washingtonstatestandard.com/2026/11/06/feds-cant-force-wa-to-set-aside-alleged-noncitizen-ballots-judge-rules/",
+        "timestamp": 1794019837000,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "Peltola Campaign Sues Alaska Officials Over Absentee Ballot Rejection Data",
+        "url": "https://www.adn.com/politics/2026/11/06/peltola-campaign-sues-alaska-election-officials-seeking-information-about-rejected-absentee-ballots/",
+        "timestamp": 1794055018000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Biden's Book Tour Won't Change Much, Critics Say — Here's Why",
+        "url": "https://townhall.com/news/mattvespa/2026/11/09/joe-biden-revealed-why-his-book-tour-wont-be-different-you-already-know-the-reason-n2686117",
+        "timestamp": 1794225034000,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "DeSoto County Emerges As Key Battleground In Colom's Performance",
+        "url": "https://mississippitoday.org/2026/11/08/scott-colom-midterm-election-desoto-county/",
+        "timestamp": 1794139200000,
+        "postedAt": 1794228602183
+      }
+    ],
+    "center": [
+      {
+        "headline": "Trump's 60 Minutes Interview Produced Some Shocking Moments",
+        "url": "https://townhall.com/news/mattvespa/2026/11/09/trump-60-minutes-interview-n2686054",
+        "timestamp": 1794225600000,
+        "photo": true,
+        "postedAt": 1794228602183,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "Congress Returns With Funding Fight, Hegseth And Debt Limit On Agenda",
+        "url": "https://www.cnbc.com/2026/11/09/congress-government-funding-debt-limit-elections.html",
+        "timestamp": 1794222001000,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Hakeem Jeffries Faces A Choice: Work With Trump Or Not",
+        "url": "https://www.politico.com/news/2026/11/09/hakeem-jeffries-trump-relationship-01155108",
+        "timestamp": 1794217500000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Alaska Governor Gives Vote Count Update In 'Very Close' Senate Race",
+        "url": "https://www.newsnationnow.com/politics/alaska-governor-senate-race-vote-count-midterms/",
+        "timestamp": 1794176452000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "What Talarico's Win Reveals About Christianity In Texas",
+        "url": "https://www.nytimes.com/2026/11/08/us/james-talarico-christianity-texas.html?unlocked_article_code=1.O1E.PH0F.kMzrS7ozPYNR&smid=url-share",
+        "timestamp": 1794132098000,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "STEPHEN MILLER NAMED WHITE HOUSE CHIEF OF STAFF, REPLACING SUSIE WILES",
+        "url": "https://townhall.com/news/mattvespa/2026/11/07/why-stephen-miller-replaced-susie-wiles-as-white-house-chief-of-staff-n2686070",
+        "timestamp": 1794056472249,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "Pentagon Chief Hegseth Criticized Over Taxpayer-Funded Self-Promotion",
+        "url": "https://www.facebook.com/washingtonpost/posts/defense-secretary-pete-hegseths-use-of-government-employees-and-taxpayer-funded-/1502628345062369/",
+        "timestamp": 1794126601000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "New Jersey Town Reveals $26 Million Theft Days After Election",
+        "url": "https://www.foxnews.com/politics/new-jersey-town-reveals-staggering-26m-theft-days-after-election-sparking-backlash",
+        "timestamp": 1794123266000,
+        "photo": true,
+        "postedAt": 1794142010243,
+        "image": "/img/politics-4.jpg"
+      },
+      {
+        "headline": "Melania Trump And LSU Launch Scholarship For Former Foster Youth",
+        "url": "https://www.pbs.org/newshour/politics/melania-trump-and-lsu-announce-a-scholarship-program-for-students-who-were-in-foster-care",
+        "timestamp": 1794080115000,
+        "photo": true,
+        "postedAt": 1794142010243,
+        "image": "/img/politics-7.jpg"
+      },
+      {
+        "headline": "Democrats Press Ahead With Own Redistricting Push Despite Legal Risk",
+        "url": "https://www.newsfromthestates.com/article/trumps-gerrymandering-push-flops-democrats-win-redrawn-seats",
+        "timestamp": 1794053010000,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "Texas Mayor Instructs Police To Limit Cooperation With ICE",
+        "url": "https://www.bbc.com/news/articles/c8dx33d22zkro",
+        "timestamp": 1794039355000,
+        "photo": true,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "California Voters Reject Billionaire Wealth Tax, Projections Show",
+        "url": "https://thehill.com/business/6185092-california-voters-reject-wealth-tax/",
+        "timestamp": 1794017880000,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "Democrats Plan Flood Of AI Bills Once They Control Congress",
+        "url": "https://www.reuters.com/business/media-telecom/democrats-planning-flood-ai-bills-when-they-take-control-congress-2026-11-06/",
+        "timestamp": 1794002202000,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "Judge Halts Trump's 250-Foot Arch After Federal Panel Approves It",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/11/06/judge-temporarily-halts-trumps-250-foot-arch-shortly-after-key-approval/",
+        "timestamp": 1793965347000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Trump Built A Coalition; Republicans Mistook It For A Loyal Base",
+        "url": "https://dailycaller.com/2026/11/06/duke-2026-midterms-trump-2024-coalition-republican-party-defectors/",
+        "timestamp": 1793962800000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Salon, Left-Leaning News Site, Is Shutting Down",
+        "url": "https://townhall.com/news/mattvespa/2026/11/06/rip-salon-left-wing-rag-is-shutting-down-n2686023",
+        "timestamp": 1793962800000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Photos: USS Theodore Roosevelt Flight Operations",
+        "url": "https://www.nationalreview.com/photos/uss-theodore-roosevelt-flight-ops/",
+        "timestamp": 1793951838000,
+        "photo": true,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Washington Voters Pass Initiative Banning Transgender Girls From Girls' Sports",
+        "url": "https://www.opb.org/article/2026/11/05/washington-voters-pass-trangender-ban-girls-sports/",
+        "timestamp": 1793902718000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Trump Battles The Bureaucracy In Upending Democratic Norms",
+        "url": "https://www.realclearinvestigations.com/articles/2026/11/05/upending_democratic_norms_trump_battles_the_bureaucracy_1215217.html",
+        "timestamp": 1793814480000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Harmeet Dhillon Resigns From DOJ",
+        "url": "https://www.forbes.com/sites/saradorn/2026/11/05/controversial-doj-civil-rights-head-harmeet-dhillon-resigns/",
+        "timestamp": 1793902547000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "New Records Set For Women In US Congress",
+        "url": "https://cawp.rutgers.edu/news-media/press-releases/new-records-women-us-congress-and-us-house",
+        "timestamp": 1793904220000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Newsom's Prop 50 Pays Off As GOP Gerrymanders Flop",
+        "url": "https://www.realclearpolitics.com/articles/2026/11/05/newsoms_prop_50_pays_off_as_gop_gerrymanders_flop_154658.html",
+        "timestamp": 1793858400000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Mississippi's Razor-Thin Senate Race Spotlights State's Voter Rolls",
+        "url": "https://www.axios.com/2026/11/06/mississippi-colom-hyde-smith-inactive-voter-registrations",
+        "timestamp": 1794037488000,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "Kris Kobach Loses Kansas Attorney General Reelection Bid",
+        "url": "https://thehill.com/homenews/campaign/6206185-kris-kobach-loses-kansas-election/",
+        "timestamp": 1794081960000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Karen Bass Concedes LA Mayoral Race To Nithya Raman",
+        "url": "https://www.msn.com/en-us/news/other/election-2026-live-results-karen-bass-concedes-la-mayoral-race-to-nithya-raman/ar-AA2gDwEa",
+        "timestamp": 1794061062000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Gen Z Turnout Helped Fuel Democrats' Blue Wave, NPR Analysis Finds",
+        "url": "https://www.npr.org/2026/11/08/nx-s1-6032829/gen-z-voters-midterm-elections",
+        "timestamp": 1794132000000,
+        "postedAt": 1794142010243
+      }
+    ],
+    "right": [
+      {
+        "headline": "GOP FRACTURES OVER MIDTERM WIPEOUT AS VANCE BREAKS WITH TRUMP",
+        "url": "https://www.dailywire.com/episode/district-club-ep-11?elementPosition",
+        "timestamp": 1794142010243,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Mexico: Police Shoot 7-Year-Old American During Border Drug Operation",
+        "url": "https://justthenews.com/nation/crime/mexican-police-shoot-7-year-old-american-during-drug-enforcement-operation-near-us",
+        "timestamp": 1794225857000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Maryland Democratic Governor Might Have Lied About His Military Service",
+        "url": "https://townhall.com/news/mattvespa/2026/11/09/maryland-dem-governor-might-have-lied-about-his-military-service-n2686121",
+        "timestamp": 1794222017000,
+        "photo": true,
+        "postedAt": 1794228602183,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "Democratic Congresswoman-Elect Faces Felony Charges Over Rental Car",
+        "url": "https://freebeacon.com/democrats/dem-congresswoman-elect-heads-to-court-on-felony-charges-for-failing-to-return-rental-car/",
+        "timestamp": 1794219397000,
+        "photo": true,
+        "postedAt": 1794228602183,
+        "image": "/img/politics-2.jpg"
+      },
+      {
+        "headline": "Trump's FAA Touts New AI Tool Helping Passengers Avoid Flight Delays",
+        "url": "https://www.foxnews.com/politics/exclusive-trumps-faa-touts-new-ai-powered-tool-helping-thousands-passengers-avoid-flight-delays",
+        "timestamp": 1794218438000,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Straight-Ticket Republican Voters Grapple With Midterm Losses",
+        "url": "https://www.thebulwark.com/p/republican-voters-focus-group-coping-with-midterm-defeat",
+        "timestamp": 1794140437000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Democratic Podcasters Apologize For Charlie Kirk Joke, Donate To Gun Control Group",
+        "url": "https://www.breitbart.com/politics/2026/11/07/democrat-podcasters-apologize-for-charlie-kirk-joke-donate-to-gun-control-group/",
+        "timestamp": 1794121993000,
+        "photo": true,
+        "postedAt": 1794142010243,
+        "image": "/img/politics-5.jpg"
+      },
+      {
+        "headline": "Canada: Carney Doubles Down On Plan To Add 2.3 Million Migrants Amid Backlash",
+        "url": "https://www.breitbart.com/immigration/2026/11/07/banker-mark-carney-doubles-down-adds-2-3-million-more-migrants-to-shocked-canadian-economy/",
+        "timestamp": 1794119390000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Texas Senator-Elect James Talarico Delivers Message To Trump In SNL Cold Open",
+        "url": "https://www.facebook.com/washingtonpost/videos/state-rep-james-talarico-d-has-defeated-texass-republican-attorney-general-ken-p/1128106210200942/",
+        "timestamp": 1794115804000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Senate's Last-Minute Permitting Deal Changes, Explained",
+        "url": "https://heatmap.news/energy/managers-amendment-policy-permitting-bill",
+        "timestamp": 1794081352000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "DeSantis Leaves Door Open On 2028 Presidential Run",
+        "url": "https://abcnews.com/Politics/ron-desantis-door-open-presidential-run-made-final/story?id",
+        "timestamp": 1794049960000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Newsom's Death Penalty Decision Draws Conservative Criticism",
+        "url": "https://www.realclearpolitics.com/articles/2026/11/07/newsoms_death_penalty_decision_puts_justice_on_death_row_154665.html",
+        "timestamp": 1794031200000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "DEMOCRATS' NEW SENATE MAJORITY SET TO BLOCK TRUMP'S JUDICIAL NOMINEES",
+        "url": "https://apnews.com/article/donald-trump-supreme-court-senate-chuck-schumer-08d26548196286e99f43b5e085f2d8ed",
+        "timestamp": 1793969809115,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Pentagon's Best Space Weapon Isn't A Program — It's A Prize",
+        "url": "https://www.nationalreview.com/2026/11/the-pentagons-best-space-weapon-isnt-a-program-its-a-prize/?utm_source",
+        "timestamp": 1794051040000,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "Bipartisan Plan To Keep Chinese Cars Off US Roads Stalls In Congress",
+        "url": "https://dailycaller.com/2026/11/07/connected-vehicle-security-act-chinese-cars-ban-bernie-moreno-elissa-slotkin-lame-duck",
+        "timestamp": 1794049800000,
+        "photo": true,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "Democrats Set Sights On Musk Probe After Midterms, But Pritzker Draws Line",
+        "url": "https://www.foxnews.com/politics/democrats-set-sights-elon-musk-probe-after-midterm-wins-pritzker-draws-surprising-line",
+        "timestamp": 1794042043000,
+        "photo": true,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "A Father's Post-Midterm Message To The Conservative Movement",
+        "url": "https://www.dailywire.com/news/a-fathers-post-midterm-message-to-the-conservative-movement",
+        "timestamp": 1793966854000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Ballot Initiatives Produced Many Silver Linings",
+        "url": "https://www.nationalreview.com/2026/11/ballot-initiatives-produced-many-silver-linings/",
+        "timestamp": 1793964611000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Indiana, Florida And Alabama Carry Out Three US Executions On Same Day",
+        "url": "https://www.cbsnews.com/news/3-us-executions-same-day-second-time/",
+        "timestamp": 1793871900000,
+        "photo": true,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "The 2026 Midterms Exposed A Broken Republican Party—And A Broken America",
+        "url": "https://www.realclearpolicy.com/articles/2026/11/04/the_2026_midterms_exposed_a_broken_republican_partyand_a_broken_america_1215196.html",
+        "timestamp": 1793797800000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Trump Points Finger At Democrats Over Massive Market Losses",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trump-points-finger-democrats-over-003601051.html",
+        "timestamp": 1793927413000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Haley Stevens Stands Alone After Eleventh-Hour Endorsement Flip",
+        "url": "https://komonews.com/news/nation-world/michigan-democrat-haley-stevens-stands-alone-after-eleventh-hour-abdul-el-sayed-republican-mike-rogers-senate-endorsement-flip-rrt",
+        "timestamp": 1793944884000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "Former MLB Star Mark Teixeira Wins US House Seat In Texas",
+        "url": "https://www.espn.com/mlb/story/_/id/50376245/former-mlb-star-mark-teixeira-wins-us-house-seat-texas",
+        "timestamp": 1793772180000,
+        "postedAt": 1793969809115
+      },
+      {
+        "headline": "GOP's Midterm Annihilation Comes Down To One Factor, Analysis Finds",
+        "url": "https://www.nationalreview.com/2026/11/the-gops-midterm-annihilation-comes-down-to-one-factor/",
+        "timestamp": 1794051022000,
+        "postedAt": 1794056472249
+      },
+      {
+        "headline": "Multiple Top DOJ Officials Exit After Democrats' Midterm Wave",
+        "url": "https://www.politico.com/news/2026/11/06/justice-department-officials-resign-01154909",
+        "timestamp": 1794009180000,
+        "postedAt": 1794056472249
+      }
+    ]
+  },
+  "polls": [
+    {
+      "name": "Trump Approval",
+      "value": "39%/59%",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
+      "asOf": "Nov 1, 2026"
+    },
+    {
+      "name": "Generic Congressional Vote",
+      "value": "Dem +8",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "Nov 3, 2026"
+    },
+    {
+      "name": "Right Direction",
+      "value": "31%/64%",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/direction-of-country"
+    }
+  ],
+  "balance": {
+    "left": 607,
+    "right": 678,
+    "independent": 0,
+    "days": 30,
+    "total": 1285,
+    "pctLeft": 47,
+    "pctRight": 53
+  }
+}
