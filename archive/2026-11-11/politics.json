@@ -1,0 +1,578 @@
+{
+  "lastUpdated": 1794401110216,
+  "heroSetDate": "2026-11-11",
+  "hero": {
+    "headline": "HOUSE GOP BLOCKS PROCEDURAL VOTE TO LAUNCH HEGSETH IMPEACHMENT INQUIRY",
+    "url": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth",
+    "sublinks": [
+      {
+        "text": "PBS: Republicans Reject Preliminary Vote To Advance Impeachment Effort",
+        "url": "https://www.pbs.org/newshour/politics/watch-live-house-expected-to-hold-preliminary-vote-on-hegseth-impeachment-as-gop-chooses-next-leader"
+      },
+      {
+        "text": "BBC: Impeachment Bid Blocked 'For Now' As Democrats Vow To Keep Pushing",
+        "url": "https://www.bbc.com/news/articles/cxly4y5jzl0qo"
+      },
+      {
+        "text": "National Review: Conservative Columnist Argues Grounds For Investigation Still Exist",
+        "url": "https://www.nationalreview.com/corner/grounds-for-investigation-in-the-hegseth-impeachment-case"
+      },
+      {
+        "text": "The Guardian: Democrats Brand GOP A 'Sinking Ship' For Shielding Hegseth",
+        "url": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates"
+      }
+    ],
+    "postedAt": 1794401110216,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "REPUBLICANS REGROUP AFTER MIDTERM LOSSES",
+      "stories": [
+        {
+          "headline": "Senate Republicans Vote To Keep John Thune As Leader After Steep Losses",
+          "url": "https://apnews.com/article/john-thune-republican-leadership-elections-aee05eef5d85aafde6fbb27272977a14",
+          "timestamp": 1794354000000,
+          "postedAt": 1794401110216
+        },
+        {
+          "headline": "Stephen Miller's Post-Midterm Focus: MAGA And Men",
+          "url": "https://www.axios.com/2026/11/11/stephen-miller-focus-men-maga",
+          "timestamp": 1794391650000,
+          "postedAt": 1794401110216
+        },
+        {
+          "headline": "House Republicans Set To Elect New Leader After Midterm Defeat",
+          "url": "https://www.npr.org/2026/11/10/nx-s1-6030988/gop-leadership-election-steve-scalise-jim-jordan",
+          "timestamp": 1794304860000,
+          "postedAt": 1794314978193
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA'S CHINA EXPORT CONTROLS CONTROVERSY",
+      "stories": [
+        {
+          "headline": "Nvidia's Chinese Spy Scandal Draws New Scrutiny",
+          "url": "https://frontline.thehindu.com/news/nvidia-jensen-huang-lawsuit-alice-huang-china-intelligence/article71684986.ece",
+          "timestamp": 1794397704000,
+          "postedAt": 1794401110216
+        },
+        {
+          "headline": "Jensen Huang's Crisis Becomes Nvidia's Washington Problem",
+          "url": "https://www.politico.com/news/2026/11/11/jensen-huang-washington-problem-01160374",
+          "timestamp": 1794391200000,
+          "postedAt": 1794401110216
+        }
+      ]
+    },
+    {
+      "title": "SENATE ADVANCES PERMITTING REFORM BILL",
+      "stories": [
+        {
+          "headline": "Permitting Reform Bill Advances Closer To Senate Finish",
+          "url": "https://thehill.com/homenews/6212389-senate-advances-infrastructure-energy-bill/",
+          "timestamp": 1794362940000,
+          "postedAt": 1794401110216
+        },
+        {
+          "headline": "Scott Colom Stands On Cusp Of Senate History As Count Drags On",
+          "url": "https://www.pbs.org/newshour/politics/scott-colom-and-black-mississippians-stand-on-the-cusp-of-senate-history-as-vote-count-stretches-on",
+          "timestamp": 1794074041000,
+          "postedAt": 1794228602183
+        },
+        {
+          "headline": "Mississippi Senate Candidates Battle Over Ballots As Winner Remains Unclear",
+          "url": "https://www.reuters.com/legal/government/mississippi-us-senate-candidates-battle-over-ballots-winner-remains-unclear-2026-11-06/",
+          "timestamp": 1793988589000,
+          "feature": true,
+          "postedAt": 1794228602183
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Mississippi Voters Await Cliffhanger Senate Result",
+        "url": "https://www.bbc.com/news/articles/c6ly0y8r54pqo",
+        "timestamp": 1794365637000,
+        "postedAt": 1794401110216
+      },
+      {
+        "headline": "Russia Violates Moldovan Airspace With Two Missiles",
+        "url": "https://www.politico.com/news/2026/11/11/russia-violates-moldovan-airspace-with-2-missiles",
+        "timestamp": 1794394620000,
+        "photo": true,
+        "postedAt": 1794401110216
+      },
+      {
+        "headline": "UK: Army Officer Arrested On Suspicion Of Spying For Russia",
+        "url": "https://www.cnbc.com/2026/11/11/us-army-soldier-russia-espionage-arrest.html",
+        "timestamp": 1794374253000,
+        "photo": true,
+        "postedAt": 1794401110216,
+        "image": "/img/politics-3.jpg"
+      },
+      {
+        "headline": "Kennedy Family Seeks To Block Construction Of Trump's Arch",
+        "url": "https://www.nbcnews.com/politics/trump-administration/kennedy-family-members-block-construction-trump-arch-rcna608683",
+        "timestamp": 1794370980000,
+        "photo": true,
+        "postedAt": 1794401110216,
+        "image": "/img/politics-4.jpg"
+      },
+      {
+        "headline": "Federal Government Failed To Hold Epstein Accountable, GOP Panel Says",
+        "url": "https://www.npr.org/2026/11/10/nx-s1-6036135/federal-government-failed-to-hold-epstein-accountable-republican-committee-says",
+        "timestamp": 1794361883000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1794401110216
+      },
+      {
+        "headline": "US Charges Three Men With Plotting Terror Attack On UK Air Base",
+        "url": "https://apnews.com/article/terror-plots-uk-airbase-bombers-trump-b9c7812aeb1d74a2cfbc4c4df1431095",
+        "timestamp": 1794356640000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1794401110216
+      },
+      {
+        "headline": "Hugh Hewitt: Three Big Legal Fights Loom For Trump Before January",
+        "url": "https://www.foxnews.com/opinion/hugh-hewitt-three-big-legal-fights-looming-trump-needs-answers-before-january",
+        "timestamp": 1794304223000,
+        "postedAt": 1794314978193
+      },
+      {
+        "headline": "Trump Calls Own Deportation Policies 'Too Tough'",
+        "url": "https://www.dailywire.com/episode/mrn-261110?elementPosition",
+        "timestamp": 1794303122000,
+        "postedAt": 1794314978193
+      },
+      {
+        "headline": "North Korean Defectors See Kim Jong Un's Daughter As Heir Apparent",
+        "url": "https://nypost.com/2026/11/10/world-news/north-korean-defectors-see-kim-jong-uns-daughter-as-heir-apparent/",
+        "timestamp": 1794301200000,
+        "photo": true,
+        "postedAt": 1794314978193
+      },
+      {
+        "headline": "Peltola Extends Lead Over Sullivan In Alaska Senate Race As Count Continues",
+        "url": "https://alaskabeacon.com/2026/11/09/peltola-extends-lead-over-sullivan-in-alaskas-u-s-senate-race-as-ballot-counting-continues/",
+        "timestamp": 1794275413000,
+        "postedAt": 1794314978193
+      },
+      {
+        "headline": "Supreme Court Clears Way For Trump's Border Wall In Big Bend",
+        "url": "https://www.theguardian.com/us-news/2026/nov/09/us-supreme-court-border-wall-texas-big-bend",
+        "timestamp": 1794268080000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794314978193
+      },
+      {
+        "headline": "What Israel Looks Like After Netanyahu",
+        "url": "https://apnews.com/article/israel-election-palestinians-arab-netanyahu-090e48de53e8c12dc0bccb63353a9aa1",
+        "timestamp": 1794224539000,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "8-Year-Old Haitian Boy Placed In Federal Custody Alone After ICE Check-In",
+        "url": "https://abcnews.com/US/8-year-haitian-boy-federal-custody-after-ice/story?id",
+        "timestamp": 1794188366000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Miami's Salazar-Rodriguez Race Enters Recount As Elections Chief Faces Lawsuit",
+        "url": "https://www.miamiherald.com/news/politics-government/state-politics/article317986963.html",
+        "timestamp": 1794178320000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Judge Taps Former US Attorney To Probe Whether Government Misled Her In Trump Golf Case",
+        "url": "https://www.pbs.org/newshour/politics/judge-wants-former-u-s-attorney-to-investigate-whether-the-government-misled-her-in-trump-golf-case",
+        "timestamp": 1794076470000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Inside The One Town That Said Yes To Data Centers",
+        "url": "https://www.dw.com/en/the-hidden-environmental-cost-of-ai-data-centers/a-78789889",
+        "timestamp": 1794137545000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Trump Makes Unverified Election Claim As Miller Takes Over Operations",
+        "url": "https://www.timesnownews.com/world/us/us-news/susie-wiles-out-ex-trump-admin-official-makes-shocking-allegations-against-outgoing-wh-chief-of-staff-article-156476799",
+        "timestamp": 1794123718000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Dana White To Meet Trump Monday Over White House Press Secretary Offer",
+        "url": "https://www.npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary",
+        "timestamp": 1794123329000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Netanyahu Dealt Setback As Herzog Taps Eisenkot To Form Israeli Government",
+        "url": "https://www.breitbart.com/politics/2026/11/07/israeli-president-herzog-tasks-eisenkot-with-forming-government-in-setback-for-netanyahu/",
+        "timestamp": 1794123270000,
+        "photo": true,
+        "postedAt": 1794142010243,
+        "image": "/img/politics-7.jpg"
+      },
+      {
+        "headline": "Hundreds Of Migrants Reported Crossing Into Mexico Toward US Border",
+        "url": "https://www.breitbart.com/border/2026/11/07/up-to-500-migrants-cross-into-mexico-headed-to-u-s-border-after-democrat-victories/",
+        "timestamp": 1794117504000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Peltola Campaign Sues Alaska Officials Over Absentee Ballot Rejection Data",
+        "url": "https://www.reuters.com/legal/government/peltola-campaign-sues-alaska-get-records-rejected-absentee-ballots-2026-11-07/",
+        "timestamp": 1794055018000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Biden's Book Tour Won't Change Much, Critics Say — Here's Why",
+        "url": "https://townhall.com/news/mattvespa/2026/11/09/joe-biden-revealed-why-his-book-tour-wont-be-different-you-already-know-the-reason-n2686117",
+        "timestamp": 1794225034000,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "DeSoto County Emerges As Key Battleground In Colom's Performance",
+        "url": "https://mississippitoday.org/2026/11/08/scott-colom-midterm-election-desoto-county/",
+        "timestamp": 1794139200000,
+        "postedAt": 1794228602183
+      }
+    ],
+    "center": [
+      {
+        "headline": "Trump Swung Between War And Diplomacy, Then Chose A Third Way",
+        "url": "https://www.axios.com/2026/11/10/trump-iran-war-diplomacy-economic-crackdown",
+        "timestamp": 1794396573000,
+        "postedAt": 1794401110216
+      },
+      {
+        "headline": "Trump Faces November 'Shipwreck' On American Energy Costs",
+        "url": "https://www.dailywire.com/news/trump-faces-november-shipwreck-on-american-energy-costs",
+        "timestamp": 1794391327000,
+        "postedAt": 1794401110216
+      },
+      {
+        "headline": "Bessent Relocates To Military Base After Iran Threatens His Life, Reports Say",
+        "url": "https://www.cbsnews.com/news/bessent-relocate-dc-area-home-military-base-iran-threats-to-kill-him/",
+        "timestamp": 1794388980000,
+        "photo": true,
+        "postedAt": 1794401110216,
+        "image": "/img/politics-2.jpg"
+      },
+      {
+        "headline": "Senate Advances Sweeping Energy Legislation In First Major Action Since Midterms",
+        "url": "https://apnews.com/article/permitting-reform-energy-projects-environment-c6290598e26a7b01622e5c4eec571516",
+        "timestamp": 1794279600000,
+        "postedAt": 1794314978193
+      },
+      {
+        "headline": "Why Washington Is Paying To Keep People On The Streets",
+        "url": "https://www.dailywire.com/news/why-washington-is-paying-to-keep-people-on-the-streets",
+        "timestamp": 1794307397000,
+        "postedAt": 1794314978193
+      },
+      {
+        "headline": "Trump's 60 Minutes Interview Produced Some Shocking Moments",
+        "url": "https://townhall.com/news/mattvespa/2026/11/09/trump-60-minutes-interview-n2686054",
+        "timestamp": 1794225600000,
+        "photo": true,
+        "postedAt": 1794228602183,
+        "image": "/img/politics-6.jpg"
+      },
+      {
+        "headline": "Congress Returns With Funding Fight, Hegseth And Debt Limit On Agenda",
+        "url": "https://www.cnbc.com/2026/11/09/congress-government-funding-debt-limit-elections.html",
+        "timestamp": 1794222001000,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Hakeem Jeffries Faces A Choice: Work With Trump Or Not",
+        "url": "https://www.politico.com/news/2026/11/09/hakeem-jeffries-trump-relationship-01155108",
+        "timestamp": 1794217500000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "What Talarico's Win Reveals About Christianity In Texas",
+        "url": "https://www.nytimes.com/2026/11/08/us/james-talarico-christianity-texas.html?unlocked_article_code=1.O1E.PH0F.kMzrS7ozPYNR&smid=url-share",
+        "timestamp": 1794132098000,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Pentagon Chief Hegseth Criticized Over Taxpayer-Funded Self-Promotion",
+        "url": "https://www.facebook.com/washingtonpost/posts/defense-secretary-pete-hegseths-use-of-government-employees-and-taxpayer-funded-/1502628345062369/",
+        "timestamp": 1794126601000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "New Jersey Town Reveals $26 Million Theft Days After Election",
+        "url": "https://www.foxnews.com/politics/new-jersey-town-reveals-staggering-26m-theft-days-after-election-sparking-backlash",
+        "timestamp": 1794123266000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Melania Trump And LSU Launch Scholarship For Former Foster Youth",
+        "url": "https://www.pbs.org/newshour/politics/melania-trump-and-lsu-announce-a-scholarship-program-for-students-who-were-in-foster-care",
+        "timestamp": 1794080115000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Kris Kobach Loses Kansas Attorney General Reelection Bid",
+        "url": "https://thehill.com/homenews/campaign/6206185-kris-kobach-loses-kansas-election/",
+        "timestamp": 1794081960000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Karen Bass Concedes LA Mayoral Race To Nithya Raman",
+        "url": "https://www.msn.com/en-us/news/other/election-2026-live-results-karen-bass-concedes-la-mayoral-race-to-nithya-raman/ar-AA2gDwEa",
+        "timestamp": 1794061062000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Gen Z Turnout Helped Fuel Democrats' Blue Wave, NPR Analysis Finds",
+        "url": "https://www.npr.org/2026/11/08/nx-s1-6032829/gen-z-voters-midterm-elections",
+        "timestamp": 1794132000000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Denmark's Frederiksen Welcomes Zelenskyy After Controversial Putin Call",
+        "url": "https://www.politico.com/news/2026/11/10/frederiksen-welcomes-zelenskyy-to-denmark-after-controversial-nordic-call-to-putin",
+        "timestamp": 1794309060000,
+        "postedAt": 1794314978193
+      },
+      {
+        "headline": "Machinists Union Urges Schumer To Step Aside As Senate Democratic Leader",
+        "url": "https://www.politico.com/live-updates/2026/11/09/congress/union-sours-on-schumer-01157983",
+        "timestamp": 1794283650000,
+        "postedAt": 1794314978193
+      },
+      {
+        "headline": "Democrats Plan Clean Energy Push To Challenge Trump's Fossil Fuel Agenda",
+        "url": "https://apnews.com/article/elections-midterms-climate-policy-clean-energy-trump-b193e352f5905acc0e921a13ee237a4a",
+        "timestamp": 1794184140000,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Thune Roasted Again On Social Media Over Leadership",
+        "url": "https://townhall.com/news/mattvespa/2026/11/11/john-thune-got-roasted-on-social-media-again-and-what-he-said-afterward-didnt-help-n2686250",
+        "timestamp": 1794398100000,
+        "postedAt": 1794401110216
+      },
+      {
+        "headline": "Jim Jordan Picked As New House GOP Minority Leader",
+        "url": "https://rollcall.com/2026/11/10/new-minority-leader-for-house-gop-120th/",
+        "timestamp": 1794352610000,
+        "postedAt": 1794401110216
+      },
+      {
+        "headline": "Stephen Miller's Appointment Energizes RFK Jr. And MAHA Allies",
+        "url": "https://www.politico.com/news/2026/11/11/stephen-miller-chief-maha-rfk-wiles-01159518",
+        "timestamp": 1794391200000,
+        "postedAt": 1794401110216
+      },
+      {
+        "headline": "US-Mediated Talks To End Russia-Ukraine War Open In Abu Dhabi",
+        "url": "https://justthenews.com/government/diplomacy/us-mediated-talks-ending-russia-ukraine-war-begin-abu-dhabi",
+        "timestamp": 1794312207000,
+        "postedAt": 1794314978193
+      }
+    ],
+    "right": [
+      {
+        "headline": "Calley Means: How Big Food And Big Pharma Blocked MAHA Reforms",
+        "url": "https://thefederalist.com/2026/11/11/calley-means-how-big-food-and-big-pharma-blocked-popular-maha-reforms/?utm_source",
+        "timestamp": 1794400084000,
+        "postedAt": 1794401110216
+      },
+      {
+        "headline": "Bernie Sanders Won't Back Schumer For Majority Leader",
+        "url": "https://justthenews.com/government/congress/bernie-sanders-wont-back-schumer-majority-leader-new-congress-time-now-change",
+        "timestamp": 1794398673000,
+        "photo": true,
+        "postedAt": 1794401110216
+      },
+      {
+        "headline": "What An 82nd Airborne Veteran Wants Americans To Remember This Veterans Day",
+        "url": "https://www.dailywire.com/news/what-an-82nd-airborne-veteran-wants-americans-to-remember-this-veterans-day",
+        "timestamp": 1794398559000,
+        "photo": true,
+        "postedAt": 1794401110216,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "West Point Grad Known For 'Communism Will Win' Photo Now Praises Hamas, Hezbollah",
+        "url": "https://freebeacon.com/campus/west-point-grad-notorious-for-communism-will-win-graduation-pics-resurfaces-at-uchicago-where-hes-praising-hamas-hezbollah-and-the-bloodthirsty-assads/",
+        "timestamp": 1794391372000,
+        "photo": true,
+        "postedAt": 1794401110216,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "TRUMP PUBLICLY MOCKS VANCE AGAIN AS GOP RIFT WIDENS",
+        "url": "https://www.politico.com/news/2026/11/09/jd-vance-allies-launch-new-group-01155638",
+        "timestamp": 1794228602183,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Seattle School Board Authorizes Legal Action Over Transgender Sports Initiative",
+        "url": "https://komonews.com/news/local/seattle-public-schools-board-legal-action-initiative-638-privacy-equal-treatment-student-privaacy-september-privacy-checks-inclusive-state-laws",
+        "timestamp": 1794295225000,
+        "photo": true,
+        "postedAt": 1794314978193,
+        "image": "/img/politics-5.jpg"
+      },
+      {
+        "headline": "Eileen Laubacher Nears Victory In Colorado's 4th District, Attends DC Orientation",
+        "url": "https://www.cpr.org/2026/11/09/eileen-laubacher-nears-victory-congressional-district-4-race/",
+        "timestamp": 1794271294000,
+        "postedAt": 1794314978193
+      },
+      {
+        "headline": "GOP FRACTURES OVER MIDTERM WIPEOUT AS VANCE BREAKS WITH TRUMP",
+        "url": "https://www.dailywire.com/episode/district-club-ep-11?elementPosition",
+        "timestamp": 1794142010243,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Mexico: Police Shoot 7-Year-Old American During Border Drug Operation",
+        "url": "https://justthenews.com/nation/crime/mexican-police-shoot-7-year-old-american-during-drug-enforcement-operation-near-us",
+        "timestamp": 1794225857000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Maryland Democratic Governor Might Have Lied About His Military Service",
+        "url": "https://townhall.com/news/mattvespa/2026/11/09/maryland-dem-governor-might-have-lied-about-his-military-service-n2686121",
+        "timestamp": 1794222017000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Democratic Congresswoman-Elect Faces Felony Charges Over Rental Car",
+        "url": "https://freebeacon.com/democrats/dem-congresswoman-elect-heads-to-court-on-felony-charges-for-failing-to-return-rental-car/",
+        "timestamp": 1794219397000,
+        "photo": true,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Trump's FAA Touts New AI Tool Helping Passengers Avoid Flight Delays",
+        "url": "https://www.foxnews.com/politics/exclusive-trumps-faa-touts-new-ai-powered-tool-helping-thousands-passengers-avoid-flight-delays",
+        "timestamp": 1794218438000,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Straight-Ticket Republican Voters Grapple With Midterm Losses",
+        "url": "https://www.thebulwark.com/p/republican-voters-focus-group-coping-with-midterm-defeat",
+        "timestamp": 1794140437000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Democratic Podcasters Apologize For Charlie Kirk Joke, Donate To Gun Control Group",
+        "url": "https://www.breitbart.com/politics/2026/11/07/democrat-podcasters-apologize-for-charlie-kirk-joke-donate-to-gun-control-group/",
+        "timestamp": 1794121993000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Canada: Carney Doubles Down On Plan To Add 2.3 Million Migrants Amid Backlash",
+        "url": "https://www.breitbart.com/immigration/2026/11/07/banker-mark-carney-doubles-down-adds-2-3-million-more-migrants-to-shocked-canadian-economy/",
+        "timestamp": 1794119390000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Texas Senator-Elect James Talarico Delivers Message To Trump In SNL Cold Open",
+        "url": "https://www.facebook.com/washingtonpost/videos/state-rep-james-talarico-d-has-defeated-texass-republican-attorney-general-ken-p/1128106210200942/",
+        "timestamp": 1794115804000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Senate's Last-Minute Permitting Deal Changes, Explained",
+        "url": "https://heatmap.news/energy/managers-amendment-policy-permitting-bill",
+        "timestamp": 1794081352000,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "DeSantis Leaves Door Open On 2028 Presidential Run",
+        "url": "https://abcnews.com/Politics/ron-desantis-door-open-presidential-run-made-final/story?id",
+        "timestamp": 1794049960000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Newsom's Death Penalty Decision Draws Conservative Criticism",
+        "url": "https://www.realclearpolitics.com/articles/2026/11/07/newsoms_death_penalty_decision_puts_justice_on_death_row_154665.html",
+        "timestamp": 1794031200000,
+        "photo": true,
+        "postedAt": 1794142010243
+      },
+      {
+        "headline": "Stephen Miller's Biggest Weapon Against Amnesty Might Be Democrats",
+        "url": "https://dailycaller.com/2026/11/11/duke-trump-amnesty-ro-khanna-stephen-miller-immigration-deal",
+        "timestamp": 1794394800000,
+        "postedAt": 1794401110216
+      },
+      {
+        "headline": "Former RFK Jr. Adviser Accuses Susie Wiles, Other Officials Of Corruption",
+        "url": "https://www.cbsnews.com/news/calley-means-white-house-health-and-human-services-rfk-jr/",
+        "timestamp": 1794174360000,
+        "postedAt": 1794228602183
+      },
+      {
+        "headline": "Analysis: Why Russia Is Targeting European Freezers",
+        "url": "https://www.nationalreview.com/2026/11/why-russia-is-targeting-european-freezers/",
+        "timestamp": 1794310212000,
+        "postedAt": 1794314978193
+      }
+    ]
+  },
+  "polls": [
+    {
+      "name": "Trump Approval",
+      "value": "39%/59%",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
+      "asOf": "Nov 1, 2026"
+    },
+    {
+      "name": "Generic Congressional Vote",
+      "value": "Dem +8",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "Nov 3, 2026"
+    },
+    {
+      "name": "Right Direction",
+      "value": "36%",
+      "sub": "",
+      "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/right_direction_or_wrong_track",
+      "asOf": "Nov 5, 2026"
+    }
+  ],
+  "balance": {
+    "left": 626,
+    "right": 699,
+    "independent": 0,
+    "days": 30,
+    "total": 1325,
+    "pctLeft": 47,
+    "pctRight": 53
+  }
+}
