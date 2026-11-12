@@ -1,56 +1,27 @@
 {
-  "lastUpdated": 1794399301328,
-  "heroSetDate": "2026-11-11",
+  "lastUpdated": 1794485844159,
+  "heroSetDate": "2026-11-12",
   "hero": {
-    "headline": "HOUSE GOP BLOCKS PUSH TO IMPEACH HEGSETH OVER IRAN STRIKES",
-    "url": "https://apnews.com/article/hegseth-impeachment-briefing-trump-massie-87a78193502f716e6fb8eee5aef06ac0",
+    "headline": "DEMOCRAT SCOTT COLOM FLIPS MISSISSIPPI SENATE SEAT IN UPSET",
+    "url": "https://www.nbcnews.com/politics/rcna605729",
     "sublinks": [
       {
-        "text": "GOP members brand their own party a 'sinking ship' after blocking the vote",
-        "url": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates"
+        "text": "Win Makes Colom Mississippi's First Black Senator Since Reconstruction",
+        "url": "https://www.motherjones.com/politics/2026/11/mississippi-jim-crow-epicenter-elects-scott-colom-first-black-senator-since-reconstruction/"
       },
       {
-        "text": "Rep. Massie's impeachment push derailed by leadership maneuvering",
-        "url": "https://reason.com/2026/11/10/thomas-massies-attempt-to-impeach-pete-hegseth-is-derailed/"
+        "text": "Analysts Call It One Of The Cycle's Biggest Upsets",
+        "url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"
       },
       {
-        "text": "Legal analyst Andrew McCarthy breaks down the underlying case against Hegseth",
-        "url": "https://reason.com/volokh/2026/11/09/andy-mccarthy-on-the-hegseth-impeachment/"
+        "text": "Senate GOP Now Bracing For A Long Stretch In The Minority",
+        "url": "https://www.washingtonexaminer.com/news/senate/4799492/forget-2028-senate-gop-braces-for-a-long-stretch-in-the-minority/"
       }
     ],
-    "postedAt": 1794399301328,
+    "postedAt": 1794485844159,
     "img": true
   },
   "groups": [
-    {
-      "title": "IRAN WAR: CLAIMS, CLASHES AND FALLOUT",
-      "stories": [
-        {
-          "headline": "Iran's Top Security Official Claims No Talks Underway With US",
-          "url": "https://www.timesofisrael.com/liveblog_entry/top-iranian-security-official-says-no-talks-underway-with-us/",
-          "timestamp": 1794398743241,
-          "postedAt": 1794399301328
-        },
-        {
-          "headline": "Trump Says US Won Iran War; Iran Responds",
-          "url": "https://www.npr.org/2026/11/11/nx-s1-6035875/trump-says-us-won-iran-war-iran-responds",
-          "timestamp": 1794391373000,
-          "postedAt": 1794399301328
-        },
-        {
-          "headline": "Treasury Secretary Bessent Moves To Military Base After Iran Threatens His Life",
-          "url": "https://www.cbsnews.com/news/bessent-relocate-dc-area-home-military-base-iran-threats-to-kill-him/",
-          "timestamp": 1794388980000,
-          "postedAt": 1794399301328
-        },
-        {
-          "headline": "ISW: Daily Assessment Of Iran's Posture After The War",
-          "url": "https://understandingwar.org/research/middle-east/iran-update-november-10-2026/",
-          "timestamp": 1794387367000,
-          "postedAt": 1794399301328
-        }
-      ]
-    },
     {
       "title": "STEPHEN MILLER'S WHITE HOUSE TAKEOVER",
       "stories": [
@@ -88,6 +59,29 @@
       ]
     },
     {
+      "title": "NVIDIA'S HUANG SCANDAL & CHINA CHIP PROBE",
+      "stories": [
+        {
+          "headline": "Nvidia CEO Jensen Huang Said To Have Relationship With Exec Who Reports To Him",
+          "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html?unlocked_article_code=1.PlE.GieR.RfRdXdIFO6_r&smid=url-share",
+          "timestamp": 1794485196049,
+          "postedAt": 1794485844159
+        },
+        {
+          "headline": "Report: Nvidia's 'Chip King' Facing Pressure Amid Fallout",
+          "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d",
+          "timestamp": 1794485196049,
+          "postedAt": 1794485844159
+        },
+        {
+          "headline": "Lutnick Stalled China Chip Curbs, Report Says",
+          "url": "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls",
+          "timestamp": 1794485196049,
+          "postedAt": 1794485844159
+        }
+      ]
+    },
+    {
       "title": "ITALY: MASS SCHOOL EVACUATIONS AFTER BOMB THREAT EMAILS",
       "stories": [
         {
@@ -109,27 +103,40 @@
           "postedAt": 1794312874553
         }
       ]
-    },
-    {
-      "title": "VANCE'S FUTURE IN DOUBT AFTER TRUMP'S '60 MINUTES' REMARKS",
-      "stories": [
-        {
-          "headline": "WSJ: Vance's Political Future In Doubt After Trump's Remarks",
-          "url": "https://www.dailysabah.com/world/americas/vance-seeks-political-identity-beyond-trump-after-gop-midterm-losses",
-          "timestamp": 1794226018597,
-          "postedAt": 1794226736161
-        },
-        {
-          "headline": "Trump Throws Vance Under The Bus Twice In One Night",
-          "url": "https://www.mediaite.com/media/so-disloyal-bill-oreilly-and-pro-trump-radio-host-call-out-jd-vance-for-blaming-election-wipeout-on-iran-war/",
-          "timestamp": 1794214575000,
-          "postedAt": 1794226736161
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "Nikki Haley Announces She Is Not Running For President In 2028",
+        "url": "https://notthebee.com/article/nikki-haley-announces-she-is-not-running-for-president-in-2028/",
+        "timestamp": 1794427767000,
+        "postedAt": 1794485871168
+      },
+      {
+        "headline": "HOUSE GOP BLOCKS PUSH TO IMPEACH HEGSETH OVER IRAN STRIKES",
+        "url": "https://apnews.com/article/hegseth-impeachment-briefing-trump-massie-87a78193502f716e6fb8eee5aef06ac0",
+        "timestamp": 1794399301328,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "Stephen Miller's Secret Scramble To Stop MAGA Exodus",
+        "url": "https://www.axios.com/2026/11/11/stephen-miller-focus-men-maga",
+        "timestamp": 1794485196050,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Douglas Murray: Russell Brand Ran Out Of Enablers",
+        "url": "https://www.cbsnews.com/news/russell-brand-sentenced-prison-rape-sexual-assault/",
+        "timestamp": 1794483205000,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Ukraine Says Starlink Restrictions Return As US Envoys Land In Moscow",
+        "url": "https://www.independent.ie/world-news/russia-ukraine-exchange-attacks-as-us-envoys-meet-putin-in-moscow/a/164434014.html",
+        "timestamp": 1794481191000,
+        "postedAt": 1794485844159
+      },
       {
         "headline": "October Inflation Hotter Than Expected, Setting Up A Rate Hike",
         "url": "https://www.theamericanconservative.com/october-inflation-hotter-than-expected-setting-up-a-rate-hike/",
@@ -138,7 +145,7 @@
       },
       {
         "headline": "Can You Win the Presidency After Lying About Your Military Service?",
-        "url": "https://spectator.org/can-you-win-the-presidency-after-lying-about-your-military-service",
+        "url": "https://www.27east.com/southampton-press/police-fire/police-news/article_09d72d26-1e4d-4825-908a-5f8f95cd6d8f.html",
         "timestamp": 1794319440000,
         "postedAt": 1794399375435
       },
@@ -259,9 +266,63 @@
         "url": "https://thepostmillennial.com/news/seattle-school-board-approves-legal-action-to-keep-boys-in-girls-sports-against-voters-will",
         "timestamp": 1794311246000,
         "postedAt": 1794312874553
+      },
+      {
+        "headline": "Steve Deace Lays Out Why Trump May Be Dangling Amnesty",
+        "url": "https://www.theblaze.com/shows/steve-deace-show/steve-deace-lays-out-three-reasons-trump-may-be-dangling-amnesty-and-one-could-change-everything",
+        "timestamp": 1794483145000,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Jim Jordan's Win Throws Freedom Caucus's Future Into Question",
+        "url": "https://www.politico.com/news/2026/11/12/house-freedom-caucus-jim-jordan-01161911",
+        "timestamp": 1794476700000,
+        "postedAt": 1794485844159
       }
     ],
     "center": [
+      {
+        "headline": "HILL TO PROBE TRUMP-CHINA LINKS",
+        "url": "https://www.wsj.com/politics/policy/top-democrats-target-trump-administrations-nvidia-china-records-0c212746",
+        "timestamp": 1794485196049,
+        "postedAt": 1794485871168
+      },
+      {
+        "headline": "Humanoid Robotics Startup Backed By Eric Trump In Talks With Israel's Military",
+        "url": "https://t.co/tKpAQPMXCh",
+        "timestamp": 1794485196050,
+        "photo": true,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Brooklyn Building Collapse Death Toll Hits 6 As Search Continues",
+        "url": "https://abc7ny.com/live-updates/brooklyn-building-collapse-live-updates-1-dead-flatbush/20034152/",
+        "timestamp": 1794483900000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Fossil Fuels Get Guarantees, Renewables Get Promises, Analysis Finds",
+        "url": "https://popular.info/p/fossil-fuels-get-guarantees-renewables",
+        "timestamp": 1794483032000,
+        "postedAt": 1794485844159,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Nor'easter Forecast To Bring Heavy Snow Across Northeast",
+        "url": "https://weather.com/2026/11/11/forecast/regional/noreaster-first-snow-frost-freeze",
+        "timestamp": 1794479701000,
+        "photo": true,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "North Hollywood Crash Suspect Arrested On DUI Charges After 3 Deaths",
+        "url": "https://abc7.com/post/north-hollywood-crash-driver-accused-killing-3-women-metro-station-arrested-suspicion-dui/20032832/",
+        "timestamp": 1794471629000,
+        "photo": true,
+        "postedAt": 1794485844159
+      },
       {
         "headline": "The APA Has Forgotten Who the Patient Is",
         "url": "https://www.city-journal.org/article/american-psychological-association-patients-political",
@@ -328,12 +389,6 @@
         "postedAt": 1794312874553
       },
       {
-        "headline": "Nvidia Investigates Alleged 'Sexpionage' Targeting Jensen Huang",
-        "url": "https://www.aol.co.uk/articles/alice-huang-alleged-chinese-spy-105322000.html",
-        "timestamp": 1794226018597,
-        "postedAt": 1794226736161
-      },
-      {
         "headline": "Report: Loomer Paid Thousands For Political Tweets, Sources Say",
         "url": "https://www.msn.com/en-us/news/news/ar-AA2gXqqp",
         "timestamp": 1794226018597,
@@ -361,15 +416,13 @@
         "headline": "Trump And Netanyahu Clashed In 'Shouting Match From Hell,' Report Says",
         "url": "https://www.ynetnews.com/article/sjoxqce0me",
         "timestamp": 1794398743241,
-        "postedAt": 1794399301328,
-        "image": "/img/main-6.jpg"
+        "postedAt": 1794399301328
       },
       {
         "headline": "Lawmakers Call On DOJ To Interview Report's Key Witnesses",
         "url": "https://www.cnbc.com/2026/11/10/jeffrey-epstein-house-oversight-doj.html",
         "timestamp": 1794398743241,
-        "postedAt": 1794399301328,
-        "image": "/img/main-7.jpg"
+        "postedAt": 1794399301328
       },
       {
         "headline": "Arizona's Eli Crane Defies Blue Wave, Wins Reelection",
@@ -382,9 +435,47 @@
         "url": "https://alaskapublic.org/news/politics/elections/2026-11-10/peltola-and-jkt-strengthen-leads-in-latest-alaska-election-results",
         "timestamp": 1794371100000,
         "postedAt": 1794399301328
+      },
+      {
+        "headline": "ICE Raids Continue Unabated Nationwide",
+        "url": "https://apnews.com/f3b9d1c9aab7d701c9b2c2550efa0332",
+        "timestamp": 1794485196050,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Is Ayanna Pressley About To Challenge Jeffries For Speaker?",
+        "url": "https://zeteo.com/p/is-ayanna-pressley-about-to-challenge",
+        "timestamp": 1794484868000,
+        "postedAt": 1794485844159,
+        "image": "/img/main-6.jpg"
       }
     ],
     "right": [
+      {
+        "headline": "Why Policy Will Make a Comeback in 2028",
+        "url": "https://www.nationalreview.com/article/why-policy-will-make-a-comeback-in-2028",
+        "timestamp": 1794436140000,
+        "postedAt": 1794485871168
+      },
+      {
+        "headline": "Activists Hurl Objects At Bidens Leaving Hunter Biden Award Ceremony",
+        "url": "https://www.theblaze.com/news/protester-ireland-bidens-hunter-award",
+        "timestamp": 1794484264000,
+        "photo": true,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Proposition 40: The Origins Of California's Wealth Tax",
+        "url": "https://www.nationalreview.com/article/an-intellectual-history-of-california-s-proposition-40",
+        "timestamp": 1794483000000,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Elizabeth Warren's Credit Card Rate Cap Could Restrict Consumer Credit",
+        "url": "https://www.nationalreview.com/article/elizabeth-warren-s-plan-to-abolish-credit-cards",
+        "timestamp": 1794483000000,
+        "postedAt": 1794485844159
+      },
       {
         "headline": "Vox Populi, Vox Dei: The People Are Losing Patience",
         "url": "https://www.realclearpolicy.com/articles/2026/11/10/vox_populi_vox_dei_the_people_are_losing_patience_1216019.html",
@@ -512,15 +603,27 @@
         "url": "https://www.axios.com/2026/11/09/thune-senate-republican-leadership-elections",
         "timestamp": 1794268296000,
         "postedAt": 1794312874553
+      },
+      {
+        "headline": "Maddow Fears Detention Centers Could Be Used To Imprison Citizens",
+        "url": "https://www.mediaite.com/media/tv/rachel-maddow-fears-trump-could-use-detention-centers-to-imprison-the-rest-of-us/",
+        "timestamp": 1794485196050,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "North Carolina Republicans Suffer Sweeping Losses After Redistricting Backfires",
+        "url": "https://www.nationalreview.com/news/how-things-went-from-bad-to-worse-for-north-carolina-republicans",
+        "timestamp": 1794483000000,
+        "postedAt": 1794485844159
       }
     ]
   },
   "balance": {
-    "left": 700,
-    "right": 534,
+    "left": 705,
+    "right": 541,
     "independent": 10,
     "days": 30,
-    "total": 1234,
+    "total": 1246,
     "pctLeft": 57,
     "pctRight": 43
   }
