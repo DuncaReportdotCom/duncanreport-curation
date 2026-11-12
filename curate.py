@@ -4482,6 +4482,11 @@ def _suppressed(url, text=""):
 _NONSTORY_PATHS = {"", "/home", "/home-page", "/homepage", "/home.page", "/index.html", "/index.htm",
     "/latest", "/news", "/world", "/politics", "/business", "/markets", "/opinion", "/sports", "/us",
     "/world-news", "/elections"}
+# Path SEGMENTS that mark a listing/index page (an author, tag, topic or section index), never an
+# article - e.g. realclearinvestigations.com/authors/barbie_nadeau, site.com/tag/iran, /category/x.
+_NONSTORY_SEGMENTS = {"authors", "author", "tag", "tags", "topic", "topics", "category", "categories",
+    "section", "sections", "people", "contributor", "contributors", "columnist", "columnists",
+    "staff", "byline", "bylines", "profile", "search", "about"}
 
 def _is_story_url(url):
     """True only if the URL looks like an actual ARTICLE, not an outlet homepage or a bare section
@@ -4497,6 +4502,8 @@ def _is_story_url(url):
     if path in _NONSTORY_PATHS and not p.query:
         return False
     segs = [s for s in path.split("/") if s]
+    if any(s in _NONSTORY_SEGMENTS for s in segs):
+        return False   # author/tag/topic/category/search index - a listing page, not a story
     # a real item has a slug (hyphen/underscore), a digit (date/id), 2+ path segments, OR a query that
     # identifies specific content (youtube.com/watch?v=..., ...?id=..., ?story=...).
     if p.query or "-" in path or "_" in path or any(ch.isdigit() for ch in path) or len(segs) >= 2:
