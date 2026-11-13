@@ -1,0 +1,481 @@
+{
+  "lastUpdated": 1794573008754,
+  "heroSetDate": "2026-11-13",
+  "hero": {
+    "headline": "US ENVOYS MEET PUTIN IN MOSCOW, THEN BRIEF ZELENSKYY IN DUBLIN ON UKRAINE PLAN",
+    "url": "https://apnews.com/article/russia-ukraine-war-putin-kushner-witkoff-683810203340077f33611fd1d1757b23",
+    "sublinks": [
+      {
+        "text": "Putin and US envoys agree to keep negotiations going",
+        "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin"
+      },
+      {
+        "text": "Russia and Ukraine strike prisoner-swap deal as distrust still blocks a breakthrough",
+        "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/"
+      },
+      {
+        "text": "Dispute over Ukraine envoy hijacks EU leaders' first AI summit",
+        "url": "https://www.euronews.com/2026/11/13/ukraine-envoy-row-hijacks-eu-leaders-first-ai-summit"
+      },
+      {
+        "text": "Europe tells Moscow: our security architecture is ours to decide",
+        "url": "https://www.euronews.com/2026/11/12/europe-tells-russia-our-security-architecture-is-for-us-to-decide"
+      },
+      {
+        "text": "Russia strikes Kyiv hospital even as negotiations continue",
+        "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails"
+      },
+      {
+        "text": "Germany presses Europe to shoulder more of Ukraine's costs",
+        "url": "https://www.dw.com/en/dwcom-berlinbriefing/video-79937789"
+      }
+    ],
+    "postedAt": 1794573008754,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "SECOND CAR BOMB HITS RUSSIA IN TWO DAYS",
+      "stories": [
+        {
+          "headline": "Moscow Car Bomb Wounds Former Aide To Pro-Russian Ukrainian Politician",
+          "url": "https://www.reuters.com/world/second-car-bomb-hit-russia-two-days-targets-exiled-ukrainian-political-aide-2026-11-13/",
+          "timestamp": 1794569654000,
+          "postedAt": 1794573008754
+        },
+        {
+          "headline": "Second Car Bomb Hits Russia In Two Days",
+          "url": "https://www.nbcnews.com/world/russia/second-car-bomb-hits-russia-two-days-rcna609124",
+          "timestamp": 1794561789000,
+          "feature": true,
+          "postedAt": 1794573008754
+        }
+      ]
+    },
+    {
+      "title": "SOUTHERN EUROPE'S HOUSING CRISIS PROTESTS",
+      "stories": [
+        {
+          "headline": "Portugal Housing Protests Sweep Nation As Anger Mounts",
+          "url": "https://www.theguardian.com/commentisfree/2026/nov/13/housing-protests-portugal-police-politicians-crisis-renters",
+          "timestamp": 1794565740000,
+          "postedAt": 1794573008754
+        },
+        {
+          "headline": "Spain Approves Housing Decree That Triggered Snap Election",
+          "url": "https://www.reuters.com/world/spain-approves-one-housing-decrees-that-triggered-snap-election-2026-11-12/",
+          "timestamp": 1794488631000,
+          "postedAt": 1794573008754
+        },
+        {
+          "headline": "Spain's Housing Crisis Prompts First General Strike In 14 Years",
+          "url": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike-mass-nighttime-protests/a-79915208",
+          "timestamp": 1794471754000,
+          "postedAt": 1794486616144
+        }
+      ]
+    },
+    {
+      "title": "TWO FRENCH GUARDS COLLAPSE AT MACRON CEREMONY",
+      "stories": [
+        {
+          "headline": "Two Guards Collapse Beside Macron During Slovak President's Welcome",
+          "url": "https://www.afp.com/en/two-french-guards-collapse-macron-welcomes-slovak-president",
+          "timestamp": 1794485115000,
+          "postedAt": 1794486616144
+        },
+        {
+          "headline": "Officials Probe Cause After Guards Collapse At Elysee Ceremony",
+          "url": "https://www.euronews.com/2026/11/12/two-guards-collapse-beside-macron-during-official-welcoming-ceremony",
+          "timestamp": 1794483432000,
+          "postedAt": 1794486616144
+        }
+      ]
+    },
+    {
+      "title": "TRUMP DECLARES IRAN WAR 'EFFECTIVELY OVER'",
+      "stories": [
+        {
+          "headline": "US Charges Three Alleged Iranian Operatives Over UK Airbase, Jewish Community Plots",
+          "url": "https://www.dw.com/en/us-charges-3-alleged-iranian-operatives-over-plots-targeting-jewish-communities-and-a-uk-airbase/a-79913543",
+          "timestamp": 1794393538000,
+          "postedAt": 1794400075593
+        },
+        {
+          "headline": "Iran Responds To Trump's Claim That US 'Won' The War",
+          "url": "https://www.npr.org/2026/11/11/nx-s1-6035875/trump-says-us-won-iran-war-iran-responds",
+          "timestamp": 1794391373000,
+          "postedAt": 1794400075593
+        },
+        {
+          "headline": "Iran Warns Of Expanded Retaliation As Israel Readies Possible Strike",
+          "url": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack",
+          "timestamp": 1794456313000,
+          "postedAt": 1794486616144
+        }
+      ]
+    },
+    {
+      "title": "COP31 CLIMATE SUMMIT",
+      "stories": [
+        {
+          "headline": "Greta Thunberg Arrives At COP31, Blasts UN 'Hypocrisy'",
+          "url": "https://www.breitbart.com/europe/2026/11/11/greta-thunberg-flies-in-to-cop31-climate-talks-and-blasts-u-n-hypocrisy/",
+          "timestamp": 1794398455000,
+          "postedAt": 1794400075593
+        },
+        {
+          "headline": "Is COP31 Shaping Up As 'Good Cop, Bad Cop'?",
+          "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/burnham-good-cop-or-bad-cop/",
+          "timestamp": 1794394980000,
+          "postedAt": 1794400075593
+        }
+      ]
+    },
+    {
+      "title": "NETANYAHU'S POLITICAL STANDING AT HOME",
+      "stories": [
+        {
+          "headline": "Abbas Claims Netanyahu Once Said He And Sinwar 'Understood Each Other'",
+          "url": "https://www.timesofisrael.com/raam-chair-abbas-says-netanyahu-once-told-him-sinwar-and-i-understand-each-other/",
+          "timestamp": 1794392702000,
+          "postedAt": 1794400075593
+        },
+        {
+          "headline": "Netanyahu Fights To Stay Relevant As Israeli Opposition Closes In",
+          "url": "https://www.aljazeera.com/news/2026/11/11/netanyahu-fights-to-stay-relevant-as-israels-opposition-closes-in",
+          "timestamp": 1794382363000,
+          "postedAt": 1794400075593
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Lawmaker Barred From Discussing 'Ethnic Replacement' Of White Britons",
+        "url": "https://www.breitbart.com/europe/2026/11/13/uk-lawmaker-barred-from-discussing-ethnic-replacement-of-british-people/",
+        "timestamp": 1794566912000,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "Six Dead Near Kenya's Capital After Building Collapses",
+        "url": "https://www.reuters.com/world/africa/six-people-dead-near-kenyas-capital-after-building-collapses-citizen-tv-2026-11-13/",
+        "timestamp": 1794569049000,
+        "photo": true,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "Italy: 77 Schools Evacuated After New Round Of Hoax Bomb Threats",
+        "url": "https://www.breitbart.com/europe/2026/11/13/italy-77-schools-evacuated-after-new-round-of-hoax-bomb-threats/",
+        "timestamp": 1794568145000,
+        "photo": true,
+        "postedAt": 1794573008754,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Hegseth Awards Medal To Soldier Who Chastised Him",
+        "url": "https://www.npr.org/2026/11/13/nx-s1-6039845/hegseth-awards-medal-to-soldier-who-chastised-him",
+        "timestamp": 1794565628000,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "China Stages Unannounced Pacific Drills In 'Silent Intimidation' Of Taiwan",
+        "url": "https://www.yahoo.com/news/world/articles/china-stages-unannounced-pacific-drills-040513635.html",
+        "timestamp": 1794542700000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794573008754,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Paraguay Presidential Residence Raided In Bank Probe",
+        "url": "https://www.reuters.com/world/americas/paraguay-prosecutors-raid-presidential-residence-pea-probe-2026-11-12/",
+        "timestamp": 1794512520000,
+        "photo": true,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "UK Fines Meta Over Repeated Inaccuracies In WhatsApp Data",
+        "url": "https://www.scmp.com/news/world/europe/article/3374238/uk-fines-meta-us597000-over-repeated-inaccuracies-whatsapp-data",
+        "timestamp": 1794484847000,
+        "postedAt": 1794486616144
+      },
+      {
+        "headline": "Macron To Make State Visit To Cambodia During Francophonie Summit",
+        "url": "https://www.rfi.fr/en/international/20261112-france-s-macron-to-pay-state-visit-to-cambodia-during-francophonie-summit",
+        "timestamp": 1794483169000,
+        "photo": true,
+        "postedAt": 1794486616144
+      },
+      {
+        "headline": "British Challenger Bank Metro Put Up For Sale",
+        "url": "https://www.reuters.com/business/finance/uks-metro-bank-up-sale-part-strategic-review-2026-11-12/",
+        "timestamp": 1794480956000,
+        "postedAt": 1794486616144
+      },
+      {
+        "headline": "ISW: Russian Offensive Pace Assessed In Latest Campaign Report",
+        "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-11-2026/",
+        "timestamp": 1794462317000,
+        "postedAt": 1794486616144
+      },
+      {
+        "headline": "BYD Apologizes For Wheel-Rim Error As China Cracks Down On Car Quality",
+        "url": "https://www.scmp.com/business/china-evs/article/3374098/byd-apologises-wheel-rim-error-china-cracks-down-car-quality-issues",
+        "timestamp": 1794396725000,
+        "photo": true,
+        "postedAt": 1794400075593
+      },
+      {
+        "headline": "European Stocks Near Record High On Siemens, CoreWeave AI Optimism",
+        "url": "https://www.reuters.com/business/europes-stoxx-600-near-record-high-siemens-energy-coreweave-outlooks-lift-2026-11-11/",
+        "timestamp": 1794393006000,
+        "postedAt": 1794400075593
+      },
+      {
+        "headline": "Bangladesh's Fugitive Ex-PM Hasina Vows To Return, Raising Key Questions",
+        "url": "https://www.rfi.fr/en/international-news/20261111-key-questions-on-fugitive-ex-pm-hasina-s-vow-to-return-to-bangladesh",
+        "timestamp": 1794392768000,
+        "photo": true,
+        "postedAt": 1794400075593
+      },
+      {
+        "headline": "Pope Leo Returns To Peru As Evangelicals Challenge Catholic Dominance",
+        "url": "https://thechenabtimes.com/2026/11/11/pope-franciss-return-to-peru-highlights-shifting-religious-landscape/",
+        "timestamp": 1794391449000,
+        "photo": true,
+        "postedAt": 1794400075593
+      },
+      {
+        "headline": "Iran Designates Argentina's Navy And Air Force As 'Terrorist Organizations'",
+        "url": "https://www.reuters.com/world/americas/iran-designates-argentinas-navy-air-force-terrorist-organizations-2026-11-11/",
+        "timestamp": 1794377400000,
+        "postedAt": 1794400075593
+      },
+      {
+        "headline": "Long-Dated US Treasuries Rise As Nvidia Woes Revive Haven Demand",
+        "url": "https://finance.yahoo.com/markets/article/icarus-rise-and-fall-analyst-downgrades-nvidia-stock-amid-jensen-huang-woes-highlights-risks-131204555.html",
+        "timestamp": 1794483140000,
+        "postedAt": 1794486616144
+      }
+    ],
+    "center": [
+      {
+        "headline": "Army Officer Tied To Alleged Russian Spying Scheme Identified",
+        "url": "https://thehill.com/policy/defense/6217738-brandon-tyner-army-russia-espionage-arrest/",
+        "timestamp": 1794530340000,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "Norway Top Court Rules Oil Licences Invalid In Landmark Ruling",
+        "url": "https://www.afp.com/en/norway-top-court-rules-oil-licences-invalid-landmark-ruling",
+        "timestamp": 1794567866000,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "Israeli Strike On Gaza's Nasser Hospital Kills At Least Six",
+        "url": "https://www.nbcnews.com/world/middle-east/israeli-strike-gaza-nasser-hospital-abu-shaira-doctor-hamas-rcna608932",
+        "timestamp": 1794564660000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794573008754,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Bolsonaro Shrugs Off Fugitive Label, Eyes Future Presidential Bid",
+        "url": "https://wtvbam.com/2026/11/13/brazils-bolsonaro-shrugs-off-fugitive-label-eyes-future-brazil-presidential-bid/",
+        "timestamp": 1794562300000,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "Australian Boy Found Alive After 6 Days Lost In Wilderness",
+        "url": "https://www.cbsnews.com/news/teen-found-alive-6-days-lost-australia-wilderness/",
+        "timestamp": 1794483660000,
+        "photo": true,
+        "postedAt": 1794573008754,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "Conflict With US Pushes Canada Closer To The EU",
+        "url": "https://www.dw.com/en/closer-ties-between-canada-and-eu/video-79879129",
+        "timestamp": 1794484664000,
+        "postedAt": 1794486616144
+      },
+      {
+        "headline": "UN Appoints Iran To Key Committee Overseeing Global Priorities",
+        "url": "https://www.breitbart.com/europe/2026/11/12/u-n-bows-down-to-iran-appoints-it-to-key-committee-directing-global-priorities/",
+        "timestamp": 1794482656000,
+        "postedAt": 1794486616144
+      },
+      {
+        "headline": "Doomsday Study Calculates Humanity's End Date: Friday The 13th",
+        "url": "https://www.euronews.com/2026/11/12/doomsday-study-calculated-humanitys-end-on-friday-13-november-2026",
+        "timestamp": 1794480892000,
+        "photo": true,
+        "postedAt": 1794486616144,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "UK Economy Expands 0.7% In Third Quarter On AI Boost",
+        "url": "https://www.cnbc.com/2026/11/12/uk-gdp-third-quarter-2026.html",
+        "timestamp": 1794467483000,
+        "postedAt": 1794486616144
+      },
+      {
+        "headline": "12 Democrats Push To Nix Initiative Mandating Boost To US-Israel Security Ties",
+        "url": "https://www.timesofisrael.com/12-democrats-push-for-nixing-initiative-mandating-us-boost-to-security-ties-with-israel/",
+        "timestamp": 1794399001000,
+        "postedAt": 1794400075593
+      },
+      {
+        "headline": "NATO Fighter Jets Fail To Shoot Down Drone Over Baltics After 'Difficult Night'",
+        "url": "https://www.euronews.com/2026/11/11/a-restless-and-difficult-night-in-the-baltics-as-nato-fighter-jets-fail-to-shoot-down-dron",
+        "timestamp": 1794395691000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794400075593
+      },
+      {
+        "headline": "Cameroon Sets February Date For Long-Delayed Elections",
+        "url": "https://www.rfi.fr/en/africa/20261111-cameroon-sets-february-date-for-long-delayed-parliamentary-and-local-elections",
+        "timestamp": 1794394099000,
+        "postedAt": 1794400075593
+      },
+      {
+        "headline": "India Ordered Website Takedowns Using Fake Court Orders, Reuters Finds",
+        "url": "https://www.reuters.com/world/india-ordered-website-takedowns-fake-court-orders-reuters-finds-police-launch-2026-11-11/",
+        "timestamp": 1794393214000,
+        "postedAt": 1794400075593
+      },
+      {
+        "headline": "Alibaba's T-Head Chip IPO Seen As Crucial For Chinese AI Amid Nvidia Saga",
+        "url": "https://www.scmp.com/tech/big-tech/article/3374090/amid-nvidia-saga-t-head-ipo-crucial-test-alibaba-and-chinas-ai-ambitions",
+        "timestamp": 1794393062000,
+        "postedAt": 1794400075593
+      },
+      {
+        "headline": "Microsoft Rules Out Malicious Activity In Global Outage",
+        "url": "https://www.dw.com/en/microsoft-rules-out-malicious-activity-as-cause-for-global-outage/a-79935611",
+        "timestamp": 1794570525000,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "Nasdaq, S&P 500 Futures Fall As Nvidia Turbulence Unsettles AI Stocks",
+        "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/",
+        "timestamp": 1794481345000,
+        "postedAt": 1794486616144
+      }
+    ],
+    "right": [
+      {
+        "headline": "Trump Says US Antisemitism At Levels 'Like Germany In 1938'",
+        "url": "https://www.timesofisrael.com/trump-says-us-antisemitism-at-levels-like-germany-in-1938/",
+        "timestamp": 1794568206000,
+        "photo": true,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "Tinder Owner Hit With €11 Million EU Privacy Fine",
+        "url": "https://www.politico.eu/article/tinder-owner-hit-with-e11m-privacy-fine/",
+        "timestamp": 1794567660000,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "Cairo Film Festival Opens As Middle East War Weighs On Cinema",
+        "url": "https://www.africanews.com/amp/2026/11/12/47th-cairo-film-festival-opens-as-middle-east-war-weighs-on-cinema/",
+        "timestamp": 1794566967000,
+        "photo": true,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "Hamas Accused Of Shaping Gaza Flood Narrative Ahead Of Storms",
+        "url": "https://www.jpost.com/middle-east/article-914629",
+        "timestamp": 1794514207000,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "Iran Says Four Tankers Struck By Explosions In Strait Of Hormuz",
+        "url": "https://www.reuters.com/world/middle-east/two-oil-tankers-disabled-by-explosions-strait-hormuz-irgc-says-2026-11-12/",
+        "timestamp": 1794500855000,
+        "postedAt": 1794573008754
+      },
+      {
+        "headline": "Dutch Government Nears Collapse In Dispute Over Wealth Tax",
+        "url": "https://www.rockymounttelegram.com/news/world/dutch-coalition-near-collapse-as-1-party-is-upset-over-tax-deal-with-opposition/article_923f0bae-2170-56f6-bd7c-89623c9e6b60.html",
+        "timestamp": 1794483975000,
+        "feature": true,
+        "postedAt": 1794486616144
+      },
+      {
+        "headline": "First Guidelines On Ocean Geoengineering Manipulation Unveiled",
+        "url": "https://www.theguardian.com/environment/2026/nov/12/canada-climate-geoengineering-marine-carbon-credits-biology-ocean-alkalinity-enhancement",
+        "timestamp": 1794481440000,
+        "postedAt": 1794486616144
+      },
+      {
+        "headline": "Le Pen: France 'Can't Import Migrants Who Hate' The Country",
+        "url": "https://www.breitbart.com/europe/2026/11/12/le-pen-schools-woke-cbs-france-can-no-longer-import-unemployed-migrants/",
+        "timestamp": 1794481432000,
+        "postedAt": 1794486616144
+      },
+      {
+        "headline": "UK Names Climate Security Envoy As Island Leaders Warn Of Crisis",
+        "url": "https://apnews.com/article/cop31-climate-targets-fail-islands-warming-f3e3326d07ab4fbff40c37b605ecd66c",
+        "timestamp": 1794476820000,
+        "photo": true,
+        "postedAt": 1794486616144
+      },
+      {
+        "headline": "Trump Claims 'Huge Victory' Against BBC As Defamation Case Proceeds",
+        "url": "https://www.breitbart.com/europe/2026/11/11/president-trump-claims-huge-victory-against-fake-news-bbc-as-defamation-case-proceeds/",
+        "timestamp": 1794398596000,
+        "photo": true,
+        "postedAt": 1794400075593,
+        "image": "/img/world-5.jpg"
+      },
+      {
+        "headline": "Protesters Pelt Objects At Joe Biden Outside Irish University",
+        "url": "https://www.nbcnews.com/politics/joe-biden/joe-biden-pelted-objects-ireland-dublin-palestinian-protests-hunter-rcna608713",
+        "timestamp": 1794397013000,
+        "photo": true,
+        "postedAt": 1794400075593,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "Canada: Four Grizzly Bears Put Down After Killing Mother, Daughter In B.C.",
+        "url": "https://www.breitbart.com/europe/2026/11/11/canada-officials-put-down-four-grizzly-bears-responsible-for-killing-mother-and-daughter-in-b-c/",
+        "timestamp": 1794396495000,
+        "photo": true,
+        "postedAt": 1794400075593,
+        "image": "/img/world-7.jpg"
+      },
+      {
+        "headline": "UN: Drone Strikes Have Killed 410 Children In Sudan",
+        "url": "https://www.rfi.fr/ha/afrika/20261111-hare-haren-da-aka-kai-da-jirage-marasa-matuka-sun-kashe-yara-410-a-sudan-mdd",
+        "timestamp": 1794395108000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794400075593
+      },
+      {
+        "headline": "UK Privy Council Overrules Trinidad And Tobago's Gay Sex Ban",
+        "url": "https://www.dw.com/en/trinidad-gay-sex-laws-privy-council-lgbtq-rights-caribbean/a-79912163",
+        "timestamp": 1794377780000,
+        "postedAt": 1794400075593
+      },
+      {
+        "headline": "Violent Riots Erupt In Barcelona And Madrid After Strike Day",
+        "url": "https://www.breitbart.com/europe/2026/11/12/watch-violent-riots-in-barcelona-and-madrid-after-day-of-general-strike/",
+        "timestamp": 1794480846000,
+        "postedAt": 1794486616144
+      },
+      {
+        "headline": "Spain's Strike Exposes Clashing Social And Political Divides",
+        "url": "https://apnews.com/article/spain-strike-housing-elections-pedro-sanchez-68a061a72d7cdf842b7803a816e46ef0",
+        "timestamp": 1794393060000,
+        "postedAt": 1794400075593
+      }
+    ]
+  }
+}

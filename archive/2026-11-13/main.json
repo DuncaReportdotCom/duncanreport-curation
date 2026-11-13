@@ -1,0 +1,538 @@
+{
+  "lastUpdated": 1794572144409,
+  "heroSetDate": "2026-11-13",
+  "hero": {
+    "headline": "LUTNICK AGREES TO TESTIFY AS NVIDIA-CHINA CHIP SCANDAL ENGULFS TRUMP ADMINISTRATION",
+    "url": "https://www.nbcnews.com/politics/congress/commerce-secretary-howard-lutnick-testify-pressure-nvidia-scandal-rcna609093",
+    "sublinks": [
+      {
+        "text": "Axios: Lutnick Quietly Blocked Tighter China Chip-Export Curbs After Oval Office Clash",
+        "url": "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls"
+      },
+      {
+        "text": "Reuters: Huang's Exit And New Scrutiny Threaten $3 Billion In Chinese AI Deals",
+        "url": "https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/"
+      },
+      {
+        "text": "Yahoo: Investigators Probe Claims Export-Controlled Chips Were Sold On China's Black Market",
+        "url": "https://www.yahoo.com/news/world/articles/chinese-university-bought-advanced-nvidia-052401552.html"
+      },
+      {
+        "text": "Mediaite: Leaked Self-Deprecating Huang Remark Adds To Scandal's Optics Problem",
+        "url": "https://www.mediaite.com/media/news/im-a-piece-of-sht-bloomberg-news-gets-inside-look-at-jensen-huangs-unraveling-as-nvidia-ceo/"
+      },
+      {
+        "text": "Politico: Lawmakers See A 'Jensen Huang-Sized Hole' In Trump's China Chip Strategy",
+        "url": "https://www.politico.com/newsletters/decoded-by-politico/2026/11/13/a-jensen-huang-sized-hole-01164435"
+      }
+    ],
+    "postedAt": 1794572144409,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "GUNMAN OPENS FIRE A MILE FROM THE WHITE HOUSE",
+      "stories": [
+        {
+          "headline": "D.C. Police Contain Gunman In Shooting Just A Mile From The White House",
+          "url": "https://apnews.com/3cee6a4ada875fcc18e932e536c63dcd",
+          "timestamp": 1794571487768,
+          "feature": true,
+          "postedAt": 1794572144408
+        },
+        {
+          "headline": "Gunman Identified As Doctor Who Went Berserk At HOA Meeting Over Mold Dispute",
+          "url": "https://nypost.com/2026/11/12/us-news/matt-lambert-idd-as-dc-shooter-doctor-who-went-berserk-over-hoa-dispute-about-black-mold-in-1-1m-apartment/",
+          "timestamp": 1794571487768,
+          "postedAt": 1794572144408
+        },
+        {
+          "headline": "House Republicans Release 137-Page Epstein Investigation Report",
+          "url": "https://www.dailymail.com/news/article-16281627",
+          "timestamp": 1794398743241,
+          "feature": true,
+          "postedAt": 1794399301328
+        }
+      ]
+    },
+    {
+      "title": "DEMOCRATS LAUNCH OVERSIGHT OFFENSIVE AGAINST TRUMP ADMINISTRATION",
+      "stories": [
+        {
+          "headline": "Democrats Pledge To Expose An 'Absolute Avalanche Of Corruption' Once In Power",
+          "url": "https://archive.is/8NzRB",
+          "timestamp": 1794571487767,
+          "postedAt": 1794572144409
+        },
+        {
+          "headline": "New Senate Intel Chair Plans 'Aggressive' Oversight Of The CIA",
+          "url": "https://www.reuters.com/business/media-telecom/lawmakers-vow-aggressive-oversight-fcc-chair-after-democrats-take-over-2026-11-10/",
+          "timestamp": 1794571487767,
+          "postedAt": 1794572144409
+        },
+        {
+          "headline": "DOJ Has No 'Investigations Into Words' Of Democrats, Blanche Says In Pushback",
+          "url": "https://www.nbcnews.com/politics/justice-department/doj-no-investigations-words-democrats-todd-blanche-says-rcna609073",
+          "timestamp": 1794524880000,
+          "postedAt": 1794572144409
+        },
+        {
+          "headline": "Iranian Assassination Threats Complicate Trump's Push To Wind Down War",
+          "url": "https://www.nationalreview.com/article/iran-is-still-a-menace",
+          "timestamp": 1794569400000,
+          "postedAt": 1794572144409
+        },
+        {
+          "headline": "Why Trump Is Saying 'No Deal Necessary' With Iran As He Sidelines Vance",
+          "url": "https://www.aljazeera.com/features/2026/11/13/why-is-trump-saying-no-deal-necessary-with-iran-as-he-sidelines-jd-vance",
+          "timestamp": 1794566043000,
+          "postedAt": 1794572144409
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA'S HUANG SCANDAL & CHINA CHIP PROBE",
+      "stories": [
+        {
+          "headline": "Nvidia CEO Jensen Huang Said To Have Relationship With Exec Who Reports To Him",
+          "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html?unlocked_article_code=1.PlE.GieR.RfRdXdIFO6_r&smid=url-share",
+          "timestamp": 1794485196049,
+          "postedAt": 1794485844159
+        },
+        {
+          "headline": "Report: Nvidia's 'Chip King' Facing Pressure Amid Fallout",
+          "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d",
+          "timestamp": 1794485196049,
+          "postedAt": 1794485844159
+        }
+      ]
+    },
+    {
+      "title": "ITALY: MASS SCHOOL EVACUATIONS AFTER BOMB THREAT EMAILS",
+      "stories": [
+        {
+          "headline": "'Large Number' Of Schools Targeted By Threatening Bomb Email",
+          "url": "https://www.bbc.com/news/articles/cq0mdnrxe9k3o",
+          "timestamp": 1794396670000,
+          "postedAt": 1794399301328
+        },
+        {
+          "headline": "Hundreds Of Italian Schools Evacuated After Bomb Threat Emails",
+          "url": "https://www.cnn.com/2026/11/11/europe/italy-europe-bomb-threat-intl",
+          "timestamp": 1794395872000,
+          "postedAt": 1794399301328
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Kansas Democrat Cindy Holscher Wins, Keeping Governor's Office Blue",
+        "url": "https://www.npr.org/2026/11/12/g-s1-151239/kansas-governor-midterms-holscher-masterson",
+        "timestamp": 1794526579000,
+        "postedAt": 1794572144409
+      },
+      {
+        "headline": "Microsoft Outage Disrupts Services Worldwide",
+        "url": "https://apnews.com/article/microsoft-outage-outlook-email-365-status-down-d92547a821930290db2964388016979a",
+        "timestamp": 1794571487768,
+        "feature": true,
+        "postedAt": 1794572144408
+      },
+      {
+        "headline": "California Could Face 50-Foot Waves As Storms Slam Coast",
+        "url": "https://www.seattletimes.com/nation-world/nation/california-could-face-50-foot-waves-as-storms-slam-its-coast/",
+        "timestamp": 1794550260000,
+        "photo": true,
+        "postedAt": 1794572144409
+      },
+      {
+        "headline": "Brooklyn Building Collapse Kills Eight; Here's What We Know",
+        "url": "https://www.bbc.com/news/articles/cm20v66jq611o",
+        "timestamp": 1794540407000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794572144409
+      },
+      {
+        "headline": "Cargo Ship Strikes Bridge Between New Jersey And Philadelphia",
+        "url": "https://apnews.com/article/ship-bridge-open-new-jersey-philadelphia-bd1e7e2c1fd9b8019f27de8a0a32f1cc",
+        "timestamp": 1794535500000,
+        "photo": true,
+        "postedAt": 1794572144409
+      },
+      {
+        "headline": "Nikki Haley Announces She Is Not Running For President In 2028",
+        "url": "https://notthebee.com/article/nikki-haley-announces-she-is-not-running-for-president-in-2028/",
+        "timestamp": 1794427767000,
+        "postedAt": 1794485871168
+      },
+      {
+        "headline": "HOUSE GOP BLOCKS PUSH TO IMPEACH HEGSETH OVER IRAN STRIKES",
+        "url": "https://apnews.com/article/hegseth-impeachment-briefing-trump-massie-87a78193502f716e6fb8eee5aef06ac0",
+        "timestamp": 1794399301328,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "Stephen Miller's Secret Scramble To Stop MAGA Exodus",
+        "url": "https://www.axios.com/2026/11/11/stephen-miller-focus-men-maga",
+        "timestamp": 1794485196050,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Douglas Murray: Russell Brand Ran Out Of Enablers",
+        "url": "https://www.cbsnews.com/news/russell-brand-sentenced-prison-rape-sexual-assault/",
+        "timestamp": 1794483205000,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Ukraine Says Starlink Restrictions Return As US Envoys Land In Moscow",
+        "url": "https://www.independent.ie/world-news/russia-ukraine-exchange-attacks-as-us-envoys-meet-putin-in-moscow/a/164434014.html",
+        "timestamp": 1794481191000,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "October Inflation Hotter Than Expected, Setting Up A Rate Hike",
+        "url": "https://www.theamericanconservative.com/october-inflation-hotter-than-expected-setting-up-a-rate-hike/",
+        "timestamp": 1794294000000,
+        "postedAt": 1794399375435
+      },
+      {
+        "headline": "Can You Win the Presidency After Lying About Your Military Service?",
+        "url": "https://www.27east.com/southampton-press/police-fire/police-news/article_09d72d26-1e4d-4825-908a-5f8f95cd6d8f.html",
+        "timestamp": 1794319440000,
+        "postedAt": 1794399375435
+      },
+      {
+        "headline": "In order to best continue doing nothing, Senate Republicans reelect John Thune as Minority Leader",
+        "url": "https://notthebee.com/article/in-order-to-best-continue-doing-nothing-senate-republicans-reelect-john-thune-as-minority-leader/",
+        "timestamp": 1794346100000,
+        "postedAt": 1794399375435
+      },
+      {
+        "headline": "NYT: Trump Was Told About Spying On Nvidia Leader Despite Denial",
+        "url": "https://www.nytimes.com/2026/11/10/us/politics/trump-china-trip-nvidia.html?unlocked_article_code=1.PVE.Nm-G.KJ4bpz8G_3lf&smid=url-share",
+        "timestamp": 1794398743241,
+        "feature": true,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "Chris Van Hollen Emerges As New Darling Of The Democratic Left",
+        "url": "https://www.politico.com/news/2026/11/11/chris-van-hollen-senate-leader-01160588",
+        "timestamp": 1794390300000,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "Missing Baby Found Alive Buried In Dog Crate In South Carolina",
+        "url": "https://www.nbcnews.com/news/us-news/missing-baby-found-alive-buried-dog-crate-south-carolina-rcna608658",
+        "timestamp": 1794388500000,
+        "photo": true,
+        "postedAt": 1794399301328,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "US Army Officer Arrested In UK On Suspicion Of Spying For Russia",
+        "url": "https://www.cnbc.com/2026/11/11/us-army-soldier-russia-espionage-arrest.html",
+        "timestamp": 1794374253000,
+        "photo": true,
+        "postedAt": 1794399301328,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "Kennedy Family Members Move To Block Construction Of Trump's Arch",
+        "url": "https://www.nbcnews.com/politics/trump-administration/kennedy-family-members-block-construction-trump-arch-rcna608683",
+        "timestamp": 1794370980000,
+        "photo": true,
+        "postedAt": 1794399301328,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "Steve Deace Lays Out Why Trump May Be Dangling Amnesty",
+        "url": "https://www.theblaze.com/shows/steve-deace-show/steve-deace-lays-out-three-reasons-trump-may-be-dangling-amnesty-and-one-could-change-everything",
+        "timestamp": 1794483145000,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Jim Jordan's Win Throws Freedom Caucus's Future Into Question",
+        "url": "https://www.politico.com/news/2026/11/12/house-freedom-caucus-jim-jordan-01161911",
+        "timestamp": 1794476700000,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Housing Slump Is Worst Since The 'Great Recession,' Analysts Say",
+        "url": "https://www.marketwatch.com/story/home-sales-plummet-to-lowest-level-since-the-great-recession-as-buyers-flee-the-market-624e6270",
+        "timestamp": 1794571487767,
+        "postedAt": 1794572144409
+      }
+    ],
+    "center": [
+      {
+        "headline": "AG Blanche Moved To Military Base After Threats, Latest Cabinet Relocation",
+        "url": "https://www.dailymail.com/news/us-politics/article-16288453",
+        "timestamp": 1794571487768,
+        "photo": true,
+        "postedAt": 1794572144408
+      },
+      {
+        "headline": "PopInfo: Stephen Miller, MAHA And The Mississippi Upset",
+        "url": "https://popular.info/p/popinfo-weekly-miller-maha-and-mississippi",
+        "timestamp": 1794569468000,
+        "postedAt": 1794572144409,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "Bolsonaro Shrugs Off Fugitive Label, Eyes Future Presidential Bid",
+        "url": "https://wtvbam.com/2026/11/13/brazils-bolsonaro-shrugs-off-fugitive-label-eyes-future-brazil-presidential-bid/",
+        "timestamp": 1794562300000,
+        "postedAt": 1794572144409
+      },
+      {
+        "headline": "Newsom Commutes Death Sentences For 'Monsters'; Victims' Families Lash Out",
+        "url": "https://www.nbcnews.com/news/us-news/victims-families-lash-gavin-newsom-mass-commutation-monsters-death-row-rcna609059",
+        "timestamp": 1794522997000,
+        "photo": true,
+        "postedAt": 1794572144409,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "HILL TO PROBE TRUMP-CHINA LINKS",
+        "url": "https://thehill.com/policy/technology/6217470-democrats-investigate-trump-nvidia-chips-china/",
+        "timestamp": 1794485196049,
+        "postedAt": 1794485871168
+      },
+      {
+        "headline": "Fossil Fuels Get Guarantees, Renewables Get Promises, Analysis Finds",
+        "url": "https://popular.info/p/fossil-fuels-get-guarantees-renewables",
+        "timestamp": 1794483032000,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Nor'easter Forecast To Bring Heavy Snow Across Northeast",
+        "url": "https://weather.com/2026/11/11/forecast/regional/noreaster-first-snow-frost-freeze",
+        "timestamp": 1794479701000,
+        "photo": true,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "North Hollywood Crash Suspect Arrested On DUI Charges After 3 Deaths",
+        "url": "https://abc7.com/post/north-hollywood-crash-driver-accused-killing-3-women-metro-station-arrested-suspicion-dui/20032832/",
+        "timestamp": 1794471629000,
+        "photo": true,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "The APA Has Forgotten Who the Patient Is",
+        "url": "https://www.city-journal.org/article/american-psychological-association-patients-political",
+        "timestamp": 1794293880000,
+        "postedAt": 1794399375435
+      },
+      {
+        "headline": "Letter to Paris: Well, It’s a Great Day for Tennis",
+        "url": "https://spectator.org/letter-to-paris-well-its-a-great-day-for-tennis/",
+        "timestamp": 1794337800000,
+        "postedAt": 1794399375435
+      },
+      {
+        "headline": "[UK] DAILY MAIL",
+        "url": "http://www.dailymail.co.uk/home/index.html",
+        "timestamp": 1794398743243,
+        "postedAt": 1794399375435
+      },
+      {
+        "headline": "Workers Across Spain Stage First General Strike In 14 Years",
+        "url": "https://www.reuters.com/business/world-at-work/workers-across-spain-stage-first-general-strike-14-years-anger-over-housing-2026-11-11/",
+        "timestamp": 1794396049000,
+        "photo": true,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "3 Dead After Car Plows Into Street Vendors Near LA Metro Station",
+        "url": "https://abc7.com/post/3-dead-car-crashes-crowd-people-north-hollywood/20031884/",
+        "timestamp": 1794372888000,
+        "photo": true,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "Trump And Netanyahu Clashed In 'Shouting Match From Hell,' Report Says",
+        "url": "https://www.ynetnews.com/article/sjoxqce0me",
+        "timestamp": 1794398743241,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "Lawmakers Call On DOJ To Interview Report's Key Witnesses",
+        "url": "https://www.cnbc.com/2026/11/10/jeffrey-epstein-house-oversight-doj.html",
+        "timestamp": 1794398743241,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "Arizona's Eli Crane Defies Blue Wave, Wins Reelection",
+        "url": "https://www.theblaze.com/news/eli-crane-arizona-wins-reelection",
+        "timestamp": 1794397208000,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "Peltola And JKT Strengthen Leads In Latest Alaska Results",
+        "url": "https://alaskapublic.org/news/politics/elections/2026-11-10/peltola-and-jkt-strengthen-leads-in-latest-alaska-election-results",
+        "timestamp": 1794371100000,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "ICE Raids Continue Unabated Nationwide",
+        "url": "https://apnews.com/f3b9d1c9aab7d701c9b2c2550efa0332",
+        "timestamp": 1794485196050,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Is Ayanna Pressley About To Challenge Jeffries For Speaker?",
+        "url": "https://zeteo.com/p/is-ayanna-pressley-about-to-challenge",
+        "timestamp": 1794484868000,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "War With Iran May Be Delayed, But Threat Of Renewed Conflict Remains, Analysts Say",
+        "url": "https://www.ynetnews.com/article/bjkbbd4ame",
+        "timestamp": 1794570285000,
+        "postedAt": 1794572144409,
+        "image": "/img/main-5.jpg"
+      }
+    ],
+    "right": [
+      {
+        "headline": "DEMOCRAT SCOTT COLOM FLIPS MISSISSIPPI SENATE SEAT IN UPSET",
+        "url": "https://www.nbcnews.com/politics/rcna605729",
+        "timestamp": 1794485844159,
+        "postedAt": 1794485844159,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Pictured: Trump's Gargantuan New Ballroom Dwarfs The White House",
+        "url": "https://sg.news.yahoo.com/tear-down-people-horrified-hideous-095540177.html",
+        "timestamp": 1794571487767,
+        "photo": true,
+        "postedAt": 1794572144409,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Moscow Car Bomb Wounds Former Aide To Pro-Russian Ukrainian Politician",
+        "url": "https://www.reuters.com/world/second-car-bomb-hit-russia-two-days-targets-exiled-ukrainian-political-aide-2026-11-13/",
+        "timestamp": 1794569654000,
+        "photo": true,
+        "postedAt": 1794572144409
+      },
+      {
+        "headline": "Is JD Vance Still The GOP's Heir Apparent After Midterm Losses?",
+        "url": "https://www.theblaze.com/shows/making-the-argument-with-nick-freitas/is-jd-vance-still-the-heir-apparent-nick-freitas-says-the-midterms-gave-him-a-real-rival",
+        "timestamp": 1794569547000,
+        "postedAt": 1794572144409
+      },
+      {
+        "headline": "Why Policy Will Make a Comeback in 2028",
+        "url": "https://www.nationalreview.com/article/why-policy-will-make-a-comeback-in-2028",
+        "timestamp": 1794436140000,
+        "postedAt": 1794485871168
+      },
+      {
+        "headline": "Activists Hurl Objects At Bidens Leaving Hunter Biden Award Ceremony",
+        "url": "https://www.theblaze.com/news/protester-ireland-bidens-hunter-award",
+        "timestamp": 1794484264000,
+        "photo": true,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Proposition 40: The Origins Of California's Wealth Tax",
+        "url": "https://www.nationalreview.com/article/an-intellectual-history-of-california-s-proposition-40",
+        "timestamp": 1794483000000,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Elizabeth Warren's Credit Card Rate Cap Could Restrict Consumer Credit",
+        "url": "https://www.nationalreview.com/article/elizabeth-warren-s-plan-to-abolish-credit-cards",
+        "timestamp": 1794483000000,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Vox Populi, Vox Dei: The People Are Losing Patience",
+        "url": "https://www.realclearpolicy.com/articles/2026/11/10/vox_populi_vox_dei_the_people_are_losing_patience_1216019.html",
+        "timestamp": 1794290340000,
+        "postedAt": 1794399375435
+      },
+      {
+        "headline": "Treasury's New Biotech Restrictions Could Hurt U.S. Security",
+        "url": "https://www.realclearpolicy.com/articles/2026/11/10/treasurys_new_biotech_restrictions_could_hurt_us_security_1216087.html",
+        "timestamp": 1794302760000,
+        "postedAt": 1794399375435
+      },
+      {
+        "headline": "Mississippi college students under investigation for making monkey noises and gestures outside black neighbor's door",
+        "url": "https://notthebee.com/article/mississippi-college-students-under-investigation-for-making-monkey-noises-and-gestures-outside-black-students-door/",
+        "timestamp": 1794323781000,
+        "postedAt": 1794399375435
+      },
+      {
+        "headline": "Trump Plan to Import Russian Diesel Stalls on the High Seas",
+        "url": "https://finance.yahoo.com/energy/articles/analysis-us-companies-shunning-russian-180737502.html",
+        "timestamp": 1794398743242,
+        "postedAt": 1794399375435
+      },
+      {
+        "headline": "Poll: Alarming Number Of College Students Say US Deserved 9/11",
+        "url": "https://nypost.com/2026/11/11/us-news/alarming-number-of-college-students-claim-us-deserved-9-11-poll/",
+        "timestamp": 1794398743242,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "Californians Who Fled To Texas Plot Next Move To New Red State",
+        "url": "https://nypost.com/2026/11/10/us-news/texas-blue-wave-leaves-california-transplants-looking-for-a-new-home",
+        "timestamp": 1794398743242,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "Blaze Host's H-1B Investigations Blamed For Turning Texas Blue",
+        "url": "https://www.theblaze.com/shows/sara-gonzales-unfiltered/theyre-blaming-sara-gonzales-h-1b-investigations-for-turning-texas-blue-i-dont-think-im-that-important",
+        "timestamp": 1794396703000,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "Driver Charged With Murder After 100-MPH Crash Killed Toddler Near Apple HQ",
+        "url": "https://abc7news.com/post/eric-chen-su-charged-murder-slamming-back-car-100-mph-killing-toddler-riley-howard-apple-hq/20031410/",
+        "timestamp": 1794389489000,
+        "photo": true,
+        "postedAt": 1794399301328
+      },
+      {
+        "headline": "Maddow Fears Detention Centers Could Be Used To Imprison Citizens",
+        "url": "https://www.mediaite.com/media/tv/rachel-maddow-fears-trump-could-use-detention-centers-to-imprison-the-rest-of-us/",
+        "timestamp": 1794485196050,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "North Carolina Republicans Suffer Sweeping Losses After Redistricting Backfires",
+        "url": "https://www.nationalreview.com/news/how-things-went-from-bad-to-worse-for-north-carolina-republicans",
+        "timestamp": 1794483000000,
+        "postedAt": 1794485844159
+      },
+      {
+        "headline": "Senators Open Perjury Probe Into RFK Jr.",
+        "url": "https://apnews.com/article/samoa-rfk-jr-senate-investigation-measles-vaccines-e4b97becad6d2951d9e84ea584979c41",
+        "timestamp": 1794571487767,
+        "postedAt": 1794572144409
+      },
+      {
+        "headline": "Existing Home Sales Plummet To 16-Year Low",
+        "url": "https://finance.yahoo.com/real-estate/articles/us-existing-home-sales-slump-150246718.html",
+        "timestamp": 1794571487767,
+        "postedAt": 1794572144409
+      }
+    ]
+  },
+  "balance": {
+    "left": 703,
+    "right": 558,
+    "independent": 9,
+    "days": 30,
+    "total": 1261,
+    "pctLeft": 56,
+    "pctRight": 44
+  }
+}
