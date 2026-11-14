@@ -1,8 +1,4 @@
 {
-  "nytimes.com/2026/10/28/us/politics/trump-midterms-white-house-mood.html": {
-    "url": "https://www.nytimes.com/2026/10/28/us/politics/trump-midterms-white-house-mood.html?unlocked_article_code=1.MVE.5X1U.VGJi_EhllrGa&smid=url-share",
-    "ts": 1793445352961
-  },
   "nytimes.com/2026/11/02/us/politics/grand-jury-justice-dept-voter-fraud.html": {
     "url": "https://www.nytimes.com/2026/11/02/us/politics/grand-jury-justice-dept-voter-fraud.html?unlocked_article_code=1.NVE.WIRY.0Ye7j5cTXa0-&smid=url-share",
     "ts": 1793880953121
@@ -25,6 +21,14 @@
   },
   "nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html": {
     "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html?unlocked_article_code=1.PlE.GieR.RfRdXdIFO6_r&smid=url-share",
-    "ts": 1794572148101
+    "ts": 1794658572307
+  },
+  "nytimes.com/live/2026/11/13/us/ground-stop-nationwide-flights-faa": {
+    "url": "https://www.nytimes.com/live/2026/11/13/us/ground-stop-nationwide-flights-faa?unlocked_article_code=1.QFE.Vv7f.CSB1f1xnFb5i&smid=url-share",
+    "ts": 1794658572307
+  },
+  "nytimes.com/2026/11/13/world/americas/stephen-miller-mexico-immigration.html": {
+    "url": "https://www.nytimes.com/2026/11/13/world/americas/stephen-miller-mexico-immigration.html?unlocked_article_code=1.QFE.Fzx2.uX0D1GYnmctP&smid=url-share",
+    "ts": 1794658572307
   }
 }
