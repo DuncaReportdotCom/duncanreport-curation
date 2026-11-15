@@ -295,7 +295,7 @@
     "center": [
       {
         "headline": "ROUTER IN ARKANSAS",
-        "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+        "url": "https://www.thv11.com/article/news/national/faa-router-in-el-dorado-arkansas-at-center-of-nationwide-ground-stop-communication-issue-investigation/91-0afaf093-cd62-4af5-9bd1-9436ed659834",
         "timestamp": 1794744269240,
         "postedAt": 1794745044490
       },
@@ -597,10 +597,10 @@
   },
   "balance": {
     "left": 695,
-    "right": 587,
+    "right": 586,
     "independent": 7,
     "days": 30,
-    "total": 1282,
+    "total": 1281,
     "pctLeft": 54,
     "pctRight": 46
   }
