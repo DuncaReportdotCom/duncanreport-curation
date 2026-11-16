@@ -1,0 +1,518 @@
+{
+  "lastUpdated": 1794832439687,
+  "heroSetDate": "2026-11-16",
+  "hero": {
+    "headline": "TRUMP HEADS TO ASIA FOR RARE NUCLEAR SUMMIT WITH XI, PUTIN",
+    "url": "https://apnews.com/article/trump-china-manila-xi-putin-ffc5e5a2d384f00960034ec10087502e",
+    "sublinks": [
+      {
+        "text": "NPR: Nvidia Fallout Overshadows Trip Ahead Of Xi, Putin Meetings",
+        "url": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia"
+      },
+      {
+        "text": "Guardian: Trip Framed As Late-Term Foreign Policy Push",
+        "url": "https://www.theguardian.com/us-news/2026/nov/16/trump-asia-foreign-domestic-policy"
+      },
+      {
+        "text": "Reuters: Chip Export Tensions Loom Over Trump-Xi Sitdown",
+        "url": "https://www.reuters.com/business/media-telecom/chip-tensions-loom-over-trump-xi-summit-us-china-push-ai-safety-steps-2026-11-16/"
+      },
+      {
+        "text": "DW Analysis: ASEAN Stop Opens New Front In US-China Chip War",
+        "url": "https://www.dw.com/en/trumps-asean-play-the-new-front-in-the-us-china-chip-war/audio-79943392"
+      },
+      {
+        "text": "ASEAN Leaders Open Summit With Region's Conflicts Atop Agenda",
+        "url": "https://www.nbcnews.com/world/asia/southeast-asian-leaders-annual-summit-major-conflicts-impact-rcna609385"
+      }
+    ],
+    "postedAt": 1794832439687,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "RUSSIA'S HYBRID WAR ON EUROPE'S EASTERN FLANK",
+      "stories": [
+        {
+          "headline": "EU Sanctions Russian Trolls And Hackers Over Disinformation Campaigns",
+          "url": "https://www.politico.eu/article/eu-sanctions-russian-trolls-hackers/",
+          "timestamp": 1794831060000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "Eastern Flank Nations Seek European Support Amid Hybrid Warfare Incidents",
+          "url": "https://www.euronews.com/2026/11/16/eu-ministers-demand-united-response-as-russian-attacks-spill-beyond-ukraine",
+          "timestamp": 1794828278000,
+          "postedAt": 1794832439687
+        }
+      ]
+    },
+    {
+      "title": "UKRAINE WAR: DRONE STRIKES, FROZEN ASSETS AND PEACE TALKS",
+      "stories": [
+        {
+          "headline": "French Troops Deployed In Ukraine On Secret Mission, Source Tells AFP",
+          "url": "https://www.rfi.fr/en/international-news/20261116-french-troops-deployed-in-ukraine-on-secret-mission-source-to-afp",
+          "timestamp": 1794829903000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "Sweden Pushes New EU Plan To Unlock Frozen Russian Assets For Ukraine",
+          "url": "https://www.euronews.com/2026/11/16/sweden-calls-for-new-eu-plan-to-unlock-frozen-russian-assets-for-ukraine",
+          "timestamp": 1794829106000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "Brussels To Present Plan For €45 Billion Ukraine Loan Backed By EU Budget",
+          "url": "https://www.politico.eu/article/brussels-plan-e45b-ukraine-loan-eu-budget/",
+          "timestamp": 1794828600000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "Ukraine Launches Biggest Drone Attack On Russia Since War Began",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-launches-biggest-drone-attack-russia-war-began-rcna609555",
+          "timestamp": 1794825531000,
+          "feature": true,
+          "postedAt": 1794832439687
+        }
+      ]
+    },
+    {
+      "title": "IRAN: HORMUZ TANKER STRIKES AND MOUNTING PRESSURE",
+      "stories": [
+        {
+          "headline": "U.S. Intelligence Believes Iran Could Still Hold Up To 2,500 Missiles",
+          "url": "https://www.timesofisrael.com/us-intelligence-believes-iran-could-still-have-up-to-2500-missiles-report/",
+          "timestamp": 1794737994000,
+          "postedAt": 1794745818413
+        },
+        {
+          "headline": "Iran Navy Claims Three Tankers Hit Mines In Strait Of Hormuz",
+          "url": "https://www.reuters.com/world/middle-east/irans-navy-says-oil-tanker-fire-after-hitting-mine-hormuz-2026-11-14/",
+          "timestamp": 1794696859000,
+          "feature": true,
+          "postedAt": 1794745818413
+        },
+        {
+          "headline": "Gasoline Rationing Deepens Seven Years After Iran's 'Bloody November'",
+          "url": "https://www.iranintl.com/en/202611146434",
+          "timestamp": 1794660245000,
+          "postedAt": 1794745818413
+        },
+        {
+          "headline": "UN Security Council Hears Warnings As Threats To Hormuz Shipping Mount",
+          "url": "https://news.un.org/en/story/2026/11/1168804",
+          "timestamp": 1794598380000,
+          "postedAt": 1794659391849
+        },
+        {
+          "headline": "Trump's Iran Strategy Now: Keep Things As They Are, Analysts Say",
+          "url": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+          "timestamp": 1794596524000,
+          "postedAt": 1794659391849
+        },
+        {
+          "headline": "US And Iran Move Closer To Renewed War As Exchange Of Fire Increases",
+          "url": "https://www.euronews.com/2026/11/16/us-and-iran-slide-closer-to-fresh-all-out-war-as-new-exchange-of-fire-increases",
+          "timestamp": 1794829336000,
+          "feature": true,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "France Pushes For Rapid EU Sanctions On Iran Over Supermarket Hacks",
+          "url": "https://www.politico.eu/article/france-pushes-for-rapid-eu-sanctions-on-iran-for-supermarket-hacks/",
+          "timestamp": 1794828240000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "How Russia Is Preparing Iran For The Next Escalation",
+          "url": "https://www.aljazeera.com/opinions/2026/11/16/how-russia-is-preparing-iran-for-the-next-escalation",
+          "timestamp": 1794813047000,
+          "postedAt": 1794832439687
+        }
+      ]
+    },
+    {
+      "title": "MEGASPEED DENIES SUPPLY CHAIN CLAIMS AFTER EXECUTIVE'S EXIT SURFACES",
+      "stories": [
+        {
+          "headline": "Megaspeed Says Former Executive Alice Huang Left Company In August 2025",
+          "url": "https://www.reuters.com/business/megaspeed-says-alice-huang-left-company-august-2025-2026-11-15/",
+          "timestamp": 1794744041000,
+          "postedAt": 1794745818413
+        },
+        {
+          "headline": "Megaspeed Rejects Supply Chain Claims, Confirms Huang's Departure",
+          "url": "https://www.scmp.com/tech/article/3374493/megaspeed-rejects-claims-over-supply-chain-distances-itself-alice-huang",
+          "timestamp": 1794737434000,
+          "postedAt": 1794745818413
+        }
+      ]
+    },
+    {
+      "title": "ISRAEL KILLS TOP HAMAS COMMANDER AMID GAZA HUMANITARIAN WARNINGS",
+      "stories": [
+        {
+          "headline": "Israel Kills Top Hamas Commander In Gaza Strike",
+          "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c",
+          "timestamp": 1794742260000,
+          "postedAt": 1794745818413
+        },
+        {
+          "headline": "EU Voices Alarm Over Humanitarian Conditions In Gaza",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/14/statement/",
+          "timestamp": 1794658996000,
+          "postedAt": 1794745818413
+        }
+      ]
+    },
+    {
+      "title": "POPE LEO'S SOUTH AMERICA PILGRIMAGE",
+      "stories": [
+        {
+          "headline": "Pope Leo Denounces Suffering Of African Enslaved People During Peru Visit",
+          "url": "https://www.africanews.com/amp/2026/11/15/pope-leo-denounces-suffering-of-african-enslaved-people-during-peru-visit/",
+          "timestamp": 1794737217000,
+          "postedAt": 1794745818413
+        },
+        {
+          "headline": "Pope Leo Continues South America Trip As Health Authorities Watch Closely",
+          "url": "https://www.euronews.com/2026/11/14/pope-leo-xiv-continues-trip-through-south-america-as-health-authorities-keep-watch",
+          "timestamp": 1794660499000,
+          "postedAt": 1794745818413
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "KUSHNER: U.S. SHIFTS FOCUS TO 'FACILITATING' DIRECT RUSSIA-EUROPE TALKS",
+        "url": "https://kyivindependent.com/us-now-focused-on-facilitating-direct-engagement-between-russia-europe-kushner-says-after-ukraine-peace-talks/",
+        "timestamp": 1794745818413,
+        "postedAt": 1794745818413,
+        "image": "/img/world-5.jpg"
+      },
+      {
+        "headline": "Nearly 2,200 Migrants Reach Canary Islands In Two Days, Spain Says",
+        "url": "https://apnews.com/article/spain-migration-boat-rescue-canary-islands-c4aeb350f770567d571bbb5442299099",
+        "timestamp": 1794815700000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Prince William Visits India For Earthshot Prize",
+        "url": "https://www.rfi.fr/en/international-news/20261116-britain-s-prince-william-in-india-for-earthshot-prize-1",
+        "timestamp": 1794828222000,
+        "photo": true,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Millions Of Red Crabs Begin Annual Migration On Australia's Christmas Island",
+        "url": "https://www.euronews.com/video/2026/11/16/millions-of-red-crabs-begin-annual-migration-on-australias-christmas-island",
+        "timestamp": 1794827921000,
+        "photo": true,
+        "postedAt": 1794832439687,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "UN Climate Chief Warns Of AI 'Double-Edged Sword' At COP31",
+        "url": "https://www.afp.com/en/un-climate-chief-warns-ai-double-edged-sword-cop31",
+        "timestamp": 1794827044000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "EU Forces Board Suspected Russian Shadow Fleet Tanker, Kallas Says",
+        "url": "https://www.euronews.com/2026/11/15/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says",
+        "timestamp": 1794739268000,
+        "postedAt": 1794745818413,
+        "image": "/img/world-7.jpg"
+      },
+      {
+        "headline": "Czechia: Huge Protest Over Media Freedom Expected In Prague",
+        "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
+        "timestamp": 1794741540000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Rising Heat Puts Africa's Mothers And Children In Danger",
+        "url": "https://www.rfi.fr/en/environment/20261115-rising-heat-puts-africa-s-mothers-and-children-in-danger-cop31-kenya-climate-change",
+        "timestamp": 1794739131000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Canada: Fifth Soldier Dies From Injuries In Military Base Fire",
+        "url": "https://www.bbc.com/news/articles/cmrlgn4x2xw8o",
+        "timestamp": 1794734797000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Hungary: Nearly €20 Million In Cash Found Buried In Corruption Case",
+        "url": "https://www.politico.eu/article/nearly-e20m-in-cash-found-buried-hidden-in-hungary-corruption-case/",
+        "timestamp": 1794662160000,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "How France's Student Protests Grew Into A Broader Movement Amid Police Violence",
+        "url": "https://www.rfi.fr/en/france/20261114-how-france-s-student-protests-grew-into-a-broader-movement-amid-police-violence",
+        "timestamp": 1794654697000,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "Torture Survivors May Have Been Sent To Sussex Asylum Camp Unlawfully, Documentary Finds",
+        "url": "https://www.theguardian.com/uk-news/2026/nov/14/asylum-seekers-crowborough-torture-survivors-military-camp",
+        "timestamp": 1794654120000,
+        "photo": true,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "Burkina Faso Issues Arrest Warrants For About 20 People",
+        "url": "https://www.africanews.com/amp/2026/11/14/burkina-faso-issues-arrest-warrants-for-around-20-people/",
+        "timestamp": 1794652163000,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "Germany Gives Sweeping New Powers To Police And Spies To Fight Cyberattacks",
+        "url": "https://www.dw.com/en/cyber-attacks-and-hybrid-warfare-germany-gives-sweeping-powers-to-its-police-and-intelligence-services/a-79941507",
+        "timestamp": 1794624037000,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "UN Climate Summit Pushes Electrification Goal As Groups Demand Mining Safeguards",
+        "url": "https://apnews.com/article/cop31-summit-mining-electrification-human-rights-environment-40a6e8a12b8b83f6d2cd5dab600c2f8d",
+        "timestamp": 1794535380000,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "Japan Warns Arms Suppliers Of Deep Order Cuts Amid Budget Squeeze",
+        "url": "https://www.reuters.com/business/retail-consumer/japan-warns-arms-suppliers-deep-order-cuts-budget-squeeze-hits-military-buildup-2026-11-13/",
+        "timestamp": 1794530640000,
+        "postedAt": 1794659391849
+      }
+    ],
+    "center": [
+      {
+        "headline": "AFP Fact Check: Image Of Soldiers Surrendering To Ethiopian Army Is Fake",
+        "url": "https://factcheck.afp.com/doc.afp.com.D7DQ4G3",
+        "timestamp": 1794831742000,
+        "photo": true,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Glenn Close, Ridley Scott Receive Honorary Oscars In Career Firsts",
+        "url": "https://www.afp.com/en/glenn-close-ridley-scott-receive-honorary-oscars-career-firsts",
+        "timestamp": 1794828008000,
+        "photo": true,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Italy: Woman Charged With Attempted Homicide After Allegedly Attacking Man Who Forgot To Do Dishes",
+        "url": "https://www.breitbart.com/europe/2026/11/16/italy-woman-charged-with-attempted-homicide-after-man-forgets-to-do-dishes/",
+        "timestamp": 1794827736000,
+        "photo": true,
+        "postedAt": 1794832439687,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Investigation: Israel Uploaded Millions Of Photos To Amazon's Facial Recognition To Track Palestinians",
+        "url": "https://www.theguardian.com/world/2026/nov/16/israel-amazon-facial-recognition-palestinians",
+        "timestamp": 1794826920000,
+        "feature": true,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Australian MP Helen Haines Leaves Hospital After Losing Both Legs In Alleged Car Attack",
+        "url": "https://www.euronews.com/2026/11/16/australian-mp-helen-haines-leaves-hospital-after-losing-both-legs-in-alleged-car-attack",
+        "timestamp": 1794811353000,
+        "photo": true,
+        "postedAt": 1794832439687,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Mexico: Drug Lord Miguel Ángel Félix Gallardo Dies At 80",
+        "url": "https://www.bbc.com/news/articles/c51k9nkwrndxo",
+        "timestamp": 1794799316000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "ZELENSKY: US PLAN WOULD HAVE UKRAINE CEDE DONBAS FOR NATO MEMBERSHIP",
+        "url": "https://www.afp.com/en/us-proposes-ukraine-cede-territory-exchange-joining-nato-zelensky",
+        "timestamp": 1794659391849,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "France Sees Fifth Consecutive Saturday Of Nationwide Protests",
+        "url": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests",
+        "timestamp": 1794679878000,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Fela Kuti's Induction Into Rock & Roll Hall Of Fame Marks African Music Milestone",
+        "url": "https://www.rfi.fr/en/culture/20261115-with-nigeria-s-fela-kuti-african-music-enters-the-rock-roll-hall-of-fame",
+        "timestamp": 1794741490000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Fire Reported At Russian Industrial Facility In Tatarstan After Drone Attack",
+        "url": "https://kyivindependent.com/fire-reported-at-industrial-facility-in-russias-tatarstan-amid-drone-attack/",
+        "timestamp": 1794713016000,
+        "photo": true,
+        "postedAt": 1794745818413,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "Italy Backs Germany Joining Next-Generation Fighter Jet Project",
+        "url": "https://www.reuters.com/business/aerospace-defense/italy-says-it-backs-germany-joining-next-generation-fighter-jet-project-2026-11-14/",
+        "timestamp": 1794660609000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "SpaceX's Starship Set For Earth Return After Booster Catch Aborted",
+        "url": "https://www.afp.com/en/spacexs-starship-set-return-earth-after-booster-catch-aborted",
+        "timestamp": 1794654247000,
+        "photo": true,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "Wearing Briefs Boosts Erectile Dysfunction Risk, 26,000-Man China Study Finds",
+        "url": "https://www.scmp.com/news/china/science/article/3374313/wearing-briefs-boosts-erectile-dysfunction-risk-finds-26000-man-study-china",
+        "timestamp": 1794650405000,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "Pope Leo Makes Emotional Return To His 'Beloved Diocese' In Peru",
+        "url": "https://www.nbcnews.com/world/pope-leo-xiv/pope-leo-peru-emotional-return-diocese-chiclayo-rcna608940",
+        "timestamp": 1794610354000,
+        "photo": true,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "BBC Sting Finds Undercover Reporter Offered Fake Art And Awards For UK Talent Visa",
+        "url": "https://www.bbc.com/news/videos/cqr7g5j41mezo",
+        "timestamp": 1794581119000,
+        "photo": true,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "African Miss Universe Queens Left In Visa Limbo By US Restrictions",
+        "url": "https://www.bbc.com/news/articles/cklyw3neqg2wo",
+        "timestamp": 1794553303000,
+        "photo": true,
+        "postedAt": 1794659391849
+      }
+    ],
+    "right": [
+      {
+        "headline": "Le Pen Says She Was Wrong To Oppose Dual Citizenship, Same-Sex Marriage",
+        "url": "https://www.politico.eu/article/marine-le-pen-dual-citizenship-same-sex-marriage-le-pen-lifts-opposition-to/",
+        "timestamp": 1794828360000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Eurovision Organisers Criticise Malaysia's Removal Of LGBT+ Footage",
+        "url": "https://www.theguardian.com/tv-and-radio/2026/nov/16/eurovision-organisers-malaysia-removal-lgbt-footage-first-asian-contest",
+        "timestamp": 1794827940000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Ngozi Okonjo-Iweala: The African Woman Shaping Global Trade",
+        "url": "https://www.dw.com/en/ngozi-okonjo-iweala-the-african-woman-shaping-global-trade/video-79943598",
+        "timestamp": 1794827308000,
+        "photo": true,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Nobel Peace Laureate Warns Of Duterte, Zuckerberg Threats To Democracy",
+        "url": "https://www.theguardian.com/us-news/2026/nov/16/duterte-zuckerberg-maria-ressa-book",
+        "timestamp": 1794826800000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "UK And Allies Call On Israel To Allow Rapid Humanitarian Access To Gaza",
+        "url": "https://www.bbc.com/news/articles/cwm2mllj1pp8o",
+        "timestamp": 1794819364000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "UK Government Refuses To Release Full Migrant Crime Statistics",
+        "url": "https://www.breitbart.com/europe/2026/11/15/british-government-refuses-to-release-full-migrant-crime-statistics/",
+        "timestamp": 1794744563000,
+        "postedAt": 1794745818413,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "Cape Verde Votes For President, Incumbent Favored To Win",
+        "url": "https://www.rfi.fr/en/africa/20261115-cape-verde-votes-for-president-with-incumbent-favoured-to-win",
+        "timestamp": 1794736900000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "UK: Russell Brand Rape Accuser Wants Age Of Consent Law Changed",
+        "url": "https://www.bbc.com/news/articles/cm3rgx9p583zo",
+        "timestamp": 1794727192000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Turkey: Husband Who Pushed Pregnant Wife Off Cliff Freed After 6 Years",
+        "url": "https://nypost.com/2026/11/15/world-news/turkish-husband-hakan-aysal-freed-from-prison-after-being-sentenced-for-pushing-pregnant-wife-off-cliff/",
+        "timestamp": 1794724020000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Climate Coalition Presses Ahead Without Colombia, Its Founding Champion",
+        "url": "https://apnews.com/article/cop31-fossil-fuels-colombia-ireland-tuvalu-coal-09c81f8bc4afd44fb6a4c5a804b74cab",
+        "timestamp": 1794719768000,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Robot Dogs Mounted With Rifles Deployed In Haiti Anti-Gang Operation",
+        "url": "https://www.foxnews.com/world/robot-dogs-mounted-rifles-deployed-anti-gang-stadium-operation-haiti",
+        "timestamp": 1794703907000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "17,000 Hong Kong Disneyland Ticket QR Codes Stolen, Online Sales Suspended",
+        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374444/17000-hong-kong-disneyland-ticket-qr-codes-stolen-online-sales-suspended",
+        "timestamp": 1794657201000,
+        "photo": true,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "Trump Tells Advisers He May Hold Off On Iran Attacks Barring New Provocations",
+        "url": "https://www.reuters.com/world/middle-east/trump-tells-advisers-he-may-hold-off-iran-attacks-barring-new-provocations-2026-11-14/",
+        "timestamp": 1794654250000,
+        "feature": true,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "Trump's ASEAN Push Opens New Front In US-China Chip War",
+        "url": "https://www.dw.com/en/the-dip-trumps-asean-play-the-new-front-in-the-us-china-chip-war/video-79947688",
+        "timestamp": 1794653326000,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "Eisenkot Prioritizes Coalition Talks With Ultra-Orthodox Parties In Israel",
+        "url": "https://www.timesofisrael.com/eisenkot-said-prioritizing-efforts-to-form-coalition-with-ultra-orthodox/",
+        "timestamp": 1794652089000,
+        "postedAt": 1794659391849
+      },
+      {
+        "headline": "UK Police Open Sex-Offense Investigation Into Comedian David Walliams",
+        "url": "https://www.nbcnews.com/world/united-kingdom/uk-police-sex-offense-comedian-childrens-author-david-walliams-rcna609195",
+        "timestamp": 1794592724000,
+        "photo": true,
+        "postedAt": 1794659391849,
+        "image": "/img/world-4.jpg"
+      }
+    ]
+  }
+}

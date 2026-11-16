@@ -1,0 +1,490 @@
+{
+  "lastUpdated": 1794831427986,
+  "heroSetDate": "2026-11-16",
+  "hero": {
+    "headline": "TRUMP ADMINISTRATION SEEKS $50 BILLION IN EMERGENCY FUNDING AS FLIGHT CHAOS STRETCHES INTO DAY THREE",
+    "url": "https://www.npr.org/2026/11/16/nx-s1-6041668/trump-administration-requests-50b-in-funding-after-nationwide-flight-disruptions",
+    "sublinks": [
+      {
+        "text": "FAA Says New 'SMART' Traffic AI System Is Not Linked To Ground Stop",
+        "url": "https://apnews.com/article/faa-smart-ai-outage-08af345749c81fd8364299cd75275fa6"
+      },
+      {
+        "text": "Democrat Koh Blames Trump For Blocking Biden-Era FAA Funding",
+        "url": "https://thehill.com/homenews/house/6221559-koh-blames-trump-faa-funding/"
+      },
+      {
+        "text": "Records Show DOGE Cut 400 FAA Jobs Before Crisis Hit",
+        "url": "https://apnews.com/27390c6a7aac58063652302df5a243d3"
+      },
+      {
+        "text": "Thanksgiving Travelers Face Pricier Tickets And Gas Amid Disruptions",
+        "url": "https://apnews.com/article/aaa-thanksgiving-travel-gasoline-prices-flights-e7f3f746bcbaa3edbb6b2b2ff0f519c6"
+      },
+      {
+        "text": "Air Travel Mess Enters Third Day With No Clear End In Sight",
+        "url": "https://www.msn.com/en-us/money/companies/thousands-of-us-flights-canceled-delayed-for-third-day-in-a-row/ar-AA2hvfHu"
+      }
+    ],
+    "postedAt": 1794831427986,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "NVIDIA'S CHIP SCANDAL FALLOUT",
+      "stories": [
+        {
+          "headline": "Elon Musk Calls For Jensen Huang's Reinstatement As Nvidia CEO",
+          "url": "https://www.france24.com/en/technology/20261115-elon-musk-uber-co-founder-jensen-huang-nvidia-reinstate",
+          "timestamp": 1794830801237,
+          "postedAt": 1794831427986
+        },
+        {
+          "headline": "Trump Administration To Name Nvidia Among AI 'National Champions'",
+          "url": "https://www.reuters.com/business/retail-consumer/trump-administration-name-nvidia-other-ai-firms-us-national-champions-wsj-2026-11-16/",
+          "timestamp": 1794802620000,
+          "postedAt": 1794831427986
+        },
+        {
+          "headline": "Cabinet Infighting Erupts Over Who's Responsible For Chip Leak",
+          "url": "https://www.dailymail.com/news/article-16290623",
+          "timestamp": 1794657830664,
+          "postedAt": 1794658569319
+        },
+        {
+          "headline": "Nvidia Stock Craters Amid Widening Export Scandal",
+          "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e",
+          "timestamp": 1794657830664,
+          "postedAt": 1794658569319
+        }
+      ]
+    },
+    {
+      "title": "RUSSIA-UKRAINE WAR: ESCALATION AND DIPLOMACY",
+      "stories": [
+        {
+          "headline": "Prince Harry Visits War-Wounded Ukrainian Troops",
+          "url": "https://www.yahoo.com/news/world/articles/britains-prince-harry-visits-war-220410098.html",
+          "timestamp": 1794830801237,
+          "postedAt": 1794831427986
+        },
+        {
+          "headline": "Russian Oil Facility Hit Amid Record Ukrainian Drone Blitz",
+          "url": "https://www.kyivpost.com/post/90199",
+          "timestamp": 1794829064000,
+          "postedAt": 1794831427986
+        }
+      ]
+    },
+    {
+      "title": "IRAN ESCALATES ATTACKS ON BAHRAIN AMID STALLED TALKS",
+      "stories": [
+        {
+          "headline": "Iran Claims It Attacked US Base As Bahrain Issues First Threat Alerts Since September",
+          "url": "https://nypost.com/2026/11/15/world-news/iran-says-it-attacked-us-base-as-bahrain-issues-first-threat-alerts-since-september/",
+          "timestamp": 1794742486000,
+          "feature": true,
+          "postedAt": 1794744998395
+        },
+        {
+          "headline": "Report: Israel Interrogated Kidnapped Iranian Generals Searching For Ron Arad",
+          "url": "https://www.ynetnews.com/article/sjozlmwrfe",
+          "timestamp": 1794742026000,
+          "postedAt": 1794744998395
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Woke Florida city cancels St Patrick’s Day parade in passive-aggressive protest against DEI laws",
+        "url": "https://notthebee.com/article/woke-florida-city-cancels-st-patricks-day-parade-in-passive-aggressive-protest-against-dei-laws/",
+        "timestamp": 1794759858000,
+        "postedAt": 1794831517056
+      },
+      {
+        "headline": "Once Bitter Rivals, Stephen Miller and Marco Rubio Form Unlikely Alliance",
+        "url": "https://www.wsj.com/politics/once-bitter-rivals-stephen-miller-and-marco-rubio-form-unlikely-alliance-3aaa17c6",
+        "timestamp": 1794830801237,
+        "postedAt": 1794831517056
+      },
+      {
+        "headline": "Huge Waves Force Closure Of Popular California Piers",
+        "url": "https://www.theguardian.com/us-news/2026/nov/15/california-coast-waves-piers-closed",
+        "timestamp": 1794790800000,
+        "postedAt": 1794831427986
+      },
+      {
+        "headline": "JonBenet Ramsey: Ex-FBI Agent Calls Clearing Parents A 'Bad, Bold Move'",
+        "url": "https://www.newsnationnow.com/video/jonbenet-ramsey-ex-fbi-agent-argues-parents-being-cleared-was-bad-bold-move-newsnation-prime/12373553/",
+        "timestamp": 1794828035000,
+        "photo": true,
+        "postedAt": 1794831427986
+      },
+      {
+        "headline": "Fewer International Students Enrolling At US Universities",
+        "url": "https://abcnews.com/US/wireStory/fewer-students-traveling-abroad-study-us-universities-report-138169810",
+        "timestamp": 1794820421000,
+        "photo": true,
+        "postedAt": 1794831427986,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Mary Peltola Closes In On 50% Threshold In Alaska Senate Race",
+        "url": "https://www.newsweek.com/mary-peltola-closes-in-on-50-threshold-in-alaska-senate-race-12718013",
+        "timestamp": 1794800460000,
+        "photo": true,
+        "postedAt": 1794831427986,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Inside Stephen Miller's Frenetic First Week Running The White House",
+        "url": "https://www.cnn.com/2026/11/14/politics/stephen-miller-trump-chief-of-staff",
+        "timestamp": 1794744269240,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "Suicide Toll At NSA, US Cyber Command Hits 11, With 5 In One Month",
+        "url": "https://www.theblaze.com/tech/us-cyber-command-nsa-suicides",
+        "timestamp": 1794743284000,
+        "feature": true,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "Stephen A. Smith Sets Condition Before Teen Daughter Can Back Mamdani",
+        "url": "https://www.theblaze.com/news/stephena-smith-mamdani-socialism-daughter",
+        "timestamp": 1794743164000,
+        "photo": true,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "8 MMA Fighters, Crew In Muslim-Christian Brawl Sentenced To Abu Dhabi Prison",
+        "url": "https://www.theblaze.com/fearless/mma-dagestan-christian-muslim-sentencing",
+        "timestamp": 1794742347000,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "Zelensky Challenges SpaceX Over Starshield As US Floats Donbas Proposal",
+        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-starship-b3085121.html",
+        "timestamp": 1794733449000,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "A Beloved Oregon Woman And Her Dogs Vanished. Here's How Her Community Helped Crack The Case.",
+        "url": "https://www.cbsnews.com/news/susan-phoenix-lane-fournier-mount-hood-oregon-murder-48-hours/",
+        "timestamp": 1794715320000,
+        "photo": true,
+        "postedAt": 1794744998395,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "Border Crossings Plummet, But Stephen Miller Still Wants More",
+        "url": "https://www.nytimes.com/2026/11/13/world/americas/stephen-miller-mexico-immigration.html?unlocked_article_code=1.QFE.Fzx2.uX0D1GYnmctP&smid=url-share",
+        "timestamp": 1794657830664,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "Bomb Found At Illinois Ethanol Plant, Forcing Evacuations",
+        "url": "https://www.cnn.com/2026/11/14/us/peoria-bomb-threat-fbi-ethanol-plant-evacuations-hnk",
+        "timestamp": 1794649194000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "'Banana Man' Takes Small Indiana Town By Storm",
+        "url": "https://www.cbsnews.com/news/banana-man-linton-indiana-superhero/",
+        "timestamp": 1794622560000,
+        "photo": true,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "All Passengers Rescued After New Orleans Cruise Ship Collision",
+        "url": "https://www.bbc.com/news/articles/cw20xmy0m5yyo",
+        "timestamp": 1794613245000,
+        "photo": true,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "Trump Credits Scott Colom For Campaigning At MAGA Rally",
+        "url": "https://ktar.com/national-news/trump-praises-democrat-scott-colom-for-showing-up-to-mississippi-rally-and-courting-maga-supporters",
+        "timestamp": 1794625200000,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "United States Of Dysfunction: Inside A Fractured Washington",
+        "url": "https://apnews.com/ea5f7a1f95a38f65dd57e58cfc17672b",
+        "timestamp": 1794830801237,
+        "postedAt": 1794831427986
+      },
+      {
+        "headline": "Banned AI Chips Reportedly Surfacing On China's Black Market",
+        "url": "https://www.yahoo.com/news/world/articles/chinese-university-bought-advanced-nvidia-052401552.html",
+        "timestamp": 1794657830664,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "Putin 'Lifts Ban' On Killing Zelensky, Report Claims",
+        "url": "https://www.the-sun.com/news/17307132",
+        "timestamp": 1794830801237,
+        "postedAt": 1794831427986
+      }
+    ],
+    "center": [
+      {
+        "headline": "DOJ Ready to Battle Congress. Texas Prosecutor Placed Himself at the Front",
+        "url": "https://www.wsj.com/politics/policy/doj-is-ready-to-battle-congress-a-texas-prosecutor-placed-himself-at-the-front-deaceeb7",
+        "timestamp": 1794830801237,
+        "postedAt": 1794831517056
+      },
+      {
+        "headline": "Troubling recruitment of young women",
+        "url": "https://www.foxnews.com/world/putins-war-machine-tied-troubling-recruitment-young-women-new-deals-emerge",
+        "timestamp": 1794830801237,
+        "postedAt": 1794831517056
+      },
+      {
+        "headline": "UPS CARGO PLANE, COPA AIRLINES JET CARRYING 172 COLLIDE AT MIAMI AIRPORT",
+        "url": "https://www.cbsnews.com/miami/news/ups-plane-copa-airlines-jet-collide-miami-international-airport/",
+        "timestamp": 1794744998395,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "Stephen Miller's Surprise New 'Bestie' Marco Rubio Revealed",
+        "url": "https://www.dailymail.com/news/article-16295411/MAGA-bromance-flourishes-rivals-Marco-Rubio-Stephen-Miller-form-unlikely-alliance.html",
+        "timestamp": 1794828274000,
+        "photo": true,
+        "postedAt": 1794831427986
+      },
+      {
+        "headline": "Canada: Carney Says Nation Could Turn To Chinese Automakers If Trade Talks Fail",
+        "url": "https://apnews.com/article/canada-carney-trump-china-trade-autos-cbb2d3f90eed95925ffa4cb9a4b25239",
+        "timestamp": 1794826980000,
+        "postedAt": 1794831427986
+      },
+      {
+        "headline": "Alaska Governor-Elect Kreiss-Tomkins Says Campaign 'Covered Every Corner' Of State",
+        "url": "https://apnews.com/article/alaska-governor-democrat-kreiss-tomkins-9df98d3136219afede6d47ba7d15e5f7",
+        "timestamp": 1794715680000,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "Trump Media Group Stares Down $1 Billion Debt Crunch As Bitcoin Bet Fades",
+        "url": "https://archive.is/2SyxU",
+        "timestamp": 1794744269241,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "Pop Theologian Wesley Huff Scrubs Site Amid Plagiarism Accusations",
+        "url": "https://www.theblaze.com/news/pop-theologian-wesley-huff-briefly-scrubs-website-removes-youtube-videos-after-plagiarism-accusations",
+        "timestamp": 1794742917000,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "After Her Baby Was Buried Alive, A South Carolina Mother Wonders Why",
+        "url": "https://www.syracuse.com/us-news/2026/11/missing-baby-found-buried-alive-inside-a-dog-crate-south-carolina-police-say.html",
+        "timestamp": 1794702643000,
+        "photo": true,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "The Senators Who Could Join Van Hollen's Insurgency Against Schumer",
+        "url": "https://www.axios.com/2026/11/13/democrats-schumer-van-hollen-senate-leader",
+        "timestamp": 1794642597000,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "Woman Uses AI In Bid To Cure Her Own Cancer",
+        "url": "https://www.curetoday.com/view/breast-cancer-after-65-hormone-pills-alone-vs-surgery-first",
+        "timestamp": 1794654387000,
+        "photo": true,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "Leaked Memo Reveals Susie Wiles' Tight Grip On West Wing Access",
+        "url": "https://www.foxnews.com/politics/stephen-miller-internal-memo-unleashes-trump-agencies-absolute-control-wiles-reign",
+        "timestamp": 1794657830664,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "Boebert Falls To Democrat Eileen Laubacher In Colorado Upset",
+        "url": "https://www.politico.com/live-updates/2026/11/13/congress/lauren-boebert-loses-colorado-house-race-01165775",
+        "timestamp": 1794621915000,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "Northern California Storm Forces Chain Controls On Mountain Highways",
+        "url": "https://www.kcra.com/article/northern-california-storm-coverage-updates-november-13-2026/74424506",
+        "timestamp": 1794726900000,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "Biggest Waves In A Decade Flood Bay Area Streets, Threaten Homes",
+        "url": "https://www.sfchronicle.com/weather/article/waves-california-coast-high-tide-22530129.php",
+        "timestamp": 1794699186000,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "Iran Combat Veteran Says White House Ignored Drone Strike Threat Warnings",
+        "url": "https://www.mediaite.com/media/tv/iran-combat-veteran-disputes-trump-admin-claims-says-they-had-nothing-to-protect-from-drone-strike-at-start-of-war/",
+        "timestamp": 1794830801238,
+        "postedAt": 1794831427986
+      },
+      {
+        "headline": "How Russia Is Preparing Iran For The Next Escalation",
+        "url": "https://www.aljazeera.com/opinions/2026/11/16/how-russia-is-preparing-iran-for-the-next-escalation",
+        "timestamp": 1794813047000,
+        "postedAt": 1794831427986,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "Lawmaker Warns Crisis 'Increasingly Difficult To Resolve Peacefully'",
+        "url": "https://www.theblaze.com/shows/making-the-argument-with-nick-freitas/increasingly-difficult-to-resolve-peacefully-nick-freitas-warns-of-a-coming-constitutional-crisis",
+        "timestamp": 1794828664000,
+        "postedAt": 1794831427986
+      },
+      {
+        "headline": "US Attorney Warns Sen. Warren Against Investigating Trump Associates",
+        "url": "https://www.nbcnews.com/politics/congress/us-attorney-warns-sen-elizabeth-warren-investigating-trump-associates-rcna609532",
+        "timestamp": 1794807780000,
+        "postedAt": 1794831427986,
+        "image": "/img/main-7.jpg"
+      }
+    ],
+    "right": [
+      {
+        "headline": "We Need a Better GOP",
+        "url": "https://www.nationalreview.com/article/we-need-a-better-gop",
+        "timestamp": 1794780060000,
+        "postedAt": 1794831517056
+      },
+      {
+        "headline": "'ROUTER IN ARKANSAS'",
+        "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+        "timestamp": 1794830801237,
+        "postedAt": 1794831517056
+      },
+      {
+        "headline": "Rare North Atlantic Right Whale Population Drops, Alarming Scientists",
+        "url": "https://www.breitbart.com/news/rare-north-atlantic-right-whale-population-drops-alarming-scientists/",
+        "timestamp": 1794829870000,
+        "photo": true,
+        "postedAt": 1794831427986,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Online Sportsbooks Bet $136 Million On State Politics During Midterms",
+        "url": "https://popular.info/p/online-sportsbooks-bet-136-million",
+        "timestamp": 1794828668000,
+        "postedAt": 1794831427986
+      },
+      {
+        "headline": "Mamdani Unveils Blueprint To Disband Controversial NYPD Unit",
+        "url": "https://www.politico.com/news/2026/11/16/mamdani-announces-blueprint-to-disband-controversial-nypd-unit-01167004",
+        "timestamp": 1794826800000,
+        "photo": true,
+        "postedAt": 1794831427986
+      },
+      {
+        "headline": "Siblings Say Texas ICE Agent's Run-Over Of Migrant Was Intentional",
+        "url": "https://www.cbsnews.com/news/ice-agent-siblings-man-run-over-incident-texas/",
+        "timestamp": 1794794070000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1794831427986,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "FAA LIFTS NATIONWIDE GROUND STOP AFTER MYSTERIOUS EMERGENCY SNARLS AIR TRAVEL",
+        "url": "https://apnews.com/live/ground-stop-aviation-flights-news-updates-11-13-2026",
+        "timestamp": 1794658569319,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "Supreme Court Will Review Challenge To Trump's 'Invasion' Executive Order",
+        "url": "https://reason.com/volokh/2026/11/14/supreme-court-will-review-case-challenging-donald-trumps-invasion-executive-order/",
+        "timestamp": 1794695509000,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "NYC Democratic Socialists Urge Ocasio-Cortez To Run For President",
+        "url": "https://www.nytimes.com/2026/11/14/nyregion/nyc-dsa-convention-ocasio-cortez-president.html?unlocked_article_code=1.QVE.Ocgd.8tFGEVLUwWhb&smid=url-share",
+        "timestamp": 1794744269240,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "New Migrant Caravan 'God With Us' Heads North Toward US Border",
+        "url": "https://www.theblaze.com/shows/pat-gray-unleashed/a-new-migrant-caravan-named-god-with-us-is-heading-north-and-pat-gray-has-questions",
+        "timestamp": 1794742285000,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "How DBT, A Therapy Pioneered By Dr. Marsha Linehan, Treats Borderline Personality Disorder",
+        "url": "https://www.cnn.com/2026/11/15/health/dialectical-behavior-therapy-marsha-linehan-wellness",
+        "timestamp": 1794742216000,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "Judge Rules Trump Administration Can't Close DC Golf Course For Now",
+        "url": "https://www.politico.com/news/2026/11/14/judge-rejects-trumps-bid-to-immediately-close-east-potomac-golf-course-01166639",
+        "timestamp": 1794711180000,
+        "postedAt": 1794744998395
+      },
+      {
+        "headline": "Zuckerberg Plans His Own Prediction Market App",
+        "url": "https://finance.yahoo.com/technology/articles/meta-tests-prediction-market-app-203017664.html",
+        "timestamp": 1794657830664,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "Colorado Man Plotted 'Unspeakable' Rape Of Children, Police Say",
+        "url": "https://www.theblaze.com/news/ny-child-rape-predator-sting",
+        "timestamp": 1794655912000,
+        "photo": true,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "Screens Are Taking Over Childhood Playtime, Parents Say",
+        "url": "https://www.theblaze.com/lifestyle/children-imagination-study-screen-time",
+        "timestamp": 1794655870000,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "Weekend Plans With Former 'Bachelor' Host Chris Harrison",
+        "url": "https://www.dailywire.com/news/weekend-plans-with-former-bachelor-host-chris-harrison-who-never-gave-up-on-happily-ever-after",
+        "timestamp": 1794654344000,
+        "photo": true,
+        "postedAt": 1794658569319,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "Taxpayer-Funded Library Hosts 'Radical Mentorship' Event With Convicted Cop Killers",
+        "url": "https://www.dailywire.com/news/taxpayer-funded-library-welcomes-cop-killers-and-bombers-for-radical-mentorship-event",
+        "timestamp": 1794654142000,
+        "postedAt": 1794658569319
+      },
+      {
+        "headline": "Data Center Construction Stocks Lose $4 Trillion In Selloff",
+        "url": "https://archive.is/5M4u7",
+        "timestamp": 1794830801237,
+        "postedAt": 1794831427986
+      },
+      {
+        "headline": "Rubio Warns ICC Against 'Quoting Laws To Men With Swords'",
+        "url": "https://www.timesofisrael.com/rubio-warns-icc-against-quoting-laws-to-men-with-swords/",
+        "timestamp": 1794627522000,
+        "postedAt": 1794658569319
+      }
+    ]
+  },
+  "balance": {
+    "left": 688,
+    "right": 592,
+    "independent": 7,
+    "days": 30,
+    "total": 1280,
+    "pctLeft": 54,
+    "pctRight": 46
+  }
+}
