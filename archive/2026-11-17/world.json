@@ -1,0 +1,541 @@
+{
+  "lastUpdated": 1794929630067,
+  "heroSetDate": "2026-11-17",
+  "hero": {
+    "headline": "UKRAINE STRIKES CRIMEA BRIDGE, PARTLY COLLAPSING IT HOURS BEFORE PUTIN MEETS TRUMP AND XI",
+    "url": "https://www.bbc.com/news/articles/cw772jk4rvmxo",
+    "sublinks": [
+      {
+        "text": "Strike Lands Hours Before Putin's Meeting With Xi And Trump",
+        "url": "https://www.reuters.com/world/europe/ukraine-strikes-crimean-bridge-second-day-russia-pounds-kyiv-bridges-2026-11-17/"
+      },
+      {
+        "text": "Russia Retaliates With Massive Missile Barrage On Kyiv's Bridges",
+        "url": "https://kyivindependent.com/key-bridges-in-kyiv-struck-in-massive-russian-ballistic-missile-attack-across-ukraine/"
+      },
+      {
+        "text": "Ukraine's Drone Attack On Russia Called Largest Of The War",
+        "url": "https://www.nbcnews.com/world/ukraine/ukraine-launches-biggest-drone-attack-russia-war-began-rcna609555"
+      },
+      {
+        "text": "Strike Deals Blow To 'Highly Symbolic' Crimea Crossing",
+        "url": "https://www.breitbart.com/europe/2026/11/17/ukraine-destroys-highly-symbolic-kerch-bridge-connecting-occupied-crimea-to-russian-federation/"
+      },
+      {
+        "text": "Kyiv Continues Peace Talks With US And Europe Despite Escalation",
+        "url": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates"
+      }
+    ],
+    "postedAt": 1794929630067,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "IRAN: HORMUZ TANKER STRIKES AND MOUNTING PRESSURE",
+      "stories": [
+        {
+          "headline": "U.S. Intelligence Believes Iran Could Still Hold Up To 2,500 Missiles",
+          "url": "https://www.timesofisrael.com/us-intelligence-believes-iran-could-still-have-up-to-2500-missiles-report/",
+          "timestamp": 1794737994000,
+          "postedAt": 1794745818413
+        },
+        {
+          "headline": "Iran Navy Claims Three Tankers Hit Mines In Strait Of Hormuz",
+          "url": "https://www.reuters.com/world/middle-east/irans-navy-says-oil-tanker-fire-after-hitting-mine-hormuz-2026-11-14/",
+          "timestamp": 1794696859000,
+          "feature": true,
+          "postedAt": 1794745818413
+        },
+        {
+          "headline": "Gasoline Rationing Deepens Seven Years After Iran's 'Bloody November'",
+          "url": "https://www.iranintl.com/en/202611146434",
+          "timestamp": 1794660245000,
+          "postedAt": 1794745818413
+        },
+        {
+          "headline": "US And Iran Move Closer To Renewed War As Exchange Of Fire Increases",
+          "url": "https://www.euronews.com/2026/11/16/us-and-iran-slide-closer-to-fresh-all-out-war-as-new-exchange-of-fire-increases",
+          "timestamp": 1794829336000,
+          "feature": true,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "France Pushes For Rapid EU Sanctions On Iran Over Supermarket Hacks",
+          "url": "https://www.politico.eu/article/france-pushes-for-rapid-eu-sanctions-on-iran-for-supermarket-hacks/",
+          "timestamp": 1794828240000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "How Russia Is Preparing Iran For The Next Escalation",
+          "url": "https://www.aljazeera.com/opinions/2026/11/16/how-russia-is-preparing-iran-for-the-next-escalation",
+          "timestamp": 1794813047000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "Bahrain Sentences Dozens Of Shiite Clerics For 'Conspiring With Iran'",
+          "url": "https://www.breitbart.com/middle-east/2026/11/17/bahrain-sentences-dozens-of-shiite-clerics-to-life-imprisonment-for-conspiring-with-iran/",
+          "timestamp": 1794928567000,
+          "postedAt": 1794929630067
+        },
+        {
+          "headline": "Iran Escalates Threats As Third US Carrier Arrives, Tanker Struck In Hormuz",
+          "url": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html",
+          "timestamp": 1794890040000,
+          "feature": true,
+          "postedAt": 1794929630067
+        }
+      ]
+    },
+    {
+      "title": "POPE LEO WRAPS HISTORIC SOUTH AMERICA TOUR",
+      "stories": [
+        {
+          "headline": "Pope Forgives Person Who Hit Him In Eye With Rosary In Peru",
+          "url": "https://apnews.com/article/peru-pope-rosary-popemobile-0a1c02ea91c22da3dd5a6386a5fc1efc",
+          "timestamp": 1794905520000,
+          "postedAt": 1794929630067
+        },
+        {
+          "headline": "What's Waiting In Pope Leo's In-Tray Back In Rome",
+          "url": "https://www.pillarcatholic.com/p/whats-waiting-in-leo-xivs-in-tray",
+          "timestamp": 1794862826000,
+          "postedAt": 1794929630067
+        },
+        {
+          "headline": "Photos: Highlights From Pope Leo's 12-Day South America Tour",
+          "url": "https://www.nbcnews.com/world/the-vatican/pope-leo-south-america-tour-uruguay-argentina-peru-milei-fujimori-rcna608513",
+          "timestamp": 1794844953000,
+          "postedAt": 1794929630067
+        },
+        {
+          "headline": "Pope Leo Denounces Suffering Of African Enslaved People During Peru Visit",
+          "url": "https://www.africanews.com/amp/2026/11/15/pope-leo-denounces-suffering-of-african-enslaved-people-during-peru-visit/",
+          "timestamp": 1794737217000,
+          "postedAt": 1794745818413
+        }
+      ]
+    },
+    {
+      "title": "FIVE EU COUNTRIES' RWANDA DEPORTATION DEAL",
+      "stories": [
+        {
+          "headline": "Five European Countries Agree To Deport Rejected Asylum Seekers To Rwanda",
+          "url": "https://www.latintimes.com/eu-rwanda-migrant-deportation-facility-2027-601447",
+          "timestamp": 1794890400000,
+          "postedAt": 1794929630067
+        },
+        {
+          "headline": "Germany, Other EU States Open Talks On Rwanda Deportation Scheme",
+          "url": "https://www.dw.com/en/germany-joins-4-other-eu-states-to-set-up-rwanda-deportation-hub/a-79959158",
+          "timestamp": 1794857870000,
+          "postedAt": 1794929630067
+        },
+        {
+          "headline": "Rights Groups Warn EU's Rwanda 'Return Hub' Plan Tests Asylum Law",
+          "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
+          "timestamp": 1794846060000,
+          "postedAt": 1794929630067
+        }
+      ]
+    },
+    {
+      "title": "RUSSIA'S HYBRID WAR ON EUROPE'S EASTERN FLANK",
+      "stories": [
+        {
+          "headline": "EU Sanctions Russian Trolls And Hackers Over Disinformation Campaigns",
+          "url": "https://www.politico.eu/article/eu-sanctions-russian-trolls-hackers/",
+          "timestamp": 1794831060000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "Eastern Flank Nations Seek European Support Amid Hybrid Warfare Incidents",
+          "url": "https://www.euronews.com/2026/11/16/eu-ministers-demand-united-response-as-russian-attacks-spill-beyond-ukraine",
+          "timestamp": 1794828278000,
+          "postedAt": 1794832439687
+        }
+      ]
+    },
+    {
+      "title": "UKRAINE WAR: DRONE STRIKES, FROZEN ASSETS AND PEACE TALKS",
+      "stories": [
+        {
+          "headline": "French Troops Deployed In Ukraine On Secret Mission, Source Tells AFP",
+          "url": "https://www.rfi.fr/en/international-news/20261116-french-troops-deployed-in-ukraine-on-secret-mission-source-to-afp",
+          "timestamp": 1794829903000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "Sweden Pushes New EU Plan To Unlock Frozen Russian Assets For Ukraine",
+          "url": "https://www.euronews.com/2026/11/16/sweden-calls-for-new-eu-plan-to-unlock-frozen-russian-assets-for-ukraine",
+          "timestamp": 1794829106000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "Brussels To Present Plan For €45 Billion Ukraine Loan Backed By EU Budget",
+          "url": "https://www.politico.eu/article/brussels-plan-e45b-ukraine-loan-eu-budget/",
+          "timestamp": 1794828600000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "Ukraine Launches Biggest Drone Attack On Russia Since War Began",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-launches-biggest-drone-attack-russia-war-began-rcna609555",
+          "timestamp": 1794825531000,
+          "feature": true,
+          "postedAt": 1794832439687
+        }
+      ]
+    },
+    {
+      "title": "MEGASPEED DENIES SUPPLY CHAIN CLAIMS AFTER EXECUTIVE'S EXIT SURFACES",
+      "stories": [
+        {
+          "headline": "Megaspeed Says Former Executive Alice Huang Left Company In August 2025",
+          "url": "https://www.reuters.com/business/megaspeed-says-alice-huang-left-company-august-2025-2026-11-15/",
+          "timestamp": 1794744041000,
+          "postedAt": 1794745818413
+        },
+        {
+          "headline": "Megaspeed Rejects Supply Chain Claims, Confirms Huang's Departure",
+          "url": "https://www.scmp.com/tech/article/3374493/megaspeed-rejects-claims-over-supply-chain-distances-itself-alice-huang",
+          "timestamp": 1794737434000,
+          "postedAt": 1794745818413
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "TRUMP HEADS TO ASIA FOR RARE NUCLEAR SUMMIT WITH XI, PUTIN",
+        "url": "https://apnews.com/article/trump-china-manila-xi-putin-ffc5e5a2d384f00960034ec10087502e",
+        "timestamp": 1794832439687,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "France Hands Life Sentences In 'Barbaric' Marseille Drug Murders",
+        "url": "https://www.rfi.fr/en/france/20261117-a-message-to-drug-gangs-life-sentences-for-barbaric-marseille-murders",
+        "timestamp": 1794927576000,
+        "postedAt": 1794929630067
+      },
+      {
+        "headline": "Poland Charges Far-Right Lawmaker Braun Over Hospital 'Citizen's Arrest'",
+        "url": "https://www.politico.eu/article/poland-grzegorz-braun-charged-over-hospital-citizens-arrest/",
+        "timestamp": 1794924600000,
+        "postedAt": 1794929630067
+      },
+      {
+        "headline": "Dead Racehorse Found In Dumpster Days After Running Prestigious Race",
+        "url": "https://www.cbsnews.com/news/dead-racehorse-so-you-are-found-dumpster-melbourne-cup/",
+        "timestamp": 1794918113000,
+        "photo": true,
+        "postedAt": 1794929630067,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Japan Scrambles Fighters After Suspected Russian Planes Enter Airspace",
+        "url": "https://www.japantimes.co.jp/news/2026/11/17/japan/russia-japan-airspace-violation-defense/",
+        "timestamp": 1794901414000,
+        "photo": true,
+        "postedAt": 1794929630067,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "KUSHNER: U.S. SHIFTS FOCUS TO 'FACILITATING' DIRECT RUSSIA-EUROPE TALKS",
+        "url": "https://kyivindependent.com/us-now-focused-on-facilitating-direct-engagement-between-russia-europe-kushner-says-after-ukraine-peace-talks/",
+        "timestamp": 1794745818413,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Nearly 2,200 Migrants Reach Canary Islands In Two Days, Spain Says",
+        "url": "https://apnews.com/article/spain-migration-boat-rescue-canary-islands-c4aeb350f770567d571bbb5442299099",
+        "timestamp": 1794815700000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Prince William Visits India For Earthshot Prize",
+        "url": "https://www.rfi.fr/en/international-news/20261116-britain-s-prince-william-in-india-for-earthshot-prize-1",
+        "timestamp": 1794828222000,
+        "photo": true,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Millions Of Red Crabs Begin Annual Migration On Australia's Christmas Island",
+        "url": "https://www.euronews.com/video/2026/11/16/millions-of-red-crabs-begin-annual-migration-on-australias-christmas-island",
+        "timestamp": 1794827921000,
+        "photo": true,
+        "postedAt": 1794832439687,
+        "image": "/img/world-5.jpg"
+      },
+      {
+        "headline": "UN Climate Chief Warns Of AI 'Double-Edged Sword' At COP31",
+        "url": "https://www.afp.com/en/un-climate-chief-warns-ai-double-edged-sword-cop31",
+        "timestamp": 1794827044000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "EU Forces Board Suspected Russian Shadow Fleet Tanker, Kallas Says",
+        "url": "https://www.euronews.com/2026/11/15/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says",
+        "timestamp": 1794739268000,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Czechia: Huge Protest Over Media Freedom Expected In Prague",
+        "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
+        "timestamp": 1794741540000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Rising Heat Puts Africa's Mothers And Children In Danger",
+        "url": "https://www.rfi.fr/en/environment/20261115-rising-heat-puts-africa-s-mothers-and-children-in-danger-cop31-kenya-climate-change",
+        "timestamp": 1794739131000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Canada: Fifth Soldier Dies From Injuries In Military Base Fire",
+        "url": "https://www.bbc.com/news/articles/cmrlgn4x2xw8o",
+        "timestamp": 1794734797000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Hungary: Nearly €20 Million In Cash Found Buried In Corruption Case",
+        "url": "https://www.politico.eu/article/nearly-e20m-in-cash-found-buried-hidden-in-hungary-corruption-case/",
+        "timestamp": 1794662160000,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Worsening Public Finances Threaten To Overshadow EU Growth",
+        "url": "https://www.politico.eu/article/public-finances-eu-growth-eurozone-debt/",
+        "timestamp": 1794924911000,
+        "postedAt": 1794929630067
+      }
+    ],
+    "center": [
+      {
+        "headline": "Why Italians Disown Spaghetti Bolognese",
+        "url": "https://www.theguardian.com/food/2026/nov/17/a-heretical-outrage-why-italians-disown-spaghetti-bolognese",
+        "timestamp": 1794927360000,
+        "photo": true,
+        "postedAt": 1794929630067
+      },
+      {
+        "headline": "Hoax Bomb Threats Rattle Schools And Airports Across Europe",
+        "url": "https://www.reuters.com/world/europe/death-is-near-inside-hoax-bomb-threats-that-rattled-europes-schools-airports-2026-11-17/",
+        "timestamp": 1794925795000,
+        "photo": true,
+        "postedAt": 1794929630067
+      },
+      {
+        "headline": "Costa Rican Journalist Who Reported Death Threats Gunned Down",
+        "url": "https://www.cbsnews.com/news/journalist-killed-costa-rica-camilo-rodriguez-reported-death-threats/",
+        "timestamp": 1794914415000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794929630067,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Cargo Ship Capsizes Off Bulgaria's Black Sea Coast",
+        "url": "https://www.aljazeera.com/news/2026/11/16/cargo-ship-capsizes-off-bulgarias-black-sea-coast",
+        "timestamp": 1794852157000,
+        "photo": true,
+        "postedAt": 1794929630067,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "AFP Fact Check: Image Of Soldiers Surrendering To Ethiopian Army Is Fake",
+        "url": "https://factcheck.afp.com/doc.afp.com.D7DQ4G3",
+        "timestamp": 1794831742000,
+        "photo": true,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Glenn Close, Ridley Scott Receive Honorary Oscars In Career Firsts",
+        "url": "https://www.afp.com/en/glenn-close-ridley-scott-receive-honorary-oscars-career-firsts",
+        "timestamp": 1794828008000,
+        "photo": true,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Italy: Woman Charged With Attempted Homicide After Allegedly Attacking Man Who Forgot To Do Dishes",
+        "url": "https://www.breitbart.com/europe/2026/11/16/italy-woman-charged-with-attempted-homicide-after-man-forgets-to-do-dishes/",
+        "timestamp": 1794827736000,
+        "photo": true,
+        "postedAt": 1794832439687,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "Investigation: Israel Uploaded Millions Of Photos To Amazon's Facial Recognition To Track Palestinians",
+        "url": "https://www.theguardian.com/world/2026/nov/16/israel-amazon-facial-recognition-palestinians",
+        "timestamp": 1794826920000,
+        "feature": true,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Australian MP Helen Haines Leaves Hospital After Losing Both Legs In Alleged Car Attack",
+        "url": "https://www.euronews.com/2026/11/16/australian-mp-helen-haines-leaves-hospital-after-losing-both-legs-in-alleged-car-attack",
+        "timestamp": 1794811353000,
+        "photo": true,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Mexico: Drug Lord Miguel Ángel Félix Gallardo Dies At 80",
+        "url": "https://www.bbc.com/news/articles/c51k9nkwrndxo",
+        "timestamp": 1794799316000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "France Sees Fifth Consecutive Saturday Of Nationwide Protests",
+        "url": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests",
+        "timestamp": 1794679878000,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Fela Kuti's Induction Into Rock & Roll Hall Of Fame Marks African Music Milestone",
+        "url": "https://www.rfi.fr/en/culture/20261115-with-nigeria-s-fela-kuti-african-music-enters-the-rock-roll-hall-of-fame",
+        "timestamp": 1794741490000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Fire Reported At Russian Industrial Facility In Tatarstan After Drone Attack",
+        "url": "https://kyivindependent.com/fire-reported-at-industrial-facility-in-russias-tatarstan-amid-drone-attack/",
+        "timestamp": 1794713016000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Italy Backs Germany Joining Next-Generation Fighter Jet Project",
+        "url": "https://www.reuters.com/business/aerospace-defense/italy-says-it-backs-germany-joining-next-generation-fighter-jet-project-2026-11-14/",
+        "timestamp": 1794660609000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "EU Economics Chief Warns France, Belgium Must Cut Deficits",
+        "url": "https://www.rfi.fr/en/france/20261117-eu-economics-chief-warns-france-and-belgium-must-reduce-deficit-and-public-debt",
+        "timestamp": 1794927659000,
+        "postedAt": 1794929630067
+      },
+      {
+        "headline": "Israel Kills Top Hamas Commander In Gaza Strike",
+        "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c",
+        "timestamp": 1794742260000,
+        "postedAt": 1794745818413
+      }
+    ],
+    "right": [
+      {
+        "headline": "Congo's Ebola Outbreak Spreads And Kills At Record Pace",
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congos-ebola-outbreak-is-spreading-killing-record-pace-2026-11-17/",
+        "timestamp": 1794928049000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794929630067
+      },
+      {
+        "headline": "Vox's Abascal Calls Canary Islands Migrant Surge A 'Planned Invasion'",
+        "url": "https://www.breitbart.com/europe/2026/11/17/planned-invasion-voxs-santiago-abascal-after-11000-illegal-migrants-reach-canary-islands-this-month/",
+        "timestamp": 1794925418000,
+        "photo": true,
+        "postedAt": 1794929630067,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Guinea Jails Over 220 In Deadly Illegal Gold Mining Crackdown",
+        "url": "https://www.africanews.com/amp/2026/11/17/guinea-jails-more-than-220-people-in-deadly-crackdown-on-illegal-gold-mining/",
+        "timestamp": 1794925267000,
+        "photo": true,
+        "postedAt": 1794929630067
+      },
+      {
+        "headline": "North Korea's Kim Inspects Samjiyon Tourism Zone Amid China Trip Speculation",
+        "url": "https://www.reuters.com/world/china/north-koreas-kim-inspects-tourist-zone-senior-official-visits-moscow-2026-11-16/",
+        "timestamp": 1794867780000,
+        "photo": true,
+        "postedAt": 1794929630067
+      },
+      {
+        "headline": "Le Pen Says She Was Wrong To Oppose Dual Citizenship, Same-Sex Marriage",
+        "url": "https://www.politico.eu/article/marine-le-pen-dual-citizenship-same-sex-marriage-le-pen-lifts-opposition-to/",
+        "timestamp": 1794828360000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Eurovision Organisers Criticise Malaysia's Removal Of LGBT+ Footage",
+        "url": "https://www.theguardian.com/tv-and-radio/2026/nov/16/eurovision-organisers-malaysia-removal-lgbt-footage-first-asian-contest",
+        "timestamp": 1794827940000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Ngozi Okonjo-Iweala: The African Woman Shaping Global Trade",
+        "url": "https://www.dw.com/en/ngozi-okonjo-iweala-the-african-woman-shaping-global-trade/video-79943598",
+        "timestamp": 1794827308000,
+        "photo": true,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "Nobel Peace Laureate Warns Of Duterte, Zuckerberg Threats To Democracy",
+        "url": "https://www.theguardian.com/us-news/2026/nov/16/duterte-zuckerberg-maria-ressa-book",
+        "timestamp": 1794826800000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "UK And Allies Call On Israel To Allow Rapid Humanitarian Access To Gaza",
+        "url": "https://www.bbc.com/news/articles/cwm2mllj1pp8o",
+        "timestamp": 1794819364000,
+        "postedAt": 1794832439687
+      },
+      {
+        "headline": "UK Government Refuses To Release Full Migrant Crime Statistics",
+        "url": "https://www.breitbart.com/europe/2026/11/15/british-government-refuses-to-release-full-migrant-crime-statistics/",
+        "timestamp": 1794744563000,
+        "postedAt": 1794745818413,
+        "image": "/img/world-7.jpg"
+      },
+      {
+        "headline": "Cape Verde Votes For President, Incumbent Favored To Win",
+        "url": "https://www.rfi.fr/en/africa/20261115-cape-verde-votes-for-president-with-incumbent-favoured-to-win",
+        "timestamp": 1794736900000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "UK: Russell Brand Rape Accuser Wants Age Of Consent Law Changed",
+        "url": "https://www.bbc.com/news/articles/cm3rgx9p583zo",
+        "timestamp": 1794727192000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Turkey: Husband Who Pushed Pregnant Wife Off Cliff Freed After 6 Years",
+        "url": "https://nypost.com/2026/11/15/world-news/turkish-husband-hakan-aysal-freed-from-prison-after-being-sentenced-for-pushing-pregnant-wife-off-cliff/",
+        "timestamp": 1794724020000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Climate Coalition Presses Ahead Without Colombia, Its Founding Champion",
+        "url": "https://apnews.com/article/cop31-fossil-fuels-colombia-ireland-tuvalu-coal-09c81f8bc4afd44fb6a4c5a804b74cab",
+        "timestamp": 1794719768000,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "Robot Dogs Mounted With Rifles Deployed In Haiti Anti-Gang Operation",
+        "url": "https://www.foxnews.com/world/robot-dogs-mounted-rifles-deployed-anti-gang-stadium-operation-haiti",
+        "timestamp": 1794703907000,
+        "photo": true,
+        "postedAt": 1794745818413
+      },
+      {
+        "headline": "EU Voices Alarm Over Humanitarian Conditions In Gaza",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/14/statement/",
+        "timestamp": 1794658996000,
+        "postedAt": 1794745818413
+      }
+    ]
+  }
+}

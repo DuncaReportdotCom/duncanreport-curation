@@ -1,0 +1,528 @@
+{
+  "lastUpdated": 1794930085827,
+  "heroSetDate": "2026-11-17",
+  "hero": {
+    "headline": "NVIDIA SHARES SET FOR $335 BILLION SWING AFTER EARNINGS, OPTIONS SHOW",
+    "url": "https://www.reuters.com/business/nvidia-shares-set-335-billion-swing-after-earnings-options-show-2026-11-17/",
+    "sublinks": [
+      {
+        "text": "CNBC: Options Traders Brace For Historic Moves After Nvidia's $2 Trillion Slide",
+        "url": "https://www.cnbc.com/2026/11/17/nvidia-has-lost-2-trillion-in-value-heres-what-options-traders-expect-from-earnings.html"
+      },
+      {
+        "text": "Yahoo Finance: Analyst Calls Nvidia's Valuation 'Draconian' Even Without Huang",
+        "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-valuation-looks-draconian-even-without-jensen-huang-analyst-220000337.html"
+      },
+      {
+        "text": "Investopedia: What The Nvidia Selloff Means For The Broader Market",
+        "url": "https://www.investopedia.com/the-express-podcast-episode-321-12258363"
+      },
+      {
+        "text": "Fox Business: Market Expert Weighs AI Regulation Risk As Earnings Near",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KMG10X2RmX1VCczdFUjU2SHcydXZ3OU9QZk01Q3dOeldRNUdpZXpmWmx2ekEybTRSV0NEUG1Fa3ZRdGEtWUhJSnJOQUg3UXhpMkVXQU9HRFppc2s?oc=5"
+      },
+      {
+        "text": "Axios: Fed's Warsh Warns Of Stock Bust If AI Boom Disappoints",
+        "url": "https://www.axios.com/2026/11/16/fed-warsh-ai-boom-stocks"
+      }
+    ],
+    "postedAt": 1794930085827,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "FAA GROUND STOP, MICROSOFT OUTAGE DISRUPT TRAVEL AND BUSINESS",
+      "stories": [
+        {
+          "headline": "Why A Ground Problem Can Ground Flights Thousands Of Miles Away",
+          "url": "https://www.cnbc.com/2026/11/15/why-a-problem-on-the-ground-can-affect-flights-thousands-of-miles-away.html",
+          "timestamp": 1794741138000,
+          "postedAt": 1794746257688
+        },
+        {
+          "headline": "Planes Collide In Miami Day After Nationwide Ground Stop",
+          "url": "https://finance.yahoo.com/economy/policy/articles/planes-collide-miami-day-nationwide-073500687.html",
+          "timestamp": 1794728100000,
+          "postedAt": 1794746257688
+        },
+        {
+          "headline": "Grounded Jets, Microsoft Outage Spark 'Is Everything Broken' Questions",
+          "url": "https://apnews.com/article/flights-grounded-microsoft-ai-chaos-ea5f7a1f95a38f65dd57e58cfc17672b",
+          "timestamp": 1794721080000,
+          "postedAt": 1794746257688
+        },
+        {
+          "headline": "FAA Ground Stop Disrupts College Football Travel",
+          "url": "https://www.npr.org/2026/11/14/nx-s1-6041115/faa-ground-stop-college-football-delays",
+          "timestamp": 1794705239000,
+          "feature": true,
+          "postedAt": 1794746257688
+        },
+        {
+          "headline": "Microsoft Service Restored After Widespread Outage",
+          "url": "https://www.cbsnews.com/news/microsoft-battling-major-outage/",
+          "timestamp": 1794650160000,
+          "postedAt": 1794746257688
+        },
+        {
+          "headline": "Outages Disrupt Business Services As FAA Faces New Scrutiny",
+          "url": "https://video.foxbusiness.com/v/6408497060112",
+          "timestamp": 1794928798000,
+          "postedAt": 1794930085827
+        }
+      ]
+    },
+    {
+      "title": "NVIDIA ADDS BOARD OVERSIGHT ON EXPORT CONTROLS AMID HUANG FALLOUT",
+      "stories": [
+        {
+          "headline": "Nvidia Forms Export-Control Panel As Huang Affair Puts China Ties In Focus",
+          "url": "https://www.reuters.com/business/nvidia-board-forms-committee-national-security-export-control-oversight-2026-11-17/",
+          "timestamp": 1794926177000,
+          "feature": true,
+          "postedAt": 1794930085827
+        },
+        {
+          "headline": "Sen. Gimenez Warns Lax Chip Export Controls Threaten National Security",
+          "url": "https://www.foxbusiness.com/video/6408496782112",
+          "timestamp": 1794923835000,
+          "postedAt": 1794930085827
+        },
+        {
+          "headline": "Huang Allies' Reinstatement Campaign Tests CEO Accountability Norms",
+          "url": "https://www.axios.com/2026/11/17/jensen-huang-nvidia-ceo-accountability-power",
+          "timestamp": 1794916232000,
+          "postedAt": 1794930085827
+        },
+        {
+          "headline": "Nvidia Scandal Hands China Hawks Ammunition, Imperils Trade Truce",
+          "url": "https://www.bignewsnetwork.com/news/279431342/who-wanted-nvidia-huang-out-honeypot-scandal-raises-questions-over-ai-power-struggle",
+          "timestamp": 1794828600000,
+          "feature": true,
+          "postedAt": 1794832832340
+        },
+        {
+          "headline": "Nvidia Stock Falls Again As Investors Price In Huang Fallout",
+          "url": "https://www.cnbc.com/2026/11/16/nvidia-stock-price-jensen-huang.html",
+          "timestamp": 1794821289000,
+          "postedAt": 1794832832340
+        }
+      ]
+    },
+    {
+      "title": "RETAIL SALES ROSE IN OCTOBER BUT SHOPPERS SHOW STRAIN",
+      "stories": [
+        {
+          "headline": "American Shoppers Show Signs Of Strain Heading Into Holidays",
+          "url": "https://www.cnn.com/2026/11/17/economy/us-retail-sales-october",
+          "timestamp": 1794923675000,
+          "postedAt": 1794930085827
+        },
+        {
+          "headline": "US Retail Sales Increase Moderately In October",
+          "url": "https://www.reuters.com/world/us/us-retail-sales-increase-moderately-october-2026-11-17/",
+          "timestamp": 1794923003000,
+          "postedAt": 1794930085827
+        }
+      ]
+    },
+    {
+      "title": "DISNEY TOPS EARNINGS ESTIMATES, PLANS DEEPER COST CUTS",
+      "stories": [
+        {
+          "headline": "Disney To Boost Content Spending After Earnings Beat",
+          "url": "https://www.reuters.com/business/disney-beats-earnings-forecasts-plans-increase-content-spending-2026-11-17/",
+          "timestamp": 1794923164000,
+          "postedAt": 1794930085827
+        },
+        {
+          "headline": "Disney Beats Fourth-Quarter Estimates, Targets $3 Billion In Savings",
+          "url": "https://www.cnbc.com/2026/11/17/disney-dis-earnings-q-2026.html",
+          "timestamp": 1794891661000,
+          "postedAt": 1794930085827
+        }
+      ]
+    },
+    {
+      "title": "AI INDUSTRY: ANTHROPIC IPO FRENZY",
+      "stories": [
+        {
+          "headline": "Anthropic IPO To Test Wall Street's Faith In AI Amid Skepticism",
+          "url": "https://finance.yahoo.com/markets/stocks/article/anthropic-ipo-to-test-wall-streets-faith-in-ai-as-skepticism-mounts-180007104.html",
+          "timestamp": 1794682579000,
+          "postedAt": 1794746257688
+        },
+        {
+          "headline": "Meet The Seven Co-Founders Behind Anthropic",
+          "url": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
+          "timestamp": 1794657601000,
+          "postedAt": 1794746257688
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Sellas Blood Cancer Vaccine Extends Survival, Shares Surge",
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/sellas-cancer-vaccine-extends-survival-blood-cancer-trial-2026-11-17/",
+        "timestamp": 1794927243000,
+        "photo": true,
+        "postedAt": 1794930085827
+      },
+      {
+        "headline": "Goldman Sachs Sees Big Year Ahead For Stocks In 2027",
+        "url": "https://finance.yahoo.com/markets/article/goldman-sachs-is-looking-for-a-big-year-for-stocks-in-2027-142151047.html",
+        "timestamp": 1794925311000,
+        "photo": true,
+        "postedAt": 1794930085827
+      },
+      {
+        "headline": "Grand Theft Auto VI Heads Toward Launch Amid Feverish Anticipation",
+        "url": "https://www.reuters.com/lifestyle/grand-theft-auto-vi-heads-launch-amid-feverish-anticipation-2026-11-17/",
+        "timestamp": 1794925306000,
+        "photo": true,
+        "postedAt": 1794930085827
+      },
+      {
+        "headline": "Demis Hassabis' AI Company Raises $5 Billion Months After Leaving Google DeepMind",
+        "url": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html",
+        "timestamp": 1794923887000,
+        "photo": true,
+        "postedAt": 1794930085827,
+        "image": "/img/markets-1.jpg"
+      },
+      {
+        "headline": "Deutsche Bank Leak Reveals $582 Million In Epstein Payments, Accidental Trump Tax Disclosure",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/11/17/deutsche-bank-leak-reveals-582-million-in-suspicious-epstein-payments/",
+        "timestamp": 1794920928000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1794930085827
+      },
+      {
+        "headline": "Holiday Shipping Costs Rise, Big-Ticket Items Harder To Find",
+        "url": "https://www.cnbc.com/2026/11/16/holiday-big-ticket-inventory-shipping-costs.html",
+        "timestamp": 1794830401000,
+        "photo": true,
+        "postedAt": 1794832832340,
+        "image": "/img/markets-4.jpg"
+      },
+      {
+        "headline": "Investors Set To Win Big In Anthropic's IPO",
+        "url": "https://www.marketwatch.com/story/anthropics-ipo-is-forcing-investors-to-assess-uninsurable-risks-theyve-never-encountered-before-dea85fbf",
+        "timestamp": 1794825000000,
+        "postedAt": 1794832832340
+      },
+      {
+        "headline": "Intel Sued By Investors After PC Sales Slump Hits Shares",
+        "url": "https://www.bbc.com/news/articles/cw62p42p288do",
+        "timestamp": 1794798241000,
+        "photo": true,
+        "postedAt": 1794832832340
+      },
+      {
+        "headline": "AMD Has Two Big Catalysts Lined Up For 2027, Says IO Fund",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-two-big-catalysts-lined-055325943.html",
+        "timestamp": 1794722830000,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "Nvidia Earnings, Baggage Top Next Week's Market Watch",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-along-baggage-top-053700154.html",
+        "timestamp": 1794721020000,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "IRS Raises 401(k) Contribution Limit By $1,000 For 2027",
+        "url": "https://www.foxbusiness.com/personal-finance/irs-raises-401k-contribution-limit-1000-2027-retirement-savings-caps-increase",
+        "timestamp": 1794709942000,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "SpaceX Catches Starship Booster Piece On Return To Earth",
+        "url": "https://www.bbc.com/news/live/cq0k683l3dz3t",
+        "timestamp": 1794694044000,
+        "photo": true,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "Meta Fined $887 Million In Italy Over Facebook Photo Scraping",
+        "url": "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127",
+        "timestamp": 1794684713000,
+        "photo": true,
+        "postedAt": 1794746257688,
+        "image": "/img/markets-6.jpg"
+      },
+      {
+        "headline": "Megaspeed Says Alice Huang Left Company In August 2025",
+        "url": "https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025",
+        "timestamp": 1794808920000,
+        "postedAt": 1794832832340
+      },
+      {
+        "headline": "Did A Cyberattack Hit The FAA? Probably Not",
+        "url": "https://fortune.com/2026/11/16/cyberattack-faa-ground-stop-sean-duffy-l3harris-fiber-installation-arkansas/",
+        "timestamp": 1794830220000,
+        "postedAt": 1794832832340
+      }
+    ],
+    "center": [
+      {
+        "headline": "Anthropic Likely To Price IPO Above $70-$78 Range, Sources Say",
+        "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+        "timestamp": 1794924783000,
+        "photo": true,
+        "postedAt": 1794930085827,
+        "image": "/img/markets-0.jpg"
+      },
+      {
+        "headline": "UK: Sony Defeats £2 Billion Claim Over PlayStation Store Pricing",
+        "url": "https://www.reuters.com/world/sony-defeats-2-billion-uk-claim-over-playstation-store-pricing-2026-11-17/",
+        "timestamp": 1794924378000,
+        "photo": true,
+        "postedAt": 1794930085827
+      },
+      {
+        "headline": "Leap Partners Expands Virginia Footprint With Second Acquisition In Two Months",
+        "url": "https://finance.yahoo.com/small-business/articles/leap-partners-accelerates-virginia-growth-140400598.html",
+        "timestamp": 1794924240000,
+        "postedAt": 1794930085827
+      },
+      {
+        "headline": "US Government Confirms Investigation Into Tech Firm Megaspeed",
+        "url": "https://www.bbc.com/news/articles/cmn504nq5033o",
+        "timestamp": 1794914252000,
+        "postedAt": 1794930085827
+      },
+      {
+        "headline": "Study Estimates Scale Of US Data Center Pollution Amid Clean AI Pledge",
+        "url": "https://apnews.com/article/cop31-climate-data-centers-ai-pollution-a1b338e7f781976f89260d172a7c65e2",
+        "timestamp": 1794882540000,
+        "photo": true,
+        "postedAt": 1794930085827
+      },
+      {
+        "headline": "Buffett Donates $5.5 Billion, Says Kindness 'Compounds'",
+        "url": "https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html",
+        "timestamp": 1794830730000,
+        "photo": true,
+        "postedAt": 1794832832340,
+        "image": "/img/markets-3.jpg"
+      },
+      {
+        "headline": "Wesco's Data Center Sales Surge 300% To $6 Billion",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wesco-international-data-center-sales-111225402.html",
+        "timestamp": 1794827545000,
+        "postedAt": 1794832832340
+      },
+      {
+        "headline": "Top CD Rates Today: Lock In Up To 5.00%",
+        "url": "https://fortune.com/article/cd-rates-11-16-26/",
+        "timestamp": 1794826860000,
+        "postedAt": 1794832832340
+      },
+      {
+        "headline": "Canada: Canadian Natural Resources Buys Advantage Energy For $1.77 Billion",
+        "url": "https://www.reuters.com/legal/transactional/canadian-natural-resources-buy-advantage-energy-177-billion-deal-2026-11-16/",
+        "timestamp": 1794826227000,
+        "photo": true,
+        "postedAt": 1794832832340
+      },
+      {
+        "headline": "Oil Falls As Recovering Middle East Exports Bolster Surplus",
+        "url": "https://www.reuters.com/business/energy/oil-prices-fall-expectations-coming-supply-surplus-2026-11-16/",
+        "timestamp": 1794794400000,
+        "postedAt": 1794832832340
+      },
+      {
+        "headline": "Reese's Brings Back Sold-Out Thanksgiving Pie",
+        "url": "https://www.thestreet.com/retail/reeses-thanksgiving-pie-2026-where-to-buy",
+        "timestamp": 1794786420000,
+        "photo": true,
+        "postedAt": 1794832832340
+      },
+      {
+        "headline": "History Says Every S&P 500 Bear Market Has Ended The Same Way",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/history-says-every-p-500-112500345.html",
+        "timestamp": 1794713100000,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "Tesla Launches Driverless Cybercab For Sale",
+        "url": "https://www.foxbusiness.com/technology/tesla-makes-major-cybercab-announcement-driverless-vehicle-goes-sale",
+        "timestamp": 1794707340000,
+        "photo": true,
+        "postedAt": 1794746257688,
+        "image": "/img/markets-5.jpg"
+      },
+      {
+        "headline": "H-E-B Hands Out $1 Million In Gift Cards Across Texas",
+        "url": "https://www.mysanantonio.com/business/article/heb-texas-grocery-giveaway-22531051.php",
+        "timestamp": 1794699311000,
+        "photo": true,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "Family Dollar To Pay $63 Million Settlement Over Overcharging",
+        "url": "https://www.theguardian.com/us-news/2026/nov/12/family-dollar-overcharging-allegations-settlement",
+        "timestamp": 1794698404000,
+        "photo": true,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "RealClearMarkets: Huang Should Have Fought For His Job",
+        "url": "https://www.realclearmarkets.com/articles/2026/11/14/donald_trump_was_right_jensen_huang_should_have_fought_for_his_job_1216720.html",
+        "timestamp": 1794628200000,
+        "postedAt": 1794746257688
+      }
+    ],
+    "right": [
+      {
+        "headline": "Treasury Finalizes 401(k) Auto-Enrollment Rules To Boost Retirement Savings",
+        "url": "https://www.foxbusiness.com/personal-finance/treasury-irs-401k-auto-enrollment-retirement-savings-rules",
+        "timestamp": 1794924000000,
+        "postedAt": 1794930085827,
+        "image": "/img/markets-7.jpg"
+      },
+      {
+        "headline": "Lisa Cook's Lawyer Signals She Won't Attend Trump Panel's Hearing",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LOXpyMHpxd3NLNHlUNnNSUnpya01JUnkzMGpsblp3NFVyMkpoTXVjeFJodHI1ZUNCVUZhaGJna25LMHI5ZGhucFV1azJxR2NQZG9uUldRcFJKQmRXNmxRQ05kYkZoMldOd2x5TGY2amVtNDJTaDBwdWVwQU54QjDSAYQBQVVfeXFMT2U3MDZuS1JzeTNhcXJVcldVRTJzNHhzYndDVDVxV25ORFRaSkV5ekEyMHBvdTJhdlFPZHN4ZzRRYll4ekdvQnRlOEtqdVpZb2hiLW82VFJ5bEFGM093a18wb1BFZDdFazZLdERXQTMwal9TTU95aUQ2MnlnLTVId2MwWlk3?oc=5",
+        "timestamp": 1794922891000,
+        "photo": true,
+        "postedAt": 1794930085827,
+        "image": "/img/markets-2.jpg"
+      },
+      {
+        "headline": "Trump Admin's $50 Billion FAA Funding Push Hits GOP Resistance",
+        "url": "https://www.cnn.com/2026/11/16/politics/trump-admin-faa-funding-resistance",
+        "timestamp": 1794877440000,
+        "photo": true,
+        "postedAt": 1794930085827
+      },
+      {
+        "headline": "Amazon Loses 40 Leo Satellites As Rocket Fails",
+        "url": "https://www.dw.com/en/rocket-from-boeing-lockheed-firm-fails-mid-flight-destroys-payload-of-amazon-satellites/a-79953931",
+        "timestamp": 1794803381000,
+        "photo": true,
+        "postedAt": 1794832832340
+      },
+      {
+        "headline": "Japan's Economy Contracts Amid Inflation Squeeze",
+        "url": "https://finance.yahoo.com/economy/articles/japan-economy-stalls-inflation-weighs-101413786.html",
+        "timestamp": 1794797640000,
+        "photo": true,
+        "postedAt": 1794832832340
+      },
+      {
+        "headline": "Houthis Take Control Near Bab El-Mandeb As Yemeni Forces Withdraw",
+        "url": "https://www.reuters.com/world/middle-east/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control-2026-11-15/",
+        "timestamp": 1794732022000,
+        "photo": true,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "US Diesel Prices Fall Below $6 A Gallon, 2-Month Low",
+        "url": "https://www.reuters.com/business/energy/us-diesel-below-6-gallon-2-month-low-easing-tensions-weaker-demand-2026-11-15/",
+        "timestamp": 1794705720000,
+        "photo": true,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "PPI Revisions Show 6.5% Inflation, Worst Since 2022",
+        "url": "https://wolfstreet.com/2026/11/13/ppi-inflation-rages-in-the-revisions-businesses-hit-by-6-5-inflation-worst-since-2022/",
+        "timestamp": 1794614267000,
+        "feature": true,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "Delta CEO Says Air Traffic Control Systems Are Decades Outdated",
+        "url": "https://fortune.com/article/delta-ceo-ed-bastian-air-traffic-control-systems-flight-routes-1950s-faa-modernization/",
+        "timestamp": 1794667620000,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "Bahrain Intercepts Iranian Aerial Attacks As Tehran Claims It Struck US Base",
+        "url": "https://www.cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html",
+        "timestamp": 1794736842000,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "Qatar LNG Loadings Climb To Half Of Pre-War Levels",
+        "url": "https://www.zerohedge.com/energy/qatar-lng-loadings-climb-half-pre-war-levels-energy-starved-europe-prays-winter-relief",
+        "timestamp": 1794734208000,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "Bitcoin Slides Toward $60,000 As ETF Outflows, Liquidations Intensify",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-slides-toward-60-000-061035049.html",
+        "timestamp": 1794723000000,
+        "postedAt": 1794746257688
+      },
+      {
+        "headline": "Bitcoin Enters 'Deep Value Zone' As Decline Continues",
+        "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+        "timestamp": 1794708060000,
+        "postedAt": 1794746257688
+      }
+    ]
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7,327.34",
+      "change": "-89.25",
+      "changePct": "-1.20%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Dow",
+      "value": "50,918.83",
+      "change": "-689.34",
+      "changePct": "-1.34%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "24,163.70",
+      "change": "-346.06",
+      "changePct": "-1.41%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "10-Yr",
+      "value": "5.14%",
+      "change": "+0.02",
+      "changePct": "+0.35%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Gold",
+      "value": "$3,870.00",
+      "change": "+17.00",
+      "changePct": "+0.44%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Oil",
+      "value": "$86.56",
+      "change": "+0.84",
+      "changePct": "+0.98%",
+      "up": true,
+      "url": "https://www.wsj.com/market-data"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$64,228.35",
+      "change": "-600.03",
+      "changePct": "-0.93%",
+      "up": false,
+      "url": "https://www.wsj.com/market-data"
+    }
+  ]
+}
