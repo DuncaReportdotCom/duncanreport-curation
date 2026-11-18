@@ -2044,6 +2044,41 @@ def editorial_candidates(per_site=2):
                           "ts": r["ts"], "arc": "editorial"})
     return items
 
+# Offbeat / "man bites dog" feeders for the main page - a reliable odd-news wire plus a few
+# ironic-reversal searches. The point is surprising-but-true stories and counterintuitive reversals
+# (an official pinning a medal on the soldier who yelled at him), not just tabloid "Florida man".
+WEIRD_FEEDS = ["https://rss.upi.com/news/odd_news.rss"]   # UPI Odd News wire
+WEIRD_QUERIES = [
+    "odd OR bizarre OR \"strange but true\" OR unusual OR \"you won't believe\"",
+    "ironic OR \"in an ironic twist\" OR \"you can't make this up\" OR \"much to the surprise\"",
+    "\"world record\" OR \"against all odds\" OR \"caught on camera\" OR \"to everyone's surprise\"",
+]
+
+def weird_candidates(cap=16):
+    """Offbeat, 'man bites dog' human-interest stories for the main page: surprising-but-true
+    oddities and ironic reversals. A reliable odd-news wire (UPI) plus a few ironic-reversal
+    searches, tagged arc='News of the Weird'. []-safe; capped so it SEASONS the page, not floods it."""
+    out, seen = [], set()
+    for u in WEIRD_FEEDS:
+        try:
+            got = _rss_items(ET.fromstring(_fetch_bytes(u, ua=BROWSER_UA, timeout=15)),
+                             10, "UPI", "News of the Weird")
+        except Exception as e:
+            print("    weird feed failed:", str(e)[:70])
+            got = []
+        for r in got:
+            if r["url"] in seen:
+                continue
+            seen.add(r["url"]); out.append(r)
+    for q in WEIRD_QUERIES:
+        for r in news_search(q, cap=6, when_days=4, arc="News of the Weird"):
+            if r["url"] in seen:
+                continue
+            seen.add(r["url"]); out.append(r)
+        if len(out) >= cap:
+            break
+    return out[:cap]
+
 def _islive(title):
     return bool(re.search(r"live updates?|liveblog|live blog|^live[:\s]|: live$", (title or ""), re.I))
 
@@ -2456,6 +2491,286 @@ def trending_candidates(section):
         out.append({k: v for k, v in r.items() if k != "nyt_section"})
     return out
 
+# ----------------------------------------------------------------------------------------------
+# STORY-IMPORTANCE / "HEAT" SIGNALS
+# ----------------------------------------------------------------------------------------------
+# The engine's older importance signals (cross-outlet frequency, memeorandum + NYT-most-popular,
+# narrative clustering) all skew establishment and never directly measure what people are actually
+# searching, discussing, or clicking. These feeds add that: Reddit engagement, Google trending
+# searches, and our OWN readers' click data (GA4). They roll up into a per-candidate `heat` score
+# surfaced to the model, so lead selection is explicitly importance-ranked. EVERY feed is
+# fail-safe: a slow, blocked, or missing source just omits its contribution and never delays or
+# breaks a run.
+
+def _norm_url(u):
+    """Scheme/host/path-only normalized form of a URL, for cross-feed matching."""
+    try:
+        p = urllib.parse.urlparse((u or "").strip())
+        return p.netloc.lower().replace("www.", "") + (p.path or "").rstrip("/").lower()
+    except Exception:
+        return (u or "").strip().lower()
+
+# --- Reddit (engagement: what's drawing discussion/upvotes right now) -------------------------
+REDDIT_SUBS = {
+    "main":         ["politics", "news", "Conservative"],
+    "politics":     ["politics", "Conservative", "moderatepolitics"],
+    "world":        ["worldnews", "geopolitics"],
+    "markets":      ["Economics", "business", "stocks"],
+    "sports":       ["sports", "nfl", "CFB"],
+    "life-culture": ["entertainment", "movies", "science"],
+}
+_REDDIT_CACHE = {}
+_REDDIT_OK = [True]   # flips off after the first block/timeout so one bad IP doesn't stall the run
+_REDDIT_UA = "web:duncanreport.com:v1.0 (news aggregator; contact via duncanreport.com)"
+_REDDIT_TOKEN = [None]   # cached app-only OAuth bearer token (None=untried, ""=unavailable)
+
+def _reddit_token():
+    """App-only (client_credentials) OAuth token. Reddit 403s datacenter IPs on the public .json
+    endpoint, but the OAuth API works from servers. Needs env REDDIT_CLIENT_ID + REDDIT_CLIENT_SECRET
+    (a free Reddit 'script' app - no user account/password). Returns '' if unavailable. []-safe."""
+    if _REDDIT_TOKEN[0] is not None:
+        return _REDDIT_TOKEN[0]
+    cid = os.environ.get("REDDIT_CLIENT_ID")
+    sec = os.environ.get("REDDIT_CLIENT_SECRET")
+    if not cid or not sec:
+        _REDDIT_TOKEN[0] = ""
+        return ""
+    try:
+        import base64
+        auth = base64.b64encode(("%s:%s" % (cid, sec)).encode()).decode()
+        req = urllib.request.Request(
+            "https://www.reddit.com/api/v1/access_token",
+            data=b"grant_type=client_credentials",
+            headers={"Authorization": "Basic %s" % auth, "User-Agent": _REDDIT_UA})
+        with urllib.request.urlopen(req, timeout=8) as r:
+            tok = (json.loads(r.read().decode("utf-8", "ignore")) or {}).get("access_token") or ""
+        _REDDIT_TOKEN[0] = tok
+    except Exception:
+        _REDDIT_TOKEN[0] = ""
+    return _REDDIT_TOKEN[0]
+
+def _reddit_sub(sub):
+    """Top 'hot' external-link posts for one subreddit as [{title,url,score}]. Cached once per run.
+    []-safe; the first failure disables Reddit for the rest of the run (datacenter IPs get blocked)."""
+    if sub in _REDDIT_CACHE:
+        return _REDDIT_CACHE[sub]
+    if not _REDDIT_OK[0]:
+        _REDDIT_CACHE[sub] = []
+        return []
+    out = []
+    try:
+        # Prefer the OAuth API (works from datacenter IPs when app creds are set); fall back to the
+        # public .json endpoint (usually 403s from CI, but free for anyone who skips the app setup).
+        tok = _reddit_token()
+        sq = urllib.parse.quote(sub)
+        if tok:
+            req = urllib.request.Request(
+                "https://oauth.reddit.com/r/%s/hot?limit=25&raw_json=1" % sq,
+                headers={"Authorization": "bearer %s" % tok, "User-Agent": _REDDIT_UA})
+            with urllib.request.urlopen(req, timeout=8) as r:
+                obj = json.loads(r.read().decode("utf-8", "ignore") or "{}")
+        else:
+            u = "https://www.reddit.com/r/%s/hot.json?limit=25&raw_json=1" % sq
+            obj = json.loads(_fetch_bytes(u, ua=_REDDIT_UA, timeout=8).decode("utf-8", "ignore") or "{}")
+        for ch in (obj.get("data", {}).get("children") or []):
+            d = ch.get("data") or {}
+            if d.get("stickied") or d.get("is_self"):
+                continue
+            title = (d.get("title") or "").strip()
+            link = (d.get("url_overridden_by_dest") or d.get("url") or "").strip()
+            if title and link.startswith("http") and "reddit.com" not in link:
+                out.append({"title": unescape(title), "url": link, "score": int(d.get("score") or 0)})
+    except Exception:
+        _REDDIT_OK[0] = False   # Reddit is blocking/timing out on this IP; stop hammering it
+        out = []
+    _REDDIT_CACHE[sub] = out
+    return out
+
+def reddit_signal(section):
+    """This section's Reddit engagement: a normalized-URL set and scored title signatures."""
+    posts = []
+    for sub in REDDIT_SUBS.get(section, REDDIT_SUBS["main"]):
+        posts += _reddit_sub(sub)
+    urls = set(_norm_url(p["url"]) for p in posts)
+    sigs = [(_heat_sig(p["title"]), p["score"]) for p in posts if p["title"]]
+    return urls, sigs
+
+# --- Google Trends (search demand: what people are actively searching) ------------------------
+_TRENDS_CACHE = [None]
+
+def google_trends():
+    """US trending-search terms (Google Trends RSS) as _sig() signatures. Best-effort: short
+    timeout, []-safe - a slow or blocked Trends endpoint never delays a run."""
+    if _TRENDS_CACHE[0] is not None:
+        return _TRENDS_CACHE[0]
+    sigs = []
+    try:
+        root = ET.fromstring(_fetch_bytes(
+            "https://trends.google.com/trending/rss?geo=US", ua=BROWSER_UA, timeout=10))
+        for it in root.iter("item"):
+            t = (it.findtext("title") or "").strip()
+            if t:
+                sigs.append(_heat_sig(t))
+    except Exception:
+        sigs = []
+    _TRENDS_CACHE[0] = sigs
+    return sigs
+
+# --- GA4 (our OWN readers: which outbound stories they actually clicked) -----------------------
+# Dormant until the user sets BOTH env secrets: GA4_PROPERTY_ID (the numeric property id) and
+# GA4_CREDENTIALS_JSON (a service-account key - raw JSON or a path to the file). Also requires the
+# google-analytics-data package (add it to the pip install line in publish.yml). Reads GA4's
+# enhanced-measurement outbound 'click' events (dimension linkUrl) over the last few days, i.e. the
+# exact story links our readers chose. No-op (returns empty) without the secrets or the package.
+_GA4_CACHE = [None]
+
+def ga4_signal():
+    """(url_set, [(slug_sig, clicks)]) of the stories OUR readers clicked most recently. []-safe."""
+    if _GA4_CACHE[0] is not None:
+        return _GA4_CACHE[0]
+    empty = (set(), [])
+    prop = os.environ.get("GA4_PROPERTY_ID")
+    cred = os.environ.get("GA4_CREDENTIALS_JSON")
+    if not prop or not cred:
+        _GA4_CACHE[0] = empty
+        return empty
+    try:
+        from google.analytics.data_v1beta import BetaAnalyticsDataClient
+        from google.analytics.data_v1beta.types import (
+            RunReportRequest, Dimension, Metric, DateRange, Filter, FilterExpression)
+        from google.oauth2 import service_account
+        info = json.loads(cred) if cred.strip().startswith("{") else json.load(open(cred))
+        creds = service_account.Credentials.from_service_account_info(
+            info, scopes=["https://www.googleapis.com/auth/analytics.readonly"])
+        client = BetaAnalyticsDataClient(credentials=creds)
+        resp = client.run_report(RunReportRequest(
+            property="properties/%s" % prop,
+            dimensions=[Dimension(name="linkUrl")],
+            metrics=[Metric(name="eventCount")],
+            date_ranges=[DateRange(start_date="3daysAgo", end_date="today")],
+            dimension_filter=FilterExpression(filter=Filter(
+                field_name="eventName",
+                string_filter=Filter.StringFilter(value="click"))),
+            limit=100))
+        urls, sigs = set(), []
+        for row in resp.rows:
+            u = row.dimension_values[0].value
+            cnt = int(row.metric_values[0].value or 0)
+            if not u or not u.startswith("http"):
+                continue
+            urls.add(_norm_url(u))
+            slug = (urllib.parse.urlparse(u).path or "").replace("-", " ").replace("/", " ")
+            sigs.append((_heat_sig(slug), cnt))
+        out = (urls, sigs)
+    except Exception as e:
+        print("    ga4 signal unavailable (%s)" % str(e)[:90])
+        out = empty
+    _GA4_CACHE[0] = out
+    return out
+
+def _heat_sig(text):
+    """Signature for heat matching: _sig() PLUS short ALL-CAPS acronyms (NFL, GOP, FBI, CFB, UFC,
+    GDP...) that _sig drops for being <=3 chars. Those acronyms are exactly the distinctive tokens
+    that decide whether a trending/engagement item is the SAME subject, so heat keeps them."""
+    sig = set(_sig(text))
+    for tok in re.findall(r"\b[A-Z]{2,4}\b", text or ""):
+        low = tok.lower()
+        if low not in _STOP:
+            sig.add(low)
+    return sig
+
+def compute_heat(cands, section):
+    """Attach an integer c['heat'] (0-100) to every candidate: a composite importance estimate from
+    (a) cross-outlet frequency inside the live pool, (b) presence on the trending/most-read feeds,
+    and (c) live engagement - Reddit discussion, Google trending searches, and our own GA4 reader
+    clicks. Surfaced to the model so lead selection is importance-ranked. Fully fail-safe: any feed
+    error just omits its contribution, and heat defaults to 0 - it can never break a run."""
+    try:
+        red_urls, red_sigs = reddit_signal(section)
+    except Exception:
+        red_urls, red_sigs = set(), []
+    try:
+        tr_sigs = google_trends()
+    except Exception:
+        tr_sigs = []
+    try:
+        ga_urls, ga_sigs = ga4_signal()
+    except Exception:
+        ga_urls, ga_sigs = set(), []
+
+    csigs = [_heat_sig(c.get("title", "")) for c in cands]
+
+    # (a) cross-outlet frequency: how many DISTINCT outlets in the pool cover the same subject.
+    # LEAN-AWARE on the political pages: the candidate pool skews establishment/left, so a story the
+    # RIGHT (or LEFT) is covering heavily looks under-covered by a raw outlet count. So we count each
+    # side separately and let heavy coverage by EITHER side alone trigger major-story heat - one side
+    # going big on a story is enough, even if the other side ignores it. (The 50/50 balance + both-
+    # sides rules then ensure we actually cover it from both perspectives.)
+    lean_aware = section in ("main", "politics", "world")
+    def _freq_points(total, oneside):
+        # ABSOLUTE frequency points (0..40), so importance does NOT depend on whichever story the
+        # lopsided pool happens to cover most. Broad cross-outlet coverage scores on `total`; on the
+        # political pages, heavy coverage by a SINGLE side scores on `oneside` INDEPENDENTLY - so a
+        # right-driven story carried by 3-4 right outlets reads as MAJOR even if the left ignores it
+        # (and vice-versa), instead of being halved by the left-heavy pool.
+        pts = min(40, total * 7)                    # 1->7, 2->14, ... 6+->40
+        if lean_aware and oneside >= 2:
+            pts = max(pts, 40 if oneside >= 3 else 28)   # one side heavy = major on its own
+        return pts
+    freqs = []
+    for i, c in enumerate(cands):
+        si = csigs[i]
+        leans = {}   # distinct domain -> its lean ('L'/'R'/'ind'/None)
+        if si:
+            own = _regdom(c.get("url", ""))
+            if own:
+                leans[own] = _story_lean(c.get("url", ""))
+            for j, cj in enumerate(cands):
+                if i == j:
+                    continue
+                sj = csigs[j]
+                inter = len(si & sj)
+                if inter >= 3 or (inter >= 2 and inter / max(1, min(len(si), len(sj))) >= 0.5):
+                    d = _regdom(cj.get("url", ""))
+                    if d:
+                        leans.setdefault(d, _story_lean(cj.get("url", "")))
+        total = len(leans)
+        oneside = max(sum(1 for v in leans.values() if v == "L"),
+                      sum(1 for v in leans.values() if v == "R")) if leans else 0
+        freqs.append(_freq_points(total, oneside))
+
+    for i, c in enumerate(cands):
+        si = csigs[i]
+        heat = 0
+        heat += freqs[i]                                  # (a) frequency -> 0..40 (absolute points)
+        if c.get("arc") == "Trending":                    # (b) already on an attention feed -> +20
+            heat += 20
+        nu = _norm_url(c.get("url", ""))
+        if nu and nu in red_urls:                         # (c1) Reddit, by URL
+            heat += 25
+        elif si:                                          #      or by title match, scaled by upvotes
+            best = 0
+            for rsig, rscore in red_sigs:
+                inter = len(si & rsig)
+                if rsig and inter >= 2 and inter / max(1, min(len(si), len(rsig))) >= 0.5:
+                    best = max(best, 10 + min(15, rscore // 2000))
+            heat += best
+        if si:                                            # (c2) Google trending searches -> +15
+            for tsig in tr_sigs:
+                # a 1-2 word trend (usually a name/place) counts on a single distinctive overlap;
+                # longer trend phrases need a 2-word overlap to avoid spurious matches
+                if tsig and (len(tsig & si) >= 2 or (len(tsig) <= 2 and (tsig & si))):
+                    heat += 15
+                    break
+        if nu and nu in ga_urls:                          # (c3) our readers clicked this exact story
+            heat += 20
+        elif si:                                          #      or clicked a very similar one
+            for gsig, _gc in ga_sigs:
+                if gsig and len(gsig & si) >= 2:
+                    heat += 10
+                    break
+        c["heat"] = min(100, heat)
+
 def curate_live(section):
     from anthropic import Anthropic
     client = Anthropic()
@@ -2469,8 +2784,9 @@ def curate_live(section):
     realclear = realclear_candidates(section)
     editorials = editorial_candidates() if section == "main" else []
     ntb = notthebee_pick(section) if section == "main" else []
+    weird = weird_candidates() if section == "main" else []   # 'man bites dog' seasoning for main
     cands, seen = [], set()
-    for c in (trending[:40] + tops[:26] + ntb + realclear[:18] + editorials[:24] + drudge[:28] + arcs[:45] + breaking[:45]):
+    for c in (trending[:40] + tops[:26] + ntb + weird[:16] + realclear[:18] + editorials[:24] + drudge[:28] + arcs[:45] + breaking[:45]):
         if c["url"] in seen:
             continue
         seen.add(c["url"])
@@ -2489,7 +2805,7 @@ def curate_live(section):
         "pool=%d | topheadlines=%d outletcrawl=%d narratives=%d trending=%d(memeo=%d,nyt=%d) realclear=%d%s"
         % (len(cands), len(tops), len(breaking), len(arcs), len(trending),
            len(trending) - _tr_nyt, _tr_nyt, len(realclear),
-           (" drudge=%d editorials=%d notthebee=%d" % (len(drudge), len(editorials), len(ntb))
+           (" drudge=%d editorials=%d notthebee=%d weird=%d" % (len(drudge), len(editorials), len(ntb), len(weird))
             if section == "main" else "")))
     print("  sources[%s]: %s" % (section, STATUS["_src_" + section]))
     # Coverage-driven narrative detection: cluster the live pool by subject and
@@ -2502,6 +2818,19 @@ def curate_live(section):
         lab = id2cluster.get(i)
         if lab and c.get("arc", "breaking") == "breaking":
             c["arc"] = lab
+    # Attach a per-candidate importance/"heat" score (cross-outlet frequency + trending feeds +
+    # Reddit/Google-Trends/GA4 engagement). Surfaced in the candidate JSON so lead selection is
+    # importance-ranked. Fully fail-safe - never delays or breaks a run.
+    try:
+        compute_heat(cands, section)
+    except Exception as e:
+        print("    heat scoring skipped (%s)" % str(e)[:80])
+        for c in cands:
+            c.setdefault("heat", 0)
+    _hot = sorted((c.get("heat", 0) for c in cands), reverse=True)[:5]
+    STATUS["_heat_" + section] = "top heat: %s | reddit=%s trends=%d" % (
+        _hot, "on" if _REDDIT_OK[0] else "blocked", len(_TRENDS_CACHE[0] or []))
+    print("  heat[%s]: %s" % (section, STATUS["_heat_" + section]))
     # by_id and the candidate JSON are (re)built per attempt in the curation loop below, so the
     # pool can shrink on a retry. Nothing outside that loop needs them here.
     today = datetime.date.today().isoformat()
@@ -2596,8 +2925,9 @@ def curate_live(section):
             "concrete development, NEVER a generic section front, topic hub, or 'live results/coverage' "
             "landing page (e.g. a '/politics/2026-primary-elections/national' index). If the best candidate "
             "for a subject is only a hub page, pick a real article about the latest development instead.\n"
-            "- ODDITY: reserve at least 2-3 slots for offbeat, human-interest, crime-weird, celebrity, "
-            "or science/religion curiosities - the surprising picks that give the page personality.\n"
+            "- ODDITY: reserve several slots for offbeat, human-interest, crime-weird, celebrity, or "
+            "science/religion curiosities - the surprising picks that give the page personality. "
+            "Candidates tagged arc='News of the Weird' are a dedicated odd-news feed; draw on them.\n"
             "- JUXTAPOSITION: deliberately vary tone and subject between adjacent items.\n"
             "- SOURCING: welcome tabloid, foreign, and niche outlets alongside wire and mainstream.\n"
             "- HAND-PICKED: candidates tagged \"Editor's pick\" come from a veteran human editor's "
@@ -2677,6 +3007,66 @@ def curate_live(section):
             "ones; when in doubt, go deeper on what's hot rather than wider. This does NOT lower the "
             "accuracy, attribution, or both-sides bar - 'spicy' means consequential and genuinely "
             "talked-about, never fabricated, misleading, clickbait, or one-sided.\n")
+    editorial += (
+        "\n\n===== STORY HEAT SCORE (importance signal - use it) =====\n"
+        "Every candidate carries a \"heat\" value from 0-100: an automated estimate of how much real "
+        "ATTENTION the story is drawing RIGHT NOW, combining (a) how many different outlets are "
+        "covering it, (b) whether it is on the trending / most-read feeds, and (c) live engagement - "
+        "Reddit discussion volume, Google trending searches, and our OWN readers' click data. Treat "
+        "heat as a strong IMPORTANCE signal: the hero and the top-of-page stories should skew toward "
+        "the HIGHEST-heat stories that fit this section, and a very high-heat story must not be buried "
+        "or omitted. Heat is a GUIDE, not a dictator - never promote low-quality clickbait, slop, or a "
+        "one-sided account just because its heat is high (the accuracy, attribution, and both-sides "
+        "rules still bind), and still honor BREADTH and the oddity slots. But between two comparable "
+        "stories, prefer the HIGHER-heat one, and never lead with a low-heat story when a high-heat one "
+        "of real substance is available.\n"
+        "- COVERAGE DEPTH FOLLOWS HEAT (allocate the page by importance): concentrate the page's DEPTH "
+        "on the handful of genuinely MAJOR stories - roughly the top 3-5 highest-heat subjects that fit "
+        "this section. Those majors earn the real estate: build them into DEEP panels (more stories from "
+        "DIFFERENT outlets and both sides, more sublinks, prominent placement) so a big story looks big. "
+        "The long tail of lower-heat stories should get LESS space, not equal space - cover each minor "
+        "item with a SINGLE column link, and drop the weakest rather than giving a forgettable story its "
+        "own panel or multiple links. This is a DELIBERATE SHIFT toward the majors and slightly AWAY from "
+        "minor coverage - do NOT inflate a low-heat story with extra links just to fill the page. "
+        "IMPORTANT LIMITS: this depth emphasis applies ONLY to the major stories - do NOT try to rank or "
+        "fine-tune every single item by heat; below the majors, order by normal news judgment. Still "
+        "COVER THE MAJORS (never drop a story the big outlets are all leading with), still keep the 2-3 "
+        "ODDITY / personality slots (those are intentional flavor, not low-value filler), and still hold "
+        "the balance and both-sides rules. The goal is simply: big stories deeper, minor stories "
+        "lighter.\n")
+    if section == "main":
+        editorial += (
+            "\n\n===== 'MAN BITES DOG' - MUCH MORE NEWS OF THE WEIRD =====\n"
+            "The main page should carry a HEALTHY dose of 'man bites dog' stories - the offbeat, "
+            "ironic, surprising-but-true items that make a reader stop and go 'wait, what?'. Aim for "
+            "ROUGHLY 4-6 such stories across the page (up from the old 2-3), woven through the columns - "
+            "not buried at the very bottom. What qualifies: a genuine REVERSAL of what you'd expect "
+            "(the gold standard example: a Defense Secretary pinning a medal on the very soldier who "
+            "yelled at him); an absurd or ironic twist in real news; a jaw-dropping record or feat; a "
+            "'you can't make this up' human-interest oddity; weird crime; a bizarre science, animal, or "
+            "religion curiosity. Candidates tagged arc='News of the Weird' are a dedicated odd-news feed "
+            "- mine them, AND flag the man-bites-dog angle in ordinary breaking stories too (an ironic "
+            "outcome inside a normal news item counts). QUALITY BAR: these must be REAL, sourced stories "
+            "that are actually surprising - not slop, not clickbait, not manufactured outrage, and not "
+            "every 'Florida man' triviality. Pick the ones that are genuinely delightful or astonishing. "
+            "Several of these are strong PHOTO candidates - a vivid, odd image is exactly the kind that "
+            "breaks up the page, so flag the best as \"photo\": true. This is additive COLOR; it does NOT "
+            "displace the day's major hard-news coverage - it rounds the page out.\n")
+    if section in ("main", "politics", "world"):
+        editorial += (
+            "\n\n===== ONE-SIDED COVERAGE IS STILL A MAJOR STORY (bias-aware importance) =====\n"
+            "Our candidate pool skews establishment/left, so a story that ONE side is covering heavily "
+            "while the other largely ignores it can look minor by raw outlet count - it is NOT minor. If "
+            "EITHER the left-leaning outlets OR the right-leaning outlets are covering a story heavily "
+            "(several of that side's outlets on it), treat it as a MAJOR story and give it real coverage - "
+            "do NOT bury or skip it just because the other side is silent. The classic failure is a story "
+            "the RIGHT is driving hard (an Omar-type controversy, an election-integrity fight) that our "
+            "left-heavy pool makes look small; surface it anyway. The heat score already boosts single-"
+            "side intensity on these pages - trust it. THEN HOLD 50/50: covering a one-sided story does "
+            "NOT mean adopting that side's framing. Report it, but actively pull in the OTHER side's "
+            "response, rebuttal, denial, or the independent / fact-check take (per BOTH SIDES), and keep "
+            "the whole page's left/right source split as close to 50/50 as the pool allows. The rule: one "
+            "side's heavy coverage TRIGGERS the story; both sides' framing SHAPES how we cover it.\n")
     if section in ("main", "politics", "world"):
         editorial += (
             "\n\n===== BOTH SIDES - LET THE READER DECIDE (the core mission) =====\n"
@@ -2866,7 +3256,8 @@ def curate_live(section):
     # The FIRST attempt uses the full pool (normal runs are unchanged); only failures shrink it.
     def _cand_json_for(pool):
         return json.dumps([{"id": "c%d" % i, "title": c["title"], "source": c["source"],
-                            "ts": c["ts"], "arc": c.get("arc", "breaking"), "live": bool(c.get("live"))}
+                            "ts": c["ts"], "arc": c.get("arc", "breaking"), "live": bool(c.get("live")),
+                            "heat": int(c.get("heat", 0))}
                            for i, c in enumerate(pool)], ensure_ascii=False)
     full = len(cands)
     pool_sizes = sorted({n for n in (full, 90, 55, 35) if n <= full}, reverse=True) or [full]
@@ -3453,21 +3844,29 @@ def resolve_source_links(data):
 
 
 def decode_gnews(gn_url):
-    """Resolve a Google News redirect link to the real article URL."""
-    page = _fetch_bytes(gn_url).decode("utf-8", "ignore")
-    sg = re.search(r'data-n-a-sg="([^"]+)"', page)
-    ts = re.search(r'data-n-a-ts="([^"]+)"', page)
-    if not (sg and ts):
+    """Resolve a Google News redirect link to the real article URL. Returns None on ANY failure -
+    including an HTTP 429 rate-limit from a shared CI IP. This MUST never raise: it is called deep
+    inside the paywall-replacement pass during build(), and an unguarded fetch error here once took
+    down a whole run (Google 429'd late in the crawl, the exception propagated up through
+    replace_paywalled -> build, and status.json was never written)."""
+    try:
+        page = _fetch_bytes(gn_url).decode("utf-8", "ignore")
+        sg = re.search(r'data-n-a-sg="([^"]+)"', page)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+        if not (sg and ts):
+            return None
+        art = gn_url.split("/articles/")[1].split("?")[0]
+        inner = json.dumps(["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1,
+                None, None, None, None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+                art, int(ts.group(1)), sg.group(1)])
+        body = urllib.parse.urlencode({"f.req": json.dumps([[["Fbv4je", inner, None, "generic"]]])}).encode()
+        resp = _fetch_bytes("https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
+                            data=body).decode("utf-8", "ignore")
+        m = re.search(r'(https?://[^"\\]+)', resp.split("garturlres", 1)[-1])
+        return m.group(1) if m else None
+    except Exception as e:
+        print("    decode_gnews failed (%s); skipping this link" % str(e)[:70])
         return None
-    art = gn_url.split("/articles/")[1].split("?")[0]
-    inner = json.dumps(["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1,
-            None, None, None, None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
-            art, int(ts.group(1)), sg.group(1)])
-    body = urllib.parse.urlencode({"f.req": json.dumps([[["Fbv4je", inner, None, "generic"]]])}).encode()
-    resp = _fetch_bytes("https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
-                        data=body).decode("utf-8", "ignore")
-    m = re.search(r'(https?://[^"\\]+)', resp.split("garturlres", 1)[-1])
-    return m.group(1) if m else None
 
 def og_image_url(article_url, timeout=9):
     """Pull the article's og:image / twitter:image URL."""
@@ -3740,6 +4139,16 @@ def sports_emphasis():
             "niche competitions - are NOT hero material even for their title games; a WNBA championship must "
             "NEVER lead over a big college-football or NFL weekend. Lead with the sport and the specific "
             "game or story the most fans are actually watching and talking about.\n"
+            "FOOTBALL-SEASON HERO RULE: from September through the Super Bowl, the sports HERO must be an "
+            "NFL or COLLEGE FOOTBALL story whenever one of real interest is available (a marquee game and "
+            "its result, a playoff or title-race development, a major injury or trade with playoff stakes) - "
+            "and one is available almost every day in season. SOCCER (MLS and international / Premier League "
+            "/ Champions League) and other LOW-US-AUDIENCE sports must NOT take the hero over available NFL "
+            "or college-football news - NOT even a big transfer or a national-team COACHING change (e.g. a "
+            "USMNT coach leaving for a European club is NOT a hero over NFL). Foreign soccer earns the hero "
+            "ONLY for a genuine once-in-years global peak actively underway (a World Cup knockout/final, the "
+            "Olympics) - never routine transfer or coaching news. Judge the lead by actual US AUDIENCE, not "
+            "global buzz.\n"
             "Lead the page with sports that are IN SEASON or in training camp; give OFFSEASON "
             "leagues only MAJOR news (big trades, signings, firings, injuries, retirements) and never "
             "fill the page with offseason speculation or mock drafts. Priority order for %s, highest "
@@ -4789,32 +5198,39 @@ def replace_paywalled(data, cap=16, gift_store=None, live_cap=25):
     n = [0]
     lv = [0]
     def keep(s, is_hero=False):
-        u = s.get("url")
-        if not u:
-            return True
-        walled = _is_paywalled(u)
-        if not walled and not _has_gift_token(u) and lv[0] < live_cap:
-            # INDIVIDUAL VERIFICATION: for a body story NOT on the static paywall list, fetch the
-            # article and treat it as walled ONLY if the page CONFIRMS a paywall (schema.org
-            # isAccessibleForFree:false, a subscribe gate, etc.). Fail OPEN on anything we can't
-            # read, so a genuinely free story is never dropped by mistake. Budgeted by live_cap.
-            lv[0] += 1
-            if _confirm_free_article(u, timeout=6) is False:
-                walled = True
-        if not walled:
-            return True
-        gift = _saved_gift_link(u, gift_store)
-        if gift:
-            s["url"] = gift           # read-through gift link for this same article
-            return True
-        if n[0] >= cap:
-            return is_hero            # over budget: keep hero, drop body (no search)
-        n[0] += 1
-        alt = _find_free_alternative(s.get("headline") or s.get("text"))
-        if alt:
-            s["url"] = alt
-            return True
-        return is_hero                # no free version: keep hero, drop the body story
+        # Whole body guarded: the paywall swap does live fetches (article reads, Google News
+        # decoding) that can fail late in a run (e.g. a 429 rate-limit on the shared CI IP). A
+        # failure here must NEVER crash the build - fall back to keeping the story's original link.
+        try:
+            u = s.get("url")
+            if not u:
+                return True
+            walled = _is_paywalled(u)
+            if not walled and not _has_gift_token(u) and lv[0] < live_cap:
+                # INDIVIDUAL VERIFICATION: for a body story NOT on the static paywall list, fetch the
+                # article and treat it as walled ONLY if the page CONFIRMS a paywall (schema.org
+                # isAccessibleForFree:false, a subscribe gate, etc.). Fail OPEN on anything we can't
+                # read, so a genuinely free story is never dropped by mistake. Budgeted by live_cap.
+                lv[0] += 1
+                if _confirm_free_article(u, timeout=6) is False:
+                    walled = True
+            if not walled:
+                return True
+            gift = _saved_gift_link(u, gift_store)
+            if gift:
+                s["url"] = gift           # read-through gift link for this same article
+                return True
+            if n[0] >= cap:
+                return is_hero            # over budget: keep hero, drop body (no search)
+            n[0] += 1
+            alt = _find_free_alternative(s.get("headline") or s.get("text"))
+            if alt:
+                s["url"] = alt
+                return True
+            return is_hero                # no free version: keep hero, drop the body story
+        except Exception as e:
+            print("    paywall check skipped for a story (%s)" % str(e)[:70])
+            return True                   # keep the original link rather than crash the run
     hero = data.get("hero") or {}
     hu = hero.get("url")
     # The lead must never be a wall. Reject it if it's a known paywall DOMAIN, or if a live READ of
