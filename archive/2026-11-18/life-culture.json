@@ -1,14 +1,37 @@
 {
-  "lastUpdated": 1794931353316,
-  "heroSetDate": "2026-11-17",
+  "lastUpdated": 1795032752245,
+  "heroSetDate": "2026-11-18",
   "hero": {
-    "headline": "A SIMPLE SALT UPGRADE COULD SAVE 3 MILLION LIVES A YEAR, SCIENTISTS SAY",
-    "url": "https://www.realclearscience.com/blog/2026/11/16/a_simple_upgrade_to_table_salt_could_save_3_million_lives_a_year_1216082.html",
+    "headline": "Birria Pa La Cruda Brings New Depth To El Sereno's Birria Scene",
+    "url": "https://la.eater.com/dining-report/308537/birria-pa-la-cruda-review",
     "sublinks": [],
-    "postedAt": 1794931353316,
+    "postedAt": 1795032752245,
     "img": true
   },
   "groups": [
+    {
+      "title": "THE JAMES BOND CASTING SAGA",
+      "stories": [
+        {
+          "headline": "Analysts Say Robert Pattinson Will Make Bond 'Dangerous Again'",
+          "url": "https://www.spiked-online.com/2026/11/18/robert-pattinson-will-make-bond-dangerous-again/",
+          "timestamp": 1795030340000,
+          "postedAt": 1795032752245
+        },
+        {
+          "headline": "Brad Pitt Says He Wants To Play A James Bond Villain",
+          "url": "https://www.esquire.com/entertainment/movies/a74467580/brad-pitt-james-bond-villain/",
+          "timestamp": 1795028220000,
+          "postedAt": 1795032752245
+        },
+        {
+          "headline": "Josh O'Connor Was Bond Front-Runner Before Pulling Out, Report Says",
+          "url": "https://www.theguardian.com/film/2026/nov/18/james-bond-josh-oconnor-robert-pattinson-denis-villeneuve",
+          "timestamp": 1795027500000,
+          "postedAt": 1795032752245
+        }
+      ]
+    },
     {
       "title": "'THE FANTASTICKS' BROADWAY DEBUT",
       "stories": [
@@ -40,18 +63,54 @@
           "url": "https://www.billboard.com/lists/2026-rock-roll-hall-fame-ceremony-recap-best-moments/",
           "timestamp": 1794788223000,
           "postedAt": 1794834198319
-        },
-        {
-          "headline": "Phil Collins Tells Rock Hall Crowd 'You Haven't Heard The Last From Me'",
-          "url": "https://consequence.net/2026/11/phil-collins-rock-hall-induction-solo-artist/",
-          "timestamp": 1794718072000,
-          "postedAt": 1794747487813
         }
       ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "A SIMPLE SALT UPGRADE COULD SAVE 3 MILLION LIVES A YEAR, SCIENTISTS SAY",
+        "url": "https://www.realclearscience.com/blog/2026/11/16/a_simple_upgrade_to_table_salt_could_save_3_million_lives_a_year_1216082.html",
+        "timestamp": 1794931353316,
+        "postedAt": 1794931353316
+      },
+      {
+        "headline": "Medieval Manuscript Imagined Floods And Comets As Apocalyptic Omens",
+        "url": "https://www.smithsonianmag.com/smart-news/medieval-readers-saw-floods-plagues-and-comets-as-omens-of-doom-so-they-created-a-mysterious-manuscript-of-apocalyptic-artworks-to-peruse-at-will-180989891/",
+        "timestamp": 1795028016000,
+        "photo": true,
+        "postedAt": 1795032752245,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "Scientists Find Chimpanzee Tool Use Farther South In Africa Than Ever Documented",
+        "url": "https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/26867/Scientists-Discover-Chimpanzee-Tool-Use-Farther-South-in-Africa-Than-Ever-Previously-Documented.aspx",
+        "timestamp": 1795023040000,
+        "photo": true,
+        "postedAt": 1795032752245
+      },
+      {
+        "headline": "Florence Pugh Denies Plastic Surgery Claims, Calls Video 'Disturbing'",
+        "url": "https://variety.com/2026/film/news/florence-pugh-plastic-surgery-claims-face-shape-change-1236951789/",
+        "timestamp": 1795014600000,
+        "photo": true,
+        "postedAt": 1795032752245
+      },
+      {
+        "headline": "Can Peter Rice Fix Netflix? New Content Boss Faces Daunting To-Do List",
+        "url": "https://tvnewscheck.com/business/article/can-peter-rice-fix-netflix-new-content-boss-has-a-daunting-to-do-list/",
+        "timestamp": 1795007270000,
+        "postedAt": 1795032752245
+      },
+      {
+        "headline": "Jewish Heirs Settle Claim Over $180 Million Van Gogh Ahead Of Sale",
+        "url": "https://www.artnews.com/art-news/market/sothebys-van-gogh-restitution-settlement-fischer-heirs-1234806294/",
+        "timestamp": 1794930450000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1795032752245
+      },
       {
         "headline": "Kalshi Moves Into New Kind Of Gambling: The Stock Market",
         "url": "https://www.theverge.com/business/1035366/kalshi-stock-trading",
@@ -70,22 +129,21 @@
         "headline": "Uber And Zipline's Drone Delivery Takes Off In Texas, Dozens Of Cities Next",
         "url": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/",
         "timestamp": 1794928026000,
-        "postedAt": 1794931353316,
-        "image": "/img/life-culture-5.jpg"
+        "postedAt": 1794931353316
       },
       {
         "headline": "Tokyo-Style Pizzaiolo Brings His Pies To Miami Beach",
-        "url": "https://robbreport.com/food-drink/dining/royale-pizza-napoletana-miami-japanese-pizza-1238759900/",
+        "url": "https://secretmiami.com/miamis-first-tokyo-style-neapolitan-pizzeria-opens/",
         "timestamp": 1794927600000,
         "photo": true,
-        "postedAt": 1794931353316
+        "postedAt": 1794931353316,
+        "image": "/img/life-culture-7.jpg"
       },
       {
         "headline": "Why Viking's Adults-Only Cruises Appeal To The Over-50 Crowd",
         "url": "https://thepointsguy.com/cruise/viking-cruises-adult-appeal/",
         "timestamp": 1794926459000,
-        "postedAt": 1794931353316,
-        "image": "/img/life-culture-7.jpg"
+        "postedAt": 1794931353316
       },
       {
         "headline": "Sand Dunes Can Reveal Wind Speeds On Earth And Beyond, Scientists Find",
@@ -112,8 +170,7 @@
         "url": "https://www.smithsonianmag.com/science-nature/brazil-beautiful-blue-bird-star-animated-hit-rio-real-life-bringing-species-back-from-brink-180989841/",
         "timestamp": 1794830400000,
         "photo": true,
-        "postedAt": 1794834198319,
-        "image": "/img/life-culture-4.jpg"
+        "postedAt": 1794834198319
       },
       {
         "headline": "How A Texas Community Transformed A Former Klan Headquarters",
@@ -134,34 +191,50 @@
         "timestamp": 1794798000000,
         "photo": true,
         "postedAt": 1794834198319
-      },
-      {
-        "headline": "Gen Z's Identity Crisis, Examined",
-        "url": "https://www.spiked-online.com/2026/11/15/gen-zs-identity-crisis/",
-        "timestamp": 1794740146000,
-        "postedAt": 1794747487813
-      },
-      {
-        "headline": "Death Is Driving Americans Into Debt, Report Finds",
-        "url": "https://www.usatoday.com/story/money/personal-finance/2026/11/15/funeral-cremation-costs-rising-inflation-debt-probate/92729380007/",
-        "timestamp": 1794736920000,
-        "postedAt": 1794747487813
-      },
-      {
-        "headline": "Johnny Depp's 'Ebenezer' Conjures Box Office Win In Studio Return",
-        "url": "https://www.hollywoodreporter.com/movies/movie-news/johnny-depp-ebenezer-box-office-opening-how-to-rob-bank-1236755417/",
-        "timestamp": 1794689547000,
-        "photo": true,
-        "postedAt": 1794747487813
-      },
-      {
-        "headline": "UCLA Researchers Find New Approach To Treating Autism-Linked Gene Disorders",
-        "url": "https://www.uclahealth.org/news/release/ucla-researchers-discover-new-approach-treating-autism-and",
-        "timestamp": 1794589071000,
-        "postedAt": 1794747487813
       }
     ],
     "center": [
+      {
+        "headline": "Michelin Guide Adds 12 More NYC Restaurants Ahead Of December Awards",
+        "url": "https://ny.eater.com/news/414985/michelin-guide-new-york-additions-2026-bib-gourmands-michelin-recommendations",
+        "timestamp": 1795029975000,
+        "postedAt": 1795032752245
+      },
+      {
+        "headline": "New Exhibition Traces Path From Penicillin To Polio Vaccine",
+        "url": "https://www.smithsonianmag.com/smithsonian-institution/from-penicillin-to-the-polio-vaccine-a-new-exhibition-reveals-how-far-weve-come-with-lifesaving-medical-innovations-and-how-much-further-we-have-to-go-180989892/",
+        "timestamp": 1795027501000,
+        "photo": true,
+        "postedAt": 1795032752245,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "Julio Iglesias Faces Court Investigation Over Alleged Sexual Offenses",
+        "url": "https://www.bbc.com/news/articles/c6x284pnn4e2o",
+        "timestamp": 1795019596000,
+        "photo": true,
+        "postedAt": 1795032752245
+      },
+      {
+        "headline": "'Last Human Election': Doomer AI Prediction Fizzles Again",
+        "url": "https://www.realclearscience.com/articles/2026/11/18/the_last_human_election_a_doomer_ai_prediction_fizzles_again_1217269.html",
+        "timestamp": 1794968038000,
+        "postedAt": 1795032752245
+      },
+      {
+        "headline": "Prada's New Milan Exhibition Turns A Century Of Fashion Into Fresh Discoveries",
+        "url": "https://www.orlandosentinel.com/2026/11/17/italy-pradasphere-exhibition/",
+        "timestamp": 1794930313000,
+        "photo": true,
+        "postedAt": 1795032752245,
+        "image": "/img/life-culture-4.jpg"
+      },
+      {
+        "headline": "MIT Scientists Find Surprising Way To Boost Brain's Nighttime Cleaning System",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
+        "timestamp": 1794793305000,
+        "postedAt": 1795032752245
+      },
       {
         "headline": "The Mystery Of The Lost Michael Jackson Tapes",
         "url": "https://www.rollingstone.com/music/music-features/lost-michael-jackson-tapes-jacksons-1235652078/",
@@ -171,7 +244,7 @@
       },
       {
         "headline": "Techno Pioneer Juan Atkins To Get 12-Hour Detroit Celebration Of Life",
-        "url": "https://www.rollingstone.com/music/music-news/juan-atkins-celebration-of-life-detroit-1235659487/",
+        "url": "https://www.pastemagazine.com/music/juan-atkins/juan-atkins-to-be-honored-with-12-hour-celebration-of-life",
         "timestamp": 1794928359000,
         "photo": true,
         "postedAt": 1794931353316
@@ -182,7 +255,7 @@
         "timestamp": 1794927663000,
         "photo": true,
         "postedAt": 1794931353316,
-        "image": "/img/life-culture-0.jpg"
+        "image": "/img/life-culture-5.jpg"
       },
       {
         "headline": "This E Ink Photo Frame Doubles As A Family Digital Dashboard",
@@ -195,8 +268,7 @@
         "url": "https://www.menshealth.com/uk/building-muscle/a74451693/ll-cool-j-fitness/",
         "timestamp": 1794926448000,
         "photo": true,
-        "postedAt": 1794931353316,
-        "image": "/img/life-culture-2.jpg"
+        "postedAt": 1794931353316
       },
       {
         "headline": "Donna Haraway's Cyborg Manifesto Gets A Rereading In The Age Of AI",
@@ -216,8 +288,7 @@
         "url": "https://www.motortrend.com/reviews/2026-volkswagen-golf-r-yearlong-review-update-4-interior-likes-dislikes",
         "timestamp": 1794830933000,
         "photo": true,
-        "postedAt": 1794834198319,
-        "image": "/img/life-culture-3.jpg"
+        "postedAt": 1794834198319
       },
       {
         "headline": "UK: Prince William And Kate Begin India Visit With Street Cricket",
@@ -240,33 +311,48 @@
         "postedAt": 1794834198319
       },
       {
-        "headline": "Filipino Singer Carmelle Wins Eurovision Asia's Bangkok Debut",
-        "url": "https://apnews.com/article/thailand-eurovision-asia-2026-carmelle-winner-099ca558c4638949e637d3a8f8061d6d",
-        "timestamp": 1794729540000,
-        "photo": true,
-        "postedAt": 1794747487813
-      },
-      {
-        "headline": "Macy's Expands Thanksgiving Parade Staging For 100th Parade",
-        "url": "https://www.ilovetheupperwestside.com/macys-is-expanding-its-uws-parade-staging-area-for-the-100th-parade-with-balloons-on-72nd-street-and-floats-up-to-88th/",
-        "timestamp": 1794595104000,
-        "photo": true,
-        "postedAt": 1794747487813
-      },
-      {
-        "headline": "Fritz The Cat Voice Actor Skip Hinnant Dies At 86",
-        "url": "https://www.hollywoodreporter.com/tv/tv-news/skip-hinnant-dead-electric-company-fritz-the-cat-1236755456/",
-        "timestamp": 1794675093000,
-        "postedAt": 1794747487813
-      },
-      {
-        "headline": "Nine Films That Prove Robert Pattinson Can Play James Bond",
-        "url": "https://www.esquire.com/uk/culture/film/g74451298/robert-pattinson-bond-films/",
-        "timestamp": 1794927146000,
-        "postedAt": 1794931353316
+        "headline": "DWTS Semifinals Eliminate Season's Frontrunner In Stunning Upset",
+        "url": "https://www.forbes.com/sites/monicamercuri/2026/11/17/dancing-with-the-stars-semi-finals-see-major-frontrunner-eliminated-in-stunning-upset/",
+        "timestamp": 1794971253000,
+        "postedAt": 1795032752245
       }
     ],
     "right": [
+      {
+        "headline": "Snapchat Lets Developers Build AR Lenses With AI Coding Assistants",
+        "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+        "timestamp": 1795031799000,
+        "photo": true,
+        "postedAt": 1795032752245,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "Underground Railroad Freedom Center Preserves Cincinnati's Hidden History",
+        "url": "https://www.atlasobscura.com/places/national-underground-railroad-freedom-center",
+        "timestamp": 1795028438000,
+        "photo": true,
+        "postedAt": 1795032752245,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "Nautilus Explores The Speech Patterns Of Psychoses",
+        "url": "https://nautil.us/the-speech-patterns-of-psychoses-1286780",
+        "timestamp": 1795028416000,
+        "postedAt": 1795032752245
+      },
+      {
+        "headline": "Mark Ruffalo, Tilda Swinton Rally To Defense Of Iranian Filmmaker Jafar Panahi",
+        "url": "https://variety.com/2026/film/global/mark-ruffalo-tilda-swinton-defend-jafar-panahi-1236951044/",
+        "timestamp": 1794991980000,
+        "photo": true,
+        "postedAt": 1795032752245
+      },
+      {
+        "headline": "Scientists Build First Cell-Type-Specific Alzheimer's Protein Atlas",
+        "url": "https://www.news-medical.net/news/20261118/Scientists-build-first-cell-type-specific-Alzheimers-protein-atlas.aspx",
+        "timestamp": 1794978660000,
+        "postedAt": 1795032752245
+      },
       {
         "headline": "AMAZON'S ZOOX ROBOTAXIS LAUNCH ON UBER APP IN LAS VEGAS",
         "url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/",
@@ -292,14 +378,13 @@
         "timestamp": 1794927602000,
         "photo": true,
         "postedAt": 1794931353316,
-        "image": "/img/life-culture-1.jpg"
+        "image": "/img/life-culture-6.jpg"
       },
       {
         "headline": "In Defence Of Age-Gap Relationships",
         "url": "https://www.spiked-online.com/2026/11/17/in-defence-of-age-gap-relationships/",
         "timestamp": 1794926723000,
-        "postedAt": 1794931353316,
-        "image": "/img/life-culture-6.jpg"
+        "postedAt": 1794931353316
       },
       {
         "headline": "$180M Van Gogh Auction To Proceed Despite Nazi-Era Duress Claim",
@@ -315,12 +400,6 @@
         "postedAt": 1794931353316
       },
       {
-        "headline": "$180 MILLION VAN GOGH SALE TESTS ART MARKET AND COLLECTOR CONFIDENCE",
-        "url": "https://www.cnbc.com/2026/11/14/180-million-van-gogh-tests-the-art-market-and-collector-confidence-.html",
-        "timestamp": 1794747487813,
-        "postedAt": 1794747487813
-      },
-      {
         "headline": "Scientists Discover New Deep-Sea Shark Species Hiding In Plain Sight",
         "url": "https://www.forbes.com/sites/melissacristinamarquez/2026/11/16/scientists-discover-new-deep-sea-shark-species-hiding-in-plain-sight/",
         "timestamp": 1794808339000,
@@ -334,26 +413,6 @@
         "postedAt": 1794834198319
       },
       {
-        "headline": "Stanford Scientists Find Brain Signals That Predict Alzheimer's Years Early",
-        "url": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
-        "timestamp": 1794660646000,
-        "feature": true,
-        "postedAt": 1794834198319
-      },
-      {
-        "headline": "Eater Announces Its 2026 Restaurant Award Winners",
-        "url": "https://www.eater.com/dining-out/997768/eater-awards-2026",
-        "timestamp": 1794733292000,
-        "photo": true,
-        "postedAt": 1794747487813
-      },
-      {
-        "headline": "Oak Ridge Boys Bass Singer Richard Sterban Dies At 83",
-        "url": "https://www.hollywoodreporter.com/music/music-news/richard-sterban-dead-oak-ridge-boys-bass-singer-1236755545/",
-        "timestamp": 1794705187000,
-        "postedAt": 1794747487813
-      },
-      {
         "headline": "Ella Langley's Hit Could Be First Country Song To Win Record Of The Year In 15 Years",
         "url": "https://www.tennessean.com/story/entertainment/music/2026/11/16/ella-langley-grammy-record-of-the-year-country-song/92811999007/",
         "timestamp": 1794864855000,
@@ -364,6 +423,18 @@
         "url": "https://americansongwriter.com/paul-mccartney-celebrates-historic-grammy-milestone-nearly-six-decades-after-his-first-nomination/",
         "timestamp": 1794851880000,
         "postedAt": 1794931353316
+      },
+      {
+        "headline": "Vote Tally Shows Connor Wood Led All Viewer Votes This Week",
+        "url": "https://www.tvinsider.com/1304310/dancing-with-the-stars-connor-wood-semifinals-results-most-viewer-votes-explained/",
+        "timestamp": 1794973481000,
+        "postedAt": 1795032752245
+      },
+      {
+        "headline": "Show Reveals Format Change For Season 35 Finale",
+        "url": "https://www.eonline.com/news/1438204/dancing-with-the-stars-season-35-finale-airing-live-coast-to-coast-nov-24",
+        "timestamp": 1794970440000,
+        "postedAt": 1795032752245
       }
     ]
   }

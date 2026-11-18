@@ -1,57 +1,44 @@
 {
-  "lastUpdated": 1794929630067,
-  "heroSetDate": "2026-11-17",
+  "lastUpdated": 1795031057916,
+  "heroSetDate": "2026-11-18",
   "hero": {
-    "headline": "UKRAINE STRIKES CRIMEA BRIDGE, PARTLY COLLAPSING IT HOURS BEFORE PUTIN MEETS TRUMP AND XI",
-    "url": "https://www.bbc.com/news/articles/cw772jk4rvmxo",
+    "headline": "XI GREETS TRUMP WITH HUG AS TRILATERAL SUMMIT WITH PUTIN OPENS IN CHINA",
+    "url": "https://www.breitbart.com/europe/2026/11/18/chinas-xi-greets-trump-with-a-hug-ahead-of-trilateral-talks-with-putin/",
     "sublinks": [
       {
-        "text": "Strike Lands Hours Before Putin's Meeting With Xi And Trump",
-        "url": "https://www.reuters.com/world/europe/ukraine-strikes-crimean-bridge-second-day-russia-pounds-kyiv-bridges-2026-11-17/"
+        "text": "Xi And Putin Blast Western Sanctions As Trump Lands In China",
+        "url": "https://finance.yahoo.com/news/chinas-xi-calls-free-open-032339112.html"
       },
       {
-        "text": "Russia Retaliates With Massive Missile Barrage On Kyiv's Bridges",
-        "url": "https://kyivindependent.com/key-bridges-in-kyiv-struck-in-massive-russian-ballistic-missile-attack-across-ukraine/"
+        "text": "Putin And Trump Set For Bilateral Talks On Summit Sidelines",
+        "url": "https://www.reuters.com/world/china/putin-trump-meet-apec-summit-no-full-scale-talks-planned-kremlin-says-2026-11-18/"
       },
       {
-        "text": "Ukraine's Drone Attack On Russia Called Largest Of The War",
-        "url": "https://www.nbcnews.com/world/ukraine/ukraine-launches-biggest-drone-attack-russia-war-began-rcna609555"
+        "text": "Uyghur Groups Demand Leaders Raise Genocide Allegations At Summit",
+        "url": "https://www.breitbart.com/asia/2026/11/18/uyghurs-demand-leaders-address-genocide-at-china-hosted-apec-summit/"
       },
       {
-        "text": "Strike Deals Blow To 'Highly Symbolic' Crimea Crossing",
-        "url": "https://www.breitbart.com/europe/2026/11/17/ukraine-destroys-highly-symbolic-kerch-bridge-connecting-occupied-crimea-to-russian-federation/"
+        "text": "China Preemptively Declares Victory On Hosting The Summit",
+        "url": "https://www.breitbart.com/asia/2026/11/18/china-preemptively-declares-victory-on-hosting-trump-putin-xi-summit/"
       },
       {
-        "text": "Kyiv Continues Peace Talks With US And Europe Despite Escalation",
-        "url": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates"
+        "text": "Will The Historic Three-Way Summit Reset The World Order?",
+        "url": "https://www.rfi.fr/en/international/20261118-xi-trump-and-putin-prepare-for-historic-summit-but-will-it-reset-the-world-order"
       }
     ],
-    "postedAt": 1794929630067,
+    "liveUpdates": [
+      {
+        "source": "NYT",
+        "url": "https://www.nytimes.com/live/2026/11/18/world/trump-china-asia-apec"
+      }
+    ],
+    "postedAt": 1795031057916,
     "img": true
   },
   "groups": [
     {
       "title": "IRAN: HORMUZ TANKER STRIKES AND MOUNTING PRESSURE",
       "stories": [
-        {
-          "headline": "U.S. Intelligence Believes Iran Could Still Hold Up To 2,500 Missiles",
-          "url": "https://www.timesofisrael.com/us-intelligence-believes-iran-could-still-have-up-to-2500-missiles-report/",
-          "timestamp": 1794737994000,
-          "postedAt": 1794745818413
-        },
-        {
-          "headline": "Iran Navy Claims Three Tankers Hit Mines In Strait Of Hormuz",
-          "url": "https://www.reuters.com/world/middle-east/irans-navy-says-oil-tanker-fire-after-hitting-mine-hormuz-2026-11-14/",
-          "timestamp": 1794696859000,
-          "feature": true,
-          "postedAt": 1794745818413
-        },
-        {
-          "headline": "Gasoline Rationing Deepens Seven Years After Iran's 'Bloody November'",
-          "url": "https://www.iranintl.com/en/202611146434",
-          "timestamp": 1794660245000,
-          "postedAt": 1794745818413
-        },
         {
           "headline": "US And Iran Move Closer To Renewed War As Exchange Of Fire Increases",
           "url": "https://www.euronews.com/2026/11/16/us-and-iran-slide-closer-to-fresh-all-out-war-as-new-exchange-of-fire-increases",
@@ -83,6 +70,79 @@
           "timestamp": 1794890040000,
           "feature": true,
           "postedAt": 1794929630067
+        },
+        {
+          "headline": "Gulf States And Tankers Under Fire As US-Iran Strikes Resume",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/",
+          "timestamp": 1795028400000,
+          "feature": true,
+          "postedAt": 1795031057916
+        },
+        {
+          "headline": "US Strikes Qeshm Island As Vance Insists Iran Won't Become 'Forever War'",
+          "url": "https://time.com/article/2026/11/18/qeshm-island-strikes-us-iran-end-forever-war-vance/",
+          "timestamp": 1794996944000,
+          "postedAt": 1795031057916
+        }
+      ]
+    },
+    {
+      "title": "UKRAINE: DRONE STRIKES AND STALLED PEACE TALKS",
+      "stories": [
+        {
+          "headline": "Would Ukraine Trade Land For NATO Membership?",
+          "url": "https://www.dw.com/en/would-ukraine-trade-land-for-nato-membership-or-protection/a-79984492",
+          "timestamp": 1795027438000,
+          "postedAt": 1795031057916
+        },
+        {
+          "headline": "Inside The Underground Pipeline Where Ukraine Fights A Hidden War",
+          "url": "https://www.bbc.com/news/articles/c32l507ev4v4o",
+          "timestamp": 1795021204000,
+          "postedAt": 1795031057916
+        },
+        {
+          "headline": "EU Proposes €45 Billion Ukraine Loan To Be Repaid By Russia",
+          "url": "https://www.france24.com/en/europe/20261118-eu-proposes-new-%E2%82%AC45-billion-ukraine-loan-to-be-repaid-by-russia",
+          "timestamp": 1794998578000,
+          "postedAt": 1795031057916
+        },
+        {
+          "headline": "French Troops Deployed In Ukraine On Secret Mission, Source Tells AFP",
+          "url": "https://www.rfi.fr/en/international-news/20261116-french-troops-deployed-in-ukraine-on-secret-mission-source-to-afp",
+          "timestamp": 1794829903000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "Sweden Pushes New EU Plan To Unlock Frozen Russian Assets For Ukraine",
+          "url": "https://www.euronews.com/2026/11/16/sweden-calls-for-new-eu-plan-to-unlock-frozen-russian-assets-for-ukraine",
+          "timestamp": 1794829106000,
+          "postedAt": 1794832439687
+        },
+        {
+          "headline": "Ukraine Launches Biggest Drone Attack On Russia Since War Began",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-launches-biggest-drone-attack-russia-war-began-rcna609555",
+          "timestamp": 1794825531000,
+          "feature": true,
+          "postedAt": 1794832439687
+        }
+      ]
+    },
+    {
+      "title": "ISRAEL LAUNCHES GROUND OPERATION IN GAZA",
+      "stories": [
+        {
+          "headline": "Israel Army Launches Ground Operation In Hamas-Controlled Gaza Area",
+          "url": "https://www.afp.com/en/israel-army-launches-ground-operation-hamas-controlled-area-gaza",
+          "timestamp": 1795025706000,
+          "feature": true,
+          "postedAt": 1795031057916
+        },
+        {
+          "headline": "Israel's Parliament Moves To Unravel Netanyahu's Legacy Under New Speaker",
+          "url": "https://www.france24.com/en/live-news/20261118-with-new-speaker-israel-parliament-moves-to-unravel-netanyahu-legacy",
+          "timestamp": 1795007000000,
+          "postedAt": 1795031057916
         }
       ]
     },
@@ -106,12 +166,6 @@
           "url": "https://www.nbcnews.com/world/the-vatican/pope-leo-south-america-tour-uruguay-argentina-peru-milei-fujimori-rcna608513",
           "timestamp": 1794844953000,
           "postedAt": 1794929630067
-        },
-        {
-          "headline": "Pope Leo Denounces Suffering Of African Enslaved People During Peru Visit",
-          "url": "https://www.africanews.com/amp/2026/11/15/pope-leo-denounces-suffering-of-african-enslaved-people-during-peru-visit/",
-          "timestamp": 1794737217000,
-          "postedAt": 1794745818413
         }
       ]
     },
@@ -154,62 +208,43 @@
           "postedAt": 1794832439687
         }
       ]
-    },
-    {
-      "title": "UKRAINE WAR: DRONE STRIKES, FROZEN ASSETS AND PEACE TALKS",
-      "stories": [
-        {
-          "headline": "French Troops Deployed In Ukraine On Secret Mission, Source Tells AFP",
-          "url": "https://www.rfi.fr/en/international-news/20261116-french-troops-deployed-in-ukraine-on-secret-mission-source-to-afp",
-          "timestamp": 1794829903000,
-          "postedAt": 1794832439687
-        },
-        {
-          "headline": "Sweden Pushes New EU Plan To Unlock Frozen Russian Assets For Ukraine",
-          "url": "https://www.euronews.com/2026/11/16/sweden-calls-for-new-eu-plan-to-unlock-frozen-russian-assets-for-ukraine",
-          "timestamp": 1794829106000,
-          "postedAt": 1794832439687
-        },
-        {
-          "headline": "Brussels To Present Plan For €45 Billion Ukraine Loan Backed By EU Budget",
-          "url": "https://www.politico.eu/article/brussels-plan-e45b-ukraine-loan-eu-budget/",
-          "timestamp": 1794828600000,
-          "postedAt": 1794832439687
-        },
-        {
-          "headline": "Ukraine Launches Biggest Drone Attack On Russia Since War Began",
-          "url": "https://www.nbcnews.com/world/ukraine/ukraine-launches-biggest-drone-attack-russia-war-began-rcna609555",
-          "timestamp": 1794825531000,
-          "feature": true,
-          "postedAt": 1794832439687
-        }
-      ]
-    },
-    {
-      "title": "MEGASPEED DENIES SUPPLY CHAIN CLAIMS AFTER EXECUTIVE'S EXIT SURFACES",
-      "stories": [
-        {
-          "headline": "Megaspeed Says Former Executive Alice Huang Left Company In August 2025",
-          "url": "https://www.reuters.com/business/megaspeed-says-alice-huang-left-company-august-2025-2026-11-15/",
-          "timestamp": 1794744041000,
-          "postedAt": 1794745818413
-        },
-        {
-          "headline": "Megaspeed Rejects Supply Chain Claims, Confirms Huang's Departure",
-          "url": "https://www.scmp.com/tech/article/3374493/megaspeed-rejects-claims-over-supply-chain-distances-itself-alice-huang",
-          "timestamp": 1794737434000,
-          "postedAt": 1794745818413
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
       {
-        "headline": "TRUMP HEADS TO ASIA FOR RARE NUCLEAR SUMMIT WITH XI, PUTIN",
-        "url": "https://apnews.com/article/trump-china-manila-xi-putin-ffc5e5a2d384f00960034ec10087502e",
-        "timestamp": 1794832439687,
-        "postedAt": 1794832439687
+        "headline": "OpenAI Partners With NATO To Strengthen Cyber Defenses",
+        "url": "https://www.rfi.fr/en/international/20261118-openai-partners-with-nato-to-strengthen-alliance-s-cyber-defences",
+        "timestamp": 1795030411000,
+        "postedAt": 1795031057916
+      },
+      {
+        "headline": "Electricity-Challenged Cuba Wants To Implement AI",
+        "url": "https://www.breitbart.com/latin-america/2026/11/18/electricity-challenged-cuba-wants-to-implement-ai/",
+        "timestamp": 1795027997000,
+        "photo": true,
+        "postedAt": 1795031057916,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Cancer Patients Harmed By Years Of Unnecessary Chemotherapy At NHS Trust",
+        "url": "https://www.theguardian.com/society/2026/nov/18/cancer-patients-nhs-trust-unnecessary-chemotherapy-coventry",
+        "timestamp": 1795027500000,
+        "photo": true,
+        "postedAt": 1795031057916
+      },
+      {
+        "headline": "Chinese Executive Convicted In Case Linked To Bangkok Tower Collapse",
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374963/chinese-executive-convicted-case-linked-bangkok-tower-collapse",
+        "timestamp": 1795025030000,
+        "photo": true,
+        "postedAt": 1795031057916
+      },
+      {
+        "headline": "Black Women Helped Return Lula To Power In Brazil",
+        "url": "https://www.msn.com/en-us/news/other/black-women-helped-return-brazil-s-lula-to-power-can-their-gains-convert-into-political-power/ar-AA2hHVt7",
+        "timestamp": 1794985376000,
+        "postedAt": 1795031057916
       },
       {
         "headline": "France Hands Life Sentences In 'Barbaric' Marseille Drug Murders",
@@ -229,7 +264,7 @@
         "timestamp": 1794918113000,
         "photo": true,
         "postedAt": 1794929630067,
-        "image": "/img/world-1.jpg"
+        "image": "/img/world-6.jpg"
       },
       {
         "headline": "Japan Scrambles Fighters After Suspected Russian Planes Enter Airspace",
@@ -237,13 +272,6 @@
         "timestamp": 1794901414000,
         "photo": true,
         "postedAt": 1794929630067
-      },
-      {
-        "headline": "KUSHNER: U.S. SHIFTS FOCUS TO 'FACILITATING' DIRECT RUSSIA-EUROPE TALKS",
-        "url": "https://kyivindependent.com/us-now-focused-on-facilitating-direct-engagement-between-russia-europe-kushner-says-after-ukraine-peace-talks/",
-        "timestamp": 1794745818413,
-        "postedAt": 1794745818413,
-        "image": "/img/world-6.jpg"
       },
       {
         "headline": "Nearly 2,200 Migrants Reach Canary Islands In Two Days, Spain Says",
@@ -264,7 +292,7 @@
         "timestamp": 1794827921000,
         "photo": true,
         "postedAt": 1794832439687,
-        "image": "/img/world-4.jpg"
+        "image": "/img/world-7.jpg"
       },
       {
         "headline": "UN Climate Chief Warns Of AI 'Double-Edged Sword' At COP31",
@@ -273,47 +301,68 @@
         "postedAt": 1794832439687
       },
       {
-        "headline": "EU Forces Board Suspected Russian Shadow Fleet Tanker, Kallas Says",
-        "url": "https://www.euronews.com/2026/11/15/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says",
-        "timestamp": 1794739268000,
-        "postedAt": 1794745818413
-      },
-      {
-        "headline": "Czechia: Huge Protest Over Media Freedom Expected In Prague",
-        "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
-        "timestamp": 1794741540000,
-        "photo": true,
-        "postedAt": 1794745818413
-      },
-      {
-        "headline": "Rising Heat Puts Africa's Mothers And Children In Danger",
-        "url": "https://www.rfi.fr/en/environment/20261115-rising-heat-puts-africa-s-mothers-and-children-in-danger-cop31-kenya-climate-change",
-        "timestamp": 1794739131000,
-        "photo": true,
-        "postedAt": 1794745818413
-      },
-      {
-        "headline": "Canada: Fifth Soldier Dies From Injuries In Military Base Fire",
-        "url": "https://www.bbc.com/news/articles/cmrlgn4x2xw8o",
-        "timestamp": 1794734797000,
-        "feature": true,
-        "photo": true,
-        "postedAt": 1794745818413
-      },
-      {
-        "headline": "Hungary: Nearly €20 Million In Cash Found Buried In Corruption Case",
-        "url": "https://www.politico.eu/article/nearly-e20m-in-cash-found-buried-hidden-in-hungary-corruption-case/",
-        "timestamp": 1794662160000,
-        "postedAt": 1794745818413
-      },
-      {
         "headline": "Worsening Public Finances Threaten To Overshadow EU Growth",
         "url": "https://www.politico.eu/article/public-finances-eu-growth-eurozone-debt/",
         "timestamp": 1794924911000,
         "postedAt": 1794929630067
+      },
+      {
+        "headline": "Demographer Projects Britain Will Be Minority British Within 35 Years",
+        "url": "https://www.breitbart.com/europe/2026/11/18/top-demographer-britain-minority-british-in-40-years/",
+        "timestamp": 1795030469000,
+        "postedAt": 1795031057916
+      },
+      {
+        "headline": "Haitians Cheer Bukele And El Salvador's Soldiers In The Streets",
+        "url": "https://www.breitbart.com/latin-america/2026/11/18/haiti-thousands-peacefully-cheer-for-nayib-bukele-and-el-salvadors-soldiers/",
+        "timestamp": 1795027932000,
+        "postedAt": 1795031057916
+      },
+      {
+        "headline": "Intelligence Assessment: Putin Will Keep Fighting Despite Trump Meeting Plans",
+        "url": "https://www.kyivpost.com/post/90510",
+        "timestamp": 1794996236000,
+        "postedAt": 1795031057916
       }
     ],
     "center": [
+      {
+        "headline": "Russell Brand Faces Prison Transfer After 'Appalling' YouTube Message",
+        "url": "https://www.independent.co.uk/news/uk/home-news/russell-brand-wife-prison-transfer-littlehey-b3086934.html",
+        "timestamp": 1795024560000,
+        "photo": true,
+        "postedAt": 1795031057916,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "UK-EU 'Relationship Reset' Draft Covers Cheese, Pet Passports, Youth Mobility",
+        "url": "https://www.theguardian.com/politics/2026/nov/18/uk-eu-relationship-reset-draft-explainer",
+        "timestamp": 1795024560000,
+        "postedAt": 1795031057916
+      },
+      {
+        "headline": "Zverev Officially Notified Of Lawsuit By Ex-Partner In Abuse Case",
+        "url": "https://www.straitstimes.com/sport/tennis/alexander-zverev-officially-notified-of-lawsuit-by-ex-partner-in-abuse-case",
+        "timestamp": 1795023480000,
+        "photo": true,
+        "postedAt": 1795031057916,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "Italy Moves To Ban Social Media For Minors Under 13",
+        "url": "https://www.breitbart.com/europe/2026/11/18/italy-moves-to-ban-social-media-for-minors-under-13/",
+        "timestamp": 1795023201000,
+        "photo": true,
+        "postedAt": 1795031057916,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "Berlin Square Statue Watches Over Children At Play",
+        "url": "https://www.npr.org/2026/11/18/nx-s1-6043021/berlin-kollwitzplatz-statue",
+        "timestamp": 1794999600000,
+        "photo": true,
+        "postedAt": 1795031057916
+      },
       {
         "headline": "Why Italians Disown Spaghetti Bolognese",
         "url": "https://www.theguardian.com/food/2026/nov/17/a-heretical-outrage-why-italians-disown-spaghetti-bolognese",
@@ -334,16 +383,14 @@
         "timestamp": 1794914415000,
         "feature": true,
         "photo": true,
-        "postedAt": 1794929630067,
-        "image": "/img/world-2.jpg"
+        "postedAt": 1794929630067
       },
       {
         "headline": "Cargo Ship Capsizes Off Bulgaria's Black Sea Coast",
         "url": "https://www.aljazeera.com/news/2026/11/16/cargo-ship-capsizes-off-bulgarias-black-sea-coast",
         "timestamp": 1794852157000,
         "photo": true,
-        "postedAt": 1794929630067,
-        "image": "/img/world-3.jpg"
+        "postedAt": 1794929630067
       },
       {
         "headline": "AFP Fact Check: Image Of Soldiers Surrendering To Ethiopian Army Is Fake",
@@ -364,8 +411,7 @@
         "url": "https://www.breitbart.com/europe/2026/11/16/italy-woman-charged-with-attempted-homicide-after-man-forgets-to-do-dishes/",
         "timestamp": 1794827736000,
         "photo": true,
-        "postedAt": 1794832439687,
-        "image": "/img/world-5.jpg"
+        "postedAt": 1794832439687
       },
       {
         "headline": "Investigation: Israel Uploaded Millions Of Photos To Amazon's Facial Recognition To Track Palestinians",
@@ -388,46 +434,52 @@
         "postedAt": 1794832439687
       },
       {
-        "headline": "France Sees Fifth Consecutive Saturday Of Nationwide Protests",
-        "url": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests",
-        "timestamp": 1794679878000,
-        "postedAt": 1794745818413
-      },
-      {
-        "headline": "Fela Kuti's Induction Into Rock & Roll Hall Of Fame Marks African Music Milestone",
-        "url": "https://www.rfi.fr/en/culture/20261115-with-nigeria-s-fela-kuti-african-music-enters-the-rock-roll-hall-of-fame",
-        "timestamp": 1794741490000,
-        "photo": true,
-        "postedAt": 1794745818413
-      },
-      {
-        "headline": "Fire Reported At Russian Industrial Facility In Tatarstan After Drone Attack",
-        "url": "https://kyivindependent.com/fire-reported-at-industrial-facility-in-russias-tatarstan-amid-drone-attack/",
-        "timestamp": 1794713016000,
-        "photo": true,
-        "postedAt": 1794745818413
-      },
-      {
-        "headline": "Italy Backs Germany Joining Next-Generation Fighter Jet Project",
-        "url": "https://www.reuters.com/business/aerospace-defense/italy-says-it-backs-germany-joining-next-generation-fighter-jet-project-2026-11-14/",
-        "timestamp": 1794660609000,
-        "photo": true,
-        "postedAt": 1794745818413
-      },
-      {
         "headline": "EU Economics Chief Warns France, Belgium Must Cut Deficits",
         "url": "https://www.rfi.fr/en/france/20261117-eu-economics-chief-warns-france-and-belgium-must-reduce-deficit-and-public-debt",
         "timestamp": 1794927659000,
         "postedAt": 1794929630067
       },
       {
-        "headline": "Israel Kills Top Hamas Commander In Gaza Strike",
-        "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c",
-        "timestamp": 1794742260000,
-        "postedAt": 1794745818413
+        "headline": "Bennett Holds Lengthy Meeting With Netanyahu, Blindsiding Allies",
+        "url": "https://www.timesofisrael.com/bennett-holds-lengthy-meeting-with-netanyahu-blindsiding-allies/",
+        "timestamp": 1795027077000,
+        "postedAt": 1795031057916
       }
     ],
     "right": [
+      {
+        "headline": "UKRAINE STRIKES CRIMEA BRIDGE, PARTLY COLLAPSING IT HOURS BEFORE PUTIN MEETS TRUMP AND XI",
+        "url": "https://www.bbc.com/news/articles/cw772jk4rvmxo",
+        "timestamp": 1794929630067,
+        "postedAt": 1794929630067
+      },
+      {
+        "headline": "Hegseth Makes Surprise Trip To Venezuela, Inks Defense Pact",
+        "url": "https://www.afp.com/en/hegseth-makes-surprise-trip-venezuela-inks-defense-pact",
+        "timestamp": 1795028611000,
+        "photo": true,
+        "postedAt": 1795031057916
+      },
+      {
+        "headline": "Gold Steadies Near 14-Month Low As Rate-Hike Pressure Mounts",
+        "url": "https://www.fxstreet.com/news/gold-holds-steady-near-3-850-ahead-of-fomc-minutes-202611172321",
+        "timestamp": 1795025007000,
+        "postedAt": 1795031057916
+      },
+      {
+        "headline": "New Zealand Mayor Laments Democracy 'Had Its Day' After China Tour",
+        "url": "https://www.breitbart.com/europe/2026/11/18/new-zealand-mayor-laments-democracy-has-had-its-day-after-china-tour/",
+        "timestamp": 1795024658000,
+        "photo": true,
+        "postedAt": 1795031057916,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "South Korea's University Exams Upended By AI Cheating Scandal",
+        "url": "https://www.theguardian.com/world/2026/nov/18/south-korea-university-entrace-exams-ai-cheating-measures",
+        "timestamp": 1794983340000,
+        "postedAt": 1795031057916
+      },
       {
         "headline": "Congo's Ebola Outbreak Spreads And Kills At Record Pace",
         "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congos-ebola-outbreak-is-spreading-killing-record-pace-2026-11-17/",
@@ -442,7 +494,7 @@
         "timestamp": 1794925418000,
         "photo": true,
         "postedAt": 1794929630067,
-        "image": "/img/world-0.jpg"
+        "image": "/img/world-5.jpg"
       },
       {
         "headline": "Guinea Jails Over 220 In Deadly Illegal Gold Mining Crackdown",
@@ -490,51 +542,16 @@
         "postedAt": 1794832439687
       },
       {
-        "headline": "UK Government Refuses To Release Full Migrant Crime Statistics",
-        "url": "https://www.breitbart.com/europe/2026/11/15/british-government-refuses-to-release-full-migrant-crime-statistics/",
-        "timestamp": 1794744563000,
-        "postedAt": 1794745818413,
-        "image": "/img/world-7.jpg"
+        "headline": "Study Finds Muslims Will Outnumber Christians Worldwide By 2035",
+        "url": "https://apnews.com/article/world-religions-islam-christianity-trends-pew-870c21acd01fbbf728d94840da0464e7",
+        "timestamp": 1795028810000,
+        "postedAt": 1795031057916
       },
       {
-        "headline": "Cape Verde Votes For President, Incumbent Favored To Win",
-        "url": "https://www.rfi.fr/en/africa/20261115-cape-verde-votes-for-president-with-incumbent-favoured-to-win",
-        "timestamp": 1794736900000,
-        "photo": true,
-        "postedAt": 1794745818413
-      },
-      {
-        "headline": "UK: Russell Brand Rape Accuser Wants Age Of Consent Law Changed",
-        "url": "https://www.bbc.com/news/articles/cm3rgx9p583zo",
-        "timestamp": 1794727192000,
-        "photo": true,
-        "postedAt": 1794745818413
-      },
-      {
-        "headline": "Turkey: Husband Who Pushed Pregnant Wife Off Cliff Freed After 6 Years",
-        "url": "https://nypost.com/2026/11/15/world-news/turkish-husband-hakan-aysal-freed-from-prison-after-being-sentenced-for-pushing-pregnant-wife-off-cliff/",
-        "timestamp": 1794724020000,
-        "photo": true,
-        "postedAt": 1794745818413
-      },
-      {
-        "headline": "Climate Coalition Presses Ahead Without Colombia, Its Founding Champion",
-        "url": "https://apnews.com/article/cop31-fossil-fuels-colombia-ireland-tuvalu-coal-09c81f8bc4afd44fb6a4c5a804b74cab",
-        "timestamp": 1794719768000,
-        "postedAt": 1794745818413
-      },
-      {
-        "headline": "Robot Dogs Mounted With Rifles Deployed In Haiti Anti-Gang Operation",
-        "url": "https://www.foxnews.com/world/robot-dogs-mounted-rifles-deployed-anti-gang-stadium-operation-haiti",
-        "timestamp": 1794703907000,
-        "photo": true,
-        "postedAt": 1794745818413
-      },
-      {
-        "headline": "EU Voices Alarm Over Humanitarian Conditions In Gaza",
-        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/14/statement/",
-        "timestamp": 1794658996000,
-        "postedAt": 1794745818413
+        "headline": "Bukele Confirms, Celebrates Attack On Haitian Gang Leader's Home",
+        "url": "https://apnews.com/article/haiti-bukele-jeff-canaan-gangs-attack-home-4397ab6847be1d1dcc9c5bc600a4953f",
+        "timestamp": 1795024020000,
+        "postedAt": 1795031057916
       }
     ]
   }

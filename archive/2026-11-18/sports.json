@@ -1,35 +1,44 @@
 {
-  "lastUpdated": 1794929166154,
-  "heroSetDate": "2026-11-17",
+  "lastUpdated": 1795030551304,
+  "heroSetDate": "2026-11-18",
   "hero": {
-    "headline": "WEEK 10 UPHEAVAL RESHAPES NFL PLAYOFF PICTURE AS RAVENS STUMBLE, VIKINGS SURGE",
-    "url": "https://bleacherreport.com/articles/25533985-nfl-playoff-picture-2026-wild-card-standings-and-week-11-super-bowl-bracket-odds",
+    "headline": "CFP COMMITTEE KEEPS ALABAMA AT NO. 3 AS CHAIR DEFENDS LATEST RANKINGS",
+    "url": "https://247sports.com/college/alabama/article/cfp-committee-chair-hunter-yurachek-explains-alabama-staying-put-at-no-3-in-latest-cfp-ranking-release-292915413/",
     "sublinks": [
       {
-        "text": "ESPN's playoff-chance tiers show which teams still control their own fate",
-        "url": "https://www.espn.com/nfl/story/_/id/50463347/2026-nfl-playoffs-chances-odds-tiers-32-teams-nfc-afc"
+        "text": "SI Argues Committee Should 'Show Its Math' On Rankings",
+        "url": "https://www.si.com/college-football/its-time-for-the-college-football-playoff-committee-to-show-its-math"
       },
       {
-        "text": "Power rankings single out each team's one must-win game left on the schedule",
-        "url": "https://www.thescore.com/nfl/news/3656431/nfl-power-rankings-week-11-every-teams-most-important-remaining-game"
+        "text": "Indiana Fans Ask Whether Hoosiers Can Climb Further In Poll",
+        "url": "https://sports.yahoo.com/articles/hoosiers-daily-news-indiana-rise-183000147.html"
       },
       {
-        "text": "Trade-deadline winners and losers are already reshaping contenders",
-        "url": "https://www.nfl.com/news/nfl-trade-deadline-winners-losers-vikings-find-qb-jags-go-all-in-jonathan-taylor-stranded"
-      },
-      {
-        "text": "Chiefs look dangerous again while Patriots pile up injuries",
-        "url": "https://www.nbcsports.com/fantasy/football/news/sunday-aftermath-the-chiefs-return-the-patriots-injury-misery-and-more"
-      },
-      {
-        "text": "Ravens' stunning loss to winless Chargers rattles the AFC math",
-        "url": "https://www.espn.com/nfl/story/_/id/50508744/kyle-hamilton-says-ravens-disgracing-standards-loss-previously-winless-chargers"
+        "text": "Alabama Loses A Running Back Off Roster Days After New Rankings",
+        "url": "https://sports.yahoo.com/articles/alabama-running-back-no-longer-184541741.html"
       }
     ],
-    "postedAt": 1794929166154,
+    "postedAt": 1795030551304,
     "img": true
   },
   "groups": [
+    {
+      "title": "SHANAHAN'S STRUGGLES AGAINST FLORES DEFENSES",
+      "stories": [
+        {
+          "headline": "49ers' Kyle Shanahan Faces His 0-5 Flores Kryptonite In Mexico City",
+          "url": "https://sports.yahoo.com/articles/49ers-kyle-shanahan-faces-0-185634295.html",
+          "timestamp": 1795028194000,
+          "postedAt": 1795030551304
+        },
+        {
+          "headline": "Brian Flores Is 5-0 Against Shanahan Offenses Entering Latest Matchup",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMWFFTXpESFRFNFVHTnNsSzlKek95UUNjcVZNck13Z3FaZC1FYVgzeEFiZThIY3dZVzRmb1hiN1RIcldHUmhsbWlJdVZ0N05DQldJZ2Z5TVJVeFVteWJtNW1SZXozRVhHb3hKNnBFeE1ZVUxnbm41ZFV3MlpSZldjbU51WjNoRkdoakFyaW1TTk9lZXRfbGM2Z3F0LW1fbWJjVlNqNWN3TjV5eHk5a0JKclJ4andFYUp4TDZOT0FTUDVDVU9DVkhEWGtn?oc=5",
+          "timestamp": 1795009552000,
+          "postedAt": 1795030551304
+        }
+      ]
+    },
     {
       "title": "WIZARDS' YOUNG CORE GROWING PAINS",
       "stories": [
@@ -80,27 +89,58 @@
           "postedAt": 1794831759419
         }
       ]
-    },
-    {
-      "title": "POCHETTINO'S USMNT FAREWELL GIVES WAY TO MANCHESTER UNITED ERA",
-      "stories": [
-        {
-          "headline": "Pochettino's Blunt Two-Word Verdict On Manchester United's Reality",
-          "url": "https://www.si.com/soccer/mauricio-pochettino-blunt-two-word-prediction-man-utd-reality",
-          "timestamp": 1794742200000,
-          "postedAt": 1794745450052
-        },
-        {
-          "headline": "Pulisic Scores Twice As US Routs Haiti 6-0 In Pochettino's Farewell",
-          "url": "https://www.theguardian.com/football/2026/nov/14/usmnt-haiti-pulisic-pochettino-nations-league-quarter-final",
-          "timestamp": 1794699780000,
-          "postedAt": 1794745450052
-        }
-      ]
     }
   ],
   "columns": {
     "left": [
+      {
+        "headline": "NFC South Dubbed Football's 'Annual Participation Trophy'",
+        "url": "https://sports.yahoo.com/articles/nfc-south-football-annual-participation-185730936.html",
+        "timestamp": 1795028250000,
+        "postedAt": 1795030551304
+      },
+      {
+        "headline": "Packers Reveal Plan For Micah Parsons' Potential Return",
+        "url": "https://sports.yahoo.com/articles/jonathan-gannon-reveals-packers-plan-190038707.html",
+        "timestamp": 1795028438000,
+        "postedAt": 1795030551304
+      },
+      {
+        "headline": "Dwayne Johnson Named ESPN College GameDay Picker For Miami",
+        "url": "https://sports.yahoo.com/articles/dwyane-johnson-announced-espn-college-184707799.html",
+        "timestamp": 1795027627000,
+        "photo": true,
+        "postedAt": 1795030551304,
+        "image": "/img/sports-2.jpg"
+      },
+      {
+        "headline": "Chiefs' Andy Reid Updates Travis Kelce, Kenneth Walker Injury Status",
+        "url": "https://sports.yahoo.com/articles/andy-reid-gives-latest-injury-184638607.html",
+        "timestamp": 1795027598000,
+        "postedAt": 1795030551304
+      },
+      {
+        "headline": "Jiri Prochazka Vows To Bring Fury In UFC Qatar Main Event",
+        "url": "https://www.mmafighting.com/ufc/522012/feelings-is-not-for-the-cage-jiri-prochazka-promises-to-be-a-weapon-like-never-before-in-ufc-qatar-main-event",
+        "timestamp": 1795010400000,
+        "photo": true,
+        "postedAt": 1795030551304,
+        "image": "/img/sports-7.jpg"
+      },
+      {
+        "headline": "Steelers Guard Mason McCormick Dislocates Ankle",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-steelers-g-mason-mccormick-dislocated-his-ankle",
+        "timestamp": 1795004002000,
+        "postedAt": 1795030551304
+      },
+      {
+        "headline": "Quentin Grimes Hits 10 Threes, Joins Lakers Record Book",
+        "url": "https://www.espn.com/nba/story/_/id/50519611/quentin-grimes-2nd-laker-hit-10-3s-single-game",
+        "timestamp": 1795000320000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795030551304
+      },
       {
         "headline": "Jets Could Trade First-Round Pick To Land Next Coach",
         "url": "https://sports.yahoo.com/articles/jets-could-trade-1st-round-142930367.html",
@@ -132,8 +172,7 @@
         "url": "https://www.nbcsportsbayarea.com/nba/golden-state-warriors/yaxel-lendeborg-new-orleans-pelicans/1980874/",
         "timestamp": 1794887266000,
         "photo": true,
-        "postedAt": 1794929166154,
-        "image": "/img/sports-5.jpg"
+        "postedAt": 1794929166154
       },
       {
         "headline": "PGA Tour Unveils Pathway For New Developmental System",
@@ -152,8 +191,7 @@
         "url": "https://sports.yahoo.com/articles/louisville-womens-basketball-throws-early-101222528.html",
         "timestamp": 1794823942000,
         "photo": true,
-        "postedAt": 1794831759419,
-        "image": "/img/sports-6.jpg"
+        "postedAt": 1794831759419
       },
       {
         "headline": "Are 49ers Due For A Reality Check After Wild Win Over Cowboys?",
@@ -186,40 +224,7 @@
         "url": "https://bloodyelbow.com/2026/11/15/whats-next-for-josh-hokit-after-suffering-career-first-loss-at-ufc-334-dana-white-has-a-plan/",
         "timestamp": 1794783600000,
         "photo": true,
-        "postedAt": 1794831759419,
-        "image": "/img/sports-7.jpg"
-      },
-      {
-        "headline": "Short-Handed Cavaliers Triumph Over Mavericks",
-        "url": "https://www.si.com/nba/cavaliers/onsi/3-key-takeaways-from-short-handed-cavs-impressive-triumph-over-mavs-01m7e2jhvxw8",
-        "timestamp": 1794744004000,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "Giannis Antetokounmpo Pulls Off Between-The-Legs Assist",
-        "url": "https://www.nba.com/news/giannis-goes-into-football-mode-for-between-the-legs-assist",
-        "timestamp": 1794721123000,
-        "photo": true,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "Ami Nakai Leads Skate America, Eyes Grand Prix Sweep",
-        "url": "https://www.nbcsports.com/olympics/news/skate-america-womens-short-program-2026",
-        "timestamp": 1794707283000,
-        "photo": true,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "Ole Miss' Postponed Trip To Oklahoma Exposes SEC's CFP Pipe Dream",
-        "url": "https://www.usatoday.com/story/sports/ncaaf/sec/2026/11/14/ole-miss-oklahoma-football-game-delayed-sunday-cfp-rankings-pipe-dream/92787352007/",
-        "timestamp": 1794702720000,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "Raiders Got A $650K Bargain In Cousins Trade, Analysts Say",
-        "url": "https://frontofficesports.com/article/raiders-got-a-650k-bargain-in-cousins-what-will-vikings-get/",
-        "timestamp": 1794744140000,
-        "postedAt": 1794745450052
+        "postedAt": 1794831759419
       },
       {
         "headline": "Georgia Makes Case As College Football's Most Complete Team",
@@ -242,6 +247,61 @@
     ],
     "center": [
       {
+        "headline": "WEEK 10 UPHEAVAL RESHAPES NFL PLAYOFF PICTURE AS RAVENS STUMBLE, VIKINGS SURGE",
+        "url": "https://bleacherreport.com/articles/25533985-nfl-playoff-picture-2026-wild-card-standings-and-week-11-super-bowl-bracket-odds",
+        "timestamp": 1794929166154,
+        "postedAt": 1794929166154
+      },
+      {
+        "headline": "Anthony Davis, Paolo Banchero Among NBA's Most Likely Trade Candidates",
+        "url": "https://sports.yahoo.com/articles/nba-trade-candidates-anthony-davis-120001642.html",
+        "timestamp": 1795003201000,
+        "postedAt": 1795030551304
+      },
+      {
+        "headline": "International Hockey Continues Icing Russia Out Of Competition",
+        "url": "https://frontofficesports.com/article/international-hockey-continues-to-ice-russia-out-of-global-competition/",
+        "timestamp": 1795030058000,
+        "photo": true,
+        "postedAt": 1795030551304,
+        "image": "/img/sports-0.jpg"
+      },
+      {
+        "headline": "Jahmyr Gibbs On Pace To Become First 500-Touch Back In 28 Years",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVG5DQmlaV3ExRzJOazV0bkxpSmpuNE5FX0NLUjRCOVZ5OXExbEdoem9QeV9VZTZFRmc1ck85VnU1amtiQW1vYWVZZy1iaFRUcTFObURMVFdTMUQ4eVhuWGp2b0tPR29BVUlJbGxrNjZFbXAyZ3NiRVVUTTNDeW5XTFRVYktOWjA?oc=5",
+        "timestamp": 1795026981000,
+        "photo": true,
+        "postedAt": 1795030551304,
+        "image": "/img/sports-5.jpg"
+      },
+      {
+        "headline": "Buccaneers QB Baker Mayfield Misses Wednesday Practice",
+        "url": "https://sports.yahoo.com/articles/baker-mayfield-misses-practice-wednesday-182829241.html",
+        "timestamp": 1795026509000,
+        "postedAt": 1795030551304
+      },
+      {
+        "headline": "Red Wings Reportedly Won't Deal Dylan Larkin To Wild",
+        "url": "https://sports.yahoo.com/articles/red-wings-reportedly-unwilling-deal-181033986.html",
+        "timestamp": 1795025433000,
+        "postedAt": 1795030551304
+      },
+      {
+        "headline": "Jets QB Smith's Status Vs Chargers Uncertain With Ankle Injury",
+        "url": "https://thescore.com/nfl/news/3658991",
+        "timestamp": 1795025344000,
+        "photo": true,
+        "postedAt": 1795030551304,
+        "image": "/img/sports-6.jpg"
+      },
+      {
+        "headline": "Why Las Vegas Grand Prix Is Held On A Saturday",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcmdBdnI2a082X2NCM25mNnlUSlNpd1AtM2VhdUNNMnA1S0xpNkpwU1FyVjFCVUtkVGZLb2RMNjZ0NVBTZENBQnBCbm1BZF9PNWhaWkNpb0hFZ3ZIemxSYllWcnFIT3dfY2tCeEpRTTJhQjZNa2lYSUtaWWJFZGdiRG9R?oc=5",
+        "timestamp": 1794997800000,
+        "photo": true,
+        "postedAt": 1795030551304
+      },
+      {
         "headline": "BENGALS ROUT STEELERS AS BURROW, CHASE SEIZE AFC NORTH LEAD",
         "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-joe-burrow-jamarr-chase-torch-steelers-in-38-18-bengals-victory",
         "timestamp": 1794831759419,
@@ -253,8 +313,7 @@
         "timestamp": 1794927140000,
         "feature": true,
         "photo": true,
-        "postedAt": 1794929166154,
-        "image": "/img/sports-1.jpg"
+        "postedAt": 1794929166154
       },
       {
         "headline": "Predicting How Many Wins Bears Need For NFC North Title",
@@ -267,8 +326,7 @@
         "url": "https://www.cbsnews.com/news/dead-racehorse-so-you-are-found-dumpster-melbourne-cup/",
         "timestamp": 1794918113000,
         "photo": true,
-        "postedAt": 1794929166154,
-        "image": "/img/sports-4.jpg"
+        "postedAt": 1794929166154
       },
       {
         "headline": "Patriots Eye Mike Vrabel-Tied Quarterback As Possible Maye Fix",
@@ -316,45 +374,6 @@
         "postedAt": 1794831759419
       },
       {
-        "headline": "Rhode Island Runners Sweep Three New England Cross Country Crowns",
-        "url": "https://sports.yahoo.com/articles/rhode-island-runners-seize-three-112046154.html",
-        "timestamp": 1794741646000,
-        "photo": true,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "Ciryl Gane Survives Early Onslaught To Edge Josh Hokit At UFC 334",
-        "url": "https://www.espn.com/mma/story/_/id/50488012/ciryl-gane-edges-josh-hokit-slugfest-retains-title-ufc-334",
-        "timestamp": 1794722760000,
-        "photo": true,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "Nebraska Volleyball Sweeps Iowa",
-        "url": "https://www.si.com/college/nebraska/volleyball/two-takeaways-from-nebraska-volleyball-s-sweep-over-iowa-2026",
-        "timestamp": 1794710796000,
-        "photo": true,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "Utah Survives Travel Disruptions And Arizona To Stay Unbeaten",
-        "url": "https://sports.yahoo.com/college-football/article/utah-fueled-by-cherry-juice-and-adrenaline-overcame-travel-chaos-and-a-feisty-arizona-team-to-remain-undefeated-095916053.html",
-        "timestamp": 1794736756000,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "BYU Knocks Off Baylor In Top-10 Showdown",
-        "url": "https://www.deseret.com/sports/2026/11/14/byu-football-baylor-2026-live-coverage/",
-        "timestamp": 1794701280000,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "Patriots' Saturday Transactions Hint At Plan For Lions Matchup",
-        "url": "https://www.bostonherald.com/2026/11/14/what-patriots-series-of-transactions-saturday-indicate-about-matchup-with-lions/",
-        "timestamp": 1794697356000,
-        "postedAt": 1794745450052
-      },
-      {
         "headline": "DeChambeau-Led LIV Exiles Land On DP World Tour, PGA Path Unclear",
         "url": "https://frontofficesports.com/article/dechambeau-led-liv-contingent-joins-dp-world-tour-with-pga-return-unclear/",
         "timestamp": 1794928015000,
@@ -371,9 +390,71 @@
         "url": "https://www.charlotteobserver.com/sports/college/article318090624.html",
         "timestamp": 1794862380000,
         "postedAt": 1794929166154
+      },
+      {
+        "headline": "Passan: What To Watch In This Winter's Free-Agent Market",
+        "url": "https://www.espn.com/mlb/story/_/id/50512111/passan-offseason-preview-2026-27-free-agent-updates",
+        "timestamp": 1795003200000,
+        "postedAt": 1795030551304
       }
     ],
     "right": [
+      {
+        "headline": "Urban Meyer Issues Statement Denying Interest In Maryland Job",
+        "url": "https://sports.yahoo.com/articles/urban-meyer-issues-official-statement-184731144.html",
+        "timestamp": 1795027651000,
+        "photo": true,
+        "postedAt": 1795030551304,
+        "image": "/img/sports-1.jpg"
+      },
+      {
+        "headline": "Devan Kuemper Turns Back Bruins For 40th Career Shutout",
+        "url": "https://sports.yahoo.com/articles/kuemper-turns-back-bruins-40th-183944549.html",
+        "timestamp": 1795027184000,
+        "photo": true,
+        "postedAt": 1795030551304,
+        "image": "/img/sports-3.jpg"
+      },
+      {
+        "headline": "Iranian Boxing Champion On Death Row Wins Human Rights Award",
+        "url": "https://www.si.com/fannation/boxing/iranian-boxing-champion-on-death-row-makes-history-with-prestigious-human-rights-award",
+        "timestamp": 1795027047000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795030551304,
+        "image": "/img/sports-4.jpg"
+      },
+      {
+        "headline": "Dylan Larkin's Suspension Nears Costly Milestone",
+        "url": "https://sports.yahoo.com/articles/dylan-larkin-suspension-nears-another-183634760.html",
+        "timestamp": 1795026994000,
+        "postedAt": 1795030551304
+      },
+      {
+        "headline": "Raiders Under Fire For Kirk Cousins Trade After Vikings' Big Win",
+        "url": "https://sports.yahoo.com/articles/raiders-under-fire-kirk-cousins-181402857.html",
+        "timestamp": 1795025642000,
+        "postedAt": 1795030551304
+      },
+      {
+        "headline": "Duke Plummets In Top 25 After Home Loss To Illinois",
+        "url": "https://www.cbssports.com/college-basketball/news/ncaa-top-25-and-1-rankings-duke-illinois-cameron-indoor-stadium-michigan-state/",
+        "timestamp": 1795018920000,
+        "postedAt": 1795030551304
+      },
+      {
+        "headline": "Women's College Basketball Top-16 Rankings Feature 12 Unbeaten Teams",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYnozR0VwU0xXaEJWcmZrSTNoV0J1RjdIcGhyeTRybDZBX2xHb3R2V3F1dFpUZkZqYkJFWWtzbGM4Tk5qUkl2eUc3SWdZbktiQ2VYUDlBbEEybVhZbDRGTHdnNmkwQ28yT1R5R3RYQnA0U2J5ZF80RGJZMkFhTjl4OGR0Q2tEY3RoVF9KTms0ZEV5MFRHR0d5QXRhYWE2cFZtNkk3SFNWNTh3OTU1dmU3b243Z0hPTHpRamhuMHVSZw?oc=5",
+        "timestamp": 1795006800000,
+        "postedAt": 1795030551304
+      },
+      {
+        "headline": "USMNT's 2-0 Win Over Haiti Caps Pochettino's Tenure On High Note",
+        "url": "https://www.theguardian.com/football/2026/nov/17/usmnt-haiti-nations-league-mauricio-pochettino",
+        "timestamp": 1794968340000,
+        "photo": true,
+        "postedAt": 1795030551304
+      },
       {
         "headline": "Patriots' Offensive Output In Downward Spiral, Snap Count Shows",
         "url": "https://www.si.com/nfl/patriots/onsi/patriots-week-10-snap-analysis-offensive-output-in-downward-spiral",
@@ -385,24 +466,21 @@
         "url": "https://sports.yahoo.com/articles/corey-heim-drive-no-67-150744954.html",
         "timestamp": 1794928064000,
         "photo": true,
-        "postedAt": 1794929166154,
-        "image": "/img/sports-0.jpg"
+        "postedAt": 1794929166154
       },
       {
         "headline": "Five Fights UFC Needs To Make After UFC 334",
         "url": "https://deadspin.com/5-fights-the-ufc-needs-to-make-after-ufc-334/",
         "timestamp": 1794926388000,
         "photo": true,
-        "postedAt": 1794929166154,
-        "image": "/img/sports-2.jpg"
+        "postedAt": 1794929166154
       },
       {
         "headline": "Kornet, Spurs Serve Thanksgiving Dinner To Local Families",
         "url": "https://www.si.com/nba/spurs/onsi/san-antonio-spurs-kick-off-season-of-giving-frost-bank-center-thanksgiving-dinner",
         "timestamp": 1794924003000,
         "photo": true,
-        "postedAt": 1794929166154,
-        "image": "/img/sports-3.jpg"
+        "postedAt": 1794929166154
       },
       {
         "headline": "Rex Ryan Lobbies For Cowboys Coaching Job",
@@ -436,39 +514,6 @@
         "postedAt": 1794831759419
       },
       {
-        "headline": "Four NHL Storylines To Watch At The Season's Quarter Mark",
-        "url": "https://deadspin.com/four-nhl-storylines-worth-watching-as-the-season-reaches-the-quarter-mark/",
-        "timestamp": 1794743839000,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "F1's Wolff Says 'Loyal' Antonelli Won't Leave Mercedes For Ferrari",
-        "url": "https://sports.yahoo.com/articles/wolff-loyal-antonelli-not-desert-114830486.html",
-        "timestamp": 1794743310000,
-        "photo": true,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "Portugal's Send-Off For Cristiano Ronaldo Turns Into A Horror Show",
-        "url": "https://timesofindia.indiatimes.com/sports/football/top-stories/golf-over-portugal-cristiano-ronaldo-shares-photos-with-al-nassr-buddies-while-jorge-jesus-reveals-plans-to-honour-him-during-denmark-match/amp_articleshow/135832732.cms",
-        "timestamp": 1794728462000,
-        "photo": true,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "UNC-Louisville Game Ends In Brawl Under Bill Belichick",
-        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/game-between-bill-belichicks-unc-and-louisville-ends-in-a-brawl",
-        "timestamp": 1794717136000,
-        "feature": true,
-        "postedAt": 1794745450052
-      },
-      {
-        "headline": "Wisconsin's Luke Fickell Buyout Figures Loom As Hot Seat Heats Up",
-        "url": "https://www.usatoday.com/story/sports/ncaaf/bigten/2026/11/14/luke-fickell-buyout-contract-record-wisconsin-football-loss-maryland/92783192007/",
-        "timestamp": 1794691860000,
-        "postedAt": 1794745450052
-      },
-      {
         "headline": "Ohio State Rises, SEC Dominates Post-Week 11 Re-Rank",
         "url": "https://www.usatoday.com/story/sports/ncaaf/2026/11/16/college-football-re-rank-ncaa-1-138-ohio-state-week-11/92799749007/",
         "timestamp": 1794823740000,
@@ -487,22 +532,22 @@
         "postedAt": 1794831759419
       },
       {
-        "headline": "Cousins Sparks Vikings As Mendoza Reflects On Raiders Debut",
-        "url": "https://sports.yahoo.com/nfl/article/as-kirk-cousins-sparks-vikings-fernando-mendoza-reflects-on-raiders-debut-its-good-to-get-punched-in-the-face-052108959.html",
-        "timestamp": 1794803640000,
-        "postedAt": 1794831759419
+        "headline": "Mariners Land All-Star Infielder In Blockbuster Trade",
+        "url": "https://www.seattletimes.com/sports/mariners/mariners-trade-for-royals-all-star-maikel-garcia-in-exchange-for-bryce-miller-others/",
+        "timestamp": 1795028344000,
+        "postedAt": 1795030551304
       },
       {
-        "headline": "Arizona State Overcomes Flight Chaos To Clinch Bowl Eligibility",
-        "url": "https://www.azcentral.com/story/sports/college/asu/2026/11/14/arizona-state-ucf-score-updates-college-football-game-today--live/92596413007/",
-        "timestamp": 1794712440000,
-        "postedAt": 1794745450052
+        "headline": "Dodgers, Blue Jays Among Teams 'Willing To Break The Bank' For Tarik Skubal",
+        "url": "https://bleacherreport.com/articles/25534911-new-tarik-skubal-rumors-dodgers-blue-jays-meetings-mlb-teams-willing-break-bank",
+        "timestamp": 1795012879000,
+        "postedAt": 1795030551304
       },
       {
-        "headline": "Nebraska Secures Bowl Eligibility With Win Over Rutgers",
-        "url": "https://www.si.com/college/nebraska/football/nebraska-rights-ship-against-rutgers-secures-bowl-eligibility-2026",
-        "timestamp": 1794688731000,
-        "postedAt": 1794745450052
+        "headline": "Twins Catcher Ryan Jeffers Accepts Qualifying Offer, Spurns Multi-Year Deal",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVUc0aVVua0dEZmZWOFFhMkFxb3hOdFZPbGZhNGZqeU01dHprcl9CU25GNTNYUVNYQXFILUx3OG5TTElCZnRzYW9sSE1pOGYyUGRjMS14QkdKZ0dUWFJndk1aelFab1U3QkJrVl8xZlR3VFYzZFlpRmFIVFN6SGZTbHhOc3pUZlhhZjA3MnpPSXNPMG84Rlk0Z0QxbVFIbjVRdVlydkZfYTEyUQ?oc=5",
+        "timestamp": 1794978842000,
+        "postedAt": 1795030551304
       }
     ]
   },
