@@ -1,0 +1,690 @@
+{
+  "lastUpdated": 1795177109202,
+  "heroSetDate": "2026-11-20",
+  "hero": {
+    "headline": "JUSTICE DEPARTMENT DROPS APPEAL TO DELAY ALASKA SENATE CERTIFICATION, CLEARING PELTOLA'S WIN",
+    "url": "https://bsinews.id/en/justice-department-drops-alaska-appeal",
+    "sublinks": [
+      {
+        "text": "DOJ's Monthslong Lawsuit Sought To Pause Certification Before Being Abandoned",
+        "url": "https://alaskabeacon.com/2026/11/19/doj-abandons-lawsuit-that-sought-to-pause-certification-of-alaskas-us-senate-election/"
+      },
+      {
+        "text": "Peltola's Win Flips The Seat And Narrows The GOP's Senate Majority",
+        "url": "https://www.cbsnews.com/news/alaska-2026-senate-sullivan-peltola/"
+      },
+      {
+        "text": "The Ranked-Choice Runoff Numbers At The Center Of The Legal Fight",
+        "url": "https://www.realclearpolling.com/polls/senate/general/2026/alaska/peltola-vs-sullivan-vs-heikes-vs-j-sullivan"
+      },
+      {
+        "text": "Survey Finds Broad Public Confidence In How The 2026 Midterms Were Run",
+        "url": "https://www.pewresearch.org/politics/2026/11/19/broad-satisfaction-with-2026-midterm-election-administration/"
+      }
+    ],
+    "postedAt": 1795177109202,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "VANCE FACES MOUNTING CRITICISM AMID TECH OUTAGE CRISIS",
+      "stories": [
+        {
+          "headline": "Vance Bails On NYT Summit Appearance Minutes Before Start",
+          "url": "https://www.mediaite.com/media/news/breaking-jd-vance-bails-on-scheduled-appearance-at-ny-times-summit-just-minutes-before-it-started/",
+          "timestamp": 1795029486945,
+          "postedAt": 1795030193736
+        },
+        {
+          "headline": "Trump Grows Frustrated With Vance Over Criticism, Report Says",
+          "url": "https://www.nytimes.com/2026/11/18/us/politics/vance-trump-iran-2028-election-rubio.html?unlocked_article_code=1.RVE.rSyi.J-2lli-H81Nl&smid=url-share",
+          "timestamp": 1795029486945,
+          "postedAt": 1795030193736
+        },
+        {
+          "headline": "Fox's Kilmeade Says Vance 'Never Should Have Been' Vice President",
+          "url": "https://thehill.com/homenews/media/6227589-kilmeade-slams-vance-iran-war/",
+          "timestamp": 1795016340000,
+          "postedAt": 1795030193736
+        },
+        {
+          "headline": "Vance Scraps Schedule To Address Nationwide Tech Outages",
+          "url": "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html",
+          "timestamp": 1795011375000,
+          "postedAt": 1795030193736
+        },
+        {
+          "headline": "Rand Paul Blasts Vance And ICE As He Eyes 2028 Run",
+          "url": "https://www.washingtonexaminer.com/news/senate/4806748/rand-paul-vance-ice-tone-deaf-gop-2028/",
+          "timestamp": 1795003200000,
+          "postedAt": 1795030193736
+        },
+        {
+          "headline": "Brazil Police Probe Whether Vance-Linked MAGA Donor Group Interfered In Election",
+          "url": "https://www.democracynow.org/2026/11/18/headlines/wapo_brazil_police_probes_if_maga_donor_group_linked_to_vance_illegally_interfered_in_brazil_s_presidential_election",
+          "timestamp": 1795015479000,
+          "postedAt": 1795030193736
+        },
+        {
+          "headline": "DHS Secretary In Hot Seat After String Of Tech Glitches",
+          "url": "https://apnews.com/ce63a22797c61ee53d88678000236c37",
+          "timestamp": 1795090028139,
+          "postedAt": 1795090596537
+        },
+        {
+          "headline": "White House Removes Cybersecurity Chief After Wave Of Tech Outages",
+          "url": "https://www.bbc.com/news/articles/cwz0k3nn5p5mo",
+          "timestamp": 1795167479000,
+          "postedAt": 1795177109201
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR GRINDS ON: STRIKES, FUNDING FIGHTS AND SHORTAGES",
+      "stories": [
+        {
+          "headline": "Trump Suggests Iran War Could Stretch Into 2027: 'We've Got Time'",
+          "url": "https://time.com/article/2026/11/20/iran-war-trump-strikes-major-decision-january-2027/",
+          "timestamp": 1795167009000,
+          "postedAt": 1795177109201
+        },
+        {
+          "headline": "Government Watchdog: Iran War Has Worsened US Munitions Shortage",
+          "url": "https://thehill.com/policy/defense/6231155-pentagon-lacks-munitions-plan-gao/",
+          "timestamp": 1795157002000,
+          "feature": true,
+          "postedAt": 1795177109201
+        },
+        {
+          "headline": "House Democrats Balk At Using December Shutdown To Cut Off Iran War Funding",
+          "url": "https://www.axios.com/2026/11/19/government-shutdown-funding-iran-democrat",
+          "timestamp": 1795135657000,
+          "postedAt": 1795177109202
+        },
+        {
+          "headline": "Iran War Powers Resolution Fails In Senate Again",
+          "url": "https://www.cbsnews.com/news/iran-war-powers-vote-senate-republicans/",
+          "timestamp": 1795117560000,
+          "postedAt": 1795177109202
+        },
+        {
+          "headline": "Iran Widens Gulf Attacks, Hitting US Air Base In Kuwait And Sites In Bahrain",
+          "url": "https://www.pbs.org/newshour/world/iran-widens-gulf-attacks-by-targeting-u-s-air-base-in-kuwait-and-sites-in-bahrain",
+          "timestamp": 1795048563000,
+          "postedAt": 1795177109202
+        },
+        {
+          "headline": "Risk Of Further US Strikes On Iran Grows As Skirmishes Escalate",
+          "url": "https://www.hindustantimes.com/world-news/trump-considering-another-round-of-mass-strikes-on-iran-as-tensions-escalate-101795087599276.html",
+          "timestamp": 1795090028139,
+          "postedAt": 1795090596537
+        },
+        {
+          "headline": "Iran War Could Permanently Cut Reliance On Hormuz Strait, IEA Says",
+          "url": "https://finance.yahoo.com/energy/articles/iran-war-could-permanently-slash-055500142.html",
+          "timestamp": 1795067700000,
+          "postedAt": 1795090596537
+        },
+        {
+          "headline": "Trump Warns 'We'll Wipe Them Out' If Iran Uses A Dirty Bomb",
+          "url": "https://thehill.com/homenews/administration/6229265-trump-says-well-wipe-them-out-if-iran-dirty-bombs-us/",
+          "timestamp": 1795053540000,
+          "postedAt": 1795090596537
+        }
+      ]
+    },
+    {
+      "title": "SENATE GOP SPLINTERS OVER TRUMP NOMINEES",
+      "stories": [
+        {
+          "headline": "Sen. Cornyn Blocks Trump Judicial Nominee In Texas",
+          "url": "https://www.reuters.com/legal/government/republican-senator-cornyn-blocks-trump-judicial-nominee-texas-2026-11-18/",
+          "timestamp": 1795024164000,
+          "postedAt": 1795030193736
+        },
+        {
+          "headline": "Sen. Cassidy Blocks Trump's Pick To Head Science Agency",
+          "url": "https://www.statnews.com/2026/11/18/bill-cassidy-rejects-jim-oneill-lead-national-science-foundation/",
+          "timestamp": 1795024045000,
+          "postedAt": 1795030193736
+        },
+        {
+          "headline": "Federalist: Cornyn, Who Backed Garland, Now Threatens To Sink Trump Pick",
+          "url": "https://thefederalist.com/2026/11/18/after-voting-for-biden-cronies-like-merrick-garland-cornyn-threatens-to-sink-trump-judicial-nominee/",
+          "timestamp": 1795002437000,
+          "postedAt": 1795030193736
+        },
+        {
+          "headline": "Top Oversight Democrat Sends Letters To 12 People Close To Trump",
+          "url": "https://www.cbsnews.com/news/robert-garcia-letters-trump-house-oversight-and-government-reform-committee-investigations/",
+          "timestamp": 1795013520000,
+          "postedAt": 1795030193736
+        }
+      ]
+    },
+    {
+      "title": "MAMDANI DISBANDS NYPD UNIT",
+      "stories": [
+        {
+          "headline": "National Review: Why Is Mamdani Getting Rid Of NYC's Riot Police?",
+          "url": "https://www.nationalreview.com/videos/rich-lowry/why-is-zohran-mamdani-getting-rid-of-nyc-s-riot-police",
+          "timestamp": 1794927164000,
+          "postedAt": 1794928653256
+        },
+        {
+          "headline": "New York Mayor Mamdani Disbands Divisive NYPD Strategic Response Unit",
+          "url": "https://www.nbcnews.com/news/us-news/new-york-mayor-mamdani-disbands-divisive-nypd-unit-rcna609760",
+          "timestamp": 1794906772000,
+          "postedAt": 1794928653256
+        }
+      ]
+    },
+    {
+      "title": "ALZHEIMER'S DRUG TRIALS SHOW PROMISE AT CTAD 2026",
+      "stories": [
+        {
+          "headline": "AriBio's Alzheimer's Candidate Slows Cognitive Decline As Monotherapy",
+          "url": "https://www.biospace.com/drug-development/ctad-2026-aribios-alzheimers-candidate-slows-cognitive-decline-as-monotherapy",
+          "timestamp": 1794897360000,
+          "postedAt": 1794928653256
+        },
+        {
+          "headline": "Acadia Presents Phase 2 Results For Alzheimer's Psychosis Treatment",
+          "url": "https://finance.yahoo.com/healthcare/articles/acadia-pharmaceuticals-presents-additional-phase-140400268.html",
+          "timestamp": 1794895440000,
+          "postedAt": 1794928653256
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Quake Swarm Rattles Southern California Along San Andreas Fault",
+        "url": "https://www.dailymail.com/sciencetech/article-16308331/california-earthquake-san-andreas-fault.html",
+        "timestamp": 1795176334459,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "Texas Execution Takes Over An Hour As Staff Struggle To Find Vein",
+        "url": "https://apnews.com/article/execution-florida-texas-68c0916f95f514c293fd557a47406787",
+        "timestamp": 1795147140000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "Marine Corps Hero Now Under Federal Investigation",
+        "url": "https://www.cbsnews.com/news/marine-corps-hero-brad-kasal-federal-investigation/",
+        "timestamp": 1795141680000,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "Democrats Are Flooding GOP Primaries In New 2026 Strategy, RealClearPolitics Finds",
+        "url": "https://www.realclearpolitics.com/republican-party/articles/flooding-gop-primaries-with-democrats-2026-11-19",
+        "timestamp": 1795126689000,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "Canada: Toronto Police, Firefighters Chase Loose Chickens Around Parking Lot",
+        "url": "https://www.upi.com/Odd_News/2026/11/19/canada-toronto-parking-lot-chickens/6841795113110/",
+        "timestamp": 1795113441000,
+        "photo": true,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "Omar And Ellison's 'Anti-Somali Hate Crime' Claim Collapses As DA Declines Charges",
+        "url": "https://freebeacon.com/democrats/ilhan-omar-and-keith-ellisons-claim-that-attack-on-uber-driver-was-anti-somali-hate-crime-collapses-after-da-declines-to-bring-hate-charges-against-indian-suspect/",
+        "timestamp": 1795038216000,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "House Dems Prepare Broad Family Probe Of Trump, Axios Reports",
+        "url": "https://www.axios.com/2026/11/18/trump-garcia-house-oversight",
+        "timestamp": 1795090028139,
+        "postedAt": 1795090596537
+      },
+      {
+        "headline": "Kash Patel Skips Congress After Mar-a-Lago Gala Sold $50,000 Access",
+        "url": "https://www.cnbc.com/2026/11/18/kash-patel-hearing-mar-a-lago-gala.html",
+        "timestamp": 1795090028139,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795090596537,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "Man Paints Lady Liberty In 43.5 Seconds For Guinness World Records Day",
+        "url": "https://www.upi.com/Odd_News/2026/11/19/Guinness-World-Records-Day-2026/1211795031689/",
+        "timestamp": 1795082406000,
+        "photo": true,
+        "postedAt": 1795090596537
+      },
+      {
+        "headline": "She Won A Texas House Seat; Her Rival Says She Can't Take Office",
+        "url": "https://www.yahoo.com/news/politics/articles/felony-conviction-could-keep-texas-225116976.html",
+        "timestamp": 1795059739000,
+        "feature": true,
+        "postedAt": 1795090596537
+      },
+      {
+        "headline": "Russian National Charged With Spying On Silicon Valley Defense Contractor",
+        "url": "https://www.theguardian.com/technology/2026/nov/18/russian-national-spying-silicon-valley",
+        "timestamp": 1795058700000,
+        "photo": true,
+        "postedAt": 1795090596537
+      },
+      {
+        "headline": "Grassley Urges Declassification Of Crossfire Hurricane Documents",
+        "url": "https://www.grassley.senate.gov/news/remarks/grassley-urges-the-trump-administration-to-declassify-crossfire-hurricane-documents",
+        "timestamp": 1795054777000,
+        "postedAt": 1795090596537
+      },
+      {
+        "headline": "TAC Right Now: Rubio, the Iran War’s New Face",
+        "url": "https://www.theamericanconservative.com/tac-right-now-rubio-the-iran-wars-new-face/",
+        "timestamp": 1794968760000,
+        "postedAt": 1795030213010
+      },
+      {
+        "headline": "Can you guess the immigration status of this Uber driver who was arrested for molesting a 14-year-old boy?",
+        "url": "https://notthebee.com/article/can-you-guess-the-immigration-status-of-this-uber-driver-who-was-arrested-for-molesting-a-14-year-old-boy/",
+        "timestamp": 1795028497000,
+        "postedAt": 1795030213010
+      },
+      {
+        "headline": "GOP Senator Pitches Abolishing Social Security In Fox Interview",
+        "url": "https://www.commondreams.org/news/ron-johnson-social-security",
+        "timestamp": 1795017344000,
+        "postedAt": 1795030193736
+      },
+      {
+        "headline": "Bernie Sanders Unveils Plan To Push Medicare For All",
+        "url": "https://apnews.com/article/bernie-sanders-medicare-for-all-senate-18b2bd8c1e14c180a33efb2893b25a9c",
+        "timestamp": 1795013880000,
+        "postedAt": 1795030193736
+      },
+      {
+        "headline": "Reason: FDA Delay Leaves Americans Waiting For China-Approved Cancer Drug",
+        "url": "https://reason.com/2026/11/18/china-approved-this-lung-cancer-drug-the-fda-is-making-americans-wait/",
+        "timestamp": 1795005023000,
+        "postedAt": 1795030193736
+      },
+      {
+        "headline": "Trump Approval Holding Near Record Low Of Presidency",
+        "url": "https://thehill.com/homenews/administration/6224349-donald-trump-approval-rating-postelection-survey/",
+        "timestamp": 1794922380000,
+        "feature": true,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Scientist Challenges Consensus, Says Photos Show Epstein Was Killed",
+        "url": "https://www.audacy.com/krld/news/local/forensic-expert-challenges-epstein-death-ruling-as-more-likely-homicide",
+        "timestamp": 1794921180000,
+        "photo": true,
+        "postedAt": 1794928653256,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "New Evidence Shows School Phone Bans Gradually Improving Test Scores",
+        "url": "https://abcnews.com/US/wireStory/school-phone-bans-students-learn-gains-modest-138203187",
+        "timestamp": 1794909843000,
+        "photo": true,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Democrats See Immigration Opening Despite Stephen Miller's Rise",
+        "url": "https://www.politico.com/news/2026/11/17/democrats-trump-immigration-reform-01168941",
+        "timestamp": 1794908700000,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Former Smokejumper Credited With Ending Democrats' Montana Drought",
+        "url": "https://www.motherjones.com/politics/2026/11/montana-sam-forestag-smokejumper-federal-workers-union-forest-service-public-lands-protection/",
+        "timestamp": 1794889800000,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Google Warns Era Of Autonomous Cyberattacks Has Arrived",
+        "url": "https://www.benzinga.com/markets/tech/26/11/63329908/google-warns-era-of-autonomous-attacks-has-arrived-as-united-airlines-jpmorgan-chase-and-microsoft-grapple-with-outages",
+        "timestamp": 1794928134137,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Press Critics Ask Why Brazil Election-Interference Scandal Surfaced So Late",
+        "url": "https://www.cjr.org/the-interview/why-are-we-only-covering-these-scandals-when-its-too-late-to-do-anything-about-them-consuelo-dieguez-piaui-brazil-globo-bolsonaro-lula-vorcaro-banco-master-fraud.php",
+        "timestamp": 1795009606000,
+        "postedAt": 1795030193736
+      },
+      {
+        "headline": "Cassidy Questions 'Odd' White House Move Pulling FDA Nominee",
+        "url": "https://thehill.com/policy/healthcare/6227665-cassidy-criticizes-wh-overton-withdrawal/",
+        "timestamp": 1795017540000,
+        "postedAt": 1795030193736
+      }
+    ],
+    "center": [
+      {
+        "headline": "Denmark Honors Its 'Oldest Woman' — Then Learns She Was A Nazi",
+        "url": "https://www.mirror.co.uk/news/world-news/denmark-woman-nazi-kirsten-schwalbe-37895436",
+        "timestamp": 1795176334459,
+        "photo": true,
+        "postedAt": 1795177109201,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Storm Forming Near East Coast Threatens Thanksgiving Travel",
+        "url": "https://www.accuweather.com/en/hurricane/tropical-wind-and-rainstorm-to-streak-north-near-us-east-coast-this-weekend-into-next-week/1960952",
+        "timestamp": 1795176334459,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "New York City Unveils Plan To Move Its Jails Off Rikers Island",
+        "url": "https://www.npr.org/2026/11/20/nx-s1-5981356/new-york-city-rikers-jail-plans-germany-prison-model",
+        "timestamp": 1795168800000,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "Senate Passes BAAJA Permitting Reform Bill Backed By AI And Energy Sectors",
+        "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
+        "timestamp": 1795145400000,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "Susan Smith Denied Parole 32 Years After Killing Her Two Sons",
+        "url": "https://www.wbtv.com/2026/11/19/susan-smith-denied-parole-32-years-after-killing-2-sons-south-carolina/",
+        "timestamp": 1795110959000,
+        "photo": true,
+        "postedAt": 1795177109202,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "The Question At The Center Of The Jensen Huang Nvidia Tangle",
+        "url": "https://www.theamericanconservative.com/the-question-that-matters-in-the-huang-tangle/",
+        "timestamp": 1795104300000,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "NYC's Muslim Zoning Chief Blocks Rebuild Of Historic Church Destroyed By Arson",
+        "url": "https://notthebee.com/article/muslim-zoning-chief-appointed-by-muslim-mayor-refuses-to-let-historic-nyc-church-be-rebuilt-after-arson-attack/",
+        "timestamp": 1795101191000,
+        "photo": true,
+        "postedAt": 1795177109202,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "Can The AI Boom Survive The Political War On Data Centers?",
+        "url": "https://spectator.org/can-the-ai-revolution-survive-the-war-on-data-centers/",
+        "timestamp": 1795097220000,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "DEMOCRATS FORMALLY NOMINATE HAKEEM JEFFRIES, PAVING WAY FOR FIRST BLACK SPEAKER",
+        "url": "https://www.nbcnews.com/politics/congress/democrats-formally-nominate-rep-hakeem-jeffries-paving-way-first-black-rcna609619",
+        "timestamp": 1795030193736,
+        "postedAt": 1795030193736
+      },
+      {
+        "headline": "Five Republicans Lose Alaska Legislature Seats As Count Finishes",
+        "url": "https://alaskapublic.org/news/politics/elections/2026-11-18/five-republicans-lose-seats-in-legislature-as-election-officials-finish-vote-counting-and-tabulation",
+        "timestamp": 1795054980000,
+        "postedAt": 1795090596537
+      },
+      {
+        "headline": "UK: Prince Harry Says He'd Rejoin Military To Fight Russia",
+        "url": "https://www.aa.com.tr/en/world/uks-prince-harry-says-he-would-rejoin-military-to-fight-russia-if-needed/4129813",
+        "timestamp": 1795090028140,
+        "photo": true,
+        "postedAt": 1795090596537
+      },
+      {
+        "headline": "It Will Be a Dark Winter for Iran’s Regime",
+        "url": "https://www.nationalreview.com/corner/it-will-be-a-dark-winter-for-iran-s-regime",
+        "timestamp": 1794977700000,
+        "postedAt": 1795030213010
+      },
+      {
+        "headline": "BOTS 'PLAN TERROR ATTACKS'",
+        "url": "https://nypost.com/2026/11/18/us-news/ai-chatbots-claude-grok-chatgpt-and-gemini-share-plans-on-plotting-mass-casualty-terror-attacks/",
+        "timestamp": 1795029486945,
+        "postedAt": 1795030213010
+      },
+      {
+        "headline": "IRAN'S THIRD STRIKE ON US TARGETS IN BAHRAIN ENDS TWO-MONTH LULL",
+        "url": "https://apnews.com/article/iran-trump-israel-bahrain-attacks-582e0b5d51be06f0ed630fac24f39b72",
+        "timestamp": 1794928653256,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Hegseth 'In Venezuela Right Now' Despite Pentagon Blackout",
+        "url": "https://www.mediaite.com/media/news/washington-post-reporter-reveals-pete-hegseth-is-in-venezuela-right-now-despite-pentagon-blackout/",
+        "timestamp": 1795029486945,
+        "photo": true,
+        "postedAt": 1795030193736
+      },
+      {
+        "headline": "What Investors Should Know About Anthropic's Unusual IPO",
+        "url": "https://abcnews.com/US/wireStory/investors-anthropics-unusual-ipo-138254440",
+        "timestamp": 1795026687000,
+        "postedAt": 1795030193736
+      },
+      {
+        "headline": "Fiona The Hippo Undergoing Care After Swallowing A Hat",
+        "url": "https://www.bbc.com/news/articles/cm2d93z0e9gjo",
+        "timestamp": 1795017926000,
+        "photo": true,
+        "postedAt": 1795030193736
+      },
+      {
+        "headline": "Flood Threat Grows Across Central Florida",
+        "url": "https://www.wesh.com/article/central-florida-flood-watch-heavy-rain-orlando-weather/74463066",
+        "timestamp": 1795010640000,
+        "photo": true,
+        "postedAt": 1795030193736
+      },
+      {
+        "headline": "Chuck Schumer's Looming Leadership Fight",
+        "url": "https://www.politico.com/news/2026/11/16/schumer-van-hollen-election-timing-01169090",
+        "timestamp": 1794887640000,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "3 Dead After Plane Crash In Grand Canyon National Park",
+        "url": "https://www.syracuse.com/us-news/2026/11/3-dead-after-plane-crash-in-grand-canyon-national-park.html",
+        "timestamp": 1794914400000,
+        "photo": true,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Massive Rotting-Trash Geyser Prompts Emergency Health Order In LA County",
+        "url": "https://ktla.com/news/local-news/massive-geyser-of-rotting-trash-prompts-emergency-health-order-in-l-a-county/",
+        "timestamp": 1794903013000,
+        "photo": true,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Canada: Tariff Relief With China Expands As US Relations Strain",
+        "url": "https://apnews.com/article/apec-china-canada-xi-carney-1427deb4175e27c61efec6ee8eef36e8",
+        "timestamp": 1794898800000,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Body Camera Video Shows Savannah Alderwoman's Encounter At Deadly Shooting Scene",
+        "url": "https://www.wtoc.com/2026/11/17/new-video-body-camera-video-shows-savannah-alderwomans-encounter-with-officer-deadly-shooting-scene/",
+        "timestamp": 1794891720000,
+        "photo": true,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "United Airlines Resolves Another Widespread System Outage",
+        "url": "https://www.newsnationnow.com/latest-video/united-airlines-resolves-widespread-system-outage-p99-yuohwkg/",
+        "timestamp": 1794927205000,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Is Cyberwarfare Against The US Increasing?",
+        "url": "https://studyfinds.com/cyberwarfare-against-united-states-edging-from-spying-toward-sabotage/",
+        "timestamp": 1794928134137,
+        "postedAt": 1794928653256
+      }
+    ],
+    "right": [
+      {
+        "headline": "The Filibuster Is a Pillar of American Government",
+        "url": "https://www.nationalreview.com/article/the-filibuster-is-a-pillar-of-american-government",
+        "timestamp": 1795125600000,
+        "postedAt": 1795177136076
+      },
+      {
+        "headline": "TECH SELLOFF INTENSIFIES",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-20-2026",
+        "timestamp": 1795176334458,
+        "postedAt": 1795177136076
+      },
+      {
+        "headline": "[UK] DAILY MAIL",
+        "url": "http://www.dailymail.co.uk/home/index.html",
+        "timestamp": 1795176334459,
+        "postedAt": 1795177136076
+      },
+      {
+        "headline": "ELON MUSK DECLARES 'I AM NOT MAGA ANYMORE' AFTER $446 MILLION MIDTERM SPENDING BACKFIRES",
+        "url": "https://www.newsbreak.com/raw-story-2096750/5015918256757-elon-musk-s-shameless-maga-about-face-sparks-fierce-backlash-deeply-pathetic",
+        "timestamp": 1795090596537,
+        "postedAt": 1795090596537
+      },
+      {
+        "headline": "Judge Orders Agriculture Secretary To Stop Sending Religious Emails From Official Account",
+        "url": "https://www.reuters.com/legal/government/judge-orders-us-agriculture-chief-stop-sending-religious-emails-official-account-2026-11-20/",
+        "timestamp": 1795145400000,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "Missing 2-Year-Old Found In Arizona Desert By Volunteer Searcher",
+        "url": "https://www.cbsnews.com/news/missing-2-year-old-found-arizona-desert/",
+        "timestamp": 1795136760000,
+        "photo": true,
+        "postedAt": 1795177109201,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Voters Rejected Data Centers, But Congress Is Moving Fast To Help Big Tech Anyway",
+        "url": "https://www.thenation.com/article/politics/senate-permitting-bill-big-tech-big-oil/",
+        "timestamp": 1795075980000,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "Amanda Seyfried’s Divorce Decadence",
+        "url": "https://www.nationalreview.com/article/amanda-seyfried-s-divorce-decadence",
+        "timestamp": 1795039140000,
+        "postedAt": 1795090625688
+      },
+      {
+        "headline": "Gun Safety: Armed Teachers Offer Students Best Protection",
+        "url": "https://www.realclearinvestigations.com/articles/2026/11/19/gun_safety_armed_teachers_offer_students_best_protection_1217547.html",
+        "timestamp": 1795050180000,
+        "postedAt": 1795090625688
+      },
+      {
+        "headline": "Costco Benefits From Shoppers' 'Apocalyptic Concerns'",
+        "url": "https://www.marketwatch.com/story/costco-is-benefiting-from-apocalyptic-concerns-as-customers-stock-up-on-goods-analysts-say-24f611ab",
+        "timestamp": 1795090028139,
+        "postedAt": 1795090596537
+      },
+      {
+        "headline": "China Reportedly Seeks Advanced Nvidia Chips For AI Weapons",
+        "url": "https://www.msn.com/en-us/technology/tech-companies/ar-AA2hHxP8",
+        "timestamp": 1795090028139,
+        "postedAt": 1795090596537
+      },
+      {
+        "headline": "Cincinnati Zoo Tries 'New Approach' To Help Fiona Pass Swallowed Hat",
+        "url": "https://www.wlwt.com/article/cincinnati-zoo-fiona-health-update-swallowed-hat/74469279",
+        "timestamp": 1795061760000,
+        "photo": true,
+        "postedAt": 1795090596537,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "Illinois Police Arrest Person Of Interest In Ethanol-Plant Bomb Scare",
+        "url": "https://notthebee.com/article/person-of-interest-arrested-in-peoria-petroleum-plant-bomb-scare/",
+        "timestamp": 1795026839000,
+        "photo": true,
+        "postedAt": 1795030193736,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "Stuck Owl Rescued From Vehicle's Grille In North Carolina",
+        "url": "https://www.upi.com/Odd_News/2026/11/18/barred-owl-front-grille/2441795020007/",
+        "timestamp": 1795020150000,
+        "photo": true,
+        "postedAt": 1795030193736
+      },
+      {
+        "headline": "Voyager 1 Becomes First Human-Made Object To Reach One Light-Day From Earth",
+        "url": "https://www.upi.com/Odd_News/2026/11/18/voyager-1-one-light-day-from-earth/5931795019381/",
+        "timestamp": 1795019783000,
+        "postedAt": 1795030193736
+      },
+      {
+        "headline": "NBC News Executive To Chair Gala For Press Group Accused Of Anti-Israel Bias",
+        "url": "https://freebeacon.com/media/nbc-news-boss-to-chair-festive-gala-for-israel-hating-committee-to-protect-journalists-which-accuses-israel-of-genocide-claims-hamas-terrorists-are-slain-journalists/",
+        "timestamp": 1794996511000,
+        "postedAt": 1795030193736
+      },
+      {
+        "headline": "Wyoming Governor-Elect Nominates Kamala-Backing Democrat For Attorney General",
+        "url": "https://www.theblaze.com/news/come-on-fella-conservatives-condemn-wyoming-gov-elects-nomination-of-obama-backing-dem-for-state-ag",
+        "timestamp": 1794927628000,
+        "photo": true,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Autism Therapy Provider Billed $340,000 Per Child",
+        "url": "https://www.theblaze.com/columns/opinion/an-autism-therapy-provider-billed-340000-per-child-really",
+        "timestamp": 1794927628000,
+        "photo": true,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "A Political War Is Coming Over 'Boomer Conservatism'",
+        "url": "https://thefederalist.com/2026/11/17/a-political-war-is-coming-over-boomer-conservatism/",
+        "timestamp": 1794919378000,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Can Vance Reset Trump's Anti-Fraud Push?",
+        "url": "https://www.realclearinvestigations.com/articles/2026/11/17/department_of_government_inefficiency_can_vance_reset_anti-fraud_push_1217131.html",
+        "timestamp": 1794884160000,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "DHS Chief Took Government Plane To LSU Game As Thousands Were Stranded",
+        "url": "https://nypost.com/2026/11/17/us-news/markwayne-mullin-took-his-government-plane-to-lsu-texas-game-as-thousands-were-stranded-in-faa-ground-stoppage/",
+        "timestamp": 1794928134137,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Duffy Called Out For Past Vote Against FAA Funding Bill",
+        "url": "https://www.mediaite.com/media/tv/watch-sean-duffy-dodges-hard-after-cnbc-host-calls-out-his-vote-against-faa-funding-bill-while-in-congress/",
+        "timestamp": 1794928134137,
+        "postedAt": 1794928653256
+      },
+      {
+        "headline": "Hackers Strike 178 Major Websites",
+        "url": "https://www.newsweek.com/cyber-attack-websites-affected-12725863",
+        "timestamp": 1794928134137,
+        "postedAt": 1794928653256
+      }
+    ]
+  },
+  "balance": {
+    "left": 689,
+    "right": 626,
+    "independent": 7,
+    "days": 30,
+    "total": 1315,
+    "pctLeft": 52,
+    "pctRight": 48
+  }
+}
