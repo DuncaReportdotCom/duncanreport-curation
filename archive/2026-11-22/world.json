@@ -1,0 +1,503 @@
+{
+  "lastUpdated": 1795350774697,
+  "heroSetDate": "2026-11-22",
+  "hero": {
+    "headline": "VANCE STOPS SHORT OF BACKING TRUMP'S CLAIM IRAN NEARED NUCLEAR BOMB",
+    "url": "https://www.theguardian.com/us-news/2026/nov/21/vance-trump-iran-nuclear-weapon",
+    "sublinks": [
+      {
+        "text": "Trump Touts Past Leadership Changes, Says Iran Deal Could Last 20 Years",
+        "url": "https://timesofindia.indiatimes.com/world/us/trump-says-iran-deal-could-last-20-years-claims-us-removed-tehran-leadership-twice-eyes-ultimate-regime-change/articleshow/136058892.cms"
+      },
+      {
+        "text": "Senate Republicans Block War Powers Resolution To End Iran Conflict",
+        "url": "https://thehill.com/homenews/senate/6231044-senate-republicans-war-powers-resolution-vote-fails/"
+      },
+      {
+        "text": "Could Iran Reverse Its Civilian-Only Nuclear Policy?",
+        "url": "https://www.aljazeera.com/news/2026/11/21/could-iran-reverse-its-stated-policy-of-a-civil-only-nuclear-programme"
+      },
+      {
+        "text": "Ex-Defense Secretary Warns Iran War Could Drag On Until 2029",
+        "url": "https://thehill.com/policy/defense/6235072-esper-iran-war-timeline/"
+      },
+      {
+        "text": "ISW: Iran Update Tracks Latest Military And Political Developments",
+        "url": "https://understandingwar.org/research/middle-east/iran-update-november-21-2026/"
+      }
+    ],
+    "postedAt": 1795350774697,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "UKRAINE WAR: SECURITY GUARANTEES AND DIPLOMATIC FALLOUT",
+      "stories": [
+        {
+          "headline": "Germany's Defense Minister Apologizes For Calling US Criticism Of Ukraine Strikes 'Stupid'",
+          "url": "https://www.politico.eu/article/pistorius-apologizes-for-calling-us-criticism-of-ukraine-strikes-stupid/",
+          "timestamp": 1795176060000,
+          "postedAt": 1795177969728
+        },
+        {
+          "headline": "US Floats NATO Membership For Ukraine In Recent Talks",
+          "url": "https://aa.com.tr/en/americas/us-floats-possible-nato-membership-for-ukraine-in-exchange-for-territorial-concessions-report/4131927",
+          "timestamp": 1795174243000,
+          "postedAt": 1795177969728
+        },
+        {
+          "headline": "European Troops From 11 Nations Drill In Poland For Postwar Ukraine Mission",
+          "url": "https://apnews.com/article/poland-ukraine-military-exercise-peace-france-britain-a28d60d1b37093199dd017472028d7ac",
+          "timestamp": 1795172160000,
+          "postedAt": 1795177969728
+        },
+        {
+          "headline": "Ukraine's Bridge Strikes Strain Russian Military Logistics",
+          "url": "https://www.reuters.com/world/china/ukraine-strains-russian-logistics-with-crimean-bridge-strikes-2026-11-20/",
+          "timestamp": 1795169933000,
+          "postedAt": 1795177969728
+        },
+        {
+          "headline": "Germany: Public Support For Ukraine Military Aid Waning, Survey Shows",
+          "url": "https://www.dw.com/en/germany-news-support-for-ukraine-military-aid-waning-survey-shows/live-80008430",
+          "timestamp": 1795257675000,
+          "postedAt": 1795264202437
+        },
+        {
+          "headline": "14 Missing After Russian Drone Strike On Kyiv Region",
+          "url": "https://www.euronews.com/2026/11/22/14-people-missing-after-russian-drone-strike-on-kyiv-region",
+          "timestamp": 1795346426000,
+          "postedAt": 1795350774697
+        }
+      ]
+    },
+    {
+      "title": "COP31 CLIMATE TALKS",
+      "stories": [
+        {
+          "headline": "COP31 Climate Deal In The Balance After Fractious Talks",
+          "url": "https://www.reuters.com/sustainability/cop/cop31-climate-deal-balance-after-fractious-talks-2026-11-22/",
+          "timestamp": 1795346922000,
+          "postedAt": 1795350774697
+        },
+        {
+          "headline": "Turkey's Final COP31 Draft Omits Mention Of Fossil Fuels",
+          "url": "https://apnews.com/article/climate-un-turkey-fossil-fuels-global-warming-f6e36c4caf13ec6fed57c9f077cbd067",
+          "timestamp": 1795336200000,
+          "postedAt": 1795350774697
+        }
+      ]
+    },
+    {
+      "title": "DENMARK FOILS RUSSIAN ASSASSINATION PLOT",
+      "stories": [
+        {
+          "headline": "Von Der Leyen: Russian Threats Growing 'Less And Less Hybrid'",
+          "url": "https://www.politico.eu/article/russian-threats-less-hybrid-von-der-leyen-says-assassination-plot-ukrainian-rapper-kyivstoner-denmark/",
+          "timestamp": 1795261380000,
+          "postedAt": 1795264202437
+        },
+        {
+          "headline": "Denmark Expels Russian Diplomat Over Alleged Plot To Kill Ukrainian Rapper",
+          "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper",
+          "timestamp": 1795258153000,
+          "postedAt": 1795264202437
+        },
+        {
+          "headline": "Denmark Pushes EU To Tighten Curbs On Russians After Foiled Plot",
+          "url": "https://www.reuters.com/world/europe/denmark-pushes-eu-tighten-curbs-russians-after-foiled-plot-message-member-states-2026-11-21/",
+          "timestamp": 1795257943000,
+          "postedAt": 1795264202437
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Theresa May Tells Burnham: 'Brexit Is Done,' Time To Move On",
+        "url": "https://www.politico.eu/article/brexit-is-done-theresa-may-tells-burnham-move-on/",
+        "timestamp": 1795347120000,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "North Korea Delays Pyongyang International Marathon Until October",
+        "url": "https://www.scmp.com/sport/other-sport/article/3375370/north-korea-delays-pyongyang-international-marathon-until-october-tour-agency-says",
+        "timestamp": 1795347008000,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "Mexico: Dance Of The Skulls",
+        "url": "https://www.dw.com/en/mexico-dance-of-the-skulls/g-79831277",
+        "timestamp": 1795346160000,
+        "photo": true,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "Japan: Mascot Mania Takes Over Saitama With 200 Colourful Characters",
+        "url": "https://www.africanews.com/amp/2026/11/22/japan-mascot-mania-takes-over-saitama-with-200-colourful-characters/",
+        "timestamp": 1795341875000,
+        "photo": true,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "Tracker Says Viral Iranian Tanker Image In Strait Of Hormuz Is Fake",
+        "url": "https://www.euronews.com/2026/11/22/tracking-site-says-iranian-tanker-reportedly-sailing-through-strait-of-hormuz-does-not-exi",
+        "timestamp": 1795341290000,
+        "postedAt": 1795350774697,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "EU And Indonesia Sign Landmark Trade Deal Spanning Palm Oil To Pharma",
+        "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099",
+        "timestamp": 1795311898000,
+        "photo": true,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "Eisenkot Invites Netanyahu's Party For 'Marathon' Israeli Coalition Talks",
+        "url": "https://www.france24.com/en/middle-east/20261121-eisenkot-invites-netanyahu-s-party-for-marathon-israeli-coalition-talks",
+        "timestamp": 1795294144000,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "RUSSIA HITS KYIV BRIDGES, KILLS SIX, AFTER PUTIN VOWS REVENGE FOR CRIMEA STRIKE",
+        "url": "https://www.euronews.com/2026/11/20/russian-strikes-on-kyiv-kill-three-and-damage-two-bridges",
+        "timestamp": 1795177969728,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Former PM De Villepin Launches Presidential Bid, Warns Of Far-Right",
+        "url": "https://www.rfi.fr/en/france/20261121-former-pm-de-villepin-launches-20207-presidential-bid-with-warning-to-far-right",
+        "timestamp": 1795262557000,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "Top Drug Kingpin Captured By Mexican Army As Gunfire Erupts",
+        "url": "https://nypost.com/2026/11/21/world-news/fbis-most-wanted-cartel-kingpin-chapo-isidro-captured-in-mexico-military-operation-sparking-gunfight/",
+        "timestamp": 1795260034000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "EU's Costa Cuts Proposed Budget By €44 Billion",
+        "url": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros/",
+        "timestamp": 1795258990000,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "Violence And Distrust Hamper DR Congo's Ebola Fight",
+        "url": "https://www.afp.com/en/geography-violence-distrust-hitting-dr-congo-ebola-fight-handicap-international",
+        "timestamp": 1795258735000,
+        "photo": true,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "As Trump Courts Xi And Putin, Middle Powers Make Their Own Moves",
+        "url": "https://www.reuters.com/world/china/trump-courts-xi-putin-middle-powers-make-their-own-moves-2026-11-20/",
+        "timestamp": 1795176486000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Austria: Migrant-Background Youths Pelt Krampus Parade With Rocks",
+        "url": "https://www.breitbart.com/europe/2026/11/20/migrant-background-youths-attack-krampus-parade-in-austria-with-rocks/",
+        "timestamp": 1795172965000,
+        "photo": true,
+        "postedAt": 1795177969728,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "Germany: Mercedes, VW Stall Investment, Clouding Car Industry's Future",
+        "url": "https://www.dw.com/en/can-german-auto-manufacturing-recover-after-mercedes-and-vw-cuts/a-79946928",
+        "timestamp": 1795172832000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "UK-EU 'Reset' Deal Agreed, Downing Street Says",
+        "url": "https://www.reuters.com/world/uk/uk-eu-reset-deal-agreed-downing-street-says-2026-11-20/",
+        "timestamp": 1795170627000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Four Men Convicted Of Sexually Assaulting Joanne Young",
+        "url": "https://www.wiltshire.police.uk/news/wiltshire/news/2026/november-2026/four-men-found-guilty-of-raping-or-sexually-assaulting-joanne-young/",
+        "timestamp": 1795166220000,
+        "photo": true,
+        "feature": true,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Trump Said 'Tired' Putin Was Ready For Deal Hours Before Massive Strikes",
+        "url": "https://www.cnn.com/2026/11/20/europe/russia-ukraine-putin-trump-intl-hnk",
+        "timestamp": 1795160434000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Haiti Reaches Deal With El Salvador To Build Three New Prisons",
+        "url": "https://www.africanews.com/amp/2026/11/21/haiti-reaches-deal-with-el-salvador-to-build-three-new-prisons/",
+        "timestamp": 1795254687000,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "Lower Turnout At Largely Peaceful Marches Across France",
+        "url": "https://www.reuters.com/world/lower-turnout-largely-peaceful-marches-across-france-2026-11-21/",
+        "timestamp": 1795296771000,
+        "postedAt": 1795350774697
+      }
+    ],
+    "center": [
+      {
+        "headline": "China's Wang Wins In Hong Kong But 'Must Work Harder' To Stop An Se-Young",
+        "url": "https://www.straitstimes.com/sport/chinas-wang-zhiyi-wins-in-hong-kong-but-must-work-harder-to-stop-an-se-young",
+        "timestamp": 1795343640000,
+        "photo": true,
+        "postedAt": 1795350774697,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "China's Sanxingdui Silk Find Suggests Ancient Writing Existed On Cloth",
+        "url": "https://www.scmp.com/news/people-culture/trending-china/article/3375365/chinas-sanxingdui-silk-discovery-suggests-ancient-writing-may-have-existed-perishable-cloth",
+        "timestamp": 1795341610000,
+        "photo": true,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "Athlete Swims Strait Of Hormuz To Spotlight Iran War's Toll On Wildlife",
+        "url": "https://www.cbsnews.com/news/athlete-swims-strait-of-hormuz-iran-war-wildlife/",
+        "timestamp": 1795311053000,
+        "photo": true,
+        "postedAt": 1795350774697,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Taiwan Warns Canada's Carney That Deeper China Ties Carry Risks",
+        "url": "https://apnews.com/article/canada-taiwan-china-carney-trade-halifax-2e5eb3949e4c1a1d394363663791f883",
+        "timestamp": 1795294080000,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "Bahrain Says Iran Struck Industrial Facility As Air Defenses Intercept Attacks",
+        "url": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/",
+        "timestamp": 1795288500000,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "Tainted Alcohol Kills 11, Hospitalizes Over 180 In India",
+        "url": "https://www.scmp.com/news/asia/south-asia/article/3375332/india-tainted-alcohol-leaves-11-dead-over-180-hospitalised",
+        "timestamp": 1795261000000,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "Argentina Approves $50 Billion LNG Export Project",
+        "url": "https://batimes.com.ar/news/economy/milei-government-approves-us50-billion-argentina-lng-export-project.phtml",
+        "timestamp": 1795258868000,
+        "postedAt": 1795264202437,
+        "image": "/img/world-7.jpg"
+      },
+      {
+        "headline": "South Africa's Former Vice President And UN Official Dies At 71",
+        "url": "https://www.africanews.com/amp/2026/11/21/south-africas-former-vice-president-and-un-official-dies-aged-71/",
+        "timestamp": 1795258397000,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "Woman In Her 30s Dies Of Rabies After Stray Dog Bite",
+        "url": "https://www.timesofisrael.com/woman-in-her-30s-dies-of-rabies-after-apparently-contracting-disease-from-stray-dog/",
+        "timestamp": 1795256075000,
+        "photo": true,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "Magnitude 6.8 Earthquake Strikes Banda Sea Near Timor-Leste",
+        "url": "https://www.reuters.com/business/environment/magnitude-68-earthquake-strikes-banda-sea-near-timor-leste-gfz-says-2026-11-21/",
+        "timestamp": 1795255554000,
+        "photo": true,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "Le Pen's Party Faces Scrutiny Over Alleged Interior Ministry Leaks",
+        "url": "https://www.politico.eu/article/marine-le-pen-national-rally-party-alleged-interior-ministry-leaks/",
+        "timestamp": 1795175760000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Yemen: Black Market Thrives Under Siege Of Taiz",
+        "url": "https://www.rfi.fr/en/international-news/20261120-black-market-thrives-as-a-result-of-siege-on-yemen-s-taiz",
+        "timestamp": 1795175315000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Turkey Weighs Price Of Energy Sovereignty Amid Sanctions Pressure",
+        "url": "https://www.dw.com/en/turkey-the-price-of-energy-sovereignty/video-79943877",
+        "timestamp": 1795174344000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Benin Demands Return Of 35 Artifacts Looted By France",
+        "url": "https://www.africanews.com/amp/2026/11/20/benin-requests-return-of-35-looted-artifacts-from-paris-museum/",
+        "timestamp": 1795173256000,
+        "photo": true,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "UK Government Admits 'Differential Treatment' In Two-Tier Policing Row",
+        "url": "https://www.breitbart.com/europe/2026/11/20/two-tier-policing-british-govt-admits-examples-of-differential-treatment/",
+        "timestamp": 1795171050000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Nations Call For Sucking Carbon Out Of Air As Warming Worsens",
+        "url": "https://apnews.com/article/climate-change-carbon-removal-warming-43a5aa99d97cf290a77a14b09ed025b6",
+        "timestamp": 1795140000000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "SpaceX Sells $32 Billion Of AI Chip Debt At Yields Topping 8%",
+        "url": "https://uk.finance.yahoo.com/news/spacex-sells-32-billion-ai-234112045.html",
+        "timestamp": 1795172137000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Haitians Excited But Uneasy As El Salvador Troops Fight Gangs",
+        "url": "https://www.theguardian.com/world/2026/nov/21/excitement-unease-haiti-el-salvador-troops-gangs-war-bukele",
+        "timestamp": 1795258920000,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "Poland Says Russian Missiles Hit Its Territory; Trump Calls It A Mistake",
+        "url": "https://www.upi.com/Top_News/World-News/2026/11/21/poland-russia-missiles-trump/4031795283583/",
+        "timestamp": 1795328910000,
+        "feature": true,
+        "postedAt": 1795350774697
+      }
+    ],
+    "right": [
+      {
+        "headline": "US AND ISRAEL CONSIDERING NEW ASSAULT ON IRAN, OFFICIALS SAY",
+        "url": "https://www.cbsnews.com/news/iran-war-us-israel-considering-new-assault-sources-say/",
+        "timestamp": 1795264202437,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "Mongolia Heads For Snap Presidential Vote Amid Reform Calls",
+        "url": "https://www.euronews.com/2026/11/22/mongolia-faces-snap-presidential-vote-as-outgoing-leader-calls-for-constitutional-reform",
+        "timestamp": 1795345200000,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "Brussels, Charleroi Airports To Cancel Most Flights Amid Belgian Strike",
+        "url": "https://www.politico.eu/article/brussels-charleroi-airports-cancel-most-flights-monday-belgian-strike/",
+        "timestamp": 1795343661000,
+        "photo": true,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "Is The US Under Cyberattack?",
+        "url": "https://www.dw.com/en/fbi-hack-fears-amid-us-tech-failures-is-america-prepared/video-80012938",
+        "timestamp": 1795341126000,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "Voyager 1 Now A Mind-Blowing One Light-Day From Earth",
+        "url": "https://www.vox.com/today-explained-newsletter/510956/voyager-light-day",
+        "timestamp": 1795261913000,
+        "photo": true,
+        "postedAt": 1795264202437,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Man Shouting 'Allahu Akbar' Attempts To Blow Up Gas Station",
+        "url": "https://www.breitbart.com/europe/2026/11/21/allahu-akbar-attacker-attempted-to-blow-up-gas-station-says-french-prosecutor/",
+        "timestamp": 1795261186000,
+        "photo": true,
+        "postedAt": 1795264202437,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "Russia's Wildberries CEO Steps Down Days After EU Sanctions",
+        "url": "https://www.reuters.com/business/retail-consumer/russias-wildberries-ceo-steps-down-days-after-eu-sanctions-media-report-2026-11-21/",
+        "timestamp": 1795260043000,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "Morocco Commits €366 Million To Build National Defence Industry",
+        "url": "https://www.africanews.com/amp/2026/11/21/morocco-commits-366-million-to-build-a-national-defence-industry-by-2035/",
+        "timestamp": 1795256813000,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "Japan: Autonomous Air Taxi Completes Passenger Flight Without Pilot",
+        "url": "https://www.africanews.com/amp/2026/11/21/japan-autonomous-air-taxi-completes-passenger-flight-without-a-pilot/",
+        "timestamp": 1795256811000,
+        "photo": true,
+        "postedAt": 1795264202437
+      },
+      {
+        "headline": "Houthi Strike Hits Riyadh's Tallest Skyscraper, Saudi Wealth Fund HQ",
+        "url": "https://www.nbcnews.com/world/saudi-arabia/riyadhs-tallest-skyscraper-hit-houthi-strike-saudi-wealth-fund-hq-rcna610352",
+        "timestamp": 1795146360000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Nigeria Moves To End Prison Sentences For Attempted Suicide",
+        "url": "https://www.rfi.fr/en/africa/20261120-nigeria-moves-to-end-prison-sentences-for-attempted-suicide",
+        "timestamp": 1795176428000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Spain's Sánchez Admits 'Mistakes' In Debate Days Before Snap Election",
+        "url": "https://www.breitbart.com/europe/2026/11/20/spain-pm-sanchez-admits-mistakes-in-debate-days-before-snap-elections/",
+        "timestamp": 1795172696000,
+        "photo": true,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Italy: Two Minors Steal Bus, Vandalize Depot To 'Imitate' Grand Theft Auto VI",
+        "url": "https://www.breitbart.com/europe/2026/11/20/italy-two-minors-vandalize-depot-steal-bus-to-imitate-grand-theft-auto-vi/",
+        "timestamp": 1795171863000,
+        "photo": true,
+        "postedAt": 1795177969728,
+        "image": "/img/world-5.jpg"
+      },
+      {
+        "headline": "China To Bar Young 'Red-Chip' Firms From Listing Outside Mainland",
+        "url": "https://www.reuters.com/world/beijing-bar-young-red-chip-firms-listing-outside-mainland-china-sources-say-2026-11-20/",
+        "timestamp": 1795171138000,
+        "feature": true,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Stocks Slide As Huge Anthropic IPO Fails To Calm AI Fears",
+        "url": "https://www.afp.com/en/stocks-slide-huge-anthropic-ipo-unable-calm-ai-fears",
+        "timestamp": 1795176208000,
+        "feature": true,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Anthropic's Post-Debut Stumble Delivers Reality Check For AI Trade",
+        "url": "https://www.reuters.com/business/anthropics-post-debut-stumble-delivers-reality-check-ai-trade-2026-11-20/",
+        "timestamp": 1795173951000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Putin Scores 'Massive Win' At First Trilateral Summit, Analysts Say",
+        "url": "https://www.cnbc.com/2026/11/20/putin-xi-china-trump-russia-ukraine-.html",
+        "timestamp": 1795166805000,
+        "postedAt": 1795177969728
+      },
+      {
+        "headline": "Waltz Warns Russia Faces 'Unsustainable' Losses As Trump Seeks Deal",
+        "url": "https://nypost.com/2026/11/22/us-news/russia-faces-unsustainable-losses-approaching-wwii-scale-in-ukraine-war-mike-waltz-warns/",
+        "timestamp": 1795329780000,
+        "postedAt": 1795350774697
+      },
+      {
+        "headline": "Photos: Thousands Rally Across France Over Living Costs, Public Services",
+        "url": "https://www.aljazeera.com/gallery/2026/11/22/photos-people-rally-across-france-over-living-costs-public-services",
+        "timestamp": 1795339850000,
+        "postedAt": 1795350774697
+      }
+    ]
+  }
+}
