@@ -1,0 +1,763 @@
+{
+  "lastUpdated": 1795436091820,
+  "heroSetDate": "2026-11-23",
+  "hero": {
+    "headline": "DEMOCRATS CLINCH LARGEST HOUSE MAJORITY SINCE 1992 AFTER FLIPPING NORTH CAROLINA SEAT",
+    "url": "https://www.bbc.com/news/articles/c6vg29g7dlyno",
+    "sublinks": [
+      {
+        "text": "Final Count Puts Democrats At 258 House Seats",
+        "url": "https://www.washingtonexaminer.com/news/house/4811677/democrats-258-house-seats-largest-majority-three-decades/"
+      },
+      {
+        "text": "Certification Nears As Count Confirms At Least 258-Seat Majority",
+        "url": "https://apnews.com/article/democrats-house-majority-election-2026-congress-721096a4d9ba2cd68683692361798cdb"
+      },
+      {
+        "text": "Analysis: Young Men's Exodus From GOP Fueled Midterm Losses",
+        "url": "https://www.nj.com/politics/2026/11/young-men-abandoned-trumps-gop-in-2026-midterms-new-analysis-shows.html"
+      },
+      {
+        "text": "Why Gen Z Voters Swung Back Toward Democrats This Cycle",
+        "url": "https://www.msn.com/en-us/news/other/why-gen-z-moved-back-to-the-left-in-2026/ar-AA2i21U7"
+      },
+      {
+        "text": "National Review Warns New Majority Could Fuel Reckless Medicare Expansion",
+        "url": "https://www.nationalreview.com/article/hakeem-jeffries-s-reckless-medicare-expansion"
+      }
+    ],
+    "postedAt": 1795436091820,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "SEVERE STORMS, FLOODING AND TORNADOES THREATEN THANKSGIVING TRAVEL",
+      "stories": [
+        {
+          "headline": "Dual Storms Threaten Thanksgiving Travel Plans Coast To Coast",
+          "url": "https://www.cnn.com/2026/11/22/weather/east-west-coast-storms-thanksgiving-travel-climate-hnk",
+          "timestamp": 1795409820000,
+          "postedAt": 1795436091820
+        },
+        {
+          "headline": "Bay Area Officials Rush To Protect SFO Ahead Of Expected Flooding",
+          "url": "https://www.cbsnews.com/sanfrancisco/news/bay-area-protect-sfo-key-infrastructure-expected-flooding/",
+          "timestamp": 1795402135000,
+          "postedAt": 1795436091820
+        },
+        {
+          "headline": "S.F. Mayor Warns Residents To Avoid Travel As Storm, Record Tides Approach",
+          "url": "https://www.sfchronicle.com/sf/article/record-high-tides-lurie-travel-22542482.php",
+          "timestamp": 1795234821000,
+          "postedAt": 1795263223559
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR ESCALATES AS HORMUZ ATTACKS SURGE",
+      "stories": [
+        {
+          "headline": "Ex-Defense Secretary Warns Iran War Could Drag On Until 2029",
+          "url": "https://thehill.com/policy/defense/6235072-esper-iran-war-timeline/",
+          "timestamp": 1795265520000,
+          "postedAt": 1795349709040
+        },
+        {
+          "headline": "Strait Of Hormuz Attacks Reach Highest Level Since War Began",
+          "url": "https://abcnews.com/International/strait-hormuz-attacks-increased-highest-level-iran-war/story?id",
+          "timestamp": 1795259924000,
+          "feature": true,
+          "postedAt": 1795349709040
+        }
+      ]
+    },
+    {
+      "title": "AI MARKET ROUT AND TECH OUTAGES RATTLE WALL STREET",
+      "stories": [
+        {
+          "headline": "Wall Street Closes Out A Bizarre, Wild Week Driven By AI Stocks",
+          "url": "https://finance.yahoo.com/markets/article/from-anthropic-to-nvidia-wall-street-just-had-a-bizarre-wild-week-110000443.html",
+          "timestamp": 1795345200000,
+          "postedAt": 1795349709040
+        },
+        {
+          "headline": "White House Removes Cybersecurity Chief After Wave Of Tech Outages",
+          "url": "https://www.bbc.com/news/articles/cwz0k3nn5p5mo",
+          "timestamp": 1795167479000,
+          "postedAt": 1795177109201
+        }
+      ]
+    },
+    {
+      "title": "ICE AIRPORT DETENTIONS DRAW BACKLASH",
+      "stories": [
+        {
+          "headline": "ICE Arrests Two At Seattle Airport As Governor Calls Scenes 'Chilling'",
+          "url": "https://www.dw.com/en/us-ice-arrests-2-at-seattle-airport-in-chilling-scenes-governor/a-80012480",
+          "timestamp": 1795332686000,
+          "postedAt": 1795349709040
+        },
+        {
+          "headline": "Princeton Student Detained By ICE At Reagan Airport After Conference",
+          "url": "https://www.cbsnews.com/philadelphia/news/princeton-student-ice/",
+          "timestamp": 1795301400000,
+          "postedAt": 1795349709040
+        }
+      ]
+    },
+    {
+      "title": "SENATE GOP SPLINTERS OVER TRUMP NOMINEES",
+      "stories": [
+        {
+          "headline": "Melania Trump: 'My Husband Is Surrounded By Yes-Men'",
+          "url": "https://www.imdb.com/news/ni66121546/?ref_",
+          "timestamp": 1795262644601,
+          "postedAt": 1795263223559
+        },
+        {
+          "headline": "Melania Trump Says Public Displays Of Affection Are 'Not My Style'",
+          "url": "https://www.nbcwashington.com/news/national-international/melania-trump-series-prime-video-marriage-motherhood/4186077/",
+          "timestamp": 1795205700000,
+          "postedAt": 1795263223559
+        }
+      ]
+    },
+    {
+      "title": "BRAZIL SUPREME COURT OVERREACH: ELECTION PROBE AND BOLSONARO SAGA",
+      "stories": [
+        {
+          "headline": "Brazil Opens Investigation Into Alleged Foreign Interference In Election",
+          "url": "https://brazilreports.com/brazil-investigates-alleged-foreign-interference-in-presidential-election-despite-lula-win/7471/",
+          "timestamp": 1795233816000,
+          "postedAt": 1795263223559
+        },
+        {
+          "headline": "Bolsonaro Hospitalized With Stomach Pain Amid Legal Battles",
+          "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648",
+          "timestamp": 1795210018000,
+          "postedAt": 1795263223559
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "America Cannot Lead Tomorrow by Underfunding Science Today",
+        "url": "https://www.realclearpolicy.com/articles/2026/11/19/america_cannot_lead_tomorrow_by_underfunding_science_today_1217658.html",
+        "timestamp": 1795082280000,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "The Politics of Laughter",
+        "url": "https://spectator.org/the-politics-of-laughter/",
+        "timestamp": 1795356240000,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "Lindsey Graham’s Mayflower Compact",
+        "url": "https://www.theamericanconservative.com/lindsey-grahams-mayflower-compact/",
+        "timestamp": 1795363260000,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "Hakeem Jeffries’s Reckless Medicare Expansion",
+        "url": "https://www.nationalreview.com/article/hakeem-jeffries-s-reckless-medicare-expansion",
+        "timestamp": 1795384800000,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "ABDUL ROCKS THE BOAT",
+        "url": "https://www.wsj.com/politics/abdul-el-sayed-is-already-shaking-up-the-senate-72675805",
+        "timestamp": 1795435584581,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "Drug Kingpin's Capture Risks Bloody Succession Battle",
+        "url": "https://www.wsj.com/world/americas/drug-kingpins-capture-in-mexico-threatens-to-touch-off-bloody-succession-battle-8df2bff0",
+        "timestamp": 1795435584582,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "Battered Home Builders Turn to Repair Work to Pay Bills",
+        "url": "https://www.wsj.com/economy/housing/battered-home-builders-turn-to-remodeling-and-repair-work-to-pay-the-bills-247fa315",
+        "timestamp": 1795435584582,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "DSA set to run hundreds of comrades",
+        "url": "https://nypost.com/2026/11/21/us-news/dsa-plans-to-run-hundreds-of-candidates-in-2028/",
+        "timestamp": 1795435584582,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "BRAZIL EX-PRESIDENT BOLSONARO MOVED TO INTENSIVE CARE",
+        "url": "https://www.mercedsunstar.com/news/nation-world/world/article318192328.html",
+        "timestamp": 1795349709040,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "Battered Home Builders Turn To Repair Work To Pay Bills",
+        "url": "https://www.livemint.com/global/battered-home-builders-turn-to-remodeling-and-repair-work-to-pay-the-bills-11795396625794.html",
+        "timestamp": 1795435584582,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Ossoff's Expanding Georgia Coalition Fuels 2028 Presidential Buzz",
+        "url": "https://www.cbsnews.com/news/jon-ossoff-2028-presidential-speculation-after-georgia-win/",
+        "timestamp": 1795435584581,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Bitcoin Crashes To $17,000 In Bizarre Weekend Flash-Crash Mystery",
+        "url": "https://beincrypto.com/bitcoin-under-17000-kraken-flash-crash/",
+        "timestamp": 1795425491000,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "DNI Jay Clayton: Putin Is 'Not America's Friend' In Ukraine",
+        "url": "https://abcnews.com/Politics/dni-clayton-putin-americas-friend-ukraine/story?id",
+        "timestamp": 1795399136000,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Oath Keepers Founder Says He's 'Absolutely Done' With Trump",
+        "url": "https://apnews.com/article/oath-keepers-stewart-rhodes-trump-capitol-riot-f7d582433909b63534ee0f8a22976f83",
+        "timestamp": 1795349093704,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "Astronomers Discover Bizarre Triple-Star System That Shouldn't Exist, 28 Light-Years Away",
+        "url": "https://www.zmescience.com/science/news-science/triple-star-system-shouldnt-exist/",
+        "timestamp": 1795343137000,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "USDA Quietly Releases Bigfoot Files, Including Pacific Northwest Cases",
+        "url": "https://ktvz.com/news/2026/11/21/usda-quietly-releases-bigfoot-files-included-cases-in-the-pacific-northwest/",
+        "timestamp": 1795306498000,
+        "photo": true,
+        "postedAt": 1795349709040,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Republican Congressman's Ex-Staffer Indicted Over Fake Anti-Trump Attack",
+        "url": "https://www.independent.co.uk/news/world/americas/crime/new-jersey-van-drew-woman-indicted-faking-attack-b3089283.html",
+        "timestamp": 1795305420000,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "Why Surgery Wasn't An Option To Save Fiona The Hippo",
+        "url": "https://www.wral.com/news/ap/why-surgery-was-not-an-option-fiona-the-hippo-death-november-2026/",
+        "timestamp": 1795300139000,
+        "photo": true,
+        "postedAt": 1795349709040,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "Vance Declines To Say He Would Have Ordered Iran Strikes",
+        "url": "https://www.reuters.com/world/us/us-vice-president-vance-declines-say-he-would-have-ordered-iran-strikes-2026-11-20/",
+        "timestamp": 1795218319000,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Mamdani Tears Achilles Tendon Playing Soccer",
+        "url": "https://nypost.com/2026/11/20/health/mamdani-injures-achilles-in-soccer-game-what-he-can-expect",
+        "timestamp": 1795262644601,
+        "photo": true,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Federal Court Halts Pregnant Workers' Protection Law",
+        "url": "https://streamlinefeed.co.ke/news/federal-appeals-court-pauses-army-lead-azide-blast-in-iowa",
+        "timestamp": 1795238250000,
+        "feature": true,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Man Convicted In Palisades Arson Retrial Over Deadly Wildfire",
+        "url": "https://www.nbcnews.com/news/us-news/pacific-palisades-fire-retrial-jonathan-rinderknecht-rcna610336",
+        "timestamp": 1795226397000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795263223559,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "Court Order Suspends Planned Detonation Of 5 Tons Of Lead Azide In Iowa",
+        "url": "https://www.nbcchicago.com/news/local/detonation-of-5-tons-of-lead-azide-in-iowa-indefinitely-suspended-by-court-order/4019547/",
+        "timestamp": 1795201643000,
+        "photo": true,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Quake Swarm Rattles Southern California Along San Andreas Fault",
+        "url": "https://www.dailymail.com/sciencetech/article-16308331/california-earthquake-san-andreas-fault.html",
+        "timestamp": 1795176334459,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "Texas Execution Takes Over An Hour As Staff Struggle To Find Vein",
+        "url": "https://apnews.com/article/execution-florida-texas-68c0916f95f514c293fd557a47406787",
+        "timestamp": 1795147140000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "Marine Corps Hero Now Under Federal Investigation",
+        "url": "https://www.cbsnews.com/news/marine-corps-hero-brad-kasal-federal-investigation/",
+        "timestamp": 1795141680000,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "Democrats Are Flooding GOP Primaries In New 2026 Strategy, RealClearPolitics Finds",
+        "url": "https://www.realclearpolitics.com/republican-party/articles/flooding-gop-primaries-with-democrats-2026-11-19",
+        "timestamp": 1795126689000,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "Canada: Toronto Police, Firefighters Chase Loose Chickens Around Parking Lot",
+        "url": "https://www.upi.com/Odd_News/2026/11/19/canada-toronto-parking-lot-chickens/6841795113110/",
+        "timestamp": 1795113441000,
+        "photo": true,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "Omar And Ellison's 'Anti-Somali Hate Crime' Claim Collapses As DA Declines Charges",
+        "url": "https://freebeacon.com/democrats/ilhan-omar-and-keith-ellisons-claim-that-attack-on-uber-driver-was-anti-somali-hate-crime-collapses-after-da-declines-to-bring-hate-charges-against-indian-suspect/",
+        "timestamp": 1795038216000,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "Procter & Gamble Expands Automated Shifts To Cut Costs",
+        "url": "https://www.nytimes.com/2026/11/22/business/procter-gamble-factory-automated.html?unlocked_article_code=1.SVE.0slY.hPxadPz_kWKr&smid=url-share",
+        "timestamp": 1795349093704,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "Mamdani Dodges Question On Economics Of Taxpayer-Funded Grocery Stores",
+        "url": "https://www.foxbusiness.com/politics/mamdani-dodges-pointed-question-economics-taxpayer-funded-grocery-stores",
+        "timestamp": 1795229520000,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Tornado Tears Through Delray Beach Country Club, Damages Golf Course",
+        "url": "https://cbs12.com/news/local/tornado-tears-through-delray-beach-country-club-damages-golf-course-facilities",
+        "timestamp": 1795431642000,
+        "postedAt": 1795436091820
+      }
+    ],
+    "center": [
+      {
+        "headline": "New video shows moment abortion abolitionist arrested in Texas",
+        "url": "https://notthebee.com/article/new-video-shows-moment-abortion-abolitionist-arrested-in-texas/",
+        "timestamp": 1795355327000,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "UK Woman Mistakes Medieval Relic for Costume Jewelry",
+        "url": "https://notthebee.com/article/uk-woman-mistakes-medieval-relic-for-costume-jewelry/",
+        "timestamp": 1795361820000,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "The Public Interest Demands Free Speech for Broadcasters",
+        "url": "https://www.nationalreview.com/article/the-public-interest-demands-free-speech-for-broadcasters",
+        "timestamp": 1795384800000,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "Thanksgiving Travelers Told To Be 'Mentally Ready' For Airport Hell",
+        "url": "https://www.the-sun.com/travel/17341959/thanksgiving-travel-warning-weather-conditions-delays/",
+        "timestamp": 1795435584582,
+        "photo": true,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Meta Warns It's 'Hard To Imagine' Humans Staying In Control Of AI",
+        "url": "https://www.aa.com.tr/en/science-technology/meta-ai-chief-says-superintelligence-is-coming-warns-next-year-will-be-critical/4134281",
+        "timestamp": 1795435584581,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Florida Town Cancels Christmas Parade After Property Tax Overhaul",
+        "url": "https://www.nbcnews.com/politics/politics-news/lost-claus-florida-town-hit-states-voter-approved-property-tax-overhau-rcna610806",
+        "timestamp": 1795410420000,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Vets Warn Hats, Coins And Shoes Fed To Zoo Animals Can Be Deadly",
+        "url": "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly",
+        "timestamp": 1795398828000,
+        "photo": true,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Amtrak Train Derails After Colliding With 18-Wheeler In Lafayette",
+        "url": "https://www.klfy.com/local/lafayette-parish/amtrak-truck-collision-lafayette/",
+        "timestamp": 1795396401000,
+        "photo": true,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Man Convicted In Barnard Student Murder Released On Parole After 5 Years",
+        "url": "https://keyt.com/news/national-world/cnn-national/2026/11/22/man-convicted-in-barnard-student-murder-released-on-parole/",
+        "timestamp": 1795393980000,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Populism Isn’t Built for Setbacks",
+        "url": "https://www.nationalreview.com/article/populism-isn-t-built-for-setbacks",
+        "timestamp": 1795298400000,
+        "postedAt": 1795349847638
+      },
+      {
+        "headline": "AI STOCK SELLOFF WIPES OUT $4 TRILLION AS NASDAQ TURNS NEGATIVE FOR YEAR",
+        "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+        "timestamp": 1795263223559,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Mamdani's Rikers Plan Pours Millions Into Housing Program For Ex-Convicts' Families",
+        "url": "https://nypost.com/2026/11/21/us-news/mamdanis-plan-to-close-rikers-pours-millions-of-more-tax-dollars-into-program-paying-public-to-house-ex-con-family-members/",
+        "timestamp": 1795296360000,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "Crossbow Killing Suspect Admits To Killing Woman Found Near Trail",
+        "url": "https://www.wdsu.com/article/st-tammany-deputies-crossbow-killing-suspect-admits-to-killing-woman-found-near-trail/74497001",
+        "timestamp": 1795323840000,
+        "photo": true,
+        "postedAt": 1795349709040,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "Trump's Proposed Arlington Arch Worries Families Of The Fallen",
+        "url": "https://www.pbs.org/newshour/politics/for-families-of-the-fallen-trumps-proposed-arch-casts-a-shadow-over-arlington-national-cemetery",
+        "timestamp": 1795301523000,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "Trump Posts Intimate Photo Tribute To 'Friend' Putin",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-putin-friend-photo-truth-social-b3089292.html",
+        "timestamp": 1795299660000,
+        "photo": true,
+        "postedAt": 1795349709040,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "New Jersey Governor Earmarks $20 Million To Help Illegal Immigrants Fight Deportation",
+        "url": "https://notthebee.com/article/new-jersey-governor-earmarks-20-million-for-illegal-aliens-to-fight-deportation/",
+        "timestamp": 1795280072000,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "California State Bar Opens Investigation Into Former White House Press Secretary Katie Zacharia",
+        "url": "https://www.seattletimes.com/nation-world/nation-politics/california-state-bar-opens-investigation-into-former-white-house-press-secretary-katie-zacharia/",
+        "timestamp": 1795219455000,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Removal Of Hat Stuck Inside Fiona The Hippo Was 'Impossible,' Cincinnati Zoo Says",
+        "url": "https://www.bbc.com/news/articles/cwly43km54n6o",
+        "timestamp": 1795212873000,
+        "photo": true,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Judge Refuses To Dismiss Alex Murdaugh's Original Murder Indictments",
+        "url": "https://apnews.com/article/murdaugh-killings-original-indictments-2b933e5f69e3d2c16ecae119f85a0e0d",
+        "timestamp": 1795209120000,
+        "photo": true,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Texas County Treasurer Challenges Law Stripping Her Salary Over Abolition Campaign",
+        "url": "https://reason.com/2026/11/20/texas-county-treasurer-challenges-law-requiring-her-to-lose-salary-because-she-ran-on-abolishing-her-office/",
+        "timestamp": 1795201232000,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Denmark Honors Its 'Oldest Woman' — Then Learns She Was A Nazi",
+        "url": "https://www.mirror.co.uk/news/world-news/denmark-woman-nazi-kirsten-schwalbe-37895436",
+        "timestamp": 1795176334459,
+        "photo": true,
+        "postedAt": 1795177109201,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "New York City Unveils Plan To Move Its Jails Off Rikers Island",
+        "url": "https://www.npr.org/2026/11/20/nx-s1-5981356/new-york-city-rikers-jail-plans-germany-prison-model",
+        "timestamp": 1795168800000,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "Senate Passes BAAJA Permitting Reform Bill Backed By AI And Energy Sectors",
+        "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
+        "timestamp": 1795145400000,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "Susan Smith Denied Parole 32 Years After Killing Her Two Sons",
+        "url": "https://www.wbtv.com/2026/11/19/susan-smith-denied-parole-32-years-after-killing-2-sons-south-carolina/",
+        "timestamp": 1795110959000,
+        "photo": true,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "The Question At The Center Of The Jensen Huang Nvidia Tangle",
+        "url": "https://www.theamericanconservative.com/the-question-that-matters-in-the-huang-tangle/",
+        "timestamp": 1795104300000,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "NYC's Muslim Zoning Chief Blocks Rebuild Of Historic Church Destroyed By Arson",
+        "url": "https://notthebee.com/article/muslim-zoning-chief-appointed-by-muslim-mayor-refuses-to-let-historic-nyc-church-be-rebuilt-after-arson-attack/",
+        "timestamp": 1795101191000,
+        "photo": true,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "Can The AI Boom Survive The Political War On Data Centers?",
+        "url": "https://spectator.org/can-the-ai-revolution-survive-the-war-on-data-centers/",
+        "timestamp": 1795097220000,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "More Rain Expected Saturday After Days Of Central Florida Coastal Flooding",
+        "url": "https://www.wesh.com/article/rain-saturday-central-florida-flooding/74496967",
+        "timestamp": 1795259220000,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Texas Says Execution Went As Planned",
+        "url": "https://apnews.com/article/texas-execution-reinaldo-dennes-aad1d1e62d6c89ad68404a936e7412e3",
+        "timestamp": 1795215780000,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Anthropic's Unusual IPO Process Chafed Some Bankers, Sources Say",
+        "url": "https://www.reuters.com/world/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-2026-11-22/",
+        "timestamp": 1795345845000,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "Mamdani's Vow To Close Rikers Island Draws Hope And Skepticism",
+        "url": "https://www.nbcnews.com/news/us-news/mamdanis-vow-close-rikers-island-jail-rekindles-hope-skepticism-rcna610397",
+        "timestamp": 1795206126000,
+        "postedAt": 1795263223559
+      }
+    ],
+    "right": [
+      {
+        "headline": "The Next Big Fiscal Deal Is Closer Than It Looks",
+        "url": "https://www.realclearpolicy.com/articles/2026/11/19/the_next_big_fiscal_deal_is_closer_than_it_looks_1217663.html",
+        "timestamp": 1795082940000,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "Some Thoughts on the Summit",
+        "url": "https://spectator.org/some-thoughts-on-the-summit/",
+        "timestamp": 1795356600000,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "Why Neocons Hate Being Called Neocons",
+        "url": "https://www.theamericanconservative.com/why-neocons-hate-being-called-neocons/",
+        "timestamp": 1795363380000,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "THE SURVIVOR...\n$25M Donation to Hang On Amid Epstein Scandal?",
+        "url": "https://www.wsj.com/politics/policy/howard-lutnick-is-the-ultimate-survivor-in-the-trump-administration-29ac3243",
+        "timestamp": 1795435584581,
+        "postedAt": 1795436231485
+      },
+      {
+        "headline": "Report Warns Eight US Cities Face Economic 'Death Spiral'",
+        "url": "https://www.dailymail.com/real-estate/article-16282367",
+        "timestamp": 1795435584582,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Drug Kingpin's Capture Risks Bloody Cartel Succession Battle",
+        "url": "https://www.itv.com/news/2026-11-22/mexican-drug-lord-captured-in-bloody-shoot-out-that-left-11-dead",
+        "timestamp": 1795435584582,
+        "feature": true,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "How A New Orleans Cruise Ship Crash Became 'Miracle On The Mississippi'",
+        "url": "https://www.cnn.com/2026/11/21/us/new-orleans-cruise-ship-rescue",
+        "timestamp": 1795416240000,
+        "photo": true,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Donald Trump's Lame-Duck Foreign Policy Takes Shape",
+        "url": "https://www.middleeastmonitor.com/20261123-the-lame-duck-and-the-iran-war/",
+        "timestamp": 1795404600000,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Video Of ICE Detaining Father, Daughter At Airport Sparks Seattle Protests",
+        "url": "https://www.theguardian.com/us-news/2026/nov/23/father-daughter-ice-arrests-video-sparks-protests-seattle-airport",
+        "timestamp": 1795401600000,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "NY Democrat Addresses Viral 'Lizard People' Conspiracy Claims",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM1hxeEpoeGNQY1dNRGhQTkdMMjIwQzM3Tmd6aldrSURKbEw0MHZkbGNhWXJHTHNWQ0Rlc21uNWV1SUc4SDAwbUplN3VjNnFwcUR5dnhPWHM4a29pcnk4TFhHLXlfRDhJdGh5eXR0MjRLd2ZrX2FWNDQwMFlJZlE1TjFuNll3Q1pxWEFNS0FTSzFCVTlTVUh0bXpjanhKdlBhNHZscnlYZG1BdEx0YWNVSkJrV3MyZjDSAbwBQVVfeXFMTjdMU2lTb3hDLTlhVGk2U1dNVy01RkNCa1VXVVp6Umc5SEZHb1BuZ1lUa2QxTmJqYlo5ckQtN21sLUUxWjdRUWZuVzF4U1FKTXYyMFdsOWJFZnRubC1ydDhkZVJ2N0c4RXZRWEpYQkZlWVVzMGQ5eTZTaGtXV05LdUJrM0hoRklvbVVLc3B5N1dTdVM5RVUxQjJBclVTZDFZRWg1cDFyMlBWQlMyUlFnQzZieVlvYkp2YWdOZlA?oc=5",
+        "timestamp": 1795400162000,
+        "photo": true,
+        "postedAt": 1795436091820,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Purdue Professor, Two Daughters Killed In Apparent Murder-Suicide",
+        "url": "https://www.foxnews.com/us/purdue-professor-2-daughters-killed-apparent-murder-suicide-daughter-terrifying-911-call",
+        "timestamp": 1795397953000,
+        "feature": true,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "He Took A $10 Synthetic Opioid Few Had Heard Of — It Killed Him",
+        "url": "https://www.cbsnews.com/news/synthetic-opioids-nitazenes-cartel-chemists-60-minutes/",
+        "timestamp": 1795395540000,
+        "postedAt": 1795436091820
+      },
+      {
+        "headline": "Can ‘America First’ Be Saved?",
+        "url": "https://www.theamericanconservative.com/can-america-first-be-saved/",
+        "timestamp": 1795277160000,
+        "postedAt": 1795349847638
+      },
+      {
+        "headline": "Howard Lutnick,  Ultimate Survivor...\n\nDropped $25M Donation to Hang On Amid Epstein Scandal",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/howard-lutnick-trump-library-donation-b3089428.html",
+        "timestamp": 1795349093704,
+        "postedAt": 1795349847638
+      },
+      {
+        "headline": "Security Officials Sound Alarm Over Al-Qaeda Hijacking Plots",
+        "url": "https://www.dailymail.com/news/article-16310707/US-security-al-Qaeda-hijacking-threats.html",
+        "timestamp": 1795349093704,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "Trump Calls Fox News To Push FBI Conspiracy Claim",
+        "url": "https://abcnews.com/Politics/openai-ceo-calls-ai-pacing-trump-insists-downplaying/story?id",
+        "timestamp": 1795337938000,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "Mexico: 'El Chapo Isidro' Captured In Shoot-Out, Was On FBI's Most Wanted List",
+        "url": "https://www.bbc.com/news/articles/ckz749ey0r75o",
+        "timestamp": 1795310703000,
+        "photo": true,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "Lock Of George Washington's Hair Sells For $4,000",
+        "url": "https://www.bbc.com/news/articles/cwe9k23dpz0do",
+        "timestamp": 1795298479000,
+        "photo": true,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "Jury Convicts Man Of Starting Deadly 2025 Palisades Fire",
+        "url": "https://www.npr.org/2026/11/21/nx-s1-6049625/palisades-fire-conviction",
+        "timestamp": 1795269513000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795349709040
+      },
+      {
+        "headline": "JUSTICE DEPARTMENT DROPS APPEAL TO DELAY ALASKA SENATE CERTIFICATION, CLEARING PELTOLA'S WIN",
+        "url": "https://bsinews.id/en/justice-department-drops-alaska-appeal",
+        "timestamp": 1795177109202,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "Second Judge Blocks Trump's Contested D.C. Arch",
+        "url": "https://www.axios.com/2026/11/20/trump-arch-blocked-again",
+        "timestamp": 1795252370000,
+        "feature": true,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Fifth Circuit Declares House COVID-Era Proxy Voting Rule Unconstitutional",
+        "url": "https://reason.com/volokh/2026/11/20/en-banc-fifth-circuit-declares-house-covid-proxy-voting-rule-unconstitutional/",
+        "timestamp": 1795224561000,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Purdue University Professor And Family Found Dead In Indiana Home",
+        "url": "https://www.newsnationnow.com/crime/purdue-professor-family-dead-home/",
+        "timestamp": 1795215108000,
+        "photo": true,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "Trump Says He'll Tax Companies Building Data Centers Outside The U.S.",
+        "url": "https://www.politico.com/news/2026/11/20/trump-overseas-data-center-tax-01178999",
+        "timestamp": 1795204440000,
+        "postedAt": 1795263223559
+      },
+      {
+        "headline": "The Filibuster Is a Pillar of American Government",
+        "url": "https://www.nationalreview.com/article/the-filibuster-is-a-pillar-of-american-government",
+        "timestamp": 1795125600000,
+        "postedAt": 1795177136076
+      },
+      {
+        "headline": "TECH SELLOFF INTENSIFIES",
+        "url": "https://www.nbcnews.com/video/markets-plummet-as-tech-sell-off-intensifies-273925701683",
+        "timestamp": 1795176334458,
+        "postedAt": 1795177136076
+      },
+      {
+        "headline": "[UK] DAILY MAIL",
+        "url": "http://www.dailymail.co.uk/home/index.html",
+        "timestamp": 1795176334459,
+        "postedAt": 1795177136076
+      },
+      {
+        "headline": "Judge Orders Agriculture Secretary To Stop Sending Religious Emails From Official Account",
+        "url": "https://www.reuters.com/legal/government/judge-orders-us-agriculture-chief-stop-sending-religious-emails-official-account-2026-11-20/",
+        "timestamp": 1795145400000,
+        "postedAt": 1795177109201
+      },
+      {
+        "headline": "Missing 2-Year-Old Found In Arizona Desert By Volunteer Searcher",
+        "url": "https://www.cbsnews.com/news/missing-2-year-old-found-arizona-desert/",
+        "timestamp": 1795136760000,
+        "photo": true,
+        "postedAt": 1795177109201,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Voters Rejected Data Centers, But Congress Is Moving Fast To Help Big Tech Anyway",
+        "url": "https://www.thenation.com/article/politics/senate-permitting-bill-big-tech-big-oil/",
+        "timestamp": 1795075980000,
+        "postedAt": 1795177109202
+      },
+      {
+        "headline": "Witness Says Prisoner Moaned In Pain For Minutes During Lethal Injection",
+        "url": "https://www.reuters.com/world/us/texas-prisoner-moans-pain-minutes-during-unusual-lethal-injection-witnesses-say-2026-11-20/",
+        "timestamp": 1795216731000,
+        "postedAt": 1795263223559
+      }
+    ]
+  },
+  "balance": {
+    "left": 708,
+    "right": 663,
+    "independent": 3,
+    "days": 30,
+    "total": 1371,
+    "pctLeft": 52,
+    "pctRight": 48
+  }
+}
