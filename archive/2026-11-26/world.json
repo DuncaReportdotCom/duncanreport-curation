@@ -1,0 +1,623 @@
+{
+  "lastUpdated": 1795696131353,
+  "heroSetDate": "2026-11-26",
+  "hero": {
+    "headline": "EU LEADERS GATHER IN BRUSSELS SEEKING BUDGET DEAL AND NEW UKRAINE LOAN",
+    "url": "https://www.dw.com/en/eu-leaders-seek-agreement-on-long-term-budget-and-ukraine-at-summit/live-80056415",
+    "sublinks": [
+      {
+        "text": "Breitbart: Brussels Weighs Yet Another Multibillion Ukraine Loan",
+        "url": "https://www.breitbart.com/europe/2026/11/26/forever-war-e-u-leaders-prepare-another-big-new-loan-for-ukraine/"
+      },
+      {
+        "text": "Le Pen Attacks Budget Push Ahead Of French Election",
+        "url": "https://www.afp.com/en/le-pen-slams-push-eu-budget-deal-french-election"
+      },
+      {
+        "text": "US Warns EU Against Pursuing Big Tech Tax Plan",
+        "url": "https://www.politico.eu/article/us-fires-warning-shot-ahead-of-eu-leaders-big-tech-tax-talks/"
+      },
+      {
+        "text": "EU Also Tightens Trade Curbs On Russia's Military-Industrial Complex",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/25/russia-s-war-of-aggression-against-ukraine-eu-restricts-trade-with-15-entities-linked-to-russia-s-military-and-industrial-complex/"
+      },
+      {
+        "text": "Breakdown: Who Actually Pays For The EU's New Taxes",
+        "url": "https://www.euronews.com/2026/11/26/who-pays-the-new-eu-taxes-a-breakdown-of-who-will-foot-the-bill"
+      }
+    ],
+    "postedAt": 1795696131353,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "TRUMP'S NEW TARIFFS SPARK GLOBAL BACKLASH",
+      "stories": [
+        {
+          "headline": "Trump Administration Proposes New Tariffs On Major Trading Partners",
+          "url": "https://www.npr.org/2026/11/26/nx-s1-6054103/trump-administration-proposes-new-tariffs-on-goods-from-major-u-s-trading-partners",
+          "timestamp": 1795693427000,
+          "postedAt": 1795696131353
+        },
+        {
+          "headline": "How Trump's Proposed Tariffs For India Compare With Rival Nations",
+          "url": "https://www.reuters.com/world/china/how-trumps-proposed-tariffs-india-compare-with-rival-nations-2026-11-26/",
+          "timestamp": 1795691456000,
+          "postedAt": 1795696131353
+        }
+      ]
+    },
+    {
+      "title": "EGYPT HIGHWAY FIRE DISASTER",
+      "stories": [
+        {
+          "headline": "Egyptian Prosecutors Announce Arrest Over Deadly Truck Disaster",
+          "url": "https://www.rfi.fr/en/international-news/20261126-egypt-prosecutors-announce-arrest-of-man-over-deadly-truck-disaster",
+          "timestamp": 1795692628000,
+          "postedAt": 1795696131353
+        },
+        {
+          "headline": "Egypt: At Least 31 Dead In Highway Fire After Fuel Tanker Crash",
+          "url": "https://www.breitbart.com/africa/2026/11/26/egypt-31-dead-in-massive-fire-after-fuel-tanker-crashes-on-highway/",
+          "timestamp": 1795692251000,
+          "feature": true,
+          "postedAt": 1795696131353
+        }
+      ]
+    },
+    {
+      "title": "UKRAINE WAR: NEW STRIKES AND ESCALATION",
+      "stories": [
+        {
+          "headline": "Russia Hits Two Grain Ships Near Odesa Ports, Ukraine Says",
+          "url": "https://www.reuters.com/world/europe/ukraine-says-russia-hits-two-grain-ships-near-odesa-ports-2026-11-26/",
+          "timestamp": 1795690247000,
+          "postedAt": 1795696131353
+        },
+        {
+          "headline": "Ukraine Says Five Jets Damaged In Strike On Russia's Savasleyka Airbase",
+          "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck",
+          "timestamp": 1795657431000,
+          "postedAt": 1795696131353
+        },
+        {
+          "headline": "Ukraine Tells Putin To 'Stop Complaining' About Oil Refinery Attacks",
+          "url": "https://thehill.com/policy/international/6243656-ukraine-russia-oil-refinery-attacks/",
+          "timestamp": 1795641060000,
+          "postedAt": 1795696131353
+        },
+        {
+          "headline": "Ukraine's Libya Naval Raid Damaged More Than Just A Warship",
+          "url": "https://www.politico.eu/article/ukraine-russia-warship-attack-libya-international-law-neutral-waters/",
+          "timestamp": 1795607340000,
+          "postedAt": 1795610264298
+        }
+      ]
+    },
+    {
+      "title": "IRAN WAR: STRIKES, FUNDING FIGHT AND FALLOUT",
+      "stories": [
+        {
+          "headline": "Oil Prices Hold Steady On Signs Of Continued US-Iran Diplomacy",
+          "url": "https://www.hindustantimes.com/world-news/us-news/oil-prices-slip-as-iran-war-middle-east-shipping-attacks-support-brent-crude-and-wti-despite-weekly-losses-101795431644052.html",
+          "timestamp": 1795518904000,
+          "postedAt": 1795523289364
+        },
+        {
+          "headline": "Lawmakers Debate Whether Congress Can Actually End The Iran War",
+          "url": "https://prospect.org/2026/11/23/will-congress-end-the-iran-war/",
+          "timestamp": 1795464000000,
+          "postedAt": 1795523289364
+        },
+        {
+          "headline": "Senate GOP Leaders Open To Cutting Iran War Funding As Shutdown Looms",
+          "url": "https://www.thefiscaltimes.com/newsletter/20261123-Iran-War-Funding-Dispute-Congress-Races-Avoid-Shutdown",
+          "timestamp": 1795460401000,
+          "postedAt": 1795523289364
+        },
+        {
+          "headline": "US Strikes Iran's Qeshm Island, Raising Questions Over Trump's Strategy",
+          "url": "https://www.yahoo.com/news/politics/articles/trump-bombing-iran-qeshm-island-160000825.html",
+          "timestamp": 1795449600000,
+          "postedAt": 1795523289364
+        },
+        {
+          "headline": "Iranian President Turns Out Office Lights To Urge Energy Savings",
+          "url": "https://www.redlakenationnews.com/story/2026/11/23/news/iranian-president-turns-out-office-lights-to-urge-citizens-to-save-energy/144284.html",
+          "timestamp": 1795412382000,
+          "postedAt": 1795437443853
+        }
+      ]
+    },
+    {
+      "title": "GAZA AND WEST BANK: VIOLENCE AND AFTERMATH",
+      "stories": [
+        {
+          "headline": "Hamas Internal Security Chief Reported Killed In Gaza City Strike",
+          "url": "https://www.timesofisrael.com/liveblog_entry/latest-hamas-internal-security-chief-said-killed-in-gaza-city-strike/",
+          "timestamp": 1795518225000,
+          "postedAt": 1795523289364
+        },
+        {
+          "headline": "Oxfam: Israeli Strikes Have Turned Gaza Into 'Toxic Wasteland'",
+          "url": "https://www.bbc.com/news/articles/c8r4gzzxvxl3o",
+          "timestamp": 1795453645000,
+          "postedAt": 1795523289364
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Israel Kills Nine In Gaza, Including A Hamas-Appointed Minister",
+        "url": "https://www.reuters.com/world/middle-east/israel-kills-nine-gaza-including-hamas-appointed-deputy-education-minister-2026-11-26/",
+        "timestamp": 1795690157000,
+        "postedAt": 1795696131353
+      },
+      {
+        "headline": "Norway Closes Its Last Coal Mine, Ending An Arctic Way Of Life",
+        "url": "https://newscord.org/watchdog/article/84a8baf0-31f2-44a5-8489-a7c151f750ba",
+        "timestamp": 1795691734000,
+        "photo": true,
+        "postedAt": 1795696131353
+      },
+      {
+        "headline": "Canary Islands Declare Emergency After 15,000 Migrants Arrive In November",
+        "url": "https://www.breitbart.com/europe/2026/11/26/canary-islands-govt-declares-emergency-after-15000-migrants-arrive-in-november/",
+        "timestamp": 1795691081000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795696131353,
+        "image": "/img/world-0.jpg"
+      },
+      {
+        "headline": "Netanyahu Says Corruption Trial 'Must End' As Court Weighs Dropping Case",
+        "url": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case",
+        "timestamp": 1795653302000,
+        "postedAt": 1795696131353
+      },
+      {
+        "headline": "Houthi Rebels Claim Attacks On Saudi Oil Refinery And Riyadh Financial District",
+        "url": "https://www.dw.com/en/houthis-claim-attacks-on-saudi-refinery-financial-district/a-80043632",
+        "timestamp": 1795636144000,
+        "photo": true,
+        "postedAt": 1795696131353
+      },
+      {
+        "headline": "RUSSIA'S WAR SPILLS BEYOND UKRAINE AS NATO NATIONS SCRAMBLE TO RESPOND",
+        "url": "https://www.npr.org/2026/11/22/nx-s1-6050236/ukraine-war-spilling-into-nato-territory",
+        "timestamp": 1795523289364,
+        "postedAt": 1795523289364
+      },
+      {
+        "headline": "US Investigates Iranian Ties To Dozens Of Hacked Commercial Vessels",
+        "url": "https://www.npr.org/2026/11/25/nx-s1-6053213/the-u-s-government-is-investigating-iranian-ties-to-as-many-as-50-hacked-commercial",
+        "timestamp": 1795607396000,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "BYD Plans To Build Cars In France As It Expands Across Europe",
+        "url": "https://www.euronews.com/2026/11/25/byd-plans-car-production-in-france-to-boost-its-push-into-the-european-market",
+        "timestamp": 1795607216000,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Kilmar Ábrego García Arrives In Spain, Ending Trump Deportation Battle",
+        "url": "https://www.bbc.com/news/articles/c6808pyy5dl9o",
+        "timestamp": 1795606180000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Mongolia's President Khurelsukh To Resign Amid Corruption Allegations",
+        "url": "https://www.dw.com/en/mongolian-president-khurelsukh-to-resign-amid-corruption-allegations/a-79964717?maca",
+        "timestamp": 1795604242000,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Solomon Islands Signs Treaty With Australia Checking China's Pacific Influence",
+        "url": "https://apnews.com/article/australia-solomon-islands-china-security-treaty-6eaee893cd625ad71bd34dbe887ac73a",
+        "timestamp": 1795588140000,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Xi's Anti-Corruption Purge Ensnares Shanghai Party Chief Chen Jining",
+        "url": "https://www.bbc.com/news/articles/c6y80kk4zmdno",
+        "timestamp": 1795585045000,
+        "photo": true,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Pope Francis Said He Saw 'Gates Of Hell' After Abuse Questions, Book Reveals",
+        "url": "https://apnews.com/article/vatican-pope-francis-diary-abuse-chile-f380ceabdd93d0b0d31dc36bc5f04aae",
+        "timestamp": 1795559220000,
+        "photo": true,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "AfD Leader Calls For 2.6 Million Deportations From Germany",
+        "url": "https://www.breitbart.com/europe/2026/11/24/afd-leader-calls-for-2-6-million-deportations-from-germany/",
+        "timestamp": 1795522274000,
+        "photo": true,
+        "postedAt": 1795523289364,
+        "image": "/img/world-5.jpg"
+      },
+      {
+        "headline": "Chinese Official Sentenced To Death For Spying, State Media Says",
+        "url": "https://www.cbsnews.com/news/china-spy-sentence-death-ma/",
+        "timestamp": 1795504530000,
+        "photo": true,
+        "postedAt": 1795523289364,
+        "image": "/img/world-6.jpg"
+      },
+      {
+        "headline": "Independent Tally Puts Russian War Dead In Ukraine Above 700,000",
+        "url": "https://meduza.io/en/feature/2026/11/23/more-than-700-000-russian-troops-died-in-the-war-in-ukraine-by-late-september-2026-meduza-and-mediazona-estimate",
+        "timestamp": 1795461840000,
+        "postedAt": 1795523289364
+      },
+      {
+        "headline": "Iran Vows To Use 'All Available Tools' Against US Naval Blockade",
+        "url": "https://www.timesofisrael.com/iran-says-it-will-use-all-available-tools-against-us-naval-blockade/",
+        "timestamp": 1795433678000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "An Ex-FARC Fighter And His Former Hostage Make Peace With The Past",
+        "url": "https://www.rfi.fr/en/international-news/20261123-making-peace-with-the-past-an-ex-farc-fighter-and-his-hostage",
+        "timestamp": 1795433077000,
+        "photo": true,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Is Mexico Stepping Up Its War On Drug Cartels?",
+        "url": "https://www.bignewsnetwork.com/news/279447455/mexico-captures-fbi-most-wanted-drug-lord-in-sinaloa",
+        "timestamp": 1795432440000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Drone Attacks Kill Four Near Sudan's Capital, Damage UN Building",
+        "url": "https://www.aljazeera.com/news/2026/11/22/rsf-drones-kill-four-in-khartoum",
+        "timestamp": 1795427775000,
+        "photo": true,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "North Korea Leader Highlights Security After Trump Talks No-Show",
+        "url": "https://www.euronews.com/2026/11/23/north-koreas-leader-highlights-sovereignty-after-rebuffing-trump-offer-for-talks",
+        "timestamp": 1795432310000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Mossad Researchers See No Urgency For New Strike, Unlike Agency Chief",
+        "url": "https://www.timesofisrael.com/mossad-researchers-see-no-urgency-for-iran-strike-as-chief-pushes-military-action-report/",
+        "timestamp": 1795470360000,
+        "postedAt": 1795523289364
+      },
+      {
+        "headline": "Russia's Grip On Crimea Weakens As Key Waterways Are Blocked",
+        "url": "https://www.navalnews.com/naval-news/2026/11/kerch-bridge-attack-sea-of-azov-crimea/",
+        "timestamp": 1795599078000,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Poll Finds Spanish Public Turning Against Sánchez",
+        "url": "https://www.politico.eu/article/spain-pedro-sanchez-politico-poll-election/",
+        "timestamp": 1795456800000,
+        "postedAt": 1795523289364
+      }
+    ],
+    "center": [
+      {
+        "headline": "French Media Publish More Alleged Antisemitic Messages From Bardella",
+        "url": "https://www.rfi.fr/en/france/20261126-french-media-reveal-more-antisemitic-messages-allegedly-sent-by-jordan-bardella",
+        "timestamp": 1795693717000,
+        "postedAt": 1795696131353
+      },
+      {
+        "headline": "Dozens Of UK Court Cases Affected By Undisclosed AI Use In 2026",
+        "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+        "timestamp": 1795689660000,
+        "postedAt": 1795696131353
+      },
+      {
+        "headline": "UK Net Migration Falls To Lowest Level Since 1997",
+        "url": "https://www.reuters.com/world/uk/uk-annual-net-migration-drops-77000-year-june-2026-2026-11-26/",
+        "timestamp": 1795689091000,
+        "postedAt": 1795696131353
+      },
+      {
+        "headline": "Wang Fuk Court: How A Renovation Led To A Blaze That Killed 168",
+        "url": "https://www.bbc.com/news/articles/cqx2wrkyrdn8o",
+        "timestamp": 1795649210000,
+        "photo": true,
+        "postedAt": 1795696131353
+      },
+      {
+        "headline": "Suspected 'Narco Sub' Intercepted In Atlantic, But No Drugs Found",
+        "url": "https://www.cbsnews.com/news/narco-sub-intercepted-france-no-drugs-on-board/",
+        "timestamp": 1795632860000,
+        "photo": true,
+        "postedAt": 1795696131353,
+        "image": "/img/world-1.jpg"
+      },
+      {
+        "headline": "Colombian Police Storm Supermarket To Free 76 Hostages After 17 Hours",
+        "url": "https://www.bbc.com/news/articles/ckp80mjr9emyo",
+        "timestamp": 1795632093000,
+        "photo": true,
+        "postedAt": 1795696131353
+      },
+      {
+        "headline": "Asian Stocks Set To Slide As AI Trade Doubts Resurface",
+        "url": "https://sg.finance.yahoo.com/news/asian-stocks-slide-ai-trade-145751648.html",
+        "timestamp": 1795608635000,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Ceuta: Police Detain Dozens Of Moroccan Migrants With Rejected Asylum Claims",
+        "url": "https://www.breitbart.com/europe/2026/11/25/ceuta-police-detains-dozens-of-missing-moroccan-migrants-with-denied-asylum-claims/",
+        "timestamp": 1795607595000,
+        "photo": true,
+        "postedAt": 1795610264298,
+        "image": "/img/world-2.jpg"
+      },
+      {
+        "headline": "Exiled Catalan Separatist Leader Puigdemont Plans Return To Spain Dec. 12",
+        "url": "https://www.rfi.fr/en/international-news/20261125-exiled-catalan-separatist-leader-plans-return-to-spain-dec-12",
+        "timestamp": 1795605214000,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "German Hiker Battles Fierce Winds On Chilean Suspension Bridge",
+        "url": "https://www.euronews.com/2026/11/25/german-hiker-battles-fierce-winds-on-torres-del-paine-suspension-bridge",
+        "timestamp": 1795604132000,
+        "photo": true,
+        "postedAt": 1795610264298,
+        "image": "/img/world-3.jpg"
+      },
+      {
+        "headline": "North Korea Expels Swiss Diplomat Over Sanctions Weeks After Office Reopened",
+        "url": "https://www.reuters.com/business/aerospace-defense/north-korea-expels-swiss-representative-closes-diplomatic-office-over-sanctions-2026-11-25/",
+        "timestamp": 1795576740000,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Right-Wing Revolt Threatens To Bog Down EU Budget",
+        "url": "https://www.politico.eu/article/right-wing-revolt-threatens-to-bog-down-eu-budget/",
+        "timestamp": 1795520460000,
+        "postedAt": 1795523289364
+      },
+      {
+        "headline": "Gisèle Pelicot To Sue Publisher Over Use Of Nude Photos",
+        "url": "https://www.rfi.fr/en/france/20261124-gis%C3%A8le-pelicot-to-file-legal-complaint-against-publisher-over-nude-photo-use",
+        "timestamp": 1795519292000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795523289364
+      },
+      {
+        "headline": "German Business Morale Rises Again In November",
+        "url": "https://www.afp.com/en/german-business-morale-rises-again-november",
+        "timestamp": 1795518949000,
+        "postedAt": 1795523289364
+      },
+      {
+        "headline": "Pakistani Pilot Set To Be First Foreigner On China's Space Station",
+        "url": "https://www.reuters.com/science/china-launch-shenzhou-24-spaceship-with-first-foreign-astronaut-2026-11-24/",
+        "timestamp": 1795488540000,
+        "photo": true,
+        "postedAt": 1795523289364
+      },
+      {
+        "headline": "South Korea Issues Shelter Warning After Russian Aircraft Nears Airspace",
+        "url": "https://www.reuters.com/world/asia-pacific/south-korea-briefly-issues-evacuation-warning-after-russia-aircraft-enters-2026-11-23/",
+        "timestamp": 1795476300000,
+        "postedAt": 1795523289364
+      },
+      {
+        "headline": "Polls Show Spanish Right-Wing Set To Defeat Socialists In Nov. 29 Snap Election",
+        "url": "https://www.breitbart.com/europe/2026/11/23/polls-spanish-right-wing-maintains-majority-lead-over-socialists-a-week-before-snap-elections/",
+        "timestamp": 1795435461000,
+        "photo": true,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Mercedes, BMW Hit By 24-Hour Strikes As German Pay Dispute Widens",
+        "url": "https://www.euronews.com/2026/11/23/mercedes-bmw-hit-by-24-hour-strikes-as-german-pay-dispute-widens",
+        "timestamp": 1795435255000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "China-Backed Hackers Suspected Behind EU Commission Cyberattack",
+        "url": "https://www.euronews.com/2026/11/23/exclusive-china-backed-hackers-suspected-behind-ongoing-eu-commission-cyberattack",
+        "timestamp": 1795434906000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Schools Across Germany, Denmark Receive Bomb Threats",
+        "url": "https://www.reuters.com/world/hundreds-german-schools-received-bomb-threats-bild-reports-2026-11-23/",
+        "timestamp": 1795434681000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Is Germany's Army Ready For A War With Russia?",
+        "url": "https://www.dw.com/en/is-germanys-army-ready-for-a-war-with-russia/video-80018630",
+        "timestamp": 1795432617000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Alice Huang Had Contact With China Spy Agency During Nvidia Boss Affair, Report Says",
+        "url": "https://www.afp.com/en/alice-huang-had-contact-china-spy-agency-during-nvidia-boss-affair-nyt",
+        "timestamp": 1795432032000,
+        "photo": true,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Macron Revives Plan To Enshrine Fiscal Rules In French Constitution",
+        "url": "https://www.reuters.com/markets/europe/macron-proposes-reviving-plan-enshrine-fiscal-rules-french-constitution-2026-11-23/",
+        "timestamp": 1795434145000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Kim Jong Un Welcomes New Envoys He Calls 'Friendly Toward Us'",
+        "url": "https://timesofindia.indiatimes.com/videos/international/kim-jong-un-humiliates-trump-putins-envoy-gets-personal-welcome-as-us-calls-go-unanswered/videoshow/136092684.cms",
+        "timestamp": 1795425960000,
+        "postedAt": 1795437443853
+      }
+    ],
+    "right": [
+      {
+        "headline": "NATO CLEARED TO SHOOT DOWN RUSSIAN MISSILES OVER POLAND AS WARSAW PUSHES FOR US TROOPS",
+        "url": "https://www.foxnews.com/world/nato-jet-cleared-shoot-russian-missile-poland-warsaw-pushes-us-troops",
+        "timestamp": 1795610264298,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Heathrow Expansion Plans Fail Climate Tests, MPs Warn",
+        "url": "https://www.politico.eu/article/heathrow-expansion-plans-fail-climate-tests-mps-warn/",
+        "timestamp": 1795693920000,
+        "postedAt": 1795696131353
+      },
+      {
+        "headline": "Losing A Leg To Cancer Can't Stop Pedro Chasing His F1 Dream",
+        "url": "https://www.dw.com/en/pedro-cueto-is-chasing-his-dream-of-driving-in-formula-1-despite-losing-a-leg-to-cancer-at-just-11-hes-already-a-karting-champion/video-80060189",
+        "timestamp": 1795693743000,
+        "photo": true,
+        "postedAt": 1795696131353
+      },
+      {
+        "headline": "Norse Atlantic Flags Bankruptcy Risk As Flights Suspended",
+        "url": "https://www.reuters.com/business/aerospace-defense/airline-norse-atlantic-suspends-flights-warns-possible-bankruptcy-2026-11-26/",
+        "timestamp": 1795688830000,
+        "postedAt": 1795696131353
+      },
+      {
+        "headline": "UK Energy Bills To Rise 26% From January After Gas Price Surge",
+        "url": "https://www.bbc.com/news/articles/cm20qnq33e90o",
+        "timestamp": 1795607066000,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Zimbabwe Court Issues Arrest Warrant For Robert Mugabe's Son",
+        "url": "https://www.africanews.com/amp/2026/11/25/zimbabwe-court-issues-arrest-warrant-for-robert-mugabes-son/",
+        "timestamp": 1795605305000,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Postcard From Kilimanjaro, Africa's Highest Point, In All Its Splendor",
+        "url": "https://www.npr.org/2026/11/25/nx-s1-6051429/mount-kilimanjaro-africa-tanzania",
+        "timestamp": 1795604400000,
+        "photo": true,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Man Held Over Royal Hall Burglary Is Illegal Migrant, Report Says",
+        "url": "https://www.breitbart.com/europe/2026/11/25/man-arrested-over-suspected-burglary-of-royal-hall-is-illegal-albanian-migrant-report/",
+        "timestamp": 1795604097000,
+        "photo": true,
+        "postedAt": 1795610264298,
+        "image": "/img/world-4.jpg"
+      },
+      {
+        "headline": "Amnesty Accuses Israel Of Preventing Births In Gaza, Seeks Genocide Probe",
+        "url": "https://www.rfi.fr/en/international/20261125-israel-accused-of-preventing-births-in-gaza-as-amnesty-seeks-genocide-probe",
+        "timestamp": 1795603526000,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "Fact Check: Deepfakes And 'US Abandons Taiwan' Claims Spread Ahead Of Vote",
+        "url": "https://www.dw.com/en/fact-check-deepfakes-and-us-abandons-taiwan-claims-spread-ahead-of-vote/a-80004834",
+        "timestamp": 1795603277000,
+        "postedAt": 1795610264298
+      },
+      {
+        "headline": "France Crowns World's Best Egg Mayonnaise",
+        "url": "https://www.afp.com/en/france-crowns-worlds-best-egg-mayonnaise",
+        "timestamp": 1795522694000,
+        "photo": true,
+        "postedAt": 1795523289364
+      },
+      {
+        "headline": "Meet Colombia's Fuzzy 'Water Guardians'",
+        "url": "https://www.npr.org/player/embed/nx-s1-6038806/nx-s1-10017453",
+        "timestamp": 1795518469000,
+        "photo": true,
+        "postedAt": 1795523289364
+      },
+      {
+        "headline": "14 Countries Acknowledge ICJ Genocide Ruling Against Rohingya",
+        "url": "https://www.france24.com/en/asia-pacific/20261123-14-countries-acknowledge-icj-ruling-of-genocide-against-rohingya",
+        "timestamp": 1795475400000,
+        "feature": true,
+        "postedAt": 1795523289364
+      },
+      {
+        "headline": "Six Key Takeaways From The Cop31 Climate Summit",
+        "url": "https://www.theguardian.com/environment/2026/nov/22/finance-fossil-fuels-overshoot-six-key-takeaways-cop31",
+        "timestamp": 1795459140000,
+        "postedAt": 1795523289364
+      },
+      {
+        "headline": "Grand Theft Auto VI Backlash Engulfs Greek Leader Mitsotakis",
+        "url": "https://www.politico.eu/article/greece-grand-theft-auto-vi-backlash-kyriakos-mitsotakis/",
+        "timestamp": 1795436280000,
+        "photo": true,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Closing The Missile Defense Gap",
+        "url": "https://www.realcleardefense.com/pentagon/articles/closing-the-missile-defense-gap-2026-11-23",
+        "timestamp": 1795436223000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Indonesia's Prabowo Names Two VP Candidates To Replace Gibran",
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375506/indonesias-prabowo-names-2-vp-candidates-replace-gibran",
+        "timestamp": 1795434538000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Australia To Treat AI As Key Foreign Policy Issue, Warning Of Risks To Democracy",
+        "url": "https://www.scmp.com/news/asia/australasia/article/3375502/australia-treat-ai-key-foreign-policy-challenge-warning-risks-democracy",
+        "timestamp": 1795432430000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Chamonix Mayor Plans Tourist Limits For Alpine Beauty Spot",
+        "url": "https://www.theguardian.com/world/2026/nov/23/chamonix-mayor-tourist-limits-lac-blanc",
+        "timestamp": 1795432260000,
+        "photo": true,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Ex-Italian Police Chief Allegedly Takes Own Life Amid Mafia Probe",
+        "url": "https://www.breitbart.com/europe/2026/11/23/former-italian-police-chief-allegedly-takes-own-life-amid-mafia-probe/",
+        "timestamp": 1795431982000,
+        "photo": true,
+        "postedAt": 1795437443853,
+        "image": "/img/world-7.jpg"
+      },
+      {
+        "headline": "Eight EU Countries Draw Battle Lines Over Future Of Carbon Market",
+        "url": "https://www.euronews.com/2026/11/23/eight-eu-countries-join-forces-to-defend-carbon-market-against-calls-for-delay",
+        "timestamp": 1795431963000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Oil Steadies As Middle East Tensions Vie With Ample Supply",
+        "url": "https://www.qcintel.com/article/oil-futures-crude-steadies-as-ample-supply-offsets-mideast-tensions-78039.html",
+        "timestamp": 1795433408000,
+        "postedAt": 1795437443853
+      },
+      {
+        "headline": "Singapore Says It Is 'Very Disappointed' By Proposed Tariff Hike",
+        "url": "https://theedgemalaysia.com/node/827383",
+        "timestamp": 1795689158000,
+        "postedAt": 1795696131353
+      }
+    ]
+  }
+}

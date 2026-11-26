@@ -1,0 +1,560 @@
+{
+  "lastUpdated": 1795697765752,
+  "heroSetDate": "2026-11-26",
+  "hero": {
+    "headline": "STORMS FORCE POSTPONEMENT OF MACY'S THANKSGIVING DAY PARADE",
+    "url": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving",
+    "sublinks": [
+      {
+        "text": "High Winds Also Threatened To Ground The Parade's Giant Balloons",
+        "url": "https://weather.com/2026/11/24/holiday/thanksgiving/macys-thanksgiving-day-parade-weather-forecast-winds-rain"
+      },
+      {
+        "text": "Storms Snarl Holiday Travel Nationwide As Parade Plans Unravel",
+        "url": "https://www.npr.org/player/embed/g-s1-155950/nx-s1-mx-6054761-1"
+      }
+    ],
+    "postedAt": 1795697765752,
+    "img": true
+  },
+  "groups": [],
+  "columns": {
+    "left": [
+      {
+        "headline": "Waymo Conquered City Streets — Why Does It Keep Stumbling On Freeways?",
+        "url": "https://www.theverge.com/transportation/1042151/waymo-highway-ban-ai-safety-recalls",
+        "timestamp": 1795694400000,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "At 45, Justin Timberlake's Gym Training Builds Serious Strength",
+        "url": "https://www.menshealth.com/uk/fitness/a74517099/justin-timberlake-gym-training/",
+        "timestamp": 1795691688000,
+        "photo": true,
+        "postedAt": 1795697765752,
+        "image": "/img/life-culture-1.jpg"
+      },
+      {
+        "headline": "Anthropic Begins Paying Out Its Copyright Settlement To Authors",
+        "url": "https://godisageek.com/2026/11/dnd-writers-anthropic-settlement-payout/",
+        "timestamp": 1795688785000,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "Andy Taylor, Duran Duran Guitarist, Dies At 65",
+        "url": "https://apnews.com/article/andy-taylor-dies-duran-duran-2334d13b2b0b0196488721611036d977",
+        "timestamp": 1795686420000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "A Drive Along Crete's Coast Unfurls 2,000 Years Of Ancient Culture",
+        "url": "https://www.smithsonianmag.com/travel/drive-along-coast-largest-greek-island-unfurls-2000-years-ancient-culture-channeling-bronze-age-tourist-180989830/",
+        "timestamp": 1795683479000,
+        "photo": true,
+        "postedAt": 1795697765752,
+        "image": "/img/life-culture-2.jpg"
+      },
+      {
+        "headline": "Dancing With The Stars' Alan Bersten On Helping Paralympian Ezra Frech After His Prosthetic Leg Fell Off",
+        "url": "https://www.eonline.com/news/1438423/dancing-with-the-stars-alan-bersten-recounts-helping-ezra-frech-with-leg",
+        "timestamp": 1795655640000,
+        "photo": true,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "New Elizabeth Holmes Documentary Is Oddly Satisfying To Watch, Experts Explain Why",
+        "url": "https://www.huffpost.com/entry/you-can-see-everything-biggest-documentary-2026_l_6aee0d2ce4b037ca1033bd97",
+        "timestamp": 1795608017000,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "Scientists Identify New Type Of Depression That Resists Common Antidepressants",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261123005352.htm",
+        "timestamp": 1795517951000,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "UK: ARCHAEOLOGISTS UNCOVER GHOSTLY 'SAND BODY' AT SUTTON HOO SHIP BURIAL SITE",
+        "url": "https://www.smithsonianmag.com/smart-news/almost-90-years-after-discovering-a-ship-burial-that-rewrote-british-history-archaeologists-returned-to-sutton-hoo-this-time-they-uncovered-a-ghostly-sand-body-180989932/",
+        "timestamp": 1795524790485,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "Forgot To Thaw The Turkey? Here's How To Roast It From Frozen",
+        "url": "https://www.seriouseats.com/method-to-cook-turkey-from-frozen-12279331",
+        "timestamp": 1795608723000,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "2027 BMW iX3 50 First Test: Weird And Wow In Equal Doses",
+        "url": "https://www.motortrend.com/reviews/first-test-2027-bmw-ix3-50-xdrive-electric-suv",
+        "timestamp": 1795608275000,
+        "photo": true,
+        "postedAt": 1795612213679,
+        "image": "/img/life-culture-4.jpg"
+      },
+      {
+        "headline": "UK: Norovirus Reports Surge 36% Across England",
+        "url": "https://www.menshealth.com/uk/health/a74529464/norovirus-how-to-stop-it-spreading/",
+        "timestamp": 1795608220000,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "Heesen's Newest Superyacht Centers On A Sculptural 4-Deck Staircase",
+        "url": "https://robbreport.com/motors/marine/heesens-project-setteesettanta-superyacht-1238863047/",
+        "timestamp": 1795608000000,
+        "photo": true,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "Movember Short Film Tackles Male Loneliness With Humor And Heart",
+        "url": "https://www.esquire.com/uk/life/a74520111/jordan-stephens-movember-short-film/",
+        "timestamp": 1795605769000,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "Man Plunges To Death At Celebrity-Filled Sierra Towers",
+        "url": "https://www.tmz.com/2026/11/24/person-dies-at-sierra-towers-west-hollywood/",
+        "timestamp": 1795571980000,
+        "photo": true,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "Art Basel Miami Beach Reveals More Highlights For 2026 Edition",
+        "url": "https://www.artbasel.com/stories/art-basel-announces-further-highlights-of-its-2026-miami-beach-edition-1",
+        "timestamp": 1795535686000,
+        "photo": true,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "New York Times Unveils Its 100 Notable Books Of 2026",
+        "url": "https://bookriot.com/the-new-york-times-notable-books-of-2026/",
+        "timestamp": 1795531354000,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "Confirms Surprise Character Return Ahead Of Release",
+        "url": "https://www.usatoday.com/story/entertainment/movies/2026/11/23/hailee-steinfeld-kate-bishop-avengers-doomsday-cast/92922914007/",
+        "timestamp": 1795519560000,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "2,000 Miles In The Ford Maverick Lobo: Still Worth It?",
+        "url": "https://www.motortrend.com/reviews/yearlong-review-update-3-2026-ford-maverick-lobo-road-trip",
+        "timestamp": 1795521906000,
+        "photo": true,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "How Anthony Boyle Got Inside Sam Bankman-Fried's Head",
+        "url": "https://www.esquire.com/entertainment/tv/a74494265/anthony-boyle-sam-bankman-fried/",
+        "timestamp": 1795518000000,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "Meet Colombia's Fuzzy 'Water Guardians'",
+        "url": "https://www.npr.org/2026/11/24/nx-s1-6038806/colombia-water-plants-frailejons",
+        "timestamp": 1795514400000,
+        "photo": true,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "Miley Cyrus Marries Maxx Morando In Custom Saint Laurent",
+        "url": "https://hypebae.com/2026/11/miley-cyrus-wedding-dress-maxx-morando-saint-laurent-anthony-vacarello-images",
+        "timestamp": 1795513821000,
+        "photo": true,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "Antoine Fuqua Accused Of Pointing Gun, Using Slur In Assault Lawsuit",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/antoine-fuqua-assault-lawsuit-accused-pointing-handgun-1236761725/",
+        "timestamp": 1795488982000,
+        "feature": true,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "Spielberg To Direct Western Starring Cillian Murphy, Jessie Buckley",
+        "url": "https://variety.com/2026/film/news/steven-spielberg-western-cillian-murphy-jessie-buckley-1236956084/",
+        "timestamp": 1795456980000,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "This Dad Of Three Built More Muscle At 35 Than In His 20s",
+        "url": "https://www.menshealth.com/uk/building-muscle/train-smarter/a74491511/bodyweight-muscle-building-method-busy-dad/",
+        "timestamp": 1795437219000,
+        "photo": true,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "Jim Beam Won't Resume Distilling At Flagship Kentucky Site In 2027",
+        "url": "https://www.usatoday.com/story/money/business/2026/11/22/jim-beam-kentucky-distillery-pause-2027/92918331007/",
+        "timestamp": 1795433040000,
+        "photo": true,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "What Happens When Humans And Technology Become Indistinguishable?",
+        "url": "https://aeon.co/videos/what-does-it-mean-when-humans-and-technology-become-indistinguishable",
+        "timestamp": 1795431660000,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "We're Slowly Losing One Of TV's Greatest Art Forms",
+        "url": "https://slate.com/culture/2026/11/dig-amy-poehler-peacock-show-sitcom-parks-rec.html",
+        "timestamp": 1795431000000,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "Barbara Eden, 95, Still Rides Exercise Bike 35 Minutes Daily",
+        "url": "https://pagesix.com/2026/11/23/celebrity-news/i-dream-of-jeannie-star-barbara-eden-95-still-rides-exercise-bike-for-35-minutes-to-stay-fit/",
+        "timestamp": 1795411200000,
+        "photo": true,
+        "postedAt": 1795438993738
+      }
+    ],
+    "center": [
+      {
+        "headline": "America's Auto Industry Was Built On Some Truly Wild Gambles",
+        "url": "https://www.motortrend.com/features/wild-stories-that-shaped-american-auto-industry",
+        "timestamp": 1795694690000,
+        "photo": true,
+        "postedAt": 1795697765752,
+        "image": "/img/life-culture-0.jpg"
+      },
+      {
+        "headline": "A Lebanese Architect's Mission To Build Structures That Heal",
+        "url": "https://aeon.co/videos/a-lebanese-architects-mission-to-build-structures-that-heal",
+        "timestamp": 1795690860000,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "X Is Finally Getting Its First Parental Controls",
+        "url": "https://www.theverge.com/news/1043078/x-parental-controls-features",
+        "timestamp": 1795689950000,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "Porn Is Driving A Rise In Gen Z Sexlessness, Researchers Say",
+        "url": "https://unherd.com/newsroom/porn-is-driving-gen-z-sexlessness/",
+        "timestamp": 1795689304000,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "Veruschka, One Of The World's First Supermodels, Dies At 87",
+        "url": "https://www.cnn.com/2026/11/26/style/supermodel-veruschka-dies-hnk-intl",
+        "timestamp": 1795674440000,
+        "photo": true,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "After Three Decades, Essence Music Festival Says Goodbye To New Orleans",
+        "url": "https://apnews.com/article/essence-festival-black-culture-new-orleans-e52f275eb1329d18cc4f94b1f5a01bea",
+        "timestamp": 1795653600000,
+        "photo": true,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "Angelina Jolie And Brad Pitt Settle Years-Long Legal Battle Over French Winery",
+        "url": "https://www.bbc.com/news/articles/cmvg2989wv74o",
+        "timestamp": 1795648707000,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "UK: Heirloom Stolen In Burglary At Kate Middleton And Prince William's Country Home",
+        "url": "https://www.instyle.com/royal-keepsake-stolen-kate-middleton-prince-william-home-burglary-12280419",
+        "timestamp": 1795638193000,
+        "photo": true,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "Miss Puerto Rico Crowned Miss Universe After Tumultuous Year For Pageant",
+        "url": "https://www.latintimes.com/jennifer-barreto-first-mother-miss-universe-puerto-rico-601818",
+        "timestamp": 1795609948000,
+        "photo": true,
+        "postedAt": 1795612213679,
+        "image": "/img/life-culture-3.jpg"
+      },
+      {
+        "headline": "Inside Project Setteesettanta, In Photos",
+        "url": "https://powerboat.world/news/301725/Inside-Heesens-57m-custom-Project-Setteesettanta",
+        "timestamp": 1795608020000,
+        "photo": true,
+        "postedAt": 1795612213679,
+        "image": "/img/life-culture-5.jpg"
+      },
+      {
+        "headline": "Microsoft Declares 'Code Red' After Massive Outlook Outage",
+        "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage",
+        "timestamp": 1795605162000,
+        "feature": true,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "Greetings From Kilimanjaro, Africa's Highest Point",
+        "url": "https://www.npr.org/2026/11/25/nx-s1-6051429/mount-kilimanjaro-africa-tanzania",
+        "timestamp": 1795604400000,
+        "photo": true,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "Gorpcore Becomes Men's Biggest Fashion Trend This Month",
+        "url": "https://wwd.com/sourcing-journal/sj-denim/trendalytics-november-trend-data-gorpcore-zebra-prints-1239463163/",
+        "timestamp": 1795541841000,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "AI TOOLS ARE NOW BEING USED TO CLONE REAL PEOPLE'S VIDEOS ONLINE, BBC FINDS",
+        "url": "https://www.bbc.com/news/articles/cm7527kp4qrpo",
+        "timestamp": 1795438993738,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "Bono And Anton Corbijn On The Partnership That Shaped U2's Imagery",
+        "url": "https://www.esquire.com/entertainment/music/a74489953/bono-anton-corbijn-u2-photo-history/",
+        "timestamp": 1795521866000,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "All Hail Europe's Tiny Micro Kingdoms",
+        "url": "https://www.insidehook.com/travel/europe-microstates-best-continent-minus-crowds",
+        "timestamp": 1795519200000,
+        "photo": true,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "Butter, Shortening Or Lard: The Best Pie Crust, Tested",
+        "url": "https://www.seriouseats.com/best-fat-for-pie-crust-12268043",
+        "timestamp": 1795518000000,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "Unseen Led Zeppelin Footage From Madison Square Garden Surfaces",
+        "url": "https://www.rollingstone.com/music/music-news/led-zeppelin-madison-square-garden-49-years-1235662709/",
+        "timestamp": 1795455519000,
+        "photo": true,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "Scientists Build Nearly 7,000 Digital 'Brain Twins' To Study Aging",
+        "url": "https://medicalxpress.com/news/2026-11-scientists-digital-brain-twins-explore.html",
+        "timestamp": 1795446001000,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "Rolling Stone Ranks The 200 Best Songs Of The 1990s",
+        "url": "https://www.rollingstone.com/music/music-lists/best-1990s-songs-1235651872/gang-starr-above-the-clouds-1998-1235652141",
+        "timestamp": 1795445688000,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "Tyson Fury Opens Up About His Schizophrenia Diagnosis",
+        "url": "https://www.menshealth.com/uk/health/a74505632/tyson-fury-schizophrenia/",
+        "timestamp": 1795436881000,
+        "photo": true,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "Rove Launches Elite Status With Free Hotel Nights",
+        "url": "https://thepointsguy.com/news/rove-elite-status",
+        "timestamp": 1795431983000,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "Turkish Authorities Search For Lioness Spotted Near Istanbul",
+        "url": "https://apnews.com/article/lion-istanbul-escaped-697eca2026ae6b146ac777342c5c2b54",
+        "timestamp": 1795428840000,
+        "photo": true,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "Ian Charleson Played Hamlet While Dying — And Was Still 'Dazzling'",
+        "url": "https://www.npr.org/2026/11/23/nx-s1-6027946/ian-charleson-elsinore-andrew-scott-chariots-of-fire-gandhi",
+        "timestamp": 1795428000000,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "Scientists Discover Hidden Eye Disease That Slowly Steals Night Vision",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261119194547.htm",
+        "timestamp": 1795344639000,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "Ezra Frech And Daniella Karagach Win Season 35 Mirrorball Trophy",
+        "url": "https://abcnews.com/GMA/Culture/dancing-with-the-stars-season-35-champion/story?id",
+        "timestamp": 1795579443000,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "Is The Stock Market Open On Thanksgiving And Black Friday?",
+        "url": "https://www.usatoday.com/story/money/markets/2026/11/23/stock-market-thanksgiving-black-friday-2026/92761427007/",
+        "timestamp": 1795431840000,
+        "feature": true,
+        "postedAt": 1795438993738
+      }
+    ],
+    "right": [
+      {
+        "headline": "SCIENTISTS DISCOVER OLDEST KNOWN QUASAR, FORMED JUST 630 MILLION YEARS AFTER BIG BANG",
+        "url": "https://abcnews.com/Technology/wireStory/scientists-discover-quasar-formed-mere-630-million-years-138402896",
+        "timestamp": 1795612213679,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "How To Drink Whisky, According To One Of The World's Greatest Whisky Makers",
+        "url": "https://www.esquire.com/uk/food-drink/a74539844/how-to-drink-whisky/",
+        "timestamp": 1795696408000,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "David Fincher Explains How AI Helped Shoot 'Cliff Booth' While Keeping Real Actors",
+        "url": "https://variety.com/2026/film/news/david-fincher-explains-ai-use-cliff-booth-1236958022/",
+        "timestamp": 1795632900000,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "Venice Biennale's Public-Vote Awards Go To Nick Cave And The Indian Pavilion",
+        "url": "https://www.artnews.com/art-news/news/venice-biennale-2026-visitors-lions-nick-cave-india-1234807541/",
+        "timestamp": 1795606680000,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "Can Soleil The Belgian Sheepdog Shine Again At The National Dog Show?",
+        "url": "https://www.nbcsports.com/national-dog-show/news/can-soleil-the-belgian-sheepdog-shine-again-at-the-2026-national-dog-show",
+        "timestamp": 1795549640000,
+        "photo": true,
+        "postedAt": 1795697765752
+      },
+      {
+        "headline": "EA Sports FC Resurrects A Deceased Commentator Using AI",
+        "url": "https://www.theverge.com/games/1042044/ea-sports-fc-is-resurrecting-a-deceased-commentator-with-ai",
+        "timestamp": 1795611267000,
+        "photo": true,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "Why 'Influencer-Land' Should Alarm Us All",
+        "url": "https://www.spiked-online.com/2026/11/25/andys-adventures-in-influencer-land-should-alarm-us-all/",
+        "timestamp": 1795610801000,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "What To Cook For Every Holiday Occasion",
+        "url": "https://www.insidehook.com/food/cook-every-holiday-occasion",
+        "timestamp": 1795609822000,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "12-Year Study Links Your Walking Pace To How Well You're Aging",
+        "url": "https://www.menshealth.com/uk/fitness/cardio-exercise/a71147245/walking-pace-healthy-ageing/",
+        "timestamp": 1795608675000,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "A Veterinarian Helps An Owner Say Goodbye To Her 17-Year-Old Dog",
+        "url": "https://aeon.co/videos/a-veterinarian-helps-cindy-say-goodbye-to-fiona-her-17-year-old-dog",
+        "timestamp": 1795604460000,
+        "photo": true,
+        "postedAt": 1795612213679,
+        "image": "/img/life-culture-6.jpg"
+      },
+      {
+        "headline": "UK: Thomas Markle Charged Over Child Sexual Abuse Material",
+        "url": "https://www.bbc.com/news/videos/cm0evp9lg4ezo",
+        "timestamp": 1795590719000,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "Jacob & Co. Trades Tourbillons For Tins Of Caviar",
+        "url": "https://robbreport.com/food-drink/dining/jacob-co-icone-caviar-imperial-reserve-aged-caviar-1238859650/",
+        "timestamp": 1795521600000,
+        "photo": true,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "2027 Lexus ES Review: Pricing, Trims And What's New",
+        "url": "https://www.motortrend.com/cars/lexus/es/2027",
+        "timestamp": 1795521170000,
+        "photo": true,
+        "postedAt": 1795524790485,
+        "image": "/img/life-culture-7.jpg"
+      },
+      {
+        "headline": "Are Mental Illnesses Universal Or Culturally Specific?",
+        "url": "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific",
+        "timestamp": 1795518062000,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "Strongman Tom Stoltman Calls Autism His Secret Weapon",
+        "url": "https://www.menshealth.com/uk/mental-strength/a74511174/tom-stoltman-autism-strength/",
+        "timestamp": 1795514748000,
+        "photo": true,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "How One Gas Station Welcomed Black Travelers On Route 66",
+        "url": "https://www.npr.org/2026/11/24/nx-s1-5928337/threatt-filling-station-oklahoma-route-66",
+        "timestamp": 1795514400000,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "A Thanksgiving Playlist For Gluttony And Gratitude",
+        "url": "https://www.npr.org/2026/11/24/nx-s1-6051062/songs-for-gluttony-and-gratitude-a-thanksgiving-playlist",
+        "timestamp": 1795514400000,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "UK: Don Toliver Concert In Manchester Evacuated Over Unknown Substance",
+        "url": "https://www.rollingstone.com/music/music-news/don-toliver-manchester-show-evacuation-unknown-substance-1235662518/",
+        "timestamp": 1795456210000,
+        "photo": true,
+        "postedAt": 1795524790485
+      },
+      {
+        "headline": "The Thanksgiving Cooking Shortcuts Serious Eats Editors Swear By",
+        "url": "https://www.seriouseats.com/editor-favorite-thanksgiving-shortcuts-12273068",
+        "timestamp": 1795435200000,
+        "photo": true,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "Samsung's Galaxy Watch 10 May Be Delayed",
+        "url": "https://www.theverge.com/gadgets/1039889/you-might-be-waiting-a-while-for-the-galaxy-watch-10",
+        "timestamp": 1795434019000,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "The Best Nonfiction Books Of 2026",
+        "url": "https://marginalrevolution.com/marginalrevolution/2026/11/best-non-fiction-books-of-2026.html",
+        "timestamp": 1795414257000,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "Mahershala Ali Says Hollywood Still Offers Him Few Roles Despite Two Oscars",
+        "url": "https://www.hollywoodreporter.com/movies/movie-news/mahershala-ali-no-roles-majority-projects-despite-oscar-wins-1236760722/",
+        "timestamp": 1795383807000,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "New Jaeger-LeCoultre Watch Looks Built For Robert Pattinson's Bond",
+        "url": "https://www.esquire.com/uk/watches/a74505440/james-bond-jlc/",
+        "timestamp": 1795433975000,
+        "postedAt": 1795438993738
+      },
+      {
+        "headline": "Runner-Up Connor Wood Says He 'Already Won' After Finale",
+        "url": "https://www.hollywoodreporter.com/tv/tv-features/connor-wood-dancing-with-the-stars-finale-interview-1236762661/",
+        "timestamp": 1795571751000,
+        "postedAt": 1795612213679
+      },
+      {
+        "headline": "Meta's AI Assistant Can Now Do Your Black Friday Shopping At Walmart",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+        "timestamp": 1795431600000,
+        "postedAt": 1795438993738
+      }
+    ]
+  }
+}
