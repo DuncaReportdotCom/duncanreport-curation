@@ -1,0 +1,490 @@
+{
+  "lastUpdated": 1795783843655,
+  "heroSetDate": "2026-11-27",
+  "hero": {
+    "headline": "ZELENSKY COMPARES TRUMP'S PUTIN EMBRACE TO APPEASING HITLER",
+    "url": "https://streamlinefeed.co.ke/news/zelensky-rebukes-trump-over-putin-warmth-amid-patriot-delays",
+    "sublinks": [
+      {
+        "text": "Kushner Defends Putin, Says Russian Leader 'Has Shown Restraint' On Nukes",
+        "url": "https://www.usatoday.com/story/news/politics/2026/11/26/kushner-says-putin-has-shown-nuclear-restraint-in-ukraine/92970024007/"
+      }
+    ],
+    "postedAt": 1795783843655,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "TRUMP CALLS FOR PROBE OF PRE-MIDTERM GDP DATA",
+      "stories": [
+        {
+          "headline": "Trump Calls For Investigation Of GDP Data Released Before Midterms",
+          "url": "https://www.usatoday.com/story/news/politics/2026/11/26/trump-thanksgiving-grievances/92973864007/",
+          "timestamp": 1795747440000,
+          "postedAt": 1795783843655
+        },
+        {
+          "headline": "Trump Administration Unveils New Tariffs For China, EU And More",
+          "url": "https://time.com/article/2026/11/25/trump-administration-new-tariffs-china-european-union-india/",
+          "timestamp": 1795604520000,
+          "postedAt": 1795697300855
+        },
+        {
+          "headline": "Judge Rules Trump, FCC Illegally Sought To Punish ABC Over Free Speech",
+          "url": "https://www.thederrick.com/news/entertainment/trump-fcc-illegally-sought-to-punish-abc-in-free-speech-case-judge-rules/article_b6268534-ff63-518f-8a6e-e2fc0228823f.html",
+          "timestamp": 1795667135000,
+          "feature": true,
+          "postedAt": 1795697300855
+        }
+      ]
+    },
+    {
+      "title": "FORT HOOD SHOOTER SEEKS DELAY OF EXECUTION",
+      "stories": [
+        {
+          "headline": "Fort Hood Killer Makes Last-Ditch Bid To Dodge Firing Squad",
+          "url": "https://www.dailywire.com/news/fort-hood-killer-makes-a-last-ditch-bid-to-dodge-the-firing-squad",
+          "timestamp": 1795609605000,
+          "postedAt": 1795611689737
+        },
+        {
+          "headline": "Nidal Hasan Will Petition To Delay His Execution, Court Documents Show",
+          "url": "https://www.cbsnews.com/news/nidal-hasan-delay-execution-petition/",
+          "timestamp": 1795570680000,
+          "postedAt": 1795611689737
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Supreme Court To Hear Blockbuster Case On AR-15 Bans",
+        "url": "https://www.cnn.com/2026/11/27/politics/supreme-court-ar-15-ban-second-amendment",
+        "timestamp": 1795777216000,
+        "feature": true,
+        "postedAt": 1795783843655
+      },
+      {
+        "headline": "Task Force Iron Gate Targets Iran's Remaining Trade Routes",
+        "url": "https://www.nationalreview.com/article/iran-overland-scramble-is-a-turning-point",
+        "timestamp": 1795777200000,
+        "postedAt": 1795783843655
+      },
+      {
+        "headline": "Clinton-Era Diplomat Strobe Talbott Dies At 80",
+        "url": "https://aroundprague.cz/en/news/us/strobe-talbott-dies-at-80-what-we-know-about-the-clinton-diplomat",
+        "timestamp": 1795757292000,
+        "photo": true,
+        "postedAt": 1795783843655
+      },
+      {
+        "headline": "Trump's 'Despicable' Iran War Remark To Service Member Sparks Backlash",
+        "url": "https://www.huffpost.com/entry/donald-trump-iran-comment-reaction_n_6b092979e4b01f494a036ec4",
+        "timestamp": 1795750800000,
+        "postedAt": 1795783843655
+      },
+      {
+        "headline": "TPUSA Mourns Florida Chapter President Killed In Family Plane Crash",
+        "url": "https://www.foxnews.com/us/tpusa-mourns-florida-high-school-chapter-president-killed-family-devastating-plane-crash",
+        "timestamp": 1795743731000,
+        "photo": true,
+        "postedAt": 1795783843655,
+        "image": "/img/politics-2.jpg"
+      },
+      {
+        "headline": "Sea-Tac ICE Arrests Spotlight Trump's Immigration-Enforcement Tactics",
+        "url": "https://www.seattletimes.com/seattle-news/what-the-sea-tac-ice-arrests-tell-us-about-todays-immigration-system/",
+        "timestamp": 1795701600000,
+        "postedAt": 1795783843655
+      },
+      {
+        "headline": "North Korea's Kim Vows More Nuclear Weapons After Ignoring Trump Overture",
+        "url": "https://apnews.com/article/north-korea-kim-nuclear-uranium-trump-78d6642ea055e8257518c3d695a58cd4",
+        "timestamp": 1795684560000,
+        "photo": true,
+        "postedAt": 1795697300855
+      },
+      {
+        "headline": "Trump, NATO Chief Urge Russia To Avoid Widening Ukraine War",
+        "url": "https://www.reuters.com/world/china/trump-nato-chief-urge-russia-avoid-actions-that-widen-ukraine-war-2026-11-26/",
+        "timestamp": 1795666800000,
+        "photo": true,
+        "postedAt": 1795697300855
+      },
+      {
+        "headline": "Judge Upholds NYC Rent Freeze In Win For Mayor Mamdani",
+        "url": "https://gothamist.com/news/judge-upholds-nyc-rent-freeze-marking-win-for-mamdani-and-his-affordability-agenda",
+        "timestamp": 1795640460000,
+        "photo": true,
+        "postedAt": 1795697300855,
+        "image": "/img/politics-5.jpg"
+      },
+      {
+        "headline": "Supreme Court Set To Review Trump's Immigration Agenda",
+        "url": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+        "timestamp": 1795572000000,
+        "postedAt": 1795697300855
+      },
+      {
+        "headline": "Sheriffs Who Signed Trump Immigration Pacts Ousted By Voters",
+        "url": "https://www.pbs.org/newshour/nation/some-sheriffs-who-signed-pacts-to-help-trumps-immigration-enforcement-efforts-ousted-by-voters",
+        "timestamp": 1795458878000,
+        "postedAt": 1795697300855
+      },
+      {
+        "headline": "Gun Safety: Armed Teachers Offer Students Best Protection",
+        "url": "https://www.realclearinvestigations.com/articles/2026/11/19/gun_safety_armed_teachers_offer_students_best_protection_1217547.html",
+        "timestamp": 1795050180000,
+        "postedAt": 1795611788069
+      },
+      {
+        "headline": "Fair Trade Breeds Freer Trade",
+        "url": "https://www.realclearpolicy.com/articles/2026/11/23/fair_trade_breeds_freer_trade_1223100.html",
+        "timestamp": 1795415220000,
+        "postedAt": 1795611788069
+      },
+      {
+        "headline": "Trump administration weighs targeting Iran's top regime leaders in bid to end war: report",
+        "url": "https://www.foxnews.com/world/trump-administration-weighs-targeting-irans-top-regime-leaders-bid-end-war-report",
+        "timestamp": 1795538160000,
+        "postedAt": 1795611788069
+      },
+      {
+        "headline": "Trump Says He Protects ‘Brilliant’ CEOs Like Elon Musk and Jensen Huang",
+        "url": "https://newrepublic.com/post/218295/trump-elon-musk-first-term",
+        "timestamp": 1795579080000,
+        "postedAt": 1795611788069
+      },
+      {
+        "headline": "Fox News Host Tells Ilhan Omar She's 'Cooked' Over Home Search Fallout",
+        "url": "https://townhall.com/news/mattvespa/2026/11/25/fox-news-host-to-ilhan-omar-youre-cooked-n2687049",
+        "timestamp": 1795606200000,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Inside The Battle To Lead The RNC After Its Midterm Wipeout",
+        "url": "https://www.politico.com/news/2026/11/25/rnc-gruters-crosbie-republican-party-future-01182563",
+        "timestamp": 1795603500000,
+        "photo": true,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "300,000 Legal Immigrants Told They're Losing Medicare Coverage",
+        "url": "https://www.pbs.org/newshour/show/thousands-of-immigrants-with-legal-status-lose-medicaid-coverage",
+        "timestamp": 1795584346000,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Trump Awards Rudy Giuliani The Presidential Medal Of Freedom",
+        "url": "https://www.facebook.com/washingtonpost/posts/president-trump-awarded-the-presidential-medal-of-freedom-on-tuesday-to-rudy-giu/1520786043246599/",
+        "timestamp": 1795574122000,
+        "feature": true,
+        "photo": true,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Trump To Meet El-Sayed On Universal Healthcare After Campaign Feud",
+        "url": "https://www.aljazeera.com/news/2026/11/26/a-meeting-with-democrats-over-healthcare-trump-says-hes-open-to-it",
+        "timestamp": 1795571160000,
+        "photo": true,
+        "postedAt": 1795611689737,
+        "image": "/img/politics-7.jpg"
+      },
+      {
+        "headline": "US Court Convicts Huawei Of Fraud In Trade-Secrets Case Tied To Iran",
+        "url": "https://www.cnn.com/2026/11/24/china/china-huawei-iran-conviction-intl-hnk",
+        "timestamp": 1795569720000,
+        "photo": true,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Judge Orders Fulton County To Turn Over 2020 Ballots To Trump-Allied Election Board",
+        "url": "https://www.nbcnews.com/politics/elections/judge-orders-fulton-county-turn-copies-2020-ballots-ga-election-board-rcna611220",
+        "timestamp": 1795571040000,
+        "feature": true,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Ohio County Finds Over 700 Contested Ballots After Democratic Lawsuit",
+        "url": "https://www.democracydocket.com/news-alerts/ohio-county-counts-over-700-contested-ballots-after-democratic-lawsuit/",
+        "timestamp": 1795557571000,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Brazil Blasts 'Unacceptable' New US Tariff Proposals",
+        "url": "https://www.aljazeera.com/news/2026/11/26/brazil-blasts-unacceptable-new-us-tariff-proposals",
+        "timestamp": 1795668689000,
+        "postedAt": 1795697300855
+      }
+    ],
+    "center": [
+      {
+        "headline": "Report: Anti-Musk Protest Groups Received Millions In Taxpayer Funds",
+        "url": "https://www.thecentersquare.com/national/article_9a606409-6b50-462c-bddf-458527da1676.html",
+        "timestamp": 1795782600000,
+        "photo": true,
+        "postedAt": 1795783843655,
+        "image": "/img/politics-0.jpg"
+      },
+      {
+        "headline": "Analysis: Understanding What's Really Driving Health Care Costs",
+        "url": "https://www.chiefhealthcareexecutive.com/view/the-referral-black-hole-what-really-drives-physician-referral-decisions",
+        "timestamp": 1795777391000,
+        "postedAt": 1795783843655
+      },
+      {
+        "headline": "Kilmar Ábrego García Departs For Spain As Deportation Fight Ends",
+        "url": "https://www.theguardian.com/us-news/2026/nov/26/kilmar-abrego-garcia-spain-departure-trump",
+        "timestamp": 1795710360000,
+        "photo": true,
+        "postedAt": 1795783843655
+      },
+      {
+        "headline": "America Must Break China’s Grip on Critical Minerals",
+        "url": "https://www.realclearpolicy.com/articles/2026/11/25/america_must_break_chinas_grip_on_critical_minerals_1223473.html",
+        "timestamp": 1795585140000,
+        "postedAt": 1795697401194
+      },
+      {
+        "headline": "Trump Moves To Replace Texas Judicial Nominee Opposed By Cornyn",
+        "url": "https://www.usnews.com/news/politics/articles/2026-11-26/trump-moves-to-replace-texas-judicial-nominee-opposed-by-senator-cornyn",
+        "timestamp": 1795646100000,
+        "postedAt": 1795697300855
+      },
+      {
+        "headline": "ICE Arrests 115 Criminal Illegal Aliens In Indiana Crackdown",
+        "url": "https://www.ice.gov/news/releases/ice-cracks-down-criminal-illegal-aliens-indiana-arrests-115-over-several-weeks",
+        "timestamp": 1795561517000,
+        "postedAt": 1795697300855
+      },
+      {
+        "headline": "Democrats Have Now Flipped 48 House Seats In Midterms",
+        "url": "https://www.cbsnews.com/news/house-districts-flipped-2026-midterm-elections/",
+        "timestamp": 1795551522000,
+        "photo": true,
+        "postedAt": 1795697300855
+      },
+      {
+        "headline": "Department of Government Inefficiency: Can Vance Reset Anti-Fraud Push?",
+        "url": "https://www.realclearinvestigations.com/articles/2026/11/17/department_of_government_inefficiency_can_vance_reset_anti-fraud_push_1217131.html",
+        "timestamp": 1794897660000,
+        "postedAt": 1795611788069
+      },
+      {
+        "headline": "The Next Big Fiscal Deal Is Closer Than It Looks",
+        "url": "https://www.realclearpolicy.com/articles/2026/11/19/the_next_big_fiscal_deal_is_closer_than_it_looks_1217663.html",
+        "timestamp": 1795082940000,
+        "postedAt": 1795611788069
+      },
+      {
+        "headline": "Biden Memoir Draws Scrutiny Over Watergate And Border Claims",
+        "url": "https://freebeacon.com/biden-administration/bidens-memoir-is-full-of-whoppers-and-mistakes-ex-president-falsely-claims-watergate-inspired-him-to-run-for-senate-exaggerates-border-crackdown/",
+        "timestamp": 1795600933000,
+        "photo": true,
+        "postedAt": 1795611689737,
+        "image": "/img/politics-6.jpg"
+      },
+      {
+        "headline": "Criminal Charge Against Incoming House Democrat Dropped",
+        "url": "https://www.axios.com/2026/11/24/lakesha-womack-charge-dropped-rental-car-nc",
+        "timestamp": 1795592005000,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Newsom Granted Clemency To Polly Klaas' Killer Without Warning Victim's Father",
+        "url": "https://www.newsnationnow.com/crime/gavin-newsom-polly-klaas-commutations/",
+        "timestamp": 1795583264000,
+        "photo": true,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Climate Scientists Urge Lawmakers To Reject Sweeping Permitting Bill",
+        "url": "https://www.theguardian.com/us-news/2026/nov/24/climate-scientists-lawmakers-baaja",
+        "timestamp": 1795568340000,
+        "photo": true,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "US Weighs New Tariff Plan Targeting Global Trading Partners",
+        "url": "https://www.bbc.com/news/articles/c893r9ke5p97o",
+        "timestamp": 1795567081000,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Trump SNAP Proposal Threatens Benefits For 100,000-Plus Massachusetts Residents",
+        "url": "https://www.masslive.com/news/2026/11/trump-proposal-threatens-snap-benefits-for-over-100000-mass-residents-advocates-say.html",
+        "timestamp": 1795556280000,
+        "photo": true,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Army Detonates 10,000 Pounds Of Degrading Lead Explosives In Iowa",
+        "url": "https://www.facebook.com/washingtonpost/posts/the-army-detonated-nearly-10000-pounds-of-degrading-lead-explosives-in-iowa-toda/1521501893175014/",
+        "timestamp": 1795677047000,
+        "feature": true,
+        "postedAt": 1795697300855
+      },
+      {
+        "headline": "White House Blindsided By Explosives, Now Searching For Accountability",
+        "url": "https://www.cbsnews.com/news/iowa-detonation-lead-white-house-blindsided-accountability/",
+        "timestamp": 1795642020000,
+        "postedAt": 1795697300855
+      },
+      {
+        "headline": "Economists Debate What's Really Driving Current Economic Numbers",
+        "url": "https://www.dailywire.com/episode/mrn-261127",
+        "timestamp": 1795772029000,
+        "postedAt": 1795783843655
+      }
+    ],
+    "right": [
+      {
+        "headline": "TRUMP'S APPROVAL RATING SINKS TO NEW LOW IN STATE-BY-STATE POLLING MAP",
+        "url": "https://www.msn.com/en-us/news/other/map-shows-donald-trump-s-approval-rating-in-every-state-on-thanksgiving/ar-AA2ih12S",
+        "timestamp": 1795697300855,
+        "postedAt": 1795697300855
+      },
+      {
+        "headline": "Elizabeth Warren Reaches Peak Of Her Political Power",
+        "url": "https://www.politico.com/news/2026/11/27/elizabeth-warren-senate-power-01184222",
+        "timestamp": 1795780800000,
+        "photo": true,
+        "postedAt": 1795783843655
+      },
+      {
+        "headline": "Judge Blocks FCC From Targeting Disney's Local ABC Licenses",
+        "url": "https://www.reuters.com/world/judge-bars-us-fcc-taking-steps-threaten-abcs-broadcast-license-2026-11-26/",
+        "timestamp": 1795779081000,
+        "photo": true,
+        "postedAt": 1795783843655
+      },
+      {
+        "headline": "Letter Alleges Josh Shapiro Played 'Political Games' As Measles Cases Soared",
+        "url": "https://www.dailywire.com/news/josh-shapiro-played-political-games-refused-federal-help-while-measles-cases-soared?topStoryPosition",
+        "timestamp": 1795773865000,
+        "photo": true,
+        "postedAt": 1795783843655,
+        "image": "/img/politics-1.jpg"
+      },
+      {
+        "headline": "Top Trump Official Emerges As 'Next Great Hope' For 2028 GOP Field",
+        "url": "https://www.al.com/politics/2026/11/top-trump-official-now-emerges-as-next-great-hope-for-gop-in-2028.html",
+        "timestamp": 1795727700000,
+        "photo": true,
+        "postedAt": 1795783843655
+      },
+      {
+        "headline": "Trump’s Florida case stunningly dismissed after judge finds appointment of special counsel Jack Smith violated the Constitution",
+        "url": "https://nypost.com/2024/07/15/us-news/trumps-florida-case-stunningly-dismissed-after-judge-finds-appointment-of-special-counsel-jack-smith-violated-the-constitution/",
+        "timestamp": 1721033760000,
+        "postedAt": 1795697401194
+      },
+      {
+        "headline": "Trump Weighs Barry Bonds Pardon, Names Sticking Point",
+        "url": "https://www.dailywire.com/news/trump-might-go-to-bat-for-barry-bonds-but-names-the-sticking-point",
+        "timestamp": 1795694760000,
+        "photo": true,
+        "postedAt": 1795697300855,
+        "image": "/img/politics-3.jpg"
+      },
+      {
+        "headline": "Gov. Sarah Huckabee Sanders On Surviving The Left And Winning Back Voters",
+        "url": "https://www.dailywire.com/episode/michael-knowles-interview-sarah-huckabee-sanders",
+        "timestamp": 1795689688000,
+        "photo": true,
+        "postedAt": 1795697300855
+      },
+      {
+        "headline": "Legal Fight Over Mother Taking Daughter To Her Own Church",
+        "url": "https://www.dailywire.com/news/who-decides-if-mom-can-take-her-daughter-to-her-own-church",
+        "timestamp": 1795685866000,
+        "photo": true,
+        "postedAt": 1795697300855,
+        "image": "/img/politics-4.jpg"
+      },
+      {
+        "headline": "Will House Democrats Compromise On Immigration, Or Repeat 2018?",
+        "url": "https://cis.org/Fishman/Will-House-Democrats-Compromise-Immigration-Not-If-2027-Repeat-2018",
+        "timestamp": 1795537594000,
+        "postedAt": 1795697300855
+      },
+      {
+        "headline": "Congress Should Pass CORCA Before Year End",
+        "url": "https://www.realclearpolicy.com/articles/2026/11/16/congress_should_pass_corca_before_year_end_1217005.html",
+        "timestamp": 1794814800000,
+        "postedAt": 1795611788069
+      },
+      {
+        "headline": "America Cannot Lead Tomorrow by Underfunding Science Today",
+        "url": "https://www.realclearpolicy.com/articles/2026/11/19/america_cannot_lead_tomorrow_by_underfunding_science_today_1217658.html",
+        "timestamp": 1795082280000,
+        "postedAt": 1795611788069
+      },
+      {
+        "headline": "Tennessee Special Election Adds To Democrats' Record House Majority",
+        "url": "https://www.caledonianrecord.com/news/national/democrat-victoria-broderick-wins-election-to-u-s-house-in-tennessees-4th-congressional-district/article_fc00b9a7-8b05-58b3-8829-848a73ff25b1.html",
+        "timestamp": 1795573316000,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Frank Sinatra Mistakenly Listed Among Celebrities Opposing Schumer",
+        "url": "https://justthenews.com/government/congress/long-dead-frank-sinatra-snuck-list-celebrities-opposing-schumer-top-senate-1",
+        "timestamp": 1795609647000,
+        "photo": true,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Van Hollen's Shift On Israel Draws Conservative Criticism",
+        "url": "https://www.nationalreview.com/article/chris-van-hollen-s-anti-israel-turn",
+        "timestamp": 1795604400000,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Putin's NATO Demands Reflect Costs Of Post-Cold War Expansion",
+        "url": "https://www.nationalreview.com/article/even-putin-is-a-90s-nostalgist",
+        "timestamp": 1795604400000,
+        "postedAt": 1795611689737
+      },
+      {
+        "headline": "Homeless Nonprofit Staffed By Convicted Murderers Faces Scrutiny Over Taxpayer Funds",
+        "url": "https://freebeacon.com/california/homeless-nonprofit-staffed-by-convicted-murderers-rakes-in-taxpayer-dollars-as-complaints-of-abuse-pile-up/",
+        "timestamp": 1795600933000,
+        "photo": true,
+        "postedAt": 1795611689737
+      }
+    ]
+  },
+  "polls": [
+    {
+      "name": "Trump Approval",
+      "value": "39%/60%",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/approval/donald-trump/approval-rating",
+      "asOf": "Sep 23, 2026"
+    },
+    {
+      "name": "Generic Congressional Vote",
+      "value": "Dem +8",
+      "sub": "",
+      "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+      "asOf": "Nov 3, 2026"
+    },
+    {
+      "name": "Right Direction",
+      "value": "31%",
+      "sub": "",
+      "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/right_direction_or_wrong_track",
+      "asOf": "Nov 19, 2026"
+    }
+  ],
+  "balance": {
+    "left": 605,
+    "right": 736,
+    "independent": 0,
+    "days": 30,
+    "total": 1341,
+    "pctLeft": 45,
+    "pctRight": 55
+  }
+}

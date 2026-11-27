@@ -1,0 +1,498 @@
+{
+  "lastUpdated": 1795781896472,
+  "heroSetDate": "2026-11-27",
+  "hero": {
+    "headline": "TRUMP SAYS IRAN WAR ENDS 'WHENEVER I WANT' AFTER KUWAIT DRONE STRIKE KILLS TWO ITALIANS",
+    "url": "https://www.cnbc.com/2026/11/27/us-iran-war-trump-hormuz-italian-killed-trump.html",
+    "sublinks": [
+      {
+        "text": "Trump Doubles Down: War Ends 'Sort Of Whenever I Want It To Be'",
+        "url": "https://thehill.com/homenews/administration/6245034-trump-says-iran-war-ends-whenever/"
+      },
+      {
+        "text": "Democrats' Iran War Funding Cutoff Plan Leaves Key Questions Unanswered",
+        "url": "https://thehill.com/policy/international/6243997-democrats-seek-end-iran-war-questions/"
+      },
+      {
+        "text": "Conservative Voices Push Congress To Defund The Iran War Outright",
+        "url": "https://www.theamericanconservative.com/congress-should-do-its-job-and-defund-iran-war/"
+      },
+      {
+        "text": "Israel Steps Up Gaza Assassinations As US Presses Netanyahu On Ceasefire",
+        "url": "https://www.cnn.com/2026/11/26/middleeast/israel-gaza-assassinations-intl"
+      }
+    ],
+    "postedAt": 1795781896472,
+    "img": true
+  },
+  "groups": [
+    {
+      "title": "THANKSGIVING STORM SLAMS MILLIONS ACROSS THE US",
+      "stories": [
+        {
+          "headline": "Storm Batters Jersey Shore, Philadelphia With High Winds And Rain",
+          "url": "https://www.cbsnews.com/philadelphia/live-updates/live-updates-thanksgiving-day-storm-philadelphia-jersey-shore-flooding-winds/",
+          "timestamp": 1795752779000,
+          "postedAt": 1795781896472
+        },
+        {
+          "headline": "Rare Tornado Warning Hits Seattle Area On Thanksgiving",
+          "url": "https://komonews.com/news/local/nws-seattle-issues-tornado-warning-for-issaquah-snoqualmie-north-bend-weather-storm-emergency-school-hospital-thanskgiving",
+          "timestamp": 1795736564000,
+          "postedAt": 1795781896472
+        },
+        {
+          "headline": "Thanksgiving Power Outages Could Last Days, Ameren Warns",
+          "url": "https://fox2now.com/news/missouri/power-outages-reported-across-st-louis-region-this-thanksgiving/",
+          "timestamp": 1795693952000,
+          "postedAt": 1795781896472
+        },
+        {
+          "headline": "Boston Council Declares Thanksgiving A Day Of Mourning",
+          "url": "https://www.yahoo.com/news/us/articles/boston-council-declares-thanksgiving-day-153953423.html",
+          "timestamp": 1795707593000,
+          "postedAt": 1795781896472
+        }
+      ]
+    },
+    {
+      "title": "KILMAR ABREGO GARCIA DEPARTS FOR SPAIN",
+      "stories": [
+        {
+          "headline": "Abrego Garcia Leaves For Spain As Trump Administration Gets What It Wanted",
+          "url": "https://www.theguardian.com/us-news/2026/nov/26/kilmar-abrego-garcia-spain-departure-trump",
+          "timestamp": 1795710360000,
+          "postedAt": 1795781896472
+        },
+        {
+          "headline": "What So Many People Got Wrong About The Abrego Garcia Case",
+          "url": "https://reason.com/2026/11/25/what-so-many-people-got-wrong-about-the-kilmar-abrego-garcia-case/",
+          "timestamp": 1795639515000,
+          "postedAt": 1795781896472
+        }
+      ]
+    },
+    {
+      "title": "TRUMP AWARDS GIULIANI MEDAL OF FREEDOM",
+      "stories": [
+        {
+          "headline": "Trump Awards Rudy Giuliani Presidential Medal Of Freedom",
+          "url": "https://www.facebook.com/washingtonpost/posts/president-trump-awarded-the-presidential-medal-of-freedom-on-tuesday-to-rudy-giu/1520786043246599/",
+          "timestamp": 1795574122000,
+          "postedAt": 1795609492220
+        },
+        {
+          "headline": "Liberals Erupt Over Giuliani's 'America's Mayor' Honor",
+          "url": "https://notthebee.com/article/liberals-freak-out-after-trump-awards-presidential-medal-of-freedom-to-americas-mayor-rudy-giuliani/",
+          "timestamp": 1795548777000,
+          "postedAt": 1795609492220
+        }
+      ]
+    },
+    {
+      "title": "DOJ WIELDS CRIMINAL CHARGES AGAINST DEMOCRATS",
+      "stories": [
+        {
+          "headline": "Criminal Charge Against Incoming House Democrat Dropped",
+          "url": "https://www.axios.com/2026/11/24/lakesha-womack-charge-dropped-rental-car-nc",
+          "timestamp": 1795592005000,
+          "postedAt": 1795609492220
+        },
+        {
+          "headline": "Trump Admin Warns Other Democrats With Charge Used Against Trump",
+          "url": "https://www.politico.com/news/2026/11/24/democrats-oversight-trump-administration-section-241-01182164",
+          "timestamp": 1795555800000,
+          "postedAt": 1795609492220
+        }
+      ]
+    },
+    {
+      "title": "FIGHTS OVER CONTESTED BALLOTS INTENSIFY",
+      "stories": [
+        {
+          "headline": "Judge Orders Fulton County To Give 2020 Ballots To Trump-Allied Board",
+          "url": "https://www.nbcnews.com/politics/elections/judge-orders-fulton-county-turn-copies-2020-ballots-ga-election-board-rcna611220",
+          "timestamp": 1795571040000,
+          "postedAt": 1795609492220
+        },
+        {
+          "headline": "Ohio County Reviews 700+ Contested Ballots After Democratic Lawsuit",
+          "url": "https://www.democracydocket.com/news-alerts/ohio-county-counts-over-700-contested-ballots-after-democratic-lawsuit/",
+          "timestamp": 1795557571000,
+          "postedAt": 1795609492220
+        }
+      ]
+    }
+  ],
+  "columns": {
+    "left": [
+      {
+        "headline": "Rare Public Sighting Of Barron Trump Draws Attention",
+        "url": "https://www.irishstar.com/news/politics/barron-trump-spotted-white-house-37915860",
+        "timestamp": 1795781138445,
+        "photo": true,
+        "postedAt": 1795781896472,
+        "image": "/img/main-0.jpg"
+      },
+      {
+        "headline": "Air Force Confirms Its Systems Were Hacked",
+        "url": "https://www.the-sun.com/news/17366516/us-air-force-hacked-security-breach/",
+        "timestamp": 1795781138444,
+        "feature": true,
+        "postedAt": 1795781896472
+      },
+      {
+        "headline": "Judge Blocks FCC From Targeting Disney's Local ABC Licenses",
+        "url": "https://www.reuters.com/world/judge-bars-us-fcc-taking-steps-threaten-abcs-broadcast-license-2026-11-26/",
+        "timestamp": 1795773681000,
+        "feature": true,
+        "postedAt": 1795781896472
+      },
+      {
+        "headline": "Iowa Residents Mark Thanksgiving With Lingering Fears After Chemical Plant Blast",
+        "url": "https://www.nbcnews.com/news/us-news/army-says-detonation-bomb-chemicals-iowa-success-rcna611434",
+        "timestamp": 1795767300000,
+        "photo": true,
+        "postedAt": 1795781896472,
+        "image": "/img/main-1.jpg"
+      },
+      {
+        "headline": "These Bizarre Prehistoric Mammals May Have Been Misunderstood For 150 Years",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261125045310.htm",
+        "timestamp": 1795741651000,
+        "postedAt": 1795781896472
+      },
+      {
+        "headline": "North Korea's Kim Vows More Nuclear Weapons After Ignoring Trump Overture",
+        "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
+        "timestamp": 1795699888000,
+        "postedAt": 1795781896472
+      },
+      {
+        "headline": "Refilling Macy's Parade Balloons Will Cost Over $700,000",
+        "url": "https://notthebee.com/article/it-will-cost-macys-over-700000-to-refill-the-balloons-for-its-postponed-thanksgiving-parade/",
+        "timestamp": 1795699208000,
+        "photo": true,
+        "postedAt": 1795781896472,
+        "image": "/img/main-2.jpg"
+      },
+      {
+        "headline": "Trump Administration Racing To Overhaul National Park Service",
+        "url": "https://www.motherjones.com/politics/2026/11/trump-interior-burgum-national-park-service-overhaul-congress-rush-election/",
+        "timestamp": 1795606620000,
+        "postedAt": 1795781896472
+      },
+      {
+        "headline": "Kari Lake Says She Hasn't Thought About 2028 Amid Iowa Speculation",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4814613/kari-lake-iowa-2028-senate-grassley/",
+        "timestamp": 1795574486000,
+        "postedAt": 1795781896472
+      },
+      {
+        "headline": "Amazon Delivery Drone Crashes Into Michigan Garage",
+        "url": "https://www.upi.com/Odd_News/2026/11/24/amazon-drone-crash-huntington-woods-michigan/2021795542107/",
+        "timestamp": 1795542429000,
+        "photo": true,
+        "postedAt": 1795781896472
+      },
+      {
+        "headline": "Aaron Rodgers' Distinguished Career May Have Reached A Bizarre, Unceremonious End",
+        "url": "https://www.yourvalley.net/stories/aaron-rodgers-distinguished-career-may-have-reached-a-bizarre-unceremonious-end,744470",
+        "timestamp": 1795690806000,
+        "photo": true,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Judge Rules Trump, FCC Illegally Sought To Punish ABC",
+        "url": "https://www.thederrick.com/news/entertainment/trump-fcc-illegally-sought-to-punish-abc-in-free-speech-case-judge-rules/article_b6268534-ff63-518f-8a6e-e2fc0228823f.html",
+        "timestamp": 1795667135000,
+        "feature": true,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Judge Declines Long-Term Ban On Taxpayer-Funded Pro-Trump Ads",
+        "url": "https://apnews.com/article/dnc-trump-ads-propaganda-lawsuit-fcc1b61e8e7134c01ca3e6dec7728442",
+        "timestamp": 1795661700000,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Zoo Visitor Recalls Scene From Fiona The Hippo's Fatal Hat Incident",
+        "url": "https://www.huffpost.com/entry/fiona-the-hippo-zoo-witness-hat-incident_n_6b07566de4b01d8bd1db5341",
+        "timestamp": 1795660805000,
+        "photo": true,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Judge Upholds NYC Rent Freeze In Win For Mamdani's Affordability Agenda",
+        "url": "https://gothamist.com/news/judge-upholds-nyc-rent-freeze-marking-win-for-mamdani-and-his-affordability-agenda",
+        "timestamp": 1795640460000,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Don Jr.-Tied Startup Could Get $15 Billion Pentagon Loan",
+        "url": "https://www.propublica.org/article/donald-trump-jr-hadrian-pentagon-loan",
+        "timestamp": 1795608319127,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "Six Dead, Including Two Children, In Mississippi Coast Plane Crash",
+        "url": "https://www.bbc.com/news/articles/c6z74l1017zpo",
+        "timestamp": 1795590502000,
+        "photo": true,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "6-Year-Old Girl Killed In Stockton Shooting, 11-Year-Old Boy Hurt",
+        "url": "https://www.kcra.com/article/2-juveniles-wounded-shooting-stockton/74524900",
+        "timestamp": 1795581300000,
+        "photo": true,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "US Court Convicts Huawei Of Fraud In Iran Sanctions-Evasion Case",
+        "url": "https://www.jurist.org/news/2026/11/us-jury-convicts-huawei-on-10-criminal-counts-and-clears-company-of-racketeering/",
+        "timestamp": 1795569720000,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "Neighbor Finds Missing Toddler In Arizona Desert After Search Failed",
+        "url": "https://notthebee.com/article/neighbor-finds-missing-toddler-after-75-officers-k-9s-and-thermal-drones-couldnt-find-her-in-the-arizona-desert/",
+        "timestamp": 1795546811000,
+        "photo": true,
+        "postedAt": 1795609492220
+      }
+    ],
+    "center": [
+      {
+        "headline": "Relentless Rise of South Florida's Megamansion King",
+        "url": "https://www.wsj.com/real-estate/luxury-homes/todd-michael-glaser-palm-beach-miami-0f07cc9a",
+        "timestamp": 1795781138445,
+        "postedAt": 1795781921972
+      },
+      {
+        "headline": "MACY'S THANKSGIVING PARADE POSTPONED FOR FIRST TIME IN 100 YEARS",
+        "url": "https://www.axios.com/2026/11/25/macys-thanksgiving-parade-2026-balloons-weather",
+        "timestamp": 1795695315861,
+        "postedAt": 1795695315861
+      },
+      {
+        "headline": "SpaceX Approved To Deploy 1 Million Satellites, Alarming Scientists",
+        "url": "https://apnews.com/article/spacex-data-center-elon-musk-b9897fe06f851ffaf92fd304ae69075c",
+        "timestamp": 1795694768932,
+        "photo": true,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Gasparino: Stock Turmoil Shows Trump's Sudden 'Irrelevance'",
+        "url": "https://www.mediaite.com/media/news/foxs-gasparino-warns-stock-market-turmoil-shows-trumps-sudden-irrelevance/",
+        "timestamp": 1795694768931,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Trump And NATO Chief Urge Russia To Avoid Widening Ukraine War",
+        "url": "https://www.reuters.com/world/china/trump-nato-chief-urge-russia-avoid-actions-that-widen-ukraine-war-2026-11-26/",
+        "timestamp": 1795666800000,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Trump Says He'll Meet El-Sayed To Discuss 'TrumpCare'",
+        "url": "https://nypost.com/2026/11/24/us-news/trump-vows-to-meet-with-abdul-el-sayed-on-golden-trumpcare-tells-the-post-he-and-dems-could-do-great-things/",
+        "timestamp": 1795659000000,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Fort Hood Shooter Nidal Hasan Seeks Delay Of His Execution",
+        "url": "https://www.cbsnews.com/news/nidal-hasan-delay-execution-petition/",
+        "timestamp": 1795570680000,
+        "photo": true,
+        "postedAt": 1795609492220,
+        "image": "/img/main-4.jpg"
+      },
+      {
+        "headline": "US Set To Unveil New Tariffs On Global Trading Partners",
+        "url": "https://www.bbc.com/news/articles/c893r9ke5p97o",
+        "timestamp": 1795567081000,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "USC Freshman Blinded In One Eye By DHS At 'No Kings' Rally Sues",
+        "url": "https://reason.com/2026/11/24/usc-freshman-blinded-in-one-eye-by-dhs-at-no-kings-rally-files-lawsuit/",
+        "timestamp": 1795556109000,
+        "photo": true,
+        "postedAt": 1795609492220,
+        "image": "/img/main-5.jpg"
+      },
+      {
+        "headline": "Two Men Scale Ecuador Mountain For Record Chess Game",
+        "url": "https://www.upi.com/Odd_News/2026/11/24/latam-ecuador-guinness-world-records-highest-altitude-chess/7631795545070/",
+        "timestamp": 1795545260000,
+        "photo": true,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "Republican Majorities Could Return Sooner Than Expected",
+        "url": "https://www.realclearpolitics.com/republican-party/articles/republican-majorities-could-return-sooner-than-expected-2026-11-24",
+        "timestamp": 1795524197000,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "Oregon Coast Beachgoers Warned As King Tides Threaten",
+        "url": "https://www.oregonlive.com/pacific-northwest-news/2026/11/this-years-oregon-coast-king-tides-alarm-even-the-rescuers.html",
+        "timestamp": 1795564020000,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "Brazil Blasts 'Unacceptable' New US Tariff Proposals",
+        "url": "https://www.aljazeera.com/news/2026/11/26/brazil-blasts-unacceptable-new-us-tariff-proposals",
+        "timestamp": 1795668689000,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Tucker Carlson Plans Third-Party Presidential Run",
+        "url": "https://www.washingtonexaminer.com/news/4813509",
+        "timestamp": 1795781138445,
+        "postedAt": 1795781896472,
+        "image": "/img/main-6.jpg"
+      },
+      {
+        "headline": "Is America Ready For A President AOC?",
+        "url": "https://www.president.pl/news/president-we-want-to-build-closer-relations-with-latin-america-and-the-caribbean,130874",
+        "timestamp": 1795781138445,
+        "postedAt": 1795781896472
+      },
+      {
+        "headline": "Hundreds Of Thousands Still Without Power After Holiday Storms",
+        "url": "https://www.bbc.com/news/articles/cre3dj5n7dpwo",
+        "timestamp": 1795775188000,
+        "postedAt": 1795781896472
+      },
+      {
+        "headline": "Oregon Coast Residents Trapped At Home Question Emergency Response",
+        "url": "https://www.koin.com/local/oregon-coast/very-overwhelming-oregon-coast-residents-questioning-emergency-response-while-being-trapped-in-home/",
+        "timestamp": 1795658032000,
+        "postedAt": 1795781896472
+      }
+    ],
+    "right": [
+      {
+        "headline": "Has AR-15 Become Too Big to Ban?",
+        "url": "https://www.wsj.com/us-news/law/ar-15-guns-ban-laws-737d0dc8",
+        "timestamp": 1795781138445,
+        "postedAt": 1795781921972
+      },
+      {
+        "headline": "WARREN DEMANDS INVESTIGATION INTO HUANG'S RETURN TO NVIDIA",
+        "url": "https://www.realclearpolitics.com/congress/video/sen-elizabeth-warren-jensen-huangs-return-makes-investigating-him-even-more-urgent-2026-11-23",
+        "timestamp": 1795609492220,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "Man Claimed $1M Massachusetts Lottery Prize. Days Later, ICE Arrested Him",
+        "url": "https://www.usatoday.com/story/news/nation/2026/11/25/massachusetts-lottery-winner-ice-arrest/92965273007/",
+        "timestamp": 1795669500000,
+        "photo": true,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Trump's Newsom Problem: Antagonist-In-Chief",
+        "url": "https://www.realclearpolitics.com/democratic-party/articles/trumps-newsom-problem-antagonist-in-chief-2026-11-25",
+        "timestamp": 1795651114000,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Vance Serves Turkey, 'Unfiltered' Talk To Air Force Troops In Ohio",
+        "url": "https://apnews.com/article/vance-trump-thanksgiving-ohio-space-academy-b15211aafa25c8f5610bd5f39580ace0",
+        "timestamp": 1795649040000,
+        "photo": true,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Tennessee Students Protest After 'Noose' In Tree Turns Out To Be A Shoelace",
+        "url": "https://notthebee.com/article/leftists-protest-on-tennessee-campus-after-noose-was-discovered-in-a-tree-police-determined-it-was-a-shoelace/",
+        "timestamp": 1795633032000,
+        "photo": true,
+        "postedAt": 1795695315860,
+        "image": "/img/main-3.jpg"
+      },
+      {
+        "headline": "Teen Dies In Fall Down Icy Slope Near Wrightwood, Two Rescued",
+        "url": "https://abc7.com/post/1-hiker-dead-falling-wrightwood-mountain-area-rescue-underway-2-others/20076367/",
+        "timestamp": 1795566738000,
+        "photo": true,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "The GOP Majority Should Go Out In Glory, Columnist Argues",
+        "url": "https://www.realclearpolitics.com/republican-party/articles/the-gop-majority-should-go-out-in-glory-2026-11-24",
+        "timestamp": 1795549504000,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "Strangers Rescue Woman Chased By Aggressive Turkeys In Massachusetts",
+        "url": "https://www.upi.com/Odd_News/2026/11/24/aggressive-turkeys-Newton-massachusetts-chase/5671795543475/",
+        "timestamp": 1795543798000,
+        "photo": true,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "Officials: Animal Spotted In Istanbul Was Not A Lion",
+        "url": "https://www.upi.com/Odd_News/2026/11/24/turkey-loose-lioness-lion-not-a-big-cat-Istanbul/1091795537896/",
+        "timestamp": 1795538249000,
+        "photo": true,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "Tucker Carlson Prepares 2028 Run Against Rubio, Report Says",
+        "url": "https://www.washingtonexaminer.com/news/washington-secrets/4813509/tucker-carlson-prepares-2028-run-president-neocon-marco-rubio/",
+        "timestamp": 1795537800000,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "Pier Collapses, Seawalls Breached As Big Waves Hit California Coast",
+        "url": "https://www.msn.com/en-us/weather/general/pier-collapses-seawalls-breached-homes-flooded-as-big-waves-historic-high-tides-hit-california/ar-AA2ieHPk",
+        "timestamp": 1795694768932,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Bay Area Flood Cleanup Underway After Waves Slam Pacifica",
+        "url": "https://www.nbcbayarea.com/news/local/bay-area-storm-live-updates-king-tides-flood-warning/4180799/",
+        "timestamp": 1795662969000,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "Record King Tides Leave Bay Area Roads Flooded",
+        "url": "https://abc7news.com/live-updates/live-bay-area-weather-updates-san-francisco-recovers-severe-flooding-more-storms-king-tides-coming-northern-california/20069742/",
+        "timestamp": 1795593060000,
+        "postedAt": 1795609492220
+      },
+      {
+        "headline": "Jensen Huang Still Holds US Security Clearance Despite Scrutiny",
+        "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-security-clearance-todd-blanche/",
+        "timestamp": 1795694768931,
+        "postedAt": 1795695315860
+      },
+      {
+        "headline": "King Tides, Strong Waves Destroy Part Of Pacifica Pier",
+        "url": "https://www.pbs.org/newshour/nation/king-tides-and-strong-waves-destroy-part-of-pacifica-pier-as-officials-warn-of-coastal-flooding",
+        "timestamp": 1795707709000,
+        "postedAt": 1795781896472,
+        "image": "/img/main-7.jpg"
+      },
+      {
+        "headline": "Boston's 'National Day Of Mourning' Vote Draws Conservative Fire",
+        "url": "https://freebeacon.com/democrats/boston-city-council-declares-november-26-national-day-of-mourning/",
+        "timestamp": 1795640855000,
+        "postedAt": 1795781896472
+      }
+    ]
+  },
+  "balance": {
+    "left": 709,
+    "right": 699,
+    "independent": 0,
+    "days": 30,
+    "total": 1408,
+    "pctLeft": 50,
+    "pctRight": 50
+  }
+}
